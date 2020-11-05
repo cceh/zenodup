@@ -173,10 +173,10 @@ def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
     # get file names
     file_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"]
 
-
     publication_files = {}
-    for elem in publication_names:
+    last_elem = tuple
 
+    for elem in publication_names:
         if any(possible_name.find(name)!= -1 for possible_name in publication_names.get(elem) for name in file_names):
             for possible_name in publication_names.get(elem):
                 for name in file_names:
@@ -185,6 +185,7 @@ def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
                         logging.info(name)
                         logging.info("----")
                         publication_files.update({elem:name + file_type})
+                        last_elem = (elem, name)
         elif any(possible_name.find(name[:-1])!= -1 for possible_name in publication_names.get(elem) for name in file_names):
             for possible_name in publication_names.get(elem):
                 for name in file_names:
@@ -193,10 +194,13 @@ def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
                         logging.info(name)
                         logging.info("----")
                         publication_files.update({elem:name + file_type})
+                        last_elem = (elem, name)
         else:
             logging.warning("***")
-            logging.warning(f"For the publication {elem} exists no matching file.")
-            logging.warning(publication_names.get(elem))
+            logging.warning(f"For the publication {elem} exists no matching file. Get publication by previous file.")
+            current_file = file_names[file_names.index(last_elem[1]) + 1]
+            logging.warning(f"Assigned file {current_file} to publication {elem}")
+            publication_files.update({elem: current_file + file_type})
             logging.warning("***")
 
     return publication_files

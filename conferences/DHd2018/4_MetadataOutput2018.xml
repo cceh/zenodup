@@ -2788,7 +2788,7 @@
       <conference_place>Köln</conference_place>
       <conference_url>https://dhd2018.uni-koeln.de/</conference_url>
    </metadata>
-   <metadata>
+  <!-- <metadata>
       <upload_type>publication</upload_type>
       <publication_type>conferencepaper</publication_type>
       <publication_date>2018-02-16</publication_date>
@@ -2814,7 +2814,7 @@
       <conference_dates>26.02.2018-02.03.2018</conference_dates>
       <conference_place>Köln</conference_place>
       <conference_url>https://dhd2018.uni-koeln.de/</conference_url>
-   </metadata>
+   </metadata> 
    <metadata>
       <upload_type>publication</upload_type>
       <publication_type>conferencepaper</publication_type>
@@ -2927,7 +2927,7 @@
       <conference_dates>26.02.2018-02.03.2018</conference_dates>
       <conference_place>Köln</conference_place>
       <conference_url>https://dhd2018.uni-koeln.de/</conference_url>
-   </metadata>
+   </metadata> -->
    <metadata>
       <upload_type>publication</upload_type>
       <publication_type>conferencepaper</publication_type>

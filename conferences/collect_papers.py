@@ -35,63 +35,20 @@ def main(argv):
 
     # parse metadata file of conference
     tree = ET.parse(metadata_file)
-    publications = get_publications(tree)
+    metadata = tree.findall("metadata")
+    publications = get_publications(metadata)
 
-    # get pdf files
-    pdf_files = [os.path.join(pdf,file_name) for file_name in os.listdir(pdf) if file_name != ".DS_Store"]
-    pdf_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(pdf) if file_name != ".DS_Store"]
-    # print(pdf_names)
-    # shortened_pdf_names = [name[-15:] for name in pdf_names]
-
-    logging.debug(f"Names of pdf files: {pdf_names}")
-
-    publication_names = {}
-    for (publication, creators) in publications.items():
-        try:
-            title = ascii_rename(publication)
-        except TypeError:
-            logging.warning(f"The following publication does not contain a title: {metadata.index(publication)}")
-        prefixes = [creator[0].upper()+'_'+creator[1]+'_' for creator in creators]
-        possible_names = [prefix + title for prefix in prefixes]
-
-        try:
-            if title.find("_em_") != -1:
-                # print(title)
-                for prefix in prefixes:
-                    possible_names.append(prefix + title.replace("_em_", "_"))
-                    # logging.debug(possible_names)
-        except AttributeError:
-            pass
-        
-        publication_names.update({publication: possible_names})
-
+    # Get all possible names of pdf and xml files based on publication creaotors and titles in metadata file of conference
+    publication_names = get_possible_publication_names(tree, publications)
     logging.debug(len(publication_names))
 
-    publication_pdfs = {}
-    for elem in publication_names:
-        if any(possible_name.find(name)!= -1 for possible_name in publication_names.get(elem) for name in pdf_names):
-            for possible_name in publication_names.get(elem):
-                for name in pdf_names:
-                    if possible_name.find(name) != -1:
-                        logging.info("----")
-                        logging.info(name)
-                        logging.info("----")
-                        publication_pdfs.update({elem:name+'.pdf'})
-        else:
-            logging.warning("***")
-            logging.warning(f"For the publication {elem} exists no matching file.")
-            logging.warning(publication_names.get(elem))
-            logging.warning("***")
-        
-    print(publication_pdfs)
+    # get publication pdfs
+    publication_pdfs = get_publication_files(publication_names, pdf)
     print(len(publication_pdfs))
     
-
-    # get xml files
-    xml_files = [os.path.join(xml, file_name) for file_name in os.listdir(xml) if file_name != ".DS_Store"]
-    xml_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(xml) if file_name != ".DS_Store"]
-    # print(xml_names)
-    # TODO check if elements of 'metadata' nodes in metadata file of conference matches files in xml and pdf
+    # get publication xmls
+    publication_xmls = get_publication_files(publication_names, xml)
+    print(len(publication_xmls))
 
 # set working paths
 def set_paths(argv:list) -> (Path, Path, Path, Path):
@@ -122,39 +79,40 @@ def set_paths(argv:list) -> (Path, Path, Path, Path):
     return readable_dir(conference), readable_file(metadata_file), readable_dir(xml), readable_dir(pdf)
 
 # check if unchecked path references is readable directory
-def readable_dir(prospective_dir: str) -> Path:
+def readable_dir(prospective_dir:str) -> Path:
     if not os.path.isdir(prospective_dir):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_dir))
     if not os.access(prospective_dir, os.R_OK):
         raise Exception("readable_dir:{0} is not a readable dir".format(prospective_dir))
     return Path(prospective_dir)
 
-def readable_file(prospective_file: str) -> Path:
+def readable_file(prospective_file:str) -> Path:
     if not os.path.isfile(prospective_file):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_file))
     if not os.access(prospective_file, os.R_OK):
         raise Exception("readable_dir:{0} is not a readable dir".format(prospective_file))
     return Path(prospective_file)
 
-def get_publications(tree) -> dict:
+def get_publications(metadata:ET.Element) -> dict:
 
-    metadata = tree.findall("metadata")
     logging.debug(f"Number of publications in metadata file: {len(metadata)}")
 
     # get titles and creator names of publications
     publications = {}
     for publication in metadata:
         title = publication.find("title").text
+        if not title:
+            logging.warning(f"The publication with index {metadata.index(publication)} does not contain a title")
         creator_names = [parse_creator(creator.find("name").text) for creator in publication.findall(".//creator")]
         if len(creator_names) == 0:
-            logging.warning(f"The following publication does not contain creators: {metadata.index(publication)}")
+            logging.warning(f"The publication with index {metadata.index(publication)} does not contain creators")
         publications.update({title: creator_names})
 
     return publications
 
 def ascii_rename(name:str) -> str:
     try:
-        elements_to_be_replaced = [".", "-", ":", ",", "?", "!" ," "]
+        elements_to_be_replaced = [".", "-", ":", ",", "?", "!" ," ", "(", ")", "&", "@"]
         name = name.replace("ß", "ss")
         name = name.replace("\"", "_em_")
         name = name.replace("\'", "_em_")
@@ -172,6 +130,76 @@ def ascii_rename(name:str) -> str:
 def parse_creator(name:str) -> list:
     name=[ascii_rename(elem.strip()) for elem in name.split(",")]
     return name
+
+def get_possible_publication_names(metadata:list, publications:dict) -> dict:
+
+    publication_names = {}
+    for (publication, creators) in publications.items():
+        try:
+            title = ascii_rename(publication)
+        except TypeError:
+            logging.warning(f"The following publication does not contain a title: {metadata.index(publication)}")
+        prefixes = [creator[0].upper()+'_'+creator[1]+'_' for creator in creators]
+        possible_names = [prefix + title for prefix in prefixes]
+
+        # if '_em_' in title replace by '_' and add prefix + modified name to possible names 
+        try:
+            if title.find("_em_") != -1:
+                for prefix in prefixes:
+                    possible_names.append(prefix + title.replace("_em_", "_"))
+            if title.find("ss") != -1:
+                for prefix in prefixes:
+                    possible_names.append(prefix + title.replace("ss", "_"))
+        except AttributeError:
+            pass
+
+        # add double '_' at the end of prefix and add all combinations to possible names
+        for prefix in prefixes:
+            possible_names.append(prefix + '_' + title)
+
+        publication_names.update({publication: possible_names})
+    return publication_names
+
+def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
+
+    # get types of files in given directory
+    file_types = set([os.path.splitext(file_name)[1] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"])
+    if len(file_types) > 1:
+        logging.error(f"The given directory {file_dir} contains files with multipe formats: {file_types}")
+        raise Exception("The given directory contains files with multipe formats")
+    else:
+        file_type = list(file_types)[0]
+
+    # get file names
+    file_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"]
+
+
+    publication_files = {}
+    for elem in publication_names:
+
+        if any(possible_name.find(name)!= -1 for possible_name in publication_names.get(elem) for name in file_names):
+            for possible_name in publication_names.get(elem):
+                for name in file_names:
+                    if possible_name.find(name) != -1:
+                        logging.info("----")
+                        logging.info(name)
+                        logging.info("----")
+                        publication_files.update({elem:name + file_type})
+        elif any(possible_name.find(name[:-1])!= -1 for possible_name in publication_names.get(elem) for name in file_names):
+            for possible_name in publication_names.get(elem):
+                for name in file_names:
+                    if possible_name.find(name[:-1]) != -1:
+                        logging.info("----")
+                        logging.info(name)
+                        logging.info("----")
+                        publication_files.update({elem:name + file_type})
+        else:
+            logging.warning("***")
+            logging.warning(f"For the publication {elem} exists no matching file.")
+            logging.warning(publication_names.get(elem))
+            logging.warning("***")
+
+    return publication_files
 
 if __name__ == "__main__":
 

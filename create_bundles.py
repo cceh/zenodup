@@ -26,6 +26,7 @@ from pathlib import Path
 import sys
 from xml.etree import ElementTree as ET
 from shutil import copyfile
+import json
 
 
 
@@ -40,8 +41,10 @@ def main(argv):
 
     # parse metadata file of conference
     tree = ET.parse(metadata_file)
-    metadata = tree.findall("metadata")
-    publications = get_publications(metadata)
+    publications_metadata = tree.findall("metadata")
+
+    # get publications with creator names
+    publications = get_publications(publications_metadata)
 
     # Get all possible names of pdf and xml files based on publication creaotors and titles in metadata file of conference
     publication_names = get_possible_publication_names(tree, publications)
@@ -55,9 +58,9 @@ def main(argv):
 
     # create bundle directories for publications
     publication_bundles = create_bundles(conference, publication_pdfs, publication_xmls)
-    print(publication_bundles)
     
-    # TODO create json metadata file 
+    # create json metadata file for each bundle based on metadata for publication
+    create_bundles_metadata(publications_metadata, publication_bundles)
 
 # set working paths
 def set_paths(argv:list) -> (Path, Path, Path, Path):
@@ -234,6 +237,42 @@ def create_bundles(conference: Path, publication_pdfs: dict, publication_xmls: d
     else:
         logging.info("All directories have been created and contain two files. Continue..")
     return publication_paths
+
+def create_bundles_metadata(publications_metadata: ET.Element, publication_bundles: dict) -> None:
+
+    for (publication, bundle_path) in publication_bundles.items():
+        for pub in publications_metadata:
+            if pub.find("title").text == publication:
+                data = {"metadata":{"upload_type": pub.find("upload_type").text,
+                                    "publication_type": pub.find("publication_type").text,
+                                    "publication_date": pub.find("publication_date").text,
+                                    "title": pub.find("title").text,
+                                    "creators": [{"name": creator.find("name").text,
+                                                  "affiliation": creator.find("affiliation").text
+                                                  } for creator in pub.findall("creators/creator")],                       
+                                    "description": pub.find("description").text,
+                                    "access_right": pub.find("access_right").text,
+                                    "license": pub.find("license").text,
+                                    "doi": pub.find("doi").text,
+                                    "keywords": pub.find("keywords").text,
+                                    "contributors": [{"name":contributor.find("name").text,
+                                                      "affiliation":contributor.find("affiliation").text,
+                                                      "type":contributor.find("type").text
+                                                      } for contributor in pub.findall("contributors/contributor")],
+                                    "communities":[{"identifier": community.text
+                                                    } for community in pub.findall("communities/identifier")],
+                                    "conference_title": pub.find("conference_title").text,
+                                    "conference_acronym": pub.find("conference_acronym").text,
+                                    "conference_dates": pub.find("conference_dates").text,
+                                    # TODO hier anpassen
+                                    # "conference_place": pub.find("conferende_place").text,
+                                    "conference_url": pub.find("conference_url").text
+                                    }
+                        }
+
+        with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
+            json.dump(data, outfile)
+
 
 if __name__ == "__main__":
 

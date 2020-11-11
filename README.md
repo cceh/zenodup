@@ -24,6 +24,7 @@ Run script ``create_bundles.py`` (cwd: projectfolder) for assigning conference p
     - PDF: Folder to pdf files of conference publications
 
 To run this script the following arguments need to be passed:
+
     * - c CONFERENCE: Name of conference folder
     * - m METADATA_FILE: Name of metadata file (expected format: xml) for conference publications
     * - x XML (Optional): Name of folder of conference publication xmls. If no name is given, script expects folder name "xml"
@@ -54,6 +55,7 @@ Run script ``zenodo_up.py`` (cwd: projectfolder) to upload bundle structure to Z
 For more information to structure file ``bundle_metadata.json`` please see [Zenodo REST API Documentation](https://developers.zenodo.org/).
 
 To run this script the following arguments need to be passed:
+
     * - c CONFERENCE: Name of conference folder
     * - a ACCESS_TOKEN: Generated Access Token to use Zenodo API
     * - p (Optional): If argument is given, the bundles will be uploaded to productive system. Otherwise they will be uploaded to the [zenodo sandbox](https://sandbox.zenodo.org/).

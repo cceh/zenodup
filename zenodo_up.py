@@ -1,11 +1,30 @@
-"""
-Creating a personal access token
+"""Script to upload bundle structure to Zenodo. 
 
-    Register for a Zenodo account if you don’t already have one.
-    Go to your Applications, to create a new token.
-    Select the OAuth scopes you need (for the quick start tutorial you need deposit:write and deposit:actions).
+If bundle structure hasn't been created with script create_bundles.py, this script expects the following bundle structure for CONFERENCE under bundle_structures/:
 
-https://zenodo.org/account/settings/applications/tokens/new/
+- CONFERENCE/: Folder containing all bundles to be uploaded as single publications
+    - BUNDLE_1/:
+        - bundle_metadata.json
+        - bundle_publications/
+            - file_1
+            - ...
+    - BUNDLE_2/:
+        - ...
+    - ..
+
+For more information to structure file bundle_metadata.json please see Zenodo REST API Documentation(https://developers.zenodo.org/).
+
+To run this script the following arguments need to be passed:
+    * - c CONFERENCE: Name of conference folder
+    * - a ACCESS_TOKEN: Generated Access Token to use Zenodo API
+    * - p (Optional): If argument is given, the bundles will be uploaded to productive system. Otherwise they will be uploaded to the  zenodo sandbox (https://sandbox.zenodo.org/).
+
+Personal access Token need to be either created for sandbox (https://sandbox.zenodo.org/account/settings/applications/tokens/new/) or productive system (https://zenodo.org/account/settings/applications/tokens/new/):
+
+1. Register for a Zenodo account if you don’t already have one.
+2. Go to your Applications, to create a new token.
+3. Select the OAuth scopes you need (for the quick start tutorial you need deposit:write and deposit:actions).
+
 """
 
 import getopt

@@ -1,19 +1,19 @@
-"""Script for assigning conference papers based on metadata file
+"""Script for assigning conference papers to bundles based on metadata file
 
-This script needs to be put next to the folder containing all files of the dhd conference that need to be collected in order to upload these publication pairs as single objects to zenodo.
-The following folder structure is expected:
+Put conference folder in /conferences. The conference folder is expected in the following strucutre:
 
-- collect_papers.py
 - CONFERENCE: Folder containing all relevant files of conference
     - METADATA_FILE: Name of metadata file for conference containing all relevant information of conference publications
     - XML: Folder to xml files of conference pubclications
     - PDF: Folder to pdf files of conference publications
 
-To run this scirpt the following arguments need to be modified:
+To run this script the following arguments need to be modified:
     * CONFERENCE: Name of conference folder
     * METADATA_FILE: Name of metadata file (expected format: xml) for conference publications
     * XML (Optional): Name of folder of conference publication xmls. If no name is given, script expects folder name "xml"
     * PDF (Optional): Name of folder of conference publication pdfs. If no name is given, script expects folder name "pdf"
+
+The created bundle structure will be created in /bundle_structure/[CONFERENCE].
 """
 
 # ## Imports

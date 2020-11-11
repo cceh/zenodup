@@ -186,7 +186,7 @@ def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
     file_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"]
 
     publication_files = {}
-    last_elem = tuple
+    last_elem = ()
 
     for elem in publication_names:
         if any(possible_name.find(name)!= -1 for possible_name in publication_names.get(elem) for name in file_names):

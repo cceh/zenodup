@@ -37,7 +37,7 @@ def main(argv):
 
     # set logging
     conference_name = os.path.basename(conference)
-    logging.basicConfig(filename=conference_name+'.log', filemode='w', encoding='utf-8', level=logging.DEBUG)
+    logging.basicConfig(filename=conference_name+'_bundle.log', filemode='w', encoding='utf-8', level=logging.INFO)
 
     # parse metadata file of conference
     tree = ET.parse(metadata_file)
@@ -62,6 +62,8 @@ def main(argv):
     # create json metadata file for each bundle based on metadata for publication
     create_bundles_metadata(publications_metadata, publication_bundles)
 
+    logging.info(f"Bundle structure for conference {conference_name} has been created under 'bundle_structures/{conference_name}'.")
+
 # set working paths
 def set_paths(argv:list) -> (Path, Path, Path, Path):
     conference = ''
@@ -74,7 +76,7 @@ def set_paths(argv:list) -> (Path, Path, Path, Path):
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('collect_papers.py -c <conference_folder> -m <metadata_file> -x <xml_folder> -p <pdf_folder>')
+            print('create_bundles.py -c <conference_folder> -m <metadata_file> -x <xml_folder> -p <pdf_folder>')
             sys.exit()
         elif opt in ("-c", "--conference"):
             conference = os.path.join("conferences", arg)
@@ -191,18 +193,18 @@ def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
             for possible_name in publication_names.get(elem):
                 for name in file_names:
                     if possible_name.find(name) != -1:
-                        logging.info("----")
-                        logging.info(name)
-                        logging.info("----")
+                        logging.debug("----")
+                        logging.debug(name)
+                        logging.debug("----")
                         publication_files.update({elem:readable_file(os.path.join(file_dir, name + file_type))})
                         last_elem = (elem, name)
         elif any(possible_name.find(name[:-1])!= -1 for possible_name in publication_names.get(elem) for name in file_names):
             for possible_name in publication_names.get(elem):
                 for name in file_names:
                     if possible_name.find(name[:-1]) != -1:
-                        logging.info("----")
-                        logging.info(name)
-                        logging.info("----")
+                        logging.debug("----")
+                        logging.debug(name)
+                        logging.debug("----")
                         publication_files.update({elem:readable_file(os.path.join(file_dir,name + file_type))})
                         last_elem = (elem, name)
         else:
@@ -227,9 +229,11 @@ def create_bundles(conference: Path, publication_pdfs: dict, publication_xmls: d
     publication_paths = {publication:os.path.join(bundle_path, os.path.basename(file_path)[:-4]) for (publication,file_path) in publication_pdfs.items()}
     # create directory for each publication and copy pdfs / xmls to directory
     for (publication, path) in publication_paths.items():
-        os.mkdir(path)
-        copyfile(publication_pdfs.get(publication), os.path.join(path, os.path.basename(publication_pdfs.get(publication))))
-        copyfile(publication_xmls.get(publication), os.path.join(path, os.path.basename(publication_xmls.get(publication))))
+        os.mkdir(os.path.join(path))
+        os.mkdir(os.path.join(path, "bundle_publications"))
+        publications_folder = os.path.join(path, "bundle_publications")
+        copyfile(publication_pdfs.get(publication), os.path.join(publications_folder, os.path.basename(publication_pdfs.get(publication))))
+        copyfile(publication_xmls.get(publication), os.path.join(publications_folder, os.path.basename(publication_xmls.get(publication))))
 
     list_of_defective_dirs = [dirpath for (dirpath, dirs, files) in os.walk(bundle_path) if len(dirs) == 0 and len(files) != 2]
     if len(list_of_defective_dirs) != 0:
@@ -243,33 +247,57 @@ def create_bundles_metadata(publications_metadata: ET.Element, publication_bundl
     for (publication, bundle_path) in publication_bundles.items():
         for pub in publications_metadata:
             if pub.find("title").text == publication:
-                data = {"metadata":{"upload_type": pub.find("upload_type").text,
-                                    "publication_type": pub.find("publication_type").text,
-                                    "publication_date": pub.find("publication_date").text,
-                                    "title": pub.find("title").text,
-                                    "creators": [{"name": creator.find("name").text,
-                                                  "affiliation": creator.find("affiliation").text
-                                                  } for creator in pub.findall("creators/creator")],                       
-                                    "description": pub.find("description").text,
-                                    "access_right": pub.find("access_right").text,
-                                    "license": pub.find("license").text,
-                                    "doi": pub.find("doi").text,
-                                    "keywords": pub.find("keywords").text,
-                                    "contributors": [{"name":contributor.find("name").text,
-                                                      "affiliation":contributor.find("affiliation").text,
-                                                      "type":contributor.find("type").text
-                                                      } for contributor in pub.findall("contributors/contributor")],
-                                    "communities":[{"identifier": community.text
-                                                    } for community in pub.findall("communities/identifier")],
-                                    "conference_title": pub.find("conference_title").text,
-                                    "conference_acronym": pub.find("conference_acronym").text,
-                                    "conference_dates": pub.find("conference_dates").text,
-                                    # TODO hier anpassen
-                                    # "conference_place": pub.find("conferende_place").text,
-                                    "conference_url": pub.find("conference_url").text
-                                    }
-                        }
-
+                if pub.find("doi").text:
+                    data = {"metadata":{"upload_type": pub.find("upload_type").text,
+                                        "publication_type": pub.find("publication_type").text,
+                                        "publication_date": pub.find("publication_date").text,
+                                        "title": pub.find("title").text,
+                                        "creators": [{"name": creator.find("name").text,
+                                                    "affiliation": creator.find("affiliation").text
+                                                    } for creator in pub.findall("creators/creator")],                       
+                                        "description": pub.find("description").text,
+                                        "access_right": pub.find("access_right").text,
+                                        "license": pub.find("license").text,
+                                        "doi": pub.find("doi").text,
+                                        "keywords": [keyword.replace("\"", "") for keyword in pub.find("keywords").text.split(", ")],
+                                        "contributors": [{"name":contributor.find("name").text,
+                                                        "affiliation":contributor.find("affiliation").text,
+                                                        "type":contributor.find("type").text
+                                                        } for contributor in pub.findall("contributors/contributor")],
+                                        "communities":[{"identifier": community.text
+                                                        } for community in pub.findall("communities/identifier")],
+                                        "conference_title": pub.find("conference_title").text,
+                                        "conference_acronym": pub.find("conference_acronym").text,
+                                        "conference_dates": pub.find("conference_dates").text,
+                                        "conference_place": pub.find("conference_place").text,
+                                        "conference_url": pub.find("conference_url").text
+                                        }
+                            }
+                else: 
+                    data = {"metadata":{"upload_type": pub.find("upload_type").text,
+                                        "publication_type": pub.find("publication_type").text,
+                                        "publication_date": pub.find("publication_date").text,
+                                        "title": pub.find("title").text,
+                                        "creators": [{"name": creator.find("name").text,
+                                                    "affiliation": creator.find("affiliation").text
+                                                    } for creator in pub.findall("creators/creator")],                       
+                                        "description": pub.find("description").text,
+                                        "access_right": pub.find("access_right").text,
+                                        "license": pub.find("license").text,
+                                        "keywords": [keyword.replace("\"", "") for keyword in pub.find("keywords").text.split(", ")],
+                                        "contributors": [{"name":contributor.find("name").text,
+                                                        "affiliation":contributor.find("affiliation").text,
+                                                        "type":contributor.find("type").text
+                                                        } for contributor in pub.findall("contributors/contributor")],
+                                        # "communities":[{"identifier": community.text
+                                                       #  } for community in pub.findall("communities/identifier")],
+                                        "conference_title": pub.find("conference_title").text,
+                                        "conference_acronym": pub.find("conference_acronym").text,
+                                        "conference_dates": pub.find("conference_dates").text,
+                                        "conference_place": pub.find("conference_place").text,
+                                        "conference_url": pub.find("conference_url").text
+                                        }
+                            }
         with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
             json.dump(data, outfile)
 

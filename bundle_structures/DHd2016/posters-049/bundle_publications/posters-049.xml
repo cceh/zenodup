@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-049">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Modellierung von Forschungsdaten durch Annotation </title>
+        <author>
+          <name>
+            <surname>Zinsmeister</surname>
+            <forename>Heike</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>heike.zinsmeister@uni-hamburg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-22T23:45:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Annotation</term>
+          <term>textuelle Daten</term>
+          <term>Taxonomie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Annotationen im Sinne von „Content“ (vgl. Agosti / Ferro 2007) modellieren Forschungsdaten anhand dreier Dimensionen: der Konzepte, der Repräsentationsformate und zusätzlich auch durch den Annotationsprozess. </p>
+      <p>Der Schwerpunkt dieses Beitrags liegt auf der konzeptuellen Modellierung textueller
+        Daten durch Abstraktionen und die Hervorhebung charakterisierender Eigenschaften bis
+        hin zum Ergänzen assoziativer Bezüge. Der Beitrag spannt dabei einen Rahmen von
+        intuitiven Randkommentaren (vgl. Blustein et al. 2011) bis hin zu wohldefinierten
+        Annotationsprojekten (z. B. Stede / Neumann 2014) und gibt einen Ausblick auf die
+        Umsetzung in Repräsentationsformaten (Dipper 2005; Piez 2011). </p>
+        <p>Das Besondere an der Modellierung eines Textes oder einer Textsammlung durch Annotation ist, dass die Auszeichnungen und Kommentare nicht einem holistischen Ganzen zugewiesen werden, wie es normalerweise bei beschreibenden Metadaten der Fall ist, sondern dass sie mit bestimmten Bestandteilen des dekomponierten Textes verknüpft werden und damit eine gewissen Distribution im Text aufweisen, die der Modellierung grundsätzlich einen quantitativen Aspekt verleiht und für weiterführende Auswertungen und Visualisierungen verwendet werden kann.</p>
+        <p>In der geisteswissenschaftlichen Tradition bestehen unterschiedliche Zugänge zur Modellierung von Forschungsdaten durch Annotation. Beispielhaft stellt der Beitrag den prozessorientierten, hermeneutischen Ansatz der Literatur- und Kulturwissenschaft (Bradley / Vetch 2007, Bradley 2008) dem produktorientierten, deduktiven Ansatz der Korpus- und Computerlinguistik (Leech 1997, Pustejovsky / Stubbs 2012) gegenüber und schlägt eine Synthese der Modellierung in Anlehnung an die zusammenfassenden Darstellungen in Burghardt (2014) und Gius / Jacke (2015) vor. Zusätzlich gibt er einen Ausblick auf Repräsentationsmöglichkeiten von ambigen Annotationen (vgl. Barteld et al. 2014).</p>
+      </body>
+      <back>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliography</head>
+            <bibl>
+              <hi rend="bold">Agosti, Maristella / Nicola Ferro</hi> (2007): “A Formal
+              Model of Annotations of Digital Content”, in: <hi rend="italic">ACM
+              Transactions on Information Systems</hi> 26, 1. </bibl>
+              <bibl>
+                <hi rend="bold">Barteld, Fabian / Ihden, Sarah / Schröder, Ingrid /
+                  Zinsmeister, Heike</hi> (2014): „Annotating descriptively incomplete
+                  language phenomena“, in: Levin, Lori / Stede, Manfred (eds.): <hi
+                  rend="italic">Proceedings of LAW VIII - The 8th Linguistic Annotation
+                  Workshop</hi> 99–104. </bibl>
+                  <bibl>
+                    <hi rend="bold">Blustein, James / Rowe, David / Graff, Ann-Barbara</hi>
+                    (2011): „Making Sense in the Margins: A Field Study of Annotation“, in: <hi
+                    rend="italic">Research and Advanced Technology for Digital
+                    Libraries</hi>. Berlin: Springer 252–259. </bibl>
+                    <bibl>
+                      <hi rend="bold">Bradley, John</hi> (2008): “Pliny: A model for digital
+                      support of scholarship”, in: <hi rend="italic">Journal of Digital
+                      Information (JoDI)</hi> 9, 1. </bibl>
+                      <bibl>
+                        <hi rend="bold">Bradley, John / Vetch, Paul</hi> (2007): “Supporting
+                        Annotation as a Scholarly Tool &#8211; Experiences from the Online Chopin Variorum
+                        Edition”, in: <hi rend="italic">Literary and Linguistic Computing</hi> 22,
+                        2. </bibl>
+                        <bibl>
+                          <hi rend="bold">Burghardt, Manuel</hi> (2014): <hi rend="italic">Engineering
+                          Annotation Usability-Toward Usability Patterns for Linguistic Annotation
+                          Tools</hi>. Doktorarbeit. Universität Regensburg. </bibl>
+                          <bibl>
+                            <hi rend="bold">Dipper, Stefanie </hi> (2005): „XML-Based Stand-off
+                            Representation and Exploitation of Multi-Level Linguistic Annotation“, in:
+                            <hi rend="italic">Proceedings der Berliner XML-Tage 2005 (BXML
+                              2005)</hi> 39–50. </bibl>
+                              <bibl>
+                                <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2015): „Informatik und
+                                Hermeneutik. Zum Mehrwert interdisziplinärer Textanalyse“, in: Baum,
+                                Constanze / Stäcker, Thomas (eds.): <hi rend="italic">Grenzen und
+                                Möglichkeiten der Digital Humanities</hi> (= Sonderband der Zeitschrift
+                                für digitale Geisteswissenschaften, 1). <ref
+                                target="http://www.zfdg.de/sb001_006">http://www.zfdg.de/sb001_006</ref>
+                                [letzter Zugriff 09. Januar 2016]. </bibl>
+                                <bibl>
+                                  <hi rend="bold">Leech, Geoffrey</hi> (1997): “Introducing Corpus
+                                  Annotation”, in: Garside, Roger / Leech, Geoffrey / McEnery, Tony (eds.):
+                                  <hi rend="italic">Corpus Annotation</hi>. Linguistic Information from
+                                  Computer Text Corpora. London / New York: Longman 1–18. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Piez, Wendell</hi> (2010): „Towards Hermeneutic Markup. An
+                                    Architectural Outline“, in: <hi rend="italic">Digital Humanities 2010.
+                                    Conference Abstracts, präsentiert auf der Digital Humanities Conference
+                                    2010 (DH 2010)</hi> 202–205. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Pustejovsky, James / Stubbs, Amber</hi> (2012): <hi
+                                      rend="italic">Natural Language Annotation for Machine Learning</hi>.
+                                      O’Reilly Media, Inc. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Stede, Manfred / Neumann, Arne</hi> (2014): “Potsdam
+                                        Commentary Corpus 2.0: Annotation for Discourse Research”, in: <hi
+                                        rend="italic">Proceedings of the Ninth International Conference on
+                                        Language Resources and Evaluation (LREC’14)</hi> 925–929. </bibl>
+                                      </listBibl>
+                                    </div>
+                                  </back>
+                                </text>
+                              </TEI>

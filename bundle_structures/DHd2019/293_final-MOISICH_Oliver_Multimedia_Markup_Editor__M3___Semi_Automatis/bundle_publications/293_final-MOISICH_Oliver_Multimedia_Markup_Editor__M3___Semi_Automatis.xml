@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="293_final-MOISICH_Oliver_Multimedia_Markup_Editor__M3___Semi_Automatis" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Multimedia Markup Editor (M3): Semi-Automatische Annotationssoftware für statische Bild-Text Medien</title>
+                <author>
+                    <persName>
+                        <surname>Moisich</surname>
+                        <forename>Oliver</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>moisich@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hartel</surname>
+                        <forename>Rita</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>rst@upb.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T15:37:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotationssystem</term>
+                    <term>graphische Narrative</term>
+                    <term>Narratologie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Literatur</term>
+                    <term>Multimodale Kommunikation</term>
+                    <term>Software</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Dieses Poster stellt ein Annotationssystem für graphische Narrative vor. Mittels einer auf Java basierten graphischen Oberfläche sind Annotator_innen in der Lage, graphische Narrative und andere statische Bild/Text-Medien in XML zu annotieren. Grundlage für die hier verwendete XML-basierte Annotationssprache, „Graphic Novel Markup Language“, kurz GNML, ist die von John Walsh entwickelte, auf TEI basierende, „Comic Book Markup Language“, kurz CBML. Abbildung 1 zeigt einen Überblick über die in GNML darstellbaren Objekt-Typen und deren Beziehungen.</p>
+            <p>Das System ermöglicht Annotator_innen die Annotation verbaler und visueller Repräsentation auf der Comicseite; dazu zählen unter anderem Panels, Charaktere, Sprechblasen, Captions, Erzähltext, Sprechtext, Onomatopoeia und diegetischer Text. Figurenkonstellationen können über verschiedene spezialisierte Interaktionsmuster festgehalten werden. Darüber hinaus erfassen narratologische Tools eine Übersicht über subjektive Filterung einer Erzählsituation (Fokalisierung), Diegese einer Erzählsituation sowie die Hierarchisierung von Erzählwelten.</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="8.232069444444445cm" url="293_final-251c86340023a66c7b05d5b61b10f6f2.png" rend="inline"/>
+                <head>Abbildung 1. Überblick über die verschiedenen Objekt-Typen in GNML</head>
+            </figure>
+            <head>Features</head>
+            <p>Das Annotieren wird Nutzern durch die Automatisierung einiger Prozesse erleichtert. So lokalisiert das Annotationssystem auf Basis von Verfahren, wie z.B. dem aus der Computergraphik bekannten Marching Squares Algorithmus, die Konturen der Panels. Einfachere Strukturen wie z.B. Sprechblasen oder Captions müssen vom Nutzer nur durch einen einfachen Klick auf den Hintergrund selektiert werden, so dass danach mit Hilfe eines Floodfill-Verfahrens die komplette Sprechblase erkannt wird. Komplexere Repräsentationen wie Charaktere können mithilfe einer auf der Livewire Segmentation (Mortensen &amp; Barrett, 1995), die beim ungenauen Umranden eines Charakters sich an dessen kontrastreiche Kanten heftet und so die Kontur des Charakters genau erfasst, effizient graphisch annotiert werden. Eine automatische Texterkennung ist derzeit noch nicht integriert, da diese aufgrund der schwer zu erfassenden, oft verwendeten pseudo-handschriftlichen Fonts noch keine befriedigenden Ergebnisse liefert. Dieser wird aber hoffentlich für spätere Versionen in einer ausreichenden Qualität entweder direkt integriert in den Editor oder als optionaler Vorverarbeitungsschritt verfügbar sein. Um aber dennoch die Fehlerrate bei der manuellen Eingabe der Texte und Charakter-Namen möglichst gering zu halten, sind Mechanismen wie eine automatische Rechtschreibprüfung oder Autovervollständigung eingebaut.</p>
+            <p>Die Beta-Version des Annotationssystems wurde zusammen mit einer Gruppe von Studierenden am „Graphic Narrative Corpus“ (GNC), dem ersten digitalen Korpus für englischsprachige graphische Narrative, getestet (Dunst, Hartel, &amp; Laubrock, 2017). Eines der Hauptziele des Annotationssystems ist die quantitative Analyse, welche auch und vor allem etablierte narratologische Terminologie auf empirische Evidenzen hin prüft. Die Operationalisierung bestehender narratologischer Diskurse in einer für digitale und quantitative Forschung optimierten Testumgebung erfordert die umfassende Gestaltung einer narratologischen Annotationsebene. Grundlage dieser Annotationsebene sind sowohl Theorien der kognitiven und transmedialen Narratologie als auch empirische Daten, die mithilfe des vorgestellten Annotationssystems erhoben und anschließend analysiert wurden. </p>
+            <p>Abbildung 2 zeigt die Oberfläche des Annotationssystems mit einer Beispielannotation.</p>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="10.403416666666667cm" url="293_final-e52503cdf45d271ddc2f956525868aab.png" rend="inline"/>
+                <head>Abbildung 2. Graphische Oberfläche und Beispielannotation des Comics „Pepper &amp; Carrot“ (Revoy, 2017)</head>
+            </figure>
+            <head>Ausblick</head>
+            <p>Durch die quantitative Operationalisierung etablierter qualitativer narratologischer Terminologie fördert das Annotationssystem die Erweiterung digitaler und quantitativer Methodologien in den Geisteswissenschaften. Komplexe Text-Bild-Interaktionen in graphischen Narrativen werden so mithilfe des Annotationssystems der Analyse von größeren Korpora eröffnet und ermöglichen eine weitreichende digitale Analyse multimodaler Narrative. Gleichzeitig trägt die evidenzbasierte Untersuchung dieser Elemente in zweierlei Hinsicht zu einem besseren Verständnis theoretischer Modelle bei: Zum einen zeigen die annotierten Daten die Möglichkeiten und Grenzen traditioneller Begrifflichkeiten an konkreten Analysebeispielen auf; zum anderen bietet die Auseinandersetzung von Annotator_innen mit komplex erzählten graphischen Narrativen (beispielsweise im Seminarkontext) einen hohen didaktischen Wert insofern, als dass sich Annotator_innen anhand von Fallbeispielen mit narratologischen Konzepte und Problemen kritisch auseinandersetzen.</p>
+            <p>Die letzte Version des Annotationssystems ist frei verfügbar unter:</p>
+            <p>
+                <ref target="http://graphic-literature.upb.de/?page_id=3592">http://graphic-literature.upb.de/?page_id=3592</ref>
+            </p>
+            <p>Eine FAQ zum Annotieren mit dem Programm ist zu finden unter:</p>
+            <p>
+                <ref target="http://graphic-literature.upb.de/?page_id=4123">http://graphic-literature.upb.de/?page_id=4123</ref>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Dunst, A. / Hartel, R. / Laubrock, J. (2017)</hi>: <hi rend="italic">The Graphic Narrative Corpus (GNC): Design, Annotation, and Analysis for the Digital Humanities</hi>. 2nd International Workshop on coMics Analysis, Processing, and Understanding, 14th IAPR International Conference on Document Analysis and Recognition. Kyoto, Japan.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Mortensen, E. / Barrett, W. (1995)</hi>: <hi rend="italic">Intelligent scissors for image composition</hi>. Proceedings of the 22nd annual conference on Computer graphics and interactive techniques (pp. 191-198). ACM.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Revoy, D. (2017)</hi>: <hi rend="italic">Pepper &amp; Carrot. Episode 21: The Magic Contest</hi>. (Pepper and Carrot) Retrieved 2018 10, from <ref target="https://www.peppercarrot.com/en/article400/episode-21-the-magic-contest">https://www.peppercarrot.com/en/article400/episode-21-the-magic-contest</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

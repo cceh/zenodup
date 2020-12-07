@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="122_final-FRANKEN_Lina_Anwendungen_von_DH_Methoden_in_der_Erschlie_ung" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Anwendungen von DH-Methoden in der Erschließung und Digitalisierung von Kulturerbe. Ein Vorschlag zur Systematisierung</title>
+<author>
+<persName>
+<surname>Franken</surname>
+<forename>Lina</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>lina.franken@uni-hamburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T19:55:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digital Heritage</term>
+<term>Machine Learning</term>
+<term>Sammlungsdatenmanagement</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Sammlung</term>
+<term>Modellierung</term>
+<term>Bearbeitung</term>
+<term>Archivierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p style="text-align:left; ">Bevor Kulturerbe digital verfügbar und nachnutzbar ist, stehen komplexe Prozesse an, die als spezifische „invisible work“ (Star/Strauss 1999) bezeichnet werden können. Diese werden kaum außerhalb der engeren Community problematisiert: Wo finde ich in den analogen Katalogen, Zettelkästen, Findbüchern u.ä. die notwendigen Informationen zur Erfassung und Erschließung? Welche Sammlungsbestände sind besonders wichtig und deshalb zu digitalisieren? Ist eine Massen-Digitalisierung mit geringer Detailtiefe der Erfassung oder eine detaillierte Erschließung einiger Teilbestände sinnvoll? Wie können die Vorgehensweisen von unterschiedlichen Personen und Institutionen vereinheitlicht werden? Und wie können Informationen, die bereits digital vorliegen – etwa in Tabellen oder älteren Erfassungssystemen – an internationale Regelwerke und Standards zur Metadatenhaltung angepasst werden?</p>
+<p style="text-align:left; ">Kernanliegen des vorgeschlagenen Beitrags ist es, für die Sammlungserschließung und Digitalisierung – gerade in Museen, aber auch in Archiven und Bibliotheken – Methoden, Tools und Analyseperspektiven der Digital Humanities stärker als bisher zu nutzen. Dafür werden mögliche Synergien und exemplarische Anwendungen in einer ersten Exploration aufgezeigt. Dabei wird auf eigene Projekterfahrungen zurückgegriffen, die im Kontext des Digitalisierungsvorhabens „Digitales Portal Alltagskulturen im Rheinland“ (2013-2017) gesammelt wurden.<ref n="1" target="ftn1"/> Diese sind bereichert um Perspektiven des DH-Forschungsverbundes an der Universität Hamburg, „Automatisierte Modellierung hermeneutischer Prozesse (hermA)“ (2017-2020).<ref n="2" target="ftn2"/>
+</p>
+<div rend="DH-Heading1" type="div1">
+<head>What (not) to do with 100.000 Pictures. Sammlungserschließung als Sisyphos-Arbeit?</head>
+<p style="text-align:left; ">Im LVR-Institut für Landeskunde lagern umfangreiche Bestände, die nach Sammlungsgeschichte gegliedert und nur rudimentär erschlossen sind. Vor allem die Fotodokumentationen sind für Erschließung und Digitalisierung prädestiniert, zeigen sie doch plurale Facetten immateriellen Kulturerbes seit etwa 1900<ref n="3" target="ftn3"/>. Dazu kommen umfangreiche Materialien zu 31 schriftlichen Befragungen aus den 1970er bis 2000er Jahren sowie kleinere Einzelsammlungen. Die Fotobestände liegen in unterschiedlichen Negativformaten sowie als Dias chronologisch sortiert vor. Dazu sind Fotoabzüge auf Karteikarten geklebt, mit Metadaten versehen und thematisch abgelegt in einer über Jahrzehnte gewachsenen Systematik. Negative und Abzüge sind also unterschiedlich archiviert und nur in Einzelfällen einander zuzuordnen. Es bestehen auf Einzelplatzrechnern gepflegte Bestandslisten sowie eine Datenbank<ref n="4" target="ftn4"/> mit Teilinventarisierung. Seit 2013 werden im Rahmen der LVR-weiten Digitalisierungsstrategie Digitalisate erstellt, mit angereichert und Metadaten abgelegt, um sie mittelfristig öffentlich zugänglich zu machen.<ref n="5" target="ftn5"/> Die Systeme werden aktuell in die Datenbank digiCULT.web<ref n="6" target="ftn6"/> übertragen, wodurch mit dem LIDO-Format größere Datenmengen standardkonform publiziert werden können.
+                </p>
+<p style="text-align:left; ">Vergleichbare gewachsene Systeme gibt es in vielen Museen, Archiven und Bibliotheken. Gerade in kleineren Museen und Forschungseinrichtungen, deren Hauptaugenmerk auf der Ausstellung bzw. Forschung und weniger auf der Sammlungserschließung liegt, sind die Erfassungen unvollständig und in der Institutionsgeschichte von verschiedenen Akteuren mit spezifischen Wissenshintergründen und Systematiken erfolgt. Diese Systeme funktionieren vor allem aufgrund des Wissens von Archivar*innen und Forschenden (vgl. zu Wissenskonzepten Koch 2006): Sie wissen, welche Materialien wo liegen, welche Strukturen was auffindbar machen, was in welchen Kontexten verwendet wurde. Wenn Stellenwechsel oder Verrentungen anstehen, geht dieses Wissen verloren oder wird bruchstückhaft weitergegeben.</p>
+<p style="text-align:left; ">Wenn analoge Bestände digitalisiert werden sollen, geht es in der Vorbereitung (z.B. der Antragsstellung für Drittmittel) um hohe technische Qualität, Fragen des Workflows sowie der Bereitstellung, einzuhaltende Standards oder eigene Präsentationsoberflächen. Die konkreten Arbeitsschritte zur Umsetzung dieser Zielvorgaben werden oft erst in der Projektrealisierung entwickelt. Gerade die Museumsdatenbanken sind geprägt von einer gewachsenen Pluralität, die in dieser Form nicht als veröffentlichungswürdig gelten und strukturelle Nachbearbeitungen erfordern.</p>
+<p style="text-align:left; ">Für die hier exemplarisch stehenden Fotobestände des LVR-Instituts fiel die Entscheidung, sich nicht an den bestehenden (Ablage-)Systematiken zu orientieren. Neben anderen Argumenten war dabei die unvollständige und heterogene, thematisch abgelegte Erschließung per Karteikarte ausschlaggebend. Um eine Auswahl zur inhaltlichen Erschließung zu ermöglichen und analoge Vorarbeiten gering zu halten, wurden alle Negative und Dias digitalisiert (zur Problematik von Original und Kopie, die sich für Foto-Abzüge spezifisch stellt, vgl. Schönholz 2017). Im Zuge der Auftragsvergabe wurden Bestände erstmals gezählt und liegen als vollständige Digitalisate vor. Ein Meilenstein dieser Fleißarbeit waren die im Vergleich und Überblick erstmals digital verfügbaren Bildbestände.</p>
+<p style="text-align:left; ">Doch was macht man mit 100.000 Fotos, die außer einer Dateibenennung keinerlei Informationen mit sich bringen? Hier werden die eingangs aufgeworfenen Fragen konkret. Vergleichbar mit den Diskussionen um Distant Reading (Moretti 2007 und 2016; Crane 2006) stellt sich ob der Verfügbarkeit der Digitalisate die Frage, wie diese zielführend erschlossen werden können. Wie findet man relevante Bildbestände für eine Tiefenerschließung? Wo helfen die bestehenden Metadaten zielführend?</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Maschinelle Unterstützung nutzen, aber wie?</head>
+<p style="text-align:left; ">Für diese Arbeitsschritte sind Methoden der Digital Humanities vielversprechend. Zwar wird zunehmend die Frage nach der Nutzung von Digitalisaten als Open Data für die Wissensproduktion<ref n="7" target="ftn7"/> diskutiert, oft jedoch erst nach Abschluss der Erschließungsarbeiten. Nicht erst die publizierten Daten digitalen Kulturerbes können mit DH-Verfahren erforscht werden – diese sind bereits in der Erschließung enorm hilfreich. Zwei Verfahren aus dem Bereich des Machine Learning scheinen besonders erfolgsversprechend: maschinelle Bilderkennung sowie die Analyse bestehender Metadaten mittels Text Mining.
+                </p>
+<p style="text-align:left; ">Die großen Mengen unerschlossener Fotos können mit maschineller Bilderkennung hinsichtlich ihrer Ähnlichkeit gruppiert werden, wie es etwa PixPlot realisiert:<ref n="8" target="ftn8"/> Bildanordnungen im Vektorraum machen Schwerpunkte des Bestandes deutlich, außerdem lassen sich Subkorpora bilden, die mit Massenbearbeitung formal erschlossen werden können. In der Arbeitspraxis ist daneben das Identifizieren von Dubletten relevant: Wenn beispielsweise Abzüge des Archivs in der Vergangenheit abfotografiert wurden, existiert das Foto in unterschiedlichen Kopien im digitalisierten Bestand – manuell eine Suche nach der Nadel im Heuhaufen, automatisiert mit Bildvergleich gut zu identifizieren (vgl. die vielversprechenden Ansätze bei Schneider 2019). Auch ähnliche Aufnahmen, z.B. aus einer Bildserie, sind so zuzuordnen. Die inhaltliche Erschließung wird durch eine Ähnlichkeitssuche ebenfalls deutlich vereinfacht: Hat man etwa eine gute Aufnahme eines Gegenstandes, so lassen sich relativ eindeutig andere Abbildungen dessen im Bestand finden. Hier wäre jedoch eine menschliche Intervention (zumindest zu Beginn eines möglichen Active Learning-Verfahrens) aufgrund der feinen Unterschiede notwendig. Zudem sind zweifelsfrei die Trainingsdaten von großer Relevanz und sollten wo möglich aus bereits erschlossenen, vergleichbaren Kulturerbe-Datensätzen bestehen.
+                </p>
+<p style="text-align:left; ">Text Mining-Verfahren würden in GLAM-Datenbanken nicht nur aus dem Museumsbereich präzisiere Suchabfragen und gerade in bestehenden Erfassungen systematische Funde ermöglichen. Ansätze wie facettierte Suchmasken mit Linked Open Data, wie sie in Plattformen zur Datenpräsentation zunehmend realisiert werden,<ref n="9" target="ftn9"/> wären im Backend enorme Arbeitserleichterungen. Schon banale Automatisierungen wie Rechtschreibkorrektur und Vereinheitlichungen der Formalerschließung sind momentan in der Regel nicht vorgesehen. Sie kosten viel Zeit und Konzentration, sobald nicht simple Ersetzungen vorzunehmen sind. Gleichzeitig fehlt den Entwickler*innen der eingesetzten Datenbanken die zielgenaue Kollaboration mit entsprechender DH-Forschung zu konkreten Tools und Verfahren sowie der Testung von verschiedenen Funktionen für eine hohe Qualität der Ergebnisse, die vor der Übernahme in die Infrastruktur erfolgen muss. LOD wird zudem aktuell nur in Ausnahmen direkt in die Erfassungssysteme eingebunden – erst so könnte die Arbeit an Ontologien und konkreten Datensätzen gezielt verbunden werden. Dazu kommt die Notwendigkeit, die Erfassungen besser zu vernetzen; auch in Fällen, in denen dies erst nach der Veröffentlichung möglich oder notwendig wird. Hier sollte eine Öffnung für fortlaufende kollaborative Ergänzung und Korrektur von Daten in Verbindung mit der Erfassung von Paradaten (McIlvain 2013) geschaffen werden.
+                </p>
+<p style="text-align:left; ">Viel Zeit wird mit der Erzeugung von metacrap (Doctorow 2001) verbracht. Die messy Metadaten, die für viele Erfassungen – oft im Backend, aber auch publiziert – bestehen, sind durch Tools einfach zu identifizieren und automatisch zu beheben: Museum Analytics<ref n="10" target="ftn10"/> beispielsweise ermöglicht es, große Mengen von Museumsdaten zu analysieren, ist allerdings für publizierte Metadaten vorgesehen. Gerade in der Migration zwischen Datenbanksystemen sowie für den internen Gebrauch zwecks Qualitätskontrolle, Bestandssichtung und Entscheidung über Nachbearbeitungen vor der Veröffentlichung erlaubt dieses einen anderen Blick auf die Bestände. Das Tool Breve<ref n="11" target="ftn11"/>, das Tabellen visualisiert, könnte ergänzende Funktionen übernehmen. Die Entwicklungsvorhaben des Verbundprojektes GND4C<ref n="12" target="ftn12"/> oder des Projekts Qrator<ref n="13" target="ftn13"/> sind richtungsweisend, leider aber noch nicht verfügbar, und entsprechende Konferenzworkshops zu DH für Gedächtnisinstitutionen (Döhl/Voges 2019) erfreulich.
+                </p>
+<p style="text-align:left; ">Erste Ansätze zur Nutzung von DH-Analyseverfahren werden auch von Museumsseite diskutiert, etwa hinsichtlich Netzwerkanalyse der Sammlungsbestände (Werner 2019) oder Möglichkeiten der Visualisierung (Mayr/Windhager 2019), bilden dort jedoch (noch) die absolute Ausnahme. Dies spiegelt sich auch in den Programmen der entsprechenden Tagungen wie „Museums and the Internet“<ref n="14" target="ftn14"/> oder denen der Fachgruppe Dokumentation des Deutschen Museumsbundes<ref n="15" target="ftn15"/>. Falls entsprechende Ansätze bereits genutzt werden, so geschieht dies wiederum weitestgehend als „invisible work“ (s.o.) ohne Darstellung in der (Forschungs)Öffentlichkeit. In weiten Teilen der entsprechenden GLAM-Community wird gerade von Museumsseite die DH noch zu wenig als möglicher Kooperationspartner wahrgenommen, um entsprechende Workflows und Implementierungen zu konzipieren.
+                </p>
+<p style="text-align:left; ">Die vorgestellten Zugänge könnten im Ergebnis der Implementierung nicht nur aufzeigen, welche Daten in einem Bestand enthalten sind, sondern auch, welche Leerstellen in der Erfassung noch geschlossen werden sollten. Von einer linearen Durchsicht, Überarbeitung und Freigabe der Datenbank-Einträge kann mit entsprechender Tool-Unterstützung – und einhergehender Interoperabilität! – zu einer gezielten Nachbearbeitung von Teilbeständen oder Vereinheitlichung einzelner Metadatenfelder übergegangen werden. So bleibt mehr Zeit für eine inhaltliche Erschließung und Analyse sowie die dringend notwendige epistemologischen Reflexionen dieser Prozesse.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit: DH-Verfahren in Sammlungsdatenbanken</head>
+<p style="text-align:left; ">Was fehlt in der Gesamtschau momentan? Vor allem die Öffnung von Erschließungssystemen für die dargestellten Methoden sowie die Öffnung der entsprechenden Communities zueinander.</p>
+<p style="text-align:left; ">Erforderlich ist dabei der frühzeitige Einbezug von bestehenden Tools und Analyseverfahren – lange vor der Veröffentlichung der Datensätze. Gerade in der Exploration weitestgehend nicht erfasster Bestände zur Vorbereitung der Erschließung und in der Qualitätskontrolle von Metadaten liegen große Potentiale, die noch zu wenig genutzt werden. Wenn gleichzeitig bereits tiefenerschlossene Bestände als Trainingsdaten genutzt werden, können die Ansätze auch unabhängig von der Nutzung konkreter Datenbanken gegenseitigen Mehrwert sowohl in der Methodenentwicklung als auch in der Erschließung bringen.</p>
+<p style="text-align:left; ">Eine öffentliche Finanzierung und Weiterentwicklung von den entsprechenden Tools ist dabei dringend notwendig. Statt weiter in gewinnorientierte Software zu investieren, sollten Genossenschaften und Vereine gegründet und ausgebaut werden. Eine Unterstützung der Toolentwicklung durch entsprechend kompetente DHler*innen ist vielversprechend. So wäre etwa ein Hackathon zur Erweiterung von Erschließungssystemen eine Möglichkeit, um über das Tagesgeschäft hinausgehende Innovationen umzusetzen. Entsprechend erweiterte Datenbanken sollten viel häufiger auch in der Forschung verwendet werden, die aktuell noch viel zu oft in Form von Excel-Sheets (weiter-)arbeitet, obwohl Datenbanken mit erweiterten Funktionen existieren. Mit einfachen Import/Exportfunktionen innerhalb der Tools und Verbindungen zu Analyseverfahren könnten Forschungsumgebungen geschaffen werden, in denen kollaboratives Arbeiten gleichzeitig die Datensätze anreichert und Forschungsfragen beantwortet.</p>
+</div>
+</body>
+<back>
+<div type="notes"><note n="1" rend="footnote text" xml:id="ftn1">
+  Projektergebnisse unter https://alltagskulturen.lvr.de/. Das DFG-geförderte Projekt wurde durch die Autorin koordiniert, von Dagmar Hänel geleitet und maßgeblich auch durch den wissenschaftlichen Dokumentar im Projekt, Christian Baisch, vorangetrieben.
+</note>
+<note n="2" rend="footnote text" xml:id="ftn2">
+  Das von Gertraud Koch und Heike Zinsmeister geleitete Verbundprojekt befragt DH-Perspektiven auf Möglichkeiten zur Modellierung hermeneutischer Prozesse. Vgl.
+  <ptr target="https://www.herma.uni-hamburg.de/"/>.
+</note>
+<note n="3" rend="footnote text" xml:id="ftn3">
+  Vgl. Sammlungsbeschreibungen unter
+  <ptr target="https://alltagskulturen.lvr.de/de/sammlungen "/>.
+</note>
+<note n="4" rend="footnote text" xml:id="ftn4">
+  Faust Software, vgl.
+  <ptr target="https://www.land-software.de/"/>.
+</note>
+<note n="5" rend="footnote text" xml:id="ftn5">
+  Genutzt wird eine Weiterentwicklung von MediaFiler, vgl.
+  <ptr target="https://mediafiler.com/en "/>.
+</note>
+<note n="6" rend="footnote text" xml:id="ftn6">
+  digiCULT.web als entitätsbasierte Online-Datenbank ist vorrangig für Museumsbestände entwickelt und baut auf CIDOC-CRM auf. Vgl.
+  <ptr target="https://www.digicult-verbund.de/de/digicultweb"/>.
+    Zu LIDO vgl.
+  <ptr target="http://network.icom.museum/cidoc/working-groups/lido/what-is-lido/"/>.
+</note>
+<note n="7" rend="footnote text" xml:id="ftn7">
+  Vgl. etwa die Schwerpunktsetzung „Open Data – now what?“ der Sharing is Caring-Konferenz 2019.
+  <ptr target="http://sharecare.nu/programme/"/>.
+  Danke an Samantha Lutz für den Hinweis.
+</note>
+<note n="8" rend="footnote text" xml:id="ftn8">
+  Vgl. 
+  <ptr target="https://github.com/YaleDHLab/pix-plot "/>.
+  Vgl. auch Leonard 2019.
+</note>
+<note n="9" rend="footnote text" xml:id="ftn9">
+  Vgl. etwa Suchfacetten der DDB,
+  <ptr target="https://www.deutsche-digitale-bibliothek.de/"/>, mittlerweile auch der Europeana,
+  <ptr target="https://www.europeana.eu/"/>.
+</note>
+<note n="10" rend="footnote text" xml:id="ftn10">
+  <ptr target="https://www.max.gwi.uni-muenchen.de/"/>.
+</note>
+<note n="11" rend="footnote text" xml:id="ftn11">
+  <ptr target="http://hdlab.stanford.edu/breve/"/>.
+</note>
+<note n="12" rend="footnote text" xml:id="ftn12">
+  Ziel 3 des Projektes ist die „Bereitstellung von Schnittstellen und Werkzeugen zur Unterstützung nicht-bibliothekarischer Anwendungskontexte.“ Vgl.
+  <ptr target="https://wiki.dnb.de/pages/viewpage.action?pageId=134055796 "/>.
+  Danke an Axel Vitzthum für den Hinweis.
+</note>
+<note n="13" rend="footnote text" xml:id="ftn13">
+  Vgl.
+  <ptr target="https://qurator.ai/"/>.
+  GLAM-Institutionen mit digitalem Kulturerbe sind hier ein Anwendungsfall.
+</note>
+<note n="14" rend="footnote text" xml:id="ftn14">
+  Bisher waren entsprechende Beiträge bei der Tagung absolute Ausnahme. Vgl. das Archiv unter
+  <ref target="https://mai-tagung.lvr.de/de/startseite.html">https://mai-tagung.lvr.de/de/startseite.html</ref>.
+</note>
+<note n="15" rend="footnote text" xml:id="ftn15">
+  Das Archiv der Tagungsprogramme und Vortragsfolien lässt nicht auf entsprechende Diskussionen schließen. Vgl. 
+  <ref target="https://www.museumsdokumentation.de/?lan=de&amp;q=Who%20is%20who/FG%20Dokumentation%20im%20DMB/Tagungsarchiv">https://www.museumsdokumentation.de/?lan=de&amp;q=Who%20is%20who/FG%20Dokumentation%20im%20DMB/Tagungsarchiv</ref>.
+</note>
+</div>
+<div type="bibliogr">
+  <listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Crane, Gregory</hi> (2006): “What Do You Do with a Million Books?” In: D
+                        <hi rend="italic">-Lib Magazine</hi> 12/3. http://www.dlib.org/dlib/march06/crane/03crane.html.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Doctorow, Cory</hi> (2001): “Metacrap. Putting the Torch to Seven Straw-Men of the Meta-Utopia.” https://people.well.com/user/doctorow/metacrap.htm.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Döhl, Frédéric / Voges, Ramon</hi> (2019): „Erklärt und ausprobiert – Digital Humanities für Gedächtnisinstitutionen.“ Workshop im Rahmen der Tagung 
+                        <hi rend="italic">Zugang gestalten 2019</hi>. https://zugang-gestalten.org/dokumentation-2019/.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Koch, Gertraud</hi> (2006): „Die Neuerfindung als Wissensgesellschaft. Inklusionen und Exklusionen eines kollektiven Selbstbildes.“ In: Hengartner, Thomas; Moser, Johannes (Hg.): 
+                        <hi rend="italic">Grenzen &amp; Differenzen. Zur Macht sozialer und kultureller Grenzziehungen</hi>. Leipzig, S. 545–559.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Leonard, Peter</hi> (2019): “Large images dataset overtime: PixPlot new features.” In: 
+                        <hi rend="italic">Culture Analytics Workshop: Time Series, Digital Humanities 2019</hi>. https://dev.clariah.nl/files/dh2019/boa/1079.html und https://github.com/CultureAnalytics/DH2019.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Mayr, Eva / Windhager, Florian</hi> (2019): „Vor welchem Hintergrund und mit Bezug auf was? Zur polykontexturalen Visualisierung kultureller Sammlungen“. Vortrag im Rahmen der Tagung 
+                        <hi rend="italic">Objekte im Netz. Wissenschaftliche Sammlungen im digitalen Zeitalter</hi>. Folien unter http://objekte-im-netz.fau.de/projekt/sites/default/files/2019-11/Mayr%26Windhager_PolyContext.pdf.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">McIlvain, Eileen</hi> (2013): “Paradata. What is Paradata?” In: 
+                        <hi rend="italic">NSDL Documentation Wiki</hi>. https://wiki.ucar.edu/display/nsdldocs/Paradata.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Moretti, Franco</hi> (2007): “Graphs, Maps, Trees. Abstract Models for Literary History.” London, New York.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Moretti, Franco</hi> (2016): “Distant Reading.” Göttingen.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Schneider, Stefanie</hi> (2019): „Über die Ungleichheit im Gleichen. Erkennung unterschiedlicher Reproduktionen desselben Objekts in kunsthistorischen Bildbeständen.“ In: 
+                        <hi rend="italic">DHd 2019. Digital Humanities im deutschsprachigen Raum 2019. Konferenzabstracts</hi>, S. 92–94. https://doi.org/10.5281/zenodo.2596095.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Schönholz, Christian</hi> (2017): „Jede Kopie ein Original!. Aspekte eines kulturellen Größenverhältnisses.“ In: Koch, Gertraud (Hg.): 
+                        <hi rend="italic">Digitalisierung. Theorien und Konzepte für die empirische Kulturforschung</hi>. Konstanz/München 2017, S. 157–182.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Star, Susan Leigh / Strauss, Anselm L.</hi> (1999): “Layers of Silence, Arenas of Voice. The Ecology of Visible and Invisible Work.” In: 
+                        <hi rend="italic">Computer Supported Cooperative Work</hi> 8/1-2, S. 9–30.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Werner, Claus</hi> (2019): „Die Sammlung als Graph. Gephi als Tool der Sammlungsevaluation. Deutsches Bergbau-Museum Bochum.“ Vortrag im Rahmen der Tagung 
+                        <hi rend="italic">Museums and the Internet (Mai-Tagung) 2019</hi>. https://mai-tagung.lvr.de/media/mai_tagung/pdf/2019/MAI-2019-Werner.pdf.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

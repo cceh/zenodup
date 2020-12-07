@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="284_final-FRICKE_STEYER_Henrike_Digitales_Publizieren_im_Spiegel_der_Z" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Digitales Publizieren im Spiegel der Zeitschrift für digitale Geisteswissenschaften - ZfdG: Eine Standortbestimmung</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Fricke-Steyer</surname>
+                        <forename>Henrike</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund MWW, Deutschland</affiliation>
+                    <email>henrike.fricke@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Klaffki</surname>
+                        <forename>Lisa</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund MWW, Deutschland</affiliation>
+                    <email>klaffki@hab.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T22:59:18.359986000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitales Publizieren</term>
+                    <term>Metadatenanalyse</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Kontextsetzung</term>
+                    <term>Visualisierung</term>
+                    <term>Metadaten</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="background-color(#ffffff)">Die </hi>
+                <hi rend="background-color(#ffffff)italic">Zeitschrift für digitale Geisteswissenschaften - ZfdG</hi><hi rend="superscript">1</hi>
+                <hi rend="background-color(#ffffff)italic"> </hi>
+                <hi rend="background-color(#ffffff)">ist ein Open Access-Forschungsperiodikum, das sich Themen an der Schnittstelle von geisteswissenschaftlicher und digitaler Forschung widmet. Adaptionen von Informatik und Informationswissenschaft eröffnen der Gesamtheit der Geisteswissenschaften neue Wege der Wissenserschließung, tragen zur Etablierung neuer Forschungsansätze bei und liefern neue Möglichkeiten der Auf- und Nachbereitung von Quellen, Dokumenten, Daten und Medien. Die Verknüpfung von technischen Innovationen und geisteswissenschaftlichen Forschungsfragen bildet die Grundlage zu einer Standortbestimmung der digitalen Geisteswissenschaften.</hi>
+            </p>
+            <p>
+                <hi rend="background-color(#ffffff)">Mit der </hi>
+                <hi rend="background-color(#ffffff)italic">Zeitschrift für digitale Geisteswissenschaften – ZfdG</hi>
+                <hi rend="background-color(#ffffff)"> bietet der Forschungsverbund Marbach Weimar Wolfenbüttel (MWW) in Zusammenarbeit mit dem Verband Digital Humanities im deutschsprachigen Raum (DHd) seit 2015 ein Forum zur Präsentation und Diskussion von Forschungsergebnissen im Kontext der Digital Humanities. Die Geisteswissenschaften richten ihr Augenmerk zunehmend auf Fragestellungen, die digitale Möglichkeiten in ihre Überlegungen einbeziehen oder diese vermehrt zum Ausgangspunkt ihrer Forschungen und Projekte machen. Auch lassen sich alte Fragestellungen mit Hilfe digitaler Methoden neu bearbeiten, überprüfen oder auf wesentlich größere Korpora beziehen. Von der Digitalisierung der Primärquellen bis zur Änderung der Publikationskultur und Fachkommunikation unter digitalen Bedingungen reichen die Möglichkeiten, auf denen solche Fragestellungen basieren oder von denen sie ausgehen können. Die</hi>
+                <hi rend="background-color(#ffffff)italic">Zeitschrift für digitale Geisteswissenschaften – ZfdG</hi>
+                <hi rend="background-color(#ffffff)"> versteht sich als Organ, das all diese Entwicklungen disziplinübergreifend begleitet und auch die philosophischen, politischen, sozialen und kulturellen Implikationen und Konsequenzen beleuchtet, die der digitale Wandel mit sich bringt. Sie setzt sich für eine Geisteswissenschaft im digitalen Zeitalter ein, die die entscheidenden </hi>
+                <hi rend="background-color(#ffffff)">Fragen und Themen auf dem Weg zu digitalen Geisteswissenschaften verhandelt und auch kritischen Einwänden in diesem Feld Raum für Debatten bietet. Durch ein klares Bekenntnis zu Open Access sind die Beiträge für alle zugänglich, durch die Verfügbarkeit der Beiträge als XML stehen auch sie als potentielles Quellenmaterial für weitere Forschungen zur Verfügung.</hi>
+            </p>
+            <p>
+                <hi rend="background-color(#ffffff)">Da digitale Veröffentlichungsformen zunehmend als vollwertige wissenschaftliche Publikation an Bedeutung gewinnen und neben die traditionellen Publikationsformate gedruckter Monographien oder Zeitschriftenartikel treten (Kohle 2017: 199), liegt es nahe, die digitale Publikationsform selbst zum Gegenstand des Erkenntnisinteresses zu machen. Das Poster möchte daher im Spiegel der bisher veröffentlichten Artikel der </hi>
+                <hi rend="background-color(#ffffff)italic">Zeitschrift für digitale Geisteswissenschaften – ZfdG</hi>
+                <hi rend="background-color(#ffffff)"> auf die Landschaft des Digitalen Publizierens blicken und dabei folgende Aspekte thematisieren:</hi>
+            </p>
+            <list type="unordered">
+                <item>
+                    <hi rend="background-color(#ffffff)">Autorschaften (kollaborativ (Heller </hi>
+                    <hi rend="background-color(#ffffff)">und Bartling </hi>
+                    <hi rend="background-color(#ffffff)">201</hi>
+                    <hi rend="background-color(#ffffff)">4</hi>) oder einzeln)
+                </item>
+                <item>
+                    <hi rend="background-color(#ffffff)">Einbindung multimedialer Inhalte</hi>
+                </item>
+                <item>
+                    <hi rend="background-color(#ffffff)">Publikation / Verbindung mit Forschungsdaten</hi>
+                </item>
+                <item>
+                    <hi rend="background-color(#ffffff)">Fachliche Zuordnung(en) der Artikel</hi>
+                </item>
+                <item>
+                    <hi rend="background-color(#ffffff)">Gewähltes Peer Review-Verfahren (Post- </hi>
+                    <hi rend="background-color(#ffffff)">(Amsen 2014) </hi>
+                    <hi rend="background-color(#ffffff)">oder Prepublication)</hi>
+                </item>
+                <item>
+                    <hi rend="background-color(#ffffff)">Metriken (Zugriffszahlen und Downloads)</hi>
+                </item>
+                <item>
+                    <hi rend="background-color(#ffffff)">Wissenschaftliche Rezeption der Artikel</hi>
+                </item>
+            </list>
+            <p>
+                <hi rend="background-color(#ffffff)">Dazu sollen die bis zur Konferenz erschienenen Beiträge bzw. deren Metadaten auf die genannten Aspekte hin quantitativ ausgewertet werden und die Ergebnisse dem Konferenzmedium Poster angemessen visualisiert werden, etwa durch den Einsatz von Diagrammen und Wortwolken. Diese Bestandsaufnahme versteht sich auch als Beitrag zur Diskussion um die Entwicklung des Bereichs des Digitalen Publizierens (DHd-Arbeitsgruppe 2016). Denn das Potential digitaler Veröffentlichungen liegt gerade auch in der Interaktionsfähigkeit dieser mit anderen medialen Formen, die Einbindung multimedialer Inhalte (Maciocci 2017) bis hin zu </hi>
+                <hi rend="background-color(#ffffff)">sogenannten Enhanced Publications (Degwitz 2015), dem Vernetzen mit anderen Online-Ressourcen durch Linked Open Data oder der parallelen Publikation von Artikel und Forschungsdaten bzw. sogenannten Data Papers. Deshalb soll hier exemplarisch geprüft werden, inwieweit diese Möglichkeiten, die technisch umsetzbar sind, von den AutorInnen auch bei der Konzeption ihrer Artikel genutzt werden.</hi>
+            </p>
+        </body>
+        <back>
+			<div type="notes">
+				<note xml:id="ftn1" place="foot" n="1"> <ref target="http://zfdg.de/">http://www.zfdg.de/</ref></note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Amsen, Eva (2014):</hi> 
+                        <hi rend="italic">What is post-publication peer review?</hi>, 
+                        in: Blogpost auf F1000 Research Blog.
+                        <ptr target="https://blog.f1000.com/2014/07/08/what-is-post-publication-peer-review/"/> [letzter Zugriff: 14.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Degkwitz, Andreas (2015):</hi> 
+                        <hi rend="italic">Enhanced Publications Exploit the Potential of Digital Media</hi>, 
+                        in: Evolving Genres of ETDs for Knowledge Discovery. Proceedings of ETD 2015 18th International Symposium on Electronic Theses and Dissertations 51–59.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">DHd-Arbeitsgruppe (2016):</hi> 
+                        <hi rend="italic">Digitales Publizieren</hi>, 
+                        in: 
+                        <hi rend="bold">DHd-Arbeitsgruppe (eds.):</hi> 
+                        Working Paper <hi rend="italic">Digitales Publizieren</hi> 
+                        <ptr target="http://diglib.hab.de/ejournals/ed000008/startx.htm"/>[letzter Zugriff: 14.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heller, Lambert / The, Ronald / Bartling, Sönke (2014):</hi> 
+                        <hi rend="italic">Dynamic Publication Formats and Collaborative Authoring</hi>, 
+                        in: 
+                        <hi rend="bold">Bartling S., Friesike S. (eds):</hi> 
+                        <hi rend="italic">Opening Science.</hi> 
+                        Cham: Springer 191–211. DOI: 10.1007/978-3-319-00026-8.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kohle, Hubertus (2017):</hi> 
+                        <hi rend="italic">Digitales Publizieren</hi>, 
+                        in: 
+                        <hi rend="bold">Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.):</hi> 
+                        <hi rend="italic">Digital Humanities. Eine Einführung.</hi> 
+                        Stuttgart: Metzler Verlag 199–205.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Maciocci, Giuliano (2017):</hi> 
+                        <hi rend="italic">Designing Progressive Enhancement Into The Academic Manuscript: Considering a design strategy to accommodate interactive research articles</hi>, 
+                        in: Blogpost auf eLife Sciences. 
+                        <ptr target="https://elifesciences.org/labs/e5737fd5/designing-progressive-enhancement-into-the-academic-manuscript"/>[letzter Zugriff: 14.10.2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="227_final-ROEDER_Torsten_Digital_Humanities__from_Scratch_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Digital Humanities “from Scratch”</title>
+                    <title type="sub">Herausforderungen der DH-Koordination zwischen Querschnittsaufgaben und “one-(wo)man-show”</title>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Infrastrukturen</term>
+                    <term>Aufbau</term>
+                    <term>Koordination</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>[Abstract] Immer häufiger schaffen universitäre, akademische und andere wissenschaftliche Institutionen neue Stellen, um Aktivitäten im Bereich der Digital Humanities zu koordinieren und Infrastrukturen aufzubauen. Beginnt man heute damit ganz von vorn, sei es im Rahmen einer Querschnittsstelle, einer neuen Abteilung oder auch ohne offizielles Mandat, steht man vor anderen Voraussetzungen als vor einem Jahrzehnt. Während einige wenige Standorte inzwischen auf eine langjährig gewachsene DH-Infrastruktur zurückblicken können, stellt die Etablierung von DH-Strukturen “from scratch” im laufenden Betrieb hohe institutionelle, organisatorische, personelle und technische Anforderungen. Übergreifender Austausch, Vernetzung und Bündelung von Initiativen und Aktivitäten jenseits von Institutionen und Verbünden stehen jedoch bislang aus. In diesem moderierten Panel stellen die Beitragenden, die durch ihre Institutionen mit solchen Aufgaben betraut wurden oder diese initiieren, ihre bisherigen Herausforderungen, Erfahrungen und Lösungsansätze zur Diskussion, um aktuelle Desiderate zu identifizieren und sowohl Handlungsoptionen als auch mögliche Strategien aufzuzeigen – und damit einen Impuls für weiterführende Initiativen zu geben.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Wenngleich Zentrumsbildung als ein Merkmal der Institutionalisierung der DH gilt (Sahle 2015), findet DH auch abseits solcher “Zentren” statt. Wie aktuelle Ausschreibungen zeigen, entsteht derzeit Koordinationsbedarf an vielen Standorten, die erst jetzt Strukturen aufbauen können oder wollen. Während auf Projektebene bereits Erfahrungsberichte und Best Practices vorliegen (Pitti 2004), wird die organisatorisch-strukturelle bzw. institutionelle Dimension in Deutschland, Österreich und der Schweiz zwar im bibliothekarischen Kontext (Maier 2016), aber nur selten aus DH-Sicht reflektiert (im anglo-amerikanischen Raum: Posner 2016, Anne et al. 2017).</p>
+                <p>Zudem basiert DH auf Interdisziplinarität und Kollaboration und resultiert in Koproduktionen, die nicht mehr auf eine Einzelperson zurückführbar sind (Unsworth 1997). In Kombination mit der methodologisch angelegten Überwindung der Disziplinengrenzen entsteht ein Spannungsfeld, das kommunikative Prozesse vor neue Herausforderungen stellt (Edmond 2016). Auch dies wird in den DH kaum erörtert (Griffin / Hayler 2018), obwohl Koordinationsbedarf sowohl in einzelnen Forschungsprojekten als auch in Institutionen selbst besteht.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Konzeption des Panels</head>
+                <p>Dieses Panel eröffnet ein Diskussionsforum für Akteure, die mit dem Aufbau von DH-Abteilungen, DH-Infrastrukturen oder DH-Querschnittsaufgaben befasst sind. Im Vordergrund stehen Strategien und Methoden für einen reflektierten Umgang mit standortspezifischen Voraussetzungen. Anhand eines Vergleichs der vorgestellten Strukturen, Strategien und Erfahrungen der Teilnehmenden werden grundlegende technische, organisatorische und strukturelle Herausforderungen herausgearbeitet, um den Anstoß für eine breitere Diskussion der Anforderungen und Potenziale aktueller Entwicklungen zu geben.</p>
+                <p>Das Panel bildet die Heterogenität der Akteure im deutschsprachigen Raum exemplarisch ab. Leitend für die Zusammenstellung ist die Diversität institutioneller Formen hinsichtlich Größe, Ausrichtung und Auftrag sowie als Grundbedingung der konzeptionelle Aufbau einer DH-Struktur “from scratch”. Werden im aktuellen Diskurs bislang zuvorderst bereits bestehende DH-Infrastrukturangebote wie diejenigen der zwei großen Verbundprojekte DARIAH-DE und CLARIN, von etablierten geisteswissenschaftlichen Datenzentren oder der im Aufbau begriffenen Nationalen Forschungsdaten-Infrastruktur (NFDI) in den Blick genommen, gilt demgegenüber der Situation von “One-Person-Digital-Humanists” hier besondere Aufmerksamkeit. Das Panel bietet ein Forum für die auf der DHd-Konferenz vertretene Gruppe solcher DH-Koordinator*innen, auch solcher avant la lettre oder ohne explizites Mandat.</p>
+                <p>Das Panel beginnt mit kurzen Statements der Beitragenden, die ihre Ausgangslage skizzieren und problematisieren (‘30). Die nachstehenden Leitfragen werden dann, geleitet vom Moderationsteam, gemeinsam mit Panel und Plenum diskutiert (‘45). Abschließend werden im Plenum Rückmeldungen zur Bearbeitung des Themenfeldes eingeholt und Möglichkeiten für anschließende Aktivitäten ausgelotet (‘15).</p>
+                <p>Das Autorenteam strebt die Ergebnissicherung in Form eines Blog-Berichtes an und formuliert gleichzeitig das Angebot, weiterführende Vernetzungs- und Vermittlungsaktivitäten durch Workshops, Arbeitsgruppen oder Publikationen anzustoßen und zu unterstützen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Leitfragen</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Die Verortung verstehen</head>
+                    <p>Die institutionelle Verortung definiert unmittelbar Arbeitsweise und Tätigkeitsfelder einer koordinierenden DH-Stelle. Die Heimatinstitution bestimmt den Zugang zu personellen, finanziellen und infrastrukturellen Ressourcen. Die Positionierung im Organigramm hat wiederum wesentlichen Einfluss auf die Handlungsoptionen innerhalb der Einrichtung und der gesamten Organisation. Der Anspruch der DH, “querliegend” zu operieren, changiert auf institutioneller Ebene zwischen struktureller Isolation und Entgrenzung. Welche Auswirkungen haben Zuordnungen zu Verwaltung, Fachbereich, Lehrstuhl, Bibliothek, Forschungsinstitut, Verbundprojekt und Bezeichnungen wie Abteilung, Koordinationsbüro, Stabsstelle?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Die Kompetenzen abdecken</head>
+                    <p>DH-Kompetenz ist in diversen Spezialisierungen sowohl kontinuierlich als auch temporär aufzubauen, heranzuziehen oder auch zusammenzuführen. Längerfristige Perspektiven für DH-Personal tun sich nur unter besonderen Umständen auf (vgl. Boyles et al. 2018); ebenfalls selten sind Werkverträge mit dedizierten DH-Dienstleistern. Kooperationen mit anderen Institutionen, die über DH-Zentren verfügen, oder mit übergreifenden Infrastrukturprojekten wie CLARIN/DARIAH bieten sich an, existieren aber nicht als standardisierte Vorgänge und decken die Anforderungen nur partiell ab. Welche Expertise sollte eine DH-Koordination mitbringen? Sind Aufteilungen in eine wissenschaftliche sowie eine technische DH-Koordination wünschenswert? Wie können Kompetenzen ausgelagert und wieder eingeholt werden?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Die Aufgaben definieren</head>
+                    <p>DH-Koordination steht anfangs vor der Aufgabe, den Status Quo an ihrer Institution zu kartieren. Welche Aktivitäten, welche Expertise, welche Infrastrukturen bestehen bereits? Welche Projekte und Akteure sind einzubeziehen, wo sind (womöglich fächerspezifische) Lücken und Bedarfe im Hinblick auf Technik, Kompetenzverteilung, Empfehlungen, Best Practices und Policies identifizierbar? Bestehen institutionelle Angebote benachbarter, DH-relevanter Themenfelder wie Forschungsdatenmanagement, Digitalem Publizieren und Open Science? Welche Arbeitsschritte sind wann zu priorisieren, und sind z.B. modulare Konzepte solchen vorzuziehen, die eine institutionelle Gesamtstrategie verfolgen? Wie umfänglich kann und soll Beratung geleistet werden? Welche Instrumente und Formate stehen zur Kompetenzvermittlung zur Verfügung?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Die Fachforschung erreichen</head>
+                    <p>Wissenschaftsgeleitete, forschungsgetriebene Angebote, wie sie DH-Koordinationen und -zentren leisten sollen, basieren auf der fundierten Kenntnis fächerspezifischer Bedarfe, Methoden und Forschungspraktiken. Auf der Grundlage fachwissenschaftlicher Forschungsfragen und im Verbund mit Projekten, Vorhaben und Gremien lassen sich bedarfsgerechte Angebote (Software, Dienste, Beratung) entwickeln und etablieren. Zugleich sind experimentelle Formate wünschenswert, die im Sinne eines “Lab” die Tauglichkeit neuer Angebote evaluieren. Jedoch muss der Kontakt zur Fachforschung aktiv initiiert und etabliert werden: Wie kann die Zielgruppe erreicht, eine Außendarstellung kommuniziert, können Akteure untereinander vernetzt, eine Community aufgebaut, DH als Service etabliert werden? Welche Modelle und Formate bieten sich an: DH-Workshops, Vorlesungsreihen oder fächerübergreifende Arbeitsgruppen?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>IT und Bibliothek mitnehmen</head>
+                    <p>Die DH verändern das traditionelle Verhältnis zwischen Fachwissenschaft, IT/Rechenzentrum und Bibliothek. Deren Aufgabenfelder greifen an mehreren Stellen ineinander und überlagern sich, sind jedoch von unterschiedlichen Aufgaben und Mandaten geprägt. Während die IT die Grundversorgung mit EDV und Netzinfrastruktur stellt, benötigen die DH spezifische Entwicklungsumgebungen und Webapplikationen. Ebenso fordern sie bei Bibliotheken informationswissenschaftliche Expertise, spezielle Digitalisierungsverfahren sowie Datenmodellierung, -archivierung und -kuration an, während bisher bibliografische Erfassung und Literaturbeschaffung das Arbeitsfeld dominierten (Maier 2016). Die neuen Aufgaben übersteigen nicht selten die inhäusigen Kapazitäten und Kompetenzen. Wie können IT und Bibliothek in den Aufbau von DH-Strukturen integriert werden? Was ist bei der Nutzung außerhäusiger Dienste zu berücksichtigen?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Den Wandel begleiten</head>
+                    <p>In einigen Forschungsprojekten gelingt unter engen thematischen, organisatorischen und personellen Rahmenbedingungen mitunter die Integration neuer digitaler Methoden oder Praktiken. Doch lassen sich diese Erfahrungen auf die institutionelle Ebene skalieren, z.B. für Forschungseinrichtungen, SFBs oder Exzellenzcluster? Wenn sich Arbeitsabläufe und Forschungsprozesse an einer Einrichtung grundsätzlich oder dauerhaft ändern sollen, werden ein institutionelles Veränderungsmanagement und eine Nachhaltigkeitsstrategie notwendig. Dieser Aspekt ist im Fachdiskurs der DH bisher nicht präsent. Dennoch fällt den koordinierenden DH-Stellen entweder diese Aufgabe zu oder wird durch das Aufgabenfeld notwendig. “The ultimate function of the digital humanities center at the present time, then, is to be an agent of change.” (Freistat 2012)</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Beitragende (alphabetisch)</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Swantje Dogunke (Weimar)</head>
+                    <p>Seit dem Jahr 2013 bündeln das Deutsche Literaturarchiv Marbach, die Klassik Stiftung Weimar und die Herzog August Bibliothek Wolfenbüttel ihre Forschungsaktivitäten auf Empfehlung des Wissenschaftsrats in einem Verbund, der vom Bundesministerium für Bildung und Forschung gefördert wird. Ziele des Verbunds sind neben der Erforschung der Bestände der drei Einrichtungen der Aufbau einer gemeinsamen Forschungsinfrastruktur, um die digitalen Sammlungen der Institutionen bestandsübergreifend durchsuchbar zu präsentieren und in projektspezifischen Arbeitsumgebungen Tools und Services zu deren Beforschung bereitzustellen. </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Frederik Elwert (Bochum)</head>
+                    <p>Das Centrum für Religionswissenschaftliche Studien (CERES) ist eine Zentrale Wissenschaftliche Einrichtung der Ruhr-Universität Bochum. Seit 2010 ist CERES an Drittmittelprojekten in den Digital Humanities beteiligt. Seit 2016 besteht eine entsprechende Koordinationsstelle, die Projekte begleitet, bei Anträgen berät und Schulungen durchführt. An der Ruhr-Universität gibt es derzeit keine dedizierte DH-Infrastruktur, allerdings bietet die neu eingerichtete AG Forschungsdatenmanagement Anknüpfungspunkte. Dies verspricht auch Verbesserungen für die noch unbefriedigende Nachhaltigkeit der DH-Projekte.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Harald Lordick (Essen)</head>
+                    <p>Das Steinheim-Institut erforscht deutsch-jüdische Geschichte in breitem Spektrum. Rare, weltweit verstreute Quellen, das "Setting" einer kleinen, außeruniversitär und interdisziplinär arbeitenden Einrichtung mit spezifischen Anforderungen sind Antrieb jahrzehntelangen Engagements, computergestützte Verfahren für geisteswissenschaftliches Tun nutzbringend anzuwenden. Zunächst eher auf jeweils aktuelle Bedarfe wissenschaftlichen Arbeitens, Recherche und Publikation bezogen, entstehen zunehmend auch forscherische, digital-analytische Perspektiven. Aus diesen Erfahrungen, mit einer gewachsenen digitalen Strategie und ohne dedizierte DH-Stellen beteiligen sich MitarbeiterInnen aktiv an Infrastrukturbestrebungen wie DARIAH-DE, GND und Community-getriebenen Linked-Data-Initiativen.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Torsten Roeder (Halle)</head>
+                    <p>Als die Leopoldina 2008 zur Nationalen Akademie der Wissenschaft ernannt wurde, entstand das Bedürfnis nach einer Einrichtung, an der die traditionellen und neuen Aufgaben der Akademie historisch und theoretisch reflektiert werden. Vor diesem Hintergrund wurde 2012 das Leopoldina-Studienzentrum gegründet, um die wissenschaftshistorischen, wissenschaftstheoretischen und wissenschaftsphilosophischen Aktivitäten der Akademie zu koordinieren. 2018 wurde eine Referentenstelle mit Schwerpunkt Digital Humanities geschaffen, um die eigenen Forschungsvorhaben und diversen Drittmittelprojekte auf eine digital konsistente Basis zu stellen und ein DH-Gesamtkonzept für das Studienzentrum zu erarbeiten.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Sibylle Söring (Berlin)</head>
+                    <p>Seit 2016 weitet die Freie Universität Berlin ihre Angebote im Kontext infrastruktureller und serviceorientierter Unterstützung (geistes-)wissenschaftlicher Forschung aus. Im Zentrum des Aufbaus einer DH-Infrastruktur stehen die Beratung geisteswissenschaftlicher Forschungsvorhaben bei der Entwicklung und Umsetzung einer digitalen Strategie, der Aufbau von Infrastrukturen für das geisteswissenschaftliche Forschungsdatenmanagement sowie die Nutzbarmachung relevanter Technologien und forschungsnaher Dienste. Ziel ist der Aufbau universitätseigener Strukturen und Lösungen. Dabei werden u.a. die Ergebnisse INF-Teilprojekts des SFB 980 “Episteme in Bewegung” nachgenutzt.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Thorsten Wübbena (Paris)</head>
+                    <p>Die Abteilung Digital Humanities am Deutschen Forum für Kunstgeschichte Paris wurde Ende 2014 eingerichtet und arbeitet an der Schnittstelle zwischen kunstgeschichtlicher Forschung und IT. Neben der Durchführung eigener Forschungsarbeit auf diesem Gebiet versteht sie sich als Ansprechpartnerin für alle Abteilungen des Hauses bei Fragen rund um Digitalität in der Forschung. Dazu gehören sowohl die Konzeption digitaler Editionen, die Digitalisierung und Pflege geisteswissenschaftlicher Forschungsdaten als auch deren Analyse. Die Verknüpfung mit den internationalen Entwicklungen der Forschungsgemeinschaft geschieht direkt aus den Forschungsvorhaben und Kollaborationen heraus.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Moderation</head>
+                <p>Fabian Cremer, Referent, Geschäftsstelle der Max Weber Stiftung, Bonn</p>
+                <p>Anne Klammt, Geschäftsführerin mainzed, Hochschule Mainz</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-c31219c0-7fff-3e59-9abd-b6b85769f5eb"/>
+                        <hi rend="bold">Anne, Kirk M., et al. (2017):</hi>
+                        <hi rend="italic"> Building Capacity for Digital Humanities: A Framework for Institutional Planning</hi>, 
+                        ECAR working group paper. Louisville, CO: ECAR,
+                        <ptr target="https://library.educause.edu/~/media/files/library/2017/5/ewg1702.pdf"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Boyles, Christina et al. (2018):</hi>
+                        <hi rend="italic">Precarious Labour in the Digital Humanities. </hi>
+                        Panel, ADHO DH2018, Mexico DF,
+                        <ptr target="https://dh2018.adho.org/precarious-labor-in-the-digital-humanities/"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Edmond, Jennifer (2016):</hi>
+                        <hi rend="italic">Collaboration and Infrastructure</hi>, 
+                        in: 
+                        <hi rend="bold">Schreibman, Susan et al. (eds.):</hi> 
+                        <hi rend="italic">A New Companion to Digital Humanities</hi>, 
+                        2nd Edition, Malden, MA: Wiley-Blackwell 54-65.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Freistat, Neil (2012):</hi>
+                        <hi rend="italic">The function of digital humanities centers at the present time</hi>, 
+                        in: Gold, Matthew K. (ed.): Debates in the Digital Humanities,
+                        <ptr target="http://dhdebates.gc.cuny.edu/debates/text/23"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Griffin, Gabriele / Hayler, Matt Steven (2018):</hi>
+                        <hi rend="italic">Collaboration in Digital Humanities Research – Persisting Silences</hi>, 
+                        in: Digital Humanities Quarterly 12(1), 
+                        <ptr target="http://www.digitalhumanities.org/dhq/vol/12/1/000351/000351.html"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Maier, Petra (2016):</hi>
+                        <hi rend="italic">Digital Humanities und Bibliothek als Kooperationspartner, </hi>
+                        in: DARIAH-DE Working Papers 19. Göttingen, 
+                        <ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2016-5-6">
+                            <hi rend="color(#1155cc)underline">urn:nbn:de:gbv:7-dariah-2016-5-6</hi>.
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pitti, Daniel. V. (2004):</hi>
+                        <hi rend="italic">Designing Sustainable Projects and Publications</hi>, 
+                        in: 
+                        <hi rend="bold">Schreibman, Susan et al. (eds.):</hi> 
+                        <hi rend="italic">A companion to digital humanities</hi>, 
+                        Oxford: Blackwell 31, 
+                        <ptr target="http://www.digitalhumanities.org/companion/"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Posner, Miriam (2016):</hi>
+                        <hi rend="italic">Here and There: Creating DH Community</hi>, 
+                        in: 
+                        <hi rend="bold">Gold, Matthew K. (ed.):</hi> 
+                        <hi rend="italic">Debates in the Digital Humanities</hi>, 
+                        2016 Edition, 
+                        <ptr target="http://dhdebates.gc.cuny.edu/debates/text/73"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick (2015):</hi>
+                        <hi rend="italic">Digital Humanities? Gibt’s doch gar nicht!</hi>, 
+                        in: 
+                        <hi rend="bold">Baum, Constanze / Stäcker, Thomas (eds.):</hi> 
+                        <hi rend="italic">Grenzen und Möglichkeiten der Digital Humanities</hi>, 
+                        <ptr target="https://dx.doi.org/10.17175/sb001_004"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Unsworth, John (1997):</hi>
+                        <hi rend="italic">Creating Digital Resources: the Work of Many Hands</hi>, 
+                        Vortrag am 14.09.1997, Digital Resources for the Humanities, Oxford, England, 
+                        <ptr target="http://www.people.virginia.edu/~jmu2m/drh97.html"/>
+                        [zuletzt abgerufen 27.09.2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

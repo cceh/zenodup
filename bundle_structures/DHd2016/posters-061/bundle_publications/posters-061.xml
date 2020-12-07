@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Über die Nutzung von TagPies zur vergleichenden Analyse von Textdaten</title>
+        <author>
+          <name>
+            <surname>Jänicke</surname>
+            <forename>Stefan</forename>
+          </name>
+          <affiliation>Leipzig University, Deutschland</affiliation>
+          <email>stjaenicke@informatik.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Efer</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>Leipzig University, Deutschland</affiliation>
+          <email>efer@informatik.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Blumenstein</surname>
+            <forename>Judith</forename>
+          </name>
+          <affiliation>Leipzig University, Deutschland</affiliation>
+          <email>blumenst@rz.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wöckener-Gade</surname>
+            <forename>Eva</forename>
+          </name>
+          <affiliation>Leipzig University, Deutschland</affiliation>
+          <email>woeckener-gade@uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schubert</surname>
+            <forename>Charlotte</forename>
+          </name>
+          <affiliation>Leipzig University, Deutschland</affiliation>
+          <email>schubert@uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Scheuermann</surname>
+            <forename>Gerik</forename>
+          </name>
+          <affiliation>Leipzig University, Deutschland</affiliation>
+          <email>scheuermann@informatik.uni-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-09-10T23:31:26.327513022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Tag Clouds</term>
+          <term>TagPies</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Gestaltung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Kontextsetzung</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Software</term>
+          <term>Text</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1">
+        <head>Motivation</head>
+        <p>Vor allem durch die häufige Nutzung in den sozialen Medien sind Tag Clouds
+          heutzutage weit verbreitete Visualisierungen um den Inhalt textbasierter Daten
+          zu veranschaulichen. Im Forschungsbereich der Informatik wurden zahlreiche
+          Verfahren zur Berechnung von Tag Clouds entwickelt, unter anderem <hi
+          rend="italic">Wordle</hi> (Viégas et al. 2009). Abbildung 1 zeigt eine durch
+          Wordle generierte Tag Cloud für die häufigsten Schlagworte aus den fünf
+          Shakespeare Werken <hi rend="italic">As You Like It</hi>, <hi rend="italic"
+          >Macbeth</hi>, <hi rend="italic">Othello, Richard III</hi> und <hi
+          rend="italic">Romeo and Juliet</hi>. Wie für Tag Clouds üblich, wird die
+          Häufigkeit eines Wortes mit Schriftgröße kodiert. Leider tragen die weiteren
+          visuellen Eigenschaften – Farbe, Position und Orientierung – der Darstellung
+          keine Informationen. In unserer Posterpräsentation möchten wir TagPies
+          vorstellen, ein im Rahmen des Digital Humanities Projektes <ref
+          target="http://exchange-projekt.de/">eXChange</ref> entwickeltes Tag Cloud
+          Layout. Während das Design von TagPies bereits vorgestellt wurde (Jänicke et al.
+          2015), sollen hier repräsentative Anwendungsszenarien illustriert werden. Ein
+          TagPie kann als Hybrid aus Tag Cloud und Pie Chart gesehen werden, bei dem
+          mehrere einzelne Tag Clouds miteinander zu einer Einheit verschmelzen. Im
+          Gegensatz zu herkömmlichen Tag Clouds verwenden TagPies neben Schriftgröße auch
+          Farbe und Position als Informationsträger und ermöglichen damit den Vergleich
+          von Schlagworten verschiedener Kategorien. Abbildung 2 zeigt einen TagPie für
+          die häufigsten Schlagworte aus den oben genannten Shakespeare Werken. Wie in den
+          folgenden Beispielen bestimmt die Größe einer Textklasse im Vergleich zu den
+          anderen die Größe des zugehörigen Kuchenstückes im TagPie. Weitere Beispiele in
+          den Abbildungen 3 und 4 veranschaulichen die sprachunabhängige, vielseitige
+          Anwendbarkeit von <ref target="http://www.tagpies.vizcovery.org/">TagPies</ref>
+          (Jähnicke 2015) – welche als Web-basierte Open Source JavaScript Bibliothek
+          implementiert und damit projektunabhängig einsetzbar sind – für verschiedene
+          geisteswissenschaftliche Fragestellungen. </p>
+          <figure>
+            <graphic url="p061-10000201000004BC0000021CE9AE6605.png"/>
+            <p><hi rend="bold">Abb. 1</hi>: Wordle Tag Cloud vereint Schlagworte
+            aller Texte.</p>
+          </figure>
+          <figure>
+            <graphic url="p061-10000201000004800000045615798E77.png"/>
+            <p><hi rend="bold">Abb. 2</hi>: TagPie ermöglicht den Vergleich von
+            Schlagworten zwischen den Texten.</p>
+          </figure>
+          <figure>
+            <graphic url="p061-1000000000000408000003DE2D309CB1.png"/>
+            <p><hi rend="bold">Abb. 3</hi>: Das Voynich-Manuskript ist ein mehr als
+            einhundert Seiten umfassendes, in einer Geheimschrift verfasstes Werk
+            (wahrscheinlich aus dem frühen 15. Jahrhundert), welches bis heute nicht
+            entschlüsselt wurde und damit viele Wissenschaftler fasziniert. Die
+            TagPie-Visualisierung ermöglicht die visuelle Exploration von
+            Wort-Kontexten, welche neueren Analysen zufolge (Montemurro / Zanette
+            2013) interessante Muster aufweisen.</p>
+          </figure>
+          <figure>
+            <graphic url="p061-1000000000000436000003F40ED544A7.png"/>
+            <p><hi rend="bold">Abb. 4</hi>: Das Editionsprojekt <ref
+            target="http://www.ddr-im-blick.de/">“Die DDR im Blick der
+            Stasi”</ref> (BStU 2016) stellt die geheimen Stimmungs- und
+            Lageberichte der “Zentralen Auswertungs- und Informationsgruppe” (ZAIG)
+            des MfS einer breiten Öffentlichkeit zur Verfügung. Der TagPie zeigt die
+            Kookkurrenzwörter für die Nachnamen ausgewählter, besonders in den Fokus
+            der Stasi geratener kirchlicher Amtsträger. Weiterführende Informationen
+            in (Kuras et al. 2014). </p>
+          </figure>
+        </div>
+        <div type="div1">
+          <head>Über die Nutzung von TagPies in eXChange </head>
+          <p>Das Digital Humanities Projekt eXChange untersucht den Gebrauch medizinischer und politischer Fachtermini in antiken griechischen und lateinischen Texten. Zur explorativen, vergleichenden Analyse sind TagPies in eine Rechercheplattform eingebunden, die den Geisteswissenschaftlern einen dynamischen Zugriff auf Textstellen ermöglicht, die eingegebene Suchterme enthalten. Jeder Suchterm wird innerhalb des TagPies durch einen Sektor repräsentiert, der seine häufigsten Kookkurrenzen anzeigt. Im Vergleich zu traditionellen Suchergebnislisten geben TagPies damit einen schnellen Überblick über die Kontexte, in denen die Suchterme verwendet wurden. Der TagPie ist interaktiv explorierbar und ermöglicht Close Reading durch die Selektion eines Schlagwortes via Mausklick, welches Textpassagen anzeigt, die sowohl den Suchterm als auch die gewählte Kookkurrenz enthalten. Im Folgenden sind zwei typische Anwendungsszenarien aus dem eXChange Projekt erläutert.</p>
+          <div type="div2">
+            <head>
+              <hi rend="bold">Vergleich von </hi>
+              <hi rend="bold italic">gibbus</hi>
+              <hi rend="bold"> und </hi>
+              <hi rend="bold italic">gibbosus</hi>
+            </head>
+            <p>Für den Ausdruck “bucklig” findet man in lateinischen Wörterbüchern die
+              Synonyme “gibbus” und “gibbosus”. Mit Hilfe von TagPies soll diese Synonymie
+              überprüft werden (Abbildung 5); das Ergebnis berücksichtigt die Belegstellen
+              aller Deklinationsformen der Suchterme. Die schwarz eingefärbte Schnittmenge
+              im Zentrum liefert besonders auf den Körper bezogene Wörter wie “triefäugig”
+              (lippus), “Fuß” (pede) oder “gebrochen” (fracto). Der grüne Sektor für
+              “gibbus” zeigt weitere physische Begriffe wie “Rücken” (dorso), “Kopf”
+              (caput) und “Gehirn” (cerebri). Der rote Sektor liefert die Resultate für
+              “gibbosus”. Sie zeigen auffällig viele Begriffe aus dem Sachfeld der
+              christlichen “Moral”, etwa “Begierde” (cupiditatis), “geizig” (avarum),
+              “Mäßigung” (modestia) oder “sich rühmen” (glorietur). Der TagPie zeigt
+              demnach eine Tendenz, dass „gibbus“ eher bei physischen Eigenschaften,
+              „gibbosus“ eher bei moralischen Eigenschaften verwendet wurde (vgl.
+              physisch: Cels. IV 1,5; VIII 1,23; Iuv. 6,109; 10,294; moralisch:
+              christliche Exegeten). Ein Wörterbuch wie der Thesaurus Linguae Latinae
+              differenziert die Semantik zwar auch in “eigentlich” und “übertragen“, aber
+              über die Häufigkeit und Tendenz der Verwendung beider Begriffe gibt es im
+              Vergleich zu den TagPies keine Hinweise. Damit übersteigen TagPies den
+              “rekonstruktiven” Charakter von Wörterbüchern, indem sie auf die reale
+              Verwendung in den Textkorpora rekurrieren.</p>
+              <figure>
+                <graphic url="p061-10000201000004F400000724DB604F96.png"/>
+                <p><hi rend="bold">Abb. 5</hi>: Vergleichende Analyse von <hi
+                rend="bold">gibbus</hi> und <hi rend="bold">gibbosus</hi> mit
+                Belegstellen für <hi rend="bold">gibbus</hi> und <hi rend="bold"
+                >dorso</hi> sowie aus dem Sachfeld der christlichen “Moral”. </p>
+              </figure>
+            </div>
+            <div type="div2">
+              <head>Vergleich von ατρεμ*, ησυχ* und ακινητ*</head>
+              <p>Für die datenbankbasierte Suche wurden die trunkierten Formen ατρεμ*, ησυχ*
+                und ακινητ* – jeweils Synonyme für “ruhig” bzw. “unbewegt” – verwendet.
+                Weiter sollte in der vergleichenden Analyse untersucht werden, ob ατρεμ* als
+                medizinischer Fachterminus zu bezeichnen ist. Der resultierende TagPie
+                (Abbildung 6) verdeutlicht aufgrund der vielen gemeinsamen Kookkurrenzen der
+                Begriffe, gekennzeichnet durch die unterstrichenen Terme im mittleren
+                Bereich, dass die drei Wortgruppen in der Literatur häufig synonym verwendet
+                werden. ησυχ* liefert mit großem Abstand die meisten Belege und ist in den
+                verschiedensten Kontexten zu finden. Für ακινητ* gibt es viele Kookkurrenzen
+                mit κινουν (bewegen), zurückzuführen auf die aristotelische Philosophie, in
+                der der Gegensatz zwischen Unbewegtheit und Bewegtheit eine große Rolle
+                spielt. Da verschiedene medizinische und anatomische Begriffe ausschließlich
+                in den Kontexten von ατρεμ* auftreten, kann man ατρεμ* als medizinischen
+                Fachterminus bezeichnen. Beispiele hierfür sind Formen von διαφορητικος
+                (“schweißtreibend” oder “streuend”, u. a. von Tumoren und Medikamenten) oder
+                schlicht ητορ “Herz”. Die entsprechenden Belegstellen finden sich dann u. a.
+                in den medizinischen Schriften des Galen und Oribasius. Weitere Analysen der
+                einzelnen Belegstellen, aber auch weitere Visualisierungen mithilfe der
+                TagPies (z. B. mit Eingrenzung auf das Corpus Hippocraticum) sind geplant,
+                um die qualitative Auswertung der Ergebnisse fortzuführen.</p>
+                <figure>
+                  <graphic url="p061-100002010000050000000742E2291D24.png"/>
+                  <p><hi rend="bold">Abb. 6</hi>: Vergleichende Analyse von <hi
+                  rend="bold">ατρεμ*</hi>, <hi rend="bold">ησυχ* </hi>und <hi
+                  rend="bold">ακινητ*</hi> mit Belegstellen für für <hi
+                  rend="bold">ακινητ*</hi> und <hi rend="bold">κινουν</hi> sowie
+                  <hi rend="bold">ατρεμ* </hi>und <hi rend="bold"
+                  >διαφορητικος</hi>. </p>
+                </figure>
+              </div>
+            </div>
+            <div type="div1">
+              <head>
+                <hi rend="bold">Zusammenfassung</hi>
+              </head>
+              <p>Die Distant Reading Visualisierung TagPies ermöglicht den Vergleich verschiedener
+                Kategorien von Schlagworten innerhalb einer Tag Cloud. Im Rahmen des Projektes
+                eXChange hat sich die Verwendung von TagPies zur vergleichenden Analyse von
+                Fachtermini in antiken Texten als wertvoll erwiesen. In einer Posterpräsentation
+                würden wir typische Anwendungsszenarien der beteiligten
+                Geisteswissenschaftler_innen demonstrieren.</p>
+              </div>
+            </body>
+            <back>
+              <div type="bibliogr">
+                <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl><hi rend="bold">BStU = Bundesbeauftragter für die Unterlagen des
+                    Staatssicherheitsdienstes der ehemaligen DDR</hi> (2016): <hi
+                    rend="italic">Die DDR im Blick der Stasi</hi>. Die geheimen Berichte an
+                    die SED-Führung. <ref target="http://www.ddr-im-blick.de/"
+                    >http://www.ddr-im-blick.de/</ref> [letzter Zugriff 12. Februar
+                    2016].</bibl>
+                    <bibl><hi rend="bold">Jänicke, Stefan</hi> (2015): "TagPies", in: <hi
+                    rend="italic">vizcovery.org</hi>
+                    <ref target="http://www.tagpies.vizcovery.org/"
+                      >http://www.tagpies.vizcovery.org/</ref> [letzter Zugriff 12. Februar
+                      2016].</bibl>
+                      <bibl><hi rend="bold">Jänicke, Stefan/ Blumenstein, Judith / Rücker, Michaela /
+                        Zeckzer, Dirk / Scheuermann, Gerik</hi> (2015): "Visualizing the Results
+                        of Search Queries on Ancient Text Corpora with Tag Pies". To appear in <hi
+                        rend="italic">Digital Humanities Quarterly</hi>. </bibl>
+                        <bibl><hi rend="bold">Kuras, Christoph / Efer, Thomas / Adam, Christian / Heyer,
+                          Gerhard</hi> (2014): "The GDR Through the Eyes of the Stasi – Data
+                          Mining on the Secret Reports of the State Security Service of the former
+                          German Democratic Republic", in: Fred, Ana / Filipe, Joaquim (eds.): <hi
+                          rend="italic">Proceedings of the 6th International Conference on
+                          Knewledge Discovery an Information Retrieval (KDIR)</hi>, Rom. Lisbon:
+                          SCITEPRESS 360–365.</bibl>
+                          <bibl><hi rend="bold">Jänicke, Stefan / Blumenstein, Judith / Rücker, Michaela /
+                            Zeckzer, Dirk / Scheuermann, Gerik</hi> (2015): Visualizing the Results
+                            of Search Queries on Ancient Text Corpora with Tag Pies. To appear in <hi
+                            rend="italic">Digital Humanities Quarterly</hi>, 2015. </bibl>
+                            <bibl>
+                              <hi rend="bold">Montemurro, Marcelo A. / Zanette, Damián H.</hi> (2013):
+                              "Keywords and Co-Occurrence Patterns in the Voynich Manuscript: An
+                              Information-Theoretic Analysis", in: <hi rend="italic">PloS one</hi> 8, 6:
+                              e66344. </bibl>
+                              <bibl><hi rend="bold">Universität Leipzig Historisches Seminar</hi> (2013): <hi
+                              rend="italic">eXChange - Exploring Concept Change and Transfer in
+                              Antiquity</hi>
+                              <ref target="http://exchange-projekt.de/index.html"
+                                >http://exchange-projekt.de/index.html</ref> [letzter Zugriff 12.
+                                Februar 2016].</bibl>
+                                <bibl><hi rend="bold">Kuras, Christoph / Efer, Thomas / Adam, Christian / Heyer,
+                                  Gerhard</hi> (2014): "The GDR Through the Eyes of the Stasi – Data
+                                  Mining on the Secret Reports of the State Security Service of the former
+                                  German Democratic Republic", in: Fred, Ana / Filipe, Joaquim (eds.): <hi
+                                  rend="italic">Proceedings of the 6th International Conference on
+                                  Knewledge Discovery an Information Retrieval (KDIR)</hi>, Rom. Lisbon:
+                                  SCITEPRESS 360–365. </bibl>
+                                  <bibl>
+                                    <hi rend="bold"><abbr>Viégas</abbr>, Fernanda B. / Wattenberg, Martin /
+                                    Feinberg, Jonathan</hi> (2009): "Participatory Visualization with
+                                    Wordle", in: <hi rend="italic">IEEE Transactions on Visualization and
+                                    Computer Graphics</hi> 15, 6: 1137–1144.</bibl>
+                                    <bibl>
+                                      <hi rend="bold">Montemurro, Marcelo A. / Zanette, Damián H.</hi> (2013):
+                                      Keywords and Co-Occurrence Patterns in the Voynich Manuscript: An
+                                      Information-Theoretic Analysis. <hi rend="italic">PloS one</hi>, 8, 6:
+                                      e66344.</bibl>
+                                      <bibl>
+                                        <hi rend="bold">Viégas, Fernanda B. / Wattenberg, Martin / Feinberg,
+                                          Jonathan</hi> (2009): "Participatory Visualization with Wordle", in: <hi
+                                          rend="italic">IEEE Transactions on Visualization and Computer
+                                          Graphics</hi> 15, 6: 1137–1144.</bibl>
+                                        </listBibl>
+                                      </div>
+                                    </back>
+                                  </text>
+                                </TEI>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraesge-053">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wer bist Du, Nutzer?</title>
+        <author>
+          <name>
+            <surname>Fandrych</surname>
+            <forename>Christian</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>fandrych@rz.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Frick</surname>
+            <forename>Elena</forename>
+          </name>
+          <affiliation>IDS Mannheim, Deutschland</affiliation>
+          <email>frick@ids-mannheim.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Hedeland</surname>
+            <forename>Hanna</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>hanna.hedeland@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Iliash</surname>
+            <forename>Anna</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>annailiash.fm@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jettka</surname>
+            <forename>Daniel</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>daniel.jettka@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Meißner</surname>
+            <forename>Cordula</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>cordula.meissner@uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schmidt</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>IDS Mannheim, Deutschland</affiliation>
+          <email>thomas.schmidt@ids-mannheim.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wallner</surname>
+            <forename>Franziska</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>f.wallner@rz.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Weigert</surname>
+            <forename>Kathrin</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>kw59kahe@studserv.uni-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T18:33:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Nutzerstudie</term>
+          <term>mündliche Korpora</term>
+          <term>Analyse-Plattform</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Archivierung</term>
+          <term>Bewertung</term>
+          <term>Veröffentlichung</term>
+          <term>Sprache</term>
+          <term>Multimedia</term>
+          <term>Ton</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>Im Laufe der letzten Jahre sind weltweit mehrere Angebote entstanden, die
+          mündliche Korpora – also Sammlungen von Audio- oder Video-Aufnahmen gesprochener
+          Sprache mit zugehörigen Annotationen und Metadaten – der wissenschaftlichen
+          Gemeinschaft zur Verfügung stellen. Exemplarisch seien CLAPI (Bert et al. 2010)
+          und ESLO (Baude / Dugua 2011) für das Französische, die ORAL-Serie im
+          Tschechischen Nationalkorpus (Kren 2015), oder auch das erst kürzlich gestartete
+          <ref
+            target="http://languageresearch.cambridge.org/index.php/spoken-british-national-corpus"
+            >BNC Spoken2014</ref> genannt. Außer für genuin korpuslinguistische
+            Untersuchungen sind diese Ressourcen auch für die Gesprächsanalyse, die
+            Sprachvermittlung, die Kommunikationsforschung und viele weitere
+            geisteswissenschaftliche Disziplinen von Interesse. </p>
+            <p>Da die Angebote relativ neu sind und ihre Nutzer die neuen Möglichkeiten des digitalen Zugriffs gerade erst erkunden, wissen wir noch relativ wenig darüber, wer solche mündlichen Korpora wie und für welche Zwecke nutzt. Dies war der Anlass für die hier beschriebene Nutzerstudie, die von Mitarbeitern dreier solcher Angebote im deutschsprachigen Raum (DGD, GeWiss, HZSK, siehe unten) durchgeführt wurde. Die Nutzerstudie besteht aus einer webbasierten Umfrage, qualitativen („kontextuellen“) Interviews mit „Power“-Usern sowie Think-Aloud-Experimenten mit Neueinsteigern. In diesem Beitrag konzentrieren wir uns auf die Auswertung der Umfrage.</p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Korpus-Plattformen</head>
+            <p>Die Datenbank für Gesprochenes Deutsch (<ref target="http://dgd.ids-mannheim.de"
+              >DGD</ref>, Schmidt 2014a) am IDS Mannheim bietet Zugriff auf 23 mündliche
+              Korpora des Archivs für Gesprochenes Deutsch, darunter große Variationskorpora
+              wie „Deutsche Mundarten“ (Zwirner-Korpus) und „Deutsche Umgangssprache“
+              (Pfeffer-Korpus) sowie Gesprächskorpora wie das neue Forschungs- und Lehrkorpus
+              Gesprochenes Deutsch (FOLK, Schmidt 2014b). Die Plattform erlaubt das
+              explorative Browsen, ein systematisches Querying sowie einen Download von
+              Audio-Daten mit zugehörigen Transkripten und Metadaten. Seit dem ersten Release
+              im Dezember 2012 haben sich über 4000 Studierende, Forschende und Lehrende für
+              eine Nutzung der DGD registriert. </p>
+              <p>Das Korpus „<ref target="https://gewiss.uni-leipzig.de">Gesprochene
+                Wissenschaftssprache Kontrastiv</ref>“ (GeWiss, Slavcheva / Meißner 2014)
+                wurde in einer Kooperation des Herder-Instituts an der Universität Leipzig, der
+                Aston University (Birmingham) und der Universität Wroclaw aufgebaut. Ziel des
+                Projekts ist es, eine empirische Basis für komparative Untersuchungen
+                akademischer Sprache zu schaffen. Das Korpus umfasst zwei Genres gesprochener
+                Wissenschaftssprache: Vorträge von Studierenden und Experten sowie mündliche
+                Prüfungen. Der Großteil der Aufnahmen dokumentiert die Verwendung des Deutschen
+                durch Muttersprachler des Deutschen, Englischen, Polnischen und Bulgarischen.
+                Hinzu kommen Vergleichsdaten in Italienisch, Englisch und Polnisch von
+                jeweiligen Muttersprachlern. In dieser Zusammensetzung ermöglicht das Korpus
+                Untersuchungen auf verschiedenen Ebenen wie Lexik, Grammatik, Phonetik,
+                Struktur, Funktion, Stil und Diskurs. Das GeWiss-Korpus hat zurzeit etwa 400
+                registrierte Nutzer. </p>
+                <p>Der Großteil der am Hamburger Zentrum für Sprachkorpora (<ref
+                  target="https://corpora.uni-hamburg.de">HZSK</ref>, Hedeland et al. 2014)
+                  gehosteten mündlichen Korpora stammt aus dem Sonderforschungsbereich 538
+                  Mehrsprachigkeit. Diese 27 Korpora dokumentieren in vielfältiger Weise
+                  verschiedene Aspekte individueller oder gesellschaftlicher Mehrsprachigkeit in
+                  unterschiedlichsten Sprachkonstellationen. Sie umfassen u. a. mehrere
+                  Spracherwerbskorpora und Korpora aus mehrsprachigen Kommunikationssituationen
+                  (wie z. B. Dolmetschen). Die Daten werden interessierten Studierenden,
+                  Forschenden und Lehrenden über das HZSK-Repositorium (Jettka / Stein 2014) als
+                  Korpora im EXMARaLDA-Format (Schmidt / Wörner 2014) zur Verfügung gestellt.
+                  Weitere Korpora wurden in jüngster Vergangenheit in die Bestände des HZSK
+                  integriert. Etwa 600 Nutzer weltweit haben sich bislang für eine Nutzung dieser
+                  Datenbestände angemeldet. </p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Umfrage</head>
+                  <p>Die Umfrage wurde in Kooperation der drei Projektpartner zunächst mit 10 Testnutzern pilotiert und anschließend in ihrer endgültigen Form mit Hilfe der Software LamaPoll implementiert. Sie besteht aus insgesamt 128 Fragen, die in einen allgemeinen Teil mit Fragen zu persönlichen Daten (Alter, Sprachkenntnisse etc.) und zu relevanten Vorkenntnissen (Suchsprachen, Transkriptionserfahrung etc.) sowie drei angebotsspezifische Teile zu den jeweiligen Plattformen unterteilt sind. </p>
+                  <p>Ein Aufruf zur Teilnahme wurde an etwa 5000 registrierte Nutzer der drei Angebote geschickt. Die Umfrage war anschließend für einen Monat offen. 669 Nutzer folgten dem Aufruf, 401 davon füllten den Fragebogen komplett aus. Dies entspricht einer Rücklaufquote von 8%. Im Folgenden diskutieren wir exemplarisch Ergebnisse zu ausgewählten Teilen der Umfrage. </p>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Allgemeiner Teil</head>
+                    <p>Nach den persönlichen Angaben im allgemeinen Teil ist der typische Nutzer eine Nutzerin (67%) zwischen 21 und 30 Jahren (54%), hat Deutsch als Muttersprache (66%), lebt und arbeitet in Deutschland (71%) und befindet sich im Studium bzw. ist graduiert (59% gegenüber 40% auf Doktorandenniveau oder darüber). </p>
+                    <p>Auf die Frage „Welche Bereiche interessieren Sie?“ (Mehrfachauswahl war möglich), wurde wie folgt geantwortet:</p>
+                    <figure>
+                      <graphic url="v53-table1.png" rend="inline"/>
+                      <p rend="figure"><hi rend="bold">Abb. 1</hi>: Frage 6 – „Welche der
+                      folgenden Bereiche interessieren Sie? (Mehrfachantwort möglich)“</p>
+                    </figure>
+                    <p>Die Antworten zeigen, dass die Interessen der Nutzer sich über das gesamte Spektrum der zur Auswahl stehenden Teildisziplinen verteilen. Keine der Optionen wurde von weniger als 10% ausgewählt, so dass wir einstweilen auch keine der betreffenden Nutzergruppen als irrelevant für die weitere Entwicklung der Angebote ausschließen können. Unter den häufiger genannten Antworten sind mit etwa DaF, Gesprächsforschung und Pragmatik mehrere Nutzergruppen, für die trotz ihrer traditionell empirischen Ausrichtung die Arbeit mit digitalen Sprachdatenbanken sicherlich noch nicht als der Normalfall gelten kann. Dediziert „technisch“ ausgerichtete Disziplinen wie Computerlinguistik und Korpustechnologie rangieren hingegen am unteren Ende der Liste.</p>
+                    <p>Die Teilnehmer wurden weiterhin nach Vorkenntnissen befragt, die für die Arbeit mit mündlichen Korpora relevant sind:</p>
+                    <figure>
+                      <graphic n="1001" width="15.769166666666667cm" height="6.402916666666667cm" url="053-image1.png" rend="inline"/>
+                      <p rend="figure"><hi rend="bold">Abb. 2</hi>: Frage 10 – „Bitte beurteilen
+                      Sie Ihre Erfahrung in folgenden Bereichen“</p>
+                    </figure>
+                    <p>Eine große Mehrheit der Teilnehmer gibt an, über keine oder wenig Erfahrung
+                      in Programmieren / Skripten und Statistik zu verfügen (88% bzw. 80%). Eine
+                      etwas größere Minderheit (41%) beurteilt ihre Kenntnisse in Korpuslinguistik
+                      positiv. </p>
+                      <figure>
+                        <graphic n="1002" width="15.820105555555555cm" height="6.2433861111111115cm" url="053-image2.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 3</hi>: Frage 11 – „Welche der
+                        folgenden Suchabfragesprachen kennen / nutzen Sie?“</p>
+                      </figure>
+                      <p>Reguläre Ausdrücke sind der einzige formale Mechanismus, der von einer Mehrheit (56%) gelegentlich oder regelmäßig genutzt wird. Während COSMAS II – die Suchabfragesprache für die schriftlichen IDS-Korpora – noch bei 34% gelegentliche oder regelmäßige Anwendung findet, sind CQP und TigerSearch – als zwei weitere für die deutschsprachige Korpuslinguistik relevante Suchabfragesprachen den meisten Teilnehmern (82% bzw. 78%) unbekannt.</p>
+                      <p>In Bezug auf die Vorerfahrungen mit Transkription stellt sich das Gesamtbild deutlich anders dar.</p>
+                      <figure>
+                        <graphic n="1003" width="15.873016666666667cm" height="6.137566666666666cm" url="053-image3.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 4</hi>: Frage 13 – „Verfügen Sie über
+                        eigene Transkriptionserfahrung?“</p>
+                      </figure>
+                      <p>Knapp die Hälfte der Befragten (46%) transkribiert gelegentlich oder regelmäßig selbst. Unter diesen Teilnehmern gaben etwas mehr als die Hälfte (56%) an, Standard-Office-Software (typischerweise MS Word, 82%) für die Transkription zu nutzen, etwa ebenso viele (55%), mit spezialisierter Transkriptionssoftware zu arbeiten. </p>
+                      <figure>
+                        <graphic n="1004" width="16.002cm" height="7.579430555555556cm" url="053-image4.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 5</hi>: Frage 16 – „Mit welchem / en
+                        spezialisierten Transkriptionseditor / en arbeiten Sie?“</p>
+                      </figure>
+                      <p>EXMARaLDA (regelmäßige Nutzung: 19%, gelegentlich: 27%), Praat (13% bzw. 22%) und FOLKER (13% bzw. 17%) sind bei letzteren die am häufigsten genutzten Tools. </p>
+                    </div>
+                    <div type="div2" rend="DH-Heading2">
+                      <head>Angebotsspezifischer Teil</head>
+                      <p>Nach dem allgemeinen Teil wurde Nutzern die Wahl gelassen, zu welchen der drei Angebote sie im weiteren Verlauf der Umfrage befragt werden wollten. Da sich eine Mehrzahl (261 Teilnehmer) hier für die DGD entschied, stellen wir im Folgenden einige exemplarische Auswertungen für diesen Teil der Umfrage vor. </p>
+                      <figure>
+                        <graphic n="1005" width="12.620625cm" height="7.672916666666667cm" url="053-image5.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 6</hi>: Frage 33 – „Wie lässt sich
+                        Ihre methodische Herangehensweise am besten beschreiben, wenn Sie mit der
+                        Datenbank für gesprochenes Deutsch (DGD) arbeiten?“ </p>
+                      </figure>
+                      <p>Bei der Frage nach der Anwendung von qualitativen oder quantitativen Analysemethoden positionierte sich der größte Anteil der Befragten (38%) in der Mitte des Spektrums. Bei den übrigen Befragten zeigte sich eine leichte Tendenz zu qualitativen Herangehensweisen (37% vs. 25%).</p>
+                      <figure>
+                        <graphic n="1006" width="15.555555555555555cm" height="6.798941666666667cm" url="053-image6.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 7</hi>: Frage 34 – „Was ist Ihre
+                        Haupttätigkeit, wenn Sie mit der Datenbank für gesprochenes Deutsch (DGD)
+                        arbeiten? (Mehrfachantwort möglich)“</p>
+                      </figure>
+                      <p>Dies spiegelt sich auch in den Antworten auf die Frage nach der Hauptaktivität beim Arbeiten mit der DGD wieder: Hier beurteilten die Befragten die manuell-intellektuelle Inspektion der Daten (Transkripte lesen, Audio anhören) als geringfügig relevanter als Methoden, die auf semi-automatischem Retrieval basieren (Queries, Wortlisten).</p>
+                      <figure>
+                        <graphic n="1007" width="15.84656111111111cm" height="7.619047222222222cm" url="053-image7.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 8</hi>: Frage 37 – „Mit welchen
+                        Korpora der DGD arbeiten Sie? (Mehrfachantwort möglich)“</p>
+                      </figure>
+                      <p>FOLK als das neueste, technisch fortschrittlichste und größte Gesprächskorpus
+                        ist auch dasjenige, das am meisten genutzt wird (regelmäßig oder
+                        gelegentlich von 25% bzw. 41%), und es besteht auch weiterhin Interesse an
+                        den älteren großen Variationskorpora ZW (12%/16%) und PF (10%/12%). Andere
+                        in der DGD enthaltene ältere und / oder kleinere Korpora fallen hingegen im
+                        Vergleich kaum ins Gewicht. </p>
+                        <figure>
+                          <graphic n="1008" width="14.788358333333333cm" height="7.619047222222222cm" url="053-image8.png" rend="inline"/>
+                          <p rend="figure"><hi rend="bold">Abb. 9</hi>: Frage 54 – „Welche anderen /
+                          zusätzlichen Datentypen würden Sie sich in der DGD wünschen?“ </p>
+                        </figure>
+                        <p>Bei der Frage nach Wünschen für zusätzliche Daten oder neue Datentypen in der
+                          DGD wurden Mediendaten ( z. B. geskriptete oder freie Interaktionen in
+                          Fernsehen oder Radio), Videodaten und Unterrichtsdaten auffällig häufig
+                          genannt, es gab aber auch mehrfache Nutzerwünsche nach ganz spezifischen
+                          Interaktionstypen (z. B. Arzt-Patienten-Kommunikation, Konflikte), nach
+                          Daten aus bestimmten Regionen (z. B. Schweiz, ehemalige DDR,
+                          Norddeutschland) oder von bestimmten Sprechern (Kinder, Jugendliche oder
+                          L2-Lerner) sowie nach Daten aus spezifischen Zeiträumen („nach der Wende“,
+                          „die frühesten archivierten Aufnahmen“).</p>
+                          <figure>
+                            <graphic n="1009" width="16.002cm" height="7.217833333333333cm" url="053-image9.png" rend="inline"/>
+                            <p rend="figure"><hi rend="bold">Abb. 10</hi>: Frage 52 – „Bitte bewerten
+                            Sie die Webseite der DGD“</p>
+                          </figure>
+                          <p>Das Gesamturteil zur Nutzerfreundlichkeit der DGD-Website fällt positiv aus, wobei die Zufriedenheitswerte allerdings bei eher oberflächlichen Design-Details wie der Farbauswahl (positiv bewertet von über 70%) höher ausfallen als bei letztendlich entscheidenderen Kategorien wie „Intuitive Bedienung“ (52%). </p>
+                          <figure>
+                            <graphic n="10010" width="16.002cm" height="7.505347222222222cm" url="053-image10.png" rend="inline"/>
+                            <p rend="figure"><hi rend="bold">Abb. 11</hi>: Frage 49 – „Wie zufrieden
+                            sind Sie mit ...?“</p>
+                          </figure>
+                          <p>Bezogen auf spezifische Teilbereiche der DGD-Funktionalität, wurden Quantität der Daten (11%), Exportoptionen (8%) und Suchfunktionalität (8%) am häufigsten als Bereiche genannt, mit denen Nutzer unzufrieden waren. </p>
+                        </div>
+                      </div>
+                      <div type="div1" rend="DH-Heading1">
+                        <head>(Vorläufige) Schlussfolgerungen</head>
+                        <p>Aus den Ergebnissen der Umfrage lassen sich eine Vielzahl von Informationen über die Hintergründe, Vorkenntnisse und Erwartungen der Nutzer sowie über die Art und Weise, wie sie mit den Plattformen arbeiten, entnehmen. Obwohl wir die Auswertung gerade erst begonnen haben, können wir bereits erste vorläufige Schlüsse ziehen: vielleicht am wichtigsten ist die Erkenntnis, dass die Nutzerschaft der Angebote in Bezug auf Forschungsinteressen und -hintergründe äußerst heterogen ist. Es zeichnet sich auch bereits ab, dass wir weder durchgängig von einem „technisch“ ausgebildeten Nutzer ausgehen können, noch, dass Angebote für mündliche Korpora vornehmlich mit „klassischen“ korpuslinguistischen Methoden genutzt werden. Ausgehend von diesen Erkenntnissen sind wir zuversichtlich, dass uns die vollständige Auswertung der Studie helfen wird, ein deutlich klareres Bild unserer Nutzer zu bekommen, und wir auf dieser Grundlage die Nützlichkeit und Nutzbarkeit der jeweiligen Ressourcen noch merklich verbessern können. Die vollständige Auswertung wird zum Zeitpunkt der Konferenz vorliegen und kann dort dann vorgestellt werden. </p>
+                      </div>
+                    </body>
+                    <back>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <head>Bibliographie</head>
+                          <bibl><hi rend="bold">Baude, Olivier / Duga, Céline </hi>(2011): "(Re)faire le
+                          corpus d’Orléans quarante ans après : quoi de neuf, linguiste?" In: <hi
+                          rend="italic">Corpus</hi> 10: 99-118.</bibl>
+                          <bibl><hi rend="bold">Bert, Michel / Bruxelles, Sylvie / Etienne, Carole /
+                            Mondada, Lorenza / Traverso, Véronique</hi> (2010): "Grands corpus et
+                            linguistique outillée pour l'étude du français en interaction (plateforme
+                            CLAPI et corpus CIEL)", in: <hi rend="italic">Pratiques - Interactions et
+                            corpus oraux</hi> 147-148: 17-34.</bibl>
+                            <bibl><hi rend="bold">Cambridge University Press / Lancaster University</hi>
+                            (2015): <hi rend="italic">Spoken British National Corpus</hi>
+                            <ref
+                              target="http://languageresearch.cambridge.org/index.php/spoken-british-national-corpus"
+                              >http://languageresearch.cambridge.org/index.php/spoken-british-national-corpus</ref>
+                              [letzter Zugriff 09. Februar 2016].</bibl>
+                              <bibl><hi rend="bold">Hedeland, Hanna / Lehmberg, Timm / Schmidt, Thomas /
+                                Wörner, Kai</hi> (2014): "Multilingual Corpora at the Hamburg Centre for
+                                Language Corpora", in: Ruhi, Sukriye / Haugh, Michael / Schmidt, Thomas /
+                                Wörner, Kai (eds.): <hi rend="italic">Best Practices for Spoken Language
+                                Corpora in Linguistic Research</hi>. Cambridge: University Press
+                                208-224.</bibl>
+                                <bibl><hi rend="bold">Herder Institut der Universität Leipzig / Aston University
+                                  (Birmingham) / Universität Wroclaw</hi> (2009-2016): <hi rend="italic"
+                                  >GeWiss</hi>. Gesprochene Wissenschaftssprache <ref
+                                  target="https://gewiss.uni-leipzig.de"
+                                  >https://gewiss.uni-leipzig.de</ref> [letzter Zugriff 09. Februar
+                                  2016].</bibl>
+                                  <bibl><hi rend="bold">HZSK = Hamburger Zentrum für Sprachkorpora</hi>: <ref
+                                  target="https://corpora.uni-hamburg.de"
+                                  >https://corpora.uni-hamburg.de</ref> [letzter Zugriff 09. Februar
+                                  2016].</bibl>
+                                  <bibl><hi rend="bold">IDS</hi> (2012-2016): <hi rend="italic">DGD</hi>.
+                                  Datenbank für Gesprochenes Deutsch <ref target="http://dgd.ids-mannheim.de"
+                                  >http://dgd.ids-mannheim.de</ref> [letzter Zugriff 09. Februar
+                                  2016].</bibl>
+                                  <bibl><hi rend="bold">Jettka, Daniel / Stein, Daniel</hi> (2014): "The HZSK
+                                  Repository: Implementation, Features, and Use Cases of a Repository for
+                                  Spoken Language Corpora", in: <hi rend="italic">D-Lib Magazine</hi> 20, 9 /
+                                  10 <ref target="http://www.dlib.org/dlib/september14/jettka/09jettka.html"
+                                  >http://www.dlib.org/dlib/september14/jettka/09jettka.html</ref>
+                                  [letzter Zugriff 09. Februar 2016].</bibl>
+                                  <bibl><hi rend="bold">Kren, Michal </hi>(2015): "Recent developments in the
+                                  Czech National Corpus", in: <hi rend="italic">Proceedings of the 3rd
+                                  Workshop on Challenges in the Management of Large Corpora (CMLC-3)</hi>
+                                  1-4.</bibl>
+                                  <bibl><hi rend="bold">Schmidt, Thomas</hi> (2014a): "The Database for Spoken
+                                  German - DGD2", in: <hi rend="italic">Proceedings of the Ninth International
+                                  conference on Language Resources and Evaluation (LREC'14), Reykjavik,
+                                  Iceland</hi> 1451-1457.</bibl>
+                                  <bibl><hi rend="bold">Schmidt, Thomas</hi> (2014b): "The Research and Teaching
+                                  Corpus of Spoken German - FOLK", in: <hi rend="italic">Proceedings of the
+                                  Ninth International conference on Language Resources and Evaluation
+                                  (LREC'14), Reykjavik, Iceland</hi> 383-387.</bibl>
+                                  <bibl><hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014):"EXMARaLDA", in:
+                                  Durand, Jacques / Gut, Ulrike / Kristoffersen, Giert (eds.): <hi
+                                  rend="italic">The Oxford Handbook of Corpus Phonology</hi>. Oxford: OUP
+                                  402-419.</bibl>
+                                  <bibl><hi rend="bold">Slavcheva, Adriana / Meißner, Cordula</hi> (2014):
+                                  "Building and maintaining the GeWiss corpus – perspectives on the
+                                  construction, sustainability and further enrichment of spoken corpora. A
+                                  showcase." In: Ruhi, Sukriye / Haugh, Michael / Schmidt, Thomas /Wörner, Kai
+                                  (eds.): <hi rend="italic">Best Practices for Spoken Language Corpora in
+                                  Linguistic Research</hi>. Cambridge: University Press. 20-35.</bibl>
+                                </listBibl>
+                              </div>
+                            </back>
+                          </text>
+                        </TEI>

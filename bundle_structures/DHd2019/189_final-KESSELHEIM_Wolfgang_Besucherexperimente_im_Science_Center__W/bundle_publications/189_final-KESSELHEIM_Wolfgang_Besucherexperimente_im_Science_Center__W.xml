@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="189_final-KESSELHEIM_Wolfgang_Besucherexperimente_im_Science_Center__W" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besucherexperimente im Science Center: Welche Einsichten in die Herstellung von Wissen in Interaktion werden erst durch die Zusammenschau von Audio-, Video- und Eye-Tracking-Daten möglich?</title>
+                <author>
+                    <persName>
+                        <surname>Kesselheim</surname>
+                        <forename>Wolfgang</forename>
+                    </persName>
+                    <affiliation>Universität Zürich, Schweiz</affiliation>
+                    <email>wolfgang.kesselheim@ds.uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hottiger</surname>
+                        <forename>Christoph</forename>
+                    </persName>
+                    <affiliation>Universität Zürich, Schweiz</affiliation>
+                    <email>christoph.hottiger@access.uzh.ch</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-08T08:52:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Wissenskonstruktion</term>
+                    <term>Eye-Tracking</term>
+                    <term>Konversationsanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Artefakte</term>
+                    <term>Interaktion</term>
+                    <term>Sprache</term>
+                    <term>Multimodale Kommunikation</term>
+                    <term>texttragende Gegenstände</term>
+                    <term>Video</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left; ">Die interaktive Herstellung von Wissen zu Naturphänomenen im Science Center ist gleich in mehrfacher Hinsicht multimodal. Nicht nur nutzen die Besucherinnen und Besucher zur gemeinsamen Konstruktion von Wissen die unterschiedlichsten körperlichen Ausdrucksressourcen („embodied modes“): Sprache, Gesten, Blick, Körperhaltung und -position etc. Sie bedienen sich auch multimodaler Ressourcen im Ausstellungsraum: Sie manipulieren Objekte, betrachten Grafiken, lesen Anweisungs- und Erklärungstexte und machen sie für ihre interaktive Wissenskonstruktion relevant (vgl. 
+                <anchor xml:id="CTVP001979f9e4b67714428a8efaa6d650e1ea4"/>Kesselheim 2017, 2012). Möchte man also die Praktiken rekonstruieren, mit denen sich Besucherinnen und Besucher im Science Center gemeinsam Wissen erarbeiten, ist das im vollen Umfang nur dann möglich, wenn man in der Analyse nachzeichnet, wie alle beteiligten Modi aufeinander bezogen und miteinander verwoben werden. 
+            </p>
+            <p style="text-align:left; ">Diese These möchten wir in unserem Vortrag mit Hilfe einer Reihe von exemplarischen Kurzanalysen belegen, indem wir anhand der analysierten Beispiele aufzeigen, welche konkreten Einsichten in die interaktiven Praktiken der Wissenskonstruktion in Science Centern erst möglich sind, wenn man die Multimodalität des Phänomens ernst nimmt.</p>
+            <p style="text-align:left; ">Der Vortrag referiert Ergebnisse eines vom Schweizer Nationalfonds geförderten Forschungsprojekts mit dem Titel „Interactive Discoveries: A video and eye-tracking based study on knowledge construction in the science center“. Dieses Projekt geht mit den Methoden der multimodal erweiterten Konversationsanalyse der Frage nach, wie Besucherinnen und Besucher eines modernen, Naturwissenschaft und Technik gewidmeten Mitmachmuseums Naturphänomene ‚entdecken‘, wenn sie im Zuge eines gemeinsamen Gangs durch die Ausstellungsräume die dort aufgestellten Hands-on-Exponate und Experimentierstationen nutzen. Wissenskonstruktion wird, das ist die grundlegende Idee des Projekts, im gemeinsamen Handeln und Sprechen beobachtbar – sie muss nicht, wie dies typischerweise gemacht wird, im Nachhinein und indirekt erhoben werden (etwa per Fragebogen oder Interview).</p>
+            <p style="text-align:left; ">Der Vortrag folgt einer doppelten Bewegung: </p>
+            <p style="text-align:left; ">Die erste Reihe von Beispielanalysen beginnt mit reinen Audioaufnahmen. Dann wird gezeigt, wie sich Schritt für Schritt ein besseres Verständnis der musealen Wissenspraktiken ergibt, wenn man die Audiodaten erst durch Video- und schließlich durch Eye-Tracking-Daten ergänzt. </p>
+            <p style="text-align:left; ">Die zweite Serie von exemplarischen Analysen geht den umgekehrten Weg. Anhand von reinen Eye-Tracking-Daten wird aufgezeigt, inwiefern diese ein unzureichendes, ja verfälschendes Bild des menschlichen Blicks geben, jenes Phänomens also, das sie mess- und beobachtbar machen sollen. Dann wird Schritt für Schritt vorgeführt, wie die Hinzunahme von Video- und Audio-Aufnahmen bessere Einsichten in die Rolle des Blicks für die interaktive Wissenskonstruktion ermöglichen.</p>
+            <p style="text-align:left; ">Die erste Analysereihe illustriert die folgenden Resultate unserer Forschung: </p>
+            <list type="unordered">
+                <item>Die Arbeit ausschließlich mit Audioaufnahmen (wie sie in der Forschung zu Fachsprache und -kommunikation gang und gäbe waren), bestärkt den Sprach-
+                    <hi rend="italic" xml:space="preserve">bias </hi>der Linguistik: Wissenskonstruktion wird als sukzessive Formulierung von Regelhaftigkeiten, als Erschließungsarbeit an Fachtermini, als konversationelle Aushandlung von unbestreitbaren Sachverhalten verstanden; gleichzeitig erscheint der gemeinsame Science-Center-Besuch als „Gespräch“.
+                </item>
+                <item>Die Hinzunahme von Video macht die Körper der Besucherinnen und Besucher sichtbar und ermöglicht es, deren Beitrag zur Wissenskonstruktion in den Blick zu nehmen: die gemeinsame Manipulation von Objekten, die Stabilisierung von erfolgreichem Handeln, die Nutzung von Anleitungs- und Erklärungstexten im Raum usw.; gleichzeitig werden die Praktiken der Besucherinnen und Besucher nicht mehr als „Gespräch“, sondern klar als gemeinsames „Experimentieren“ beschreibbar.</item>
+                <item>Durch Eye-Tracking schließlich wird beobachtbar, wie individuelle Wahrnehmungsprozesse in sozial-kommunikative Prozesse der Aushandlung der wahrgenommenen Phänomene münden.</item>
+            </list>
+            <p style="text-align:left; ">Die zweite Analysereihe illustriert die Ergebnisse unserer Arbeit mit mobilen Eye-Trackern und die Rolle des Blicks in der Besucherinteraktion:</p>
+            <list type="unordered">
+                <item>Anhand von reinen Eye-Trackingdaten problematisiert unser Vortrag die Frage, wie die Grenzen „eines“ Blicks zu definieren sind und wie dessen Bedeutung festgestellt werden kann. – Anders als die Leseforschung, die die Blickrichtung plausibel als indirektes Maß für Interpretationsprozesse auffasst 
+                    <anchor xml:id="CTVP0013ccfd3dd33e8463687ad019209a9a724"/>(Clifton Jr., Charles et al. 2016), beantwortet Eye-Tracking in Interaktionsstudien nur die Frage wohin geblickt wurde, aber weder was wirklich gesehen, noch 
+                    <hi rend="italic" xml:space="preserve">als was </hi>das Gesehene gesehen wurde.
+                </item>
+                <item>Wir zeigen, wie die Hinzunahme von Audiodaten (Sprache!) und die Dokumentation der Körper der Besucherinnen und Besucher per Video Hinweise darauf gibt, was die Blicke für die Interaktionsteilnehmer jeweils bedeuten; und wir zeigen, wie die Hinzunahme von Audio und Video untersuchbar macht, wie ‚sozial dargestellter Blick‘ und gemessener Blick auseinanderklaffen. Blick ist, wie wir zeigen werden, keineswegs nur eine Frage der Augenrichtung (wie in Eye-Tracking-Studien oft vorausgesetzt wird), sondern eine multimodale Gestalt, für die die Ausrichtung von Becken, Schultern und Kopf eine ebenso große Bedeutung haben kann wie die Blickrichtung.</item>
+            </list>
+            <p style="text-align:left; ">Die feinkörnigen, qualitativen Analysen basieren auf der Methode der linguistischen Konversationsanalyse (s. etwa 
+                <anchor xml:id="CTVP0010627833e98a84e9abcf20cd68e2b37e5"/>Sidnell 2010; Gülich et al. 2008) und sind deren strikter Oberflächenorientierung und deren Grundüberzeugung verpflichtet, dass die soziale Wirklichkeit in Interaktion durch das gemeinsame Handeln der Interaktionsteilnehmenden hergestellt wird. 
+            </p>
+            <p style="text-align:left; ">Dies gilt auch für den Zugang zum Phänomen 
+                <hi rend="italic">Wissen</hi>. Aus konversationsanalytischer Perspektive interessiert Wissen nicht als innerer Zustand, als eine individualpsychologische Repräsentation im Kopf eines Besuchers oder einer Besucherin, sondern als ein Phänomen der kommunikativen ‚Oberfläche‘: eine Gewissheit über das Zutreffen bestimmter Sachverhalte, die in der Interaktion erarbeitet und als gültig ausgehandelt wird (vgl. 
+                <anchor xml:id="CTVP0016275a81c7e0c4c8393227199a6482974"/>Bergmann und Quasthoff 2010). Diese Perspektive auf Wissen lenkt den Blick
+                <hi rend="italic" xml:space="preserve"> weg</hi> von der Frage, welche fachlich korrekten Aussagen Besucherinnen und Besucher vor oder nach einem Science-Center-Besuch über ein bestimmtes Phänomen treffen können, und 
+                <hi rend="italic" xml:space="preserve">hin </hi>zu der grundlegenderen Frage, über welche alltäglichen Methoden (die „Ethnomethoden“, s. 
+                <anchor xml:id="CTVP0015f6e181d07b14c7b94343b9e0b26257d"/>Gülich 2001) die Besucherinnen und Besucher verfügen, um Wissen aus ihrer räumlichen Umwelt zu gewinnen. Dieser Blick weg vom Wissen als Produkt hin zu den Methoden der Wissensgeneration erlaubt es, einen Einblick in den grundlegenden Mechanismus zu gewinnen, dem die Science-Center-Bewegung verpflichtet ist: dem „Discovery Learning“ 
+                <anchor xml:id="CTVP0015e018c1ce93545908b439286943a052e"/>(Eisenberg 2001), dem selbstgesteuerten Lernen am Objekt.
+            </p>
+            <p style="text-align:left; ">Zu unserer Datengrundlage:</p>
+            <p style="text-align:left; ">Materialbasis dieses Vortrags ist ein Audio-, Video- und Eye-Tracking-Korpus, das im Rahmen des oben erwähnten Forschungsprojekts erhoben worden ist. Es dokumentiert die ungesteuerte Nutzung von Hands-on-Exponaten und Experimentierstationen im Swiss Science Center Technorama (Winterthur, Schweiz) durch Gruppen von zwei bis maximal vier Besucherinnen und Besuchern. </p>
+            <p style="text-align:left; ">Bei der Erhebung der Daten wurde auf größtmögliche Natürlichkeit geachtet: Bei den Gefilmten handelt es sich um authentische Besucher, die im Verlauf ihres gemeinsamen Besuchs von den Forschenden angesprochen worden sind. Ihnen wurden keine Vorgaben darüber gemacht, welche Exponate sie anschauen sollten, und ihre Instruktion bestand lediglich darin, mit ihrem Besuch fortzufahren. Obwohl den Versuchspersonen natürlich bewusst ist, dass ihr Verhalten im Rahmen eines Forschungsprojekts dokumentiert wird, legen bisherige Analysen nahe, dass diese Tatsache nur einen geringen Einfluss hat. Das mag daran liegen, dass viele der uns interessierenden Phänomene (Blick, Positionierung des Körpers usw.) sich nur schwer bewusst steuern lassen. Das Korpus dokumentiert das Verhalten von über 200 Besucherinnen und Besuchern. Insgesamt umfasst es mehr als 30 Stunden Aufnahmen, davon ca. die Hälfte mit Eye-Tracking-Brillen.</p>
+            <p style="text-align:left; ">Für die Analyse wurden die HD-Aufnahmen der beiden Feldkameras, die das Interaktionsgeschehen aus unterschiedlichen Entfernungen dokumentieren, sowie – wenn vorhanden – die Blick-Videos der beiden Eye-Tracker über den Ton synchronisiert und mithilfe des Schnittprogramms FinalCut zu einer Split-Screen-Darstellung zusammengefasst, die dann die Grundlage der Transkription der Interaktion bildete (auf Basis von GAT2, s. Selting et al. 2009). Die Dateien, aus denen jeder Split-Screen-Clip zusammengesetzt ist, wurden zusammen mit den Transkriptionen, Analysebeobachtungen sowie den Metadaten zur Aufnahmesituation und den Aufgenommenen in einer FileMaker-Datenbank verzeichnet, sodass die vielfältigen multimodalen Bestandteile der Daten gezielt durchsucht und aufeinander bezogen werden können.</p>
+            <p style="text-align:left; ">Welchen Beitrag leistet unser Vortrag zur aktuellen Forschung?</p>
+            <p style="text-align:left; ">Indem der Vortrag Methoden in den Mittelpunkt stellt, mit denen die Besucherinnen und Besucher in ihrer Wissenskonstruktion Verbalität (etwa die Formulierung von Regelhaftigkeiten) und andere körpergebundene Modi (Gesten, Manipulation von Objekten usw.) verbinden, erweitert er das Untersuchungsspektrum der linguistischen Forschung zur Vermittlung von Wissenschaft (etwa im Paradigma der "Transferwissenschaft", begründet durch 
+                <anchor xml:id="CTVP001c61642ded9624ff1a9e7e3101c7aaa45"/>Wichter und Antos 1999, oder zur Experten-Laien-Kommunikation, s. etwa 
+                <anchor xml:id="CTVP0018eb32cec5e8f41fdb997807c25f32840"/>Birkner und Ehmer 2013) um eine dezidiert multimodale Perspektive. 
+            </p>
+            <p style="text-align:left; ">Diese multimodale Perspektive auf die Konstruktion von Wissen fehlte bisher weitgehend innerhalb der Fachsprachen- und Fachkommunikationsforschung. Präsent war sie bisher nur in der ethnomethodologischen und konversationsanalytischen Forschung zu Wissenskonstruktion und -vermittlung (s. etwa 
+                <anchor xml:id="CTVP0010be3541dd13c43669dcb6bfeaa962983"/>Hindmarsh und Pilnick 2007 zum ‚verkörperten‘ Wissen), die in den letzten Jahren einen starken Aufschwung erfahren hat (s. 
+                <anchor xml:id="CTVP001b250579606304356a595b73a914edcc5"/>Dausendschön-Gay et al. 2010; Stivers et al. 2011). 
+            </p>
+            <p style="text-align:left; ">Gleichzeitig schließt der Vortrag mit seiner Konzentration auf die interaktive Nutzung der Hands-on-Exponate an eine aktuelle Debatte zur Frage an, wie Objekte (s. 
+                <anchor xml:id="CTVP001dbb6e382f4464a1f838ce33687b1f050"/>Nevile et al. 2014) oder Elemente des gebauten Raums (s. 
+                <anchor xml:id="CTVP00130dcb3658e0547998e21325602e5a8c9"/>Hausendorf et al. 2016) von Interaktionsteilnehmerinnen und -teilnehmern für ihre Interaktion in Anspruch genommen werden können. Dabei gerät auch dort die Multimodalität in den Mittelpunkt: Wie in unserem Vortrag wird dort nämlich gefragt, wie die Teilnehmerinnen und Teilnehmer unterschiedliche Ausdrucksressourcen zu einer „multimodalen Gestalt“ verbinden und wie diese Verbindung analytisch zu erfassen ist. 
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+						<hi rend="bold">Bergmann, Jörg R. / Quasthoff, Uta M. (2010)</hi>: <hi rend="italic">"Interaktive Verfahren der Wissensgenerierung. Methodische Problemfelder"</hi>, in: <hi rend="bold">Dausendschön-Gay, Ulrich / Domke, Christine / Ohlhus, Sören (eds.)</hi>: <hi rend="italic">Wissen in (Inter-)Aktion. Verfahren der Wissensgenerierung in unterschiedlichen Praxisfeldern. </hi>Berlin / New York: de Gruyter 21–34.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Birkner, Karin / Ehmer, Oliver (eds.) (2013)</hi>: <hi rend="italic">Veranschaulichungsverfahren im Gespräch</hi>. Mannheim: Verlag für Gesprächsforschung. http://www.verlag-gespraechsforschung.de/2013/birkner.html [letzter Zugriff am 10.03.2014].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Clifton Jr., Charles / Ferreira, Fernanda / Henderson, John M. / Inhoff, Albrecht W. / Liversedge, Simon P. / Reichle, Erik D. / Schotter, Elizabeth R. (2016)</hi>: <hi rend="italic">"Eye movements in reading and information processing: Keith Rayner’s 40 year legacy"</hi>, in: Journal of Memory and Language 86: 1–19. DOI: 10.1016/j.jml.2015.07.004.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Dausendschön-Gay, Ulrich / Domke, Christine / Ohlhus, Sören (eds.) (2010)</hi>: <hi rend="italic">Wissen in (Inter-)Aktion. Verfahren der Wissensgenerierung in unterschiedlichen Praxisfeldern.</hi> Berlin / New York: de Gruyter.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Eisenberg, M. (2001)</hi>: <hi rend="italic">"Discovery Learning, Cognitive Psychology of"</hi>, in: <hi rend="bold">Smelser, Neil Joseph (ed.)</hi>: <hi rend="italic">International encyclopedia of the social and behavioral sciences</hi>. Amsterdam: Elsevier 3736–3739.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gülich, Elisabeth (2001)</hi>: <hi rend="italic">"Zum Zusammenhang von alltagsweltlichen und wissenschaftlichen 'Methoden'"</hi>, in: <hi rend="bold">Brinker, Klaus / Antos, Gerd / Heinemann, Wolfgang / Sager, Sven F. (eds.)</hi>: <hi rend="italic">Text- und Gesprächslinguistik. Ein internationales Handbuch zeitgenössischer Forschung</hi>. Berlin: de Gruyter 1086–1093.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gülich, Elisabeth / Mondada, Lorenza (2008)</hi>: <hi rend="italic">Konversationsanalyse. Eine Einführung am Beispiel des Französischen</hi>. Unter Mitarbeit von Ingrid Furchner. Tübingen: Niemeyer.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Hausendorf, Heiko / Schmitt, Reinhold / Kesselheim, Wolfgang (eds.) (2016)</hi>: <hi rend="italic">Interaktionsarchitektur, Sozialtopographie und Interaktionsraum</hi>. Tübingen: Narr Francke Attempto.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Hindmarsh, Jon / Pilnick, Alison (2007)</hi>: <hi rend="italic">"Knowing bodies at work. Embodiment and ephemeral teamwork in anaesthesia"</hi>, in: Organization Studies 28 (9): 1395–1416.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Kesselheim, Wolfgang (2012)</hi>: <hi rend="italic">"Gemeinsam im Museum: Materielle Umwelt und interaktive Ordnung"</hi>, in: <hi rend="bold">Hausendorf, Heiko / Mondada, Lorenza / Schmitt, Reinhold (eds.)</hi>: <hi rend="italic">Raum als interaktive Ressource</hi>. Tübingen: Narr: 187–231.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Kesselheim, Wolfgang (2017)</hi>: <hi rend="italic">"Die Museumsausstellung - ein Text?"</hi>, in: Germanistik in der Schweiz – Zeitschrift der Schweizerischen Akademischen Gesellschaft für Germanistik 14: 1–29.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Nevile, Maurice / Haddington, Pentti / Heinemann, Trine / Rauniomaa, Mirka (eds.) (2014)</hi>: <hi rend="italic">Interacting with objects. Language, materiality, and social activity.</hi> Amsterdam: Benjamins.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Selting, Margret / Auer, Peter / Barth-Weingarten, Dagmar / Bergmann, Jörg R. (2009)</hi>: <hi rend="italic">"Gesprächsanalytisches Transkriptionssystem 2 (GAT 2)"</hi>, in: Gesprächsforschung – Online-Zeitschrift zur verbalen Interaktion 10: 353–402. http://www.gespraechsforschung-ozs.de/heft2009/px-gat2.pdf [letzter Zugriff am 28.06.2013].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Sidnell, Jack (2010)</hi>: <hi rend="italic">Conversation analysis. An introduction</hi>. Oxford: Wiley-Blackwell.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Stivers, Tanya / Mondada, Lorenza / Steensig, Jakob (eds.) (2011)</hi>: <hi rend="italic">The morality of knowledge in conversation</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Wichter, Sigurd / Antos, Gerd (eds.) (1999)</hi>: <hi rend="italic">Wissenstransfer zwischen Experten und Laien. Umriss einer Transferwissenschaft.</hi> Frankfurt am Main: Lang.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

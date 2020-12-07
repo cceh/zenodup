@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-015">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Software-Einsatz in der geisteswissenschaftli-chen Forschungspraxis: Ergebnisse einer Umfrage</title>
+        <author>
+          <name>
+            <surname>Müller-Birn</surname>
+            <forename>Claudia</forename>
+          </name>
+          <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+          <email>clmb@inf.fu-berlin.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schlegel</surname>
+            <forename>Alexa</forename>
+          </name>
+          <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+          <email>alexa.schlegel@inf.fu-berlin.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Baillot</surname>
+            <forename>Anne</forename>
+          </name>
+          <affiliation>Humboldt-Universität zu Berlin</affiliation>
+          <email>anne.baillot@hu-berlin.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Klawitter</surname>
+            <forename>Jana</forename>
+          </name>
+          <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften</affiliation>
+          <email>klawitter@bbaw.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-08T21:34:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Umfrage</term>
+          <term>Forschungspraxis</term>
+          <term>Forschungsaktivitäten</term>
+          <term>Softwareeinsatz</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Gestaltung</term>
+          <term>Forschungsprozess</term>
+          <term>Software</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Zielstellung</head>
+        <p>Mit unserem Vortrag leisten wir die folgenden Beiträge für die Digital Humanities:</p>
+        <p>1. Vorstellung und kritische Reflexion der Forschungsergebnisse anhand der abgeschlossenen Umfrage für Berlin/Brandenburg: Hier werden wir vor allem zeigen, zu welchen Ergebnissen wir mit unserer Umfrage gelangt sind und welche Anforderungen an zukünftige Forschungsarbeiten in den Geisteswissenschaften und der Informatik gestellt werden müssen.</p>
+        <p>2. Reflexion über die Nutzung von TaDiRAH (Taxonomy of Digital Research Activities in the Humanities) als methodische Basis für die Umfrage: In unserem Vortrag werden wir unsere Probleme aufzeigen, die bei der Nutzung der Taxonomie aufgetreten sind. Diese Probleme sind einerseits auf die Verwendung bestimmter Fachbegriffe, andererseits auch auf eine teilweise fehlende systematische Abgrenzung zwischen den Forschungstätigkeiten in TaDiRAH zurückzuführen. Wir werden konkrete Vorschläge zur Verbesserung der Taxonomie vorstellen.</p>
+        <p>3. Reflexion zum Einsatz einer Umfrage als Forschungsinstrument: In diesem Teil des Vortrags werden wir vor allem auf statistische Anforderungen, die aus der Nutzung eines solchen Forschungsinstruments erwachsen, eingehen und zeigen, inwiefern unsere Ergebnisse verallgemeinerbar sind.</p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Methodischer Ansatz</head>
+        <p>Die Umfrage-basierte Studie orientiert sich an folgendem Vorgehen (Müller et al.
+          2014): (1) Definition der Forschungsziele, (2) Bestimmung der Zielgruppe,
+		  (3) Spezifizierung des Fragenbogendesigns, (4) Überprüfung durch
+		  Pre-Tests, (5) Durchführung der Umfrage sowie (6) Analyse der Daten. Wir werden
+          auf diese einzelnen Schritte im Folgenden kurz eingehen.</p>
+          <div type="div2" rend="DH-Heading2">
+            <head>Definition der Forschungsziele</head>
+            <p>Der Anlass für diese Studie ist der Sammelband <hi rend="italic">#bbdh –
+              Berliner Beiträge zu den Digital Humanities</hi>, welcher vom
+              Einstein-Zirkel Digital Humanities im Januar 2016 veröffentlicht wurde. Der
+              darin erscheinende Beitrag „Forschungspraxis in den Geisteswissenschaften
+              oder wieviel Digital Humanities gibt es in den Geisteswissenschaften?“
+              (Müller-Birn et al. 2016) liefert einen Überblick über den Einsatz von
+              Software innerhalb der geisteswissenschaftlichen Forschungspraxis. Wir wollen
+              dabei unter anderem die folgenden Fragen beantworten: </p>
+              <list type="unordered">
+                <item>In welchem Umfang wird Software eingesetzt?</item>
+                <item>Inwiefern gibt es einen Zusammenhang zwischen dem Softwareeinsatz und dem Forschungskontext?</item>
+                <item>Welche Software wird eingesetzt und welche typischen Softwarenutzungsmuster lassen sich identifizieren?</item>
+              </list>
+              <p>Darüber hinaus soll die Studie einen Beitrag für den Forschungsbereich
+                E-Research leisten. Durch den Einsatz von Software ändert sich, wie
+                WissenschaftlerInnen forschen. Besonders in den Geisteswissenschaften
+                scheint diesbezüglich ein Wandel stattzufinden. Unser Ziel ist es besser zu
+                verstehen, welche Anforderungen an zukünftige Software gestellt werden und
+                wie die Informatik ForscherInnen im Prozess der Wissensgenerierung gezielter
+                unterstützen kann. Daher wurden explizit Personen
+                angesprochen, die noch keine oder wenig über die gängigen Office-Programme
+                hinausgehende Software in ihrer persönlichen Forschungspraxis einsetzen.</p>
+              </div>
+              <div type="div2" rend="DH-Heading2">
+                <head>Bestimmung der Zielgruppe</head>
+                <p>Wir haben unsere Umfrage auf WissenschaftlerInnen der geisteswissenschaftlichen Disziplinen in der Region Berlin und Brandenburg beschränkt.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                  <head>Spezifizierung des Fragenbogendesigns</head>
+                  <p>Eine große Herausforderung war es, den Begriff der Forschungspraxis näher zu
+                    definieren. Hierfür haben wir bestehende Fragenbögen zu Arbeitspraktiken im
+                    Bereich DH analysiert. Diese überwiegend im angloamerikanischen Raum
+                    durchgeführten Studien konzentrieren sich vor allem auf text-zentrierte
+                    Forschungsmethoden und zeigen die zunehmende Durchdringung von digitalen
+                    Methoden in der textbezogenen (insbesondere philologischen, linguistischen
+                    und historischen) Quellenarbeit (vgl. Unsworth 2000; Houghton et al. 2004;
+                    Toms und O’Brien 2008; Ceccarelli et al. 2011; Kemman et al. 2014). Als
+                    Studien für den deutschsprachigen Raum wurden Burghardt et al. (2015) und
+                    Stiller et al. (2015) herangezogen. In der Auswertung dieser Studien stellte
+                    sich heraus, dass die Begrifflichkeiten variieren bzw. sehr unterschiedlich
+                    verwendet wurden, wodurch die Ergebnisse nicht oder nur schwer vergleichbar
+                    waren.</p>
+                    <p>Daher haben wir uns entschieden, die Forschungsaktivitäten aus TaDiRAH
+                       zugrunde zu
+                      legen (Perkins et al. 2014), welche unter anderem auf Arbeiten von Unsworth
+                      (2000) sowie Gasteiner und Haber (2010) basiert. Die in TaDiRAH definierten
+                      Forschungsaktivitäten (research activities) sind in Unteraktivitäten
+                      unterteilt. Wir haben diese als Tätigkeiten bezeichnet. Jeder einzelnen
+                      Tätigkeit wurde in einem ersten Schritt die jeweils für die Tätigkeit
+                      geeignete Software zugeordnet.</p>
+                      <p>Die einzelnen Konzepte wurden wie folgt in der Umfrage zusammengeführt:</p>
+                      <p>Forschungsaktivitäten sind alle Aktivitäten, die auf die Untersuchung von bestimmten Phänomenen in der Forschungsarbeit abzielen. Solche Phänomene können beispielsweise die Pariser Jahrhundertwende oder dramatische Strukturen im elisabethanischen Theater sein. Um solche Phänomene näher zu untersuchen, werden beispielsweise textuelle, bildliche oder vertonte Quellen genutzt. Diese Quellen werden mithilfe bestimmter Tätigkeiten bearbeitet, die wiederum durch Software unterstützt werden.</p>
+                      <p>Der Umfrageteilnehmer bzw. die Umfrageteilnehmerin wird dabei zunächst nach
+                        einer Priorisierung der Aktivitäten befragt und dann nach der Häufigkeit der
+                        Anwendung ausgewählter Tätigkeiten sowie der zugehörigen Software. Darüber
+                        hinaus werden eine Reihe weiterer Fragen zur Zusammenarbeit mit anderen
+                        GeisteswissenschaftlerInnen gestellt sowie demographische Angaben
+                        abgefragt.</p>
+                      </div>
+                      <div type="div2" rend="DH-Heading2">
+                        <head>Überprüfung und Vortesten</head>
+                        <p>Im Rahmen der Fragebogenerstellung wurde extensives Pre-Testing betrieben. Es
+                          wurden 15 Wissenschaftler_innen aus dem Bereich der Geisteswissenschaften
+                          gewonnen, eine Word-Version des Fragebogens zu begutachten. In drei
+                          Iterationen wurde der Fragebogen weiterentwickelt und vor allem die
+                          Wortwahl an die Zielgruppe angepasst.</p>
+                          <p>Des Weiteren wurde die Übersetzung von TaDiRAH präzisiert und Inkonsistenzen in der Beschreibung entfernt. Neben der Überprüfung des Fragebogens durch die Zielgruppe wurde ebenfalls eine Evaluation aus statistischen Gesichtspunkten durchgeführt, wodurch weitere Anpassungen in der Art der Fragestellung erforderlich waren.</p>
+                        </div>
+                        <div type="div2" rend="DH-Heading2">
+                          <head>Überprüfung durch Pre-Tests</head>
+                          <p>Die Umfrage wurde mit Hilfe der Software Questback erstellt und war
+                            vom 17. September 2015 bis zum 2. November 2015 verfügbar.</p>
+                            <p>Weitere Informationen zur Online-Umfrage und der gesamten geplanten Studie
+                              sind auf der Webseite verfügbar: <ref
+                              target="https://practices4humanities.wordpress.com/"
+                              >https://practices4humanities.wordpress.com/</ref> (Müller-Birn
+                              2015).</p>
+                            </div>
+                            <div type="div2" rend="DH-Heading2">
+                              <head>Analyse der Daten</head>
+                              <p>Mit dem Stand Dezember 2015 wurde der Fragebogen von 270 Personen
+                                beantwortet, darunter über 100 WissenschaftlerInnen (N = 123) aus
+                                Berlin / Brandenburg. Nach Abschluss der Umfragephase wurden die erhobenen
+                                Daten analysiert. Aus den Umfrageergebnissen konnten wir fünf typische
+                                Softwarenutzungsmuster ableiten: 1) Word+, 2) Suchmaschine, 3) Annotationen, 4) Social
+                                Media und 5) Basissoftware. Drei Nutzungsmuster beschreiben Personen und
+                                ihre Forschungspraxis mit dem Einsatz unterschiedlicher Software, zwei
+                                Nutzungsmuster zeigen einen eher selektiven Einsatz von Software. Diese
+                                Nutzungsmuster werden genauer beschrieben und ihre Bedeutung analysiert.</p>
+                              </div>
+                            </div>
+                            <div type="div1" rend="DH-Heading1">
+                              <head>Ausblick aus DH-Perspektive</head>
+                              <p>Als Referenzrahmen bietet diese Umfrage die Möglichkeit, in regelmäßigen Abständen und an unterschiedlichen Orten Entwicklungen aufzunehmen, zu analysieren und zu begleiten. Eine derart gestaltete, breitere Umsetzung ist im Rahmen von DARIAH-EU anvisiert (Anne Baillot in Zusammenarbeit mit Laurent Romary).</p>
+                              <p>Die Umfragedaten liefern eine solide Basis für Antworten auf zentrale Fragen
+                                der europäischen Digital Humanities. Dies betrifft an erster Stelle die
+                                Ermittlung des Bedarfs der Forscher_innen im Hinblick auf ihre Arbeitsprozesse
+                                und die Software, die sie täglich benutzen. Die Umfrageergebnisse spiegeln
+                                ebenfalls die Selbstwahrnehmung der wissenschaftlichen Gemeinschaft als digital
+                                forschend wider und leisten in diesem Sinne einen Beitrag zur reflexiven
+                                Entwicklung digitaler Methoden in den europäischen Geisteswissenschaften.</p>
+                              </div>
+                              <div type="div1" rend="DH-Heading1">
+                                <head>Ausblick aus informatischer Perspektive</head>
+                                <p>Die Umfrage ist Bestandteil einer breit angelegten Studie, die uns über die
+                                  wissenschaftliche Arbeit und die bestehenden Praktiken der Geisteswissenschaften Aufschluss gibt.
+                                  Sie konkretisiert, wie diese Forschungsarbeit durch
+                                  Softwareanwendungen unterstützt wird und in welchen Kontexten Technologien
+                                  eingebettet sind. Die Erkenntnisse aus der Umfrage bilden die Basis für
+                                  Interviews, die im Rahmen von sogenannten Arbeitsplatzstudien durchgeführt
+                                  werden. Die Frage, ob der Umfrageteilnehmer bzw. die Umfrageteilnehmerin auch
+                                  für ein Interview zur Verfügung stehen würde, haben über 40 Personen in der
+                                  vollständigen Stichprobe (N = 270) positiv beantwortet und ihre E-Mail-Adresse
+                                  angegeben. Ziel ist es herauszufinden, wie sich ausgewählte Technologien und
+                                  Infrastrukturen in die tägliche Arbeit von Forscher_innen einbetten. Dabei
+                                  soll bewusst die angemahnte Ingenieursperspektive auf Software überwunden werden
+                                  (Fuller 2008) und Software dahingehend untersucht werden, wie Forscher_innen
+                                  diese für ihre epistemologischen Prozesse und ihre tägliche Forschungspraxis
+                                  verwenden (Berry 2011). Die dabei gesammelten Einsichten sollen vor allem der
+                                  (Weiter-)Entwicklung von Software für die geisteswissenschaftliche
+                                  Forschungspraxis dienen.</p>
+                                </div>
+                              </body>
+                              <back>
+                                <div type="bibliogr">
+                                  <listBibl>
+                                    <head>Bibliographie</head>
+                                    <bibl>
+                                      <hi rend="bold">Berry, David M.</hi> (2011): „The computational turn:
+                                      Thinking about the digital humanities“, in: <hi rend="italic">Culture
+                                      Machine</hi> 12: 1-22.</bibl>
+                                      <bibl><hi rend="bold">Burghardt, Manuel / Wolff, Christian / Womser-Hacker,
+                                        Christa</hi> (2015): „Informationswissenschaft und Digital Humanities“,
+                                        in: <hi rend="italic">Information – Wissenschaft &amp; Praxis</hi> 66, 5-6:
+                                        287–294.</bibl>
+                                        <bibl><hi rend="bold">Ceccarelli, Diego / Gordea, Sergiu / Lucchese, Claudio /
+                                          Nardini, Franco Maria / Tolomei, Gabriele</hi> (2011): „Improving
+                                          Europeana Search Experience Using Query Logs“, in: <hi rend="italic"
+                                          >Proceedings oft he 15th International Conference on Theory and Practice
+                                          of Digital Libraries Research and Advanced Technology for Digital
+                                          Libraries</hi> 384-395.</bibl>
+                                          <bibl><hi rend="bold">Fuller, Matthew</hi> (2008): <hi rend="italic">Software
+                                          studies.</hi> A lexicon. MIT Press.</bibl>
+                                          <bibl><hi rend="bold">Gasteiner, Martin / Haber, Peter </hi>(eds.) (2010): <hi
+                                          rend="italic">Digitale Arbeitstechniken für die Geistes- und
+                                          Kulturwissenschaften</hi>. Vienna: UTB. </bibl>
+                                          <bibl><hi rend="bold">Houghton, John W. / Steele, Colin / Margaret Henty</hi>:
+                                          (2004): „Research practices and scholarly communication in the digital
+                                          environment“, in: Grewal, Bhajan S. / Kumnick, Margarita (eds.): <hi
+                                          rend="italic">Engaging the New World</hi>. Responses to the Knowledge
+                                          Economy.  Melbourne: Melbourne University Publishing 169-203.</bibl>
+                                          <bibl><hi rend="bold">Kemman, Max / Kleppe, Martijn / Scagliola Stef
+                                          </hi>(2014): „Just Google It - Digital Research Practices of Humanities
+                                          Scholars“, in: <hi rend="italic">Proceedings of the Digital Humanities
+                                          Congress</hi>.</bibl>
+                                          <bibl><hi rend="bold">Müller, Hendrik / Sedley, Aaron / Elizabeth
+                                            Ferrall-Nunge</hi> (2014): "Survey research in HCI", in: Olson, Judith
+                                            S. / Kellogg, Wendy A. (eds.): <hi rend="italic">Ways of Knowing in
+                                            HCI</hi>. New York: Springer 229-266.</bibl>
+                                            <bibl><hi rend="bold">Müller-Birn, Claudia</hi> (2015): <hi rend="italic"
+                                            >practices4humanities</hi>. Wissenschaftliche Forschungspraxis in den
+                                            Geisteswissenschaften <ref
+                                            target="https://practices4humanities.wordpress.com/"
+                                            >https://practices4humanities.wordpress.com/</ref> [letzter Zugriff 09.
+                                            Februar 2016].</bibl>
+                                            <bibl><hi rend="bold">Müller-Birn, Claudia / Schlegel, Alexa / Baillot, Anne /
+                                              Klawitter, Jana</hi> (im Druck): „Forschungspraxis in den
+                                              Geisteswissenschaften oder wie digital sind die Geisteswissenschaften?", in:
+                                              Baillot, Anne / Schnöpf, Markus (eds.): #bbdh – Berliner Beiträge zu den
+                                              Digital Humanities. Berlin.</bibl>
+                                              <bibl>
+                                                <hi rend="bold">Perkins, Jody / Dombrowski, Quinn / Borek, Luise / Schöch,
+                                                  Christof</hi> (2014): „Building bridges to the future of a distributed
+                                                  network: From DiRT categories to TaDiRAH, a methods taxonomy for digital
+                                                  humanities", in: <hi rend="italic">Proceedings of the International
+                                                  Conference on Dublin Core and Metadata Applications</hi>.</bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Stiller, Juliane / Thoden, Klaus / Leganovic, Oona / Heise,
+                                                      Christian / Höckendorff, Mareike / Gnadt, Timo</hi> (2015): <hi
+                                                      rend="italic">Nutzungsverhalten in den Digital Humanities</hi>.
+                                                      Technical Report. DARIAH-DE Projektdokumentation R 1.2.1/ M 7.6. <ref
+                                                      target="https://wiki.de.dariah.eu/display/publicde/Reports+and+Milestones"
+                                                      >https://wiki.de.dariah.eu/display/publicde/Reports+and+Milestones</ref>
+                                                      [letzter Zugriff 09. Februar 2016].</bibl>
+                                                      <bibl><hi rend="bold">Toms, Elaine G. / O’Brien, Heather L.</hi> (2008)
+                                                      „Understanding the information and communication technology needs of the
+                                                      e-humanist“, in: <hi rend="italic">Journal of Documentation</hi> 64, 1:
+                                                      102–130.</bibl>
+                                                      <bibl><hi rend="bold">Unsworth, John</hi> (2000): "Scholarly Primitives: What
+                                                      Methods Do Humanities Researchers Have in Common and How Might Our Tools
+                                                      Reflect This?", in: <hi rend="italic">Humanities Computing, Formal Methods,
+                                                      Experimental Practice</hi>. Symposium, Kings College, London.</bibl>
+                                                    </listBibl>
+                                                  </div>
+                                                </back>
+                                              </text>
+                                            </TEI>

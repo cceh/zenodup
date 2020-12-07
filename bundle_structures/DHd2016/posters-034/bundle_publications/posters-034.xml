@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-034">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Der Lehrpraxis im Transfer-Facharbeitskreis "Digitale Geisteswissenschaften in Sachsen"</title>
+        <author>
+          <name>
+            <surname>Pfeil</surname>
+            <forename>Patrick</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland, Alte Geschichte</affiliation>
+          <email>ppfeil@uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Mehner</surname>
+            <forename>Caroline</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland, Hochschuldidaktisches Zentrum Sachsen, Lehrpraxis im Transfer</affiliation>
+          <email>caroline.mehner@uni-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-13T15:13:33</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Vernetzung</term>
+          <term>regionale Zusammenarbeit</term>
+          <term>Mitteldeutschland</term>
+          <term>Infrastruktur</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Kommunikation</term>
+          <term>Community-Bildung</term>
+          <term>Kollaboration</term>
+          <term>Kommentierung</term>
+          <term>Forschungsprozess</term>
+          <term>Standards</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Auf dem Poster soll die Arbeit des Facharbeitskreises „<ref
+        target="https://www.hds.uni-leipzig.de/index.php?id=388">Digitale
+        Geisteswissenschaften in Sachsen</ref>“ vorgestellt werden. Dieser ist ein loser
+        Zusammenschluss der im Bereich der Digital Humanities lehrenden und forschenden
+        Wissenschaftler_innen an den sächsischen Hochschulen. Zusätzlich sind auch
+        Einrichtungen und Hochschulen aus Thüringen und Sachsen-Anhalt beteiligt. Der
+        Facharbeitskreis wird im Rahmen des Projektes Lehrpraxis im Transfer (<ref
+        target="https://www.hds.uni-leipzig.de/index.php?id=lehrpaxis-im-transfer"
+        >LiT</ref>), welches durch den Qualitätspakt Lehre finanziert ist, gefördert und
+        ist somit mit dem Hochschuldidaktischen Zentrum Sachsen (<ref target="https://www.hds.uni-leipzig.de/index.php?id=hochschulen">HDS</ref>) assoziiert.
+        Die Koordination hat der Lehrstuhl für Alte Geschichte der Universität Leipzig unter
+        der Leitung von Charlotte Schubert übernommen. Hervorgegangen ist er aus dem
+        ebenfalls vom HDS geförderten Lehr-Lern-Projekt „<ref target="https://www.hds.uni-leipzig.de/index.php?id=projektkohorte-3">Neue Medien in den
+        Geisteswissenschaften in Lehre und Forschung</ref>“,
+        welches von April 2014 bis März 2015 am Lehrstuhl für Alte Geschichte an der
+        Universität Leipzig angesiedelt war. </p>
+        <p>Ziel des Projektes ist die Bündelung der Initiativen und Projekte im mitteldeutschen Raum, die sich mit den Digital Humanities in der Forschung sowie in der Lehre beschäftigen. Durch regelmäßige Treffen sollen eine Vernetzung erreicht, Projektideen diskutiert, Synergieeffekte erzeugt und inhaltliche Punkte diskutiert werden. Der Facharbeitskreis existiert seit 2014 und hat zurzeit ca. 30 aktive Wissenschaftler_innen als Mitglieder. Diese kommen von der Universität Leipzig, der TU Dresden, der TU Chemnitz, der TU Bergakademie Freiberg, der Friedrich-Schiller-Universität Jena, HTWK Leipzig, Martin-Luther-Universität Halle-Wittenberg, Universität Erfurt sowie vom Forschungszentrum Gotha, der Klassik-Stiftung Weimar und dem Forschungsverbund Marbach-Weimar-Wolfenbüttel.</p>
+        <p>Mit der Arbeit des Facharbeitskreises konnte der Vernetzungsgedanke auch an
+          verschiedene Hochschulen weitergetragen werden. So unterstützte er beispielsweise
+          die Gründung des <ref target="http://dhnet.uni-jena.de/index.php?id=124">DHnet
+          Jena</ref> an der Friedrich-Schiller-Universität Jena, welches zusammen mit dem
+          <ref target="https://www.uni-erfurt.de/projekte/ice/">ICE</ref> (Interdisciplinary Center of E-Humanities in History and Social
+          Sciences) des
+          Max-Weber-Kollegs Erfurt und dem „<ref
+          target="https://www.uni-erfurt.de/projekte/digitale-geisteswissenschaften-erfurt/"
+          >Netzwerk für digitale Geisteswissenschaften Erfurt</ref>“ das „DH-Treffen
+          Thüringen“ als Plattform für einen regelmäßigen Austausch der Initiativen und
+          Projekte der Digital Humanities in Thüringen initiierte. </p>
+          <p>Inhaltlich werden von einzelnen Mitgliedern des Facharbeitskreises und deren Arbeitsgruppen in den Treffen eigene Themen zunächst vorgestellt und dann gemeinsam bearbeitet. Im Jahr 2014 und der ersten Hälfte 2015 stand die Diskussion um die Rolle der Digital Humanities in der Hochschullandschaft im Vordergrund. Hierbei wurde eine umfassende Diskussion um die konträren Meinungen, also Digital Humanities als Teil der Fachdisziplinen oder als eigene Wissenschaftsdisziplin, geführt. Für die zweite Hälfte 2015 ist die Entwicklung eines Positionspapiers zum Thema Infrastruktur vorgesehen, das verschiedene Streitpunkte in diesem Bereich aufgreifen, analysieren und kommentieren soll. Nach Fertigstellung des Papiers ist geplant, dieses im Kreise der Digital Humanities als Diskussionsansatz oder auch Handreichung zu veröffentlichen. </p>
+          <p>Das Poster soll einerseits zeigen, wie eine regionale Vernetzung initiiert werden kann und welche Möglichkeiten eine solche bietet. Es sollen der Gründungsprozess und die Dissemination der Initiative dargestellt werden. </p>
+          <p>Andererseits soll ein Einblick in die aktuelle inhaltliche Arbeit des Facharbeitskreises gegeben werden. Deshalb wird das bis zur DHd-Tagung entwickelte Positionspapier zum Thema Infrastruktur in den Digital Humanities auf dem Poster präsentiert. Es sollen der Diskussionsprozess dargestellt und verschiedene umstrittene Punkte im Detail behandelt werden.</p>
+          <p>Damit ist das Poster beispielgebend für regionale Vernetzung auch über die Grenzen einzelner Bundesländer hinaus und es zeigt weiter, dass in Organisationen wie dem LiT-Facharbeitskreis „Digital Humanities in Sachsen“ neben der wichtigen Vernetzungs- und Koordinationstätigkeit auch inhaltliche Arbeit im Bereich Digital Humanities stattfindet.</p>
+        </body>
+        <back>
+          <div type="bibliogr">
+            <listBibl>
+              <head>Bibliographie</head>
+              <bibl><hi rend="bold">Digital Humanities an der Friedrich-Schiller-Universität
+                Jena</hi> (o. J.): <hi rend="italic">DHnet Jena</hi>
+                <ref target="http://dhnet.uni-jena.de/index.php?id=124"
+                  >http://dhnet.uni-jena.de/index.php?id=124</ref> [letzter Zugriff 15.
+                  Februar 2016].</bibl>
+                  <bibl><hi rend="bold">Universität Erfurt</hi> (o. J.): <hi rend="italic"
+                  >Netzwerk für digitale Geisteswissenschaften an der Universität
+                  Erfurt</hi> [letzter Zugriff 15. Februar 2016].</bibl>
+                </listBibl>
+              </div>
+            </back>
+          </text>
+        </TEI>

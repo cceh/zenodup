@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="250_final-VAUTH_Michael_Netzwerkanalyse_narrativer_Informationsvermitt" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Netzwerkanalyse narrativer Informationsvermittlung in Dramen</title>
+                <author>
+                    <persName>
+                        <surname>Vauth</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Technische Universität Hamburg, Deutschland</affiliation>
+                    <email>michael.vauth@tuhh.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-14T18:37:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Netzwerkanalyse</term>
+                    <term>Narrativität</term>
+                    <term>Informationsvermittlung</term>
+                    <term>Dramenanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>In diesem Beitrag wird ein Verfahren vorgestellt, das Netzwerkvisualisierungen dramatischer Texte für eine spezifische Form der kommunikativen Interaktion zwischen Figuren fokussiert.</p>
+                <p>Es wird gezeigt, inwiefern gewichtete, gerichtete und dynamische Figurennetzwerke narrative Informationsvermittlung in der Figurenrede visualisieren können und auf diesem Weg dramennarratologische Analysen bzw. Annotationen ausgewertet werden.</p>
+                <p>Im Gegensatz zu literaturwissenschaftlichen Netzwerkanalysen, die um die automatisierte Analyse 
+                    <anchor xml:id="CTVK001c34975d63a9649c1801b25117261594e"/>des „kompositorische[n] Grundgerüst[s]“ 
+                    <?biblio ADDIN CITAVI.PLACEHOLDER 3e696cbe-d426-4a08-941b-ef752f5cc0fa PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPjNlNjk2Y2JlLWQ0MjYtNGEwOC05NDFiLWVmNzUyZjVjYzBmYTwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxBc3NvY2lhdGVXaXRoS25vd2xlZGdlSXRlbUlkPmMzNDk3NWQ2LTNhOTYtNDljMS04MDFiLTI1MTE3MjYxNTk0ZTwvQXNzb2NpYXRlV2l0aEtub3dsZWRnZUl0ZW1JZD4NCiAgICAgIDxJZD41YTAzZWI5YS02NDFlLTRkMjMtYmJjZi1kZjZhMzlhNzVkMDY8L0lkPg0KICAgICAgPFBhZ2VSYW5nZT48IVtDREFUQVs8c3A+DQogIDxuPjIyNDwvbj4NCiAgPGluPnRydWU8L2luPg0KICA8b3M+MjI0PC9vcz4NCiAgPHBzPjIyNDwvcHM+DQo8L3NwPg0KPG9zPjIyNDwvb3M+XV0+PC9QYWdlUmFuZ2U+DQogICAgICA8U3RhcnRQYWdlPjIyNDwvU3RhcnRQYWdlPg0KICAgICAgPE51bWVyYWxTeXN0ZW0+QXJhYmljPC9OdW1lcmFsU3lzdGVtPg0KICAgICAgPE51bWJlcmluZ1R5cGU+UGFnZTwvTnVtYmVyaW5nVHlwZT4NCiAgICAgIDxRdW90YXRpb25UeXBlPkRpcmVjdFF1b3RhdGlvbjwvUXVvdGF0aW9uVHlwZT4NCiAgICAgIDxSZWZlcmVuY2VJZD42MDY0YjJiMC1lMTkzLTQ0MzEtYjFmMS05YjhkODY5Njg4OGY8L1JlZmVyZW5jZUlkPg0KICAgICAgPFJhbmdlPg0KICAgICAgICA8U3RhcnQ+MDwvU3RhcnQ+DQogICAgICAgIDxMZW5ndGg+MTk8L0xlbmd0aD4NCiAgICAgIDwvUmFuZ2U+DQogICAgICA8UmVmZXJlbmNlPg0KICAgICAgICA8UmVmZXJlbmNlVHlwZUlkPkNvbnRyaWJ1dGlvbjwvUmVmZXJlbmNlVHlwZUlkPg0KICAgICAgICA8QXV0aG9ycz4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5QZWVyPC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+VHJpbGNrZTwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgIDwvQXV0aG9ycz4NCiAgICAgICAgPElkPjYwNjRiMmIwLWUxOTMtNDQzMS1iMWYxLTliOGQ4Njk2ODg4ZjwvSWQ+DQogICAgICAgIDxQYWdlUmFuZ2U+PCFbQ0RBVEFbPHNwPg0KICA8bj4yMDE8L24+DQogIDxpbj50cnVlPC9pbj4NCiAgPG9zPjIwMTwvb3M+DQogIDxwcz4yMDE8L3BzPg0KPC9zcD4NCjxlcD4NCiAgPG4+MjQ3PC9uPg0KICA8aW4+dHJ1ZTwvaW4+DQogIDxvcz4yNDc8L29zPg0KICA8cHM+MjQ3PC9wcz4NCjwvZXA+DQo8b3M+MjAxLTI0Nzwvb3M+XV0+PC9QYWdlUmFuZ2U+DQogICAgICAgIDxFbmRQYWdlPjI0NzwvRW5kUGFnZT4NCiAgICAgICAgPFN0YXJ0UGFnZT4yMDE8L1N0YXJ0UGFnZT4NCiAgICAgICAgPFBhcmVudFJlZmVyZW5jZT48UmVmZXJlbmNlPjxSZWZlcmVuY2VUeXBlSWQ+Qm9va0VkaXRlZDwvUmVmZXJlbmNlVHlwZUlkPjxFZGl0b3JzPjxQZXJzb24+PEZpcnN0TmFtZT5DaHJpc3RvcGg8L0ZpcnN0TmFtZT48TGFzdE5hbWU+UmF1ZW48L0xhc3ROYW1lPjxTZXg+TWFsZTwvU2V4PjwvUGVyc29uPjxQZXJzb24+PEZpcnN0TmFtZT5LYXRqYTwvRmlyc3ROYW1lPjxMYXN0TmFtZT5NZWxsbWFubjwvTGFzdE5hbWU+PFNleD5GZW1hbGU8L1NleD48L1BlcnNvbj48UGVyc29uPjxGaXJzdE5hbWU+UGhpbGlwPC9GaXJzdE5hbWU+PExhc3ROYW1lPkFqb3VyaTwvTGFzdE5hbWU+PFNleD5NYWxlPC9TZXg+PC9QZXJzb24+PC9FZGl0b3JzPjxJZD4xY2ZlMjRmNS03Yjc5LTRlMDAtYTY4NS04MzE5MTQ0NzNhZmY8L0lkPjxJc2JuPjk3OC0zODk3ODU0NTgxPC9Jc2JuPjxMYW5ndWFnZT5nZXI8L0xhbmd1YWdlPjxQYWdlQ291bnRDNT48IVtDREFUQVs8Yz40NDg8L2M+DQo8aW4+dHJ1ZTwvaW4+DQo8b3M+NDQ4PC9vcz4NCjxwcz40NDg8L3BzPl1dPjwvUGFnZUNvdW50QzU+PFBhZ2VDb3VudD40NDg8L1BhZ2VDb3VudD48UGxhY2VPZlB1YmxpY2F0aW9uPk3DvG5zdGVyPC9QbGFjZU9mUHVibGljYXRpb24+PFB1Ymxpc2hlcnM+PFB1Ymxpc2hlcj48TmFtZT5NZW50aXM8L05hbWU+PC9QdWJsaXNoZXI+PC9QdWJsaXNoZXJzPjxTZXJpZXNUaXRsZT48TmFtZT5Qb2V0b2dlbmVzaXM8L05hbWU+PC9TZXJpZXNUaXRsZT48U2VxdWVuY2VOdW1iZXI+NTwvU2VxdWVuY2VOdW1iZXI+PFNob3J0VGl0bGU+UmF1ZW4sIE1lbGxtYW5uIGV0IGFsLiAoSGcuKSAyMDEzIOKAkyBFbXBpcmllIGluIGRlciBMaXRlcmF0dXJ3aXNzZW5zY2hhZnQ8L1Nob3J0VGl0bGU+PFNvdXJjZU9mQmlibGlvZ3JhcGhpY0luZm9ybWF0aW9uPkdCViBHZW1laW5zYW1lciBCaWJsaW90aGVrc3ZlcmJ1bmQ8L1NvdXJjZU9mQmlibGlvZ3JhcGhpY0luZm9ybWF0aW9uPjxUaXRsZT5FbXBpcmllIGluIGRlciBMaXRlcmF0dXJ3aXNzZW5zY2hhZnQ8L1RpdGxlPjxWb2x1bWU+QmFuZCA4PC9Wb2x1bWU+PFllYXI+MjAxMzwvWWVhcj48L1JlZmVyZW5jZT48L1BhcmVudFJlZmVyZW5jZT4NCiAgICAgICAgPFNlcXVlbmNlTnVtYmVyPjY8L1NlcXVlbmNlTnVtYmVyPg0KICAgICAgICA8U2hvcnRUaXRsZT5UcmlsY2tlIDIwMTMg4oCTIFNvY2lhbCBOZXR3b3JrIEFuYWx5c2lzIFNOQTwvU2hvcnRUaXRsZT4NCiAgICAgICAgPFRpdGxlPlNvY2lhbCBOZXR3b3JrIEFuYWx5c2lzIChTTkEpIGFscyBNZXRob2RlIGVpbmVyIHRleHRlbXBpcmlzY2hlbiBMaXRlcmF0dXJ3aXNzZW5zY2hhZnQ8L1RpdGxlPg0KICAgICAgPC9SZWZlcmVuY2U+DQogICAgPC9FbnRyeT4NCiAgPC9FbnRyaWVzPg0KICA8VGV4dD4oVHJpbGNrZSAyMDEzOiAyMjQpPC9UZXh0Pg0KICA8VGV4dFVuaXRzPg0KICAgIDxUZXh0VW5pdD4NCiAgICAgIDxJbnNlcnRQYXJhZ3JhcGhBZnRlcj5mYWxzZTwvSW5zZXJ0UGFyYWdyYXBoQWZ0ZXI+DQogICAgICA8Rm9udE5hbWUgLz4NCiAgICAgIDxGb250U3R5bGU+DQogICAgICAgIDxOZXV0cmFsPnRydWU8L05ldXRyYWw+DQogICAgICAgIDxOYW1lIC8+DQogICAgICA8L0ZvbnRTdHlsZT4NCiAgICAgIDxGb250U2l6ZT4wPC9Gb250U2l6ZT4NCiAgICAgIDxUZXh0PihUcmlsY2tlIDIwMTM6IDIyNCk8L1RleHQ+DQogICAgPC9UZXh0VW5pdD4NCiAgPC9UZXh0VW5pdHM+DQo8L1BsYWNlaG9sZGVyPg==?>
+                    <anchor xml:id="CTVP0013e696cbed4264a08941bef752f5cc0fa"/>(Trilcke 2013: 224) von großen Dramenkorpora 
+                    <?biblio ADDIN CITAVI.PLACEHOLDER 515aa8fb-d746-42b2-b4cb-7559a10308e7 PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPjUxNWFhOGZiLWQ3NDYtNDJiMi1iNGNiLTc1NTlhMTAzMDhlNzwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxBc3NvY2lhdGVXaXRoS25vd2xlZGdlSXRlbUlkPmNiYWUzYTgzLTdlZjgtNDAxMC1iNzE2LTMzNTQ3OWRhMTkxNDwvQXNzb2NpYXRlV2l0aEtub3dsZWRnZUl0ZW1JZD4NCiAgICAgIDxJZD5iZjFhOTZmMi1jMTQ1LTQxNWItYWNhYi1mZTQ0YjAwYjY0M2Y8L0lkPg0KICAgICAgPFF1b3RhdGlvblR5cGU+RGlyZWN0UXVvdGF0aW9uPC9RdW90YXRpb25UeXBlPg0KICAgICAgPFJlZmVyZW5jZUlkPmNiOGEzZWEyLTliOTctNDg0YS05NDU2LTY5ZjNhNTYxOTMyODwvUmVmZXJlbmNlSWQ+DQogICAgICA8UmFuZ2U+DQogICAgICAgIDxTdGFydD4wPC9TdGFydD4NCiAgICAgICAgPExlbmd0aD4zNDwvTGVuZ3RoPg0KICAgICAgPC9SYW5nZT4NCiAgICAgIDxSZWZlcmVuY2U+DQogICAgICAgIDxSZWZlcmVuY2VUeXBlSWQ+Sm91cm5hbEFydGljbGU8L1JlZmVyZW5jZVR5cGVJZD4NCiAgICAgICAgPEF1dGhvcnM+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+QW5kcmV3PC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+UGlwZXI8L0xhc3ROYW1lPg0KICAgICAgICAgICAgPFNleD5NYWxlPC9TZXg+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+TWFyazwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPkFsZ2VlLUhld2l0dDwvTGFzdE5hbWU+DQogICAgICAgICAgICA8U2V4Pk1hbGU8L1NleD4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5Lb3VzdHV2PC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+U2luaGE8L0xhc3ROYW1lPg0KICAgICAgICAgIDwvUGVyc29uPg0KICAgICAgICAgIDxQZXJzb24+DQogICAgICAgICAgICA8Rmlyc3ROYW1lPkRlcmVrPC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+UnV0aHM8L0xhc3ROYW1lPg0KICAgICAgICAgICAgPFNleD5NYWxlPC9TZXg+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+SGFyZGlrPC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+VmFsYTwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgIDwvQXV0aG9ycz4NCiAgICAgICAgPElkPmNiOGEzZWEyLTliOTctNDg0YS05NDU2LTY5ZjNhNTYxOTMyODwvSWQ+DQogICAgICAgIDxMb2NhdGlvbnM+DQogICAgICAgICAgPExvY2F0aW9uPg0KICAgICAgICAgICAgPEFkZHJlc3M+MTAzLnBkZjwvQWRkcmVzcz4NCiAgICAgICAgICAgIDxMb2NhdGlvblR5cGU+RWxlY3Ryb25pY0FkZHJlc3M8L0xvY2F0aW9uVHlwZT4NCiAgICAgICAgICA8L0xvY2F0aW9uPg0KICAgICAgICAgIDxMb2NhdGlvbj4NCiAgICAgICAgICAgIDxBZGRyZXNzPmh0dHBzOi8vZGgyMDE3LmFkaG8ub3JnL2Fic3RyYWN0cy8xMDMvMTAzLnBkZjwvQWRkcmVzcz4NCiAgICAgICAgICAgIDxMb2NhdGlvblR5cGU+RWxlY3Ryb25pY0FkZHJlc3M8L0xvY2F0aW9uVHlwZT4NCiAgICAgICAgICA8L0xvY2F0aW9uPg0KICAgICAgICA8L0xvY2F0aW9ucz4NCiAgICAgICAgPE9ubGluZUFkZHJlc3M+aHR0cHM6Ly9kaDIwMTcuYWRoby5vcmcvYWJzdHJhY3RzLzEwMy8xMDMucGRmPC9PbmxpbmVBZGRyZXNzPg0KICAgICAgICA8UGVyaW9kaWNhbD4NCiAgICAgICAgICA8TmFtZT5EaWdpdGFsIEh1bWFuaXRpZXMgMjAxNywgQ29uZmVyZW5jZSBBYnN0cmFjdHM8L05hbWU+DQogICAgICAgIDwvUGVyaW9kaWNhbD4NCiAgICAgICAgPFNlcXVlbmNlTnVtYmVyPjkyPC9TZXF1ZW5jZU51bWJlcj4NCiAgICAgICAgPFNob3J0VGl0bGU+UGlwZXIsIEFsZ2VlLUhld2l0dCBldCBhbC4g4oCTIFN0dWR5aW5nIExpdGVyYXJ5IENoYXJhY3RlcnMgYW5kIENoYXJhY3RlcjwvU2hvcnRUaXRsZT4NCiAgICAgICAgPFRpdGxlPlN0dWR5aW5nIExpdGVyYXJ5IENoYXJhY3RlcnMgYW5kIENoYXJhY3RlciBOZXR3b3JrczwvVGl0bGU+DQogICAgICA8L1JlZmVyZW5jZT4NCiAgICA8L0VudHJ5Pg0KICAgIDxFbnRyeT4NCiAgICAgIDxBc3NvY2lhdGVXaXRoS25vd2xlZGdlSXRlbUlkPjEwMTQ4NzFiLTBiMGMtNDVhOC05NDJlLWRlNjQ5YTMwYjk2MTwvQXNzb2NpYXRlV2l0aEtub3dsZWRnZUl0ZW1JZD4NCiAgICAgIDxJZD5jNWM1ZmE5ZS0zNzE4LTRlNTEtOGNmYy05N2VlZjQ0ZTQ5Zjc8L0lkPg0KICAgICAgPFF1b3RhdGlvblR5cGU+RGlyZWN0UXVvdGF0aW9uPC9RdW90YXRpb25UeXBlPg0KICAgICAgPFJlZmVyZW5jZUlkPjdmZGY3Y2NiLThhYjEtNDQ0Zi1hNjM5LWVhZDUwN2RjM2RiMDwvUmVmZXJlbmNlSWQ+DQogICAgICA8UmVmZXJlbmNlPg0KICAgICAgICA8UmVmZXJlbmNlVHlwZUlkPkNvbnRyaWJ1dGlvbjwvUmVmZXJlbmNlVHlwZUlkPg0KICAgICAgICA8QXV0aG9ycz4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5QLjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPlRyaWxja2U8L0xhc3ROYW1lPg0KICAgICAgICAgIDwvUGVyc29uPg0KICAgICAgICAgIDxQZXJzb24+DQogICAgICAgICAgICA8Rmlyc3ROYW1lPkYuPC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+RmlzY2hlcjwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+RC48L0ZpcnN0TmFtZT4NCiAgICAgICAgICAgIDxMYXN0TmFtZT5LYW1wa2FzcGFyPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgPC9BdXRob3JzPg0KICAgICAgICA8SWQ+N2ZkZjdjY2ItOGFiMS00NDRmLWE2MzktZWFkNTA3ZGMzZGIwPC9JZD4NCiAgICAgICAgPExvY2F0aW9ucz4NCiAgICAgICAgICA8TG9jYXRpb24+DQogICAgICAgICAgICA8QWRkcmVzcz5odHRwOi8vZGgyMDE1Lm9yZy9hYnN0cmFjdHMveG1sL0ZJU0NIRVJfRnJhbmtfRGlnaXRhbF9OZXR3b3JrX0FuYWx5c2lzX29mX0RyYW1hdGkvRklTQ0hFUl9GcmFua19EaWdpdGFsX05ldHdvcmtfQW5hbHlzaXNfb2ZfRHJhbWF0aWNfVGV4dC5odG1sPC9BZGRyZXNzPg0KICAgICAgICAgICAgPExvY2F0aW9uVHlwZT5FbGVjdHJvbmljQWRkcmVzczwvTG9jYXRpb25UeXBlPg0KICAgICAgICAgIDwvTG9jYXRpb24+DQogICAgICAgICAgPExvY2F0aW9uPg0KICAgICAgICAgICAgPEFkZHJlc3M+VHJpbGNrZSwgRmlzY2hlciBldCBhbC4gMjAxNSAtIERpZ2l0YWwgTmV0d29yayBBbmFseXNpcyBvZiBEcmFtYXRpYy5wZGY8L0FkZHJlc3M+DQogICAgICAgICAgICA8TG9jYXRpb25UeXBlPkVsZWN0cm9uaWNBZGRyZXNzPC9Mb2NhdGlvblR5cGU+DQogICAgICAgICAgPC9Mb2NhdGlvbj4NCiAgICAgICAgPC9Mb2NhdGlvbnM+DQogICAgICAgIDxPbmxpbmVBZGRyZXNzPmh0dHA6Ly9kaDIwMTUub3JnL2Fic3RyYWN0cy94bWwvRklTQ0hFUl9GcmFua19EaWdpdGFsX05ldHdvcmtfQW5hbHlzaXNfb2ZfRHJhbWF0aS9GSVNDSEVSX0ZyYW5rX0RpZ2l0YWxfTmV0d29ya19BbmFseXNpc19vZl9EcmFtYXRpY19UZXh0Lmh0bWw8L09ubGluZUFkZHJlc3M+DQogICAgICAgIDxQYXJlbnRSZWZlcmVuY2U+PFJlZmVyZW5jZT48UmVmZXJlbmNlVHlwZUlkPkNvbmZlcmVuY2VQcm9jZWVkaW5nczwvUmVmZXJlbmNlVHlwZUlkPjxJZD5hYWRkNTg2ZC0zOGY4LTQzYWQtYTQxNS0wM2UyYWE0NDg1ZWU8L0lkPjxMb2NhdGlvbnM+PExvY2F0aW9uPjxBZGRyZXNzPmh0dHA6Ly9kaDIwMTUub3JnL2Fic3RyYWN0cy94bWwvRklTQ0hFUl9GcmFua19EaWdpdGFsX05ldHdvcmtfQW5hbHlzaXNfb2ZfRHJhbWF0aS9GSVNDSEVSX0ZyYW5rX0RpZ2l0YWxfTmV0d29ya19BbmFseXNpc19vZl9EcmFtYXRpY19UZXh0Lmh0bWw8L0FkZHJlc3M+PExvY2F0aW9uVHlwZT5FbGVjdHJvbmljQWRkcmVzczwvTG9jYXRpb25UeXBlPjwvTG9jYXRpb24+PC9Mb2NhdGlvbnM+PFNlcXVlbmNlTnVtYmVyPjIyPC9TZXF1ZW5jZU51bWJlcj48U2hvcnRUaXRsZT5EaWdpdGFsIEh1bWFuaXRpZXMgMjAxNSAyMDE1PC9TaG9ydFRpdGxlPjxTdWJ0aXRsZT5Cb29rIG9mIEFic3RyYWN0czwvU3VidGl0bGU+PFRpdGxlPkRpZ2l0YWwgSHVtYW5pdGllcyAyMDE1PC9UaXRsZT48WWVhcj4yMDE1PC9ZZWFyPjwvUmVmZXJlbmNlPjwvUGFyZW50UmVmZXJlbmNlPg0KICAgICAgICA8U2VxdWVuY2VOdW1iZXI+MjE8L1NlcXVlbmNlTnVtYmVyPg0KICAgICAgICA8U2hvcnRUaXRsZT5UcmlsY2tlLCBGaXNjaGVyIGV0IGFsLiAyMDE1IOKAkyBEaWdpdGFsIE5ldHdvcmsgQW5hbHlzaXMgb2YgRHJhbWF0aWM8L1Nob3J0VGl0bGU+DQogICAgICAgIDxUaXRsZT5EaWdpdGFsIE5ldHdvcmsgQW5hbHlzaXMgb2YgRHJhbWF0aWMgVGV4dHM8L1RpdGxlPg0KICAgICAgPC9SZWZlcmVuY2U+DQogICAgPC9FbnRyeT4NCiAgPC9FbnRyaWVzPg0KICA8VGV4dD4oUGlwZXIgZXQgYWw7IFRyaWxja2UgZXQgYWwuIDIwMTUpPC9UZXh0Pg0KICA8VGV4dFVuaXRzPg0KICAgIDxUZXh0VW5pdD4NCiAgICAgIDxJbnNlcnRQYXJhZ3JhcGhBZnRlcj5mYWxzZTwvSW5zZXJ0UGFyYWdyYXBoQWZ0ZXI+DQogICAgICA8Rm9udE5hbWUgLz4NCiAgICAgIDxGb250U3R5bGU+DQogICAgICAgIDxOZXV0cmFsPnRydWU8L05ldXRyYWw+DQogICAgICAgIDxOYW1lIC8+DQogICAgICA8L0ZvbnRTdHlsZT4NCiAgICAgIDxGb250U2l6ZT4wPC9Gb250U2l6ZT4NCiAgICAgIDxUZXh0PihQaXBlciBldCBhbDsgVHJpbGNrZSBldCBhbC4gMjAxNSk8L1RleHQ+DQogICAgPC9UZXh0VW5pdD4NCiAgPC9UZXh0VW5pdHM+DQo8L1BsYWNlaG9sZGVyPg==?>
+                    <anchor xml:id="CTVP001515aa8fbd74642b2b4cb7559a10308e7"/>(Piper et al 2017; Trilcke et al. 2015) bemüht sind, steht in diesem Beitrag also die Visualisierung von manuellen Annotationen im Vordergrund.
+                </p>
+                <p>Darüber hinaus werden mit Rückgriff auf die ermittelten Netzwerkdaten Deutungspotenziale exemplarisch an Kleists 
+                    <hi rend="italic">Die Familie Schroffenstein</hi> (DFS) diskutiert.<hi rend="superscript">1</hi> Das Erkenntnisinteresse zielt also auf zwei Aspekte: (1) Inwiefern lassen sich narrative Redebeiträge, die ein zentrales Element der inneren und äußeren Informationsvermittlung im Drama (Pfister 2001: 20-22) sind, durch Annotationen netzwerkgraphisch visualisieren? (2) Inwiefern stellt die literaturwissenschaftliche Netzwerkanalyse in diesem Kontext einen Mehrwert dar?
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Annotation narrativer Figurenrede</head>
+                <p>Ausgangspunkt der vorgestellten Netzwerke ist eine Typologie narrativer Figurenrede bzw. von Binnenerzählungen, die zur Annotation der Dramen Heinrich von Kleists genutzt wurden.<hi rend="superscript">2</hi> Dabei wurden über 800 Vorkommnisse narrativer Figurenrede in den Dramen manuell annotiert. In einem ersten Schritt unterscheidet die Typologie zwischen narrativen Äußerungen, mit denen Figuren über ihre eigene Wirklichkeit erzählen, und narrativer Figurenrede, bei der das nicht der Fall ist. Der erste Phänomentyp, die horizontalen Binnenerzählungen, können mit dem narratologischen Kategorieninventar zur Beschreibung anachronen Erzählens (Lahn &amp; Meister 2008: 138-141) genauer beschrieben und annotiert werden:<hi rend="superscript">3</hi>
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="center" cols="3">Binnenerzählungen</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Horizontal</cell>
+                        <cell rend="left">Analepsen</cell>
+                        <cell rend="center">488</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left">Simullepsen</cell>
+                        <cell rend="center">123</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left">Prolepsen</cell>
+                        <cell rend="center">33</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Vertikal</cell>
+                        <cell rend="left">Pseudoanalepsen</cell>
+                        <cell rend="center">33</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left">Pseudosimullepsen</cell>
+                        <cell rend="center">6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left">Pseudoprolepse</cell>
+                        <cell rend="center">29</cell>
+                    </row>
+                </table>
+				<p>Tabelle 1: Vorkommen narrativer Figurenrede in Kleists Dramen</p>
+                <p>Diese manuellen Annotationen sind die Grundlage dafür, dass unterschiedliche Formen der Informationsvermittlung netzwerkgraphisch visualisiert werden können.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Netzwerkerstellung</head>
+                <p>Unter Rückgriff auf die Annotationen der narrativen Figurenrede und die TEI-Annotationen von Sprecherfiguren und Szenen- sowie Aktwechseln im TextGrid-Korpus wurden chronologisierte Sender-Adressaten-Kanten erstellt. Dazu wurden die vier Sprecherfiguren, die auf eine narrative Äußerung folgen oder ihr vorangehen, als Adressaten berücksichtigt, sofern keine Akt- oder Szenenwechsel zwischen narrativer Figurenrede und potenziellem Adressaten liegt und es sich um unterschiedliche Figuren handelt. Die Anzahl der erzeugten Kanten ist somit deutlich höher als die Anzahl der narrativen Äußerungen (siehe exemplarisch in Tabelle 2 die Kanten 4 und 5 sowie 8-10). </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="width: 7%">Id</cell>
+                        <cell rend="width: 22%">
+                            <hi rend="bold" style="font-size:8pt">Source (Sprecher)</hi>
+                        </cell>
+                        <cell rend="width: 22%">
+                            <hi rend="bold" style="font-size:8pt">Target (Adressat)</hi>
+                        </cell>
+                        <cell rend="width: 12%">
+                            <hi rend="bold" style="font-size:8pt">Label (Akt)</hi>
+                        </cell>
+                        <cell rend="width: 22%">
+                            <hi rend="bold" style="font-size:8pt">Timeset (Beginn &amp; Ende)</hi>
+                        </cell>
+                        <cell rend="width: 15%">
+                            <hi rend="bold" style="font-size:8pt">Weight</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">Rupert</cell>
+                        <cell rend="center">Eustache</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[1.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">Rupert</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[2.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">Rupert</cell>
+                        <cell rend="center">Ottokar</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[3.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">Ottokar</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[4.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">Ottokar</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[5.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">2</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">Ottokar</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[6.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">7</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">Kirchenvogt</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[7.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">8</cell>
+                        <cell rend="center">Kirchenvogt</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[8.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">9</cell>
+                        <cell rend="center">Kirchenvogt</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[9.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">2</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">Kirchenvogt</cell>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">"&lt;[10.0,48.0]&gt;"</hi>
+                        </cell>
+                        <cell rend="center">3</cell>
+                    </row>
+                </table>
+				<p>Tabelle 2: Auszug aus der Kantenliste zu DFS</p>
+                <p>Das Kantengewicht 
+                (<hi rend="italic">Weight</hi>) zwischen einer Sender- und einer Adressatenfigur steigt mit jeder narrativen Äußerung, die eine Senderfigur im ‚Beisein‘ derselben Adressatenfigur äußert (siehe z.B. Kante 4 und 5). 
+                </p>
+                <p>Die Figurennetzwerke, die auf dieser Grundlage erstellt werden, illustrieren, welche Figuren sich zu welchem Zeitpunkt des Dramenverlaufs narrativ äußern, welche Figuren narrative Informationen bekommen und wie häufig Figuren an narrativem Informationsaustausch beteiligt sind.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Visualisierungs- und Analysebeispiele</head>
+                <p>Abbildung 1 zeigt dieses Potential der Netzwerkvisualisierung exemplarisch für 
+                    <hi rend="italic">Die Familie Schroffenstein</hi>.<hi rend="superscript">4</hi>
+                </p>
+                <figure>
+                    <graphic n="1001" width="10cm" height="6.757925cm" url="250_final-84992a02c805466ba1868ada56f591cc.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 1.
+                        <hi style="font-size:10pt">Narrative Informationsvermittlung in DFS</hi>
+                    </head>
+                </figure>
+                <p>Die Größe der Knotenbeschriftung repräsentiert hier die betweenness centrality<hi rend="superscript">5</hi> der Figuren und damit den Stellenwert bzw. Einfluss der Figur auf die narrative Informationsvermittlung innerhalb des Dramas.
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="center">Label</cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">betweenness centrality</hi>
+                        </cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">weighted indegree</hi>
+                        </cell>
+                        <cell rend="center">
+                            <hi style="font-size:8pt">weighted outdegree</hi>
+                        </cell>
+                        <cell rend="center">indegree</cell>
+                        <cell rend="center">outdegree</cell>
+                        <cell rend="center">degree</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Jeronimus</cell>
+                        <cell rend="center">125,45</cell>
+                        <cell rend="center">99</cell>
+                        <cell rend="center">82</cell>
+                        <cell rend="center">25</cell>
+                        <cell rend="center">28</cell>
+                        <cell rend="center">53</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Gertrude</cell>
+                        <cell rend="center">98,74</cell>
+                        <cell rend="center">46</cell>
+                        <cell rend="center">70</cell>
+                        <cell rend="center">15</cell>
+                        <cell rend="center">15</cell>
+                        <cell rend="center">30</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Sylvester</cell>
+                        <cell rend="center">85,37</cell>
+                        <cell rend="center">107</cell>
+                        <cell rend="center">31</cell>
+                        <cell rend="center">29</cell>
+                        <cell rend="center">14</cell>
+                        <cell rend="center">43</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Rupert</cell>
+                        <cell rend="center">74,47</cell>
+                        <cell rend="center">145</cell>
+                        <cell rend="center">17</cell>
+                        <cell rend="center">36</cell>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">46</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Agnes</cell>
+                        <cell rend="center">45,90</cell>
+                        <cell rend="center">59</cell>
+                        <cell rend="center">85</cell>
+                        <cell rend="center">18</cell>
+                        <cell rend="center">23</cell>
+                        <cell rend="center">41</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Eustache</cell>
+                        <cell rend="center">17,25</cell>
+                        <cell rend="center">37</cell>
+                        <cell rend="center">73</cell>
+                        <cell rend="center">14</cell>
+                        <cell rend="center">19</cell>
+                        <cell rend="center">33</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Ottokar</cell>
+                        <cell rend="center">5,11</cell>
+                        <cell rend="center">180</cell>
+                        <cell rend="center">51</cell>
+                        <cell rend="center">33</cell>
+                        <cell rend="center">14</cell>
+                        <cell rend="center">47</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Ursula</cell>
+                        <cell rend="center">3,31</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">5</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Santing</cell>
+                        <cell rend="center">2,94</cell>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">49</cell>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">12</cell>
+                        <cell rend="center">18</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Johann</cell>
+                        <cell rend="center">2,35</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">106</cell>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">15</cell>
+                        <cell rend="center">18</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Kirchenvogt</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">80</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">14</cell>
+                        <cell rend="center">15</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Ein Diener</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Sylvius</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">7</cell>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">6</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Gärtner</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">2</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Aldöbern</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Theistiner</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">15</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">9</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Der Wanderer</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Zweiter Wanderer</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">3</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Die Kammerzofe</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">13</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">8</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Barnabe</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">21</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">8</cell>
+                        <cell rend="center">9</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Ein Ritter</cell>
+                        <cell rend="center">0,00</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">0</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">2</cell>
+                    </row>
+                </table>
+				<p>Tabelle 3: Betweenness centrality, (weighted) in- und outdegree in DFS</p>
+                <p>Schon anhand dieses Beispiels und der netzwerkmetrischen Daten in Tabelle 3 lassen sich einige Vorzüge einer netzwerkgraphischen Annotationsauswertung zeigen:</p>
+                <list type="unordered">
+                    <item>Die Reichweite einer Figurenerzählung wird im Hinblick auf den Adressatenkreis ermittelt.</item>
+                    <item>Die narrativen Funktionen der Figuren werden durch ihre Netzwerkeigenschaften erkennbar:
+                        <list type="unordered">
+                            <item>
+                                <hi rend="italic">Brückenfiguren</hi>: hohe betweenness centrality; Verbindung getrennter Netzwerkbereiche 
+                                <anchor xml:id="CTVP00159161bd827784838b23b88403c10e732"/>(Trilcke 2013: 217): z.B. Jeronimus (siehe hier und nachfolgend Tabelle 2).
+                            </item>
+                            <item>
+                                <hi rend="italic">Botenfiguren</hi>: Geringe betweenness centrality; mind. eine narrative Äußerung: 
+                                <list type="unordered">
+                                    <item>
+                                        <hi rend="italic">Botenfiguren i.e.S.</hi>, die 
+                                        <hi rend="italic">nach</hi> dem ersten Akt erzählend in Erscheinung treten: z.B. die Wanderer, der Ritter und Barnabe.
+                                    </item>
+                                    <item>
+                                        <hi rend="italic">Expositionsfiguren</hi>, die 
+                                        <hi rend="italic">im</hi> ersten Akt/Dramenteil erzählend in Erscheinung treten: z.B. der Kirchenvogt.<hi rend="superscript">6</hi>
+                                    </item>
+                                </list>
+                            </item>
+                            <item>
+                                <hi rend="italic">Zielfiguren</hi>: hohe betweenness centrality; hoher gewichteter Eingangsgrad; geringer gewichteter Ausgangsgrad: z.B. Sylvester und Rupert, die häufig die Adressaten, aber selten die Sprecher narrativer Figurenrede sind. (Die Handlung des hier gewählten Beispieltexts legt die These nahe, dass diese Figuren entscheidungsmächtige Figuren sind und daher zahlreiche Informationen bekommen.)
+                            </item>
+                            <item>
+                                <hi rend="italic">Figuren der Informationskontrolle</hi>: hohe betweenness centrality; sehr hoher Ausgangsgrad; Netzwerke mit geringer Kantendichte: z.B. Hermann in Kleists 
+                                <hi rend="italic">Hermannsschlacht.</hi><hi rend="superscript">7</hi>
+                            </item>
+                        </list>
+                    </item>
+                    <item>Es lassen sich Figurenpaare und Netzwerkbereiche identifizieren, zwischen denen es keinen oder nur vermittelten Informationsaustausch gibt. Hier sind natürlich Dyaden besonders interessant, bei denen die beiden Figuren eine hohe betweenness centrality aufweisen: z.B. Rupert und Sylvester.</item>
+                    <item>Die Informationsstrukturen geben Aufschluss über den allgemeinen Grad der Informiertheit der Figuren: z.B. die Kantendichte.<hi rend="superscript">8</hi>
+                    </item>
+                </list>
+                <p>Zudem können unterschiedliche Formen der narrativen Figurenrede netzwerkgraphisch miteinander verglichen werden. Die Abbildungen 3 und 4 zeigen dies exemplarisch. In Abbildung 3 werden Figurenerzählungen visualisiert, in denen sich Figuren in Übereinstimmung mit der fiktionalen Wirklichkeit äußern. Abbildung 4 zeigt narrative Äußerungen, bei denen das Gegenteil der Fall ist. Es handelt sich also um narrative Falschaussagen. Der Vergleich ist in diesem Fall aufgrund der vorhandenen Parallelen 
+                    <hi rend="italic">und</hi> Unterschiede aufschlussreich. Bei beiden Netzwerken behält Jeronimus die zentrale Position im Netzwerk. Hier schlägt sich nieder, dass er für die Verbreitung von wirklichkeitsgemäßen Informationen ebenso verantwortlich ist, wie für die Verbreitung von falschen Verdächtigungen, Lügen und Vorurteilen. Agnes‘ Netzwerkposition verändert sich hingegen stark (Abb. 4). Sie ist innerhalb ihrer Familie und in der kommunikativen Interaktion mit Ottokar die zentrale Figur bei der Weitergabe falscher Informationen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Informationsvermittlung im Dramenverlauf: Dynamische Netzwerke</head>
+                <p>Wie 
+                    <?biblio ADDIN CITAVI.PLACEHOLDER e85fc92f-d307-4491-bb25-5e2a866b93de PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPmU4NWZjOTJmLWQzMDctNDQ5MS1iYjI1LTVlMmE4NjZiOTNkZTwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxBc3NvY2lhdGVXaXRoS25vd2xlZGdlSXRlbUlkPjFjYTc5NDYyLWQ5ZjctNDA0Yy1iMmMyLTYxNTg3MGJjODYwYzwvQXNzb2NpYXRlV2l0aEtub3dsZWRnZUl0ZW1JZD4NCiAgICAgIDxJZD44NzRiNTA5Ny0xOTQyLTQwMjgtOTc0Ni01ZTU5NGEzMTI2Y2I8L0lkPg0KICAgICAgPFBhZ2VSYW5nZT48IVtDREFUQVs8c3A+DQogIDxuPjk0PC9uPg0KICA8aW4+dHJ1ZTwvaW4+DQogIDxvcz45NDwvb3M+DQogIDxwcz45NDwvcHM+DQo8L3NwPg0KPG9zPjk0PC9vcz5dXT48L1BhZ2VSYW5nZT4NCiAgICAgIDxTdGFydFBhZ2U+OTQ8L1N0YXJ0UGFnZT4NCiAgICAgIDxOdW1lcmFsU3lzdGVtPkFyYWJpYzwvTnVtZXJhbFN5c3RlbT4NCiAgICAgIDxOdW1iZXJpbmdUeXBlPlBhZ2U8L051bWJlcmluZ1R5cGU+DQogICAgICA8UXVvdGF0aW9uVHlwZT5EaXJlY3RRdW90YXRpb248L1F1b3RhdGlvblR5cGU+DQogICAgICA8UmVmZXJlbmNlSWQ+YTVlNzU5ZDgtN2E0Ny00ZTlmLTkxYjUtZDZlN2Q0Yzc0NzNlPC9SZWZlcmVuY2VJZD4NCiAgICAgIDxSYW5nZT4NCiAgICAgICAgPFN0YXJ0PjA8L1N0YXJ0Pg0KICAgICAgICA8TGVuZ3RoPjI1PC9MZW5ndGg+DQogICAgICA8L1JhbmdlPg0KICAgICAgPFJlZmVyZW5jZT4NCiAgICAgICAgPFJlZmVyZW5jZVR5cGVJZD5Db250cmlidXRpb248L1JlZmVyZW5jZVR5cGVJZD4NCiAgICAgICAgPEF1dGhvcnM+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+QS48L0ZpcnN0TmFtZT4NCiAgICAgICAgICAgIDxMYXN0TmFtZT5BZ2Fyd2FsPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5BLjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPkNvcnZhbGFuPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5KLjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPkplbnNlbjwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+Ty48L0ZpcnN0TmFtZT4NCiAgICAgICAgICAgIDxMYXN0TmFtZT5SYW1ib3c8L0xhc3ROYW1lPg0KICAgICAgICAgIDwvUGVyc29uPg0KICAgICAgICA8L0F1dGhvcnM+DQogICAgICAgIDxJZD5hNWU3NTlkOC03YTQ3LTRlOWYtOTFiNS1kNmU3ZDRjNzQ3M2U8L0lkPg0KICAgICAgICA8TG9jYXRpb25zPg0KICAgICAgICAgIDxMb2NhdGlvbj4NCiAgICAgICAgICAgIDxBZGRyZXNzPmh0dHA6Ly93d3cuYWNsd2ViLm9yZy9hbnRob2xvZ3kvVzEyLTI1MTM8L0FkZHJlc3M+DQogICAgICAgICAgICA8TG9jYXRpb25UeXBlPkVsZWN0cm9uaWNBZGRyZXNzPC9Mb2NhdGlvblR5cGU+DQogICAgICAgICAgPC9Mb2NhdGlvbj4NCiAgICAgICAgICA8TG9jYXRpb24+DQogICAgICAgICAgICA8QWRkcmVzcz5BZ2Fyd2FsLCBDb3J2YWxhbiBldCBhbC4gMjAxMiAtIFNvY2lhbCBOZXR3b3JrIEFuYWx5c2lzIG9mIEFsaWNlLnBkZjwvQWRkcmVzcz4NCiAgICAgICAgICAgIDxMb2NhdGlvblR5cGU+RWxlY3Ryb25pY0FkZHJlc3M8L0xvY2F0aW9uVHlwZT4NCiAgICAgICAgICA8L0xvY2F0aW9uPg0KICAgICAgICA8L0xvY2F0aW9ucz4NCiAgICAgICAgPFBhZ2VSYW5nZT48IVtDREFUQVs8c3A+DQogIDxuPjg4PC9uPg0KICA8aW4+dHJ1ZTwvaW4+DQogIDxvcz44ODwvb3M+DQogIDxwcz44ODwvcHM+DQo8L3NwPg0KPGVwPg0KICA8bj45Njwvbj4NCiAgPGluPnRydWU8L2luPg0KICA8b3M+OTY8L29zPg0KICA8cHM+OTY8L3BzPg0KPC9lcD4NCjxvcz44OC05Njwvb3M+XV0+PC9QYWdlUmFuZ2U+DQogICAgICAgIDxFbmRQYWdlPjk2PC9FbmRQYWdlPg0KICAgICAgICA8U3RhcnRQYWdlPjg4PC9TdGFydFBhZ2U+DQogICAgICAgIDxQYXJlbnRSZWZlcmVuY2U+PFJlZmVyZW5jZT48UmVmZXJlbmNlVHlwZUlkPkNvbmZlcmVuY2VQcm9jZWVkaW5nczwvUmVmZXJlbmNlVHlwZUlkPjxJZD4zZDAwZjQ5Yi1kMjU4LTQ5ZGEtOWYwNi1hZGZlYTYzNzZhY2I8L0lkPjxMb2NhdGlvbnM+PExvY2F0aW9uPjxBZGRyZXNzPmh0dHA6Ly93d3cuYWNsd2ViLm9yZy9hbnRob2xvZ3kvVzEyLTI1MTM8L0FkZHJlc3M+PExvY2F0aW9uVHlwZT5FbGVjdHJvbmljQWRkcmVzczwvTG9jYXRpb25UeXBlPjwvTG9jYXRpb24+PC9Mb2NhdGlvbnM+PFNlcXVlbmNlTnVtYmVyPjI8L1NlcXVlbmNlTnVtYmVyPjxTaG9ydFRpdGxlPlByb2NlZWRpbmdzIG9mIHRoZSBXb3Jrc2hvcCAyMDEyPC9TaG9ydFRpdGxlPjxTcGVjaWZpY0ZpZWxkMT5Nb250csOpYWw8L1NwZWNpZmljRmllbGQxPjxTcGVjaWZpY0ZpZWxkNz5Xb3Jrc2hvcCBvbiBDb21wdXRhdGlvbmFsIExpbmd1aXN0aWNzIGZvciBMaXRlcmF0dXJlPC9TcGVjaWZpY0ZpZWxkNz48VGl0bGU+UHJvY2VlZGluZ3Mgb2YgdGhlIFdvcmtzaG9wIG9uIENvbXB1dGF0aW9uYWwgTGluZ3Vpc3RpY3MgZm9yIExpdGVyYXR1cmU8L1RpdGxlPjxZZWFyPjIwMTI8L1llYXI+PC9SZWZlcmVuY2U+PC9QYXJlbnRSZWZlcmVuY2U+DQogICAgICAgIDxTZXF1ZW5jZU51bWJlcj4xPC9TZXF1ZW5jZU51bWJlcj4NCiAgICAgICAgPFNob3J0VGl0bGU+QWdhcndhbCwgQ29ydmFsYW4gZXQgYWwuIDIwMTIg4oCTIFNvY2lhbCBOZXR3b3JrIEFuYWx5c2lzIG9mIEFsaWNlPC9TaG9ydFRpdGxlPg0KICAgICAgICA8VGl0bGU+U29jaWFsIE5ldHdvcmsgQW5hbHlzaXMgb2YgQWxpY2UgaW4gV29uZGVybGFuZDwvVGl0bGU+DQogICAgICA8L1JlZmVyZW5jZT4NCiAgICA8L0VudHJ5Pg0KICA8L0VudHJpZXM+DQogIDxUZXh0PihBZ2Fyd2FsIGV0IGFsLiAyMDEyOiA5NCk8L1RleHQ+DQogIDxUZXh0VW5pdHM+DQogICAgPFRleHRVbml0Pg0KICAgICAgPEluc2VydFBhcmFncmFwaEFmdGVyPmZhbHNlPC9JbnNlcnRQYXJhZ3JhcGhBZnRlcj4NCiAgICAgIDxGb250TmFtZSAvPg0KICAgICAgPEZvbnRTdHlsZT4NCiAgICAgICAgPE5ldXRyYWw+dHJ1ZTwvTmV1dHJhbD4NCiAgICAgICAgPE5hbWUgLz4NCiAgICAgIDwvRm9udFN0eWxlPg0KICAgICAgPEZvbnRTaXplPjA8L0ZvbnRTaXplPg0KICAgICAgPFRleHQ+KEFnYXJ3YWwgZXQgYWwuIDIwMTI6IDk0KTwvVGV4dD4NCiAgICA8L1RleHRVbml0Pg0KICA8L1RleHRVbml0cz4NCjwvUGxhY2Vob2xkZXI+?>
+                    <anchor xml:id="CTVP001e85fc92fd3074491bb255e2a866b93de"/>Agarwal et al. (2012: 94) gezeigt haben, hat die Erstellung von dynamischen Netzwerken den Vorteil, die Veränderlichkeit der netzwerkmetrischen Eigenschaften einer Figur, einer Figurengruppe oder eines gesamten Netzwerks im Verlauf eines Roman- oder Dramengeschehens berücksichtigen zu können. Das bestätigen die netzwerkmetrischen Auswertungen der 
+                    <hi rend="italic">Familie Schroffenstein</hi> in Abbildung 2. Hier wird der gewichtete Ausgangsgrad für vier ausgewählte Figuren aktweise dokumentiert. So tritt der Kirchenvogt narrativ nur im ersten Akt in Erscheinung, was seine Funktion als Expositionsfigur unterstreicht. Auch Barnabes Funktion als Vermittlerin von Anagnorisis-Informationen zum Dramenende spiegelt sich wider. Jeronimus Bedeutung relativiert sich, weil ersichtlich wird, dass er – aufgrund seiner Ermordung am Ende des dritten Akts – nur in den ersten drei Akten als informationsvermittelnde Figur auftritt. Seine hohen Werte in Akt zwei und drei zeigen jedoch, dass er für den Handlungsverlauf entscheidende Informationen äußert. Bei Rupert bestätigt sich seine geringe narrative Aktivität (Tabelle 3) als ein relativ konstantes Verhalten. Der niedrige gewichtete Ausgangsgrad für das gesamte Drama ist also nicht darauf zurückzuführen, dass er nur in wenigen Szenen (erzählerisch) in Erscheinung tritt. 
+                </p>
+                <figure>
+                    <graphic n="1002" width="10.557494444444444cm" height="3.96875cm" url="250_final-f830a4a90f3e20c0ab31e0aa31bab22c.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 2.
+                        <hi style="font-size:10pt">Gewichteter Ausgangsgrad im Dramenverlauf in DFS</hi>
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schluss</head>
+                <p>Solange die automatische Annotation narrativer Figurenrede nicht möglich ist, setzt das vorgestellte Verfahren einen relativ großen Annotationsaufwand voraus. Es ermöglicht somit keinen umfassenden Vergleich von Dramen, was unter anderem zur Einordnung der vorgestellten quantitativen Netzwerkanalysen wünschenswert wäre.</p>
+                <p>In diesem Beitrag wurde jedoch exemplarisch gezeigt, inwiefern netzwerkgraphische Visualisierungen für die Auswertung narratologischer Annotationen einen analytischen Mehrwert haben können. Die formalen Annotationen können und sollen durch inhaltsbezogene Annotationen angereichert werden. Auf dieser Grundlage könnte netzwerkgraphisch der Informationsaustausch über bestimmte Themen oder Figuren visualisiert werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anhang</head>
+                <figure>
+                    <graphic n="1003" width="10cm" height="6.505222222222222cm" url="250_final-c9c3673a9ab34a276ded6345de28d260.png" rend="inline"/>
+                    <head> <lb/>Abbildung 3. Narrative Informationsvermittlung (Horizontale Binnenerzählungen/Wirklichkeitserzählungen) in DFS </head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="10cm" height="4.142561111111111cm" url="250_final-4df126c5ca6722bb2ac24eeb8abeb9ad.png" rend="inline"/>
+                    <head>
+                        <lb/> Abbildung 4.
+                        <hi style="font-size:10pt">Narrative Informationsvermittlung (Pseudoanalepsen/Falschaussagen) in DFS</hi>
+                    </head>
+                </figure>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">Label</cell>
+                        <cell rend="center">
+                            <hi rend="bold" style="font-size:7pt">betweenness centrality</hi>
+                        </cell>
+                        <cell rend="center">
+                            <hi rend="bold" style="font-size:7pt">weighted indegree</hi>
+                        </cell>
+                        <cell rend="center">
+                            <hi rend="bold" style="font-size:7pt">weighted outdegree</hi>
+                        </cell>
+                        <cell rend="center">indegree</cell>
+                        <cell rend="center">outdegree</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Hermann</cell>
+                        <cell rend="center">482,7</cell>
+                        <cell rend="center">66</cell>
+                        <cell rend="center">47</cell>
+                        <cell rend="center">36</cell>
+                        <cell rend="center">27</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Thuiskomar</cell>
+                        <cell rend="center">107,25</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Thusnelda</cell>
+                        <cell rend="center">69,62</cell>
+                        <cell rend="center">28</cell>
+                        <cell rend="center">25</cell>
+                        <cell rend="center">13</cell>
+                        <cell rend="center">9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ventidius</cell>
+                        <cell rend="center">61,95</cell>
+                        <cell rend="center">7</cell>
+                        <cell rend="center">27</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">14</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Varus</cell>
+                        <cell rend="center">57,8</cell>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">9</cell>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">8</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Dagobert</cell>
+                        <cell rend="center">27</cell>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Zweite Hauptmann</cell>
+                        <cell rend="center">21</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Gertrud</cell>
+                        <cell rend="center">20</cell>
+                        <cell rend="center">7</cell>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Marbod</cell>
+                        <cell rend="center">16,2</cell>
+                        <cell rend="center">11</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">7</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Wolf</cell>
+                        <cell rend="center">11,96</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Aristan</cell>
+                        <cell rend="center">8,5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Rinold</cell>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Erste Cherusker</cell>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Der zweite Cherusker</cell>
+                        <cell rend="center">5,2</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">2</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Gueltar</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">2</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Der Mann</cell>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Das Volk</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Erste Älteste</cell>
+                        <cell rend="center">0,5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Scäpio</cell>
+                        <cell rend="center">0,33</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">4</cell>
+                    </row>
+                </table>
+				<p>Tabelle 4: Figuren mit höchster betweenness centrality in Kleist <hi rend="italic">Hermannsschlacht</hi></p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> Textgrundlage der Annotationen war Kleists Werkausgabe von Siegfried Streller, die durch das TextGrid Repositorium digital zur Verfügung steht: https://textgrid.de/en/digitale-bibliothek.</note>
+				<note place="foot" xml:id="ftn2" n="2"> Dazu wurde das Annotationstool CATMA (<?biblio ADDIN CITAVI.PLACEHOLDER 5fda9248-71db-4bb2-a4e6-c8700632949c PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPjVmZGE5MjQ4LTcxZGItNGJiMi1hNGU2LWM4NzAwNjMyOTQ5YzwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxJZD42M2Q4NjEwZi04YzEwLTQzNTAtODY0My0zZjA5ZGNhNjc4ZDE8L0lkPg0KICAgICAgPFJlZmVyZW5jZUlkPjZlNjBkNzUwLWViZmUtNDE3NS1hZGFjLTgyNDczMDg1NzRhYTwvUmVmZXJlbmNlSWQ+DQogICAgICA8UmFuZ2U+DQogICAgICAgIDxTdGFydD4wPC9TdGFydD4NCiAgICAgICAgPExlbmd0aD4yMTwvTGVuZ3RoPg0KICAgICAgPC9SYW5nZT4NCiAgICAgIDxSZWZlcmVuY2U+DQogICAgICAgIDxSZWZlcmVuY2VUeXBlSWQ+Q29tcHV0ZXJQcm9ncmFtPC9SZWZlcmVuY2VUeXBlSWQ+DQogICAgICAgIDxBdXRob3JzPg0KICAgICAgICAgIDxQZXJzb24+DQogICAgICAgICAgICA8Rmlyc3ROYW1lPkouPC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+TWVpc3RlcjwvTGFzdE5hbWU+DQogICAgICAgICAgICA8TWlkZGxlTmFtZT5DLjwvTWlkZGxlTmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5NLjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPlBldHJpczwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+RS48L0ZpcnN0TmFtZT4NCiAgICAgICAgICAgIDxMYXN0TmFtZT5HaXVzPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5KLjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPkphY2tlPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgPC9BdXRob3JzPg0KICAgICAgICA8QWNjZXNzRGF0ZT4xMi4xMC4yMDE4PC9BY2Nlc3NEYXRlPg0KICAgICAgICA8SWQ+NmU2MGQ3NTAtZWJmZS00MTc1LWFkYWMtODI0NzMwODU3NGFhPC9JZD4NCiAgICAgICAgPExvY2F0aW9ucz4NCiAgICAgICAgICA8TG9jYXRpb24+DQogICAgICAgICAgICA8QWRkcmVzcz5odHRwOi8vd3d3LmNhdG1hLmRlPC9BZGRyZXNzPg0KICAgICAgICAgICAgPExvY2F0aW9uVHlwZT5FbGVjdHJvbmljQWRkcmVzczwvTG9jYXRpb25UeXBlPg0KICAgICAgICAgIDwvTG9jYXRpb24+DQogICAgICAgIDwvTG9jYXRpb25zPg0KICAgICAgICA8T25saW5lQWRkcmVzcz5odHRwOi8vd3d3LmNhdG1hLmRlPC9PbmxpbmVBZGRyZXNzPg0KICAgICAgICA8U2VxdWVuY2VOdW1iZXI+OTM8L1NlcXVlbmNlTnVtYmVyPg0KICAgICAgICA8U2hvcnRUaXRsZT5NZWlzdGVyLCBQZXRyaXMgZXQgYWwuIDIwMTYg4oCTIENBVE1BIDUuMDwvU2hvcnRUaXRsZT4NCiAgICAgICAgPFNwZWNpZmljRmllbGQ0PjU8L1NwZWNpZmljRmllbGQ0Pg0KICAgICAgICA8U3VidGl0bGU+c29mdHdhcmUgZm9yIHRleHQgYW5ub3RhdGlvbiBhbmQgYW5hbHlzaXM8L1N1YnRpdGxlPg0KICAgICAgICA8VGl0bGU+Q0FUTUEgNS4wPC9UaXRsZT4NCiAgICAgICAgPFllYXI+MjAxNjwvWWVhcj4NCiAgICAgIDwvUmVmZXJlbmNlPg0KICAgIDwvRW50cnk+DQogIDwvRW50cmllcz4NCiAgPFRleHQ+TWVpc3RlciBldCBhbC4gKDIwMTYpPC9UZXh0Pg0KICA8VGV4dFVuaXRzPg0KICAgIDxUZXh0VW5pdD4NCiAgICAgIDxJbnNlcnRQYXJhZ3JhcGhBZnRlcj5mYWxzZTwvSW5zZXJ0UGFyYWdyYXBoQWZ0ZXI+DQogICAgICA8Rm9udE5hbWUgLz4NCiAgICAgIDxGb250U3R5bGU+DQogICAgICAgIDxOZXV0cmFsPnRydWU8L05ldXRyYWw+DQogICAgICAgIDxOYW1lIC8+DQogICAgICA8L0ZvbnRTdHlsZT4NCiAgICAgIDxGb250U2l6ZT4wPC9Gb250U2l6ZT4NCiAgICAgIDxUZXh0Pk1laXN0ZXIgZXQgYWwuICgyMDE2KTwvVGV4dD4NCiAgICA8L1RleHRVbml0Pg0KICA8L1RleHRVbml0cz4NCjwvUGxhY2Vob2xkZXI+?><anchor xml:id="CTVP0015fda924871db4bb2a4e6c8700632949c"/>Meister et al. 2016) verwendet. CATMA bietet die Möglichkeit, mit selbstdefinierten literaturwissenschaftlichen Analysetaxonomien zu annotieren und ist damit für narratologische Forschungsprozesse besonders geeignet.</note>
+				<note place="foot" xml:id="ftn3" n="3"> Grundlegend für die Annotation ist ein Narrativitätskonzept, das berücksichtigt, dass Texte aller Gattungen narrative Elemente enthalten können, wie es u.a. <?biblio ADDIN CITAVI.PLACEHOLDER 9de1ee52-689f-4ac5-8fad-8b15c7a5e771 PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPjlkZTFlZTUyLTY4OWYtNGFjNS04ZmFkLThiMTVjN2E1ZTc3MTwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxJZD5mYWQzZDgzZS1mNTg4LTRiMGUtOTllMC03N2JlMzcyYjhhOTk8L0lkPg0KICAgICAgPFJlZmVyZW5jZUlkPjk3Y2VhZTIyLWY0YzItNDFlOC04MjZhLWFiYjkzM2E1YzRjYjwvUmVmZXJlbmNlSWQ+DQogICAgICA8UmFuZ2U+DQogICAgICAgIDxTdGFydD4wPC9TdGFydD4NCiAgICAgICAgPExlbmd0aD4xMTwvTGVuZ3RoPg0KICAgICAgPC9SYW5nZT4NCiAgICAgIDxSZWZlcmVuY2U+DQogICAgICAgIDxSZWZlcmVuY2VUeXBlSWQ+Q29udHJpYnV0aW9uPC9SZWZlcmVuY2VUeXBlSWQ+DQogICAgICAgIDxBdXRob3JzPg0KICAgICAgICAgIDxQZXJzb24+DQogICAgICAgICAgICA8Rmlyc3ROYW1lPldlcm5lcjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPldvbGY8L0xhc3ROYW1lPg0KICAgICAgICAgICAgPFNleD5NYWxlPC9TZXg+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgIDwvQXV0aG9ycz4NCiAgICAgICAgPElkPjk3Y2VhZTIyLWY0YzItNDFlOC04MjZhLWFiYjkzM2E1YzRjYjwvSWQ+DQogICAgICAgIDxMYW5ndWFnZT5kZTwvTGFuZ3VhZ2U+DQogICAgICAgIDxMYW5ndWFnZUNvZGU+ZGU8L0xhbmd1YWdlQ29kZT4NCiAgICAgICAgPFBhZ2VSYW5nZT48IVtDREFUQVs8c3A+DQogIDxuPjIzPC9uPg0KICA8aW4+dHJ1ZTwvaW4+DQogIDxvcz4yMzwvb3M+DQogIDxwcz4yMzwvcHM+DQo8L3NwPg0KPGVwPg0KICA8bj4xMDQ8L24+DQogIDxpbj50cnVlPC9pbj4NCiAgPG9zPjEwNDwvb3M+DQogIDxwcz4xMDQ8L3BzPg0KPC9lcD4NCjxvcz4yM+KAkzEwNDwvb3M+XV0+PC9QYWdlUmFuZ2U+DQogICAgICAgIDxFbmRQYWdlPjEwNDwvRW5kUGFnZT4NCiAgICAgICAgPFN0YXJ0UGFnZT4yMzwvU3RhcnRQYWdlPg0KICAgICAgICA8UGFyZW50UmVmZXJlbmNlPjxSZWZlcmVuY2U+PFJlZmVyZW5jZVR5cGVJZD5Cb29rRWRpdGVkPC9SZWZlcmVuY2VUeXBlSWQ+PEVkaXRvcnM+PFBlcnNvbj48Rmlyc3ROYW1lPlZlcmE8L0ZpcnN0TmFtZT48TGFzdE5hbWU+TsO8bm5pbmc8L0xhc3ROYW1lPjxTZXg+RmVtYWxlPC9TZXg+PC9QZXJzb24+PFBlcnNvbj48Rmlyc3ROYW1lPkFuc2dhcjwvRmlyc3ROYW1lPjxMYXN0TmFtZT5Ow7xubmluZzwvTGFzdE5hbWU+PFNleD5NYWxlPC9TZXg+PC9QZXJzb24+PC9FZGl0b3JzPjxJZD43ZGVlN2ZmMC04YTZmLTQyZTItODNkYy0xYTRiMTE3N2E3ODU8L0lkPjxJc2JuPjMtODg0NzYtNTQ3LTc8L0lzYm4+PExhbmd1YWdlPmdlcjwvTGFuZ3VhZ2U+PFBhZ2VDb3VudEM1PjwhW0NEQVRBWzxjPjMwMTwvYz4NCjxpbj50cnVlPC9pbj4NCjxvcz4zMDE8L29zPg0KPHBzPjMwMTwvcHM+XV0+PC9QYWdlQ291bnRDNT48UGFnZUNvdW50PjMwMTwvUGFnZUNvdW50PjxQbGFjZU9mUHVibGljYXRpb24+VHJpZXI8L1BsYWNlT2ZQdWJsaWNhdGlvbj48UHVibGlzaGVycz48UHVibGlzaGVyPjxOYW1lPldWVCBXaXNzLiBWZXJsLiBUcmllcjwvTmFtZT48L1B1Ymxpc2hlcj48L1B1Ymxpc2hlcnM+PFByaWNlPkVVUiAyMC4wMCAoZnJlaWVyIFByLik8L1ByaWNlPjxTZXJpZXNUaXRsZT48TmFtZT5XVlQtSGFuZGLDvGNoZXIgenVtIGxpdGVyYXR1cndpc3NlbnNjaGFmdGxpY2hlbiBTdHVkaXVtPC9OYW1lPjwvU2VyaWVzVGl0bGU+PFNlcXVlbmNlTnVtYmVyPjk2PC9TZXF1ZW5jZU51bWJlcj48U2hvcnRUaXRsZT5Ow7xubmluZywgTsO8bm5pbmcgKEhnLikgMjAwMiDigJMgRXJ6w6RobHRoZW9yaWUgdHJhbnNnZW5lcmlzY2g8L1Nob3J0VGl0bGU+PFNvdXJjZU9mQmlibGlvZ3JhcGhpY0luZm9ybWF0aW9uPkdCViBHZW1laW5zYW1lciBCaWJsaW90aGVrc3ZlcmJ1bmQ8L1NvdXJjZU9mQmlibGlvZ3JhcGhpY0luZm9ybWF0aW9uPjxUaXRsZT5FcnrDpGhsdGhlb3JpZSB0cmFuc2dlbmVyaXNjaCwgaW50ZXJtZWRpYWwsIGludGVyZGlzemlwbGluw6RyPC9UaXRsZT48Vm9sdW1lPjU8L1ZvbHVtZT48WWVhcj4yMDAyPC9ZZWFyPjwvUmVmZXJlbmNlPjwvUGFyZW50UmVmZXJlbmNlPg0KICAgICAgICA8U2VxdWVuY2VOdW1iZXI+OTc8L1NlcXVlbmNlTnVtYmVyPg0KICAgICAgICA8U2hvcnRUaXRsZT5Xb2xmIDIwMDIg4oCTIERhcyBQcm9ibGVtIGRlciBOYXJyYXRpdml0w6R0PC9TaG9ydFRpdGxlPg0KICAgICAgICA8VGl0bGU+RGFzIFByb2JsZW0gZGVyIE5hcnJhdGl2aXTDpHQgaW4gTGl0ZXJhdHVyLCBiaWxkZW5kZXIgS3Vuc3QgdW5kIE11c2lrOiBFaW4gQmVpdHJhZyB6dSBlaW5lciBpbnRlcm1lZGlhbGVuIEVyesOkaGx0aGVvcmllPC9UaXRsZT4NCiAgICAgIDwvUmVmZXJlbmNlPg0KICAgIDwvRW50cnk+DQogIDwvRW50cmllcz4NCiAgPFRleHQ+V29sZiAoMjAwMik8L1RleHQ+DQogIDxUZXh0VW5pdHM+DQogICAgPFRleHRVbml0Pg0KICAgICAgPEluc2VydFBhcmFncmFwaEFmdGVyPmZhbHNlPC9JbnNlcnRQYXJhZ3JhcGhBZnRlcj4NCiAgICAgIDxGb250TmFtZSAvPg0KICAgICAgPEZvbnRTdHlsZT4NCiAgICAgICAgPE5ldXRyYWw+dHJ1ZTwvTmV1dHJhbD4NCiAgICAgICAgPE5hbWUgLz4NCiAgICAgIDwvRm9udFN0eWxlPg0KICAgICAgPEZvbnRTaXplPjA8L0ZvbnRTaXplPg0KICAgICAgPFRleHQ+V29sZiAoMjAwMik8L1RleHQ+DQogICAgPC9UZXh0VW5pdD4NCiAgPC9UZXh0VW5pdHM+DQo8L1BsYWNlaG9sZGVyPg==?><anchor xml:id="CTVP0019de1ee52689f4ac58fad8b15c7a5e771"/>Wolf (2002) beschreibt. Zu der narratologischen Terminologie vgl. Lahn/Meister 2016: 147-149.</note>
+				<note place="foot" xml:id="ftn4" n="4"> Alle Visualisierungen und Netzwerkanalysen wurden mit dem Tool GEPHI (<?biblio ADDIN CITAVI.PLACEHOLDER 8a161cda-c028-4f1f-af20-add3a9185657 PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPjhhMTYxY2RhLWMwMjgtNGYxZi1hZjIwLWFkZDNhOTE4NTY1NzwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxJZD5hYzU2YTdjMy05MGU4LTRiMTYtODhkZC0zOThlNDZmMjQyYWE8L0lkPg0KICAgICAgPFJlZmVyZW5jZUlkPmNjYzE5YzE0LWUyZDctNGUxYi05NWRkLTA0ZjJiZWRmMmU2MDwvUmVmZXJlbmNlSWQ+DQogICAgICA8UmFuZ2U+DQogICAgICAgIDxTdGFydD4wPC9TdGFydD4NCiAgICAgICAgPExlbmd0aD4yMTwvTGVuZ3RoPg0KICAgICAgPC9SYW5nZT4NCiAgICAgIDxSZWZlcmVuY2U+DQogICAgICAgIDxSZWZlcmVuY2VUeXBlSWQ+Q29udHJpYnV0aW9uPC9SZWZlcmVuY2VUeXBlSWQ+DQogICAgICAgIDxBdXRob3JzPg0KICAgICAgICAgIDxQZXJzb24+DQogICAgICAgICAgICA8Rmlyc3ROYW1lPk0uPC9GaXJzdE5hbWU+DQogICAgICAgICAgICA8TGFzdE5hbWU+QmFzdGlhbjwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgICAgPFBlcnNvbj4NCiAgICAgICAgICAgIDxGaXJzdE5hbWU+Uy48L0ZpcnN0TmFtZT4NCiAgICAgICAgICAgIDxMYXN0TmFtZT5IZXltYW5uPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgICA8UGVyc29uPg0KICAgICAgICAgICAgPEZpcnN0TmFtZT5NLjwvRmlyc3ROYW1lPg0KICAgICAgICAgICAgPExhc3ROYW1lPkphY29teTwvTGFzdE5hbWU+DQogICAgICAgICAgPC9QZXJzb24+DQogICAgICAgIDwvQXV0aG9ycz4NCiAgICAgICAgPElkPmNjYzE5YzE0LWUyZDctNGUxYi05NWRkLTA0ZjJiZWRmMmU2MDwvSWQ+DQogICAgICAgIDxQYXJlbnRSZWZlcmVuY2U+PFJlZmVyZW5jZT48UmVmZXJlbmNlVHlwZUlkPkNvbmZlcmVuY2VQcm9jZWVkaW5nczwvUmVmZXJlbmNlVHlwZUlkPjxJZD44ODdlYjk5Ny05M2I0LTQ0NjYtOWY5Yi0wYjMzMjJiZWIwMzA8L0lkPjxMb2NhdGlvbnM+PExvY2F0aW9uPjxBZGRyZXNzPmh0dHA6Ly9kb2kuYWNtLm9yZy8xMC4xMTQ1LzEzODU1NjkuMTM4NTYzNjwvQWRkcmVzcz48TG9jYXRpb25UeXBlPkVsZWN0cm9uaWNBZGRyZXNzPC9Mb2NhdGlvblR5cGU+PC9Mb2NhdGlvbj48L0xvY2F0aW9ucz48U2VxdWVuY2VOdW1iZXI+MTE8L1NlcXVlbmNlTnVtYmVyPjxTaG9ydFRpdGxlPkFWSSAyMDA4IDIwMDg8L1Nob3J0VGl0bGU+PFNwZWNpZmljRmllbGQxPk5lYXBlbDwvU3BlY2lmaWNGaWVsZDE+PFNwZWNpZmljRmllbGQ3PldvcmtpbmcgQ29uZmVyZW5jZSBvbiBBZHZhbmNlZCBWaXN1YWwgSW50ZXJmYWNlczwvU3BlY2lmaWNGaWVsZDc+PFRpdGxlPkFWSSAyMDA4IOKAkyBQcm9jZWVkaW5ncyBvZiB0aGUgV29ya2luZyBDb25mZXJlbmNlIG9uIEFkdmFuY2VkIFZpc3VhbCBJbnRlcmZhY2VzPC9UaXRsZT48WWVhcj4yMDA4PC9ZZWFyPjwvUmVmZXJlbmNlPjwvUGFyZW50UmVmZXJlbmNlPg0KICAgICAgICA8U2VxdWVuY2VOdW1iZXI+OTU8L1NlcXVlbmNlTnVtYmVyPg0KICAgICAgICA8U2hvcnRUaXRsZT5CYXN0aWFuLCBIZXltYW5uIGV0IGFsLiAyMDA4IOKAkyBHZXBoaTwvU2hvcnRUaXRsZT4NCiAgICAgICAgPFN1YnRpdGxlPkFuIG9wZW4gc291cmNlIHNvZndhcmUgZm9yIGV4cGxvcmluZyBhbmQgbWFuaXB1bGF0aW5nIG5ldHdvcmtzLjwvU3VidGl0bGU+DQogICAgICAgIDxUaXRsZT5HZXBoaTwvVGl0bGU+DQogICAgICA8L1JlZmVyZW5jZT4NCiAgICA8L0VudHJ5Pg0KICA8L0VudHJpZXM+DQogIDxUZXh0PkJhc3RpYW4gZXQgYWwuICgyMDA4KTwvVGV4dD4NCiAgPFRleHRVbml0cz4NCiAgICA8VGV4dFVuaXQ+DQogICAgICA8SW5zZXJ0UGFyYWdyYXBoQWZ0ZXI+ZmFsc2U8L0luc2VydFBhcmFncmFwaEFmdGVyPg0KICAgICAgPEZvbnROYW1lIC8+DQogICAgICA8Rm9udFN0eWxlPg0KICAgICAgICA8TmV1dHJhbD50cnVlPC9OZXV0cmFsPg0KICAgICAgICA8TmFtZSAvPg0KICAgICAgPC9Gb250U3R5bGU+DQogICAgICA8Rm9udFNpemU+MDwvRm9udFNpemU+DQogICAgICA8VGV4dD5CYXN0aWFuIGV0IGFsLiAoMjAwOCk8L1RleHQ+DQogICAgPC9UZXh0VW5pdD4NCiAgPC9UZXh0VW5pdHM+DQo8L1BsYWNlaG9sZGVyPg==?><anchor xml:id="CTVP0018a161cdac0284f1faf20add3a9185657"/>Bastian et al. 2008) erstellt.</note>
+				<note place="foot" xml:id="ftn5" n="5"> Mit der betweenness centrality wird gemessen, für wieviele Knotenpaare ein Knoten den kürzesten Netzwerkpfad darstellt. Eine hohe betweenness centrality in Netzwerken, die Informationsflüsse abbilden, indiziert also einen großen Einfluss der Figur auf die Informationsvermittlung im Netzwerk, da sie als Brückenfigur fungiert.</note>
+				<note place="foot" xml:id="ftn6" n="6"> Vgl. zum Unterschied Pfister 2001: 280f.</note>
+				<note place="foot" xml:id="ftn7" n="7"> Kantendichte der <hi rend="italic">Hermannsschlacht</hi>: 0,051; Kantendichte <hi rend="italic">Die Familie Schroffenstein</hi>: 0,388. Siehe zur <hi rend="italic">Hermannsschlacht</hi> Tabelle 4 im Anhang, in der sich Hermanns propagandistische „Überzeugungsarbeit“ (Müller-Salget 2009: 78) widerspiegelt.</note>
+				<note place="foot" xml:id="ftn8" n="8"> Hier ist zu berücksichtigen, dass die Kantendichte natürlich auch durch andere Faktoren beeinflusst wird (<?biblio ADDIN CITAVI.PLACEHOLDER fd2cc480-723d-4c21-bf75-11853b10b364 PFBsYWNlaG9sZGVyPg0KICA8QWRkSW5WZXJzaW9uPjUuNy4wLjA8L0FkZEluVmVyc2lvbj4NCiAgPElkPmZkMmNjNDgwLTcyM2QtNGMyMS1iZjc1LTExODUzYjEwYjM2NDwvSWQ+DQogIDxFbnRyaWVzPg0KICAgIDxFbnRyeT4NCiAgICAgIDxJZD5jYTkyNzVmNS0zMWZjLTQ1OWYtYWU3My0yYjkwYzQyMTBkMDA8L0lkPg0KICAgICAgPFJlZmVyZW5jZUlkPjYwNjRiMmIwLWUxOTMtNDQzMS1iMWYxLTliOGQ4Njk2ODg4ZjwvUmVmZXJlbmNlSWQ+DQogICAgICA8UmFuZ2U+DQogICAgICAgIDxTdGFydD4wPC9TdGFydD4NCiAgICAgICAgPExlbmd0aD4xNDwvTGVuZ3RoPg0KICAgICAgPC9SYW5nZT4NCiAgICAgIDxSZWZlcmVuY2U+DQogICAgICAgIDxSZWZlcmVuY2VUeXBlSWQ+Q29udHJpYnV0aW9uPC9SZWZlcmVuY2VUeXBlSWQ+DQogICAgICAgIDxBdXRob3JzPg0KICAgICAgICAgIDxQZXJzb24+DQogICAgICAgICAgICA8Rmlyc3ROYW1lPlBlZXI8L0ZpcnN0TmFtZT4NCiAgICAgICAgICAgIDxMYXN0TmFtZT5UcmlsY2tlPC9MYXN0TmFtZT4NCiAgICAgICAgICA8L1BlcnNvbj4NCiAgICAgICAgPC9BdXRob3JzPg0KICAgICAgICA8SWQ+NjA2NGIyYjAtZTE5My00NDMxLWIxZjEtOWI4ZDg2OTY4ODhmPC9JZD4NCiAgICAgICAgPFBhZ2VSYW5nZT48IVtDREFUQVs8c3A+DQogIDxuPjIwMTwvbj4NCiAgPGluPnRydWU8L2luPg0KICA8b3M+MjAxPC9vcz4NCiAgPHBzPjIwMTwvcHM+DQo8L3NwPg0KPGVwPg0KICA8bj4yNDc8L24+DQogIDxpbj50cnVlPC9pbj4NCiAgPG9zPjI0Nzwvb3M+DQogIDxwcz4yNDc8L3BzPg0KPC9lcD4NCjxvcz4yMDEtMjQ3PC9vcz5dXT48L1BhZ2VSYW5nZT4NCiAgICAgICAgPEVuZFBhZ2U+MjQ3PC9FbmRQYWdlPg0KICAgICAgICA8U3RhcnRQYWdlPjIwMTwvU3RhcnRQYWdlPg0KICAgICAgICA8UGFyZW50UmVmZXJlbmNlPjxSZWZlcmVuY2U+PFJlZmVyZW5jZVR5cGVJZD5Cb29rRWRpdGVkPC9SZWZlcmVuY2VUeXBlSWQ+PEVkaXRvcnM+PFBlcnNvbj48Rmlyc3ROYW1lPkNocmlzdG9waDwvRmlyc3ROYW1lPjxMYXN0TmFtZT5SYXVlbjwvTGFzdE5hbWU+PFNleD5NYWxlPC9TZXg+PC9QZXJzb24+PFBlcnNvbj48Rmlyc3ROYW1lPkthdGphPC9GaXJzdE5hbWU+PExhc3ROYW1lPk1lbGxtYW5uPC9MYXN0TmFtZT48U2V4PkZlbWFsZTwvU2V4PjwvUGVyc29uPjxQZXJzb24+PEZpcnN0TmFtZT5QaGlsaXA8L0ZpcnN0TmFtZT48TGFzdE5hbWU+QWpvdXJpPC9MYXN0TmFtZT48U2V4Pk1hbGU8L1NleD48L1BlcnNvbj48L0VkaXRvcnM+PElkPjFjZmUyNGY1LTdiNzktNGUwMC1hNjg1LTgzMTkxNDQ3M2FmZjwvSWQ+PElzYm4+OTc4LTM4OTc4NTQ1ODE8L0lzYm4+PExhbmd1YWdlPmdlcjwvTGFuZ3VhZ2U+PFBhZ2VDb3VudEM1PjwhW0NEQVRBWzxjPjQ0ODwvYz4NCjxpbj50cnVlPC9pbj4NCjxvcz40NDg8L29zPg0KPHBzPjQ0ODwvcHM+XV0+PC9QYWdlQ291bnRDNT48UGFnZUNvdW50PjQ0ODwvUGFnZUNvdW50PjxQbGFjZU9mUHVibGljYXRpb24+TcO8bnN0ZXI8L1BsYWNlT2ZQdWJsaWNhdGlvbj48UHVibGlzaGVycz48UHVibGlzaGVyPjxOYW1lPk1lbnRpczwvTmFtZT48L1B1Ymxpc2hlcj48L1B1Ymxpc2hlcnM+PFNlcmllc1RpdGxlPjxOYW1lPlBvZXRvZ2VuZXNpczwvTmFtZT48L1Nlcmllc1RpdGxlPjxTZXF1ZW5jZU51bWJlcj41PC9TZXF1ZW5jZU51bWJlcj48U2hvcnRUaXRsZT5SYXVlbiwgTWVsbG1hbm4gZXQgYWwuIChIZy4pIDIwMTMg4oCTIEVtcGlyaWUgaW4gZGVyIExpdGVyYXR1cndpc3NlbnNjaGFmdDwvU2hvcnRUaXRsZT48U291cmNlT2ZCaWJsaW9ncmFwaGljSW5mb3JtYXRpb24+R0JWIEdlbWVpbnNhbWVyIEJpYmxpb3RoZWtzdmVyYnVuZDwvU291cmNlT2ZCaWJsaW9ncmFwaGljSW5mb3JtYXRpb24+PFRpdGxlPkVtcGlyaWUgaW4gZGVyIExpdGVyYXR1cndpc3NlbnNjaGFmdDwvVGl0bGU+PFZvbHVtZT5CYW5kIDg8L1ZvbHVtZT48WWVhcj4yMDEzPC9ZZWFyPjwvUmVmZXJlbmNlPjwvUGFyZW50UmVmZXJlbmNlPg0KICAgICAgICA8U2VxdWVuY2VOdW1iZXI+NjwvU2VxdWVuY2VOdW1iZXI+DQogICAgICAgIDxTaG9ydFRpdGxlPlRyaWxja2UgMjAxMyDigJMgU29jaWFsIE5ldHdvcmsgQW5hbHlzaXMgU05BPC9TaG9ydFRpdGxlPg0KICAgICAgICA8VGl0bGU+U29jaWFsIE5ldHdvcmsgQW5hbHlzaXMgKFNOQSkgYWxzIE1ldGhvZGUgZWluZXIgdGV4dGVtcGlyaXNjaGVuIExpdGVyYXR1cndpc3NlbnNjaGFmdDwvVGl0bGU+DQogICAgICA8L1JlZmVyZW5jZT4NCiAgICA8L0VudHJ5Pg0KICA8L0VudHJpZXM+DQogIDxUZXh0PlRyaWxja2UgKDIwMTMpPC9UZXh0Pg0KICA8VGV4dFVuaXRzPg0KICAgIDxUZXh0VW5pdD4NCiAgICAgIDxJbnNlcnRQYXJhZ3JhcGhBZnRlcj5mYWxzZTwvSW5zZXJ0UGFyYWdyYXBoQWZ0ZXI+DQogICAgICA8Rm9udE5hbWUgLz4NCiAgICAgIDxGb250U3R5bGU+DQogICAgICAgIDxOZXV0cmFsPnRydWU8L05ldXRyYWw+DQogICAgICAgIDxOYW1lIC8+DQogICAgICA8L0ZvbnRTdHlsZT4NCiAgICAgIDxGb250U2l6ZT4wPC9Gb250U2l6ZT4NCiAgICAgIDxUZXh0PlRyaWxja2UgKDIwMTMpPC9UZXh0Pg0KICAgIDwvVGV4dFVuaXQ+DQogIDwvVGV4dFVuaXRzPg0KPC9QbGFjZWhvbGRlcj4=?><anchor xml:id="CTVP001fd2cc480723d4c21bf7511853b10b364"/>Trilcke 2013: 225).</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL001a5e759d87a474e9f91b5d6e7d4c7473e"/>
+                        <hi rend="bold">Agarwal, A. / A. Corvalan / J. Jensen / O. Rambow (2012):</hi> 
+                        <hi rend="italic">Social Network Analysis of Alice in Wonderland</hi>, 
+                        Proceedings of the Workshop on Computational Linguistics for Literature: 88–96.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL001ccc19c14e2d74e1b95dd04f2bedf2e60"/>
+                        <hi rend="bold">Bastian, M. / S. Heymann / M. Jacomy (2008):</hi> 
+                        <hi rend="italic">Gephi: An open source sofware for exploring and manipulating networks.</hi> 
+                        AVI 2008 – Proceedings of the Working Conference on Advanced Visual Interfaces.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL0016e60d750ebfe4175adac8247308574aa"/>
+                        <hi rend="bold">Lahn, Silke/ J. C. Meister (2008):</hi> 
+                        <hi rend="italic">Einführung in die Erzähltextanalyse</hi>. Stuttgart: Verlag J.B. Metzler.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Meister, J. C. / M. Petris / E. Gius / J. Jacke (2016): </hi>
+                        <hi rend="italic">CATMA 5.0. software for text annotation and analysis</hi>.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL001b0f8b0db9f4c48269104d8eeeaaa9799"/>
+                        <hi rend="bold">Moretti, F. (2011):</hi> 
+                        <hi rend="italic">Network Theory, Plot Analysis.</hi> 
+                        Stanford Literary Lab Pamphlets 2.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL001cb8a3ea29b97484a945669f3a5619328"/>
+                        <hi rend="bold">Müller-Salget, Klaus (2009):</hi> 
+                        <hi rend="italic">Die Herrmannsschlacht</hi>, 
+                        in: 
+                        <hi rend="bold">Ingo Breuer (Hg.):</hi> 
+                        <hi rend="italic">Kleist-Handbuch. Leben – Werk – Wirkung</hi>. 
+                        Stuttgart: Verlag J.B. Metzler. S. 76-79.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Piper, Andrew / Mark Algee-Hewitt / Koustuv Sinha / Derek Ruths / Hardik Vala (2017):</hi> 
+                        <hi rend="italic">Studying Literary Characters and Character Networks</hi>.
+                        Digital Humanities 2017, Conference Abstracts.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL0017fdf7ccb8ab1444fa639ead507dc3db0"/>
+                        <hi rend="bold">Pfister, Manfred (2001):</hi> 
+                        <hi rend="italic">Das Drama</hi>. 
+                        München. Wilhelm Fink Verlag.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Trilcke, P. / F. Fischer / D. Kampkaspar (2015):</hi> 
+                        <hi rend="italic">Digital Network Analysis of Dramatic Texts</hi>. 
+                        Digital Humanities 2015: Book of Abstracts.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL0016064b2b0e1934431b1f19b8d8696888f"/>
+                        <hi rend="bold">Trilcke, Peer (2013):</hi> 
+                        <hi rend="italic">Social Network Analysis (SNA) als Methode einer textempirischen Literaturwissenschaft</hi>. 
+                        Empirie in der Literaturwissenschaft. Hrsg. von Christoph Rauen, Katja Mellmann und Philip Ajouri. Münster: 201–247.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL00197ceae22f4c241e8826aabb933a5c4cb"/>
+                        <hi rend="bold">Wolf, Werner (2002):</hi> 
+                        <hi rend="italic">Das Problem der Narrativität in Literatur, bildender Kunst und Musik: Ein Beitrag zu einer intermedialen Erzähltheorie</hi>. 
+                        Erzähltheorie transgenerisch, intermedial, interdisziplinär. Hrsg. von Vera Nünning und Ansgar Nünning. Trier: 23–104.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

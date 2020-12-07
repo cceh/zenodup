@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="187_final-BURGHARDT_Manuel__The_Vectorian____Eine_parametrisierbare_Su" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>„The Vectorian“ – Eine parametrisierbare Suchmaschine für intertextuelle Referenzen</title>
+<author>
+<persName>
+<surname>Burghardt</surname>
+<forename>Manuel</forename>
+</persName>
+<affiliation>Computational Humanities Group, Universität Leipzig</affiliation>
+<email>burghardt@informatik.uni-leipzig.de</email>
+</author>
+<author>
+<persName>
+<surname>Liebl</surname>
+<forename>Bernhard</forename>
+</persName>
+<affiliation>Computational Humanities Group, Universität Leipzig</affiliation>
+<email>Bernhard.Liebl@gmx.org</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T12:10:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>intertextuality</term>
+<term>text reuse</term>
+<term>information retrieval</term>
+<term>NLP</term>
+<term>word embeddings</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Entdeckung</term>
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Annotieren</term>
+<term>Bewertung</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung: Shakespeare, Intertextualität und computergestützte Erkennung von Zitaten</head>
+<p>Shakespeare ist überall. Über alle zeitlichen und medialen Grenzen hinweg finden sich intertextuelle Bezüge auf die Werke von Shakespeare (vgl. Garber, 2005; Maxwell &amp; Rumbold, 2018), der damit nicht nur der meistzitierte und meistgespielte Autor aller Zeiten, sondern auch der meistuntersuchte Autor der Welt ist (Taylor, 2016). Doch wenngleich in zahllosen Studien diverse Einzelaspekte von Shakespeares Werk aus Perspektive der Intertextualitätsforschung gründlich mittels 
+                    <hi rend="italic">close reading</hi> untersucht wurden, so gibt es bis heute keinen Überblick, kein Gesamtbild, keine systematische Karte intertextueller Shakespeare-Referenzen für größere Textkorpora. Auffällig ist zudem, dass bislang kaum Verfahren der computergestützten Erfassung intertextueller Shakespeare-Referenzen im Sinne des 
+                    <hi rend="italic">distant reading</hi> zum Einsatz kommen. Dies verwundert umso mehr, als dass sich im Bereich der Informatik und des 
+                    <hi rend="italic">natural language processing</hi> vielfältige Methoden zur Ermittlung der Ähnlichkeit zwischen Texten finden (Bär et al., 2012; Bär et al. 2015) – und nichts anderes ist Intertextualität letzten Endes. Natürlich ist hier anzumerken, dass die volle Bandbreite intertextueller Phänomene mit bloßen Mitteln der Textähnlichkeitsbestimmung nicht abgedeckt werden kann. Für unser Verständnis von Intertextualität berufen wir uns daher auf die Definition von Genette (1993) – “la présence effective d’un text dans un autre” – wobei wir unter der “effektiven Präsenz” eines Texts in einem anderen tatsächlich eine mehr oder weniger objektiv erkennbare, explizite Referenz an der Textoberfläche verstehen. Die textuelle Umschreibung einer Balkonszene mit einem Mann und einer Frau würden wir demnach nicht automatisch “Romeo and Juliet” zuordnen, was vermutlich auch nicht in allen Fällen korrekt wäre. Die folgende Variante eines bekannten Zitats aus Macbeth (Shakespeares Ursprungsvariante steht jeweils in eckigen Klammern) wäre nach unserem Verständnis hingegen objektiv aus dem Text zu erkennen und eindeutig als intertextuelle Referenz einzuordnen:
+</p>
+<p>By the 
+<hi rend="underline">stinking</hi> [pricking] of my 
+<hi rend="underline">nose</hi> [thumbs], something 
+<hi rend="underline">evil</hi> [wicked] this way 
+<hi rend="underline">goes</hi> [comes]. 
+<hi rend="italic">(Terry Pratchett: „I Shall Wear Midnight“).</hi>
+</p>
+<p>Eine weitere methodische Einschränkung machen wir, indem wir Phänomene wie strukturelle Ähnlichkeit (Versmaß, Figurenkonstellation) und stilistische Ähnlichkeit<ref n="1" target="ftn1"/>, wie sie bspw. in der 
+<hi rend="italic">Parodie</hi> oder im 
+<hi rend="italic">Pastiche</hi> üblich sind, zunächst außer Acht lassen. In Erweiterung einer ersten Pilotstudie zur Identifizierung von Shakespearezitaten in der Fernsehserie „Dr. Who“ (Burghardt et al., 2019) erproben wir in einem aktuellen Experiment das Potenzial von 
+<hi rend="italic">word embeddings</hi> (Mikolov et al., 2013), um so zusätzlich semantisch ähnliche oder zumindest “funktional äquivalente” (Bubenhofer, 2019) Wörter und Phrasen zu identifizieren. Durch die Auswahl unterschiedlicher 
+<hi rend="italic">embeddings</hi>-Modelle und weiterer, damit einhergehender Parameter (bspw. der Gewichtung anhand von Wortarten, dem Festlegen von Ähnlichkeitsschwellwerten, etc.) kann es mitunter zu sehr unterschiedlichen Ergebnissen kommen. Um hier systematisch Parameterkombinationen zu untersuchen, die möglichst optimierte Werte bzgl. 
+<hi rend="italic">precision</hi> und 
+<hi rend="italic">recall</hi> liefern, wurde im Sinne von Molnars (2019) Desiderat eines „interpretable machine learning“ eine parametrisierbare Suchmaschine zur Identifizierung von Shakespeare-Referenzen als Vorstufe für einen 
+<hi rend="italic">embeddings</hi>-basierten Ansatz umgesetzt. 
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>The Vectorian</head>
+<p>Abb. 1 zeigt die Systemarchitektur der besagten Suchmaschine, die fortan als “The Vectorian”<ref n="2" target="ftn2"/> bezeichnet wird. Im 
+<hi rend="italic">Vectorian</hi> fungieren kurze Shakespeare-Passagen (bspw. „If you prick us, do we not bleed?“) als Queries; Texte, die diese Textteile (wortwörtlich oder als Variante) aufgreifen, stellen im Sinne des Information Retrieval dann die entsprechenden Ergebnisdokumente dar (für einen vergleichbaren Ansatz siehe Manjavacas et al., 2019).
+</p>
+<figure>
+<graphic height="10.86026388888889cm" n="1001" rend="inline" url="187_final-a9f800b143e4c0d74da4f4f9abb05929.png" width="16.002cm"/>
+<head>Abbildung 1: Systemarchitektur der Zitat-Suchmaschine <hi rend="italic">“The Vectorian"</hi>.  </head>
+</figure>
+<p>Kern des 
+<hi rend="italic">Vectorian</hi> ist die Suche von optimalen semi-globalen 
+<hi rend="italic">alignments</hi> zwischen Satzpaaren (wobei wir einen Satz als Sequenz von Worten verstehen) über eine Variante des Needleman-Wunsch-Algorithmus (Sellers, 1974) mit sog. 
+<hi rend="italic">free shift alignment</hi>. Als Bewertungsfunktion nutzen wir eine über 
+<hi rend="italic">word embeddings</hi> errechnete Distanz zwischen Worten. Diesen Ansatz kombinieren wir mit einer Reihe experimenteller Parameter (siehe die fünf Punkte im nachfolgenden Abschnitt). 
+</p>
+<p>Abb. 2 zeigt das Frontend des 
+<hi rend="italic">Vectorian</hi>. Zu sehen ist ein Eingabefeld für beliebige Suchanfragen, d.h. die Textstellen, die man als intertextuelle Referenzen in anderen Texten finden will. Die Parameter der Suche, die nachfolgend noch näher erläutert werden, können über entsprechende Auswahlmenüs konfiguriert werden. Schließlich gibt der 
+<hi rend="italic">Vectorian</hi> eine Ergebnisliste zurück, deren Ranking dem jeweils höchsten Ähnlichkeitswert zwischen der Suchanfrage und einer entsprechenden Textstelle entspricht. Wortwörtliche Zitate haben demnach einen höheren Wert als stark abgeänderte Referenzen mit diversen Auslassungen und Substitutionen.
+</p>
+<figure>
+  <graphic height="13.774208333333334cm" n="1002" rend="inline" url="187_final-c4cf92bbdf69758cd3458c2c5b486c42.png" width="16.002cm"/>
+  <head> Abbildung 2: Frontend des <hi rend="italic">Vectorian</hi> mit allen möglichen Suchparametern und einer beispielhaften Ergebnisliste für die Suchanfrage “If you prick us, do we not bleed?”.
+  </head>
+</figure>
+<p>Der 
+<hi rend="italic">Vectorian</hi> durchsucht aktuell ein Korpus von 230 englischen Einzeltexten, darunter 50 Werke von Shakespeare (Dramen und Sonette) sowie diverse Romane aus unterschiedlichen Epochen und Transkripte von Filmen und Fernsehserien. Das Korpus enthält rund 19,5 Millionen Tokens mit POS-Annotationen (POS = 
+<hi rend="italic">parts of speech</hi>), die sich auf rund 2,2 Millionen Sätze verteilen. Der 
+<hi rend="italic">Vectorian</hi> bietet mit 
+<hi rend="italic">fastText</hi> (Mikolov, 2017) und 
+<hi rend="italic">wnet2vec</hi> (Saedi, 2018) momentan zwei 
+<hi rend="italic">embedding</hi>-Varianten zur Auswahl. Wir nutzen für 
+<hi rend="italic">fastText</hi> bestehende, vortrainierte Modelle
+(<ref target="https://fasttext.cc/">https://fasttext.cc/</ref>), für 
+<hi rend="italic">wnet2vec</hi> wurde ein eigenes 
+<hi rend="italic">embedding</hi> auf Basis unseres Korpus mit Hilfe
+einer leicht angepassten Referenzimplementierung von Saedi et al.
+(<ref target="https://github.com/nlx-group/WordNetEmbeddings">https://github.com/nlx-group/WordNetEmbeddings</ref>) erstellt. Im 
+<hi rend="italic">Vectorian</hi> kann entweder eines der beiden 
+<hi rend="italic">embeddings</hi> ausgewählt werden oder eine gewichtete Kombination aus beiden, bspw. 25% 
+<hi rend="italic">fastText</hi> und 75% 
+<hi rend="italic">wnet2vec</hi>. Bei der Suche wird auf dem Suchtext zunächst ein POS-Tagging durchgeführt. So können syntaktische Strukturen, die über die reine Wortreihenfolge hinausgehen, in die Suche einfließen.
+</p>
+<p>Neben den beiden 
+<hi rend="italic">embedding</hi>-Modellen wurden zusätzlich weitere parametrisierbare Optionen umgesetzt, etwa die Berücksichtigung bzw. unterschiedliche Gewichtung von Wortarten, Einschüben sowie generell einer graduellen Anpassung des Ähnlichkeitswerts. Diese Parameter werden nachfolgend kurz erläutert.
+</p>
+<list type="ordered">
+  <item>“<hi rend="bold">Ignore Determiners</hi>” entfernt alle Worte, die vom POS-Tagging als DT (“the”, “this”, etc.) erkannt wurden, aus der Suchanfrage.
+  </item>
+  <item>“<hi rend="bold">Ensure POS Match</hi>” ermöglicht das Ignorieren von Worten in den Korpusdokumenten, deren POS-Tags nicht dem der alignierten Worte im Suchtext entsprechen. Die Auswirkung der Einstellung kann graduell abgeschwächt werden.
+  </item>
+  <item>“<hi rend="bold">POST STSS Weighting</hi>”: Nicht alle Wortarten besitzen gleiches semantisches Gewicht für die Bedeutung eines Satzes. Mittels “POST STSS Weighting” gewichten wir daher Wortähnlichkeiten bei der Suche mit einer an POST STSS („part-of-speech tag-supported short-text semantic similarity“, Batanović, 2015) angelehnten Gewichtungsmatrix<ref n="3" target="ftn3"/>. Die Auswirkung dieser Einstellung kann ebenfalls graduell abgeschwächt werden.
+  </item>
+  <item>“<hi rend="bold">Mismatch Length Penalty</hi>” konfiguriert, ab welcher Länge eines einzelnen 
+  <hi rend="italic">mismatch</hi> im Ergebnis eine Abschwächung der Bewertung um 50% geschehen soll<ref n="4" target="ftn4"/>. Eine Streuung von Matches ohne lokale Nähe führt in einem Ergebnis somit zur mehr oder weniger starken Abwertung. Die gesamte Abwertung für ein Ergebnis errechnet sich als Summe der Abwertungen für alle 
+  <hi rend="italic">mismatches</hi>. 
+  </item>
+  <item>“<hi rend="bold">Similarity Threshold</hi>” regelt den Schwellwert zur Ähnlichkeitsbewertung zwischen Wörtern. Ein niedriger Schwellwert erlaubt bspw. größere Abweichungen und kann dadurch auch zu einem größeren Rauschen durch mehr 
+  <hi rend="italic">false positives</hi> führen.
+  </item>
+</list>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Beispielabfragen</head>
+<p>Der 
+<hi rend="italic">Vectorian</hi> wurde als parametrisierbare und interpretierbare Suchmaschine konzipiert, um einen explorativen Zugang zur Analyse unterschiedlicher Parameterkonfigurationen auf potenzielle Suchergebnisse, also in unserem Falle Shakespeare-Referenzen, zu ermöglichen. Nachfolgend illustrieren wir einige Auswirkungen unterschiedlicher Parametereinstellungen am Beispiel der kurzen Shakespeare-Phrase “under the greenwood tree” (aus Shakespeares „As you like it“).
+</p>
+<p>Die am besten bewerteten Ergebnisse sind zunächst viele Varianten nach dem Schema „under the X tree”, bspw. „under the 
+<hi rend="underline">chestnut</hi> tree”. Mit dem Parameter 
+<hi rend="italic">mismatch length penalty</hi> kann man zusätzlich
+steuern, wie viele Einfügungen in den Treffern erlaubt sind. Werden
+Einfügungen nur in geringem Umfang erlaubt, dann erhält man vor allem
+Sätze bei denen die Präposition variiert wird, bspw.
+„<hi rend="bold">beneath</hi> the <hi rend="underline">beech</hi>
+tree”.
+Erlaubt man hingegen mehr Einfügungen, kommt es entsprechend auch zu Ergebnissen wie “under the 
+<hi rend="bold">dear old</hi>
+<hi rend="underline">plane</hi> tree”.
+</p>
+<p>Beim Parameter der 
+<hi rend="italic">embeddings-</hi>Wahl sieht man sehr gut, wie 
+<hi rend="italic">FastText</hi> und 
+<hi rend="italic">WordNet</hi> ganz unterschiedliche Präferenzen bei
+der Auswahl von alternativen „trees“ liefern
+(<hi rend="italic">FastText</hi>: „<hi rend="italic">chestnut“</hi> &gt; „<hi rend="italic">beech“</hi> vs. 
+<hi rend="italic">WordNet</hi>: „<hi rend="italic">beech“</hi> &gt; „<hi rend="italic">oak“</hi>). Das 
+<hi rend="italic">mixed embedding</hi> (also eine Aktivierung beider 
+<hi rend="italic">embeddings</hi> zu gleichen Teilen) scheint Vorteile beider 
+<hi rend="italic">embeddings</hi> optimal zu kombinieren, indem z.B. „oak tree“ höher gewertet wird als „bodhi tree“, wobei es sich bei Letzterem um einen spezifischen Baum aus einem religiösen Kontext handelt.
+                </p>
+<p>POST-STSS, ein Parameter der unterschiedliche POS unterschiedlich stark gewichtet, ist in Kombination mit dem 
+                    <hi rend="italic">WordNet embedding</hi> am
+		    aufschlussreichsten: Mit POST STSS werden im
+		    Zweifel reine Baumphrasen bevorzugt ("the fir
+		    tree", "the yew tree").
+		    Ohne POST-STSS werden auch Substantive hoch bewertet, die mit Bäumen zwar nichts zu tun haben, dafür aber eine hohe semantische Nähe zu anderen Wörtern aufweisen, z.B. „greenwood“ und „garden“.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit und Ausblick</head>
+<p style="text-align:left; ">Im aktuellen Stadium dient der 
+                    <hi rend="italic">Vectorian</hi> wie eingangs geschildert zunächst als Experimentierplattform, mit deren Hilfe man explorativ die Auswirkungen unterschiedlicher Einstellungsparameter erproben kann. Im nächsten Schritt soll eine systematische Evaluierung der Suchmaschine erfolgen, indem gegen eine vorab definierte 
+                    <hi rend="italic">ground truth</hi> an Shakespeare-Zitaten in einem Teilkorpus aus Fantasy-Romanen gesucht wird. Dabei werden alle möglichen Parameterkonfigurationen (insgesamt 72 Kombinationsmöglichkeiten) nacheinander durchgerechnet und die jeweiligen Bewertungen der einzelnen Sätze dokumentiert. Weiterhin soll berücksichtigt werden, wie viele 
+                    <hi rend="italic">false positives</hi> sich unter die 
+                    <hi rend="italic">true positives</hi> aus der 
+                    <hi rend="italic">ground truth</hi> mischen. Ziel ist es, diejenige Konfiguration zu identifizieren, die für möglichst viele Sätze der 
+                    <hi rend="italic">ground truth</hi> einen hohen 
+                    <hi rend="italic">alignment score</hi> aufweist und dabei die Zahl der 
+                    <hi rend="italic">false positives</hi> minimiert. Im nächsten Schritt sollen dann mit der bestbewerteten Konfiguration systematisch mehrere hundert Shakespeare-Zitate, die aus bestehenden Zitate-Datenbanken wie 
+                    <hi rend="italic">WikiQuote</hi> (https://en.wikiquote.org/) extrahiert werden, in einem großen Korpus von Fantasy-Literatur und Transkripten von Filmen und TV-Serien gesucht werden
+                    <ref n="5" target="ftn5"/>. 
+                </p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Für eine Systematisierung von text reuse Methoden anhand der Kategorien inhaltliche, strukturelle und stilistische Ähnlichkeit vgl. Bär et al. 2012.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+     “The Vectorian” ist als Prototyp auf Anfrage verfügbar.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Beispiel: Eine Ähnlichkeit auf einem Adjektiv (Tag JJ) wird mit dem Faktor 0.7 gewichtet, während ein Verb (Tag VB) mit 1.2 gewichtet wird.
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Die Abwertung über andere Längen erfolgt ausgehend vom gegebenen Basiswert exponentiell in der Länge des  <hi rend="italic">mismatches</hi>, was uns intuitiv und aufgrund der Beobachtungen in (Beeferman, 1997) sinnvoll erscheint. Der genaue Kurvenverlauf für gängige Längen wird im UI als Plot dargestellt.
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      Die Dokumentbasis des 
+      <hi rend="italic">Vectorian</hi> kann flexibel erweitert werden solange die Texte in einem grundlegend bereinigten 
+      <hi rend="italic">plain text</hi>-Format vorliegen.
+    </note>
+  </div>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+      <hi rend="bold">Bär, D. / Zesch, T. / Gurevych, I. </hi> (2012): Text Reuse Detection using a Composition of Text Similarity Measures. Proceedings of COLING 2012, 167-184. </bibl>
+      <bibl>
+      <hi rend="bold">Bär, D. / Zesch, T. / Gurevych, I. </hi>  (2015): Composing Measures for Computing Text Similarity. Technical Report TUD-CS-2015-0017, TU Darmstadt.</bibl>
+      <bibl>
+      <hi rend="bold">Batanović, V. / Bojić, D. </hi>  (2015): “Using Part-of-Speech Tags as Deep Syntax Indicators in Determining Short Text Semantic Similarity". In Computer Science and Information Systems, 12(1), S. 1–31.</bibl>
+      <bibl>
+      <hi rend="bold">Beeferman, D. / Berger, A. / Lafferty, J. </hi>  (1997): A model of lexical attraction and repulsion. In Proceedings of the 8th Conference on European Chapter of the Association for Computational Linguistics, S. 373-380.</bibl>
+      <bibl>
+      <hi rend="bold">Bubenhofer, N. </hi>  (2019): Word Embeddings: Funktionale Äquivalenz statt Synonymie. Publiziert auf Sprechtakel-Blog (2.3.2019), online verfügbar unter https://www.bubenhofer.com/sprechtakel/2019/03/02/.word-embeddings-funktionale-aequivalenz-statt-synonymie/</bibl>
+      <bibl>
+      <hi rend="bold">Burghardt, M. / Meyer, S. / Schmidtbauer,  S.  / Molz, J. </hi>  (to appear in 2019): “The Bard meets the Doctor” – Computergestützte Identifikation intertextueller Shakespearebezüge in der Science Fiction-Serie Dr. Who. In Book of Abstracts, DHd 2019.</bibl>
+      <bibl>
+      <hi rend="bold">Garber, M. </hi>  (2005): Shakespeare after All. New York: Anchor Books.</bibl>
+      <bibl>
+      <hi rend="bold">Genette, G. </hi>  (1993): Palimpseste. Die Literatur auf zweiter Stufe. Frankfurt am Main: Suhrkamp. Translation of the revised second edition. [Genette, G. (1982). Palimpsestes. La littérature au second degré. Paris: Éditions de Seuil. Revised 2nd edition 1983.]</bibl>
+      <bibl>
+	<hi rend="bold">Kusner, M. / Sun, Y. /  Kolkin, N. /  Weinberger, K. </hi>  (2015): “From Word Embeddings To Document Distances”. In Proceedings of the 32nd International Conference on Machine Learning. Lille, Frankreich.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Manjavacas, E. /  Long, B. / Kestemont,
+	M. </hi>  (2019): “On the Feasibility of Automated Detection
+	of Allusive Text Reuse“. ArXiv: 1905.02973 [Cs], 8. Mai
+	2019. <ptr target="http://arxiv.org/abs/1905.02973"/>.
+      </bibl>
+      <bibl>
+      <hi rend="bold">Maxwell, J. / Rumbold, K. (eds.) </hi>  (2018): Shakespeare and Quotation. Cambridge: Cambridge University Press.</bibl>
+      <bibl>
+      <hi rend="bold">Mikolov, T. / Chen, K. / Corrado, G. / Dean, J. </hi>  (2013): Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781.</bibl>
+      <bibl>
+      <hi rend="bold">Mikolov, Tomas, et al. </hi> “Advances in Pre-Training Distributed Word Representations.” ArXiv:1712.09405 [Cs], Dec. 2017. arXiv.org, http://arxiv.org/abs/1712.09405.</bibl>
+      <bibl>
+	<hi rend="bold">Molnar, C. </hi>  (2019). Interpretable Machine Learning. A Guide for Making Black Box Models Explainable. eBook online verfügbar unter 
+	<ref target="https://christophm.github.io/interpretable-ml-book/">https://christophm.github.io/interpretable-ml-book/</ref>
+      </bibl>
+      <bibl>
+      <hi rend="bold">Saedi, C.  /  Branco, A. / Rodrigues, J. A. /  Silva, J. </hi>  (2018, July). Wordnet embeddings. In
+      Proceedings of The Third Workshop on Representation Learning for
+      NLP (pp. 122-131).
+      </bibl>
+      <bibl style="text-align:left;">
+	<hi rend="bold"> Sellers, Peter H.</hi> (1974):  „On the Theory and Computation of Evolutionary Distances“. 
+	<hi rend="italic">SIAM Journal on Applied Mathematics</hi> 26, Nr. 4 (Juni 1974): 787–93. 
+	<ref target="https://doi.org/10.1137/0126070">https://doi.org/10.1137/0126070</ref>.
+      </bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

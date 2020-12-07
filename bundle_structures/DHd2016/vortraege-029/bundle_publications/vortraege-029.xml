@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-029">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Knowledge-Based Support for Scholarly Editing and Text Processing</title>
+        <author>
+          <name>
+            <surname>Kittelmann</surname>
+            <forename>Jana</forename>
+          </name>
+          <affiliation>MLU Halle-Wittenberg, Deutschland</affiliation>
+          <email>info@janakittelmann.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wernhard</surname>
+            <forename>Christoph</forename>
+          </name>
+          <affiliation>TU Dresden, Deutschland</affiliation>
+          <email>info@christophwernhard.com</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-11T09:06:23.682940000</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Knowledge Bases</term>
+          <term>Semantic Web</term>
+          <term>Computational Logic</term>
+          <term>Inferences</term>
+          <term>Named Entity Recognition</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Datenerkennung</term>
+          <term>Entdeckung</term>
+          <term>Aufzeichnung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Beziehungsanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Bearbeitung</term>
+          <term>Schreiben</term>
+          <term>Kommentierung</term>
+          <term>Daten</term>
+          <term>Infrastruktur</term>
+          <term>Interaktion</term>
+          <term>Sprache</term>
+          <term>Link</term>
+          <term>Literatur</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Personen</term>
+          <term>Forschungsprozess</term>
+          <term>Software</term>
+          <term>Standards</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Introduction </head>
+        <div type="div2" rend="DH-Heading2">
+          <head>Background: Large Knowledge Bases </head>
+          <p>A large portion of the material on which scholarly editing is based today is available electronically in large knowledge bases. Some of these emerge from the archive, library and museum communities, for example
+            <hi rend="italic">Kalliope</hi>. Such efforts require the use of standardized vocabularies and databases of entities such as persons and locations.
+            <hi rend="italic">Kalliope</hi> thus links to
+            <hi rend="italic">Gemeinsame Normdatei (GND)</hi>, which provides more than 120 million facts about approximately 11 million entities. The prevailing technique to realize such linked knowledge bases is the Semantic Web, as advocated by the W3C, characterized by the use of ontologies to express standardized vocabularies, global identifiers (URIs) and the possibility to express knowledge in a machine understandable way as subject-predicate-object statements with RDF. Further large knowledge bases, such as
+            <hi rend="italic">Yago</hi> (Hoffart et al. 2013) and
+            <hi rend="italic">DBpedia</hi> (Lehmann et al. 2015), developed mainly in computer science with Semantic Web techniques, gather and combine machine processable knowledge from "crowd-maintained" sources like
+            <hi rend="italic">Wikipedia</hi> and centrally maintained sources like
+            <hi rend="italic">GND</hi> or
+            <hi rend="italic">GeoNames</hi>.
+          </p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Beyond
+            <hi rend="italic">TEI</hi>
+          </head>
+          <p>The seemingly best developed machine support for scholarly editing today is
+            provided with the <hi rend="italic">Text</hi>
+            <hi rend="italic"> Encoding Initiative (TEI) </hi>format, based on document
+            markup. URIs as attribute values of markup elements can provide links to
+            knowledge bases. Envisaged applications include in particular the rendering
+            for different media and extraction of metadata. Some of the recent
+            developments are actually orthogonal to the OCHCO text model and its
+            representation through XML, core characteristics of the original <hi
+            rend="italic">TEI</hi>. Connecting <hi rend="italic">TEI</hi> with
+            Semantic Web techniques, data modeling and ontologies is, for example, an
+            ongoing topic of discussion (e.g. Eide 2015). Recent versions of <hi
+            rend="italic">TEI</hi> provide support for <hi rend="italic">names,
+            dates, people, and places</hi> as well as <hi rend="italic">linking,
+            segmentation, and alignment</hi> (The TEI Consortium 2015: Chapters 13
+            and 16). In a broad long-term perspective, important aspects that further go
+            into these directions become apparent: </p>
+            <list type="unordered">
+              <item>Incorporation of advanced semantics related techniques such as named entity recognition or statistics-based text analysis. </item>
+              <item>Relationships to external knowledge bases and to formal semantics.</item>
+              <item>Obtaining high-quality presentations without requiring expensive development of dedicated XML transformations and stylesheets. </item>
+              <item>Loose coupling of object text and markup: Alternate markup by different authors or for different purposes should be supported. Markup generated by automated methods should not clutter up the document. Queries and transformations should remain applicable also after changes of the markup. Sustainability must not be compromised by dependency on short-lived technology and specifications.</item>
+            </list>
+            <p>Addressing these issues, we approach the requirements of today's scholarly editing here from the view of computational logic: What can logics – as machine processable symbolic languages with formally specified semantics – contribute? A starting point is that with Semantic Web technology the large knowledge bases can already be considered as large sets of logic facts. Logic languages have various further potential roles in machine supported scholarly editing, such as specifying properties and values associated with texts, specifying pieces of text, specifying knowledge sources and their combination, and specifying inferences involved in automated computation of information associated with texts.</p>
+          </div>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Knowledge-Based Support for Scholarly Editing </head>
+          <div type="div2" rend="DH-Heading2">
+            <head>High-Quality Support at all Phases </head>
+            <p>Three main phases of machine assisted scholarly editing can be identified, which all should be supported: (1) Creating the enhanced object text; (2) Generating intermediate representations for inspection by humans or machines; (3) Generating consumable presentations. Support for all three phases should be of high quality – for example entity recognition should precisely identify persons, or the print layout of a finally rendered document should be professional.</p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Issues of Integrating Different Types of Knowledge </head>
+            <p>High-quality support is not possible without inclusion of specialized techniques and the combination of automated techniques with information and adjustments provided by humans. The adequate support of this combination is an important aspect where the considered scenario differs from conventional programming or query languages. Relevant techniques include non-monotonic reasoning, semantics-based knowledge partitioning (Wernhard 2004, Ghilardi et al. 2006, Cuenca Grau et al. 2008, Kontchakov et al. 2010) and the use of explanations for inferred information, as exemplified by proofs in mathematical knowledge bases (Urban et al. 2013). A further important integration requirement concerns the combination of statistics-based techniques, which are essential for natural language processing operations such as named entity recognition or keyphrase extraction, with a symbolic logic-based framework.</p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>External Annotations </head>
+            <p>The availability of powerful techniques to identify places in text – based on syntactic as well as semantic properties – suggests to prefer external annotations to in-place markup. Annotations are then maintained separated from the object text in annotation documents. An automated processor creates an annotated document by merging annotations and object text.</p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Representation of Epistemic Status </head>
+            <p>Scholarly editing requires to associate various forms of epistemic status with facts, which is interesting to model formally from the viewpoint of artificial intelligence. Consider for example a creation date associated with written communication: it can be given by its author or can be inferred – by the editor or by a machine, it can be only partially specified by the author, it can be specified with different precision, considered as a point or range in time, etc. The current version of
+              <hi rend="italic">TEI</hi> offers some related elements to indicate certainty, precision and responsibility (The TEI Consortium 2015: Chapter 21), but these are not based on any formal semantic treatment and it is seems hardly possible to express the sketched date examples with them.
+            </p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Utilizing Inferred Access Patterns </head>
+            <p>Efficient access to large knowledge bases requires caching and preprocessing,
+              which ideally should be performed automatically on the basis of the queries
+              performed by the knowledge processing engine. Relevant techniques come from
+              optimization in databases (Toman / Weddell 2011) and in first-order model
+              computation systems (Pelzer / Wernhard 2007). It seems that recent
+              techniques for view-based query processing (Calvanese et al. 2007) based on
+              variants of Craig's interpolation and second-order quantifier elimination
+              (Toman / Weddell 2011; Bárány et al. 2013; Wernhard 2014) where access
+              patterns can be specifically considered in an abstract way (Bárány et al.
+              2013) are particularly useful. Logic-based languages for programming as well
+              as data access facilitate the application of such abstract techniques. For
+              an overview on alternate ways to associate computational meaning with logics
+              see (Kowalski 2014).</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>The Role of Ontologies </head>
+              <p>Ontologies are an important ingredient for the Semantic Web because they provide agreed vocabularies. However, to evaluate queries arising in the text processing tasks of scholarly editing, ontology reasoning alone is not sufficient. Also, the basic ontologies relevant in the context of scholarly editing are – in contrast to the biomedical area (Horrocks 2013) – rather small and trivial. </p>
+            </div>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>A Prototype: The
+              <hi rend="italic">KBSET</hi> System
+            </head>
+            <p>Important issues of complex computer systems often become apparent only with applications. Thus, the authors developed the
+              <hi rend="italic">KBSET</hi> system, an experimental platform to clarify the precise requirements of machine support for scholarly editing and to experiment with advanced techniques. It follows the outlined approach, but, so far, only realizes some of the discussed aspects. A draft version of an edition of
+              <hi rend="italic">Max Stirner: Geschichte der Reaction, Band 1. Berlin, 1852</hi> accompanies it as comprehensive example. The system is free software and available from http://cs.christophwernhard.com/kbset/.
+            </p>
+            <p>In a typical setting, the system takes as inputs:</p>
+            <list type="unordered">
+              <item>A source text file, possibly in
+                <hi rend="italic">LaTeX</hi> format. The system can parse
+                <hi rend="italic">LaTeX</hi>, where the set of recognized commands is configurable, including user defined commands as well as commands that establish some "ordered hierarchy of content objects". In this way plain or structured text is available within the system to modules that operate on such text models.
+              </item>
+              <item>
+                <hi rend="italic">Annotation documents</hi>, that is, text files with annotations, possibly in
+                <hi rend="italic">LaTeX</hi> format. The associated places in the source text to which they are referring are specified abstractly.
+              </item>
+              <item>Large fact bases, currently in particular
+                <hi rend="italic">GND </hi>and
+                <hi rend="italic"> </hi>
+                <hi rend="italic">GeoNames,</hi> as well as extracts from
+                <hi rend="italic">YAGO2</hi> and
+                <hi rend="italic">DBpedia</hi>.
+              </item>
+              <item>A so-called
+                <hi rend="italic">assistance document</hi>, that is, a configuration file, where, among other things, the fact bases are specified and information is given to bias or override automated inferencing such that fully correct results are obtained.
+              </item>
+            </list>
+            <p>A user interface is provided that integrates the system into the
+              <hi rend="italic">Emacs</hi> editor, which is free software. The system includes a facility for named entity recognition, which – essentially based on
+              <hi rend="italic">GND</hi> and
+              <hi rend="italic">GeoNames</hi> as gazetteers – identifies persons, locations and dates. The system produces a variety of outputs, supporting all the phases of scholarly editing mentioned above:
+            </p>
+            <list type="unordered">
+              <item>
+                <hi rend="italic">LaTeX</hi> documents where annotations and inferred information are merged in. By passing unrestricted
+                <hi rend="italic">LaTeX</hi> access to the user, high-quality layouts can be achieved.
+              </item>
+              <item>Support during development by possibilities to highlight and inspect entities recognized by the system. </item>
+              <item>An export possibility to visualize detected locations mentioned in the source text with the
+                <hi rend="italic">Dariah</hi> geobrowser.
+              </item>
+            </list>
+            <p>A typical application would be the development of an annotated essay or book, where the source text is edited in
+              <hi rend="italic">LaTeX</hi> and the configuration evolves step-by-step until the inferred information is fully correct.
+            </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Acknowledgments</head>
+            <p>This work was supported by
+              <hi rend="italic">Alexander von Humboldt-Professur für neuzeitliche Schriftkultur</hi>
+              <hi rend="italic">und europäischen Wissenstransfer</hi> and by
+              <hi rend="italic">DFG grant WE </hi>
+              <hi rend="italic">5641/1-1</hi>
+              <hi rend="italic">.</hi>
+            </p>
+          </div>
+        </body>
+        <back>
+          <div type="bibliogr">
+            <listBibl>
+              <head>Bibliographie</head>
+              <bibl>
+                <hi rend="bold">Bárány, Vince / Benedikt, Michael / ten Cate, Balder</hi>
+                (2013): "Rewriting guarded negation queries", in: <hi rend="italic"
+                >Mathematical Foundations of Computer Science 2013 (MFCS 2013)</hi>,
+                volume 8087 of LNCS. Berlin / Heidelberg / New York: Springer 89-110. </bibl>
+                <bibl>
+                  <hi rend="bold">Calvanese, Diego / De Giacomo, Giuseppe / Lenzerini,
+                    Maurizio / Vardi, Moshe Y.</hi> (2007): "View-based query processing: On
+                    the relationship between rewriting, answering and losslessness", in: <hi
+                    rend="italic">Theoretical Computer Science</hi> 371, 3: 169-182. </bibl>
+                    <bibl>
+                      <hi rend="bold">Cuenca Grau, Bernardo / Horrocks, Ian / Kazakov, Yevgeny /
+                        Sattler, Ulrike</hi> (2008): "Modular reuse of ontologies: Theory and
+                        practice", in: <hi rend="italic">Journal of Artificial Intelligence
+                        Research</hi> 31: 273-318. </bibl>
+                        <bibl>
+                          <hi rend="bold">Eide, Øyvind</hi> (2015): "Ontologies, data modeling, and
+                          TEI", in: <hi rend="italic">Journal of the Text Encoding Initiative</hi> 8. </bibl>
+                          <bibl>
+                            <hi rend="bold">Ghilardi, Silvio / Lutz, Carsten / Wolter, Frank</hi>
+                            (2006): "Did I damage my ontology? A case for conservative extensions in
+                            description logics", in: Doherty, Patrick / Mylopoulos, John / Welty,
+                            Christopher A. (eds.): <hi rend="italic">Proc. 10th Int. Conf. on Principles
+                            of Knowledge Representation (KR'06)</hi>. Cambridge, MA: AAAI Press
+                            187-197. </bibl>
+                            <bibl>
+                              <hi rend="bold">Hoffart, Johannes / Suchanek, Fabian M. / Berberich, Klaus /
+                                Weikum, Gerhard</hi> (2013): "YAGO2: A spatially and temporally enhanced
+                                knowledge base from Wikipedia", in: <hi rend="italic">Artificial
+                                Intelligence</hi> 194: 28-61. </bibl>
+                                <bibl>
+                                  <hi rend="bold">Horrocks, Ian</hi> (2013): "What are ontologies good for?",
+                                  in: Kuppers, Bernd Olaf / Hahn, Udo / Artmann, Stefan (eds.): <hi
+                                  rend="italic">Evolution of Semantic Systems</hi>. Berlin / Heidelberg /
+                                  New York: Springer 175-188. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Kontchakov, Roman / Wolter, Frank / Zakharyaschev, Michael
+                                    </hi>(2010): "Logic-based ontology comparison and module extraction, with an
+                                    application to DL-Lite", in: <hi rend="italic">Artificial Intelligence</hi>
+                                    174, 15: 1093-1141. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Kowalski, Robert A. </hi>(2014): "Logic Programming", in:
+                                      Siekmann, Jörg (ed.): <hi rend="italic">Computational Logic</hi> (= Handbook
+                                      of the History of Logic 9). Amsterdam: Elsevier 523-569. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Lehmann, Jens / Isele, Robert / Jakob, Max / Jentzsch, Anja
+                                          / Kontokostas, Dimitris / Mendes N., Pablo / Hellmann, Sebastian /
+                                          Morsey, Mohamed / van Kleef, Patrick / Auer, Sören / Bizer,
+                                          Christian</hi> (2015): "DBpedia – A large-scale, multilingual knowledge
+                                          base extracted from Wikipedia", in: <hi rend="italic">Semantic Web </hi>6,
+                                          2: 167-195. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Pelzer, Björn / Wernhard, Christoph</hi> (2007): "System
+                                            description: E-KRHyper", in: <hi rend="italic">Automated Deduction </hi>
+                                            (CADE-21), volume 4603 of LNCS (LNAI). Berlin / Heidelberg / New York:
+                                            Springer 503-513. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">The TEI Consortium</hi> (2015): <hi rend="italic">TEI P5:
+                                              Guidelines for Electronic Text Encoding and Interchange, Version
+                                              2.8.0</hi> TEI Consortium <ref
+                                              target="http://www.tei-c.org/Guidelines/P5/"
+                                              >http://www.tei-c.org/Guidelines/P5/</ref> [letzter Zugriff 9. Oktober
+                                              2015]. </bibl>
+                                              <bibl>
+                                                <hi rend="bold">Toman, David / Weddell, Grant</hi> (2011): <hi rend="italic"
+                                                >Fundamentals of Physical Design and Query Compilation San Rafael</hi>.
+                                                CA: Morgan and Claypool. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">Urban, Josef / Rudnicki, Piotr / Sutcliffe, Geoff
+                                                  </hi>(2013): "ATP and presentation service for Mizar formalizations", in:
+                                                  <hi rend="italic">Journal of Automated Reasoning</hi> 50 (2): 229-241. </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Wernhard, Christoph</hi> (2004): "Semantic knowledge
+                                                    partitioning", in: <hi rend="italic">Logics in Artificial Intelligence</hi>:
+                                                    9th European Conf. (JELIA 04), volume 3229 of LNCS (LNAI). Berlin /
+                                                    Heidelberg / New York: Springer 552-564. </bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Wernhard, Christoph</hi> (2014): <hi rend="italic"
+                                                      >Expressing view-based query processing and related approaches with
+                                                      second-order operators</hi>", Technical Report - Knowledge
+                                                      Representation and Reasoning 14-02, TU Dresden, <ref
+                                                      target="http://www.wv.inf.tu-dresden.de/Publications/2014/report-2014-02.pdf"
+                                                      >http://www.wv.inf.tu-dresden.de/Publications/2014/report-2014-02.pdf</ref>
+                                                      [letzter Zugriff 9. Oktober 2015]. </bibl>
+                                                    </listBibl>
+                                                  </div>
+                                                </back>
+                                              </text>
+                                            </TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-017">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die Geowissenschaftliche Analyse von großen Mengen historischer Texte: Die Visualisierung geographischer Verhältnisse in deutschen Familienzeitschriften </title>
+        <author>
+          <name>
+            <surname>McIsaac</surname>
+            <forename>Peter</forename>
+          </name>
+          <affiliation>Literature, Sciences and the Arts, Universitaet von Michigan, USA</affiliation>
+          <email>pmcisaac@umich.edu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jamin</surname>
+            <forename>Sugih</forename>
+          </name>
+          <affiliation>Electrical Engineering and Computer Science, Universitaet von Michigan, USA</affiliation>
+          <email>sugih@umich.edu</email>
+        </author>
+
+        <author>
+          <name>
+            <surname>Ibanez</surname>
+            <forename>Ines</forename>
+          </name>
+          <affiliation>School of Natural Resources, Universitaet von Michigan, USA</affiliation>
+          <email>iibanez@umich.edu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Singer</surname>
+            <forename>Oskar</forename>
+          </name>
+          <affiliation>Electrical Engineering and Computer Science, Universitaet von Michigan, USA</affiliation>
+          <email>oskarsinger@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Bray</surname>
+            <forename>Benjamin</forename>
+          </name>
+          <affiliation>Literature, Sciences and the Arts, Universitaet von Michigan, USA</affiliation>
+          <email>benrbray@umich.edu</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-28T09:32:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Visualisierung</term>
+          <term>Geowissenschaftliche Analyse</term>
+          <term>Deutsche Geschichte</term>
+          <term>Automated Toponym Resolution</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Datenerkennung</term>
+          <term>Programmierung</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Bereinigung</term>
+          <term>Visualisierung</term>
+          <term>Artefakte</term>
+          <term>Daten</term>
+          <term>Sprache</term>
+          <term>Literatur</term>
+          <term>Karte</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Forschungsergebnis</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>In diesem Vortrag werden die Verarbeitung und Visualisierung von geowissenschaftlichen Daten in populären, in Deutschland zwischen 1853 und 1918 publizierten Familienzeitschriften wie
+        <hi rend="italic">Die Gartenlaube</hi>,
+        <hi rend="italic">Deutsche Rundschau</hi> und
+        <hi rend="italic">Westermanns Illustrirte Deutsche Monatshefte</hi> präsentiert. Nach einer einleitenden Diskussionen über die Fragestellungen, die eine geowissenschaftliche Analyse dieser Druckerzeugnisse aus älterer und „digitaler“ geisteswissenschaftlicher Sicht motivieren, werden unsere Herangehensweisen erläutert. Neben kuratorischen Aspekten behandelt die Präsentation die von uns entwickelten Techniken des maschinellen Lernens und einer historisierenden Visualisierung, die großen Mengen von historischen Texten gerecht werden. Darüber hinaus werden erste Ergebnisse der Visualisierung gezeigt, die neue Antworten auf noch ungelöste Fragen bieten.
+      </p>
+      <p>Die Fragestellungen, die diesem DH-Projekt zugrunde liegen, entsprechen manchen zentralen Fragen der älteren geisteswissenschaftlichen Forschung. Diese interessierte sich für die Darstellung spezifischer geographischer Orte und Gebiete zunächst im Zusammenhang mit der Entwicklung einer modernen deutschen Nationalidentität, die als überregional und allen Deutschen gemeinsam verstanden wird (Belgum 1998: xi-xv). Familienzeitschriften befassten sich bekanntlich nicht nur programmatisch mit der Formulierung und Verbreitung der historischen, sprachlichen und geographischen Konturen einer solchen Nationalidentität (Barth 1975: 205-12), sie unternahmen dies als die ersten Druckerzeugnisse, deren Verbreitung ein annähernd nationales Ausmaß annahm (McIsaac 2014: 186-8; Belgum 1998: 1-27). Während ihre relativ erschwinglichen Preise und ihre breit angelegte inhaltliche Thematik ein unerhört zahlenreiches und breites Publikum ansprachen (McIsaac 2014: 186-8; Daum 2002), ermöglichten technische Entwicklungen die zeitgleiche wöchentliche bzw. monatliche Belieferung des gesamten geographischen Gebietes, das als territoriale Basis für Deutschland als politische Nation kritisch in Frage steht (Belgum 1998: 1-27). Innenpolitisch dürften diese Druckerzeugnisse also zum Nationalgefühl im Sinne von Benedict Andersons Begriff der Nation als „vorgestellte Gemeinschaft“ beigetragen haben (Anderson 2006). Zugleich war die Frage nach der geographischen Darstellung aber stets auch eine globale, indem die Familienzeitschriften Deutschlands Rollen als wichtiges Emigrationsland, später dann als aufstrebende Kolonial- und Weltmacht mit gezielten Beiträgen bewusst reflektierten (Belgum 1998: 142-82). Es geht bei diesen Fragen also um die lokalen und globalen territorialen Be-, Ein- und Entgrenzungen in ihrem Verhältnis zum deutschen Nationalgefühl. </p>
+      <p>Im Zeitalter der Globalisierung und Massenmigration haben diese Fragen nach der nationalen Identität in lokalen und internationalen Kontexten nichts an Brisanz eingebüßt, auch wenn (oder gerade weil) ihre Beantwortung mittels traditioneller Methoden nur in Ansätzen gelungen ist. Dass dies mit herkömmlicher Analyse nicht mehr zu erreichen ist, hängt im großen Maße mit der Fülle an Lesematerial zusammen, der mit normaler Lektüre nicht beizukommen ist (McIsaac 2014: 185). Erst mit der Digitalisierung ganzer Zeitschriftenauflagen, wie dies Google in Zusammenarbeit mit dem US-amerikanischen HathiTrust-Consortium unternommen hat, ist es möglich geworden, mit computerbasierten Techniken an diese Fragen heranzugehen. Diese Techniken bergen insbesondere die Möglichkeit einer kartographischen Visualisierung der geowissenschaftlichen Daten in den Familienblättern in sich, und zwar eine, die das langjährige Erscheinen der Blätter in regelmäßigen Zeitabständen historisch zu verwerten trachtet. In Bezug auf die angestrebte historisierende Visualisierung geowissenschaftlicher Daten gibt es allerdings technische, finanzielle und methodische Probleme, deren Lösung für große Mengen von historischen Texten weder trivial noch vollkommen ist. </p>
+      <p>Auf welche Weise diese Probleme sich bewältigen lassen, wird Gegenstand des Vortrags
+        anhand von einem Korpus ( <hi rend="italic">Deutsche Rundschau</hi> 1873-1918) sein.
+        Geschildert werden zunächst Techniken, die nicht nur zur Behebung von Problemen
+        historischer und kuratorischer Natur (z. B. Verbesserung der optischen
+        Zeichenerkennung bei Fraktur; Algorithmen zur passenden Gliederung der
+        Zeitschriften) dienten, sondern auch zur Entwicklung einer skalierbaren Datenbank
+        beitrugen. Diese ist so konzipiert worden, dass Metadaten und Annotationen
+        verschiedener Art mit den jeweiligen Korpora assoziiert werden können und als die
+        Basis für Anwendungen des maschinellen Lernens verwendet werden. Bei diesen
+        Anwendungen geht es uns besonders um eine automatisierte Auflösung von Ortsnamen
+        (eine Form von automated toponym resolution) im Zusammenhang von
+        Named-Entity-Recognition (NER), die die vorkommenden Ortsnamen mit hoher Präzision
+        in großen Mengen von Texten identifizieren. Um unseren Beitrag klarer darzustellen,
+        werden unsere Anwendungen von Methoden und Programmbibliotheken anderer
+        Forschunggruppen (allen voran Statros et al/Kim; Wing &amp; Baldrige; Speriosu &amp;
+        Baldrige; DeLosier) erläutert. </p>
+        <p>Um der historischen Spezifizität unserer Texte gerecht zu werden, werden die
+          Ortsnamen aus einer speziell von uns zusammengestellten Datenbank von geokodierten
+          historischen Ortsnamen gespeist (Datenquelle: Mini-Gov Datenbank 2015). Zum Schluss
+          wird mittels eines Open-Source-Plug-Ins der Omeka-Plattform (neatline) eine
+          Visualisierung der geowissenschaftlichen Daten ermöglicht, die nicht nur
+          synchronische geographische Verhältnisse zwischen Zeitschriftentext, Thema und Ort
+          bzw. Region darstellen, sondern auch diachronische. Die Grenzen dieser Methode im
+          Vergleich zu jenen eines GIS-Systems werden kurz besprochen. Somit wird eine solide
+          Basis für die Möglichkeit neuen geisteswissenschaftlichen Wissens gestellt, die dann
+          zuschließend mit ersten Ergebnissen gezeigt wird.</p>
+        </body>
+        <back>
+          <div type="bibliogr">
+            <listBibl>
+              <head>Bibliographie</head>
+              <bibl><hi rend="bold">Anderson, Benedict</hi> (2006):  <hi rend="italic"
+              >Imagined Communities: Reflections on the Origin and Spread of
+              Nationalism</hi>. New York: Verso. </bibl>
+              <bibl><hi rend="bold">Barth, Dieter</hi> (1975): “Das Familienblatt — ein
+              Phänomen der Unterhaltungspresse des 19. Jahrhunderts. Beispiele zur
+              Gründungs- und Verlagsgeschichte”, in: <hi rend="italic">Archiv für
+              Geschichte des Buchwesens </hi>15: cols. 205-12. </bibl>
+              <bibl><hi rend="bold">Belgum, Kirsten</hi> (1998):  <hi rend="italic"
+              >Popularizing the Nation: Audience, Representation, and the Production
+              of Identity in Die Gartenlaube, 1853-1900</hi>. Omaha: U Nebraska P. </bibl>
+              <bibl><hi rend="bold">Daum, Andreas</hi> (2002):  <hi rend="italic"
+              >Wissenschaftspopularisierung im 19. Jahrhundert: bürgerliche Kultur,
+              naturwissenschaftliche Bildung und die
+              deutsche Öffentlichkeit, 1848-1914</hi>. Munich: Oldenbourg. </bibl>
+              <bibl><hi rend="bold">McIsaac, Peter</hi> (2014): “Rethinking Non-Fiction:
+              Distant Reading the Nineteenth-Century Science-Literature Divide,” in:
+              Tatlock, Lynne / Erlin, Matt (eds.): <hi rend="italic">Distant Readings:
+              Topologies of German Literature in the Long Nineteenth Century</hi>.
+              Rochester: Camden House 185-208. </bibl>
+              <bibl>
+                <hi rend="bold">Mini-Gov Datenbank</hi> (2015): <hi rend="italic">Mini-GOV
+                (Genealogisches Ortsverzeichnis)</hi>. Daten des <ref
+                target="http://gov.genealogy.net">Genealogischen Ortsverzeichnisses
+                GOV</ref>, <ref target="http://compgen.de">Verein für Computergenealogie
+                e. V.</ref>
+                <ref target="http://wiki-de.genealogy.net/GOV/Mini-GOV"
+                  >http://wiki-de.genealogy.net/GOV/Mini-GOV</ref> [letzter Zugriff 28.
+                  Dezember 2015].</bibl>
+                </listBibl>
+              </div>
+            </back>
+          </text>
+        </TEI>

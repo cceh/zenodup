@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-055">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CLARIN-D: Ressourcen gesprochener Sprache und Webservices des Bayerischen Archivs für Sprachsignale</title>
+        <author>
+          <name>
+            <surname>Draxler</surname>
+            <forename>Christoph</forename>
+          </name>
+          <affiliation>Bayerisches Archiv für Sprachsignale, Institut für Phonetik und Sprachverarbeitung, Deutschland</affiliation>
+          <email>draxler@phonetik.uni-muenchen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schiel</surname>
+            <forename>Florian</forename>
+          </name>
+          <affiliation>Bayerisches Archiv für Sprachsignale, Institut für Phonetik und Sprachverarbeitung, Deutschland</affiliation>
+          <email>schiel@phonetik.uni-muenchen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Reichel</surname>
+            <forename>Uwe</forename>
+          </name>
+          <affiliation>Bayerisches Archiv für Sprachsignale, Institut für Phonetik und Sprachverarbeitung, Deutschland</affiliation>
+          <email>reichelu@phonetik.uni-muenchen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kisler</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>Bayerisches Archiv für Sprachsignale, Institut für Phonetik und Sprachverarbeitung, Deutschland</affiliation>
+          <email>kisler@phonetik.uni-muenchen.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-16T10:52:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>CLARIN-D</term>
+          <term>Repository</term>
+          <term>Web Service</term>
+          <term>Metadaten</term>
+          <term>Sprachdatenbanken</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Sammlung</term>
+          <term>Annotieren</term>
+          <term>Archivierung</term>
+          <term>Identifizierung</term>
+          <term>Kollaboration</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Konservierung</term>
+          <term>Artefakte</term>
+          <term>Daten</term>
+          <term>Sprache</term>
+          <term>Metadaten</term>
+          <term>Multimodale Kommunikation</term>
+          <term>Forschung</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1">
+        <head>Das BAS Repository</head>
+        <p>Das Repository des BAS ist in einen öffentlich zugänglichen und einen zugangsgeschützten Bereich unterteilt. Der öffentliche Bereich enthält die Metadaten der im Repository enthalten Datenbanken gesprochener Sprache, der geschützte Bereich die Annotationen und Sprachsignaldaten.</p>
+        <p>Aktuell (Stand 31.12.2015) umfasst das Repository 33 Korpora mit den
+          Schwerpunkten Sprachtechnologie, regionale Variation, Sprechermerkmale und
+          Grundlagenforschung. Auf der obersten Repository-Ebene werden die wichtigsten
+          Angaben prominent platziert: Name und Eigentümer der Ressource, Audio bzw.
+          Video, verwendete Sprache, und die Zugangsrestriktionen (s. Kap. 6).</p>
+          <p>Von den 33 Korpora enthält eines arabische Sprachaufnahmen, und enthalten zwei
+            italienische, drei englische und 26 deutsche Sprachaufnahmen; dazu kommt ein
+            Korpus in Deutscher Gebärdensprache. 26 Korpora enthalten nur gesprochene
+            Sprache, 6 sowohl gesprochene Sprache als auch Video, eines nur Video. Ein
+            Korpus ist allgemein verfügbar, 30 sind für akademische Nutzer_innen frei
+            zugänglich, zwei nur als lizensierte Korpora. </p>
+            <p>Der Datenumfang beträgt mehr als 2,86 TB an Audio-, Video- und Sensorsignaldaten, sowie ca. 17,4 GB an Annotations- und Metadaten. </p>
+            <figure>
+              <graphic n="1001" width="15.963194444444444cm" height="14.358055555555556cm" url="p055-image1.png" rend="inline"/>
+            <p><hi rend="bold">Abb. 1</hi>: Startseite des BAS Repository mit der Liste
+            verfügbarer Korpora.</p>
+            </figure>
+          </div>
+          <div type="div1">
+            <head>Inhalt des Repository</head>
+            <p>Die überwiegende Anzahl der Ressourcen wurde vom BAS selbst oder in Kooperation mit industriellen oder akademischen Partnern erstellt. Zunehmend werden weitere, von externen Partnern erstellte Ressourcen in das Repository aufgenommen.</p>
+            <figure>
+              <graphic n="1002" width="15.963194444444444cm" height="14.358055555555556cm" url="p055-image2.png" rend="inline"/>
+            <p><hi rend="bold">Abb. 2</hi>: Repositoryansicht der Sessions im Korpus
+            ALC.</p>
+            </figure>
+            <p>Darüberhinaus sucht das BAS aktiv nach verwaisten Ressourcen, d. h.
+              Sprachdatensammlungen, die im Rahmen von Projekten, Dissertationen, oder
+              sonstigen Datenerhebungen erstellt wurden, deren Fortbestand aber aufgrund
+              fehlender Finanzierung oder personeller Veränderungen gefährdet ist. Für diese
+              Ressourcen bietet das BAS Unterstützung bei der Erstellung der Metadaten sowie
+              auch die Archivierung im Repository an. Ein Leitfaden zur Aufbereitung externer
+              Korpora ist in Vorbereitung.</p>
+              <p>Aktuell werden Metadaten für das schweizerische Jugendsprachekorpus (Tissot
+                2015), das WaSeP Korpus zur Analyse emotionaler Prosodie (Wendt 2007), das
+                Sprechermerkmale-Korpus von Brüderpaaren von Hanna Feiser (Feiser 2015), das
+                ASD-Corpus (Siebenbürger Deutsch) <ref target="www.asd.gwi.uni-muenchen.de">(Krefeld et al.
+                2009-2013)</ref> der Italianistik der LMU München sowie das VOYS Korpus
+                mit Aufnahmen schottischer Jugendlicher (Dickie et al. 2009) für das
+                Repository aufbereitet. </p>
+              </div>
+              <div type="div1">
+                <head>CMDI Metadatenformat</head>
+                <p>Grundlage des Repository sind zum einen das Metadatenformat CMDI (<hi
+                  rend="italic">Component Metadata Initiative</hi>) (<ref target="http://media.dwds.de/clarin/userguide/text/metadata_CMDI.xhtml">CLARIN-D AP 5 2012)</ref>,
+                  zum anderen ein in <hi rend="italic">perl</hi> implementiertes und an die
+                  CLARIN-Anforderungen angepasstes Repositoryframework. </p>
+                  <p>CMDI zeichnet sich dadurch aus, dass es in kontrollierter Form erweiterbar ist und selbstbeschreibend ist. Sämtliche in CMDI verwendeten Deskriptoren, Components genannt, müssen in einem öffentlich zugänglichen Register spezifiziert sein. Profile sind vordefinierte Listen von Deskriptoren für spezifische Datenbestände.</p>
+                  <p>Das BAS hat zwei Profile für Ressourcen gesprochener Sprache definiert, das MediaCorpus und das MediaSession Profil. Diese Profile stellen sicher, dass das Repository</p>
+                  <list type="ordered">
+                    <item>nur Daten enthält, die formalen Mindestanforderungen genügen, </item>
+                    <item>von externen Diensten wie Suchmaschinen oder Informationsdiensten gelesen werden kann, </item>
+                    <item>in alternativen Metadatenformaten ausgegeben werden kann, und </item>
+                    <item>externe Suchanfragen nach Meta- und Inhaltsdaten unterstützt.</item>
+                  </list>
+                  <p>Um die Erstellung CLARIN-kompatibler Metadaten zu erleichtern bietet das BAS
+                    den Webservice COALA an (s. Kap. 7).</p>
+                  </div>
+                  <div type="div1">
+                    <head>Programmierschnittstellen und Protokolle</head>
+                    <p>Aktuell wird das BAS Repository regelmäßig von den Harvestern des Virtual
+                      Language Observatory (VLO) <ref target="https://vlo.clarin.eu">(Zinn et al. 2015)</ref> sowie vom Informationsdienst
+                      Reuters über die Standardschnittstelle OAI-PMH ausgelesen, die unterstützten
+                      Metadatenformate sind Dublin Core und OLAC, und für die Suche in den
+                      Annotationsdaten wird über die Schnittstelle SRU-CQL angeboten. </p>
+                    </div>
+                    <div type="div1">
+                      <head>Persistent Identifiers</head>
+                      <p>Das BAS Repository verwendet EPIC Handle Persistent Identifiers (PID) für die
+                        Korpus- und Session-Objekte. Zum Beispiel verweist die PID
+                        http://hdl.handle.net/11858/00-1779-0000-0006-BF00-E auf die Webadresse des
+                        Repository.</p>
+                        <p>Unterschiedliche Versionen eines Korpus bzw. einer Session erhalten jeweils
+                          eine eigene PID. Auf Signal- oder Annotationsfiles in einer Session kann
+                          mithilfe von Part-Identifiern zugegriffen werden (vorausgesetzt der User ist
+                          authentifiziert), hier z. B. ist die Part-ID m_0000000001
+                          http://hdl.handle.net/11858/00-1779-0000-0006-BDA2-3@partId=m_0000000001</p>
+                          <p>Die PIDs werden von der Gesellschaft für wissenschaftliche Datenverarbeitung
+                            in Göttingen <ref target="https://www.gwdg.de/">(GWDG)</ref> verwaltet.</p>
+                          </div>
+                          <div type="div1">
+                            <head>Zugangskontrolle</head>
+                            <p>CLARIN strebt eine Single Sign-On Authentifizierung an. Als Protokoll wird
+                              Shibboleth <ref target="http://shibboleth.net">(Knight 2015)</ref> verwendet. Für den Zugriff auf geschützte
+                              Ressourcen gibt die Nutzerin ihr Login mit Passwort ein, dieses wird von der
+                              Heimatinstitution überprüft. Diese Institution teilt dem Server, der die
+                              Ressource verwaltet, mit, ob die Nutzerin bekannt ist – wenn ja, dann darf
+                              sie in CLARIN diese und alle weiteren Ressourcen nutzen, für die sie
+                              autorisiert ist. </p>
+                              <p>Im Wesentlichen gibt es drei Autorisierungsstufen: ACA für akademische Nutzer, RES für beschränkten Zugriff, und PUB für den unbeschränkten öffentlichen Zugang. Im Repository sind diese Stufen gut sichtbar aufgeführt, so dass sofort klar wird, welche Ressource wie zugänglich ist.</p>
+                              <p>Aktuell sind die akademischen Institutionen der 15 CLARIN Mitgliedsländer (AT, BG, CZ, DK, EE, DE, GR, LI, NL, NO, PL, PT, SL, SE, UK) sowie die Nederlandse Taalunie als länderübergreifende Einrichtung zugangsberechtigt. Für Nutzer außerhalb akademischer Einrichtungen unterhält CLARIN ein eigenes Nutzerverzeichnis, so dass ausgewählte Mitglieder ebenfalls Zugriff auf CLARIN Ressourcen haben.</p>
+                            </div>
+                            <div type="div1">
+                              <head>BAS Webservices</head>
+                              <p>Das BAS betreibt eine Reihe von phonetisch-linguistischen Webservices <ref target="http://www.phonetik.uni-muenchen.de/forschung/Bas/BasWebserviceseng.html">(Schiel
+                                2013)</ref> sowie web-basierte Schnittstellen <ref target="https://clarin.phonetik.uni-muenchen.de/BASWebServices/#/services">BAS (2011-2016) </ref>, die auf diesen
+                                Webservices basieren. </p>
+                                <figure>
+                                  <graphic n="1003" width="15.980833333333333cm" height="13.828888888888889cm" url="p055-image3.png" rend="inline"/>
+                                <p><hi rend="bold">Abb. 3</hi>: WebMAUS mit 4 hochgeladenen Dateipaaren für die
+                                automatische Segmentation.</p>
+                                </figure>
+                                <p>Ein Webservice erlaubt einem User oder einer Applikation mittels des
+                                  REST-Protokolls automatische Verarbeitungen von Daten auf einem dedizierten
+                                  Server durchzuführen. Zum Beispiel benutzt das Annotations-Tool ELAN (vgl.
+                                  <ref target="https://tla.mpi.nl/tools/tla-tools/elan/">TLA: Elan</ref>) einen Webservices des BAS um während der Bearbeitung einer
+                                  Sprachdatei eine vollautomatische Segmentierung anzustoßen (Kisler et al.
+                                  2012). Web-basierte Schnittstellen dagegen erlauben die benutzerfreundliche
+                                  interaktive Verwendung solcher Webservices über einen Standard Web-Browser. </p>
+                                  <p>Das BAS hat in den vergangenen zwei Jahren seine vorhandenen Webservices erweitert, verbessert und neue Funktionalitäten bereitgestellt. Fast alle interaktiven Services erlauben jetzt auch das Batch-Processing von großen Datensammlungen.</p>
+                                  <p>Das bekannte System MAUS (vgl. Schiel 1999) zur vollautomatischen Segmentierung
+                                    von Sprache wurde auf derzeit 17 Sprachvarianten erweitert. MAUS liest ein
+                                    Sprachsignal-File und die dazugehörige Transkripton und berechnet daraus die
+                                    Phonem/Wort-Segmentierung in Form einer hierarchischen Annotation.</p>
+                                    <p>Hervorzuheben sind dabei</p>
+                                    <list type="ordered">
+                                      <item>die neue Verarbeitung von Schweizer Deutsch ausgehend von der sog. Dieth-Kodierung,</item>
+                                      <item>die vier Sprachvarianten amerikanisches, australisches, neuseeländisches und britisches Englisch,</item>
+                                      <item>sowie als neueste Sprachen Russisch und Französisch.</item>
+                                    </list>
+                                    <p>WebMAUS unterstützt  seit kurzem auch das neue EMU Datenbank-System-Format und
+                                      die sofortige Visualisierung der Ergebnisse mit Hilfe  des
+                                      Javascript-basierten Labeller-Tools EMU-webApp <ref target="https://github.com/IPS-LMU/EMU-webApp">(Winkelmann et al. 2016)</ref>. </p>
+                                      <p>Ein neu entwickelter Webservice WebMINNI erlaubt die phonetische Segmentierung und Transkription von Medienfiles ohne vorhandene Verschriftung in sieben Sprachvarianten. Die stochastisch-phonologische Komponente des MAUS Systems wurde dabei ersetzt durch ein phontaktisches Bigram-Modell der jeweiligen Sprache.</p>
+                                      <p>Das BALLOON-Werkzeug G2P zur automatischen Generierung von Aussprache-Kodierung auf der Basis von orthographischem Text-Input wurde auf nunmehr 18 Sprachen erweitert (Reichel 2012).</p>
+                                      <p>Ein neu entwickeltes Tool Pho2Syl erlaubt die automatische Syllabifizierung von Transkriptionen. Syllabifizierungen werden in vielen Disziplinen der empirischen Linguistik benötigt. Pho2syl ist das erste verfügbare Werkzeug, das sowohl phonologische als auch phonetische Transkripte für 18 Sprachvarianten erlaubt.</p>
+                                      <p>Ein weitere Neuentwicklung ist TextAlign, ein allgemein einsetzbares Werkzeug zur optimalen symbolischen Alignierung (Reichel 2012).</p>
+                                      <p>Eine typische Anwendung ist die Alinierung von orthographischen zu phonologischen Symbol-Ketten. TextAlign bietet sowohl eine Vielzahl von vortrainierten Kostenfunktionen für verschiedene Sprachvarianten als auch Mechanismen zur Abschätzung der optimalen Kostenfunktion aus den Input-Daten.</p>
+                                      <p>Für alle web-basierte Schnittstellen wurde die Benutzerfreundlichkeit kontinuierlich verbessert. Die BAS Webservices  bieten dem Benutzer jetzt sowohl einen online Help Desk über die CLARIN Infrastruktur, eine FAQ-Sammlung als auch Tooltips und Usecase Beschreibungen direkt auf der Web-Seite.</p>
+                                    </div>
+                                    <div type="div1">
+                                      <head>Fazit und Ausblick</head>
+                                      <p>Das CLARIN Repository des BAS ist seit Ende 2012 in Betrieb und wird laufend
+                                        erweitert. Der mit Abstand meistgenutzte Webservice ist WebMAUS - hier hat
+                                        die Diskussion mit Anwendern auch dazu geführt, dass einzelne Bestandteile
+                                        von MAUS mittlerweile als eigene Webservices verfügbar sind, z. B. G2P oder
+                                        WebMINNI. Die zunehmende Erfahrung im Umgang mit Webservices hat dazu
+                                        geführt, dass auch komplexe Arbeitsabläufe wie die Erstellung von Metadaten,
+                                        oder früher wenig genutzte Dienste wie die Sprachsynthese, nun als
+                                        Webservice zugänglich und damit wesentlich einfacher zu nutzen sind.</p>
+                                        <p>Der Wegfall der Notwendigkeit von Softwareinstallationen sowie die konsequent auf
+                                          Nutzerfreundlichkeit ausgerichtete Gestaltung von Webservices hat dazu
+                                          geführt, dass ganz neue Nutzerkreise erschlossen wurden: Ethnolog_innen
+                                          lassen mit WebMAUS erste Rohsegmentationen bedrohter Sprachen erstellen,
+                                          Toolentwickler_innen binden die Werbservices in ihre Tools ein, usw. Neben
+                                          dem erwähnten ELAN nutzen in Studentenprojekten entwickelte innovative
+                                          Prototypen von Sprachlerntools die MAUS-Segmentation für eine grafisch
+                                          ansprechende Gegenüberstellung von Wort-, Silben- und Lautdauern von
+                                          Muttersprachler- und Lerneräußerungen.</p>
+                                          <p>Zum Schluss ein Aufruf: das BAS sucht weiterhin Ressourcen gesprochener Sprache für das Repository. Insbesondere von Interesse sind Ressourcen gesprochener Sprache, deren Fortbestand gefährdet ist, oder die aus neuen, bislang unbekannten Forschungs- und Anwendungsbereichen stammen. </p>
+                                        </div>
+                                      </body>
+                                      <back>
+                                        <div type="bibliogr">
+                                          <listBibl>
+                                            <head>Bibliographie</head>
+                                            <bibl>
+                                              <hi rend="bold">BAS: Bavarian Archive for Speech Signals</hi>(2011-2016):
+                                              <hi rend="italic">BAS WebService 2.06</hi>. Institute of Phonetics and
+                                              Speech Processing at the Ludwig-Maximilians-Universität München <ref
+                                              target="https://clarin.phonetik.uni-muenchen.de/BASWebServices/#/services"
+                                              >https://clarin.phonetik.uni-muenchen.de/BASWebServices/#/services</ref>
+                                              [letzter Zugriff 08. Januar 2016]. </bibl>
+                                              <bibl>
+                                                <hi rend="bold">CLARIN-D AP 5</hi> (2012): <hi rend="italic">CLARIN-D User
+                                                Guide: The Component Metadata Initiative (CMDI)</hi>Clarin-D <ref
+                                                target="http://media.dwds.de/clarin/userguide/text/metadata_CMDI.xhtml"
+                                                >http://media.dwds.de/clarin/userguide/text/metadata_CMDI.xhtml</ref>
+                                                [letzter Zugriff 08. Januar 2016]. </bibl>
+                                                <bibl><hi rend="bold">Dickie, Catherine / Schaeffler, Felix / Draxler, Christoph
+                                                </hi> (2009): "Speech Recordings via the Internet: An Overview of theVOYS
+                                                project in Scotland", in: <hi rend="italic">Proc. Interspeech 2009</hi>
+                                                1807-1810.</bibl>
+                                                <bibl>
+                                                  <hi rend="bold">TLA:Elan </hi> (o. J.): <hi rend="italic">TLA (The Language
+                                                  Archive) Tools: Elan</hi>. Nijmegen, Netherlands: Max Planck Institute
+                                                  for Psycholinguistics <ref target="https://tla.mpi.nl/tools/tla-tools/elan/"
+                                                  >https://tla.mpi.nl/tools/tla-tools/elan/</ref> [letzter Zugriff 08.
+                                                  Januar 2016]. </bibl>
+                                                  <bibl><hi rend="bold">Feiser, Hanna </hi> (2015): <hi rend="italic">Untersuchung
+                                                  auditiver und akustischer Merkmale zur Evaluation der Stimmähnlichkeit
+                                                  von Brüderpaaren unter forensischen Aspekten</hi>. Frankfurt am Main:
+                                                  Verlag Polizeiwissenschaft </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold"> GWDG</hi>: <hi rend="italic">Gesellschaft für
+                                                    wissenschaftliche Datenverarbeitung mbH</hi>. Göttingen:
+                                                    Georg-August-Universität Göttingen - Stiftung Öffentlichen Rechts,
+                                                    Max-Planck-Gesellschaft <ref target="https://www.gwdg.de/"
+                                                    >https://www.gwdg.de/</ref> [letzter Zugriff 08. Januar 2016]. </bibl>
+                                                    <bibl><hi rend="bold">Kisler, Thomas / Schiel, Florian / Sloetjes, Han</hi>
+                                                    (2012): "Signal processing via web services: the use case WebMAUS", in: <hi
+                                                    rend="italic">Proceedings Digital Humanities 2012, Hamburg,
+                                                    Germany</hi>: 30-34.</bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Knight, Justin (ed.)</hi> (2015): <hi rend="italic"
+                                                      >Shibboleth</hi><ref target="http://shibboleth.net/"
+                                                      >http://shibboleth.net/</ref> [letzter Zugriff 08. Januar 2016]. </bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Krefeld, Thomas / Stephan Lücke, Stephan / Mages,
+                                                          Emma</hi>(2009-2013): <hi rend="italic">Audioatlas
+                                                          Siebenbürgisch-Sächsischer Dialekte (ASD)</hi>.
+                                                          Ludwig-Maximilians-Universität München <ref
+                                                          target="www.asd.gwi.uni-muenchen.de">www.asd.gwi.uni-muenchen.de</ref>
+                                                          [letzter Zugriff 08. Januar 2016]. </bibl>
+                                                          <bibl><hi rend="bold">Reichel, Uwe Dieter</hi> (2012): "PermA and Balloon: Tools
+                                                          for string alignment and text processing", in: <hi rend="italic">Proc.
+                                                          Interspeech. Portland, Oregon</hi>: paper no. 346.</bibl>
+                                                          <bibl><hi rend="bold">Schiel Florian </hi> (1999): "Automatic Phonetic
+                                                          Transcription of Non-Prompted Speech", in: <hi rend="italic">Proc. of the
+                                                          ICPhS 1999. San Francisco</hi>: 607-610.</bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">Schiel, Florian</hi> (2013): <hi rend="italic">BAS: Bavarian
+                                                            Archive for Speech Signals Webservices</hi>. Universität Müchen <ref
+                                                            target="http://www.phonetik.uni-muenchen.de/forschung/Bas/BasWebserviceseng.html"
+                                                            >http://www.phonetik.uni-muenchen.de/forschung/Bas/BasWebserviceseng.html</ref>
+                                                            [letzter Zugriff 08. Januar 2016]. </bibl>
+                                                            <bibl><hi rend="bold">Tissot, Fabienne</hi> (2015): <hi rend="italic"
+                                                            >Gemeinsamkeit schaffen in der Interaktion</hi> Diskursmarker und
+                                                            Lautelemente in zürichdeutschen Erzählsequenzen (= Sprache in Kommunikation
+                                                            und Medien 9). Bern / Berlin / Frankfurt am Main / New York / Paris / Wien:
+                                                            Peter Lang.</bibl>
+                                                            <bibl> </bibl>
+                                                            <bibl><hi rend="bold">Wendt, Beate</hi> (2007): <hi rend="italic">Analysen
+                                                            emotionaler Prosodie</hi>Hallesche Schriften zur Sprechwissenschaft und
+                                                            Phonetik. Bern / Berlin / Frankfurt am Main / New York / Paris / Wien: Peter
+                                                            Lang.</bibl>
+                                                            <bibl><hi rend="bold">Winkelmann, Raphael / Raess, Georg / Jochim, Markus</hi>
+                                                            (2016):<hi rend="italic">EMU-webApp </hi>Institut für Phonetik und
+                                                            Sprachverarbeitung, Ludwig-Maximilians-Universität München <ref
+                                                            target="https://github.com/IPS-LMU/EMU-webApp"
+                                                            >https://github.com/IPS-LMU/EMU-webApp</ref> [letzter Zugriff 08. Januar
+                                                            2016]. </bibl>
+                                                            <bibl>
+                                                              <hi rend="bold"> Zinn, Claus / Duin, Patrick / Stehouwer, Herman / Eckart,
+                                                                Thomas / Looij, Kees Jan van de / Goosen, Twan / Uytvan, Dieter van
+                                                              </hi>(2015): <hi rend="italic">Virtual Language Observatory 3.3.2</hi>
+                                                              <ref target="https://vlo.clarin.eu">https://vlo.clarin.eu</ref> [letzter
+                                                              Zugriff 08. Januar 2016]. </bibl>
+                                                            </listBibl>
+                                                          </div>
+                                                        </back>
+                                                      </text>
+                                                    </TEI>

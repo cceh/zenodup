@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-038">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sprachwandel im Sanskrit? Eine Corpusstudie zum Einfluss Pāṇinis auf die Lexik des Sanskrit</title>
+        <author>
+          <name>
+            <surname>Hellwig</surname>
+            <forename>Oliver</forename>
+          </name>
+          <affiliation>Universität Düsseldorf, Deutschland</affiliation>
+          <email>hellwig7@gmx.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Petersen</surname>
+            <forename>Wiebke</forename>
+          </name>
+          <affiliation>Universität Düsseldorf, Deutschland</affiliation>
+          <email>petersen@phil.uni-duesseldorf.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Sanskrit;Pāṇini;Lexik;Sprachwandel</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Inhaltsanalyse</term>
+          <term>Annotieren</term>
+          <term>Sprache</term>
+          <term>Forschungsergebnis</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Problemstellung und Vorarbeiten</head>
+        <p>Die Sanskrit-Grammatik Aṣṭādhyāyī („[Buch mit] acht Kapitel[n]“) des Linguisten
+          Pāṇini, der wahrscheinlich gegen 350 v. u. Z. in Nordwest-Indien lebte, ist eine
+          der ältesten wissenschaftlichen Grammatiken einer Sprache (Cardona 1976). Die
+          Aṣṭādhyāyī bildet die Grundlage für eine bis heute kontinuierlich fortgeführte
+          Tradition wissenschaftlicher Sanskrit-Linguistik in Indien, und ihr Einfluss auf
+          die indische, aber auch auf die europäische Geistes- und Wissenschaftsgeschichte
+          lässt sich kaum hoch genug ansetzen. Die Aṣṭādhyāyī systematisiert linguistische
+          Phänomene des – seinerzeit wohl noch nicht verschriftlichten – spätvedischen
+          Sanskrit und legt so die Grundlage für das klassische Sanskrit, die <hi
+          rend="italic">lingua franca</hi> von Wissenschaft, Philosophie und
+          Literatur, die eines der größten vormodernen Textcorpora hervorgebracht hat.
+          Daneben wirken Inhalt und Beschreibungsmethoden der Aṣṭādhyāyī auf beinahe jeden
+          Bereich der altindischen Geistesgeschichte ein. Aus Sicht der westlichen
+          Sprachwissenschaft entwickelt Pāṇini in der Aṣṭādhyāyī formale Methoden wie eine
+          Metasprache oder Ersetzungsregeln, die heute zu den zentralen Elementen moderner
+          linguistischer Theorien gehören (Kiparsky 2009). </p>
+          <p>Während der Inhalt der Aṣṭādhyāyī und die auf ihr gründende altindische
+            Sanskrit-Linguistik in der Indologie intensiv erforscht wurden, wurde ihr
+            Einfluss auf die Textproduktion und den Sprachwandel in Sanskrit weniger
+            systematisch untersucht. Zum Sprachwandel ist anzumerken, dass das klassische
+            Sanskrit nahezu ausschließlich für Literatur, Wissenschaft und Religion, aber
+            nicht für die alltägliche Kommunikation eingesetzt wurde. Zudem hat die
+            grammatikalische Tradition das Sanskrit als unveränderliche Sprache
+            interpretiert (Deshpande 1993). Daher ist zu erwarten, dass der Sprachwandel im
+            Sanskrit weniger stark ausgeprägt ist als bei gesprochenen Sprachen. Eine
+            kursorische Lektüre von Sanskrit-Texten zeigt, dass das Pāṇinäische Regelsystem
+            auf den Ebenen von Phonetik und Morphologie fast uneingeschränkt verwendet
+            wurde. Die Aṣṭādhyāyī hat sich hier von einer ursprünglich deskriptiven zu einer
+            präskriptiven Grammatik gewandelt und setzt einen „Goldstandard“, von dem sich
+            Sprachvarianten wie z. B. das epische Sanskrit (Oberlies 2003) unterscheiden
+            lassen.</p>
+            <p>Kaum erforscht ist bisher die Frage, inwieweit die Aṣṭādhyāyī nicht nur
+              grammatische Phänomene wie z. B. Wortbildung oder Phonetik, sondern auch die
+              Lexik des Sanskrit beeinflusst hat. Sind Wörter, die in der Aṣṭādhyāyī
+              vorkommen, durch die über Jahrhunderte anhaltende Rezitation der Grammatik vor
+              Sprachwandel geschützt? Hier schließt sich die Frage an, ob Autoren die
+              Aṣṭādhyāyī selbst oder eine vereinfachende Darstellung als Referenzwerk
+              verwendet haben. Aufgrund der Komplexität der Aṣṭādhyāyī formieren sich v.a.
+              seit dem 11. Jahrhundert u. Z. neue grammatikalische Schulen, die auf der
+              Aṣṭādhyāyī aufbauen, ihr Regelsystem aber vereinfachen und teilweise auch
+              erweitern (Coward / Raja 1990: 19-20). Diese Schulen werden erst im 16.
+              Jahrhundert durch Bhạṭtojī Dīkṣitas Grammatik Siddhāntakaumudī verdrängt, die
+              die Pāṇinäische Tradition wiederherstellt, obwohl auch hier die Regeln neu
+              angeordnet werden. Dazu passt Houbens Beobachtung, wonach sich die aktive
+              Leserschaft der Aṣṭādhyāyī auf einen kleinen Zirkel von Spezialisten beschränkte
+              (Houben 2008: 566), obwohl ihr die grammatikalische Tradition, wie Deshpande
+              bemerkt, im Lauf der Jahrhunderte eine wachsende Wertschätzung entgegenbringt
+              (Deshpande 1998).</p>
+              <p>Die vorliegende Studie schätzt den Einfluss des Vokabulars der Aṣṭādhyāyī auf die
+                spätere Textproduktion mit einem corpusbasierten Ansatz ab. Dabei wird die
+                zeitliche Verteilung Pāṇinäischer Beispielnomina (s. Abschnitt <ref
+                target="REF BMdaten \* MERGEFORMAT " rend="ref mergeformat">2</ref>) in der
+                Literatur des klassischen Sanskrit untersucht. Die Studie geht von Vorarbeiten
+                in (Hellwig / Petersen 2015) aus, wo gezeigt wurde, dass das Beispielvokabular
+                der Aṣṭādhyāyī im Lauf der Zeit immer seltener auftritt. Dieses Ergebnis
+                widerspricht der These, dass die Verwendung von Worten in der Aṣṭādhyāyī diese
+                vor dem Aussterben schützt. Allerdings ließ sich mit der in (Hellwig / Petersen
+                2015) verwendeten Datengrundlage nicht ermitteln, ob frühe Sanskrit-Nomina aus
+                anderen Textklassen eine ähnliche diachrone Verteilung zeigen. Die vorliegende
+                Studie erweitert den Referenzrahmen daher um eine zweite Gruppe von Nomina aus
+                der frühen religiösen Literatur ( <hi rend="italic">śruti</hi>, „das Anhören
+                [‘heiliger’ Texte]“), deren Texte (Brāhmaṇas, Upaniṣads) in der
+                Sanskrit-Tradition ebenso hoch geschätzt werden wie die Aṣṭādhyāyī. Die
+                Verwendung von „religiösen Nomina“ wird mit derjenigen von Beispielnomina aus
+                der Aṣṭādhyāyī kontrastiert. </p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Daten</head>
+                <p>Als Corpus dient das Digital Corpus of Sanskrit (DCS) mit rund 3.570.000 Tokens,
+                  dessen Texte automatisch tokenisiert und morphologisch-lexikalisch analysiert
+                  und danach manuell korrigiert wurden (Hellwig 2015). Alle Texte des DCS sind
+                  einer von fünf Hauptperioden der Sanskrit-Literatur zugeordnet. Die Struktur
+                  dieser Zeitachse stellt angesichts der Tatsache, dass zahlreiche wichtige
+                  Sanskrit-Texte anonym und ohne Datierung überliefert sind, gerade in den frühen
+                  Zeitschichten nur eine grobe Näherung dar (Hellwig 2010). Daneben sind alle
+                  Texte mit einem inhaltlichen Label versehen, das aus einem traditionellen
+                  Klassifikationsschema abgeleitet wurde.</p>
+                  <p>Der Einfluss der Aṣṭādhyāyī auf die spätere Literatur wird anhand der Verteilung
+                    von 1341 Nominaltypen untersucht, an denen Pāṇini grammatikalische Phänomene
+                    exemplifiziert. Diese Beispielnomina werden in Pāṇini’s Metasprache von Nomina
+                    unterschieden, die auf ein externes Objekt referieren (sūtra 1.1.68 der
+                    Aṣṭādhyāyī, vgl. Séaghdha 2004: 19ff. für eine Übersicht über die Forschung).
+                    Während z. B. das Nomen <hi rend="italic">nāsikā</hi> in <hi rend="italic"
+                    >sūtra</hi> 1.1.8 der Aṣṭādhyāyī auf die Nase referiert, <ref type="note" target="n01" n="1">1</ref> beziehen sich die Nomina <hi rend="italic">deva</hi> und <hi
+                    rend="italic">brahman</hi> in <hi rend="italic">sūtra</hi> 1.2.38, das das
+                    vedische Akzente diskutiert, nicht auf einen Gott und einen Brahmanen, sondern
+                    werden in ihrer „lautlichen Erscheinung“ verwendet: “Bei [den Nomina] <hi
+                    rend="italic">deva</hi> und <hi rend="italic">brahman</hi> tritt der <hi
+                    rend="italic">anudātta</hi> und <hi rend="italic">svarita</hi> an die Stelle
+                    des <hi rend="italic">svarita</hi>.” (Übersetzung nach Böhtlingk 1886; unsere
+                    Ergänzungen in eckigen Klammern). In der Datenbank <ref
+                    target="http://panini.phil.hhu.de/">Aṣṭādhyāyī 2.0</ref>, die den Text der
+                    Aṣṭādhyāyī mit zahlreichen grammatischen und semantischen Annotationen
+                    unterlegt, sind solche nicht-referierenden Beispielnomina explizit markiert
+                    (Petersen / Hellwig 2015). Dadurch lässt sich das Pāṇinäische Beispielvokabular
+                    problemlos für corpuslinguistische Studien erschließen. </p>
+                    <p>Das Vergleichsvokabular der frühen religiösen Literatur entstammt wie die
+                      Aṣṭādhyāyī der frühesten Zeitschicht des DCS, die von der weiteren Auswertung
+                      ausgeschlossen wird. Da für die <hi rend="italic">śruti</hi> keine äquivalenten
+                      wortsemantischen Annotationen vorliegen, werden aus dem <hi rend="italic"
+                      >śruti</hi>-Untercorpus die 1268 Nominaltypen ausgewählt, die mehr als
+                      einmal auftreten. Diese „ <hi rend="italic">śruti</hi>-Nomina“ enthalten
+                      Begriffe wie <hi rend="italic">loka</hi> („(Menschen- / Götter-)Welt“), <hi
+                      rend="italic">ātman</hi> („Selbst“) und die Namen spätvedischer Gottheiten
+                      und spiegeln damit die zentralen Inhalte der <hi rend="italic"
+                      >śruti</hi>-Literatur wider. </p>
+                      <p>Da das DCS weder thematisch noch zeitlich ausgewogen ist, beruhen die im
+                        folgenden dargestellten Verteilungen von Lexemen auf wiederholten Stichproben
+                        (<hi rend="italic">samplings</hi>) fester Größe. Dazu wird das Corpus zuerst
+                        anhand von Zeitperioden und inhaltlichen Labels in Faktorstufen aufgeteilt.
+                        Anschließend werden aus jeder Faktorstufe 100 zufällige Stichproben von 500
+                        Nomina gezogen. Für jede Stichprobe wird ausgezählt, wie viele der
+                        Referenzwörter vorkommen, und die resultierenden prozentualen Anteile werden für
+                        jede Faktorstufe gemittelt. Diese Mittelwerte bilden den Ausgangspunkt für die
+                        Auswertung im nächsten Abschnitt. </p>
+                      </div>
+                      <div type="div1" rend="DH-Heading1">
+                        <head>Auswertung</head>
+                        <p>Abbildung 1 zeigt die gemittelten relativen Häufigkeiten, mit denen
+                          Beispielwörter aus der Aṣṭādhyāyī im späteren Sanskrit auftreten, als<hi
+                          rend="italic">heatmap</hi>, in der dunkle Farbtöne eine höhere
+                          durchschnittliche Häufigkeit in einer Faktorstufe anzeigen. Obwohl gerade
+                          seltene Beispielwörter in einigen Domänen wie der Sanskrit-Lexikographie (Zelle
+                          „Lex.“, Zeitstufe 3) gehäuft auftreten, nimmt die Verwendung des Pāṇinäischen
+                          Vokabulars insgesamt mit der Zeit ab. Dieses Ergebnis deutet darauf hin, dass
+                          der direkte Einfluss der Aṣṭādhyāyī auf das Sanskrit-Vokabular im Lauf der Zeit
+                          geringer wird. </p>
+                          <figure>
+                            <graphic n="1001" width="12.183180555555555cm" height="7.3099083333333335cm" url="038-image1.png" rend="inline"/>
+                            <p><hi rend="bold"> </hi><anchor xml:id="Ref432675410"/><hi rend="bold">Abb. 1</hi>:
+                            Verteilung von Beispielnomina aus der Aṣṭādhyāyī </p>
+                          </figure>
+                          <p>Abbildung 1 klärt allerdings nicht, ob die Verwendungshäufigkeit bei Lexemen aus der Aṣṭādhyāyī weniger stark abnimmt als bei Lexemen aus anderen frühen Texten. In Abbildung 2 wird deshalb die zeitliche Verteilung Pāṇinäischer Beispielnomina derjenigen der
+                            <hi rend="italic">śruti</hi>-Nomina in fünf Konfigurationen gegenübergestellt. Der linke Teilbereich zeigt, dass sich die Nomina aus beiden Gruppen grundsätzlich ähnlich über die Sanskrit-Literatur verteilen. Während in der epischen, wissenschaftlichen und „Rechtsliteratur“ eine allgemeine Abnahme früher Nomina zu beobachten ist, erleben sie in der religiösen und philosophischen Literatur eine Art
+                            <hi rend="italic">revival</hi>. Die Analyse der daran beteiligten Begriffe zeigt, dass hierfür v.a. Begriffe wie
+                            <hi rend="italic">yoga</hi>,
+                            <hi rend="italic">prāṇa</hi> („Atem“),
+                            <hi rend="italic">ātman</hi> („Selbst“) oder
+                            <hi rend="italic">jñāna</hi> („Wissen“) verantwortlich sind, die z. B. in Yoga-Texten oder bei der damit verbundenen Mikro-Makrokosmos- Spekulation eine zentrale Rolle spielen.
+                          </p>
+                          <p>Für die Plots auf der rechten Seite von Abbildung 2 wurde die Vereinigungsmenge des Pāṇinäischen Beispielvokabulars (P) und der
+                            <hi rend="italic">śruti</hi>-Nomina (S) in die drei Teilmengen
+                            <hi rend="italic">P</hi>∩
+                            <hi rend="italic">S</hi> (Schnittmenge),
+                            <hi rend="italic">P</hi>\
+                            <hi rend="italic">S</hi> (alle aus P, die nicht in S sind) und
+                            <hi rend="italic">S</hi>\
+                            <hi rend="italic">P</hi> (alle aus S, die nicht in P sind) aufgeteilt. Der allgemeine Trend dieser Detailverteilungen unterscheidet sich auf den ersten Blick nicht grundsätzlich von der linken Seite des Plots. Bemerkenswert ist allerdings der vergleichsweise hohe Anteil, den die Schnittmenge
+                            <hi rend="italic">P</hi>∩
+                            <hi rend="italic">S</hi> am später verwendeten frühen Nominalvokabular einnimmt. Dieser Befund deutet aus unserer Sicht weniger auf eine verstärkte Rezeption Pāṇini’s hin als auf die Tatsache, dass die Aṣṭādhyāyī populäre Beispielwörter verwendet.
+                          </p>
+                          <figure>
+                            <graphic n="1002" width="12.183180555555555cm" height="12.183180555555555cm" url="038-image2.png" rend="inline"/>
+                            <p>
+                              <anchor xml:id="Ref432676694"/><hi rend="bold">Abb. 2</hi>: Links: Verteilung
+                              von Nomina, die in der Aṣṭādhyāyī (dunkelgrau) und in der <hi rend="italic"
+                              >śruti</hi> (hellgrau) vorkommen. Rechts: Verteilung von Nomina, die in <hi
+                              rend="italic">śruti</hi> und Aṣṭādhyāyī (dunkelgrau), nur in der Aṣṭādhyāyī
+                              (mittelgrau) und nur in der <hi rend="italic">śruti</hi> (hellgrau) vorkommen. </p>
+                            </figure>
+                            <p>Abschließend werden die Häufigkeiten für alle fünf Konfigurationen pro Zeitperiode über alle Themengebiete gemittelt. Die drei oberen Plots in Abbildung 3 zeigen, dass der Kernbestand des spätvedischen Vokabulars im klassischen Sanskrit zunehmend seltener verwendet wird. Weniger eindeutig ist die Verteilung in den beiden unteren Plots, die eine geringe, aber recht konstante Verwendung der Nomina aus
+                              <hi rend="italic">P</hi>\
+                              <hi rend="italic">S</hi> erkennen lassen.
+                            </p>
+                            <p>Diese geringere Abnahme des Pāṇinäischen Kernvokabulars scheint die These zu stützen, dass die Aṣṭādhyāyī dauerhaft rezipiert wurde und ihre Wörter durch diese regelmäßige Verwendung weniger stark dem allgemeinen Wandel der Lexik unterliegen. Allerdings muss diese Schlussfolgerung in zwei Punkten deutlich eingeschränkt werden. Erstens ist die Vergleichsgruppe der religiösen Texte nur deshalb bis heute überliefert, weil sie ebenfalls als wichtig angesehen und deshalb regelmäßig rezipiert wurden. Hier fehlt ein Corpus von Texten aus der Zeit Pāṇini’s, die danach keine Rolle mehr spielten. Zweitens sollten die Vergleichswörter aus der
+                              <hi rend="italic">śruti</hi> genauer semantisch differenziert werden, da z. B. durch den hohen Anteil von Eigennamen für Gottheiten, die auch in späteren Texten eine wichtige Rolle spielten, die lexikalische Aussterberate in den
+                              <hi rend="italic">śruti</hi>-Texten unterschätzt werden könnte. Dieser zweite Punkt wird in einer Folgestudie untersucht werden.
+                            </p>
+                            <figure>
+                              <graphic n="1003" width="12.183180555555555cm" height="9.124597222222222cm" url="038-image3.png" rend="inline"/>
+                              <p>
+                                <anchor xml:id="Ref432675979"/><hi rend="bold">Abb. 3</hi>: Über Themengebiete
+                                gemittelte Häufigkeiten für die fünf Vergleichskonfigurationen </p>
+                              </figure>
+                            </div>
+                          </body>
+                          <back>
+                            <div type="Notes">
+                              <note xml:id="n01" n="1"><hi rend="italic">mukhanāsikāvacano ’nunāsikaḥ</hi>, „Ein mit Mund und Nase ausgesprochener Laut heisst <hi rend="italic">anunāsika</hi>(nasal)“.</note>
+                            </div>
+                            <div type="bibliogr">
+                              <listBibl>
+                                <head>Bibliographie</head>
+                                <bibl><hi rend="bold">Aṣṭādhyāyī</hi>: <hi rend="italic">Aṣṭādhyāyī 2.0</hi><ref
+                                target="http://panini.phil.hhu.de/panini/panini/"
+                                >http://panini.phil.hhu.de/panini/panini/</ref> [letzter Zugriff 10.
+                                Februar 2016].</bibl>
+                                <bibl>
+                                  <hi rend="bold">Böhtlingk, Otto</hi> (1886): <hi rend="italic">Pāṇini’s
+                                  Grammatik.</hi> Leipzig: Verlag von H. Haessel. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Cardona, George</hi> (1976): <hi rend="italic">Pāṇini</hi>.
+                                    A Survey of Research. The Hague / Paris: Mouton. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Coward, Harold G. / Raja, K. Kunjunni</hi> (1990): <hi
+                                      rend="italic">The Encyclopedia of Indian Philosophies</hi>. 5: The
+                                      Philosophy of the Grammarians. Princeton: Princeton University Press. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Deshpande, Madhav M.</hi> (1993): "Historical Change and the
+                                        Theology of Eternal (nitya) Sanskrit", in Deshpande, Madhav M.: <hi
+                                        rend="italic">Sanskrit and Prakrit</hi>. Sociolinguistic Issues. Delhi:
+                                        Motilal Banarsidass Publishers 53-74. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Deshpande, Madhav M.</hi> (1998): "Evolution of the Notion
+                                          of Authority (Prāmāṇya) in the Pāṇinian Tradition", in:<hi rend="italic"
+                                          >Histoire Épistémologie Langage</hi> 20, 1: 5-28. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Hellwig, Oliver</hi> (2010): "Etymological Trends in the
+                                            Sanskrit Vocabulary", in: <hi rend="italic">Literary and Linguistic
+                                            Computing</hi> 25, 1: 105-118. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Hellwig, Oliver</hi> (2015): "Morphological Disambiguation
+                                              of Classical Sanskrit", in: Mahlow, Cerstin / Piotrowski, Michael (eds.):
+                                              <hi rend="italic">Systems and Frameworks for Computational
+                                                Morphology</hi>. Fourth International Workshop, SFCM 2015, Stuttgart,
+                                                Germany, September 17-18, 2015. Proceedings (= Communications in Computer
+                                                and Information Science 537). Cham: Springer 41-59. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">Hellwig, Oliver / Petersen, Wiebke</hi> (2015): What’s
+                                                  Pāṇini got to do with it? The use of gaṇa-headers from the Aṣṭādhyāyī in
+                                                  Sanskrit literature from the perspective of Corpus Linguistics. <hi
+                                                  rend="italic">Proceedings of the WSC 2015</hi> (forthcoming). </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Houben, Jan </hi>(2008): "Bhạṭtoji Dīkṣita’s “Small Step”
+                                                    for a Grammarian and “Giant Leap” for Sanskrit Grammar", in: <hi
+                                                    rend="italic">Journal of Indian Philosophy</hi> 36: 563-574. </bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Kiparsky, Paul</hi> (2009): "On the Architecture of Pāṇini’s
+                                                      Grammar", in: Huet, Gérard / Kulkarni, Amba / Scharf, Peter (eds.):<hi
+                                                      rend="italic">Sanskrit Computational Linguistics</hi>. Berlin /
+                                                      Heidelberg: Springer 33-94.</bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Oberlies, Thomas</hi> (2003): <hi rend="italic">A Grammar of
+                                                        Epic Sanskrit.</hi> Berlin: De Gruyter. </bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Petersen, Wiebke / Hellwig, Oliver</hi> (im Druck):
+                                                          "Annotating and Analyzing the Astādhyāyī", in: Alonso Almeida, Francisco /
+                                                          Ortega Barrera, Ivalla / Quintana Toledo, Elena / Sánchez Cuervo, Margarita
+                                                          (eds.): <hi rend="italic">Input a Word</hi>. Analyse the World. Selected
+                                                          Approaches to Corpus Linguistics. Cambridge: Cambridge Scholars Publishing. </bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">Petersen, Wiebke / Soubusta, Simone</hi> (2013): "Structure
+                                                            and implementation of a digital edition of the Aṣṭādhyāyī", in: Kulkarni,
+                                                            Malhar (ed.): <hi rend="italic">Recent Researches in Sanskrit Computational
+                                                            Linguistics</hi>. Delhi: D.K. Printworld 84-103.</bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Séaghdha, Diarmuid</hi> (2004): <hi rend="italic"
+                                                              >Object-Language and Metalanguage in Sanskrit Grammatical Texts</hi>.
+                                                              Diplomarbeit. Cambridge: University of Cambridge. </bibl>
+                                                            </listBibl>
+                                                          </div>
+                                                        </back>
+                                                      </text>
+                                                    </TEI>

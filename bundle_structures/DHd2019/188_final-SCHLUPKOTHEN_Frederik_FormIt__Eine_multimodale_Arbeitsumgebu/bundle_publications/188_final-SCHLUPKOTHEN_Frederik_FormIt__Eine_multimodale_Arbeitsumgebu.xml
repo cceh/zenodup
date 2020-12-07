@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="188_final-SCHLUPKOTHEN_Frederik_FormIt__Eine_multimodale_Arbeitsumgebu" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FormIt: Eine multimodale Arbeitsumgebung zur systematischen Erfassung literarischer Intertextualität</title>
+                <author>
+                    <persName>
+                        <surname>Schlupkothen</surname>
+                        <forename>Frederik</forename>
+                    </persName>
+                    <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+                    <email>schlupko@uni-wuppertal.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Nantke</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+                    <email>nantke@uni-wuppertal.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-08T16:04:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Intertextualität</term>
+                    <term>Formalisierung</term>
+                    <term>Linkbase</term>
+                    <term>Multimodale Repräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zielsetzung</head>
+                <p style="text-align:left; ">Eine der großen Herausforderungen sowohl im Studium als auch in der Erfassung und Beschreibung geisteswissenschaftlicher Praktiken liegt in deren mangelnder Beobachtbarkeit (vgl. Spoerhase 2015: 59–61). Dieser Umstand wirkt sich nicht nur auf die wissenschaftstheoretische Erfassung der Forschungspraxis aus. Er schlägt sich ebenfalls signifikant in der unzureichenden Systematisierung zentraler Phänomene literarischer Kommunikation nieder. Ein prominentes Beispiel hierfür bildet die Kategorie literarischer Intertextualität: Bisherigen Ansätzen zur strukturierten Erfassung fehlt es durchweg an einer systematischen Koppelung von induktiv beobachteten Textmerkmalen (etwa in Heilmann 1998; Bauer Lucca 2001; Buß 2006) und übergeordneten Taxonomien. Letztere werden bislang lediglich punktuell durch konkrete Beispiele belegt (etwa Schulte-Middelich 1985, Genette 1993, Holthuis 1993). Zudem fehlt eine Beschreibungssprache, die den sich dabei vollziehenden Abstraktionsprozess nachvollziehbar macht. </p>
+                <p style="text-align:left; ">Im Projekt 
+                    <hi rend="italic">FormIt</hi> kommen verschiedene Repräsentations-Modi zum Einsatz, um den beiden wechselwirkenden Herausforderungen der mangelnden Sichtbarkeit und Konkretisierung zu begegnen. Die Praxis der Herstellung und Interpretation intertextueller Beziehungen zwischen literarischen Texten wird mithilfe digitaler Methoden und Werkzeuge präzisiert und für Dritte beobachtbar gemacht. Dies geschieht anhand der konsequenten Verknüpfung der Ebenen, auf denen sich intertextuelle „Schreibweisen“ (Verweyen/Wittig 2010: 38) im Text manifestieren, mit den Schlussfolgerungen darüber, „was das Charakteristikum ‚Intertextualität‘ konkret für einen Text bedeutet“ (Kocher 2007: 180). Ziel ist es, anhand einer multidirektionalen Verbindung zwischen Texten und Deutungen den Prozess der Abstraktion von intertextuellen Funktionsweisen zu konkretisieren und zu explizieren.
+                </p>
+                <p style="text-align:left; ">Auf dem Poster wird der hierfür bislang implementierte Workflow präsentiert und dabei anhand von Beispielen gezeigt, wie sich mittels dieser Vorgehensweise sowohl intertextuelle Beziehungen zwischen literarischen Texten als auch zwischen unterschiedlichen medialen Erscheinungsformen strukturiert beschreiben und darstellen lassen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Vorgehensweise</head>
+                <p style="text-align:left; ">Zunächst wurde im Rahmen des Projekts eine 
+                    <hi rend="italic">digitale Methode</hi> zur Erfassung literaturwissenschaftlicher Bedeutungsbildung erarbeitet (vgl. Nantke/Schlupkothen 2018), die stetig weiterentwickelt wird. Dabei werden mithilfe eines situationstheoretischen Formalismus (vgl. Barwise/Perry 1983; Devlin 1990) analytisch-interpretative Lektürepraktiken mathematisch beschrieben, was eine Übersetzung in ein maschinenlesbares Format ermöglicht. Dieser Ansatz wurde im Sinne einer 
+                    <hi rend="italic">digitalen Praxis</hi> dahingehend weiterentwickelt, dass die formale Beschreibung in eine Linkbase (Maler u.a. 2010: 2.3) integriert wurde. Diese Arbeitsumgebung dient der multimodalen Erfassung sowie der intuitiven Repräsentation der analytisch-interpretativen Textarbeit. Perspektivisch soll dieser Prozessablauf durch ein Abfrage-Modell ergänzt werden, welches materialbasierte Aussagen bezüglich übergeordneter Kategorien und Funktionsweisen von Intertextualität auf der Basis von SPARQL (Seaborne/Harris 2013) ermöglicht (vgl. Abbildung 1).
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.976330555555556cm" height="4.08215cm" url="188_final-80ede7df7f759cc4c3d526ca0a65e51c.png" rend="inline"/>
+                    <head> Abbildung 1. Schematische Darstellung des vollständigen Workflows</head>
+                </figure>
+                <p style="text-align:left; ">Das Projekt basiert in Erfassung, Abfrage und Darstellung der Daten konsequent auf W3C-Standards (XML-Editoren, SPARQL-Interpreter, Webbrowser). Dies gewährleistet die Einbindung in ein existierendes Software-‚Ökosystem‘ und somit die Nachhaltigkeit und Interoperabilität der erzeugten Datensätze.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Multimodale Arbeitsumgebung</head>
+                <p style="text-align:left; ">Zur Analyse der intertextuellen Phänomene wurde eine Linkbase erzeugt, in der auf der Grundlage von XLink (Maler u.a. 2010) die bei der Feststellung und Deutung intertextueller Schreibweisen erfolgenden Arbeits- und Abstraktionsschritte erfasst sowie modular und multimodal repräsentiert werden können. Auf diese Weise werden die interpretatorischen Prozesse bei der Herstellung intertextueller Beziehungen in systematischer Form nachvollziehbar gemacht.</p>
+                <p style="text-align:left; ">Die Linkbase ermöglicht die dynamische Verknüpfung der Textstellen mit der natürlichsprachlichen Erläuterung und der formalen Beschreibung der intertextuellen Beziehung (s. Abbildung 2).</p>
+                <figure>
+                    <graphic n="1002" width="14.852072222222223cm" height="9.222316666666666cm" url="188_final-e979b377bcc3533ebd7595ed1689280e.png" rend="inline"/>
+                    <head> Abbildung 2. XLink-Beschreibung einer intertextuellen Relation in der Linkbase (a) und ihre schematische Darstellung (b)</head>
+                </figure>
+                <p style="text-align:left; ">In der Webbrowser-Darstellung der Linkbase werden die gesteigerten Möglichkeiten genutzt, die eine digitale Repräsentation hinsichtlich der Integration verschiedener Lektüre-Modi bietet. Die variabel kombinierbaren Segmente auf der Benutzeroberfläche ermöglichen die Repräsentation der Ausgangstexte in ihrer jeweils spezifischen Modalität. Hierbei können entweder die Texte sowie die formale Beschreibung einzeln gelesen oder gezielt spezifische Links traversiert werden (s. Abbildung 3). </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="7.126111111111111cm" url="188_final-22108a443ecbd1aaa7cff9f7c380a1eb.png" rend="inline"/>
+                    <head>Abbildung 3. Multimodale Darstellung der intertextuellen Relation</head>
+                </figure>
+                <p style="text-align:left; ">Die Gestaltung der Benutzeroberfläche trägt der Annahme Rechnung, dass eine solche multimodale Kombination aus Lesen, visueller Erfassung und hypertextueller Nachverfolgung der textuellen Relationen sowie aus natürlichsprachlicher und formaler Beschreibung einen maßgeblichen heuristischen Mehrwert sowohl gegenüber einer rein beschreibenden Darstellung in schriftlicher Form als auch gegenüber einer rein auf Maschinenlesbarkeit gerichteten formalen Repräsentation bietet.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und Ausblick</head>
+                <p style="text-align:left; ">Der dargestellte Workflow dient nicht nur der systematischen Modellierung intertextueller Beziehungen, sondern dokumentiert gleichzeitig den Prozess der dabei vollzogenen literaturwissenschaftlichen Praktiken. </p>
+                <p style="text-align:left; ">Multimodalität spielt hierbei in doppelter Hinsicht eine zentrale Rolle: </p>
+                <p style="text-align:left; ">Erstens werden die digitale Repräsentation der Ausgangstexte, die natürlichsprachliche und die formale Beschreibung der intertextuellen Relationen sowie diagrammatische Visualisierungen (vgl. Huber/Krämer 2018: 30) der hergestellten Zusammenhänge zwischen den einzelnen Segmenten auf der Benutzeroberfläche kombiniert.</p>
+                <p style="text-align:left; ">Zweitens unterstützt der Workflow die Erfassung von Relationen zwischen reinen Schriftdokumenten ebenso wie die Modellierung von Beziehungen zwischen modal differenten Dokumenttypen wie etwa zwischen Texten, Comics und Filmen. </p>
+                <p style="text-align:left; ">Das Projekt zielt gleichermaßen auf einen Einsatz im hochschuldidaktischen Bereich wie auf die Nutzung im Rahmen der computergestützten Forschung auf dem Feld der literarischen Intertextualität. Um dieses zweifache Ziel zu erreichen, werden aktuell Lösungen für die funktionale Visualisierung der in der Linkbase gespeicherten Ergebnisse in einem adäquaten Präsentationsformat sowie für die Überführung der formalen Beschreibungen in OWL erarbeitet (vgl. Abbildung 1; erste Ansätze hierzu in Kokar/Matheus/Baclawski 2009).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Barwise, Jon / Perry, John (1983)</hi>: <hi rend="italic">Situations and Attitudes</hi>. Cambridge: Bradford Book, MIT Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bauer Lucca, Eva (2001)</hi>: <hi rend="italic">Versteckte Spuren: eine intertextuelle Annäherung an Thomas Manns Roman “Doktor Faustus”</hi>. Wiesbaden: Deutscher Universitätsverlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Buß, Angelika (2006)</hi>: <hi rend="italic">Intertextualität als Herausforderung für den Literaturunterricht. Am Beispiel von Patrick Süßkinds Das Parfum</hi>. Frankfurt a. M. u.a.: Peter Lang.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Devlin, Keith J. (1990)</hi>: <hi rend="italic">Logic and Information</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Genette, Gérard (1993)</hi>: <hi rend="italic">Palimpseste. Die Literatur auf zweiter Stufe</hi>. Frankfurt a. M.: Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heilmann, Iris (1998)</hi>: <hi rend="italic">Günter Grass und John Irving. Eine transatlantische Intertextualitätsstudie.</hi> Frankfurt a. M. u.a.: Peter Lang.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Huber, Martin / Krämer, Sybille (2018)</hi>: <hi rend="italic">“Dimensionen digitaler Geisteswissenschaften”</hi>, in: <hi rend="bold">Huber, Martin / Krämer Sybille (eds.)</hi>: <hi rend="italic">Wie Digitalität die Geisteswissenschaften verändert: Neue Forschungsgegenstände und Methoden</hi>. (= Sonderband der Zeitschrift für digitale Geisteswissenschaften; 3) DOI: 10.17175/sb003_013.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kocher, Ursula (2007)</hi>: <hi rend="italic">“Im Gewirr der Fäden: Intertextualitätstheorie und Edition”</hi>, in: <hi rend="bold">Falk, Rainer / Mattenklott, Gert (eds.)</hi>: <hi rend="italic">Ästhetische Erfahrung und Edition</hi>. Tübingen: Max Niemeyer, 175–185.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kokar, Mieczyslaw M. / Matheus, Christopher J. / Baclawski, Kenneth (2009)</hi>: <hi rend="italic">“Ontology-based situation awareness”</hi>, in: Information Fusion 10, 1. St. Louis, MO, USA: Elsevier, 83–98.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Maler, Eve / Walsh, Norman / Orchard, David / DeRose, Steven (2010)</hi>: <hi rend="italic">„XML Linking Language (XLink) Version 1.1“</hi>. W3C Recommendation. https://www.w3.org/TR/2010/REC-xlink11-20100506/.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nantke, Julia / Schlupkothen, Frederik (2018)</hi>: <hi rend="italic">“Zwischen Polysemie und Formalisierung: Mehrstufige Modellierung komplexer intertextueller Relationen als Annäherung an ein ‚literarisches‘ Semantic Web”</hi>, in: Konferenzabstracts DHd 2018 Kritik der digitalen Vernunft<ref target="http://dhd2018.uni-koeln.de/wp-content/uploads/boa-DHd2018-web-ISBN.pdf">http://dhd2018.uni-koeln.de/wp-content/uploads/boa-DHd2018-web-ISBN.pdf</ref>, 345–349.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schulte-Middelich, Bernd</hi> (1985): “Funktionen intertextueller Textkonstitution”, in: Ulrich Broich, Manfred Pfister (eds.): 
+                        <hi rend="italic">Intertextualität. Formen, Funktionen, anglistische Fallstudien</hi>. Tübingen: Niemeyer, 197–242.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Seaborne, Andy / Harris, Steven (2013)</hi>: <hi rend="italic">“SPARQL 1.1 Query Language. W3C Recommendation”</hi>. https://www.w3.org/TR/2013/REC-sparql11-query-20130321/.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Spoerhase, Carlos (2015)</hi>: <hi rend="italic">“Das ‚Laboratorium‘ der Philologie? Das philologische Seminar als Raum der Vermittlung von Praxiswissen (circa 1850–1900)”</hi>, in: <hi rend="bold">Andrea Albrecht, Lutz Danneberg, Olav Krämer und Carlos Spoerhase (eds.)</hi>: <hi rend="italic">Theorien, Methoden und Praktiken des Interpretierens</hi>. Berlin/München/Boston: De Gruyter, 53–80.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Verweyen, Theodor / Wittig, Gunther (2010)</hi>: <hi rend="italic">Einfache Formen der Intertextualität: Theoretische Überlegungen und historische Untersuchungen</hi>. Paderborn: mentis.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

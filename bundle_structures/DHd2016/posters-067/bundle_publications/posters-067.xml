@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-067">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Humanities und Linguistik: Herausforderungen und ihre Potenziale am Beispiel der Annotation multimodaler Daten</title>
+        <author>
+          <name>
+            <surname>Trevisan</surname>
+            <forename>Bianka</forename>
+          </name>
+          <affiliation>RWTH Aachen, Deutschland</affiliation>
+          <email>b.trevisan@tk.rwth-aachen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Reimer</surname>
+            <forename>Eva</forename>
+          </name>
+          <affiliation>RWTH Aachen, Deutschland</affiliation>
+          <email>e.reimer@tk.rwth-aachen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Digmayer</surname>
+            <forename>Claas</forename>
+          </name>
+          <affiliation>RWTH Aachen, Deutschland</affiliation>
+          <email>c.digmayer@tk.rwth-aachen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Ullrich</surname>
+            <forename>Anna Valentine</forename>
+          </name>
+          <affiliation>RWTH Aachen, Deutschland</affiliation>
+          <email>a.ullrich@tk.rwth-aachen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jakobs</surname>
+            <forename>Eva-Maria</forename>
+          </name>
+          <affiliation>RWTH Aachen, Deutschland</affiliation>
+          <email>e.m.jakobs@tk.rwth-aachen.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-02-10T19:07:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Multimodalität</term>
+          <term>Modalitätsinterdependenz</term>
+          <term>Annotation</term>
+          <term>Tool</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Transkription</term>
+          <term>Gestaltung</term>
+          <term>Beziehungsanalyse</term>
+          <term>Annotieren</term>
+          <term>Kontextsetzung</term>
+          <term>Identifizierung</term>
+          <term>Bilder</term>
+          <term>Methoden</term>
+          <term>Multimodale Kommunikation</term>
+          <term>Video</term>
+          <term>Visualisierung</term>
+          <term>Virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einführung</head>
+        <p>Das Abstract fokussiert die Frage, welchen Beitrag computergestützte Methoden für
+          die Untersuchung multimodaler Daten in der angewandten Linguistik leisten
+          können, welche Herausforderungen mit der Entwicklung verbunden sind und wie sich
+          „traditionelle“ und computergestützte Verfahren wechselseitig bereichern. Einer
+          der großen Vorteile computergestützten Arbeitens ist, dass der Forscher oder die
+          Foscherin wesentlich größere Datenbestände analysieren kann und teilweise zu
+          Aussagen kommt, die mit händischen Verfahren zeitlich wie personell kaum in
+          Forschungsprojekten zu leisten sind. </p>
+          <p>Der Beitrag stützt sich auf Daten und Fragestellungen des DFG-geförderten
+            Projektes ModiKo (2014-2017, GZ: JA1172/3-1). Ziel des Projektes ist die
+            Entwicklung von Ansätzen und Methoden, die es erlauben, Formen und Funktionen
+            von Modalitätsinterdependenzen (MID) in ihrer Musterhaftigkeit systematisch zu
+            beschreiben und zu analysieren (Reimer et al. 2015; Ullrich et al. im Druck).
+            Das Forschungsprogramm basiert auf gesprächsanalytischen Ansätzen, die
+            gegenstandsbezogen erweitert werden durch korpus- und texttechnologische sowie
+            computerlinguistische Ansätze. Teil des Projektes ist die Entwicklung eines
+            Annotationstools für heterogene Datenbestände, mit dem Datenformate über mehrere
+            Ebenen annotiert, Annotationen datenformatübergreifend in Bezug gesetzt und in
+            ihrem Bezug dargestellt werden können.</p>
+            <p>Bisher fehlen für die systematische Beschreibung und Analyse von MID-Formen und
+              Funktionen geeignete Ansätze, Methoden und Tools (Jakobs et al. 2011). Der
+              vorliegende Beitrag gibt einen Einblick in die laufende Projektarbeit. Er
+              diskutiert methodische Herausforderungen anhand der Frage, wie sich mit
+              computergestützten Methoden verbale Thematisierungen von MID (MID-anzeigende
+              Lexeme und Mehrwortlexeme) über große Datenbestände hinweg ermitteln lassen.
+              Verbale Thematisierungen liefern Hinweise auf das Auftreten von
+              Modalitätsinterdependenzen. Zwar können keine exakten Angaben über das Auftreten
+              von MID gemacht, händische Analysen so jedoch vereinfacht werden.</p>
+              <p>Im Folgenden werden der Stand der Forschung, das im Projekt untersuchte
+                Fallbeispiel und das Korpus beschrieben. Im Anschluss wird beispielhaft gezeigt,
+                wie die Auseinandersetzung mit den Forschungsgegenständen (<hi rend="italic"
+                >hier</hi>: verbale Thematisierung von MID) die Entwicklung von Methoden
+                vorantreibt. Es werden Ergebnisse der Arbeiten in ModiKo aufgezeigt und ein
+                Fazit gezogen. </p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Stand der Forschung</head>
+                <p>Modalitätsinterdependenzen (MID) sind definiert als Zusammenspiel komplexer
+                  Ausdrucksressourcen wie Sprechen, Schreiben und graphisch-symbolisches
+                  Visualisieren (Fiehler 1980), wie sie in professionellen Interaktionssituationen
+                  von den Interaktionsteilnehmer_innen zu bestimmten Zwecken genutzt und
+                  situationsabhängig kombiniert werden (Ullrich et al. im Druck). Das Eintreten
+                  einer Modalitätsänderung wird von den Interaktionsbeteiligten häufig verbal
+                  thematisiert, etwa durch MID-anzeigende Einzellexeme (z. B. <hi rend="italic"
+                  >schreiben</hi>) oder Mehrwortlexeme (z. B. <hi rend="italic">ich schreib
+                  das mal hier rein</hi>). Die Thematisierung bezeichnen wir als <hi
+                  rend="italic">Modality-taking</hi>. </p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Fallbeispiel </head>
+                  <p>Die untersuchten MID sind Teil eines Fallbeispiels, das in einem Vorgängerprojekt (IMIP: Interdisziplinäre Methoden industrieller Prozessmodellierung, BMBF, 2008-2011; Jakobs et al. 2011) in der sachgüterproduzierenden Industrie erhoben wurde. Im Fallbeispiel werden Prozesse im Unternehmen von Prozessmodellierern im Gespräch mit Mitarbeitern erhoben und modelliert (Eraßme et al. 2015). Interaktionsbegleitend machen sich die Beteiligten (Prozessmodellierer und Unternehmensmitarbeiter) Notizen oder fertigen Skizzen an. Sie nutzen diese als intermediäre Objekte (Jeantet 1998) für die interaktive Rekonstruktion der Gesprächsinhalte. </p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Korpus</head>
+                  <p>Die in ModiKo genutzten Daten stützen sich – wie oben erwähnt – auf das Vorprojekt IMIP. Der aus IMIP übernommene (Teil-)Datensatz umfasst 548 Minuten Videoaufzeichnung und 89 gescannte Dokumente sowie 266 Transkriptseiten. </p>
+                  <p>Die Analyse der Daten erforderte eine Reihe methodischer Anpassungen, die im Folgenden beschrieben werden.</p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Methodenentwicklung</head>
+                  <p>Für das übergeordnete Ziel der musterhaften Beschreibung von MID konzentrieren
+                    sich die Analysen in ModiKo auf die Textdokumente des IMIP-Datensatzes
+                    (Transkripte). Es stellte sich heraus, dass zahlreiche Anpassungen und
+                    Überarbeitungen der aus dem Vorgänger-Projekt stammenden Datensätze erforderlich
+                    waren. So zeigte sich zum Beispiel, dass die ursprünglich nach GAT 2 (Selting et
+                    al. 2009) erstellten Transkripte zu statisch waren für eine adäquate Erfassung
+                    und Notation interaktionsbegleitender Phänomene (z. B. die Erfassung genutzter
+                    Objekte, Kontextinformationen). Um das Problem der mehr oder weniger statischen
+                    Beschreibung verbaler Interaktionen in Textdokumenten (Transkript) zu lösen,
+                    werden die Transkripte in das Tool EXMARaLDA (Schmidt / Wörner 2014) eingelesen.
+                    EXMARaLDA ermöglicht eine Mehrebenen-Annotation. Eine geeignete Annotation von
+                    MID in den Interaktionsausschnitten erfordert jedoch eine Erweiterung von
+                    EXMARaLDA. Die Erweiterung zielt auf eine größtmögliche Flexibilität in der
+                    Annotation von MID-bezogenen Phänomenen als Voraussetzung für die
+                    Identifizierung von Mustern (z. B. für MID-anzeigende verbale Thematisierungen). </p>
+                    <p>Eine weitere methodische Neuerung ergibt sich mit der Unterscheidung von drei Typen von Dokumenten: Primär-, Sekundär- und Tertiärdokumente. </p>
+                    <p>
+                      <hi rend="italic">Primärdokumente</hi> sind Videodateien der erhobenen professionellen Interaktionen sowie Scans der Skizzen, die von den beteiligten Akteuren in der Interaktion angefertigt werden (Berg / Milmeister 2008).
+                    </p>
+                    <p>
+                      <hi rend="italic">Sekundärdokumente</hi> sind multimodale Transkripte (<hi
+                      rend="italic">auch</hi>: Verbaltranskripte) der Primärdokumente (s. auch
+                      Schmitt / Dausendschön-Gay 2015). Multimodale Transkripte erfassen die
+                      Komplexität verschiedener Ausdrucksressourcen, die die Interaktionsbeteiligten
+                      in der Interaktion nutzen (wie praktische Handlung, Verbales, Mimik,
+                      Blickrichtung, Gestik oder die Position im Raum). </p>
+                      <p>Die Kategorie <hi rend="italic">Tertiärdokument</hi> wurde in ModiKo geprägt, um
+                      einen dritten Typ von Dokumenten terminologisch fassen zu können – die
+                      Mehrebenen-Annotation von Sekundärdokumenten (Reimer et al. 2015).
+                      Tertiärdokumente geben dem Forscher die Möglichkeit, Sekundärdokumente durch die
+                      Notation verschiedener Phänomene wie sprachbegleitende Gesten (z. B. <hi
+                      rend="italic">auf etw. zeigen</hi>), (materielle) Objekte (z. B. Klemmbrett,
+                      Kugelschreiber) sowie kontextuelle und verbale Informationen zu ergänzen. Das
+                      für MID-bezogene Phänomene zu entwickelnde Annotationssystem orientiert sich an
+                      dem in Trevisan (2014) entwickelten Mehrebenen-Annotationsansatz und adaptiert
+                      ihn gegenstandsspezifisch. </p>
+                      <p>Im Laufe des Projektes sollen die Erweiterungen von EXMARaLDA erlauben, alle drei oben genannten Typen von Dokumenten in ein und dem selben Tool zu erfassen und bezogen aufeinander zu analysieren (bisher fehlt die Integration der Videos und der Scans als Teil der Primärdokumente).</p>
+                      <p>Zu den Langzeitzielen der Toolentwicklung gehört, dass das Tool Forscher digital
+                        dabei unterstützt, MID-bezogene Muster zu identifizieren und abzubilden. Die
+                        Identifizierung und Abbildung dieser Muster soll durch das in Beziehung setzen
+                        von Einträgen verschiedener Dokumenttypen ermöglicht werden (vgl. Abbildung 1). </p>
+                        <figure>
+                          <graphic n="1001" width="9.177558333333334cm" height="6.997891666666667cm" url="p067-image1.png" rend="inline"/>
+                          <p><hi rend="bold">Abb. 1</hi>: Beispielhafte Toolabbildung</p>
+                        </figure>
+                        <p>Zukünftige Arbeiten betreffen die Visualisierung und Umsetzung des Zusammenspiels
+                          der unterschiedlichen Datenformate und Modalitäten (Videos, Scans der Skizzen,
+                          Transkripte, Mehrebenen-Annotation). Die Toolentwicklung soll es ermöglichen,
+                          dem Forscher verschiedene Datenformate in einem visuellen Bezugsfeld (Screen)
+                          anzuzeigen und sie dort in Bezug zu setzen (in Abbildung 1 beispielhaft rot
+                          markiert). </p>
+                        </div>
+                        <div type="div1" rend="DH-Heading1">
+                          <head>Ergebnisse</head>
+                          <p>Für die Ermittlung verbaler Thematisierungen von MID wurde im Projekt ModiKo ein Analyseverfahren entwickelt, das händische und computergestützte Methoden kombiniert. Im ersten Schritt (händische Analyse) wurden alle Sekundärdokumente in ihrer Erhebungslogik händisch auf MID-anzeigende Lexeme durchsucht. Die identifizierten MID-anzeigenden Lexeme wurden extrahiert und systematisch als Lexikon aufbereitet. Im zweiten Schritt (computergestützte Analyse) wurde die Auftretenshäufigkeit verbaler Thematisierungen mit dem Tool AntConc
+                            <ref type="note" target="n01" n="1">1</ref> ermittelt. Zu diesem Zweck wurden die Transkripte in ein AntConc-kompatibles Format (.txt) überführt, in AntConc eingelesen und quantitativ analysiert.
+                            </p>
+                            <p>Die händische Auswertung ergab, dass primär Verben (hier: <hi rend="italic"
+                              >malen</hi>, <hi rend="italic">schreiben</hi>) aber auch Substantive (z. B.
+                              <hi rend="italic">Blatt, Bleistift</hi>) und Adverbien (z. B. <hi
+                              rend="italic">hier</hi>, <hi rend="italic">da</hi>) Modalitätsänderungen
+                              anzeigen. Dies bestätigte sich in der quantitativen Analyse: Eine
+                              außerordentliche hohe Anzahl an Fundstellen konnte für die Verben <hi
+                              rend="italic">schreiben</hi> (n = 157) und <hi rend="italic">machen</hi> (n
+                              = 531) sowie für die Adverbien <hi rend="italic">hier</hi> (n = 840) und <hi
+                              rend="italic">mal</hi> (n = 149) identifiziert werden. </p>
+                              <p>Besonders hervorzuheben ist die Verwendung von verbalen Thematisierungen von MID
+                                in Form von Mehrwortlexemen (z. B. <hi rend="italic">ich setz das mal hier
+                                vor</hi>). Bezogen auf das Gesamtmaterial lassen sich für
+                                interaktionsspezifische Aufgaben Trigramme (z. B. <hi rend="italic">ich mach
+                                mal</hi>) bestimmen, die das Eintreten einer Schreibhandlung oder etwa das
+                                Skizzieren von Prozessen andeuten. </p>
+                              </div>
+                              <div type="div1" rend="DH-Heading1">
+                                <head>Fazit</head>
+                                <p>Die Verbindung qualitativ-händischer Verfahren mit quantitativ-computergestützten Verfahren bietet neuartige, sehr vielversprechende Forschungsergebnisse, die mit händischen Verfahren allein so im normalen Forscheralltag nicht zu erreichen wären. Im vorliegenden Beitrag wurde aufgezeigt, wie im Projekt ModiKo computergestützte Verfahren genutzt werden, um verbale Thematisierungen von MID im Korpus identifizieren und analysieren zu können. Durch die Einschränkung der zu untersuchenden Datenmenge mittels computergestützter Verfahren wird die notwendige händische Analyse vereinfacht. Zukünftig soll das Verfahren durch zusätzliche Analysen verfeinert werden, um eine exaktere Bestimmung / Identifikation von MID zu erreichen, etwa durch die Einschränkung des zu analysierenden Textfensters oder die Bestimmung zusätzlicher MID-anzeigender Indikatoren. </p>
+                                <p>Die Integration von computergestützten Verfahren in linguistische Analysen erfordert andererseits ein erhebliches computerlinguistisches Know-how für die Adaption und Weiterentwicklung existierender Tools, das bislang kaum Teil der Ausbildung von Linguisten ist und die Zusammenarbeit mit Spezialisten erfordert. Auf längere Sicht erfordert die digitale methodisch-theoretische Weiterentwicklung von Disziplinen wie der Linguistik auch ein Umdenken in den universitären Ausbildungsprogrammen.</p>
+                              </div>
+                            </body>
+                            <back>
+                              <div type="Notes">
+
+                                <note xml:id="n01" n="1">
+                              Das Programm wurde von Laurence Anthony entwickelt und funktioniert auf allen gängigen Betriebssystemen.
+                              Die aktuelle Programmversion 3.5.0 ist unter <ref target="http://www.laurenceanthony.net/software/antconc/">http://www.laurenceanthony.net/software/antconc/</ref> frei erhältlich.
+                                </note>
+                              </div>
+
+                              <div type="bibliogr">
+                                <listBibl>
+                                  <head>Bibliographie</head>
+                                  <bibl><hi rend="bold">Anthony, Laurence</hi> (2015): <hi rend="italic">AntConc
+                                  Homepage</hi>
+                                  <ref
+                                    target="http://www.laurenceanthony.net/software/antconc/
+                                    "
+                                    >http://www.laurenceanthony.net/software/antconc/</ref> [letzter Zugriff
+                                    12. Februar 2016].</bibl>
+                                    <bibl>
+                                      <hi rend="bold">Berg, Charles / Milmeister, Marianne</hi> (2008): „Im Dialog
+                                      mit den Daten das eigene Erzählen der Geschichte finden. Über die
+                                      Kodierverfahren der Grounded-Theory-Methodologie”, in: <hi rend="italic"
+                                      >Forum Qualitative Social Research FQS</hi> 9, 2: Nr. 13. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Eraßme, Denise / Trevisan, Bianka / Reimer, Eva / Jakobs,
+                                          Eva-Maria</hi> (2015): „Kooperative Konzeptgenesen in professionellen
+                                          Interaktionen (Poster)“, in: <hi rend="italic">Tagung der Gesellschaft für
+                                          Angewandte Linguistik 2015.</hi>
+                                        </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Fiehler, Reinhard</hi> (1980): <hi rend="italic"
+                                          >Kommunikation und Kooperation</hi>. Theoretische und empirische
+                                          Untersuchungen zur kommunikativen Organisation kooperativer Prozesse.
+                                          Berlin: Einhorn. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Jakobs, Eva-Maria / Fiehler, Reinhard / Eraßme, Denise /
+                                              Kursten, Anne </hi>(2011): „Industrielle Prozessmodellierung als
+                                              kommunikativer Prozess. Eine Typologie zentraler Probleme“, in: <hi
+                                              rend="italic">Gesprächsforschung</hi> 12: 223-264.</bibl>
+                                              <bibl>
+                                                <hi rend="bold">Jeantet, Alain </hi>(1998): „Les objects intermédiaires dans
+                                                la conception. Eléments pour une sociologie des processus de conception“,
+                                                in: <hi rend="italic">Sociologie du Travail</hi> 3: 291-316. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">Reimer, Eva / Trevisan, Bianka / Eraßme, Denise / Schmidt,
+                                                    Thomas / Jakobs, Eva</hi>-<hi rend="bold">Maria</hi> (2015):
+                                                    „Annotating Modality Interdependencies“, in: <hi rend="italic">Proceedings
+                                                    of the GSCL 2015</hi>: 110-111. </bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014): „EXMARaLDA“, in:
+                                                      Durand, Jacques / Gut, Ulrike / Kristoffersen, Gjert (eds.): <hi
+                                                      rend="italic">Handbook on Corpus Phonology.</hi> Oxford University
+                                                      Press: 402-419. </bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Schmitt, Reinhold / Dausendschön-Gay, Ulrich</hi> (2015):
+                                                        „Freiraum schaffen im Klassenzimmer: Fallbasierte methodologische
+                                                        Überlegungen zur Raumanalyse”, in: <hi rend="italic">SpuR - Arbeitspapiere
+                                                        des UFSP Sprache und Raum</hi> 4. Universität Zürich <ref
+                                                        target="http://www.spur.uzh.ch/research/publications/SpuR_Arbeitspapier_Nr04_150711.pdf"
+                                                        >http://www.spur.uzh.ch/research/publications/SpuR_Arbeitspapier_Nr04_150711.pdf</ref>
+                                                        [letzter Zugriff 12. Februar 2016].</bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Selting, Margret / Auer, Peter / Barth-Weingarten, Dagmar et
+                                                            al.</hi> (2009): „Gesprächsanalytisches Transkriptionssystem 2 (GAT 2)”,
+                                                            in: <hi rend="italic">Gepsrächsforschung</hi> 10: 353-402. <ref
+                                                            target="http://www.gespraechsforschung-ozs.de/fileadmin/dateien/heft2009/px-gat2.pdf"
+                                                            >http://www.gespraechsforschung-ozs.de/fileadmin/dateien/heft2009/px-gat2.pdf</ref>
+                                                            [letzter Zugriff 12. Februar 2016].</bibl>
+                                                            <bibl><hi rend="bold">Trevisan, Bianka</hi> (2014): <hi rend="italic">Bewerten
+                                                            in Blogkommentaren</hi>. Mehrebenenannotation sprachlichen Bewertens.
+                                                            PhD, RWTH Aachen University. </bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Ullrich, Anna Valentine / Jakobs, Eva-Maria / Eraßme,
+                                                                Denise</hi> (im Druck): „„ich schreib das mal hier rein ähm“.
+                                                                Modality-taking – Schreibhinweise in professionellen mündlichen
+                                                                Interaktionssituationen“, in: <hi rend="italic">Glottotheory.</hi></bibl>
+                                                              </listBibl>
+                                                            </div>
+                                                          </back>
+                                                        </text>
+                                                      </TEI>

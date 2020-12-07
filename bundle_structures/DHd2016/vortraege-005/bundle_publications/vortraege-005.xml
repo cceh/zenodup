@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die Corpusanalyse multimodaler Erzählungen am Beispiel graphischer Romane</title>
+        <author>
+          <name>
+            <surname>Dunst</surname>
+            <forename>Alexander</forename>
+          </name>
+          <affiliation>Universität Paderborn, Deutschland</affiliation>
+          <email>alexander.dunst@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Hartel</surname>
+            <forename>Rita</forename>
+          </name>
+          <affiliation>Universität Paderborn, Deutschland</affiliation>
+          <email>rst@upb.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-13T17:48:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Corpusanalyse</term>
+          <term>multimodale Erzählungen</term>
+          <term>Comics</term>
+          <term>Visualisierung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Datenerkennung</term>
+          <term>Aufzeichnung</term>
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Räumliche Analyse</term>
+          <term>Annotieren</term>
+          <term>Theoretisierung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Stilistische Analyse</term>
+          <term>Visualisierung</term>
+          <term>Bilder</term>
+          <term>Literatur</term>
+          <term>Methoden</term>
+          <term>Multimodale Kommunikation</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung </head>
+        <p>Dieser Vortrag präsentiert Analysen und Visualisierungen eines derzeit im Aufbau befindlichen Corpus an graphischen Romanen (oder „Graphic Novels“, einer Unterform des Medium Comics) und stellt den für die Annotation dieser multimodalen Erzählform entwickelten Editor vor, der zeitgerecht zur DHd-Jahrestagung in Leipzig für den Download zur Verfügung stehen wird. Während sich die Analyse literarischer Text-Corpora bereits seit mehreren Jahren im Fokus der Digitalen Geisteswissenschaften befindet, stehen Bestrebungen zur Erforschung visueller Erzählformen wie Theater, Comics, Film, Fernsehen, sowie Computerspiele, oft eine Randerscheinung in den DH dar und vor einer Reihe ungelöster Herausforderungen. Diese bestehen sowohl in technischer - etwa in Bezug auf die automatisierte Erkennung visueller Objekte und die Annotation komplexer Bild-Text- Kombinationen – als auch in methodischer Hinsicht. Angesichts der Dominanz visueller Erzählformen seit dem frühen 20. Jahrhundert, sowie noch verstärkt in der Gegenwartskultur, stellt dies eine außerordentliche Forschungslücke dar. </p>
+        <p>In einer kurzen Einleitung wird der Vortrag den derzeit im Aufbau befindlichen Corpus sowie die Zielsetzungen der vom deutschen Bundesministerium für Bildung und Forschung (BMBF) geförderten Nachwuchsgruppe „Hybride Narrativität: Digitale und Kognitive Methoden zur Erforschung Graphischer Literatur“ erläutern. Darauf folgt die Vorstellung der für die Annotation entwickelten XML-Beschreibungssprache und des graphischen Editors. Im zweiten Teil des Vortrages stellen wir einige Methodenkombinationen vor, die es ermöglichen sollen, die Bild-­Text-­Verbindungen multimodaler Kulturformen, sowie deren Beitrag zur spezifischen Narrativität graphischer Romane, zu verstehen. </p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head> GNML-Editor: Werkzeuge zur (Halb-)Automatischen Annotation </head>
+        <p>Während die Analyse von Textcorpora oft bereits automatisiert möglich ist, bleibt eine automatische Analyse multimodaler Narrative derzeit eine Zukunftsvision. Im Fall von Comics und gezeichneter, sowie aus anderen Gründen nicht perspektivischer, Bilder gelingt die Objekt-Identifikation (etwa die Wiedererfassung eines vorab bekannten Charakters) nur mit viel Trainingsaufwand und recht hohen Fehlerzahlen. Auch bei der automatischen Erkennung Handschriften-ähnlicher Fonts versagen übliche Standard-OCRs. Daher führt der Weg über eine Annotation des Bild-­Materials mit anschließender Analyse der Annotationen und Bild-Daten. Hierzu wird im Rahmen unseres Forschungsprojektes die XML-Sprache „Graphic Narrative Markup Language“ (GNML) entwickelt, welche die visuellen und textuellen Aspekte Graphischer Literatur beschreibt. GNML baut auf der „Text Encoding Initiative“ (TEI), und damit auf etablierten Standards, auf. Basierend auf den GNML-Annotationen können die in der graphischen Literatur enthaltenen Texte analysiert werden, Auswertungen der Bildinhalte vorgenommen, oder deren Kombination analysiert werden. </p>
+        <p>Um die Fehleranfälligkeit bei der Annotation gering zu halten wird ein graphischer GNML-Editor entwickelt. Dieser unterstützt Fachwissenschaftler bei der effizienten Annotation mit Mechanismen wie Autovervollständigung von Charakter-Namen oder integrierten Rechtschreibprüfungen. Durch eine halb-automatische Erfassung wird die Annotation beschleunigt und so erst der Aufbau eines größeren Corpus ermöglicht. Teil des Editors ist eine Erkennung der Panel-Strukturen, sowie Werkzeuge, welche die Eckpunkte einer Sprechblase oder eines Textkästchens automatisch ermitteln. Ergänzt werden diese Werkzeuge um eine effiziente Charakter-Erfassung.</p>
+        <p>Da sich die Konzepte des Editors (visuelle Objekte mit graphischen und textuellen Eigenschaften) nicht nur auf Comics beschränken sondern auch auf andere Bild-Text- Kombinationen anwendbar sind, lässt sich der Editor auf eine Obermenge solcher Formate erweitern. Diese Generalisierung erlaubt es, eine XML-basierte Annotationssprache zu hinterlegen und automatisch einen entsprechenden Editor zu generieren, sowie Daten in der hinterlegten Annotationssprache zu erfassen. Damit kann der Editor auch in der Annotation anderer multimodaler Medien Anwendung finden.</p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head> Analysen und Visualisierungen eines Corpus Graphischer Romane</head>
+        <p>Der zweite Teil des Vortrags stellt Ansätze vor, die exemplarisch für einige strukturelle Bestandteile von Comics (und insbesondere des graphischen Romans) Methoden der Bild- und Textanalyse miteinander verbinden. Für die digitale Literaturwissenschaft entwickelte Zugänge wie das Topic Modelling sind für solche Kulturformen aufgrund ihrer Bildlastigkeit nur von beschränkter Relevanz. Ansätzen zur computergestützten Bilderkennung und der Analyse großer Bildmengen fehlt hingegen bisher oft das narrative Erkenntnisinteresse. Erschwerend kommt noch hinzu, dass die Konzepte der Narratologie meist für literarische Texte entwickelt wurden und den Spezifika multimodalen Erzählens häufig nicht gerecht werden.</p>
+        <p>In einer ersten Analyse des derzeit noch in Erstellung befindenden Gesamtkorpus
+          von rund 300 graphischen Romanen vergleichen wir die historische Entwicklung der
+          visuellen und Textebenen ihrer Buchcovers. Dazu gehören sowohl grammatische und
+          semantische Auswertungen der Romantitel mit Hilfe des Stanford Parser (vgl. De
+          Marneffe et al. 2006), als auch der farblichen und stilistischen Gestaltung. In
+          einem weiteren Schritt widmen wir uns detaillierteren Analysen eines ersten
+          Sub-Corpus, der aus den zehn meist zitierten Titeln des Gesamtcorpus besteht.
+          Zwar lassen sich aufgrund der geringen Zahl hier keine Genre-Vergleiche
+          anstellen, oder stichhaltig historische Entwicklungen nachverfolgen.
+          Beispielhaft können allerdings narrative Entwicklungen dargestellt werden: so
+          kombinieren wir Netzwerkanalysen der Figuren mit deren visueller Prominenz und
+          zugeordnetem Textanteil, sowie mit stilistischen Analysen dieser Figurentexte.
+          Weiters stellen wir, im Anschluss an Arbeiten von Lev Manovich (vgl. u. a.
+          Manovich 2012), explorative Visualisierungen aller Einzelseiten im Gesamtverlauf
+          der Erzählung vor.</p>
+          <p>Abschließend wendet sich der Vortrag der Frage zu, ob die Text-Bild-Verbindungen
+            multimodaler Narrative mit solchen Methodenkombinationen aus der digitalen
+            Literatur- und Bildwissenschaft zu erfassen sind, oder sich durch die
+            Operationalisierung alternativer Ansätze aus der intermedialen Narratologie,
+            etwa Rick Altmans Konzept des „Following“ (vgl. Altman 2008), eigenständige
+            Analysemethoden entwickeln lassen.</p>
+          </div>
+        </body>
+        <back>
+          <div type="bibliogr">
+            <listBibl>
+              <head>Bibliographie</head>
+
+              <bibl><hi rend="bold">Manovich, Lev</hi> (2012): „How to Compare One Million Images?", in: Berry, David (ed.): <hi rend="italic">Understanding Digital Humanities</hi> Basingstoke: Palgrave Macmillan 249-278.</bibl>
+
+              <bibl> <hi rend="bold">Altman, Rick</hi> (2008): <hi rend="italic">A theory of narrative</hi>. Columbia University Press.</bibl>
+
+              <bibl><hi rend="bold">De Marneffe, Marie-Catherine / MacCartney, Bill / Manning, Christopher D.</hi> (2006): „Generating Typed Dependency Parses from Phrase Structure Parses“, in: <hi rend="italic">Proceedings of Language Resources and Evaluation</hi> (LREC) 6: 449-454.</bibl>
+
+            </listBibl>
+          </div>
+        </back>
+      </text>
+    </TEI>

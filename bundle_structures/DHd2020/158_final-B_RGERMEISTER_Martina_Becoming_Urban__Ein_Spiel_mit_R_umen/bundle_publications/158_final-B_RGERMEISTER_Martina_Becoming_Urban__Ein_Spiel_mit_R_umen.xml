@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="158_final-B_RGERMEISTER_Martina_Becoming_Urban__Ein_Spiel_mit_R_umen" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Becoming Urban: Ein Spiel mit Räumen</title>
+<author>
+<persName>
+<surname>Bürgermeister</surname>
+<forename>Martina</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>martina.buergermeister@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Holzer</surname>
+<forename>Matthias</forename>
+</persName>
+<affiliation>Stadtarchiv Graz</affiliation>
+<email>matthias.holzer@stadt.graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Nussmüller</surname>
+<forename>Antonia</forename>
+</persName>
+<affiliation>GrazMuseum</affiliation>
+<email>antonia.nussmueller@stadt.graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Scheuermann</surname>
+<forename>Leif</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>leif.scheuermann@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Sonnberger</surname>
+<forename>Jakob</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>jakob.sonnberger@uni-graz.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Raum</term>
+<term>Rekonstruktion</term>
+<term>Modellierung</term>
+<term>Geoanalyse</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Sammlung</term>
+<term>Räumliche Analyse</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Metadaten</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+<hi style="font-size:11pt">Historischer Raum konstituiert sich stets als Summe der dokumentierten Wahrnehmungen einer Zeit. Dabei spielen die beschriebenen Räume nicht nur eine dokumentarische Rolle, vielmehr waren sie in ihrer Zeit normative Dokumente, so dass sich mentale Räume nicht nur im Begehen entwickeln konnten, sondern auch im Erlesen oder Erblicken. Historischer Raum kann also als Bricolage aus Erfahrungen historischer AkteurInnen verstanden werden, welche diese selbst körperlich oder aber textuell bzw. bildlich vermittelt gemacht haben.</hi>
+</p>
+<p>
+<hi style="font-size:11pt">Das durch die Österreichische Akademie der Wissenschaft geförderte Projekt „Becoming Urban – Reconstructing the city of Graz in the long 19th century (BeUrb)“ widmet sich als Gemeinschaftsprojekt der Karl-Franzens-Universität Graz, des Stadtmuseums Graz sowie des Stadtarchivs Graz der (Re-)konstruktion dieses historischen Raums am Fallbeispiel der Stadt Graz im langen 19. Jahrhundert (1789-1914). Thematisiert werden dabei gleichfalls die Veränderung der Stadt im Kontext der Urbanisierung wie auch deren Wahrnehmung in schriftlichen, bildlichen und kartographischen Quellen.</hi>
+</p>
+<p>
+<hi style="font-size:11pt">Durch die Zusammenarbeit von Stadtarchiv, GrazMuseum und Universität konnte die Quellenbasis mit historischen Reiseberichten und -führern, Karten, Plänen und weiteren geographischen Darstellungen sowie Stadtansichten auf Fotografien, Druckgrafiken und Gemälden auf unterschiedlichsten Gattungen aufgebaut werden, was einen umfangreichen Blick auf das Verständnis von der Stadt Graz im 19. Jh. erlaubt. Diese transdisziplinäre Herangehensweise, welche Historische Geographie, Kunstgeschichte, Urbanistik und Digitale Geisteswissenschaften vereint, wird durch eine gemeinsame technische Grundlage in Form eines Geoinformationssystems ermöglicht. </hi>
+</p>
+<p>
+<hi style="font-size:11pt">Als erste Herausforderung steht dabei die Erarbeitung eines gemeinsamen Datenmodells, welches die quellenspezifischen Charakteristika abbildet und die aufgenommenen Quellen gleichzeitig auf einer topographischen Ebene miteinander in Beziehung setzt. Modellierung wird dabei als „a process of signification and reasoning in action“ (Ciula / Eide, 2017  i34) angesehen. Die Theorie Modelle als</hi>
+<hi rend="italic" style="font-size:11pt">Icons</hi>
+<hi style="font-size:11pt" xml:space="preserve"> – also als bildhafte
+Vertreter anzusehen, hilft dabei Blickpunkte zu verschieben und
+Interpretationsspielräumen zu eröffnen, denn: “The context of the
+interpretation changes the sign but the sign also changes the context
+of interpretation” (i38). Fotografien und Pläne, aber auch Texte sind
+zudem an sich bildhafte Modelle, die in einem spezifischen
+Ähnlichkeitsverhältnis zum Original stehen. Ziel des Projektes ist es
+also, aus diesen singulären Modellen relationale, diagrammatische
+Modelle in Form eigener historischer, dynamisch abfragbarer Karten zu
+erzeugen, die eine, wie Kralemann und Lattmann definieren,
+“interdependence between the structure of the sign and the structure
+of the object” (Kralemann / Lattmann, 2013: 3408) aufweisen.</hi>
+</p>
+<p rend="heading 3">Umsetzung</p>
+<p>
+<hi style="font-size:11pt">Die Umsetzung kann in eine Datenaufbereitung und daran anschließend eine vertiefte Geoanalyse unterteilt werden. Abschließend werden beide Ergebnisse des Projektes in einem Webauftritt präsentiert und nachhaltig in einem Repositorium archiviert.</hi>
+</p>
+<p rend="List Paragraph">a)
+                <hi style="font-size:7pt" xml:space="preserve">    </hi>Ein Metadatenmodell wird für die bildlichen, textuellen und kartographischen Quellen in LIDO implementiert.
+            </p>
+<p rend="List Paragraph">b)
+                <hi style="font-size:7pt" xml:space="preserve">    </hi>Historische Karten werden georeferenziert und transkribiert, d.h. die in der Entzerrung entstandenen Artefakte werden auf einen Grundplan übertragen, der auf der Basis des Franziszeischen Katasters (1824) erstellt wird. Dabei werden bauliche Veränderungen, die sich aus den späteren Kartendarstellungen ergeben, in die Grundkarte integriert. Ein in diesem Kontext aufgebauter eindeutiger Identifikator fungiert als Grundlage für die räumliche Verortung der Bild- und Textquellen.
+            </p>
+<p rend="List Paragraph">c)
+                <hi style="font-size:7pt" xml:space="preserve">    </hi>Textuelle Stadtbeschreibungen (z.B. Reiseberichte) werden transkribiert und die räumlichen Objekte (Gebiete, Wege, Plätze, Gebäude) darin in TEI-P5 mit den Referenzen aus der Basiskarte ausgezeichnet. In den Texten implizit vorhandene ‚narrative‘ Wege bzw. Abfolgen der Nennungen der Geoobjekte finden dabei ebenfalls besondere Berücksichtigung.
+            </p>
+<p rend="List Paragraph">d)
+                <hi style="font-size:7pt" xml:space="preserve">    </hi>Bildliche Darstellungen (z.B. Gemälde, Druckgraphiken, Fotos, Postkarten) werden in LIDO beschrieben, in ihrer zeitlichen und räumlichen Gestaltung verortet. Dabei werden nicht nur abgebildete Objekte, sondern auch die mögliche Standorte und Blickrichtungen einbezogen
+            </p>
+<p>Auf Basis der gewonnenen Daten kann nun ein ‚Spiel mit den Räumen‘
+beginnen<ref n="1" target="ftn1"/>, welches die hermeneutische Aneignung durch die Projektteilnehmer ebenso beinhaltet wie die diagrammatische Analyse (vgl. Bauer / Ernst 2010, Rau 2013). In der Analyse wird nun die sich stets im architektonischen Wandel begriffene ‚fluide‘ Stadt stehen, wie auch das Diskursfeld Graz, welche sich in den Quellen widerspiegelt. Dabei wird nicht nur die ‚dargestellte‘ Stadt im Zentrum stehen, sondern in besonderer Weise auch diejenigen Bezirke, die gerade nicht in den Quellen genannt werden und so als ‚blinde Flecken‘ im Diskursfeld der Stadt besonderer Aufmerksamkeit bedürfen.
+            </p>
+<p>Dabei stellen sich fragen wie: In wieweit sind jene Gebäude Ereignisorte der öffentlichen, aber auch einer ganz privaten Wahrnehmung? Wie sind die Eindrücke einer Stadt für Bewohnerinnen und Bewohner? Wie im Gegensatz dazu für Reisende? Wie möchte sich die Stadt nach außen repräsentieren? Was bewirken diesbezüglich Bau- und Infrastrukturmaßnahmen? Welche Bedeutung kommt Plänen einer zukünftigen Stadt zu, die niemals umgesetzt wurden? Wo finden sich widersprüchliche Wahrnehmungen – oder Raumverzerrungen?</p>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Als Spielwiese dient das open-source geographisches Informationssystem ‚QGIS‘ und die ‚GAMS-Infrastruktur‘, die die Forschungsdaten (GML, TEI, LIDO) langzeitarchiviert und die Möglichkeit bietet Daten neu zu kombinieren (content models, GEOSPARQL) und zu vernetzen (RDF) und abzufragen (SPARQL, SOLR).
+    </note>
+  </div>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+	<hi rend="bold"> Bauer, Matthias / Ernst, Christoph </hi>
+	(2010): Diagrammatik. Einführung in ein kultur- und
+	medienwissenschaftliches Forschungsfeld. Bielefeld:
+	transcript.
+      </bibl>
+      <bibl>
+	<hi rend="bold"> Ciula, Arianna / Eide, Øyvind </hi> (2017): „Modelling in digital humanities: Sings in context“ in: Digital Scholarship in the Humanities 32 (suppl_1) i33-i46 
+        <ref target="https://doi.org/10.1093/llc/fqw045">https://doi.org/10.1093/llc/fqw045</ref>
+      </bibl>
+      <bibl>
+	<hi rend="bold"> GAMS: </hi> Geisteswissenschaftliches Asset
+	Management System, 
+        <ref target="http://gams.uni-graz.at/">http://gams.uni-graz.at/</ref>
+      </bibl>
+      <bibl>
+	<hi rend="bold"> GEOSPARQL – A Geographic Query Language for
+	RDF DATA </hi> (2012). Version 1.0 (eds.) OGC 
+        <ref target="https://www.opengeospatial.org/standards/geosparql">https://www.opengeospatial.org/standards/geosparql</ref>
+      </bibl>
+      <bibl>
+	<hi rend="bold"> GML: Geographic Markup Language </hi> (2012) – Extended schemas and encoding rules. Version 3.3.0 (eds.) OGC 
+        <ref target="https://www.opengeospatial.org/standards/gml">https://www.opengeospatial.org/standards/gml</ref>
+      </bibl>
+      <bibl>
+	<hi rend="bold"> LIDO – Lightweight Information Describing
+	Objects </hi> (2010). Version 1.0 (eds.) Coburn, Erin et al. 
+        <ref target="http://www.lido-schema.org/schema/v1.0/lido-v1.0-specification.pdf">http://www.lido-schema.org/schema/v1.0/lido-v1.0-specification.pdf</ref>
+      </bibl>
+      <bibl>
+	<hi rend="bold"> Kralemann, B. / Lattmann, C. </hi> (2013):
+	„Models as icons: modeling models in the semiotic framework of Peirce’s theory of signs“ in: <hi rend="italic"> Synthese</hi> 190, 3397-3420.
+      </bibl>
+      <bibl>
+	<hi rend="bold"> QGIS: </hi>
+        <ref target="https://www.qgis.org/de/site/">https://www.qgis.org/de/site/</ref>
+      </bibl>
+      <bibl>
+	<hi rend="bold"> Rau, Susanne</hi> (2013): Räume, Wahrnehmungen, Nutzungen. Frankfurt/New York: Campus.</bibl>
+	<bibl>
+	  <hi rend="bold"> RDF – Resource Description Framework </hi> (2014) (eds.) W3C 
+          <ref target="https://www.w3.org/RDF/">https://www.w3.org/RDF/</ref>
+	</bibl>
+	<bibl>
+	<hi rend="bold"> Scheuermann, Leif </hi> (2014): “Thoughts on a Web Based Co-productive Spatio-Temporal Information System” in: Rau, Susanne / Schönherr, Ekkehard (eds.): Mapping Spatial Relations, Their Perceptions and Danymics. Cham / Heidelberg / New York: Springer 17-23.</bibl>
+	<bibl>
+	  <hi rend="bold"> SOLR: Apache Solr. (eds.) </hi> Apache Software Foundation 
+          <ref target="https://lucene.apache.org/solr/">https://lucene.apache.org/solr/</ref>
+	</bibl>
+	<bibl>
+  <hi rend="bold"> SPARQL 1.1 Query Language </hi> (2013) (eds.) W3C 
+  <ref target="https://www.w3.org/TR/sparql11-query/">https://www.w3.org/TR/sparql11-query/</ref>
+	</bibl>
+	<bibl>
+	  <hi rend="bold"> TEI P5: Guidelines for Electronic Text
+	  Encoding and Interchange </hi> (2019). Version 3.6.0 (eds.) the TEI Consortium 
+          <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</ref>
+	</bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

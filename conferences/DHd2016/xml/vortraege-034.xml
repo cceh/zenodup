@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-034">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Digital Humanities in Bewegung: Ansätze für die computergestützte Filmanalyse </title>
+        <author>
+          <name>
+            <surname>Burghardt</surname>
+            <forename>Manuel</forename>
+          </name>
+          <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg</affiliation>
+          <email>manuel.burghardt@ur.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wolff</surname>
+            <forename>Christian</forename>
+          </name>
+          <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg</affiliation>
+          <email>christian.wolff@ur.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T10:10:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Filmanalyse</term>
+          <term>Filmsprache</term>
+          <term>Farbanalyse</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Entdeckung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Identifizierung</term>
+          <term>Visualisierung</term>
+          <term>Computer</term>
+          <term>Daten</term>
+          <term>Software</term>
+          <term>Text</term>
+          <term>Video</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung: Digital Humanities und Filmanalyse</head>
+        <p>Während sich die „Vermessung der Kultur“ (Lauer 2013) in den textorientierten
+          Geisteswissenschaften in den letzten Jahren rasant entwickelt hat (vgl. etwa
+          Konzepte wie <hi rend="italic">Culturomics</hi>, <hi rend="italic">Distant
+          Reading</hi>, etc.), so befindet sich die „Vermessung ästhetischer
+          Erscheinungen“ (Flückinger 2011) für den Bereich der Filmwissenschaft und
+          Filmanalyse noch in den Anfängen. Flückinger (2011: 44) spricht in diesem
+          Zusammenhang gar von einem Spannungsfeld zwischen Empirie und Ästhetik, welches
+          sich zwangsläufig ergeben muss, wenn man „die eigentümliche Unschärfe, die allen
+          künstlerischen Werken eignet, in messbare Einheiten zerlegen will“. Dabei lassen
+          sich quantitative Ansätze in der Filmanalyse mindestens bis in das Jahr 1912
+          <ref type="note" target="n01" n="1">1</ref> zurückverfolgen und auch aktuelle Lehrbücher zur Filmanalyse beschreiben
+          gleichermaßen <hi rend="italic">weiche</hi> (qualitative) und <hi rend="italic"
+          >harte</hi> (quantitative) Kategorien und Methoden (Korte 2004: 15). Bei
+          quantitativen Ansätzen steht vor allem die Analyse von Dauer und
+          Auftretenshäufigkeit einzelner Einstellungen in einem Film im Mittelpunkt (vgl.
+          Salt 2006, Kap. „The Numbers Speak“). So stellt etwa die online verfügbare
+          Datenbank <ref target="http://www.cinemetrics.lv"><hi rend="italic"
+          >Cinemetrics</hi></ref> (Cinemetrics o. J.) entsprechende Informationen
+          zur Länge und Verteilung einzelner Einstellungen für mehrere tausend Filme
+          bereit und ermöglicht so vergleichende Analysen von Filmen aus unterschiedlichen
+          Genres und Epochen. </p>
+          <p>Während die Segmentierung der Filme in der <hi rend="italic"
+            >Cinemetrics</hi>-Datenbank von der Community manuell vorgenommen wird, gibt es
+            auch Beispiele für Forschungsarbeiten, bei denen die quantifizierbaren Parameter
+            automatisch erhoben werden. Hoyt, Ponot und Roy (2014) präsentieren etwa einen
+            Prototyp namens <hi rend="italic">ScripThreads</hi>, der in der Lage ist, Filme
+            der <hi rend="italic">American Film Scripts Online</hi>-Datenbank zu parsen und
+            die Handlungsentwicklung eines Films anhand der Szenen und Figuren zu
+            visualisieren. Ein Beispiel für die vergleichende Analyse von Filmmetadaten
+            findet sich im <ref
+            target="http://www.cs.ou.edu/~weaver/improvise/examples/cinegraph/index.html"
+            ><hi rend="italic">Cinegraph</hi>-Projekt</ref>  von Chris Weaver
+            (2014). Hier können Filme anhand unterschiedlicher Metadaten (z. B. Filmname,
+            Veröffentlichungsdatum, Bewertung, Genre, Oscars, Darsteller, etc.) miteinander
+            verglichen und in einer interaktiven Darstellung zueinander in Beziehung gesetzt
+            werden. </p>
+            <p>Daneben finden sich im Netz eine ganze Reihe experimenteller Tools, die nicht
+              immer einen wissenschaftlichen Anspruch haben, aber gut illustrieren, welche
+              weiteren Aspekte von Filmen automatisch analysierbar sind: Beispielhaft sei etwa
+              das Python-Tool <ref
+              target="http://lav.io/2014/06/videogrep-automatic-supercuts-with-python"><hi
+              rend="italic">VideoGrep</hi></ref> (Lavigne 2014) genannt, welches das
+              Durchsuchen von Filmdialogen nach bestimmten Schlüsselwörtern ermöglicht, um auf
+              Basis der Treffer dann einen automatischen Zusammenschnitt („supercut“) all der
+              Szenen, in denen das gesuchte Wort vorkommt, zu erstellen. Die Anwendung <ref
+              target="http://pretentious-o-meter.co.uk/"><hi rend="italic"
+              >Pretentious-O-Meter</hi></ref> (Beard 2015) analysiert automatisch, wie
+              groß die Bewertungslücke zwischen Nutzerbewertungen und professionellen
+              Filmkritiken eines Films ist und visualisiert dies in einem Kontinuum, welches
+              von „mass-market“ bis „very pretentious“ reicht. Weitere Ansätze der
+              automatischen Filmanalyse finden sich für die Farbverwendung in Filmen: Frederic
+              Brodbeck (2011) visualisiert in seinem <ref
+              target=" http://cinemetrics.fredericbrodbeck.de/"><hi rend="italic"
+              >Cinemetrics</hi>-Projekt</ref> Filme als kreisförmig angeordnete
+              Timelines, in denen u. a. die jeweils dominanten Farben zu sehen sind. Ein
+              weiteres Projekt visualisiert Filme als zusammengestauchte Einzelframes, um so
+              farbige <ref target="http://moviebarcode.tumblr.com"><hi rend="italic"
+              >MovieBarcodes</hi></ref> (MovieBarcodes o. J.) zu erstellen. </p>
+              <p>Auch auf der DHd 2015 wurde das Thema der Quantifizierung filmischer Strukturen über Filmbild, Filmschnitt und Filmstil bereits auf methodischer Ebene thematisiert (Heftberger 2015) und Howanitz (2015) präsentierte eine erste
+                <hi rend="italic">Distant Watching</hi>-Studie für das „Fern-Sehen“ memetischer YouTube-Videos, deren „Schnittkurven“ er auf Frame-Ebene analysiert. In diesem Beitrag knüpfen wir thematisch an die genannten DHd-Vorträge an und diskutieren grundlegende Möglichkeiten der computergestützten Filmanalyse, die über die Quantifizierung von Einstellungen und Szenen hinausgehen. Dabei sollen weitere automatisch quantifizierbare Parameter zur Diskussion gestellt werden, um so neue Perspektiven und Zugänge zur computergestützten Filmanalyse aufzuzeigen und das Thema noch stärker in den Digital Humanities zu verankern. Um die Grenzen und Möglichkeiten dieser Ansätze besser illustrieren zu können, wurde eine Reihe von Prototypen erstellt, die nachfolgend kurz vorgestellt werden.
+              </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Prototypen für die computergestütze Filmanalyse</head>
+              <p>In diesem Abschnitt werden drei unterschiedliche Prototypen beschrieben, die
+                jeweils auf unterschiedliche quantifizierbare Aspekte von Filmen abzielen und
+                damit die Untersuchung ganz unterschiedlicher Fragestellungen erlauben. Die
+                Tools greifen allesamt auf im Web frei verfügbare Informationen zu Filmen
+                zurück: So stehen etwa über die Plattformen <ref
+                target="http://www.opensubtitles.org/de"><hi rend="italic"
+                >OpenSubtitles</hi></ref> oder die <ref target="http://www.imsdb.com/"
+                ><hi rend="italic">Internet Script Movie Database</hi></ref>
+                maschinenlesbare Dialoge von Filmen und Serien in großem Umfang zur Verfügung.
+                Zusätzlich können detaillierte Metadaten sowie auch nutzergenerierte Bewertungen
+                und Kommentare zu Filmen über Plattformen wie <hi rend="italic"><ref
+                target="http://www.imdb.com/">IMDb</ref></hi> (Internet Movie Database)
+                abgerufen werden. Darüber hinaus soll als weiterer quantifizierbarer Parameter,
+                der direkt aus den Filmen extrahiert werden kann, die Farbverwendung <ref type="note" target="n02" n="2">2</ref> in die Analysen mit einbezogen werden. Alle nachfolgend beschriebenen
+                Prototypen wurden jeweils mit Standard-Webtechnologien (HTML / CSS / JavaScript)
+                und bestehenden Python-Bibliotheken umgesetzt. </p>
+                <div type="div2" rend="DH-Heading2">
+                  <head>
+                    <hi rend="italic">SubVis</hi> – Analyse der Filmsprache
+                  </head>
+                  <p>Das <hi rend="italic">SubVis</hi>-Tool analysiert über <hi rend="italic"
+                  >OpenSubtitles</hi> verfügbare Dialoge von beliebigen, zunächst
+                  allerdings nur englischsprachigen Filmen anhand typischer linguistischer
+                  Parameter wie Wortfrequenzen oder POS-Tagging und visualisiert die
+                  Ergebnisse in einem interaktiven Web-Interface. Zusätzlich kann die
+                  Auftretenshäufigkeit einzelner Zeichen oder längerer Sprachsequenzen (=
+                  jeweils ein eingeblendeten Untertitel) für beliebig definierbare
+                  Analyseintervalle (z. B. jeweils für 5 Minuten-Sequenzen) in einer Timeline
+                  dargestellt werden, um bspw. auf einen Blick zu sehen, an welchen Stellen im
+                  Film besonders viel oder wenig gesprochen wird (vgl. Abbildung 1). </p>
+                  <figure>
+                    <graphic n="1001" width="16.002cm" height="10.562166666666666cm" url="034-image1.png" rend="inline"/>
+                    <p><hi rend="bold">Abb. 1</hi>: Beispielhafte Visualisierung der Zeichen-
+                    und Sprachsequenzhäufigkeiten für jeweils fünfminütige Teilabschnitte
+                    des Films „Anchorman: The Legend of Ron Burgundy“.</p>
+                  </figure>
+                  <p>
+                    <hi rend="italic">Beispielhafte Fragestellungen, die mit dem Tool untersucht werden können</hi>:
+                  </p>
+                  <list type="unordered">
+                    <item>Gibt es für die Filme unterschiedlicher Regisseure jeweils typische Schlüsselwörter?</item>
+                    <item>Kann man für Filme aus unterschiedlichen Genres beobachten, dass an
+                      bestimmten Stellen (z. B. Anfang oder Schluss) besonders viel oder wenig
+                      gesprochen wird? </item>
+                      <item>Wird in Filmen aus den 1980er Jahren insgesamt mehr gesprochen als in Filmen der 1990er Jahre?</item>
+                    </list>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>
+                      <hi rend="italic">Series Analysis Tool</hi> (SAT) – Analyse von TV-Serien anhand von Nutzerbewertungen, Figuren und Sprache
+                    </head>
+                    <p>Das <hi rend="italic">Series Analysis Tool</hi> ( <hi rend="italic">SAT</hi>)
+                    ermöglicht die Analyse von Serien und einzelnen Episoden. Dabei werden
+                    verschiedene Parameter in einer Timeline-Darstellung visualisiert. Ein
+                    wesentlicher Analyseaspekt ist dabei die Bewertung einzelner Episoden durch
+                    die IMDb-Community, sodass auf einen Blick erkennbar ist, ob eine Serie im
+                    Laufe der Zeit besser oder schlechter bewertet wird, oder ob es einzelne
+                    Episoden gibt, die auffallend positiv oder negativ bewertet wurden.
+                    Zusätzlich liest das Tool das Figureninventar für jede Episode aus und
+                    erlaubt es, die Darstellung nach bestimmten Figuren zu filtern. So kann
+                    schnell erkannt werden, ob das Auftreten bestimmter Figuren ggf. Einfluss
+                    auf die Bewertung einzelner Episoden hat. Weiterhin wurde die Sprache der
+                    Serien hinsichtlich Sentiment- und Emotionswörtern analysiert (vgl.
+                    Abbildung 2). Als Datengrundlage dient ein bestehendes Korpus (Tiedemann
+                    2012), in dem alle auf <ref target="http://opus.lingfil.uu.se/OpenSubtitles2013.php"><hi rend="italic">OpenSubtitles</hi></ref> in englischer
+                    Sprache verfügbaren Untertitel von TV-Serien und Filmen bis zum Jahr 2013
+                    enthalten sind. Dabei kam für die Sentiment Analyse das <hi rend="italic"
+                    >AFINN</hi>-Lexikon (Nielsen 2011) und für die Identifikation acht
+                    grundlegender Emotionen (Angst, Wut, Freude, etc.) das <hi rend="italic">NRC
+                    Emotion Lexicon</hi> (Mohammad / Turney 2010) zum Einsatz. Sowohl die
+                    Sentiment-Scores (positiv / negativ) als auch die Emotionsmarker können für
+                    jede Episode in die Visualisierung mit einbezogen werden, um so potenzielle
+                    Korrelationen zu den Nutzerbewertungen aufzuzeigen. </p>
+                    <figure>
+                      <graphic n="1002" width="16.002cm" height="9.382125cm" url="034-image2.png" rend="inline"/>
+                      <p><hi rend="bold">Abb. 2</hi>: Beispielhafte Visualisierung der Serie
+                      „Breaking Bad“, mit paralleler Darstellung der Benutzerbewertungen sowie
+                      der Sentiment-Analyse der Dialoge für jede einzelne Episode.</p>
+                    </figure>
+                    <p>
+                      <hi rend="italic">Beispielhafte Fragestellungen, die mit dem Tool untersucht werden können</hi>:
+                    </p>
+                    <list type="unordered">
+                      <item>Gibt es generelle Trends bei der Bewertung von Serien mit zunehmender Zahl von Staffeln?</item>
+                      <item>Wirken sich Sentiment- und Emotionsmarker der Dialoge positiv oder negativ auf die Bewertung einer Episode aus?</item>
+                      <item>Wirkt sich das Auftreten bestimmter Nebenfiguren positiv oder negativ auf die Bewertung einer Episode aus?</item>
+                    </list>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>
+                      <hi rend="italic">MovieColors</hi> – Analyse von Filmen anhand von Farbe und Sprache
+                    </head>
+                    <p>Der Prototyp
+                      <hi rend="italic">MovieColors</hi> erlaubt die computergestützte Analyse von Filmen anhand der Parameter Farbe und Sprache. Dabei wird zunächst der Film in einzelne Frames zerlegt. Mithilfe eines Clustering-Algorithmus werden dann die jeweils dominanten Farben extrahiert. Anhand dieser Farbinformation können charakteristische Farbprofile – ähnlich wie im eingangs erwähnten
+                      <hi rend="italic">MovieBarcodes</hi>-Projekt – für den gesamten Film erstellt werden. Zusätzlich wird die Sprache des Films über dessen Untertitel anhand von Wortfrequenzen und grundlegenden Sentiment-Werten (positiv / negativ) analysiert.
+                    </p>
+                    <p>Die Visualisierungskomponente des Tools erlaubt es, Farbinformation und
+                      Sprachanalyse in einer parallelen Ansicht darzustellen, um so potenzielle
+                      Korrelationen zwischen dem Sentiment der Sprache und besonders markanten
+                      Schlüsselwörtern sowie auch der Farbverwendung identifizieren zu können
+                      (vgl. Abbildung 3). Zusätzlich kann jeder Frame einzeln angezeigt werden,
+                      zusammen mit dem entsprechenden Untertitel sowie einer Analyse der
+                      dominanten Farben im jeweiligen Bild.</p>
+                      <figure>
+                        <graphic n="1003" width="15.979069444444445cm" height="10.13001388888889cm" url="034-image3.png" rend="inline"/>
+                        <p><hi rend="bold">Abb. 3</hi>: Analyse des Films „König der Löwen“, mit
+                        Darstellung des Farbprofils (oben), der Sentiment-Analyse (Mitte) sowie
+                        der häufigsten Wörter (unten) entlang der Zeitachse des Films.</p>
+                      </figure>
+                      <p>
+                        <hi rend="italic">Beispielhafte Fragestellungen, die mit dem Tool untersucht werden können</hi>:
+                      </p>
+                      <list type="unordered">
+                        <item>Gibt es charakteristische Farbprofile für Filme aus verschiedenen Genres oder Epochen?</item>
+                        <item>Korrelieren bestimmte Farben mit positiven oder negativen Sentiment-Scores, also etwa dunkle Farben bei negativer Sprache?</item>
+                        <item>Korrelieren bestimmte Farben mit Schlüsselwörtern, also etwa schwarz und lila immer dann, wenn der Bösewicht des Films auftritt?</item>
+                      </list>
+                    </div>
+                  </div>
+                  <div type="div1" rend="DH-Heading1">
+                    <head>Ausblick</head>
+                    <p>Die in diesem Beitrag vorgestellten Prototypen beschreiben erste Versuche, Filme
+                      computergestützt anhand unterschiedlicher, automatisch quantifizierbarer
+                      Parameter zu analysieren. Im Austausch mit Kollegen aus der Medienwissenschaft
+                      werden die Tools in den nächsten Monaten praktisch erprobt und je nach
+                      Fragestellung iterativ angepasst und gegebenenfalls um weitere Funktionen
+                      ergänzt. Sobald die Prototypen weiter ausgearbeitet sind, sollen sie auch der
+                      Community über den <ref target="http://dhregensburg.de/"
+                      >DH-Regensburg-Blog</ref> zugänglich gemacht werden. Gleichzeitig sind
+                      weitere Prototypen angedacht, bei denen als zusätzliche Analyseparameter
+                      Gesichtserkennung (vgl. Arandjelovic / Zisserman 2005) sowie auch die Auswertung
+                      der Audiospur (vgl. <hi rend="italic">Zulko</hi> 2014) umgesetzt werden sollen. </p>
+                    </div>
+                    <div type="div1" rend="DH-Heading1">
+                      <head>Danksagungen</head>
+                      <p>Alle hier beschriebenen Prototypen wurden im Rahmen des Projektseminars „Digital Humanities“, im Masterstudiengang Medieninformatik an der Universität Regensburg, angefertigt. Besonderer Dank für die engagierte Umsetzung der Tools gebührt Hanns Meißner und Michael Stahl (
+                        <hi rend="italic">SubVis</hi>), Robert Jackermeier, Florian Ludwig und Alexander Uitz (
+                        <hi rend="italic">SAT</hi>) sowie Michael Kao (
+                        <hi rend="italic">MovieColors</hi>).
+                      </p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+                      <note xml:id="n01" n="1">Vgl. den Vortrag von Tsivian (2014) auf der 1. Cinemetrics Conference, Chicago (Neubauer Collegium 2014).</note>
+                      <note xml:id="ftn2" n="2">Zur historischen Verwendung von Farbe im Film vgl. auch die Online-Datenbank <ref target="http://zauberklang.ch/filmcolors/">"Timeline of Historical Film Colors"</ref> von Flückinger (2011-2013).</note>
+                    </div>
+                    <div type="bibliogr">
+                      <listBibl>
+                        <head>Bibliographie</head>
+                        <bibl>
+                          <hi rend="bold">Arandjelovic, Ognjen / Zisserman, Andrew</hi> (2005):
+                          "Automatic face recognition for film character retrieval in feature-length
+                          films", in: <hi rend="italic">Proceedings of the Computer Vision and Pattern
+                          Recognition Conference (IEEE)</hi> 860-867. </bibl>
+                          <bibl><hi rend="bold">Beard, Niall</hi> (2015): Pretentious-O-Meter <ref
+                          target="http://pretentious-o-meter.co.uk/"
+                          >http://pretentious-o-meter.co.uk/</ref> [letzter Zugriff 04. Februar
+                          2016].</bibl>
+                          <bibl><hi rend="bold">Brodbeck, Frederic</hi> (2011): <hi rend="italic"
+                          >Cinemetrics</hi>. Bachelor graduation project at the Royal Academy of
+                          Arts (KABK), Den Haag <ref target=" http://cinemetrics.fredericbrodbeck.de/"
+                          > http://cinemetrics.fredericbrodbeck.de/</ref> [letzter Zugriff 04.
+                          Februar 2016].</bibl>
+                          <bibl><hi rend="bold">Cinemetrics</hi> (o. J.): <ref
+                          target="http://www.cinemetrics.lv/">http://www.cinemetrics.lv/</ref>
+                          [letzter Zugriff 04.Februar 2016]</bibl>
+                          <bibl>
+                            <hi rend="bold">Flückiger, Barbara</hi> (2011): "Die Vermessung ästhetischer
+                            Erscheinungen", in: <hi rend="italic">Zeitschrift für
+                            Medienwissenschaft</hi> 5, 2: 44-60. </bibl>
+                            <bibl><hi rend="bold">Flückinger, Barbara</hi> (2011-2013): <hi rend="italic"
+                            >Timeline of Historical Film Colors</hi>
+                            <ref target="http://zauberklang.ch/filmcolors/"
+                              >http://zauberklang.ch/filmcolors/</ref> [08. Januar 2016].</bibl>
+                              <bibl>
+                                <hi rend="bold">Heftberger, Adelheid</hi> (2015): "Filmbild , Filmschnitt ,
+                                Filmstil – die Quantifizierung und Visualisierung von filmischen
+                                Strukturen", in: <hi rend="italic">Book of Abstracts, DHd 2015</hi>. </bibl>
+                                <bibl>
+                                  <hi rend="bold">Howanitz, Gernot</hi> (2015): „Distant Waching: Ein
+                                  quantitativer Zugang zu YouTube-Videos“, in: <hi rend="italic">Book of
+                                  Abstracts, DHd 2015</hi>. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Hoyt, Eric / Ponot, Kevin / Roy, Carrie</hi> (2014):
+                                    „Visualizing and Analyzing the Hollywood Screenplay with ScripThreads“, in:
+                                    <hi rend="italic">Digital Humanities Quarterly</hi> 8, 4. </bibl>
+                                    <bibl><hi rend="bold">IMDb</hi> (o. J.): <hi rend="italic">Internet Movie
+                                    Database</hi>. <ref target="http://www.imdb.com/"
+                                    >http://www.imdb.com/</ref> [letzter Zugriff 04. Februar 2016]. </bibl>
+                                    <bibl><hi rend="bold">IMSDb</hi> (o. J.): <hi rend="italic">Internet Script
+                                    Movie Database</hi>. <ref target="http://www.imsdb.com/"
+                                    >http://www.imsdb.com/</ref> [letzter Zugriff 04. Februar 2016]. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Korte, Helmut</hi> (2004): <hi rend="italic">Einführung in
+                                      die Systematische Filmanalyse</hi>. Berlin: Erich Schmid Verlag. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Lauer, Gerhard</hi> (2013): "Die digitale Vermessung der
+                                        Kultur", in: Geiselberger, Heinrich / Moorstedt, Tobias (eds.): <hi
+                                        rend="italic">Big Data – Das neue Versprechen der Allwissenheit</hi>.
+                                        Berlin: Suhrkamp 99-116. </bibl>
+                                        <bibl><hi rend="bold">Lavigne, Sam</hi> (2014): <hi rend="italic"
+                                        >Videogrep</hi>. Automatic Supercuts with Python <ref
+                                        target="http://lav.io/2014/06/videogrep-automatic-supercuts-with-python/"
+                                        >http://lav.io/2014/06/videogrep-automatic-supercuts-with-python/</ref>
+                                        [letzter Zugriff 04. Februar 2016].</bibl>
+                                        <bibl>
+                                          <hi rend="bold">Mohammad, Saif M. / Turney, Peter D.</hi> (2010): "Emotions
+                                          evoked by common words and phrases: Using Mechanical Turk to create an
+                                          emotion lexicon", in: <hi rend="italic">Proceedings of the NAACL HLT 2010
+                                          Workshop on Computational Approaches to Analysis and Generation of
+                                          Emotion in Text</hi> 26-34. </bibl>
+                                          <bibl><hi rend="bold">MovieBarcode</hi> (o. J.): <ref
+                                          target="http://moviebarcode.tumblr.com/"
+                                          >http://moviebarcode.tumblr.com/</ref> [letzter Zugriff 04. Februar
+                                          2016].</bibl>
+                                          <bibl><hi rend="bold">Neubauer Collegium</hi> (2014): <hi rend="italic">UChicago
+                                          Cinemetrics Conference</hi>
+                                          <ref target="https://www.youtube.com/watch?v=6ZXj67bygEc"
+                                            >https://www.youtube.com/watch?v=6ZXj67bygEc</ref> [letzter Zugriff 04.
+                                            Februar 2016].</bibl>
+                                            <bibl><hi rend="bold">Nielsen, Finn Å.</hi> (2011): "A new ANEW: evaluation of a
+                                            word list for sentiment analysis in microblogs", in: <hi rend="italic"
+                                            >Proceedings of the ESWC2011 Workshop on „Making Sense of Microposts:
+                                            Big things come in small packages</hi>“ 93-98. </bibl>
+                                            <bibl><hi rend="bold">OpenSubtitles</hi> (o. J.) <ref
+                                            target="www.opensubtitles.org/">www.opensubtitles.org/</ref> [letzter
+                                            Zugriff 04. Februar 2016]. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Salt, Barry</hi> (2006): <hi rend="italic">Moving into
+                                              Pictures</hi>. London: Starwood. </bibl>
+                                              <bibl>
+                                                <hi rend="bold">Tiedemann, Jörg</hi> (2012): "Parallel Data, Tools and
+                                                Interfaces in OPUS", in: <hi rend="italic">Proceedings of the 8th
+                                                International Conference on Language Resources and Evaluation</hi>
+                                                2214-2218.</bibl>
+                                                <bibl><hi rend="bold">Weaver, Chris</hi> (2014): <hi rend="italic"
+                                                >Cinegraph</hi>
+                                                <ref
+                                                  target="http://www.cs.ou.edu/~weaver/improvise/examples/cinegraph/index.html"
+                                                  >http://www.cs.ou.edu/~weaver/improvise/examples/cinegraph/index.html</ref>
+                                                  [letzter Zugriff 04. Februar 2016].</bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Zulko</hi> (4.7.2014): "Automatic Soccer Highlights
+                                                    Compilations With Python" (Blogpost), in: <hi rend="italic">__del__
+                                                    (self)</hi> Eaten by the Python <ref
+                                                    target="http://zulko.github.io/blog/2014/07/04/automatic-soccer-highlights-compilations-with-python/"
+                                                    >http://zulko.github.io/blog/2014/07/04/automatic-soccer-highlights-compilations-with-python/</ref>
+                                                    [letzter Zugriff 08. Januar 2016].</bibl>
+                                                  </listBibl>
+                                                </div> </back>
+                                              </text>
+                                            </TEI>

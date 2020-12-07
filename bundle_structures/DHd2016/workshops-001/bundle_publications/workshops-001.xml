@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="workshops-001">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Komponisten-Datenbanken / -Portale: Entwicklungsmöglich-keiten, Austauschformate und Vernetzungspotential</title>
+        <author>
+          <name>
+            <surname>Blanken</surname>
+            <forename>Christine</forename>
+          </name>
+          <affiliation>Bach-Archiv Leipzig, Deutschland</affiliation>
+          <email>blanken@bach-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Rettinghaus</surname>
+            <forename>Klaus</forename>
+          </name>
+          <affiliation>Bach-Archiv Leipzig, Deutschland</affiliation>
+          <email>rettinghaus@bach-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Siegert</surname>
+            <forename>Christine</forename>
+          </name>
+          <affiliation>Beethoven-Haus Bonn, Deutschland</affiliation>
+          <email>Christine.Siegert@beethoven-haus-bonn.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Dubowy</surname>
+            <forename>Norbert</forename>
+          </name>
+          <affiliation>Mozarteum, Mozart-Institut, Digitale Mozart-Edition, Salzburg, Oesterreich</affiliation>
+          <email>dubowy@mozarteum.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schwinger</surname>
+            <forename>Tobias</forename>
+          </name>
+          <affiliation>Staatsbibliothek zu Berlin, KoFIM-Projekt, Berlin, Deutschland</affiliation>
+          <email>Tobias.Schwinger@sbb.spk-berlin.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Muehlberger</surname>
+            <forename>Guenter</forename>
+          </name>
+          <affiliation>Universitaet Innsbruck, Institut fuer Germanistik, Innsbruck, Oesterreich</affiliation>
+          <email>guenter.muehlberger@uibk.ac.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Christlein</surname>
+            <forename>Vincent</forename>
+          </name>
+          <affiliation>Universitaet Erlangen-Nuernberg, Institut fuer Informatik, Erlangen, Deutschland</affiliation>
+          <email>vincent.christlein@fau.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Stadler</surname>
+            <forename>Peter</forename>
+          </name>
+          <affiliation>Carl-Maria-von-Weber-Gesamtausgabe, Detmold, Deutschland</affiliation>
+          <email>stadler@weber-gesamtausgabe.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schildt</surname>
+            <forename>Maria</forename>
+          </name>
+          <affiliation>Uppsala Universitet, Department of Musicology, Dueben Collection Database Uppsala, Schweden</affiliation>
+          <email>maria.schildt@musik.uu.se</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wiermann</surname>
+            <forename>Barbara</forename>
+          </name>
+          <affiliation>Saechsische Landesbibliothek - Staats- und Universitaetsbibliothek Dresden, Musiksammlung, Dresden, Deutschland</affiliation>
+          <email>Barbara.Wiermann@slub-dresden.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schmidt</surname>
+            <forename>Frieder</forename>
+          </name>
+          <affiliation>Deutsche Nationalbibliothek, Papierhistorische Sammlungen, Leipzig, Deutschland</affiliation>
+          <email>F.Schmidt@dnb.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schneider</surname>
+            <forename>Dietmar</forename>
+          </name>
+          <affiliation>Privatier, Nuernberg (common science)</affiliation>
+          <email>Dietmar.Schneider@Startmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Hausmann</surname>
+            <forename>Christiane</forename>
+          </name>
+          <affiliation>Bach-Archiv Leipzig, Deutschland</affiliation>
+          <email>hausmann@bach-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Morgenstern</surname>
+            <forename>Anja</forename>
+          </name>
+          <affiliation>Mozarteum, Mozart-Institut, Digitale Mozart-Edition, Salzburg, Oesterreich</affiliation>
+          <email>morgenstern@mozarteum.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wollny</surname>
+            <forename>Peter</forename>
+          </name>
+          <affiliation>Bach-Archiv Leipzig, Deutschland</affiliation>
+          <email>wollny@bach-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kupferschmidt</surname>
+            <forename>Jens</forename>
+          </name>
+          <affiliation>Universitaet Leipzig, Rechenzentrum, Leipzig, Deutschland</affiliation>
+          <email>kupferschmidt@rz.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Bärwald</surname>
+            <forename>Manuel</forename>
+          </name>
+          <affiliation>Bach-Archiv Leipzig, Deutschland</affiliation>
+          <email>barwald@bach-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T19:04:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Workshops</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Bach</term>
+          <term>Datenbanken</term>
+          <term>Digitalisierung</term>
+          <term>Automatisierte Handschriftenerkennung</term>
+          <term>Vernetzung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Datenerkennung</term>
+          <term>Sammlung</term>
+          <term>Programmierung</term>
+          <term>Strukturanalyse</term>
+          <term>Beziehungsanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kommunikation</term>
+          <term>Kontextsetzung</term>
+          <term>Bereinigung</term>
+          <term>Bearbeitung</term>
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Bewertung</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Kollaboration</term>
+          <term>Lehre</term>
+          <term>Kommentierung</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Daten</term>
+          <term>Bilder</term>
+          <term>Infrastruktur</term>
+          <term>Interaktion</term>
+          <term>Sprache</term>
+          <term>Metadaten</term>
+          <term>Personen</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Notenblätter</term>
+          <term>Software</term>
+          <term>Text</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Fragen/Probleme für die Zukunft von Datenbanken musikalischer Quellen</head>
+        <p>Die Entwicklung digitaler Medien und die daraus resultierenden Chancen für eine Weiterentwicklung computergestützter Verfahren zeitigt weitreichende Folgen auch für die musikwissenschaftliche Grundlagenforschung. Die philologisch arbeitenden Disziplinen profitieren ungemein von den Digitalisierungsvorhaben in Bibliotheken oder haben selbst an solchen Vorhaben ihren Anteil. Und sie haben starke gemeinsame Interessen: Neben Tools zur digitalen Edition sind dies vor allem Schreiber-Erkennung, Papier- und Wasserzeichenforschung sowie Provenienzrecherchen. Das Interesse, über Standards zu diskutieren und die Grundlagen für gemeinsame digitale Standards weiterzuentwickeln ist bei Editionsvorhaben genauso vorhanden wie bei Bibliotheken. Derzeit bereits gegebene Vernetzungsmöglichkeiten werden genutzt und sollten weiter ausgebaut werden; ein Beispiel dafür ist eine übergeordnete Forschungsinfrastruktur, wie sie etwa in Bezug auf Papierforschung das Wasserzeichen-Informationssystem und die Papierhistorischen Sammlungen der DNB zur Verfügung stellen. </p>
+        <p>Darüber hinaus werden in vielen musikwissenschaftlichen Forschungseinrichtungen seit Jahrzehnten Daten zu Komponisten und ihren Werken zusammengetragen, seit etwa 2000 erfolgt dies im deutschsprachigen Raum auch per Datenbanken. Vernetzungen dieser Daten sind dabei aber bislang die Ausnahme. Ein Austausch könnte also auch auf dieser Ebene intensiviert werden. </p>
+        <p>Ein weiterer Aspekt betrifft die in den letzten Jahren entwickelten Methoden der Auswertung strukturierter Daten. Auch wenn sie im Bereich der Musikwissenschaft quantitativ wohl noch nicht unter den Begriff „Big Data“ fallen, so stellen diese Daten einen Fundus dar, welcher mit Hilfe vieler, in verschiedenen Projekten unter dem Label Digital Humanities laufender Methoden einer Auswertung harrt. Voraussetzung dafür wäre allerdings eine stärkere Vernetzung.</p>
+        <p>In der Bach-Forschung sind engmaschige Untersuchungen zur Überlieferung jedes einzelnen Musikwerks seit langem ein essentieller Bestandteil, denn viele Werke J. S. Bachs sind weder autograph überliefert noch genau zu datieren. Dies hat zur Folge, dass ein großer Teil der Untersuchungen von Bach-Quellen Handschriften des gesamten 18. und frühen 19. Jahrhunderts betreffen müssen. Sie stammen von oft unbekannten Schreibern mit unklarer Provenienz. Ihren Bezug zu verschollenen originalen Quellen zu ermitteln, ist damit seit den 1950er Jahren – angestoßen und betrieben durch die Arbeit an der Neuen Bach-Ausgabe – ein essentieller Bestandteil der Bach-Forschung. Diese hat sich so auf einigen Feldern zu einem Vorreiter in der paläographisch und philologisch orientierten Quellenforschung entwickelt. Die entsprechenden Erkenntnisse wurden in den Kritischen Berichten dieser Gesamtausgabe ausgewertet; mit Blick auf die gesamte Bach-Familie darüber hinaus in gedruckten Katalogen über einzelne Quellenbestände, vor allem in den Leipziger Beiträgen zur Bach-Forschung: Brüsseler Bibliotheken (1997), Singakademie zu Berlin (2005), Wien und ‚Alt-Österreich‘ (2011). Sowohl das Wissen als auch die Methoden wurden im Laufe der vergangenen Jahrzehnte ebenfalls für Forschungen zu anderen Komponisten nachgenutzt. Durch diese Impulse konnten wiederum auch für die Bach-Überlieferung Erkenntnisse gewonnen werden. So haben beispielsweise durch die Recherchen zu Berliner Überlieferungskreisen, namentlich der Singakademie, gerade auch die Gesamtausgaben zu den Söhnen Bachs sehr profitiert.</p>
+        <p>Um die Fülle der auf viele Kritische Berichte und andere Publikationen verteilten
+          Forschungsergebnisse strukturiert recherchierbar zu machen, wurde 1999 in
+          Göttingen am dortigen Johann Sebastian Bach-Institut die Bach-Quellen-Datenbank
+          erstellt (seit 2001 als <ref target="http://www.bach.gwdg.de">bach.gwdg.de</ref>
+          online, Blanken 2002), die 2010 in das Portal Bach digital integriert wurde, das
+          nunmehr nicht allein Informationen zu den Werken und ihren Quellen bietet,
+          sondern auch hochauflösende Digitalisate der Handschriften selbst. Seit einigen
+          Jahren werden sukzessive auch Daten / Digitalisate zu den Werken weiterer
+          Komponisten der Bach-Familie berücksichtigt (Alt-Bachisches Archiv, Carl Philipp
+          Emanuel, Wilhelm Friedemann und Johann Christoph Friedrich Bach), so dass
+          bach-digital.de mittlerweile eine Datenbank zur gesamten Bach-Familie ist, mit
+          derzeit knapp 7800 Quellen-, 3500 Werk-Datensätzen sowie 1750 Digitalisaten.
+          Durch die Zusammenschau von Quellen und die Möglichkeit des strukturierten
+          Zugriffs auf die hierzu gehörenden Informationen wird eine immer neue
+          Beschäftigung mit den Werken der Bach-Familie herausgefordert. </p>
+          <p>Bach digital versteht sich dabei als ein Work in Progress, das es täglich
+            weiterzuentwickeln und mit neuen Inhalten zu befüllen gilt. Dafür werden
+            Anregungen von Nutzern und auch die aktive Mitarbeit einzelner externer
+            registrierter Nutzer in Anspruch genommen. Die Zugriffsstatistik zeigt, dass
+            Bach digital auch international sehr gut angenommen wird. Derzeit wird daher
+            mittels mehrsprachiger Datenvorhaltung (Teilübersetzungen in Englisch, Japanisch
+            und Französisch) gerade die internationale Ausrichtung gestärkt. Über die
+            Bestände der drei derzeitigen Kooperationspartner Bach-Archiv Leipzig,
+            Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Sächsische
+            Landesbibliothek – Staats- und Universitätsbibliothek Dresden und das
+            Rechenzentrum der Universität Leipzig hinaus ist es nun das Ziel, die Zahl der
+            Bibliothekspartner zu erhöhen, um den Zugang zu den weltweit verstreuten Quellen
+            zu erleichtern. Neben etlichen kleineren Sammlungen in Deutschland sind dies u.
+            a. auch die British Library und die Library of Congress, die zugesagt haben,
+            digitalisierte Bach-Quellen über Bach digital zur allgemeinen Verfügung zu
+            stellen. </p>
+            <p>Die seit 16 Jahren ununterbrochene und tägliche Arbeit an einer open
+              source-basierten Datenbank (<ref target="http://www.bach-digital.de/docs/BachDigital_Doku.pdf?XSL.lastPage.SESSION=/docs/BachDigital_Doku.pdf">Blanken et al. 2015</ref>) und ihre technische wie
+              inhaltliche Weiterentwicklung sind nun an einem Punkt, da richtungweisende
+              Entscheidungen zum Ausbau, aber auch zur Vernetzung mit anderen Projekten
+              anstehen. Der Grundbestand der Daten von bach-digital.de ist jederzeit für
+              andere Projekte nachnutzbar. Diese ganz oder teilweise erfolgende Überführung
+              von Daten in andere Datenbanken hat Konsequenzen, über die grundsätzlich zu
+              sprechen ist. </p>
+              <p>Hier nun sollen Erfahrungen, Perspektiven und Wünsche anderer und eventuell vergleichbarer Datenbanken oder Digitalisierungsprojekte einbezogen werden.</p>
+              <p rend="Title">Fragen / Probleme für die Zukunft von Datenbanken musikalischer
+                Quellen </p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Inhaltliche Fragestellungen</head>
+                <div type="div2" rend="DH-Heading2">
+                  <head>Potential von Provenienz-Recherchen</head>
+                  <p>Ausschöpfung des Potenzials der Gemeinsamen Normdatei (GND) für die</p>
+                  <p>Provenienz-Forschung (Dokumentation historischer Musiksammlungen, Digitalisierung von Besitz- oder Auktionskatalogen, Geo-Referenzierung etc.</p>
+                  <p>Vernetzung mit anderen Projekten, externe Nutzung dieser Daten)</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                  <head>Schreiberforschung</head>
+                  <list type="unordered">
+                    <item>Entwicklung von Standards für Schreiber-Nomenklaturen (Leitfragen: Wie sollten Beispiel-Sammlungen von Schriftproben strukturiert sein? Wie lassen sich gemeinsame Schreiber-Portale aufbauen?)</item>
+                    <item>Vernetzung von bereits vorhandenen Schriftproben-Datenbanken</item>
+                    <item>Automatische Schreiberhanderkennung (Leitfragen: Wo stehen wir in der Musikpaläographie? Was lässt sich von außermusikalischen Projekten lernen? Gibt es überhaupt Bedarf, wissenschaftliche Anstrengungen zu einer automatischen Schreibererkennung mithilfe der Informatik zu unternehmen?)</item>
+                  </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                  <head>Wasserzeichen/Papier-Forschung</head>
+                  <list type="unordered">
+                    <item>Gemeinsamer sukzessiver Ausbau von Wasserzeichen-Recherche-Portalen:
+                      Wasserzeichen-Informationssystem (WZIS), Bernstein / Memory of Paper
+                      (WZ-Pause versus Aufnahmen mit moderner Kameratechnik, z. B. mittels
+                      Thermographie)</item>
+                    </list>
+                  </div>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Technische Fragestellungen</head>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Vernetzung</head>
+                    <list type="unordered">
+                      <item>Nutzerfreundliche Anbindung externer Angebote mit zusätzlichen Informationen (Crosslinking) durch den breiten Einsatz von Normdaten und dem BEACON-Format</item>
+                    </list>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Austauschformate </head>
+                    <list type="unordered">
+                      <item>Bereitstellung von Forschungsdaten in standardisierten und etablierten Formaten zur einfachen Weiterverwendung und automatisierten Auswertung</item>
+                      <item>Verwendung freier Lizenzen für wissenschaftskonforme Nachnutzung (Prinzipien guter wissenschaftlicher Praxis)</item>
+                    </list>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Notenincipits und Libretti</head>
+                    <list type="unordered">
+                      <item>Nutzen und Potenzial von TEI und MEI in Musiker-Datenbanken </item>
+                    </list>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Tabellen oder Ontologien? </head>
+                    <list type="unordered">
+                      <item>Datenmodelierung zwischen Standardisierung und individuellen sowie praktischen Bedürfnissen</item>
+                    </list>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Dokumentation und Lizenzen</head>
+                    <list type="unordered">
+                      <item>Offenlegung von Struktur und Inhalt zur langfristigen Verfügbarmachung</item>
+                    </list>
+                  </div>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Wissenschaftskommunikation</head>
+                  <list type="unordered">
+                    <item>Stringenter Ausbau einer Common Science-Plattform; Installierung eines Redaktionsteams</item>
+                    <item>Nutzerfreundliche Weiterentwicklung von bisher primär wissenschaftlich
+                      orientierten Plattformen, Öffentlichkeitswirksamkeit (unter Einbeziehung
+                      weiterer digitaler Medien: Audio / Video / Editionen)</item>
+                    </list>
+                  </div>
+                  <div type="div1" rend="DH-Heading1">
+                    <head>Datenqualität </head>
+                    <list type="unordered">
+                      <item>RISM-OPAC (Chancen und Probleme bei Datenübernahmen aus Komponisten-basierten Datenbanken)</item>
+                      <item>Konsistenz von Daten (innerhalb eines Projekts und projektübergreifend) </item>
+                      <item>Identifizierung und Auffindbarkeit durch Verwendung von Normdaten</item>
+                    </list>
+                  </div>
+                </body>
+                <back>
+                  <div type="bibliogr">
+                    <listBibl>
+                      <head>Bibliographie</head>
+                      <bibl rend="DH"><hi rend="bold">Betz, Florian</hi> (2016): "Papiermacher und
+                      Papiermühlen in der Gemeinsamen Normdatei (GND). Das Normdaten-Projekt
+                      'Papiermacherkatalog' des Deutschen Buch- und Schriftmuseums der Deutschen
+                      Nationalbibliothek", in: Eckhardt, Wolfgang / Neumann, Julia / Schwinger,
+                      Tobias / Staub, Alexander (eds.): <hi rend="italic">Wasserzeichen –
+                      Schreiber – Provenienzen</hi>. Neue Methoden der Erforschung und
+                      Erschließung von Kulturgut im digitalen Zeitalter: Zwischen
+                      wissenschaftlicher Spezialdisziplin und 'Catalog Enrichment' (= Zeitschrift
+                      für Bibliothekswesen und Bibliographie Sonderband 118). Frankfurt am Main:
+                      Vittorio Klostermann 243-254</bibl>
+                      <bibl><hi rend="bold">Blanken, Christine</hi> (2002): <hi rend="italic"
+                      >Göttinger Bach-Katalog</hi>
+                      <ref target="http://www.bach.gwdg.de/">http://www.bach.gwdg.de/</ref></bibl>
+                      <bibl rend="DH"><hi rend="bold">Blanken, Christine </hi>(2016): "Die
+                      Komponisten-Datenbank 'Bach digital'. Erfahrungen und Perspektiven abseits
+                      einer Präsentation von Digitalisaten", in: Eckhardt, Wolfgang / Neumann,
+                      Julia / Schwinger, Tobias / Staub, Alexander (eds.): <hi rend="italic"
+                      >Wasserzeichen – Schreiber – Provenienzen</hi>. Neue Methoden der
+                      Erforschung und Erschließung von Kulturgut im digitalen Zeitalter: Zwischen
+                      wissenschaftlicher Spezialdisziplin und 'Catalog Enrichment' (= Zeitschrift
+                      für Bibliothekswesen und Bibliographie Sonderband 118). Frankfurt am Main:
+                      Vittorio Klostermann 135-148.</bibl>
+                      <bibl rend="DH"><hi rend="bold">Blanken, Christine / Rettinghaus, Klaus /
+                        Hausmann, Christiane / Kupferschmidt, Jens / Freitag, Stefan</hi>
+                        (2015): <hi rend="italic">Bach digital.</hi> Dokumentation: Umsetzung des
+                        Projektes auf Basis der Content Management Anwendung des
+                        MyCoRe-Arbeitskreises. <ref
+                        target="http://www.bach-digital.de/docs/BachDigital_Doku.pdf?XSL.lastPage.SESSION=/docs/BachDigital_Doku.pdf"
+                        >http://www.bach-digital.de/docs/BachDigital_Doku.pdf?XSL.lastPage.SESSION=/docs/BachDigital_Doku.pdf</ref>.</bibl>
+                        <bibl rend="DH"><hi rend="bold">Eckhardt, Wolfgang</hi> (2016): "Digitale
+                        Dokumentation von Wasserzeichen in Musikhandschriften im Rahmen des Projekts
+                        KoFIM", in: Eckhardt, Wolfgang / Neumann, Julia / Schwinger, Tobias / Staub,
+                        Alexander (eds.): <hi rend="italic">Wasserzeichen – Schreiber –
+                        Provenienzen</hi>. Neue Methoden der Erforschung und Erschließung von
+                        Kulturgut im digitalen Zeitalter: Zwischen wissenschaftlicher
+                        Spezialdisziplin und 'Catalog Enrichment' (= Zeitschrift für
+                        Bibliothekswesen und Bibliographie Sonderband 118). Frankfurt am Main:
+                        Vittorio Klostermann 167-196</bibl>
+                        <bibl rend="DH"><hi rend="bold">Mühlberger, Günter</hi> (o. J.): Die
+                        automatisierte Volltexterkennung historischer Handschriften als gemeinsame
+                        Aufgabe von Archiven, Geistes- und Computerwissenschaftlern. Das Modell
+                        einer zentralen Transkriptionsplattform als virtuelle Forschungsumgebung
+                        <ref
+                          target="https://www.academia.edu/7451967/Die_automatisierte_Volltexterkennung_historischer_Handschriften_als_gemeinsame_Aufgabe_von_Archiven_Geistes-_und_Computerwissenschaftlern._Das_Modell_einer_zentralen_Transkriptionsplattform_als_virtuelle_Forschungsumgebung"
+                          >https://www.academia.edu/7451967/Die_automatisierte_Volltexterkennung _historischer_Handschriften_als_gemeinsame _Aufgabe_ von_Archiven_Geistes-_und _Computerwissenschaftlern._Das_Modell_einer _zentralen_Transkriptionsplattform_als_ virtuelle_ Forschungsumgebung</ref></bibl>
+                          <bibl rend="DH"><hi rend="bold">Rettinghaus, Klaus</hi> (2014): "Bringing
+                          together Bach and MEI – Future prospects for Bach digital", Vortrag bei der
+                          “Music Encoding Conference” 2014, Charlottesville, Virginia / USA:
+                          University og Virginia.</bibl>
+                          <bibl rend="DH"><hi rend="bold">Stadler, Peter</hi> (2016): "Zum Einsatz von
+                          Normdaten bei der Carl-Maria-von-Weber-Gesamtausgabe", in: Eckhardt,
+                          Wolfgang / Neumann, Julia / Schwinger, Tobias / Staub, Alexander (eds.): <hi
+                          rend="italic">Wasserzeichen – Schreiber – Provenienzen</hi>. Neue
+                          Methoden der Erforschung und Erschließung von Kulturgut im digitalen
+                          Zeitalter: Zwischen wissenschaftlicher Spezialdisziplin und 'Catalog
+                          Enrichment' (= Zeitschrift für Bibliothek<span></span>swesen und Bibliographie Sonderband
+                          118). Frankfurt am Main: Vittorio Klostermann 19-26.</bibl>
+                          <bibl rend="DH"><hi rend="bold">Transkribus</hi>. Universität Innsbruck <ref
+                          target="https://transkribus.eu/">https://transkribus.eu/</ref>.</bibl>
+                          <bibl rend="DH"><hi rend="bold">Wenger, Emanuel </hi>(2016): "Metasuche in
+                          Wasserzeichendatenbanken (Bernstein-Projekt): Herausforderungen für die
+                          Zusammenführung heterogener Wasserzeichen-Metadaten", in: Eckhardt, Wolfgang
+                          / Neumann, Julia / Schwinger, Tobias / Staub, Alexander (eds.): <hi
+                          rend="italic">Wasserzeichen – Schreiber – Provenienzen</hi>. Neue
+                          Methoden der Erforschung und Erschließung von Kulturgut im digitalen
+                          Zeitalter: Zwischen wissenschaftlicher Spezialdisziplin und 'Catalog
+                          Enrichment' (= Zeitschrift für Bibliothekswesen und Bibliographie Sonderband
+                          118). Frankfurt am Main: Vittorio Klostermann 289-295</bibl>
+                        </listBibl>
+                      </div>
+                    </back>
+                  </text>
+                </TEI>

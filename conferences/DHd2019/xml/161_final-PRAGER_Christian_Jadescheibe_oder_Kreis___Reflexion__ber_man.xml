@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="161_final-PRAGER_Christian_Jadescheibe_oder_Kreis___Reflexion__ber_man" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jadescheibe oder Kreis – Reflexion über manuelle und automatisierte Erkennung von Schriftzeichen der vorspanischen Mayakultur</title>
+                <author>
+                    <persName>
+                        <surname>Prager</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Bonn, Abteilung für Altamerikanistik, Deutschland</affiliation>
+                    <email>cprager@uni-bonn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mara</surname>
+                        <forename>Hubert</forename>
+                    </persName>
+                    <affiliation>Universität Heidelberg, Interdisziplinäres Zentrum für wissenschaftliches Rechnen, Heidelberg</affiliation>
+                    <email>hubert.mara@iwr.uni-heidelberg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bogacz</surname>
+                        <forename>Bartosz</forename>
+                    </persName>
+                    <affiliation>Universität Heidelberg, Interdisziplinäres Zentrum für wissenschaftliches Rechnen, Heidelberg</affiliation>
+                    <email>bartosz.bogacz@iwr.uni-heidelberg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Feldmann</surname>
+                        <forename>Felix</forename>
+                    </persName>
+                    <affiliation>Universität Heidelberg, Interdisziplinäres Zentrum für wissenschaftliches Rechnen, Heidelberg</affiliation>
+                    <email>felix.feldmann@iwr.uni-heidelberg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-12T11:01:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Epigraphie</term>
+                    <term>automatisierte Zeichenerkennung</term>
+                    <term>Mayaschrift</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Artefakte</term>
+                    <term>Computer</term>
+                    <term>Bilder</term>
+                    <term>3D-Bilder</term>
+                    <term>Sprache</term>
+                    <term>texttragende Gegenstände</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>In unserem Vortrag fassen wir Ergebnisse einer laufenden, interdisziplinären Kooperation im Bereich digitaler Epigraphie zwischen dem Akademieprojekt "Textdatenbank und Wörterbuch des Klassischen Maya" (TWKM, Universität Bonn, Prager) und einem auf Schriftforschung spezialisierten Team am Interdisciplinary Center for Scientific Computing (IWR Heidelberg, Mara, Bogacz und Feldmann) zusammen (vgl. Bogacz, Feldmann, Prager, Mara 2018). Im Mittelpunkt der Kooperation zwischen Schriftforschung und angewandter Informatik steht die vollautomatische Erkennung von Zeichen der Hieroglyphenschrift der Klassischen Mayakultur in 3D (Zeitraum: 250 - 900 n.Chr., Region: südliches Mexiko, Guatemala, Belize und Honduras). Am IWR in Heidelberg wird dieses Verfahren seit mehreren Jahren erfolgreich bei der automatischen Erkennung und Transliteration von Keilschriftzeichen auf Tontafeln angewendet, die mittels eines hochauflösenden 3D-Scanners dokumentiert wurden (Bogacz, Gertz und Mara 2015; Bogacz, Klingmann, Mara 2017) (Abbildung 1) .</p>
+                <figure>
+                    <graphic n="1001" width="8.872361111111111cm" height="6.332361111111111cm" url="161_final-823b211faf8089f2a87efe430b062f67.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 1. Ergebnisauswahl einer automatisierten Abfrage des akkadischen Keilschriftzeichens /ta/ in einem Textkorpus. Korrekte Erkennungen sind grün markiert (Bogacz, Gertz und Mara 2015, Abb. 4).
+                    </head>
+                </figure>
+                <p>Im Zuge der Arbeit für die Textdatenbank und das digitale Wörterbuch des Klassischen Maya hat das Projekt Mayainschriften in 3D dokumentiert und zusammen mit den Projektpartnern am IWR Möglichkeiten getestet, ob die aus rund 1000 Elementen bestehende Hieroglyphenschrift der Maya ebenfalls dazu geeignet ist, automatisiert erkannt zu werden. Der wesentlichste Unterschied zu aktuellen Vorgehensweisen in der digitalen Epigraphie, denen typischerweise die manuelle Kodierungen und Verlinkung der Texte (z.B. mit Hilfe von XML TEI, RDF), sowie darauf aufbauende korpuslinguistische Analysen zu Grunde liegen (vgl. Diehr et al. 2018 zum Klassischen Maya; Chiarcos et al. 2018 am Beispiel des Sumerischen Textkorpus), ist der weitgehend vollautomatische Ansatz auf Bilddaten (Abbildung 2). In der konkreten Anwendung handelt es sich um Krümmungsvisualisierungen, die aus 3D-Messdaten berechnet werden. In diesem Sinne entsteht eine Optical Character Recognition (OCR) für Schrift in 3D. Ein Ziel der Kooperation ist es mit Hilfe dieses automatisierten Verfahrens einen auf der Zeichenmorphologie basierenden Katalog der Mayaschriftzeichen einschließlich ihrer Varianten automatisiert zu erstellen. </p>
+                <figure>
+                    <graphic n="1002" width="6.208888888888889cm" height="2.557638888888889cm" url="161_final-9347a52f607819db3216129312c2617c.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="6.173611111111111cm" height="2.54cm" url="161_final-8081e87ce5de61f47f59a3bd1a5adb56.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 2. Beispiel für automatische Zeichenerkennung der Hieroglyphe /chi/ aus der Dresdner Mayahandschrift mit Hilfe eines 
+                        <hi rend="italic" xml:space="preserve">Histogram of Oriented Gradients </hi>(HOG) (Feldmann, Bogacz, Prager, Mara 2017, Abb. 3).
+                    </head>
+                </figure>
+                <p>Wir präsentieren Methoden, Herausforderungen und Ergebnisse und zeigen am Material auf, wo wir Fortschritte und Durchbrüche, aber auch (aktuell) Grenzen bei der (voll)automatisierten Erkennung von Maya-Schriftzeichen festgestellt haben. Fokussierend auf Differenzen zwischen manueller und automatischer Zeichenbestimmung ziehen wir Schlussfolgerungen für die Erforschung der Maya-Schrift und die angewandte Informatik.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Geburtsstunden und -wehen der digitalen Epigraphie des Klassischen Maya</head>
+                <p>Die digitale Epigraphie des Klassischen Maya erlebte ihre Geburtsstunde zu Beginn des Kalten Krieges, als sowjetische Forscher elektronische Rechenmaschinen einsetzten um das Rätsel der Mayaschrift zu lösen. Wenige Jahre zuvor veröffentlichte ein damals führender deutscher Experte für die Maya-Hieroglyphen, die Entschlüsselung der Mayaschrift sei nach über fünfzig Jahren vergeblicher Arbeit ein unlösbares Problem (Schellhas 1945). Nur fünfzehn Jahre später verkündeten sowjetische Mathematiker und Archäologen, dass ihnen gemeinsam mit Hilfe eines Elektronenmaschinenrechners innerhalb von vierzig Stunden die vollständige Entzifferung und Übersetzung der Maya-Handschriften gelungen sei (Sobolev 1961; O'Kane 1962). Für die maschinelle Verarbeitung übertrug man die Texte von zwei erhaltenen Maya-Handschriften mit Hilfe von Nummernschlüsseln in ein maschinenlesbares Format und speicherte sie über Lochkarten in der Rechenmaschine. In Minutenschnelle prozessierte der Rechner das Datenmaterial und erzeugte Häufigkeits-, Vorkommens- und Kookkurrenzanalysen der Schriftzeichen, Zeichenkombinationen, Wörter und ganzen Wortfolgen. Die Ergebnisse der lexikometrischen Erhebung wurde mit Häufigkeiten von Silben, Silbenkombinationen, Wörtern und Sätzen aus yukatekisch-sprachigen und in lateinischer Schrift aufgezeichneten Texten und Wörterbüchern aus dem 16. und 17. Jahrhundert verglichen und korreliert. Die Grundannahmen des Forscherteams waren jedoch falsch, der Versuch das Problem der Mayaschrift maschinell zu lösen, galt schon kurz nach seiner Veröffentlichung als gescheitert (Schlenther 1964). </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Digitaler Dornröschenschlaf oder wie das Rätsel doch gelöst wurde</head>
+                <p>Weitere Versuche die Mayaschrift digital zu erforschen folgten Mitte 1960 (Rendón 1965), dann erst wieder in den 1980er Jahren (Ringle und Smith-Stark 1996). Beide Projekte beschränkten sich darauf Konkordanzen einzelner Hieroglyphen zu kompilieren. Keines der Projekte hatte jedoch einen nennenswerten Impakt für die Forschung: die Anfang der 1960er Jahre begonnene digitale Epigraphik des Klassischen Maya fiel in einen Dornröschenschlaf, aus der sie erst wieder durch das Forschungsprojekt Textdatenbank und Wörterbuch des Klassischen Maya erweckt wurde (Prager et al. 2016). Die Entzifferung der Mayaschrift gelang in den vergangenen 50 Jahren gänzlich ohne komputationelle Hilfsmittel. Wegweisend dazu waren Arbeiten des Ägyptologen Juri Knorozov (1956). Aufgrund der Zeichenzahl schloss er daraus, dass es sich bei der Mayaschrift um ein dem Altäyptischen vergleichbares Schriftsystem handelte und hatte dadurch den logo-syllabischen Charakter des Mayaschriftsystems erkannt. Die Entzifferung der Mayaschrift ist bis heute im Prozess, wir kennen etwa von 60% der rund 1000 verschiedenen Schriftzeichen den Lautwert. Obschon die Ergebnisse des sowjetischen Teams Anfang der 1960er Jahre die Forschung nicht nachhaltig beeinflusste, war es aus heutiger Sicht das erste Projekt, das nicht nur interdisziplinär zusammenarbeitete, sondern EDV zur Lösung eines epigraphisch-linguistischen Problems herangezogen hatte.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Herausforderungen beim Verständnis des Maya-Schriftsystems: Graphematische und graphetische Herausforderungen für die Erkennung von Schriftzeichen</head>
+                <p>Bedeutend für den Durchbruch bei der Entzifferung war die Entdeckung des Prinzips der Zeichensubstitution, die auch den großen Variantenreichtum in der Mayaschrift erklärt. Abbildung 3 zeigt drei morphologisch unterschiedliche Graphe des Zeichens /pa/, die lediglich das gemeinsame, diagnostische Merkmal einer schraffierten Fläche aufweisen.</p>
+                <figure>
+                    <graphic n="1004" width="15.25763888888889cm" height="3.01625cm" url="161_final-d6690c9c10238df60cacf126ef79cb51.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 3. Sogenannte Standard-, Kopf- und Körpervariante des Zeichens für die Silbe /pa/ in der Mayaschrift (Marc Zender, 1999).
+                    </head>
+                </figure>
+                <p>Heute kennen wir eine Bandbreite an Schreib- und Gestaltungsprinzipien, womit nicht nur das einzelne Graphem, sondern auch Wörter des Klassischen Maya variantenreich realisiert wurden. Die Schreiber strebten ein Höchstmaß an visueller Prachtentfaltung und formaler Variation an. Eintönigkeit, Konformität und Wiederholung sollten vermieden werden, kalligraphische Spielarten bestimmten das Werk des Schreibers und stellen heute eine immense Herausforderung für die automatische Erkennung dar.  </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Automatisiertes Suchen von Mayaschriftzeichen: erste Ergebnisse</head>
+                <figure>
+                    <graphic n="1005" width="15.169444444444444cm" height="14.552083333333334cm" url="161_final-4fc41c0a3546fd4860b985acb9bf4f82.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 4. Ähnlichkeitsnetzwerk von Zeichen der Mayaschrift, die der Algorithmus vollautomatisch erkannt und verlinkt hat (Bartosz Bogacz et al. 2018).
+                    </head>
+                </figure>
+                <p>Mit dem heutigen Stand der Technik in Form von Rechenleistung und Methoden der Bildverarbeitung, Mustererkennung und Maschinellem Lernen konnten wir zeigen, dass die manuellen Entzifferungen der 1980er Jahre in Algorithmen abgebildet werden können. Dabei ist anzumerken, dass z.B. die berechneten Ähnlichkeitsmaße mit Arbeitsplatzrechnern innerhalb weniger Minuten bestimmt werden können. Dies ermöglicht das Testen verschiedener Hypothesen über Zeichenähnlichkeiten in Form von Änderungen an Parametern und Kombinationen von unterschiedlichen Algorithmen. Hierbei wird der bereits in der digitalen Erforschung von Keilschrifttafeln angewendete 
+                    <hi rend="italic">Multiscale Integral Invariant Filter</hi> (MSII) eingesetzt um Schriftzeichen in 3D-Objekten zu isolieren. Die 3D-Objekte werden in diesem Verfahren in 2D umgesetzt und mit Hilfe von Projektionsprofilen segmentiert, um ein Gitter aus Spalten und Zeilen zu erzeugen. Anschließend werden die Hieroglyphenblocks selbst nach dem Zufallsprinzip segmentiert, wobei Hintergrund und Vordergrund aufgrund der Oberflächenkrümmung der ursprünglichen 3D-Oberfläche getrennt werden. Die abgerufenen Zeichen werden zunächst nach ihrer Größe zu einem Satz gängiger Größen zusammengefasst. Für jede Glyphe wird ein auf dem Histogramm der Gradienten (HOG) basierender Merkmalsvektor berechnet und für ein hierarchisches Clustering verwendet (Abb. 3). Ein bemerkenswertes Ergebnis ist das Erkennen von Linienelementen komplexer Zeichen, die auch in gestauchter Form vorkommen können. Damit verhält sich die vollautomatische 
+                    <hi rend="italic">Machine Learning Pipeline</hi> sehr ähnlich zur Diagnostik, wie sie von Experten angewendet wird. Mit den jetzigen Parametern werden gedoppelte und gestauchte Elemente der Mayaschrift korrekt identifiziert. Dies wird in einer Visualisierung der Zeichen in einem Graphen bzw. Ähnlichkeitsnetzwerk besonders deutlich. Das System errechnet die Grenzen der Hieroglyphenblöcke (Abbildung 4) und kann zwischen Bild- und Textinformationen unterscheiden. 
+                </p>
+                <p>Das Datenmaterial für unsere Experimente stammt mit einer Tafel aus Cancuen und einer anderen Tafel aus dem Fundort La Corona zudem aus unterschiedlichen Epochen und Regionen. Durch die Verwendung von hoch-aufgelösten 3D-Messdaten handelt es sich hierbei um digitale Primärquellen im Unterschied zu (retro-)digitalisierten Handzeichnungen, die eine Interpretation beinhalten, und somit eher als interpretierte Sekundärquellen zu verstehen sind.</p>
+                <p>Im erzeugten Ähnlichkeitsnetzwerk der Primärquellen ist klar zu erkennen, dass Übereinstimmungen bei konstanten Elementen wie Zahlzeichen verbunden werden, während komplexere Zeichen in geschlossenen Clustern gezeigt werden, die dem Inschriftenträger entsprechen. Bei erodierten Zeichen im gleichen Cluster wurden korrekte Vorschläge gemacht (Abbildung 4, links). Deutlich werden Verbindungen aufgezeigt zu denen bereits Vermutungen über Übereinstimmungen vorliegen (Abbildung 4, rechts). Bei sauber gearbeiteten Schreibungen ohne Abweichungen ist die Identifizierung immer perfekt und basiert auf den diagnostischen Elementen eines Zeichens. Dies entspricht der intuitiven Analyse durch einen Experten.</p>
+                <!--<p>
+                    <hi style="font-size:12pt" xml:space="preserve">             </hi>
+                    <hi style="font-size:12pt" xml:space="preserve">               </hi>
+                    
+                </p>-->
+                <figure>
+                    <graphic n="1006" width="5.767916666666666cm" height="5.291666666666667cm" url="161_final-0c242ccab42c611355e96126d5c30e77.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 5. Korrekte Rekonstruktion des Silbenzeichens /na/, das im oberen Fall fast gänzlich verloren ist.
+                    </head>
+                </figure>
+                <figure>
+                    <graphic n="1007" width="6.103055555555556cm" height="4.92125cm" url="161_final-5188303fa677a079da44d3542f73d845.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 6. korrekte Übereinstimmung identischer Zeichen. Grafik: Bartosz Bogacz, 2018.
+                    </head>
+                </figure>
+                <!--
+                <table rend="rules">
+                    <row>
+                        <cell rend="center"></cell>
+                        <cell rend="center"></cell>
+                    </row>
+                </table>
+                -->
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schlussfolgerung</head>
+                <p>Aus der Sicht der angewandten Informatik ist die Erkennung von Mayaschriftzeichen eine interessante Herausforderung, da die Grundwahrheit nicht bekannt ist. Weil die digitale Beschreibung und Verarbeitung der Zeichen kontinuierlich verbessert wird, kann das Wissen über die Zeichen immer weiter an die Grundwahrheit angenähert werden. Damit entsteht ein Spannungsfeld in dem sich die Entwicklung von Algorithmen und die Entwicklung von geisteswissenschaftlichen Fragestellungen gegenseitig beeinflussen. Dabei kommt es immer wieder zu analytischen hermeneutischen Fragen über die Anwendbarkeit der neuesten Entwicklungen in der Informatik. Insbesondere die – in anderen Anwendungsgebieten – sehr erfolgreichen 
+                    <hi rend="italic">Convolutional Neural Networks</hi> bzw. 
+                    <hi rend="italic">Deep Learning</hi> scheinen auf Grund der relativ geringen Datenmengen zur Zeit nicht direkt anwendbar. Basierend auf den aktuellsten positiven Ergebnissen sind wir zuversichtlich, dass hier neue Methoden für die digitale Epigraphie in Arbeit sind und Synergien zwischen Gedächtnisleistung, klassischem 
+                    <hi rend="italic">Machine Learning</hi> und 
+                    <hi rend="italic">Deep Learning</hi> zu weiteren Verbesserungen führen werden.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Bogacz, Bartosz / Gertz, Michael / Mara, Hubert (2015)</hi>: <hi rend="italic">"Character Retrieval of Vectorized Cuneiform Script"</hi>, in: 13th IAPR International Conference on Document Analysis and Recognition (ICDAR2015) <ref target="https://www.researchgate.net/publication/281781820_Character_Retrieval_of_Vectorized_Cuneiform_Script">https://www.researchgate.net/publication/281781820_Character_Retrieval_of_Vectorized_ Cuneiform_Script</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bogacz, Bartosz / Feldmann, Felix / Prager, Christian / Mara, Hubert (2018)</hi>: <hi rend="italic">"Visualizing Networks of Maya Glyphs by Clustering Subglyphs"</hi>, in: Sablatnig, Robert et al. (eds): Eurographics Workshop on Graphics and Cultural Heritage. Geneva: The Eurographics Association 105-111 <ref target="http://doi.org/10.2312/gch.20181346">http://doi.org/10.2312/gch.20181346</ref> [letzter Zugriff 12. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bogacz, Bartosz / Klingmann, Maximilian / Mara, Hubert (2017)</hi>: <hi rend="italic">"Automatic Transliteration of Cuneiform from Parallel Lines with Sparse Data"</hi>, in: 14th IAPR International Conference on Document Analysis and Recognition (ICDAR2017) <ref target="https://www.researchgate.net/publication/321491564_Automating_Transliteration_of_Cuneiform_from_Parallel_Lines_with_Sparse_Data">https://www.researchgate.net/publication/321491564_Automating_Transliteration_of_ Cuneiform_from_Parallel_Lines_with_Sparse_Data</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chiarcos, Christian / Pagé-Perron, Émile / Khait, Ilya / Schenk Niko / Reckling, Lucas (2018)</hi>: <hi rend="italic">"Towards a Linked Open Data Edition of Sumerian Corpora"</hi>, in: Calzolari, Nicoletta et al.: Proceedings of the Eleventh International Conference on Language Resources and Evaluation, LREC 2018, Miyazaki, Japan, May 7-12, 2018. Paris: European Language Resources Association 2437-2444. <ref target="http://www.lrec-conf.org/proceedings/lrec2018/pdf/862.pdf">http://www.lrec-conf.org/proceedings/lrec2018/pdf/862.pdf</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Diehr, Franziska / Brodhun, Maximilian / Gronemeyer, Sven / Diederichs, Katja / Prager, Christian / Wagner, Elisabeth / Grube, Nikolai (2018)</hi>: <hi rend="italic">"Ein digitaler Zeichenkatalog als Organisationssystem für die noch nicht entzifferte Schrift der Klassischen Maya"</hi>, in: Wartena, Christian et al. (eds): Knowledge Organization for Digital Humanities: Proceedings of the 15th Conference on Knowledge Organization WissOrg’17 of the German Chapter of the International Society for Knowledge Organization (ISKO). Berlin: Freie Universität Berlin 37–43 doi: <ref target="https://doi.org/10.17169/FUDOCS_document_000000028863">https://doi.org/10.17169/FUDOCS_document_000000028863</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Feldmann, Felix / Bogacz, Bartosz / Prager, Christian / Mara, Hubert (2017)</hi>: <hi rend="italic">"Histogram of Oriented Gradients for Maya Glyph Retrieval"</hi>, in: Schreck, Tobias et al. (eds): Eurographics Workshop on Graphics and Cultural Heritage. Geneva: The Eurographics Association 115–118 <ref target="http://dx.doi.org/10.2312/gch.20171301">http://dx.doi.org/10.2312/gch.20171301</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Knorozov, Yuri (1956)</hi>: <hi rend="italic">"New Data on the Maya Written Language"</hi>, in: Journal de la Société des Américanistes 45: 209–217<ref target="https://www.persee.fr/doc/jsa_0037-9174_1956_num_45_1_961"> https://www.persee.fr/doc/jsa_0037-9174_1956_num_45_1_961</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">O'Kane, Lawrence (1962)</hi>: <hi rend="italic">"Computers Solve Mayan Writings; Soviet Mathematicians Use Devices for Translation Original Writing System Glossaries Developed Samples of Translations Expert Reserves Judgment"</hi>, in: The New York Times, 15 April <ref target="http://query.nytimes.com/gst/abstract.html?res=9800EEDA143DE532A25756C1A9629C946391D6CF">http://query.nytimes.com/gst/abstract.html?res=9800EEDA143DE532A25756C1A9629C946391D6CF</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rendón, Juan / Spescha, Amalia (1965)</hi>: <hi rend="italic">"Nueva clasificación plástica de los glifos mayas"</hi>, in: Estudios de Cultura Maya 5: 189-252 <ref target="http://dx.doi.org/10.19130/iifl.ecm.1965.5.668">http://dx.doi.org/10.19130/iifl.ecm.1965.5.668</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ringle, William M. / Thomas C. Smith-Stark (1996)</hi>: <hi rend="italic">A Concordance to the Inscriptions of Palenque, Chiapas, Mexico</hi> (= Middle American Research Institute Publication 62) New Orleans, LA: Middle American Research Institute, Tulane University.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schellhas, Paul (1945)</hi>: <hi rend="italic">"Die Entzifferung der Mayahieroglyphen: ein unlösbares Problem?"</hi>, in: Ethnos 10(1): 44–53 <ref target="https://doi.org/10.1080/00141844.1945.9980637">https://doi.org/10.1080/00141844.1945.9980637</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schlenther, Ursula (1964)</hi>: <hi rend="italic">"Kritische Bemerkungen zur kybernetischen Entzifferung der Maya-Hieroglyphen (mit 10 Abbildungen und 3 Tabellen"</hi>, in: Ethnographisch-archäologische Zeitschrift 5(5): 111-139.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sobolev, Sergei L'vovich (1961)</hi>: <hi rend="italic">"Die vollständige Entzifferung der Maya-Handschriften durch mathematische Methoden"</hi>, in: Wissenschaftliche Zeitschrift der Humboldt Universität 10(4–5): XVII–XXI.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zender, Marc (1999)</hi>: <hi rend="italic">Diacritical Marks and Underspelling in the Classic Maya Script: Implications for Decipherment</hi>. M.A. Thesis. Department of Archaeology, University of Calgary <ref target="http://dx.doi.org/10.5072/PRISM/19313">http://dx.doi.org/10.5072/PRISM/19313</ref> [letzter Zugriff 28. September 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

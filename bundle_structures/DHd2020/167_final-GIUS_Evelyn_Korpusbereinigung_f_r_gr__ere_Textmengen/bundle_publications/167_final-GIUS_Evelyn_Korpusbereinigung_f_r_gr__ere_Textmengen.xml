@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="167_final-GIUS_Evelyn_Korpusbereinigung_f_r_gr__ere_Textmengen" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Korpusbereinigung für größere Textmengen.</title>
+<title type="sub">Eine (kurze) Problematisierung und ein Lösungsansatz für Duplikate</title>
+</title>
+<author>
+<persName>
+<surname>Adelmann</surname>
+<forename>Benedikt</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>adelmann@informatik.uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Gius</surname>
+<forename>Evelyn</forename>
+</persName>
+<affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+<email>gius@linglit.tu-darmstadt.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-12-19T14:53:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Korpuserstellung</term>
+<term>Dubletten</term>
+<term>Bereinigung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Umwandlung</term>
+<term>Sammlung</term>
+<term>Bereinigung</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Korpuserstellung in der Literaturwissenschaft</head>
+<div rend="DH-Heading2" type="div2">
+<head>Eine neue Praxis</head>
+<p style="text-align:left; ">
+<anchor xml:id="ch340jjzq5nj"/>Die Zusammenstellung von Primärtexten als Forschungsgrundlage ist in der Literaturwissenschaft Alltagsgeschäft. Die beiden Standardfälle der (nicht-digitalen) Korpusanalyse gelten in Bezug auf die Korpuszusammensetzung als wenig problematisch:
+                    </p>
+<list type="ordered">
+<item>Wenn die Forschungsfrage eine spezifische Textgrundlage erfordert, steht das Korpus von vornherein fest (z. B. alle Romane von Thomas Mann für eine Studie zur Repräsentation von Krankheit in Manns Romanwerk).</item>
+<item>In Korpora kanonischer Texte werden weitergehende Fragen untersucht (z. B. ausgewählte Texte aus dem Realismus zur Untersuchung des Ausdrucks von Idylle im Realismus).</item>
+</list>
+<p style="text-align:left; ">Mit der Verfügbarkeit digitaler Texte wurde die Praxis der Korpuserstellung jedoch erweitert und es wurde offensichtlich, dass sie nicht ohne weiteres in die bestehende literaturwissenschaftliche Disziplinarmatrix (Kuhn 1970) integriert werden kann. Viele der digital verfügbaren Texte sind nämlich weder kanonisch noch repräsentativ, die Qualität einzelner Texte ist aus philologischer Sicht oft fragwürdig und ein Korpus enthält trotz der Vielzahl der verfügbaren digitalen Texte selten die gesamte Population relevanter Texte, sondern nur eine Teilmenge.<ref n="1" target="ftn1"/>
+</p>
+<p style="text-align:left; ">Über die philologisch einwandfreie Auswahl von Texten hinaus birgt die Kuration von Korpora weitere Herausforderungen.<ref n="2" target="ftn2"/> Die vermutlich größte ist, sich einen Überblick über ein Korpus zu verschaffen, das mehr Texte enthält, als man lesen kann. Bei einer nicht von einem Einzelnen erfassbaren Textmenge kann selbst eine scheinbar einfache Aufgabe wie die Erkennung von Duplikaten unlösbare Probleme bereiten.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Ein exemplarisches Korpus</head>
+<p style="text-align:left; ">Der vorgestellte Ansatz wurde für ein Korpus entwickelt, das in einem Forschungsprojekt zur geschlechtsspezifischen Darstellung von Krankheit in literarischen Texten im Rahmen der Forschungskooperation hermA<ref n="3" target="ftn3"/> erstellt wurde. Ausgangspunkt war das Kolimo-Korpus, das mehr als 42.000 literarische und nicht-literarische deutsche Texte vor allem von 1880 bis 1930 aus drei großen Repositorien deutscher Texte enthält: dem Deutschen Textarchiv<ref n="4" target="ftn4"/>, dem TextGrid Repository<ref n="5" target="ftn5"/> und Projekt Gutenberg-DE<ref n="6" target="ftn6"/> (vgl. Herrmann &amp; Lauer 2017). Wir haben alle Prosatexte von 1870 bis 1920 ausgewählt, die ursprünglich auf Deutsch verfasst waren (vgl. Gius et al., 2019).
+                    </p>
+<p style="text-align:left; ">Im daraus resultierenden Korpus von mehr als 2.500 Texten mussten Artefakte behandelt werden, die durch unterschiedliche Digitalisierungsstrategien verursacht wurden. Nicht nur die Erhaltung von Sonderzeichen wie das recht häufige lange s (ſ) zwischen oder innerhalb der Repositorien war inkonsistent, sondern auch die Verwendung von Bindestrichen (Wortverbindung, Worttrennung an Zeilenumbruch, andere Bindestriche, Gedankenstriche) oder die Kodierung von Zeilenumbrüchen und Absätzen. Diese Probleme konnten mit einer relativ einfachen Heuristik angegangen werden.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Die Identifizierung von Duplikaten</head>
+<p style="text-align:left; ">Ein schwierigeres Problem ist die Frage der Duplikate: Insbesondere bei der Zusammenstellung eines Korpus aus verschiedenen Quellen kann es vorkommen, dass der gleiche Text mehrfach vorhanden ist. In der Regel ist es nicht erwünscht, mehr als eine Instanz desselben Textes im Korpus zu haben, da die Überrepräsentation einzelner Werke bei statistischen Analysen zu verzerrten Ergebnissen führen kann. Daher sollte die Identifizierung von Duplikaten ein wesentlicher Bestandteil der Korpuserstellung sein.</p>
+<p style="text-align:left; ">Dabei gibt es zwei Probleme: Erstens wächst die Anzahl der ungeordneten Werkpaare, die alle potenziell Duplikate sein könnten, quadratisch mit der Anzahl der Werke. In unserem Korpus mit gut 2.500 Texten müssten deshalb 3,1 Millionen Werkpaare überprüft werden. Zweitens ist auch für jedes einzelne Textpaar die Feststellung, ob es sich um Duplikate handelt, aufgrund von Metadaten- und Textinkonsistenzen eine nicht-triviale Aufgabe. Ansätze zur <hi rend="italic">text reuse detection</hi> (z. B. Bär et al. 2012) blenden den kombinatorischen Aspekt oft aus.
+                </p>
+<p style="text-align:left; ">Wir haben mit zwei Methoden zur automatischen Duplikatidentifizierung experimentiert. Beide sind Heuristiken für die Suche nach Werkpaaren, die Duplikate sind; sie lösen aber nicht das daran anschließende Problem, zu entscheiden, welche von mehreren Instanzen tatsächlich in das Korpus aufgenommen werden sollen.</p>
+<p style="text-align:left; ">Für die Evaluation wurden alle Duplikatkandidaten, die von mindestens einer der beiden Methoden gefunden wurden, manuell auf ihre Richtigkeit überprüft. Wir berichten über den Prozentsatz der automatisch als Duplikate identifizierten Paare, die tatsächlich Duplikate sind (Precision), und den Prozentsatz der tatsächlichen Duplikate, die automatisch identifiziert werden (Recall). Allerdings lässt sich der Recall nur exakt bestimmen, wenn alle 3,1 Millionen Werkpaare manuell untersucht werden. Als Annäherung verwenden wir daher stattdessen den Prozentsatz der bei der manuellen Prüfung identifizierten tatsächlichen Duplikate (Gesamtzahl: 355), die ebenfalls automatisch gefunden werden.<ref n="7" target="ftn7"/>
+</p>
+<p style="text-align:left; ">Die erste Methode basiert auf Metadaten und ist deshalb schnell genug, um alle ungeordneten Werkpaare im Korpus zu testen. Für jedes Werkpaar werden Autor*innen- und Titelinformationen verglichen. Was die Autor*innen-Informationen betrifft, so wird die sogenannte Edit-Distanz (Levenshtein 1965) der vollständigen Namen der Autor*innen berechnet; die Edit-Distanz ist die kleinste Anzahl von Zeicheneinfügungen, Zeichenlöschungen und Zeichenersetzungen („Edits“), mit der der erste Autor*innen-Name in den zweiten umgewandelt werden kann.</p>
+
+<figure>
+  <graphic height="10.054166666666667cm" n="1001" rend="inline" url="167_final-bd4c95c048818278f3936691b0a46fc9.png" width="15.927916666666667cm"/>
+  <head> Abbildung 1: Edit-Distanzen Autor*innen-Namen (Schwellenwert bei 2)</head>
+</figure>
+<p style="text-align:left; ">Für die Titelinformationen haben wir das Maß leicht modifiziert: Wir verwenden die kleinste Anzahl von Edits, die einen der Titel in einen 
+                    <hi rend="italic">Teil</hi> (d. h. Teilzeichenkette) des anderen verwandeln können, mit der zusätzlichen Einschränkung, dass ganze Wörter vollständig abgeglichen werden müssen, um unangemessen kurze Entfernungswerte zu vermeiden (sonst ließe sich beispielsweise „Tot“ nach nur zwei Edits als Teilzeichenkette von „Das Jüngste Gericht“ finden, hätte also Abstand 2).<ref n="8" target="ftn8"/> Durch dieses modifizierte Maß sollen hohe Titeldistanzen vermieden werden, wenn Untertitel in nur einem der beiden Titel enthalten sind.<ref n="9" target="ftn9"/>
+</p>
+  <figure>
+    <graphic height="10.301111111111112cm" n="1002" rend="inline" url="167_final-36605bee51bf7d8f0fc0b8068b4e9c49.png" width="15.927916666666667cm"/>
+    <head>Abbildung 2: Kombinierte Edit-Distanzen für Autor*innen und Titel</head>
+  </figure>
+<p style="text-align:left; ">Zwei Texte werden als Duplikate betrachtet, wenn der Abstand sowohl beim Autor*innen-Namen als auch beim Titel höchstens so hoch wie der Schwellenwert ist. Bei einem Schwellenwert von 2 wurden 672 Duplikatpaare mit einer Precision von 51,9 % und einem Recall von 98,3 % identifiziert. Unter den sechs nicht identifizierten Duplikaten finden sich beispielsweise zwei Werke von Karl May mit abweichender Behandlung von Sammelband-/Einzelwerktitel („Ardistan und Dschinnistan. 1. Band“ vs. „Der Mir von Dschinnistan“; „Satan und Ischariot III“ vs. „Im Todesthale“) und ein Fall, in dem bei einem der beiden Werke fälschlich der Name des Autors als Titel eingetragen war (Ferdinand von Saar, „Vae victis!“).</p>
+  <figure>
+    <graphic height="10.301111111111112cm" n="1003" rend="inline" url="167_final-4eeb448cfac3e45f96dd53a243188a0e.png" width="15.927916666666667cm"/>
+    <head>Abbildung 3: Edit-Distanzen in Titeln, wo Autor*innen-Namen max. Edit-Distanz 2 aufweisen</head>
+  </figure>
+<p style="text-align:left; ">Das zweite Verfahren berechnet die Edit-Distanzen von Volltexten. Da dies eine zeitaufwändige Operation ist, beschränken wir uns auf den Vergleich von Texten, bei denen der Autor*innen-Name eine Edit-Distanz von maximal zwei hat. Manuelle Überprüfungen zeigten, dass diese Schwelle alle Rechtschreibfehler und Varianten in unseren Daten erfasst, verschiedene Autor*innen mit ähnlichen Namen jedoch ausnimmt. Für Volltexte verwenden wir wieder Teilzeichenketten-Edit-Distanzen, da ein Text mehr oder weniger vollständig in einem anderen enthalten sein kann (z. B. bei Anthologien). Zugunsten der Rechenzeiten verwenden wir wortbezogene Distanzen mit Insertionskosten gleich Deletionskosten gleich Substitutionskosten gleich eins.<ref n="10" target="ftn10"/>
+</p>
+<figure>
+  <graphic height="12.276666666666667cm" n="1004" rend="inline"
+	   url="167_final-abe49b09db87adca8000aac1a63d7c89.png"
+	   width="15.927916666666667cm"/>
+  <head> Abbildung 4: Edit-Distanzen der Volltexte</head>
+</figure>
+<p style="text-align:left; ">Zwei Texte gelten als Duplikate, wenn die Teilzeichenketten-Edit-Distanzen für beide Richtungen (1 als Teilzeichenkette von 2 oder umgekehrt), dividiert durch die Länge des jeweils als Teilzeichenkette einzubettenden Texts, unter 15 % liegt. Auf diese Weise können wir 307 Duplikate mit einer Precision von 98 % und einem Recall von 84,8 % bestimmen.</p>
+<p style="text-align:left; ">678 Paare wurden so durch mindestens ein Verfahren als Duplikate identifiziert (Precision: 52,4 %),<ref n="11" target="ftn11"/> 301 durch beide (Precision: 98 %, Recall: 83,1 %). Letzteres ist bedeutsam für praktische Anwendungen, bei denen man mit Methode 1 kostengünstig Werkpaare auswählen möchte, die anschließend mit der teuren Methode 2 getestet werden sollen.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit</head>
+<p style="text-align:left; ">Die Digitalisierung hat die Arbeit mit literarischen Korpora erheblich gefördert. Die schiere Menge an Texten in einem Korpus muss sowohl technisch als auch konzeptionell unterstützt werden. Für die Erreichung dieser Ziele ist es umso wichtiger, Qualitätskriterien für die Zusammenstellung von Korpora im Hinblick auf die verfügbaren Daten, d. h. für Texte aus heterogenen Quellen unterschiedlicher Qualität, zu entwickeln und umzusetzen. Zusätzlich zu diesen noch zu entwickelnden Kriterien für die wissenschaftliche Qualitätssicherung können einige pragmatische Entscheidungen die Qualität eines Korpus und seiner Texte in Fällen mit geringer Daten- und insbesondere Metadatenqualität erheblich verbessern.</p>
+<p style="text-align:left; ">Der vorgestellte Ansatz zum Umgang mit Duplikaten kann zusammen mit den genannten Vorverarbeitungsschritten ein wichtiger erster Schritt in diesem Prozess sein.</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Für verschiedene Typen von Datensammlungen oder Korpora vgl. Schöch (2017).
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+ Einige der Probleme und Lösungsmöglichkeiten wurden in Gius et al. (2019) vorgestellt, für einen breiteren Überblick vgl. Lauer &amp; Herrmann (2018).
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+ Vgl. <ref target="https://www.herma.uni-hamburg.de">https://www.herma.uni-hamburg.de</ref> und Gaidys et al. (2017) [alle Links in diesem Beitrag wurden am 15.09.2019 das letzte Mal abgerufen].
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Vgl. 
+      <ref target="http://www.deutschestextarchiv.de/">http://www.deutschestextarchiv.de/</ref>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      Vgl. 
+      <ref target="https://textgridrep.org/">https://textgridrep.org/</ref>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+ Vgl. 
+ <ref target="https://www.gutenberg.org/wiki/DE_Hauptseite">https://www.gutenberg.org/wiki/DE_Hauptseite</ref> (Achtung: seit 2018-02 nicht mehr über deutsche IP-Adressen abrufbar).
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      Unter den manuell geprüften Werkpaaren finden sich keine Duplikate innerhalb DTA, zwei innerhalb TextGrid und 46 innerhalb Gutenberg sowie 23 zwischen DTA und TextGrid, 27 zwischen DTA und Gutenberg und 257 zwischen TextGrid und Gutenberg.
+    </note>
+    <note n="8" rend="footnote text" xml:id="ftn8">
+      Formal: Edit-Distanzen auf Wortebene mit folgenden Kosten: Einfügungen, Löschungen: an Anfang und Ende der Wortsequenzen 0, sonst Anzahl Zeichen im eingefügten/gelöschten Wort Substitutionskosten: zeichenbasierte Edit-Distanzen
+    </note>
+    <note n="9" rend="footnote text" xml:id="ftn9">
+      Wir haben bewusst auf spezialisierte Heuristiken für Untertitel, Schreibweisealternativen und andere für dieses Korpus spezifische Titelabweichungsphänomene verzichtet.
+    </note>
+    <note n="10" rend="footnote text" xml:id="ftn10">
+      Ob die Edit-Distanz über einem vorgegebenen Schwellwert liegen würde, lässt sich außerdem in einigen Fällen auch ohne deren tatsächliche Berechnung (und damit erheblich effizienter) feststellen (Tateishi &amp; Kusui 2008), allerdings waren wir für diesen Beitrag an exakten Maßen interessiert. Außerdem ist die dortige Formel auf vollständige Edit-Distanzen und nicht auf Teilzeichenfolgen-Distanzen ausgelegt.
+    </note>
+    <note n="11" rend="footnote text" xml:id="ftn11">
+      Eine Recall-Angabe ist hier nicht sinnvoll, da die manuelle Auswertung sich genau auf diese Menge beschränkt.
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Bär, Daniel / Zesch, Torsten / Gurevych, Iryna </hi> (2012): Text reuse detection using a composition of text similarity measures. 
+  <hi rend="italic">Proceedings of COLING 2012</hi>, S. 167–184.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Gaidys, Uta / Gius, Evelyn / Jarchow, Margarete / Koch, Gertraud / Menzel, Wolfgang / Orth, Dominik / Zinsmeister, Heike </hi> (2017): Project Description. HermA: Automated Modelling of Hermeneutic Processes. In 
+  <hi rend="italic">Hamburger Journal für Kulturanthropologie</hi> 7. S. 119–123.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Gius, Evelyn / Krüger, Katharina / Sökefeld, Carla </hi> (2019): Korpuserstellung als literaturwissenschaftliche Aufgabe. In 
+  <hi rend="italic">DHd2019 Book of Abstracts</hi>.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Herrmann, Berenike / Lauer, Gerhard</hi> (2017): Das „Was-bisher-geschah“ von KOLIMO. Ein Update zum Korpus der literarischen Moderne. In 
+  <hi rend="italic">DHd 2017 Digitale Nachhaltigkeit Book of Abstracts</hi>. S. 107–111.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Kuhn, T. S.</hi> (1970). 
+  <hi rend="italic">The Structure of scientific revolutions</hi>. 2nd ed., enlarged. Chicago: Chicago Univ. Press.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Lauer, Gerhard / Herrmann, Berenike </hi> (2018): Korpusliteraturwissenschaft. Zur Konzeption und Praxis am Beispiel eines Korpus zur literarischen Moderne. 
+  <hi rend="italic">Osnabrücker Beiträge zur Sprachtheorie</hi> 92. 7–35
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Levenshtein, Vladimir </hi> (1965): Binary codes capable of correcting deletions, insertions, and reversals. Englische Übersetzung in: 
+  <hi rend="italic">Soviet Physics Doklady</hi>, Bd. 10, Nr. 8, S. 707–710, 1966.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Schöch, Christof </hi> (2017): Aufbau von Datensammlungen. In: Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (Hrsg.): 
+  <hi rend="italic">Digital Humanities: eine Einführung.</hi> Stuttgart: J. B. Metzler Verlag. S. 223–233.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Tateishi, Kenji / Kusui, Dai </hi> (2008): Fast Duplicated Documents Detection using Multi-level Prefix-filter. 
+  <hi rend="italic">Proceedings of the Third International Joint Conference on Natural Language Processing</hi>, Bd. II.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

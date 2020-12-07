@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="114_final-MEYER_SICKENDIEK_Burkhard_Requirements_on_the_Punctuation_Re" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Requirements on the Punctuation Reconstruction for the Translation of Post-modern Poetry</title>
+<author>
+<persName>
+<surname>Meyer-Sickendiek</surname>
+<forename>Burkhard</forename>
+</persName>
+<affiliation>Freie Universität Berlin, Deutschland</affiliation>
+<email>bumesi@zedat.fu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Baumann</surname>
+<forename>Timo</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>baumann@informatik.uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Hussein</surname>
+<forename>Hussein</forename>
+</persName>
+<affiliation>Freie Universität Berlin, Deutschland</affiliation>
+<email>hussein@zedat.fu-berlin.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-11T07:57:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Postmodern Poetry</term>
+<term>Translation</term>
+<term>Punctuation Reconstruction</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Übersetzung</term>
+<term>Modellierung</term>
+<term>Stilistische Analyse</term>
+<term>Literatur</term>
+<term>Ton</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Punctuation is an important and cohesive device in all kinds of written discourse. Standard marks used to separate words, phrases, clauses and sentences for the purpose of cohesion. Already [2][5][1] pointed out that through punctuation marks, one can signal different information structures in written language. Regarding the translation of texts, we use such marks to identify the ends of sentences, closely related sentences or clauses, etc. This is why missing punctuation burdens the translations and forces the translator to go over the text several times to understand its meaning [10]. Understanding the uses and functions of punctuation marks, therefore, is extremely important for translators, as their purpose is to clarify the meaning of a particular construction within a text. On the other hand, modern poetry often disregarded such punctuations. Ever since Italian Futurism around 1900 spoke of the ‘parole in libertà’, i.e. the liberation of words from grammatical and syntactic limitations, modern poetry has hardly used punctuation. This lack of punctuation makes analysis, but also translation, more difficult. The only way to reconstruct this punctuation is by listening to the poems, i.e. by subsequently identifying sentence boundaries. However, this lack of punctuation can be found very often in modern and post-modern poetry, so the challenge is to recognize the phrase boundaries. We contribute in the paper an application towards the problem of identifying left-out punctuation in post-modern poetry, by proving that only a very simple type of punctuation - the semicolon - is needed to improve machine translation. This simple punctuation refers to phrase boundaries, the so-called “grammetrical units”, which Donald Wesling defined in his study “The Scissors of Meter” [11]. Such units must be identified in order to improve machine translation.</p>
+<p>The need for adding left-out punctuation becomes in case of
+creating machine translations obvious with regards to the poem “bitte
+verlassen sie diesen raum” (english: please leave this room) written
+by the German poet Nicolai Kobus [6] (Text A):</p>
+<p>&#160;</p>
+<p>bitte verlassen sie diesen raum</p>
+<p>so wie sie ihn vorfinden möchten</p>
+<p>danke möchten sie diesen raum</p>
+<p>vorfinden wie sie ihn verlassen</p>
+<p>haben bitte räumen sie alles so</p>
+<p>vorgefundene als wären sie</p>
+<p>verlassen worden danke sie</p>
+<p>möchten doch nicht daß man</p>
+<p>sie so verlassen im raum vor</p>
+<p>findet bitte seien sie für einen so</p>
+<p>verlassen vorgefundenen raum</p>
+<p>dankbar [...]</p>
+<p>&#160;</p>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">The challenge for the interpretation of this poem lies in the adequate identification of the line endings. These endings can only be identified correctly by listening to the poet's reading, which is possible because we got the audio version on the </hi>
+<hi rend="italic" style="font-size:12pt">lyrikline</hi>
+<hi style="font-size:12pt" xml:space="preserve"> [7] (the world's largest corpus of spoken (post-) modern poetry which also features translations for many of the poems) webpage. This  is  the  reason,  why  the  manual translation, made by Catherine Hales, is able to translate these endings in a correct manner (Text B):</hi>
+</p>
+<p>&#160;</p>
+<p>please leave this room</p>
+<p>in the state in which you would like</p>
+<p>to find it thank you would you like</p>
+<p>to find this room in the state in which</p>
+<p>you have left it please clear out</p>
+<p>everything thus found as though you</p>
+<p>had been left thank you you would not</p>
+<p>like somebody to find you left</p>
+<p>abandoned in the room now</p>
+<p>would you please be grateful for</p>
+<p>a room a space found in such</p>
+<p>an abandoned state (...)</p>
+<p>&#160;</p>
+<p>In the human translation or the target poem, made by Hales, there is just a little difference. This difference is caused by the missing punctuation. And it can basically be explained by the fact that Hales has chosen a different line arrangement. In terms of content, however, her translation is reproduced correctly. Since there is no specific translation system trained with poem data with/without punctuation (small amounts of training data), we used a Google machine translation (GMT) system [3]. When we compare this (human) translation with the GMT system, we recognize the difficulty of recognizing the sentence boundaries within the poem without punctuation (Text C):</p>
+<p>&#160;</p>
+<p>please leave this room</p>
+<p>as they would like to find him</p>
+<p>Thank you for wanting this room</p>
+<p>find out how to leave him</p>
+<p>please have everything clear</p>
+<p>found as if they were</p>
+<p>Thank you</p>
+<p>you do not want that one</p>
+<p>So leave them in the room</p>
+<p>please find one for you</p>
+<p>leave found space (...)</p>
+<p>&#160;</p>
+<p>Obviously, this machine translation (MT) becomes much better if we add the full punctuation marks to the source text, when listening to the audio of the poem (Text D):</p>
+<p>&#160;</p>
+<p>please leave this room</p>
+<p>as you would like him to find</p>
+<p>Thank you. Do you want this room</p>
+<p>find how they leave him</p>
+<p>to have? Please clear everything up</p>
+<p>found as if they were</p>
+<p>been left. thank you</p>
+<p>Do not want that one</p>
+<p>So leave them in the room</p>
+<p>please, please be for one</p>
+<p>leave found space</p>
+<p>grateful. (...)</p>
+<p>&#160;</p>
+<p>Punctuation is an essential aspect of poetry translations, as it is for discourse analysis in general [8]. Punctuation “gives a semantic indication of the relationship between sentences and clauses, which may vary according to languages”, as well as to translations [4].</p>
+<p>
+<hi style="font-size:12pt">A first step towards solving the problem of translation unpunctuated texts is the correct localization of the missing punctuation within such sentences and clauses. In the Google translation, which was completely without punctuation, we see that Google system translated every single line anew (Text C), ignoring the line-arrangement and the “enjambments”, when one phrase continues beyond the line, or continues from the previous line. This explains the translation error in the third line: Reading the line as a full sentence disregarding its character as an enjambment, the translation produces a full sentence (Thank you for wanting this room), which does not fit to the original (... danke. möchten sie diesen raum ...). However, this translation error will be improved if we add the missing punctuation to the machine translation, which could be identified as Text D.</hi>
+</p>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">It is hard to translate automatically without having information about the sentence boundaries and the punctuation as a discourse unit for meaning demarcation. But to what extent punctuation information has to be recovered for the translation of post-modern poetry? Which kind of information do we need to improve machine translation? Do the questions have to be distinguished from the statements? Or is the simple marking of phrase boundaries already sufficient? To answer these questions, we analysed unpunctuated German poems. There are 234 german-speaking poets on the </hi>
+<hi rend="italic" style="font-size:12pt">lyrikline</hi>
+<hi style="font-size:12pt" xml:space="preserve"> webpage reading a total of 2591 poems. A total of 733 German poems are translated to English which are used in this work. There are 98 German poems which do not contain any punctuation information. We analysed 120 poems in this work with a maximal punctuation information ratio of 0.05%. This process yields a total of 2924 lines out of which only 28 (0.009%) with punctuation information.</hi>
+</p>
+<p>The philological scholar of our project annotated the punctuation information manually by using text and audio information in the 120 poems, focusing on the intonation of poets reading their poems. In order to clarify the question which type of punctuation has to be added, we inserted two kinds of punctuation in the source text. In a first step, we focused on six different punctuation marks: full stop (.), comma (,), semicolon (;), colon (:), exclamation mark (!), and question mark (?). In a second step, we simplified this insertion by reducing these six marks to a single semicolon.</p>
+<p>The human reference translations are compared with the automatic translation of GMT system without/with consideration of punctuation information. The experiment consists of three tasks based on the GMT system:</p>
+<list type="unordered">
+<item>Task 1: Standard translations of original poems (without punctuation).</item>
+<item>Task 2: Translations with one level of punctuation information: replacement of all manually annotated punctuation information by one level of punctuation (;).</item>
+<item>Task 3: Translations with six punctuation information: consideration of the six manually annotated punctuation information (.,;:!?).</item>
+</list>
+<p>The translation enhancement should be observable from improved translation quality scores. The results are calculated by bilingual evaluation understudy (BLEU) [9] score, which used for evaluating the quality of text by translation. The BLEU score of tasks 1, 2, and 3 are 0.256, 0.275, and 0.280, respectively. The results indicate that we need just one type of punctuation - semicolon - to improve the scoring for automatic translations of post-modern poetry.</p>
+<p>Every generic translation system is trained with data in which segments are defined by end points. It is astonishing that even the addition of a semicolon to segmental boundaries is sufficient to improve machine translation. This also explains the central problem: machine translation does not fail because of mixing up questions and statements, but because of mixing up segmental units and enjambements.</p>
+<p>In our future work, we plan to train a specific system on translating unpunctuated poetry in order to compare the results with manual translations. The fact that we add punctuation signs on the basis of oral representations of the poems is acceptable when it comes to audio poems, in which the oral representation is an essential part of the poem as a piece of art, closely connected to the written form.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliography</head>
+<bibl>
+  <hi rend="bold">[1] Baker, M.</hi> (1994): In Other Words: A Course Book on Translation. London, New York: Routledge. 
+</bibl>
+<bibl>
+  <hi rend="bold">[2] Halliday, M. A. K.</hi> (1985): An Introduction to Functional Grammar. London: Edward Arnold. 
+</bibl>
+<bibl>
+  <hi rend="bold">[3] Han, S.</hi>: Free Google Translate API for Python. Available on https://pypi.org/project/googletrans/. Last accessed at 15. August 2019.
+</bibl>
+<bibl>
+  <hi rend="bold">[4] Hosseini-Maasoum, S. M. / Mahdiyan, M.</hi> (2012): Punctuation in Translation: The Unseen Side of the Coin. Mediterranean journal of social sciences, 3(11):25–32. 
+</bibl>
+<bibl>
+  <hi rend="bold">[5] Kirkman, J.</hi> (2006): Punctuation Matters: Advice on Punctuation for Scientific and Technical Writing. Routledge study guides. Routledge. 
+</bibl>
+<bibl>
+  <hi rend="bold">[6] Kobus, N.</hi> (2006): Hard cover: Gedichte. Ardey Verlag, Münster. 
+</bibl>
+<bibl>
+  <hi rend="bold">[7] Lyrikline Literaturwerkstatt Berlin</hi>: Lyrikline: listen to the poet. Available on www.lyrikline.org. Last accessed at 03. September 2019.
+</bibl>
+<bibl>
+  <hi rend="bold">[8] Newmark, P.</hi> (1988): A Textbook of Translation. Prentice Hall. 
+</bibl>
+<bibl>
+  <hi rend="bold">[9] Papineni, K. / Roukos, S. / Ward, T. / Zhu, W-J</hi> (2002): BLEU: A Method for Automatic Evaluation of Machine Translation. In Proceedings of the 40th Annual Meeting on Association for Computational Linguistics, ACL ’02, pages 311–318, Stroudsburg, PA, USA. Association for Computational Linguistics. 
+</bibl>
+<bibl>
+  <hi rend="bold">[10] Shiyab, S. M.</hi> (2017): Translation: Concepts and Critical Issues. Garant Publishers. 
+</bibl>
+<bibl>
+  <hi rend="bold">[11] Wesling, D.</hi> (1996): The Scissors of Meter: Grammetrics and Reading. University of Michigan Press.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

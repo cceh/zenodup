@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-079">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>RuCoCo: Automatische Koreferenzannotationen für Russisch</title>
+        <author>
+          <name>
+            <surname>Zhekova</surname>
+            <forename>Desislava</forename>
+          </name>
+          <affiliation>Centrum für Informations- und Sprachverarbeitung (CIS), LMU, München</affiliation>
+          <email>desi@cis.uni-muenchen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Mikhaylova</surname>
+            <forename>Alena</forename>
+          </name>
+          <affiliation>Centrum für Informations- und Sprachverarbeitung (CIS), LMU, München</affiliation>
+          <email>mikhaylovaa@hotmail.com</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-03-31T09:31:05</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Koreferenzresolution</term>
+          <term>Alignierung</term>
+          <term>Russisch</term>
+          <term>Deutsch</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Sammlung</term>
+          <term>Programmierung</term>
+          <term>Strukturanalyse</term>
+          <term>Beziehungsanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Veröffentlichung</term>
+          <term>Computer</term>
+          <term>Daten</term>
+          <term>Sprache</term>
+          <term>Software</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einführung</head>
+        <p>
+          Koreferenzresolution beschäftigt sich mit der Aufgabe unterschiedliche sprachliche Ausdrücke, die die gleichen Entitäten im Text beschreiben, automatisch zu identifizieren. Die meisten state-of-the-art Koreferenzresolutionssysteme basieren auf statistischen Verfahren und verwenden große vorannotierte Trainingskorpora (Pradhan et al., 2011). Die Abhängigkeit von Trainingskorpora stellt ein Problem für die Sprachen dar, für die keine Korpora verfügbar sind, die mit Koreferenzinformationen annotiert sind (Recasens et al., 2010; Pradhan et al., 2012; Zhekova, 2013).
+        </p>
+        <p>
+          Diese Arbeit beschreibt ein Verfahren zur Gewinnung automatischer Koreferenzannotationen durch parallele Korpora für das Russische. Russisch ist eine der Sprachen, für die es noch keine frei verfügbaren Koreferenzannotationen gibt und die daher nicht mit statistischen Koreferenzsystemen bearbeitet werden können. Unser Ziel ist es, Korpora die mehr als einen Zieltext haben zu benutzen (z.B. mehrere Übersetzungen des gleichen Texts/Quelltexts), um die Koreferenzketten von mehreren Zieltexten in den Quelltext zu projizieren. Unser Vorgehen basiert auf der These, dass die Verwendung mehrerer Zieltexte eine bessere Identifikation der Ketten und Grenzen der Mentions (die potentiell koreferenten Phrasen) ermöglicht. Zusätzlich stellen wir die automatisch gewonnenen Koreferenzannotationen (RuCoCo (aus dem Englischen: Russian Coreference Corpus)) für den russischen Originaltext zur freien Verfügung.
+        </p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Verwandte Arbeiten</head>
+        <p>
+          Schon oft wurden parallele Korpora für die Gewinnung automatisch generierter Koreferenzannotationen benutzt (Kobdani et al., 2011; Souza and Orašan, 2011; Rahman and Ng, 2012), das Sprachenpaar Russisch-Deutsch wird allerdings wenig bearbeitet (Grishina and Stede, 2015). Darüber hinaus sind parallele Korpora üblicherweise aus einem Quell- und einem Zieltext gebildet (Ganitkevitch et al., 2013; Dolan and Brockett, 2005) und konzentrieren sich hauptsächlich auf die Bearbeitung der englischen Sprache. In Bezug auf das Russische sind uns keine frei verfügbaren Datensätze bekannt, die auch mehrere Zieltexte enthalten. Ein derartiger Korpus für Russisch, der aus dem Roman
+          <hi rend="italic">Der Idiot</hi>
+          von Dostojewskij und drei Übersetzungen davon besteht, wurde zwar bei der
+          <ref target="http://www.aac.ac.at/">Österreichische </ref>
+          <ref target="http://www.aac.ac.at/">Akademie der Wissenschaften</ref>
+          <ref target="http://www.aac.ac.at/">­</ref>
+          entwickelt, er steht aber derzeit nicht zur freien Verfügung (Biber et al., 2002; Dobrovol’skij, 2014).
+        </p>
+          <figure>
+            <graphic url="1000000000000328000001AA5358D04B.png"/>
+            <p><hi rend="bold">Abbildung 1:</hi> Interaktives Alignieren in AluDo durch das Suchwort Sonne.</p>
+          </figure>
+        <p>
+          Aus diesem Grund haben wir einige Ansätze für die Alignierung von Texten für das Sprachenpaar Deutsch-Russisch implementiert (Zhekova et al., 2014), die in das frei verfügbare und interaktive Online
+            <ref type="note" target="n01" n="1">1</ref>
+          -
+          Alignierungstool
+          <ref target="http://dostojewski.cis.uni-muenchen.de/">AluDo</ref>
+          (siehe Abbildung 1) integriert wurden. Mit Hilfe von AluDo wurde ein paralleler Korpus erstellt, der aus dem Original des Dostojewskij-Romans
+          <hi rend="italic">Verbrechen und Strafe</hi>
+          und drei seiner deutschen Übersetzungen (Dostojewskij, 1924; Dostojewskij, 1956; Dostojewskij, 2010) besteht. Einen
+          <ref target="http://www.cis.uni-muenchen.de/desi/rgdata/data.zip">
+            Teil
+          </ref>
+            <ref type="note" target="n02" n="2">2</ref>
+          des Korpus haben wir bereits frei gegeben (Zhekova et al., 2015). Mit Hilfe dieses Korpus beabsichtigen wir, automatische Koreferenzannotationen für den russischen Quelltext zu erzeugen.
+        </p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Erstellung von RuCoCo</head>
+        <div type="div2" rend="DH-Heading2">
+          <head>IMSCoref für Deutsch</head>
+          <p>
+            Zunächst wird der deutsche Teil mit Koreferenzinformationen versehen, um sie anschließend in den russischen Teil der Paralleltexte projizieren zu können. Dafür wird im ersten Schritt das beste frei verfügbare Koreferenzresolutionssystem (laut die CoNLL Evaluationen), IMSCoref (Björkelund and Farkas, 2012), an die deutsche Sprache angepasst.
+          </p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Datensätze und Annotationen</head>
+          <p>
+            Wir verwenden die SemEval-Datensätze für Deutsch (Recasens et al., 2010), die in das CoNLL-Format umgewandelt werden. Für die Erzeugung von Syntaxbäumen (ParseBits in CoNLL-Daten), die in den SemEval-Daten fehlen, wird der
+            <ref target="http://nlp.stanford.edu/software/lex-parser.shtml">Stanford Parser</ref>
+            (Rafferty and Manning, 2008) eingesetzt. Named Entities sind im deutschen Datensatz in den SemEval-Daten auch nicht verfügbar, daher werden sie automatisch mit Hilfe von
+            <ref target="http://nlp.stanford.edu/software/CRF-NER.shtml">Stanford NER</ref>
+            (Finkel et al., 2005) extrahiert, und zwar mit dem hgc-Modell für Deutsch (Faruqui and Padó, 2010).
+          </p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Featureset</head>
+          <p>
+            Als Baseline-Features werden die Features verwendet, die in IMSCoref für Englisch entwickelt wurden. Das ursprüngliche Featureset für Englisch enthält allerdings Informationen, die in den SemEval-Daten nicht zur Verfügung stehen. Entsprechend werden diese Features ausgelassen (z.B. Speaker-, Genre-Features, usw). Agreement-Features für Deutsch sind zusätzlich integriert worden.
+          </p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Evaluation</head>
+          <p>Tabelle 1: Systemevaluation für Englisch (en) und Deutsch (de) mit den original (Orig), reduzierter (Red) und erweiterter (Erw) Featureset.</p>
+          <p>
+            Um die Güte des für Deutsch adaptierten IMSCoref sicherzustellen, wurde das System für beide Sprachen (Englisch und Deutsch) einem Testlauf unterzogen. Dazu haben wir vier Featuresets getestet:
+            <hi rend="italic">enOrg</hi>
+            – das Basisfeatureset von IMSCoref in Englisch;
+            <hi rend="italic">enRed</hi>
+            – das reduzierte Featureset für Englisch (ohne die Features für die keine entsprechenden Annotationen für Deutsch vorhanden sind);
+            <hi rend="italic">deRed</hi>
+            – das reduzierte Featureset für Deutsch;
+            <hi rend="italic">enErw</hi>
+            – das erweiterte Featureset für Deutsch. Die Ergebnisse der Evaluation (anhand Identifikation von Mentions (IM), MUC-, B
+            3
+            -, und CEAF
+            E
+            - Metriken sowie der offizielle CoNLL-Score) werden in Tabelle 1 präsentiert. Die Zahlen zeigen, dass die Features, die für die deutsche Sprache nicht vorhanden sind, auch für das englische IMSCoref wenig informativ sind. Ihre Nichtberücksichtigung reduziert die Genauigkeit des Systems von 59.29% für
+            <hi rend="italic">enOrig</hi>
+            auf 58.69% für
+            <hi rend="italic">enRed</hi>
+            . Damit ist der CoNLL-Score für die deutsche Basisversion des Systems schon sehr hoch und liegt bei 60.55% (
+            <hi rend="italic">deRed</hi>
+            ). Die oben angesprochene Erweiterung der Features für Deutsch bringt eine kleine, aber signifikante Verbesserung von 62.48%.
+          </p>
+        </div>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Projektion der Koreferenzannotationen vom Deutschen ins Russische</head>
+        <div type="div2" rend="DH-Heading2">
+          <head>Datenaufbereitung</head>
+          <p>
+            Um das IMSCoref auf die Bearbeitung der deutschen Übersetzungen der russisch-deutschen Paralleltexte (Zhekova et al., 2015) (aligniert auf Satzebene) vorzubereiten, werden diese auch in das CoNLL-Format transformiert.
+            Zuerst werden die Texte mit dem Stanford-Tokenizer tokenisiert. Der TreeTagger (Schmid, 1994; Schmid, 1995) wird danach für das POS-Tagging eingesetzt. Abschließend werden die Texte der Datenaufbereitung mit GIZA++ (Och and Ney, 2003) auf Wortebene aligniert.
+          </p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Kettenprojektion</head>
+          <p>Wir untersuchen drei verschiedene Ansätze für die Übertragung der Annotationen, die im Folgenden beschrieben sind.</p>
+          <p>
+            <hi rend="bold">Setting 1 </hi>
+            Dieser Ansatz folgt Postolache et al. (2006). Für jede deutsche Mention wird eine entsprechende Menge von russischen Tokens extrahiert. Der Kopf der erzeugten Mention ist
+            das russische Token, welches mit dem Kopf der deutschen Mention aligniert wurde. Anfang und Ende einer Mention im Deutschen werden auch direkt durch die Alignierungen im Russischen festgelegt. Falls beide nicht aligniert werden können, wird im Russischen keine entsprechende Mention übertragen.
+          </p>
+          <p>
+            <hi rend="bold">Setting 2</hi>
+            Bei diesem Setting wird Dependenzinformation im Russischen verwendet, welche mit dem MaltParser (Nivre et al., 2007; Sharoff and Nivre, 2011) erzeugt wird. Dabei wird der lexikalische Kopf einer Mention im Deutschen durch die Wortalignierung ins Russische abgebildet. Daraufhin wird die Länge der Mention durch die Dependenzinformation erzeugt, indem alle Wörter, die in Relation mit dem Kopf stehen, gruppiert werden.
+          </p>
+          <p>
+            <hi rend="bold">Setting 3</hi>
+            Dieser Ansatz kombiniert Setting 1 und Setting 2, d.h. falls Setting 1 keine Projektion der Mention erzeugen kann, wird Setting 2 eingesetzt.
+          </p>
+        </div>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Evaluation und Fehleranalyse</head>
+        <table rend="frame" xml:id="Table2">
+          <row>
+            <cell/>
+          </row>
+        </table>
+        <p>Tabelle 2: Ergebnisse der Projektion von Koreferenzinformationen vom Deutschen ins Russische</p>
+        <p>Da keine Gold-Standard-Annotationen vorliegen, werden vorläufig die ersten 30 Sätze des russischen Textes als ein Dokument im Sinne der Koreferenz betrachtet und manuell (von nur einem Annotator) mit Koreferenzketten annotiert.</p>
+        <p>
+          Die Ergebnisse sind in Tabelle 2 dargestellt, wo alle Übersetzungen (markiert als 1924, 1956, 2010 in der Tabelle) in allen drei Settings (S1, S2 und S3) aufgeführt sind. Die Ergebnisse zeigen, dass durchaus bei allen drei Übersetzungen vergleichbare Zahlen erreicht werden, was innerhalb der drei Settings nicht der Fall ist. Als Erstes zeigt ein Vergleich zwischen der Identifikation der Mentions (IM) für das erweiterte IMSCoref-System im Deutschen (
+          <hi rend="italic">deErw</hi>
+          in Tabelle 1) und allen drei benutzten Settings und Übersetzungen, dass die Projektion der Mentions zu einer starken Reduktion der IM-Ergebnisse für Russisch führt. Für alle drei Übersetzungen ist die Projektion in Setting 3 am erfolgreichsten mit F1-Scores zwischen
+          43.36% und 51.97%. Diese Ergebnisse liegen mit mehr als 20 Prozentpunkten unter dem IM F1-Score für Deutsch. IM ist jedoch eine sehr wichtige Unteraufgabe der Koreferenzresolution, die in hohem Maße den Erfolg der Koreferenzaufgabe beeinflusst (Zhekova, 2013). Als Folge der niedrigen F1-Scores sind die CoNLL-Scores für Russisch wesentlich niedriger im Vergleich zu den Ergebnissen des Systems für Deutsch.
+        </p>
+        <p>
+          Eine qualitative Analyse zeigt, dass die meisten Fehler durch falsche Wortalignierungen entstehen. Mentions werden nicht gefunden und übertragen, desweiteren haben die projizierten Mentions oft einen falschen Anfang oder ein falsches Ende und tragen so zu den niedrigen Genauigkeiten bei. Oft führt auch die falsche Alignierung zu einer falschen Identifikation des Kopfes im Russischen, wodurch die Ermittlung der Mentionspan im Setting
+          3 stark beeinflusst wird. Ein Anteil der Fehler ist auch auf Fehlerprojektion basiert – falsche Ketten im deutschen Text werden auch falsch weitergegeben.
+        </p>
+        <p>
+          Jedoch ist es unser Hauptziel zu untersuchen, ob Korpora, die mehr als einen Zieltext enthalten, hilfreicher für die Projektion sein können als traditionelle Korpora. Dafür haben wir zwei zusätzliche Experimente durchgeführt (jeweils 1924/1956 und 1924/1956/2010 in Tabelle 2) – 1924/1956 fügt die Koreferenzketten aus den beiden Übersetzungen (1924 und 1956) zusammen, während in 1924/1956/2010 die Ketten aus alle drei Übersetzungen zusammengefügt werden (das wird manuell nur für die ersten 30 Sätze des Originalwerks gemacht womit wir entgegen den Testset evaluieren können). Die Ergebnisse zeigen, dass die Benutzung von mehreren Texten sehr hilfreich sein kann, da sich der CoNLL-Score von 20.11% für die Übersetzung 1924 auf 22.41% für 1924/1956/2010 erhöht. Das ist ein sehr positives Ergebnis. Wir vermuten, dass mit einer besseren Alignierung und qualitativ hochwertigeren Dependenzannotation für das Russische, diese Verbesserung noch größer ausfallen würde.
+        </p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Zusammenfassung</head>
+        <p>
+          In dieser Arbeit haben wir gezeigt, dass parallele Korpora mit mehr als einem Zieltext für die Gewinnung von automatischen Koreferenzannotationen sehr hilfreich sein können, und dass dadurch Sprachen, die bislang für state-of-the-art Koreferenzsysteme völlig unerreichbar waren, damit bearbeitet werden können. Zusätzlich werden die Koreferenzannotationen für den russischen Originaltext und das manuell annotierte Testset zur freien Verfügung
+          <ref target="http://www.cis.uni-muenchen.de/desi/dostoyevsky_coref.zip">gestellt</ref>
+          , womit weitere Pilotstudien für Koreferenzannotation des Russischen möglich gemacht werden.
+          Wir beabsichtigen, das Testset in Zukunft zu erweitern, um adäquatere Ergebnisse bei der quantitativen Analyse der Projektion der Koreferenzinformationen vom Deutschen ins Russische zu erzielen. Außerdem ist ein Verfahren für eine informierte Verbesserung (anhand von Phrasenstruktur, Self-Learning, usw.) von derartigen Annotationen direkt im Zieltext geplant. Die Adaption des
+          <ref target="http://www.cis.uni-muenchen.de/desi/ims_de_src.jar">IMSCoref-Systems für Deutsch</ref>
+          stellen wir auch zur freien Verfügung.
+        </p>
+      </div>
+    </body>
+    <back>
+      <div type="Notes">
+        <note xml:id="n01" n="1">
+          Benutzername und Kennwort werden nach Nachfrage (
+          desi@cis.uni-muenchen.de
+          ) vergeben.
+        </note>
+        <note xml:id="n02" n="2">
+          Die Übersetzung von Swetlana Geier wurde von Fischer-Verlag nur für Forschungszwecke frei gegeben und ist dafür nicht in dem Packet enthalten.
+        </note>
+      </div>
+      <div type="bibliogr">
+        <listBibl>
+          <head>Bibliographie</head>
+          <bibl>
+            <hi rend="bold">Biber Hanno / Breiteneder, Evelyn / Dobrovol’skij, Dmitrij</hi>
+            (2002): ''Corpus-based study of collocations in the AAC'', in: Braasch, Anna / Povlsen, Claus (eds.):
+            <hi rend="italic">Proceedings of the Tenth EURALEX International Congress, Vol. 1.</hi>
+            Center for Sprogtknologi, Kopenhagen.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Björkelund, Anders / Farkas, Richárd </hi>
+            (2012): ''Data-driven Multilingual Coreference Resolution using Resolver Stacking'', in:
+            <hi rend="italic">Joint Conference on EMNLP and CoNLL - Shared Task</hi>
+            , Jeju Island, Korea. ACL 49–55.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Dobrovol’skij, Dmitrij</hi>
+            (2014): ''Russkie obrašcenija v parallel’nych korpusach'', in:
+            <hi rend="italic">Die Welt der Slaven</hi>
+            , LIX, 1: 1-21.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Dolan, William B. / Brockett, Chris</hi>
+            (2005): ''Automatically constructing a corpus of sentential paraphrases'',
+            in:
+            <hi rend="italic">Third International Workshop on Paraphrasing (IWP2005).</hi>
+            Asia Federation of Natural Language Processing.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Dostojewskij, Fjodor M.</hi>
+            (1924):
+            <hi rend="italic">Verbrechen und Strafe </hi>
+            (Übersetzung von Alexander Eliasberg)
+            <hi rend="italic">.</hi>
+            Potsdam: Gustav Kiepenheuer Verlag.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Dostojewskij, Fjodor M. (</hi>
+            1956):
+            <hi rend="italic">Schuld und Sühne </hi>
+            (Übersetzung von Hermann Röhl). Berlin:
+            Aufbau Verlag.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Dostojewskij, Fjodor M.</hi>
+            (2010):
+            <hi rend="italic">Verbrechen und Strafe </hi>
+            (Übersetzung von Swetlana Geier).
+            Frankfurt am Mian: Fischer Taschenbuch Verlag.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Faruqui, Manaal / Padó, Sebastian</hi>
+            (2010): ''Training and evaluating a German named entity recognizer with semantic generalization'',
+            in:
+            <hi rend="italic">Proceedings of KONVENS 2010</hi>
+            , Saarbrücken, Germany.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Finkel, Jenny Rose / Grenager, Trond / Manning, Christopher</hi>
+            (2005): ''Incorporating non-local information into information extraction systems by gibbs sampling'',
+            in:
+            <hi rend="italic">Proceedings of the 43rd Annual Meeting on ACL</hi>
+            , ACL ’05, Stroudsburg, PA, USA. ACL 363–370.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Ganitkevitch, Juri / Van Durme, Benjamin / Callison-Burch, Chris </hi>
+            (2013): ''PPDB: The paraphrase database'',
+            in:
+            <hi rend="italic">Proceedings of NAACL-HLT</hi>
+            , Atlanta, Georgia, June. ACL.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Grishina, Yulia / Stede, Manfred</hi>
+            (2015): ''Knowledgelean projection of coreference chains across languages'',
+            in:
+            <hi rend="italic">Proceedings of the Eight Workshop on Building and Using Comparable Corpora</hi>
+            , Beijing, China. ACL.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Kobdani, Hamidreza / Schütze, Hinrich / Schiehlen, Michael / Kamp, Hans</hi>
+            (2011): ''Bootstrapping coreference resolution using word associations'',
+            in:
+            <hi rend="italic">Proceedings of the 49th Annual Meeting of the ACL: Human Language Technologies</hi>
+            , Portland, Oregon, USA, June. ACL 783–792.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Nivre, Joakim / Hall, Johan / Nilsson, Jens / Chanev, Atanas / Eryigit, Gülsen / Kübler, Sandra / Marinov, Svetoslav / Marsi, Erwin</hi>
+            (2007): ''MaltParser: A Language-Independent System for Data-Driven Dependency Parsing'', in:
+            <hi rend="italic">Natural Language Engineering</hi>
+            13, 2: 95–135.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Och, Franz Josef / Ney, Hermann</hi>
+            (2003): ''A systematic comparison of various statistical alignment models'',
+            <hi rend="italic">Computational Linguistics</hi>
+            29, 1: 19–51.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Postolache, Oana / Cristea, Dan / Orasan, Constantin</hi>
+            (2006): ''Transferring coreference chains through word alignment'', in:
+            <hi rend="italic">Proceedings of the 5th International Conference on Language Resources and Evaluation.</hi>
+          </bibl>
+          <bibl>
+            <hi rend="bold">Pradhan, Sameer / Ramshaw, Lance / Marcus, Mitchell / Palmer, Martha / Weischedel, Ralph / Xue, Nianwen</hi>
+            (2011): ''CoNLL-2011 Shared Task: Modeling Unrestricted Coreference in OntoNotes'',
+            in:
+            <hi rend="italic">Proceedings of the CoNLL 2011: Shared Task</hi>
+            , Portland, Oregon, USA. ACL.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Pradhan, Sameer / Moschitti, Alessandro / Xue, Nianwen / Uryupina, Olga / Zhang, Yuchen</hi>
+            (2012): ''CoNLL-2012 Shared Task: Modeling Multilingual Unrestricted Coreference in OntoNotes'',
+            in:
+            <hi rend="italic">Joint Conference on EMNLP and CoNLL - Shared Task</hi>
+            , Jeju Island, Korea. ACL.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Rafferty, Anna / Manning, Christopher D.</hi>
+            (2008): ''Parsing three German treebanks: Lexicalized and unlexicalized baselines'',
+            in:
+            <hi rend="talic">Proceedings of the Workshop on Parsing German,</hi>
+            Columbus, Ohio, June. ACL 40–46.
+          </bibl>
+          <bibl>
+            <hi rend="old">Rahman, Altaf / Ng, Vincent</hi>
+            (2012): ''Translation-based projection for multilingual coreference resolution'',
+            in:
+            <hi rend="italic">Proceedings of NACL:HLT 2012</hi>
+            , Montréal. ACL.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Recasens, Marta / Màrquez, Lluís / Sapena, Emili / Martí, M. Antònia / Taulé, Mariona / Hoste, Véronique / Poesio, Massimo / Versley, Yannick</hi>
+            (2010): ''SemEval-2010 task 1: Coreference resolution in multiple languages'',
+            in:
+            <hi rend="italic">Proceedings of SemEval 2010</hi>
+            , Uppsala, Sweden. ACL.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Schmid, Helmut</hi>
+            (1994): ''Probabilistic part-of-speech tagging using decision trees'',
+            in:
+            <hi rend="italic">International Conference on New Methods in Language Processing</hi>
+            , Manchester, UK.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Schmid, Helmut (</hi>
+            1995): ''Improvements in Part-of-Speech Tagging with an Application to German'',
+            in:
+            <hi rend="italic">Workshop of the Special Interest Group for Linguistic Data and Corpus-based Approaches to Natural Language Processing (EACL 1995 SIGDAT-Workshop)</hi>
+            47–50.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Sharoff, Serge / Nivre, Joakim </hi>
+            (2011): ''The proper place of men and machines in language technology. Processing russian without any linguistic knowledge'',
+            in:
+            <hi rend="italic">Proceedings of the International Conference on Computational Linguistics and Artificial Intelligence Dialog 2011,</hi>
+            Moscow.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Souza, Jose Guilherme Camargo / Orasan, Constantin</hi>
+            (2011): ''Can projected chains in parallel corpora help coreference resolution?'', in: Hendrickx, Iris / Devi, Sobha Lalitha / Branco, Antonio / Mitkov, Ruslan (eds.):
+            <hi rend="italic">Anaphora Processing and Applications</hi>
+            (= Lecture Notes in Computer Science 7099).
+            Berlin / Heidelberg: Springer.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Zhekova, Desislava</hi>
+            (2013)
+            <hi rend="italic">Towards Multilingual Coreference Resolution</hi>
+            . Ph.D. thesis, University of Bremen.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Zhekova, Desislava / Zangenfeind, Robert / Mikhaylova, Alena / Nikolaienko, Tetiana</hi>
+            (2014): ''Alignment of Multiple Translations for Linguistic Analysis'',
+            in:
+            <hi rend="italic">Proceedings of the The 3rd Annual International Conference on Language, Literature and Linguistics (L3)</hi>
+            , Bangkok, Thailand.
+          </bibl>
+          <bibl>
+            <hi rend="bold">Zhekova, Desislava / Zangenfeind, Robert / Mikhaylova, Alena / Nikolaienko, Tetiana</hi>
+            (2015): ''Sentence-Alignment and Application of Russian-German Multi-Target Parallel Corpora for Linguistic Analysis and Literary Studies'', in: Portela, Manuel (ed.):
+            <hi rend="italic">Digital Literary Studies</hi>
+            3 (to appear).
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

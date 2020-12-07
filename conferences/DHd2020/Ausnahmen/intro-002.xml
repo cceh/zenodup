@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-002">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="nodisplay">Logo Page</title>
+      </titleStmt>
+      <publicationStmt>
+        <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Christof Schöch, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+        <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+          <t:addrLine>Universität Trier</t:addrLine>
+          <t:addrLine>Trier Center for Digital Humanities</t:addrLine>
+          <t:addrLine>Universitätsring 15</t:addrLine>
+          <t:addrLine>54296 Trier</t:addrLine>
+        </t:address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Intro</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date/>
+        <name/>
+        <desc/>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text type="paper" n="single">
+    <body>
+      <div n="publisher_info">
+        <!--<figure><graphic url="logo"/></figure>-->
+        <p n="intro_text">
+          Die Abstracts wurden von den Autorinnen und Autoren in einem Template<lb/>
+          erstellt und mittels des von Marco Petris, Universität Hamburg, entwickelten<lb/>
+          DHConvalidators in eine TEI konforme XML-Datei konvertiert.<lb/>
+        </p>
+        <p n="intro_text">
+          Herausgeber: Christof Schöch<lb/>
+          Redaktion und Korrektur der Auszeichnungen:<lb/>
+          &#160;&#160;&#160;&#160;&#160;Nina Seemann, Benjamin Bellgrau<lb/>
+	  Konvertierung TEI nach PDF: Nina Seemann<lb/> 
+          &#160;&#160;&#160;&#160;&#160;https://github.com/NinaSeemann/DHd2020-BoA<lb/>
+	  Historie der Autorinnen und Autoren sowie Versionen der Konversionsskripte:<lb/> 
+	  Attila Klett (2019)<lb/>
+          &#160;&#160;&#160;&#160;&#160;https://github.com/texttechnologylab/DHd2019BoA<lb/>
+          Claes Neuefeind (2018)<lb/> 
+          &#160;&#160;&#160;&#160;&#160;https://github.com/GVogeler/DHd2018<lb/>
+	  Aramís Concepción Durán (2016)<lb/>
+          &#160;&#160;&#160;&#160;&#160;https://github.com/aramiscd/dhd2016-boa.git<lb/>
+          Karin Dalziel (2013)<lb/>
+          &#160;&#160;&#160;&#160;&#160;https://github.com/karindalziel/TEI-to-PDF<lb/>          
+          Konferenz-Logo: Benjamin Bellgrau<lb/>
+        </p>
+        <p n="intro_text">
+          Online verfügbar: https://doi.org/10.5281/zenodo.3666690<lb/>
+        </p>
+        <p n="intro_text"><seg n="ISBN">ISBN 978-3-945437-07-0</seg></p>
+      </div>
+    </body>
+  </text>
+</TEI>

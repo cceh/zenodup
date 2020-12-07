@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="252_final-BURR_Elisabeth_Ein_Spielraum_der_Digital_Humanities__Die_Eur" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ein Spielraum der Digital Humanities: Die Europäische Sommeruniversität „Kulturen &amp; Technologien“</title>
+<author>
+<persName>
+<surname>Annisius</surname>
+<forename>Marie</forename>
+</persName>
+<affiliation>Universität Leipzig, Deutschland</affiliation>
+<email>marie.annisius@uni-leipzig.de</email>
+</author>
+<author>
+<persName>
+<surname>Burr</surname>
+<forename>Elisabeth</forename>
+</persName>
+<affiliation>Universität Leipzig, Deutschland</affiliation>
+<email>elisabeth.burr@uni-leipzig.de</email>
+</author>
+<author>
+<persName>
+<surname>Fußbahn</surname>
+<forename>Ulrike</forename>
+</persName>
+<affiliation>Universität Leipzig, Deutschland</affiliation>
+<email>ulrike.fussbahn@uni-leipzig.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Sommeruniversität</term>
+<term>Digital Humanities</term>
+<term>Sprachwissenschaft</term>
+<term>Sprachressourcen</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Community-Bildung</term>
+<term>Lehre</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Im Dezember 2007 fand an der Universität Leipzig ein von der 
+                    <hi rend="italic">Association for Literary and Linguistic Computing</hi> (ALLC) geförderter Workshop “Text Markup &amp; Database Design“ statt. Im Wintersemester 2007/2008 boten das King’s College London (Großbritannien), die Debreceni Egyetem (Ungarn), die Universität Leipzig (Deutschland) und die Oulun Yliopisto (Finnland) per Videokonferenz gemeinsam ein Seminar 
+                    <hi rend="italic">Culture &amp; Technology</hi> für ihre Studierenden an. Im Wintersemester wurde das Seminar zusammen mit acht europäischen Universitäten, nämlich Universidad de Alicante (Spanien), Università Bologna (Italien), Debreceni Egyetem (Ungarn), University College Dublin (Irland), University of Glasgow (Schottland), Universität Leipzig (Deutschland), King's College London (Großbritannien) und Oulun Yliopisto (Finnland) fortgesetzt. Die Erfahrungen waren zwar insgesamt sehr positiv, wirklich befriedigen konnten sie aber schon wegen der fehlenden internationalen Community im Falle des Workshops und des fehlenden physischen Kontakts im Falle des Videokonferenzseminars nicht.
+                </p>
+<p style="text-align:left; ">Deshalb wurde 2009 ein Experiment begonnen, das bis heute andauert und als ein Spielraum der 
+                    <hi rend="italic">Digital Humanities</hi> mit Nachjustierungen, Modifizierungen und Erweiterungen gesehen werden kann, nämlich die Europäische Sommeruniversität in Digitalen Geisteswissenschaften „Kulturen &amp; Technologien“, die allgemein als ESU bekannt ist, obwohl ihr Akronym eigentlich ESU DH sein müsste. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Die Europäische Sommeruniversität in Digitalen Geisteswissenschaften „Kulturen &amp; Technologien“</head>
+<p style="text-align:left; ">Dass die ESU direkt an das Europäische Seminarprogramm anknüpfte, zeigt sich schon in dem Motto „Kulturen &amp; Technologien“ bzw. “Culture &amp; Technology”. Auch nahm sie von Anfang an eine europäische Perspektive ein was Sprachen und Wissenskulturen betrifft. Englisch musste zwar aus pragmatischen Gründen generell als 
+                    <hi rend="italic">lingua franca</hi> fungieren, doch den Tendenzen hin zu einer mehr und mehr monolingualen Wissenschaftskultur sollte die Wertschätzung der europäischen Mehrsprachigkeit und der Vielfalt europäischer Wissenskulturen entgegengesetzt werden. So sollte etwa das einzige Kriterium für den Gebrauch einer bestimmten Sprache die Teilhabe aller sein. Ansprechen wollte sie ursprünglich vor allem ein europäisches Publikum. Schon während der Bewerbungsphase um einen Platz bei der zweiten Sommeruniversität 2010 wurde allerdings deutlich, dass die ESU als eine Institution in Europa gesehen wurde, und eben nicht als eine Institution, die sich der Verbreitung und Entwicklung der 
+                    <hi rend="italic">Digital Humanities</hi> in Europa verschrieben hatte. 
+                </p>
+<p style="text-align:left; ">Seit 2009 haben insgesamt 851 Personen (Vortragende und Workshopleitende eingeschlossen) aller Alters- und Karrierestufen und unterschiedlichster fachlicher Provenienz aus 60 Ländern der ganzen Welt an der ESU teilgenommen. Viele darunter wurden gerade auch durch die mehrsprachige und mehrkulturelle Ausrichtung der ESU zur Teilnahme motiviert. Bei der ESU haben sie nicht nur Werkzeuge und Methoden, die in den 
+                    <hi rend="italic">Digital Humanities</hi> eine Rolle spielen, oder deren Anwendung im Rahmen von Projekten kennengelernt, sondern wurden mittels Vorlesungen in die 
+                    <hi rend="italic">Digital Humanities</hi> als Epistemologie eingeführt und haben bei Podiumsdiskussionen auch deren sozio- und bildungspolitische Relevanz diskutiert. 
+                </p>
+<p style="text-align:left; ">Im Unterschied zu anderen Sommerschulen in den 
+                    <hi rend="italic">Digital Humanities</hi> setzt die ESU gerade nicht auf quantitatives Wachstum,<ref n="1" target="ftn1"/> stattdessen will sie ihren möglichst nur 60 Teilnehmerinnen und Teilnehmern und den etwa 25 Lehrenden ermöglichen, fachliche und freundschaftliche Netzwerke zu schaffen, die die Sommeruniversität über Jahre hinweg überdauern. Diese Netzwerkbildung fördert sie dezidiert durch ein reichhaltiges Rahmenprogramm, bei dem sie darauf setzt, ihrem Titel „Kulturen &amp; Technologien“ durch die Wahl der in Leipzig und Umgebung zu besuchenden Orte gerecht zu werden, sowie durch den entspannten Austausch über Kulturen und Sprachen hinweg bei gemeinsamen Mittag- und Abendessen.
+                </p>
+<p style="text-align:left; ">Jede Ausgabe der ESU war, für sich selbst genommen, ein Spielfeld mit bestimmten Regeln. Über die Jahre hinweg blieb die ESU aber immer auch ein Spielraum, dem das Nachjustieren, Modifizieren und Erweitern inhärent sind.<ref n="2" target="ftn2"/>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Poster</head>
+<p style="text-align:left; ">In unserem Poster wollen wir zeigen, was die ESU grundsätzlich charakterisiert, wie sie sich über die Jahre verändert hat, wie es ihr gelungen ist, die einzige 
+                    <hi rend="italic">Digital Humanities</hi> Sommerschule in Europa zu werden, die die traditionellen Grenzen zwischen Sprachwissenschaft und Sprachressourcen einerseits und den 
+                    <hi rend="italic">Digital Humanities</hi>, so wie sie sich mehrheitlich präsentieren, andererseits zu überwinden, welche Folgen und Bereicherungen dies für beide Seiten bedeutet und was die Zukunft bringen soll.
+                </p>
+</div>
+</body>
+<back>
+  <div type="notes"
+       ><note n="1" rend="footnote text" xml:id="ftn1">
+    Vgl. etwa das <hi rend="italic">Digital Humanities Summer Institute</hi> (DHSI) 
+    <ref target="https://dhsi.org/">https://dhsi.org/</ref> oder die <hi rend="italic">Digital Humanities at Oxford Summer School</hi> (DHOxSS) 
+    <ref target="https://www.dhoxss.net/">https://www.dhoxss.net/</ref>.
+  </note>
+  <note n="2" rend="footnote text" xml:id="ftn2">
+    Siehe hierzu die Webpräsenz der <hi rend="italic">Europäischen Sommeruniversität in Digitalen Geisteswissenschaften „Kulturen &amp; Technologien“</hi>
+    <ref target="http://esu.culintec.de/">http://esu.culintec.de/</ref>.
+  </note>
+  </div>
+</back>
+</text>
+</TEI>

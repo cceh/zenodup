@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="FLUECKIGER_Keynote">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Avancierte Methoden der computer-gestützten ästhetischen Filmanalyse</title>
+				<author>
+					<persName>
+						<surname>Flückiger</surname>
+						<forename>Barbara</forename>
+					</persName>
+					<affiliation>Universität Zürich, Schweiz</affiliation>
+				</author>
+			</titleStmt>
+			<!--<editionStmt>
+				<edition>
+					<date>2019-01-12</date>
+				</edition>
+			</editionStmt>-->
+			<sourceDesc>
+				<p>Converted from a Word document</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+					<label>DOCX to TEI</label>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Keynote</term>
+                </keywords>
+				<keywords scheme="ConfTool" n="keywords">
+                    <term/>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+		<!--<revisionDesc>
+			<listChange>
+				<change>
+					<date>2019-02-18T09:16:50Z</date>
+					<name>Microsoft Office User</name>
+				</change>
+			</listChange>
+		</revisionDesc>-->
+	</teiHeader>
+	<text>
+		<body>
+			<div type="div1" rend="DH-Heading1">
+				<p>Prof. Dr. Barbara Flückiger, Seminar für Filmwissenschaft, Universität Zürich</p>
+				<p>Audio-visuelle Bewegtbilder stellen hohe Anforderung an computer-gestützte Verfahren, einerseits wegen der Komplexität das Materials, andererseits wegen der hohen Dichte an audio-visuellen Informationen, die sie enthalten. Diese Anforderungen werden noch entschieden gesteigert, wenn es um ästhetische Dimensionen und die Identifikation von stilistischen Nuancen geht.</p>
+				<p>Genau eine solche Zielsetzung steht im Zentrum des Forschungsprojekts ERC Advanced Grant <hi rend="italic">FilmColors</hi>, und zwar mit einem Fokus auf die Untersuchung der Farbfilmästhetik, die exemplarisch für Bewegtbildforschung insgesamt untersucht und entwickelt wird, um den Zusammenhang zwischen technischen Verfahren des Farbfilms und stilistischen Mustern systematisch anhand eines großen Korpus zu untersuchen.</p>
+				<p>Ziel war es einen Workflow aus Video-Annotation und manueller Analyse zu entwickeln, auf dessen Basis anschließend digitale Werkzeuge entstanden, welche diese Aufgaben möglichst weitgehend übernehmen und die Ergebnisse in überzeugender Art und Weise visualisieren. Zusätzlich entsteht eine Online-Plattform, auf die auch externe Nutzer ihre Analyse-Ergebnisse hochladen können, um sie mit bereits bestehenden Analysen zu vergleichen. </p>
+				<p>Grundlagenforschung, Primär- und Sekundärquellen zur Technik, Ästhetik, Analyse, Messung und Restaurierung / Digitalisierung von Filmfarben werden seit 2012 in der interaktiven Web-Plattform <hi rend="italic">Timeline of Historical Film Colors</hi> (Flueckiger 2012 ff.) publiziert, einschließlich der fotografischen Dokumentation von historischen Farbfilmkopien aus Archiven in Europa, den USA und Japan, die inzwischen mehr als 20‘000 Fotos umfasst.</p>
+			</div>
+			<div type="div1" rend="DH-Heading1">
+				<head>Entwicklung eines computer-gestützten Workflows</head>
+				<p>Traditionelle Analysen von Filmfarben und Filmstil generell gründen auf verbalen Beschreibungen, die insbesondere in der Domäne der Farben einen problematischen Hang zur hermeneutischen Interpretation haben. Mit dem Einbezug von Deep Learning Tools, datenbankgestützter Analyse und einem breiten Arsenal von Visualisierungen erarbeiten wir einen umfassenderen Ansatz, der den mannigfaltigen ästhetischen Phänomenen und Bedeutungsdimensionen von Filmfarben gerecht wird. </p>
+				<p>Grundlagen dazu wurden bereits 2011 in der Studie „Die Vermessung ästhetischer Erscheinungen“ in der <hi rend="italic">Zeitschrift für Medienwissenschaft</hi> publiziert (Flückiger 2011), dies umfasste auch eine kritische Evaluation der experimentellen Ästhetik und ihrer wissenschaftsgeschichtlichen Verortung sowie der epistemologischen und wahrnehmungstheoretischen Grundlagen von Visualisierungen und standardisierten Konzepten zur Analyse von a priori wenig standardisierten ästhetischen Phänomenen. In den letzten Jahren sind mehrere Studien veröffentlicht worden, die sich in fundierter Weise mit Ansätzen der Digital Humanities für die Filmanalyse auseinander setzen (Gruber et al. 2009, Heftberger 2016, Stutz 2016, Olesen 2017). Weitere Grundlagen und neuere Ansätze unserer Forschung zur Farbfilmanalyse im Besonderen haben wir 2017 und 2018 publiziert (Flückiger 2017, Flückiger und Halter 2018).</p>
+				<p>Der von uns entwickelte Workflow verbindet die Analyse und Segmentierung der Filme durch eine Video-Annotations-Software mit einem Netzwerk von relationalen Datenbanken. Zur Analyse eines Korpus von mehr als 400 Filmen von 1895 bis 1995 hat das Analyse-Team zunächst – nach einer Evaluation der bestehenden Lösungen – die Video-Annotations-Software ELAN verwendet. </p>
+				<figure>
+					<graphic n="keynote" width="11.37cm" height="6cm" url="image1.tiff" rend="inline"/>
+					<head>Abbildung 1: ELAN Interface und Template für die Filmanalysen, <lb/><hi rend="italic">Pierrot le fou</hi> (FRA 1965, Jean-Luc Godard)</head>
+				</figure>
+				<p>Nach ca. einem Jahr haben wir basierend auf diesen Erfahrungen die Entwicklung eines eigenen Systems in die Wege geleitet: VIAN (<hi rend="italic">visual video annotation and analysis</hi>), das der visuellen Analyse besser gerecht wird, wurde von Gaudenz Halter anhand der Forschungsdesiderate konzipiert und von ihm seit 2017 in Zusammenarbeit mit dem Visualization and MultiMedia Lab (VMML) der Universität Zürich umgesetzt. </p>
+				<p>Die Datenbanken für die manuelle Analyse wurden in FileMaker entwickelt, bestehend aus einer Korpus-DB mit den filmografischen Daten, einer Analyse-DB mit rund 1‘200 Konzepten, einer Auswertungs-DB, einer Glossar-DBs mit Definitionen und die Illustrationen dieser Konzepte in einer gesonderten Bilder-DB. Entstanden sind mehr als 17‘000 Segmente mit mehr als 170‘000 Screenshots und mehr als einer halben Million Aufsummierungen, eine Datenmenge, die hohe Anforderungen an die Standardisierung der Auswertung und die Performanz der Bildprozessierung durch die Analyse-Pipeline stellte. Alle DBs werden auf einem zentralen Server gehostet, ebenso die Filme, Screenshots und Resultate.</p>
+			</div>
+			<div>
+				<head>Entwicklung der visuellen Analyse- und Visualisierungsplattform VIAN</head>
+				<p>Video-Annotations-Systeme wurden bereits seit den frühen 2000er Jahren für die Filmanalyse entwickelt. 2016 führten wir eine umfassende Analyse der bestehenden Systeme durch, mit ernüchternden Ergebnissen. Viele Video-Annotations-Softwares wurden projektbasiert erstellt und danach nicht aktualisiert (Flückiger 2017). In den letzten Jahren sind besonders webbasierte Media-Suiten entstanden wie zum Beispiel in CLARIAH, die wegen der limitierten Ressourcen für die detaillierte ästhetische Analyse von Filmen in hoher Auflösung jedoch nicht geeignet sind. Grundlegende Untersuchungen von Video-Annotationen finden sich in Giunti (2010 und 2014), ein umfassendes Assessment in Melgar et al. (2017).</p>
+				<p>Unser Annotationssystem VIAN besteht aus mehreren Layern, die spezifisch auf visuelle Ausdrucksformen des Films ausgerichtet sind. Kernstück sind die temporale Segmentierung, die verbale Annotation sowie ein Screenshot-Manager zur Verwaltung und Visualisierung der Screenshots, siehe Abb. 2 und Screen-Video <ref target="https://vimeo.com/287959722">https://vimeo.com/287959722</ref>. Zusätzlich sind avancierte Methoden der kolorimetrischen Analyse und Visualisierung von Farbschemata implementiert sowie das Vokabular als modulares Menu, ein Auswertungslayer. </p>
+				<figure>
+					<graphic n="keynote" width="14cm" height="8.63cm" url="image2.png" rend="inline"/>
+					<head>Abbildung 2: VIAN Segmentierungslayer mit Screenshot-Manager <lb/><hi rend="italic">Blade Runner 2049</hi> (USA 2017, Denis Villeneuve)</head>
+				</figure>
+				<p>Die temporale Segmentierung von Filmen muss sich an den Forschungsfragen der Analyse ausrichten; sie ist wesentlich komplexer, als man vermuten könnte (Hahn 2009, Cutting et al. 2012). In den Analysen zur Farbe ging es darum, Segmente mit konsistenten Farbschemata zu extrahieren. Diese Aufgabe wird nun durch eine automatische Segmentierung basierend auf der kolorimetrischen Analyse unterstützt.</p>
+				<figure>
+					<graphic n="keynote" width="14cm" height="2.94cm" url="image3.png" rend="inline"/>
+					<head>Abbildung 3: Vergleich manuelle (ganz oben) vs. vier Typen automatischer temporaler Segmentierung mit 30 bis 60 Segmenten in <hi rend="italic">Une femme est une femme</hi> (FRA 1961, Jean-Luc Godard)</head>
+				</figure>
+				<p>Im Laufe der Forschung haben sich die Screenshots zunehmend als heuristische Werkzeuge erwiesen. Einerseits dienen sie der visuellen Repräsentation der Konzepte in der Glossar-DB, andererseits werden sie in den kolorimetrischen Auswertungen selbst prozessiert und in den Visualisierungen verarbeitet. Pro Segment hat das Analyse-Team bis zu 32 Screenshots manuell ausgewählt, um die verschiedenen Einstellungen, Bildkompositionen und typischen Farbschemata abzubilden. Daher war die rasche Entnahme der Screenshots mit einem einzigen Befehl und einer standardisierten Nomenklatur ein Desiderat, das VIAN von bisherigen Tools unterscheidet. Die Screenshots werden in <hi rend="italic">bins</hi> nach Segmenten geordnet und auch dann automatisch zugewiesen, wenn die Segmentierung nachträglich korrigiert wird.</p>
+				<p>VIAN erstellt unmittelbar eine kolorimetrische Analyse mit Farbhistogrammen, die für die Auto-Segmentierung wie auch für die Visualisierungen Verwendung finden. Die Farbschemata lassen sich als Paletten sortiert nach Farbverteilung, nach Häufigkeit oder  basierend auf einer raumfüllenden Hilbert Kurve durch den Farbraum, organisieren sowie zunehmend verfeinert in Form von Baumdiagrammen darstellen, die der Nutzer anpassen kann (siehe Abb. 4 unten sowie Screen-Video: <ref target="https://vimeo.com/299804415">https://vimeo.com/299804415</ref>). Die Farbschemata widerspiegeln damit die ästhetische Konzeption wie auch die prozentualen Anteile der ermittelten Farbtöne im Unterschied zu den üblichen Farbpaletten, die auf K-Means mit fixen Einstellungen beruhen (siehe zum Beispiel Brodbeck 2011). </p>
+				<figure>
+					<graphic n="keynote" width="12.42cm" height="5cm" url="image4_5.png" rend="inline"/>
+					<head>Abbildung 4: VIAN Farbpaletten <hi rend="italic">One from the Heart</hi> (USA 1981, Francis Ford Coppola), <lb/>Baumdiagramm (oben Mitte), Selektion von einer Palette mit sieben Farbabstufungen (unten Mitte), <lb/>Darstellung im CIE L*a*a*-Farbraum (links)</head>
+				</figure>
+				<p>Eine weitere Visualisierungsmethode ordnet die Screenshots oder auch die Farbwerte im wahrnehmungsgerechten CIE L*a*b*-Farbraum (im Folgenden als LAB bezeichnet) an, sodass die Farbverteilung eines ganzen Films oder eines Screenshots unmittelbar sichtbar wird. Schließlich sind die Color-dT-Plots zu nennen, mit denen die zeitliche Entwicklung der Farbschemata sichtbar wird, geordnet nach Sättigung, Chroma, Helligkeit (<hi rend="italic">luminance</hi>) oder Farbton. Alle diese Visualisierungsmethoden kann der Nutzer nach seinem Erkenntnisinteresse skalieren, individuell anpassen und als Bilder exportieren. Die Plots lassen sich entweder bildbasiert erstellen, sodass man jederzeit in die Bilder hineinzoomen kann, oder als Punkt-Visualisierungen, wobei jeder Punkt einem Farbwert in LAB entspricht.</p>
+				<figure>
+					<graphic n="keynote" width="14.42cm" height="7.21cm" url="image6_7.png" rend="inline"/>
+					<head>Abbildung 5: VIAN Visualisierungen der Farbverteilung in <hi rend="italic">Jigokumon</hi> (JAP 1953, Teinosuke Kinugasa), <lb/>Hintergrund (links), Figuren (rechts)</head>
+				</figure>
+				<p>In der Vergangenheit wurden bereits verschiedene Visualisierungsmethoden für Gemälde und diverse Medien vorgeschlagen, unter anderem von Lev Manovich (2012 und 2015), von Everardo Reyes-García (2014, 2017), Lindsay M. King, und Peter S. Leonard (2017). Frederic Brodbeck (2011) hat Farbpaletten für ganze Filme mit K-Means berechnet und als Kreise dargestellt. Kevin Ferguson (2013 und 2016) erstellte Z-Projections, indem er alle Bilder eines Films aufsummierte und anschließend normalisierte. Film-Barcodes sind am weitesten verbreitet, um die temporale Entwicklung von Filmen im Überblick darzustellen, siehe zum Beispiel Manuel Burghardt et al. (2016 und 2017). Michael Casey und Mark Williams haben im ACTION-Toolset Histogramme in einer Ähnlichkeitsmatrix visualisiert. Ebenfalls haben verschiedene Filmwissenschaftler bereits bestehende Ansätze wie ImageJ (Ross 2007) und ImagePlot (Manovich 2013) für Farbfilmvisualisierungen eingesetzt wie Adelheid Heftberger (2016) oder Christian Gosvig Olesen et al. (2016).</p>
+				<figure>
+					<graphic n="keynote" width="14cm" height="2.94cm" url="image8.png" rend="inline"/>
+					<head>Abbildung 6: Movie Barcode erstellt in VIAN für <hi rend="italic">Hero</hi> (HKG / CHN 2002, Yimou Zhang)</head>
+				</figure>
+			</div>
+			<div>
+				<head>Figur-Grund-Trennung</head>
+				<p>Bereits zu Beginn des Forschungsprojekts stand die Hypothese im Raum, dass das Verhältnis von Figur und Grund ein wesentliches Element von Farbästhetiken sei. Dazu wurde in der manuellen Analyse eine Typologie erstellt, welche dieses Verhältnis anhand der Dimensionen Farbsättigung, Helligkeit, Kontrast sowie Figur-Grund-Inversionen verschiedener Stufen bis hin zur Silhouette systematisch erfasste. </p>
+				<p>Ab 2017 erarbeitete Noyan Evirgen, wiederum in Kooperation mit dem VMML der Universität Zürich, einen automatischen Workflow für die Figur-Grund-Trennung (Flueckiger et al. 2017). Mit Deep Learning Tools war es möglich, die Figuren aus dem Hintergrund auszuschneiden, indem sie zunächst mit der Objekterkennungssoftware YOLO identifiziert wurden (Redmon et al. 2015). YOLO erstellt <hi rend="italic">bounding boxes</hi> um die Figuren und anderen identifizierten Objekte, welche die Objekte auch sprachlich benennen. Ein Tiefenerkennungs-Algorithmus (Ha 2016) löst die Figuren vom Hintergrund, die anschließend mit GrabCut ausgeschnitten wurden (Rother et al. 2004). In der Bearbeitung der riesigen Datenmengen hat sich dieser Workflow als zwar zuverlässig, aber zu wenig effizient erwiesen. Daher verwendet Gaudenz Halter nun in VIAN einen Deep-Learning-Ansatz, der die Figuren direkt identifiziert und mit semantischer Segmentation pixelweise markiert. </p>
+				<figure>
+					<graphic n="keynote" width="12.62cm" height="4.5cm" url="image9.png" rend="inline"/>
+					<head>Abbildung 7: VIAN Figur-Grund-Trennung in <hi rend="italic">Jigokumon</hi> (JAP 1953, Teinosuke Kinugasa)</head>
+				</figure>
+			</div>
+			<div>
+				<head>Auswertung, Korpusvisualisierungen und Crowd-sourcing-Plattform</head>
+				<p>Wegen des Datenumfangs mussten die Auswertungen der Analysen zwar außerhalb von FileMaker ausgeführt werden, wurden als Summen anschließend die Auswertungs-DB importiert, sodass die Resultate in allen DBs zur Verfügung stehen, in der Korpus-DB pro Film, in der Glossar-DB pro Konzept, gefiltert nach filmografischen Daten und Subkorpora.</p>
+				<figure>
+					<graphic n="keynote" width="14.29cm" height="6.63cm" url="image10.png" rend="inline"/>
+					<head>Abbildung 8: Ausschnitt des Eintrags farbiges Licht in der Glossar-DB, <lb/>Screenshots sortiert nach verschiedenen Korpora (Perioden, individuelle Auswahl) und typologischen Kriterien.</head>
+				</figure>
+				<p>Zusätzlich ist der <hi rend="italic">Corpus Visualizer</hi> als Teil von VIAN entstanden und verbindet die Auswertungen der manuellen Analysen mit den Visualisierungsmethoden. </p><p>Alle Daten aus den manuellen Analysen sind aus den FileMaker-DBs exportiert und in eine eigens entwickelte Datenstruktur in VIAN importiert worden, die einerseits aus einer visuell lesbaren JSON-Datei besteht, andererseits aus Gründen der Performanz numerische Daten in eine HDF5-Struktur integriert (Halter et al. 2019). Das JSON-Format ermöglicht auch die Interoperabilität mit anderen Video-Annotations-Systemen .</p>
+				<figure>
+					<graphic n="keynote" width="8.58cm" height="8.58cm" url="image11.png" rend="inline"/>
+					<head>Abbildung 9: Korpusübergreifende Visualisierung des Analysekonzepts farbiges Licht, 1935–1995.</head>
+				</figure>
+				<p>Es lassen sich daher – mit anderen Worten – alle 1‘200 Konzepte des Glossars sowie alle filmografischen Daten abfragen und auf alle unterschiedlichen Arten visualisieren, sowohl Personalstile von einzelnen Filmschaffenden der Bereiche Regie, Kamera, Ausstattung, Kostüme, Farbberatung, aber auch Genres, den Produktionskontext – Firmen, Länder, Perioden – sowie die für die hier beschriebene Forschung essenziellen technischen Farbverfahren. </p><p>Die Konzepte, die in der Glossar-DB erfasst, definiert und beschrieben sowie in der Analyse-DB in Form von Checkboxen integriert sind, umfassen ein großes Arsenal an analytischen Dimensionen, von narrativen Strukturen über Figurenemotionen zu verbalen Beschreibungen Farbwerten, Farbschemata und Farbkontrasten, die mit einer 8-stufigen Typologie basierend auf Johannes Itten (1970) systematisiert wurden. </p>
+				<figure>
+					<graphic n="keynote" width="15.06cm" height="6.5cm" url="image12.png" rend="inline"/>
+					<head>Abbildung 10: Übertragung der Analyse-DB mit allen Konzepten in VIANs Analyse-Widget.</head>
+				</figure>
+				<p>Es sind weiter detaillierte ästhetische Analysekonzepte der Bildkomposition, der Schärfentiefe, Beleuchtung, Bewegung von Kamera und Figuren, Texturen und Muster sowie Materialisierung von in den Filmen dargestellten Kostümen, Objekten und Umgebungen. </p>
+				<p>Alle Visualisierungen auf Korpus-Ebene sind mit der Figur-Grund-Trennung umgesetzt. Es lassen sich ebenso alle Filme getrennt nach Figuren, Umgebung und Gesamtbild mit allen verschiedenen implementierten Visualisierungsmethoden darstellen. </p>
+				<p>Neben den Visualisierungen sind die Segmente, in denen die Konzepte vorkommen, mit einer Kurzbeschreibung aufgeführt, sodass sich unmittelbar eine Verbindung der Visualisierung mit der manuellen Analyse herstellen lässt. </p>
+				<p>Besonders ertragreich sind die Color_dT-Visualisierungen, die auf Filmebene die Farbschemata über die Zeit darstellen, wiederum getrennt für Figur, Grund und globales Bild, um die narrativen Entwicklungen der Filme zu untersuchen und das Verhältnis der Figuren zur Umwelt im Lauf dieser Entwicklung abzubilden.</p>
+				<figure>
+					<graphic n="keynote" width="14cm" height="6.53cm" url="image13_14_15.png" rend="inline"/>
+					<head>Abbildung 11: Color_dT von <hi rend="italic smallcaps">Une femme est une femme</hi> (FRA 1961, Jean-Luc Godard), <lb/>Figuren (oben), Hintergrund (Mitte), ganze Bilder (unten)</head>
+				</figure>
+				<p>Dieses Konzept hat VIAN nun auch für die Visualisierungen auf Korpus-Ebene integriert, sodass die zeitlichen Entwicklungen innerhalb gewählter Perioden sichtbar werden, nun mit der Dimension Zeit in Jahren.</p>
+				<p>Konzepte werden in der Auswertung im <hi rend="italic">Features Tool</hi> visualisiert (siehe Screen-Video <ref target="https://vimeo.com/292861139">https://vimeo.com/292861139</ref>) und Korrelationen in einer <hi rend="italic">Korrelationsmatrix</hi> dargestellt.</p>
+				<p>Zusätzlich entwickelt Silas Weber ebenfalls in Zusammenarbeit mit dem VMML und Gaudenz Halter eine Crowd-sourcing-Plattform als Web-App, in der in Zukunft externe Nutzer ihre eigenen Analysen in VIAN deponieren können. Sie wird Ende Januar 2019 publiziert. Im Herbst 2019 findet zudem eine Ausstellung im Fotomuseum Winterthur statt, für die es eine App geben wird, welche die Exponate mit den Fotos und Quellen in der <hi rend="italic">Timeline of Historical Film Colors</hi> verbindet und Zugriff auf einzelne Tools in VIAN und die Plattform erlauben wird, um den Besuchern einen spielerischen Zugang zur komplexen Materie zu ermöglichen, nach dem Motto „What is the color scheme of your favorite movie?“.</p>
+			</div>
+			<div>
+			<head>Bibliografie</head>
+					<p>
+						<hi rend="bold">Brodbeck, Frederic (2011): </hi>
+						<hi rend="italic">Cinemetrics. Film Data Visualization. </hi>In: <hi rend="italic">Cinemetrics</hi>, (= <ref target="http://cinemetrics.fredericbrodbeck.de/,">http://cinemetrics.fredericbrodbeck.de/,</ref> abgerufen 05/30/2016).
+					</p>
+					<p>
+						<hi rend="bold">Cutting, James E./ Brunick, Kaitlin L./ Candan, Ayse (2012): </hi>
+						<hi rend="italic">Perceiving Event Dynamics and Parsing Hollywood Films.</hi> In: <hi rend="italic">Journal of Experimental Psychology</hi>, Advance online publication, (= <ref target="http://people.psych.cornell.edu/~jec7/pubs/jephppscenes.pdf,">http://people.psych.cornell.edu/~jec7/pubs/jephppscenes.pdf,</ref> abgerufen 10/15/2016).
+					</p>
+					<p>
+						<hi rend="bold">Ferguson, Kevin L. (2013): </hi>
+						<hi rend="italic">Western Roundup.</hi> (= <ref target="http://typecast.qwriting.qc.cuny.edu/2013/10/07/western-roundup/,">http://typecast.qwriting.qc.cuny.edu/2013/10/07/western-roundup/,</ref> abgerufen 07/11/2016).
+					</p>
+					<p>
+						<hi rend="bold">Ferguson, Kevin L. (2016): </hi>
+						<hi rend="italic">The Slices of Cinema. Digital Surrealism as Research Strategy. </hi>
+						<hi rend="bold">In: Charles R. Acland and Eric Hoyt (eds.): </hi>
+						<hi rend="italic">The Arclight Guidebook to Media History and the Digital Humanities</hi>. Reframe Books, pp. 270–299, (= <ref target="http://projectarclight.org/book/">http://projectarclight.org/book/</ref>).
+					</p>
+					<p>
+						<hi rend="bold">Flückiger, Barbara (2011): </hi>
+						<hi rend="italic">Die Vermessung ästhetischer Erscheinungen.</hi> In: <hi rend="italic">Zeitschrift für Medienwissenschaft</hi>, 5, pp. 44–60.
+					</p>
+					<p>
+						<hi rend="bold">Flueckiger, Barbara (2012): </hi>
+						<hi rend="italic">Timeline of Historical Film Colors.</hi> (= <ref target="http://zauberklang.ch/filmcolors/,">http://zauberklang.ch/filmcolors/,</ref> retrieved 11/19/2017). 
+					</p>
+					<p>
+						<hi rend="bold">Flueckiger, Barbara (2017): </hi>
+						<hi rend="italic">A Digital Humanities Approach to Film Colors.</hi> In: <hi rend="italic">The Moving Image</hi>, 17.2, S. 71–94.
+					</p>
+					<p>
+						<hi rend="bold">Flueckiger, Barbara/ Evirgen, Noyan/ Paredes, Enrique G./ Ballester-Ripoll, Rafael/ Pajarola, Renato (2017): </hi>
+						<hi rend="italic">Deep Learning Tools for Foreground-Aware Analysis of Film Colors.</hi> In: <hi rend="italic">AVinDH SIG</hi>, (= <ref target="https://avindhsig.wordpress.com/deep-learning-tools-for-foreground-aware-analysis-of-film-colors/,">https://avindhsig.wordpress.com/deep-learning-tools-for-foreground-aware-analysis-of-film-colors/,</ref> abgerufen 04/10/2018).
+					</p>
+					<p>
+						<hi rend="bold">Flueckiger, Barbara/ Halter, Gaudenz (2018): </hi>
+						<hi rend="italic">Building a Crowdsourcing Platform for the Analysis of Film Colors. </hi>In: <hi rend="italic">The Moving Image</hi>, 18.1, S. 80–83.
+					</p>
+					<p>
+						<hi rend="bold">Giunti, Livia (2010): </hi>
+						<hi rend="italic">Problemi dell’analisi del testo di finzione audiovisivo. Verifica e sviluppo di un modello analitico e interpretativo con strumenti digitali</hi>. Università degli Studi di Pisa, (= <ref target="https://etd.adm.unipi.it/theses/available/etd-10172012-200229/unrestricted/TESI_caricamento.pdf">https://etd.adm.unipi.it/theses/available/etd-10172012-200229/unrestricted/TESI_caricamento.pdf</ref>).
+					</p>
+					<p>
+						<hi rend="bold">Giunti, Livia (2014): </hi>
+						<hi rend="italic">L’analyse du film a l’ère numérique. Annotation, geste analytique et lecture active.</hi> In: <hi rend="italic">Cinéma &amp; Cie</hi>, 14,22/23, S. 127–143.
+					</p>
+					<p>
+						<hi rend="bold">Gruber, Klemens/ Wurm, Barbara; Kropf, Vera (eds.) (2009): </hi>
+						<hi rend="italic">Digital Formalism. Die kalkulierten Bilder des Dziga Vertov.</hi> Wien: Böhlau Verlag.
+					</p>
+					<p>
+						<hi rend="bold">Ha, H./ Im, S./ Park, J./ Jeon, H. G./ Kweon, I. S. (2016): </hi>
+						<hi rend="italic">High-Quality Depth from Uncalibrated Small Motion Clip.</hi> In: <hi rend="italic">2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</hi>, S. 5413–5421.
+					</p>
+					<p>
+						<hi rend="bold">Hahn, Stefan (2009): </hi>
+						<hi rend="italic">Filmprotokoll Revisited. Ground Truth in Digital Formalism. </hi>In: 
+						<hi rend="bold">Klemens Gruber, Barbara Wurm und Vera Kropf (eds.): </hi>
+						<hi rend="italic">Digital Formalism: Die kalkulierten Bilder des Dziga Vertov</hi>. Wien: Böhlau Verlag, S. 129‒136.
+					</p>
+					<p>
+						<hi rend="bold">Halter, Gaudenz/ Ballester-Ripoll, Rafael/ Flueckiger, Barbara/ Pajarola, Renato (2019): </hi>
+						<hi rend="italic">VIAN. A Visual Annotation Tool for Film Analysis. Unveröffentlichtes Manuskript.</hi>
+					</p>
+					<p>
+						<hi rend="bold">Heftberger, Adelheid (2016): </hi>
+						<hi rend="italic">Kollision der Kader. Dziga Vertovs Filme, die Visualisierung ihrer Strukturen und die Digital Humanities</hi>. München: Edition Text + Kritik.
+					</p>
+					<p>
+						<hi rend="bold">Itten, Johannes (1970): </hi>
+						<hi rend="italic">Kunst der Farbe</hi>. Ravensburg: Ravensburger Buchverlag.
+					</p>
+					<p>
+						<hi rend="bold">King, Lindsay M./ Leonard, Peter S. (2017): </hi>
+						<hi rend="italic">Processing Pixels.Towards Visual Culture Computation.</hi> Montreal, Canada.
+					</p>
+					<p>
+						<hi rend="bold">Manovich, Lev (2012): </hi>
+						<hi rend="italic">How to Compare One Million Images?</hi> In: 
+						<hi rend="bold">D. Berry (ed.): </hi>
+						<hi rend="italic">Understanding Digital Humanities</hi>. London: Palgrave Macmillan UK, S. 249‒278.
+					</p>
+					<p>
+						<hi rend="bold">Manovich, Lev (2013): </hi>
+						<hi rend="italic">Visualizing Vertov. </hi>In: <hi rend="italic">Russian Journal of Communication</hi>, 5,1, S. 44–55.
+					</p>
+					<p>
+						<hi rend="bold">Manovich, Lev (2015): </hi>
+						<hi rend="italic">Data Science and Digital Art History.</hi> In: <hi rend="italic">International Journal for Digital Art History</hi>, 1, (= <ref target="https://journals.ub.uni-heidelberg.de/index.php/dah/article/view/21631,">https://journals.ub.uni-heidelberg.de/index.php/dah/article/view/21631,</ref> abgerufen 08/13/2016).
+					</p>
+					<p>
+						<hi rend="bold">Melgar Estrada, Liliana/ Hielscher, Eva/ Koolen, Marijn/ Olesen, Christian Gosvig/ Noordegraaf, Julia/ Blom, Jaap (2017): </hi>
+						<hi rend="italic">Film Analysis as Annotation. Exploring Current Tools.</hi> In: <hi rend="italic">The Moving Image: The Journal of the Association of Moving Image Archivists</hi>, 17,2, S. 40–70.
+					</p>
+					<p>
+						<hi rend="bold">Olesen, Christian Gosvig (2017): </hi>
+						<hi rend="italic">Film History in the Making. Film Historiography, Digitised Archives and Digital Research Dispositifs</hi>. Amsterdam: University of Amsterdam, (= <ref target="https://dare.uva.nl/search?identifier=ad68a275-e968-4fce-b91e-4783cd69686c,">https://dare.uva.nl/search?identifier=ad68a275-e968-4fce-b91e-4783cd69686c,</ref> abgerufen 10/07/2017).
+					</p>
+					<p>
+						<hi rend="bold">Olesen, Christian Gosvig/ Gorp, Jasmijn van/ Fossati, Giovanna (2016): </hi>
+						<hi rend="italic">Datasets and Colour Visualizations for ‘Data-Driven Film History. A Demonstrator of EYE’s Jean Desmet Collection. </hi>In: <hi rend="italic">Creative Amsterdam. An E-Humanities Perspective. A Research Program at the University of Amsterdam</hi>, (= <ref target="http://www.create.humanities.uva.nl/results/desmetdatasets/,">http://www.create.humanities.uva.nl/results/desmetdatasets</ref>, abgerufen 11/11/2016).
+					</p>
+					<p>
+						<hi rend="bold">Redmon, Joseph/ Divvala, Santosh/ Girshick, Ross/ Farhadi, Ali (2015): </hi>
+						<hi rend="italic">You Only Look Once. Unified, Real-Time Object Detection.</hi> In: <hi rend="italic">arXiv:1506.02640 [cs]</hi>, Juni.
+					</p>
+					<p>
+						<hi rend="bold">Reyes-García, Everardo (2014): </hi>
+						<hi rend="italic">Explorations in Media Visualization. </hi>New York: ACM, (= <ref target="http://www.academia.edu/download/35860006/Reyes_2014-Explorations_in_Media_Visualization.pdf,%20http:/ceur-ws.org/Vol-1210/datawiz2014_11.pdf,">http://www.academia.edu/download/35860006/Reyes_2014-Explorations_in_Media_Visualization.pdf, http://ceur-ws.org/Vol-1210/datawiz2014_11.pdf,</ref> abgerufen 08/13/2016).
+					</p>
+					<p>
+						<hi rend="bold">Reyes-García, Everardo (2017): </hi>
+						<hi rend="italic">The Image-interface. Graphical Supports for Visual Information</hi>. Hoboken, NJ: Wiley-ISTE.
+					</p>
+					<p>
+						<hi rend="bold">Ross, Jacqui (2007): </hi>
+						<hi rend="italic">Colour Analysis Tools in ImageJ</hi>. (= <ref target="https://www.unige.ch/medecine/bioimaging/files/3814/1208/6041/ColourAnalysis.pdf,">https://www.unige.ch/medecine/bioimaging/files/3814/1208/6041/ColourAnalysis.pdf,</ref> abgerufen 02/10/2016).
+					</p>
+					<p>
+						<hi rend="bold">Rother, Carsten/ Kolmogorov, Vladimir/ Blake, Andrew (2004): </hi>
+						<hi rend="italic">GrabCut. Interactive Foreground Extraction using Iterated Graph Cuts.</hi> In: <hi rend="italic">ACM Transactions on Graphics (SIGGRAPH)</hi>, Aug.
+					</p>
+					<p>
+						<hi rend="bold">Stutz, Olivia Kristina (2016): </hi>
+						<hi rend="italic">Algorithmische Farbfilmästhetik. Historische sowie experimentell-digitale Notations- und Visualisierungssysteme des Farbfilms im Zeichen der Digital Humanities 2.0 und 3.0</hi>. Zürich: Universität Zürich.
+					</p>
+			</div>
+			<div>
+				<head>Danksagung</head>
+				<p>This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No 670446 F<hi rend="italic">ilmColors.</hi> </p>
+				<p>Zu danken ist Gaudenz Halter, dem Analyse-Team des Forschungsprojekts ERC Advanced Grant <hi rend="italic">FilmColors</hi> sowie dem Visualization and MultiMedia Lab der Universität Zürich, geleitet von Prof. Dr. Renato Pajarola.  </p>
+			</div>
+		</body>
+		<!--<back>
+			<div type="bibliogr">
+				<listBibl>
+					<head>Bibliografie</head>
+					<bibl>
+						<hi rend="bold">Brodbeck, Frederic (2011): </hi>
+						<hi rend="italic">Cinemetrics. Film Data Visualization. </hi>In: <hi rend="italic">Cinemetrics</hi>, (= <ref target="http://cinemetrics.fredericbrodbeck.de/,">http://cinemetrics.fredericbrodbeck.de/,</ref> abgerufen 05/30/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Cutting, James E./ Brunick, Kaitlin L./ Candan, Ayse (2012): </hi>
+						<hi rend="italic">Perceiving Event Dynamics and Parsing Hollywood Films.</hi> In: <hi rend="italic">Journal of Experimental Psychology</hi>, Advance online publication, (= <ref target="http://people.psych.cornell.edu/~jec7/pubs/jephppscenes.pdf,">http://people.psych.cornell.edu/~jec7/pubs/jephppscenes.pdf,</ref> abgerufen 10/15/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Ferguson, Kevin L. (2013): </hi>
+						<hi rend="italic">Western Roundup.</hi> (= <ref target="http://typecast.qwriting.qc.cuny.edu/2013/10/07/western-roundup/,">http://typecast.qwriting.qc.cuny.edu/2013/10/07/western-roundup/,</ref> abgerufen 07/11/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Ferguson, Kevin L. (2016): </hi>
+						<hi rend="italic">The Slices of Cinema. Digital Surrealism as Research Strategy. </hi>
+						<hi rend="bold">In: Charles R. Acland and Eric Hoyt (eds.): </hi>
+						<hi rend="italic">The Arclight Guidebook to Media History and the Digital Humanities</hi>. Reframe Books, pp. 270–299, (= <ref target="http://projectarclight.org/book/">http://projectarclight.org/book/</ref>).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Flückiger, Barbara (2011): </hi>
+						<hi rend="italic">Die Vermessung ästhetischer Erscheinungen.</hi> In: <hi rend="italic">Zeitschrift für Medienwissenschaft</hi>, 5, pp. 44–60.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Flueckiger, Barbara (2012): </hi>
+						<hi rend="italic">Timeline of Historical Film Colors.</hi> (= <ref target="http://zauberklang.ch/filmcolors/,">http://zauberklang.ch/filmcolors/,</ref> retrieved 11/19/2017). 
+					</bibl>
+					<bibl>
+						<hi rend="bold">Flueckiger, Barbara (2017): </hi>
+						<hi rend="italic">A Digital Humanities Approach to Film Colors.</hi> In: <hi rend="italic">The Moving Image</hi>, 17.2, S. 71–94.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Flueckiger, Barbara/ Evirgen, Noyan/ Paredes, Enrique G./ Ballester-Ripoll, Rafael/ Pajarola, Renato (2017): </hi>
+						<hi rend="italic">Deep Learning Tools for Foreground-Aware Analysis of Film Colors.</hi> In: <hi rend="italic">AVinDH SIG</hi>, (= <ref target="https://avindhsig.wordpress.com/deep-learning-tools-for-foreground-aware-analysis-of-film-colors/,">https://avindhsig.wordpress.com/deep-learning-tools-for-foreground-aware-analysis-of-film-colors/,</ref> abgerufen 04/10/2018).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Flueckiger, Barbara/ Halter, Gaudenz (2018): </hi>
+						<hi rend="italic">Building a Crowdsourcing Platform for the Analysis of Film Colors. </hi>In: <hi rend="italic">The Moving Image</hi>, 18.1, S. 80–83.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Giunti, Livia (2010): </hi>
+						<hi rend="italic">Problemi dell’analisi del testo di finzione audiovisivo. Verifica e sviluppo di un modello analitico e interpretativo con strumenti digitali</hi>. Università degli Studi di Pisa, (= <ref target="https://etd.adm.unipi.it/theses/available/etd-10172012-200229/unrestricted/TESI_caricamento.pdf">https://etd.adm.unipi.it/theses/available/etd-10172012-200229/unrestricted/TESI_caricamento.pdf</ref>).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Giunti, Livia (2014): </hi>
+						<hi rend="italic">L’analyse du film a l’ère numérique. Annotation, geste analytique et lecture active.</hi> In: <hi rend="italic">Cinéma &amp; Cie</hi>, 14,22/23, S. 127–143.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Gruber, Klemens/ Wurm, Barbara; Kropf, Vera (eds.) (2009): </hi>
+						<hi rend="italic">Digital Formalism. Die kalkulierten Bilder des Dziga Vertov.</hi> Wien: Böhlau Verlag.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Ha, H./ Im, S./ Park, J./ Jeon, H. G./ Kweon, I. S. (2016): </hi>
+						<hi rend="italic">High-Quality Depth from Uncalibrated Small Motion Clip.</hi> In: <hi rend="italic">2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</hi>, S. 5413–5421.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Hahn, Stefan (2009): </hi>
+						<hi rend="italic">Filmprotokoll Revisited. Ground Truth in Digital Formalism. </hi>In: 
+						<hi rend="bold">Klemens Gruber, Barbara Wurm und Vera Kropf (eds.): </hi>
+						<hi rend="italic">Digital Formalism: Die kalkulierten Bilder des Dziga Vertov</hi>. Wien: Böhlau Verlag, S. 129‒136.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Halter, Gaudenz/ Ballester-Ripoll, Rafael/ Flueckiger, Barbara/ Pajarola, Renato (2019): </hi>
+						<hi rend="italic">VIAN. A Visual Annotation Tool for Film Analysis. Unveröffentlichtes Manuskript.</hi>
+					</bibl>
+					<bibl>
+						<hi rend="bold">Heftberger, Adelheid (2016): </hi>
+						<hi rend="italic">Kollision der Kader. Dziga Vertovs Filme, die Visualisierung ihrer Strukturen und die Digital Humanities</hi>. München: Edition Text + Kritik.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Itten, Johannes (1970): </hi>
+						<hi rend="italic">Kunst der Farbe</hi>. Ravensburg: Ravensburger Buchverlag.
+					</bibl>
+					<bibl>
+						<hi rend="bold">King, Lindsay M./ Leonard, Peter S. (2017): </hi>
+						<hi rend="italic">Processing Pixels.Towards Visual Culture Computation.</hi> Montreal, Canada.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Manovich, Lev (2012): </hi>
+						<hi rend="italic">How to Compare One Million Images?</hi> In: 
+						<hi rend="bold">D. Berry (ed.): </hi>
+						<hi rend="italic">Understanding Digital Humanities</hi>. London: Palgrave Macmillan UK, S. 249‒278.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Manovich, Lev (2013): </hi>
+						<hi rend="italic">Visualizing Vertov. </hi>In: <hi rend="italic">Russian Journal of Communication</hi>, 5,1, S. 44–55.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Manovich, Lev (2015): </hi>
+						<hi rend="italic">Data Science and Digital Art History.</hi> In: <hi rend="italic">International Journal for Digital Art History</hi>, 1, (= <ref target="https://journals.ub.uni-heidelberg.de/index.php/dah/article/view/21631,">https://journals.ub.uni-heidelberg.de/index.php/dah/article/view/21631,</ref> abgerufen 08/13/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Melgar Estrada, Liliana/ Hielscher, Eva/ Koolen, Marijn/ Olesen, Christian Gosvig/ Noordegraaf, Julia/ Blom, Jaap (2017): </hi>
+						<hi rend="italic">Film Analysis as Annotation. Exploring Current Tools.</hi> In: <hi rend="italic">The Moving Image: The Journal of the Association of Moving Image Archivists</hi>, 17,2, S. 40–70.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Olesen, Christian Gosvig (2017): </hi>
+						<hi rend="italic">Film History in the Making. Film Historiography, Digitised Archives and Digital Research Dispositifs</hi>. Amsterdam: University of Amsterdam, (= <ref target="https://dare.uva.nl/search?identifier=ad68a275-e968-4fce-b91e-4783cd69686c,">https://dare.uva.nl/search?identifier=ad68a275-e968-4fce-b91e-4783cd69686c,</ref> abgerufen 10/07/2017).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Olesen, Christian Gosvig/ Gorp, Jasmijn van/ Fossati, Giovanna (2016): </hi>
+						<hi rend="italic">Datasets and Colour Visualizations for ‘Data-Driven Film History. A Demonstrator of EYE’s Jean Desmet Collection. </hi>In: <hi rend="italic">Creative Amsterdam. An E-Humanities Perspective. A Research Program at the University of Amsterdam</hi>, (= <ref target="http://www.create.humanities.uva.nl/results/desmetdatasets/,">http://www.create.humanities.uva.nl/results/desmetdatasets</ref>, abgerufen 11/11/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Redmon, Joseph/ Divvala, Santosh/ Girshick, Ross/ Farhadi, Ali (2015): </hi>
+						<hi rend="italic">You Only Look Once. Unified, Real-Time Object Detection.</hi> In: <hi rend="italic">arXiv:1506.02640 [cs]</hi>, Juni.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Reyes-García, Everardo (2014): </hi>
+						<hi rend="italic">Explorations in Media Visualization. </hi>New York: ACM, (= <ref target="http://www.academia.edu/download/35860006/Reyes_2014-Explorations_in_Media_Visualization.pdf,%20http:/ceur-ws.org/Vol-1210/datawiz2014_11.pdf,">http://www.academia.edu/download/35860006/Reyes_2014-Explorations_in_Media_Visualization.pdf, http://ceur-ws.org/Vol-1210/datawiz2014_11.pdf,</ref> abgerufen 08/13/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Reyes-García, Everardo (2017): </hi>
+						<hi rend="italic">The Image-interface. Graphical Supports for Visual Information</hi>. Hoboken, NJ: Wiley-ISTE.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Ross, Jacqui (2007): </hi>
+						<hi rend="italic">Colour Analysis Tools in ImageJ</hi>. (= <ref target="https://www.unige.ch/medecine/bioimaging/files/3814/1208/6041/ColourAnalysis.pdf,">https://www.unige.ch/medecine/bioimaging/files/3814/1208/6041/ColourAnalysis.pdf,</ref> abgerufen 02/10/2016).
+					</bibl>
+					<bibl>
+						<hi rend="bold">Rother, Carsten/ Kolmogorov, Vladimir/ Blake, Andrew (2004): </hi>
+						<hi rend="italic">GrabCut. Interactive Foreground Extraction using Iterated Graph Cuts.</hi> In: <hi rend="italic">ACM Transactions on Graphics (SIGGRAPH)</hi>, Aug.
+					</bibl>
+					<bibl>
+						<hi rend="bold">Stutz, Olivia Kristina (2016): </hi>
+						<hi rend="italic">Algorithmische Farbfilmästhetik. Historische sowie experimentell-digitale Notations- und Visualisierungssysteme des Farbfilms im Zeichen der Digital Humanities 2.0 und 3.0</hi>. Zürich: Universität Zürich.
+					</bibl>
+				</listBibl>
+			</div>
+		</back>-->
+	</text>
+</TEI>

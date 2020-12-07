@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="254_final-BOHL_Benjamin_W__Einf_hrung_in_TEI_ODD" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Einführung in TEI-ODD</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Stadler</surname>
+<forename>Peter</forename>
+</persName>
+<affiliation>Universität Paderborn, Deutschland</affiliation>
+<email>stadler@weber-gesamtausgabe.de</email>
+</author>
+<author>
+<persName>
+<surname>Bohl</surname>
+<forename>Benjamin W.</forename>
+</persName>
+<affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+<email>bohl@em.uni-frankfurt.de</email>
+</author>
+<author>
+<persName>
+<surname>Viglianti</surname>
+<forename>Raffaele</forename>
+</persName>
+<affiliation>MITH, University of Maryland, College Park, MD, USA</affiliation>
+<email>rviglian@umd.edu</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-27T16:59:18.852626000</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Workshop</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>ODD</term>
+<term>Schemaspezifikation</term>
+<term>digitale Editionsrichtlinien</term>
+<term>TEI</term>
+<term>MEI</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Modellierung</term>
+<term>Bearbeitung</term>
+<term>Einführung</term>
+<term>Lehre</term>
+<term>Standards</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>ODD (One Document does it all) ist eine Metasprache, entwickelt im Kontext der Text Encoding Initiative (TEI), zur (formalen) Beschreibung und Dokumentation von XML Schemata. ODD bildet die Grundlage (d.h. den Quellcode) der Richtlinien und Schemata sowohl der Text Encoding Initiative (TEI) als auch der Music Encoding Initiative (MEI). Aber ODD ist nicht auf diese bestehenden Codierungsrichtlinien beschränkt; so lässt es sich auch zur Beschreibung anderer bestehender XML-Dialekte benutzen (beispielsweise HTML [4]), oder zur Entwicklung eigenständiger Codierungsrichtlinien in ganz anderen Kontexten, wie etwa im Falle von Music Performance Markup (MPM) [1].</p>
+<p>Das grundlegende Designprinzip von ODD folgt einem Literate Programming Ansatz, d.h. in einem ODD-Dokument sind sowohl die Code-Bestandteile zur Beschreibung der Grammatik eines Schemas als auch die menschenlesbare Beschreibung – und Exemplifizierung – dieser Regeln miteinander verwoben [6]. Im Kontext der TEI und MEI Communities wird dies insbesondere von digitalen Editionen genutzt. Der besondere Anreiz liegt für diese Unternehmungen hierbei darin, dass die Dokumentation (im ODD-Format) der jeweils spezifischen Nutzung der TEI bzw. der MEI-Richtlinien gewissermaßen das digitale Pendant zu herkömmlichen Editionsrichtlinien darstellt.</p>
+<p>Aus „Endnutzersicht“ wird ODD meist zur Maßschneiderung von TEI oder MEI Schemata genutzt. Die aktive Weiterentwicklung von ODD hat jedoch interessante neue Möglichkeiten eröffnet; so ist es neuerdings mittels so genanntem ODD-Chaining [2] auch möglich geworden, eigene Editionsrichtlinien nicht unmittelbar von den TEI- oder MEI-Richtlinien abzuleiten, sondern vermittelt von anderen ODD-Anpassungen. Dies wird beispielsweise im Deutschen Textarchiv genutzt, um die Richtlinien zur Auszeichnung von Drucken bzw. von Manuskripten von einem gemeinsamen DTA Basisformat abzuleiten [3].</p>
+<p>Solchen Anwendungsfällen von ODD werden jedoch meist nur wenige „Eingeweihte“ gewahr, da die häufig eine Verständnisbarriere für die Mechanismen von ODD vorliegt. Diesem soll der vorliegende Workshop entgegenwirken. Deshalb ist der ganztägige Workshop speziell auf die Bedürfnisse von Einsteigern ausgerichtet. Es werden sowohl die notwendigen theoretischen Hintergründe vermittelt, als auch praktische Hilfestellungen zum Erstellen eines ersten eigenen Schemas bzw. dessen Dokumentation vermittelt. Hierfür wird im ersten Teil des Workshops zunächst als niederschwelliger Einstieg der von Raffaele Viglianti neu entwickelte webbasierte ODD-Editor „Roma“ [5] vorgestellt und damit die Erstellung einfacher Anpassungen des TEI-Schemas verwendet; dazu gehören etwa Operationen wie das Hinzufügen oder Entfernen von ganzen teilbereichen des Schemas (Modulen), von einzelnen Elementen oder Attributen, sowie das Einschränken von Attributwerten auf geschlossene Listen.</p>
+<p>Im zweiten Teil des Workshops sollen dann durch direktes Bearbeiten des ODD-Quelldokuments erweiterte Funktionen wie Modularisierung, ODD-Chaining oder das Generieren von Schemata mit mehreren Namespaces erläutert werden.</p>
+<p>Der Workshop ist als Hands-On-Session konzipiert, in der die Teilnehmer an Ihrem eigenen Laptop direkt Erfahrungen sammeln sollen. Das Tutoren-Team steht ihnen dabei stets mit Rat und Tat zur Seite.</p>
+<div rend="DH-Heading" type="div1">
+<head>Formalia</head>
+<list type="unordered">
+<item>Maximale Zahl der möglichen Teilnehmerinnen und Teilnehmer: 25</item>
+<item>benötigte technische Ausstattung: Beamer; die Teilnehmer*innen sollen eigene Laptops mit vorinstalliertem oXygen-XML-Editor mitbringen. Eine oXygen-Lizenz zur Nutzung im Workshop wird gestellt</item>
+</list>
+</div>
+<div rend="DH-Heading" type="div1">
+  <head>Beiträger</head>
+  <div rend="DH-Heading" type="div2">
+  <head>Peter Stadler</head>
+  <!-- <p>Peter Stadler: -->
+  <p> Wissenschaftlicher Mitarbeiter an der Carl-Maria-von-Weber-Gesamtausgabe an der Universität Paderborn und Mitglied des TEI Councils. Zu seinen Forschungsgebieten zählen digitale Musik- und Briefeditionen.</p>
+  </div>
+  <div rend="DH-Heading" type="div2">
+   <head>Raffaele Viglianti</head>
+   <!-- <p>Raffaele Viglianti: -->
+   <p> Research Programmer am Maryland Institute for Technology in the Humanities (MITH) at the University of Maryland und Mitglied des TEI Councils. Seine Forschung kreist um Textwissenschaft und digitale Editionen mit einem Fokus auf Musik.</p>
+  </div>
+  <div rend="DH-Heading" type="div2">
+   <head>Benjamin W. Bohl</head>
+   <!-- <p>Benjamin W. Bohl: -->
+   <p> Research Software Engineer der Bernd Alois Zimmermann-Gesamtausgabe und in seiner Mitgliedschaft im MEI Board als Co-chair des MEI Technical Teams eingesetzt. In seiner Forschung befasst er sich mit Datenmodellierung und -haltung in digitalen Editionsprojekten mit plurimedialen Gegenständen.</p>
+  </div>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl><hi rend="bold">[1] Berndt, Axel / Bohl, Benjamin W.</hi> (2018): Music Performance Markup: Formale Beschreibung musikalischer Interpretationen. In: Editio Bd. 32 (2018), Nr. 1, S. 185–204.</bibl>
+<bibl><hi rend="bold">[2] Burnard, Lou</hi>: ODD chaining for beginners, <ptr target="http://teic.github.io/PDF/howtoChain.pdf"/></bibl>
+<bibl><hi rend="bold">[3] Deutsches Textarchiv</hi>: Schema und Dokumentation der DTABf Schema, http://www.deutschestextarchiv.de/doku/basisformat/schema.html</bibl>
+<bibl><hi rend="bold">[4] Holmes, Martin</hi> 2018: Using ODD for HTML, in Proceedings of of the Text Encoding Initiative Conference and Members Meeting The Markup Conference, Tokyo, Japan, September 9–13 2018. Pages 240–241, <ptr target="https://tei2018.dhii.asia/AbstractsBook_TEI_0907.pdf"/></bibl>
+<bibl><hi rend="bold">[5] TEI Consortium</hi>: Roma ODD Editor, https://romabeta.tei-c.org</bibl>
+<bibl><hi rend="bold">[6] Viglianti, Raffaele</hi>: One Document Does-it-all (ODD): a language for documentation, schema generation, and customization from the Text Encoding Initiative, <ptr target="https://www.balisage.net/Proceedings/vol24/html/Viglianti01/BalisageVol24-Viglianti01.html"/></bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

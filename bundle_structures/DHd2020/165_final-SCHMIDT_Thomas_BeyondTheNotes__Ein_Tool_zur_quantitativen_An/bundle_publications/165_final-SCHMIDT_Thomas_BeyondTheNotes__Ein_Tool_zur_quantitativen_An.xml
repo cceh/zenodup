@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="165_final-SCHMIDT_Thomas_BeyondTheNotes__Ein_Tool_zur_quantitativen_An" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>BeyondTheNotes: Ein Tool zur quantitativen Analyse in den digitalen Musikwissenschaften</title>
+<author>
+<persName>
+<surname>Ortloff</surname>
+<forename>Anna-Marie</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>anna-marie.ortloff@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Windl</surname>
+<forename>Maximiliane</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>maximiliane.windl@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Güntner</surname>
+<forename>Lydia</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>lydia-maria.guentner@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Schmidt</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>thomas.schmidt@ur.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digitale Musikwissenschaft</term>
+<term>Statistische Musikwissenschaft</term>
+<term>Web-Tool</term>
+<term>User Centered Design</term>
+<term>Distant Hearing</term>
+<term>Visualisierung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Gestaltung</term>
+<term>Programmierung</term>
+<term>Webentwicklung</term>
+<term>Visualisierung</term>
+<term>Werkzeuge</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Mit der Einführung des Konzepts des „Distant Reading“ von Moretti (2002) wurde in den digitalen Literaturwissenschaften in den letzten Jahren ein Trend angestoßen, den Einsatz von computergestützten quantitativen Methoden zur Analyse und Visualisierung von sehr großen Mengen von Texten zu explorieren. Während dieses Konzept und der Einsatz digitaler Methoden in den Literaturwissenschaften umstritten ist, sind computergestützte und quantitative Verfahren in den Musikwissenschaften schon länger etabliert und werden meist als statistische Musikwissenschaften bezeichnet (Nettheim, 1997). In Anlehnung an den Distant Reading-Begriff aus den Literaturwissenschaften wurde in den letzten Jahren versucht ähnliche Begriffe für die Musikwissenschaft einzuführen, um die computergestützte quantitative Analyse und Visualisierung von größeren Mengen an Musikstücken zu beschreiben. In der jüngsten Forschung findet man diesbezüglich die Begriffe: 
+                    <hi rend="italic">Distant Audition</hi> (Abdallah et al., 2017), 
+                    <hi rend="italic">Distant Listening</hi> (Cook, 2013) aber auch 
+                    <hi rend="italic">Distant Hearing</hi> (Burghardt, 2018). Diese Begriffe werden in Abgrenzung des jeweiligen Close-Konzepts, also 
+                    <hi rend="italic">Close Audition/Listening/Hearing</hi> betrachtet, womit die etablierte individuelle Analyse einzelner oder sehr weniger Stücke mittels hermeneutischer und qualitativer Methoden bezeichnet wird. Die genannten Begriffe sind nicht in gleicher Weise etabliert wie der Distant Reading-Begriff. Auch wird mit Distant Reading mittlerweile eine Vielzahl komplexer Methoden wie Sentiment Analysis und Topic Modeling beschrieben. Im Folgenden werden wir jedoch den Begriff Distant Hearing verwenden und bezeichnen damit die computergestützte quantitative Analyse und Visualisierung von mehreren Musikstücken. Wir berichten im vorliegenden Beitrag über den momentanen Stand der Entwicklung des neuen Tools 
+                    <hi rend="italic">BeyondTheNote</hi>, welches Konzepte des Distant Hearing integriert.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Tools und Programme in der digitalen Musikwissenschaft</head>
+<p style="text-align:left; ">Unabhängig von der Begriffsverwendung wurden einige Tools und Programme entwickelt, um die computergestützte Analyse im Sinne von Distant Hearing zu unterstützen. Nichtsdestotrotz liegen noch einige Mängel vor, die wir im Folgenden herausarbeiten, um die Entwicklung des neuen Tools 
+                    <hi rend="italic">BeyondTheNotes</hi> zu motivieren. Bereits in den 1990er Jahren wurde das 
+                    <hi rend="italic">Humdrum</hi>-Toolkit entwickelt (Huron, 1994; Huron, 2002). Es handelt sich dabei um eine programmiersprachen-unabhängige Sammlung von Kommandozeilen-Tools. Eines der bekanntesten und meistgenutzten Programm-Pakete ist 
+                    <hi rend="italic">music21</hi> (Cuthbert &amp; Ariza, 2010). Dies ist eine Python-Bibliothek, die Analyse-Möglichkeiten für Musikstücke bietet, die in digitalen Formaten symbolhaft repräsentierter Musik (z.B. MusicXML) vorliegen. In beiden Fällen sind jedoch fortgeschrittene Programmier- und IT-Kenntnisse notwendig, um die Tools zu verwenden. Speziell für HumDrum findet man aber auch Tools, die versuchen eine grafische Schnittstelle anzubieten, um leichter auf die Funktionen von HumDrum zuzugreifen (Taylor, 1996; Kornstädt, 1996). Die genannten Umsetzungen benötigen jedoch teils aufwendige Installationen und erhebliche Einarbeitungszeit. Wie jedoch Burghardt und Wolff (2014) in ihrem Aufsatz über Humanist-Computer Interaction schreiben, ist eine möglichst einfache Zugänglichkeit und eine geringe Schwelle bezüglich des technischen Vorwissens ein essenzielles Kriterium damit Tools in den Geisteswissenschaften breite Verwendung finden. Ferner wird argumentiert, dass auch Aspekte der Usability und User Experience besonders wichtig sind, um aufwendige Einarbeitungszeiten zu vermeiden. Ein leichter zugängliches Web-Tool ist das 
+                    <hi rend="italic">Digital Music Lab VIS</hi> (DML-VIS, Abdallah et al., 2017). Das Tool integriert auch Ideen des Konzepts von Distant Hearing und ermöglicht Analysen und Visualisierungen auf vorgefertigten Korpora. Dennoch fehlen einige Analysen wichtiger musikalischer Metriken und es ist auch nicht möglich eigenes Material zu analysieren.
+                </p>
+<p style="text-align:left; ">Tools und Programme, die speziell die Bedürfnisse von Geisteswissenschaftlern beachten sind bislang selten. Im Kontext der Digital Humanities findet man aktuell Arbeiten im Kontext von Jazz (Frieler et al., 2018), klassischer Musik (Condit-Schultz et al., 2018) und Volksmusik (Burghardt et al., 2015; Burghardt &amp; Lamm, 2017). Vereinzelt bieten diese auch statistische Analysen an (Burghardt et al., 2015), sind aber insgesamt verstärkt fokussiert auf Retrieval-Aspekte.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>BeyondTheNotes</head>
+<p style="text-align:left; ">BeyondTheNotes wurde mit dem Ziel entwickelt, die weiter oben genannten Probleme und Mängel bisheriger Software-Pakete aufzugreifen und sich an Bedürfnissen von Musikwissenschaftlern zu orientieren. BeyondTheNotes grenzt sich von bisherigen Tools ab indem die technischen Hürden bezüglich Programmierkenntnissen und aufwendigen Installationsverfahren umgangen werden, da BeyondTheNotes als leicht zugängliches Web-Tool geplant ist, das eine grafische Benutzeroberfläche bietet und in jedem gängigen Browser verwendet werden kann. Um Aspekten der Usability und User Experience gerecht zu werden, integrieren wir Methoden des User Centered Design-Prozesses. Als weitere Abgrenzung zu bisherigen Software-Paketen liegt der Fokus auf Distant Hearing und nicht auf der Einzelanalyse. Im DML-VIS fehlende Funktionen wie der Upload von eigenen Dateien oder die Analyse wichtiger musikalischer Metriken wurden integriert. Zielgruppe des Tools sind Musikwissenschaftler und Studierende mit Interesse an quantitativer computergestützter Musikanalyse.</p>
+<figure>
+<graphic height="6.757458333333333cm" n="1001" rend="inline" url="165_final-7d52f9381c2c30b533f8eaa7828e389f.png" width="16.002cm"/>
+<head>Abbildung 1: Logo von BeyondTheNotes</head>
+</figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Entwicklung</head>
+<p style="text-align:left; ">Für die Entwicklung des Tools wurden Ideen des User Centered Design-Prozesses (UCD) (Vredenburg et al., 2002) integriert. Dabei wird versucht in iterativen Entwicklungszyklen potentielle Nutzer mit Methoden des Usability Engineerings so früh wie möglich in den Entwicklungsprozess einzubeziehen.</p>
+<p style="text-align:left; ">Um den Anforderungen unserer Zielgruppen gerecht zu werden, fand gemäß UCD vor Entwicklungsbeginn eine Anforderungsanalyse statt. Diesbezüglich wurden eine Fokusgruppe mit Studierenden der Musikwissenschaft sowie zwei semi-strukturierte Interviews mit ausgebildeten Musikwissenschaftlern durchgeführt. Dadurch sollte Einblick in die Arbeitsweisen von Musikwissenschaftlern gewonnen und Bedürfnisse an ein computergestütztes Tool identifiziert werden. Die Ergebnisse werden im Folgenden zusammengefasst: </p>
+<p style="text-align:left; ">Die Teilnehmer unserer Anforderungsanalysen erläuterten, dass es kein festes methodisches Vorgehen bei der Analyse von Musikstücken gibt, jedoch steht im Mittelpunkt stets das Verfassen eines Textes. Für diesen Prozess werden statistische Visualisierungen als nützlich erachtet. Meist wird nur ein Stück oder eine überschaubar große Zahl analysiert. Größere Analysen finden für Genres und Komponisten. Als wichtige Features wurden die Analyse von eigenem Material sowie der Download der Ergebnisse genannt. Interessante Metriken für die Analyse sind aus Sicht unserer Teilnehmer Leittöne, Tonarten, Akkorde, Intervalle, der Tonumfang, Tonhöhen und jegliche Form von Motiven. Die Teilnehmer äußerten selten den konkreten potentiellen Einsatz und Nutzen eines Tools in ihrem Arbeitsworkflow und sehen den meisten Nutzen eines potentiellen Tools eher in der vielseitigen Exploration einer großen Menge an Ergebnisse. Die Ergebnisse der Anforderungsanalyse wurden in greifbare Features übertragen und die Mehrzahl dieser in das Tool eingearbeitet. In der Weiterentwicklung des Tools werden wir den UCD weiter aufgreifen indem z.B. größere Usability-Tests und Redesign-Phasen stattfinden und wir den Einsatz des Tools im konkreten Forschungsworkflow untersuchen. </p>
+<p style="text-align:left; ">Das Tool wurde in Python mit dem Framework Django implementiert. Für viele musikalische Analysen wurde im Back-End music21 (Cuthbert &amp; Ariza, 2010) eingesetzt. Für die Visualisierung von Notenblätter und Statistiken wurde OpenSheetMusicDisplay<ref n="1" target="ftn1"/>, Zingchart<ref n="2" target="ftn2"/> und chartist.js<ref n="3" target="ftn3"/> genutzt. Andere wichtige Technologien für die Entwicklung schließen PostgreSQL, JavaScript und Jquery ein.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Funktionen</head>
+<p style="text-align:left; ">Die Funktionen des Tools gliedern sich in zwei Bereiche. Die Analyse von einem einzelnen Stück inklusive seiner Partitur („Individual Analysis“) und die statistische Analyse von einem oder mehreren Werken bezüglich der Verteilungen unterschiedlicher Metriken („Distant Hearing"; Abbildung 2).</p>
+<figure>
+<graphic height="6.771677777777778cm" n="1002" rend="inline" url="165_final-efa0f745804f8362410b3f9e6e7d98c1.png" width="14.273388888888888cm"/>
+<head>Abbildung 2: Start-Screen von BeyondTheNotes</head>
+</figure>
+<p style="text-align:left; ">Nach Auswahl eines Bereichs kann der Nutzer eine oder mehrerer Dateien für die Analyse hochladen. Es werden alle gängigen Dateiformate symbolhaft repräsentierter Musik akzeptiert z.B. MusicXML, MEI, Midi, ABC usw. Alternativ wird zum Testen der music21-Korpus zur Verfügung gestellt. Es handelt sich dabei um ein freies, überschaubar großes Korpus, das unter anderem Werke von Mozart, Bach und Schubert enthält.</p>
+<p style="text-align:left; ">Über eine Suchfunktion können die hochgeladenen Dateien und das bestehende Korpus gefiltert werden (Abbildung 3).</p>
+<figure>
+<graphic height="7.581194444444445cm" n="1003" rend="inline" url="165_final-08e85878dc72022d0c46df1e681d7a2d.png" width="16.002cm"/>
+<head>Abbildung 3: Upload und Suche</head>
+</figure>
+<p style="text-align:left; ">Wird die Individual Analysis gewählt, wird die Partitur des Stücks angezeigt (Abbildung 4). </p>
+<figure>
+<graphic height="8.018638888888889cm" n="1004" rend="inline" url="165_final-e18bd75a630639dad2afa3019de46b99.png" width="16.002cm"/>
+<head>Abbildung 4: Anzeige für die Auswahl der „Individual Analysis“</head>
+</figure>
+<p style="text-align:left; ">Folgende Analysemöglichkeiten sind hier möglich:</p>
+<list type="unordered">
+<item>Die Akkordanalyse („Chords“): Hierbei wird die Partitur mit den Akkorden ersetzt und diese in römischen Ziffern oder ihren herkömmlichen Namen angezeigt (Abbildung 5) </item>
+</list>
+<figure>
+<graphic height="8.387291666666666cm" n="1005" rend="inline" url="165_final-dca2b2037abf40e0e2df11b3d63f46ec.png" width="16.002cm"/>
+<head>Abbildung 5: Transformiertes Notenblatt nachdem die Akkordanalyse durchgeführt wurde</head>
+</figure>
+<list type="unordered">
+<item>Die Analyse des Tonumfangs („Ambitus“) (Abbildung 6)</item>
+</list>
+<figure>
+<graphic height="7.660036111111111cm" n="1006" rend="inline" url="165_final-4b3815501df2361b0f00b63145efde3e.png" width="16.002cm"/>
+<head>Abbildung 6: Tonumfang-Analyse (Ambitus)</head>
+</figure>
+<list type="unordered">
+<item>Die Analyse der Tonart: Hierbei werden die vier wahrscheinlichsten Tonarten mit ihren Wahrscheinlichkeitswerten angezeigt (Abbildung 7). Die Kalkulationen basieren auf music21.</item>
+</list>
+<figure>
+<graphic height="4.254316666666667cm" n="1007" rend="inline" url="165_final-533dc50afe9d6faec32cdf8ccd45bfc2.png" width="11.413869444444444cm"/>
+<head>Abbildung 7: Tonart-Analyse</head>
+</figure>
+<p style="text-align:left; ">Die Ergebnisse der Akkord- und Tonartanalyse können auch verknüpft werden. Der Nutzer kann eine der ermittelten Tonarten auswählen und je nachdem werden die Akkorde angepasst, wenn römische Ziffern zur Anzeige verwendet werden.</p>
+<p style="text-align:left; ">Für die Distant Hearing-Funktionen muss der Nutzer zunächst die zu analysierenden Gruppen benennen. Es können dann beliebig viele Stücke der Suchleiste einer Gruppe hinzugefügt werden. Nach der Kalkulation der Daten werden fünf Visualisierungsbereiche angezeigt:</p>
+<list type="unordered">
+<item>Akkordanalyse: Über gepaarte Histogramme werden die Verteilungen der Akkorde in den einzelnen Gruppen dargestellt (Abbildung 8). Neben den Akkordverteilungen werden auch Akkord-Grundton- und Tongeschlechts-Verteilungen der Akkorde angezeigt.</item>
+</list>
+<figure>
+<graphic height="5.604647222222222cm" n="1008" rend="inline" url="165_final-fb4713d2ea924d65820867efd2733e91.png" width="16.002cm"/>
+<head>Abbildung 8: Akkordanalyse – Verteilungen von Akkorden für zwei Gruppen</head>
+</figure>
+<list type="unordered">
+<item>Tonhöhenanalyse: Über gepaarte Histogramme werden die Verteilungen der einzelnen Töne sortiert nach Tonname und Oktave angezeigt.</item>
+<item>Tondaueranalyse: Über gepaarte Histogramme werden die Verteilungen der Tondauern unterteilt in Noten und Pausen angezeigt (Abbildung 9).</item>
+</list>
+<figure>
+<graphic height="6.1342027777777774cm" n="1009" rend="inline" url="165_final-50bde11f0267de8c5457c27934169aeb.png" width="13.599583333333333cm"/>
+<head>Abbildung 9: Tondaueranalyse – Verteilungen von Tondauern für zwei Gruppen</head>
+</figure>
+<list type="unordered">
+<item>Tonartanalysen: Hier werden über gepaarte Histogramme die Verteilung der Tonarten angezeigt. Auch wird ein Liniengraph angezeigt, der pro Gruppe die Wahrscheinlichkeiten für die einzelnen Tonarten angibt (Abbildung 10).</item>
+</list>
+<figure>
+<graphic height="8.306122222222223cm" n="10010" rend="inline" url="165_final-d5228b78a832f946202d32dea92ddb79.png" width="16.002cm"/>
+<head>Abbildung 10: Tonartanalyse – Liniendiagramm für die Wahrscheinlichkeiten verschiedener Tonarten mehrerer Stücke</head>
+</figure>
+<list type="unordered">
+<item>Tonumfanganalyse: Es wird ein Reichweitendiagramm pro Gruppe angezeigt, welches den Tonumfang pro Stück in Form von horizontalen Balkendiagrammen anzeigt (Abbildung 11). Für die Gesamtgruppe wird die Menge und die Verteilung der genutzten Halbtonschritte auch noch in Form eines Boxplots angezeigt.</item>
+</list>
+<figure>
+<graphic height="9.295694444444445cm" n="10011" rend="inline" url="165_final-976d19bd853ea0d81966b34f3ba92dcd.png" width="14.514727777777777cm"/>
+<head>Abbildung 11: Tonumfanganalyse – Reichweitendiagramm für 4 Stücke, die der Gruppe Beethoven hinzugefügt wurden</head>
+</figure>
+<p style="text-align:left; ">Alle Graphen sind dabei interaktiv und bieten weiterführende Informationen an, wenn der Mauszeiger über Elemente bewegt wird. Die Diagramme können auch zusammen mit ihren Legenden heruntergeladen werden. Ebenso können die gesammelten Daten zur Weiterverwendung in einem JSON-Format heruntergeladen werden. An zahlreichen Stellen wurden Tutorials und Erklärungen eingebaut, um die Nutzung zu erleichtern.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick</head>
+<p style="text-align:left; ">Die momentane erste Version des Tools ist frei verfügbar und kann über 
+                    <hi rend="italic">GitHub</hi> heruntergeladen und genutzt werden<ref n="4" target="ftn4"/>. Des Weiteren ist ein erster vorläufiger Prototyp auch online verfügbar<ref n="5" target="ftn5"/>.
+                </p>
+<p style="text-align:left; ">Wir befinden uns am Ende des ersten Entwicklungszyklus und planen momentan die Evaluation des Tools gemäß dem UCD-Prozess. Des Weiteren explorieren wir weiter zusammen mit Musikwissenschaftlern, ob die gelieferten Funktionen den Analyseprozess unterstützen können und wie das Tool konkret in den Forschungsworkflow integriert werden kann. Im gleichen Schritt wollen wir auch erste forschungsrelevante Einsatzbeispiele diskutieren. Als ein Bereich für mögliche Analysen wurde von den Teilnehmern unserer Anforderungsanalyse vor allem der Vergleich von Genres, Komponisten und eigens erstellten Sammlungen bezüglich gängiger musikalischer Metriken genannt (Akkorde, Tonumfang etc.). Als eine komplexere Forschungsidee wurde die Untersuchung von Variationen diskutiert. 
+                    <hi rend="italic">La Folia</hi>, ein spanisches Motiv aus dem 16. Jahrhundert wurde von zahlreichen Komponisten als Grundlage für Variationen genutzt (Hudson, 1973). Durch die Nutzung eines geeigneten Korpus kann mit BeyondTheNotes untersucht werden, ob die Variationen dieses Motivs sich mehr nach Komponist, Zeitraum oder Ursprungsland unterscheiden. Ebenso wollen wir in den kommenden Iterationen durch die enge Zusammenarbeit mit Musikwissenschaftlern das Konzept und den tatsächlichen Nutzen des Distant Hearing kritisch reflektieren.
+                </p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      https://opensheetmusicdisplay.org/
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      https://www.zingchart.com/
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      https://gionkunz.github.io/chartist-js/
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Online verfügbar unter: https://github.com/Maxikilliane/DH_MusicAnalysis (Eine Installationsanleitung findet man im Repository)
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      Online verfügbar unter: https://beyondthenotes.herokuapp.com/ 
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Abdallah, Samer / Benetos, Emmanouil / Gold, Nicolas / Hargreaves, Steven / Weyde, Tillman / Wolff, Daniel</hi> (2017): “The Digital Music Lab: A Big Data Infrastructure for Digital Musicology”, in: 
+                        <hi rend="italic">Journal on Computing and Cultural Heritage (JOCCH)</hi> 10(1).
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Burghardt, Manuel</hi> (2018): “Digital Humanities in
+Der Musikwissenschaft – Computergestützte Erschließungsstrategien Und Analyseansätze Für Handschriftliche Liedblätter” in: 
+                        <hi rend="italic">Bibliothek Forschung Und Praxis</hi> 42(2): 324–32.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Burghardt, Manuel / Lamm, Lukas</hi> (2017): “Entwicklung Eines Music Information Retrieval-Tools Zur Melodic Similarity-Analyse Deutschsprachiger Volkslieder” in: Eibl, Maximilian / Gaedke Martin (eds.): 
+                        <hi rend="italic">INFORMATIK 2017</hi>. Bonn: Gesellschaft für Informatik 87–99.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Burghardt, Manuel / Wolff, Christian</hi> (2014): “Humanist-Computer Interaction: Herausforderungen für die Digital Humanities aus Perspektive der Medieninformatik” in: 
+                        <hi rend="italic">DHd Workshop: Informatik und die Digital Humanities.</hi>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Burghardt, Manuel / Lamm, Lukas / Lechler, David / Schneider, Matthias / Semmelmann, Tobias</hi> (2015): "MusicXML Analyzer. Ein Analysewerkzeug für die computergestützte Identifikation von Melodie-Patterns" in: 
+                        <hi rend="italic">Hildesheimer Evaluierungs- und Retrievalworkshop</hi> 2015: 29-42.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Condit-Schultz, Nathaniel / Ju, Yaolong / Fujinaga, Ichiro</hi> (2018): “A Flexible Approach to Automated Harmonic Analysis: Multiple Annotations of Chorales by Bach and Prætorius” in: 
+                        <hi rend="italic">19th International Society for Music Information Retrieval Conference</hi> 66–73.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Cook, Nicholas</hi> (2013): 
+                        <hi rend="italic">Beyond the score: Music as performance.</hi> Oxford University Press.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Cuthbert, Michael Scott / Christopher, Ariza</hi> (2010): “Music21: A Toolkit for Computer-Aided Musicology and Symbolic Music Data” in: 
+                        <hi rend="italic">11th International Society for Music Information Retrieval Conference (ISMIR 2010)</hi> 637–642.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Frieler, Klaus / Hoger, Frank / Pfleiderer, Martin / Dixon, Simon</hi> (2018): “Two Web Applications for Exploring Melodic Patterns in Jazz Solos” in: 
+                        <hi rend="italic">19th International Society for Music Information Retrieval Conference</hi> 777–83.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Hudson, Richard</hi> (1973): “The Folia Melodies” in: Acta Musicologica 45 (1): 98–119.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Huron, David</hi> (1994): 
+                        <hi rend="italic">UNIX Tools for Music Research: The Humdrum Toolkit</hi>. Reference manual http://www.humdrum.org/Humdrum/manual07.html [letzter Zugriff 21. September 2019].
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Huron, David.</hi> (2002): “Music Information Processing Using the Humdrum Toolkit: Concepts, Examples, and Lessons” in: 
+                        <hi rend="italic">Computer Music Journal</hi> 26 (2): 11–26. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kornstädt, Andreas</hi> (1996): “SCORE-to-Humdrum: A Graphical Environment for Musicological Analysis” in: 
+                        <hi rend="italic">Computing in Musicology</hi> 10: 105–22.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Moretti, Franco</hi> (2002): “Conjectures on World Literature” in: 
+                        <hi rend="italic">New Left Review</hi> Jan / Feb: 54–68.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Nettheim, Nigel</hi> (1997): “A Bibliography of Statistical Applications in Musicology” in: 
+                        <hi rend="italic">Musicology Australia</hi> 20(1): 94–106.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Taylor, Michael</hi> (1996): 
+                        <hi rend="italic">Humdrum Graphical User Interface</hi>. Belfast, Queen’s University.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Vredenburg, Karel / Mao, Ji-Ye / Smith, Paul W. / Carey, Tom</hi> (2002): “A Survey of User-Centered Design Practice” in: 
+                        <hi rend="italic">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</hi> 471–478.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

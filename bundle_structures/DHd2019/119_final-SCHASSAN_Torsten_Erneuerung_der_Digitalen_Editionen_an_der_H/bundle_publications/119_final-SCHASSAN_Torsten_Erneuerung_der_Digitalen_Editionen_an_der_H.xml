@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="119_final-SCHASSAN_Torsten_Erneuerung_der_Digitalen_Editionen_an_der_H" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Erneuerung der Digitalen Editionen an der Herzog August Bibliothek Wolfenbüttel</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schaßan</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>schassan@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Baumgarten</surname>
+                        <forename>Marcus</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>baumgarten@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Steyer</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>steyer@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fricke-Steyer</surname>
+                        <forename>Henrike</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>henrike.fricke@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Iglesia</surname>
+                        <forename>Martin de la</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>iglesia@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kampkaspar</surname>
+                        <forename>Dario</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>kampkaspar@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Klaffki</surname>
+                        <forename>Lisa</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>klaffki@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Parlitz</surname>
+                        <forename>Dietrich</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>parlitz@hab.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T17:49:36.045849356</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Bibliothek</term>
+                    <term>Digitale Edition</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Veröffentlichung</term>
+                    <term>Kollaboration</term>
+                    <term>Webentwicklung</term>
+                    <term>Organisation</term>
+                    <term>Methoden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading2">
+                <head>Die Anfänge der Wolfenbütteler Digitale Bibliothek (WDB)</head>
+                <p>
+                    <hi rend="color(#000000)">Die Wolfenbütteler Digitale Bibliothek (WDB) wurde </hi>
+                    <hi rend="color(#000000)">an der Herzog August Bibliothek (HAB) </hi>
+                    <hi rend="color(#000000)">vor fast 20 Jahren auf der Grundlage der damals verfügbaren Technologien zur Anzeige von Objektdigitalisiaten konzipiert: PHP-Skripte, die auf einem Apache-Server ausgeführt werden; Frame-Technologien zur Darstellung unterschiedlicher Inhalte nebeneinander auf dem Bildschirm; Datenablage in einfachen Ordnerstrukturen.</hi>
+                </p>
+                <p>Im Hintergrund wurde die Präsentationsoberfläche zum Workflow-Tool zur Objektdigitalisierung ausgebaut. Ebenfalls PHP-Skript-gestützt wurden Eingabeoberflächen für die Eingabe von Bestellungen von Digitalisaten und die Prüfergebnisse der Restaurierung, für die Dokumentation des Bearbeitungsstandes in der Fotowerkstatt und der Veröffentlichung von Digitalisaten programmiert und an die bestehenden Struktur angebunden.</p>
+                <p>Nach und nach erweiterte sich die Bandbreite der Inhalte, die über die WDB zugänglich gemacht werden sollten. Neben die Repräsentation von vollständigen Objektdigitalisaten, die von Cover zu Cover digitalisiert wurden, traten Digitalisierungen, die primär in anderen Systemen zur Anzeige kommen sollten wie beispielsweise die Digitalisate des Virtuellen Kupferstichkabinetts. Es entstanden die ersten digitalen Editionen, in denen komplexe digitale Inhalte gemeinsam auf den Bildschirm gebracht werden mussten. E-Books und Rundum-Digitalisate von Handschriften, die in besonderer Weise zur Anzeige gebracht werden mussten, sind weitere Beispiele. Dadurch verkomplizierte sich nach und nach die Struktur der Programmierung der WDB abermals.</p>
+            </div>
+            <div type="div1" rend="DH-Heading2">
+                <head>Neue Herausforderungen</head>
+                <p>Mit der Zeit haben sich Sehgewohnheiten geändert und die Anforderungen an das Design digitaler Inhalte sind gestiegen. Das Aufkommen mobiler Endgeräte, die zunehmend zum Konsum dieser Inhalte genutzt werden, zeigten auf, dass die Darstellung, die im Rahmen der WDB genutzt wird, teilweise nicht mehr funktional ist. Insbesondere das Eigenleben, das Daten in Zeiten des Linked Open Data zu pflegen führen, zeigt die Limitationen der WDB auf. Insbesondere die Option, digitale Inhalte aus der WDB in unterschiedlicher Granularität verlässlich zu adressieren und in unterschiedlichen Kontexten anzeigen zu können, erfordert eine grundlegende Neukonzeption der Mechanismen zur (persistenten) Adressierung der Seiten.</p>
+                <p>Andererseits läßt die Digitalisatpräsentation grundlegende Funktionalitäten vermissen, die sich in anderen Bibliotheken durchgesetzt haben. So sind beispielsweise ein Drehen der Bilder oder andere Bildmanipulationen nicht möglich. Auch Navigationsmöglichkeiten, die sich auf mobilen Endgeräten durchgesetzt haben, wie das Wischen von Seite zu Seite sind in der WDB nicht möglich. Die Navigation wie der Zoom in den Digitalisaten sind noch mit altertümlich anmutenden Steuerungselementen gelöst.</p>
+            </div>
+            <div type="div1" rend="DH-Heading2">
+                <head>Die Erneuerung</head>
+                <p>In der HAB wurde nach Feststellung dieser Mangel eine temporäre Arbeitsgruppe zur Erneuerung der WDB ins Leben gerufen. Dabei wurde unter anderem die Aufteilung der Anforderungen in drei Säulen festgelegt: Objektdigitalisate, digitale Editionen und digitale Publikationen. Die Darstellung der reinen Objektdigitalisate inklusive der Workfloworganisation sollen getrennt werden von der Anzeige digitaler Editionen und einem möglichen, neu aufzubauenden Publikationsserver. Im Poster werden vor allem die Überlegungen zur Erneuerung der Säule „Digitale Editionen“ präsentiert.</p>
+                <p>Die Arbeitsgruppe hat eine Liste an Fragen und Funktionalitäten identifiziert, für welche je separat untersucht, der State-of-the-Art skizziert und die Anforderungen der HAB formuliert wurden:</p>
+                <list type="unordered">
+                    <item>Anforderungen an die Startseite der WDB</item>
+                    <item>aktuelle Suchtechnologien</item>
+                    <item>Layoutoptimierung</item>
+                    <item>Versionierung und persistente Adressierung</item>
+                    <item>Downloadmöglichkeiten</item>
+                    <item>(externe) Verwaltung von Literaturlisten</item>
+                    <item>Visualisierungsstrategien</item>
+                    <item>Schnittstellen</item>
+                    <item>Schemaunterstützung und -dokumentation</item>
+                    <item>IIIF</item>
+                    <item>Langzeitarchivierung nach OAIS</item>
+                    <item>Trennung von Arbeitsumgebung, Archiv und Publikation</item>
+                    <item>bevorzugte Arbeitsumgebung (z.B. XML-Datenbanken)</item>
+                    <item>Nutzerstatistik</item>
+                    <item>Linked Open Data</item>
+                </list>
+                <p>Für jedes der Felder wurde eine Bedarfsanalyse und eine Marktsondierung durchgeführt und konzeptionelle Antworten für die Erneuerung der WDB in diesem Bereich formuliert.</p>
+                <p>In dem Poster sollen nicht nur die technische Erneuerung adressiert werden, sondern auch die Einbettung der neuen Infrastruktur in einen organisatorischen Workflow und die Frage, warum Infrastruktur altert und wie man dem entgegenwirken kann.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

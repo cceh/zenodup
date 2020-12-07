@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="147_final-KLAUS_Carsten_OCR_Nachkorrektur_des_Royal_Society_Corpus" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">OCR Nachkorrektur des Royal Society Corpus</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Klaus</surname>
+                        <forename>Carsten</forename>
+                    </persName>
+                    <affiliation>Universität des Saarlandes, Saarbrücken, Deutschland</affiliation>
+                    <email>s8caklau@stud.uni-saarland.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fankhauser</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache, Mannheim, Deutschland</affiliation>
+                    <email>fankhauser@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Klakow</surname>
+                        <forename>Dietrich</forename>
+                    </persName>
+                    <affiliation>Universität des Saarlandes, Saarbrücken, Deutschland</affiliation>
+                    <email>dklakow@lsv.uni-saarland.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>noisy channel model</term>
+                    <term>historical corpus</term>
+                    <term>ocr</term>
+                    <term>misspellings</term>
+                    <term>royal society</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Modellierung</term>
+                    <term>Bereinigung</term>
+                    <term>Kollaboration</term>
+                    <term>Daten</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading">
+                <head>Einleitung</head>
+                <p>Linguistische Analysen historischer Texte stellen Forscher oftmals vor große Herausforderungen. Im Gegensatz zur Digitalisierung moderner Dokumente kann es bei jahrhundertealten Texten zu Schwierigkeiten kommen. Diese weisen oftmals eine geringere Qualität auf, sodass es beim Einlesen zu Fehlern kommt. Solche können schwerwiegende Störfaktoren für weitere Analysen sein. In diesem Beitrag beschreiben wir den
+                    <hi rend="bold">Noisy Channel </hi>
+                    <hi rend="bold">Spell Checker</hi>, ein Verfahren zur automatisierten Korrektur von Optical Character Recognition (OCR) induzierten Rechtschreibfehlern in historischen Texten, genauer dem 
+                    <hi rend="bold">Royal Society Corpus</hi>.
+                </p>
+                <p>Beim Royal Society Corpus (RSC) handelt es sich um eine Sammlung wissenschaftlicher Texte von 1665 bis 1869, veröffentlicht im Journal
+                    <hi rend="italic">Philosophical Transactions of the Royal Society of London. </hi>Das Korpus umfasst ungefähr 10.000 Dokumente mit insgesamt 35.000.000 Tokens. Die Texte wurden mithilfe von Optical Character Recognition digitalisiert, bedingt durch das alte Material der Dokumente wurden jedoch Worte falsch erkannt und somit Rechtschreibfehler eingestreut. Diese sollen in einer Nachkorrektur berichtigt werden. (UdS Fedora Commons o.J.)
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>State of the Art </head>
+                <p>Das Korpus wird einer strikten Versionskontrolle unterzogen. Fortschritte bzgl. Formatierung oder Fehlerkorrektur werden in aufsteigenden 
+                    <hi rend="italic">corpusBuild</hi> Versionen festgehalten. Derzeit wird das Royal Society Corpus durch einen 
+                    <hi rend="bold">Pattern</hi>-basierten Ansatz bereinigt (Knappen, 2017). Hierbei werden Ersetzungsregeln auf die Texte angewendet um Fehler mit ihrer richtigen Form auszutauschen, wie beispielsweise 
+                    <hi rend="italic">tbe</hi> → 
+                    <hi rend="italic">the</hi>. Der große Nachteil dieses Verfahrens ist jedoch, dass nur ein Bruchteil der induzierten OCR Fehler abgedeckt wird, was in einer geringen Fehlererkennung resultiert. Im Folgenden erläutern wir unseren Ansatz, welcher mit einem statistischen Lernverfahren deutlich bessere Ergebnisse erzielt.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Methodik</head>
+                <p>Der 
+                    <hi rend="italic">Noisy Channel Spell Checker</hi> basiert auf dem 
+                    <hi rend="bold">Noisy Channel Model </hi>(Shannon, 1948). Ein potentiell fehlerhaftes Wort 
+                    <hi rend="bold italic">w</hi>
+                    <hi rend="italic"> </hi>wird wie folgt korrigiert: Aus einer Vorauswahl an geeigneten Kandidaten 
+                    <hi rend="bold italic">c</hi> aus 
+                    <hi rend="bold italic">C</hi> wird abgeschätzt welcher am ehesten als Korrektur 
+                    <hi rend="bold italic">ŵ</hi> in Frage kommt.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="147_final-35d7dd4107cdde71e841941e11703323.png"/>
+                    </figure>
+                </p>
+                <p>Das Noisy Channel Model besteht zum einen aus dem 
+                    <hi rend="bold">Sprachmodell </hi>
+                    <hi rend="bold italic">P(c)</hi> und zum anderen dem 
+                    <hi rend="bold">Fehlermodell</hi>
+                    <hi rend="bold italic">P(w|c)</hi>. Es werden hierbei zwei intuitive Gedanken kombiniert: Das Sprachmodell schätzt die Wahrscheinlichkeit des Kandidaten in seinem Wortkontext ab. Hochfrequentierte Worte sind demnach sehr wahrscheinlich. Das Gegengewicht hierzu bildet das Fehlermodell. Diese Verteilung gibt an wie sicher 
+                    <hi rend="bold italic">w</hi> eine fehlerhafte Variante von 
+                    <hi rend="bold italic">c</hi> ist, schätzt also ab, wie wahrscheinlich einzelne Korrekturschritte von
+                    <hi rend="bold italic">w</hi> nach 
+                    <hi rend="bold italic">c</hi> sind. 
+                    <hi rend="color(#000000)bold">λ</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">ist ein frei wählbarer Parameter, mithilfe dessen man das Sprachmodell gewichten kann. </hi>
+                    <hi rend="color(#000000)">(Jurafsky 2016: </hi>
+                    <hi rend="color(#000000)">61-73</hi>
+                    <hi rend="color(#000000)">)</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Training des Modells</head>
+                <p>Die Besonderheit unseres Ansatzes besteht darin, dass Sprach-, sowie Fehlermodell 
+                    <hi rend="bold">korpusspezifisch</hi> trainiert werden. Es sind keine aufwändigen Trainingsdatenannotationen notwendig, denn es werden lediglich die Korpusdateien verwendet.
+                </p>
+                <list type="unordered">
+                    <item>Das 
+                        <hi rend="bold">Sprachmodell</hi> wurde mithilfe der aktuellsten 
+                        <hi rend="italic">corpusBuild</hi> Version des Royal Society Corpus trainiert. Diese Texte sind durch die Patterns bereits best möglich bereinigt worden. Somit wurde versucht das Rauschen innerhalb der Verteilung zu reduzieren. 
+                    </item>
+                    <item>Zum Trainieren des 
+                        <hi rend="bold">Fehlermodells</hi> wurden die bereits erwähnten Patterns als Wissensbasis hinzugezogen. Die Idee war hier aus der Korrektur durch die Patterns eine Wahrscheinlichkeitsverteilung zu erzeugen, also das Fehlerverhalten im Korpus zu generalisieren. Anhand eines Beispiels lässt sich dies veranschaulichen: Gegeben die Ersetzungsregel 
+                        <hi rend="bold italic">fuch → such. </hi>Diese wird in folgende Sequenz von edit Operationen aufgebrochen:
+                        <hi rend="bold italic">f|s </hi>
+                        <hi rend="bold italic">+</hi>
+                        <hi rend="bold italic"> u|u </hi>
+                        <hi rend="bold italic">+</hi>
+                        <hi rend="bold italic"> c|c </hi>
+                        <hi rend="bold italic">+</hi>
+                        <hi rend="bold italic"> h|h</hi>. Der Trainingsprozess erfasst nun wie oft edit Operationen angewendet wurden und leitet daraus eine Verteilung ab.
+                    </item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Resultate und Diskussion</head>
+                <p>Als Testmenge haben wir 26 Dokumente aus dem Korpus extrahiert. Diese wurden eigens korrigiert um einen Gold Standard zu erhalten. Als Evaluationsmetriken wählten wir 
+                    <hi rend="italic">Precision </hi>(Anteil der validen Korrekturen), 
+                    <hi rend="italic">Recall </hi>(Abdeckung der einzelnen Fehler) und daraus den 
+                    <hi rend="italic">F1-Score </hi>(harmonisches Mittel aus Pre. und Rec.). Um die Ergebnisse unserer Arbeit zu vergleichen, haben wir zwei weitere Methoden auf die Testdaten angewendet. Dies waren zum einen die 
+                    <hi rend="bold">Pattern</hi>
+                    <hi rend="bold">s</hi> und zum anderen nutzten wir als Referenzkorrektur für das Noisy Channel Model eine Implementierung von 
+                    <hi rend="bold">Peter Norvig</hi> (Norvig, 2009). Die Ergebnisse sind in Abbildung 1 aufgetragen.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="147_final-28a241507022c765c8b8182f40f73f0c.png"/>
+                        <head>Abbildung 1: Resultate einzelner Korrekturmethoden angewendet auf den Testdatensatz</head>
+                    </figure>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Man kann erkennen, dass </hi>
+                    <hi rend="color(#000000)">die Pattern</hi>
+                    <hi rend="color(#000000)">korrektur </hi>
+                    <hi rend="color(#000000)">(gelb)</hi>
+                    <hi rend="color(#000000)"> die beste Precision </hi>
+                    <hi rend="color(#000000)">erziel</hi>
+                    <hi rend="color(#000000)">t</hi>
+                    <hi rend="color(#000000)">.</hi>
+                    <hi rend="color(#000000)"> Dies ist ein typisches Verhalten regelbasierte</hi>
+                    <hi rend="color(#000000)">r</hi>
+                    <hi rend="color(#000000)"> Systeme. Im Gegensatz dazu decken die beiden </hi>
+                    <hi rend="color(#000000)">anderen Verfahren</hi>
+                    <hi rend="color(#000000)"> eine größere Menge an Fehlern ab, dies wird am höheren Recall deutlich. </hi>
+                    <hi rend="color(#000000)">Besonders Norvigs Variante </hi>
+                    <hi rend="color(#000000)">(blau)</hi>
+                    <hi rend="color(#000000)"> ist hier führend, jedoch tendiert diese auch zur Überkorrektur von richtig erfassten Wörtern. Wir waren bestrebt, dass unser </hi>
+                    <hi rend="color(#000000)">Spell Checker</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">(rot)</hi>
+                    <hi rend="color(#000000)"> dies </hi>
+                    <hi rend="color(#000000)">weitestgehend </hi>
+                    <hi rend="color(#000000)">vermeidet, </hi>
+                    <hi rend="color(#000000)">indem es</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">Precision und Recall möglichst balanciert. Es werden also viele OCR Rechtschreibfehler korrigiert und gleichzeitig </hi>
+                    <hi rend="color(#000000)">wird </hi>
+                    <hi rend="color(#000000)">die Rate an Falsch Positiven </hi>
+                    <hi rend="color(#000000)">gering gehalten</hi>
+                    <hi rend="color(#000000)">. </hi>
+                    <hi rend="color(#000000)">Hierbei w</hi>
+                    <hi rend="color(#000000)">ar </hi>
+                    <hi rend="color(#000000)">das Optimieren der Gewicht</hi>
+                    <hi rend="color(#000000)">u</hi>
+                    <hi rend="color(#000000)">ng </hi>
+                    <hi rend="color(#000000)">λ </hi>
+                    <hi rend="color(#000000)">des Language Models</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">ein essentieller Bestandteil der Arbeit, </hi>
+                    <hi rend="color(#000000)">sodass unser Modell </hi>
+                    <hi rend="color(#000000)">schlussendlich </hi>
+                    <hi rend="color(#000000)">einen F-Score von </hi>
+                    <hi rend="color(#000000)bold">0.61</hi>
+                    <hi rend="color(#000000)bold">2 </hi>
+                    <hi rend="color(#000000)">erzielte. </hi>
+                    <hi rend="color(#000000)">Bei der Überlegung unseren Ansatz auf andere historische, unaufbereitete Texte anzuwenden </hi>
+                    <hi rend="color(#000000)">empfiehlt es sich das Fehlerverhalten in diesen Texten bestmöglich zu generalisieren</hi>
+                    <hi rend="color(#000000)">. Deshalb sollte bereits eine Wissensbasis in Form von Ersetzungspatterns vorliegen um das Error Model korpusspezifisch zu trainieren, </hi>
+                    <hi rend="color(#000000)">das heißt genauso wie in diesem Beitrag beschrieben.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Zusammenfassung</head>
+                <p>Im Vergleich zur derzeitigen pattern-basierten Methode verbesserte der 
+                    <hi rend="italic">Noisy Channel </hi>
+                    <hi rend="italic">Spell Checker</hi> die Korrekturqualität um mehr als das Doppelte. Es werden nun Fehler berichtigt, die die Patterns nicht einmal als solche erkennen. Die Hauptmotivation zum Aufbau des Royal Society Corpus sind Untersuchungen der diachronischen Entwicklung von wissenschaftlichem Englisch (UdS Fedora Commons o.J.). Die Bereinigung der Texte macht es möglich, dass diese Analysen in Zukunft weitaus genauer und verlässlicher werden.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Jurafsky Daniel / Martin James H. (2016)</hi>: <hi rend="italic">"Spelling Correction and the Noisy Channel"</hi> In: Speech and Language Processing, 3. Edition, S. 61-73.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kermes, Hannah / Degaetano-Ortlieb, Stefania / Khamis, Ashraf / Knappen, Jörg / Teich, Elke (2016)</hi>: <hi rend="italic">"The Royal Society Corpus: From Uncharted Data to Corpus"</hi>, in: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016). European Language Resources Association (ELRA).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Knappen, Jörg / Fischer, Stefan / Kermes, Hannah / Teich, Elke / Fankhauser, Peter (2017)</hi>: <hi rend="italic">"The Making of the Royal Society Corpus"</hi>, in ListLang@NoDaLiDa.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Norvig, Peter (2008)</hi>: <hi rend="italic">"Natural Language Corpus Data: Beautiful Data"</hi>. [online] <ptr target="http://norvig.com/ngrams/"/> [letzter Zugriff 08. November 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Shannon, Claude E. (1948)</hi>: <hi rend="italic">"A Mathematical Theory of Communication"</hi>, in Bell System Technical Journal.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">UdS Fedora Commons Repository (o.J.)</hi>: <hi rend="italic">"The Royal Society Corpus (RSC)"</hi>, <ptr target="https://fedora.clarin-d.uni-saarland.de/rsc/"/>. [letzter Zugriff 29. März 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

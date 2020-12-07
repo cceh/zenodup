@@ -42,7 +42,7 @@ def main(argv):
     # set params based on command line arguments
     productive, access_token, conference = set_params(argv[1:])
     # set logging
-    logging.basicConfig(filename=conference + '_upload.log', filemode='w', encoding='utf-8', level=logging.DEBUG)
+    logging.basicConfig(filename='support/' + conference + '_upload.log', filemode='w', encoding='utf-8', level=logging.DEBUG)
     # set parameters for zenodo request
     headers = {"Content-Type": "application/json"}
     params = {'access_token': access_token}
@@ -93,6 +93,9 @@ def get_upload_params(url:str, params:dict, headers:dict)-> (str, str):
         params=params,
         json={},
         headers=headers)
+
+    print(r.json())
+
     logging.info(f"Empty post to {url} with given access token: {r.status_code}")
     bucket_url = r.json()["links"]["bucket"]
     logging.info(f"Using the following bucket url: {bucket_url}")

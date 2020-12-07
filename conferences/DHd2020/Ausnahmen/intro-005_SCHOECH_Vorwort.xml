@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="intro-006_SCHOECH_Vorwort">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vorwort</title>
+                <author>
+                    <persName>
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName>
+                    <roleName>Vorsitzender des Programmkomitees der DHd2020</roleName>
+                    <email>sahle@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-02-04T10:30:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+        <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+        <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+          <t:addrLine>Universität zu Köln</t:addrLine>
+          <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+          <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+          <t:addrLine>50923 Köln</t:addrLine>
+        </t:address>
+      </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="original" n="category">
+                    <term>Intro</term>
+                </keywords>
+                <keywords scheme="original" n="subcategory">
+                    <term>Vorwort</term>
+                </keywords>
+                <keywords scheme="original" n="topic">
+                    <term></term>
+                </keywords>
+                <keywords scheme="original" n="keywords">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text type="intro" n="single">
+        <body>
+            <div>
+                <p>Bereits zum siebten Mal kommen in diesem Jahr die digitalen Geisteswissenschaftler*innen aus dem deutschsprachigen Raum für die Jahrestagung des DHd-Verbands zusammen, 
+                diesmal in Paderborn. Mit dem Book of Abstracts
+		dokumentieren wir dieses “Schaufenster” der aktuellen
+		Forschung in den digitalen Geisteswissenschaften.
+		</p>
+		<p>&#160;</p>
+                <p>Auch in diesem Jahr haben wir weitere Schritte unternommen, um die im Book of Abstracts publizierten Beiträge in Richtung vollwertiger, wissenschaftlicher Publikationen zu entwickeln. 
+                Dies bezieht sich diesmal insbesondere auf die Vortragsvorschläge, die als Ergebnis des Reviewing-Verfahrens grundsätzlich für den Vortrag während der Konferenz angenommen wurden. 
+                Deren Autor*innen haben wir dieses Jahr aufgefordert, auf die Rückmeldungen in den Gutachten zu reagieren und eine überarbeitete Fassung des Abstracts für das Book of Abstracts einzureichen. 
+                Diese Fassung durfte dabei nicht nur deutlich länger sein als der ursprüngliche Beitrag, sondern wurde auch noch einmal von einer oder einem der ursprünglichen Gutachter*innen daraufhin 
+                überprüft, ob die Überarbeitung konstruktiv und sinnvoll ausgefallen ist. Diese inhaltliche ebenso wie die formale Aufwertung des Book of Abstract werden wir, so hoffe ich, auch in den nächsten 
+                Jahren weiter entwickeln können.
+		</p>
+		<p>&#160;</p>
+                <p>Dass das Konferenzprogramm und das Book of Abstract in dieser Form zustande kommen konnte, verdanken wir vielen tatkräftigen Menschen. An aller erster Stelle möchte ich hier 
+                allen Autor*innen von Beiträgen für unsere Jahreskonferenz danken, auch denjenigen, deren Beiträge wir schweren Herzens ablehnen mussten. Sie alle ermöglichen es uns als Community, 
+                bei der Jahrestagung die thematische Vielfalt und fachliche Qualität unserer Forschung aufzuzeigen. Ein bisschen Statistik sei erlaubt: wir konnten rund zwei Drittel der Einreichungen als 
+                Vortrag und Panel annehmen, bei den Postern und Workshops lag dieser Wert bei rund drei Vierteln. </p>
+		<p>&#160;</p>
+                <p>Dank gebührt außerdem natürlich den mehr als 120 Gutachter*innen, die in diesem Jahr für rund 175 Einreichungen etwa 600 Gutachten verfasst haben. Ohne diese enorme kollektive 
+                Anstrengung wäre die Jahrestagung in dieser Form nicht möglich. Den Rahmen für die Begutachtung ebenso wie die Auswertung und Entscheidung über Annahmen und Ablehnung obliegt 
+                dem Programmkomittee, dessen Mitgliedern ich an dieser
+		Stelle ebenfalls danken möchte: Stefanie
+		Acquavella-Rauch, Kai-Christian Bruhn (bis Juli 2019
+		Vorsitzender), Alexander Czmiel,  
+		Lisa Dieckmann, Michaela Geierhos (Vertreterin des lokalen Organisationsteams), Katrin Glinka, Andreas Henrich, Patrick Sahle, Stefan Schmunk, Caroline Sporleder, Georg Vogeler 
+                und Lars Wieneke. Es war mir eine Freude, mit dieser
+		diskussionsfreudigen, engagierten Gruppe von
+		Kolleg*innen das wissenschaftliche Programm der
+		DHd-Tagung zu erarbeiten.
+		</p>
+		<p>&#160;</p>
+                <p>Ein ganz besonderer Dank gebührt außerdem den lokalen Organisator*innen, allen voran Michaela Geierhos, mit der wir immer in engem Kontakt standen und die uns jederzeit 
+                tatkräftig und vorausschauend unterstützte. Sehr dankbar bin ich auch Bejamin Bellgrau, der als Mitglied des lokalen Organisationsteams bei Fragen rund um ConfTool immer schnell 
+                eine Lösung gefunden hat. Ein besonderes Dankeschön
+		gebührt schließlich Nina Seemann, die aus den nicht immer perfekten XML-Dateien das vorliegende, wunderschöne Book of Abstracts 
+                generiert hat.
+		</p>
+                <p>&#160;</p>                
+                <p>&#160;</p>                
+		<dateline>Trier, im Februar 2020</dateline><lb/>
+                <signed>Christof Schöch<lb/>für das Programmkomitee der DHd2020</signed>
+              </div>
+        </body>
+    </text>
+</TEI>
+

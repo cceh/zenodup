@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="210_final-POHL_Oliver_eXist_db_und_VueJS_f_r_dynamische_UI_Komponenten" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">eXist-db und VueJS für dynamische UI-Komponenten</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Pohl</surname>
+                        <forename>Oliver</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>opohl@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dogaru</surname>
+                        <forename>Teodora</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>teodora.dogaru@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Müller-Laackman</surname>
+                        <forename>Jonas</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>jonas.mueller-laackman@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-12T15:15:01.640637987</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>eXist-db</term>
+                    <term>vue.js</term>
+                    <term>quoteSalute</term>
+                    <term>correspSearch</term>
+                    <term>Briefeditionen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Gestaltung</term>
+                    <term>Programmierung</term>
+                    <term>Webentwicklung</term>
+                    <term>Metadaten</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung</head>
+                <p>Für die Erstellung und Bearbeitung digitaler Editionen im Bereich der Digital Humanities werden vorzugsweise XML-basierte Lösungen verwendet. Eine der dabei am häufigsten benutzten Datenbanktechnologien ist eXist-db<hi rend="superscript">1</hi>. Dabei ist eXist-db nicht nur eine Lösung zum Bearbeiten und Speichern von XML-Daten, sondern bietet auch Möglichkeiten zur Programmierung von Webanwendungen auf Grundlage von XQuery. Im weiteren Programmierer*innen-Umfeld sind X-Technologie-Lösungen sowohl für die Datenhaltung als auch für das Erstellen von Webanwendungen eher eine Nischenlösung<hi rend="superscript">2</hi>.</p>
+                <p>In den letzten Jahren werden verstärkt Frameworks wie Vue.js<hi rend="superscript">3</hi> oder React<hi rend="superscript">4</hi> für die Erstellung von Frontendmodulen in Webanwendungen verwendet.<hi rend="superscript">5</hi> Ein großer Vorteil solcher Frameworks gegenüber herkömmlichen Lösungen ohne Framework oder mit jQuery<hi rend="superscript">6</hi> ist die Möglichkeit, in sich geschlossene, reaktive User-Interface-Komponenten zu erstellen. Reaktiv heißt in diesem Fall, dass wenn sich das Datenmodell innerhalb einer Komponente ändert, ohne weiteren Aufwand sofort auch die Benutzeroberfläche entsprechend angepasst wird. Gleiches gilt umgekehrt, z.B. wenn eine Nutzerin ein Textfeld ausfüllt, auch das Datenmodell der Komponente sofort den entsprechenden Wert übernimmt, und so weitere Operationen im Hintergrund ausführen kann.</p>
+                <p>Da diese JavaScript-Frameworks jedoch mit JSON statt mit XML arbeiten, soll der hier vorgeschlagene Workshop eine Einführung in die Verwendung von Vue.js in Verbindung mit eXist-db geben. Im Workshop soll konkret gezeigt werden, wie man mit eXist-db abgefragte Daten nach JSON serialisieren kann, um diese dann für die Erstellung einer Vue.js basierten, reaktiven Benutzeroberfläche einzusetzen. Grundsätzlich soll den Teilnehmenden hierdurch das Zusammenspiel zwischen einem beliebigen Backend - JSON-API - JavaScript-Frontend-Framework vermittelt werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Workshop</head>
+                <p>Als praktisches Beispiel für den Workshop werden die Daten und der Quellcode von quoteSalute<hi rend="superscript">7</hi> zur Veranschaulichung benutzt. quoteSalute aggregiert Grußformeln aus verschiedenen digitalen Briefeditionen, bereitet diese auf, sodass NutzerInnen Briefabschlüsse von z.B. Alexander von Humboldt, Friedrich Schleiermacher oder Anna Gräfin von Lehndorff über einen Klick in ihre eigene E-Mail-Korrespondenz einfügen können. Die Daten dafür werden in einer eXist-db-Instanz als TEI-XML vorgehalten und die Benutzeroberfläche über Vue.js realisiert. Dabei kommuniziert die Benutzeroberfläche im Browser mit dem eXist-db-Backend, sodass auf Knopfdruck via XQuery in der Datenbank eine zufällige Grußformel ausgewählt und nach JSON serialisiert wird, sodass letztendlich die Nutzeroberfläche mit der neuen Grußformel angepasst werden kann. Um die passende Grußformel für die eigene E-Mail zu finden, können Nutzer*innenden Korpus nach Höflichkeitsstufe (formell, informell), Sprache (derzeit deutsch, englisch, französisch, italienisch, spanisch, griechisch, latein) oder nach Geschlecht des Absenders und Empfängers filtern.</p>
+                <p>Sowohl der Datenkorpus, als auch der Quellcode sowie die Dokumentation sind als freie Software verfügbar. <hi rend="superscript">8</hi></p>
+                <p>Der Workshop ist für zwei halbe Tage und für ca. 15-30 Teilnehmende ausgelegt. Dabei ist das Workshopprogramm in insgesamt vier Zwei-Stunden-Blöcke aufgeteilt, die inhaltlich aufeinander aufbauen. Im Folgenden werden die im Vorfeld des Workshops zu verteilenden Materialien, die zu erwartenden Voraussetzungen an die Teilnehmenden, sowie die Inhalte der einzelnen Blöcke und ihre Lernziele beschrieben.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Voraussetzungen</head>
+                    <p>Von den Teilnehmenden wird erwartet, dass sie grundlegende Kenntnisse in der JavaScript- und Web-Programmierung (HTML, CSS) haben. Weiterhin wird darum gebeten, einen Computer mitzubringen und vorab eXist-db (kostenfrei) sowie einen Texteditor zum Programmieren wie Visual Studio Code oder Atom zu installieren.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Materialien</head>
+                    <p>Vor dem Workshop stellen wir eine eXist-db-Applikation zusammen, die bereits alle benötigten Daten, Skripte und Datenbankabfragen enthält, um im Workshop sofort in die Arbeit einsteigen zu können, ohne selbst noch alles einrichten zu müssen. Die Teilnehmenden können dann diese App in ihrer eXist-db per Drag &amp; Drop installieren. Eine entsprechende Anleitung wird bereitgestellt. </p>
+                    <p>Sollte die Einrichtung der eXist-Instanz oder die Installation der App wider Erwarten nicht funktionieren, stellen wir auch eine eigene eXist-Instanz für den Workshop mit personalisierten Logins für die Teilnehmenden sowie eine JSON-REST-API bereit, sodass die weiteren Workshopinhalte in jedem Fall praktisch nachvollzogen werden können.</p>
+                    <p>Des Weiteren bereiten wir ein HTML- und VueJS-Code-Skelett vor, sodass auf JavaScript-Seite wenig Zeit auf die Einrichtung der Programmierungsumgebung verwendet werden muss. </p>
+                    <p>Die hier aufgelisteten Daten werden auf Github bereitgestellt und dokumentiert.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Inhalte</head>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Block 1</head>
+                        <p>Zu Anfang sollen die im Workshop verwendeten Tools und Konzepte, insbesondere das Zusammenspiel zwischen exist-db, JSON und Vue.js, vorgestellt werden. Es wird den Teilnehmenden noch etwas Zeit eingeräumt, die nötige Software herunterzuladen, zu installieren und ihre Entwicklungsumgebung einzurichten. Anschließend wird der Aufbau der quoteSalute-eXist-db-App inklusive des mitgelieferten Datenkorpus erklärt und gezeigt, wie innerhalb von eXist-db Daten abgefragt und ins JSON-Format serialisiert werden. Diese Schritte sind bereits voreingerichtet, sodass auch Teilnehmende ohne XQuery oder eXist-db-Kenntnisse den Ablauf nachvollziehen können. Aus praktischer Sicht werden die Teilnehmenden den quoteSalute-Grußformel-Korpus abfragen, eine zufällige Grußformel extrahieren und nach JSON serialisieren.</p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Block 2</head>
+                        <p>Im zweiten Block sollen die Teilnehmenden anfangs versuchen, die vorgegebenen Beispiele für Datenbankabfragen und JSON-Serialisierungen anzupassen bzw. zu erweitern, um beispielsweise nur Grußformeln, die an Frauen adressiert waren, aus dem Datenbestand herauszufiltern. So soll die Arbeit mit eXist-db und JSON-Serialisierung geübt und gefestigt werden.</p>
+                        <p>Um die aus der eXist-db gelieferten JSON-Daten client-seitig verwenden zu können, muss das JavaScript-Frontend-Framework Vue.js mit der JSON-REST-API kommunizieren. Dafür soll zuerst in die Grundprinzipien von Vue.js (data, templates, model-view-binding, methods, computed) anhand kleiner, aufeinander aufbauenden Code-Beispiele eingeführt werden. </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Block 3</head>
+                        <p>In Block 3 sollen die in den ersten beiden Blöcken erarbeiteten Methoden und Abläufe miteinander in Verbindung gebracht werden. Über eine asynchrone Abfrage zum lokalen exist-db-Server (JavaScript-Skelett wird gestellt), soll die Vue.js-App eine neue Grußformel vom Server zu erfragen und diese dann im eigenen Datenmodell und so auch in der Benutzeroberfläche abbilden. Um asynchrone Operationen mit JavaScript nachvollziehen zu können, wird an dieser Stelle zusätzlich das Konzept von Promises vorgestellt und erläutert.</p>
+                        <p>Die Teilnehmenden können die verbleibende Zeit in diesem Block dazu nutzen, ihre Vue.js-App zu programmieren und gegebenenfalls visuell anzupassen.</p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Block 4</head>
+                        <p>Sollte die Zeit für die Programmierung der Vue.js-App nicht genügen, dient der vierte Block als zusätzlicher Puffer. Für bereits fertige Teilnehmer und Interessierte bieten wir noch ein optionales Programm mit zusätzlichen Aufgaben an. So soll das Zusammenspiel zwischen eXist-db und Vue.js noch an einem weiteren, konkreten Fallbeispiel für die Digital Humanities geübt werden. Die Teilnehmenden erhalten einen Auszug aus einer digitalen Edition und sollen mit den vorgestellten Technologien ein Personenregister erzeugen. Durch diese Transferleistungsübung sollen die erlernten Vue.js-Methoden und Prinzipien gefestigt werden.</p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Übersicht</head>
+                        <p>Das Grundkonzept des Workshops lässt sich in folgender Tabelle zusammenfassen:</p>
+                        <table rend="frame" xml:id="Tabelle1">
+                            <row>
+                                <cell/>
+                                <cell>Technologien &amp; Konzepte</cell>
+                                <cell>Lernziel</cell>
+                            </row>
+                            <row>
+                                <cell>Block 1</cell>
+                                <cell>Überblick eXist-db, VueJS &amp; JSON</cell>
+                                <cell>JSON-Serialisierung von XML-Daten mit eXist-db verstehen</cell>
+                            </row>
+                            <row>
+                                <cell rows="2">Block 2</cell>
+                                <cell>eXist-db, JSON, XPath, XQuery</cell>
+                                <cell>eXist-db Datenbankanfragen modifizieren und Ergebnisse nach JSON serialisieren</cell>
+                            </row>
+                            <row>
+                                <cell>VueJS</cell>
+                                <cell>Grundkonzepte von VueJS verstehen und anwenden</cell>
+                            </row>
+                            <row>
+                                <cell>Block 3-4</cell>
+                                <cell>VueJS, Asynchrone Anfragen, Promises</cell>
+                                <cell>VueJS-App programmieren und an JSON-REST-API anbinden</cell>
+                            </row>
+                        </table>
+                        <p>Nach dem Workshop sollen die Teilnehmenden in der Lage sein</p>
+                        <list type="unordered">
+                            <item>nachzuvollziehen, wie man mit eXist-db XML-Daten nach JSON serialisiert,</item>
+                            <item>die Bedeutung von der Vue.js-Begriffe data, methods, model-view-binding und templates zu verstehen, anwenden und selbst erklären zu können,</item>
+                            <item>eine einfache, reaktive Vue.js-Applikation zu programmieren,</item>
+                            <item>diese Vue.js-Applikation an eine JSON-REST-Schnittstelle anzubinden, und</item>
+                            <item>das grundlegende Prinzip im Zusammenspiel von Backend - JSON-API - JavaScript-Frontend auch auf andere Technologien und Frameworks übertragen zu können.</item>
+                        </list>
+                    </div>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Technische Ausstattung</head>
+                    <p>Für die Durchführung des Workshops wird ein Beamer (vorzugsweise mit VGA-Anschluss) sowie Internetzugang benötigt. Aufgrund der Länge des Workshops wären mehrere Mehrfachsteckdosen zum Aufladen der Geräte der Teilnehmenden wünschenswert.</p>
+                </div>
+            </div>
+        </body>
+		<back>
+			<div type="notes">
+				<note xml:id="ftn0" place="foot" n="1"><anchor xml:id="id_docs-internal-guid-d3318880-7fff-6a5d-b213-9db92a5de4fa"/><ref target="http://exist-db.org/">http://exist-db.org</ref></note>
+				<note xml:id="ftn1" place="foot" n="2"><anchor xml:id="id_docs-internal-guid-0d20d8e5-7fff-266a-fedc-7dc373dd5964"/> In ProgrammiererInnen-Umfragen von JetBrains und StackOverflow oder Programmier- und Datenbank-Beliebheits-Indizes sind eXist-db, XQuery und verwandte Technologien nicht einmal genannt. <lb/><ptr target="https://www.jetbrains.com/research/devecosystem-2018/"/>
+                    <p><ptr target="https://insights.stackoverflow.com/survey/2018#technology"/><ref target="https://insights.stackoverflow.com/survey/2018#technology"/></p>
+                    <p><ptr target="https://www.tiobe.com/tiobe-index/"/><ref target="https://www.tiobe.com/tiobe-index/"/></p>
+                    <p><ptr target="http://pypl.github.io/DB.html"/></p>
+                </note>
+				<note xml:id="ftn2" place="foot" n="3">
+                    <anchor xml:id="id_docs-internal-guid-ee70ea0e-7fff-eb41-7979-8fabea2f6ccd"/>
+                    <ptr target="https://vuejs.org/"/>
+                </note>
+				<note xml:id="ftn3" place="foot" n="4"> <anchor xml:id="id_docs-internal-guid-0e16df30-7fff-61ee-bb2d-171efb002e71"/> <ptr target="https://reactjs.org/"/>
+                </note>
+				<note xml:id="ftn4" place="foot" n="5"> <anchor xml:id="id_docs-internal-guid-e1952c49-7fff-b247-46bd-813328660ac3"/><ptr target="http://2016.stateofjs.com/2016/frontend/"/>
+                            <p><ptr target="https://2017.stateofjs.com/2017/front-end/results"/><hi rend="color(#000000)"> </hi></p>
+                </note>
+				<note xml:id="ftn4" place="foot" n="5"> <anchor xml:id="id_docs-internal-guid-e1952c49-7fff-b247-46bd-813328660ac3"/><ptr target="http://2016.stateofjs.com/2016/frontend/"/>
+                    <p><ptr target="https://2017.stateofjs.com/2017/front-end/results"/><hi rend="color(#000000)"> </hi></p>
+                </note>
+				<note xml:id="ftn5" place="foot" n="6"> <anchor xml:id="id_docs-internal-guid-91af8467-7fff-f935-8c3b-aa3bc3dfae6a"/><ptr target="https://jquery.com/"/></note>
+				<note xml:id="ftn6" place="foot" n="7"> <anchor xml:id="id_docs-internal-guid-86f43f13-7fff-4a9f-285f-2b35e8caa260"/><ref target="https://quotesalute.net/"><hi rend="color(#1155cc)underline">http://quotesalute.net</hi></ref></note>
+				<note xml:id="ftn7" place="foot" n="8"> <anchor xml:id="id_docs-internal-guid-6fb22212-7fff-6abd-8f60-176da4478dc2"/><ptr target="https://github.com/telota/quoteSalute"/></note>
+            </div>			
+        </back>
+    </text>
+</TEI>

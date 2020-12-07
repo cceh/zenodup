@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="230_final-SCHWANDT_Silke_Hackathon__Sortir_de_la_guerre_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Hackathon „Sortir de la guerre“</title>
+<author>
+<persName>
+<surname>Schwandt</surname>
+<forename>Silke</forename>
+</persName>
+<affiliation>Universität Bielefeld, Deutschland</affiliation>
+<email>silke.schwandt@uni-bielefeld.de</email>
+</author>
+<author>
+<persName>
+<surname>Baillot</surname>
+<forename>Anne</forename>
+</persName>
+<affiliation>Université Le Mans, Frankreich</affiliation>
+<email>anne.baillot@univ-lemans.fr</email>
+</author>
+<author>
+<persName>
+<surname>Gervais</surname>
+<forename>Ludovic</forename>
+</persName>
+<affiliation>Université Le Mans, Frankreich</affiliation>
+<email>ludovic.gervais.etu@univ-lemans.fr</email>
+</author>
+<author>
+<persName>
+<surname>Braud</surname>
+<forename>Camille</forename>
+</persName>
+<affiliation>Université Le Mans, Frankreich</affiliation>
+<email>camille.braud.etu@univ-lemans.fr</email>
+</author>
+<author>
+<persName>
+<surname>Thomas</surname>
+<forename>Clement</forename>
+</persName>
+<affiliation>Université Le Mans, Frankreich</affiliation>
+<email>clement.thomas@univ-lemans.fr</email>
+</author>
+<author>
+<persName>
+<surname>Bonsergent</surname>
+<forename>Lou-Ann</forename>
+</persName>
+<affiliation>Université Le Mans, Frankreich</affiliation>
+<email>lou-ann.bonsergent.etu@univ-lemans.fr</email>
+</author>
+<author>
+<persName>
+<surname>Strothotte</surname>
+<forename>Adrian</forename>
+</persName>
+<affiliation>Universität Bielefeld, Deutschland</affiliation>
+<email>adrian.strothotte@uni-bielefeld.de</email>
+</author>
+<author>
+<persName>
+<surname>Niewöhner</surname>
+<forename>Laura Maria</forename>
+</persName>
+<affiliation>Universität Bielefeld, Deutschland</affiliation>
+<email>l.niewoehner@uni-bielefeld.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T16:46:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Workshop</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Hackathon</term>
+<term>Geschichte</term>
+<term>Datenvisualisierung</term>
+<term>Datenanalyse</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Kommunikation</term>
+<term>Lehre</term>
+<term>Daten</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<!-- <div> -->
+<!-- <p rend="Title"> -->
+<!-- <hi style="font-size:16pt">Workshop: Hackathon „Sortir de la guerre“</hi> -->
+<!-- </p> -->
+<!-- <p rend="Subtitle">Anne Baillot (Le Mans Université), Silke Schwandt (Universität Bielefeld)</p> -->
+<!-- <p rend="Subtitle">Studierende der Universität Le Mans (Studierende der Germanistik, Digital Humanities und Europäischen Studien): Lou-Ann Bonsergent, Camille Braud, Clément Thomas (Le Mans) ; Ludovic Gervais (2019/2020 Erasmus in Köln)</p> -->
+<!-- </div> -->
+<div rend="DH-Heading1" type="div1">
+  <head>Leitung</head>
+<div rend="DH-Heading2" type="div2">
+  <head>Prof. Dr. Anne Baillot</head>
+  <!-- <p> -->
+  <!--   <!-\- <ref target="mailto:anne.baillot@univ-lemans.fr">anne.baillot@univ-lemans.fr</ref> -\-> -->
+  <!--   <lb/>Le Mans Université -->
+  <!-- </p> -->
+  <p>Forschungsschwerpunkte: Digitale Philologie, Digital Humanities, Translation Studies. </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+  <head>Dr. Silke Schwandt</head>
+  <!-- <p> -->
+  <!--   <!-\- <ref target="mailto:silke.schwandt@uni-bielefeld.de">silke.schwandt@uni-bielefeld.de</ref> -\-> -->
+  <!--   <lb/> Universität Bielefeld -->
+  <!-- </p> -->
+  <p>Forschungsschwerpunkte: Digitale Geschichtswissenschaft, Digital Humanities, Geschichte des Mittelalters.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Beitragende</head>
+  <p> Studierende der Universität Le Mans (Studierende der Germanistik, Digital Humanities und Europäischen Studien): Lou-Ann Bonsergent, Camille Braud, Clément Thomas (Le Mans); Ludovic Gervais (2019/2020 Erasmus in Köln)</p>
+</div> 
+<div rend="DH-Heading1" type="div1">
+  <head>Teilnehmerzahl</head>
+  <p>Optimal zwischen 12 und 24 Personen, möglich ab 6.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Ausstattung</head>
+  <p>Beamer; gute Internetverbindung; großer Raum, in dem sich die TeilnehmerInnen in 3er/4er-Gruppen für die praktischen Teile zusammentun und besprechen können, ohne die anderen Gruppen zu stören; ein Laptop pro TeilnehmerInnengruppe (e.g. max. 8 Laptops).</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Pädagogischer Ansatz</head>
+<p>Die digitalen Geisteswissenschaften eröffnen vielfältige Spielräume in der Forschung durch die Anwendung neuer Methoden sowie durch die Interaktion mit anderen Disziplinen. Die gleichen Spielräume bieten sich auch in der Vermittlung. Jenseits von der Entwicklung von E-Learning-Angeboten, MOOCs und dergleichen, fehlt eine Exploration vergleichbarer Spielräume für die Lehre in geisteswissenschaftlichen Fächern (vgl. Schön et al. 2017). Eine solche Exploration kann zweierlei adressieren: 
+                    <hi rend="italic">digitale Inhalte</hi>, Daten, Wissen und Informationen, oder 
+                    <hi rend="italic">digitale Methoden</hi> wie den Umgang mit etwa Datenbanken, Foren, oder Anwendungen.
+                </p>
+<p>Auf der Ebene der Inhalte spielt die Auseinandersetzung mit Fragen der Authentizität und Verlässlichkeit von digital verfügbaren Informationen eine zentrale Rolle. Gerade die Geisteswissenschaften beschäftigen sich in ihrem Kern mit der Produktion von verlässlichen Wissensbeständen für die Gesellschaft. </p>
+<p>So lernen Studierende, wie sie Informationen und Wissen extrahieren, bewerten und einordnen. Sie lernen den kritischen Umgang mit scheinbar Gegebenem und werden darin geschult, fremde Perspektiven zu erkennen, einzunehmen und zu reflektieren. Diese zentralen Kompetenzen gilt es in der universitären Lehre mit Blick auf digitale Objekte, auf moderne Informationsmedien zu erweitern und anzupassen (vgl. Büttner 2019). Digitale Medien zu kennen bedeutet dabei, diese auch zu verstehen, in ihrer Entstehung und ihrem Stellenwert beurteilen zu können oder ihnen Informationen zu entnehmen. </p>
+<p>Verschiedene Institutionen wie auch die Universität Bielefeld verfolgen Data Literacy Education Initiativen, um diese Herausforderungen zu adressieren. Dabei geht es vor allem darum, ein Bewusstsein für die Relevanz von Daten und die damit verbundene Notwendigkeit zu wecken, umsichtig mit Daten umzugehen. An der Universität Le Mans wird ein ähnliches Ziel im Rahmen des Germanistik-Curriculums verfolgt, das Grundlagen der Datenbankverwaltung, der Entwicklung von Web-Interfaces, des Datenmanagements, aber auch der Vermittlung in die Gesellschaft hinein vermittelt.</p>
+<p>Mit diesem Workshop kommen beide pädagogischen Ansätze zum Tragen und kehren dabei auch die traditionelle Lehrperspektive um insofern als die Studierenden selbst den Workshop leiten sollen. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Studentische Kompetenzen stärken</head>
+<p>Dieser Workshop versteht sich als spielerische Exploration der im Rahmen des Projekts „Sortir de la guerre (1919-1930)“ gesammelten Daten. Diese werden den Workshopteilnehmenden sowohl in virtueller als auch in physischer Form zur Verfügung gestellt (die Ausstellung soll im März 2020 in Workshop-Nähe gezeigt werden). Die Studierenden, die an der Konzeption und Realisierung der Ausstellung mitgearbeitet haben, werden an der Konzeption und Durchführung des Workshops aktiv beteiligt: Die französischen Studierenden bekommen im Herbst 2019 eine professionelle Einweisung in die Führung durch die Ausstellung und sie werden zwischen November 2019 und Februar 2020 Schulklassen aus Le Mans die physische und die virtuelle Ausstellung nahebringen, wobei der Akzent auf die zweisprachige Vermittlung liegt. Auf diese Weise sollen sie neben dem Wissen um die Ausstellungsthematik auch ihre Datenkenntnisse (Zusammenspiel von digitalem Bild-, Text- und Tonmaterial und Identifizierung der einschlägigen Formate; Arbeit mit digitalen Umgebungen; Orientierung in Metadaten) einbringen und Erfahrungen in der Wissensvermittlung sammeln. Diese Kompetenzen werden im Rahmen des Workshops eingebracht.</p>
+<p>(Daten-)Exploration als zentrales Moment der DH steht im Mittelpunkt des Workshops. Kombiniert werden Elemente aus dem Bereich der DH, der Data Literacy und der spielerischen Vermittlung von Wissen. Spielerische Kultur- und Geschichtsvermittlung sind seit der Entstehung der Museumspädagogik etablierter Teil der Arbeit im Museum. Museen und andere kulturelle Institutionen gehören zudem zu den bevorzugten Arbeitsfeldern von Studierenden aus den Geisteswissenschaften.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Datengrundlage</head>
+<p>Die Datengrundlage des Workshops ist das Ergebnis einer Lehrkooperation, die an den Universitäten Le Mans und Paderborn durchgeführt wurde. Bei der Ausstellung « Sortir de la guerre (1919-1930) » handelt es sich um ein gemeinsames wissenschaftliches und pädagogisches Projekt der Faculté des lettres, langues et sciences humaines der Université du Mans und der kulturwissenschaftlichen Fakultät der Universität Paderborn. Aufbauend auf das Potential der Städtepartnerschaft haben DozentInnen, Studierende und die jeweiligen Stadtarchive eine Ausstellung konzipiert, die unter dem Titel „Sortir de la guerre“ die Nachkriegsjahre 1919-1930 in beiden Städten dokumentiert. Die Ausstellung gliedert sich in vier thematische Schwerpunkte: Demobilisierung, Neuaufbau, Erinnerungskultur, Zurück ins Leben. Die Ausstellung wird im November 2019 in beiden Städten zeitgleich eröffnet und zirkuliert dann in öffentlichen Einrichtungen. In Le Mans werden Führungen organisiert, die von Studierenden der Geschichte und der Germanistik angeboten werden. </p>
+<p>Die Ausstellung präsentiert sich sowohl in physischer Form (23 Tafeln, die Archivbestände abbilden und in beiden Sprachen kommentieren) als auch virtuell. Studierende aus dem 2. Jahr der Germanistik/DH aus Le Mans erarbeiteten eine virtuelle Ausstellung in einer Omeka-Umgebung. Eine interaktive Karte der Erinnerungsorte in Le Mans wurde ebenfalls entwickelt (<ref target="http://umap.openstreetmap.fr/fr/map/les-commemorations-de-la-ville-du-mans_323901#13/48.0074/0.2123">http://umap.openstreetmap.fr/fr/map/les-commemorations-de-la-ville-du-mans_323901#13/48.0074/0.2123</ref>). Das einschlägige Blog (<ref target="https://sortir1919.hypotheses.org/">https://sortir1919.hypotheses.org/</ref>) informiert über die Fortschritte der Ausstellung. Die Daten der virtuellen Ausstellung werden im Rahmen dieses Workshops bearbeitet um das Projekt durch „Neulektüren“ zu bereichern, die im Anschluss in das Ausstellungskonzept eingebaut werden können.
+                </p>
+<p>Bei den Daten handelt es sich um archivarische Metadaten, Digitalisate, Tonaufnahmen und Kommentare in Textform. Diese werden den Workshop-TeilnehmerInnen auf GitHub zur Verfügung gestellt. Die Daten wurden im Rahmen der Lehrkooperation erhoben, analysiert und in Form der Ausstellung präsentiert. Nicht alle gesammelten Rohdaten wurden aber ausgewertet: Auch die noch unbearbeiteten Daten werden im Rahmen des Workshops zur Verfügung gestellt. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Programm des Workshops</head>
+<p>Der Workshop hat Hackathon-Charakter (vgl. Meyer 2019 und Knoll 2017): Die TeilnehmerInnen werden in 3 bis 4 Teams gegliedert, die jeweils 3 Aufgaben zu bewältigen haben. Für jede Aufgabe stehen 45 Minuten zur Verfügung. </p>
+<p>Alle 3 Aufgaben sollen auf der Grundlage der Daten bewältigt werden, die zur Verfügung gestellt werden. Es dürfen aber auch ergänzend andere Daten herangezogen werden (etwa aus den Sammlungen der Europeana zum Ersten Weltkrieg).</p>
+<p>Der Workshop ist für ein Zielpublikum konzipiert, dem die Arbeit mit Daten geläufig ist. Sollten sich überwiegend Studierende oder digital nicht rüstige TeilnehmerInnen melden (etwa Studierende), würde jedes Team insgesamt nur eine der drei Aufgaben zuteil bekommen.</p>
+<p><hi rend="bold">Aufgabe 1</hi> hat „so viel wie möglich“ zum Motto: Da sollen sich die Teilnehmenden eine Auswertung der Daten ausdenken, die es ermöglicht, soviel Daten wie möglich zu bearbeiten. (möglich wären Visualisierungen oder Sonification)</p>
+<p><hi rend="bold">Aufgabe 2</hi> lautet „so gut wie möglich“: Da sollen sich die Teilnehmenden eine Auswertung ausdenken, die so qualitativ wie möglich ist. Es steht ihnen frei, unter dem zur Verfügung gestellten das Material auszusuchen (Bild, Metadaten, Text), was sie auswerten wollen. Die Qualität wird vorrangig nach den FAIR-Prinzipien evaluiert. </p>
+<p><hi rend="bold">Aufgabe 3</hi> ist dann „so weit wie möglich“: Die TeilnehmerInnen sollen hier Public History-Tools einsetzen, um die Daten einem größtmöglichen Publikum schmackhaft zu machen.</p>
+<p>Die Studierenden sollen im Vorfeld die Daten aufbereiten, den Workshop leiten, die Teams aufteilen helfen, die Daten präsentieren, die Teams unterstützen und sich an der Evaluation der Ergebnisse aktiv beteiligen.</p>
+
+<div rend="DH-Heading2" type="div2">
+  <head>Zeitplan(3,5 Std. Workshop):</head>
+  <list type="unordered">
+    <item>15 Min. Warming-Up (Präsentation des Konzepts, der Daten, Konstitution der Teams, Raumgestaltung für die Teams)</item>
+    <item>45 Min. Aufgabe 1</item>
+    <item>15 Min. Präsentation und Auszeichnung</item>
+    <item>45 Min. Aufgabe 2</item>
+    <item>15 Min. Präsentation und Auszeichnung</item>
+    <item>45 Min. Aufgabe 3</item>
+    <item>15 Min. Präsentation und Auszeichnung</item>
+    <item>15 Min. Auszeichnung und Ausblick (mögliche Auswertungen der Ergebnisse)</item>
+  </list>
+</div>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+  <head>Bibliographie</head>
+  <bibl>
+    <hi rend="bold">Büttner, Stephan, ed. </hi> (2019): 
+    <hi rend="italic">Die Digitale Transformation in Institutionen Des Kulturellen Gedächtnisses: Antworten Aus Der Informationswissenschaft</hi>. Berlin: Simon Verlag für Bibliothekswissen.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Knoll, Nico</hi> (2017): “„HackHPI“: How to Organize a Hackathon.” In 
+    <hi rend="italic">Veranstaltungen 4.0</hi>. Edited by Thorsten Knoll, 155–69. Wiesbaden: Springer Fachmedien Wiesbaden.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Meyer, Francine / Monika Taddicken </hi> (2019): “Hackdays Als Alternatives Lehrformat? Eine Empirische Betrachtung Eines Beispiellehrformats in Bezug Auf Mediale Und Technologische Bildung.” In 
+    <hi rend="italic">Teaching Trends 2018: Die Präsenzhochschule Und Die Digitale Transformation</hi>. Edited by Susanne Robra-Bissantz et al. 1. Auflage. Digitale Medien in der Hochschullehre 7. Münster: Waxmann.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Schön, Sandra / Veronika Hornung-Prahauser,
+    Patricia Schedifka, and Markus Alsleben, eds. </hi> (2017):
+    <hi rend="italic">Innovation Durch Exploration: Innovationsanstöße Zum Internet Der Dinge (Internet of Things, IoT) Durch Offenes Explorieren Und Experimentieren in Technologielaboren, Kreativ- Und Innovationsräumen</hi>. Salzburg: Books ON DEMAND, 2017.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Trilcke, Peer / Frank Fischer </hi> (2018): “Literaturwissenschaft Als Hackathon: Zur Praxeologie Der Digital Literary Studies Und Ihren Epistemischen Dingen.” In 
+    <hi rend="italic">Wie Digitalität Die Geisteswissenschaften
+    Verändert: Neue Forschungsgegenstände Und Methoden</hi>. Edited by
+    Martin Huber and Sibylle Krämer. Sonderband der Zeitschrift für
+    digitale Geisteswissenschaften 3. DOI: <ref target="http://www.zfdg.de/sb003_003">http://www.zfdg.de/sb003_003.</ref>
+  </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

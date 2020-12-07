@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-059">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Erstellung und Visualisierung von Topic-Modellen in WebLicht</title>
+        <author>
+          <name>
+            <surname>Hinrichs</surname>
+            <forename>Marie</forename>
+          </name>
+          <affiliation>Universität Tübingen, Deutschland</affiliation>
+          <email>marie.hinrichs@uni-tuebingen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Coltekin</surname>
+            <forename>Cagri</forename>
+          </name>
+          <affiliation>Universität Tübingen, Deutschland</affiliation>
+          <email>cagri.coeltekin@uni-tuebingen.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-18T16:28:12.725835000</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Topic-Modellen</term>
+          <term>WebLicht</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Infrastruktur</term>
+          <term>Software</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Die neueste Erweiterung von <ref target=" https://weblicht.sfs.uni-tuebingen.de/weblicht/">WebLicht</ref> besteht aus einer Funktion zur
+      Generierung von Topic-Modellen auf Basis von Nutzerinput. Auch die Visualisierung
+      und Analyse des generierten Modells sind mit WebLicht möglich.</p>
+      <p>WebLicht (Web-Based Linguistic Chaining Tool) stellt eine virtuelle
+        Forschungsumgebung zur Verfügung, in der Nutzer_innen Verarbeitungsketten zur
+        linguistischen Annotation erstellen und ausführen können und die generierten
+        Annotationen in der Folge visualisieren können. Die WebLicht Webapplikation ist das
+        Frontend eines breiten Frameworks, das darauf abzielt, verbreitete state-of-the-art
+        Annotationswerkzeuge den Forschenden gut zugänglich zur Verfügung zu stellen, ohne
+        dass einzelne Anwendungen heruntergeladen oder installiert werden müssen. Die in
+        WebLicht verfügbaren Werkzeuge werden von den CLARIN Zentren entwickelt und als
+        Webservices zur Verfügung gestellt. Neue Werkzeuge können jederzeit integriert
+        werden, sofern einige Richtlinien befolgt werden. Im Kern muss ein neues Werkzeug
+        hierzu in der CLARIN Center Registry beschrieben werden, als Webservice zur
+        Verfügung gestellt werden und gut definierte Input- und Outputformate benutzen. </p>
+        <p>Topic-Modelle sind statistische Modelle, die ein Inputdokument in ein Set abstrakter
+          Themen kategorisieren und mit verschiedenen Gewichten oder Prioritäten versehen.
+          Topic-Modelle werden typischerweise automatisch aus einem Set von Dokumenten
+          abgeleitet, ohne dass eine manuelle Annotation notwendig ist. Die resultierenden
+          Modelle können in verschiedensten Aufgaben im Bereich des Natural Language
+          Processing genutzt werden, z. B. zum automatischen Klassifizieren von Dokumenten
+          oder zur Bestimmung verschiedener Wortbedeutungen. Alternativ können sie auch als
+          “Data Mining” Tool genutzt werden, vor allem in Kombination mit passenden
+          Visualisierungen. Auch in den digitalen Geisteswissenschaften ist Topic-Modellierung
+          eine gängige Methode. Insbesondere kann Topic-Modellierung dabei helfen, Muster in
+          großen Textkollektionen zu erkennen. Die Nutzung von Topic-Modellierung in den
+          digitalen Geisteswissenschaften wird unter anderem beschrieben in Jockers (2010)
+          Arbeiten zum Klassifizieren von Blogs beim ‘Day of DH 2010’, in Drouin (2011)
+          Arbeiten zu Proust, in Griffiths und Steyvers' (2004) Arbeiten zu Themen in der
+          Wissenschaft im Verlauf der Zeit und in einer weiteren diachronen Studie von Riddell
+          (2012) zum Thema Topics in der Germanistik.</p>
+          <p> Da es eines der vorrangigen Ziele von WebLicht ist, Natural Language Processing
+            Tools Geisteswissenschaftlern gut zugänglich zur Verfügung zu stellen, haben wir
+            einen Webservice zur Erstellung und Visualisierung von Topic-Modellen in die
+            WebLicht-Umgebung eingefügt. Das aktuelle Modell nutzt ein Topic-Modell, das im <ref
+            target="http://kobra.tu-dortmund.de/mediawiki/">KobRA Projekt</ref> entwickelt
+            wurde und auf der weithin bekannte Latent Dirichlet Allocation (LDA) Technik <anchor
+            xml:id="id_docs-internal-guid-723e671c-5533-9471-4458-77f0881fc168"/>wie von
+            Blei et al. (2003) beschrieben, basiert ist. Das resultierende Topic-Modell wird mit
+            der weit verbreiteten Visualisierungssoftware <ref target="http://agoldst.github.io/dfr-browser">DFR-browser</ref> (cf. Goldstone 2013-2015)
+            visualisiert. DFR-browser bietet vielfältige
+            Visualisierungen, unter anderem von Listen der “Topwörter” zu jedem Topic und
+            von Topic-übergreifenden Worträngen.
+          </p>
+          <p>Bei der Topic-Modellierung sieht ein üblicher Ablauf wie folgt aus: Der Nutzer lädt eine Textsammlung zu WebLicht hinauf; WebLicht berechnet mit dem oben genannten Webservice ein Topic-Modell mit einer vorgegebenen Anzahl an Topics; die resultierenden Topic-Wort- und Topic-Dokument-Verteilungen werden in das vom DFR-browser benötigte Format konvertiert und im Webbrowser des Nutzers visualisiert. Abbildung 1 enthält eine der Visualisierungsansichten und zeigt die am höchsten eingestuften Wörter für sechs abstrakte Topics in einem Topic-Modell berechnet auf Basis eines großen Zeitungskorpus.
+            <anchor xml:id="id_docs-internal-guid-723e671c-553a-abe3-bf3a-344b0e48fb10"/>Die identifizierten Topics korrespondieren grob mit den Themenfeldern Kultur, Finanzen, Reisen, Politik und Familie. Solch ein Modell kann beispielsweise verwendet werden um Artikel aus einem bestimmten Themenfeld auszuwählen bevor weitere automatische oder manuelle Analysen erfolgen.
+          </p>
+          <p>Der vorgestellte Webservice arbeitet zur Zeit mit mehreren Dokumenten, die als
+            einzelne Textdatei ohne Metadaten formatiert sein müssen. <anchor
+            xml:id="id_docs-internal-guid-723e671c-5541-1669-61d5-756d30b5c2e6"/>Der
+            Webservice erlaubt es zur Zeit die gewünschte Anzahl von Themen einzustellen, sowie
+            die häufigsten (zum Beispiel Funktionswörter) oder seltensten (zur Vermeidung von
+            statistischen Störeinflüssen) Wörter herauszufiltern. Die Ergebnisse werden als
+            statische HTML Seite, welche für begrenzte Zeit auf dem Server gespeichert wird,
+            dargestellt. Es ist geplant, zukünftig auch die Metadaten der Dokumente (Autor,
+            Veröffentlichungsdatum usw.) zu verwenden, sowie die Visualisierungen weiter zu
+            verbessern. Abschließend möchten wir bemerken, dass die Integration von
+            Topic-Modellierung in die WebLicht-Umgebung eine Anzahl von Möglichkeiten für die
+            Verarbeitung schafft, wie z.B. das Erstellen von Modellen, die Annotationen (z. B.
+            Part-of-Speech Tags oder syntaktische Relationen) der WebLicht Umgebung nutzen. </p>
+            <figure>
+              <graphic url="p059-1000000000000480000003D7B99C79E52CBD2CDC.png"/>
+              <p><hi rend="bold">Abb. 1</hi>: Beispiel Visualisierung mit
+              DFR-browser.</p>
+            </figure>
+          </body>
+          <back>
+            <div type="bibliogr">
+              <listBibl>
+                <head>Bibliographie</head>
+                <bibl><hi rend="bold">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I. </hi>
+                (2003): "Latent dirichlet allocation", in: <hi rend="italic">The Journal of
+                machine Learning research</hi> 3: 993-1022. </bibl>
+                <bibl><hi rend="bold">CLARIN-D / SfS-Uni. Tübingen</hi> (2012): <hi
+                rend="italic">WebLicht</hi>. Web-Based Linguistic Chaining Tool <ref
+                target="https://weblicht.sfs.uni-tuebingen.de"
+                >https://weblicht.sfs.uni-tuebingen.de</ref> [letzter Zugriff 11.
+                Februar 2016].</bibl>
+                <bibl><hi rend="bold">Drouin, Jeff</hi> (2011): "Foray Into Topic Modeling", in:
+                <hi rend="italic">Ecclesiastical Proust Archive</hi>
+                <ref target="http://www.proustarchive.org/?q=node/35"
+                  >http://www.proustarchive.org/?q=node/35</ref> [letzter Zugriff 11.
+                  Februar 2016]. </bibl>
+                  <bibl><hi rend="bold">Goldstone, Andrew</hi> (2013-2015): <hi rend="italic"
+                  >DFR-browser</hi>
+                  <ref target="http://agoldst.github.io/dfr-browser/"
+                    >http://agoldst.github.io/dfr-browser</ref> [letzter Zugriff 11. Februar
+                    2016].</bibl>
+                    <bibl>
+                      <anchor xml:id="id_docs-internal-guid-91cfa335-6694-8982-a57a-295caa5e2f7f"
+                        /><hi rend="bold">Grifﬁths, Thomas / Steyvers, Mark</hi> (2004):
+                        "Finding scientific topics", in:  <hi rend="italic">Proceedings of the
+                        National Academy of Sciences</hi> 101 (Suppl 1): 5228–5235 <ref
+                        target="www.pnas.org/content/101/suppl_1/5228.full.pdf"
+                        >www.pnas.org/content/101/suppl_1/5228.full.pdf</ref> [letzter Zugriff
+                        11. Februar 2016].</bibl>
+                        <bibl>
+                          <anchor xml:id="id_docs-internal-guid-91cfa335-6694-be6f-338b-6790943f5c4c"
+                            /><hi rend="bold">Jockers, Matthew</hi> (2010): "Who's your DH Blog
+                            Mate: Match-Making the Day of DH Bloggers with Topic Modeling", in: Matthew
+                            Jockers: <hi rend="italic">Homepage</hi>
+                            <ref
+                              target="http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling/"
+                              >http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling</ref>
+                              [letzter Zugriff 11. Februar 2016]. </bibl>
+                              <bibl><hi rend="bold">Storrer, Angelika et al.</hi> (2012-2015): <hi
+                              rend="italic">KobRA</hi>. Korpus-basierte Recherche und Analyse mit
+                              Hilfe von Data-Mining <ref target="http://kobra.tu-dortmund.de/mediawiki/">
+                              http://kobra.tu-dortmund.de/mediawiki/</ref> [letzter Zugriff 11.
+                              Februar 2016].</bibl>
+                            </listBibl>
+                          </div>
+                        </back>
+                      </text>
+                    </TEI>

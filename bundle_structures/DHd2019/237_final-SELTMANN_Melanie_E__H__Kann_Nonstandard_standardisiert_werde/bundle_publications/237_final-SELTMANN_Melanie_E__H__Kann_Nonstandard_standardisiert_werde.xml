@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="237_final-SELTMANN_Melanie_E__H__Kann_Nonstandard_standardisiert_werde" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Kann Nonstandard standardisiert werden?</title>
+                    <title type="sub">Ein Annotations-Standardisierungsversuch nicht nur von PoS-Tags am Beispiel des Spezialforschungsbereichs „Deutsch in Österreich“</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Seltmann</surname>
+                        <forename>Melanie E.-H.</forename>
+                    </persName>
+                    <affiliation>Universität Wien, Österreich</affiliation>
+                    <email>melanie.seltmann@univie.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-13T19:24:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Standardisierung</term>
+                    <term>Part-of-Speech-Tagging</term>
+                    <term>Nonstandardvarietäten</term>
+                    <term>Linguistik</term>
+                    <term>Variationslinguistik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Sprache</term>
+                    <term>Forschungsprozess</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Unter einer Annotation von Sprachdaten wird eine Markierung, Kategorisierung und Interpretation derselben verstanden. Sie dienen – auch in anderen Wissenschaftsdisziplinen – in der Regel der wissenschaftlichen Auseinandersetzung und dem Forschungsprozess mit einem Datum und halten ebenso dessen Ergebnis fest (vgl. Breuer/Seltmann 2018: 145). Für die technische Realisierung können dabei sehr unterschiedliche Umsetzungen eingesetzt werden, abhängig sowohl von den Daten, die in einem Projekt untersucht werden, als auch den persönlichen Vorlieben der (entscheidenden) Mitarbeiter. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Der Spezialforschungsbereich „Deutsch in Österreich. Variation – Kontakt – Perzeption“ (SFB DiÖ)</head>
+                <p>Im Vortrag soll anhand des (Aufbaus des) Annotationssystems des Spezialforschungsbereichs „Deutsch in Österreich. Variation – Kontakt – Perzeption“ (FWF F60) (kurz: SFB DiÖ) und dessen Teilprojekts 11 „Kollaborative Online-Forschungsplattform“ die Annotation von Nonstandardvarietäten hinterfragt werden. Der SFB DiÖ beschäftigt sich mit der Vielfalt und dem Wandel der deutschen Sprache in Österreich. Er erforscht den Gebrauch und die subjektive Wahrnehmung von deutscher Sprache in Österreich und untersucht die Einflüsse von Kontaktsprachen auf sie. Der SFB ist an vier wissenschaftlichen Institutionen in Österreich angesiedelt: an den Universitäten Wien, Graz und Salzburg sowie an der Österreichischen Akademie der Wissenschaften. Dabei sind unterschiedliche Forschungsbereiche und -institute beteiligt: von der Germanistik über die Slavistik bis hin zur Translationswissenschaft und der Schallforschung. Die drei thematischen Taskcluster befassen sich mit den inhaltlichen Säulen Variation, Kontakt und Perzeption und werden von zwei Taskclustern für die Organisation und Koordination sowie die Kollaborative Online-Forschungsplattform ergänzt und unterstützt (s. Abb. 1, vgl. Budin et al. 2018).</p>
+                <figure>
+                    <graphic n="1001" width="14.546791666666667cm" height="8.179152777777778cm" url="237_final-4265f39bc8286d145291c32f452c67b9.png" rend="inline"/>
+					<head>
+						<lb/>Abbildung 1. SFB-DiÖ Taskcluster und Teilprojekte
+					</head>
+                </figure>
+                <p>Durch die verschiedenen beteiligten Institute bedarf es schon innerhalb des SFB einer großen Flexibilität und Variabilität im Annotationssystem, da in den verschiedenen Teilprojekten nicht nur unterschiedliche Fragestellungen und linguistische Systemebenen untersucht werden, sondern dies auch aus unterschiedlichen disziplinären Perspektiven und in unterschiedlicher Granularität. Hinzu kommt, dass nicht nur sehr viele, sondern auch sehr heterogene empirische Daten (Methodenpluralismus) erhoben werden, welche einheitlich und methodenübergreifend annotiert werden sollen (vgl. Abb.2). Die Anzahl der dadurch entstehenden Annotationen sowie deren Vokabular ist sehr umfangreich. Da eines der Ziele der Forschungsplattform aber ist, die annotierten Daten einem möglichst breiten Publikum zur Verfügung zu stellen, muss das Annotationssystem auch „nach außen“ (intersubjektiv) nachvollziehbar sein und sich, wo möglich, an bereits bestehende Standards halten (z. B. bereits vorhandene Tagsets). Um diesem multidimensionalen Anspruch gerecht zu werden, wurde und wird ein eigenes Annotationssystem entwickelt, was auf ggf. vorhandene Standards (in seinem Vokabular) zurückgreift. Die Besonderheit liegt dabei in einer Zweiteilung von technischer Speicherung und Repräsentation.</p>
+                <figure>
+                    <graphic n="1002" width="9.805458333333334cm" height="7.265458333333333cm" url="237_final-6d7e9fbdb1bfac1e6f896b1d5b289d54.png" rend="inline"/>
+					<head>
+						<lb/>Abbildung 2. Erhebungssettings des SFB DiÖ
+					</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Das Annotationssystem des SFB DiÖ</head>
+                <p>Ziel der Annotation ist es, ein einheitliches Gesamtbild über alle Systemebenen der gesprochenen Sprache hinweg zu verfolgen. Die Annotation wird dabei phänomenbezogen auf einer Annotationsebene je betrachtetem Phänomen vorgenommen. Neben den Systemebenen wie Phonetik/Phonologie, Morphologie/Lexik und Syntax kommen auch qualitativ-inhaltliche sowie ggf. gesprächsanalytische Annotationen hinzu. Um diesem multidimensionalen Anspruch gerecht zu werden, wurde und wird ein eigenes Annotationssystem entwickelt, was auf ggf. vorhandene Standards (in seinem Vokabular) zurückgreift. Die Besonderheit liegt dabei in einer Zweiteilung von technischer Speicherung und Repräsentation. Die Speicherung funktioniert linear innerhalb einer relationalen Datenbank auf mehreren Tagebenen, die zeitgleich im Mehrbenutzerzugriff bearbeitet werden können. Die Repräsentation wird jedoch hierarchisch geliefert. Dies hat den Vorteil, das Annotierende durch die komplexe Annotation geleitet werden und weniger Obacht auf die richtige Reihenfolge der Tags legen müssen, da sich diese aus der Hierarchie automatisch ergibt. </p>
+                <p>Das vorgestellte Annotationssystem ist insofern hierarchisch, dass es eine child-parent-Struktur für ein spezifisches phänomenbezogenes Tagset fordert. Dies bedeutet, dass einerseits immer Kategorien zu den zu taggenden Features angegeben werden müssen, andererseits ihr Aufbau sinnvoll beschrieben werden muss. Dadurch wird die Kohärenz und Nachvollziehbarkeit des Tagsets erhöht. Auch in der praktischen Anwendung wird hierdurch die Annotation vereinfacht, indem durch die Vorgabe der Struktur selbige ebenso beim Annotationsprozess abgerufen wird: Durch diesen Vorgang wird es erst möglich, dass z.B. eine Tagging-Eingabemaske aus den unzähligen vorhanden Tags jene herausfiltern kann, die für Annotierende in diesem Moment relevant sind. </p>
+                <p>Wenn diese Hierarchie jedoch auch in die Speicherung Eingang finden würde, wären Probleme vorprogrammiert. Die Annotationen werden daher linear gespeichert, um eine größtmögliche datenstrukturelle Flexibilität zu ermöglichen. Dies ist insbesondere dann nötig, wenn das Annotationssystem iterativ zum Forschungsprozess erweiterbar sein soll, wie es im SFB DiÖ der Fall ist.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Vergleich von Annotationssystemen</head>
+                <p>Im Vortrag wird jedoch nicht nur das Annotationssystem des SFB Deutsch in Österreich vorgestellt, sondern auch mit anderen Annotationssystemen verglichen. Hierfür wird insbesondere der Bereich des Part-of-Speech-Taggings herausgegriffen. Unter Part-of-Speech-Tagging oder PoS-Tagging wird die automatische Zuweisung von Wortarten verstanden. Es wird jedem Token automatisch durch einen Tagger eine Wortart zugewiesen (vgl. Lemnitzer/Zinsmeister 2010: 72).</p>
+                <p>Vergleichssysteme sind etwa das Stuttgart-Tübingen-Tagset (STTS, Schiller et al. 1999) oder das European Dialect Syntax (EDiSyn)-Tagset (Barbiers/Wyngaerd o.J.). Trotz der häufigen Verwendung des STTS ist es in verschiedenen Punkten relativ problematisch. Ziel ist einmal nur die Wortartenbestimmung selbst, zudem im Falle des häufig verwendeten großen Tagsets die Repräsentation von Morphologie und Derivation (vgl. Telljohann et al. 2013: 2). Das Tagset ist in Anbetracht verschiedener Klassifizierungskategorien aufgebaut, die Kategorisierung erfolgte nach morphologischen, syntaktischen sowie semantischen Kriterien (vgl. Schiller et al. 1999: 4). Es besteht aus elf Hauptwortarten, welche unterschiedlich tief klassifiziert sind (vgl. Schiller et al. 1999: 5). Diese für einige Forschungsfragen sehr hilfreichen Subklassifizierungen stellen jedoch auch ein Problem dar, da keine Einheitlichkeit im Aufbau des Tagvokabulars gegeben ist und die Auswahl nicht ohne Vorkenntnisse zu diesem Aufbau ersichtlich ist. Durch den uneinheitlichen Aufbau in Bezug auf Analysetiefe sowie der Struktur der Teilelemente im Tag ist das Set einerseits nur für eingeschränkte Zwecke verwendbar und – wenn dieses Problem ausgeglichen werden soll – nur schwierig nachvollziehbar um die dazu nötigen, neuen Teilelemente eines Tags ergänzbar.</p>
+                <p>Dies wird insbesondere beim PoS-Tagging von Nonstandardvarietäten ersichtlich, das eine Herausforderung darstellt, da viele varietätenspezifische Ausprägungen von Wortarten bzw. Features von Wortarten und Besonderheiten dieser nicht abgedeckt werden. Eine klarere Strukturierung und weitaus mehr Möglichkeiten bietet hier das European Dialect Syntax (EdiSyn)-Tagset, welches zumindest in Ansätzen die Wortarten als Kategorien und deren Ausprägungen (grammatische Features) als Features der Kategorien modelliert, d.h. eine Trennung von Tags auf verschiedenen Ebenen durchführt. Die Features selbst werden wiederum nicht benannten Kategorien (grammatischen Kategorien wie Kasus, Genus etc.) zumindest zur Gruppierung zugeordnet. Der große Vorteil daran ist, dass Wortarten und Features unabhängig voneinander erweitert werden können und dass Features potentiell auch mehreren Wortarten zugeschrieben werden können – was nicht nur für den sprachtypologischen Vergleich verschiedener Sprachen sinnvoll erscheint, sondern auch, da innerhalb ein und derselben Sprache dieselben Features für unterschiedliche Wortarten auftreten. Diesen Ansatz erweitert das im SFB genutzten Annotationssystems, setzt jedoch für Kategorien und Features eigene Generationen an und lässt damit eine m:n-Verbindung zu.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Standardisierungsversuch von Annotationen</head>
+                <p>Darauf basierend wird herausgearbeitet, bis zu welchem Grad eine Standardisierung von Annotationssystemen, insbesondere auch sprachen- und varietätenübergreifend arbeitenden Systemen, möglich, handhabbar und sinnvoll ist. Schließlich soll untersucht werden, inwiefern mit Abweichungen von einer Normierung umgegangen werden kann, inwiefern Mehrsprachigkeit (auch im Sinne der „inneren Mehrsprachigkeit“, vgl. Wandruszka (1979)) die Standardisierungsmöglichkeiten beeinträchtigt, bzw. inwiefern Möglichkeiten bestehen, ein Annotationssystem zu modifizieren und zu erweitern, um trotz der großen und nicht trivialen Anforderungen einer Standardisierung standhalten zu können. Hierbei ist vor allem zu hinterfragen, ob eine Standardisierung des Vokabulars möglich und nötig ist oder ob vielmehr die Struktur und Beschreibung der zu standardisierende Aspekt der Annotation ist.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsfragen</head>
+                <p>Ziel des Vortrags ist es, sich den folgenden Forschungsfragen zu widmen:</p>
+                <p>• Welche Anforderungen entstehen an ein Annotationssystem für variationslinguistische Daten und insbesondere Nonstandardvarietäten und wie können diese erfüllt werden? Welche Anforderungen entstehen durch Methoden- und Theorienpluralismus?</p>
+                <p>• Inwiefern ist ein solches Framework standardisierbar bzw. welche Aspekte davon? </p>
+                <p>• Welche Vor- und Nachteile birgt ein standardisiertes Annotationssystem?</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Barbiers, Sjef / Wyngaerd, Guido Vanden (o.J.): </hi>
+                        <hi rend="italic">Tagging protocol</hi>. 
+                        http://www.meertens.knaw.nl/pdf/variatielinguistiek/dialectsyntax/Tagging-protocol.pdf [zuletzt abgerufen 13. Oktober 2018].
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Breuer, Ludwig M. / Seltmann, Melanie E.-H. (2018): </hi>
+                        <hi rend="italic">Sprachdaten(banken) – Aufbereitung und Visualisierung am Beispiel von SyHD und DiÖ</hi> 
+                        in: 
+                        <hi rend="bold">Börner, Ingo / Straub, Wolfgang / Zolles, Christian (eds):</hi> 
+                        <hi rend="italic">Germanistik digital. </hi>
+                        Digital Humanities in der Sprach- und Literaturwissenschaft. Wien: Facultas, 135-152.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Budin, Gerhard / Elspaß, Stephan / Lenz, Alexandra N. / Newerkla, Stefan M. / Ziegler, Arne 2018):</hi> 
+                        <hi rend="italic">Der Spezialforschungsbereich ‚Deutsch in Österreich (DiÖ). Variation – Kontakt – Perzeption‘</hi> 
+                        in: Zeitschrift für germanistische Linguistik 46(2), 300-308. DOI: 10.1515/zgl-2018-0017.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Lemnitzer, Lothar / Zinsmeister, Heike (2010): </hi>
+                        <hi rend="italic">Korpuslinguistik</hi>. 
+                        Tübingen: Gunter Narr Verlag.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine / Thielen, Christine (1999): </hi>
+                        <hi rend="italic">Guidelines für das Tagging deutscher Textcorpora mit STTS</hi> 
+                        (Kleines und großes Tagset) http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf [zuletzt abgerufen 13. Oktober 2018].
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Telljohann, Heike / Versley, Yannick / Beck, Kathrin / Hinrichs, Erhard / Zastrow, Thomas (2013):</hi> 
+                        <hi rend="italic">STTS als Part-of-Speech-Tagset in Tübinger Baumbanken</hi> 
+                        in: 
+                        <hi rend="bold">Zinsmeister, Heike / Heid, Ulrich / Beck, Kathrin (eds.):</hi> 
+                        <hi rend="italic">Das Stuttgart-Tübingen Wortarten-Tagset – Stand und Perspektiven. </hi>
+                        Journal for Language Technology and Computational Linguistics 28, 1/2013. 1-15.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Wandruszka, Mario (1979): </hi>
+                        <hi rend="italic">Die Mehrsprachigkeit des Menschen</hi>. 
+                        München: Piper.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

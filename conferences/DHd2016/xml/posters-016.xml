@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-016">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Biblissima - Semantic Web Application für Handschriften, Inkunabeln und historische Sammlungen - Zwischenbericht</title>
+        <author>
+          <name>
+            <surname>Gehrke</surname>
+            <forename>Stefanie</forename>
+          </name>
+          <affiliation>Campus Condorcet, Frankreich</affiliation>
+          <email>stefanie.gehrke9@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Charbonnier</surname>
+            <forename>Pauline</forename>
+          </name>
+          <affiliation>Campus Condorcet, Frankreich</affiliation>
+          <email>pauline.charbonnier@biblissima-condorcet.fr</email>
+        </author>
+        <author>
+          <name>
+            <surname>Eduard</surname>
+            <forename>Frunzeanu</forename>
+          </name>
+          <affiliation>Campus Condorcet, Frankreich</affiliation>
+          <email>eduard.frunzeanu@biblissima-condorcet.fr</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Semantic Web</term>
+          <term>Inventar</term>
+          <term>Handschrift</term>
+          <term>Inkunabel</term>
+          <term>Provenance</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Modellierung</term>
+          <term>Bereinigung</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Manuskript</term>
+          <term>Metadaten</term>
+          <term>Personen</term>
+          <term>Standards</term>
+          <term>texttragende Gegenstände</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Portale zu mittelalterlichen Handschriften sind bereits oft auf nationaler Ebene zu
+        finden. So bieten beispielsweise "<ref
+        target="http://www.manuscripta-mediaevalia.de/">Manuscripta Mediaevalia</ref>"
+        für Deutschland, "<ref target="http://manuscripta.at/">
+        http://manuscripta.at/
+      </ref>" bezogen auf Österreich und "<ref target="http://www.e-codices.unifr.ch/">e-codices</ref> - Virtual Manuscript Library of
+      Switzerland" in der Schweiz einen Einstieg in die
+      jeweiligen Bestände. </p>
+      <p>Das französische DH-Projekt <ref target="http://biblissima-condorcet.fr/"><hi
+        rend="italic">Biblissima</hi></ref> (Bibliotheca Bibliothecarum Novissima)
+        zielt unter anderem darauf, Ende 2016 der breiten Öffentlichkeit einen
+        übergreifenden Einstieg in über 40 Datenbanken zu Handschriften des Mittelalters und
+        der Renaissance, Inkunabeln und historischen Sammlungen zu bieten. <hi rend="italic"
+        >Biblissima</hi> wurde von neun Partnerinstitutionen ins Leben gerufen, darunter
+        der <hi rend="italic">Campus Condorcet</hi> im Norden von Paris, das <hi
+        rend="italic">IRHT</hi> (Institut de recherche et d’histoire des textes), die
+        <hi rend="italic">BnF</hi> (Bibliothèque nationale de France), die <hi
+        rend="italic">EPHE</hi> (Ecole pratique des hautes études) und das <hi
+        rend="italic">CESR</hi> (Centre d'Etudes Supérieures de la Renaissance).
+        Projektstart war der Beginn des Jahres 2013. </p>
+        <p>Finanziert wird unser Projekt von der Forschungsförderung <hi rend="italic">ANR</hi>
+        (Agence Nationale de la Recherche) und es befasst mit der Geschichte historischer
+        Sammlungen sowie der Geschichte der Überlieferung von Texten. In gewisser Weise
+        sieht es sich sogar in der Tradition von <ref
+        target="http://data.bnf.fr/10663423/antonius_sanderus/"><hi rend="italic">Antoon
+        Sanders</hi></ref> und <ref
+        target="http://data.bnf.fr/12071684/bernard_de_montfaucon/"><hi rend="italic"
+        >Bernard de Montfaucon</hi></ref>, die mit der <hi rend="italic">Bibliotheca
+        Belgica Manuscripta</hi> (1641-44) beziehungsweise der <hi rend="italic"
+        >Bibliotheca bibliothecarum manuscriptorum nova</hi> (1739) bedeutende
+        bibliotheksübergreifende Inventare veröffentlichten. </p>
+        <p>Unsere technische Lösung hin zu einer Realisierung einer “Online-Bibliothek des 21.
+          Jahrhunderts zu den heutigen und historischen Sammlungen Frankreichs” ist die
+          Entwicklung  einer Semantic Web Application. So haben wir bereits im Sommer 2015
+          einen Prototypen (<ref target="http://demos.biblissima-condorcet.fr/prototype"
+          >http://demos.biblissima-condorcet.fr/prototype</ref>) veröffentlicht, der einen
+          vereinigten Zugang zu zwei bedeutenden ikonographischen Datenbanken ermöglicht: <ref
+          target="http://initiale.irht.cnrs.fr/accueil/index.php"><hi rend="italic"
+          >Initiale</hi></ref> und <ref target="http://mandragore.bnf.fr"><hi
+          rend="italic">Mandragore</hi></ref>. Ein Export der Metadaten zu all jenen
+          Illuminationen, die Geografika als Schlagwort tragen, war unser Ausgangspunkt.
+          Personen (Autoren, Übersetzer und / oder Illuminatoren), Körperschaften
+          (zeitgenössische Bibliotheken), Werktitel und Ortsnamen haben wir mit Normdateien
+          der <hi rend="italic">BnF</hi> verknüpft sowie, wenn möglich, mit externen
+          Vokabularen verlinkt (<hi rend="italic">GeoNames</hi>, <hi rend="italic">VIAF</hi>).
+          Der Prototyp bot zum Zeitpunkt der Veröffentlichung Zugang zu ca. 20.000
+          Illuminationen in 2000 Handschriften, die heute in 70 verschiedenen Bibliotheken
+          aufbewahrt werden. Über 5000 Geografika wurden mit Hilfe von Normdaten der <hi
+          rend="italic">BnF</hi> und/oder <hi rend="italic">GeoNames</hi> eindeutig
+          identifiziert. 115 Werktitel und ein Großteil der 359 Personennamen konnten mit
+          Normdaten der <hi rend="italic">BnF</hi> verbunden werden. </p>
+          <p>Dank dieser Verknüpfungen werden nun dynamische Webseiten generiert, die jeweils eine Person, eine Handschrift, einen Handschriftenteil etc. beschreiben und Links zu den entsprechenden Einträgen in den ursprünglichen Datenbanken bereitstellen. Auch können wir nun – für unseren Datenbestand - beispielsweise über zwei verschiedene Karten bezogen auf die Geografika  darstellen, in welchen Handschriften und durch welche Illuminationen diese dargestellt sind oder aber welche (Anzahl von) Illuminationen am jeweiligen Ort aufbewahrt werden.</p>
+          <p>Derzeit arbeiten wir an einer breitflächigen Erweiterung dieses Prototypen, der auf
+            dem Semantic Web Application Framework <ref target="https://www.cubicweb.org/"><hi
+            rend="italic">CubicWeb</hi></ref> basiert. Neben Handschriften binden wir
+            Inkunabeln ein und legen einen Fokus auf die Provenienz, indem wir Daten aus den
+            vier Datenbanken <ref target="http://elec.enc.sorbonne.fr/cataloguevente/intro.php"
+            ><hi rend="italic">Esprit des Livres</hi></ref> (Ecole nationale des
+            Chartes, Datenbank zu Verkaufskatalogen), <ref target="http://bibale.irht.cnrs.fr/"
+            ><hi rend="italic">Bibale</hi></ref> (IRHT, Datenbank zu historischen
+            Büchersammlungen), <ref target="http://www.europeanaregia.eu/de"><hi rend="italic"
+            >Europeana Regia</hi></ref> (BnF in Kooperation mit u. a. der Bayerischen
+            Staatsbibliothek und der Herzog August Bibliothek, Datenbank zu drei bedeutenden
+            historischen Sammlungen des Mittelalters und der Renaissance) und <hi rend="italic"
+            >CRII</hi> (CNRS, Catalogues Régionaux des Incunables Informatisés)
+            beziehungsweise <hi rend="italic">CRIICO</hi> (CNRS, Catalogues Régionaux des
+            Incunables Informatisés Centre-Ouest) integrieren. </p>
+            <p>Hinter dieser Applikation liegt ein Datenmodell, dass auf <ref
+              target="http://www.cidoc-crm.org">CIDOC-CRM</ref> und <ref
+              target="http://www.cidoc-crm.org/frbr_drafts.html">FRBRoo</ref> basiert. Erste
+              Bereitstellungen unserer Daten in RDF liegen bereits als Test vor. Wir hoffen, in
+              Zukunft nicht nur Werks-, Manifestations- und Exemplarsebene (unter Verwendung der
+              Klassen <hi rend="italic">F4 Manifestation Singleton</hi> für Handschriften sowie
+              <hi rend="italic">F3 Manifestation Product Type </hi>und <hi rend="italic">F5
+              Item</hi> für Inkunabeln) zu behandeln, sondern die Texte der Handschriften und
+              frühen Drucke auch einer Textvariante (Klasse <hi rend="italic">F2 Expression</hi>)
+              zuordnen zu können, wie beispielsweise von <ref target="http://www.perseus.tufts.edu"><hi rend="italic">Perseus</hi></ref> durch die Bereitstellung von URIs pro Text und Sprache begonnen. </p>
+              <p>Ein eingebundener Viewer zeigt zudem das Digitalisat des Exemplars beziehungsweise
+                des entsprechenden Folios. Als Viewer wird derzeit <ref
+                target="https://iiif.github.io/mirador">Mirador </ref> favorisiert. Die
+                Informationen zur Darstellung beruhen auf dem <ref target="http://iiif.io"
+                >IIIF</ref> (International Image Interoperability Framework). Diese werden in
+                JSON-LD Manifesten, erzeugt aus den Metadaten- und Imagesfiles der
+                Partnerinstitution, an den Viewer übergeben. Der Viewer selbst arbeitet im Client
+                und beherrscht unter anderem Zoomfunktionen der eingebundenen Bilder, Anzeige von
+                Metadaten oder auch Überlagerung verschiedener Ebenen, wie zum Beispiel Bild und
+                transkribierter Text. </p>
+                <p>
+                  <lb/>Im Rahmen unseres Posters möchten wir die Vorgehensweise und technische Umsetzung ausgehend vom neuesten Stand des Portals Biblissima veranschaulichen.
+                </p>
+              </body>
+            </text>
+          </TEI>

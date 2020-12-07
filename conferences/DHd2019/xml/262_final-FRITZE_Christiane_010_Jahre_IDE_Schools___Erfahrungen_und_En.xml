@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="262_final-FRITZE_Christiane_010_Jahre_IDE_Schools___Erfahrungen_und_En" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>010 Jahre IDE-Schools – Erfahrungen und Entwicklungen in der außeruniversitären DH-Ausbildung</title>
+                <author>
+                    <persName>
+                        <surname>Fritze</surname>
+                        <forename>Christiane</forename>
+                    </persName>
+                    <affiliation>Institut für Dokumentologie und Editorik (IDE); Österreichische Nationalbibliothek</affiliation>
+                    <email>christiane.fritze@onb.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Franz</forename>
+                    </persName>
+                    <affiliation>Institut für Dokumentologie und Editorik (IDE); Universität zu Köln</affiliation>
+                    <email>franz.fischer@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vogeler</surname>
+                        <forename>Georg</forename>
+                    </persName>
+                    <affiliation>Institut für Dokumentologie und Editorik (IDE); Karl-Franzens-Universität Graz</affiliation>
+                    <email>georg.vogeler@uni-graz.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schnöpf</surname>
+                        <forename>Markus</forename>
+                    </persName>
+                    <affiliation>Institut für Dokumentologie und Editorik (IDE); Berlin-Brandenburgische Akademie der Wissenschaften</affiliation>
+                    <email>schnoepf@i-d-e.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Scholger</surname>
+                        <forename>Martina</forename>
+                    </persName>
+                    <affiliation>Institut für Dokumentologie und Editorik (IDE); Karl-Franzens-Universität Graz</affiliation>
+                    <email>martina.scholger@uni-graz.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sahle</surname>
+                        <forename>Patrick</forename>
+                    </persName>
+                    <affiliation>Institut für Dokumentologie und Editorik (IDE); Universität zu Köln</affiliation>
+                    <email>sahle@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T19:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Schools</term>
+                    <term>Digitale Editionen</term>
+                    <term>außeruniversitäre Lehre</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Einführung</term>
+                    <term>Lehre</term>
+                    <term>Methoden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-size:11pt">Die Digital Humanities haben sich im Verlauf der letzten zehn Jahre aus einem randständigen Thema an den deutschen Universitäten zu einem etablierten Ausbildungsbereich verwandelt. Die seit Jahren anhaltende Diskussion um konvergente Curricula zeugt von dieser Entwicklung (Sahle 2013). Digitale Editionen waren vor zehn Jahren im deutschsprachigen Raum selten anzutreffen. In ihren Ausprägungsformen waren sie noch sehr unterschiedlich und trugen den Charakter vereinzelter Leuchtturmprojekte, die die Grenzen neuer Verfahren in den Geisteswissenschaften ausloteten. Mittlerweile ist die “digitale Editorik” ein eigener Forschungsbereich. Während Fachkenntnisse in diesem Bereich vor zehn Jahren nur in außeruniversitären Sonderveranstaltungen wie Summer Schools und Workshops erworben werden konnten, gibt es heutzutage an einigen deutschsprachigen Universitäten regelmäßige Lehrveranstaltungen zum Thema, die im Kontext der bisher entstandenen Lehrstühle</hi><hi rend="superscript">1</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> der Digital Humanities verortet sind.</hi>
+            </p>
+            <p>
+                <hi style="font-size:11pt">Obwohl sich die universitäre Ausbildung in den letzten Jahren merklich und kontinuierlich verbessert hat, ist dennoch der Bedarf nach den Schools des Instituts für Dokumentologie und Editorik (IDE) ungebrochen; dies ist ein deutliches Zeichen, dass die Digital Humanities weiterhin stärker an den Universitäten verankert werden müssen. Daneben bieten die IDE-Schools ein gutes Angebot für InteressentInnen sowohl des außeruniversitären, als auch des postdoktoralen Sektors.</hi>
+            </p>
+            <p>
+                <hi style="font-size:11pt">Deshalb bleiben komprimierte Angebote jenseits von Studiengängen wie die Veranstaltungsreihe ESU Leipzig</hi><hi rend="superscript">2</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> oder eine Vielzahl vereinzelter Workshops oder Summer Schools</hi><hi rend="superscript">3</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> die einzige Möglichkeit, sich grundlegende Kompetenzen für die von individuellen Forschungsfragen angetriebene Arbeit in den Digital Humanities anzueignen. Daneben wurden auch verschiedene Online-Angebote für E-Learning entwickelt. Für den Bereich der digitalen Editorik seien hier beispielsweise Kurse bei #dariahTeach, Schulungsmaterialien von DiXiT und DARIAH-DE oder Dokumentationen auf Webseiten oder GitHub genannt.</hi><hi rend="superscript">4</hi>
+            </p>
+            <p>
+                <hi style="font-size:11pt">Das IDE bietet seit 2008 regelmäßig einwöchige Schools an, die sich auf Themen rund um digitale Editionen konzentrieren. Bis 2018 wurden insgesamt 13 Schools in Wien (4), Köln (2), Chemnitz (2), Graz (2), Berlin (1), Weimar (1) und Rostock (1) mit insgesamt fast 300 TeilnehmerInnen durchgeführt.</hi><hi rend="superscript">5</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> Sie vermitteln wesentliche Kenntnisse für AnfängerInnen und Fortgeschrittene auf dem Gebiet der XML-basierten digitalen Editorik. In der Regel organisieren dabei lokale InteressentInnen die finanziellen und örtlichen Rahmenbedingungen und können grobe inhaltliche Vorgaben machen. Das IDE übernimmt die inhaltliche Ausgestaltung und die Auswahl des Lehrpersonals. Dabei wird in die Planung neuer Schools immer die Auswertung von Evaluationsbögen der vorangegangenen Schools einbezogen.</hi>
+            </p>
+            <p>Das IDE legt Wert darauf, dass die TeilnehmerInnen an ihren eigenen Editionsprojekten arbeiten, um die Motivation, die eigene Arbeit konsequent auf den neuen Methoden aufzubauen, zu erhöhen. Es hält jedoch auch eigene Übungsmaterialien bereit, um den Einstieg durch gemeinsames Erarbeiten der jeweils neuen Lernstoffe sowohl an der “Tafel” und zeitgleich am eigenen Arbeitsgerät zu erleichtern.</p>
+            <p>
+                <hi style="font-size:11pt">Der erfolgreiche Besuch einer School wird stets durch ein Zertifikat bescheinigt, das in manchen Fällen als “credit points” in Studiengängen angerechnet werden konnte. Besonderes Augenmerk wird auf eine gute personelle Betreuung der TeilnehmerInnen durch zusätzliche TutorInnen und einen hohen Praxisanteil für Übungen gelegt. Die Kurse behandeln Basistechnologien wie XML, XSL, XQuery, Python, kontrollierte Vokabularien und Normdaten, editionsrelevante Kapitel der TEI, Metadaten, Text Mining, sowie allgemeine Webtechnologien wie HTML und JavaScript oder neuere Ansätze wie Graphentechnologien. Die konsequente Online-Bereitstellung von Vortragsfolien und Übungsaufgaben auf der Website des IDE ermöglicht auch nachträglich, sich Inhalte der Schools anzueignen und fügt das Angebot in die wachsende Zahl von online verfügbaren Tutorials ein (s.o.). Im Zuge der Schools wurden essentielle Technologien in Flyerform</hi><hi rend="superscript">6</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> kurz zusammenzufassen. Das auf den Schools vermittelte Wissen lässt sich so einerseits direkt nachnutzen, andererseits können diese Angebote auch zeitlich versetzt in andere Schools eingebunden werden.</hi>
+            </p>
+            <p>
+                <hi style="font-size:11pt">Das Poster wird die mit den Schools gewonnenen Erfahrungen der letzten Jahre zusammenfassen. Es vergleicht die IDE-Schools mit thematisch benachbarten Veranstaltungen,</hi><hi rend="superscript">7</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> analysiert Trends und Konstanten der curricularen Struktur, erhebt statistische Angaben über die BesucherInnen, präsentiert die Sicht der TeilnehmerInnen durch die Auswertung einer umfassenden Befragung und verortet das Angebot im Gesamtfeld der digitalen Editorik bzw. der Digital Humanities im Allgemeinen. Es leistet damit einen Beitrag für die Untersuchung der Vermittlungsformen und Lehrinhalte in der Ausbildungslandschaft der Digital Humanities außerhalb ordentlicher Studiengänge und die Auswirkungen dieser Ausbildungsformen auf Forschung und Karriere.</hi>
+            </p>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> <ref target="https://dhd-blog.org/?p=6174">https://dhd-blog.org/?p=6174</ref></note>
+				<note place="foot" xml:id="ftn2" n="2"> <ref target="http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97">http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97</ref></note>
+				<note place="foot" xml:id="ftn3" n="3"> Siehe z.B. Digital Humanities at Oxford Summer School (<ref target="https://digital.humanities.ox.ac.uk/dhoxss/">https://digital.humanities.ox.ac.uk/dhoxss/</ref>), Digital Humanities Summer Institute der University of Victoria (<ref target="http://www.dhsi.org/courses.php">http://www.dhsi.org/courses.php</ref>).</note>
+				<note place="foot" xml:id="ftn4" n="4"> Siehe <ref target="https://teach.dariah.eu/">https://teach.dariah.eu/</ref>; zu den Schulungsmaterialien im Rahmen des Marie Sklodowska Curie Doktorandenprogramms DiXiT: <ref target="http://dixit.uni-koeln.de/programme/materials/">http://dixit.uni-koeln.de/programme/materials/</ref>; zu den Lehrmaterialien von DARIAH-DE siehe exemplarisch “Digitale Textedition mit TEI” von Christof Schöch: <ref target="https://de.dariah.eu/tei-tutorial">https://de.dariah.eu/tei-tutorial</ref>; eine Workshop-Dokumentation unter <ref target="https://www.lib.ncsu.edu/workshops/introduction-to-xml-and-digital-scholarly-editing-using-the-text-encoding-initiative-tei-1">https://www.lib.ncsu.edu/workshops/introduction-to-xml-and-digital-scholarly-editing-using-the-text-encoding-initiative-tei-1</ref>, ein Github-Repository unter <ref target="https://github.com/slstandish/lrbs-scholarly-editing">https://github.com/slstandish/lrbs-scholarly-editing</ref>.</note>
+				<note place="foot" xml:id="ftn5" n="5"> Zur Dokumentation der Schools siehe <ref target="https://www.i-d-e.de/aktivitaeten/schools/">https://www.i-d-e.de/aktivitaeten/schools/</ref>.</note>
+				<note place="foot" xml:id="ftn6" n="6"> <ref target="https://www.i-d-e.de/publikationen/weitereschriften/xml-kurzreferenzen/">https://www.i-d-e.de/publikationen/weitereschriften/xml-kurzreferenzen/</ref>.</note>
+				<note place="foot" xml:id="ftn7" n="7"> Zu digitalen Editionen siehe z.B. die Reihe „Edirom“ in Paderborn 2013-2018 (<ref target="https://ess.uni-paderborn.de/">https://ess.uni-paderborn.de/</ref>) oder als Einzelveranstaltungen Madrid "Edición digital académica" 2015 (<ref target="https://extension.uned.es/actividad/idactividad/9408">https://extension.uned.es/actividad/idactividad/9408</ref>) und 2016 (<ref target="https://formacionpermanente.uned.es/tp_actividad/idactividad/8680">https://formacionpermanente.uned.es/tp_actividad/idactividad/8680</ref>, München “Digital Humanities” 2017 (<ref target="https://dhmuc.hypotheses.org/summerschool-2017">https://dhmuc.hypotheses.org/summerschool-2017</ref>), Prag 2017 (<ref target="https://praguebeast.hypotheses.org/program">https://praguebeast.hypotheses.org/program</ref>) und Grenoble 2018 (<ref target="https://edeen.sciencesconf.org/">https://edeen.sciencesconf.org/</ref>).</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                    Digital Humanities als Beruf. Fortschritte auf dem Weg zu einem Curriculum. Akten der DHd-Arbeitsgruppe 
+                        <hi rend="italic">
+                            <hi rend="italic">"</hi>
+                        </hi>Referenzcurriculum Digital Humanities
+                        <hi rend="italic">
+                            <hi rend="italic">"</hi>
+                        </hi>. Graz 2015.
+                    </bibl>
+                    <bibl style="text-align:left; ">Digital Humanities Course Registry. Dariah/Clarin 2014-2018. 
+                        <ref target="https://registries.clarin-dariah.eu/courses/">https://registries.clarin-dariah.eu/courses/</ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Fritze, Christiane / Rehbein, Malte (2012):</hi> 
+                        <hi rend="italic">Hands-On Teaching Digital Humanities: A Didactic Analysis of a Summer School Course on Digital Editing</hi>, 
+                        in: 
+                        <hi rend="bold">Hirsch, Brett D. (ed.): </hi>
+                        <hi rend="italic">Digital Humanities Pedagogy: Practices, Principles and Politics [Online]</hi>. 
+                        Cambridge: Open Book Publishers. 
+                        <ref target="http://books.openedition.org/obp/1617">
+                            <hi rend="underline color(1155CC)">http://books.openedition.org/obp/1617</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Henny, Ulrike (2012): </hi> 
+                        <hi rend="italic">Digitale Editionen – Methoden und Technologien für Fortgeschrittene</hi> 
+                        [Tagungsbericht zur IDE-School, Chemnitz 2012], in: 
+                        H-Soz-Kult, 11.12.2012, 
+                        <ref target="http://www.hsozkult.de/conferencereport/id/tagungsberichte-4540%3e">www.hsozkult.de/conferencereport/id/tagungsberichte-4540</ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Locke, Brandon T. (2017): </hi>
+                        <hi rend="italic">Digital Humanities Pedagogy as Essential Liberal Education: A Framework for Curriculum Development</hi>, 
+                        in: DHQ 11.3 (2017). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/11/3/000303/000303.html">
+                            <hi rend="underline color(1155CC)">http://www.digitalhumanities.org/dhq/vol/11/3/000303/000303.html</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Neuber, Frederike (2015): </hi>
+                        <hi rend="italic">Spring in Graz – Sunshine and X-technologies</hi> 
+                        [Bericht zur IDE-School Graz 2015], in: DiXiT Blog 26.4.2015. 
+                        <ref target="https://dixit.hypotheses.org/633">https://dixit.hypotheses.org/633</ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Sahle, Patrick (2008):</hi> 
+                        <hi rend="italic">Digitale Editionen – Methodische und technische Grundfertigkeiten</hi> 
+                        [Tagungsbericht zur IDE-School, Köln 2008], in: H-Soz-Kult, 21.11.2008, 
+                        <ref target="http://www.hsozkult.de/conferencereport/id/tagungsberichte-2353%3e">www.hsozkult.de/conferencereport/id/tagungsberichte-2353</ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Sahle, Patrick (2013): </hi>
+                        <hi rend="italic">DH studieren! Auf dem Weg zu einem Kern- und Referenzcurriculum der Digital Humanities</hi>. 
+                        (= DARIAH-DE Working Papers Nr. 1). Göttingen: GOEDOC. 
+                        <ref target="http://nbn-resolving.de/urn.nbn.de.gbv:7-dariah-2013-1-5">http://nbn-resolving.de/urn.nbn.de.gbv:7-dariah-2013-1-5</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

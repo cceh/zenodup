@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="281_final-DUAN_Tinghui__Romantik__im_aktuellen_parteipolitischen_Disku" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>„Romantik“ im aktuellen parteipolitischen Diskurs auf Twitter</title>
+<author>
+<persName>
+<surname>Duan</surname>
+<forename>Tinghui</forename>
+</persName>
+<affiliation>DFG Graduierten Kolleg "Modell Romantik"; Jena University Language &amp; Information Engineering Lab (JULIE Lab)</affiliation>
+<email>tinghui.duan@uni-jena.de</email>
+</author>
+<author>
+<persName>
+<surname>Buechel</surname>
+<forename>Sven</forename>
+</persName>
+<affiliation>Jena University Language &amp; Information Engineering Lab (JULIE Lab)</affiliation>
+<email>sven.buechel@uni-jena.de</email>
+</author>
+<author>
+<persName>
+<surname>Hahn</surname>
+<forename>Udo</forename>
+</persName>
+<affiliation>Jena University Language &amp; Information Engineering Lab (JULIE Lab)</affiliation>
+<email>udo.hahn@uni-jena.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-19T20:07:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Romantik</term>
+<term>Politischer Diskurs</term>
+<term>Rechtspopulismus</term>
+<term>Emotionsanalyse</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Kontextsetzung</term>
+<term>Bewertung</term>
+<term>Sprache</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Die vorliegende Arbeit versucht, im Rahmen einer empirisch fundierten Diskursanalyse von Texten sozialer Medien eine Brücke zwischen qualitativ-hermeneutischer Kulturwissenschaft (hier: Literatur- und Politikwissenschaft) und quantitativ-komputationeller digitaler Geisteswissenschaft zu bauen und beide Methodenlinien synergetisch miteinander zu verschränken. In diesem erweiterten Abstract beschreiben wir einen neuen Datensatz von Twitter-Beiträgen deutscher Parlamentarier des 19. Deutschen Bundestags als Datengrundlage der Diskursanalyse und erste Teilergebnisse, die aus der Analyse dieses Datensatzes resultieren. Ein Fixpunkt dieses Vorgehens ist das historisch markierte Epochenkonstrukt der Romantik in seiner literarischen und sozialen Ausformung (Lebensform, Wertekanon usw.) und seine (Wieder-)Aufnahme bzw. Adaption im aktuellen parteipolitischen Diskurs in Deutschland. </p>
+<p>Ausgangspunkt unserer Arbeiten waren Beobachtungen, die einen Bezug zwischen rechtspopulistischen Parteien und Symbolen der deutschen Romantik nahelegten. Während der AfD-Politiker Björn Höcke von seinem Parteikollegen beispielsweise als „romantischer Nationalist“ bezeichnet wurde, trug sein Parteigenosse Andreas Wild bei einem Auftritt im Bundestag eine blaue Kornblume an seinem Revers. Diese Blume, ein zentrales Symbol der Romantik, wurde in den 1930er Jahren sogar zu einem Erkennungszeichen der illegalen Nationalsozialisten in Österreich. Die semantische Doppelbesetzung der blauen Kornblume eröffnet folglich rechtspopulistischen Politikern einen diskursiven Spielraum, sich einerseits implizit an den Nationalsozialismus anzulehnen, andererseits diese Identifikation in der Öffentlichkeit nicht eindeutig zum Ausdruck bringen zu müssen. </p>
+<p>Um diese Einzelbeobachtungen systematischer einordnen und die Hypothese von der auffälligen Verwendung von Konzepten der Romantik-Epoche im Diskursverhalten einer rechtspopulistischen Partei einer strengeren Prüfung unterziehen zu können, entwickelten wir ein Korpus von Twitter-Beiträgen aller Abgeordneten des (aktuellen) 19. Bundestags (es kann damit als Ergänzung der Redenkorpora des Bundestags von Barbaresi (2018) bzw. Blätte &amp; Blessing (2018) betrachtet werden, die aber auch frühere Legislaturperioden umfassen). Dieses Korpus sollte Grundlage für eine computerlinguistische Diskursanalyse zur Prüfung der Hypothese sein (einen ähnlichen Studienansatz zur Überprüfung sprachlich markierter Stereotypen zwischen politischen Parteien beschreiben Sylwester &amp; Purver (2015)).</p>
+<p>
+<hi rend="underline">Korpus</hi>: Für unsere Untersuchung haben wir
+DeBAC (<space quantity="0" unit="chars"/><hi rend="italic">De</hi>utscher <hi rend="italic">B</hi>undestags<space quantity="0" unit="chars"/><hi rend="italic">A</hi>bgeordnete-<space quantity="0" unit="chars"/><hi rend="italic">C</hi>orpus), das nach unserem Kenntnisstand erste Twitter-Korpus deutscher Bundestags-abgeordneter für die laufende 19. Legislaturperiode, aufgebaut. Es umfasst zum Zeitpunkt der Abfassung dieses Abstracts (Januar 2020) 887.008 Tweets von 478 Parlamentariern über einen Zeitraum vom 21.11.2008 bis 2.1.2020; dieses Korpus wird fortlaufend aktualisiert. Es umfasst 
+                <hi rend="italic">alle</hi> im Bundestag vertretenen Parteien sowie parteilose Abgeordnete.
+            </p>
+<p>Da dieser Datensatz natürlich nicht nur für Fragestellungen im Romantik-Kontext, sondern für die deutschsprachige politische Diskursanalyse generell wertvoll sein kann, stellen wir es der Fachöffentlichkeit zur Verfügung (
+                <ref target="https://github.com/JULIELab/DeBAC">https://github.com/JULIELab/DeBAC</ref>). Aus rechtlichen Gründen distribuieren wir dabei nur die Tweet-IDs und dazugehörigen Meta-Daten (u.a. Autor, Erstellungszeitpunkt und Parteizugehörigkeit), während die Rohtexte über ein ebenfalls mitgeliefertes Skript heruntergeladen werden können. 
+            </p>
+<p>
+<hi rend="underline">Analytik</hi>: Im ersten Anlauf suchten wir nach
+Stichwörtern, die Romantik-Konzepte indizieren. Hierzu wurde eine
+explorative Umfrage unter mehreren Literaturwissenschaftlern (allesamt
+Mitglieder des Graduiertenkollegs „Modell Romantik“ an der
+Friedrich-Schiller-Universität Jena)<ref n="1" target="ftn1"/>
+durchgeführt, um gebräuchliche lexikalische Signale für diese Epoche
+zu bestimmen. Dabei stellte sich heraus, dass nicht nur direkte
+Lexikalisierungen wie
+„<space quantity="0" unit="chars"/><hi rend="italic">Romantik</hi>“,
+„<space quantity="0" unit="chars"/><hi rend="italic">Romantiker</hi>“,
+„<space quantity="0" unit="chars"/><hi rend="italic">romantisch</hi>“
+romantikrelevant sind, sondern auch solche wie
+„<space quantity="0" unit="chars"/><hi rend="italic">Gemeinschaft</hi>“,
+„<space quantity="0" unit="chars"/><hi rend="italic">Wesen</hi>“,
+„<space quantity="0" unit="chars"/><hi rend="italic">Glauben</hi>“,
+„<space quantity="0" unit="chars"/><hi rend="italic">Heimat</hi>“ (man denke an Friedrich Schlegels <hi rend="italic">Über den Republikanismus</hi>, Novalis' 
+                <hi rend="italic">Glauben und Liebe</hi> usw.). Das Suchergebnis wurde sowohl quantitativ analysiert als auch qualitativ interpretiert. Die folgende Tabelle zeigt die Häufigkeiten von Tweets mit diesen Stichwörtern und ihre Zuordnung zu Parteien:
+            </p>
+<table rend="rules">
+<head>Tabelle 1: Häufigkeit der Stichwörter mit Romantikbezug, gruppiert nach Parteien im Bundestag. Tweets der insgesamt vier fraktionslosen Abgeordneten (mit sehr niedrigen Belegzahlen) sind zur Übersichtlichkeit nicht aufgeführt</head>
+<row>
+<cell rend="left">Suchwort (Regulärer Ausdruck)</cell>
+<cell rend="center">
+<hi style="font-size:10pt">CDU/CSU</hi>
+</cell>
+<cell rend="center">SPD</cell>
+<cell rend="center">AfD</cell>
+<cell rend="center">FDP</cell>
+<cell rend="center">LINKE</cell>
+<cell rend="center">GRÜNE</cell>
+<cell rend="center">S</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Rr]omantik/</hi>
+</cell>
+<cell rend="right">
+<hi style="font-size:10pt">29</hi>
+</cell>
+<cell rend="right">14</cell>
+<cell rend="right">7</cell>
+<cell rend="right">11</cell>
+<cell rend="right">20</cell>
+<cell rend="right">15</cell>
+<cell rend="right">96</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Rr]omantisch/</hi>
+</cell>
+<cell rend="right">9</cell>
+<cell rend="right">10</cell>
+<cell rend="right">7</cell>
+<cell rend="right">13</cell>
+<cell rend="right">2</cell>
+<cell rend="right">3</cell>
+<cell rend="right">44</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Rr]omantisier/</hi>
+</cell>
+<cell rend="right">1</cell>
+<cell rend="right">2</cell>
+<cell rend="right">2</cell>
+<cell rend="right">5</cell>
+<cell rend="right">0</cell>
+<cell rend="right">4</cell>
+<cell rend="right">14</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Gg]lauben/</hi>
+</cell>
+<cell rend="right">
+<hi style="font-size:10pt">375</hi>
+</cell>
+<cell rend="right">298</cell>
+<cell rend="right">350</cell>
+<cell rend="right">252</cell>
+<cell rend="right">198</cell>
+<cell rend="right">277</cell>
+<cell rend="right">1750</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Gg]emeinschaft/</hi>
+</cell>
+<cell rend="right">424</cell>
+<cell rend="right">399</cell>
+<cell rend="right">104</cell>
+<cell rend="right">234</cell>
+<cell rend="right">
+<hi style="font-size:10pt">260</hi>
+</cell>
+<cell rend="right">343</cell>
+<cell rend="right">1764</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Ww]esen/</hi>
+</cell>
+<cell rend="right">925</cell>
+<cell rend="right">844</cell>
+<cell rend="right">504</cell>
+<cell rend="right">700</cell>
+<cell rend="right">688</cell>
+<cell rend="right">835</cell>
+<cell rend="right">4496</cell>
+</row>
+<row>
+<cell rend="left">
+<hi style="font-size:10pt">/[Hh]eimat/</hi>
+</cell>
+<cell rend="right">
+<hi style="font-size:10pt">1504</hi>
+</cell>
+<cell rend="right">941</cell>
+<cell rend="right">562</cell>
+<cell rend="right">312</cell>
+<cell rend="right">314</cell>
+<cell rend="right">639</cell>
+<cell rend="right">4272</cell>
+</row>
+<row>
+<cell rend="left">Insgesamt</cell>
+<cell rend="right">3267</cell>
+<cell rend="right">2508</cell>
+<cell rend="right">1536</cell>
+<cell rend="right">1527</cell>
+<cell rend="right">1478</cell>
+<cell rend="right">2116</cell>
+<cell rend="right">12436</cell>
+</row>
+</table>
+<p>Die Tabelle zeigt, dass die direkten Lexikalisierungen „
+                <hi rend="italic">Romantik</hi>“, „
+                <hi rend="italic">Romantiker</hi>“ und „
+                <hi rend="italic">romantisch</hi>“ vergleichsweise selten vorkommen und wenn, dann verweisen sie meist auf eine Lesart im Sinne von „
+                <hi rend="italic">realitätsfern</hi>“, z.B.:
+            </p>
+<quote>#Grüne und #Linke wollen, dass #Karlsruhe die Patenschaft für ein Seenotrettungsschiff einer Nichtregierungsorganisation (NGO) im Mittelmeer übernimmt. Eine romantische, realitätsferne Weltsicht.
+                (https://twitter.com/MarcBernhardAfD/status/1062048613923201026)
+            </quote>
+<p>Dagegen kommen indirektere Lexeme wie „
+                <hi rend="italic">Gemeinschaft</hi>“ und „
+                <hi rend="italic">Heimat</hi>“ weitaus häufiger vor und werden im Sinne eines abgrenzenden und ausschließenden Charakters eingesetzt, z.B.: 
+            </p>
+<quote>
+<hi rend="italic">Feste, Feiern, Schwimmbäder: Der Verlust öffentlicher Orte und von Gemeinschaftserlebnissen. Nicht alle haben private Pools</hi>. 
+                <ref target="https://t.co/jZsxnmFjCP">https://t.co/jZsxnmFjCP</ref>(https://twitter.com/Renner_AfD/status/1155441711105134592)
+            </quote>
+<quote>#Bayern gibt Unsummen für illegale Migranten aus. Geld, das vielen älteren Menschen fehlt, die Jahrzehnte für unsere Heimat und unsere Gesellschaft hart gearbeitet haben. Schützen Sie unser Sozialsystem gegen Armutseinwanderung und geben wir den Rentnern mehr. #AfD zur #LtwBayern 
+                <ref target="https://t.co/0imAQg3oCj">https://t.co/0imAQg3oCj</ref>(https://twitter.com/ProfMaier/status/1044102746411073536)
+            </quote>
+<p>Diese überwiegend qualitative inhaltsanalytische Vorgehensweise haben wir anschließend durch eine einfache quantitative Untersuchung im Rahmen einer automatischen Emotionsanalyse ergänzt (s.a. entsprechende Vorarbeiten von Hellrich et al. (2019) bzw. Buechel et al. (2017). Hierzu haben wir sämtliche Tweets unseres Korpus mithilfe des Software-Werkzeugs JEmAS (Buechel &amp; Hahn 2016) analysiert und ihnen so einen emotionalen Stimmungswert anhand der darin vorkommenden Lexeme zugewiesen. </p>
+<p>Dieses Verfahren liefert für relativ häufige Wörter intuitiv
+plausible Ergebnisse. Das Lexem
+„<space quantity="0" unit="chars"/><hi rend="italic">Heimat</hi>“, das in insgesamt 4.325
+Tweets vorkommt, wird etwa von CDU und CSU am
+positivsten verwendet und von Der Linken am wenigsten
+(aber immer noch) positiv. Demgegenüber mussten wir
+feststellen, dass für unsere Ausgangsforschungsfrage
+zentrale Begriffe (
+„<space quantity="0" unit="chars"/><hi
+rend="italic">Romantik</hi>“,
+„<space quantity="0" unit="chars"/><hi
+rend="italic">romantisch</hi>“,
+„<space quantity="0" unit="chars"/><hi rend="italic">romantisieren</hi>“) in unserem derzeitigen Korpus zu selten vorkommen, um damit auf Grundlage von reinen Worthäufigkeiten zuverlässige Daten erheben zu können. Eine sinnvolle Erweiterung unserer bisherigen Arbeiten besteht daher in der Anwendung fortgeschrittenerer komputationaler Modelle zur Emotionserkennung, die etwa auf Deep Learning (Nay 2016) oder Topic Modeling (Nguyen et al., 2015) beruhen. Unsere Studie ist damit dem weiteren Kontext der Meinungsklima- und Emotionsanalytik im Umfeld parlamentarischer politischer Akteure zuzuordnen (vgl. a. Abercrombie &amp; Batista-Navarro 2018, Green &amp; Larasati 2018, Blätte 2018, van der Zwaan et al. 2016, Rheault et al. 2016, Nguyen et al. 2015, Zirn 2014, Lietz et al. 2014), ein aktueller Schwerpunkt im zur Zeit stark expandierenden Bereich 
+                <hi rend="italic">Computational Social Science</hi>.
+            </p>
+<p>
+<hi rend="bold">Danksagung.</hi> Tinghui Duan ist Doktorand des Graduiertenkollegs „Modell Romantik“, das von der DFG unter Fördernummer GRK 2041 gefördert wird; Sven Buechel ist Mitarbeiter eines unter der Förderlinie „Big Data in der makrooökonomischen Analyse“ (Fachlos 2; GZ 23305/003#002) geförderten Projekts des Bundesministeriums für Wirtschaft; Udo Hahn ist PI in beiden Projekten. Die Autoren bedanken sich bei den zwei anonymen Gutachtern für Ihre kritische Anmerkungen und bei Christof Schöch für seine verständnisvolle Kommunikation.
+            </p>
+</body>
+<back>
+<div type="notes"><note n="1" rend="footnote text" xml:id="ftn1">
+  <ref target="http://modellromantik.uni-jena.de/">http://modellromantik.uni-jena.de/</ref>
+</note>
+</div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Abercrombie, Gavin / Batista-Navarro, Riza T.</hi> (2018): "Identifying opinion-topics and polarity of parliamentary debate motions", in: 
+                        <hi rend="italic">WASSA 2018 – Proceedings of the 9th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis @ EMNLP 2018</hi> 280-285.
+                    </bibl>
+<bibl>
+<hi rend="bold">Barbaresi, Adrien</hi> (2018): "A corpus of German political speeches from the 21st century", in: 
+                        <hi rend="italic">LREC 2018 – Proceedings of the 11</hi>
+<hi rend="italic superscript">th</hi>
+<hi rend="italic">International Conference on Language Resources and Evaluation</hi> 792-797.
+                    </bibl>
+<bibl>
+<hi rend="bold">Blätte, Andreas</hi> (2018): "Zum Verwechseln ähnlich? Eine Klassifikationsanalyse parlamentarischen Diskursverhaltens auf Basis des PolMine-Plenarprotokollkorpus", in: 
+                        <hi rend="italic">Computational Social Science. Die Analyse von Big Data, Nomos</hi> 139-162.
+                    </bibl>
+<bibl>
+<hi rend="bold">Blätte, Andreas / Blessing, André</hi> (2018): "The GermaParl corpus of parliamentary protocols", in: 
+                        <hi rend="italic">LREC 2018 – Proceedings of the 11</hi>
+<hi rend="italic superscript">th</hi>
+<hi rend="italic">International Conference on Language Resources and Evaluation</hi> 810-816.
+                    </bibl>
+<bibl>
+<hi rend="bold">Buechel, Sven / Hahn, Udo</hi> (2016): "Emotion analysis as a regression problem: dimensional models and their implications on emotion representation and metrical evaluation", in: 
+                        <hi rend="italic">ECAI 2016 – Proceedings of the 22</hi>
+<hi rend="italic superscript">nd</hi>
+<hi rend="italic" xml:space="preserve"> European Conference on Artificial Intelligence</hi> 1114-1122.
+                    </bibl>
+<bibl>
+<hi rend="bold">Buechel, Sven / Hellrich, Johannes / Hahn, Udo</hi> (2017): "The course of emotion in three centuries of German text: a methodological framework", in: 
+                        <hi rend="italic">dh 2017 – Digital Humanities 2017: Conference Abstracts of the 2017 Conference of the Alliance of Digital Humanities Organizations (ADHO)</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Green, Nathan / Larasati, Septina (2018):</hi> "The first 100 days: a corpus of political agendas on Twitter", in: 
+                        <hi rend="italic">LREC 2018 – Proceedings of the 11</hi>
+<hi rend="italic superscript">th</hi>
+<hi rend="italic">International Conference on Language Resources and Evaluation</hi> 2785-2789.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hellrich, Johannes / Buechel, Sven / Hahn, Udo</hi> (2019): "Modeling word emotion in historical language: quantity beats supposed stability in seed word selection", in: 
+                        <hi rend="italic">LaTeCH-CLfL 2019 – Proceedings of the 3</hi>
+<hi rend="italic superscript">rd</hi>
+<hi rend="italic">Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature @ NAACL-HLT 2019</hi> 1-11.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lietz, Haiko / Wagner, Claudia / Bleier, Arnim / Strohmaier, Markus</hi> (2014): "When politicians talk: assessing online conversational practices of political parties on Twitter", in: 
+                        <hi rend="italic">ICWSM 2014 – Proceedings of the 8</hi>
+<hi rend="italic superscript">th</hi>
+<hi rend="italic">International AAAI Conference on Weblogs and Social Media</hi> 285-294.
+                    </bibl>
+<bibl>
+<hi rend="bold" xml:space="preserve">Nay, John J. </hi>(2016): "gov2vec: learning distributed representations of institutions and their legal text", in: 
+                        <hi rend="italic">NLP + CSS 2016 – Proceedings of the [1</hi>
+<hi rend="italic superscript">st</hi>
+<hi rend="italic">] Workshop on Natural Language Processing and Computational Social Science @ EMNLP 2016</hi> 49-54.
+                    </bibl>
+<bibl>
+<hi rend="bold">Nguyen, Viet-An / Boyd-Graber, Jordan / Resnik, Philip / Miler, Kristina</hi> (2015): "Tea Party in the House: a hierarchical ideal point topic model and its application to Republican legislators in the 112
+                        <hi rend="superscript">th</hi> Congress", in: 
+                        <hi rend="italic">ACL-IJCNLP 2015 – Proceedings of the 53</hi>
+<hi rend="italic superscript">rd</hi>
+<hi rend="italic">Annual Meeting of the Association for Computational Linguistics &amp; 7</hi>
+<hi rend="italic superscript">th</hi>
+<hi rend="italic">International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing</hi> 1438-1448.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rheault, Ludovic / Beelen, Kaspar / Cochrane, Christopher / Hirst, Graeme</hi> (2016): "Measuring emotion in parliamentary debates with automated textual analysis", in: 
+                        <hi rend="italic">PLoS ONE</hi>, 11, e0168843.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sylwester, Karolina / Purver, Matthew</hi> (2015): "Twitter language use reflects psychological differences between Democrats and Republicans", in: 
+                        <hi rend="italic">PLoS ONE</hi>, 10, e0137422.
+                    </bibl>
+<bibl>
+<hi rend="bold">van der Zwaan, Janneke M. / Marx, Maarten / Kamps, Jaap</hi> (2016): "Validating cross-perspective topic modeling for extracting political parties' positions from parliamentary proceedings", in: 
+                        <hi rend="italic">ECAI 2016 – Proceedings of the 22</hi>
+<hi rend="italic superscript">nd</hi>
+<hi rend="italic">European Conference on Artificial Intelligence</hi> 28-36.
+                    </bibl>
+<bibl>
+<hi rend="bold">Zirn, Cäcilia</hi> (2014): "Analyzing positions and topics in political discussions of the German Bundestag", in: 
+                        <hi rend="italic">Proceedings of the Student Research Workshop @ ACL 2014</hi> 26-33.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

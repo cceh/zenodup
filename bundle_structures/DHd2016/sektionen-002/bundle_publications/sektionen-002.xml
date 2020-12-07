@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sektionen-002">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Delta" in der stilometrischen Autorschaftsattribution</title>
+        <author>
+          <name>
+            <surname>Evert</surname>
+            <forename>Stefan</forename>
+          </name>
+          <affiliation>Universität Erlangen-Nürnberg, Deutschland</affiliation>
+          <email>stefan.evert@fau.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jannidis</surname>
+            <forename>Fotis</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>fotis.jannidis@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Dimpel</surname>
+            <forename>Friedrich Michael</forename>
+          </name>
+          <affiliation>Universität Erlangen-Nürnberg, Deutschland</affiliation>
+          <email>friedrich.m.dimpel@fau.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schöch</surname>
+            <forename>Christof</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>christof.schoech@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Pielström</surname>
+            <forename>Steffen</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>pielstroem@biozentrum.uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Vitt</surname>
+            <forename>Thorsten</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>thorsten.vitt@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Reger</surname>
+            <forename>Isabella</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>isabella.reger@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Büttner</surname>
+            <forename>Andreas</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>andreas.buettner@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Proisl</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>Universität Erlangen-Nürnberg, Deutschland</affiliation>
+          <email>thomas.proisl@fau.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-13T11:05:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Sektion</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Stilometrie</term>
+          <term>Autorschaftsattribution</term>
+          <term>Delta</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Stilistische Analyse</term>
+          <term>Literatur</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Die Sektion</head>
+        <p>Stilometrische Verfahren der Autorschaftsattribution haben eine lange Tradition in den digitalen Geisteswissenschaften: Mit der Analyse der
+          <hi rend="italic">Federalist Papers</hi> durch Mosteller und Wallace (1963) konnten schon Anfang der 1960er Jahre Erfolge verzeichnet werden. Überblicksbeiträge von Patrick Juola (2006) und Efstathios Stamatatos (2009) belegen die Vielfältigkeit der Bestrebungen, stilometrische Verfahren für die Autorschaftsattribution einzusetzen und weiterzuentwickeln.
+        </p>
+        <p>Ein jüngerer Meilenstein der stilometrischen Autorschaftsattribution ist ohne Zweifel das von John Burrows (2002) vorgeschlagene “Delta”-Maß zur Bestimmung der stilistischen Ähnlichkeit zwischen Texten. Die beeindruckend gute Performance von Delta in verschiedenen Sprachen und Gattungen sollte allerdings nicht darüber hinwegtäuschen, dass die theoretischen Hintergründe weitgehend unverstanden geblieben sind (Argamon 2008). Anders ausgedrückt: Wir wissen, dass Delta funktioniert, aber nicht, warum es funktioniert. In diesem Kontext möchte die hier vorgeschlagene Sektion den aktuellen Stand der Forschung in der stilometrischen Autorschaftsattribution mit Delta vorstellen und neueste Entwicklungen anhand konkreter, eigener Untersuchungen demonstrieren. Jeder der drei Vorträge der Sektion leistet hierzu einen Beitrag:</p>
+        <list type="unordered">
+          <item>Der Beitrag von Stefan Evert, Thomas Proisl, Fotis Jannidis, Steffen
+            Pielström, Isabella Reger, Christof Schöch und Thorsten Vitt “Burrows Delta
+            verstehen” (vgl. 2.), gibt einen Überlick über den Forschungsstand rund um
+            Delta und analysiert, warum die Veränderung von Delta durch Verwendung des
+            Kosinus-Abstands zwischen den Vektoren (Smith / Aldridge 2012) eine so
+            deutliche Verbesserung der Ergebnisse erbracht hat (Jannidis et al. 2015).
+            Am Beispiel einer Sammlung deutscher Romane aus dem 19. und 20. Jahrhundert
+            zeigt der Beitrag, wie sich verschiedene Strategien der Normalisierung oder
+            anderweitigen Behandlung des Merkmalsvektors (hier: Wortformen und ihre
+            Häufigkeiten) auf die Attributionsqualität auswirken und inwiefern dies
+            Einblick darin erlaubt, wie sich Information über Autorschaft im
+            Merkmalsvektor manifestiert - was auch einen Aspekt der Leistungsfähigkeit
+            des klassischen Delta erklärt.</item>
+            <item>Der Vortrag von Friedrich Michael Dimpel, “Burrows Delta im Mittelalter:
+              Wilde Graphien und metrische Analysedaten” (vgl. 3.), beleuchtet den Einsatz
+              unterschiedlicher Merkmalstypen für die Ähnlichkeitsbestimmung von Texten
+              mit Delta. Er zeigt am Beispiel einer Sammlung mittelhochdeutscher Texte,
+              dass nicht nur die äußerst häufigen Funktionswörter, sondern auch metrische
+              Eigenschaften für die Autorschaftsattribution eingesetzt werden können.
+              Zugleich thematisiert er ein Problem, das immer dann auftritt, wenn Texte
+              älterer Sprachstufen stilometrisch analysiert werden: das der nicht
+              normierten, d. h. variablen Schreibweisen von Wörtern.</item>
+              <item>Der Beitrag von Andreas Büttner und Thomas Proisl, “Stilometrie
+                interdisziplinär: Merkmalsselektion zur Differenzierung zwischen Übersetzer-
+                und Fachvokabular” (vgl. 4.), behandelt am Beispiel der
+                Übersetzerattribution bei arabisch-lateinischen Übersetzungen
+                philosophischer Texte die Manipulation des Merkmalsvektors nicht durch
+                verschiedene Normalisierungsstrategien, sondern durch gezielte, selektive
+                Merkmalseliminierung. Das Verfahren verbessert nicht nur die
+                Attributionsqualität, sondern erlaubt auch die Isolierung des Autorsignals
+                einerseits, des disziplinenbezogenen Signals andererseits und gibt einen
+                Einblick darin, welche Einzelmerkmale für das Autorschaftssignal statistisch
+                gesehen entscheidend sind.</item>
+              </list>
+              <p>Die drei Beiträge demonstrieren auf diese Weise verschiedene aktuelle Entwicklungen in der stilometrischen Autorschaftsattribution mit Delta und seinen Varianten. Sie zeigen, wie bei der Anwendung stilometrischer Distanzmaße auf ganz unterschiedliche Gegenstandsbereiche ähnliche methodische Fragen zu berücksichtigen sind. Und sie partizipieren direkt an aktuellsten, internationalen Entwicklungen bei der Verwendung von Distanzmaßen wie Delta für die stilometrische Autorschaftsattribution.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Burrows Delta verstehen</head>
+              <div xml:id="h.x3eups45o1ws" type="div2" rend="DH-Heading2">
+                <head>Überblick zum Forschungsstand</head>
+                <p>Burrows Delta ist einer der erfolgreichsten Algorithmen der Computational
+                  Stylistics (Burrows 2002). In einer ganzen Reihe von Studien wurde seine
+                  Brauchbarkeit nachgewiesen (z. B. Hoover 2004, Rybicki / Eder 2011). Im
+                  ersten Schritt bei der Berechnung von Delta werden in einer nach Häufigkeit
+                  sortierten Token-Dokument-Matrix alle Werte normalisiert, indem ihre
+                  relative Häufigkeit im Dokument berechnet wird, um Textlängenunterschiede
+                  auszugleichen. Im zweiten Schritt werden alle Werte durch eine
+                  z-Transformation standardisiert:</p>
+                  <p>
+                    <formula>
+                      <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mrow>
+                            <mi>z</mi>
+                          </mrow>
+                          <mrow>
+                            <mi>i</mi>
+                          </mrow>
+                        </msub>
+                        <mfenced separators="|" xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mrow>
+                            <mi>D</mi>
+                          </mrow>
+                        </mfenced>
+                        <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML"> </mi>
+                        <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mrow>
+                            <msub>
+                              <mrow>
+                                <mi>f</mi>
+                              </mrow>
+                              <mrow>
+                                <mi>i</mi>
+                              </mrow>
+                            </msub>
+                            <mfenced separators="|">
+                              <mrow>
+                                <mi>D</mi>
+                              </mrow>
+                            </mfenced>
+                            <mo>-</mo>
+                            <msub>
+                              <mrow>
+                                <mi>μ</mi>
+                              </mrow>
+                              <mrow>
+                                <mi>i</mi>
+                              </mrow>
+                            </msub>
+                          </mrow>
+                          <mrow>
+                            <msub>
+                              <mrow>
+                                <mi>σ</mi>
+                              </mrow>
+                              <mrow>
+                                <mi>i</mi>
+                              </mrow>
+                            </msub>
+                          </mrow>
+                        </mfrac>
+                      </mml:math>
+                    </formula>
+                  </p>
+                  <p>wobei
+                    <hi rend="italic">f</hi><hi rend="italic subscript">i</hi>(
+                    <hi rend="italic">D</hi>) die relative Häufigkeit des Wortes
+                    <hi rend="italic">i</hi> in einem Dokument,
+                    <hi rend="italic">μ</hi><hi rend="italic subscript">i</hi> der Mittelwert über die relativen Häufigkeiten des Wortes
+                    <hi rend="italic">i</hi> in allen Dokumenten ist und
+                    <hi rend="italic">σ</hi><hi rend="italic subscript">i</hi> die Standardabweichung. Durch diese Standardisierung tragen alle Worte in gleichem Maße zum Differenzprofil, das im dritten Schritt berechnet wird, bei. In einem dritten Schritt werden die Abstände aller Texte voneinander berechnet: Für jedes Wort wird die Differenz zwischen dem z-Score für das Wort in dem einen Text und dem anderen Text ermittelt. Die Absolutbeträge der Differenzen werden für alle ausgewählten Wörter aufaddiert:
+                  </p>
+                  <p>
+                    <formula>
+                      <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mrow>
+                            <mo>∆</mo>
+                          </mrow>
+                          <mrow>
+                            <mi>B</mi>
+                          </mrow>
+                        </msub>
+                        <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                        <munderover xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mo>∑</mo>
+                          <mrow>
+                            <mi>i</mi>
+                            <mo>=</mo>
+                            <mn>1</mn>
+                          </mrow>
+                          <mrow>
+                            <mi>m</mi>
+                          </mrow>
+                        </munderover>
+                        <mrow xmlns="http://www.w3.org/1998/Math/MathML">
+                          <mfenced open="|" close="|" separators="|">
+                            <mrow>
+                              <msub>
+                                <mrow>
+                                  <mi>z</mi>
+                                </mrow>
+                                <mrow>
+                                  <mi>i</mi>
+                                </mrow>
+                              </msub>
+                              <mfenced separators="|">
+                                <mrow>
+                                  <msub>
+                                    <mrow>
+                                      <mi>D</mi>
+                                    </mrow>
+                                    <mrow>
+                                      <mn>1</mn>
+                                    </mrow>
+                                  </msub>
+                                </mrow>
+                              </mfenced>
+                              <mo>-</mo>
+                              <msub>
+                                <mrow>
+                                  <mi>z</mi>
+                                </mrow>
+                                <mrow>
+                                  <mi>i</mi>
+                                </mrow>
+                              </msub>
+                              <mo>(</mo>
+                              <msub>
+                                <mrow>
+                                  <mi>D</mi>
+                                </mrow>
+                                <mrow>
+                                  <mn>2</mn>
+                                </mrow>
+                              </msub>
+                              <mo>)</mo>
+                            </mrow>
+                          </mfenced>
+                        </mrow>
+                      </mml:math>
+                    </formula>
+                  </p>
+                  <p>
+                    <hi rend="italic">m</hi> steht für die Anzahl der häufigsten Wörter (MFW -
+                    <hi rend="italic">most frequent words</hi>), die für die Untersuchung
+                    herangezogen werden. Diese Summe ergibt den Abstand zwischen zwei Texten; je
+                    kleiner der Wert ist, desto ähnlicher – so die gängige Interpretation – sind
+                    sich die Texte stilistisch, und desto höher ist die Wahrscheinlichkeit, dass
+                    sie vom selben Autor verfasst wurden. </p>
+                    <p>Trotz seiner Einfachheit und seiner praktischen Nützlichkeit mangelt es bislang allerdings an einer Erklärung für die Funktionsweise des Algorithmus. Argamon (2008) zeigt, dass der dritte Schritt in Burrows Delta sich als Berechnung des
+                      <hi rend="italic">Manhattan-</hi>Abstands zwischen zwei Punkten in einem mehrdimensionalen Raum verstehen lässt, wobei in jeder Dimension die Häufigkeit eines bestimmten Wortes eingetragen ist. Er schlägt vor, stattdessen den Euklidischen Abstand, also die Länge der direkten Linie zwischen den Punkten, zu nehmen, weil dieser „possibly more natural“ (Argamon 2008: 134) sei und zudem eine wahrscheinlichkeitstheoretische Interpretation der standardisierten
+                      <hi rend="italic">z</hi>-Werte erlaubt. Bei einer empirischen Prüfung zeigte sich, dass keiner der Vorschläge eine Verbesserung bringt (Jannidis et al. 2015).
+                    </p>
+                    <figure>
+                      <graphic n="1001" width="7.230916666666666cm" height="7.209897222222223cm" url="0010-1.png" rend="inline"/>
+                      <p rend="figure"><hi rend="bold">Abb. 1</hi>: Darstellung des Abstands zwischen zwei Texten,
+                      die nur aus zwei Worten bestehen. Burrows Delta verwendet die
+                      Manhattan-Distanz. Argamons Vorschlag, die Euklidische Distanz zu verwenden,
+                      sein <hi rend="italic">Quadratic-Delta</hi>, brachte eine Verschlechterung
+                      der Clustering Ergebnisse, während der Vorschlag von Smith und Aldrige, den
+                      Cosinus-Abstand bzw. Winkel zwischen den Vektoren zu verwenden, eine
+                      deutliche Verbesserung erbrachte.</p>
+                    </figure>
+                    <p>Smith und Aldrige (2011) schlagen vor, wie im Information Retrieval üblich
+                      (Baeza-Yates / Ribeiro-Neto 1999: 27), den Cosinus des Winkels zwischen den
+                      Dokumentenverktoren zu verwenden. Die Cosinus-Variante von Delta übertrifft
+                      Burrows Delta fast immer an Leistungsfähigkeit und weist, im Gegensatz zu
+                      den anderen Varianten, auch bei der Verwendung sehr vieler MFWs keine
+                      Verschlechterung auf (Jannidis et. al. 2015). Es stellt sich die Frage,
+                      warum Delta<hi rend="subscript">Cos</hi> besser ist als Delta <hi
+                      rend="subscript">Bur</hi> und ob auf diese Weise erklärt werden kann,
+                      warum Delta<hi rend="subscript">Bur</hi> so überraschend leistungsfähig
+                      ist. </p>
+                      <p>Entscheidend für unsere weitere Analyse war die Erkenntnis, dass man die Verwendung des Cosinus-Abstands als eine Vektor-Normalisierung verstehen kann, da für die Berechnung des Winkels – anders als bei Manhattan- und Euklidischem Abstand – die Länge der Vektoren keine Rolle spielt (vgl. Abb. 1). Experimente haben gezeigt, dass eine explizite Vektor-Normalisierung auch die Ergebnisse der anderen Deltamaße erheblich verbessert und Leistungsunterschiede zwischen den Delta-Varianten weitgehend neutralisiert (Evert et al. 2015).</p>
+                      <p>Daraus wurden zwei Hypothesen abgeleitet:</p>
+                      <list type="unordered">
+                        <item>(H1) Verantwortlich für die Leistungsunterschiede sind vor allem
+                          einzelne Extremwerte („Ausreißer“), d. h. besonders große (positive oder
+                          negative) <hi rend="italic">z</hi>-Werte, die nicht für Autoren, sondern
+                          nur für einzelne Texte spezifisch sind. Da das Euklidische Abstandsmaß
+                          besonders stark von solchen Ausreißern beeinflusst wird, stellen sie
+                          eine nahe liegende Erklärung für das schlechte Abschneiden von Argamons
+                          „Quadratic Delta“ Delta<hi rend="subscript">Q</hi>. Der positive Effekt
+                          der Vektor-Normalisierung wäre dann so zu deuten, dass durch die
+                          Vereinheitlichung der Vektorlängen der Betrag der <hi rend="italic"
+                          >z</hi>-Werte von textspezifischen Ausreißern deutlich reduziert
+                          wird (Ausreißer-Hypothese). </item>
+                          <item>(H2) Das charakteristische stilistische Profil eines Autors findet sich eher in der qualitativen Kombination bestimmter Wortpräferenzen, also im grundsätzlichen Muster von über- bzw. unterdurchschnittlich häufigem Gebrauch der Wörter, als in der Amplitude dieser Abweichungen. Ein Textabstandsmaß ist vor allem dann erfolgreich, wenn es strukturelle Unterschiede der Vorlieben eines Autors erfasst, ohne sich davon beeinflussen zu lassen, wie stark das Autorenprofil in einem bestimmten Text ausgeprägt ist (Schlüsselprofil-Hypothese). Diese Hypothese erklärt unmittelbar, warum die Vektor-Normalisierung zu einer so eindrucksvollen Verbesserung führt: durch sie wird die Amplitude des Autorenprofils in verschiedenen Texten vereinheitlicht.</item>
+                        </list>
+                      </div>
+                      <div xml:id="h.v61lv4wj1vp2" type="div2" rend="DH-Heading2">
+                        <head>Neue Erkenntnisse </head>
+                        <div xml:id="h.kx0zumwgd0k2" type="div3" rend="DH-Heading3">
+                          <head>Korpora</head>
+                          <p>Für die hier präsentierten Untersuchungen verwenden wir drei vergleichbar
+                            aufgebaute Korpora in Deutsch, Englisch und Französisch. Jedes Korpus
+                            enthält je 3 Romane von 25 verschiedenen Autoren, insgesamt also jeweils
+                            75 Texte. Die deutschen Romane aus dem 19. und dem Anfang des 20.
+                            Jahrhunderts stammen aus der Digitalen Bibliothek von <ref target="https://textgrid.de">TextGrid</ref>. Die
+                            englischen Texte aus den Jahren 1838 bis 1921 kommen von <ref target="http://www.gutenberg.org/">Project
+                            Gutenberg</ref> und die französischen Romane von <ref target="http://www.ebooksgratuits.com">Ebooks libres et gratuits</ref>
+                            umfassen den Zeitraum von 1827 bis 1934. Im folgenden Abschnitt stellen
+                            wir aus Platzgründen nur unsere Beobachtungen für das deutsche
+                            Romankorpus vor. Die Ergebnisse mit Texten in den beiden anderen
+                            Sprachen bestätigen – mit kleinen Abweichungen – unseren Befund. </p>
+                          </div>
+                          <div xml:id="h.wdtsf5koc85b" type="div3" rend="DH-Heading3">
+                            <head>Experimente</head>
+                            <p>Um die Rolle von Ausreißern und damit die Plausibilität von H1 näher zu
+                              untersuchen, ergänzen wir Delta<hi rend="subscript">Bur</hi> und Delta<hi rend="subscript">Q</hi> um weitere Delta-Varianten, die auf dem
+                              allgemeinen Minkowski-Abstand basieren: </p>
+                              <p>
+                                <formula>
+                                  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                    <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                      <mrow>
+                                        <mi mathvariant="normal">Δ</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mi>p</mi>
+                                      </mrow>
+                                    </msub>
+                                    <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                    <msup xmlns="http://www.w3.org/1998/Math/MathML">
+                                      <mrow>
+                                        <mfenced separators="|">
+                                          <mrow>
+                                            <munderover>
+                                              <mo>∑</mo>
+                                              <mrow>
+                                                <mi>i</mi>
+                                                <mo>=</mo>
+                                                <mn>1</mn>
+                                              </mrow>
+                                              <mrow>
+                                                <mi>m</mi>
+                                              </mrow>
+                                            </munderover>
+                                            <mrow>
+                                              <msup>
+                                                <mrow>
+                                                  <mfenced open="|" close="|" separators="|">
+                                                    <mrow>
+                                                      <msub>
+                                                        <mrow>
+                                                          <mi>z</mi>
+                                                        </mrow>
+                                                        <mrow>
+                                                          <mi>i</mi>
+                                                        </mrow>
+                                                      </msub>
+                                                      <mfenced separators="|">
+                                                        <mrow>
+                                                          <msub>
+                                                            <mrow>
+                                                              <mi>D</mi>
+                                                            </mrow>
+                                                            <mrow>
+                                                              <mn>1</mn>
+                                                            </mrow>
+                                                          </msub>
+                                                        </mrow>
+                                                      </mfenced>
+                                                      <mo>-</mo>
+                                                      <msub>
+                                                        <mrow>
+                                                          <mi>z</mi>
+                                                        </mrow>
+                                                        <mrow>
+                                                          <mi>i</mi>
+                                                        </mrow>
+                                                      </msub>
+                                                      <mo>(</mo>
+                                                      <msub>
+                                                        <mrow>
+                                                          <mi>D</mi>
+                                                        </mrow>
+                                                        <mrow>
+                                                          <mn>2</mn>
+                                                        </mrow>
+                                                      </msub>
+                                                      <mo>)</mo>
+                                                    </mrow>
+                                                  </mfenced>
+                                                </mrow>
+                                                <mrow>
+                                                  <mi>p</mi>
+                                                </mrow>
+                                              </msup>
+                                            </mrow>
+                                          </mrow>
+                                        </mfenced>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>1</mn>
+                                        <mo>/</mo>
+                                        <mi>p</mi>
+                                      </mrow>
+                                    </msup>
+                                    <mi xmlns="http://www.w3.org/1998/Math/MathML"> </mi>
+                                  </mml:math>
+                                </formula> für
+                                <hi rend="italic">p </hi>≥ 1.
+                              </p>
+                              <p>Wir bezeichnen diese Abstandsmaße allgemein als L<hi rend="italic subscript">p</hi>-Delta. Der Spezialfall
+                              <hi rend="italic">p </hi>= 1 entspricht dem Manhattan-Abstand (also L<hi rend="subscript">1</hi>-Delta = Delta<hi rend="subscript">Bur</hi>), der Spezialfall
+                              <hi rend="italic">p</hi> = 2 dem Euklidischen Abstand (also L<hi rend="subscript">2</hi>-Delta = Delta<hi rend="subscript">Q</hi>). Je größer
+                              <hi rend="italic">p</hi> gewählt wird, desto stärker wird L<hi rend="italic subscript">p</hi>-Delta von einzelnen Ausreißerwerten beeinflusst.
+                            </p>
+                            <p>Abbildung 2 vergleicht vier unterschiedliche L<hi rend="italic subscript">p</hi>-Abstandsmaße (für <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mi
+                              xmlns="http://www.w3.org/1998/Math/MathML">p</mi><mi
+                              xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mo
+                              xmlns="http://www.w3.org/1998/Math/MathML">=</mo><mi
+                              xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mn
+                              xmlns="http://www.w3.org/1998/Math/MathML">1</mn><mo
+                              xmlns="http://www.w3.org/1998/Math/MathML">,</mo><mi
+                              xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mroot
+                              xmlns="http://www.w3.org/1998/Math/MathML">
+                              <mrow>
+                                <mn>2</mn>
+                              </mrow>
+                              <mrow/>
+                            </mroot><mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo><mi
+                            xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mn
+                            xmlns="http://www.w3.org/1998/Math/MathML">2</mn><mo
+                            xmlns="http://www.w3.org/1998/Math/MathML">,</mo><mi
+                            xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mn
+                            xmlns="http://www.w3.org/1998/Math/MathML">4</mn></mml:math>
+                          </formula>) mit Delta<hi rend="subscript">Cos</hi>. Wir übernehmen
+                          dabei den methodologischen Ansatz von Evert et al. (2015): die 75 Texte
+                          werden auf Basis der jeweiligen Delta-Abstände automatisch in 25 Cluster
+                          gruppiert; anschließend wird die Güte der Autorenschaftszuschreibung mit
+                          Hilfe des <hi rend="italic">adjusted Rand index</hi> (ARI) bestimmt. Ein
+                          ARI-Wert von 100% entspricht dabei einer perfekten Erkennung der
+                          Autoren, ein Wert von 0% einem rein zufälligen Clustering.
+                          Offensichtlich nimmt die Leistung von L<hi rend="italic subscript"
+                          >p</hi>-Delta mit zunehmendem <hi rend="italic">p </hi>ab; zudem
+                          lässt die Robustheit der Maße gegenüber der Anzahl von MFW erheblich
+                          nach. </p>
+                          <figure>
+                            <graphic n="1002" width="16cm" height="7.655277777777778cm" url="0010-2.png" rend="inline"/>
+                            <p rend="figure"><hi rend="bold">Abb. 2</hi>: Clustering-Qualität verschiedener Delta-Maße
+                            in Abhängigkeit von der Anzahl von MFW, die als Merkmale verwendet
+                            werden. Wie bereits von Janndis et al. (2015) und Evert et al. (2015)
+                            festgestellt wurde, liefert Delta<hi rend="subscript">Bur</hi> (L<hi rend="subscript">1</hi>) durchgänig bessere Ergebnisse als Argamons
+                            Delta<hi rend="subscript">Q</hi> (L<hi rend="subscript">2</hi>). Delta<hi rend="subscript">Q</hi> erweist sich als besonders anfällig
+                            gegenüber einer zu großen Anzahl von MFW. Delta<hi rend="subscript">Cos</hi> ist in dieser Hinsicht robuster als alle anderen
+                            Delta-Varianten und erreicht über einen weiten Wertebereich eine nahezu
+                            perfekte Autorenschaftszuschreibung (ARI &gt; 90%). </p>
+                          </figure>
+                          <p>Eine Vektor-Normalisierung verbessert die Qualität aller Delta-Maße
+                            erheblich (vgl. Abb. 3). Argamons Delta<hi rend="subscript">Q</hi> ist
+                            in diesem Fall identisch zu Delta<hi rend="subscript">Cos</hi>: die
+                            rote Kurve wird von der grünen vollständig überdeckt. Aber auch andere
+                            Delta-Maße (Delta<hi rend="subscript">Bur</hi>, L<hi rend="subscript">1.4</hi>-Delta) erzielen praktisch dieselbe Qualität wie Delta<hi rend="subscript">Cos</hi>. Einzig das für Ausreißer besonders
+                            anfällige L<hi rend="subscript">4</hi>-Delta fällt noch deutlich
+                            gegenüber den anderen Maßen ab. Diese Ergebnisse scheinen zunächst H1 zu
+                            bestätigen. </p>
+                            <figure>
+                              <graphic n="1003" width="16cm" height="7.62cm" url="0010-3.png" rend="inline"/>
+                              <p rend="figure"><hi rend="bold">Abb. 3</hi>: Clustering-Qualität verschiedener Delta-Maße
+                              mit Längen-Normalisierung der Vektoren. In diesem Experiment wurde die
+                              euklidische Länge der Vektoren vor Anwendung der Abstandsmaße auf den
+                              Standardwert 1 vereinheitlicht.</p>
+                            </figure>
+                            <p>Ein anderer Ansatz zur Abmilderung von Ausreißern besteht darin,
+                              besonders extreme <hi rend="italic">z</hi>-Werte „abzuschneiden“. Wir
+                              setzen dazu alle | <hi rend="italic">z</hi>| &gt; 2 (ein übliches
+                              Ausreißerkriterium) je nach Vorzeichen auf den Wert +1 oder –1.
+                              Abbildung 4 zeigt, wie sich unterschiedliche Maßnahmen auf die
+                              Verteilung der Merkmalswerte auswirken. Die Vektor-Normalisierung (links
+                              unten) führt nur zu minimalen Änderungen und reduziert die Anzahl von
+                              Ausreißern praktisch nicht. Abschneiden großer <hi rend="italic"
+                              >z</hi>-Werte wirkt sich nur auf überdurchschnittlich häufige Wörter aus
+                              (rechts oben). Wie in Abbildung 5 zu sehen ist, wird durch diese
+                              Maßnahme ebenfalls die Qualität aller L<hi rend="italic subscript">p</hi>-Deltamaße deutlich verbessert. Der positive Effekt fällt
+                              aber merklich geringer aus als bei der Vektor-Normalisierung. </p>
+                              <figure>
+                                <graphic n="1004" width="14.962188888888889cm" height="9.782969444444445cm" url="0010-4.png" rend="inline"/>
+                                <p rend="figure"><hi rend="bold">Abb. 4</hi>: Verteilung von Merkmalswerten über alle 75
+                                Texte bei Vektoren mit 5000 MFW. Gezeigt wird die Verteilung der
+                                ursprünglichen <hi rend="italic">z</hi>-Werte (links oben), die
+                                Verteilung nach einer Längen-Normalisierung (links unten), die
+                                Verteilung beim Abschneiden von Ausreißern mit | <hi rend="italic"
+                                >z</hi>| &gt; 2 (rechts oben) sowie eine ternäre Quantisierung in
+                                Werte –1, 0 und +1 (rechts unten). Im linken unteren Bild gibt die rote
+                                Kurve die Verteilung der <hi rend="italic">z</hi>-Werte ohne
+                                Vektor-Normalisierung wieder; im direkten Vergleich ist deutlich zu
+                                erkennen, dass die Normalisierung nur einen minimalen Einfluß hat und
+                                Ausreißer kaum reduziert. Grenzwerte für die ternäre Quantisierung sind
+                                <hi rend="italic">z </hi>&lt; –0.43 (–1), –0.43 ≤ <hi rend="italic"
+                                >z</hi> ≤ 0.43 (0) und <hi rend="italic">z </hi>&gt; 0.43 (+1).
+                                Diese Grenzwerte sind so gewählt, dass bei einer idealen
+                                Normalverteilung jeweils ein Drittel aller Merkmalswerte in die Klassen
+                                –1, 0 und +1 eingeteilt würde. </p>
+                              </figure>
+                              <figure>
+                                <graphic n="1005" width="16cm" height="7.024688888888889cm" url="0010-5.png" rend="inline"/>
+                                <p rend="figure"><hi rend="bold">Abb. 5</hi>: Clustering-Qualität nach „Abschneiden“ von
+                                Ausreißern, bei dem Merkmalswerte | <hi rend="italic">z</hi>| &gt; 2 je
+                                nach Vorzeichen durch die festen Werte –2 bzw. +2 ersetzt wurden. </p>
+                              </figure>
+                              <p>Insgesamt erweist sich Hypothese H1 somit als nicht haltbar. H2 wird durch das gute Ergebnis der Vektor-Normalisierung unterstützt, kann aber nicht unmittelbar erklären, warum auch das Abschneiden von Ausreißern zu einer deutlichen Verbesserung führt. Um diese Hypothese weiter zu untersuchen, wurden reine „Schlüsselprofil“-Vektoren erstellt, die nur noch zwischen überdurchschnittlicher (+1), unauffälliger (0) und unterdurchschnittlicher (–1) Häufigkeit der Wörter unterscheiden (vgl. Abb. 4, rechts unten). </p>
+                              <figure>
+                                <graphic n="1006" width="16cm" height="7.62cm" url="0010-6.png" rend="inline"/>
+                                <p rend="figure"><hi rend="bold">Abb. 6</hi>: Clustering-Qualität bei ternärer
+                                Quantisierung der Vektoren in überdurchschnittliche (+1, bei <hi
+                                rend="italic">z </hi>&gt; 0.43), unauffällige (0, bei –0.43 &lt; <hi
+                                rend="italic">z </hi>&lt; 0.43) und unterdurchschnittliche (–1, bei
+                                <hi rend="italic">z</hi> &lt; –0.43) Häufigkeit der Wörter. </p>
+                              </figure>
+                              <p>Abbildung 6 zeigt, dass solche Profil-Vektoren hervorragende Ergebnisse
+                                erzielen, die der Vektor-Normalisierung praktisch ebenbürtig sind.
+                                Selbst das besonders anfällige L<hi rend="subscript">4</hi>-Deltamaß
+                                erzielt eine weitgehend robuste Clustering-Qualität von über 90%. Wir
+                                interpretieren diese Beobachtung als eine deutliche Bestätigung der
+                                Hypothese H2. </p>
+                              </div>
+                            </div>
+                            <div xml:id="h.s8jqv3z88nyt" type="div2" rend="DH-Heading2">
+                              <head>Diskussion und Ausblick</head>
+                              <p>H1, die Ausreißerhypothese, konnte widerlegt werden, da die Vektor-Normalisierung die Anzahl von Extremwerten kaum verringert und dennoch die Qualität aller L<hi rend="italic subscript">p</hi>-Maße deutlich verbessert wird. H2, die Schlüsselprofil-Hypothese, konnte dagegen bestätigt werden. Die ternäre Quantisierung der Vektoren zeigt deutlich, dass nicht das Maß der Abweichung bzw. die Größe der Amplitude wichtig ist, sondern das Profil der Abweichung über die MFW hinweg. Auffällig ist das unterschiedliche Verhalten der Maße, wenn mehr als 2000 MFW verwendet werden. Fast alle Varianten zeigen bei sehr vielen Features eine Verschlechterung, aber sie unterscheiden sich darin, wann dieser Verfall einsetzt. Wir vermuten, dass das Vokabular in diesem Bereich weniger spezifisch für den Autor, und eher für Themen und Inhalte ist. Die Klärung dieser Fragen wird zusätzliche Experimente erfordern.
+                            </p>
+                          </div>
+                        </div>
+                        <div type="div1" rend="DH-Heading1">
+                          <head>Burrows’ Delta im Mittelalter: Wilde Graphien und metrische Analysedaten</head>
+                          <div type="div2" rend="DH-Heading2">
+                            <head>Einleitung</head>
+                            <p>Burrows’ Delta (Burrows 2002) hat sich in Autorschaftsfragen etabliert; viele
+                              Studien zeigen, dass Delta für germanische Sprachen ausgezeichnet
+                              funktioniert (Hoover 2004b; Eder / Rybicki 2011; Eder 2013a; Eder 2013b; für
+                              das Neuhochdeutsche zuletzt Jannidis / Lauer 2014; Evert et al. 2015). Beim
+                              Mittelhochdeutschen ist jedoch die Schreibung nicht normiert: Das Wort „und“
+                              kann als „unde“, „unt“ oder „vnt“ verschriftet sein. Ein Teil dieser Varianz
+                              wird zwar in normalisierten Ausgaben ausgeglichen, jedoch nicht vollständig.
+                              Viehhauser (2015) hat in einer ersten Delta-Studie zum Mittelhochdeutschen
+                              diese Probleme diskutiert: Wolfram von Eschenbach benutzt zum Wort „kommen“
+                              die Präteritalform „kom“, Hartmann von Aue verwendet „kam“, eine Form, die
+                              eher in den südwestdeutschen Raum gehört. Die Bedingungen für den Einsatz
+                              von Delta auf der Basis der <hi rend="italic">most frequent words</hi>
+                              erscheinen auf den ersten Blick also als denkbar ungünstig; Viehhauser war
+                              skeptisch, inwieweit Autor, Herausgeber, Schreibereinflüsse oder Dialekt
+                              erfasst werden, auch wenn seine Ergebnisse zeigen, dass Delta Texte von
+                              gleichen Autoren korrekt sortiert.</p>
+                              <p>Normalisierte Texte sind besser für Autorschaftsstudien geeignet, da hier die Zufälligkeiten von Schreibergraphien reduziert sind; Längenzeichen stellen dort meist weitere lexikalische Informationen zur Verfügung – etwa zur Differenzierung von „sin“ („Sinn“) versus „sîn“ („sein“; allerdings ohne Disambiguierung von „sîn“ als verbum substantivum oder Pronomen). In diplomatischen Transkriptionen sind dagegen etwa „u-e“ Superskripte und andere diakritische Zeichen enthalten; die gleiche Flexionsform des gleichen Wortes kann in verschiedenen Graphien erscheinen. </p>
+                              <p>Anlass zu vorsichtigem Optimismus bietet allerdings eine Studie von Eder
+                                (2013a), die den Einfluss von Noise (wie z. B. Schreibervarianten)
+                                analysiert – mit dem Ergebnis (u. a.) für das Neuhochdeutsche, dass ein
+                                zufälliger Buchstabentausch von 12% bei 100-400 MFWs die Ergebnisse kaum
+                                beeinträchtigt; bei einer mäßig randomisierten Manipulation der
+                                MFWs-Frequenzen verschlechtert sich die Quote der korrekten Attributionen
+                                bei 200-400 MFWs ebenfalls kaum. Ersetzt man im Autortext Passagen durch
+                                zufällig gewählte Passagen anderer Autoren, ergibt sich bei der Quote
+                                lediglich ein „gentle decrease of performance“; im Lateinischen bleibt die
+                                Quote gut, selbst nachdem 40% des Originalvokabulars ausgetauscht wurden. </p>
+                                <p>Während die 17 Texte, die Viehhauser analysiert hat, in normalisierten
+                                  Ausgaben vorliegen, habe ich zunächst 37 heterogene Texte von sieben Autoren
+                                  mit Stylo-R (Eder / Kestemont et al. 2015) getestet sowie drei Texte mit
+                                  fraglicher Autorzuschreibung zu Konrad von Würzburg. Ein Teil ist
+                                  normalisiert (Hartmann, Wolfram, Gottfried, Ulrich, Wirnt, Konrad), andere
+                                  liegen zum Teil in diplomatischen Transkriptionen vor: Bei Rudolf von Ems
+                                  sind ‚Gerhard‘, ‚Alexander‘ und ‚Barlaam‘ normalisiert, nicht normalisiert
+                                  sind ‚Willehalm‘ und ‚Weltchronik‘ (hier etwa „ubir“ statt „über“). Beim
+                                  Stricker ist lediglich der ‚Pfaffe Amis‘ normalisiert. </p>
+                                  <p>Per Skript wurden Längenzeichen eliminiert, damit nicht Texte mit und ohne Längenzeichen auseinander sortiert werden. Tustep-Kodierungen etwa für Superskripte habe ich in konventionelle Buchstaben transformiert. Dennoch bleiben große Unterschiede: Die Genitivform zu „Gott“ lautet teils „gotes“, teils „gotis“, so dass eigentlich eine primäre Sortierung entlang der Unterscheidung normalisiert–nicht-normalisiert zu erwarten wäre. Das Ergebnis ist jedoch frappierend: Auf der Basis von 200 MFWs (diesen Parameter verwenden auch Eder 2013b und Viehhauser 2015) gelingt stylo-R ohne Pronomina und bei Culling=50% eine fehlerfreie Sortierung nach Autorschaft; Delta ordnet Rudolf zu Rudolf – ob normalisiert oder nicht. </p>
+                                  <figure>
+                                    <graphic n="1007" width="12.241388888888888cm" height="10.379425cm" url="0010-7.png" rend="inline"/>
+                                    <p rend="figure"><hi rend="bold">Abb. 7</hi>: Clusteranalyse</p>
+                                  </figure>
+                                </div>
+                                <div type="div2" rend="DH-Heading2">
+                                  <head>Validierungstests</head>
+                                  <p>Dieser Befund ist Anlass für eine Serie an automatisierten Tests in Anlehnung
+                                    an Eder (2013b): Bei welchem Vektor und ab welcher Textlänge liefert Delta
+                                    zuverlässige Ergebnisse? Wie wirkt sich das Einbringen von Noise aus? </p>
+                                    <div type="div3" rend="DH-Heading3">
+                                      <head>Vektorlänge</head>
+                                      <p>Per Perlskript wurde ein Delta-Test implementiert, der in einer großen Zahl an Iterationen (13.425 Delta-Berechnungen) verschiedene „Ratetexte“ mit bekannter Autorschaft gegen ein Validierungskorpus mit bekannter Autorschaft jeweils daraufhin prüft, ob für jeden Text im Ratekorpus tatsächlich der niedrigste Delta-Wert bei einem Text des gleichen Autors im Validierungskorpus herauskommt. Gegen ein heterogenes Validierungskorpus mit 18 Texten wurden 19 normalisierte Ratetexte getestet; gegen ein heterogenes Validierungskorpus mit 15 Texten wurden 13 nicht-normalisierte Ratetexte getestet. Ermittelt wurde der Prozentsatz der richtig erkannten Autoren für jeweils eine Vektorlänge; die Vektorlänge wurde in 100er Schritten bis auf 2.500 MFWs erhöht. Pronomina wurden beseitigt. Bei den normalisierten Ratetexten ist die Erkennungsquote sehr gut bis 200–900 MFWs, bei den nicht-normalisierten sehr gut für 100–600 MFWs.</p>
+                                      <figure>
+                                        <graphic n="1008" width="13.272327777777777cm" height="7.8845833333333335cm" url="0010-8.png" rend="inline"/>
+                                        <p rend="figure"><hi rend="bold">Abb. 8</hi>: Vektorlänge</p>
+                                      </figure>
+                                      <p>Interessante Fehlattributionen – etwa Strickers ‚Pfaffe Amis‘ und Konrads
+                                        ‚Herzmäre‘ – machen weitere Validierungsläufe nötig: Der normalisierte
+                                        ‚Pfaffe Amis‘ wurde gegen einen nicht-normalisierten Stricker-Text
+                                        getestet; das ‚Herzmäre‘ ist kurz (2991 Wörter). Während Burrows (2002)
+                                        davon ausgeht, dass Delta ab einer Textlänge von 1.500 Wörtern anwendbar
+                                        ist, zeigt Eder (2013b), dass Delta im Englischen ab 5.000 Wörtern sehr
+                                        gute und unter 3.000 Wörtern teils desaströse Ergebnisse liefert; nur im
+                                        Lateinischen werden ab 2.500 Wörtern gute Ergebnisse erreicht. </p>
+                                      </div>
+                                      <div type="div3" rend="DH-Heading3">
+                                        <head>Korrelation Vektorlänge und Textlänge in konventionellen Segmentierungen </head>
+                                        <p>Hier wurde die Textlänge linear begrenzt, die Texte wurden nach 1000, 2000 Wörtern usw. abgeschnitten. Das Korpus ist kleiner als zuvor, da zu kurze Texte herausgenommen wurden (normalisierte: 16 Texte Validierungskorpus, 15 Ratekorpus; nicht-normalisierte 14 Validierungskorpus, 6-7 Ratekorpus; 10.056 Delta-Berechnungen).</p>
+                                        <figure>
+                                          <graphic n="1009" width="11.098794444444444cm" height="6.7027777777777775cm" url="0010-9.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 9</hi>: Cutoff normalisierte</p>
+                                        </figure>
+                                        <figure>
+                                          <graphic n="10010" width="11.094861111111111cm" height="7.692863888888889cm" url="0010-10.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 10</hi>: Cutoff nicht-normalisierte</p>
+                                        </figure>
+                                      </div>
+                                      <div type="div3" rend="DH-Heading3">
+                                        <head>Korrelation Vektorlänge und Textlänge bei randomisierter Wortauswahl (‚bag-of-words‘; vgl. Eder 2013b)</head>
+                                        <p>Gleiches Korpus wie zuvor; 167.600 Delta-Berechnungen. Da die bag-of-words randomisiert zusammengestellt wird, schwankt die Erkennungsquote etwas, daher wurde jeder Test pro Textlänge und Wortlistenlänge 25x durchgeführt und der Mittelwert dieser 25 Erfolgsquoten verwendet. </p>
+                                        <figure>
+                                          <graphic n="10011" width="12.276666666666667cm" height="8.292080555555556cm" url="0010-11.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 11</hi>: bag-of-words normalisierte</p>
+                                        </figure>
+                                        <figure>
+                                          <graphic n="10012" width="12.276666666666667cm" height="7.946177777777778cm" url="0010-12.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 12</hi>: bag-of-words nicht-normalisierte</p>
+                                        </figure>
+                                      </div>
+                                      <div type="div3" rend="DH-Heading3">
+                                        <head>Auswirkung bei der Eliminierung von Pronomina</head>
+                                        <figure>
+                                          <graphic n="10013" width="11.094861111111111cm" height="7.401152777777778cm" url="0010-13.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 13</hi>: bag-of-words normalisierte, ohne
+                                          Beseitigung der Pronomina</p>
+                                        </figure>
+                                        <figure>
+                                          <graphic n="10014" width="11.094861111111111cm" height="6.959402777777778cm" url="0010-14.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 14</hi>: bag-of-words nicht-normalisierte, ohne
+                                          Beseitigung der Pronomina</p>
+                                        </figure>
+                                      </div>
+                                      <div type="div3" rend="DH-Heading3">
+                                        <head>Auswirkungen beim Hinzufügen von Noise </head>
+                                        <p>Aus einer Noise-Datei mit &gt;18.000 mittelhochdeutschen und altfranzösischen Wortformen ohne Duplikate werden die Ratetexte prozentual aufsteigend randomisiert: Teile der bag-of-words werden gegen fremdes Sprachmaterial ausgetauscht, um Fehler in der Überlieferungskette zu simulieren. Die Kurve verläuft nicht konstant linear, da für jede bag-of-words-Berechnung erneut Noise randomisiert hinzugefügt wird (hier 10 Iterationen pro Einzelwert; 1.179.360 Delta-Berechnungen).</p>
+                                        <figure>
+                                          <graphic n="10015" width="11.41236111111111cm" height="6.5057833333333335cm" url="0010-15.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 15</hi>: Noise bei normalisierten</p>
+                                        </figure>
+                                        <figure>
+                                          <graphic n="10016" width="11.41236111111111cm" height="6.5057833333333335cm" url="0010-16.png" rend="inline"/>
+                                          <p rend="figure"><hi rend="bold">Abb. 16</hi>: Noise bei nicht-normalisierten</p>
+                                        </figure>
+                                        <p>Beim Test der Vektorlänge (vgl. 3.2.1.) bleiben die Erkennungsquoten bei
+                                          normalisierten Ratetexten sehr gut bis 200–900 MFWs. Bei den
+                                          nicht-normalisierten Texten sind die Quoten nur für einen kleineren
+                                          Bereich sehr gut: für 100–600 MFWs. Bei einer Begrenzung der Textlänge
+                                          (Cutoff; vgl. 3.2.2.) bleiben die Ergebnisse bei normalisierten Texten
+                                          nur ab 4000 Wörtern Textlänge weitgehend gut bis sehr gut. Schlecht
+                                          sieht es bei den nicht-normalisierten Texten aus: Sehr gut ist die Quote
+                                          nur bei 800 MFWs und 5000 Wörtern, ansonsten weithin desaströs.
+                                          Bag-of-words (vgl. 3.2.3.) bieten dagegen stabilere Ergebnisse: Bei den
+                                          normalisierten Texten sind bei einer Textlänge von 5000 die Quoten sehr
+                                          gut bei 400-800 MFWs. Bei den nicht-normalisierten Texten ist die Quote
+                                          wiederum nur bei Textlänge 5000 und 800 MFWs sehr gut. Bei kürzeren
+                                          Texten und anderen Frequenzen verschlechtern sich die Quoten massiv,
+                                          allerdings bleiben sie noch deutlich besser als beim Cutoff-Test. Bei
+                                          normalisierten Texten werden durch das Eliminieren von Pronomina
+                                          geringfügig bessere Quoten erreicht (vgl. 3.2.4.), bei
+                                          nicht-normalisierten Texten etwas schlechtere Quoten. </p>
+                                          <p>Stabil bleiben die Quoten bei normalisierten Texten nach dem Einbringen
+                                            von Noise (vgl. 3.2.5.): Solange nicht mehr als 17% des Vokabulars
+                                            ausgetauscht wurden, werden die Erkennungsquoten nur etwas schlechter.
+                                            600-800 MFWs liefern sehr gute Erkennungsquoten bis 20%. Auch die Quoten
+                                            bei nicht-normalisierten Texte sind einigermaßen stabil, solange nicht
+                                            mehr als 20% Noise eingebracht werden: Der Bereich von 600-800 MFWs
+                                            liefert bis 9% Noise noch sehr gute und bis 22% noch gute
+                                            Ergebnisse.</p>
+                                            <p>Die Stabilität der Erkennungsquoten gibt Grund zum Optimismus für eine
+                                              Anwendbarkeit bei normalisierten mittelhochdeutschen Texten. Am besten
+                                              geeignet ist der Vektorbereich von 400-800 MFWs bei langen Texten
+                                              mittels bag-of-words. Auch wenn die Ergebnisse für nicht-normalisierte
+                                              Texte etwas zurückfallen, hat mich angesichts der wilden
+                                              mittelhochdeutschen Graphien doch überrascht, dass die Delta-Performanz
+                                              derart robust bleibt. Während jedoch etwa Eder Validierungsstudien mit
+                                              über 60 Texten durchführen konnte, ist es um die digitale Verfügbarkeit
+                                              von längeren mittelhochdeutschen Texten, von denen mindestens zwei Texte
+                                              vom gleichen Autor verfasst wurden, derzeit noch deutlich schlechter
+                                              bestellt. Die Aussagekraft der vorliegenden Studien wird daher durch die
+                                              Korpusgröße v. a. bei den nicht-normalisierten Texten limitiert.</p>
+                                            </div>
+                                          </div>
+                                          <div type="div2" rend="DH-Heading2">
+                                            <head>Noise-Reduktion: Metrik-Delta</head>
+                                            <p>Bei einem weiteren Versuch geht es darum, die Einflüsse von Schreibergraphie
+                                              und Normalisierungsart zu reduzieren, indem nicht der Wortschatz, sondern
+                                              abstraktere Daten verwendet werden: Nach Hirst und Feiguina (2007) erzielen
+                                              Tests auf der Basis von Part-of-Speech–Bigrammen gute Ergebnisse; für das
+                                              Mittelhochdeutsche ist jedoch noch kein Part-of-Speech-Tagger in Sicht. </p>
+                                              <p>2014 habe ich das Metrik-Modul aus meiner Dissertation grundlegend
+                                                überarbeitet, die Fehlerquote reduziert (nun unter 2%) und es ins Internet
+                                                zur freien Benutzung eingestellt (Dimpel 2015). Dieses Modul gibt Kadenzen
+                                                aus (etwa „weiblich klingend“). Die metrische Struktur wird mit „0“
+                                                (unbetonte Silben) und „1“ (betonte Silben) ausgegeben; der dritte
+                                                ‚Parzival‘-Vers hat das Muster „01010011“. Anstatt mit MFWs habe ich
+                                                Metrikmuster und Kadenzinformationen verwendet und so die Metrikdaten als
+                                                „Worte“ testen lassen. Da ein weniger variationsreiches Ausgangsmaterial
+                                                verwendet wird, habe ich wie Hirst und Feiguina (2007) mit Bigrammen
+                                                gearbeitet. </p>
+                                                <figure>
+                                                  <graphic n="10017" width="12.964583333333334cm" height="12.1567cm" url="0010-17.png" rend="inline"/>
+                                                  <p rend="figure"><hi rend="bold">Abb. 17</hi>: Clusteranalyse auf Basis von
+                                                  Metrik-Bigrammen</p>
+                                                </figure>
+                                                <p>Auch ein Metrik-Delta-Plot mit Stylo-R clustert Autoren hier fehlerlos. Validierungstests sind bislang nur mit einem kleineren Korpus möglich, da das Metrikmodul Längenzeichen benötigt und nur für Texte mit vierhebigen Reimpaarversen konstruiert ist. Bei 13 Ratedateien und 11 Validierungsdateien ergibt sich bei 250–300 „MFWs“ eine Erkennungsquote von 92,3%. Ein erfreuliches Ergebnis: (1) Bei Tests auf Grundlage von Metrik-Daten ist eine etwas geringere Abhängigkeit von Schreibergraphie und von Normalisierungsgewohnheiten gegeben. Zwar hat es mitunter metrische Eingriffe der Herausgeber gegeben, aber längst nicht immer. Wenn ein Herausgeber aus metrischen Gründen lieber das Wort „unde“ statt „unt“ verwendet, dann geht in den Metrik-Delta ein ähnlicher Fehler wie in den konventionellen Delta-Test ein. Immerhin immunisieren Metrik-Daten gegen Graphie-Varianten wie „und“ oder „unt“. (2) Zudem kann Autorschaft offenbar nicht nur mit dem vergleichsweise einfachen Parameter MFWs dargestellt werden: Nicht nur eine pure Wortstatistik führt zum Ziel, vielmehr erweist sich auch die Kompetenz zum philologischen Programmieren und zur filigranen Textanalyse als fruchtbar. (3) Bei der metrischen Struktur handelt es sich um ein Stilmerkmal, das Autoren oft intentional kunstvoll gestalten. Während es als communis opinio gilt, dass vor allem die unbewussten Textmerkmale wie MFWs autorspezifisch sind, gelingt es nun auch über ein wohl oft bewusst gestaltetes Stilmerkmal, Autorschaft zu unterscheiden. Man muss also den Dichtern nicht nur einen unbewussten stilistischen Fingerabdruck zutrauen, vielmehr lässt sich Autorschaft zumindest hier über ein Merkmal erfassen, das dem bewussten künstlerischen Zugriff unterliegen kann.</p>
+                                              </div>
+                                            </div>
+                                            <div type="div1" rend="DH-Heading1">
+                                              <head>Stilometrie interdisziplinär: Merkmalsselektion zur Differenzierung zwischen Übersetzer- und Fachvokabular</head>
+                                              <div type="div2" rend="DH-Heading2">
+                                                <head>Einleitung</head>
+                                                <p>Stilometrie ist der Versuch, sprachliche Besonderheiten durch statistische
+                                                  Methoden herauszustellen und zu vergleichen, um damit unter anderem
+                                                  Rückschlüsse auf die Urheberschaft eines Textes ziehen zu können. Als
+                                                  probates Mittel bei der Autorschaftsattribuierung hat sich die Analyse der
+                                                  Verwendung der häufigsten Wörter bewährt. Insbesondere Varianten des von
+                                                  Burrows (2002) vorgeschlagenen Deltamaßes haben sich als sehr erfolgreich
+                                                  erwiesen (Hoover 2004a; Eder / Rybicki 2011). Faktoren der Zusammensetzung
+                                                  des Textkorpus, die sich negativ auf die Qualität der Ergebnisse auswirken
+                                                  können, sind unter anderem zu kurze Texte (Eder 2015), unterschiedliche
+                                                  Genres der Texte (Schöch 2013) und eine Überlagerung von Autor- und
+                                                  Übersetzerstilen (Rybicki 2012). Gerade inhaltliche Unterschiede zwischen
+                                                  Texten stellen ein Hindernis bei der Erkennung der Autoren dar, das nur mit
+                                                  erheblichem technischen Aufwand überwunden werden kann (Stamatatos et al.
+                                                  2000; Kestemont et al. 2012).</p>
+                                                  <p>In unserem Beitrag verwenden wir Deltamaße zur Identifikation von Übersetzern. Textgrundlage ist eine Sammlung von im 12. Jahrhundert entstandenen arabisch-lateinischen Übersetzungen wissenschaftlicher Texte aus verschiedenen Disziplinen. Wir zeigen eine Möglichkeit auf, wie die aus den oben genannten Faktoren resultierenden Limitierungen durch den Einsatz maschineller Lernverfahren kompensiert werden können. Gleichzeitig eröffnet sich dadurch eine Möglichkeit, unter den häufigsten Wörtern solche zu identifizieren, die eher Informationen zum Übersetzer oder eher zur Disziplin tragen.</p>
+                                                </div>
+                                                <div type="div2" rend="DH-Heading2">
+                                                  <head>Das Korpus</head>
+                                                  <p>Die hier verwendete Textsammlung wurde mit dem philologischen Ziel angelegt,
+                                                    die Übersetzer zu identifizieren, die im 12. Jahrhundert eine Vielzahl von
+                                                    Texten aus dem Arabischen ins Lateinische übertragen und damit in den
+                                                    verschiedensten Disziplinen die weitere Entwicklung der europäischen
+                                                    Wissenschaften nachhaltig beeinflusst haben (Hasse / Büttner in
+                                                    Vorbereitung)<ref type="note" target="n01" n="1">1
+                                                  </ref>. Es handelt sich dabei um Texte unterschiedlicher Autoren aus den
+                                                  Bereichen Philosophie, Mathematik, Astronomie, Astrologie, Medizin, Geologie
+                                                  und Meteorologie, aber auch um religiöse, magische und alchemistische
+                                                  Traktate, wobei einzelne Texte nicht eindeutig einer Disziplin zugeordnet
+                                                  werden können. Elf der Übersetzer sind namentlich bekannt, fast die Hälfte
+                                                  der Texte ist jedoch nur anonym überliefert. </p>
+                                                  <p>Für die Experimente wird ein Testkorpus so zusammengestellt, dass von jedem
+                                                    Übersetzer und aus jeder Disziplin mindestens drei Texte zur Verfügung
+                                                    stehen. Dieses besteht aus insgesamt 37 Texten von 5 Übersetzern, wobei die
+                                                    Texte aus 4 Disziplinen stammen (siehe Abb. 18). Das daraus resultierende
+                                                    Textkorpus ist nicht balanciert: Die Anzahl der Texte pro Übersetzer ist
+                                                    ungleich verteilt, die Länge der Texte liegt zwischen 500 und fast 200000
+                                                    Wörtern; insgesamt sind die Texte auch deutlich kürzer als diejenigen der
+                                                    oft verwendeten Romankorpora (vgl. etwa Jannidis et al. 2015).</p>
+                                                    <figure>
+                                                      <graphic n="10018" width="16cm" height="5.944cm" url="0010-18.png" rend="inline"/>
+                                                      <p rend="figure"><hi rend="bold">Abb. 18</hi>: Verteilung der Textlängen, Übersetzer und
+                                                      Disziplinen im verwendeten Teilkorpus</p>
+                                                    </figure>
+                                                    <p>Weitere, die Analyse erschwerende Faktoren sind Doppelübersetzungen desselben
+                                                      Originaltextes durch zwei Übersetzer und die – historisch nicht völlig klar
+                                                      belegte – Zusammenarbeit einiger Übersetzer. Auf der anderen Seite sind die
+                                                      unterschiedlichen Disziplinen prinzipiell klarer und eindeutiger
+                                                      unterscheidbar als literarische Subgenres in Romankorpora.</p>
+                                                    </div>
+                                                    <div type="div2" rend="DH-Heading2">
+                                                      <head>Methoden</head>
+                                                      <div type="div3" rend="DH-Heading3">
+                                                        <head>Delta-Maße</head>
+                                                        <p>Ausgehend von Burrows ursprünglichem Deltamaß (Burrows 2002) wurde eine
+                                                          ganze Reihe von Deltamaßen für die Autorschaftszuschreibung
+                                                          vorgeschlagen (bspw. Hoover 2004b, Argamon 2008, Smith / Aldridge 2011,
+                                                          Eder et al. 2013). Alle Maße operieren auf einer Term-Dokument-Matrix
+                                                          der <hi rend="italic">n</hi> häufigsten Terme im Korpus, die die
+                                                          relativen Häufigkeiten der Terme in den einzelnen Dokumenten enthält. In
+                                                          einem ersten Schritt werden die relativen Häufigkeiten der Terme
+                                                          standardisiert (üblicherweise durch eine <hi rend="italic"
+                                                          >z</hi>-Transformation) um die Größenordnungsunterschiede, die sich
+                                                          durch die Zipfsche Verteilung der Worthäufigkeiten ergeben, zu
+                                                          beseitigen. Im optionalen zweiten Schritt können die Dokumentvektoren
+                                                          normalisiert, d. h. auf Länge 1 gebracht werden. Im dritten Schritt wird
+                                                          die Ähnlichkeit zwischen zwei Dokumentvektoren durch ein Ähnlichkeits-
+                                                          oder Abstandsmaß bestimmt (bei Burrows Delta wird bspw. die
+                                                          Manhattan-Distanz verwendet, bei Kosinus-Delta der Kosinus des Winkels
+                                                          zwischen den beiden Dokumentvektoren). Auf Basis der so erhaltenen
+                                                          Ähnlichkeitswerte können die Dokumente dann geclustert werden, wobei
+                                                          idealerweise Texte desselben Autors im selben Cluster landen. </p>
+                                                          <p>Für die folgenden Experimente verwenden wir Kosinus-Delta, das sich unter
+                                                            anderem bei Jannidi, Pielström, Schöch und Vitt (2015) sowie Evert,
+                                                            Proisel und Jannidis et al. (2015) als das robusteste Mitglied der
+                                                            Delta-Familie erwiesen hat.</p>
+                                                          </div>
+                                                          <div type="div3" rend="DH-Heading3">
+                                                            <head>Rekursive Merkmalseliminierung</head>
+                                                            <p>Rekursive Merkmalseliminierung (recursive feature elimination, RFE) ist
+                                                              eine von Guyon, Weston, Barnhill und Vapnik (2002) vorgeschlagene
+                                                              Methode zur Selektion einer möglichst kleinen Teilmenge von Merkmalen,
+                                                              mit der trotzdem möglichst optimale Ergebnisse mit einem überwachten
+                                                              maschinellen Lernverfahren erzielt werden können. Evert, Proisel und
+                                                              Jannidis et al. (2015) experimentieren zur Autorschaftszuschreibung mit
+                                                              durch RFE ermittelten Termen als Alternative zu den üblichen <hi
+                                                              rend="italic">n</hi> häufigsten Termen. </p>
+                                                              <p>Da RFE auf einem überwachten Lernverfahren (üblicherweise einem
+                                                                <hi rend="italic">Support Vector Classifier</hi>) basiert, müssen zumindest für eine Teilmenge der Dokumente die wahren Autoren bzw. Übersetzer bekannt sein. Das rekursive Verfahren trainiert zunächst den Klassifikator auf allen Merkmalen (Termen), wobei den einzelnen Merkmalen Gewichte zugeordnet werden. Anschließend werden die
+                                                                <hi rend="italic">k</hi> Merkmale mit den niedrigsten absoluten Gewichten entfernt (
+                                                                <hi rend="italic">pruning</hi>). Die Schritte Training und
+                                                                <hi rend="italic">pruning</hi> werden nun auf den verbleibenden Merkmalen so lange wiederholt, bis die gewünschte Anzahl von Merkmalen übrigbleibt. Alternativ kann durch Kreuzvalidierung die optimale Merkmalsmenge bestimmt werden.
+                                                              </p>
+                                                              <p>In den folgenden Experimenten kombinieren wir beide Varianten und verkleinern die Merkmalsmenge (also die Menge der verwendeten Wörter) zunächst schrittweise auf die 500 besten Merkmale, um anschließend die optimale Merkmalsmenge zu bestimmen.</p>
+                                                            </div>
+                                                          </div>
+                                                          <div type="div2" rend="DH-Heading2">
+                                                            <head>Experimente</head>
+                                                            <p>Zunächst führen wir mit dem Testkorpus einige Versuche zur Anpassung der
+                                                              stilometrischen Methoden durch. Als Maß der Qualität des Clusterings dient
+                                                              dabei der <hi rend="italic">Adjusted Rand Index (ARI)</hi>, der zwischen -1
+                                                              und 1 liegen kann. Ein vollständig korrektes Clustering erhält einen ARI von
+                                                              1, eine zufällige Gruppierung der Elemente einen ARI um 0, und negative
+                                                              Werte weisen auf ein Clustering hin, das schlechter als zufällig ist. Wie in
+                                                              Abbildung 19 dargestellt, wird bei Verwendung von Kosinus-Delta der höchste
+                                                              ARI für das Clustering der Übersetzer bereits bei etwa 300–400 der
+                                                              häufigsten Wörter erreicht, bei über 1000 Wörtern fällt das Qualitätsmaß
+                                                              stark ab. Ein Clustering nach Disziplinen hingegen erreicht bei ca. 500–700
+                                                              Wörtern die besten Ergebnisse. Es fällt auf, dass zum einen die besten
+                                                              Ergebnisse mit viel kleineren Wortmengen erreicht werden als bei Studien zur
+                                                              Autorschaftszuschreibung, und dass zum anderen die Ergebnisse deutlich
+                                                              schlechter sind. </p>
+                                                              <figure>
+                                                                <graphic n="10019" width="16cm" height="12.56cm" url="0010-19.png" rend="inline"/>
+                                                                <p rend="figure"><hi rend="bold">Abb. 19</hi>: Clusteringqualität in Abhängigkeit von der
+                                                                Anzahl der häufigsten Wörter</p>
+                                                              </figure>
+                                                              <p>Da das Hauptziel eine korrekte Zuordnung der Übersetzer ist, soll die Menge der 500 häufigsten Wörter (im Folgenden
+                                                                <hi rend="italic">MFW500</hi>), mit der ein ARI<hi rend="subscript">Ü</hi> von 0,437 erreicht wird, als Vergleichsmaßstab für die weiteren Versuche dienen. Für ein Clustering nach Disziplinen wird mit diesen Wörtern ein ARI<hi rend="subscript">D</hi> von 0.696 erreicht.
+                                                              </p>
+                                                              <figure>
+                                                                <graphic n="10020" width="16cm" height="9.48cm" url="0010-20.png" rend="inline"/>
+                                                                <p rend="figure"><hi rend="bold">Abb. 20</hi>: Dendrogramm für das Clustering mit MFW500,
+                                                                Einfärbung nach Übersetzern</p>
+                                                              </figure>
+                                                              <p>Durch RFE wählen wir aus der Gesamtmenge weniger als 500 Wörter aus. Mit 483 Wörtern ist eine perfekte Klassifikation nach Übersetzern möglich. Wenig überraschend erzielen wir mit diesen Wörtern auch ein perfektes Clustering der Texte nach Übersetzern (ARI<hi rend="subscript">Ü</hi> = 1,0). Auch für die Disziplinen lässt sich eine Menge von 475 Wörtern finden, bei der die Texte sich perfekt aufteilen lassen (ARI<hi rend="subscript">D</hi> = 1,0). Da die durch RFE bestimmten Wörter teilweise sehr spezifisch sind und dadurch zu befürchten ist, dass Merkmale selektiert werden, die jeweils nur zwei Texte aneinander binden oder voneinander trennen, wählen wir aus den für die Übersetzer RFE-selektierten Merkmalen diejenigen aus, die auch in MFW500 enthalten sind. Mit diesen 68 Wörtern ist immer noch eine sehr gute, wenn auch nicht perfekte Unterscheidung der Übersetzer möglich (ARI<hi rend="subscript">Ü</hi> = 0,910). Disziplinen lassen sich mit diesen Merkmalen nur sehr schlecht unterscheiden (ARI<hi rend="subscript">D</hi> = 0,162).
+                                                            </p>
+                                                            <figure>
+                                                              <graphic n="10021" width="16cm" height="9.48cm" url="0010-21.png" rend="inline"/>
+                                                              <p rend="figure"><hi rend="bold">Abb. 21</hi>: Dendrogramm für das Clustering mit der
+                                                              Schnittmenge aus RFE und MFW500, Einfärbung nach Übersetzern</p>
+                                                            </figure>
+                                                            <p>Die Analyse der
+                                                              <hi rend="italic">z</hi>-Werte dieser Wörter zeigt, dass diese überwiegend bei nur einem einzigen Übersetzer besonders häufig sind. Sie lassen sich deshalb zu dem Übersetzer gruppieren, in dessen Texten der Mittelwert dieser z-Werte am höchsten ist, wodurch sich für jeden Übersetzer eine Liste von spezifischen bevorzugten Wörtern ergibt.
+                                                            </p>
+                                                            <figure>
+                                                              <graphic n="10022" width="16cm" height="8.32cm" url="0010-22.png" rend="inline"/>
+                                                              <p rend="figure"><hi rend="bold">Abb. 22</hi>: Heatmap der <hi rend="italic">z</hi>-Werte aus
+                                                              der Schnittmenge von RFE und MFW500 </p>
+                                                            </figure>
+                                                            <p>Die 432 Wörter aus MFW500, die in der Menge der RFE-selektierten Wörter nicht enthalten sind, unterscheiden, wie erwartet, deutlich schlechter zwischen Übersetzern (ARI<hi rend="subscript">Ü</hi> = 0,222), dafür aber sehr gut zwischen Disziplinen (ARI<hi rend="subscript">D</hi> = 0,727) – überraschenderweise sogar deutlich besser als alle 500 Wörter aus MFW500.
+                                                          </p>
+                                                          <figure>
+                                                            <graphic n="10023" width="16cm" height="9.48cm" url="0010-23.png" rend="inline"/>
+                                                            <p rend="figure"><hi rend="bold">Abb. 23</hi>: Dendrogramm für das Clustering mit der
+                                                            Differenzmenge aus MFW500 und RFE, Einfärbung nach Disziplinen</p>
+                                                          </figure>
+                                                          <p>Bei den Disziplinen erzielt die Schnittmenge der dafür mit RFE ausgewählten Wörter mit MFW500 sogar perfekte Ergebnisse (Anzahl der Merkmale: 109, ARI=1,0). Die Differenzmenge zeigt hier allerdings nicht den oben beschriebenen Effekt. Zwar ist die Clusteringqualität nach Disziplinen deutlich schlechter als der mit MFW500 erzielte Wert (ARI<hi rend="subscript">D</hi> = 0,384), die nach Übersetzern aber ebenfalls (ARI<hi rend="subscript">Ü</hi> = 0,198).
+                                                        </p>
+                                                        <p>Um die Robustheit der Ergebnisse zu prüfen und insbesondere gegen ein Overfitting durch das RFE-Verfahren abzusichern, kann das bisher Beschriebene mit einem in ein Trainingsset und ein Testset aufgeteilten Korpus wiederholt werden, wobei die RFE-selektierten Wörter aus dem Trainingsset bestimmt und im Testset getestet werden. Dabei lassen sich die mit dem Gesamtkorpus beschriebenen Effekte reproduzieren, wenn auch – aufgrund der dann sehr kleinen Textanzahl – in schwächerer Ausprägung. </p>
+                                                      </div>
+                                                      <div type="div2" rend="DH-Heading2">
+                                                        <head>Ergebnisse</head>
+                                                        <p>Durch die Experimente wurde gezeigt, dass sich die Menge der
+                                                          <hi rend="italic">n</hi> häufigsten Wörter, die üblicherweise zur Autorschaftszuschreibung verwendet wird, so in zwei Teilmengen partitionieren lässt, dass die eine die Identifikation der Übersetzer der Texte besser ermöglicht als die Gesamtmenge, während die Wörter aus der anderen Teilmenge zur Identifizierung von Disziplinen verwendet werden können. Die rekursive Merkmalseliminierung erwies sich dabei als wirksames Mittel zur Differenzierung zwischen den zur Bestimmung des Verfassers relevanten und den durch die unterschiedlichen Inhalte der Texte bedingten Merkmalen. Darüber hinaus bietet eine solche Kondensierung der Wortliste die Chance, von einer aus philologischer Sicht undurchschaubaren statistischen Maschinerie zu tatsächlich durch den Leser der Texte intuitiv nachvollziehbaren Kriterien zu gelangen.
+                                                        </p>
+                                                        <p>Weitere Experimente in diesem Kontext werden dem Versuch dienen, die unterscheidenden Wörter besser zu charakterisieren, sodass idealerweise auch ohne maschinelles Lernen eine Auswahl der Merkmale möglich wird. Zudem steht eine Anwendung der Methode auf andere Textkorpora aus.</p>
+                                                      </div>
+                                                    </div>
+                                                  </body>
+                                                  <back>
+                                                    <div type="Notes">
+                                                      <note xml:id="n01" n="1">Siehe hierzu auch die Projekthomepage des
+                                                        Digital Humanities-Zentrums KALLIMACHOS der Universität Würzburg
+                                                        <ref target="http://kallimachos.de/kallimachos/index.php/Identifikation_von_%C3%9Cbersetzern">http://kallimachos.de/kallimachos/index.php/Identifikation_von_Übersetzern</ref>.</note>
+                                                      </div>
+                                                      <div type="bibliogr">
+                                                        <listBibl>
+                                                          <head>Bibliographie</head>
+                                                          <bibl>
+                                                            <hi rend="bold">Argamon, Shlomo</hi> (2008): "Interpreting Burrows’s Delta:
+                                                            Geometric and Probabilistic Foundations", in: <hi rend="italic">Literary and
+                                                            Linguistic Computing</hi> 23, 2: 131–47. <ref
+                                                            target="http://dx.doi.org/10.1093/llc/fqn003">10.1093/llc/fqn003</ref>. </bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Baeza-Yates, Ricardo / Ribeiro-Neto, Berthier</hi> (1999):
+                                                              <hi rend="italic">Modern Information Retrieval</hi>. Harlow:
+                                                              Addison-Wesley.</bibl>
+                                                              <bibl>
+                                                                <hi rend="bold">Burrows, John</hi> (2002): "‘Delta’: A Measure of Stylistic
+                                                                Difference and a Guide to Likely Authorship", in: <hi rend="italic">Literary
+                                                                and Linguistic Computing</hi> 17, 3: 267–87. <ref
+                                                                target="http://dx.doi.org/10.1093/llc/17.3.267"
+                                                                >10.1093/llc/17.3.267</ref>. </bibl>
+                                                                <bibl>
+                                                                  <hi rend="bold">Dimpel, Friedrich Michael</hi> (2015): "Automatische
+                                                                  Mittelhochdeutsche Metrik 2.0", in: <hi rend="italic">Philologie im
+                                                                  Netz</hi> 73: 1–26 <ref
+                                                                  target="http://web.fu-berlin.de/phin/phin73/p73i.htm"
+                                                                  >http://web.fu-berlin.de/phin/phin73/p73i.htm</ref> [letzter Zugriff 26.
+                                                                  Januar 2016].</bibl>
+                                                                  <bibl>
+                                                                    <hi rend="bold">Eder, Maciej</hi> (2013a): "Mind Your Corpus: systematic
+                                                                    errors in authorship attribution", in: <hi rend="italic">Literary and
+                                                                    Linguistic Computing</hi> 28: 603-614. <ref
+                                                                    target="http://dx.doi.org/10.1093/llc/fqt039">10.1093/llc/fqt039</ref>. </bibl>
+                                                                    <bibl>
+                                                                      <hi rend="bold">Eder, Maciej</hi> (2013b): "Does size matter? Authorship
+                                                                      attribution, small samples, big problem", in: <hi rend="italic">Literary and
+                                                                      Linguistic Computing Advanced Access</hi> 29: 1-16. <ref
+                                                                      target="http://dx.doi.org/10.1093/llc/fqt066">10.1093/llc/fqt066</ref>. </bibl>
+                                                                      <bibl>
+                                                                        <hi rend="bold">Eder, Maciej</hi> (2015): "Does size matter? Authorship
+                                                                        attribution, small samples, big problem", in: <hi rend="italic">Digital
+                                                                        Scholarship Humanities</hi> 30, 2: 167–182. <ref
+                                                                        target="http://dx.doi.org/10.1093/llc/fqt066"
+                                                                        >10.1093/llc/fqt066</ref>.</bibl>
+                                                                        <bibl>
+                                                                          <hi rend="bold">Eder, Maciej / Kestemont, Mike / Rybicki, Jan</hi> (2013):
+                                                                          "Stylometry with R: a suite of tools", in: <hi rend="italic">Digital
+                                                                          Humanities 2013: Conference Abstracts</hi>. Lincoln: University of
+                                                                          Nebraska 487–489 <ref target="http://dh2013.unl.edu/abstracts/ab-136.html">
+                                                                          http://dh2013.unl.edu/abstracts/ab-136.html</ref> [letzter Zugriff 26.
+                                                                          Januar 2016].</bibl>
+                                                                          <bibl>
+                                                                            <hi rend="bold">Eder, Maciej / Kestemont, Mike / Rybicki, Jan</hi>(2015):
+                                                                            "stylo R package" <ref
+                                                                            target="https://sites.google.com/site/computational-stylistics/stylo"
+                                                                            >https://sites.google.com/site/computational-stylistics/stylo</ref>
+                                                                            [letzter Zugriff 20. März 2015]. </bibl>
+                                                                            <bibl>
+                                                                              <hi rend="bold">Eder, Maciej / Rybicki, Jan</hi> (2011): "Deeper Delta
+                                                                              across genres and languages: do we really need the most frequent words?",
+                                                                              in: <hi rend="italic">Literary and Linguistic Computing</hi> 26, 3: 315–321.
+                                                                              <ref target="http://dx.doi.org/10.1093/llc/fqr031">10.1093/llc/fqr031
+                                                                              </ref>. </bibl>
+                                                                              <bibl>
+                                                                                <hi rend="bold">Evert, Stefan / Proisl, Thomas / Jannidis, Fotis /
+                                                                                  Pielström, Steffen / Schöch, Christof / Vitt, Thorsten</hi> (2015):
+                                                                                  "Towards a better understanding of Burrows’s Delta in literary authorship
+                                                                                  attribution", in: <hi rend="italic">Proceedings of the Fourth Workshop on
+                                                                                  Computational Linguistics for Literature</hi>, Denver 79–88. <ref
+                                                                                  target="http://dx.doi.org/10.5281/zenodo.18177"
+                                                                                  >10.5281/zenodo.18177</ref>. <ref
+                                                                                  target="http://www.aclweb.org/anthology/W/W15/W15-0709.pdf">
+                                                                                  http://www.aclweb.org/anthology/W/W15/W15-0709.pdf </ref> [letzter
+                                                                                  Zugriff 20. August 2015]. </bibl>
+                                                                                  <bibl>
+                                                                                    <hi rend="bold">Guyon, Isabelle / Weston, Jason / Barnhill, Stephen /
+                                                                                      Vapnik, Vladimir</hi> (2002): "Gene Selection for Cancer Classification
+                                                                                      using Support Vector Machines", in: <hi rend="italic">Machine Learning</hi>
+                                                                                      46, 1: 389–422. <ref target="http://dx.doi.org/10.1023/A:1012487302797">
+                                                                                      10.1023/A:1012487302797 </ref>. </bibl>
+                                                                                      <bibl>
+                                                                                        <hi rend="bold">Hasse, Dag Nikolaus / Büttner, Andreas</hi> (in
+                                                                                        Vorbereitung): "Notes on the Identity of the Latin Translator of Avicenna’s
+                                                                                        Physics and on Further Anonymous Translations in Twelfth-Century Spain."
+                                                                                        Vorabversion: <ref target="https://go.uniwue.de/hassevigoni">
+                                                                                        https://go.uniwue.de/hassevigoni</ref> [letzter Zugriff 17. Februar
+                                                                                        2016]. </bibl>
+                                                                                        <bibl>
+                                                                                          <hi rend="bold">Hirst, Graeme / Feiguina, Ol’ga</hi> (2007): "Bigrams of
+                                                                                          Syntactic Labels for Authorship Discrimination of Short Texts", in: <hi
+                                                                                          rend="italic">Literary and Linguistic Computing Advance Access</hi> 22:
+                                                                                          1–13. <ref target="http://dx.doi.org/10.1093/llc/fqm023"
+                                                                                          >10.1093/llc/fqm023</ref>. </bibl>
+                                                                                          <bibl>
+                                                                                            <hi rend="bold">Hoover, David L</hi>. (2004a): "Testing Burrows’s Delta",
+                                                                                            in: <hi rend="italic">Literary and Linguistic Computing</hi> 19, 4: 453–475.
+                                                                                            <ref target="http://dx.doi.org/10.1093/llc/19.4.453">
+                                                                                              10.1093/llc/19.4.453 </ref>. </bibl>
+                                                                                              <bibl>
+                                                                                                <hi rend="bold">Hoover, David L</hi>. (2004b): "Delta Prime?", in: <hi
+                                                                                                rend="italic">Literary and Linguistic Computing</hi> 19, 4: 477–495.
+                                                                                                <ref target="http://dx.doi.org/10.1093/llc/19.4.477">
+                                                                                                  10.1093/llc/19.4.477 </ref>. </bibl>
+                                                                                                  <bibl>
+                                                                                                    <hi rend="bold">Jannidis, Fotis / Lauer, Gerhard </hi>(2014): "Burrows’s
+                                                                                                    Delta and Its Use in German Literary History", in: Erlin, Matt / Tatlock,
+                                                                                                    Lynne (eds.): <hi rend="italic">Distant Readings.</hi> Topologies of German
+                                                                                                    Culture in the Long Nineteenth Century. Rochester / New York: Camden House
+                                                                                                    29–54. </bibl>
+                                                                                                    <bibl>
+                                                                                                      <hi rend="bold">Jannidis, Fotis / Pielström, Steffen / Schöch, Christof /
+                                                                                                        Vitt, Thorsten</hi> (2015): "Improving Burrows’ Delta - An Empirical
+                                                                                                        Evaluation of Text Distance Measures", in: <hi rend="italic">Digital
+                                                                                                        Humanities Conference 2015</hi>, Sydney <ref
+                                                                                                        target="http://dh2015.org/abstracts/xml/JANNIDIS_Fotis_Improving_Burrows__Delta___An_empi/JANNIDIS_Fotis_Improving_Burrows__Delta___An_empirical_.html"
+                                                                                                        >
+                                                                                                        http://dh2015.org/abstracts/xml/JANNIDIS_Fotis_Improving_Burrows__Delta___ An_empi/JANNIDIS_Fotis_Improving_Burrows__Delta ___An_empirical_.html</ref>
+                                                                                                        [letzter Zugriff 26. Januar 2016].</bibl>
+                                                                                                        <bibl>
+                                                                                                          <hi rend="bold">Juola, Patrick</hi> (2006): "Authorship Attribution", in:
+                                                                                                          <hi rend="italic">Foundations and Trends in Information Retrieval</hi>
+                                                                                                          1, 3: 233–334. </bibl>
+                                                                                                          <bibl>
+                                                                                                            <hi rend="bold">Kestemont, Mike / Luyckx, Kim / Daelemans, Walter / Crombez,
+                                                                                                              Thomas</hi> (2012): "Cross-Genre Authorship Verification Using
+                                                                                                              Unmasking", in: <hi rend="italic">English Studies</hi> 93, 3: 340–356. <ref
+                                                                                                              target="http://dx.doi.org/10.1080/0013838X.2012.668793">
+                                                                                                              10.1080/0013838X.2012.668793 </ref>. </bibl>
+                                                                                                              <bibl>
+                                                                                                                <hi rend="bold">Mosteller, Frederick / Wallace, David L.</hi> (1963):
+                                                                                                                "Inference in an Authorship Problem", in: <hi rend="italic">Journal of the
+                                                                                                                American Statistical Association</hi> 58, 302: 275–309. <ref
+                                                                                                                target="http://dx.doi.org/10.2307/2283270">10.2307/2283270</ref>.</bibl>
+                                                                                                                <bibl><hi rend="bold">Rybicki, Jan</hi> (2012): "The great mystery of the
+                                                                                                                (almost) invisible translator: stylometry in translation", in: Oakley,
+                                                                                                                Michael P. / Ji, Meng (eds.): <hi rend="italic">Quantitative Methods in
+                                                                                                                Corpus-Based Translation Studies</hi>. Amsterdam: John Benjamins 231–248
+                                                                                                                <ref
+                                                                                                                  target="https://sites.google.com/site/computationalstylistics/preprints/Rybicki%20Great%20Mystery.pdf"
+                                                                                                                  >
+                                                                                                                  https://sites.google.com/site/computationalstylistics/preprints/Rybicki%20Great%20Mystery.pdf</ref>
+                                                                                                                  [letzter Zugriff 26. Januar 2016].</bibl>
+                                                                                                                  <bibl>
+                                                                                                                    <hi rend="bold">Schöch, Christof</hi> (2013): "Fine-Tuning our Stylometric
+                                                                                                                    Tools: Investigating Authorship and Genre in French Classical Drama", in:
+                                                                                                                    <hi rend="italic">Digital Humanities 2013: Conference Abstracts</hi>.
+                                                                                                                    Lincoln: University of Nebraska 383–386 <ref
+                                                                                                                    target="http://dh2013.unl.edu/abstracts/ab-270.html">
+                                                                                                                    http://dh2013.unl.edu/abstracts/ab-270.html</ref> [letzter Zugriff 26.
+                                                                                                                    Januar 2016].</bibl>
+                                                                                                                    <bibl>
+                                                                                                                      <hi rend="bold">Smith, Peter W. H. / Aldridge, W.</hi> (2011): "Improving
+                                                                                                                      Authorship Attribution: Optimizing Burrows’ Delta Method*", in: <hi
+                                                                                                                      rend="italic">Journal of Quantitative Linguistics</hi> 18, 1: 63–88.
+                                                                                                                      <ref target="http://dx.doi.org/10.1080/09296174.2011.533591">
+                                                                                                                        10.1080/09296174.2011.533591 </ref>. </bibl>
+                                                                                                                        <bibl>
+                                                                                                                          <hi rend="bold">Stamatatos, Efstathios</hi> (2009): "A Survey of Modern
+                                                                                                                          Authorship Attribution Methods", in: <hi rend="italic">Journal of the
+                                                                                                                          Association for Information Science and Technology</hi> 60, 3: 538–56.
+                                                                                                                          <ref target="http://dx.doi.org/10.1002/asi.v60:3"
+                                                                                                                            >10.1002/asi.v60:3</ref>. </bibl>
+                                                                                                                            <bibl>
+                                                                                                                              <hi rend="bold">Stamatatos, Efstathios / Fakotakis, Nikos / Kokkinakis,
+                                                                                                                                George</hi> (2000): "Automatic Text Categorization in Terms of Genre and
+                                                                                                                                Author", in: <hi rend="italic">Computational Linguistics</hi> 26, 4:
+                                                                                                                                471–497. <ref target="http://dx.doi.org/10.1162/089120100750105920">
+                                                                                                                                10.1162/089120100750105920 </ref>. </bibl>
+                                                                                                                                <bibl><hi rend="bold">TextGrid Konsortium</hi> (2006–2015): <hi rend="italic"
+                                                                                                                                >TextGrid</hi>. Virtuelle Forschungsumgebung für die
+                                                                                                                                Geisteswissenschaften. Göttingen: <ref target="https://textgrid.de"
+                                                                                                                                >https://textgrid.de</ref>.</bibl>
+                                                                                                                                <bibl>
+                                                                                                                                  <hi rend="bold">Viehhauser, Gabriel</hi> (2015): "Historische Stilometrie?
+                                                                                                                                  Methodische Vorschläge für eine Annäherung textanalytischer Zugänge an die
+                                                                                                                                  mediävistische Textualitätsdebatte", in: Baum, Constanze / Stäcker, Thomas
+                                                                                                                                  (eds.): <hi rend="italic">Grenzen und Möglichkeiten der Digital Humanities
+                                                                                                                                </hi>(Sonderband der Zeitschrift für digitale Geisteswissenschaften
+                                                                                                                                1).</bibl>
+                                                                                                                              </listBibl>
+                                                                                                                            </div>
+                                                                                                                          </back>
+                                                                                                                        </text>
+                                                                                                                      </TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-014">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Distant-Reading-Showcase: 200 Jahre deutscher Dramengeschichte auf einen Blick</title>
+        <author>
+          <name>
+            <surname>Fischer</surname>
+            <forename>Frank</forename>
+          </name>
+          <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+          <email>frank.fischer@zentr.uni-goettingen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Vogel</surname>
+            <forename>Andreas</forename>
+          </name>
+          <affiliation>Universität Leipzig</affiliation>
+          <email>andrea.uccello@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Göbel</surname>
+            <forename>Mathias</forename>
+          </name>
+          <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+          <email>goebel@sub.uni-goettingen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Trilcke</surname>
+            <forename>Peer</forename>
+          </name>
+          <affiliation>Georg-August-Universität Göttingen</affiliation>
+          <email>trilcke@phil.uni-goettingen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kampkaspar</surname>
+            <forename>Dario</forename>
+          </name>
+          <affiliation>Herzog August Bibliothek Wolfenbüttel</affiliation>
+          <email>kampkaspar@hab.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kittel</surname>
+            <forename>Christopher</forename>
+          </name>
+          <affiliation>Karl-Franzens-Universität Graz</affiliation>
+          <email>c.kittel@edu.uni-graz.at</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T19:58:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Distant Reading</term>
+          <term>Literaturgeschichte</term>
+          <term>Dramatik</term>
+          <term>Netzwerkanalyse</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Datenerkennung</term>
+          <term>Gestaltung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Visualisierung</term>
+          <term>Literatur</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Der Terminus 'Distant Reading' wurde im Jahr 2000 von Franco Moretti geprägt. Ebenfalls auf Moretti zurück geht das Konzept der "Maps, Graphs, Trees" (2005), die Nutzbarmachung verschiedener Visualisierungsmethoden für literaturhistorische Daten. Die Beispiele für die Zusammenführung von Distant-Reading- und Visualisierungs-Ansätzen haben als Hintergrund jedoch fast ausschließlich englischsprachige Korpora.</p>
+      <p>Im Mittelpunkt unseres Distant-Reading-Showcase-Posters steht nun mit der "Digital Bibliothek" das größte deutschsprachige Korpus literarischer Texte. Auf einem einzigen A0-Poster werden die Figurennetzwerke von 465 deutschsprachigen Dramen aus den Jahren 1730 bis 1930 gezeigt. Dabei werden verschiedene semantischen Dimensionen vereint. Zum einen folgt die Positionierung der Dramen chronologisch. Neuralgische Punkte der deutschen Literaturgeschichte werden sofort sichtbar, etwa die Explosion des Figurennetzwerks in Goethes "Götz von Berlichingen" von 1773. Das bekannte Faktum der damals einsetzenden verstärkten Shakespeare-Lektüre wird so auf einen Blick erkennbar und erscheint im Kontext des zeitlichen Davor und Danach.</p>
+      <p>Eine weitere semantische Ebene ist die Abbildung der Figurennetzwerke mit dem clusternden Visualisierungsverfahren Fruchterman–Reingold. Dadurch werden jenseits der Chronologie (teils bisher unbekannte) Gemeinsamkeiten bei der Konstruktion von Dramen über zwei Jahrhunderte hinweg sichtbar. Eine zusätzliche semantische Ebene bilden die Namen tausender Figuren, wie sie die Bühnen und Dramenanthologien zweiter Jahrhunderte bevölkert haben. Dabei fällt nicht nur auf, dass darunter etwa 24 Faust-Figuren sind (inklusive einer weiblichen "Faustine"). Dieses Wimmelbild der deutschen Dramenliteratur ist zugleich ein möglicher Wiedereinsteig ins Close Reading, der zeigt, dass sich Close und Distant Reading nicht ausschließen, sondern ergänzen.</p>
+      <p>Die Vorarbeiten zu diesem Poster wurden bereits in Graz präsentiert (Trilcke et al.
+        2015). Der derzeitige Stand des Projekts erlaubt es uns, auf einem Schaubild die
+        aktuellen Ergebnisse zu verschränken. Dabei möchten wir mit dem Genre 'Poster'
+        (unter Beachtung der Data-Ink Ratio nach Edward Tufte) versuchen, digital betriebene
+        Forschung so ins Zielformat zu übersetzen, dass das Ergebnis als wissenschaftlicher
+        Showcase für das Feld des Distant Reading dienen kann.</p>
+      </body>
+      <back>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl>
+              <hi rend="bold">Moretti, Franco</hi> (2000): "Conjectures on World
+              Literature", in: <hi rend="italic">New Left Review</hi> 1: 54–68.</bibl>
+              <bibl><hi rend="bold">Moretti, Franco</hi> (2005): <hi rend="italic">Maps,
+              Graphs, Trees</hi>. Abstract Models for a Literary History. London / New
+              York: Verso. </bibl>
+              <bibl><hi rend="bold">Trilcke, Peer / Fischer, Frank / Kampkaspar, Dario</hi>
+              (2015): "Digitale Netzwerkanalyse dramatischer Texte (Vortrag)", in: <hi
+              rend="italic">Tagung der Digital Humanities im deutschsprachigen
+              Raum</hi>, Graz. Slides: <ref
+              target="http://gams.uni-graz.at/o:dhd2015.v.040"
+              >http://gams.uni-graz.at/o:dhd2015.v.040</ref>.</bibl>
+            </listBibl>
+          </div>
+        </back>
+      </text>
+    </TEI>

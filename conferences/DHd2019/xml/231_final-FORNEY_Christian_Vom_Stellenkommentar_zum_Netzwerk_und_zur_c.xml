@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="231_final-FORNEY_Christian_Vom_Stellenkommentar_zum_Netzwerk_und_zur_c" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vom Stellenkommentar zum Netzwerk und zurück: grosse Quellenkorpora und tief erschlossene Strukturdaten auf hallerNet</title>
+                <author>
+                    <persName>
+                        <surname>Stuber</surname>
+                        <forename>Martin</forename>
+                    </persName>
+                    <affiliation>Universität Bern, Schweiz</affiliation>
+                    <email>martin.stuber@hist.unibe.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dängeli</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Universität Bern, Schweiz; Cologne Center for eHumanities</affiliation>
+                    <email>p.daengeli@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Forney</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Bern, Schweiz</affiliation>
+                    <email>christian.forney@hist.unibe.ch</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T08:21:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Prosopographie</term>
+                    <term>Netzwerkforschung</term>
+                    <term>Edition</term>
+                    <term>Datenbank</term>
+                    <term>datenzentrierte digitale Editionen</term>
+                    <term>legacy data</term>
+                    <term>Datenmodelle</term>
+                    <term>Datenvisualisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Forschung</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left; ">In Kooperation der Universität Bern und des 
+                <hi rend="italic">Cologne Center for eHumanities</hi> CCeH entsteht seit August 2016 die Editions- und Forschungsplattform 
+                <hi rend="italic">hallerNet</hi>, die im April 2019 veröffentlicht werden soll. Eine Spezialität von 
+                <hi rend="italic">hallerNet</hi> sind die systematischen Verknüpfungen zwischen grossen Quellenkorpora und umfangreichen Metadaten, woraus sich ein grosses Analysepotenzial ergibt, das sich z.B. in explorativen Visualisierungen nutzen lässt.
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Metadaten aus drei Jahrzehnten</head>
+                <p style="text-align:left; ">In 
+                    <hi rend="italic">hallerNet</hi> integriert werden die umfangreichen prosopografischen und bibliografischen Strukturdaten, die in Form einer relationalen Verbunddatenbank seit anfangs der 1990er-Jahre im Rahmen der beiden SNF-Projekte zum Universalgelehrten Albrecht von Haller (1708-1777)<hi rend="superscript">1</hi> und zur aufgeklärten Reformsozietät 
+                    <hi rend="italic">Oekonomische Gesellschaft Bern</hi> (gegr. 1759)<hi rend="superscript">2</hi> erhoben worden waren. Ein mehrjähriges Transformationsprojekt (Kreditvolumen 1.18 Mio CHF) überführt diese untereinander vielfältig verknüpften Daten (vgl. Abb. 1) zu rund 48'000 Publikationen, 25'000 Personen, 20'000 Briefen, 3'000 Orten, 2'900 Pflanzenarten, 1'000 Versammlungen und 850 Institutionen in eine TEI-konforme XML-Datenstruktur (Recker-Hamm / Stuber 2015). Bemerkenswert ist dabei die grosse Tiefe der Metadatenerschliessung, die beispielsweise nicht nur biografische Eckdaten wie Geburts-/Sterbedatum und -ort oder die Hauptbeschäftigung umfasst, sondern die Ausbildungsstationen, Reiseziele, Ämter und Mitgliedschaften usw. einbezieht und auch das Beziehungsnetz (Verwandte, Briefpartner) soweit möglich erfasst.<hi rend="superscript">3</hi> Während die prosopografische Erhebung weitgehend auf biografischen Werken sowie auf edierten Universitätsmatrikeln und Mitgliederlisten von Akademien und Sozietäten basiert, stützen sich die bibliografischen Daten in erster Linie auf zwei autoptisch erarbeitete Grundlagenwerke (Monti 1983-1994, Steinke / Profos 2004).
+                </p>
+                <figure>
+                    <graphic n="1001" width="12.220891666666667cm" height="15.633094444444444cm" url="231_final-a15b0d47653fd9fb681928eb2662b33b.png" rend="inline"/>
+					<head>
+						<lb/>Abb. 1: Die rund 100'000 Metadatenobjekte sind vielfältig verknüpft, sowohl innerhalb des gleichen Entitätstyps als auch typenübergreifend.<hi rend="superscript">4</hi>
+					</head>
+                </figure>
+                <p style="text-align:left; ">Auf der Grundlage der entstehenden Plattform startete anfangs 2018 ein vom 
+                    <hi rend="italic">Schweizerischen Nationalfonds</hi> SNF unterstütztes Editions- und Forschungsprojekt, das im geplanten Projektzeitraum von sechs Jahren zum einen die Gesamtedition der rund 9'000 Buchbesprechungen Albrecht von Hallers erarbeitet. Zum anderen soll eine begründete Auswahl von inhaltlich damit zusammenhängenden rund 8'000 Briefen ediert werden, dies als Zwischenetappe zur längerfristig angestrebten Gesamtedition von Hallers Korrespondenz, die insgesamt rund 17'000 Briefe umfasst.<hi rend="superscript">5</hi> In der systematischen Verknüpfung zweier komplementärer Quellenkorpora der privaten (und tw. im kleinen Kreis öffentlichen) Kommunikation (Briefe) und des öffentlichen Diskurses (Rezensionen) liegt eine erste Innovation der Plattform.<hi rend="superscript">6</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>“Datenzentrierte” versus “textzentrierte” digitale Editionen</head>
+                <p style="text-align:left; ">Auf 
+                    <hi rend="italic">hallerNet</hi> werden die v.a. quantitativen und formalen Bezüge der älteren Forschungsdatenbank mit edierten Textinhalten in Verbindung gesetzt. Die über Jahrzehnte systematisch erhobenen und homogenisierten Metadaten erleichtern die Editionsarbeit erheblich, namentlich die Referenzierung von Entitäten wie Akteure, Orte, Publikationen und Institutionen. In dieser Verbindung tief erschlossener Strukturdaten mit edierten Textinhalten liegt die zweite Innovation der entstehenden Plattform. Bisher sind “datenzentrierte” digitale Editionen die Ausnahme gegenüber den vielen existierenden und sich in Entwicklung befindlichen “textzentrierten” digitalen Editionen. Wo es sie gibt, verfolgen sie zumeist ganz spezifische Forschungsfragen und legen dazu ein entsprechend verengtes Datenmodell zugrunde.<hi rend="superscript">7</hi> Daneben existieren biografische, prosopografische oder bibliografische Datenbanken und Forschungsportale, die sich einzig auf Metadatenerhebung und -analyse konzentrieren.<hi rend="superscript">8</hi> Und schließlich gibt es digitale Editionsportale wie das Nowa Panorama Literatury Polskiej,<hi rend="superscript">9</hi> die relativ dichte biografische Daten erheben, diese aber nicht in strukturierter Form bereitstellen.
+                </p>
+                <p style="text-align:left; ">Selbstredend lagen auch der Datenerfassung in den verschiedenen Projekten um Albrecht von Haller seit den 1990er-Jahren immer spezifische Forschungsinteressen zugrunde. So folgte auf eine erste Phase, welche die Gesamterschliessung von Hallers Korrespondenz (Boschung et al. 2002) mit einer umfassenden prosopografischen Strukturanalyse (Stuber et al. 2005) kombinierte, eine zweite Phase, in der Netzwerkanalysen im Vordergrund standen und die in den Blick genommenen Akteure über Hallers Korrespondenznetz hinaus erweitert wurden (Dauser et al. 2008, Stuber / Krempel 2013). Die dieser Forschung zugrundeliegenden Daten wurden von Anfang an in der gleichen Datenbankanwendung (FAUST) und mit möglichst viel struktureller Homogenität gepflegt, die Datenpublikation erfolgte allerdings fast ausschliesslich in aggregierter Form und auf traditionelle Weise (Druck). Im Zuge der Datentransformation wird durch weitere Homogenisierung und die semantische Auszeichnung nach TEI-Richtlinien eine weitergehende Öffnung der Daten angestrebt, so dass diese auch in anderen Kontexten nutzbar werden.<hi rend="superscript">10</hi> Die Metadaten werden zu diesem Zweck über spezifische Formate wie das CMI-Format bzw. 
+                    <hi rend="italic">CorrespSearch</hi> zugänglich gemacht, daneben aber auch in vollem Umfang parallel im FAIR-Repositorium 
+                    <hi rend="italic">Zenodo</hi> veröffentlicht werden.<hi rend="superscript">11</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Referenzannotation im Zentrum</head>
+                <p style="text-align:left; ">Die Tatsache, dass die Briefe je nach Qualität der vorliegenden Grundlagen auf drei unterschiedliche Arten ediert werden – den Standards genügende Druckeditionen werden re-ediert, bei schlechteren Druckeditionen wird der Rohtext zur Arbeitserleichterung herangezogen, aber intensiv nachbearbeitet, und zuvor nicht edierte Dokumente werden ab dem Original neu ediert –, bedingte auch eine Reflektion über das Wesen der Fussnoten bzw. der Stellenkommentare beim Transfer vom Druck ins Digitale. Aus diesem Prozess resultierte ein Referenzsystem, das drei Annotationstypen vorsieht:</p>
+                <list type="unordered">
+                    <item>Referenzannotationen: Referenzen auf Datenbankobjekte (`&lt;rs key="person_00001"&gt;`), deren lokales Auftreten in einer `&lt;note type="annotRef"&gt;` näher erläutert werden kann</item>
+                    <item>freie Annotationen zum Inhalt (`&lt;note type="annotFree"&gt;`), d.h. inhaltliche Anmerkungen, die nicht in direktem Bezug zu einem bestimmten Datenbankobjekt stehen, sondern z.B. zu einem ganzen Absatz</item>
+                    <item>Annotationen zur Textkonstitution (`&lt;note type="annotText"&gt;`)</item>
+                </list>
+                <p style="text-align:left; ">Während für die letzten beiden Typen die digitale Umsetzung relativ nahe beim Druck bleibt (Anmerkungsziffer mit Tooltip bzw. Verweis zur Anmerkung), bieten die Referenzannotationen mehr Interaktivität und Zugangswege zu den Datenbankdaten. Wir erwarten, dass dieser Anmerkungstyp für künftige Editionen der 
+                    <hi rend="italic">hallerNet</hi>-Plattform noch an Bedeutung gewinnen wird. Es sind dann auch diese Referenzannotationen, die das Rückgrat der Entitätsauszeichnung bilden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Doppelter Zweck der systematischen Entitätsauszeichnung</head>
+                <p style="text-align:left; ">Innerhalb der Plattform verfolgt die Anbindung der digitalen Edition an die systematisierten Objekte der Datenbank einen doppelten Zweck: Zum einen macht sie die Quellentexte über plattformübergreifende Normdaten anschlussfähig zu anderen Ressourcen. Zum anderen lassen sich bei entsprechender Datenmodellierung aus solchen Referenzannotationen grosse Datenmengen für Netzwerkanalysen und räumliche Visualisierungen gewinnen. Diese Daten weisen erstens präzise Beziehungsqualitäten auf, so beispielsweise zum Verhältnis zwischen den Rezensenten und den Verfassern der rezensierten Publikationen. Zweitens sind die Nennungen der referenzierten Entitäten leicht den i.d.R. tagesdatierten Quellen Brief und Rezension zuzuordnen. Die generierten Forschungsdaten liefern damit Präzision sowohl in der raumzeitlichen Entwicklung als auch in der inhaltlichen Qualität der Netzbeziehungen und erlauben daher Antworten auf wichtige Postulate der aktuellen historischen Netzwerkforschung.<hi rend="superscript">12</hi> Dies möchten wir an einigen konkreten Beispiel andeuten. Ausgangspunkt ist die auf 
+                    <hi rend="italic">hallerNet</hi> als Prototyp erstellte digitale Edition der Münchhausen-Haller-Korrespondenz von Otto Sonntag, die ein erweitertes Briefsample von rund 850 Briefen (inkl. Beilagen) umfasst (Sonntag 2019). Dabei werden die vorhandenen prosopografischen Forschungsdaten angereichert mit standardisierten Angaben über soziale Position und Aufenthaltsort sämtlicher in diesem Briefsample erwähnten rund 340 Personen (ca. 1'500 Nennungen) zum Zeitpunkt des entsprechenden Briefdatums. Damit wird diese Korrespondenz als zeitlich und sozial differenzierter Kommunikationsraum darstellbar. Diese Informationen lassen sich einerseits für einzelne edierte Dokumente nutzen, etwa um eine Brieftranskription um eine Akteursliste zu ergänzen, die auch die zum Briefdatum jeweils aktuelle Position der genannten Individuen aufführt. Sie sind aber andererseits vor allem auf aggregierter Ebene interessant, da sich mit verschiedenen Visualisierungsformen bestimmte Interaktionsmuster eruieren lassen.
+                </p>
+                <p style="text-align:left; ">Die DHd-Konferenz fällt zeitlich direkt in die letzte Phase vor dem Launch der Plattform. Nachdem die Encodings der Münchhausen-Briefe in den letzten Monaten erstellt und mit den bestehenden und neuen Datenbankobjekten referenziert wurden, bietet sich bis dahin die Gelegenheit für erste analytische Auswertungen auf der neuen Datengrundlage.</p>
+                <p style="text-align:left; ">Den beschriebenen Visualisierungsformen kommen in vereinfachter Form auf 
+                    <hi rend="italic">hallerNet</hi> auch Navigations- und Filterfunktionen zu. Der Weg von der einzelnen Textstelle in der edierten Quelle zur Gesamtsicht in der Visualisierung ist also durchaus in beide Richtungen möglich.
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> <hi rend="italic">Albrecht von Haller und die Gelehrtenrepublik des 18. Jahrhunderts</hi> (1991–2003); Leitung: Urs Boschung (Institut für Medizingeschichte der Universität Bern); siehe allg. zu Albrecht von Haller: http://www.albrecht-von-haller.ch.</note>
+				<note place="foot" xml:id="ftn2" n="2"> <hi rend="italic">Nützliche Wissenschaft, Naturaneignung und Politik. Die Oekonomische Gesellschaft Bern im europäischen Kontext (1750–1850)</hi>; Leitung: André Holenstein, Christian Pfister (Historisches Institut der Universität Bern).</note>
+				<note place="foot" xml:id="ftn3" n="3"> Siehe zum alten Haller-/OeG-Datenbankverbund: Flückiger / Stuber 2009, Steinke 2003.</note>
+				<note place="foot" xml:id="ftn4" n="4"> Die Visualisierung zeigt die Verlinkung und die Anzahl der Referenzen zwischen sechs Entitätstypen. Die Daten wurden im Rahmen von Forney et al. (2018) berechnet und die Grafik mit <hi rend="italic">d3-chord</hi> erstellt: https://github.com/d3/d3-chord.</note>
+				<note place="foot" xml:id="ftn5" n="5"> Online-Edition der Rezensionen und Briefe Albrecht von Hallers. Expertise und Kommunikation in der entstehenden <hi rend="italic">Scientific community</hi>. Leitung: André Holenstein (Historisches Institut), Hubert Steinke (Institut für Medizingeschichte), Oliver Lubrich (Germanistisches Institut).</note>
+				<note place="foot" xml:id="ftn6" n="6"> Siehe zur Grundidee: Stuber 2004.</note>
+				<note place="foot" xml:id="ftn7" n="7"> Beispiele hierfür sind etwa die Projekte <hi rend="italic">Proceedings of the Old Bailey</hi> (https://www.oldbaileyonline.org/), <hi rend="italic">buckhardtsource.org</hi> (http://burckhardtsource.org/), <hi rend="italic">Intoxicants and Early Modernity</hi> (https://www.intoxicantsproject.org/), <hi rend="italic">Jahrrechnungen der Stadt Basel 1535 bis 1610</hi> (https://gams.uni-graz.at/context:srbas), <hi rend="italic">Urfehdebücher der Stadt Basel</hi> (https://gams.uni-graz.at/context:ufbas), <hi rend="italic">Sound Toll Registers</hi> (http://soundtoll.nl) oder das leider dem digitalen Zerfall anheimgefallene <hi rend="italic">Alcalá account book</hi>.</note>
+				<note place="foot" xml:id="ftn8" n="8"> Als Beispiele zur Gelehrtenwelt lassen sich hier <hi rend="italic">Amore Scientiae Facti sunt Exules</hi> (http://asfe.unibo.it) oder das <hi rend="italic">Repertorium Academicum Germanicum</hi> (http://rag-online.org) nennen. Bemerkenswert sind auch die der <hi rend="italic">Symogih</hi>-Plattform (Système modulaire de gestion de l'information historique, http://symogih.org) angegeliederten Projekte, die teilweise auch edierte Texte umfassen.</note>
+				<note place="foot" xml:id="ftn9" n="9"> Nowa Panorama Literatury Polskiej / New Panorama of Polish Literature; http://nplp.pl und spezifischer http://tei.nplp.pl.</note>
+				<note place="foot" xml:id="ftn10" n="10"> Zur Transformation ins TEI-Format vgl. Forney et al. 2018.</note>
+				<note place="foot" xml:id="ftn11" n="11"> Diese Strategie verfolgt zwei Ziele: die langfristige Zugänglichkeit der Forschungsdaten, aber auch die Auffindbarkeit über spezialisierte Suchmaschinen wie <hi rend="italic">DataCite</hi> oder die <hi rend="italic">Google Dataset Search</hi>.</note>
+				<note place="foot" xml:id="ftn12" n="12"> Siehe eine kritische Diskussion der Möglichkeiten und Grenzen der Netzwerkanalyse aus literaturwissenschaftlicher Perspektive (Baillot 2018).</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Baillot, Anne (2018):</hi> 
+                        <hi rend="italic">Die Krux mit dem Netz. Verknüpfung und Visualisierung bei digitalen Briefeditionen</hi>, 
+                        in: 
+                        <hi rend="bold">Bernhart, Toni et al. (eds.):</hi> 
+                        <hi rend="italic">Quantitative Ansätze in den Literatur- und Geisteswissenschaften. Systematische und historische Perspektiven</hi>, 
+                        Berlin/Boston: De Gruyter 355-370 &lt;halshs-01278211&gt;.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Boschung, Urs et al. (2002):</hi> 
+                        <hi rend="italic">Repertorium zu Albrecht von Hallers Korrespondenz</hi> 
+                        1724-1777. 2 Bde. Basel.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Dauser, Regina et al. (2008):</hi> 
+                        <hi rend="italic">Wissen im Netz. Botanik und Pflanzentransfer in europäischen Korrespondenznetzen des 18. Jahrhundert</hi>, 
+                        Berlin.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Flückiger, Daniel / Stuber, Martin (2009):</hi> 
+                        <hi rend="italic">Vom System zum Akteur. Personenorientierte Datenbanken für Archiv und Forschung</hi>, 
+                        in: 
+                        <hi rend="bold">Kirchhofer, André et al. (Hrsg.):</hi> 
+                        <hi rend="italic">Nachhaltige Geschichte. Festschrift für Christian Pfister</hi>, 
+                        Zürich, 253-269.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Forney Christian et al. (2018):</hi> 
+                        <hi rend="italic">Vom geschützt zugänglichen Datenbankverbund zur offenen Editions- und Forschungsplattform: kritischer Rückblick auf halber Strecke</hi>, 
+                        DHd 2018 (Poster).
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Monti, Maria Teresa (1983-1994):</hi> 
+                        <hi rend="italic">Catalogo del Fondo Haller della Biblioteca Nazionale Braidense di Milano, a cura di Maria Teresa Monti</hi>, 
+                        13 Bde. Milano.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Recker-Hamm, Ute / Stuber, Martin (2015):</hi> 
+                        <hi rend="italic">Haller Online – Konzept für den Umbau, Ausbau und die langfristige Sicherung der Haller-/ OeG-Datenbank</hi>, 
+                        25 Seiten (8.6.2015).
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Sonntag, Otto (2019):</hi> 
+                        <hi rend="italic">The Albrecht von Haller-Gerlach Adolph von Münchhausen Correspondence</hi>, 
+                        hallerNet (in Vorbereitung).
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Steinke, Hubert (2003):</hi> 
+                        <hi rend="italic">Archive databases as advanced research tools: the Haller Project</hi>, 
+                        in: 
+                        <hi rend="bold">Antonio Vallisneri :</hi> 
+                        <hi rend="italic">L`edizione del testo scientifico d`età moderna, a cura di Maria Teresa Monti</hi>, 
+                        Firenze 2003, 191-204.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Steinke, Hubert / Profos, Claudia (2004):</hi> 
+                        <hi rend="italic">Bibliographia Halleriana. Verzeichnis der Schriften von und über Albrecht von Haller</hi>, 
+                        Basel.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Stuber, Martin (2004):</hi> 
+                        <hi rend="italic">Journal and letter. The interaction between two communication media in the correspondence of Albrecht von Haller</hi>, 
+                        in: 
+                        <hi rend="bold">Lüsebrink, Hans-Jürgen / Popkin, Jeremy (eds.):</hi> 
+                        <hi rend="italic">Enlightenment, Revolution and the periodical press (Studies on Voltaire and the Eighteenth Century)</hi>, 
+                        114-141.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Stuber, Martin et al. (2005):</hi> 
+                        <hi rend="italic">Hallers Netz. Ein europäischer Gelehrtenbriefwechsel zur Zeit der Aufklärung</hi>, 
+                        Basel.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Stuber, Martin / Krempel, Lothar (2013):</hi> 
+                        <hi rend="italic">Las redes académicas de Albrecht von Haller y la Sociedad Económica: un análisis de redes a varios niveles</hi>, 
+                        in: REDES. Revista hispana para el análisis. De redes sociales, 24/1 (2013), 1-26: https://doi.org/10.5565/rev/redes.450 / REDES Online English: The Scholarly Networks of Albrecht von Haller and the Economic Society of Bern – a Multi-Level Network Analysis: http://revista-redes.rediris.es/webredes/novedades/Stuber_Krempel_scholarly_networks.pdf.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

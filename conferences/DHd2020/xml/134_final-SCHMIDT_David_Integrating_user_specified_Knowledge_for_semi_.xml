@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="134_final-SCHMIDT_David_Integrating_user_specified_Knowledge_for_semi_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Integrating user-specified Knowledge for semi-automatic Coreference Resolution</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Schmidt</surname>
+<forename>David</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>david.b.schmidt@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Krug</surname>
+<forename>Markus</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>markus.krug@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Puppe</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>frank.puppe@uni-wuerzburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-12T16:26:00.892282793</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Koreferenzauflösung</term>
+<term>Named Entity Erkennung</term>
+<term>Hochliteratur</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Annotieren</term>
+<term>Literatur</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading" type="div1">
+<head>Introduction</head>
+<p>Coreference Resolution is a challenge which has seen the interest of researchers for half a century, but at the current point in time, even state-of-the-art algorithms (Joshi et al., 2019)cannot produce reliable results when applied in a fully automatic manner. The main problem of an automatic coreference resolution system is that decisions that occur late in the text can heavily influence prior decisions and so the resulting clustering and its composition is hard to understand. We found that, when applying the end-to-end coreference resolution algorithm (Lee et al., 2017), the algorithm tends to reset its understanding of the text every couple of paragraphs, which results in a mixture of grave errors when aggregated over the document. Coreference resolution is a necessary and very important step however, when analysing the content of a literary text. Different engines detect knowledge on a local level and coreference resolution aggregates this knowledge to the document scope of the text. This means that, without a reliable coreference resolution module, most applications that require an aggregated view of the texts (which is very important for most distant reading experiments) cannot be researched efficiently. In this work, we try to overcome the challenge of coreference resolution by presenting a semi-automatic mechanism instead of a fully automatic system. This mechanism allows the users to integrate their prior knowledge about characters of a literary text and their relations. We do this by parsing this knowledge into a machine-readable data structure and integrate this knowledge into our rule-based coreference resolution system, which was extended from (Krug et al., 2015).</p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>Related Work</head>
+<p>There have been various works trying to integrate world knowledge into coreference resolution. Ng (2007) added several new features to a coreference resolution system based on machine-learning, e.g. a feature for the semantic similarity of mentions and a feature based on patterns extracted from the training data. Others used knowledge that was extracted from knowledge bases like YAGO (Suchanek et al., 2007), among them Bryl et al. (2010), who model synonyms and mention types using logical constraints in a Markov Logic Network (Richardson and Domingos, 2006), and Rahman and Ng (2011), who extract relation triples between two mentions and convert them into features for their algorithm.</p>
+<p>Aralikatte et al. (2019) use knowledge bases in a slightly different way. They apply the neural coreference resolution system of Lee et al. (2018) in a reinforcement learning setting and reward it, the more valid relations can be extracted from it. A valid relation is evaluated against knowledge bases like Wikidata and Wikipedia.</p>
+<p>Unfortunately, these approaches are impractical for historic novels since the knowledge bases used there mostly contain knowledge about real-world entities while the novels deal with fictional characters.</p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>Method</head>
+<p>Our approach basically allows the user to model the knowledge which Wikipedia or Wikidata contain about real-world entities for fictional characters. The knowledge is represented as character sheets. For each character, the user needs to determine a unique name (e.g. Richard Landsfeld) and can optionally provide a first name (Richard), last name (Landsfeld), the character’s gender (male), a list of strings which are used as synonyms for the character (e.g. Baron von Landsfeld) and a list of strings which do not refer to this character. In addition to that, the user can specify the character’s relations to other characters by providing the name of the other character and a list of possible labels for this character (e.g. Lydia - Ehefrau/Gattin).</p>
+<p>The knowledge provided by the user is used in several different sieves of the algorithm. First name, last name and gender are used in a sieve which already existed prior to this work. It uses first and last names to merge clusters if they are compatible with respect to several other meta data fields (like gender). For this work, it was expanded to also merge clusters which contain mentions that have been identified to belong to the same character from user-specified knowledge. This identification is done in one of the first sieves by comparing the mentions’ texts to a character’s unique name, first name, synonyms and, if no other character has the same last name, last name. Mentions that have been identified to belong to a character this way are from then on prevented from being merged into a cluster together with mentions belonging to other characters as well as mentions which have one of the character’s non-coreferent strings as their text.</p>
+<p>The relations contained in the user-specified knowledge are used in one of the last sieves of the algorithm. It looks for constructions where one mention is (a) a possessive, demonstrative or relative pronoun used as an attribute, (b) a genitive or (c) preceded by a token ’von’ which means that one mention is a prepositional modifier of another, like ‘seine Ehefrau’, ‘Richards Ehefrau’ or ‘Ehefrau von Richard’. These constructions can be used if the first mention belongs to a character and this character has a relation that has the text of the second mention as a possible label (in our example, the character ‘Richard’ needs a relation that contains the label ‘Ehefrau’). If this is the case, it can be determined that the second mention (‘Ehefrau’ in the example) belongs to the character which is the target of the relation. The cluster of the second mention is therefore merged into another cluster which has previously been identified to belong to the target character (ideally, there should only be one such cluster left by the time this sieve is applied).</p>
+<p>Finally, we use the knowledge about relations for speculative merges of mentions that have a relation word as their text and are not in a cluster with any mention which is recognised as a name. If we find one of these mentions we go backwards in the text until we encounter a mention which belongs to a character that is the target of a relation with the relation word as a possible label (e.g. if we find a mention ‘Ehefrau’, encounter a mention which belongs to the character ‘Lydia’ and know that another character ‘Richard’ has a relation labelled ‘Ehefrau’ with ‘Lydia’ as the target, we merge both mentions’ clusters).</p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>Results and Discussion</head>
+<p>We evaluated our approach on six documents that were randomly picked from the documents of DROC
+                    <ref n="1" target="ftn0"/> (Krug et al., 2018) for which we have summaries: 
+                    <hi rend="italic">Die Hosen des Herrn von Bredow </hi>by Willibald Alexis, 
+                    <hi rend="italic">Stilpe </hi>by Otto-Julius Bierbaum, 
+                    <hi rend="italic">Der Stechlin </hi>by Theodor Fontane, 
+                    <hi rend="italic">Amerika </hi>by Franz Kafka, 
+                    <hi rend="italic">Anna Karenina </hi>by Lev-Nikolaevic Tolstoj and 
+                    <hi rend="italic">Uli der Pächter </hi>by Jeremias Gotthelf. For each of these documents, two annotators, who were unfamiliar with the texts, separately created a document for userspecified knowledge by first reading the corresponding summary and then skimming the actual document. The time required for the creation of the meta data was between 5 to 15 minutes per file. Table 1 shows some characteristics of this user-specified knowledge: the number of characters, the total number of synonyms, the total number of relations and the total number of relation labels.
+                </p>
+<p>
+<figure>
+<graphic url="134_final-ec25afab474d79c06ae0718fec2981c9.png"/>
+<head>Tabelle 1: Characteristics of the user-specified knowledge created by the annotators: Number of characters, synonyms, relations and relation labels.</head>
+</figure>The results of the algorithm with this userspecified knowledge are depicted in table 2 alongside the baseline results (the algorithm without any additional knowledge). We report the scores of the MUC metric (Vilain et al., 1995) which evaluates based on links between mentions and we report the results of the B-Cubed metric (Bagga and Baldwin, 1998) which evaluates based on cluster overlap between system entities and gold entities.
+                </p>
+<p>
+<figure>
+<graphic url="134_final-1bc538a7b3f4ef1425ec82e9256a9fdf.png"/>
+<head>Tabelle 2: Results of the rule-based algorithm without user-specified knowledge and with user-specified knowledge provided by two different annotators (D and M) on six randomly picked documents of DROC. The last three lines show the average improvement of the annotators.</head>
+</figure>Depending on the text snippet, the improvements range from 0% up to almost 11% B-Cubed and up to 2% MUC score with an average improvement of about 4% B-Cubed. The small improvement of the MUC metric means, that with the help of the meta data, only relatively few links are improving, but these links reveal to be among the important ones, when the results of the B-Cubed metric is consulted. The improvements are mainly due to the improvements of the Recall, our algorithm is tuned to produce a conservative output and therefore does not attempt to merge references or entities that pose a high risk of failure. The usage of meta data adds to the confidence for these merges and subsequently increases the Recall.
+                </p>
+<p>With user-specified knowledge at hand, we examined whether it just serves as an addition to our rule-based algorithm, or if it is able to replace the parts of our algorithm, which handle names and non-pronominal noun phrases (the algorithm cannot be replaced completely since user-specified knowledge does not help with pronouns). To assess this theory, we created the following algorithm: In the first step, all mentions which are identified to belong to the same character from user-specified knowledge (how this is done is described in the previous section) are merged into the same cluster. After that, only the parts of our algorithm which handle pronouns are applied. Table 3 shows the results of this string-matching baseline algorithm and the difference to the rule-based algorithm using the same user-specified knowledge. While the precision of the baseline is higher in all cases, its recall is lower, often by a rather large margin. This leads to the MUC score being slightly better in three cases but being worse in all other cases. The difference is even more noticable when looking at the B-Cubed scores: With two exceptions, they are always more than 5% worse than the results of the rule-based algorithm with user-specified knowledge. To summarize, one can say that the algorithm cannot be replaced by string-matching without a significant loss of quality.</p>
+<p>
+<figure>
+<graphic url="134_final-1e43d43626c478d3eaea9d691837bbe9.png"/>
+<head>Tabelle 3: Results of the String-Matching baseline using the user-specified knowledge created by the two annotators (D and M) and the difference to the results of the rule-based algorithm using the same knowledge.</head>
+</figure>During the annotation of DROC, our experiments towards inter-annotator agreement revealed, that even human annotators only had an agreement of about 76% B-Cubed (Krug et al., 2018). Achieving a B-Cubed score of about 75% is therefore a milestone where the data seems reliable and we would expect the results to be usable for downstream tasks. An interesting aspect is that there is a large variance of improvement on different texts. Whenever relatively few named-entities that are communicating in a dialog are available in the text, the improvement is high (see 
+                    <hi rend="italic">Amerika </hi>or 
+                    <hi rend="italic">Stechlin</hi>) but the inverse effect occurs, when the author either is very vague with using names and aliases for characters or if there are many characters in the text in general. The quality of the results also depends on the summaries used. Using longer summaries (the ones we used were mostly rather short) or several different summaries per novel will likely lead to better results.
+                </p>
+</div>
+</body>
+<back>
+<div type="notes"><note n="1" rend="footnote text" xml:id="ftn0">Note that in DROC, only persons are annotated. Coreference resolution usually also deals with other entities. </note></div><div type="bibliogr">
+<listBibl>
+<head>Bibliography</head>
+<bibl>
+  <hi rend="bold">Aralikatte, R., Lent, H. / Gonzalez, A. V. / Hershcovich, D. / Qiu, C. / Sandholm, A. / Ringaard, M. / Søgaard, A.</hi> (2019). Rewarding coreference resolvers for being consistent with world knowledge. 
+  <hi rend="italic">arXiv preprint arXiv:1909.02392</hi>.
+</bibl>
+<bibl>
+  <hi rend="bold">Bagga, A.  /  Baldwin, B.</hi> (1998): Algorithms for scoring coreference chains. In 
+  <hi rend="italic">The first international conference on language resources and evaluation workshop on linguistics coreference</hi>, volume 1, pages 563–566. Granada.
+</bibl>
+<bibl>
+  <hi rend="bold">Bryl, V. / Giuliano, C. / Serafini, L. / Tymoshenko, K.</hi> (2010): Using background knowledge to support coreference resolution. In 
+  <hi rend="italic">ECAI</hi>, volume 10, pages 759–764. Citeseer.
+</bibl>
+<bibl>
+  <hi rend="bold">Joshi, M. / Chen, D. / Liu, Y. /  Weld, D. S. / Zettlemoyer, L. /  Levy, O.</hi> (2019): Spanbert: Improving pre-training by representing and predicting spans. 
+  <hi rend="italic">arXiv preprint arXiv:1907.10529</hi>.
+</bibl>
+<bibl>
+  <hi rend="bold">Krug, M. / Puppe, F. / Jannidis, F. / Macharowsky, L. / Reger, I. /  Weimar, L.</hi> (2015): Rule-based coreference resolution in german historic novels. In 
+  <hi rend="italic">Proceedings of the Fourth Workshop on Computational Linguistics for Literature</hi>, pages 98–104.
+</bibl>
+<bibl>
+  <hi rend="bold">Krug, M. / Puppe, F. / Reger, I. / Weimer, L. / Macharowsky, L. / Feldhaus, S. / Jannidis, F.</hi> (2018): Description of a corpus of character references in german novels - DROC [Deutsches ROman Corpus]. In 
+  <hi rend="italic">DARIAH-DE Working Papers</hi>. DARIAH-DE.
+</bibl>
+<bibl>
+  <hi rend="bold">Lee, K. / He, L. / Lewis, M. / Zettlemoyer, L.</hi> (2017): End-to-end neural coreference resolution. In 
+  <hi rend="italic">Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing</hi>, pages 188–197.
+</bibl>
+<bibl>
+<hi rend="bold">Lee, K. / He, L. / Zettlemoyer, L.</hi> (2018): Higher-order coreference resolution with coarse-to-fine inference. In 
+<hi rend="italic">Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)</hi>, pages 687–692.
+</bibl>
+<bibl>
+  <hi rend="bold">Ng, V.</hi> (2007): Shallow semantics for coreference resolution. In 
+  <hi rend="italic">IJcAI</hi>, volume 2007, pages 1689–1694.
+</bibl>
+<bibl>
+  <hi rend="bold">Rahman, A.  /  Ng, V.</hi> (2011): Coreference resolution with world knowledge. In 
+  <hi rend="italic">Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language TechnologiesVolume 1</hi>, pages 814–824. Association for Computational Linguistics.
+</bibl>
+<bibl>
+  <hi rend="bold">Richardson, M.  /  Domingos, P.</hi> (2006): Markov logic networks. 
+  <hi rend="italic">Machine learning</hi>, 62(1-2):107–136.
+</bibl>
+<bibl>
+  <hi rend="bold">Suchanek, F. M. / Kasneci, G. / Weikum, G.</hi> (2007): Yago: a core of semantic knowledge. In 
+  <hi rend="italic">Proceedings of the 16th international conference on World Wide Web</hi>, pages 697–706. ACM.
+</bibl>
+<bibl>
+  <hi rend="bold">Vilain, M. / Burger, J. / Aberdeen, J. / Connolly, D. /  Hirschman, L.</hi> (1995): A model-theoretic coreference scoring scheme. In 
+  <hi rend="italic">Proceedings of the 6th conference on Message understanding</hi>, pages 45–52. Association for Computational Linguistics.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

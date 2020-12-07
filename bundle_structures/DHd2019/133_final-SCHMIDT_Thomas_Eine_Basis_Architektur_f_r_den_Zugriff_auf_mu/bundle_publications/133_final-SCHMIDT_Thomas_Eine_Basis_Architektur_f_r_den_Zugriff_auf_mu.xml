@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="133_final-SCHMIDT_Thomas_Eine_Basis_Architektur_f_r_den_Zugriff_auf_mu" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eine Basis-Architektur für den Zugriff auf multimodale Korpora gesprochener Sprache</title>
+                <author>
+                    <persName>
+                        <surname>Batinic</surname>
+                        <forename>Josip</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache, Mannheim, Deutschland</affiliation>
+                    <email>josip.batinic@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Frick</surname>
+                        <forename>Elena</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache, Mannheim, Deutschland</affiliation>
+                    <email>frick@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gasch</surname>
+                        <forename>Joachim</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache, Mannheim, Deutschland</affiliation>
+                    <email>gasch@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schmidt</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache, Mannheim, Deutschland</affiliation>
+                    <email>thomas.schmidt@ids-mannheim.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-07T08:05:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschungsdateninfrastruktur</term>
+                    <term>Standards</term>
+                    <term>audiovisuell</term>
+                    <term>Sprachkorpora</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Metadaten</term>
+                    <term>Software</term>
+                    <term>Ton</term>
+                    <term>Standards</term>
+                    <term>Video</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left; ">Das Projekt ZuMult – „Zugänge zu multimodalen Korpora gesprochener Sprache – Vernetzung und zielgruppenspezifische Ausdifferenzierung“ (zumult.org) – hat sich zum Ziel gesetzt, eine Architektur zu entwickeln, die einen einheitlichen Zugriff auf verschiedene Korpora gesprochener Sprache (Audio- und Videoaufzeichnungen mündlicher Interaktion mit zugehörigen Metadaten, Transkripten, Annotationen) an verschiedenen Standorten ermöglicht, und auf deren Basis Zugangswege gestaltet werden können, die für die Bedarfe spezifischer Nutzergruppen (z.B. Sprachlehrforschung, Variationslinguistik) optimiert sind. Mit unserem Poster stellen wir das technische Konzept und eine prototypische Implementierung einer solchen Basisarchitektur vor.</p>
+            <p style="text-align:left; ">Ausgehend von einer vergleichenden Analyse vorhandener Plattformen (u.a. Datenbank für Gesprochenes Deutsch, Schmidt 2016; GeWiss-Korpus-Interface, Fandrych, Meißner &amp; Wallner 2017; Repositorium des Hamburger Zentrums für Sprachkorpora, Hedeland et al. 2014; sowie mehrere Lösungen, die außerhalb des deutschsprachigen Raums entwickelt wurden, z.B. Eshkol-Taravella et al. 2012, Komrsková et al. 2018) und einer Bestandsaufnahme existierender Standards im Bereich multimedialer Daten (vgl. dazu auch Schmidt 2014 und Schmidt et al. 2010) haben wir eine Dreiebenen-Lösung entwickelt, die so weit wie möglich auf etablierte (De Facto-)Standards aufbaut und anschlussfähig an existierende Lösungen ist. Damit wird eine transferfähige Basis für einen flexiblen Zugriff auf multimodale Korpora geschaffen. </p>
+            <p style="text-align:left; ">Kern der Architektur ist zum einen eine objektorientierte Modellierung der Korpus-Bestandteile (Aufnahmen, Metadaten zu Sprechereignissen und Sprechern, Transkripte, Annotationen und Zusatzmaterialien) und ihrer Beziehungen zueinander. Für deren digitale Repräsentation (Serialisierung) werden Standards verwendet, soweit sie existieren. Für Medienobjekte können wir auf industrielle Standards insbesondere aus dem Kontext der Moving 133_final-* Expert Group (MPEG) zurückgreifen. Die Repräsentation von Transkripten und Annotation folgt dem in ISO (2016) definierten und auf den Richtlinien der Text Encoding Initiative (TEI) basierenden Format für „Transcriptions of Spoken Language“. Metadaten werden grundsätzlich in XML repräsentiert; in Ermangelung eines echten Standards, der in der Lage wäre, der Bandbreite und Komplexität von Metadaten im Bereich multimodaler Korpora vollständig gerecht zu werden, orientieren wir uns in diesem Bereich an CMDI-Profilen, die im CLARIN-Kontext für solche Korpora entwickelt wurden (z.B. Hedeland &amp; Wörner 2012).</p>
+            <p style="text-align:left; ">Zum anderen beinhaltet die Architektur ein vereinheitlichtes Konzept zur Query auf Transkriptions- und Annotationsdaten. Dieses baut auf Überlegungen zu einer „Corpus Query Lingua Franca“ (Banski et al. 2016, ISO 2018) auf und berücksichtigt somit in der Korpuslinguistik verbreitete Suchsprachen wie CQP, ANNIS-QL, Poliqarp und weitere, die allerdings für die Besonderheiten angepasst werden müssen, die spontansprachliche Daten gegenüber schriftsprachlichen Korpora aufweisen. </p>
+            <p style="text-align:left; ">Die Basisarchitektur besteht somit aus zwei gleichberechtigten Komponenten: Aus der Modellierung der Korpus-Bestandteile ergeben sich Zugriffs- und Navigationsmöglichkeiten für ganze Objekte bzw. Objekthierarchien, die auf Nutzerseite vor allem für ein exploratives Browsing auf den Daten eingesetzt werden. Die Query-Komponente ermöglicht hingegen eine gezielte Auswahl von (Teilen) von Objekten und damit systematische Recherchen im Sinne einer korpuslinguistischen Methodik. Beide Komponenten werden technisch als „Locators“ bzw. „Filters“ in einer REST API umgesetzt. Diese wird in der weiteren Projektarbeit die Basis darstellen, um zielgruppenspezifisch optimierte Zugänge zu den Daten zu entwickeln.</p>
+            <p style="text-align:left; ">Neben einem Überblick über diese Basis-Architektur wird unser Poster auch auf die konkrete Implementierung eingehen, die am Institut für Deutsche Sprache für den Zugriff auf die Daten aus dem Archiv für Gesprochenes Deutsch entwickelt wurde. Diese setzt auf ein vorhandenes Backend auf, das die Grundlage für die Datenbank für Gesprochenes Deutsch bildet und XML-basierte Daten in einer objektrelationalen Oracle-Datenbank hält. Für die Arbeiten in ZuMult wird dieses Backend für die im Projekt definierten Bedarfe angepasst und erweitert. Prototypische Applikationen, die den Einsatz der REST API illustrieren, werden als Software-Demonstrationen die Posterpräsentation ergänzen.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Banski, Piotr / Frick, Elena / Witt, Andreas (2016)</hi>: <hi rend="italic">"Corpus Query Lingua Franca (CQLF)". </hi>Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), Portorož, Slovenia 2804-2809.  <ref target="https://nbn-resolving.org/urn:nbn:de:bsz:mh39-50405">https://nbn-resolving.org/urn:nbn:de:bsz:mh39-50405</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eshkol-Taravella, I. / Baude, O. / Maurel, D. / Hriba, L. / Dugua, C. / Tellier, I., (2012)</hi>: <hi rend="italic">"Un grand corpus oral ,disponible’ : le corpus d’Orléans 1968-2012. "</hi> In: Ressources linguistiques libres, TAL. 52,3/2011, 17-46.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fandrych, Christian / Meißner, Cordula / Wallner, Franziska (eds.) (2017)</hi>: <hi rend="italic">"Gesprochene Wissenschaftssprache – digital Verfahren zur Annotation und Analyse müdlicher Korpora."</hi> Deutsch als Fremd- und Zweitsprache. Tübingen: Stauffenburg.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hedeland, Hanna / Wörner, Kai (2012)</hi>: <hi rend="italic">"Experiences and Problems creating a CMDI profile from an existing Metadata Schema". </hi>Proceedings of LREC-Workshop Describing LRs with Metadata: Towards Flexibility and Interoperability in the Documentation of LR, Istanbul, European Language Resources Association (ELRA) 37-40.<ref target="http://www.lrec-conf.org/proceedings/lrec2012/workshops/11.LREC2012%20Metadata%20Proceedings.pdf">http://www.lrec-conf.org/proceedings/lrec2012/workshops/11.LREC2012%20Metadata%20Proceedings.pdf</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hedeland, Hanna / Lehmberg, Timm / Schmidt, Thomas / Wörner, Kai (2014)</hi>: <hi rend="italic">"Multilingual Corpora at the Hamburg Centre for Language Corpora". In: Ruhi, Şükriye/Haugh, Michael/Schmidt, Thomas/Wörner, Kai (Hrsg.): </hi>Best Practices for Spoken Corpora in Linguistic Research. Newcastle: Cambridge Scholars Publishing, 2014. S. 208-224.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">ISO (ed.) (2016)</hi>: <hi rend="italic">ISO 24624:2016 Language resource management – Transcription of spoken language.</hi><ref target="https://www.iso.org/standard/37338.html">https://www.iso.org/standard/37338.html</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">ISO (ed.) (2018)</hi>: <hi rend="italic">ISO 24623-1:2018 Language resource management – Corpus query lingua franca (CQLF) -- Part 1: Metamodel.</hi><ref target="https://www.iso.org/standard/37337.html">https://www.iso.org/standard/37337.html</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Komrsková, Zuzana / Kopřivová, Marie / Lukeš, David / Poukarová, Petra / Goláňová, Hana (2018)</hi>: <hi rend="italic">“New Spoken Corpora of Czech: ORTOFON and DIALEKT.”</hi> Journal of Linguistics 68:2, 219-228. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" >Schmidt, Thomas (2014)</hi>: <hi rend="italic">"(More) Common Ground for Processing Spoken Language Corpora?"</hi> In: <hi rend="bold">Ruhi, Şükriye/Haugh, Michael/Schmidt, Thomas/Wörner, Kai (eds.)</hi>: <hi rend="italic">Best Practices for Spoken Corpora in Linguistic Research.</hi> Newcastle: Cambridge Scholars Publishing, 2014 249-265. <ref target="http://pub.ids-mannheim.de/autoren/divers/3119.html">http://pub.ids-mannheim.de/autoren/divers/3119.html</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schmidt, Thomas (2017)</hi>: <hi rend="italic">"DGD – Die Datenbank für Gesprochenes Deutsch. Mündliche Korpora am Institut für Deutsche Sprache (IDS) in Mannheim."</hi> In: Zeitschrift für Germanistische Linguistik 45(3), S. 451-463. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schmidt, Thomas / Elenius, Kjell / Trilsbeek, Paul (2010)</hi>: <hi rend="italic">"Multimedia encoding and annotation"</hi>. In: <hi rend="bold">Hinrichs, Erhard (ed.)</hi>: <hi rend="italic">Interoperability and standards</hi>. Utrecht: Utrecht University, 2010 121-124. <ref target="http://www.exmaralda.org/files/CLARIN_Standards.pdf">http://www.exmaralda.org/files/CLARIN_Standards.pdf</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

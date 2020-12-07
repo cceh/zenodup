@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="226_final-ABRAMI_Giuseppe_VAnnotatoR__Ein_Werkzeug_zur_Annotation_mult" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">VAnnotatoR: Ein Werkzeug zur Annotation multimodaler Netzwerke in dreidimensionalen virtuellen Umgebungen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Abrami</surname>
+                        <forename>Giuseppe</forename>
+                    </persName>
+                    <affiliation>Goethe Universität Frankfurt, Deutschland</affiliation>
+                    <email>abrami@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Spiekermann</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Goethe Universität Frankfurt, Deutschland</affiliation>
+                    <email>s2717197@stud.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mehler</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>Goethe Universität Frankfurt, Deutschland</affiliation>
+                    <email>mehler@em.uni-frankfurt.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T20:48:54.062601996</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Virtual Reality</term>
+                    <term>Augmented Reality</term>
+                    <term>Annotation</term>
+                    <term>Virtuelle Umgebung</term>
+                    <term>Multimodale Hypertexte</term>
+                    <term>Multimodalität</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Multimedia</term>
+                    <term>Text</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading">
+                <head>Abstract</head>
+                <p>Die Verarbeitung, Erzeugung und Visualisierung von multimodalen Netzwerken, in denen etwa symbolische und ikonographische Inhalte miteinander vernetzt werden, um sie multimodal rezipierbar zu machen, bilden neuartige Herausforderungen für die digitalen Geisteswissenschaften, da sie weit über textbasierte Medien hinausreichen. Digitalisate von Schrifttexten, Bildern und Illustrationen können in diesem Zusammenhang als Beispiele für knotenbildende Informationsobjekte ebenso genannt werden wie dreidimensionale Objektrepräsentationen. Die Anordnung dieser Objekte zu 
+                    <hi rend="italic">semiotischen Netzwerken</hi> hat den Zweck, deren Zusammenhangsstruktur zu visualisieren und rezipierbar zu machen. Der Begriff des Netzwerks erlaubt es dabei, Mikrostrukturen auf der Ebene von Knotenpaaren oder -triaden ebenso zu unterscheiden, wie Mesostrukturen von so genannten Netzwerkmotiven oder gar Makrostrukturen, welche die Gesamtorganisation des jeweiligen Informationsraums thematisieren (etwa im Sinne einer Zentrums-Peripherie-Struktur). Multimodale Netzwerke waren bereits Gegenstand einer Reihe von Projekten (siehe z.B. Li et al. 2007; Kane, Alavi 2008; Nasser, Gleich 2017). Allerdings befindet sich darunter kein Projekt, das eine generische Plattform zur Visualisierung und Annotation solcher Netzwerke im Rahmen virtueller Umgebungen zur Verfügung stellt. Um diese Lücke zu schließen, haben wir 
+                    <hi rend="bold">VAnnotatoR</hi> (Spiekermann, Abrami, Mehler 2018)
+                    <hi rend="bold"> </hi>entwickelt. 
+                    <hi rend="bold">VAnnotatoR</hi> ist ein Framework zur Erstellung und Visualisierung multimodaler Netzwerke in virtuellen Umgebungen. Das System erlaubt die Bearbeitung und Visualisierung dieser Netzwerke als 
+                    <hi rend="italic">multimodale Hypertexte</hi> (Mehler et al. 2018) in der 
+                    <hi rend="italic">virtuellen Realität</hi> (VR) und der 
+                    <hi rend="italic">augmentierten Realität</hi> (AR). 
+                    <hi rend="bold">VAnnotatoR</hi> wurde mithilfe von Unity3D<hi rend="superscript">1</hi> für VR implementiert und unterstützt gängige Desktop-VR-Brillen<hi rend="superscript">2</hi> (HTC Vive und Oculus Rift). Die AR-Implementierung von 
+                    <hi rend="bold">VAnnotatoR</hi> für Smartphones basiert wiederum auf AR-Core<hi rend="superscript">3</hi>. Mittels 
+                    <hi rend="bold">VAnnotatoR</hi> sind Inhalte visualisierbar, suchbar, relationierbar, attribuierbar und weit darüber hinaus annotierbar. Die derzeitige Implementierung dieses Systems erlaubt die Modellierung von Netzwerken auf der Ebene so genannter Hypergraphen (Berge 1989) und hierarchischer Graphen, in denen Knoten vollständige Graphen enthalten können. Abbildung 1 illustriert ein solches Netzwerk unter anderem durch Rekurs auf Texte, Bilder, Photographien, dreidimenionale Modelle und ein begehbares Haus. Um eine natürliche Interaktion mit den Komponenten solcher Graphen zu ermöglichen, beinhaltet 
+                    <hi rend="bold">VAnnotatoR</hi> eine Gesten- und Bewegungssteuerung mit dazugehörigen VR-Controllern. Da klassische VR-Eingabegeräte die Gestaltungsfreiheit der Gestensteuerung limitieren, beinhaltet 
+                    <hi rend="bold">VAnnotatoR </hi>darüber hinaus eine Gestenerkennung unter Verwendung von Leap-Motion<hi rend="superscript">4</hi>. Gleichzeitig wurde eine Gestenerkennung basierend auf Datenhandschuhen<hi rend="superscript">5</hi> für den
+                    <hi rend="bold">VAnnotatoR</hi> entwickelt (Kühn 2018). Da komplexe Annotationsprozesse i.d.R. von mehreren Annotatoren durchgeführt werden müssen, ermöglicht 
+                    <hi rend="bold">VAnnotatoR</hi> zudem die simultane und kollaborative Bearbeitung von multimodalen Netzwerken. Die Annotationen werden in UIMA-Strukturen, unter Verwendung des 
+                    <hi rend="italic">UIMA-Database Inferface</hi> (Abrami, Mehler 2018), abgespeichert und nutzbar gemacht.
+                </p>
+                <p>Mit 
+                    <hi rend="bold">VAnnotatoR</hi> ist ein Annotationswerkzeug entstanden, welches die Bearbeitung und Visualisierung komplexer Netzwerke gestengesteuert ermöglicht. Der Beitrag demonstriert dies am Beispiel einer 
+                    <hi rend="italic">Public History of the Holocaust</hi>, in welcher, basierend auf dem Konzept der 
+                    <hi rend="italic">Stolperwege</hi> (Mehler et al. 2017), 
+                    <hi rend="bold">VAnnotatoR</hi> dazu genutzt wird, dreidimensionale Modelle nicht mehr existierender bzw. unzugänglicher Gebäude begehbar zu machen und zu dokumentieren. Auf diese Weise entsteht ein begehbarer und erweiterbarer Informationsraum, der insbesondere dazu dient, historische Prozesse zu dokumentieren. 
+                    <hi rend="bold">VAnnotatoR</hi> ist daher als ein Werkzeug zu betrachten, das verschiedene geisteswissenschaftliche Disziplinen verbindet. Inwiefern 
+                    <hi rend="bold">VAnnotatoR</hi> daher als interdisziplinäres Werkzeug der digitalen Geisteswissenschaften aufzufassen ist, soll Diskussionsgegenstand der Präsentation dieses Systems sein.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="226_final-45cbda9b8080c7c4b2f93829f5265c65.png"/>
+                    </figure>Abbildung 1: Ein Bild und ein Text wurden aus einem Browser extrahiert (linker Kubus). Beide wurden segmentiert und mit anderen Entitäten relationiert. Das Netzwerk zeigt in diesem Beispiel unter anderem Relationen zwischen einem 3D Modell eines Gebäudes (welches im extrahierten Text thematisiert wird), einer Postion (Karte), einer Videoübertragung aus der realen Welt, einer Personenrepräsentation, einem Audio-Dokument und einem Wikidata-Eintrag. Subnetzwerke können außerdem zu Knoten aggregiert werden (visualisiert als Kubus), welche untereinander wiederum relationiert werden können. Auf diese Weise entstehen virtuelle Netzwerke von annotierten Szenen oder Situationen, die von anderen Personen weiterverarbeitet oder rezipiert werden können. Die Legende zeigt die der jeweiligen Modalität zugewiesene Farbe.
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note xml:id="ftn1" place="foot" n="1">https://unity3d.com/de</note>
+				<note xml:id="ftn2" place="foot" n="2">Getestet mit HTC Vive (https://www.vive.com) und Oculus Rift (https://www.oculus.com/rift)</note>
+				<note xml:id="ftn3" place="foot" n="3">https://developers.google.com/ar/discover</note>
+				<note xml:id="ftn4" place="foot" n="4">https://www.leapmotion.com</note>
+				<note xml:id="ftn5" place="foot" n="5">Hi5 VR Glove (https://hi5vrglove.com)</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Abrami, Giuseppe / Mehler, Alexander (2018): </hi>
+                        <hi rend="italic">A UIMA Database Interface for Managing NLP-related Text Annotations</hi>, in: 
+                        Proceedings of the 11th edition of the Language Resources and Evaluation Conference. Miyazaki / Japan
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Berge, Claus (1989):</hi> 
+                        <hi rend="italic">Hypergraphs: Combinatorics of Finite Sets</hi>. North Holland, Amsterdam.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kane, Gerald C. / Alavi, Maryam (2008):</hi> 
+                        <hi rend="italic">Casting the net: A multimodal network perspective on user-system interactions</hi>, in: 
+                        Information Systems Research, 19(3), pages 253–272.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kühn, Vincent Roy (2018)</hi>: 
+                        <hi rend="italic">A gesture-based interface to VR</hi>. Bachelor’s thesis, Goethe-Universität Frankfurt.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Li, Zhi-Chun / Huang, Hai-Jun / Lam, William HK. / Wong, Sze Chun (2007):</hi> 
+                        <hi rend="italic">A model for evaluation of transport policies in multimodal networks with road and parking capacity constraints</hi> 
+                        in: Journal of Mathematical Modelling and Algorithms 6(2), pages: 239–257.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mehler, Alexander / Abrami, Giuseppe / Bruendel, Steffen / Felder, Lisa / Ostertag, Thomas / Spiekermann, Christian (2017):</hi> 
+                        <hi rend="italic">Stolperwege: An App for a digital public history of the holocaust</hi> in: 
+                        Proceedings of the 28th ACM Conference on Hypertext and Social Media. Pages 319–320. New York, NY, USA. ACM.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mehler, Alexander / Abrami, Giuseppe / Spiekermann, Christian / Jostock, Matthias (2018):</hi> 
+                        <hi rend="italic">VAnnotatoR: A framework for generating multimodal hypertexts</hi>, in: 
+                        Proceedings of the 29th ACM Conference on Hypertext and Social Media. New York, NY, USA. ACM.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nassar, Huda / Gleich, David F. (2017):</hi> 
+                        <hi rend="italic">Multimodal network alignment</hi> in: CoRR, abs/1703.10511.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Spiekermann, Christian / Abrami, Giuseppe / Mehler, Alexander (2018):</hi> 
+                        <hi rend="italic">VAnnotatoR: a gesture-driven annotation framework for linguistic and multimodal annotation</hi>,
+                        in: Proceedings of the Annotation, Recognition and Evaluation of Actions (AREA) Workshop. Japan.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

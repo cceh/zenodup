@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="283_final-GERHARDS_Donata_Gutenberg_Biographics___der_Mainzer_Professo" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gutenberg Biographics - der Mainzer Professorenkatalog</title>
+                <author>
+                    <persName>
+                        <surname>Gerhards</surname>
+                        <forename>Donata</forename>
+                    </persName>
+                    <affiliation>Johannes Gutenberg-Universität, Deutschland; Universitätsarchiv Mainz</affiliation>
+                    <email>dgerhard@students.uni-mainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hüther</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                    <affiliation>Johannes Gutenberg-Universität, Deutschland; Universitätsarchiv Mainz</affiliation>
+                    <email>F.Huether@ub.uni-mainz.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T13:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Biographie</term>
+                    <term>Normdaten</term>
+                    <term>Digital Humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Bewertung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Das Projekt</head>
+                <p>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt">ist ein webbasiertes System zur schwerpunktmäßigen Erfassung und Präsentation der Biographien von Mainzer Gelehrten in der Zeit von 1477-1798/1802 und seit der Wiedergründung der Johannes Gutenberg-Universität 1946 bis in die Gegenwart. Das Digital Humanities Projekt wird in Kooperation der Universitätsbibliothek Mainz, des Instituts für Geschichtliche Landeskunde an der Universität Mainz e.V sowie der Akademie der Wissenschaften und der Literatur | Mainz durchgeführt. Die Schwerpunkte liegen hierbei in der quellenbasierten Erschließung, der Forschungsdatenmodellierung im Bereich der Digitalen Biographik sowie im Aufbau und der Präsentation der webbasierten Plattform. Seit 2013 wird das Projekt vom Forschungsverbund Universitätsgeschichte finanziell unterstützt.</hi>
+                </p>
+                <p>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt" xml:space="preserve">verzeichnet die Personen in ihren Rollen als Handelnde innerhalb unterschiedlicher historischer Ereignisse. Die Biographien der einzelnen Gelehrten werden als Summe ihrer Ereignisse erfasst, sodass ein Zugang sowohl über die Person selbst als auch über die Ereignisse ermöglicht wird. Die stark strukturierten Daten der einzelnen Professoren_innen und Lehrenden der Universität Mainz dienen hierbei als Basis für eine Vielzahl von interdisziplinären Fragestellungen (Vgl. Auge 2013): Welche Karrierewege sind typisch oder treten gehäuft auf? Lässt sich ein Karrieremuster feststellen? Welche wissenschaftlichen oder verwandtschaftlichen Netzwerke innerhalb der einzelnen Fachbereiche und/oder auf universitärer Ebene lassen sich identifizieren? Durch welche Mitgliedschaften in Vereinen, Interessensverbänden oder politischen Parteien nehmen die Professoren_innen Einfluss auf die Gesellschaft jenseits des akademischen Feldes (Beispielhaft hierfür Göllnitz 2013)? Durch die ereignisbasierte Modellierung der Personendaten profitieren also nicht nur die regionalgeschichtliche und biographische Forschung, sondern auch die Universitäts- und Wissenschaftsgeschichte von </hi>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenstruktur </head>
+                <p>
+                    <hi style="font-size:12pt">Verwendet wird das Cultural Heritage Framework der Akademie der Wissenschaften Mainz (Schrade 2017). Dieses ermöglicht eine hohe Flexibilität der Datenmodellierung, sodass es auch an zukünftige Fragestellungen oder Ereignisse angepasst werden kann. Für die insgesamt knapp 1650 
+                    Personendatensätze</hi><hi rend="superscript">1</hi>
+                    <hi style="font-size:12pt" xml:space="preserve">  (vgl. Eckert 2017) werden zum einen die Stammdaten bestehend aus einer System-ID, dem Namen und Namensvarianten, Lebensdaten, Konfession und Fachgebieten erfasst. Zum anderen wird jeder Personendatensatz sowie alle Orte und Körperschaften mit der jeweiligen eindeutigen Identifikationsnummer verknüpft. Personen werden zusätzlich auch über die VIAF identifiziert. Die einzelnen Ereignisse werden nach der Ereignisart, dem Datum und einer zugehörigen Rolle, welche der Handelnde einnimmt, strukturiert. Ergänzt werden diese Informationen um in Beziehung stehende Entitäten, Orte, Personen und Fachbereiche bzw. Institute sowie um archivische Quellen und Literatur. Durch die Verwendung einer 
+                    GND-BEACON-Datei</hi><hi rend="superscript">2</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> werden verschiedene Projekte und bibliographische Informationen miteinander verknüpft und aufeinander bezogen. Die verwendeten Personendatensätze der GND werden zu Tp-Sätzen des Kategorisierungslevels 1 aufgearbeitet und fehlende Einträge innerhalb des Normdatenkatalogs ergänzt. So verfügen alle verzeichneten Professoren nach Abschluss des Projekts über eine eindeutige standardisierte ID, die im Rahmen von Semantic Web und Linked Open Data weiterverwendet werden kann.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>FAIRness</head>
+                <p>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt">legt großen Wert auf Datenstandards und Normdaten sowie auf die Offenheit und gute Nachnutzbarkeit aller im Projekt erschlossenen Forschungsdaten. Hierzu werden die Daten in standardkonformen Formaten über mehrere Schnittstellen (BEACON, TEI/XML, OpenSearch) zur freien Nachnutzung angeboten und somit die 
+                    FAIR-Prinzipien</hi><hi rend="superscript">3</hi><hi style="font-size:12pt" xml:space="preserve"> angewendet. </hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">F</hi>
+                    <hi style="font-size:12pt">INDABLE:</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt" xml:space="preserve">Dank persistenter Identifikatoren und Permalinks können die einzelnen Uniform Resource Identifiers (URI) der Datensätze von </hi>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> sowohl von Maschinen als auch durch den Menschen langfristig im Web gefunden werden. Zur besseren Auffindbarkeit von Ressourcen wird eine BEACON-Datei, welche mit den Normdaten der Gelehrten versehen ist, verwendet.</hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">A</hi>
+                    <hi style="font-size:12pt" xml:space="preserve">CCESSIBLE: </hi>
+                </p>
+                <p>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt" xml:space="preserve">besitzt verschiedene offene Schnittstellen, über welche die Forschungsdaten bereitgestellt werden. Neben einer </hi>
+                    <anchor xml:id="Hlk534714122"/>
+                    <hi style="font-size:12pt">RESTful-API steht eine Open Search-Schnittstelle zur Verfügung.</hi><hi rend="superscript">4</hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">I</hi>
+                    <hi style="font-size:12pt">NTEROPERABLE:</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Die Forschungsdaten liegen zum Austausch in standardkonformen TEI/XML vor. Auch die Präsentationsschicht der Anwendung bietet die Forschungsdaten in strukturierter Form unter Zuhilfenahme der 
+                    schema.org</hi><hi rend="superscript">5</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> Ontologie an. Dank der Verwendung sowohl von Normdaten in Form von GND und VIAF als auch einer BEACON-Datei, ist </hi>
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> zu anderen Professorenkatalogen, Lexika oder bibliographischen Katalogen kompatibel. </hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">R</hi>
+                    <hi style="font-size:12pt">EUSABLE:</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Abgesehen von den verwendeten Fotographien stehen alle Daten unter der Creativ Commons Lizenz CC-BY 4.0. Die offenen Daten können somit unter Nennung des Urhebers durch Dritte weiterverwendet und bearbeitet werden.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Perspektiven</head>
+                <p>
+                    <hi style="font-size:12pt">Geplant, aber bisher noch nicht umgesetzt, ist ein weiterer Zugang mittels Einbindung von Geoinformationssystemen und historischen Kartenmaterialien, der eine weitere Herangehensweise zur Beantwortung von historischen Fragestellungen mit digitalen Methoden ermöglicht. Weiterhin ist angedacht, die Forschungsdaten zukünftig auch in einer CIDOC CRM Modellierung zur Verfügung zu stellen 
+                    (unter Verwendung des Erlangen CRM/OWL)</hi><hi rend="superscript">6</hi>. 
+                    <hi rend="italic" style="font-size:12pt">Gutenberg Biographics</hi>
+                    <hi style="font-size:12pt">leistet somit einen wertvollen Beitrag als Provider von strukturierten (Forschungs-) Daten für die Geschichts- und Kulturwissenschaften im Sinne der Digitalen Geisteswissenschaften. Ein nächster und notwendiger Schritt wäre sicherlich, möglichst viele digitale Gelehrtenverzeichnisse im Rahmen einer gemeinsamen Plattform zusammenzuführen. Hierfür muss jedoch eine einheitliche Basis der Modellierung bspw. in Form von katalogübergreifenden Standards und Schnittstellen gefunden werden, welche eine Zusammenführung der unterschiedlichen methodischen Grundlagen der einzelnen Kataloge (vgl. Schrade 2016: 19) ermöglicht. Durch einen interoperablen Zusammenschluss aller Professorenkataloge kann das Potential der in ihnen enthaltenen Biographien noch besser für die (historische) Forschung genutzt werden.</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> Die Zahl setzt sich zusammen aus rund 750 Professoren_innen, die bis 1973 an die Johannes Gutenberg Universität Mainz berufen worden sind und weiteren rund 900 Professoren aus der frühneuzeitlichen Mainzer Universität (1477-1798/1823). Bis Januar 2019 konnten bereits mehr als 700 Datensätze veröffentlicht werden.</note>
+				<note place="foot" xml:id="ftn2" n="2"> <ref target="https://github.com/digicademy/beaconizer">https://github.com/digicademy/beaconizer</ref></note>
+				<note place="foot" xml:id="ftn3" n="3"> <ref target="https://www.force11.org/group/fairgroup">https://www.force11.org/group/fairgroup</ref></note>
+				<note place="foot" xml:id="ftn4" n="4"> <hi rend="Hyperlink">http://gutenberg-biographics.ub.uni-mainz.de/daten.html</hi></note>
+				<note place="foot" xml:id="ftn5" n="5"> <ref target="https://schema.org/">https://schema.org/</ref></note>
+				<note place="foot" xml:id="ftn6" n="6"> <ref target="http://erlangen-crm.org/">http://erlangen-crm.org/</ref></note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Auge, Oliver / Piotrowski, Swantje (2013):</hi> 
+                        <hi rend="italic">Professorenkataloge 2.0 – Ansätze und Perspektiven webbasierter Forschung in der gegenwärtigen Universitäts- und Wissenschaftsgeschichte</hi>, 
+                        in: Jahrbuch für Universitätsgeschichte 16: 143-339.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eckert, Karin / George, Christian / Hüther, Frank (2017):</hi> 
+                        <hi rend="italic">Gutenberg Biographics: Eine biographische Online-Datenbank zur Mainzer Universitätsgeschichte</hi>, 
+                        in: ABI Technik – Zeitschrift für Automation, Bau und Technik im Archiv-, Bibliotheks- und Informationswesen 37, 3:  171-178 
+                        <ref target="https://doi.org/10.1515/abitech-2017-0041">
+                            <hi>https://doi.org/10.1515/abitech-2017-0041</hi>
+                        </ref> [letzter Zugriff 08. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Göllnitz, Martin (2013):</hi> 
+                        <hi rend="italic">Das ‚Kieler Gelehrtenverzeichnis‘ in der Praxis: Karrieren von Hochschullehrern im Dritten Reich zwischen Parteizugehörigkeit und Wissenschaft</hi>, 
+                        in: 
+                        <hi rend="bold">Auge, Oliver / Piotrowski, Swantje (eds.):</hi> 
+                        <hi rend="italic">Professorenkataloge 2.0 – Ansätze und Perspektiven webbasierter Forschung in der gegenwärtigen Universitäts- und Wissenschaftsgeschichte</hi>. 
+                        Jahrbuch für Universitätsgeschichte 16. Stuttgart: Franz Steiner Verlag 291-312.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pfeiffer, Barbara (2013):</hi> 
+                        <hi rend="italic">Über Zweck und Nutzen der Gemeinsamen Normdatei</hi>, 
+                        in: 
+                        <hi rend="bold">Auge, Oliver / Piotrowski, Swantje (eds.):</hi> 
+                        <hi rend="italic">Professorenkataloge 2.0 – Ansätze und Perspektiven webbasierter Forschung in der gegenwärtigen Universitäts- und Wissenschaftsgeschichte</hi>. 
+                        Jahrbuch für Universitätsgeschichte 16. Stuttgart: Franz Steiner Verlag 251-259.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schrade, Torsten (2016):</hi> 
+                        <hi rend="italic">Deutsche Professorenkataloge. Perspektiven, Möglichkeiten, Potentiale zur Interoperabilität</hi> 
+                        <ref target="https://digicademy.github.io/presentation-catalogus-professorum/#/step-17">
+                            <hi>https://digicademy.github.io/presentation-catalogus-professorum/#/step-1</hi>
+                        </ref> [letzter Zugriff 08. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schrade, Torsten (2017):</hi> 
+                        <hi rend="italic">Sammlungs- und Editionsportale mit dem Cultural Heritage Framework der Digitalen Akademie. Ein Werkstattbericht.</hi> 
+                        <ref target="https://digicademy.github.io/2017-editionsportale-jena/#/step-1">
+                            <hi>https://digicademy.github.io/2017-editionsportale-jena/#/step-1</hi>
+                        </ref> [letzter Zugriff 08. Januar 2019].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

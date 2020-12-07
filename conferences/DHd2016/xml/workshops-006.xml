@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="workshops-006">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Crossmediales Publizieren mit TUSTEP – ein Workshop der International TUSTEP User Group</title>
+        <author>
+          <name>
+            <surname>Recker-Hamm</surname>
+            <forename>Ute</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften und der Literatur Mainz</affiliation>
+          <email>recker@uni-trier.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schneider</surname>
+            <forename>Matthias</forename>
+          </name>
+          <affiliation>Universität Trier, Trier Center for Digital Humanities</affiliation>
+          <email>schneiderm@uni-trier.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Workshops</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>TUSTEP</term>
+          <term>XML</term>
+          <term>Publizieren</term>
+          <term>Crossmedia</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>Geisteswissenschaftliche Projekte – von der studentischen Studienarbeit bis hin
+          zu groß angelegten Forschungsverbünden – sind heute mit der Anforderung
+          konfrontiert, ihre Arbeitsergebnisse nicht nur in einer einzigen
+          Publikationsform (z. B. in gedruckter Form) zu veröffentlichen, sondern vielmehr
+          auch in diversen elektronischen Formaten (z. B. für Ebook-Reader und / oder als
+          dynamische Webseiten). Dabei kann das Verhältnis der verschiedenen
+          Publikationsformen zueinander ganz verschieden sein: Während die Ebook- oder
+          PDF-Varianten oftmals elektronische Abbilder der Druckfassung mit überschaubarem
+          eigenen Mehrwert (z. B. Volltextsuche, Bookmarks usw.) sind, können dynamische
+          Publikationsformen sehr weit über die Druckfassungen hinausgehen, indem sie mehr
+          Inhalte (z. B. die Grunddaten oder alternative Lesefassungen) und zusätzliche
+          Funktionen anbieten. Bei wissenschaftlichen Publikationen darf erwartet werden,
+          dass die verschiedenen Fassungen zitierfähig und aufeinander bezogen sind.</p>
+          <p>Der Siegeszug von XML / TEI als Auszeichnungsformat auch in den
+            geisteswissenschaftlichen Fächern hat die Grundlage für das
+            "Single-Source"-Prinzip bereitet, indem es durch inhaltsbezogenes, nicht
+            layout-spezifisches Markup die Voraussetzung dafür schafft, aus einer einzigen
+            Datenquelle mithilfe geeigneter Werkzeuge mehrere Ziel-Publikationsformen zu
+            bedienen. Neben den bekannten XML-Standard-Techniken wie XSLT, XQuery und XSL:FO
+            stehen Werkzeuge für die Verarbeitung von XML-Daten nach dem
+            Single-Source-Prinzip zur Verfügung, die speziell geisteswissenschaftliche
+            Arbeitsweisen und Anforderungen unterstützen, darunter das Tübinger System von
+            Textverarbeitungsprogrammen (<ref target="http://www.tustep.uni-tuebingen.de">TUSTEP</ref>). </p>
+            <p>Der Workshop <hi rend="italic">Crossmediales Publizieren mit TUSTEP</hi> wird
+            anhand eines überschaubaren, konkreten Beispiels einer Briefedition zeigen, wie
+            XML-Daten in TUSTEP für die Print-, die Ebook- und die dynamische
+            HTML-Publikation verarbeitet werden können. Er richtet sich an Teilnehmerinnen
+            und Teilnehmer, die sich über die allgemeinen Methoden des Single-Souce-Prinzips
+            informieren und erfahren wollen, wie sie in TUSTEP umgesetzt werden.
+            Vorausgesetzt werden grundlegende Kenntnisse im Umgang mit XML-Daten. Im
+            Workshop werden sich präsentierende Abschnitte, in denen die Möglichkeiten von
+            TUSTEP in diesem Bereich vorgestellt werden, mit Anteilen abwechseln, in denen
+            die Teilnehmerinnen und Teilnehmer die Bearbeitung von XML-Daten mit TUSTEP
+            selbst erproben können. </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Das Tübinger System von Textverarbeitungs-programmen</head>
+            <p>Das Tübinger System von Textverarbeitungsprogrammen ist eines der ältesten, seit
+              über 40 Jahren bis heute beständig weiterentwickelten und in zahlreichen
+              geisteswissenschaftlichen Projekten (für eine Auswahl siehe <ref
+              target="http://www.itug.de/projekte.html">itug</ref>). Es bietet ein
+              umfangreiches Paket von speziell auf philologisch-sprachwissenschaftliche
+              Anforderungen zugeschnittenen, aufeinander abgestimmten Werkzeugen, die in hohem
+              Maß an projektspezifische Erfordernisse angepasst werden können. Die Bandbreite
+              der Programmmodule reicht dabei vom Vergleichen und Kollationieren, dem
+              Segmentieren, Annotieren und Indexieren von Texten in XML oder anderen Formaten
+              über das Skripting bis hin zum professionellen Satz und kann – beispielsweise
+              für dynamische Webpublikationen – auch direkt auf Servern eingesetzt werden.
+              Seit Kurzem verfügt TUSTEP über eine XML-basierte, alternative Kommandosyntax
+              namens <ref target="http://www.txstep.de">TXSTEP</ref>, die eine Steuerung des
+              Programms von außerhalb, z. B. aus der XML-Entwicklungsumgebung Oxygen
+              erlaubt.</p>
+              <p>Die International TUSTEP User Group e.V. (<ref target="http://www.itug.de">ITUG</ref>)
+              unterstützt TUSTEP-Anwender und -Lerner seit über 20 Jahren durch Kurse, jährlich stattfindende <ref target="http://www.itug.de/tagungen.html">Fach-Kolloquien</ref> (
+              und das <ref target="http://www.tustep.wikispaces.com/TUSTEP-Wiki">TUSTEP-Wiki</ref>.
+              Außerdem fördert sie die Weiterentwicklung von TUSTEP, seit es seit 2011 als Open Source Software frei und kostenlos verfügbar ist.
+            </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Workshop-Inhalte</head>
+            <div type="div2" rend="DH-Heading2">
+              <head>Überblick über TUSTEP</head>
+              <p>Zu Beginn des Workshops wird ein kurzer orientierender Überblick über die Programmbausteine und die Arbeitsweise von TUSTEP gegeben, wobei insbesondere die einschlägigen Hilfsmittel vorgestellt werden.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>XML-Daten im TUSTEP-Editor</head>
+              <p>Die Teilnehmerinnen und Teilnehmer unternehmen anhand des Beispieltexts ihre
+                ersten Schritte in TUSTEP, indem sie sich den Editor für die Bearbeitung von
+                XML-Daten einrichten. Sie erfahren, wie sie Kommandos und einfache
+                Pattern-Matching-Anweisungen ausführen.</p>
+              </div>
+              <div type="div2" rend="DH-Heading2">
+                <head>TEI-Beispieltexte setzen (PS- / PDF-Herstellung)</head>
+                <p>Die in TEI ausgezeichneten Beispieltexte werden mithilfe des schnell zu
+                  erschließenden und einfach zu benutzenden, dabei dennoch auf eine hohe
+                  Qualität abzielenden TUSTEP-Moduls <ref target="http://www.tustep.uni-tuebingen.de/pdf/satzmakro.pdf">*SATZ</ref>
+                  für die Druckstufe (PS / PDF) vorbereitet. Nach einer Vorstellung
+                  der Funktionsweise und der Einstellungsmöglichkeiten können die
+                  Workshopteilnehmenden die PDF-Ausgabe nach eigenem Belieben variieren. </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                  <head>Von TEI nach EPUB: TUSTEP im Rahmen von Toolchains</head>
+                  <p>Für die Herstellung eines Ebooks im EPUB-Format wird aus den TEI-Daten
+                    zunächst mit der TUSTEP-eigenen Skriptsprache TUSCRIPT eine HTML-Datei
+                    erzeugt, die anschließend mit dem Open source-Konvertierer Calibre nach EPUB
+                    transformiert wird. Neben der Erläuterung und gemeinsamen Anwendung der
+                    verschiedenen Komponenten soll in diesem Bereich deutlich werden, auf welche
+                    Weise  TUSTEP und externe Tools gemeinsam verwendet und automatisiert
+                    genutzt werden können.</p>
+                  </div>
+                  <div type="div2" rend="DH-Heading2">
+                    <head>Einsatz von TUSTEP als Publikationsserver</head>
+                    <p>Abschließend werden die zuvor vorgestellten Verarbeitungsmöglichkeiten für
+                      XML-Daten auf einem Webserver eingesetzt und gemeinsam mit den Teilnehmenden
+                      getestet. Diese Zusammenführung soll insbesondere die Stärken von TUSTEP im
+                      Rahmen dynamischer Online-Projekte (z. B. Editionen mit fortlaufend
+                      aktualisierten Daten) aufzeigen.</p>
+                    </div>
+                  </div>
+                  <div type="div1" rend="DH-Heading1">
+                    <head>Organisatorisches</head>
+                    <div type="div2" rend="DH-Heading2">
+                      <head>Technische Ausstattung</head>
+                      <p>Alle Teilnehmenden sollten ein eigenes Notebook (Linux, MAC OS X, Windows) mitbringen. Die nötige Software (TUSTEP und weitere benötigte Komponenten) werden von den Veranstaltern auf USB-Sticks mitgebracht. Hierzu wird vorab eine Informationsmail an die angemeldeten Workshopbesucher versendet. – Für den Workshop werden ein Beamer und WLAN-Zugang für alle Teilnehmenden benötigt.</p>
+                    </div>
+                    <div type="div2" rend="DH-Heading2">
+                      <head>Zahl der möglichen Teilnehmenden</head>
+                      <p>Die Zahl der Teilnehmenden sollte auf max. 20 Personen begrenzt sein, um eine angemessene, interaktive Durchführung gewährleisten zu können.</p>
+                    </div>
+                    <div type="div2" rend="DH-Heading2">
+                      <head>Zeitplanung</head>
+                      <p>Der Workshop ist auf zweimal 90 Minuten Dauer zuzüglich einer etwa 30-minütige Pause konzipiert.</p>
+                    </div>
+                  </div>
+                  <div type="div1" rend="DH-Heading1">
+                    <head>Kontaktdaten</head>
+                    <p>Ute Recker-Hamm, M.A.
+                      <lb/>Akademie der Wissenschaften und der Literatur Mainz
+                      <lb/>Arbeitsstelle »Mittelhochdeutsches Wörterbuch« an der Universität Trier
+                      <lb/>54286 Trier
+                      <lb/>
+                      <ref target="mailto:recker@uni-trier.de">
+                        recker@uni-trier.de
+                      </ref>
+                      <lb/>
+                      <ref target="http://www.uni-trier.de/index.php?id=19336">
+                        www.uni-trier.de/index.php?id=19336
+                      </ref>
+                      <lb/>Forschungsinteressen: Datenverarbeitung für philologische und lexikographische Zwecke, Digitale Editionen, Native XML-Datenbanken
+                      <lb/>Zweite Vorsitzende der International TUSTEP User Group
+                    </p>
+                    <p>Matthias Schneider, M.A.
+                      <lb/>Universität Trier
+                      <lb/>Kompetenzzentrum für elektronische Erschließungs- und Publikationsverfahren in den Geisteswissenschaften
+                      <lb/>54286 Trier
+                      <lb/>
+                      <ref target="mailto:schneiderm@uni-trier.de">
+                        schneiderm@uni-trier.de
+                      </ref>
+                      <lb/>
+                      <ref target="http://kompetenzzentrum.uni-trier.de/de/ueber-uns/mitarbeiter/matthias-schneider/">
+                        http://kompetenzzentrum.uni-trier.de/
+                      </ref> /
+                      <ref target="http://www.m-schneider.eu">
+                        www.m-schneider.eu
+                      </ref>
+                      <lb/>Forschungsinteressen: Digitale Geisteswissenschaften, strukturelle Textdatenverarbeitung sowie politische, militärische und Historiographiegeschichte der Neueren und Neuesten Zeit
+                    </p>
+                  </div>
+                </body>
+              </text>
+            </TEI>

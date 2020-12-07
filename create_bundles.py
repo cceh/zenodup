@@ -10,8 +10,10 @@ Put conference folder in /conferences. The conference folder is expected in the 
 To run this script the following arguments need to be modified:
     * CONFERENCE: Name of conference folder
     * METADATA_FILE: Name of metadata file (expected format: xml) for conference publications
-    * XML (Optional): Name of folder of conference publication xmls. If no name is given, script expects folder name "xml"
-    * PDF (Optional): Name of folder of conference publication pdfs. If no name is given, script expects folder name "pdf"
+    * XML (Optional): Name of folder of conference publication xmls. If no name is given,
+      script expects folder name "xml"
+    * PDF (Optional): Name of folder of conference publication pdfs. If no name is given,
+      script expects folder name "pdf"
 
 The created bundle structure will be created in /bundle_structure/[CONFERENCE].
 """
@@ -19,15 +21,14 @@ The created bundle structure will be created in /bundle_structure/[CONFERENCE].
 # ## Imports
 import getopt
 import logging
-import lxml
-from lxml import etree
 import os
 from pathlib import Path
 import sys
 from xml.etree import ElementTree as ET
 from shutil import copyfile
 import json
-
+import re
+import pandas as pd
 
 
 def main(argv):
@@ -37,7 +38,7 @@ def main(argv):
 
     # set logging
     conference_name = os.path.basename(conference)
-    logging.basicConfig(filename=conference_name+'_bundle.log', filemode='w', encoding='utf-8', level=logging.INFO)
+    logging.basicConfig(filename='support/' + conference_name+'_bundle.log', filemode='w', level=logging.INFO)
 
     # parse metadata file of conference
     tree = ET.parse(metadata_file)
@@ -46,15 +47,17 @@ def main(argv):
     # get publications with creator names
     publications = get_publications(publications_metadata)
 
-    # Get all possible names of pdf and xml files based on publication creaotors and titles in metadata file of conference
+    # Get all possible names of pdf and xml files based on publication creaotors and titles in metadata file of
+    # conference
     publication_names = get_possible_publication_names(tree, publications)
     logging.debug(len(publication_names))
 
     # get publication pdfs
     publication_pdfs = get_publication_files(publication_names, pdf)
-
+    # print(publication_pdfs)
     # get publication xmls
     publication_xmls = get_publication_files(publication_names, xml)
+    # print(publication_xmls)
 
     # create bundle directories for publications
     publication_bundles = create_bundles(conference, publication_pdfs, publication_xmls)
@@ -62,16 +65,18 @@ def main(argv):
     # create json metadata file for each bundle based on metadata for publication
     create_bundles_metadata(publications_metadata, publication_bundles)
 
-    logging.info(f"Bundle structure for conference {conference_name} has been created under 'bundle_structures/{conference_name}'.")
+    logging.info(f"Bundle structure for conference {conference_name} has been created under "
+                 f"'bundle_structures/{conference_name}'.")
+
 
 # set working paths
-def set_paths(argv:list) -> (Path, Path, Path, Path):
+def set_paths(argv: list) -> (Path, Path, Path, Path):
     conference = ''
     metadata_file = ''
     xml = ''
     pdf = ''
     try:
-        opts, args = getopt.getopt(argv,"hc:m:x:p:",["conference=","metadata_file=","xml=","pdf="])
+        opts, args = getopt.getopt(argv, "hc:m:x:p:", ["conference=", "metadata_file=", "xml=", "pdf="])
     except getopt.GetoptError:
         sys.exit(2)
     for opt, arg in opts:
@@ -80,8 +85,8 @@ def set_paths(argv:list) -> (Path, Path, Path, Path):
             sys.exit()
         elif opt in ("-c", "--conference"):
             conference = os.path.join("conferences", arg)
-            xml = os.path.join(conference,"xml")
-            pdf = os.path.join(conference,"pdf")
+            xml = os.path.join(conference, "xml")
+            pdf = os.path.join(conference, "pdf")
         elif opt in ("-m", "--metadata"):
             metadata_file = os.path.join(conference, arg)
         elif opt in ("-x", "--xml"):
@@ -90,22 +95,25 @@ def set_paths(argv:list) -> (Path, Path, Path, Path):
             pdf = os.path.join(conference, arg)
     return readable_dir(conference), readable_file(metadata_file), readable_dir(xml), readable_dir(pdf)
 
+
 # check if unchecked path references is readable directory
-def readable_dir(prospective_dir:str) -> Path:
+def readable_dir(prospective_dir: str) -> str:
     if not os.path.isdir(prospective_dir):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_dir))
     if not os.access(prospective_dir, os.R_OK):
         raise Exception("readable_dir:{0} is not a readable dir".format(prospective_dir))
-    return Path(prospective_dir)
+    return prospective_dir
 
-def readable_file(prospective_file:str) -> Path:
+
+def readable_file(prospective_file: str) -> str:
     if not os.path.isfile(prospective_file):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_file))
     if not os.access(prospective_file, os.R_OK):
         raise Exception("readable_dir:{0} is not a readable dir".format(prospective_file))
-    return Path(prospective_file)
+    return prospective_file
 
-def get_publications(metadata:ET.Element) -> dict:
+
+def get_publications(metadata: ET.Element) -> dict:
 
     logging.debug(f"Number of publications in metadata file: {len(metadata)}")
 
@@ -117,14 +125,16 @@ def get_publications(metadata:ET.Element) -> dict:
             logging.warning(f"The publication with index {metadata.index(publication)} does not contain a title")
         creator_names = [parse_creator(creator.find("name").text) for creator in publication.findall(".//creator")]
         if len(creator_names) == 0:
-            logging.warning(f"The publication with index {metadata.index(publication)} does not contain creators")
+            logging.warning(f"The publication with title {publication.find('title').text} "
+                            f"(index {metadata.index(publication)}) does not contain creators.")
         publications.update({title: creator_names})
 
     return publications
 
-def ascii_rename(name:str) -> str:
+
+def ascii_rename(name: str) -> str:
     try:
-        elements_to_be_replaced = [".", "-", ":", ",", "?", "!" ," ", "(", ")", "&", "@"]
+        elements_to_be_replaced = [".", "-", ":", ",", "?", "!", " ", "(", ")", "&", "@"]
         name = name.replace("ß", "ss")
         name = name.replace("\"", "_em_")
         name = name.replace("\'", "_em_")
@@ -139,14 +149,18 @@ def ascii_rename(name:str) -> str:
     except AttributeError:
         pass
 
-def parse_creator(name:str) -> list:
-    name=[ascii_rename(elem.strip()) for elem in name.split(",")]
+
+def parse_creator(name: str) -> list:
+    name = [ascii_rename(elem.strip()) for elem in name.split(",")]
     return name
 
-def get_possible_publication_names(metadata:list, publications:dict) -> dict:
+
+def get_possible_publication_names(metadata: list, publications: dict) -> dict:
 
     publication_names = {}
+    title = ''
     for (publication, creators) in publications.items():
+        # logging.info((publication, creators))
         try:
             title = ascii_rename(publication)
         except TypeError:
@@ -172,52 +186,86 @@ def get_possible_publication_names(metadata:list, publications:dict) -> dict:
         publication_names.update({publication: possible_names})
     return publication_names
 
-def get_publication_files(publication_names:dict, file_dir:Path) -> dict:
+
+def get_publication_files(publication_names: dict, file_dir) -> dict:
 
     # get types of files in given directory
     file_types = set([os.path.splitext(file_name)[1] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"])
     if len(file_types) > 1:
         logging.error(f"The given directory {file_dir} contains files with multipe formats: {file_types}")
-        raise Exception("The given directory contains files with multipe formats")
+        raise Exception("The given directory contains files with multiple formats")
     else:
         file_type = list(file_types)[0]
 
     # get file names
     file_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"]
-
+    file_names.sort()
+    file_names_to_compare = {re.sub(r'[0-9]{3}_final-', '', name): name for name in file_names}
+    # print(file_names_to_compare)
     publication_files = {}
     last_elem = ()
+    counter = 0
 
     for elem in publication_names:
-        if any(possible_name.find(name)!= -1 for possible_name in publication_names.get(elem) for name in file_names):
+        if any(possible_name.find(name) != -1 for possible_name in publication_names.get(elem) for name in
+               file_names_to_compare.keys()):
             for possible_name in publication_names.get(elem):
-                for name in file_names:
+                for name in file_names_to_compare.keys():
                     if possible_name.find(name) != -1:
                         logging.debug("----")
                         logging.debug(name)
                         logging.debug("----")
-                        publication_files.update({elem:readable_file(os.path.join(file_dir, name + file_type))})
+                        publication_files.update({elem: readable_file(
+                                                os.path.join(file_dir, file_names_to_compare.get(name) + file_type))})
                         last_elem = (elem, name)
-        elif any(possible_name.find(name[:-1])!= -1 for possible_name in publication_names.get(elem) for name in file_names):
+            counter = counter + 1
+        elif any(possible_name.find(name[:-1]) != -1 for possible_name in publication_names.get(elem) for name in
+                 file_names_to_compare.keys()):
             for possible_name in publication_names.get(elem):
-                for name in file_names:
+                for name in file_names_to_compare.keys():
                     if possible_name.find(name[:-1]) != -1:
                         logging.debug("----")
                         logging.debug(name)
                         logging.debug("----")
-                        publication_files.update({elem:readable_file(os.path.join(file_dir,name + file_type))})
+                        publication_files.update({elem: readable_file(
+                                                os.path.join(file_dir, file_names_to_compare.get(name) + file_type))})
                         last_elem = (elem, name)
+                        # print(last_elem)
+            counter = counter + 1
         else:
+            try: 
+                logging.info(f"Last element: {last_elem[1]}")
+                if all(key != last_elem[1] for key in file_names_to_compare.keys()):
+                    current_file = file_names[counter]
+                    # logging.info(f"Current file: {current_file}")
+                    last_elem = (elem, current_file)
+                    # logging.info(f"Updated last element: {last_elem}")
+                else:
+                    temp = iter(file_names_to_compare)
+                    for key in temp:
+                        # print(key)
+                        if key == last_elem[1]:
+                            current_file = file_names_to_compare.get(next(temp))
+                            # logging.info(f"Current file: {current_file}")
+                            last_elem = (elem, current_file)
+                            # logging.info(f"Updated last element: {last_elem}")
+            except IndexError:
+                last_elem = (elem, file_names[counter])
+                # logging.info(f"Last element: {last_elem}")
+                current_file = file_names[counter]
+                # logging.info(f"Current file: {current_file}")
+
             logging.warning("***")
-            logging.warning(f"For the publication {elem} exists no matching file. Get publication by previous file.")
-            current_file = file_names[file_names.index(last_elem[1]) + 1]
-            logging.warning(f"Assigned file {current_file} to publication {elem}")
-            publication_files.update({elem:readable_file(os.path.join(file_dir,current_file + file_type))})
+            logging.warning(f"For the publication {elem} exists no matching file. Get publication by previous file. "
+                            f"Assigned \n {current_file} \n {elem}")
+            publication_files.update({elem: readable_file(os.path.join(file_dir, current_file + file_type))})
             logging.warning("***")
+            counter = counter + 1
 
     return publication_files
 
-def create_bundles(conference: Path, publication_pdfs: dict, publication_xmls: dict) -> dict:
+
+def create_bundles(conference, publication_pdfs: dict, publication_xmls: dict) -> dict:
     
     # create directory for conference in bundle structure
     bundle_path = os.path.join("bundle_structures", os.path.basename(conference))
@@ -226,77 +274,98 @@ def create_bundles(conference: Path, publication_pdfs: dict, publication_xmls: d
     except OSError:
         logging.warning("Directory already exists. Continue..")
 
-    publication_paths = {publication:os.path.join(bundle_path, os.path.basename(file_path)[:-4]) for (publication,file_path) in publication_pdfs.items()}
+    publication_paths = {publication: os.path.join(bundle_path, os.path.basename(file_path)[:-4]) for
+                         (publication, file_path) in publication_pdfs.items()}
+    create_csv(os.path.basename(conference), publication_paths)
+    logging.info(len(publication_paths))
     # create directory for each publication and copy pdfs / xmls to directory
     for (publication, path) in publication_paths.items():
-        os.mkdir(os.path.join(path))
-        os.mkdir(os.path.join(path, "bundle_publications"))
-        publications_folder = os.path.join(path, "bundle_publications")
-        copyfile(publication_pdfs.get(publication), os.path.join(publications_folder, os.path.basename(publication_pdfs.get(publication))))
-        copyfile(publication_xmls.get(publication), os.path.join(publications_folder, os.path.basename(publication_xmls.get(publication))))
+        try:
+            os.mkdir(os.path.join(path))
+            os.mkdir(os.path.join(path, "bundle_publications"))
+        except FileExistsError:
+            logging.warning(f"Bundle directories {os.path.join(path)} already exists. Continue..")
 
-    list_of_defective_dirs = [dirpath for (dirpath, dirs, files) in os.walk(bundle_path) if len(dirs) == 0 and len(files) != 2]
+        publications_folder = os.path.join(path, "bundle_publications")
+        copyfile(publication_pdfs.get(publication), os.path.join(publications_folder,
+                                                                 os.path.basename(publication_pdfs.get(publication))))
+        copyfile(publication_xmls.get(publication), os.path.join(publications_folder,
+                                                                 os.path.basename(publication_xmls.get(publication))))
+
+    list_of_defective_dirs = [dirpath for (dirpath, dirs, files) in os.walk(bundle_path)
+                              if len(dirs) == 0 and len(files) != 2]
     if len(list_of_defective_dirs) != 0:
         logging.warning(f"The following directories do not contain two files: {list_of_defective_dirs}")
     else:
         logging.info("All directories have been created and contain two files. Continue..")
     return publication_paths
 
+
+def create_csv(conference:str, publications:dict):
+    # safe ordered files and titles in csv file
+    df = pd.DataFrame({"title": list(publications.keys()),
+                      'file name': [os.path.basename(elem) for elem in list(publications.values())]})
+
+    df.to_csv('support/' + conference + ".csv", header=True)
+
 def create_bundles_metadata(publications_metadata: ET.Element, publication_bundles: dict) -> None:
 
+    data = {}
     for (publication, bundle_path) in publication_bundles.items():
         for pub in publications_metadata:
             if pub.find("title").text == publication:
                 if pub.find("doi").text:
-                    data = {"metadata":{"upload_type": pub.find("upload_type").text,
-                                        "publication_type": pub.find("publication_type").text,
-                                        "publication_date": pub.find("publication_date").text,
-                                        "title": pub.find("title").text,
-                                        "creators": [{"name": creator.find("name").text,
-                                                    "affiliation": creator.find("affiliation").text
-                                                    } for creator in pub.findall("creators/creator")],                       
-                                        "description": pub.find("description").text,
-                                        "access_right": pub.find("access_right").text,
-                                        "license": pub.find("license").text,
-                                        "doi": pub.find("doi").text,
-                                        "keywords": [keyword.replace("\"", "") for keyword in pub.find("keywords").text.split(", ")],
-                                        "contributors": [{"name":contributor.find("name").text,
-                                                        "affiliation":contributor.find("affiliation").text,
-                                                        "type":contributor.find("type").text
-                                                        } for contributor in pub.findall("contributors/contributor")],
-                                        "communities":[{"identifier": community.text
-                                                        } for community in pub.findall("communities/identifier")],
-                                        "conference_title": pub.find("conference_title").text,
-                                        "conference_acronym": pub.find("conference_acronym").text,
-                                        "conference_dates": pub.find("conference_dates").text,
-                                        "conference_place": pub.find("conference_place").text,
-                                        "conference_url": pub.find("conference_url").text
-                                        }
+                    data = {"metadata": {"upload_type": pub.find("upload_type").text,
+                                         "publication_type": pub.find("publication_type").text,
+                                         "publication_date": pub.find("publication_date").text,
+                                         "title": pub.find("title").text,
+                                         "creators": [{"name": creator.find("name").text,
+                                                      "affiliation": creator.find("affiliation").text
+                                                       } for creator in pub.findall("creators/creator")],
+                                         "description": pub.find("description").text,
+                                         "access_right": pub.find("access_right").text,
+                                         "license": pub.find("license").text,
+                                         "doi": pub.find("doi").text,
+                                         "keywords": [keyword.replace("\"", "") for keyword in
+                                                      pub.find("keywords").text.split(", ")],
+                                         "contributors": [{"name": contributor.find("name").text,
+                                                          "affiliation": contributor.find("affiliation").text,
+                                                           "type": contributor.find("type").text
+                                                           } for contributor in pub.findall("contributors/contributor")],
+                                         "communities": [{"identifier": community.text
+                                                          } for community in pub.findall("communities/identifier")],
+                                         "conference_title": pub.find("conference_title").text,
+                                         "conference_acronym": pub.find("conference_acronym").text,
+                                         "conference_dates": pub.find("conference_dates").text,
+                                         "conference_place": pub.find("conference_place").text,
+                                         "conference_url": pub.find("conference_url").text
+                                         }
                             }
                 else: 
-                    data = {"metadata":{"upload_type": pub.find("upload_type").text,
-                                        "publication_type": pub.find("publication_type").text,
-                                        "publication_date": pub.find("publication_date").text,
-                                        "title": pub.find("title").text,
-                                        "creators": [{"name": creator.find("name").text,
-                                                    "affiliation": creator.find("affiliation").text
-                                                    } for creator in pub.findall("creators/creator")],                       
-                                        "description": pub.find("description").text,
-                                        "access_right": pub.find("access_right").text,
-                                        "license": pub.find("license").text,
-                                        "keywords": [keyword.replace("\"", "") for keyword in pub.find("keywords").text.split(", ")],
-                                        "contributors": [{"name":contributor.find("name").text,
-                                                        "affiliation":contributor.find("affiliation").text,
-                                                        "type":contributor.find("type").text
-                                                        } for contributor in pub.findall("contributors/contributor")],
-                                        # "communities":[{"identifier": community.text
-                                                       #  } for community in pub.findall("communities/identifier")],
-                                        "conference_title": pub.find("conference_title").text,
-                                        "conference_acronym": pub.find("conference_acronym").text,
-                                        "conference_dates": pub.find("conference_dates").text,
-                                        "conference_place": pub.find("conference_place").text,
-                                        "conference_url": pub.find("conference_url").text
-                                        }
+                    data = {"metadata": {"upload_type": pub.find("upload_type").text,
+                                         "publication_type": pub.find("publication_type").text,
+                                         "publication_date": pub.find("publication_date").text,
+                                         "title": pub.find("title").text,
+                                         "creators": [{"name": creator.find("name").text,
+                                                      "affiliation": creator.find("affiliation").text
+                                                       } for creator in pub.findall("creators/creator")],
+                                         "description": pub.find("description").text,
+                                         "access_right": pub.find("access_right").text,
+                                         "license": pub.find("license").text,
+                                         "keywords": [keyword.replace("\"", "") for keyword
+                                                      in pub.find("keywords").text.split(", ")],
+                                         "contributors": [{"name": contributor.find("name").text,
+                                                          "affiliation": contributor.find("affiliation").text,
+                                                           "type": contributor.find("type").text
+                                                           } for contributor in pub.findall("contributors/contributor")],
+                                         # "communities":[{"identifier": community.text
+                                         #  } for community in pub.findall("communities/identifier")],
+                                         "conference_title": pub.find("conference_title").text,
+                                         "conference_acronym": pub.find("conference_acronym").text,
+                                         "conference_dates": pub.find("conference_dates").text,
+                                         "conference_place": pub.find("conference_place").text,
+                                         "conference_url": pub.find("conference_url").text
+                                         }
                             }
         with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
             json.dump(data, outfile)

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="241_final-NEUBER_Frederike_Distant_Letters__Methoden_und_Praktiken_zur" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Distant Letters: Methoden und Praktiken zur quantitativen Analyse digitaler Briefeditionen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>dumont@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Haaf</surname>
+                        <forename>Susanne</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>haaf@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Henny-Krahmer</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>ulrike.henny@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Krautter</surname>
+                        <forename>Benjamin</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                    <email>benjamin.krautter@ilw.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neuber</surname>
+                        <forename>Frederike</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>neuber@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Briefe</term>
+                    <term>Edition</term>
+                    <term>Korpora</term>
+                    <term>TEI</term>
+                    <term>Normdaten</term>
+                    <term>Topic Modeling</term>
+                    <term>Stilometrie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Strukturanalyse</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Visualisierung</term>
+                    <term>Software</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Beschreibung</head>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-f0258aea-7fff-d4ca-6ead-0c344b8244c7"/>
+                    <hi rend="color(#000000)">Briefeditionen sind ein Typus der digitalen Edition, in dem die Vorteile des digitalen Mediums bereits mit am intensivsten fruchtbar gemacht werden.</hi><hi rend="superscript">1</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">In der alltäglichen Arbeit des Edierens sowie der Software-Entwicklung richtet sich der Blick zum großen Teil meist auf den einzelnen Brief und seine Tiefenerschließung, weniger auf die Menge an Briefen eines Korrespondenzkorpus. Weiterführende quantitative Analysen auf Basis der Tiefenerschließung (vollständige Transkription, Modellierung in XML/TEI, Normdaten etc.) und mit digitalen Methoden, die gerade auch für korpusübergreifende Untersuchungen den Weg ebnen würden, sind traditionellerweise in Editionsprojekten (noch) nicht vorgesehen.</hi><hi rend="superscript">2</hi>
+                    <hi rend="color(#000000)"> Mit dem </hi>
+                    <hi rend="color(#000000)">eintägigen </hi>
+                    <hi rend="color(#000000)">Workshop „Distant Letters“ möchten wir ein Panorama an quantitativ orientierten Analysemethoden und -praktiken für Daten digitaler Briefeditionen vorstellen, </hi>
+                    <hi rend="color(#000000)">vermitteln und diskutieren, um so neue Perspektiven </hi>
+                    <hi rend="color(#000000)">auf</hi>
+                    <hi rend="color(#000000)"> Briefkorpora </hi>
+                    <hi rend="color(#000000)">zu</hi>
+                    <hi rend="color(#000000)"> erproben.</hi><hi rend="superscript">3</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">Der Workshop gliedert sich in vier Abschnitte:</hi>
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Auswertung von Metadaten und Entitäten</head>
+                    <p>
+                        <anchor xml:id="id_docs-internal-guid-0240a82a-7fff-d093-53b2-466434176446"/>
+                        <hi rend="color(#000000)">Auf der Grundlage von standardisiert kodierten Briefmetadaten in XML/TEI sollen mit der Abfragesprache XQuery zunächst Fragen formuliert werden wie: „Wie viel hat Sender A an Empfänger B insgesamt geschrieben? Wie viel in einem bestimmten Jahr?“ Im Anschluss sollen vergleichende Untersuchungen angestellt werden, denen Fragen wie „Wie viel hat Sender A an Empfänger B und Empfänger C geschrieben?“ oder „Wie gestaltet sich das Verhältnis von gesendeten und empfangenen Briefen in der Korrespondenz von A und B?“ zugrunde liegen. Auch Entitäten aus dem Brieftext können in die Untersuchung mit einbezogen werden („Wie häufig wird Person X im Verlauf der Korrespondenz erwähnt?“). Das Ergebnis von derlei Fragen sind statistische Werte, die, um sie interpretatorisch zugänglicher zu machen, weiter aufbereitet werden müssen, z.B. als Visualisierungen in Diagrammen, Kreisen und Kurven.</hi>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Analyse linguistischer Merkmale</head>
+                    <p>
+                        <anchor xml:id="id_docs-internal-guid-7b2bf2a1-7fff-eab6-2c99-c5109ff961e0"/>
+                        <hi rend="color(#000000)">Im zweiten Teil wendet sich die Untersuchung den Volltextdaten zu. In den Blick genommen werden dabei linguistische Merkmale auf Token-Ebene (z.B. Lemma und Wortart), die einfachen oder komplexen Abfragen (z.B. nach typischen Adjektiv-Anbindungen bestimmter Substantive, Häufungen einer bestimmten Wortart, festen Wendungen, Kollokationen) an den Text zugrunde gelegt werden können und so u.a. Aufschluss über inhaltliche und stilistische Gegebenheiten ermöglichen. Im Workshop werden Werkzeuge gezeigt und benutzt, die zum einen die automatische linguistische Analyse von Texten, z.B. deren Lemmatisierung und POS-Tagging, erlauben und zum anderen Möglichkeiten der Auswertung annotierter linguistischer Merkmale bieten, z.B. mittels leistungsstarker Suchanfragesprachen oder Möglichkeiten der Visualisierung. Genauer in den Blick genommen und z.T. benutzt werden TXM, Corpus Workbench, DTA und WebLicht.</hi><hi rend="superscript">4</hi>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Topic Modeling</head>
+                    <p>
+                        <anchor xml:id="id_docs-internal-guid-62f7c0db-7fff-5d67-9dfe-298e291fdbc0"/>
+                        <hi rend="color(#000000)">Im dritten Teil des Workshops rücken die Inhalte der Briefkommunikation stärker in das Zentrum des Interesses, wenn Fragen aufgegriffen werden wie „Welche Themen werden </hi>
+                        <hi rend="color(#000000)">behandelt und wie sind diese zeitlich verteilt?“ oder „Gibt es bestimmte Themen, die in einer bestimmten Personengruppe stärker verhandelt werden als in einer anderen?“. Analysiert wird dabei der Volltext der Briefe, zusätzlich können jedoch auch die Briefmetadaten in die Interpretation der Analyseergebnisse einfließen. Für die Modellierung </hi>
+                        <hi rend="color(#000000)">der Topics</hi>
+                        <hi rend="color(#000000)"> wird das Tool „Mallet“</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">verwendet,</hi><hi rend="superscript">5</hi>
+                        <hi rend="color(#000000)"> und es wird im Workshop gemeinsam ein Topic Model für ein Briefkorpus erstellt. Für die Auswertung in Kombination mit Metadaten und Visualisierungen wird der „Topic Modeling Workflow“ </hi>
+                        <hi rend="color(#000000)">(TMW) verwendet.</hi><hi rend="superscript">6</hi>
+                        <anchor xml:id="id_docs-internal-guid-c653c261-7fff-ef80-7637-5e534cf2f21f"/>
+                        <hi rend="color(#000000)">Diskutiert werden soll </hi>
+                        <hi rend="color(#000000)">außerdem, wie sich die Konzepte ‚Topic‘ und ‚Thema‘ zueinander verhalten.</hi><hi rend="superscript">7</hi>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Stilometrie</head>
+                    <p>
+                        <anchor xml:id="id_docs-internal-guid-91fe16b4-7fff-eda4-1ad0-60702812405f"/>Im letzten Teil des Workshops soll mit Methoden und Tools der Stilometrie der Sprach- bzw. Schreibstil eines Briefkorpus genauer untersucht werden. Analysiert wird dabei erneut der Volltext, diesmal in orthografisch normalisierter Form. Mögliche Fragestellungen der Analyse sind: „Welche Rückschlüsse erlauben stilometrische Analysen hinsichtlich Sender und Empfänger der Briefe?“, „Korrelieren die stilistische Nähe bzw. Distanz mit Faktoren wie Zeit, Raum oder Empfänger?“. Auch Stilvergleiche werden beispielhaft auf Grundlage der Fragen „Ändert sich der Stil von Sender A in seinen Briefen an die Empfänger B und C?“ und „Variiert der Stil zwischen Geschäfts- und Privatkorrespondenz?“ unternommen. Für die stilometrischen Analysen nutzen wir das „Stylo“-Paket für R.<hi rend="superscript">8</hi>
+                        <anchor xml:id="id_docs-internal-guid-f63da7ba-7fff-191b-c52b-a815c29b5583"/>
+                        <hi rend="color(#000000)">Auch für die stilistischen Analysen ist zu diskutieren, welches Konzept von Stil hinter den gewählten Methoden steht und wie es sich zu anderen Definitionen von Stil verhält.</hi><hi rend="superscript">9</hi>
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ziele</head>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-3b84d9a5-7fff-033b-558c-ea642e846c37"/>Ziel des Workshops ist es, ein Panorama quantitativer Analysemöglichkeiten für Briefkorpora vorzustellen, das eine Ergänzung zu den traditionellen ‚close reading‘-Verfahren in wissenschaftlichen Editionen darstellt und die Digitalität der Editionsdaten mit Methoden der Digital Humanities noch stärker für quellenimmanente Forschungsfragen fruchtbar macht. Die Teilnehmerinnen und Teilnehmer sollen den Workshop am Ende des Tages mit einem Set an Skripten und Tools verlassen und in der Lage sein, diese auf andere (ggf. eigene) Datensätze anzuwenden. Neben der Vermittlung von technischen Fertigkeiten ist die Diskussion der Methoden und Ergebnisse mit den Teilnehmerinnen und Teilnehmern fester Bestandteil des Workshops. 
+                    <anchor xml:id="id_docs-internal-guid-1ef3c665-7fff-3bbe-4686-628d5302814b"/>
+                    <hi rend="color(#000000)">Es soll dabei gemeinsam eruiert werden, auf welchen theoretischen Annahmen die Methoden jeweils basieren, wo ihre Stärken und Schwächen liegen und auch inwieweit die vermittelten Praktiken eine Chance haben könnten, zukünftig ein Bestandteil bei der Erstellung und Nutzung wissenschaftlicher digitaler Briefeditionen zu werden. </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Daten</head>
+                <p>Die Organisatorinnen und Organisatoren stellen XML/TEI und Plain Text Datensätze aus zwei verschiedenen Briefeditionen für den Workshop bereit: ca. 5500 Brieftexte und ebenso viele Metadatensätze aus „Jean Paul - Sämtliche Briefe digital“ (Bernauer / Miller / Neuber 2018) sowie ca. 400 Brieftexte und 3000 Metadatensätze der „edition humboldt digital“ (Ette 2017-). Darüber hinaus steht es den Teilnehmerinnen und Teilnehmer frei, ihre eigenen Datensets (XML/TEI-kodiert und Plain Text) zu verwenden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Teilnehmerzahl und Vorkenntnisse</head>
+                <p>Die Anzahl der Teilnehmerinnen und Teilnehmer ist auf 25 begrenzt. Gewisse Grundkenntnisse in der Programmierung (z.B. XSLT/XQuery, Python, R) sind von Vorteil, die im Workshop verwendeten Skripte werden jedoch so vorbereitet, dass sich die Arbeit daran auf Modifikationen und Erweiterungen unter Anleitung der Lehrenden beschränkt. Im Vorfeld des Workshops werden Installationshinweise für die verwendeten Werkzeuge gegeben und die Übungsdaten zum Download bereitgestellt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lehrende</head>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-0351e1a1-7fff-a4fd-334e-00a21f170eff"/>
+                    <hi rend="bold">Stefan Dumont: </hi>Wissenschaftlicher Mitarbeiter bei der TELOTA-Initiative der Berlin-Brandenburgischen Akademie der Wissenschaften, dort u.a. zuständig für die „edition humboldt digital”. Wissenschaftlicher Koordinator des DFG-Projekts „correspSearch - Briefeditionen vernetzen“. Co-Convener der TEI Special Interest Group „Correspondence“. Expertise u.a. mit Standardisierung von Briefkodierung und -metadaten und X-Technologien.
+                </p>
+                <p>
+                    <hi rend="bold">Susanne Haaf:</hi> Wissenschaftliche Mitarbeiterin im Projekt CLARIN-D an der Berlin-Brandenburgischen Akademie der Wissenschaften, u.a. beteiligt am Auf- und Ausbau des Deutschen Textarchivs. Doktorandin im Bereich korpusbasierter Untersuchung von Textsortenspezifika. Spezialisierung in Korpusaufbau, Korpuslinguistik, Standards für Text- und Metadaten (insbes. TEI) sowie Textedition.
+                </p>
+                <p>
+                    <hi rend="bold">Ulrike Henny-Krahmer:</hi> Wissenschaftliche Mitarbeiterin im Projekt „Computergestützte Literarische Gattungsstilistik” (CLiGS) an der Universität Würzburg. Studium der Regionalwissenschaften Lateinamerika in Köln und Lissabon, Doktorandin in Digital Humanities mit dem Thema „Topic and Style in Subgenres of the Spanish American Novel (1830-1910)“.
+                </p>
+                <p>
+                    <hi rend="bold">Benjamin Krautter: </hi>Wissenschaftlicher Mitarbeiter im Projekt “Quantitative Drama Analytics” (QuaDramA) an der Universität Stuttgart. Studium der Literaturwissenschaft (Germanistik) und Politikwissenschaft in Stuttgart und Seoul (Südkorea), Doktorand im Bereich Digital Literary Studies mit dem Thema “Quantitative Dramenanalyse - Operationalisierung aristotelischer Kategorien” (Arbeitstitel).
+                </p>
+                <p>
+                    <hi rend="bold">Frederike Neuber:</hi> Wissenschaftliche Mitarbeiterin bei der TELOTA-Initiative der Berlin-Brandenburgischen Akademie der Wissenschaften, dort u.a. zuständig für die Briefedition “Jean Paul - Sämtliche Briefe digital”. Studium der Italianistik und Editionswissenschaft in Berlin und Rom, Doktorandin in Digital Humanities. Spezialisierung in Editionsphilologie, Datenmodellierung und Programmierung mit X-Technologien.
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note xml:id="ftn1" place="foot" n="1"><anchor xml:id="id_docs-internal-guid-d1ba8a2d-7fff-c524-0eea-63e87f2a8fd9"/> Der webservice „correspSearch“ etwa illustriert die Bedeutung von standardisierter Metadatenerfassung mit Normdaten zur Vernetzbarkeit von Korrespondenzen, <ptr target="https://correspsearch.net/"/>. </note>
+				<note xml:id="ftn2" place="foot" n="2"><anchor xml:id="id_docs-internal-guid-468ac870-7fff-8070-a652-fa1f45ea9d02"/> Vereinzelt werden quantitative Analysemethoden bereits auf Editionsdaten angewandt: Etwa wird im Kontext des Projekts “Mapping the Republic of Letters” (Stanford University 2013) zur Erschließung der Briefkommunikation und -verbreitung mit verschiedenen statistisch- und/oder netzwerkanalytisch-basierten Visualisierungen experimentiert; Andorfer (2017) erprobt Topic Modelling mit dem Korrespondenzkorpus Leo von Thun-Hohensteins.</note>
+				<note xml:id="ftn3" place="foot" n="3"><anchor xml:id="id_docs-internal-guid-550e588f-7fff-e290-277b-9a09567dd4cf"/> Nicht Teil dieses Panoramas ist die Netzwerkanalyse, auch wenn diese Form der Auswertung bzw. Visualisierung für Briefdatensätze oft die am naheliegendste scheint. Grundkompetenzen zur Netzwerkanalyse bzw. -visualisierung werden mittlerweile regelmäßig in Workshops vermittelt, z.B. im Rahmen der „Historical Network Research-Community“ (http://historicalnetworkresearch.org/). Der Fokus des Workshops richtet sich daher auf bisher weniger berücksichtigte Formen der Analyse von Briefkorpora.</note>
+				<note xml:id="ftn4" place="foot" n="4"><anchor xml:id="id_docs-internal-guid-92726d23-7fff-908c-e737-f058cfe10b81"/><ref target="http://textometrie.ens-lyon.fr/"> http://textometrie.ens-lyon.fr</ref>, <ptr target="http://www.deutschestextarchiv.de/"/>, <ptr target="https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page"/>, <ptr target="http://cwb.sourceforge.net/cqpweb.php"/>.</note>
+				<note xml:id="ftn5" place="foot" n="5"><anchor xml:id="id_docs-internal-guid-19fed13c-7fff-c8e1-4323-c35f52a4dccb"/> <ptr target="http://mallet.cs.umass.edu/topics.php"/></note>
+				<note xml:id="ftn6" place="foot" n="6"><anchor xml:id="id_docs-internal-guid-ba5e835d-7fff-4a5a-e9d5-a03ec5065e33"/> <ptr target="https://github.com/cligs/tmw"/></note>
+				<note xml:id="ftn7" place="foot" n="7"><anchor xml:id="id_docs-internal-guid-5680b3d1-7fff-b9ec-036b-c571e02e10c3"/> Zwar ist das Verfahren für die Ermittlung von Schlüsselwörtern und Themen entwickelt worden, je nach verwendetem Korpus ergeben sich aber auch andere Arten von Topics, z.B. sprachspezifische oder motivische. Vgl. dazu u.a. Rhody (2012) und Schöch (2017).</note>
+				<note xml:id="ftn8" place="foot" n="8"><anchor xml:id="id_docs-internal-guid-db745b2b-7fff-3832-4341-de0fff846d46"/> <ptr target="https://sites.google.com/site/computationalstylistics/stylo"/></note>
+				<note xml:id="ftn9" place="foot" n="9"><anchor xml:id="id_docs-internal-guid-8126c6bd-7fff-81e8-9b7e-790df7a17418"/> Für einen Überblick zu verschiedenen Stilbegriffen in der Literatur- und Sprachwissenschaft siehe Herrmann et al. (2015).</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-ab139cc9-7fff-fe6e-39c4-1a663ce0b6b5"/>
+                        <hi rend="bold">Andorfer, Peter (2017):</hi> 
+                        <hi rend="italic">Turing Test für das Topic Modeling. Von Menschen und Maschinen erstellte inhaltliche Analysen der Korrespondenz von Leo von Thun-Hohenstein im Vergleich</hi>, 
+                        in: Zeitschrift für digitale Geisteswissenschaften; doi: 
+                        <ref target="http://dx.doi.org/10.17175/2017_002">
+                            <hi rend="color(#1155cc)underline">10.17175/2017_002</hi>
+                        </ref>[zuletzt abgerufen 7. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bernauer, Markus / Miller, Norbert / Neuber, Frederike (eds.) (2018):</hi> 
+                        <hi rend="italic">Jean Paul – Sämtliche Briefe digital.</hi> 
+                        In der Fassung der von Eduard Berend herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und herausgegeben von Markus Bernauer, Norbert Miller und Frederike Neuber; 
+                        <ref target="http://jeanpaul-edition.de/">
+                            <hi rend="color(#1155cc)underline">http://jeanpaul-edition.de</hi>
+                        </ref> [letzter Zugriff 7. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-e36ff6d7-7fff-5585-3e62-ed6816c58f62"/>
+                        <hi rend="bold">Burrows, John (2002):</hi> 
+                        <hi rend="italic">Delta’: a Measure of Stylistic Difference and a Guide to Likely Authorship</hi>, 
+                        in: Literary and Linguistic Computing 17/3, S. 267–287.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dumont, Stefan (2016):</hi> 
+                        <hi rend="italic">correspSearch – Connecting Scholarly Editions of Letters</hi>, 
+                        in: Journal of the Text Encoding Initiative [Online], Issue 10; 
+                        <ptr target="http://journals.openedition.org/jtei/1742"/> [letzter Zugriff 7.Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eder, Maciej / Rybicki, Jan / Kestemont, Mike (2016):</hi> 
+                        <hi rend="italic">Stylometry with R: A Package for Computational Text Analysis</hi>, 
+                        in: The R Journal 8/1 (2016), S. 107–121.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ette Ottmar (eds.) (seit 2016):</hi> 
+                        <hi rend="italic">edition humboldt digital.</hi> 
+                        Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 3 vom 14.09.2018; 
+                        <ptr target="https://edition-humboldt.de/"/>
+                        [letzter Zugriff 7. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Graham, Shawn / Weingart, Scott / Milligan, Ian (2012):</hi> 
+                        <hi rend="italic">Getting Started with Topic Modeling and MALLET</hi>, 
+                        in: The Programming Historian 1;
+                        <ptr target="https://programminghistorian.org/en/lessons/topic-modeling-and-mallet"/>
+                        [letzter Zugriff 7. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-63457661-7fff-3886-91d7-dfe5e4f5ad1c"/>
+                        <hi rend="bold">Heiden, Serge (2010):</hi> 
+                        <hi rend="italic">The TXM Platform: Building Open-Source Textual Analysis Software Compatible with the TEI Encoding Scheme</hi>, 
+                        24th Pacific Asia Conference on Language, Information and Computation, Nov 2010, Sendai, Japan. Institute for Digital Enhancement of Cognitive Development, Waseda University, S.389–398. 
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-efc7fee9-7fff-7877-0c19-9092c13f3cb9"/>
+                        <hi rend="bold">Herrmann, Berenike J. / van Dalen-Oskam, Karina / Schöch, Schöch (2015):</hi> 
+                        <hi rend="italic">Revisiting Style, a Key Concept in Literary Studies</hi>, 
+                        in: Journal of Literary Theory 9/1, S. 25–52.
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-c0a26e04-7fff-00df-00be-421bc1f6056f"/>
+                        <hi rend="bold">Rhody, Lisa M. (2012):</hi> 
+                        <hi rend="italic">Topic Modeling and Figurative Language</hi>, 
+                        in:  Journal of Digital Humanities 2/1; 
+                        <ptr target="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/"/>
+                        [letzter Zugriff 7. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-c717f2fd-7fff-fb71-14ad-ce8199b455b8"/>
+                        <hi rend="bold">Schöch, Christof (2017):</hi> 
+                        <hi rend="italic">Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama</hi>, 
+                        in: Digital Humanities Quarterly 11/2; 
+                        <ptr target="http://www.digitalhumanities.org/dhq/vol/11/2/000291/000291.html"/>
+                        [letzter Zugriff 7. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Walmsley, Priscilla (2009):</hi> 
+                        <hi rend="italic">XQuery: Search Across a Variety of XML Data</hi>.
+                        O’Reilly Media.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-060">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Das erste dynamische Stemma, Pionier des digitalen Zeitalters?</title>
+        <author>
+          <name>
+            <surname>Hoenen</surname>
+            <forename>Armin</forename>
+          </name>
+          <affiliation>Goethe Universität Frankfurt, Deutschland</affiliation>
+          <email>hoenen@em.uni-frankfurt.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-14T07:37:32</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>dynamisches Stemma</term>
+          <term>Stemmatologie</term>
+          <term>Manuskriptologie</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Gestaltung</term>
+          <term>Modellierung</term>
+          <term>Veröffentlichung</term>
+          <term>Manuskript</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung </head>
+        <p>Ein Stemma codicum ist ein Stammbaum, der jedoch nicht die Verwandtschaft von Wesen oder Sprachen, sondern von Manuskripten darstellt. Dabei symbolisiert ein Knoten in der Terminologie der Graphtheorie ein Manuskript und eine Kante einen Kopierprozess. Bei jedem handschriftlichen Kopierprozess passieren Fehler, die dazu führen, dass alle Manuskripte unterschiedliche Textfassungen aufweisen .
+          <ref type="note" target="n01" n="1">1</ref>
+        </p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Geschichte der Stemmatologie </head>
+        <p>Laut Timpanaro (2005) ist das Stemma von C. Schlyter aus dem Jahre 1827 eines der
+          frühesten Stemmata im wissenschaftlichen Sinne überhaupt, s. Abbildung 1.
+          Nachdem Editoren zu Beginn des Printzeitalters für handschriftlich tradierte
+          Texte entscheiden mussten, welche Version eines Textes sie drucken und damit
+          einer breiten Masse zugänglich machen, entstand langsam ein Bewußtsein für die
+          Notwendigkeit einer genauen Analyse der Manuskriptgenealogie, um möglichst
+          präzise den Autorentext wiederzugeben. Im Printzeitalter bedeutete dies die
+          Reise an verschiedene teils weit auseinanderliegende Aufbewahrungsorte der
+          Manuskripte, den händischen Vergleich der Wortlaute der Manuskripte und später
+          den Vergleich durch Photographien (Faksimiles). Gleichzeitig wurde die
+          theoretische Auseinandersetzung mit der richtigen Art und Weise,
+          Übereinstimmungen und Divergenzen in Manuskripten zu interpretieren immer
+          genauer geführt. Als Beispiele sind besonders Bedier (1928) und Maas (1937) zu
+          nennen. </p>
+          <p>Der Übergang ins digitale Zeitalter erfolgte in den 90er Jahren des letzten
+            Jahrhunderts, vgl. z. B. Robinson and O’Hara (1996); van Reenen et al. (1996);
+            Robinson et al. (1998). Hierbei wurde aus der bio-informatischen Phylogenie viel
+            Methodik entlehnt und die meisten Programme, die bis heute zur Berechnung und /
+            oder Visualisierung in der automatisierten Stemmatologie eingesetzt wurden,
+            stammen aus der Bio-Informatik. Dort herrschen andere Foci, die zu bis dato in
+            der Stemmatologie nicht bekannten neuen Visualisierungen geführt haben (s. u.).
+            Der vorliegende Artikel bezieht sich im Kern nicht auf die digitalen Methoden
+            der Berechnung von Similaritäten in Stemmata, sondern auf die dem auch in der
+            manuellen Stemmatologie folgende Umsetzung in eine geeignete Visualisierung. </p>
+            <figure>
+              <graphic url="p060-100000000000019D000002D2902E11B8.png"/>
+              <p>
+                <hi rend="bold">Abb. 1</hi>: Frühes Stemma, nach O’Hara (1996), aus H. S. Collin
+                und C. Schlyter, 1827, Corpus Iuris Sueo-Gotorum Antiqui, Z Haeggstrom,
+                Stockholm,1. </p>
+              </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Geschichte der Visualisierung </head>
+              <p>Die Geschichte der Visualisierung eines Stemmas oder von Stammbäumen läuft
+                parallel zur allgemeinen Geschichte der Stemmatologie, weist jedoch Unterschiede
+                zu den anderen Trees-of-history, wie sie O’Hara (1996) getauft hat, auf. Zum
+                Beispiel wurde der buchstäbliche Baum selber zwar sowohl in der Sprachevolution,
+                als auch in der Phylogenie zur Illustration herangezogen, nach bestem
+                Autorenwissen nicht (wenn überhaupt wesentlich seltener) jedoch in der
+                Stemmatologie. Bereits Schlyter benutzt 1827 Kreise als
+                Manuskriptrepräsentatoren und unterlegt den Baum mit einer Zeitskala, die jedoch
+                für das Gros der Stemmata nicht üblich ist. Wenige Konventionen sind in der
+                Philologie für Stemmata allgemein verbindlich. Griechische Buchstaben
+                repräsentieren verlorengegangene Manuskripte; Kontamination, der Prozess zwei
+                Vorlagen für eine Kopie zu benutzen wird durch eine gestrichelte Kante von einem
+                zweiten anzestralen Manuskript her symbolisiert. Seit dem Übergang ins digitale
+                Medium werden Visualisierungen publiziert, die parallel zu biologischen
+                Darstellungen die Wurzel ins Zentrum, aber nicht an den Kopf der Darstellung
+                rücken. Diese aus der Phylogenie entlehnte Darstellungsweise beruht
+                zugegebenermassen auf anderen Foci der Phylogenie, für die die Similarität der
+                Blätter im Mittelpunkt steht, während die Stemmatologie ebenso an den
+                Zwischenknoten interessiert ist. Die Darstellung in Abbildung 2 zeigt ebenfalls
+                eine farbliche Kennzeichnung von Manuskriptgruppen. Die vielfältigen
+                Möglichkeiten der digitalen Darstellung, wie z. B. dieses farbliche Unterlegen
+                sind jedoch noch nicht konventionalisiert.</p>
+                  <figure>
+                    <graphic url="p060-10000000000001BF0000013C9F3830D7.jpg"/>
+                <p>
+                  <hi rend="bold">Abb. 2:</hi> Ein Stemma, das von bio-informatischer Software
+                  (SplitsTree) generiert wurde, Howe et al. (2001). </p>
+                  </figure>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Dynamisches Stemma </head>
+                  <p>Im digitalen Medium sind Visualisierungen und Berechnungen möglich, die im
+                    Printzeitalter schlichtweg nicht realisierbar gewesen sind. Was die
+                    Stemmatologie angeht, bezieht sich dies auf die Möglichkeit dynamischer
+                    Stemmata. Dynamische Stemmata sind z. B. solche Stemmata bei denen das
+                    dynamische Stemma sich aus mehreren Unterstemmata S <hi rend="sub">0</hi> , ..,
+                    S <hi rend="sub">n</hi> zusammensetzt, wobei jedes dieser Unterstemmata einen
+                    Zeitpunkt ti in der Genese des endgültigen Stemmas repräsentiert. Auf diese
+                    Weise können auch Zyklen, wie sie von Andrews and Mace (2013) angesprochen
+                    wurden genetisch analysiert werden. Jedes Mal, wenn also eine Manuskriptkopie
+                    angefertigt wurde, entspricht dies einem neuen Zeitpunkt ti und damit einem
+                    neuen Unterstemma S <hi rend="sub">i </hi>, welches de facto dem Stemma S <hi
+                    rend="sub">i−1</hi> plus einer Kante (dem Kopierprozess) sowie eines Knotens
+                    (des neuen Manuskriptes) entspricht. Entsprechend lassen sich Phänomene wie der
+                    Verlust von Manuskripten, z. B. durch eine Bücherverbrennung oder Kontamination
+                    einbinden. </p>
+                    <p>Die dynamische Darstellung, s. beispielhaft Abbildung 3 ist eine wichtige
+                      Innovation, die im Printzeitalter für jedes Teilstemma eine eigene Abbildung
+                      erfordert hätte, wobei diese Abbildungen bis auf ein einziges Detail einander
+                      geglichen hätten. Eine solche Darstellung wurde nach bestem Wissen des Autors
+                      daher nicht, definitiv nicht als Standard produziert. Eine Posterpräsentation
+                      als Printmedium kann jedoch mit Farben oder aufeinanderfolgenden Einzelbildern
+                      die Animation simulieren und digital literaten Betrachtern so einen Eindruck des
+                      digitalen Erscheinungsbildes vermitteln. Epistemologisch ist der Übergang von
+                      einem statischen Stemma zu einem dynamischen gleichzeitig ein Desideratum und
+                      eine Aufgabe der digitalen Geisteswissenschaften. Die digitalen
+                      Geisteswissenschaften leisten hier den Übergang vom Print ins digitale Zeitalter
+                      in der Weise, dass die Möglichkeiten des Digitalen erfasst und bestmöglich zur
+                      Erweiterung oder auch Transformation der disziplinenspezifischen Grundlagen,
+                      Methoden und Werkzeuge für den hermeneutischen Prozesses umgesetzt werden.
+                      Gleichzeitig emanzipiert sich das digitale Stemma hierbei vom statischen
+                      Printgegenpart, indem es die bloße Nachahmung des alten im neuen Medium
+                      überkommt. Die Dynamisierung von Bäumen ist eine digitale Bereicherung nicht nur
+                      für die Stemmatologie, sondern auch für die Phylogenie und Sprachevolution und
+                      bietet auf Anhieb mehr visuelle Information als ein statisches Stemma. Durch die
+                      Identifikation der Wurzel eines Stemmas, die z. B. durch die Nutzung
+                      paläographischer Gegebenheiten forciert werden könnte, kann die dynamische
+                      Animation operationalisiert werden oder aber man legt eine manuell erarbeitete
+                      Genese zu Grunde. Das Stemma in Abbildung 3 wurde mit der Software LaTeX
+                      (Packete tikz und animate) erstellt und durch GIMP in ein gif übertragen. Der
+                      Vorteil eines animierten Stemmas ist es dank des Überganges von einem statischen
+                      Bild des Endzustandes des Stemmas zu einer animierten Sequenz
+                      aufeinanderfolgender Zustände des Stemmas im selben visuellen Raum das intuitive
+                      Verständnis der Stemmagenese zu fördern oder vielleicht sogar erst zu
+                      ermöglichen.</p>
+                        <figure>
+                          <graphic url="p060-10000009000003520000044CE820242D.gif"/>
+                        </figure>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+
+                      <note xml:id="n01" n="1">
+                        Auch Prozesse wie willentliche Veränderungen, falsche Rückverbesserungen usw. spielen in der Manuskriptgenese eine Rolle.</note>
+                      </div>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <head>Bibliography</head>
+                          <bibl>
+                            <hi rend="bold">Andrews, Tara L. / Macé, Caroline</hi> (2013): "Beyond the
+                            tree of texts: Building an empirical model of scribal variation through
+                            graph analysis of texts and stemmas", in: <hi rend="italic">Literary and
+                            Linguistic Computing</hi> 28, 4: 504–521. </bibl>
+                            <bibl>
+                              <hi rend="bold">Bédier, Joseph</hi> (1928): "La tradition manuscrite du 'Lai
+                              de l’Ombre': Réflexions sur l'Art d'Éditer les Anciens Textes", in: <hi
+                              rend="italic">Romania</hi> 394: 161–196. </bibl>
+                              <bibl>
+                                <hi rend="bold">Howe, Christopher J. / Barbrook, Adrian C. / Spencer,
+                                  Matthew / Robinson, Peter / Bordalejo, Barbara / Mooney, Linne R.</hi>
+                                  (2001): "Manuscript evolution", in: <hi rend="italic">TRENDS in
+                                  Genetics</hi> 17, 3: 147-152. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Huson, Daniel H.</hi> (1998): "Splitstree: analyzing and
+                                    visualizing evolutionary data", in: <hi rend="italic">Bioinformatics</hi>
+                                    14: 68–73. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Maas, Paul</hi> (1937): "Leitfehler und Stemmatische Typen",
+                                      in: <hi rend="italic">Byzantinische Zeitschrift</hi> 37, 2: 289–294. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">O’Hara, Robert J.</hi> (1996): "Trees of history in
+                                        systematics and philology", in: <hi rend="italic">Memorie della Società
+                                        Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di
+                                        Milano</hi> 27, 1: 81–88. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Robinson, Peter / Barbrook, Adrian C. / Blake, Norman /
+                                            Howe, Christopher J.</hi> (1998): "The Phylogeny of The Canterbury
+                                            Tales", in: <hi rend="italic">Nature</hi> 394: 839. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Robinson, Peter / O’Hara, Robert J.</hi> (1996): "Cladistic
+                                              Analysis of an Old Norse Manuscript Tradition", in: <hi rend="italic"
+                                              >Research in Humanities Computing</hi> 4: 115-137. </bibl>
+                                              <bibl>
+                                                <hi rend="bold">Timpanaro, Sebastiano</hi> (2005): <hi rend="italic">The
+                                                Genesis of Lachmann’s Method</hi>. Chicago: University of Chicago. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">van Reenen, Pieter T. van / van Mulken, Margot</hi> (1996):
+                                                  <hi rend="italic">Studies in Stemmatology</hi> I. Amsterdam /
+                                                  Philadelphia: John Benjamins Publishing Company.</bibl>
+                                                </listBibl>
+                                              </div>
+                                            </back>
+                                          </text>
+                                        </TEI>

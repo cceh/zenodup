@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="173_final-WILLAND_Marcus_Passive_Pr_senz_tragischer_Hauptfiguren_im_Dr" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Passive Präsenz tragischer Hauptfiguren im Drama</title>
+<author>
+<persName>
+<surname>Willand</surname>
+<forename>Marcus</forename>
+</persName>
+<affiliation>Universität Heidelberg, Deutschland</affiliation>
+<email>marcus.willand@gs.uni-heidelberg.de</email>
+</author>
+<author>
+<persName>
+<surname>Krautter</surname>
+<forename>Benjamin</forename>
+</persName>
+<affiliation>Universität Heidelberg, Deutschland; Universität Stuttgart</affiliation>
+<email>benjamin.krautter@ilw.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Pagel</surname>
+<forename>Janis</forename>
+</persName>
+<affiliation>Universität Stuttgart</affiliation>
+<email>janis.pagel@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Reiter</surname>
+<forename>Nils</forename>
+</persName>
+<affiliation>Universität Stuttgart; Universität zu Köln</affiliation>
+<email>nils.reiter@uni-koeln.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-03T19:32:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digitale Dramenanalyse</term>
+<term>Operationalisierung</term>
+<term>Korpusanalyse</term>
+<term>CLS</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Strukturanalyse</term>
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Netzwerkanalyse</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Dramen entwerfen einen fiktiven sozialen Raum (Bourdieu 1985), dessen Bewohner sich ständig  <hi rend="italic" xml:space="preserve"> aktiv</hi> und 
+<hi rend="italic">passiv</hi> sozial verhalten, also entweder selbst dramatisch handeln oder zum <hi rend="italic">passiven</hi> Gegenstand dramatischer (Ver-)Handlungen werden. Pointiert ließe sich sagen, sie hassen und lieben, bzw. werden geliebt und werden gehasst. Von der Forschung wurde indes nur selten betont,<ref n="1" target="ftn1"/> dass die 
+<hi rend="italic" xml:space="preserve">passive Präsenz </hi>von Figuren – also das Sprechen über Figuren, die in einer Szene nicht auftreten – ebenso interpretationsrelevant ist wie deren aktive Handlungen. So untergräbt beispielsweise die tragische Protagonistin des Stücks 
+<hi rend="italic">Emilia Galotti</hi> (Lessing 1772) die moralische Integrität ihrer sozialen Klasse, indem sie einen anderen Mann als ihren standesgemäß verlobten Appiani verehrt: den Prinzen. Tragödienfähige Fallhöhe (Schopenhauer [1818] 1977) erreicht Emilia aber nicht durch ihr Begehren, sondern durch ihr begehrt werden. 
+</p>
+<p style="text-align:left; ">In unserem Beitrag möchten wir den Zusammenhang zwischen aktiver und passiver Figurenpräsenz in dramatischen Texten untersuchen, indem wir quantitative und qualitative Analysen kombinieren. In einem ersten Schritt entwickeln wir eine Operationalisierung für eine computergestützte Analyse aktiver und passiver Präsenz und werden in einem zweiten Schritt die aus den Analysen resultierenden Ergebnisse mit besonderem Fokus auf Hauptfiguren diskutieren.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschungsdiskussion</head>
+<p style="text-align:left; ">Seit einigen Jahren gilt die Netzwerkanalyse als eine der zentralen Forschungsgebiete innerhalb der digitalen Dramenanalyse. Typischerweise modellieren Netzwerke auf Basis von Konfigurationsmatrizen (vgl. Marcus 1973, ins. S. 308ff. und Pfister 2001, S. 235–240) aber nur die aktive (szenische) Präsenz von Figuren (Moretti 2011; Trilcke u.a. 2015; Piper u.a. 2017), obwohl Ko-Präsenz-Relationen nur einen eingeschränkten Aussagewert bezüglich der „soziale Welt“ eines Dramas zulassen. Denn sie beruhen lediglich auf Informationen über die Anzahl an Szenen, in denen Figuren gemeinsam auftreten. Aktive Figuren wurden aber natürlich auch anders beforscht. Karsdorp u.a. (2015) stellen einen Ansatz zur automatischen Bestimmung von Liebesbeziehungen vor, Willand und Reiter (2017) verwenden semantische Wörterbücher, um Figurenrede und Geschlecht in einen Zusammenhang zu stellen. Nalisnick und Baird (2013) analysieren das 
+<hi rend="italic">Sentiment</hi> aktiver Figuren, allerdings um ihre Dialogpartner zu charakterisieren und dadurch Wendepunkte in den Figurenbeziehungen zu identifizieren. Die passive Präsenz ist bisher noch nicht eingehend untersucht worden.
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Aktive und passive Figurenpräsenz</head>
+  <p style="text-align:left; ">Die aktive Präsenz von Figuren lässt sich unterschiedlich operationalisieren, etwa indem der Anteil der Rede einer Figur an der Gesamtrede einer Szene oder eines Akts gemessen wird. Abb. 1 zeigt dies für die fünf Akte von 
+  <hi rend="italic">Emilia Galotti</hi>. Jeder Balken repräsentiert einen Akt, jede Farbe den Anteil einer Figur an der Gesamtrede des Akts:
+  </p>
+  <figure>
+    <graphic height="4.060927777777778cm" n="1001" rend="inline"
+	     url="173_final-c159f973c61903d1564b4b804555bb61.png"
+	     width="16.07133888888889cm"/>
+    <head> Abbildung 1: Emilias aktive Präsenz in den fünf Akten des Stücks. Die Farben indizieren unterschiedliche Figuren.</head>
+  </figure>
+  <!-- <p> -->
+  <!--   <hi rend="bold">Abb. 1</hi>: Emilias aktive Präsenz in den fünf Akten des Stücks. Die Farben indizieren unterschiedliche Figuren. -->
+  <!-- </p> -->
+  <p style="text-align:left; ">In den Akten 1 und 4 ist Emilia überhaupt nicht aktiv präsent. In den Akten 2, 3 und 5 ist sie es, aber der Anteil ihrer Rede vergleichsweise gering. Wieso aber ist sie titelgebende Protagonistin dieses Stücks, wenn sie doch kaum handelt? Deutlich wird das, betrachtet man ihre passive Präsenz:</p>
+  <figure>
+    <graphic height="8.66666388888889cm" n="1002" rend="inline" url="173_final-504ea3fb86e5cd278ddca68864d18083.png" width="12.999997222222222cm"/>
+    <head> Abbildung 2: Emilias passive Präsenz im Verlauf des Stücks, gemessen anhand von Nennungen ihres Namens durch andere Figuren.</head>
+  </figure>
+  <!-- <p> -->
+  <!--   <hi rend="bold">Abb. 2</hi>: Emilias passive Präsenz im Verlauf des Stücks, gemessen anhand von Nennungen ihres Namens durch andere Figuren. -->
+  <!-- </p> -->
+  <p style="text-align:left; ">Die Punkte in Abb. 2 repräsentieren die Erwähnungen des Namens „Emilia“ in der Rede anderer Figuren (y-Achse) im Verlauf des Stücks (x-Achse). Sie zeigen, dass Emilia während des gesamten Stücks von allen Figuren wiederholt erwähnt wird. Diese 
+  <hi rend="italic">passive Präsenz</hi> unterscheidet sie von Nebenfiguren. Betrachtet man die aktivsten Figuren des Stücks (Prinz, Marinelli), so lässt sich in Abb.3 erkennen, dass Emilia genauso oft namentlich erwähnt wird wie diese:
+  </p>
+  <figure>
+    <graphic height="10.266169444444444cm" n="1003" rend="inline" url="173_final-df357c437ebc98fb1a30653ac3c2456a.png" width="15.399252777777777cm"/>
+    <head> Abbildung 3: Namensnennungen aller Figuren in <hi rend="italic">Emilia Galotti</hi>.</head>
+  </figure>
+  <!-- <p> -->
+  <!--   <hi rend="bold">Abb. 3</hi>: Namensnennungen aller Figuren in  -->
+  <!--   <hi rend="italic">Emilia Galotti</hi>. -->
+  <!-- </p> -->
+  <p style="text-align:left; ">Zusammenfassend liefern diese Analysen Argumente für die Interpretationshypothese, dass Emilia den dramatischen Konflikt nicht selbst aktiv löst – was sie zur positiven Hauptfigur machen würde –, sondern lediglich auslöst. So wird sie zum passiv-tragischen Gegenstand der Figurenhandlung. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Präsenz messbar machen</head>
+  <p style="text-align:left; ">Für jede Figur definieren wir die 
+  <hi rend="italic">aktive Präsenz</hi> als genau die Anzahl an Szenen, in denen diese Figur spricht. So lassen sich Konfigurationsmatrizen erstellen, wie sie auch für Netzwerkanalysen verwendet werden. Die 
+  <hi rend="italic">passive Präsenz</hi> wird anhand der Anzahl an Szenen extrahiert, in denen eine Figur namentlich erwähnt wird, aber nicht selbst präsent ist (schließlich können Figuren nicht gleichzeitig aktiv und passiv anwesend sein). Auf Figuren wird auch durch nichtnamentliche Erwähnung referiert, etwa mittels Pronomen oder Nominalphrasen – wobei Pronomen den Großteil der Erwähnungen ausmachen. Eine vollständige Annotation aller Erwähnungen erlaubt weiterführende Analysen, etwa anhand von Netzwerken, die beispielsweise darstellen können, auf welche Weise auf Figuren referiert wird (Nominalphrasen, Pronomen etc.).<ref n="2" target="ftn2"/>
+  </p>
+  <p style="text-align:left; ">Gleich in mehrfacher Hinsicht handelt es sich bei der Methode um eine Heuristik: Einerseits erfasst die Analyse von Figurennamen längst nicht alle Erwähnungen einer Figur. Wir gehen aber davon aus, dass der Figurenname mindestens einmal in jeder Szene genannt wird, in der auf eine Figur referiert wird. Andererseits können Szenen sehr unterschiedlich lang ausfallen, was für die hier durchgeführten Analysen der passiven Präsenz unberücksichtigt bleibt. Anders formuliert: Jede Szene ist bei dieser Form der Analyse gleich gewichtet. Unterschiedliche poetologische Funktionalisierungen von Szenen, wie sie im Verlauf der Dramengeschichte zu beobachten sind, u.a. anhand des Abrückens von der 
+  <hi rend="italic">liaison de scène</hi> als regelpoetischem Dogma, löst die Heuristik also nicht auf. Die verschiedene Funktionalisierung gilt es somit in der späteren Interpretation zu reflektieren.
+  </p>
+  <p style="text-align:left; ">Sowohl die aktive als auch die passive Präsenz wird der besseren Vergleichbarkeit halber über die Zahl der Szenen normalisiert. Dafür wird die Menge an aktiven Auftritten sowie passiven Erwähnungen einer Figur durch die Gesamtzahl der Szenen im Drama geteilt, sodass der Gesamtwert der Figurenaktivität immer zwischen 0 (spricht nie/wird nie erwähnt) und 1 (spricht in jeder Szene/wird immer erwähnt) liegt. Somit ergibt sich für die Berechnung:</p>
+  <figure>
+    <graphic height="0.8402694444444444cm" n="1004" rend="inline" url="173_final-2f0e70e16ff00927005e3c04741dd6b9.png" width="7cm"/>
+  </figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Identifikation handlungskonstitutiver Figuren</head>
+  <p style="text-align:left; ">Die automatische Erkennung von Hauptfiguren in dramatischen Texten ist bisher nur in Ansätzen versucht worden (Krautter &amp; Pagel 2019; Fischer u.a. 2018), sie würde auf dem Gebiet der digitalen Dramenanalyse aber die Grundlage für erkenntnisversprechende Anschlussfragen schaffen.<ref n="3" target="ftn3"/> Bloße aktive Präsenz ist für die Identifikation von Hauptfiguren aber nicht ausreichend, denn einige Figurentypen – wie der griechische Chor oder Dienerfiguren – sind häufig sehr präsent, in Bezug auf die Konfliktlösung jedoch irrelevant. Wir adressieren dieses Problem, indem wir sowohl die aktive als auch die passive Figurenpräsenz berücksichtigen.
+  </p>
+  <p style="text-align:left; ">Diese Operationalisierung erlaubt es uns, die figuren- und gattungsspezifische Verteilung der Resultate zu vergleichen und so bisher ungesehene Aspekte von Hauptfiguren zu identifizieren. In diesem Beitrag stellen wir das Genre 
+  <hi rend="italic">Bürgerliches Trauerspiel</hi> (BT) und die Strömung 
+  <hi rend="italic">Sturm und Drang</hi> (SD) gegenüber.
+  </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Korpus</head>
+  <p style="text-align:left; ">Unser Korpus enthält deutschsprachige dramatische Texte aus der Zeit zwischen 1750 und 1800 (Fischer u.a. 2019). Es ist in zwei Teilkorpora aufgeteilt, die auf sehr unterschiedlichen Poetiken beruhen: Sechs Stücke des 
+  <hi rend="italic">Bürgerlichen Trauerspiels</hi> (BT) und sechs Stücke des 
+  <hi rend="italic">Sturm und Drang</hi> (SD). Diese Subkorpora erscheinen relativ klein, aber um die historische Korrektheit und Interpretierbarkeit der Ergebnisse zu gewährleisten, unterliegt unser Korpus-Design strengen Kriterien: So beschränken wir die Textauswahl auf lediglich diejenigen Tragödien, die konsensual und eindeutig einer Textgruppe zugeordnet werden können. Deshalb ist unter anderem Friedrich Maximilian Klingers Schauspiel 
+  <hi rend="italic">Sturm und Drang</hi>, dessen Titel später zur Epochenbezeichnung wurde, nicht im Korpus enthalten. Ebenfalls nicht im Korpus vertreten sind Goethes Stücke 
+  <hi rend="italic">Clavigo</hi> und 
+  <hi rend="italic">Stella</hi>, Gerstenbergs 
+  <hi rend="italic">Ugolino</hi> und Heinrich Leopold Wagners 
+  <hi rend="italic">Die Kindermörderin</hi>. Diesen Dramen fehlt eine weitere Untergliederung der Akte in Szenen, wodurch die Präzision der vorgeschlagenen Präsenzmessung anhand von Szenengrenzen erheblich leiden würde. Durch die divergierende Granularität der Segmentierung wären die Präsenzwerte der verschiedenen Dramen kaum mehr vergleichbar.
+  </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Ergebnisse</head>
+  <figure>
+    <graphic height="12.1278cm" n="1005" rend="inline" url="173_final-201b37705f6c4543984c9b56f6451d54.png" width="12.298211111111112cm"/>
+    <head>Abbildung 4: Figurenverteilung im <hi rend="italic">bürgerl. Trauerspiel.</hi></head>
+  </figure>
+  <!-- <p> -->
+  <!--   <hi rend="bold">Abb. 4</hi>: Figurenverteilung im  -->
+  <!--   <hi rend="italic">bürgerl. Trauerspiel.</hi> -->
+  <!-- </p> -->
+  <p style="text-align:left; ">Abb. 4 visualisiert die präsentische Auswertung des BT-Korpus. Jeder Punkt stellt dabei eine Figur dar. In den Stücken treten fast so viele weibliche wie männliche Figuren auf, wobei die sowohl aktiv als auch passiv präsentesten Figuren überraschenderweise weiblich sind. Zudem werden keine Extremwerte erreicht: Alle aktiven Präsenzwerte liegen unter 0,7, alle passiven unter 0,5. Eine Gesamtpräsenz von 1 ist bei keiner Figur zu beobachten. Basierend auf den Präsenzwerten kann ein Schwellenwert etabliert werden, der ungefähr bei 0,4 liegt. Dieser Schwellenwert (gestrichelte Linie in Abb. 4) ergibt sich hier nicht vollständig induktiv aus den Daten, sondern wird theoriegeleitet gesetzt. An dieser Stelle greifen die formale, quantitative und die qualitative Analyse ineinander.</p>
+  <figure>
+    <graphic height="12.326791666666667cm" n="1006" rend="inline" url="173_final-690a5f7250c1d5553099de631d256f64.png" width="12.5cm"/>
+    <head>Abbildung 5: Figurenverteilung im <hi rend="italic">Sturm und Drang.</hi></head>
+  </figure>
+  <!-- <p> -->
+  <!--   <hi rend="bold">Abb. 5</hi>: Figurenverteilung im  -->
+  <!--   <hi rend="italic">Sturm und Drang.</hi> -->
+  <!-- </p> -->
+  <p style="text-align:left; ">Die Figurenverteilung in Abb. 5 (SD-Korpus) unterscheidet sich von derjenigen in Abb. 4 deutlich. Der Schwellenwert liegt hier mit 0,6 viel höher. Um als Hauptfigur zu gelten, muss eine Figur im SD also eine höhere Gesamtpräsenz aufweisen als im BT. Dies ist eine der zentralen Erkenntnisse dieses Forschungsbeitrags. Die Figuration (vgl. hierzu Elias 2002) dramatischer Hauptfiguren scheint somit textgruppenspezifisch und durch die Ermittlung des Präsenzwertes analysierbar zu sein.</p>
+  <p style="text-align:left; ">Darüber hinaus ist das Geschlecht ein relevanter Faktor im Gattungsvergleich. Im SD treten insgesamt weniger weibliche Figuren auf und nur 3 von 11 Hauptfiguren sind weiblich. Zudem sind die weiblichen Figuren eher passiv präsent, während die männlichen überwiegend aktiv präsent sind. Auch die insgesamt aktivsten Figuren sind jeweils männlich. Nur eine einzige Figur erreicht den maximalen Präsenzwert von 1, nämlich Guelfo in Klingers 
+  <hi rend="italic">Die Zwillinge</hi>:
+  </p>
+  <figure>
+    <graphic height="12.326791666666667cm" n="1007" rend="inline" url="173_final-e4a3beccbd162adac8d0d98e08c367f4.png" width="12.5cm"/>
+    <head>Abbildung 6: Figurenpräsenz in Klingers <hi rend="italic">Die Zwillinge</hi> (1776).</head>
+  </figure>
+  <!--   <hi rend="bold">Abb. 6</hi>: Figurenpräsenz in Klingers  -->
+  <!--   <hi rend="italic">Die Zwillinge</hi> (1776). -->
+  <!-- </p> -->
+  <p style="text-align:left; ">Nicht zuletzt ist die 
+  <hi rend="italic">Korrelation</hi> von aktiver und passiver Präsenz
+  bei Hauptfiguren aufschlussreich: Hauptfiguren (über dem
+  Schwellenwert 0,6) im SD zeigen eine mittelstarke
+  positive Korrelation an (<hi rend="math">⍴ </hi>= 0,56, Pearson-Korrelation). D.h., je aktiver eine Hauptfigur in Dramen des Sturm-und-Drang präsent ist, desto mehr wird auch über sie gesprochen. Im Gegensatz dazu finden wir im BT (Schwellenwert 0,4) eine schwach negative Korrelation (<hi rend="math">⍴ </hi>= -0,1), d.h. hier sinkt die passive Präsenz bei zunehmender aktiver Präsenz leicht.<ref n="4" target="ftn4"/>
+  </p>
+  <p style="text-align:left; ">Diese Ergebnisse sind ein gewichtiger Hinweis auf grundlegend divergierende Bauprinzipien dramatischer Texte, die sich offenbar nicht nur durch Handlungen und Themen unterscheiden, sondern auch durch die spezifische Präsenzgestaltung von Hauptfiguren. Da diese Unterschiede durch lineares Lesen jedoch kaum identifiziert werden können, möchte dieser Forschungsbeitrag als Argument für die Erweiterung der qualitativ-interpretierenden Dramenanalyse durch quantitative Methoden verstanden werden.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Weitere Möglichkeiten der Präsenzmessung</head>
+  <p style="text-align:left; ">Die aktive Präsenz einer Figur lässt sich auch anhand anderer Einheiten skalieren, etwa anhand der Akte oder der Gesamtzahl der in einem Drama gesprochenen Repliken. Es wäre ebenfalls möglich, den Wert der aktiven Präsenz als die Zahl der gesprochenen Tokens (i.d.R. Wörter und Satzzeichen) und den Wert der passiven Präsenz als die Zahl namentlicher Nennungen aufzufassen. Dadurch könnten einige zuvor beschriebene Problematiken ausgeräumt werden, etwa die der differierenden Szenenlängen. Figuren, die nur kurze Passagen sprechen oder punktuell erwähnt werden, hätten dann vermutlich kleinere Aktivitätswerte, als es bei der szenisch gebundenen Präsenzberechnung der Fall ist. Die Rede- und Erwähnungsverteilung dürfte als näher an der vom Zuschauer bzw. Leser wahrgenommenen Realität des fiktiven sozialen Raums liegen. Hierbei stellen sich allerdings auch neue Herausforderungen. So kommt der Koreferenz von Figuren ein deutlich größeres Gewicht zu. Da wir zuverlässige Koreferenzen momentan nur für einzelne Stücke manuell annotiert vorliegen haben und somit auf die namentlichen Erwähnungen beschränkt sind, ergeben sich unter Umständen stark fehlerbehaftete Werte: Wenn etwa Figuren, die nur selten namentlich Erwähnung finden, überproportional stark auf andere Weise referenziert werden. Ist die namentliche Erwähnung hingegen an einzelne Szenen gebunden, hat diese Fehlerquelle geringeren Einfluss auf die Werte. Um die Auswirkungen der unterschiedlichen Operationalisierungen zumindest einer ersten Exploration zu unterziehen, nehmen wir die Präsenzanalyse von Klingers 
+  <hi rend="italic" xml:space="preserve">Die Zwillinge </hi>ein zweites Mal vor. Dazu definieren wir die aktive Präsenz als die Anzahl an gesprochenen Tokens einer Figur, die passive Präsenz als Anzahl namentlicher Erwähnungen einer Figur. 
+  </p>
+  <p style="text-align:left; ">Abb. 7 zeigt die Präsenzanalyse für <hi rend="italic">Die Zwillinge</hi> wobei für aktive und passive Präsenz gilt:
+  </p>
+  <figure>
+    <graphic height="1.9802916666666666cm" n="1008" rend="inline" url="173_final-54d25b5c5e1a1d33de08de1ef6c95af8.png" width="8.244702777777778cm"/>
+  </figure>
+  <figure>
+    <graphic height="11.618430555555555cm" n="1009" rend="inline" url="173_final-8a7104c763d33b77bb1bab1b723336d1.png" width="11.618430555555555cm"/>
+    <head>Abbildung 7: Figurenpräsenz in Klingers <hi rend="italic">Die Zwillinge</hi> (1776) gemäß alternativer Operationalisierung.</head>
+  </figure>
+  <!-- <p style="text-align:left; "> -->
+  <!--   <hi rend="bold">Abb. 7:</hi> Figurenpräsenz in Klingers  -->
+  <!--   <hi rend="italic">Die Zwillinge</hi> (1776) gemäß alternativer Operationalisierung. -->
+  <!-- </p> -->
+  <p style="text-align:left; ">Verglichen mit den Präsenzwerten in Abb. 6 ergeben sich erhebliche. Aufgrund der wenigen namentlichen Erwähnungen sinkt vor allem die passive Präsenz von Ferdinando von fast 0,8 auf etwa 0,1. Ferdinando wird also konsistent in vielen Szenen erwähnt, die Zahl der Erwähnung bleibt aber insgesamt vernachlässigbar, vergleicht man seinen Wert mit Guelfo. Wir gehen jedoch davon aus, dass die Fehleranfälligkeit der Koreferenzheuristik hier insgesamt ungenauere Ergebnisse liefert. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Zusammenfassung</head>
+  <p style="text-align:left; ">Der Beitrag stellt eine Methode vor, die ein erweitertes Präsenzkonzept operationalisiert, das neben der aktiven Präsenz dramatischer Figuren auch die passive Präsenz umfasst. Die passive Präsenz operationalisieren wir als Zahl der Szenen, in der eine Figur namentlich erwähnt wird, ohne selbst aktiv auf der Bühne zu stehen. Die Ergebnisse unserer Korpusanalysen lassen auf unterschiedliche Bauprinzipien dramatischer Texte schließen, die an die spezifische Präsenz von Hauptfiguren gebunden sind. Für die Zukunft erscheint es fruchtbar, die hier eruierten Erkenntnisse im Lichte poetologischer Setzungen und Funktionalisierungen – etwa der Vorbildfunktion Shakespeares – zu untersuchen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Anhang: Korpora</head>
+<p>
+  <hi rend="italic bold" xml:space="preserve">Sturm und Drang </hi>
+  <hi rend="bold">(SD) Korpus</hi>
+</p>
+<list type="unordered">
+  <item>Klinger, Friedrich Maximilian: 
+  <hi rend="italic">Die neue Arria</hi>
+  </item>
+  <item>Klinger, Friedrich Maximilian: 
+  <hi rend="italic">Die Zwillinge</hi>
+  </item>
+  <item>Leisewitz, Johann Anton: 
+  <hi rend="italic">Julius von Tarent</hi>
+  </item>
+  <item>Schiller, Friedrich: 
+  <hi rend="italic">Die Räuber</hi>
+  </item>
+  <item>Schiller, Friedrich: 
+  <hi rend="italic">Die Verschwörung des Fiesco zu Genua</hi>
+  </item>
+  <item>Goethe, Johann Wolfgang: 
+  <hi rend="italic">Götz von Berlichingen mit der eisernen Hand</hi>
+  </item>
+</list>
+<p>
+  <hi rend="italic bold" xml:space="preserve">Bourgeois Tragedy </hi>
+  <hi rend="bold">(BT) Korpus</hi>
+</p>
+<list type="unordered">
+  <item>Engel, Johann Jakob: 
+  <hi rend="italic">Eid und Pflicht</hi>
+  </item>
+  <item>Hebbel, Friedrich: 
+  <hi rend="italic">Maria Magdalene</hi>
+  </item>
+  <item>Holtei, Karl von:
+  <hi rend="italic" xml:space="preserve"> Ein Trauerspiel in Berlin</hi>
+  </item>
+  <item>Lessing, Gotthold Ephraim:
+  <hi rend="italic" xml:space="preserve"> Emilia Galotti</hi>
+  </item>
+  <item>Lessing, Gotthold Ephraim: 
+  <hi rend="italic">Miss Sara Sampson</hi>
+  </item>
+  <item>Pfeil, Johann Gottlob Benjamin: 
+  <hi rend="italic">Lucie Woodvil</hi>
+  </item>
+</list>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Juliane Vogel (2012) diskutiert das bereits von Johann Georg Sulzer kritisierte „Ankündigungswesen“ des höfischen Theaters (S. 536), das oft stark ritualisierte Formen der Einführung von Figuren vorschreibt; diese Einführung von Figuren durch andere sind Teil des Phänomens, das wir als <hi rend="italic">passive Präsenz</hi> analysieren. 
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Die Veröffentlichung eines Korpus, das vollständige und
+      teilannotierte Dramentexte enthält und auch für Experimente zur
+      automatischen Koreferenzauflösung genutzt werden kann, ist für
+      2020 geplant. Auf
+      <ref target="https://github.com/quadrama/gerdracor-coref">https://github.com/quadrama/gerdracor-coref</ref>
+      ist bereits ein Pre-Release verfügbar (DOI:
+      <ref target="https://zenodo.org/record/3559207#.XkKfoBNKjUI">10.5281/zenodo.3559207</ref>).
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Pfister (2001, 226f.) beschreibt das Problem der Identifikation von Hauptfiguren als eine Frage der „quantitativen Dominanzrelationen“ zwischen Figuren.
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Die passive Präsenz hängt auch von der Aktivität der Figur selbst ab. Ihr Wert muss bei hoher aktiver Präsenz automatisch klein ausfallen, da nur Szenen beachtet werden, in denen die Figur nicht spricht.
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold">Bourdieu, Pierre</hi> (1985): 
+  <hi rend="italic" xml:space="preserve">Sozialer Raum und "Klassen". Zwei Vorlesungen</hi>. Frankfurt a. M.: Suhrkamp.
+</bibl>
+<bibl>
+  <hi rend="bold">Elias, Norbert</hi> (2002): 
+  "Etablierte und Außenseiter",  in:
+  Hammer, Heike / Blomert, Reinhard (eds.): 
+  <hi rend="italic">Gesammelte Schriften</hi>. Band 4. Frankfurt a. M.: Suhrkamp.
+</bibl>
+<bibl>
+  <hi rend="bold">Fischer, Frank / Trilcke, Peer / Kittel, Christopher / Skorinkin, Daniil</hi> (2018): 
+  "To Catch a Protagonist: Quantitative Dominance Relations in German-Language Drama (1730–1930)", in: 
+  <hi rend="italic">DH 2018 Conference Abstracts</hi>, Mexico-City: 193–201 
+  <ref target="https://dh2018.adho.org/wp-content/uploads/2018/06/dh2018_abstracts.pdf">https://dh2018.adho.org/wp-content/uploads/2018/06/dh2018_abstracts.pdf</ref> [letzter Zugriff 18. Dezember 2019.
+</bibl>
+<bibl>
+  <hi rend="bold">Fischer, Frank / Börner, Ingo / Göbel, Mathias /
+  Hechtl, Angelika / Kittel, Christopher / Milling, Carsten / Trilcke,
+  Peer </hi> (2019): 
+  <hi rend="italic"> "Programmable Corpora. Die digitale Literaturwissenschaft zwischen Forschung und Infrastruktur am Beispiel von DraCor"</hi>, in: 
+  <hi rend="italic">DHd 2019 Conference Abstracts, Köln:</hi> 194–197, 
+  DOI: 
+  <ref target="https://doi.org/10.5281/zenodo.2596094">10.5281/zenodo.2596094</ref> [letzter Zugriff 18. Dezember 2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Hollmer, Heide / Meier, Albert</hi> (eds.) (2001):
+  <hi rend="italic" xml:space="preserve"> Dramenlexikon des 18. Jahrhunderts</hi>. München: C. H. Beck.
+</bibl>
+<bibl>
+  <hi rend="bold">Karsdorp, Folgert / Kestemont, Mike / Schöch, Christof / Bosch, Antal van den</hi> (2015): 
+  <hi rend="italic" style="font-size:10pt">"The Love Equation:
+  Computational Modeling of Romantic Relationships in French Classical
+  Drama"</hi>, in:
+  Mark A. Finlayson, Ben Miller, Antonio Lieto, und Remi Ronfard, (eds.), 
+  <hi rend="italic">6th Workshop on Computational Models of Narrative (CMN 2015)</hi>: 98–107 DOI: 10.4230/OASIcs.CMN.2015.98. 
+</bibl>
+<bibl>
+  <hi rend="bold">Krautter, Benjamin / Pagel, Janis</hi> (2019): 
+  "Klassifikation von Titelfiguren in deutschsprachigen Dramen und Evaluation am Beispiel von Lessings <hi rend="italic">Emilia Galotti</hi>", in: 
+  <hi rend="italic">DHd 2019 Conference Abstracts,</hi> Köln:
+  DOI: 10.18419/opus-10365 [letzter Zugriff 18. Dezember 2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Marcus, Solomon</hi> (1973 [1970]): 
+  <hi rend="italic">Mathematische Poetik</hi>. Frankfurt a.M.: Athenäum.
+</bibl>
+<bibl>
+  <hi rend="bold">Moretti, Franco</hi> (2011): 
+  <hi rend="italic" style="font-size:10pt">"Network Theory, Plot Analysis"</hi>, in: 
+  <hi rend="italic">Pamphlets of the Stanford Literary Lab 2</hi>: 2–11 
+  <ref target="https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf">https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf</ref> [letzter Zugriff 18. Dezember 2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Naumann, Karin</hi> (2007): 
+  <hi rend="italic" style="font-size:10pt">"Manual for the annotation of in-document referential relations"</hi>, in: 
+  <hi rend="italic">Technical report</hi>, Seminar für Sprachwissenschaft, Abt. Computerlinguistik Universität Tübingen.
+</bibl>
+<bibl>
+  <hi rend="bold">Nalisnick, Eric T. / Baird, Henry S</hi>. (2013): 
+  <hi rend="italic" style="font-size:10pt">"Character-to-character sentiment analysis in Shakespeare’s plays"</hi>, in: 
+  <hi rend="italic">Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics</hi>: 479–483 
+  <ref target="http://www.aclweb.org/anthology/P13-2085">http://www.aclweb.org/anthology/P13-2085</ref> [letzter Zugriff 18. Dezember 2019].
+</bibl>
+<bibl>
+<hi rend="bold">Pfister, Manfred</hi> (2001): 
+<hi rend="italic">Das Drama. Theorie und Analyse</hi>. München: W. Fink.
+</bibl>
+<bibl>
+  <hi rend="bold">Piper, Andrew / Algee-Hewitt, Mark / Sinha, Koustuv / Ruths, Derek / Vala, Hardik</hi> (2017): 
+  <hi rend="italic" style="font-size:10pt">"Studying Literary Characters and Character Networks"</hi>, in: 
+  <hi rend="italic">DH 2017 Conference Abstracts</hi>, Montréal: 
+  <ref target="https://dh2017.adho.org/abstracts/103/103.pdf">https://dh2017.adho.org/abstracts/103/103.pdf</ref> [letzter Zugriff 18. Dezember 2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Sørensen, Bengt Algot</hi> (1984): 
+  <hi rend="italic">Herrschaft und Zärtlichkeit der Patriarchalismus und das Drama im 18. Jahrhundert</hi>. München: C. H. Beck.
+</bibl>
+<bibl>
+  <hi rend="bold">Schopenhauer, Arthur</hi> (1977): 
+  <hi rend="italic">Die Welt als Wille und Vorstellung</hi>, in: Hübscher, Arthur (eds.), Zürich.
+</bibl>
+<bibl>
+  <hi rend="bold">Trilcke, Peer / Fischer, Frank / Kampkaspar, Dario</hi> (2015): 
+  <hi rend="italic" style="font-size:10pt">"Digital Network Analysis
+  of Dramatic Texts, </hi> in: 
+  <hi rend="italic">DH 2015 Conference Abstracts</hi>, Sydney.
+</bibl>
+<bibl>
+  <hi rend="bold">Vogel, Juliane</hi> (2012): 
+  <hi rend="italic" style="font-size:10pt">"Aus dem Takt: Auftrittsstrukturen in Schillers Don Carlos"</hi>, in: 
+  <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte</hi> 86/4: 532–546.
+</bibl>
+<bibl>
+  <hi rend="bold">Willand, Marcus / Reiter, Nils</hi> (2017): 
+  <hi rend="italic" style="font-size:10pt">"Geschlecht und
+  Gattung. Digitale Analysen von Kleists Familie Schroffenstein"</hi>,
+  in:
+  Allerkamp, Ana / Blamberger, Günter / Breuer, Ingo / Gribnitz, Barbara / Lund, Hannah Lotte / Roussel, Martin (eds.): 
+  <hi rend="italic">Kleist-Jahrbuch</hi>. Stuttgart: J. B. Metzler 177–195. 
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

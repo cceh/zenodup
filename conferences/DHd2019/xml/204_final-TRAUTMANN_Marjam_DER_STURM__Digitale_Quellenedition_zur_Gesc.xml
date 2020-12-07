@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="204_final-TRAUTMANN_Marjam_DER_STURM__Digitale_Quellenedition_zur_Gesc" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde. Drei Forschungsansätze.</title>
+                <author>
+                    <persName>
+                        <surname>Lorenz</surname>
+                        <forename>Anne Katrin</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>anne.lorenz@adwmainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Müller-Dannhausen</surname>
+                        <forename>Lea</forename>
+                    </persName>
+                    <affiliation>Johannes Gutenberg-Universität Mainz</affiliation>
+                    <email>lea.mueller-dannhausen@gmx.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trautmann</surname>
+                        <forename>Marjam</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>marjam.trautmann@adwmainz.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Briefe</term>
+                    <term>Digitale Edition</term>
+                    <term>Modellierung</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Simultaneitätsstudie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Daten</term>
+                    <term>benannte Entitäten (named entities)</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung    
+                    <hi style="font-size:20pt" xml:space="preserve">    </hi>
+                </head>
+                <p style="text-align:left; ">Digitale Editionen gehören zu den „prominentesten Themen“ (Sahle 2017: 237) in den Digital Humanities. Sie leisten Grundlagenarbeit für die geisteswissenschaftliche Forschung und bilden ein eigenes Forschungsfeld in den Digital Humanities. Hier verortet sich auch das digitale Editions- und Forschungsprojekt „DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde“ (https://sturm-edition.de). </p>
+                <p style="text-align:left; ">Gegenstand ist das 1910 gegründete Berliner Kunstunternehmen „Der Sturm“ um den Publizisten, Komponisten und Kritiker Herwarth Walden, der zahlreichen Künstlerinnen und Künstlern unterschiedlicher Kunstgattungen eine Plattform bot. Das Unternehmen umfasste die Zeitschrift „Der Sturm“, die „Sturm“-Galerie, die „Sturm“-Bühne sowie den „Sturm“-Verlag. Neben den Veröffentlichungen des „Sturm“ selbst bezeugen die überlieferten Briefe an das Ehepaar Walden den internationalen Einfluss des Unternehmens.</p>
+                <p style="text-align:left; ">Unser Editionsprojekt, in dem bereits digital verfügbares Material aus dem „Sturm“-Kontext transkribiert, standardkonform nach XML/TEI P5 aufbereitet und mit Normdaten versehen wird, führt diese Quellen erstmals zentral zusammen und setzt sie mittels digitaler Methoden in Relation zueinander.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Drei Forschungsansätze im STURM-Projekt</head>
+                <p style="text-align:left; ">Integraler Teil des Editionsprojektes ist die Forschung mit den STURM-Quellen. Auf dem Poster stellen wir neben der Quellenedition die folgenden drei Forschungsansätze vor, die sich explizit mit den im Projekt edierten Materialien beschäftigen.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Modellierung der STURM-Domäne</head>
+                    <p style="text-align:left; ">Ein Ansatz arbeitet mit den in der digitalen Quellenedition DER STURM zusammengeführten Quellen und modelliert deren Verknüpfungen und Beziehungen untereinander. Die Grundlage bildet hierbei das CIDOC Conceptual Reference Model als Domain-Ontologie im Bereich Cultural Heritage (Doerr 2009), die im Bereich der musealen Sammlungen und der bildenden Kunst weit verbreitet ist. Ergänzt wird diese Ontologie durch fachspezifische Vokabulare wie den Getty Art &amp; Architecture Thesaurus (AAT). Die semantischen Verknüpfungen zwischen den einzelnen Quellen und Quellen-Typen beziehen sich auf die in den bereits edierten Quellen annotierten Entitäten (Personen, Orte und Werke) sowie auf weitere Entitäten, die noch in den Editionsprozess aufgenommen werden: auf Körperschaften, Ereignisse und Themen. In der digitalen Quellenedition des STURM sind für diese Entitäten bereits URIs vorhanden bzw. vorgesehen. Durch Anreicherung der Entitäten mit Normdaten werden Verknüpfungen mit weiteren Ressourcen ermöglicht.</p>
+                    <p style="text-align:left; ">Die semantische Modellierung der STURM-Domäne – bestehend aus den Quellen der Edition und dem, was sie bezeugen – dient der Weiterentwicklung der digitalen Quellenedition DER STURM sowie perspektivisch der Weiternutzung der dabei gewonnenen Daten, denn sie bildet die Grundlage für eine Verfügbarmachung der Daten und ihrer Zusammenhänge in Form von Linked Open Data. In dieser Form können die Daten beim Ermitteln und Zeigen von Zusammenhängen helfen und somit die Basis bilden für weitere Forschungen in einzelnen Fachwissenschaften, insbesondere in der Kunst- und in der Literaturwissenschaft.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Historische Netzwerkforschung zum „Sturm“</head>
+                    <p style="text-align:left; ">Ein weiterer Ansatz im Projekt beschäftigt sich mit der historischen Netzwerkforschung (Düring et al. 2016). In der bisherigen „Sturm“-Forschung steht aufgrund der Komplexität und Dezentralität der Quellen eine dezidiert „kunsthistorische Beschäftigung mit dem 
+                        <hi rend="italic">Sturm</hi>“ aus (van Rijn 2013: 11). Insbesondere an einer ‚Gesamtschau‘ zum „Sturm“ fehlt es – ein Desiderat, an das hier mit der Methode der Historischen Netzwerkforschung angeknüpft werden soll. Dafür wird für das zu untersuchende Phänomen des historischen „Sturm“ ein Gesamtnetzwerk modelliert und anhand algorithmischer sowie hermeneutischer Methoden analysiert (Brandes et al. 2013: 4). Datengrundlage der Netzwerkerhebung bilden archivalische Metadaten und die im STURM-Projekt maschinenlesbar modellierten Quellen.
+                    </p>
+                    <p style="text-align:left; ">Das Netzwerk ist multimodal, bestehen die einzelnen zueinander in Relation stehenden Entitäten doch aus im Kontext des „Sturm“ aufkommenden Personen, multimedialen Werken, Briefdaten und einigem mehr. Diese Daten gilt es in der Visualisierung des erhobenen Netzwerkes anschaulich zu machen (Baillot 2018: 357). Darüber hinaus offenbart die computergestützte Historische Netzwerkforschung auch in der Analyse komplexer Netzwerke ihre Stärken. Durch eine rein klassische Untersuchung des facettenreichen „Sturm“-Netzwerkes, so die These, würden Darstellung und Analyse unübersichtlicher und damit fehleranfälliger werden.</p>
+                    <p style="text-align:left; ">Die kritische Untersuchung der Quellen selbst – und damit einhergehend die Interpretation des erhobenen Gesamtnetzwerkes „Sturm“ – bildet einen weiteren wichtigen Schritt in der Gesamtanalyse des Kunstunternehmens hinsichtlich eines möglichen ‚gesamtgesellschaftlichen Spiegels‘. Ziele der historischen Netzwerkstudie sind das Ausmachen und die Analyse von 
+                        <hi rend="italic">broken ties</hi> (Jannidis 2017: 158) im komplexen „Sturm“-Netzwerk und die Einordnung des „Sturm“ in den zeitgenössischen kultur- und soziopolitischen Kontext.
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="9.646594444444444cm" height="9.646594444444444cm" url="204_final-0b0c92ffc5fb73396a0b24474edf13e8.png" rend="inline"/>
+                        <head>
+                            <lb/>Abbildung 1. Gerichtetes Korrespondenznetzwerk um Herwarth Walden (rot), Else Lasker-Schüler (gelb) und Nell Walden (grün); Layout: ForceAtlas 2; Knotengröße: 
+                            <hi rend="italic">outdegree;</hi> Knotenfarbe: 
+                            <hi rend="italic">indegree</hi>; Kantendicke: 
+                            <hi rend="italic">weight</hi> (Menge der überlieferten Briefe).
+                        </head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Diskursanalyse des Simultaneitätsbegriffs im „Sturm“         </head>
+                    <p style="text-align:left; ">Ein Beispiel für die fachspezifische Nutzung digitaler Editionen gibt die Studie zu avantgardistischen Simultaneitätskonzepten im „Sturm“. Als ein die Avantgarde bestimmendes Strukturprinzip kommt Simultaneität in verschiedenen Kunstrichtungen vor, die innerhalb ihrer Programmatik mitunter konkurrierende Modelle entwickeln. F. M. Marinettis „Technisches Manifest der futuristischen Literatur“, die kubistischen „Fenster“-Bilder Robert Delaunays oder die Simultangedichte der Dadaisten ähneln sich im grundlegenden Bestreben, nach dem avantgardistischen Primat von „Transgression und Diffundierung“ (Asholt / Fähnders 2000: 17) beim Rezipienten gleichzeitig unterschiedliche Wirklichkeitsansichten und -ebenen zu erzeugen. Im medialen Komplex des „Sturm“, mit seinen vielfältigen Publikations- und Distributionswegen sowie seinen dezidiert antimimetischen Gestaltungsprinzipien, finden diese bildkünstlerischen wie literarischen Werke trotz Gattungs- und Stilunterschieden gleichermaßen eine adäquate Präsentationsform. Eingebettet in den spezifischen historischen Kontext des „Sturm“-Netzwerks werden sie von Para- und Metatexten begleitet, die ihre Rezeption lenken und kommentieren – und die nicht zuletzt in den privaten Korrespondenzen an Walden vorbereitet und verhandelt werden.</p>
+                    <p style="text-align:left; ">Die webbasierte Zusammenführung der verschiedenen Quellen des „Sturm“ erlaubt es nun, wechselseitige Bezüge zwischen den unterschiedlichen Textsorten offenzulegen und so diskursiv etablierte sprachlich-rhetorische Muster zu rekonstruieren. Mit Hilfe korpuslinguistisch informierter diskursanalytischer Verfahren wird der Frage nachgegangen, inwiefern solche multimodalen Diskurspraktiken die Bedeutung von Gleichzeitigkeit im historischen „Sturm“-Netzwerk unterschiedlich konstituieren und auf diese Zeitkonstruktion als typisch avantgardistischen Diskurs verweisen. Um die entsprechenden „Diskursfragmente“ (Jäger 2012: 98ff.) im Netzwerkkontext situieren und den einzelnen Künstlern und Kunstrichtungen zuordnen zu können, sollen zusätzlich netzwerkanalytische Zugänge berücksichtigt werden. Schließlich zielt die Auswertung der im Projekt erarbeiteten Daten darauf ab, den Begriff der Simultaneität im Problemfeld von Scheitern (Habermas) und Überleben (Luhmann) der Avantgarde zu konturieren.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Asholt, Wolfgang / Fähnders, Walter (2000)</hi>: <hi rend="italic">„Einleitung“</hi>, in: <hi rend="bold">Asholt, Wolfgang / Fähnders, Walter (eds.)</hi>: <hi rend="italic">Der Blick vom Wolkenkratzer. Avantgarde – Avantgardekritik – Avantgardeforschung</hi>. Amsterdam / Atlanta: Editions Rodopoi 9–27.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Baillot, Anne (2018)</hi>: <hi rend="italic">„Die Krux mit dem Netz. Verknüpfung und Visualisierung bei digitalen Briefeditionen“</hi>, in: <hi rend="bold">Bernhart, Toni / Willand, Marcus / Richter, Sandra / Albrecht, Andrea (eds.)</hi>: <hi rend="italic">Quantitative Ansätze in den Literatur- und Geisteswissenschaften. Systematische und historische Perspektiven.</hi> Open Access: De Gruyter 355–370.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Brandes, Ulrik / Robins, Garry / McCranie, Ann / Wasserman, Stanley (2013)</hi>: <hi rend="italic">Editorial. What is network science?</hi> Network Science 1: 1–15.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chytraeus-Auerbach, Irene / Uhl, Elke (2013)</hi>: <hi rend="italic">„Vorwort“</hi>, in: <hi rend="bold">Chytraeus-Auerbach, Irene / Uhl, Elke (eds.)</hi>: <hi rend="italic">Der Aufbruch in die Moderne. Herwarth Walden und die europäische Avantgarde.</hi> Berlin: LIT Verlag 7–11.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Doerr, Martin (2009)</hi>: <hi rend="italic">„Ontologies for Cultural Heritage“</hi>, in: <hi rend="bold">Staab, Steffen / Studer, Rudi (eds.)</hi>: <hi rend="italic">Handbook on Ontologies.</hi> Berlin / Heidelberg: Springer Verlag 463–486.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Düring, Marten / Eumann, Ulrich / Stark, Martin / Keyserlingk, Linda v. (2016) (eds.)</hi>: <hi rend="italic">Handbuch Historische Netzwerkforschung. Grundlagen und Anwendungen.</hi> Berlin: LIT Verlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jäger, Siegfried (2012)</hi>: <hi rend="italic">Kritische Diskursanalyse. Eine Einführung.</hi> 6. vollständig überarbeitete Aufl. Münster: Unrast.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jannidis, Fotis (2017)</hi>: <hi rend="italic">„Netzwerke“</hi>, in: <hi rend="bold">Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.)</hi>: <hi rend="italic">Digital Humanities. Eine Einführung.</hi> Stuttgart: J. B. Metzler 147–161.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pirsich, Volker (1985)</hi>: <hi rend="italic">Der Sturm. Eine Monographie</hi>. Herzberg: Traugott Bautz 1985.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rijn, Maaike van (2013)</hi>: <hi rend="italic">Bildende Künstlerinnen im Berliner „Sturm“ der 1910er Jahre</hi>. Tübingen: TOBIAS-lib, http://tobias-lib.uni-tuebingen.de/volltexte/2013/6987.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick (2017)</hi>: <hi rend="italic">„Digitale Edition“</hi>, in: <hi rend="bold">Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.)</hi>: <hi rend="italic">Digital Humanities. Eine Einführung.</hi> Stuttgart: J. B. Metzler 234–249.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

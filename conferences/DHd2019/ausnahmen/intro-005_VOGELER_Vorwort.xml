@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="intro-005_VOGELER_Vorwort">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vorwort</title>
+                <author>
+                    <persName>
+                        <surname>Sahle</surname>
+                        <forename>Patrick</forename>
+                    </persName>
+                    <roleName>Vorsitzender des Programmkomitees der DHd2018</roleName>
+                    <email>sahle@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-02-04T10:30:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+        <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+        <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+          <t:addrLine>Universität zu Köln</t:addrLine>
+          <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+          <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+          <t:addrLine>50923 Köln</t:addrLine>
+        </t:address>
+      </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="original" n="category">
+                    <term>Intro</term>
+                </keywords>
+                <keywords scheme="original" n="subcategory">
+                    <term>Vorwort</term>
+                </keywords>
+                <keywords scheme="original" n="topic">
+                    <term></term>
+                </keywords>
+                <keywords scheme="original" n="keywords">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text type="intro" n="single">
+        <body>
+            <div>
+                <p>„Wer verstehen will, worum es in den Digital Humanities geht, was der Stand der Kunst ist, was die wichtigen Forschungsthemen und wer die Akteure sind, der oder die soll in die Books of Abstracts der DH-Konferenzen schauen.“ Das ist ein stehender Satz in allen meinen Einführungsvorträgen zum Thema Digital Humanities. Nirgendwo sonst bekommt man die ganze Breite der Forschungsthemen der DH in einer so vollständigen und zugleich wunderbar kondensierten Form dargeboten. Books of Abstracts als durch peer review-Verfahren gefilterte und qualitätsgesicherte Summen der aktuellen Forschungen definieren das Feld, sind ein äußerst nützliches Instrument der Fachkommunikation und wertvolle Dokumente zum Beleg der Entwicklung über die Zeit.</p>
+                <p>Dafür ist es wichtig, dass die Abstracts-Bände gut aufbereitet sind und dauerhaft erreichbar bleiben. Beides konvergiert mit der auch in diesem Jahr fortgesetzten Entwicklung zu immer größerer Professionalität bei der Erstellung des Abstractsbandes, wie auch der eingereichten Beiträge. Die Digital Humanities sind stark von Interdisziplinarität geprägt: Beitragende mit verschiedenen fachlichen Hintergründen haben ein sehr unterschiedliches Verständnis davon, was überhaupt ein „Abstract“ ist und welchen inhaltlichen und formalen Kriterien es zu genügen hat. Als Gemeinschaft der digitalen Geisteswissenschaften im deutschsprachigen Raum sind wir immer noch auf dem Weg, ein gemeinsames Verständnis dieser Abstracts als ernstzunehmender wissenschaftlicher Publikationsform zu finden. Ich freue mich zu sehen, dass wir hierbei auch in diesem Jahr wieder einen Schritt weitergekommen sind. Um das Ziel ganz klar zu formulieren: die hier vorgelegten Abstracts sind wissenschaftliche Texte eigenen Rechts, die auch bibliografisch fassbar sein sollen, um die eigenen Forschungsgebiete und die gewonnenen Erkenntnisse sichtbar machen zu können. Diese Anspruchshöhe impliziert unter anderem, dass die Beiträge über 
+                <hi rend="italic">neue</hi>, bisher 
+                <hi rend="italic">unveröffentlichte</hi> 
+                Forschungsergebnisse berichten. </p>
+                <p>Für die entsprechende Qualität und Originalität tragen die AutorInnen die Verantwortung. Sie werden aber auch von der großen Gruppe der GutachterInnen sichergestellt, die durch Bewertung und Rückmeldung die Filterung durch das Programmkomitee und die Verbesserung der Beiträge durch die AutorInnen ermöglichen. Bedingt durch die neue DSGVO musste für diese Tagung der Pool der GutachterInnen neu aufgebaut werden. Er setzte sich schließlich aus 50 „AltgutachterInnen“ und 100 neuen KollegInnen zusammen, denen insgesamt für Ihre gewissenhafte und gute Arbeit nicht genug gedankt werden kann. Von den 150 GutachterInnen sind insgesamt fast 600 Gutachten erstellt worden, so dass zu allen Einreichungen schließlich mindestens jeweils vier (bei Postern jeweils mindestens drei) Bewertungen vorlagen.</p>
+                <p>Auf der Grundlage der Punktevergabe der GutachterInnen und ihrer Annahmeempfehlungen hat das Programmkomitee Qualitätsschwellen definiert und schließlich die Beiträge zur Präsentation ausgewählt. Selbst bei maßvollen Ablehnungsquoten zwischen, je nach Format, 20% und 30% wird es enttäuschte Einreichende gegeben haben. Auch diesen sei aber ausdrücklich für ihre Einreichungen und ihren Beitrag gedankt.</p>
+                <p>Ebenso ist dem Programmkomitee zu danken. Heike Zinsmeister als stellvertretender Programmkomiteevorsitzenden, Lars Wieneke, Georg Vogeler, Christof Schöch, Stefan Schmunk, Andreas Münzmay, Mareike König, Andreas Henrich, Petra Gehring, Lisa Dieckmann und Alexander Czmiel als ProgrammkomiteemitgliederInnen und Kai Christian Bruhn als Vertreter des Organisationskomitees im Programmkomitee haben bei den vielen Prozessen der Entscheidungsfindung zu den verschiedensten Aufgaben und aufkommenden Sonderproblemen stets mit Rat und Tat und der Erfahrung aus den vorherigen Konferenzen zu konstruktiven Lösungen gefunden. Auf der organisatorischen und technischen Seite, der beständigen Bändigung des ConfTools ist Erik-Lân Do Dinh eine unverzichtbare Hilfe gewesen, der nicht nur immer wieder alle Einstellungsoptionen ausgereizt, sondern auch alle eingehenden Anfragen und Kommentare vorsortiert und ggf. beantwortet oder an die richtigen Stellen weitergeleitet hat.</p>
+                <p>Für die Realisierung des BoA danke ich schließlich Rüdiger Gleim (Redaktion), Attila Kett (Redaktion, Layout-Anpassung der Beiträge), Nikolas Hilger (Redaktion, Layout-Anpassung der Beiträge) und Vanessa Liebler (Cover-Gestaltung).</p>
+                <p>&#160;</p>                
+                <p>Viel Vergnügen mit den „Digital Humanities im deutschsprachigen Raum, Stand der Kunst 2019“.</p>
+				<p>&#160;</p>
+                <dateline>Köln, Februar 2019</dateline><lb/>
+                <signed>Patrick Sahle<lb/>Vorsitzender des Programmkomitees</signed>
+            </div>
+        </body>
+    </text>
+</TEI>
+

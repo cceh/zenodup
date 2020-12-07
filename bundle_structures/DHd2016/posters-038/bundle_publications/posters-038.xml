@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-038">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ziele und Aktivitäten der Arbeitsgruppe Digitale Romanistik</title>
+        <author>
+          <name>
+            <surname>Schöch</surname>
+            <forename>Christof</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>christof.schoech@uni-wuerzburg.de</email>
+        </author>
+        <author>
+
+          <name>
+            <surname>von Ehrlich</surname>
+            <forename>Isabel</forename>
+          </name>
+          <affiliation>LMU München, Deutschland</affiliation>
+          <email>Isabel.vonEhrlich@lrz.uni-muenchen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Ehrlicher</surname>
+            <forename>Hanno</forename>
+          </name>
+          <affiliation>Universität Augsburg, Deutschland</affiliation>
+          <email>hanno.ehrlicher@phil.uni-augsburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Gerstenberg</surname>
+            <forename>Annette</forename>
+          </name>
+          <affiliation>FU Berlin, Deutschland</affiliation>
+          <email>gerstenberg@zedat.fu-berlin.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kraft</surname>
+            <forename>Tobias</forename>
+          </name>
+          <affiliation>BBAW Berlin, Deutschland</affiliation>
+          <email>kraft@bbaw.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Rißler-Pipka</surname>
+            <forename>Nanette</forename>
+          </name>
+          <affiliation>Universität Siegen, Deutschland</affiliation>
+          <email>nanette.rissler@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Völker</surname>
+            <forename>Harald</forename>
+          </name>
+          <affiliation>Universität Würzburg, Schweiz</affiliation>
+          <email>harald_voelker@gmx.net</email>
+        </author>
+        <author>
+          <name>
+            <surname>Mühlschlegel</surname>
+            <forename>Ulrike</forename>
+          </name>
+          <affiliation>Ibero-Amerikanisches Institut, Deutschland</affiliation>
+          <email>Muehlschlegel@iai.spk-berlin.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-14T21:42:52.096964198</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Arbeitsgruppe</term>
+          <term>Digitale Romanistik</term>
+          <term>Langzeitarchivierung</term>
+          <term>Dissemination</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Community-Bildung</term>
+          <term>Einführung</term>
+          <term>Lehre</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1">
+        <head>Einleitung</head>
+        <p>Mit dem hier beschriebenen Poster möchte die Anfang 2014 gegründete Arbeitsgruppe
+          Digitale Romanistik, die beim Deutschen Romanistenverband (DRV) angesiedelt ist,
+          ihre Ziele und Aktivitäten vorstellen. Zentrales Anliegen der Arbeitsgruppe ist
+          es, die Romanistik mittelfristig und nachhaltig in den digitalen
+          Geisteswissenschaften zu verankern. Daher sieht die AG die Poster-Präsentation
+          bei der DHd-Tagung einerseits als Gelegenheit, die Vertreter_innen der Digitalen
+          Geisteswissenschaften über die Existenz und Aktivitäten der Arbeitsgruppe zu
+          informieren. Diese Aktivitäten haben zuletzt insbesondere die Themen
+          Langzeitarchivierung von Forschungsdaten und Verbreitung von digitalen Methoden
+          betroffen. Andererseits verfolgt die AG mit dem Poster bei der DHd-Tagung auch
+          das Ziel, mit vergleichbaren Initiativen (andere Arbeitsgruppen,
+          Infrastrukturen, Verbänden, Disseminations-Initiativen) zum Thema der Rolle
+          digitaler Daten, Methoden und Tools in einzelnen Disziplinen ins Gespräch zu
+          kommen.</p>
+        </div>
+        <div type="div1">
+          <head>Arbeitsgruppe Digitale Romanistik</head>
+          <p>In der Romanistik wird zunehmend wahrgenommen, wie der geisteswissenschaftliche
+            Alltag seit einigen Jahren tiefgreifenden und nachhaltigen Veränderungsprozessen
+            unterliegt, die auf der gesellschaftlich und technologisch bedingten
+            Bedeutungszunahme und zunehmenden Selbstverständlichkeit der Verwendung von
+            digitalen Medien, elektronisch verfügbaren Informationen und computergestützten
+            Werkzeugen beruhen. Die weitreichende und immer stärkere Vernetzung der
+            Forschenden, die schnellere Kommunikation von Forschungsergebnissen und die
+            zunehmende Digitalisierung der Forschungsgegenstände sind in diesem Kontext nur
+            drei zentrale Aspekte eines weitreichenden Prozesses, der bekanntlich häufig
+            unter dem Stichwort der „Digitalen Geisteswis­senschaften“ verhandelt wird. Der
+            Vorstand des Deutschen Romanistenverbands hat die Einrichtung der Arbeitsgruppe
+            „Digitale Romanistik“ gut geheißen, weil es sich hier gleichermaßen um ein
+            wissenschaftliches und wissenschaftspolitisches Arbeitsfeld handelt. Die
+            deutschsprachige Romanistik sollte über die Möglichkeit verfügen, sich in die
+            zunehmend wichtigen Prozesse von Standard- und Normsetzungen in diesem Bereich
+            einbringen zu können.</p>
+          </div>
+          <div type="div1">
+            <head>Ziele der Arbeitsgruppe</head>
+            <p>Das übergeordnete Ziel der Arbeitsgruppe „Digitale Romanistik“ ist es, die
+              Konsequenzen der Digitalisierung in ihren Herausforderungen und Chancen für
+              unterschiedliche Fachgebiete und Teilaspekte zu reflektieren. Dies bedeutet, die
+              spezifische Perspektive der romanistischen Sprach-, Literatur-, Kultur- und
+              Medienwissenschaften sowie der Fachdidaktik auf die Digitalisierung sichtbar zu
+              machen und die Bedürfnisse der Romanistik an digitale Datenbestände,
+              Infrastrukturen, Ausbildungsmöglichkeiten, Förderstrategien und vieles mehr zu
+              formulieren. Die Arbeitsgruppe möchte auf diese Weise den DRV und die Romanistik
+              als Fach dabei unterstützen, zu den anstehenden Fragen eigene Positionen weiter
+              zu entwickeln, Empfehlungen für Zukunftsstrategien zu formulieren, sich aktiv an
+              nationalen und europäischen Prozessen zu beteiligen sowie das bedeutende Gewicht
+              der Romanistik in den Geisteswissenschaften auch im Bereich der digitalen
+              Geisteswissenschaften gegenüber Forschungsförderern, Universitätsleitungen und
+              der breiteren Öffentlichkeit deutlich zu machen. Außerdem wollen wir
+              Ansprechpartner für Kolleg_innen sein, die mit konkreten Fragen zum Thema
+              "Digitale Romanistik" an die Arbeitsgruppe heran treten möchten, weiterführende
+              Informationen benötigen oder eine strategische Beratung suchen.</p>
+              <div type="div2">
+                <head>Erster Schwerpunkt: Langzeitarchivierung von digitalen Forschungsdaten für die Romanistik</head>
+                <p>Das erste Schwerpunktthema der Arbeitsgruppe war die Langzeitarchivierung von
+                  digitalen Forschungsdaten für die Romanistik unter den veränderten
+                  Rahmenbedingungen in den letzten beiden Jahrzehnten. Die AG hat im Winter
+                  2014 eine Umfrage zu den aktuellen Diskussionen und Bedürfnissen der
+                  Fachwissenschaftler_innen in der Romanistik durchgeführt. Ziel war es, die
+                  romanistischen Bedürfnisse auf diesem Wege zu ermitteln, um sie in die
+                  aktuellen Strukturdebatten innerhalb der DFG, zwischen den Fachverbänden und
+                  an den Universitäten einbringen zu können. Aus den Ergebnissen der Umfrage
+                  leiten sich aus Sicht der AG Digitale Romanistik mehrere Schlussfolgerungen
+                  ab:</p>
+                  <p>+ Texeditionen, Korpora und andere digital vorliegende Forschungsdaten werden intensiv und auf vielfältige Weise genutzt.</p>
+                  <p>+ Es besteht Handlungsbedarf, da tragfähige Konzepte der Langzeitarchivierung fehlen.</p>
+                  <p> + Es besteht Informationsbedarf, um die zukünftigen Nutzer_nnen in den
+                    Entwicklungsprozess einzubeziehen.</p>
+                    <p>+ Es sollte ein Weg zwischen "Insellösungen" (Zergliederung des Angebots) und einer klaren fachbezogenen Identität gefunden werden.</p>
+                  </div>
+                  <div type="div2">
+                    <head>Aktueller Schwerpunkt: Verbreitung digitaler Methoden in der Romanistik</head>
+                    <p>Der derzeitige Schwerpunkt der Arbeit der Arbeitsgruppe bezieht sich darauf, die Verbreitung digitaler Methoden in der Romanistik zu unterstützen. Dies geschieht insbesondere durch drei Aktivitäten: Erstens die Sammlung laufender romanistischer Forschungsprojekte und aktueller romanistischer Publikationen mit Bezug zu digitalen Methoden. Zweitens durch die Vermittlung und Durchführung von kleineren Methodenworkshops, die in ausgewählte Verfahren der digitalen Geisteswissenschaften spezifisch für ein romanistisches Publikum einführen. Und drittens durch die Publikation von Überblicksbeiträgen, die über die Forschungsaktivitäten in der digitalen Romanistik informieren und so den Austausch und die Netzwerkbildung befördern.</p>
+                    <p>Wichtig scheint es aus Perspektive der Arbeitsgruppe Digitale Romanistik darüber hinaus, dass sich auch in den Fächern Kommunikationsstrukturen etablieren, über die dem digitalen Paradigma in den Fächern mehr Geltung verschafft wird und auf deren Grundlage sich die am Thema interessierten Wissenschaftlerinnen und Wissenschaftler vorbereitende Gespräche zur Anbahnung von Kooperationen führen können. Es geht also neben der Kommunikation mit den anderen Fächern auch um die Schaffung von Strukturen innerhalb der Fächer.</p>
+                  </div>
+                </div>
+                <div type="div1">
+                  <head>Weiterführende Informationen</head>
+
+                  <p>Webseite der "Arbeitsgruppe Digitale Romanistik" des DRV Deutschen
+                    Romanistenverbandes unter: <bibl>
+                    <hi rend="bold">Arbeitsgruppe Digitale Romanistik</hi> (2013-*): "Isabel von
+                    Ehrlich, Hanno Ehrlicher, Annette Gerstenberg, Tobias Kraft, Ulrike
+                    Mühlschlegel, Nanette Rißler-Pipka, Christof Schöch, Harald Völker -
+                    Kontakt: Kontakt: <email>digitaleromanistik@gmail.com</email>", in: <hi
+                    rend="italic">DRV Deutscher Romanistenverband</hi> .<ref
+                    target="http://www.deutscher-romanistenverband.de/der-drv/ag-digitale-romanistik/"
+                    >http://www.deutscher-romanistenverband.de/der-drv/ag-digitale-romanistik/</ref>
+                    [letzter Zugriff 08. Januar 2016]. </bibl></p>
+                    <p>Schwerpunktthema "Langzeitarchivierung von Forschungsdaten" unter: <hi
+                      rend="bold">Arbeitsgruppe Digitale Romanistik</hi> (2014-*):
+                      "Langzeitarchivierung von Forschungsdaten", in: <hi rend="italic">DRV Deutscher
+                      Romanistenverband</hi>. <ref
+                      target="http://www.deutscher-romanistenverband.de/der-drv/ag-digitale-romanistik/lza/"
+                      >http://www.deutscher-romanistenverband.de/der-drv/ag-digitale-romanistik/lza/</ref>
+                      [letzter Zugriff 08. Januar 2016].</p>
+                      </div>
+                    </body>
+                    <back>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <bibl><hi rend="bold">Schöch, Christoph</hi> (2014): “Zur Einrichtung einer
+                          DRV-Arbeitsgruppe Digitale Romanistik”, in: <hi rend="italic">Mitteilungsheft
+                          des DRV</hi>
+                          <ref target="https://zenodo.org/record/11807?ln=en"
+                            >https://zenodo.org/record/11807?ln=en</ref> [letzter Zugriff 08. Januar
+                            2016]. </bibl>
+                        </listBibl>
+                      </div>
+                    </back>
+                  </text>
+                </TEI>

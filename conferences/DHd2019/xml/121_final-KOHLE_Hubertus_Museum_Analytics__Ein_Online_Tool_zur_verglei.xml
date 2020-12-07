@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="121_final-KOHLE_Hubertus_Museum_Analytics__Ein_Online_Tool_zur_verglei" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Museum Analytics: Ein Online-Tool zur vergleichenden Analyse musealer Datenbestände</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schneider</surname>
+                        <forename>Stefanie</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>stefanie.schneider@itg.uni-muenchen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kohle</surname>
+                        <forename>Hubertus</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>hubertus.kohle@lmu.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Burg</surname>
+                        <forename>Severin</forename>
+                    </persName>
+                    <affiliation>Università di Bologna, Italien</affiliation>
+                    <email>severin.jo.burg@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Küchenhoff</surname>
+                        <forename>Helmut</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>kuechenhoff@stat.uni-muenchen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Statistik</term>
+                    <term>Kunstgeschichte</term>
+                    <term>Tool</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Bereinigung</term>
+                    <term>Visualisierung</term>
+                    <term>Bilder</term>
+                    <term>Metadaten</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Museen produzieren in den letzten Jahren verstärkt digitale Inventare ihrer Bestände, die sie zuweilen auch im Internet veröffentlichen: Manche stellen Teilbestände zur Verfügung, andere den ganzen Besitz; wie etwa das Metropolitan Museum in New York, das über 375.000 Objekte datenbankmäßig erschlossen 
+            präsentiert.<ref target="ftn1" n="1"/> Üblicherweise werden einzelne Objekte aus diesen Inventaren gefiltert; entweder solche, die bekannt sind, oder andere, auf die man über erschließende Metadaten stößt. „Museum Analytics“, kurz „MAX“, ein an der Ludwig-Maximilians-Universität München am Institut für Kunstgeschichte und Institut für Statistik entwickeltes Online-Tool, sieht etwas anderes vor: Es ermöglicht es, im Unterschied zu anderen Systemen (Stack 2018), die vorhandenen Metadaten als „Massendaten“ statistisch zu erschließen, zu analysieren und zu visualisieren – ohne programmieren zu können. Damit eignet es sich besonders für die Lehre in geisteswissenschaftlichen 
+            Kontexten.<ref target="ftn2" n="2"/>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="121_final-8819e40f31660a9dedd6495a27b42576.png"/>
+                    <head>
+                        <lb/>Abbildung 1: Screenshot des Moduls 
+                    </head>
+                </figure>
+                <hi rend="italic">Dashboard</hi>, das das Laden und Importieren von Museen ermöglicht.
+            </p>
+            <p>„MAX“ implementiert folgende Komponenten:</p>
+            <list type="ordered">
+                <item>Ein 
+                    <hi rend="italic">Graphical User Interface</hi>, das responsiv ist und ohne exzessive Einarbeitung schnelle Fortschritte und eine flüssige Analyse ermöglicht. Es ist mit der Open-Source-Programmiersprache 
+                    <hi rend="italic">R</hi> und dem auf 
+                    <hi rend="italic">R</hi> aufsetzenden Webapplikationspaket 
+                    <hi rend="italic">Shiny</hi> realisiert, die eine leichte Modularisierung im 
+                    <hi rend="italic">Backend</hi> garantieren (R Core Team, 2017; Chang et al., 2017). Hilfestellungen werden durch eine allgemeinverständliche Dokumentation und den jeweiligen Funktionen zugeordnete 
+                    <hi rend="italic">Screencasts</hi> gegeben, die einzelne Verfahrensschritte näher erläutern.
+                </item>
+                <item>Eine Schnittstelle zu musealen 
+                    <hi rend="italic">Application Programming Interfaces</hi> (
+                    <hi rend="italic">APIs</hi>), um bestehende Daten möglichst einfach in das Tool importieren und weiterverarbeiten zu können. Momentan bereitgestellt werden fast 4.000.000 Objekte aus 200 Institutionen. Auch eigene, etwa per 
+                    <hi rend="italic">Web Scraping</hi> extrahierte und als CSV- oder RDS-Datei vorliegende Bestände können eingespeist und bearbeitet werden. Daher löst sich die Beschränkung auf museale Inventare: Wer sich für die Entwicklung von Bevölkerungszahlen interessiert, kann „MAX“ ebenfalls nutzen.
+                </item>
+                <item>Komplementiert werden diese Komponenten mit der Javascript-Bibliothek 
+                    <hi rend="italic">Highcharts</hi> durch dynamische und interaktive Grafiken, die bei 
+                    <hi rend="italic">Mouseover</hi> weitere Kennzahlen anzeigen oder mittels 
+                    <hi rend="italic">Zoom</hi> interessierende Bereiche vergrößern oder selegieren 
+                    können.<ref target="ftn3" n="3"/> Sie bereichern die statistische Analyse, indem sie komplexe Zusammenhänge attraktiv abbilden und die Nutzerinnen und Nutzer unmittelbar in die Analyse einbinden.
+                </item>
+            </list>
+            <p>Diese Komponenten sind in drei Modulen integriert: 
+                <hi rend="italic">Dashboard</hi>, 
+                <hi rend="italic">Preprocessing</hi> und 
+                <hi rend="italic">Visualisierung</hi>. 
+                <hi rend="italic">Dashboard</hi> dient der Auswahl und dem Import der jeweils interessierenden Museen, die in 
+                <hi rend="italic">Preprocessing</hi> diversen statistischen Operationen unterzogen werden können, um bspw. heterogene Datierungsangaben zu vereinheitlichen. 
+                <hi rend="italic">Visualisierung</hi> präsentiert die Ergebnisse in grafischer Form, wobei die verschiedenen Diagrammarten, z. B. Histogramm oder 
+                <hi rend="italic">Bubble Chart</hi>, automatisch je nach Datentyp der zu visualisierenden Spalte eines oder mehrerer Museen angewandt werden. Ein besonderes 
+                <hi rend="italic">Feature</hi> ist mit der 
+                <hi rend="italic">Historie</hi> verbunden: Einzelne Arbeitsschritte – oder ganze Arbeitsschrittketten – können mit ihr reversibel gemacht oder auf andere zu bearbeitende Museen übertragen werden. Es wurden sowohl Standardmethoden der Statistik implementiert als auch für die geisteswissenschaftliche Disziplin spezifische Schnittstellen, um bspw. die Entstehungsländer der Kunstwerke einer Sammlung in einer Karte visualisieren zu können.
+            </p>
+            <p>Je nach Erschließungstiefe der Bestände kann untersucht werden, welche Sammlungskonjunkturen es in bestimmten Museen gegeben hat, welche Gattungen zu welcher Zeit besonders beliebt waren oder ob es Zusammenhänge zwischen der Sammlungstätigkeit und gesellschaftspolitischen Bedingungen gab. Bei hinreichend repräsentativer Datenlage lassen sich auch Fragen adressieren, die die Kunstgeschichte als solche betreffen: Welche künstlerischen Techniken waren im historischen Wandel vorherrschend? Welche Themen zu welcher Zeit beliebt? Ist die Säkularisierung an der Entwicklung der Ikonographie der Kunstwerke abzulesen? Die Werke bzw. deren Digitalisate können auch direkt adressiert und statistisch analysiert werden: Ist die Verwendung von bestimmten Farben bzw. Farbzusammenstellungen historisch beschreibbar? Lässt sich Heinrich Wölfflins Bildanalyseinstrumentarium, in dem etwa das Renaissance-Kunstwerk als linear und klar, das barocke als malerisch und unklar beschrieben wurde, automatisieren und auf seine historische Berechtigung befragen?</p>
+            <p>Die Funktionalitäten des Tools wurden in einem Seminar mit geisteswissenschaftlichen Studierenden im Sommersemester 2018 an der Ludwig-Maximilians-Universität überprüft und evaluiert, worauf mit der Integration der genannten 
+                <hi rend="italic">Screencasts</hi> reagiert wurde. „MAX“ ist ein Teil des „Digital Humanities Virtual Laboratory“ („DHVLab“), einer modularen Lehr- und Forschungsinfrastruktur zur Ausbildung von Studierenden der Kunst-, Geschichts- und Sprachwissenschaften in Anwendungen und Methoden der 
+                <hi rend="italic">Digital Humanities</hi>.<ref target="ftn4" n="4"/>
+            </p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    <ptr target="https://www.metmuseum.org/art/collection"/> (23.09.2018).
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    <ptr target="https://www.max.gwi.uni-muenchen.de/"/>, das Online-Tool selbst unter 
+                    <ptr target="https://dhvlab.gwi.uni-muenchen.de/max/"/> (beide 23.09.2018). Es wird im Rahmen des Programms Lehre@LMU zur Stärkung der Forschungsorientierung in der Lehre gefördert.
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    <ptr target="https://www.highcharts.com/"/> (23.09.2018).
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    <ptr target="https://dhvlab.gwi.uni-muenchen.de/"/> (24.09.2018); weitere Einblicke in Klinke (2018).
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+						<hi rend="bold">Chang, Winston / Cheng, Joe / Allaire, JJ / Xie, Yihui / McPherson, Jonathan (2017)</hi>: <hi rend="italic">shiny: Web Application Framework for R</hi>, <ptr target="https://cran.r-project.org/package=shiny"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Klinke, Harald (Hrsg., 2018)</hi>: <hi rend="italic">#DigiCampus. Digitale Forschung und Lehre in den Geisteswissenschaften.</hi> München: Universitätsbibliothek der Ludwig-Maximilians-Universität.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">R Core Team (2017)</hi>: <hi rend="italic">R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing</hi>, <ptr target="https://www.r-project.org/"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ridge, Mia (2012)</hi>: <hi rend="italic">Mia Ridge Explores the Shape of Cooper-Hewitt Collections</hi>, <ptr target="https://labs.cooperhewitt.org/2012/exploring-shape-collections-draft/"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stack, John (2018)</hi>: <hi rend="italic">Exploring Museum Collections Online. Some Background Reading,</hi><ptr target="https://lab.sciencemuseum.org.uk/exploring-museum-collections-online-some-background-reading-da5a332fa2f8"/>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

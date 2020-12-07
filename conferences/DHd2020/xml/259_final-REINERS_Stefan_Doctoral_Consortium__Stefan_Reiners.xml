@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="259_final-REINERS_Stefan_Doctoral_Consortium__Stefan_Reiners" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+    <title type="full">
+      <title type="main">„Ein lebendiges psychologisches Parlament“.</title>
+      <title type="sub">Lazarus‘ und Steinthals Zeitschrift für
+      Völkerpsychologie und Sprachwissenschaft.</title>
+    </title>
+    <author>
+      <persName>
+	<surname>Reiners</surname>
+	<forename>Stefan</forename>
+      </persName>
+      <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+      <email>stefan.reiners@rub.de</email>
+    </author>
+  </titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T17:53:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Doctoral Consortium</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Psychologiegeschichte</term>
+<term>Philosophie</term>
+<term>Zeitschriftenforschung</term>
+<term>Topic Modeling</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<!-- <div> -->
+<!-- <p style="text-align:center;">„Ein lebendiges psychologisches Parlament“.</p> -->
+<!-- <p style="text-align:center;">Lazarus‘ und Steinthals Zeitschrift für Völkerpsychologie und Sprachwissenschaft.</p> -->
+<!-- </div> -->
+<div rend="DH-Heading1" type="div1">
+<head>Begründung des Vorhabens</head>
+<p>Die Völkerpsychologie Lazarus‘ und Steinthals stellt in der zweiten Hälfte des 19. Jahrhunderts die erste Psychologie – wenn nicht gar die erste empirische Wissenschaft überhaupt – dar, die den Menschen als soziales Wesen fasst. Entgegen der psycho-physisch reduktionistischen Theorien, die zur selben Zeit entstehen,<ref n="1" target="ftn1"/> betont die Völkerpsychologie den sozialen Aspekt des menschlichen Denkens und Handelns, indem sie geteilte kulturelle Inhalte und Strukturen erforscht. Sie kann so als Grundstein der Soziologie, Sozialpsychologie sowie Ethnologie (vgl. Jahoda 2007, Köhnke 2003) und als zukunftsweisend für sämtliche Kulturwissenschaften gelten (vgl. Kalmar 1987).
+                </p>
+<p>Gegenwärtig meist als historische Anekdote abgetan, (vgl.: etwa Eckardt 1997, Lück / Guski-Leinwand 2014) bedienten sich die Völkerpsychologen des Mediums Zeitschrift allerdings auf innovative Weise. Die Zeitschrift für Völkerpsychologie wird als „lebendiges psychologisches Parlament“ begründet: Vielerlei Perspektiven und Methoden fließen ein, sodass sich die Wissenschaft im Forschungsprozess selbst konstituiert. </p>
+<p>Die grundlegendste Frage: „Was ist Völkerpsychologie?“ kann also nicht mit Verweis auf die einleitenden programmatischen Texte dieser Zeitschrift beantwortet werden. Vielmehr muss der gesamte Forschungsprozess, d.h. die gesamte Zeitschrift, in den Blick genommen werden. Dies ist mit traditionellen Verfahren des Close Readings (CR) bei einem Korpus von ca. 2,9 Millionen Wörtern in ca. 400 Aufsätzen, erschienen über 30 Jahre, nicht zufriedenstellend zu bewältigen. Der Gegenstand macht damit Methoden des Distant Readings (DR) erforderlich. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Methode</head>
+<p>Als methodisches Vorbild kann die kürzlich veröffentlichte Studie „What Is This Thing Called Philosophy of Science?” (Malaterre et al. 2019) dienen: Sie stellt eine Pionierleistung im Feld der Philosophie dar. Hier wurden über 80 Jahrgänge einer Zeitschrift mithilfe von Topic-Modeling-Methoden analysiert und die Ergebnisse der Analyse mit dem bisherigen Kenntnisstand über die historische Entwicklung der Disziplin verglichen. </p>
+<p>Da es aber keinerlei Forschung zur historischen Entwicklung oder zum Prozess der Konstituierung der Völkerpsychologie gibt, dient das DR hier der Exploration. Dafür erscheint Topic Modeling (z.B. mit MALLET, McCallum 2002), gegebenenfalls im Zusammenspiel mit Kollokationsanalysen (z.B. mit #LancsBox, Brezina et al. 2019), als adäquate Lösung: Ziel ist es, die Entwicklungsmuster der Wissenschaft Völkerpsychologie abzubilden und dabei auch Bruchstellen oder andere Auffälligkeiten für das CR zu identifizieren, indem die Verteilung ausgewählter Topics auf das gesamte Korpus der Zeitschrift analysiert wird. Die genannten Methoden fügen sich dabei gut in das philosophische Paradigma ein, da sie eine differenzierte strukturelle Begriffsanalyse ermöglichen. Grundsätzlich muss natürlich diskutiert werden, inwieweit die dabei generierten Topics einer philosophischen Begriffsanalyse gerecht werden, bzw. inwiefern die Topics semantischen Themen und Begriffsnetzen vergleichbar sind: Underwood merkt an, dass dies bei 
+                    <hi rend="italic">non-ficiton</hi> eher der Fall ist als bei 
+                    <hi rend="italic">fiction</hi> (vgl.: Underwood 2012), während Jockers Preprocessing-Schritte empfiehlt, um dem näherzukommen. (vgl.: Jockers 2013)
+                </p>
+<p>Die Rohdaten der ersten zehn Bände der Zeitschrift liegen dabei als OCR-Scans vor, welche die Bayrische Staatsbibliothek zur Verfügung gestellt hat.<ref n="2" target="ftn2"/> Diese wurden aufbereitet<ref n="3" target="ftn3"/> und nach UTF-8 kodiert. Die Bände elf bis zwanzig liegen als Printmedien in guter Qualität vor und werden im Verlaufe des Vorhabens mit OCR verarbeitet werden. 
+                </p>
+<p>Aktuell stellen sich Fragen nach der Weiterverarbeitung und Visualisierung der Topic Models sowie nach der Segmentierung der Rohdaten. Grundsätzlich soll sich jedoch eines Mixed-Methods-Ansatz bedient werden: Dem DR geht ein CR der programmatischen Aufsätze voraus, dessen Ergebnis wiederum zur Diskussion des DR genutzt wird. Schließlich soll das DR helfen, Entwicklungen und Umbrüche zu identifizieren, die abschließend als Zusammenschau einem datenbasierten CR unterzogen werden. Da es sich um eine philosophische Arbeit handelt, wird der gesamte Forschungsprozess ständig wissenschaftstheoretisch-kritisch reflektiert sowie abschließend diskutiert werden.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Gliederung und Stand der Arbeit</head>
+<p>Das Dissertationsprojekt gliedert sich wie folgt:</p>
+<p>(1) 
+                    <hi rend="italic">Historische Analyse</hi> der Völkerpsychologie als Psychologie des 19. Jahrhunderts sowie als erster Versuch einer Psychologie als Leitwissenschaft auf Basis eines weit gefassten, empirischen Geist-Begriffs.
+                </p>
+<p>(2) 
+                    <hi rend="italic">Wissenschaftstheoretische Analyse</hi> der programmatischen Aufsätze: Position eines gemäßigten methodischen Materialismus, verbunden mit einem Methoden-Relativismus, was eine Art Historical Turn in der Psychologie darstellt.
+                </p>
+<p>(3) 
+                    <hi rend="italic">Medienphilologische Analyse</hi> der Zeitschrift für Völkerpsychologie und Sprachwissenschaft als mediale Realisierung einer öffentlichen (sozial)psychologischen Diskussionsplattform.
+                </p>
+<p>(4) 
+                    <hi rend="italic">Distant Reading</hi> der Zeitschrift für Völkerpsychologie; Deutung vor dem Hintergrund der vorausgehenden Analysen.
+                </p>
+<p>(5) 
+                    <hi rend="italic">Datenbasiertes Close Reading</hi> als Zusammenschau. 
+                </p>
+<p>Die Bearbeitung der Punkte (1) und (2) ist in wichtigen Grundzügen bereits geleistet und als Aufsatz im Erscheinen (Reiners 2020). Ein Aufsatz zu Punkt (3) wurde im Januar eingereicht.</p>
+<p>Das vorliegende Projekt stellt einen interessanten Diskussionsgegenstand für das Kolloquium dar, weil es Fragestellungen der Medienwissenschaften, philosophischen Wissenschaftstheorie und Geschichtswissenschaften mit Methoden der Digital Humanities verbindet.</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+  <note n="1" rend="footnote text" xml:id="ftn1">
+    Etwa die Psychophysik nach Fechner, aber auch die Ansätze Hermann von Helmholtz‘ und später Ebbinghaus‘ und Wundts.
+  </note>
+  <note n="2" rend="footnote text" xml:id="ftn2">
+    S. https://opacplus.bsb-muenchen.de/title/BV002529202
+  </note>
+  <note n="3" rend="footnote text" xml:id="ftn3">
+    Vom Rauschen befreit, Schaft-S durch gerundetes S ersetzt, Diphtong- bzw. Ligaturschreibung der Umlaute durch Umlautbuchstaben (‚ae‘-‚ä‘) ersetzt, Silbentrennung aufgehoben usw. (Band eins bis sieben sind in Frakturschrift gedruckt).
+  </note>
+  </div>
+</back>
+</text>
+</TEI>

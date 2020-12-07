@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-018">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die datengeleitete Ermittlung des gemeinsamen sprachlichen Inventars der Geisteswissenschaften</title>
+        <author>
+          <name>
+            <surname>Meißner</surname>
+            <forename>Cordula</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>cordula.meissner@uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wallner</surname>
+            <forename>Franziska</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>f.wallner@rz.uni-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-05T08:43:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Lexikografie</term>
+          <term>Wissenschaftssprache</term>
+          <term>Korpuslinguistik</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Sprache</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Hintergrund</head>
+        <p>Sprache ist in der Wissenschaft nicht nur ein Instrument, um Sachverhalte zu
+          vermitteln, sondern spielt für das wissenschaftliche Denken eine konstitutive
+          Rolle. Dies gilt insbesondere für die geisteswissenschaftlichen Disziplinen, da
+          hier selbst die Gegenstände der Forschung größtenteils sprachlich verfasst sind
+          (vgl. Kretzenbacher 2010). Die nicht-terminologische, disziplinenübergreifend
+          verwendete Wissenschaftssprache spiegelt dabei in besonderem Maße die in Sprache
+          niedergelegten Erkenntnisprozesse wider und ist somit von wesentlicher
+          wissenschaftsmethodologischer Bedeutung. Zu ihr gehören beispielsweise
+          Ausdrucksmittel des Voraussetzens, des Begründens, des Folgerns, des
+          Einschränkens, des Übertragens und Vergleichens. Für diesen Bereich, der unter
+          dem Begriff der allgemeinen oder auch alltäglichen Wissenschaftssprache
+          zusammengefasst wird (Schepping 1976; Ehlich 1999), steht eine systematische
+          lexikographische Erschließung und Beschreibung jedoch bislang noch aus. Der
+          einzige vorliegende Ansatz zu einer lexikografischen Erfassung der allgemeinen
+          Wissenschaftssprache nimmt das gesamte Spektrum akademischer Fächer in den Blick
+          und erlaubt so eine nur geringe Beschreibungsdetailliertheit (Erk 1972, 1975,
+          1982, 1985).</p>
+          <p>Das Projekt GeSIG (Das gemeinsame sprachliche Inventar der Geisteswissenschaften) setzt sich daher zum Ziel, erstmals das Inventar der allgemeinen Wissenschaftssprache der Geisteswissenschaften auf empirischer Grundlage zu bestimmen und damit den Grundstein für seine umfassende Erschließung zu legen. Ein auf diese Weise bestimmtes Inventar stellt eine wertvolle Grundlage für die Dokumentation und Erforschung der Sprache der Geisteswissenschaften dar. Das Projekt ist als Pilotprojekt angelegt und soll Vorarbeiten liefern für den Aufbau einer umfassenden elektronischen lexikographischen Ressource dieses Sprachbereichs.</p>
+           <p>Der Beitrag stellt das Projekt GeSIG vor. Im ersten Teil wird die datengeleitete Ermittlung des gemeinsamen sprachlichen Inventars der Geisteswissenschaften beschrieben. Während diese auf einer sehr feindifferenzierten Einteilung geisteswissenschaftlicher Disziplinen basiert, ist für die lexikografische Bearbeitung eine Bündelung notwendig. Der zweite Teil geht daher der Frage nach, welche Großbereiche aus lexikografischer Perspektive unterschieden werden sollten. Es wird eine empirische Studie vorgestellt, die datengeleitet versucht, diese Frage zu beantworten.</p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Die Ermittlung des gemeinsamen sprachlichen Inventars der Geisteswissenschaften</head>
+          <p>Die Datenbasis für die Ermittlung des Inventars bilden Korpora verschiedener geisteswissenschaftlicher Fachbereiche. Zur Operationalisierung der „Geisteswissenschaften“ wurde dabei die Umfangsbestimmung des Wissenschaftsrates (2010) zugrunde gelegt, der sich an die Systematik des statistischen Bundesamtes anlehnt (vgl. Statistisches Bundesamt 2013). In dieser werden 19 geisteswissenschaftliche Disziplinengruppen unterschieden (wie etwa Geschichte, Romanistik, Philosophie, Musikwissenschaften u.a.). Diese Einteilung bildete die Basis für die Erstellung von Teilkorpora. Es wurden für jeden Bereich mindestens 10 Dissertationen und mindestens 1 Mio. Token erhoben. Die Analysegrundlage setzt sich insgesamt aus 197 Dissertationen mit einem Gesamtumfang von ca. 19 Mio. Token zusammen.</p>
+          <p>Um einen systematischen Zugriff auf den Wortschatzbestand der allgemeinen Wissenschaftssprache der Geisteswissenschaften zu ermöglichen, wurde eine datengeleitete Vorgehensweise gewählt. Hierfür war zunächst eine Bereinigung der Sprachdaten erforderlich. Anschließend wurden die Texte mit Hilfe des TreeTaggers (Schmid 1995) und unter Anwendung der Richtlinien des STTS (Schiller et al. 1999) annotiert sowie lemmatisiert, um eine systematische Auswertung auf Lemmaebene und im Hinblick auf Wortarten durchführen zu können. Zusätzlich erfolgten weitere manuelle Nachbearbeitungsschritte zur Desambiguierung automatisch ermittelter Homonyme sowie zur Lemmatisierung der Partikelverben und unvollständiger Wortformen.</p>
+          <p>Auf der Grundlage der so aufbereiteten Teilkorpora wurde der allgemeinwissenschaftliche Wort¬schatz der Geisteswissenschaften ermittelt. Dieser wurde operationalisiert durch das disziplin¬übergreifende Vorkommen von Lemmata. Für jedes Teilkorpus wurde hierzu eine Lemmaliste erstellt und eine Schnittmenge aus diesen 19 Listen gebildet. Die Schnittmenge enthält jene sprachlichen Mittel, die der Form nach in geisteswissenschaftlichen Disziplinen übergreifend gebraucht werden. Sie umfasst insgesamt 4.668 Lemmata (z.B. Nomen wie <hi rend="italic">Jahr</hi>, <hi rend="italic">Form</hi>, <hi rend="italic">Frage</hi>, <hi rend="italic">Arbeit</hi>, <hi rend="italic">Bild</hi>, Verben wie <hi rend="italic">geben</hi>, <hi rend="italic">zeigen</hi>, <hi rend="italic">finden</hi>, <hi rend="italic">sehen</hi>, <hi rend="italic">darstellen</hi> und Adjektive wie <hi rend="italic">gut</hi>, <hi rend="italic">verschieden</hi>, <hi rend="italic">deutlich</hi>, <hi rend="italic">f
+ olgend</hi>).</p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Zur Frage der Fachbereichseinteilung im Hinblick eine lexikografische Bearbeitung des Inventars</head>
+          <p>Die quantitative Analyse des Inventars zeigt deutliche Frequenzunterschiede für einzelne Lemmata in bestimmten Disziplinen. Dies deutet darauf hin, dass einige der übergreifend gebrauchten Lexeme in den geisteswissenschaftlichen Disziplinen einen unterschiedlichen Stellenwert haben und möglicherweise fachterminologisch geprägt sind. Diese fachspezifische Prägung sollte auch bei der lexikografischen Bearbeitung des Inventars Berücksichtigung finden. Hierfür ist es erforderlich, die für die Ermittlung des Inventars zugrunde gelegten 19 geisteswissenschaftlichen Disziplinengruppen zu bündeln. Da in vorliegenden Fachbereichseinteilungen die Gruppierung geisteswissenschaftlicher Disziplinen uneinheitlich erfolgt, wurde mit Hilfe von Topic Modeling (Mallet, vgl.  McCallum 2002) eine alternative, datengeleitete Fachbereichseinteilung vorgenommen. Die Grundlage hierfür bildeten die 197 Dissertationen, die auch zur Ermittlung des gemeinsamen sprachlichen Inventars der G
+ eisteswissenschaften herangezogen wurden. Diese wurden mit Hilfe des Topic Modeling gruppiert, wobei sich die klarsten Ergebnisse zeigten, wenn der Berechnung sechs Topics zugrunde gelegt wurden. Aus der datengeleiteten Gruppierung der Dissertationen lassen sich die folgenden Bündelungen ablesen: 1. Dissertationen mit sprachwissenschaftlichem Schwerpunkt, 2. Dissertationen mit literaturwissenschaftlichem Schwerpunkt, 3. Dissertationen mit geschichtswissenschaftlichem Schwerpunkt, 4. Dissertationen mit philosophischem oder theologischem Schwerpunkt, 5. Dissertationen mit kunstwissenschaftlichem Schwerpunkt sowie 6. Dissertationen mit bibliothekswissenschaftlichem Schwerpunkt oder vorwiegend empirischer Ausrichtung. Im Beitrag werden die ermittelten Gruppen näher vorgestellt und im Vergleich zu vorliegenden Fachbereichseinteilungen diskutiert. </p>
+          <p>Insgesamt soll mit diesem Beitrag gezeigt werden, wie datengeleitete Verfahren nutzbar gemacht werden können, um einen Sprachverwendungsbereich lexikografisch zu erschließen.</p>
+        </div>
+      </body>
+      <back>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl>
+              <hi rend="bold">Ehlich, Konrad</hi> (1999): "Alltägliche
+              Wissenschaftssprache", in: <hi rend="italic">Informationen Deutsch als
+              Fremdsprache</hi> 26: 3-24. </bibl>
+              <bibl>
+                <hi rend="bold">Erk, Heinrich</hi> (1972): <hi rend="italic">Zur Lexik
+                wissenschaftlicher Fachtexte</hi>. Verben, Frequenz und Verwendungsweise
+                (= Schriften der Arbeitsstelle für wissenschaftliche Didaktik des
+                Goethe-Instituts 4). München: Hueber. </bibl>
+                <bibl>
+                  <hi rend="bold">Erk, Heinrich</hi> (1975): <hi rend="italic">Zur Lexik
+                  wissenschaftlicher Fachtexte</hi>. Verben, Frequenz und Verwendungsweise
+                  (= Schriften der Arbeitsstelle für wissenschaftliche Didaktik des
+                  Goethe-Instituts 4). München: M. Hueber. </bibl>
+                  <bibl>
+                    <hi rend="bold">Erk, Heinrich</hi> (1982): <hi rend="italic">Zur Lexik
+                    wissenschaftlicher Fachtexte</hi>. Verben, Frequenz und Verwendungsweise
+                    (= Schriften der Arbeitsstelle für wissenschaftliche Didaktik des
+                    Goethe-Instituts 4). München: M. Hueber. </bibl>
+                    <bibl>
+                      <hi rend="bold">Erk, Heinrich</hi> (1985): <hi rend="italic">Wortfamilien in
+                      wissenschaftlichen Texten</hi>. Ein Häufigkeitsindex (= Schriften der
+                      Arbeitsstelle für wissenschaftliche Didaktik des Goethe-Instituts 9).
+                      München: M. Hueber. </bibl>
+                      <bibl>
+                        <hi rend="bold">Kretzenbacher, Heinz</hi> (2010): "Fach- und
+                        Wissenschaftssprachen in den Geistes- und Sozialwissenschaften", in: Krumm,
+                        Hans-Jürgen / Fandrych, Christian / Hufeisen, Britta / Riemer, Claudia
+                        (eds.): <hi rend="italic">Deutsch als Fremd- und Zweitsprache</hi> (=
+                        Handbücher zur Sprach- und Kommunikationswissenschaft 35.1). Berlin, New
+                        York: de Gruyter 493-501. </bibl>
+                         <bibl>
+                          <hi rend="bold">McCallum, Andrew Kachites</hi> (2002): <hi rend="italic">MALLET: A Machine Learning for Language Toolkit.</hi> <ref target="http://mallet.cs.umass.edu" >http://mallet.cs.umass.edu</ref> [letzter Zugriff 22. Februar 2016]. </bibl>
+                         <bibl>
+                          <hi rend="bold">Schepping, Heinz</hi> (1976): "Bemerkungen zur Didaktik der
+                          Fachsprache im Bereich des Deutschen als Fremdsprache", in: Rall, Dietrich /
+                          Schepping, Heinz / Schleyer, Walter (eds.): <hi rend="italic">Didaktik der
+                          Fachsprache</hi>. Beiträge zu einer Arbeitstagung der RWTH Aachen vom
+                          30.9. bis 4.10.1974. Bonn-Bad Godesberg: DAAD 13-34. </bibl>
+                          <bibl>
+                            <hi rend="bold">Schmid, Helmut</hi> (1995): "Improvements In Part-of-Speech
+                            Tagging With An Application To German", in: <hi rend="italic">Proceedings of
+                            the ACL SIGDAT-Workshop</hi>. Dublin, Ireland <ref
+                            target="ftp://ftp.ims.uni-stuttgart.de/pub/corpora/tree-tagger2.pdf"
+                            >ftp://ftp.ims.uni-stuttgart.de/pub/corpora/tree-tagger2.pdf</ref>
+                            [letzter Zugriff 02. Oktober 2015]. </bibl>
+                            <bibl>
+                              <hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine /
+                                Thielen, Christine</hi> (1999): <hi rend="italic">Guidelines für das
+                                Tagging deutscher Textcorpora mit STTS (Kleines und großes Tagset)</hi>.
+                                Technischer Bericht. Universitäten Stuttgart &amp; Tübingen. </bibl>
+                                <bibl>
+                                  <hi rend="bold">Statistisches Bundesamt</hi> (2013): <hi rend="italic">Bildung und Kultur. Studierende an Hochschulen - Fächersystematik.</hi> <ref target="https://www.destatis.de/DE/Methoden/Klassifikationen/BildungKultur/StudentenPruefungsstatistik.pdf" >https://www.destatis.de/DE/Methoden/Klassifikationen/BildungKultur/StudentenPruefungsstatistik.pdf </ref> [letzter Zugriff 16. Oktober 2014]. </bibl>
+                                  <bibl>
+                                  <hi rend="bold">Wissenschaftsrat </hi> (2010): <hi rend="italic">Empfehlungen zur vergleichenden Forschungsbewertung in den Geisteswissenschaften. Drs. 10039-10.</hi> <ref target="http://www.wissenschaftsrat.de/download/archiv/10039-10.pdf" >http://www.wissenschaftsrat.de/download/archiv/10039-10.pdf </ref> [letzter Zugriff 30. Mai 2016]. </bibl>
+                              </listBibl>
+                            </div>
+                          </back>
+                        </text>
+                      </TEI>

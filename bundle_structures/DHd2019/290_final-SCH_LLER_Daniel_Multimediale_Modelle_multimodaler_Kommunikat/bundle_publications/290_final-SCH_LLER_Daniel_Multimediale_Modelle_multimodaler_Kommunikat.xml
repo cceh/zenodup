@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="290_final-SCH_LLER_Daniel_Multimediale_Modelle_multimodaler_Kommunikat" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Multimediale Modelle multimodaler Kommunikation</title>
+                    <title type="sub">Motion-Capturing in der computergestützten Gestenforschung</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schüller</surname>
+                        <forename>Daniel</forename>
+                    </persName>
+                    <affiliation>RWTH Aachen, Deutschland</affiliation>
+                    <email>schueller@humtec.rwth-aachen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mittelberg</surname>
+                        <forename>Irene</forename>
+                    </persName>
+                    <affiliation>RWTH Aachen, Deutschland</affiliation>
+                    <email>mittelberg@humtec.rwth-aachen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T22:12:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Motion Capture</term>
+                    <term>Gestik</term>
+                    <term>gesprochene Sprache</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Aufzeichnung</term>
+                    <term>Transkription</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Visualisierung</term>
+                    <term>Multimodale Kommunikation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-size:13pt" xml:space="preserve">Unter redebegleitende Gestik werden hier kinetische Arm-, Hand-, und Kopfbewegungen und –konfigurationen verstanden, wie sie von Sprechenden und ihren zuhörenden und zuschauenden Dialogpartnern mehr oder weniger bewusst im Rahmen der mündlichen Face-to-Face-Kommunikation eingesetzt werden (vgl. Kendon 2004, Müller 1998, Müller et.al. 2013, 2014). Bei redebegleitenden Gesten handelt es sich stets um performative, temporale und spontane Vollzüge. Im Unterschied zur Lautsprache lassen sich zunächst keine expliziten syntaktischen und semantischen Regeln erkennen, die das Phänomen unterfüttern. Somit erscheint redebegleitende Gestik (im Unterschied zu sog. Emblemen) als idiosynkratischer, aber dennoch integraler und auch musterhaft unterfütternder Bestandteil von kommunikativer Interaktion vermittels sog. </hi>
+                <hi rend="italic" style="font-size:13pt" xml:space="preserve">natürlicher </hi>
+                <hi style="font-size:13pt" xml:space="preserve">(körpereigener) </hi>
+                <hi rend="italic" style="font-size:13pt">Medien</hi>
+                <hi style="font-size:13pt">. Gesprochene Sprache wird somit als multimodaler Vollzug beschrieben, von dem sich die diskursintegrierten Gesten nicht im Sinne einer eigenen medialen Spur abtrennen lassen.</hi>
+            </p>
+            <p>
+                <hi style="font-size:13pt">Neben den etablierten, überwiegend rein qualitativ arbeitenden Methoden zur Untersuchung redebegleitender Gestik entwickeln sich zunehmend computerbasierte Verfahren, welche zusätzlich zur qualitativen Analyse von Videomaterial auch quantitative, auf numerische Daten gestützte Analyseperspektiven eröffnen. Im Natural Media Lab der RWTH Aachen werden beispielsweise Gesprächspartner mittels eines markerbasierten, optischen 3D-</hi>
+                <hi rend="italic" style="font-size:13pt">Motion-Capture</hi>
+                <hi style="font-size:13pt" xml:space="preserve">-Systems aufgenommen und aus dem Verbund von MoCap-, Video- und Audiodaten ein Korpus erstellt. Die multimediale Transkription (Jäger 2004, 2012) versetzt das Korpus in den theoretischen Status eines digitalen Modells (Schüller und Mittelberg, 2017), das für GestenforscherInnen im Sinne eines empirischen Relativs an die Stelle der (Summe der) realen, raumzeitlichen Bewegungen der Sprechenden tritt und die verschiedenen Modalitäten (gesprochene Sprache, Gestik) der Kommunikationssituation erfasst. </hi>
+            </p>
+            <p>
+                <hi style="font-size:13pt">Der Vorteil dieses in den letzten Jahren mit Informatikern der RWTH Aachen entwickelten Verfahrens gegenüber der klassischen Videoanalyse ergibt sich hierbei aus der zusätzlichen multimedialen Verschränkung der Annotationen des Gestenforschers mit den numerischen Daten des MoCap-Systems. Diese Methodik unterstützt und ergänzt die Analyse redebegleitender Gesten insofern, als diskursintegrierte Gestik nun auch probandenübergreifend und quantitativ untersucht werden kann, indem auf den MoCap-Daten ein digitaler Algorithmus als operative Instanz eines Ähnlichkeitsmodells arbeitet (Beecks et. al. 2015, 2016; Schüller et.al. 2017), der mittels Gesten-Signaturen algorithmisch nach Ähnlichkeiten im kinetischen Verhalten der Probanden sucht. Weiterhin eröffnet der notationale Charakter (Goodman 1997) des digitalen Modells die Möglichkeit zur Erstellung von Diagrammen (Schüller und Mittelberg 2016) zur Visualisierung quantitativer Daten wie Beschleunigung, Abstände von Händen und Armen zum Körper, Nutzung des Gestenraumes (McNeill 1992) etc., während der multimodalen Artikulation gesprochener Sprache. Drittens gibt es die Möglichkeit der Projektion von Bewegungsspuren auf die Videodaten, sodass auch eine visuelle Repräsentation der ansonsten nicht sichtbaren numerischen Daten erfolgt und die Videodaten anreichert.</hi>
+            </p>
+            <p>
+                <hi style="font-size:13pt">Erkenntnis- und wissenschaftstheoretisch betrachtet ist eine Reflexion des theoretischen Status solcher Modelle hochinteressant, da es sich um mittels digitaler, technischer Verfahren erzeugte, zeichenbasierte Transkriptionen realer Ereignisse handelt, die letztlich den Untersuchungsgegenstand empirischer Forschung bilden und somit zentral an der Gegenstandskonstitution beteiligt sind (Jäger 2012). Welchen Einfluss hat die Anwendung verschiedener Abstraktionslevel auf die Gegenstandskonstitution? Welche Zeichenprozesse sind an diesem transkriptiven Verfahren beteiligt?</hi>
+            </p>
+            <p>
+                <hi style="font-size:13pt">In unserer Posterpräsentation wollen wir zunächst den eigentlichen Forschungsgegenstand – multimodalen Sprachgebrauch in körpereigenen Medien am Beispiel des Verbundes aus gesprochener Sprache und redebegleitender Gestik – erfassen. Hierauf folgt eine zeichentheoretische Beschreibung der technischen, transkriptiven Verfahren der Korpuskompilation im Natural Media Lab der RWTH Aachen. Darauf aufbauend soll ein Fokus auf die wechselseitige multimediale Verschränkung von Annotationen, Sprach- und Videodaten, numerischen MoCap-Daten, Algorithmus, und den hier jeweils involvierten Abstraktionsleveln gelegt werden.</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Beecks, C. / Hassani, M. / Hinnell, J. / Schüller, D. / Brenger, B. / Mittelberg, I. / Seidl, T. (2015):</hi> 
+                        <hi rend="italic">Spatiotemporal Similarity Search in 3D Motion Capture Gesture Streams</hi>, 
+                        in: Proceedings of the 14th International Symposium on Spatial and Temporal Databases (SSTD), Seoul, South Korea, August 26-28, 2015. S.355–372.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Beecks, C. / Hassani, M. / Hinnell, J. / Schüller, D. / Brenger, B. / Mittelberg, I / Seidl, T. (2016):</hi> 
+                        <hi rend="italic">Efficient Query Processing in 3D Motion Capture Databases via Lower Bound Approximation of the Gesture Matching Distance</hi>, 
+                        in: International Journal of Semantic Computing, 10(1), 5-25.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Goodman, Nelson (1997):</hi> 
+                        <hi rend="italic">Sprachen der Kunst. Entwurf einer Symboltheorie</hi>. 
+                        Frankfurt a. M.: Suhrkamp.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Jäger, Ludwig (2004):</hi> 
+                        <hi rend="italic">Transkription - zu einem medialen Verfahren an den Schnittstellen des kulturellen Gedächtnisses</hi>,
+                        in: TRANS Internet-Zeitschrift für Kulturwissenschaften, 15 Nr., September 2004.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Jäger, Ludwig (2012): </hi>
+                        <hi rend="italic">Transkription</hi>, 
+                        in: 
+                        <hi rend="bold">Christina Bartz / Ludwig Jäger / Marcus Krause / Erika Linz (eds.):</hi> 
+                        <hi rend="italic">Handbuch der Mediologie. Signaturen des Medialen</hi>. München: Fink, S.306-315.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">McNeill, David (1992):</hi> 
+                        <hi rend="italic">Hand and mind: What Gestures Reveal about Thought</hi>. 
+                        Chicago: Chicago University Press.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Müller, Cornelia (1998):</hi> 
+                        <hi rend="italic">Redebegleitende Gesten. Kulturgeschichte - Theorie – Sprachvergleich</hi>. 
+                        Berlin: Berliner Wissenschafts-Verlag.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Müller, Cornelia / Alan Cienki / Ellen Fricke / Silva Ladwig / David McNeill / Sedinha Teßendorf (eds.) (2013): </hi>
+                        <hi rend="italic">Body – Language – Communication. An International Handbook on Multimodality in Human Interaction </hi>
+                        (Handbooks of Linguistics and Communication Science 38.1). Berlin, Boston: Mouton de Gruyter.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Müller, Cornelia / Alan Cienki / Ellen Fricke / Silva Ladwig / David McNeill / Jana Bressem (eds.) (2014):</hi> 
+                        <hi rend="italic">Body – Language – Communication. An International Handbook on Multimodality in Human Interaction </hi>
+                        (Handbooks of Linguistics and Communication Science 38.2). Berlin, Boston: Mouton de Gruyter.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schüller, D. / Beecks, C. / Hassani, M. / Hinnell, J. / Brenger, B. / Seidl, T. / I. Mittelberg (2017):</hi> 
+                        <hi rend="italic">Automated Pattern Analysis in Gesture Research: Similarity Measuring in 3D Motion Capture Models of Communicative Action</hi>, 
+                        in: Digital Humanities Quarterly, 2017:11.2.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schüller, D. / Mittelberg, I. (2016/ erschienen 2018):</hi> 
+                        <hi rend="italic">Diagramme von Gesten: Eine zeichentheoretische Analyse digitaler Bewegungsspuren</hi>, 
+                        in: Zeitschrift für Semiotik 38, 3-4, S.7-38.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schüller, D. / Mittelberg, I. (2017/ erschienen 2018):</hi> 
+                        <hi rend="italic">Motion-Capture-gestützte Gestenforschung. Zur Relevanz der Notationstheorie in den Digitalen Geisteswissenschaften</hi>, 
+                        in: Zeitschrift für Semiotik 39, 1-2, S.109-146.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

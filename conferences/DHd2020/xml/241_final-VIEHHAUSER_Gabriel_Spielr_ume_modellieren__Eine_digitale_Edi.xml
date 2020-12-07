@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="241_final-VIEHHAUSER_Gabriel_Spielr_ume_modellieren__Eine_digitale_Edi" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Spielräume modellieren. Eine digitale Edition von Giovanni Domenico Tiepolos Bildzyklus Divertimento per li Regazzi auf der Grundlage von CIDOC CRM</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Tumanov</surname>
+<forename>Rostislav</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>rostislav.tumanov@ikg.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Viehhauser</surname>
+<forename>Gabriel</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>viehhauser@ilw.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Feldmann</surname>
+<forename>Alina</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>feldmann.alina@gmail.com</email>
+</author>
+<author>
+<persName>
+<surname>Koller</surname>
+<forename>Barbara</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>barbarakoller94@web.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T20:52:19</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>CIDOC-CRM</term>
+<term>digitale Edition</term>
+<term>digitale Kunstgeschichte</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Veröffentlichung</term>
+<term>Artefakte</term>
+<term>Methoden</term>
+<term>Projekte</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading" type="div1">
+<head>Einleitung</head>
+<p>
+Kunstwerke eröffnen Spielräume für Interpretationen. Das gilt auch und
+gerade für den Ende des 18. Jahrhunderts vom venezianischen Maler
+Giovanni Domenico Tiepolo geschaffenen Bildzyklus <hi rend="italic">Divertimento per li Regazzi</hi>, der verschiedene Motive aus dem Umkreis der aus der <hi rend="italic">Commedia dell’Arte</hi>
+ bekannten Figur des Pulcinella aufgreift und diese spielerisch verbindet. Die einzelnen Blätter des Zyklus scheinen eine Art Lebensgeschichte Pulcinellas zu erzählen und sich immer wieder aufeinander zu beziehen oder Werke anderer Künstler aufzugreifen, ohne dass jedoch letzte Gewissheit zu erlangen ist. Die Vieldeutigkeit und der Beziehungsreichtum haben daher ganz unterschiedliche Interpreten bis hin zum bekannten Philosophen Giorgio Agamben (Agamben 2015) auf den Plan gerufen und zu spielerischen Assoziationen verleitet.
+</p>
+<p>
+Gleichzeitig wird am Bildzyklus jedoch deutlich, wie sehr formale Zwänge Spielräume einengen und Deutungsmöglichkeiten festlegen können. In dem von Adelheid Gealt herausgegebenen Katalog (Gealt 1986), der bis heute einen zentralen Ausgangspunkt für die wissenschaftliche Betrachtung des <hi rend="italic">Divertimento</hi> bildet, werden die Bilder in einer festen Abfolge dargeboten, die eine bestimmte sukzessive Lektüre des Zyklus vorgibt, hinter der mögliche Querbezüge zurücktreten.
+</p>
+<p>
+Diese Festlegung ergibt sich nicht zuletzt durch die Zwänge des
+Druckmediums, in dem eine lineare Abfolge von Bildseiten unvermeidlich
+ist. Wie in der Diskussion insbesondere im Bereich der
+literaturwissenschaftlichen Editorik deutlich gemacht wurde, eignen
+sich digitale Editionen besonders gut dazu, solche Einschränkungen zu
+überwinden und unterschiedliche Sichtweisen zuzulassen (Sahle 2013, 2,
+166-189). Um die vielfältigen Bezugsmöglichkeiten, die das <hi
+rend="italic">Divertimento </hi> bereithält, adäquat darzustellen, bietet es sich daher an, das Konzept einer offenen, digitalen Edition auch auf die Präsentation des Bildzyklus zu übertragen. An der Universität Stuttgart wird zurzeit eine solche Edition des 
+<hi rend="italic">Divertimento </hi> erarbeitet. Der innovative Methodentransfer von Text- auf Bilderzählungen greift damit gleichsam aus einer umgekehrten Stoßrichtung aktuelle Überlegungen zur graphbasierten Modellierung von (Text-)Editionen auf (Andrews / Mace 2013, Efer 2017, Kuczera 2016, Kuczera 2017) und vermag dadurch neues Licht auf die Modellierung von Erzähllogiken zu werfen sowie zugleich neue Wege der digitalen Darstellung von Bildkunstwerken zu eröffnen.
+</p>
+<p>
+Bei der Einrichtung der Edition ist zu beachten, dass auch digitale Methoden formalen Zwängen unterworfen sind. Denn um die Interoperabilität und Nachhaltigkeit zu sichern, ist der Rückgriff auf ein standardisiertes Datenmodell notwendig, das den Austausch mit anderen Ressourcen erlaubt. Diese Modellierung bringt eine Einengung mit sich (Pierazzo 2019), die paradoxerweise gerade erst jene Spielräume eröffnet, in denen ein Bildzyklus wie 
+das <hi rend="italic">Divertimento </hi> rekontexualisiert werden kann. Um dessen komplexen Möglichkeitsräume freizulegen, greifen wir auf das im Kulturerbe-Bereich verbreitete Datenmodell des CIDOC-CRM zurück (Le Boeuf et al. 2019). Im Folgenden wollen wir zunächst die kunsthistorische Fragestellung unseres Projekts explizieren, danach dessen Workflow skizzieren und schließlich genauer auf die Datenmodellierung in CIDOC-CRM eingehen, die unter dem Aspekt der Paradoxie des Digitalen zwischen Eröffnung und Einschränkung von Spielräumen diskutiert werden kann.
+</p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>
+<anchor xml:id="id__gjdgxs"/>Kunsthistorische Voraussetzungen
+                </head>
+<p>Das von Tiepolo in den letzten Jahren seines Lebens zwischen 1797 und 1804 geschaffene Korpus besteht aus 104 Zeichnungen, die allesamt die Figur des Pulcinella in verschiedenen Lebenssituationen zeigen. Nimmt man eine von Blatt zu Blatt anhaltende personelle Konstanz der äußerlich kaum unterscheidbaren Pulcinelli an, so kann man in dem Zyklus ein biographisches Narrativ erkennen, das den Weg einer oder vielleicht auch mehrerer Pulcinella-Figuren von der Wiege bis zur Bahre nachzeichnet.</p>
+<p>Aufgrund zahlreicher variierender Wiederholungen oder sich offensichtlich widersprechender Darstellungen ist es jedoch nahezu unmöglich, alle Zeichnungen zu einer konzisen Erzählung zu verbinden (Vetrocq 1979, 19-20). So wird Pulcinella etwa in zwei Darstellungen auf unterschiedliche Weise hingerichtet, während ein weiteres Blatt seine Begnadigung zeigt. Im Gegensatz zu einem ‚gewöhnlichen‘ narrativen Bildzyklus gibt es also keine klar erkennbare Anordnung der Blätter, keinen eindeutig intendierten Erzählverlauf. Stattdessen wird dem Betrachter ein weiter narrativer Spielraum eröffnet, innerhalb dessen eine Vielzahl unterschiedlicher Geschichten konstruiert werden können (Gealt 1986, 16-17, Gottdang 2015, 81-86). Der Rezipient rückt somit an die Stelle des Erzählers bzw. Mitspielers, der einzelne Zeichnungen aussuchen und zu verschiedenen Sequenzen anordnen kann. Doch wird auch hier deutlich, dass es sinnvoll sein kann, Spielräume einzuschränken: Nicht jede denkbare Sequenz ist aus erzähllogischer Perspektive betrachtet gleich valide (Tumanov 2019). Im Sinne einer biographischen Anordnung erscheint es beispielsweise angebracht, Blätter, die Pulcinella als Kind darstellen, vor solche zu ordnen, die ihn als Erwachsenen zeigen.<ref n="1" target="ftn0"/>
+</p>
+<p>Zu dieser syntagmatischen Ordnung der Lebensgeschichte des Pulcinella kommt im Zyklus eine paradigmatische Dimension hinzu, die sich durch die Wiederkehr von bestimmten Motiven ergibt. So begegnet etwa auf mehreren Darstellungen ein Topf mit Gnocchi, der Bezüge zwischen den einzelnen Zeichnungen herstellt, die quer zum biographischen Narrativ liegen.</p>
+<p>
+Diese ‘internen’ paradigmatischen Bezüge werden schließlich noch durch eine Reihe ‚externer‘ Verweise auf andere Bilder, Motive oder Praktiken ergänzt, die den Assoziationshorizont skizzieren, vor dem die Zeichnungen zu verstehen sind. So verweist beispielsweise die Szene der Erschießung des Pulcinella aufgrund einer Motivähnlichkeit auf die Erschießung der marodierenden Soldaten aus den <hi rend="italic">Grandes Misères de la guerre</hi> Jacques Callots, wodurch sich neue Bedeutungsdimensionen an den Zyklus anlagern lassen.
+</p>
+<p>Aus dieser Ausgangslage ergibt sich folgendes Anforderungsprofil für die digitale Edition:</p>
+<list type="unordered">
+  <item> Ziel der Edition ist es, explizit keine einheitliche
+  Bildsequenz zu (re)konstruieren, sondern die Ordnungsstrukturen und
+  polyvalenten Verknüpfungen aufzuzeigen, die in den Zeichnungen
+  angelegt sind und es dem Betrachter ermöglichen, diverse Lektürewege
+  durch den narrativen Möglichkeitsraum des <hi rend="italic">Divertimento</hi>  einzuschlagen.</item>
+  <item>Dazu ist eine Datenmodellierung nötig, die das Material nach erzähllogischen Gesichtspunkten vorstrukturiert ohne eine genaue Abfolge festzulegen. </item>
+  <item> Die Datenmodellierung soll neben syntagmatischen auch paradigmatische Bezugspunkte berücksichtigen.</item>
+  <item> Neben internen sind auch externe Verweispunkte zu berücksichtigen, die auf das Semantic Web ausgreifen.</item>
+</list>
+ <!-- ●      Ziel der Edition ist es, explizit keine einheitliche -->
+<!-- Bildsequenz zu (re)konstruieren, sondern die Ordnungsstrukturen und -->
+<!-- polyvalenten Verknüpfungen aufzuzeigen, die in den Zeichnungen -->
+<!-- angelegt sind und es dem Betrachter ermöglichen, diverse Lektürewege -->
+<!-- durch den narrativen Möglichkeitsraum des <hi -->
+<!-- rend="italic">Divertimento</hi>  einzuschlagen. -->
+<!-- </p> -->
+<!-- <p>●      Dazu ist eine Datenmodellierung nötig, die das Material nach erzähllogischen Gesichtspunkten vorstrukturiert ohne eine genaue Abfolge festzulegen.</p> -->
+<!-- <p> -->
+<!-- <anchor xml:id="id__30j0zll"/>●      Die Datenmodellierung soll neben syntagmatischen auch paradigmatische Bezugspunkte berücksichtigen. -->
+<!--                 </p> -->
+<!-- <p>●      Neben internen sind auch externe Verweispunkte zu berücksichtigen, die auf das Semantic Web ausgreifen.</p> -->
+</div>
+<div rend="DH-Heading" type="div1">
+<head>
+<anchor xml:id="id__1fob9te"/>Technische Umsetzung
+                </head>
+<p>
+Zur Formalisierung dieser Zusammenhänge im digitalen Medium erscheint uns ein Graphdatenmodell besonders geeignet. Die möglichen internen und externen Verbindungen zwischen den Bildern werden demnach in RDF-Triples ausgedrückt.<ref n="2" target="ftn1"/>
+ Diese Triples werden in einem RDF-Triplestore (zurzeit kommt hierfür GraphDB<ref n="3" target="ftn2"/> zum Einsatz) vorgehalten und sollen mittels des php-Frameworks ARC2<ref n="4" target="ftn3"/>
+ über SPARQL-Abfragen<ref n="5" target="ftn4"/> ausgelesen und in eine HTML-Darstellung ausgegeben werden;<ref n="6" target="ftn5"/>
+ geplant ist zudem eine alternative Ausgabe in IIIF-Manifeste.<ref n="7" target="ftn6"/>
+ Die Verbindung ins Netz des <hi rend="italic">Linked Data</hi> soll durch die Verwendung von Normdaten wie dem Iconclass-Klassifikationssystem<ref n="8" target="ftn7"/>
+ ermöglicht werden (zu Chancen und Herausforderungen beim Einsatz von Normdaten in der digitalen Kunstgeschichte vgl. Kailus / Stein 2018).
+</p>
+<p>
+Kernstück ist dabei die Modellierung der Daten in einer vom CIDOC-CRM vorgegebenen Struktur, die die Interoperabilität und Nachhaltigkeit der Daten gewährleistet. Konkret wurde dabei auf die OWL-basierte Version Erlangen-CRM zurückgegriffen<ref n="9" target="ftn8"/>
+ und die Modellierung mit Hilfe des Ontologie-Editors Protégé ausgearbeitet.<ref n="10" target="ftn9"/>
+ CIDOC-CRM etabliert sich im DH-Bereich immer mehr als
+ Top-Level-Ontologie (Eide / Ore 2019). Für unsere Zwecke bietet sich
+ das CIDOC-CRM jedoch nicht nur aufgrund seines Status als Standard
+ an,
+ sondern auch aufgrund seiner <hi rend="italic">Event</hi>-basierten Struktur, die der Modellierung des Bildzyklus besonders entgegen kommt.
+</p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>
+<anchor xml:id="id__3znysh7"/>Modellierung in CIDOC-CRM
+                </head>
+<p>Die Herausforderung der Modellierung bestand insbesondere darin, eine flexible Anordnung der Bilder zu erlauben, um verschiedenen Gruppierungsmöglichkeiten nach zeitlichen oder inhaltlichen Aspekten gerecht zu werden. Berücksichtigt werden musste, dass die Bilder zwar einer grundlegenden Chronologie folgen (z. B. ereignet sich die Geburt Pulcinellas vor dessen Tod), dass aber auch indifferente Einzeldarstellungen existieren, die nicht in eine eindeutige Reihenfolge gebracht werden können (z. B. verschiedene von Pulcinella ausgeübte Berufe). Zusätzlich können sie auch nach sich wiederholenden Bildmotiven gruppiert werden. Darüber hinaus sollten innerhalb des Bilderzyklus auftretende externe Bezüge auf weitere Werke Tiepolos sowie Arbeiten anderer Künstler berücksichtigt werden.</p>
+<p>
+CIDOC-CRM bietet für diese Aufgabe zwei Vorteile: Zum einen ist CIDOC-CRM <hi rend="italic">Linked-Open-Data</hi>-kompatibel, zum anderen „ereignisorientiert“, d. h., Ereignisse können prozesshaft modelliert werden. Dadurch wird der Aufbau einer flexiblen chronologischen Struktur ermöglicht, die sich als Gerüst nicht an der statischen Abfolge der Bilder, sondern an einer gewissermaßen ‘virtuellen’ Lebensgeschichte Pulcinellas orientiert, anhand derer der Bildzyklus gruppiert werden kann. Der Lebenszyklus (E4_Period) lässt sich in Untergruppen segmentieren, die als Ereignisse (E5_Events) angelegt wurden, die sich wiederum in einzelne Handlungen (E7_Activities) aufteilen lassen. Diese Ereignisse und Handlungen können mit Hilfe von 
+<hi rend="italic">Properties</hi>
+ in eine chronologische Reihenfolge gebracht werden (so steht etwa der Abschnitt ‘Geburt_und_Kindheit_Pulcinellas‘ in der Beziehung P120_occurs_before zum Abschnitt ‘Pulcinellas_Berufe’). Innerhalb einer Ereignisgruppe bleiben die Einzelbilder ohne weitere chronologische Anordnung frei sortierbar oder können durch die Verknüpfung einzelner Bildhandlungen in eine näher spezifizierte Chronologie gebracht werden. Dadurch lassen sich die grundlegende zeitliche Einteilung, zeitlich nur grob einteilbare Handlungen, aber auch spezifische chronologische Abfolgen modellieren, so dass variable Handlungswege ohne starres „Abfolgekorsett“ möglich werden (Abbildung 1).
+</p>
+<p>
+<figure>
+  <graphic url="241_final-8f50c6722dcef820d9e50e887475718b.jpg"/>
+</figure>
+</p>
+<p>Um die Wiederholung von einzelnen Bildmotiven zu modellieren, werden diese in den entsprechenden Bildern als vorhanden ausgezeichnet (P62_depicts) und mit der entsprechenden Iconclass-Nummern versehen, die einen ersten Anschlusspunkt an das Semantic Web ermöglichen sollen (Abbildung 2).</p>
+<p>
+<figure>
+<graphic url="241_final-b3df22d0004759ddb41c4b641f74bd71.jpg"/>
+</figure>
+</p>
+<p>Bezugnahmen auf externe Kunstwerke wurden durch die Anlegung eines
+eigenen '<hi rend="italic">Individuals'</hi> für jedes dieser externen Werke umgesetzt, die anschließend mit den Bildern des Zyklus verknüpft werden (P130_shows_features_of).
+                </p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>
+<anchor xml:id="id__2et92p0"/>Fazit
+                </head>
+<p>
+Als grundlegende Struktur für die Modellierung von Tiepolos variablen Bildzyklus hat sich das CIDOC-CRM aufgrund seiner <hi rend="italic">Event</hi>-basierten Konzeption erstaunlich praktikabel erwiesen. Wie sich zeigt, sind mit dem Gerüst des CIDOC-CRM alle zuvor skizzierten Anforderungen an die Datenmodellierung des Editionsprojekts umsetzbar, ohne dass Modifikationen nötig wären. Das durch das CRM aufgespannte Beziehungsgeflecht kann in weiterer Folge mittels SPARQL-Anfragen ausgelesen und über das ARC2-Framework in eine HTML-Darstellung umgesetzt werden. Gerade die sich zunächst aus der Notwendigkeit der Standardisierung ergebende formale Einschränkung, die die Modellierung mit CIDOC mit sich bringt, eröffnet damit den Möglichkeitsraum, der das komplexe Beziehungsgeflecht des 
+<hi rend="italic">Divertimento </hi> erst zu Anschauung bringen kann. In dieser Hinsicht offenbart das Modell den doppelten Charakter der Spielräume-Metapher, der für die Anwendung digitaler Methoden charakteristisch sein dürfte: Digitale Modelle eröffnen Spielräume, legen aber zugleich deren räumliche Grenzen fest.
+</p>
+<p>
+Wie weit diese Spielräume geöffnet werden können, hat sich freilich auch in der praktischen Umsetzung zu erweisen. Eine Herausforderung für unser Projekt wird es etwa sein, zu bestimmen, wie 'tief' die Querverweise auf andere Kunstwerke in die Modellierung mit aufgenommen werden können. Welche Motive sind z.B. für die paradigmatische Verknüpfung relevant? Und ist Relevanz hier binär zu denken oder gibt es unterschiedliche Grade von Relevanz? Ist demnach eine 'vollständige' Erschließung relevanter Motive überhaupt zu erreichen? Es steht zu vermuten, dass auch hier die Menge der möglichen Kontextualisierungen potentiell unbegrenzt ist, aber durch die Modellierung beschränkt werden muss. Und wie offen kann wiederum das syntagmatische Gerüst gestaltet werden, ohne dass sich die Nutzerin / der Nutzer in der Vielzahl der Möglichkeiten verliert? Solche und ähnliche Fragen stellen potentielle Limitationen unseres Ansatzes dar, die zwar formal bei der Integration in CIDOC unproblematisch sind, sich aber gewissermaßen auf inhaltlicher Ebene bei der Erstellung unseres Datenmodells abzeichnen. Mit welchen Strategien mit ihnen umgegangen werden kann, hat sich letztlich im Umgang mit dem fertigen Editionsinterface zu erweisen, entsprechende Fragen nach 'Tiefe' und 'Vollständigkeit' der Modellierung stellen aber auch Diskussionspunkte dar, die über unser Projekt auf die grundlegenden Möglichkeiten der Darstellung von Bildkunstwerken hinaus verweisen.
+</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn0">
+      Damit ist nicht
+      gesagt, dass eine biographische bzw. erzähllogische Auffassung des
+      Zyklus die einzige Möglichkeit seiner Rezeption darstellt. Durch
+      die Darstellung des Pulcinella in unterschiedlichen Lebensstufen
+      wird aber ein – von der Edition zu berücksichtigendes –
+      Grundgerüst nahegelegt, welches auch dann die Folie bietet, wenn
+      man (wie etwa tendenziell Agamben 2015) die Atemporalität des
+      Dargestellten betont: Denn diese lässt sich gerade erst im
+      Spannungsfeld zum gebrochenen biographischen Narrativ
+      herausarbeiten.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn1">
+      <ptr target="https://www.w3.org/RDF/"/>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn2">
+      <ptr target="http://graphdb.ontotext.com/"/>
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn3">
+      <ptr target="https://github.com/semsol/arc2"/>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn4">
+      <ptr target="https://www.w3.org/TR/rdf-sparql-query"/>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn5">
+      Der gegenwärtige Stand der Arbeiten ist unter <ptr target="https://github.com/Gabvie/Divertimento"/> dokumentiert.
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn6">
+      <ptr target="https://iiif.io/"/>
+    </note>
+    <note n="8" rend="footnote text" xml:id="ftn7">
+      <ptr target="http://www.iconclass.org/"/>
+    </note>
+    <note n="9" rend="footnote text" xml:id="ftn8">
+      <ptr target="http://erlangen-crm.org/"/>
+    </note>
+    <note n="10" rend="footnote text" xml:id="ftn9">
+      <ptr target="https://protege.stanford.edu/"/>
+    </note>
+  </div>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+	<hi rend="bold">Agamben, Giorgio</hi>
+	(2016): 
+	<hi rend="italic">Pulcinella ovvero Divertimento per li Regazzi. </hi>
+	Nuova edizione. Rom: Nottetempo.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Andrews Tara L. / Macé Caroline</hi>
+	(2013): “Beyond the tree of texts: Building an empirical model of scribal variation through graph analysis of texts and stemmata”, in: 
+	<hi rend="italic">Literary and Linguistic Computing</hi> 28 (4): 504–521.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Efer, Thomas </hi>
+	(2017): 
+	<hi rend="italic">Graphdatenbanken für die textorientierten
+	e-Humanities</hi>. Dissertationsschrift, Universität Leipzig.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Eide, Øyvind / Ore, Christian-Emil Smith </hi>
+	(2018): “Ontologies and data modeling”, in: Flanders, Julia / Jannidis, Fotis (eds.): 
+	<hi rend="italic">The Shape of Data in Digital Humanities</hi>. Modeling Texts and Text-based Resources. London: Routledge 178-196.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Gealt, Adelheid M.</hi>
+	(ed.) (1986): 
+	<hi rend="italic">Domenico Tiepolo. The Punchinello Drawings</hi>. New York: George Braziller.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Gottdang, Andrea </hi>
+	(2015): „Das Spiel vom Leben und Sterben des Punchinello: Giandomenico Tiepolos Divertimento per li Regazzi“, in: Robert Fajen (ed.): 
+	<hi rend="italic">Amüsement und Risiko. </hi>
+	Dimensionen des Spiels in der spanischen und italienischen Aufklärung. Halle an der Saale: Mitteldeutscher Verlag 60–101.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Kailus, Angela / Stein, Regine</hi>
+	(2018) „Besser vernetzt: Über den Mehrwert von Standards und
+	Normdaten zur Bilderschließung“, in: Kuroczyński, Piotr /
+	Bell, Peter / Dieckmann, Lisa (eds.): 
+	<hi rend="italic">Computing Art Reader.</hi>
+	Einführung in die digitale Kunstgeschichte. Heidelberg:
+	<ptr target="arthistoricum.net"/> 119-139
+      </bibl>
+      <bibl>
+	<hi rend="bold">Kuczera, Andreas</hi>
+	(2016): “Digital Editions Beyond Xml – Graph-Based Digital Editions”, in: Preiser-Kappeller, Johannes / Düring, Marten / Jatowt, Adam (eds.): 
+	<hi rend="italic">Proceedings of the 3</hi><hi rend="superscript">rd</hi>
+	<hi rend="italic"> Histoinformatics Workshop on Computational History (Histoinformatics 2016)</hi>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Kuczera, Andreas </hi>
+	(2017): „Graphentechnologien in den Digitalen Geisteswissenschaften“, in: 
+	<hi rend="italic">ABI Technik</hi> 37 (3): 179–196.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Le Boeuf, Patrick / Doerr, Martin / Ore, Christian Emil / Stead, Stephen et al.</hi>
+	(2019): “Definition of the CIDOC Conceptual Reference Model”,
+	Version 6.2.6 May 2019,
+	<ptr target="http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.6_Definition_esIP.pdf"/> [letzter Zugriff 27.9.2019].
+      </bibl>
+      <bibl>
+	<hi rend="bold">Pierazzo, Elena </hi>
+	(2018): “How subjective is your model?”, in: Flanders, Julia / Jannidis, Fotis (eds.): 
+	<hi rend="italic">The Shape of Data in Digital Humanities</hi>. Modeling Texts and Text-based Resources. London: Routledge 117-132.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Sahle, Patrick </hi>
+	(2013): 
+	<hi rend="italic">Digitale Editionsformen,</hi> Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Norderstedt: Books on Demand.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Tumanov, Rostislav </hi>
+	(2019): „Groteskes Korpus. Theatrale, narrative und referenzielle Aspekte des 
+	<hi rend="italic">Divertimento per li Regazzi</hi>
+	von Giovanni Domenico Tiepolo“, in: 
+	<hi rend="italic">Wallraf-Richartz-Jahrbuch</hi> 80, 205-239.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Vetrocq, Marcia </hi>
+	(1979): “Domenico Tiepolo and the Figure of Punchinello”, in: Gealt, Adelheid M. (eds.): 
+	<hi rend="italic">Domenico Tiepolo’s Punchinello drawings</hi>. Bloomington: Indiana University Art Museum.
+      </bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

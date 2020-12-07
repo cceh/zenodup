@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="130_final-HALL_Mark_DH_is_the_Study_of_dead_Dudes" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">DH is the Study of dead Dudes</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Hall</surname>
+                        <forename>Mark</forename>
+                    </persName>
+                    <affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+                    <email>mark.hall@informatik.uni-halle.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-07T16:51:17.308384336</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Gender</term>
+                    <term>Sprache</term>
+                    <term>Digital Humanities</term>
+                    <term>Quantitative Analyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Kontextsetzung</term>
+                    <term>Personen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>DH is the Study of dead Dudes</head>
+            <p>Die Digital Humanities (DH) werden oft als Möglichkeit gesehen neue Methoden und neue Datenmengen zu nutzen um neue Ansätze auf Fragen der Geisteswissenschaften zu entwickeln (Barry 2011). Als Teil des DH Forschungsprozesses muss in vielen Fällen ein Datensatz oder eine Person als Fokus der Studie gewählt werden. Dass dabei existierende soziale Trends verstärkt werden, besonders was den Fokus auf den Kanon betrifft ist bekannt und in verschiedenen Hinsichten problematisiert worden (Liu 2012; McPherson 2012; Wernimont 2013; Fiormonte 2016; Gallon 2016; Rhody 2016). Es basiert aber keine dieser Kritiken auf einer expliziten Analyse der im DH Bereich unternommenen Forschung. Dieser Beitrag unternimmt einen ersten Schritt um dies zu korrigieren und präsentiert einen quantitativen, distant-reading Ansatz um der Frage nach Gender, Sprache, und Herkunftsland von in DH untersuchten Personen nachzugehen.</p>
+            <div type="div1">
+                <head>Methode</head>
+                <p>Die hier präsentierte Analyse basiert auf den Konferenzabstracts der DHd Konferenzen 2016, 2017, und 2018. Aus den Abstracts wurden alle erwähnten Personen manuell identifiziert. Auf eine automatisierte Identifikation wurde verzichtet, da dies nur eine neue Fehlerquelle in die Analyse einführen würde, ohne inhaltlich irgendeinen Unterschied zu machen. Da die Abstracttexte selbst nicht im Detail gelesen wurden, ist der Ansatz als distant-reading zu verstehen und berücksichtigt auch keine Abstracts, die sich mit diesem Thema beschäftigen, aber keine Personen expliziten erwähnt.</p>
+                <p>Für die Identifikation der Personen wurden die Inklusions- und Exklusionsregeln in Tabelle 1 angewandt. Das zentrale Prinzip für das Zählen einer Person ist, dass sie explizit ausgewählt worden sein muss. Das heißt, Personen werden nur gezählt, wenn sie oder ihr Werk das primäre Untersuchungssubjekt sind (#1) oder weil sie als exemplarisches Beispiel eines Themas (#2) oder als Sample eines Datensatzes (#3) präsentiert werden. Personen, die sowohl als Studiensubjekte auftreten, aber auch selbst akademische Theorien entwickelt haben, werden nur gezählt wenn ihre Arbeiten das Ziel der Analyse sind, nicht aber wenn sie Teil des methodischen Ansatzes sind (#4). Zum Beispiel, wenn die Schriften Adornos automatisiert analysiert werden, dann wird er gezählt. Wenn aber die Theorien Adornos zur Interpretation anderer Daten genutzt werden, dann wird er nicht gezählt. Letztens werden Personen nicht gezählt, wenn sie in einer vollautomatisch erstellten Liste auftreten, bei der kein manueller Eingriff in der Erstellung auftrat (#5). Zum Beispiel wenn bei einer Häufigkeitsanalyse die 20 häufigsten Namen gelistet werden, dann werden diese nicht gezählt, da die Studie Verzerrungen in der Auswahl von Studiensubjekten betrachtet und nicht Verzerrungen in den Datensätzen.</p>
+                <table rend="frame" xml:id="Table1">
+                    <row role="label">
+                        <cell rend="start bold">#</cell>
+                        <cell rend="start bold">Regel</cell>
+                        <cell rend="start">Aktion</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>Person als primäres Untersuchungssubjekt</cell>
+                        <cell>Inklusion</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>Person als Beispiel für das untersuchte Thema</cell>
+                        <cell>Inklusion</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>Person als Sample aus dem untersuchten Datensatz</cell>
+                        <cell>Inklusion</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>Person erwähnt als Theoriegeber_in</cell>
+                        <cell>Exklusion</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>Person erwähnt als vollautomatisiertes Ergebnis</cell>
+                        <cell>Exklusion</cell>
+                    </row>
+                </table>
+                <p>Tabelle 1: Inklusions- und Exklusionsregeln für die Erstellung des Personendatensatzes.</p>
+                <p>Für die derart identifizierten Personen wurden dann Gender, Sprache, und Herkunftsland identifiziert, wobei als Quelle primär Wikipedia genutzt wurde. Bei der Klassifikation von Sprache und Herkunftsland wurde eine Mehrfachzuordnung durchgeführt, um Unterschiede zwischen heutigen und historischen Länder und Sprachgrenzen abzubilden und Mehrsprachigkeit der historischen Personen zu berücksichtigen. Aus den insgesamt 230 erwähnten Personen konnte nur für 4 keine Zuordnung durchgeführt werden. Basierend auf der Zuordnung wurde dann pro Abstract die Zahl der Erwähnungen ermittelt. Pro Abstract wurde eine Person die mehrmals erwähnt wurde nur einmal gezählt. Zugleich wurde eine Person die in verschiedenen Abstracts erwähnt wird, pro Abstract je einmal gezählt.</p>
+                <p>Die Abstracts wurden mit Publikationsjahr und Katgeorie (Vortrag, Poster, Workshop, …) annotiert, wobei hier nur die Vortrags- und Poster-abstracts analysiert werden.</p>
+            </div>
+            <div type="div1">
+                <head>Ergebnisse</head>
+                <p>Insgesamt wurden 342 Abstracts analysiert (162 Vorträge, 180 Poster), in denen in 104 explizit Personen erwähnt wurden (60 in Vorträgen, 44 in Postern) (Tabelle 2). Bei den Vorträgen stellt dies einen Anteil zwischen 33% und 50% aller Abstracts da, bei den Postern liegt der Anteil zwischen 19% und 28%. Für die Analyse wurden erstens die Erwähnungen pro Abstract aggregiert und dann die Zahl der Abstracts mit zumindest einer Erwähnung betrachtet. Zweitens wurden die Erwähnungen auch unabhängig von den Abstracts analysiert.</p>
+                <table rend="frame" xml:id="Table2">
+                    <row>
+                        <cell/>
+                        <cell cols="2" rend="center bold">2016</cell>
+                        <cell cols="2" rend="center bold">2017</cell>
+                        <cell cols="2" rend="center bold">2018</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rend="end bold">Gesamt</cell>
+                        <cell rend="end bold">mit Personen</cell>
+                        <cell rend="end bold">Gesamt</cell>
+                        <cell rend="end bold">mit Personen</cell>
+                        <cell rend="end bold">Gesamt</cell>
+                        <cell rend="end bold">mit Personen</cell>
+                    </row>
+                    <row>
+                        <cell rend="italic">Vortrag</cell>
+                        <cell rend="end">60</cell>
+                        <cell rend="end">20</cell>
+                        <cell rend="end">36</cell>
+                        <cell rend="end">18</cell>
+                        <cell rend="end">66</cell>
+                        <cell rend="end">22</cell>
+                    </row>
+                    <row>
+                        <cell rend="italic">Poster</cell>
+                        <cell rend="end">77</cell>
+                        <cell rend="end">18</cell>
+                        <cell rend="end">36</cell>
+                        <cell rend="end">7</cell>
+                        <cell rend="end">67</cell>
+                        <cell rend="end">19</cell>
+                    </row>
+                </table>
+                <p>Tabelle 2: Zusammenfassung des analysierten Datensatzes.</p>
+                <div type="div2">
+                    <head>Gender</head>
+                    <p>Tabellen 3 und 4 zeigen die Genderverteilung für die Vortrags- und Posterabstracts. In drei Jahren Vortragsabstracts gibt es keinen einzigen in dem nur weibliche Personen erwähnt werden. Bei den Posterabstracts ist die Situation marginal besser, mit je einem Abstract in 2016 und 2017. Insgesamt wurden über die drei Jahre hinweg nur in 15% aller Vortragsabstracts und in 7% aller Posterabstracts, in denen Personen erwähnt wurden, Frauen namentlich erwähnt.</p>
+                    <table rend="frame" xml:id="Table3">
+                        <row>
+                            <cell/>
+                            <cell cols="4" rend="center bold">2016</cell>
+                            <cell cols="4" rend="center bold">2017</cell>
+                            <cell cols="4" rend="center bold">2018</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">M</cell>
+                            <cell rend="end bold">F</cell>
+                            <cell rend="end bold">M&amp;F</cell>
+                            <cell rend="end bold">?</cell>
+                            <cell rend="end bold">M</cell>
+                            <cell rend="end bold">F</cell>
+                            <cell rend="end bold">M&amp;F</cell>
+                            <cell rend="end bold">?</cell>
+                            <cell rend="end bold">M</cell>
+                            <cell rend="end bold">F</cell>
+                            <cell rend="end bold">M&amp;F</cell>
+                            <cell rend="end bold">?</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">Vortrag</cell>
+                            <cell rend="end">17</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">15</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">19</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">Poster</cell>
+                            <cell rend="end">16</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">6</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">18</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 3: Anzahl an Abstracts die entweder nur männliche (M), nur weibliche (W), sowohl männliche und weibliche (M&amp;W), oder nur unbekannte (?) Personen erwähnen.</p>
+                    <p>Bei den Einzelerwähnungen (Tabelle 4) ist die Situation ähnlich. Bei den Vortragsabstracts machen Frauen 9% der Erwähnungen aus, bei den Posterabstracts 5%.</p>
+                    <table rend="frame" xml:id="Table4">
+                        <row>
+                            <cell/>
+                            <cell cols="3" rend="center bold">2016</cell>
+                            <cell cols="3" rend="center bold">2017</cell>
+                            <cell cols="3" rend="center bold">2018</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">M</cell>
+                            <cell rend="end bold">F</cell>
+                            <cell rend="end bold">?</cell>
+                            <cell rend="end bold">M</cell>
+                            <cell rend="end bold">F</cell>
+                            <cell rend="end bold">?</cell>
+                            <cell rend="end bold">M</cell>
+                            <cell rend="end bold">F</cell>
+                            <cell rend="end bold">?</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">Vortrag</cell>
+                            <cell rend="end">33</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">55</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">63</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">Poster</cell>
+                            <cell rend="end">19</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">6</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">33</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 4: Anzahl an Erwähnungen männlicher (M), weiblicher (W), oder unbekannter (?) Personen.</p>
+                </div>
+                <div type="div2">
+                    <head>Sprache</head>
+                    <p>Bei den Sprachen der erwähnten Personen stellt sich die Situation anders da. Bei den Vortragsabstracts bewegt sich der Anteil an Abstracts mit nicht-deutschsprachigen Personen zwischen 29% und 58% (Tabelle 5) und der Anteil an erwähnten nicht-deutschsprachig Personen zwischen 46% und 60% (Tabelle 6). Bei den Posterabstracts sind die jeweiligen Zahlen etwas niedriger, mit Anteilen zwischen 20% und 60% (Tabellen 7 und 8).</p>
+                    <table rend="frame" xml:id="Table5">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">Deutsch</cell>
+                            <cell rend="end bold">Englisch</cell>
+                            <cell rend="end bold">Französisch</cell>
+                            <cell rend="end bold">Portugisisch</cell>
+                            <cell rend="end bold">Spanisch</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">14</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">14</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">13</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">5</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 5: Anzahl an Vorträgsabstracts die mindestens eine Person mit dieser Sprache erwähnen. Sprachen die nur einmal vorkommen sind in die Kategorie “Andere” aggregiert.</p>
+                    <table rend="frame" xml:id="Table6">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">DE</cell>
+                            <cell rend="end bold">EN</cell>
+                            <cell rend="end bold">FR</cell>
+                            <cell rend="end bold">PT</cell>
+                            <cell rend="end bold">ES</cell>
+                            <cell rend="end bold">NL</cell>
+                            <cell rend="end bold">SE</cell>
+                            <cell rend="end bold">IT</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">19</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">31</cell>
+                            <cell rend="end">16</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">24</cell>
+                            <cell rend="end">13</cell>
+                            <cell rend="end">11</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">5</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 6: Anzahl an Personen pro Sprache in den Vortragsabstracts.</p>
+                    <table rend="frame" xml:id="Table7">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">Deutsch</cell>
+                            <cell rend="end bold">Englisch</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">14</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">11</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">5</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 7: Anzahl an Posterabstracts die mindestens eine Person mit dieser Sprache erwähnen.</p>
+                    <table rend="frame" xml:id="Table8">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">DE</cell>
+                            <cell rend="end bold">EN</cell>
+                            <cell rend="end bold">FR</cell>
+                            <cell rend="end bold">IT</cell>
+                            <cell rend="end bold">RU</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">16</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">16</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 8: Anzahl an Personen pro Sprache in den Posterabstracts.</p>
+                </div>
+                <div type="div2">
+                    <head>Herkunftsland</head>
+                    <p>Die Ergebnisse für das Herkunftsland sind ähnlich (Tabellen 9, 10, 11 und 12), wobei durch die Unterteilung der deutschsprachigen Länder (Deutschland, Österreich, Schweiz) die Anteile nicht-deutscher Personen etwas höher sind (37% bis 71%).</p>
+                    <table rend="frame" xml:id="Table9">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">DE</cell>
+                            <cell rend="end bold">AT</cell>
+                            <cell rend="end bold">CH</cell>
+                            <cell rend="end bold">FR</cell>
+                            <cell rend="end bold">GB</cell>
+                            <cell rend="end bold">US</cell>
+                            <cell rend="end bold">ES</cell>
+                            <cell rend="end bold">IT</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">11</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">8</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">10</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">4</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">12</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">6</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">7</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 9: Anzahl an Vortragsabstracts die mindestens eine Person mit diesem Herkunftsland. erwähnen.</p>
+                    <table rend="frame" xml:id="Table10">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">DE</cell>
+                            <cell rend="end bold">AT</cell>
+                            <cell rend="end bold">CH</cell>
+                            <cell rend="end bold">FR</cell>
+                            <cell rend="end bold">GB</cell>
+                            <cell rend="end bold">US</cell>
+                            <cell rend="end bold">ES</cell>
+                            <cell rend="end bold">IT</cell>
+                            <cell rend="end bold">NL</cell>
+                            <cell rend="end bold">SE</cell>
+                            <cell rend="end bold">AR</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">15</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">6</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">27</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">15</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">19</cell>
+                            <cell rend="end">6</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">11</cell>
+                            <cell rend="end">9</cell>
+                            <cell rend="end">7</cell>
+                            <cell rend="end">4</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">7</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 10: Anzahl an Personen pro Herkunftsland in den Vortragsabstracts.</p>
+                    <table rend="frame" xml:id="Table11">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">DE</cell>
+                            <cell rend="end bold">AT</cell>
+                            <cell rend="end bold">GB</cell>
+                            <cell rend="end bold">US</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">10</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">3</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">10</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">8</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 11: Anzahl an Posterabstracts die mindestens eine Person mit diesem Herkunftsland erwähnen.</p>
+                    <table rend="frame" xml:id="Table12">
+                        <row>
+                            <cell/>
+                            <cell rend="end bold">DE</cell>
+                            <cell rend="end bold">AT</cell>
+                            <cell rend="end bold">GB</cell>
+                            <cell rend="end bold">RU</cell>
+                            <cell rend="end bold">US</cell>
+                            <cell rend="end bold">FR</cell>
+                            <cell rend="end bold">IT</cell>
+                            <cell rend="end bold">CH</cell>
+                            <cell rend="end bold">Andere</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2016</cell>
+                            <cell rend="end">12</cell>
+                            <cell rend="end">3</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">2</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2017</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">1</cell>
+                            <cell rend="end">0</cell>
+                        </row>
+                        <row>
+                            <cell rend="italic">2018</cell>
+                            <cell rend="end">15</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">0</cell>
+                            <cell rend="end">5</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">2</cell>
+                            <cell rend="end">4</cell>
+                        </row>
+                    </table>
+                    <p>Tabelle 12: Anzahl an Personen pro Herkunftsland in den Posterabstracts.</p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Diskussion</head>
+                <p>Die Ergebnisse der Länder- und Sprachanalyse zeichnen ein positives Bild des Engagements mit Inhalten und Personen außerhalb Deutschlands, mit über 15 verschiedenen Herkunftsländern. Dies ist positiv, da aufgrund der Datenquelle eine Tendenz zu deutschsprachigen Themen zu erwarten ist.</p>
+                <p>Zugleich sind die Ergebnisse im Genderbereich katastrophal. Über einen Zeitraum von drei Jahren werden in insgesamt 342 Abstracts in 100 (29%) Männer erwähnt, aber nur in 12 Frauen (3.5%), wobei nur in 2 Abstracts (0.5%) ausschließlich weibliche Personen das Ziel der Studie bzw. die erwähnten Beispiele sind. Zwar stellen Abstracts mit Personenerwähnungen nur einen Teil der DH Forschung da, aber trotzdem zeigt die Genderverteilung eine Schieflage, welche den historischen Blickwinkel, der Frauen aus dem öffentlichen Diskurs verdrängt, verstärkt. Der Zugang zu den Outputs von Frauen ist zwar aufgrund der historischen Sozialstrukturen schwieriger, aber die Wahrscheinlichkeit, dass diese Verteilung das Vorhandensein potentieller weiblicher Studiensubjekte auch nur ansatzweise korrekt abbildet ist unwahrscheinlich. Besonders da Studien wie Fischer und Jäschke (2018) quantitativ zeigen, dass es hier hinreichend weibliche Studiensubjekte gäbe. Es ist wesentlich wahrscheinlicher, dass hier ein kognitiver Bias existiert, dem die DH als Disziplin aktiv entgegen treten muss.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Berry, David M. (2011)</hi>: <hi rend="italic">"The Computational Turn: Thinking about the Digital Humanities"</hi>, in: Culture Machine 12: 1–22.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fiormonte, Domenico (2016)</hi>: <hi rend="italic">"Toward a Cultural Critique of Digital Humanities"</hi>, in <hi rend="bold">Gold, Matthew K / Klein, L. (ed.)</hi>: <hi rend="italic">Debates in the Digital Humanities 2016</hi>, University of Minnesota Press 438-458.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fischer, Frank / Jäschke, Robert (2018)</hi>: <hi rend="italic">"Liebe und Tod in der Deutschen Nationalbibliothek"</hi>. in DHd2018: Kritik der digitalen Vernunft 261-266.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gallon, Kim (2016)</hi>: <hi rend="italic">"Making a Case for the Black Digital Humanities"</hi>. in <hi rend="bold">Gold, Matthew K / Klein, L. (ed.)</hi>: <hi rend="italic">Debates in Digital Humanities 2016</hi> 42-49.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Liu, Alan (2012)</hi>: <hi rend="italic">"Where is cultural criticism in the digital humanities?"</hi> in <hi rend="bold">Gold, Matthew K (ed.)</hi>: <hi rend="italic">Debates in the Digital Humanities</hi>, University of Minnesota Press 490-509.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McPherson, Tara (2012)</hi>: <hi rend="italic">"Why are the digital humanities so white? Or thinking the histories of race and computation"</hi>. in <hi rend="bold">Gold, Matthew K (ed.)</hi>: <hi rend="italic">Debates in the Digital Humanities</hi>, 139-160.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rhody, Lisa M. (2016)</hi>: <hi rend="italic">"Why I dig: Feminist approaches to text analysis"</hi>. in <hi rend="bold">Gold, Matthew K / Klein, L. (ed.)</hi>: <hi rend="italic">Debates in Digital Humanities 2016</hi> 536-539.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wernimont, Jacqueline (2013)</hi>: <hi rend="italic">Whence Feminism? Assessing Feminist Interventions in Digital Literary Archives</hi>. in DHQ: Digital Humanities Quarterly, 7(1).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

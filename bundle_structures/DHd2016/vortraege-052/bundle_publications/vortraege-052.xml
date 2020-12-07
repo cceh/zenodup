@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-052">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Korpushermeneutik - Ansatz und Werkzeug zur Analyse großer Textkorpora</title>
+        <author>
+          <name>
+            <surname>Rüdiger</surname>
+            <forename>Jan Oliver</forename>
+          </name>
+          <affiliation>Universität Kassel, Deutschland</affiliation>
+          <email>jan.ruediger@uni-kassel.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-25T20:09:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Korpushermeneutik</term>
+          <term>CorpusExplorer</term>
+          <term>Korpuslinguistik</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Umwandlung</term>
+          <term>Datenerkennung</term>
+          <term>Entdeckung</term>
+          <term>Sammlung</term>
+          <term>Aufzeichnung</term>
+          <term>Transkription</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Strukturanalyse</term>
+          <term>Beziehungsanalyse</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kommunikation</term>
+          <term>Kontextsetzung</term>
+          <term>Theoretisierung</term>
+          <term>Bereinigung</term>
+          <term>Bearbeitung</term>
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Bewertung</term>
+          <term>Veröffentlichung</term>
+          <term>Stilistische Analyse</term>
+          <term>Identifizierung</term>
+          <term>Crowdsourcing</term>
+          <term>Kollaboration</term>
+          <term>Einführung</term>
+          <term>Lehre</term>
+          <term>Kommentierung</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Konservierung</term>
+          <term>Visualisierung</term>
+          <term>Computer</term>
+          <term>Curricula</term>
+          <term>Daten</term>
+          <term>Datei</term>
+          <term>Infrastruktur</term>
+          <term>Interaktion</term>
+          <term>Sprache</term>
+          <term>Link</term>
+          <term>Literatur</term>
+          <term>Manuskript</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Personen</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Der Vortrag fußt auf drei Säulen: Theorie, Forschungspraxis und Hochschullehre. Sie werden im Vortrag einzeln ausgeführt, dann kombiniert.</p>
+      <p>
+        <hi rend="bold">Theorie:</hi>
+        <hi rend="italic">Korpuslinguistik</hi> mit <hi rend="italic">Hermeneutik</hi> zu
+        verbinden, ist keine grundsätzlich neue Idee. Die bisherigen Vorschläge (z. B. Haß
+        2007; Teubert 2006) führen aber in ihrer Konsequenz zu einer einseitig gelagerten
+        Korpuslinguistik, die entweder <hi rend="italic">corpus-driven</hi> oder <hi
+        rend="italic">corpus-based</hi> orientiert ist. </p>
+        <p>Bei Haß (2007) werden wichtige Grundüberlegungen der
+          <hi rend="italic">Korpus-Hermeneutik</hi> diskutiert. Im Abschnitt Haß (2007: 248-258) erfolgt eine Beispielanalyse, deren Methoden fast ausschließlich dem
+          <hi rend="italic">corpus-driven</hi> Spektrum zuzuordnen sind. Ermittelte statistische Werte werden zwar interpretiert, jedoch führt dies nicht zu weiteren Forschungskonsequenzen. Gerade aber in der zyklischen Interpretation liegt die Stärke der Korpushermeneutik.
+        </p>
+        <p>Bei Teubert (2006) ist der Blick auf den Sichtbereich des
+          <hi rend="italic">corpus-based</hi> Methodenapperats beschränkt. Korpusmaterial dient in dieser Arbeit als eine Art Steinbruch, in dem man nach Belegen schürft.
+          <hi rend="italic">Text-Mining</hi> ist zwar ein Aspekt der Korpushermeneutik – es darf aber nie das alleinige Merkmal sein.
+        </p>
+        <p>Daher plädiere ich für grundlegend
+          <hi rend="italic">neue und praktikable Korpushermeneutik</hi>, die sowohl klassische als auch computergestützte Analyseverfahren vereint. Einen zentralen Punkt nimmt dabei die (Weiter-)Entwicklung des bestehenden Wissens ein. Annahmen, Beobachtungen und Ergebnisse werden zu Wissensmodellen korreliert und durch einen zyklisch organisierten Analyseprozess falsifiziert. Zum jetzigen Zeitpunkt ergeben sich drei grundlegende Forderungen an eine Analyse, wenn Sie unter dem Begriff
+          <hi rend="italic">Korpushermeneutik</hi> firmieren soll:
+        </p>
+        <list type="unordered">
+          <item>
+            <hi rend="bold">Die Analyse muss mehrere, abwechselnde und aufeinander aufbauende Zyklen durchlaufen.</hi>
+            <lb/>Diese Idee lehnt sich an der bereits von Felder (2016: 124) aufgestellten Beobachtung an: „
+            <hi rend="italic">Für die praktische Textanalyse sind beide Herangehensweisen erkenntnisstiftend – insbesondere ein stetiger Wechsel zwischen der relativ induktiven (corpus driven) und der eher deduktiven (corpus-based oder corpus-assisted) Vorgehensweise ist vielversprechend.</hi>“
+          </item>
+          <item>
+            <hi rend="bold">Die Entwicklung von Wissen geschieht durch Falsifikation</hi> - wie sie u. a. durch Popper (2005) und Albert (1969) gefordert wird. Daher sind Fragen, Thesen und Methoden so zu wählen, dass Vorwissen geprüft und hinterfragt wird.
+          </item>
+          <item>
+            <hi rend="bold">Der Analyseprozess ist transparent zu gestalten - transparent in Durchführung und Fehlerbetrachtung – Die Handlungsmöglichkeiten sind aufzuzeigen.</hi> Jeder Durchführungszyklus geschieht unter der Prämisse der Falsifikation. Jede Methode ist ebenso kritisch zu hinterfragen wie die daraus resultierenden Ergebnisse. Durch einen Zyklus werden neue Handlungsmöglichkeiten offengelegt, die es zu überprüfen gilt. Daher muss transparent gemacht werden, welche Ansätze mit welchen Mitteln verfolgt werden und welche Fragen am Schluss offenbleiben.
+          </item>
+        </list>
+        <p>
+          <hi rend="bold">Forschungspraxis:</hi> Gerade in den letzten fünf bis zehn Jahren
+          ist die Möglichkeit stark gewachsen, große (linguistische) Datenmengen zu erheben
+          und auszuwerten. Text-/Sprachdaten können fast ohne Limitierung für die Forschung
+          erhoben werden. Die darauf aufbauenden Datenmodelle erreichen eine immer höhere
+          Komplexität. Daher bedarf es neuer Methoden, diese zu strukturieren und teilweise
+          auch zu reduzieren (z. B. durch Algorithmen oder Visualisierungen), damit sie
+          (er-)fassbar für den Anwender werden. Ein Problem bei der Umsetzung der
+          korpushermeneutischen Theorie ist die bisher existierende Softwarelandschaft der
+          Computer-/Korpuslinguistik. Viele Programme sind notwendig, um aus einem einfachen
+          Rohtext ein visuelles Ergebnis zu erzeugen. Die Programme sind teilweise
+          untereinander inkompatibel <ref type="note" target="n01" n="1">1</ref> - oder sie folgen ausschließlich einem der beiden Paradigmen <ref type="note" target="n02" n="2">2</ref>. Im Vortrag wird ein von mir entwickeltes Programm vorgestellt, das diese
+          Arbeit übernimmt und korpushermeneutische Analysen ermöglicht. Der <hi rend="italic"
+          >CorpusExplorer</hi> ist kostenfrei verfügbar und übernimmt alle nötigen
+          Arbeitsprozesse – angefangenen bei der Textaufbereitung, Trennung von Text und
+          Metadaten, Annotation <ref type="note" target="n03" n="3">3</ref>, bis hin zur Auswertung und Visualisierung (über 30 unterschiedliche
+          Auswertungsmodule). Alles mit einem Tool, mit nur wenigen Mausklicks und vereint
+          unter einer intuitiven Benutzeroberfläche. Der CorpusExplorer erlaubt sowohl
+          corpus-driven als auch corpus-based Analysen und durch die zyklische Verschränkung
+          der Werkzeuge die angestrebte korpushermeneutische Analyse. Im Vortrag wird auf
+          konkrete Praxisbeispiele eingegangen und gezeigt, wie sich eine korpushermeneutische
+          Analyse entwickelt. Ein exklusiver Vortragspunkt wird sein, dass neben dem Programm
+          das CorpusExplorer-Framework erstmalig vorgestellt wird. Mit diesem werden zwei
+          Dinge möglich. Zum einen kann der CorpusExplorer mit eigenen Funktionen erweitert
+          werden (z. B. schreiben / anbinden neuer Tagger / Dateiformate, entwickeln eigener
+          Analysemodule, uvm.). Zum anderen kann man den CorpusExplorer in eigene Programme
+          integrieren. Ein Teil des Quellcodes (Import- / Export-Funktion), sowie Quellcode
+          von An-Projekten wurde bereits veröffentlicht. Der Quellcode des Frameworks wird
+          nach Abschluss des Promotionsprojekts freigegeben. </p>
+          <p>
+            <hi rend="bold">Hochschullehre:</hi> Eines der komplexesten Probleme, vor dem Dozenten und Institute stehen, die Korpuslinguistik in der Lehre praktizieren möchten und nicht oder nur bedingt auf Kompetenzen im Bereich Informatik bzw. Computerlinguistik zurückgreifen können, ist der immense
+            <hi rend="italic">Toolchain</hi>, der für einen erfolgreichen Seminarbetrieb erforderlich ist. Der
+            <hi rend="italic">CorpusExplorer</hi> bietet hier eine praktikable Lösung für alle, die schnelle Ergebnisse erzielen möchten. Selbst Studenten in den ersten Semestern können so in die Forschung hineinschnuppern und ihre eigenen Forschungsfragen selbstständig erkunden. Dabei stehen Forschung, empirisches Arbeiten und Auswertung/Ergebnisvisualisierung im Vordergrund, nicht aber das verwendete Programm. Der Vortrag wird Einblicke in den Seminaralltag mit dem CorpusExplorer sowie Anregungen geben, die mit den Hörern diskutiert werden können.
+          </p>
+          <p>
+            <hi rend="bold">Bildanhang (Screenshots CorpusExplorer v2.0):</hi>
+          </p>
+          <figure>
+            <graphic n="1001" width="16.002cm" height="12.0015cm" url="052-image1.png" rend="inline"/> Annotationsansicht
+            <p>
+              <hi rend="italic">Links:</hi> Korpora &amp; Dokumente<lb/>
+              <hi rend="italic">Mitte:</hi> Annotiertes Dokument mit gewählten Hervorhebungen<lb/>
+              <hi rend="italic">Rechts:</hi> Gewählte Hervorhebungen (Annotationen)<lb/>
+              <hi rend="italic">Unten:</hi> Verfügbare Module des CorpusExplorers
+            </p>
+          </figure>
+          <figure>
+            <graphic n="1002" width="16.002cm" height="12.192cm" url="052-image2.png" rend="inline"/>
+            <p>Korpusverteilung<lb/>Zu sehen ist ein Kreuzvergleich von Dokumentmetadaten. Eingenommene Fläche und Farbe (warm &gt; kalt) sind bedeutungstragend</p>
+          </figure>
+          <figure>
+            <graphic n="1003" width="16.002cm" height="12.0015cm" url="052-image3.png" rend="inline"/>
+            <p>
+              Begriffspaare / Oppositionswörter kontrastieren<lb/>
+              <hi rend="italic">Beispiel:</hi> Frau vs. Mann aus einem Zeitungskorpus (Frauenquote vs. Quotenfrau 2010-2014) via LexisNexis<lb/>
+              <hi rend="italic">Grün:</hi> Kollokatoren tendenziell Syrien<lb/>
+              <hi rend="italic">Schwarz:</hi> Gemeinsame Kollokatoren<lb/>
+              <hi rend="italic">Rot:</hi> Kollokatoren tendenziell Isreal
+            </p>
+          </figure>
+          <figure>
+            <graphic n="1004" width="16.002cm" height="12.192cm" url="052-image4.png" rend="inline"/>
+            <p>
+              N-Gramm-Graph<lb/>
+              Verknüpfung von N-Grammen auf Basis von POS-Tags<lb/>
+              <hi rend="italic">Graph:</hi> Grün: N-Gramm-Kopf, Blau: N-Gramm-Zwischenteil, Rot: N-Gramm-Ende
+            </p>
+          </figure>
+          <figure>
+            <graphic n="1005" width="15.939486111111112cm" height="7.170208333333333cm" url="052-image5.png" rend="inline"/>
+            <p>Kookkurrenzgraph (Ausschnitt)<lb/>
+            Das Beispiel zeigt einen per Rekursion ermittelten Teilausschnitt, der auf die Phrase:
+            <hi rend="italic">„Beobachter / ins / Land / lassen“</hi> rekurriert.
+          </p>
+        </figure>
+      </body>
+      <back>
+        <div type="Notes">
+          <note xml:id="n01" n="1">z. B. kann die Ausgabe des einen Programms nicht vollumfänglich von einem anderen eingelesen werden.</note>
+          <note xml:id="n02" n="2">Gemeint sind hier die Paradigmen corpus-driven oder corpus-based.</note>
+          <note xml:id="n03" n="3">Aktuell verfügbar: TreeTagger, TnT, Stanford-Tagger oder gar <hi rend="italic">Keine Annotation.</hi></note>
+        </div>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl>
+              <hi rend="bold">Alberrt, Hans</hi> (1969): <hi rend="italic">Traktat über
+              kritische Vernunft</hi>. Tübingen: J.C.B. Mohr (Paul Siebeck). </bibl>
+              <bibl>
+                <hi rend="bold">Bubenhofer, Noah</hi> (2009): <hi rend="italic"
+                >Sprachgebrauchsmuster</hi>. Korpuslinguistik als Methode der Diskurs-
+                und Kulturanalyse. Berlin: de Gruyter. </bibl>
+                <bibl>
+                  <hi rend="bold">Dang-Anh, Mark / Rüdiger, Jan Oliver</hi> (2015): “From
+                  Frequency to Sequence: How Quantitative Methods can Inform Qualitative
+                  Analysis of Digital Media Discourse”, in: <hi rend="italic">10plus1</hi> 1:
+                  57–73. </bibl>
+                  <bibl>
+                    <hi rend="bold">Gardt, Andreas</hi> (2007): “Linguistisches Interpretieren:
+                    Konstruktivistische Theorie und realistische Praxis”, in: Hermanns, Fritz /
+                    Holly, Werner (eds.): <hi rend="italic">Linguistische Hermeneutik</hi>.
+                    Theorie und Praxis des Verstehens und Interpretierens. Tübingen: Niemeyer
+                    263–280. </bibl>
+                    <bibl>
+                      <hi rend="bold">Haß, Ulrike</hi> (2007): “Korpus-Hermeneutik: zur
+                      hermeneutischen Methodik in der lexikalischen Semantik”, in: Hermanns, Fritz
+                      / Holly, Werner (eds.): <hi rend="italic">Linguistische Hermeneutik</hi>.
+                      Theorie und Praxis des Verstehens und Interpretierens. Tübingen: Niemyer
+                      241–261. </bibl>
+                      <bibl>
+                        <hi rend="bold">Popper, Karl R.</hi> (2005): <hi rend="italic">Gesammelte
+                        Werke</hi>. 3: Logik der Forschung Tübingen: Mohr Siebeck. </bibl>
+                        <bibl>
+                          <hi rend="bold">Runkler, Thomas</hi> (2010): <hi rend="italic">Data
+                          Mining</hi>. Methoden und Algorithmen intelligenter Datenanalyse.
+                          Wiesbaden: Vieweg+Teubner. </bibl>
+                          <bibl>
+                            <hi rend="bold">Teubert, Wolfgang</hi> (2006): “Korpuslinguistik,
+                            Hermeneutik und die soziale Konstruktion der Wirklichkeit”, in: <hi
+                            rend="italic">Linguistik Online</hi> 28, 3: 41–60 <ref
+                            target="http://www.linguistik-online.de/28_06/teubert.html"
+                            >http://www.linguistik-online.de/28_06/teubert.html</ref> [letzter
+                            Zugriff 09. Februar 2016].</bibl>
+                          </listBibl>
+                        </div>
+                      </back>
+                    </text>
+                  </TEI>

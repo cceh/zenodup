@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-048">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LERA - Explorative Analyse komplexer Textvarianten in Editionsphilologie und Diskursanalyse </title>
+        <author>
+          <name>
+            <surname>Schütz</surname>
+            <forename>Susanne</forename>
+          </name>
+          <affiliation>Martin-Luther-Universität Halle-Wittenberg</affiliation>
+          <email>susanne.schuetz@romanistik.uni-halle.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Pöckelmann</surname>
+            <forename>Marcus</forename>
+          </name>
+          <affiliation>Martin-Luther-Universität Halle-Wittenberg</affiliation>
+          <email>marcus.poeckelmann@informatik.uni-halle.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-13T12:08:32.696555406</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>LERA</term>
+          <term>SaDA</term>
+          <term>Textvergleich</term>
+          <term>Editionsphilologie</term>
+          <term>Exploration</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Entdeckung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Strukturanalyse</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Interaktion</term>
+          <term>Software</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Ausgangssituation und Projektrahmen </head>
+        <p>Der Vergleich von Textfassungen ist eine zentrale Aufgabe der Editionsphilologie
+          und Grundlage für die Erstellung von Variantenapparaten in kritischen Editionen.
+          Zudem lässt sich über den Textvergleich die inhaltliche Evolution von Texten
+          nachvollziehen. Je umfänglicher oder komplexer die zu edierenden Werke sind,
+          desto schwieriger ist es für die Editoren und die Nutzer von Editionen den
+          Überblick über die Textfassungen zu behalten. Mit dem hier vorgestellten, in die
+          Arbeitsumgebung LERA (Bremer et al. 2015) integrierten Ansatz, wird diesem
+          Problem mit einer Kombination von graphischen Werkzeugen begegnet, deren
+          Zusammenwirken den Überblick über große Textmengen und ihre inhaltliche
+          Auswertung erleichtert und zudem die Möglichkeit zum ergbnisoffenen Erkunden der
+          Textvarianten bietet.</p>
+          <p>LERA ist eine interaktive, webbasierte Arbeitsumgebung zur Untersuchung mehrerer
+            Fassungen eines Textes. Sie wurde im Rahmen des vom Bundesministeriums für
+            Bildung und Forschung geförderten Projekts: <hi rend="italic">Semiautomatische
+            Differenzanalyse von komplexen Textvarianten (<ref
+            target="http://sada.uzi.uni-halle.de">SaDA</ref>)</hi> entwickelt (Medek
+            et al. 2015). Als Fallbeispiel für die Entwicklung von LERA wurde ein Buch aus
+            der 'Histoire philosophique et politique des établissements et du commerce des
+            Européens dans les deux Indes' von Thomas-Guillaume Raynal, einem der
+            gesamteuropäisch einflussreichsten Erfolgs- und Skandalbücher des 18.
+            Jahrhunderts, gewählt. Das Werk ist eine kritische Auseinandersetzung mit der
+            europäischen Kolonialexpansion in den ,beiden‘ Indien und liegt in vier stark
+            überarbeiteten Fassungen aus den Jahren 1770, 1774, 1780 und 1820 vor (Schütz /
+            Pöckelmann 2014). </p>
+            <p>Für die Kollationierung verschiedener Textfassung gibt es bereits eine Reihe
+              digitaler Werkzeuge. Drei der bekanntesten, <ref target="http://collatex.net"
+              >CollateX</ref>, <ref target="http://www.juxtasoftware.org/">Juxta</ref> und
+              <ref target="http://www.tustep.uni-tuebingen.de/">TUSTEP</ref>, liefern für
+              viele Fragestellungen gute Ergebnisse, unterscheiden sich in ihren
+              Anwendungsszenarien aber erkennbar von LERA. Während LERA einen zweistufigen
+              Ansatz verfolgt, bei dem vor dem detaillierten Textvergleich zunächst eine
+              Alignierung größerer Textpassagen berechnet wird, was denEinsatz komplexer
+              Signaturwerte <ref type="note" target="n01" n="1">1</ref> für den Vergleich
+              notwendig macht, liegt der Fokus von CollateX auf der Alignierung
+              (normalisierter) Token, für den auf einfache Zeichenketten als Signaturwerte
+              zurückgegriffen wird. Juxta zeigt mit seinen hilfreichen Visualisierungen die
+              Unterschiede zu einer ausgewählten Leithandschrift auf, während LERA für den
+              direkten Vergleich mehrerer Textfassungen konzipiert wurde und stets die
+              Textänderungen zwischen allen Fassungen darstellt. Der wohl vielseitigste
+              digitale Werkzeugkasten aus dem Bereich der Geisteswissenschaften, TUSTEP,
+              bietet ebenfalls Möglichkeiten zum Vergleich verschiedener Textfassungen.
+              Allerdings erfordert der Umgang mit dem textbasierten Interface eine längere
+              Einarbeitungszeit, die sich zumindest für einige Anwender durch die neu
+              entwickelte XML-basierte Variante <ref target="http://www.txstep.de">TXSTEP</ref> verringert. LERA wurde hingegen von Beginn
+              an durch interaktive graphische Elemente als intuitiv bedienbare Arbeitsumgebung
+              entwickelt. Veränderte Vergleichsparameter sollen dabei durch schnelle
+              Neuberechnung eine direkte Präsentation des Ergebnisses ermöglichen und so zum
+              Experimentieren einladen. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Explorative Analyse mit LERA </head>
+              <p>Die Arbeitsumgebung erzeugt eine synoptische Gegenüberstellung von größeren Textsegmenten, welche die Grundlage für den Textvergleich bilden. Für die „Histoire des deux Indes“, die in vielen Drucken mit variierendem Zeilenfall vorliegt, wurden Absätze als Vergleichsebene gewählt. Unterschiede zwischen den Textfassungen werden durch Farbmarkierungen in der Synopse und in einem gemeinsamen Variantenapparat dargestellt. Das Vergleichsergebnis kann durch Filtereinstellungen beeinflusst und so an verschiedene Fragestellungen angepasst werden. Beispielweise lassen sich orthographische Varianten ausblenden, so dass dem Nutzer hauptsächlich die inhaltlichen Unterschiede präsentiert werden. </p>
+              <p>Aufbauend auf dieser Grundfunktionalität wurden die drei im Folgenden beschriebenen Komponenten in LERA integriert, die das Überblicken und Auswerten der Textunterschiede erleichtern sollen.</p>
+              <div type="div2" rend="DH-Heading2">
+                <head>Integrierte Suche </head>
+                <p>Als erster wichtiger Baustein wurde eine Suchfunktion eingebunden, die das schnelle Auffinden einzelner Schlagwörter ermöglicht. Das Suchfenster zeigt an, wie häufig der – intern normalisierte – Begriff in der gesamten Synopse vorkommt. Die Treffer der Suche sind dabei in den Texten farbig unterlegt und können über Navigationspfeile angesteuert werden.</p>
+                <figure>
+                  <graphic url="048-10000201000004B0000001A07B23D97D.png"/>
+                  <p><hi rend="bold">Abb. 1</hi>: Suchfunktion in LERA: Die gelb hervorgehobenen
+                  Suchtreffer können durch die Schaltflächen der Suchmaske (oben rechts)
+                  angesteuert werden.</p>
+                </figure>
+              </div>
+              <div type="div2" rend="DH-Heading2">
+                <head>CATview: Strukturelle Übersicht </head>
+                <p>Der oben beschriebene Textvergleich bildet die Datenbasis der integrierten interaktiven Übersichts- und Navigationsleiste <ref target="http://catview.uzi.uni-halle.de">CATview</ref>
+                (Pöckelmann et al. 2015). Die Synopse wird schematisch in CATview dargestellt, indem jedes Segment der Vergleichstexte als Rechteck abgebildet und entsprechend seiner Position in der Synopse angeordnet wird. Die Farbe der Rechtecke zeigt die Intensität der Überarbeitung an. Je stärker dabei ist die Veränderung des Textsegments ausfällt, desto dunkler wird das Farbfeld dargestellt. So verschafft CATview einen Überblick über die Struktur der Texte und die Verteilung der Unterschiede. Zudem erleichtern weitere Funktionen wie die Verlinkung der Rechtecke mit den entsprechenden Textsegmenten die Navigation in der Synopse.
+              </p>
+              <figure>
+                <graphic url="048-10000201000004B0000000FBF1D9C2CF.png"/>
+                <p><hi rend="bold">Abb. 2</hi>: Die in LERA integrierte CATview stellt Struktur
+                und Unterschiede zwischen den Textfassungen schematisch dar und erleichtert
+                die Navigation durch Verlinkungen und einen Bildlauf-Indikator (orange).</p>
+              </figure>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>Wortwolken: Thematische Übersicht</head>
+              <p>Zusätzlich zum synoptischen Textvergleich und dessen Visualisierung in CATview kann die Arbeitsumgebung LERA für jede Textfassung eine interaktive Wortwolke generieren, die einen Vergleich des Auftretens und der Häufigkeit von Schlagwörtern ermöglicht und so einen Überblick über die Inhalte der jeweiligen Textfassung gibt. Welche Wörter dabei angezeigt werden, hängt von den Nutzervorgaben ab. So kann beispielsweise die Auswahl der Wörter auf einzelne Wortarten beschränkt
+                <ref type="note" target="n02" n="2">2</ref>
+                oder eine Mindestlänge festgelegt werden. Zudem sind das Bewertungskriterium (Häufigkeit, Tf-idf-Maß) und verschiedene Darstellungsformen wählbar. Durch die Gegenüberstellung der Wortwolken aller Textfassungen wird das Erkennen einer veränderte Wortwahl und Themensetzung zwischen den Textfassungen erleichtert.
+              </p>
+              <figure>
+                <graphic url="048-10000201000004B000000164CB71E413.png"/>
+                <p><hi rend="bold">Abb. 3</hi>: Von LERA generierte Wortwolken für vier
+                Textfassungen: Entsprechend der Nutzereinstellungen wurden als eine der
+                wählbaren Darstellungsformen dreidimensionale Kugeln mit den jeweils 20
+                häufigsten Wörtern generiert und die Wortgröße über alle Fassungen hinweg
+                ermittelt. So wird beispielsweise die veränderte Häufigkeit des Begriffs
+                „espagnol“ kenntlich (67, 77, 63 und 81). </p>
+              </figure>
+            </div>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Das Zusammenspiel der Werkzeuge </head>
+            <p>Die innovative Kombination der beschriebenen Ansätze zur Analyse und Darstellung von Varianten ermöglicht das effiziente Erkunden umfangreicher Texte und die wirkungsvolle Visualisierung von Suchergebnissen. Die Arbeitsumgebung bietet so verschiedene Zugänge zur explorativen Analyse an, von denen im Folgenden drei Kombinationsmöglichkeiten erläutert werden. </p>
+            <div type="div2" rend="DH-Heading2">
+              <head>Kombination von CATview und Suchfunktion </head>
+              <p>Die Übersichtsleiste CATview zeigt die Überarbeitung der Textfassungen an und vereinfacht die Navigation in umfangreichen Synopsen. Kombiniert man dieses Werkzeug mit der Suchfunktion, werden die Treffer der Suche nicht nur farbig im Text unterlegt, sondern ebenfalls in den Rechtecken der Übersichtsleiste angezeigt. So kann die Verteilung eines Themas über den gesamten Text auf einen Blick erfasst werden. Mit dieser Funktion lassen sich zudem korrespondierende Textstellen, die nicht direkt aligniert sind, leichter auffinden.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>Kombination von Suche und Wortwolken </head>
+              <p>Die Ergebnisse der Suche werden in den interaktiven Wortwolken ebenfalls farbig hervorgehoben, was das Auffinden der Schlagworte und damit den Vergleich der Relevanz bzw. Häufigkeit in den verglichenen Textfassungen erleichtert. Neben dieser intendierten Suche kann die Kombination der beiden Komponenten den Nutzern Anregungen für die weitere Textexploration geben. In den Wortwolken sind Begriffe enthalten, die auf Grund ihrer Häufigkeit eine Relevanz für den Textinhalt vermuten lassen, ein Klick auf die angezeigten Begriffe in den Wortwolken löst die Suche aus. </p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>CATview in Kombination mit Wortwolken und Suchfunktion </head>
+              <p>CATview bietet ein Auswahlwerkzeug an, mit dem der Textbereich für die Analyse eingeschränkt werden kann. Dieses Vorgehen bietet sich an, wenn eine Passage des Textes wegen ihrer Überarbeitung oder der Verteilung von Suchbegriffen besonders interessant erscheint. Durch die Beschränkung der Textauswahl verändert sich sofort die Zusammensetzung der Wortwolken, da auch ihre Datengrundlage eingeschränkt wird, indem nur noch die Begriffe aus der Auswahl betrachtet werden. Die Wortwolken werden für jede neue Auswahl umgehend aktualisiert. Die Auswahlbox kann durch drag-and-drop in der Übersichtsleiste bewegt werden. Durch diese Bewegung verändern sich folglich auch die Wortwolken, sodass stets die Themen der aktuell gewählten Textpassage angezeigt werden. Dadurch erzeugt die Bewegung eine Art interaktive Animation an Hand derer die inhaltliche Entwicklung der Texte veranschaulicht wird. Dieses Vorgehen kann zu neuen interessanten Fragestellungen führen.</p>
+
+              <figure>
+                <graphic url="048-10000201000004B00000022CD77D3B09.png"/>
+                <p><hi rend="bold">Abb. 4</hi>: Beispiel für das Zusammenspiel von
+                Suche, CATview und den Wortwolken: Mit Hilfe des Auswahlwerkzeugs von
+                CATview wurden die Absätze 143 und 144 markiert, was sogleich die Wortwolken
+                aktualisiert und so eine grobe inhaltliche Übersicht dieser aus H80
+                entfernten Textpassage erzeugt. Mit einem Klick auf den Begriff „horreur“ in
+                den Wolken wird eine Suche gestartet, die wiederum in CATview durch die
+                Markierung der Suchtreffer einen Hinweis dafür liefert, dass Teile der
+                Passage bei der Überarbeitung in den Absatz 137 eingeflossen sind. </p>
+              </figure>
+            </div>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Zusammenfassung </head>
+            <p>Neben der Grundfunktionalität zum Vergleich mehrerer Fassungen eines Textes entsprechend getroffener Nutzereinstellungen wurden in die Arbeitsumgebung LERA mit der Suchfunktion, der Übersichts- und Navigationsleiste CATview sowie den interaktiven Wortwolken drei Komponenten zum Analysieren der gefundenen Unterschiede integriert, deren Kombination das traditionelle Vorgehen der systematischen Textauswertung um die ergebnisoffene Exploration erweitert. So führt das willkürliches Experimentieren mit diesen Komponenten gegebenenfalls zu unerwarteten Erkenntnissen und neuen Hypothesen. Das ist insbesondere für Nutzer von digitalen Editionen interessant, die oft andere Fragestellungen verfolgen als die ursprünglichen Editoren. So werden das Nachvollziehen von Argumentationsketten und die historische Veränderung von Diskursen im Zuge der Überarbeitung von Texten effektiv unterstützt.</p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Anmerkungen </head>
+            <p>Diese Arbeit wurde durch das Bundesministerium für Bildung und Forschung (BMBF) [Projektkürzel: 01UG1247 / human-325-010 / SaDA] im Rahmen des Projekts „Semi-automatische Differenzanalyse von komplexen Textvarianten“ unter Leitung von Prof. Dr. Thomas Bremer, Prof. Dr. Paul Molitor, Dr. Jörg Ritter und Prof. Dr. Hans-Joachim Solms gefördert.</p>
+            <p>Weitere Informationen samt Demonstratoren zu LERA finden Sie auf der Projektseite von SaDA:
+              <ref target="http://sada.uzi.uni-halle.de/">http://sada.uzi.uni-halle.de</ref>
+            </p>
+          </div>
+        </body>
+        <back>
+          <div type="Notes">
+            <note xml:id="n01" n="1">Für einen Absatz fließen beispielsweise dessen Position und enthaltene signifikante Wörter in die Bestimmung des Signaturwerts ein. Ein Wort gilt dabei als signifikant, wenn es in mindestens zwei der zu vergleichenden Texte vorkommt und in der allgemeinen Sprachverwendung relativ selten ist.</note>
+            <note xml:id="n02" n="2"> Die Bestimmung der Wortarten für die Wortwolken erfolgt automatisch mit Hilfe des <ref target="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger">TreeTaggers</ref>. Siehe „TreeTagger - a language independent part-of-speech tagger“.</note>
+          </div>
+          <div type="bibliogr">
+            <listBibl>
+              <head>Bibliographie</head>
+              <bibl><hi rend="bold">ARP</hi> (2012): <hi rend="italic">Juxta</hi>. Compare -
+              Collate - Discover. <ref target="http://www.juxtasoftware.org/"
+              >http://www.juxtasoftware.org/</ref> [letzter Zugriff 15. Oktober
+              2015].</bibl>
+              <bibl>
+                <hi rend="bold">Bremer, Thomas / Molitor, Paul / Pöckelmann, Marcus /
+                  Ritter, Jörg / Schütz, Susanne</hi> (2015): "Zum Einsatz digitaler
+                  Methoden bei der Erstellung und Nutzung genetischer Editionen gedruckter
+                  Texte mit verschiedenen Fassungen - Das Fallbeispiel der Histoire
+                  philosphique des deux Indes von Guillaume Thomas Raynal" in: Nutt-Kofoth,
+                  Rüdiger / Plachta, Bodo / Woesler, Winfried (eds.) <hi rend="italic"
+                  >Editio</hi>. <ref
+                  target="http://www.degruyter.com/view/j/edit.2015.29.issue-1/editio-2015-004/editio-2015-004.xml"
+                  >Internationales Jahrbuch für Editionswissenschaften</ref> 29, 1:
+                  29–51.</bibl>
+                  <bibl><hi rend="bold">Bremer, Thomas / Molitor, Paul / Ritter, Jörg / Solms,
+                    Hans-Joachim</hi>(2012-2015): <hi rend="italic">Semi-automatische
+                    Differenzanalyse von komplexen Textvarianten </hi><ref
+                    target="http://sada.uzi.uni-halle.de/"
+                    >http://sada.uzi.uni-halle.de</ref> [letzter Zugriff 15. Oktober
+                    2015].</bibl>
+                    <bibl>
+                      <hi rend="bold">Medek (*Gießler), André / Pöckelmann, Marcus / Bremer,
+                        Thomas / Solms, Hans-Joachim / Molitor, Paul / Ritter, Jörg</hi> (2015):
+                        "Differenzanalyse komplexer Textvarianten - Diskussion und Werkzeuge", in:
+                        <hi rend="italic"><ref
+                          target="http://dx.doi.org/10.1007/s13222-014-0173-y"
+                          >Datenbank-Spektrum</ref></hi> 15, 1: 25-31.</bibl>
+                          <bibl>
+                            <hi rend="bold">Pöckelmann, Marcus / Medek (*Gießler), André / Molitor, Paul
+                              / Ritter, Jörg</hi> (2015): "CATview - Supporting The Investigation Of
+                              Text Genesis Of Large Manuscripts By An Overall Interactive Visualization
+                              Tool", in: <hi rend="italic">Digital Humanities, DH2015, Sydney, Australia,
+                              29.06.-03.07.2015</hi>. </bibl>
+                              <bibl><hi rend="bold">Pöckelmann, Marcus / Molitor, Paul / Ritter, Jörg</hi>
+                              (2015): <hi rend="italic">CATview</hi>. The Colored and Aligned Texts view
+                              <ref target="http://catview.uzi.uni-halle.de/"
+                                >http://catview.uzi.uni-halle.de/</ref> [letzter Zugriff 15. Oktober
+                                2015].</bibl>
+                                <bibl><hi rend="bold">Schmid, Helmut</hi>(1994-): <hi rend="italic"
+                                >TreeTagger</hi>. A language independent part-of-speech tagger <ref
+                                target="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/"
+                                >http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/</ref> [letzter
+                                Zugriff 15. Oktober 2015].</bibl>
+                                <bibl>
+                                  <hi rend="bold">Schütz, Susanne / Pöckelmann, Marcus</hi> (2014):
+                                  "IT-Werkzeuge zur Unterstützung elektronischer Edition am Beispiel eines
+                                  französischen Textes aus dem 18. Jahrhundert", in: <hi rend="italic">9.
+                                  Kongress des Frankoromanistenverbands, Münster, 24.-27.09.2014</hi>. </bibl>
+                                  <bibl><hi rend="bold">The Interedition Development Group</hi> (2010-2013): <hi
+                                  rend="italic">CollateX</hi>. Software for Collating Textual Sources <ref
+                                  target="http://collatex.net/">http://collatex.net/</ref> [letzter
+                                  Zugriff 15. Oktober 2015].</bibl>
+                                  <bibl><hi rend="bold">Zentrum für Datenverarbeitung der Universität
+                                    Tübingen</hi> (1978-): <hi rend="italic">TUSTEP</hi>. Tuebingen System
+                                    of Text Processing tools <ref target="http://www.tustep.uni-tuebingen.de/"
+                                    >http://www.tustep.uni-tuebingen.de/</ref> [letzter Zugriff 15. Oktober
+                                    2015].</bibl>
+                                    <bibl><hi rend="bold">Zentrum für Datenverarbeitung der Universität Tübingen /
+                                      pagina GmbH Publikationstechnologien / Hochschule der Medien
+                                      Stuttgart</hi> (2010-): <hi rend="italic">TXSTEP</hi>. Die XML-Version
+                                      von TUSTEP <ref target="http://www.txstep.de/">http://www.txstep.de/</ref>
+                                      [letzter Zugriff 15. Oktober 2015].</bibl>
+                                    </listBibl>
+                                  </div>
+                                </back>
+                              </text>
+                            </TEI>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-006">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Das Dortmunder Chat-Korpus in CLARIN-D: Modellierung und Mehrwerte</title>
+        <author>
+          <name>
+            <surname>Beißwenger</surname>
+            <forename>Michael</forename>
+          </name>
+          <affiliation>TU Dortmund, Deutschland</affiliation>
+          <email>michael.beisswenger@tu-dortmund.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Axel</surname>
+            <forename>Herold</forename>
+          </name>
+          <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+          <email>herold@bbaw.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Harald</surname>
+            <forename>Lüngen</forename>
+          </name>
+          <affiliation>Institut für deutsche Sprache, Mannheim, Deutschland</affiliation>
+          <email>luengen@ids-mannheim.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Angelika</surname>
+            <forename>Storrer</forename>
+          </name>
+          <affiliation>Universität Mannheim, Deutschland</affiliation>
+          <email>astorrer@mail.uni-mannheim.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-09-22T05:33:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.11">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Korpora</term>
+          <term>Sociale Medien</term>
+          <term>Social Media</term>
+          <term>Internetbasierte Kommunikation</term>
+          <term>CMC</term>
+          <term>Korpuslinguistik</term>
+          <term>Parts of speech</term>
+          <term>TEI</term>
+          <term>STTS</term>
+          <term>Digitale Genres</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Strukturanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Archivierung</term>
+          <term>Stilistische Analyse</term>
+          <term>Infrastruktur</term>
+          <term>Interaktion</term>
+          <term>Sprache</term>
+          <term>Projekte</term>
+          <term>Standards</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung und Projekthintergrund</head>
+        <p>Die Kommunikation im Internet bzw. mit sozialen Medien hat in den vergangenen zwei Jahrzehnten in den geisteswissenschaftlichen Disziplinen eine zunehmende Aufmerksamkeit erfahren. Zahlreiche sprach-, sozial- und medienwissenschaftliche Analysen haben die sprachlichen und interaktionalen Besonderheiten bei der Kommunikation in Chats, Foren, Weblogs und sozialen Netzwerken, per SMS und WhatsApp als einen neuen Gegenstand geisteswissenschaftlicher Forschung erschlossen. Durch ihre digitale Verfügbarkeit sind Sprachdaten aus solchen Genres – im Gegensatz etwa zu Aufzeichnungen von Gesprächen – einfach zu gewinnen und für Forschungszwecke speicherbar. Trotzdem gibt es bislang wenige Korpora zur Sprachverwendung in sozialen Medien, die für Analysezwecke im Bereich der Digital Humanities aufbereitet sind und die der Scientific Community zur Nutzung zur Verfügung stehen. Das hat zum einen mit unklaren rechtlichen Rahmenbedingungen in Bezug auf die Nutzung und Bereitstellung digitaler Kommunikationsdaten für Forschungszwecke zu tun, zum anderen mit dem Fehlen geeigneter Standards für die Strukturbeschreibung und linguistische Annotation von Social-Media-Genres sowie der Notwendigkeit, automatische Annotationswerkszeuge für Daten dieses Typs anzupassen.</p>
+        <p>In unserem Beitrag präsentieren wir Ergebnisse aus dem Projekt „ChatCorpus2CLARIN“, das als Kurationsprojekt der fachspezifischen Arbeitsgruppe F-AG 1 „Deutsche Philologie“<ref type="note" target="n01" n="1">1</ref>. von Mai 2015 bis Februar 2016 vom BMBF gefördert wird. Ziel des Projekts ist es, das
+          <hi rend="italic">Dortmunder Chat-Korpus</hi>, ein existierendes Korpus zur Sprachverwendung und Sprachvariation in der deutschsprachigen Chat-Kommunikation, in die Korpus-Infrastrukturen der CLARIN-D-Zentren an der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW) und am Institut für Deutsche Sprache (IDS) Mannheim zu integrieren. Dabei geht es insbesondere um die Herstellung einer Interoperabilität der Zielressource mit Korpora zur gesprochenen und geschriebenen Sprache (DWDS-Korpora, DeReKo, FOLK), die an der BBAW und am IDS bereits vorhanden sind. Die Bereitstellung des Chat-Korpus in CLARIN-D soll einen systematischen, korpusgestützten Vergleich der Sprachverwendung in Chats mit der Sprachverwendung in mündlichen Gesprächen und in redigierten Texten erlauben und der empirischen, sprachdatengestützten Forschung zur Sprache und Interaktion in sozialen Medien somit neue Möglichkeiten eröffnen.
+        </p>
+        <p>Um Interoperabilität mit existierenden CLARIN-D-Ressourcen herzustellen und es
+          Forscher_innen zu ermöglichen, die unterschiedlichen Ressourcen im
+          Forschungsprozess vernetzt zu nutzen, wird das Chat-Korpus bei der Integration
+          unter Rückgriff auf Standards im Bereich der Digital Humanities remodelliert und
+          um zusätzliche linguistische Annotationen erweitert. Der Beitrag beschreibt die
+          Modellierung der Ressource und ihre Integration in CLARIN-D und zeigt, welche
+          Mehrwerte sich für Nutzer des Korpus durch die Integration und die zusätzlichen
+          Annotationen ergeben.</p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Die Ausgangsressource</head>
+          <p>Das
+            <hi rend="italic">Dortmunder Chat-Korpus</hi> (Beißwenger 2013) ist eine Sammlung von Chat-Mitschnitten aus vier verschiedenen Handlungsbereichen (Freizeit, Bildung, Beratung, Medien), die ca. 140.000 Chatter-Beiträge und 1,06 Mio. Token umfasst und die 2002–2008 am Lehrstuhl für Linguistik der deutschen Sprache und Sprachdidaktik der TU Dortmund aufgebaut wurde. Die Daten sind in einem XML-Format repräsentiert, das zentrale Strukturelemente von protokollieren Chatverläufen (sog. ‚Logfiles‘) abbildet, unterschiedliche Typen von Chat-Beiträgen unterscheidet und ausgewählte Stilelemente internetbasierter Kommunikation erfasst. Teile des Korpus werden seit 2005 über die Website
+            <ref target="http://www.chatkorpus.tu-dortmund.de">http://www.chatkorpus.tu-dortmund.de</ref> zusammen mit einem einfachen, Java-basierten Abfragewerkzeug zur Verfügung gestellt. Das Korpus wird in diversen linguistischen und computerlinguistischen Projekten sowie im Bildungskontext (Schule und Hochschule) als Ressource in Forschung und Lehre genutzt.
+          </p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Interoperabilität durch Anschluss an Standards im Bereich der Digital Humanities</head>
+          <div type="div2" rend="DH-Heading2">
+            <head>Strukturmodellierung und Repräsentation in TEI</head>
+            <p>Für die Repräsentation der im Korpus dokumentierten Chat-Verläufe greifen wir auf die Formate der
+              <hi rend="italic">Text Encoding Initiative</hi> (
+              <hi rend="italic">TEI)</hi> zurück. In den TEI-Guidelines (TEI-P5) gibt es bislang keine Modelle für die Darstellung von Social-Media-Genres, dafür umfangreiche Module für die Strukturrepräsentation von Textgenres und von transkribierten Gesprächen. Die in den Guidelines vorgesehene Möglichkeit der
+              <hi rend="italic">customization</hi> macht das Encoding-Framework aber flexibel genug, um es an die Erfordernisse auch von (neuen) Genres anzupassen.
+            </p>
+            <p>Seit 2013 beschäftigt sich in der TEI eine Special Interest Group (SIG)
+              „Computer-mediated communication“ <ref type="note" target="n02" n="2">2</ref> mit der Entwicklung eines Standards für die Modellierung von
+              Social-Media-Genres (Beißwenger et al. 2012; Chanier et al. 2014; Margareta
+              / Lüngen 2014). Das Projekt greift den aktuellen Stand der in der SIG
+              diskutierten Schemaentwürfe auf, testet diese an den Daten des Chat-Korpus
+              sowie an Ausschnitten ausgewählter weiterer Social-Media-Genres
+              (Wikipedia-Diskussionsseiten, WhatsApp-Dialoge, News-Diskussionen, Tweets)
+              und entwickelt sie weiter. Das dabei entstehende TEI-Schema wird in Form
+              eines ODD<ref type="note" target="n03" n="3">3</ref>dokumentiert und bildet die Grundlage für die TEI-Modellierung des
+              kompletten Korpus. Zugleich wird das ODD, dessen Fertigstellung für Herbst
+              2015 vorgesehen ist, in die weitere Arbeit der SIG eingespielt. </p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>Linguistische Basisannotation mit „STTS 2.0“</head>
+              <p>Um die Recherchemöglichkeiten im Korpus zu verbessern, wird der
+                Ausgangsressource eine zusätzliche Annotationsebene hinzugefügt, deren Kern
+                Part-of-speech-Informationen (PoS) bilden. Das im Projekt verwendete
+                PoS-Tagset („STTS 2.0“, Beißwenger et al. 2015) verwendet die Kategorien des
+                <hi rend="italic">Stuttgart-Tübingen Tagset</hi> (STTS, Schiller et al.
+                1999) und erweitert diese einerseits um Tags für typische Einheiten bei der
+                schriftlichen Sprachverwendung in Social-Media-Genres (u. a. Emoticons,
+                Hashtags, Adressierungen) sowie um Einheiten für die Darstellung von
+                Phänomenen, die typisch sind für Kontexte informeller, dialogischer
+                Kommunikation (u. a. Abtönungs- und Intensitätspartikeln, Diskursmarker).
+                Die Erweiterungen sind abgestimmt auf Erweiterungen, die am IDS für die
+                PoS-Annotation des FOLK-Korpus zur gesprochenen Sprache zum Einsatz kommen. </p>
+                <p>Um die Annotationen nach STTS 2.0 zu erzeugen, wurde das komplette
+                  Chat-Korpus 2015 mit einem POS-Tagger annotiert, für den im BMBF-Projekt
+                  “Analyse und Instrumentarien zur Beobachtung des Schreibgebrauchs im
+                  Deutschen” (<ref target="http://www.schreibgebrauch.de/">IDS 2014-2016</ref>) neue Taggermodelle speziell für den Umgang mit
+                  Social-Media-Genres entwickelt wurden (Horbach et al. 2014). Um das Ergebnis
+                  der automatischen Annotation manuell nachzukorrigieren und zusätzlich
+                  einzelnen Tokens normalisierte Formen zuzuordnen, wurde das Werkzeug <hi
+                  rend="italic">OrthoNormal</hi> (Schmidt 2012) auf die Bearbeitung von
+                  Chat-Daten angepasst. </p>
+                </div>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Zielressource und Mehrwerte</head>
+                <p>Die Integration in die Infrastrukturen der beteiligten CLARIN-D-Zentren umfasst die Archivierung in den Repositorien an der BBAW und am IDS, die Aufnahme der Metadaten in das <ref target="https://vlo.clarin.eu/">Virtual Language Observatory</ref> (VLO), die Einbindung der Daten in die korpusübergreifende Suchmaschine
+                <hi rend="italic">CLARIN Federated Content Search</hi> sowie die Bereitstellung über Webservices.
+              </p>
+              <p>Die rechtlichen Bedingungen der Bereitstellung werden über ein Rechtsgutachten
+                geklärt. Je nach Ergebnis kommen für die Ressource unterschiedliche
+                Lizenzmodelle in Frage: Als Idealfall wird eine CLARIN-Endnutzer-Lizenz vom Typ
+                PUB („publicly available“, Oksanen et al. 2010) angestrebt, gegebenenfalls aber
+                auch der Lizenztyp ACA-NC (akademische, nicht-kommerzielle Nutzung zum
+                vollständigen Kopieren / Download freigegebener Ressourcen) oder, falls
+                erforderlich, eine Beschränkung auf eine Nutzung über eine
+                Korpusrecherchesoftware durch bei CLARIN registrierte Nutzer (Lizenztyp QAO-NC,
+                gemäß Vorschlag in Kupietz / Lüngen 2014).</p>
+                <p>Nach der Integration wird die Zielressource für Nutzer im Bereich der Digital Humanities gegenüber der Ausgangsressource die folgenden Mehrwerte aufweisen:</p>
+                <list type="unordered">
+                  <item>
+                    <hi rend="bold">Erweiterung der Möglichkeiten des Zugriffs und der Durchsuchbarkeit</hi> der Ressource.
+                  </item>
+                  <item>
+                    <hi rend="bold">Interoperabilität auf der Ebene der Dokumentstruktur (TEI):</hi> Durch die Remodellierung in einem TEI-Format wird die Ressource interoperabel mit anderen in TEI repräsentierten Sprachressourcen und Annotations- bzw. Analysewerkzeugen.
+                  </item>
+                  <item>
+                    <hi rend="bold">Linguistische Annotation:</hi> Die Anreicherung um zusätzliche linguistische Basisannotationen wird die Möglichkeiten zur Nutzung der Ressource für die korpusgestützte Sprachanalyse erweitern und anspruchsvollere linguistische Suchanfragen ermöglichen.
+                  </item>
+                  <item>
+                    <hi rend="bold">Interoperabilität auf der Ebene der linguistischen Annotation (STTS):</hi> Durch die Kompatibilität der Part-of-speech-Annotationen mit STTS wird die Ressource interoperabel mit anderen nach STTS annotieren Sprachressourcen.
+                  </item>
+                  <item>
+                    <hi rend="bold">Vernetzung mit Korpusressourcen anderen Typs:</hi> Durch die Integration in CLARIN-D und die genannten Interoperabilitätsmerkmale werden die Möglichkeiten zu einem korpusgestützten Vergleich sprachlicher Besonderheiten im Chat-Korpus mit Korpora gesprochener Sprache und Korpora redigierter Schriftlichkeit verbessert.
+                  </item>
+                  <item>
+                    <hi rend="bold">Verbesserte Auffindbarkeit der Ressource</hi> durch die Bereitstellung standardisierter Metadaten und die Aufnahme in das VLO.
+                  </item>
+                </list>
+                <p>Die Ergebnisse aus dem Projekt können zum gegenwärtigen Zeitpunkt z. T. nur
+                  perspektivisch formuliert werden. Zum Termin der Konferenz werden die
+                  Projektarbeiten abgeschlossen sein und die Ergebnisse vorliegen.</p>
+                </div>
+              </body>
+              <back>
+                <div type="Notes">
+                  <note xml:id="n01" n="1">Für weitere Informationen siehe <ref target="http://www.clarin-d.de/de/wissenschaftsbereiche/germanistik">http://www.clarin-d.de/de/wissenschaftsbereiche/germanistik</ref></note>
+                <note xml:id="n02" n="2">Sie hierzu die Webseite der TEI unter <ref
+                    target="http://www.tei-c.org/Activities/SIG/CMC/"
+                    >http://www.tei-c.org/Activities/SIG/CMC/</ref>.
+                </note>
+                <note xml:id="n03" n="3">Siehe <ref
+                    target="http://www.tei-c.org/Guidelines/Customization/odds.xml"
+                    >http://www.tei-c.org/Guidelines/Customization/odds.xml</ref>.
+                </note></div>
+                <div type="bibliogr">
+                  <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                      <hi rend="bold">Beißwenger, Michael</hi> (2013): "Das Dortmunder
+                      Chat-Korpus", in: <hi rend="italic">Zeitschrift für germanistische
+                      Linguistik</hi> 41, 1: 161-164. Erweiterte Fassung online: <ref
+                      target="http://tinyurl.com/chatkorpus"
+                      >http://tinyurl.com/chatkorpus</ref> [letzter Zugriff 18. September
+                      2015]. <hi rend="bold">Beißwenger, Michael / Ermakova, Maria / Geyken,
+                      Alexander / Lemnitzer, Lothar / Storrer, Angelika</hi> (2012): "A TEI
+                      Schema for the Representation of Computer-mediated Communication", in: <hi
+                      rend="italic">Journal of the Text Encoding Initiative (jTEI)</hi> 3.
+                      <ref target="http://jtei.revues.org/476"
+                        >http://jtei.revues.org/476</ref> [letzter Zugriff 18. September
+                        2015].</bibl>
+                        <bibl><hi rend="bold">Beißwenger, Michael / Bartz, Thomas / Storrer, Angelika /
+                          Westpfahl, Swantje</hi> (2015): <hi rend="italic">Tagset und Richtlinie
+                          für das PoS-Tagging von Sprachdaten aus Genres internetbasierter
+                          Kommunikation</hi>. <ref
+                          target="https://sites.google.com/site/empirist2015/home/annotation-guidelines"
+                          >https://sites.google.com/site/empirist2015/home/annotation-guidelines</ref>
+                          [letzter Zugriff 18. September 2015].</bibl>
+                          <bibl>
+                            <hi rend="bold">Chanier, Thierry / Poudat, Celine / Sagot, Benoit /
+                              Antoniadis, Georges / Wigham, Ciara / Hriba, Linda / Longhi, Julien /
+                              Seddah, Djamé</hi> (2014): "The CoMeRe corpus for French: structuring
+                              and annotating heterogeneous CMC genres", in: <hi rend="italic">Journal of
+                              Language Technology and Computational Linguistics</hi> 2: 1-30. <ref
+                              target="http://www.jlcl.org/2014_Heft2/1Chanier-et-al.pdf"
+                              >http://www.jlcl.org/2014_Heft2/1Chanier-et-al.pdf</ref> [letzter
+                              Zugriff 18. September 2015].</bibl>
+                              <bibl>
+                                <hi rend="bold">Horbach, Andrea / Steffen, Diana / Thater, Stefan / Pinkal,
+                                  Manfred</hi> (2014): "Improving the Performance of Standard
+                                  Part-of-Speech Taggers for Computer-Mediated Communication", in: <hi
+                                  rend="italic">Proceedings of KONVENS 2014</hi> 171-177. </bibl>
+                                  <bibl><hi rend="bold">IDS = Institut für Deutsche Sprache</hi> (2014-2016): <hi
+                                  rend="italic">Projekt Schreibgebrauch</hi>. Analyse und Instrumentarien
+                                  zur Beobachtung des Schreibgebrauchs im Deutschen <ref
+                                  target="http://www.schreibgebrauch.de/index.html"
+                                  >http://www.schreibgebrauch.de/index.html</ref>.</bibl>
+                                  <bibl>
+                                    <hi rend="bold">Kupietz, Marc / Lüngen, Harald</hi> (2014): "Recent
+                                    developments in DeReKo", in: Calzolari, Nicoletta / Choukri, Khalid /
+                                    Declerck, Thierry / Loftsson, Hrafn / Maegaard, Bente / Mariani, Joseph /
+                                    Odijk, Jan / Piperidis, Stelios (eds): <hi rend="italic">Proceedings of the
+                                    Ninth International Conference on Language Resources and Evaluation
+                                    (LREC 2014)</hi>, Reykjavik, Iceland. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Margaretha, Eliza / Lüngen, Harald</hi> (2014): "Building
+                                      Linguistic Corpora from Wikipedia Articles and Discussions", in: <hi
+                                      rend="italic">Journal of Language Technology and Computational
+                                      Linguistics</hi> 2: 59-82. <ref
+                                      target="http://www.jlcl.org/2014_Heft2/3MargarethaLuengen.pdf"
+                                      >http://www. jlcl.org/2014_Heft2/3MargarethaLuengen.pdf</ref> [letzter
+                                      Zugriff 18. September 2015]. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Oksanen, Ville / Lindén, Krister / Westerlund, Hanna</hi>
+                                        (2010): "Laundry Symbols and License Management: Practical Considerations
+                                        for the Distribution of LRs based on experiences from CLARIN", in: <hi
+                                        rend="italic">Proceedings of LREC 2010: Workshop on Language Resources:
+                                        From Storyboard to Sustainability and LR Lifecycle Management</hi>,
+                                        Malta. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Schmidt, Thomas</hi> (2012): "EXMARaLDA and the FOLK tools –
+                                          two toolsets for transcribing and annotating spoken language", in: <hi
+                                          rend="italic">Proceedings of LREC2012</hi>
+                                          <ref
+                                            target="http://www.lrec-conf.org/proceedings/lrec2012/pdf/529_Paper.pdf"
+                                            >http://www.lrec-conf.org/proceedings/lrec2012/pdf/529_Paper.pdf</ref>
+                                            [letzter Zugriff 18. September 2015]. </bibl>
+                                            <bibl><hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine</hi>
+                                            (1999): <hi rend="italic">Guidelines für das Tagging deutscher Textcorpora
+                                            mit STTS (Kleines und großes Tagset)</hi>. Universität Stuttgart:
+                                            Institut für maschinelle Sprachverarbeitung. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">TEI Consortium</hi> (eds.) (2007): <hi rend="italic">TEI P5:
+                                              Guidelines for Electronic Text Encoding and Interchange</hi>
+                                              <ref target="http://www.tei-c.org/Guidelines/P5/"
+                                                >http://www.tei-c.org/Guidelines/P5/</ref> [letzter Zugriff 18.
+                                                September 2015]. </bibl>
+                                              </listBibl>
+                                            </div>
+                                          </back>
+                                        </text>
+                                      </TEI>

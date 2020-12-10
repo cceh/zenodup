@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-073">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kollaboratives Schreiben gestern, heute und morgen: Nutzen und Grenzen eines Visualisierungs- und Analysemodels aus der digitalen Literaturforschung</title>
+        <author>
+          <name>
+            <surname>Zimmermann</surname>
+            <forename>Heiko</forename>
+          </name>
+          <affiliation>Universität Trier, Deutschland</affiliation>
+          <email>heiko.zimmermann@uni-trier.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-30T16:26:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>digitale Literatur</term>
+          <term>kollaboratives Schreiben</term>
+          <term>Autorschaft</term>
+          <term>Visualisierung</term>
+          <term>Modellbildung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Entdeckung</term>
+          <term>Modellierung</term>
+          <term>Theoretisierung</term>
+          <term>Community-Bildung</term>
+          <term>Bewertung</term>
+          <term>Visualisierung</term>
+          <term>Computer</term>
+          <term>Interaktion</term>
+          <term>Literatur</term>
+          <term>Multimedia</term>
+          <term>Multimodale Kommunikation</term>
+          <term>Personen</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <quote>"Journale sind eigentlich schon 'gemeinschaftliche' Bücher. Das Schreiben in
+        Gesellschaft ist ein interessantes Symptomn — das noch eine große Ausbildung der
+        Schriftstellerey ahnden läßt. Man wird vielleicht einmal in 'Masse' schreiben,
+        denken, und handeln — Ganze Gemeinden, selbst Nationen werden Ein Werck
+        unternehmen." (Novalis 1965: 645).</quote>
+        <p>Sieht man vom gemeinschaftlichen Schreiben aktueller 'Wirklichkeiten' in Facebook ab, ist Novalis' Prophetie weit entfernt von kreativen Schreibprozessen der Gegenwart. Dennoch hat es unterschiedlichste Formen kollaborativen Schreibens seit jeher gegeben. Dieses Schreiben hat die Literaturkritik und -wissenschaft oft vor Probleme gestellt (vgl. Ede / Lunsford 1990). In den letzten Jahren haben die Möglichkeiten des vernetzten Schreibens am Computer neue Formen und Dimensionen kollaborativer Schreibenprozesse gefördert. Werke wie die Enzyklopädie
+          <hi rend="italic">Wikipedia</hi>, den aus Fanfiction entstandenen Bestseller-Roman
+          <hi rend="italic">Shades of Grey</hi>, das multimediale Universum um die MTV-Serie
+          <hi rend="italic">Teenwolf</hi> oder auch das bisher größte digitale Romanprojekt
+          <hi rend="italic">A Million Penguins</hi> wären ohne den Rechner im Internet unmöglich gewesen.
+        </p>
+        <p>Zur selben Zeit ist in der englischsprachigen Welt das Genre der digitalen Literatur
+          aufgekommen, welches die Literaturwissenschaft ebenfalls vor große Herausforderungen
+          stellt. Ein Hauptproblem ist das der Rekonfigurationen von Autor- und Leserschaft,
+          das mittels poststrukturalistischer Metaphern (Landow 2006; Simanowski 2002; Winko
+          1999) nicht hinreichend beschrieben werden konnte. Auch Zwischenwesen wie das Modell
+          des Wreaders, also des schreibenden Lesers, konnten die Abweichungen von tradierten
+          Rollen in der Literaturproduktion und -rezeption nicht sinnvoll modellieren. Aus den
+          selben Gründen funktionieren auch buchgeschichtliche Modelle des Literaturmarktes
+          wie das von Robert Darnton (1982) nur bedingt, um die Wirklichkeit digitaler
+          Literatur zu beschreiben.</p>
+          <p>Um das Problem der Autor- und Leserschaft und unzureichender tradierter
+            Modellierungen zu lösen, wurde das visuelle Beschreibungs- und Analysemodell des
+            textuellen Handlungsraums entwickelt (Zimmermann 2015a). Es basiert auf dem
+            Texton-Skripton-Modell von Espen Aarseth (1997: 62-65) und ordnet allen am Text
+            handelnden Akteuren einen eindeutigen Platz im Handlungsraum zu, der abhängig ist
+            von der Art und Weise und vom Zeitpunkt ihres Handelns am Text im Kontinuum von
+            Produktion und Rezeption (vgl. Abbildung 1). Anwendungen dieses Modells waren bisher
+            auf englische digitale Literatur beschränkt und haben in diesem Feld ergeben, dass
+            es bestimmte Konstellationen von Handelnden in der Literaturproduktion und
+            -rezeption, beispielsweise Foucaults Idee einer beherrschenden Stellung der
+            Autorfunktion in literarischen Diskursen, in Frage stellt (Zimmermann 2015b).</p>
+            <figure>
+              <graphic n="1001" width="16.002cm" height="11.331222222222221cm" url="p073-image1.png" rend="inline"/>
+            <p><hi rend="bold">Abb. 1</hi>: Beispiel eines TeKEU-Diagramms eines textuellen
+            Handlungsraums: Toby Litts Werk <hi rend="italic">Slice</hi> (Zimmermann 2015a:
+            186). </p>
+            </figure>
+            <p>Der vorgeschlagene Vortrag soll gleichsam mehrere Brücken zwischen akademischen Disziplinen und literarischen Traditionen schlagen. Das Modell des textuellen Handlungsraums, das aus dem Feld der elektronischen Literaturforschung - und damit aus einem Kerngebiet der digitalen Geisteswissenschaften, sofern diese nicht allein über Methoden und Werkzeuge definiert werden - stammt, soll nicht nur auf digitale englischsprachige Literatur angewendet werden, sondern auch auf nicht-digitale deutsche und englischsprachige literarische Texte der Gegenwart und des 20. Jahrhunderts. Damit werden Verbindungen zwischen verschiedenen Literaturen (zeitlich, sprachlich) und akademischen Feldern (digitale Literaturforschung, digitale Geisteswissenschaften, traditionelle Literaturwissenschaft) hergestellt.</p>
+            <p>Nachdem das Modell im Vortrag kurz vorgestellt wurde, fragt dieser nach den Formen von Autor- und Leserschaft ausgewählter kollaborativ geschriebener Texte, nach Möglichkeiten solches Schreiben sinnvoll zu klassifizieren und danach, ob sich Rückschlüsse auf die (kommerzielle) Verwertbarkeit ebendieser Literatur ziehen lassen. Flankierend wird damit eine Fallstudie für die Permeabilität traditioneller Literaturanalyse für Modelle aus dem Bereich der digitalen Literaturwissenschaft vorgestellt, und es werden die Potentiale und Grenzen einer derartigen Visualisierung literarischen Schaffens aufgezeigt.</p>
+          </body>
+          <back>
+            <div type="bibliogr">
+              <listBibl>
+                <head>Bibliographie</head>
+                <bibl>
+                  <hi rend="bold">Aarseth, Espen J.</hi> (1997): <hi rend="italic"
+                  >Cybertext</hi>. Perspectives on Ergodic Literature. Baltimore: Johns
+                  Hopkins UP. </bibl>
+                  <bibl>
+                    <hi rend="bold">Cumming, Charles</hi> (2008): <hi rend="italic">The 21
+                    Steps</hi>, in: Six to start (ed.): <hi rend="italic">We Tell Stories:
+                    Six Authors, Six Stories, Six Weeks</hi>.  <ref
+                    target="http://www.wetellstories.co.uk/stories/week1/"
+                    >http://www.wetellstories.co.uk/stories/week1/</ref> [letzter Zugriff
+                    12. Februar 2016].</bibl>
+                    <bibl>
+                      <hi rend="bold">Darnton, Robert</hi> (1982): “What Is the History of Books?”
+                      in: <hi rend="italic">Dædalus</hi> 111, 3: 65-83. </bibl>
+                      <bibl>
+                        <hi rend="bold">Dilke, Christopher / Forster, Edward M. / Coppard, A. E. /
+                          Laver, James</hi> (1975): “Three Courses and a Dessert: Being a New and
+                          Gastronomic Version of the Old Game of Consequences” in: Forster, Edward
+                          Morgan: <hi rend="italic">The Life to Come and other Stories</hi>.
+                          Harmondsworth: Penguin 235-74. </bibl>
+                          <bibl>
+                            <hi rend="bold">Ede, Lisa S. / Lunsford, Andrea A.</hi> (1990): <hi
+                            rend="italic">Singular Texts / Plural Authors</hi>. Perspectives on
+                            Collaborative Writing. Carbondale: Southern Illinois UP. </bibl>
+                            <bibl>
+                              <hi rend="bold">Flores, Leonardo Luis</hi> (2010): <hi rend="italic">Typing
+                              the Dancing Signifier: Jim Andrew’s (Vis)Poetics</hi>. Diss. University
+                              of Maryland. Digital Repository at the University of Maryland <ref
+                              target="http://drum.lib.umd.edu/bitstream/handle/1903/10799/Flores_umd_0117E_11445.pdf?sequence=1&amp;isAllowed=y"
+                              >http://drum.lib.umd.edu/bitstream/handle/1903/10799/Flores_umd_0117E_11445.pdf?sequence=1&amp;isAllowed=y</ref>
+                              [letzter Zugriff 12. Februar 2016].</bibl>
+                              <bibl>
+                                <hi rend="bold">Foucault, Michel</hi> (2003): “Was ist ein Autor?”, in:
+                                Jannidis, Fotis / Lauer, Gerhard / Martinez, Matias / Winko, Simone (eds.):
+                                <hi rend="italic">Texte zur Theorie der Autorschaft</hi>. Stuttgart:
+                                Reclam 198-229.  </bibl>
+                                <bibl>
+                                  <hi rend="bold">Hettche, Thomas / Hensel, Jana</hi> (2000): <hi
+                                  rend="italic">Null: Literatur im Netz</hi>. Ostfildern: DuMont.  </bibl>
+                                  <bibl>
+                                    <hi rend="bold">James, E. L </hi>(2011): <hi rend="italic">Fifty Shades of
+                                    Grey</hi>. London: Vintage. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Krajewski, Markus</hi> (2001): “Ver(b)rannt im Fahlen Feuer:
+                                      Ein Karteikartenkommentar”, in: <hi rend="italic">Der gerissene Faden:
+                                      Nichtlineare Techniken in der Kunst</hi>. Themenheft von <hi
+                                      rend="italic">Kunstforum International</hi> 155: 288-92. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Landow, George P.</hi> (1994): <hi rend="italic">Hyper /
+                                        Text / Theory</hi>. Baltimore: Johns Hopkins UP.  </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Landow, George P.</hi> (2006): <hi rend="italic">Hypertext
+                                          3.0</hi>. Critical Theory and New Media in an Era of Globalization.
+                                          Baltimore: Johns Hopkins UP. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Le Lionnais, François</hi> (1984): “Über experimentelle
+                                            Literatur” in: Queneau, Raymond / Le Lionnais, François (eds.): <hi
+                                            rend="italic">Hunderttausend Milliarden Gedichte</hi>. Frankfurt am
+                                            Main: Zweitausendeins.  </bibl>
+                                            <bibl><hi rend="bold">Litt, Toby</hi> (2008): <hi rend="italic">Slice</hi>, in:
+                                            Six to start: <hi rend="italic">We Tell Stories: Six Authors, Six Stories,
+                                            Six Weeks</hi>.  </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Manovič, Lev</hi> (2002): “Models of Authorship in New
+                                              Media", in: Manovič, Lev: <hi rend="italic">Homepage</hi>
+                                              <ref
+                                                target="http://manovich.net/index.php/projects/models-of-authorship-in-new-media"
+                                                >http://manovich.net/index.php/projects/models-of-authorship-in-new-media</ref>
+                                                [letzter Zugriff 12. Februar 2016]. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">Mason, Bruce / Thomas, Sue</hi> (2008): <hi rend="italic">A
+                                                  Million Penguins Research Report</hi>. Institute of Creative
+                                                  Technologies, De Montfort University <ref
+                                                  target="http://www.ioct.dmu.ac.uk/documents/amillionpenguinsreport.pdf"
+                                                  >http://www.ioct.dmu.ac.uk/documents/amillionpenguinsreport.pdf</ref>
+                                                  [letzter Zugriff 12. Februar 2016].</bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Nabokov, Vladimir</hi> (2000): <hi rend="italic">Pale
+                                                    Fire</hi>. London: Penguin. </bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Novalis</hi> (1965): <hi rend="italic">Schriften</hi>.
+                                                      Herausgegeben von Paul Kluckhohn und Richard Samuel. Bd 2: Das
+                                                      philosophische Werk I. Darmstadt: WBG. </bibl>
+                                                      <bibl><hi rend="bold">The Penguin Blog</hi> (2006): <hi rend="italic">The
+                                                      Official Blog of Penguin Books UK</hi>
+                                                      <ref target="http://penguinblog.co.uk/">http://penguinblog.co.uk/</ref>
+                                                      [letzter Zugriff 17. Februar 2016].</bibl>
+                                                      <bibl><hi rend="bold">Simanowski, Roberto</hi> (2000): “Einige Vorschläge und
+                                                      Fragen zur Betrachtung digitaler Literatur” in: Jäger, Georg / Simanowski,
+                                                      Roberto (eds.): <hi rend="italic">IASL Diskussionsforum online:
+                                                      Netzkommunikation in ihren Folgen</hi>. LMU München.</bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Simanowski, Roberto</hi> (2001): “Autorschaft in digitalen
+                                                        Medien: Eine Einleitung” in: <hi rend="italic">Text + Kritik</hi> 152: 3-21. </bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Simanowski, Roberto</hi> (2002): <hi rend="italic"
+                                                          >Interfictions</hi>. Vom Schreiben im Netz. Frankfurt am Main: Suhrkamp. </bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">Stelling, Anke / Dannenberg, Robbie</hi> (2003): <hi
+                                                            rend="italic">Nimm mich mit</hi>. Berlin: Fischer. </bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Winko, Simone</hi> (1999): “Lost in Hypertext? Autorkonzepte
+                                                              und neue Medien”, in: Jannidis, Fotis / Lauer, Gerhard / Martinez, Matias /
+                                                              Winko, Simone (eds.): <hi rend="italic">Rückkehr des Autors</hi>. Zur
+                                                              Erneuerung eines umstrittenen Begriffs. Tübingen: Niemeyer 511-33.  </bibl>
+                                                              <bibl>
+                                                                <hi rend="bold">Zimmermann, Heiko</hi> (2015a): <hi rend="italic"
+                                                                >Autorschaft und digitale Literatur</hi>. Geschichte, Medienpraxis und
+                                                                Theoriebildung. Trier: WVT. </bibl>
+                                                                <bibl>
+                                                                  <hi rend="bold">Zimmermann, Heiko</hi> (2015b): “Electronic Literature as a
+                                                                  Means to Overcome the Supremacy of the Author Function.”, in: <hi
+                                                                  rend="italic">ELO 2015 - The End(s) of Electronic Literature</hi>,
+                                                                  Bergen, Norwegen. </bibl>
+                                                                </listBibl>
+                                                              </div>
+                                                            </back>
+                                                          </text>
+                                                        </TEI>

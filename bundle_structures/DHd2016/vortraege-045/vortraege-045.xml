@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-045">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die Lehre der digitalen Visualisierung am Beispiel der Architektur</title>
+        <author>
+          <name>
+            <surname>Lengyel</surname>
+            <forename>Dominik</forename>
+          </name>
+          <affiliation>Brandenburgische Technische Universität Cottbus-Senftenberg, Deutschland</affiliation>
+          <email>lengyel@tu-cottbus.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Toulouse</surname>
+            <forename>Catherine</forename>
+          </name>
+          <affiliation>Brandenburgische Technische Universität Cottbus-Senftenberg, Deutschland</affiliation>
+          <email>toulouse@tu-cottbus.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T22:55:34.312274000</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Darstellung von Unschärfe</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Gestaltung</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Kommunikation</term>
+          <term>Lehre</term>
+          <term>Visualisierung</term>
+          <term>Computer</term>
+          <term>Bilder</term>
+          <term>3D-Bilder</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Forschungskontext</head>
+        <p>Visualisierung ist die visuelle Vermittlung nicht sichtbarer Inhalte. Dies sind im Kontext der Architektur zwar auch Planungen, bei der Beschäftigung mit der Geschichte jedoch unmittelbar geisteswissenschaftliche – baugeschichtliche, bauforscherische, archäologische oder kunsthistorische – Inhalte. </p>
+        <p>Der Vortrag soll darstellen, wie Studierende der Architektur in die Lage versetzt
+          werden, diese geisteswissenschaftlichen Inhalte visuell zu vermitteln.
+          Architektur ist prinzipiell fächerübergreifend, geradezu prädestiniert,
+          unterschiedliche Fächer – beim Bauen Gewerke genannt – miteinander in Einklang
+          zu bringen. Dabei lernen Architektur Studierende nicht nur die Techniken und
+          Methoden der klassischen Darstellung, sondern vor allem die Besonderheiten des
+          Digitalen, dass nämlich im Digitalen aus den vorhandenen Möglichkeiten besonders
+          gezielt selektiert werden muss, um zugleich effizient und überzeugend im Sinne
+          der Wissensvermittlung – und auch der Wissenschaftsvermittlung – vorgehen zu
+          können. </p>
+          <p>Der Vortrag geht von der allgemeinen Bedeutung der Gestaltung beim digitalen Visualisieren aus, das heißt von der Vermittlung dieser Bedeutung über die Vermittlung der notwendigen grundlegenden Techniken und Methoden bis hin zu Fallbeispielen aus der forschungsinduzierten Lehre. Der Vortrag erläutert damit die Grundlagen – und sieht sich als komplementäre Ergänzung – unseres Vortrags auf der Grazer DHd-Konferenz 2015 „Die Bedeutung architektonischer Gestaltung in der visuellen Vermittlung wissenschaftlicher Unschärfe am Beispiel von Ktesiphon und weiteren archäologischen Stätten“. </p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Lehre und Forschung</head>
+          <p>Digitale Visualisierungen sind, anders als analoge Visualisierungen, Ergebnis
+            mehrfacher abstrakter Übersetzungsprozesse, deren kontrollierter,
+            wissenschaftlicher Umgang ein hohes Abstraktionsvermögen erfordert. Es hat sich
+            gezeigt, dass die schrittweise Heranführung an die zunehmende Komplexität des
+            Visualisierens Studierende gezielt darauf vorbereitet, in jedem Schritt das
+            übergeordnete Ziel der Visualisierung im Auge zu behalten. In der Architektur
+            allgemein als Gestaltung bezeichnet, bedeutet dies, dass alle Schritte auf dem
+            Weg zur Visualisierung unter Berücksichtigung sämtlicher Gesichtspunkte erfolgt
+            und im Idealfall nichts dem Zufall überlassen wird. Zahlreiche realisierte
+            Forschungsprojekte haben zeigt, dass erst die systematische und streng
+            methodengebundene Vorgehensweise Visualisierungen ermöglicht, die als
+            Forschungsinstrumente Mehrwerte sowohl in der Vermittlung als auch in der
+            Forschung selbst generieren (vgl. Laufer 2011; Lengyel / Toulouse 2011a, c;
+            Lengyel / Schock-Werner / Toulouse 2011).</p>
+            <p>Die Reihe der Übersetzungen geisteswissenschaftlicher Inhalte in eine digitale Visualisierung beginnt im Allgemeinen auf einer textlichen Grundlage. Im Allgemeinen wird dieser Text von Illustrationen flankiert, die bereits den Anspruch haben, den Inhalt zu konkretisieren. Aus beiden wird ein digitales Modell generiert, das in der Lage sein muss, die sprachlich bedingte, und zwar durchaus intendierte, Unschärfe im Wissen, aufzunehmen. Das Modell schließlich wird dann zu einer Visualisierung transformiert, die die modellierten Inhalte visuell wahrnehmbar macht. Damit entsteht beim Betrachter im besten Fall ein Modell im Kopf, das dem Gedanken des ursprünglichen geisteswissenschaftlichen Ursprungs entspricht. </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Architektenlehre als Fallbeispiel</head>
+            <p>Zu allen oben genannten Schritten der Übersetzung geisteswissenschaftlicher
+              Inhalte gibt es in der Architektur Entsprechungen. Auch hier entsteht zunächst
+              im Kopf des Planers eine Vision eines Gebäudes, das über mehrere
+              Transformationsstufen schließlich zu einer Visualisierung gelangt, die die
+              Grundlage für eine Beauftragung werden kann. Insofern ist die Übersetzung
+              geisteswissenschaftlicher Inhalte für die Ausbildung von Architekten nicht
+              wesensfremd und wird seit Jahren erfolgreich erprobt (vgl. v. a. Lengyel /
+              Toulouse 2011b).</p>
+              <figure>
+                <graphic url="045-10000201000001C6000000FFD217E470.png"/>
+              </figure>
+              <p>
+                Der Anspruch an die Architektenlehre ist immer auch ein Anspruch an eine hohe Gestaltungsqualität. Diese so zu vermitteln, dass deutlich wird, dass Gestaltung vor allem eine hohe Konsistenz der Einzelteile bedeutet, nicht etwa eine Geschmacksache ist, sondern eben aus Erfahrung, intensiver Auseinandersetzung mit Grundlagen und auch der eigenen Arbeit sowie der Einbeziehung fächerübergreifender Perspektiven erwächst, ist Inhalt der Lehre auch der digitalen Visualisierung.
+              </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Das Curriculum</head>
+              <p>Die Grundlage der Gestaltung bildet die Rezeption von Gestaltung. Erreicht werden
+                soll vor allem die Erkenntnis, dass Gestaltung beurteilt und bewertet werden
+                kann. Die individuell gewählte Gestaltungsrichtung mag subjektiv sein, diese ist
+                jedoch unabhängig von der Gestaltungshöhe. Um die Unabhängigkeit der Richtung
+                der Gestaltung zu vermitteln, werden Beispiele aus der bildenden Kunst als
+                Referenz verwendet. Das allerdings setzt ein offenes Kunstverständnis voraus,
+                durch das über den unmittelbaren ästhetischen Eindruck des Betrachters die
+                Inspiration für die eigene Arbeit entsteht.</p>
+                <p>Eine kurze Darstellung der verwendeten Techniken gibt einen Überblick über die
+                  Grundlage der Ausdrucksmöglichkeiten für die digitalen Visualisierungen. Die
+                  erste ist die Darstellende Geometrie, da ein geometrisches Verständnis
+                  Voraussetzung für digitale Visualisierungen ist, sobald diese räumliche
+                  Konstruktionen beinhalten (vgl. Lengyel 2005).</p>
+                  <p>Das sich anschließende CAD – nur vermeintlich der Kern der digitalen
+                    Visualisierung – ist tatsächlich nur der konstruktive Teil, der zudem ergänzt
+                    wird durch nicht konstruierte Daten wie 3D-Scans. Diese sind völlig anders
+                    aufgebaut als konstruierte Geometrie. Die Herausforderung besteht darin,
+                    Konstruiertes und 3D-Scans aufeinander abzustimmen, wie dies beispielsweise bei
+                    Rekontextualisierungen antiker Skulpturen der Fall ist (vgl. Lengyel / Toulouse
+                    2011c und 2014). Auch die Ausgabe als 3D-Druck gehört zum weiteren Bereich der
+                    Visualisierung, doch steht hier nicht etwa die Technik im Vordergrund. Zwar muss
+                    die Statik des Materials beachtet werden, die eigentliche Herausforderung ist
+                    aber auch hier die Gestaltung des 3D-Drucks. Die Geometrie muss trotz der
+                    technisch bedingten Anpassung den architektonischen Charakter beibehalten. Auch
+                    hierfür sind stringente Gestaltungsrichtlinien zu berücksichtigen.
+                </p>
+                <figure>
+                  <graphic url="045-10000201000001C60000012212E9E6E6.png"/>
+                </figure>
+                <p>Spätestens in dieser Phase muss das Modell zurückgeführt werden in den Bereich
+                  der Wahrnehmung. Die Bedeutung der gezielten Projektion des Modells in ein
+                  sichtbares Medium wird durch die Analogie virtuelles Modell und virtuelle
+                  Fotografie unterstrichen (vgl. v. a. Lengyel / Schock-Werner / Toulouse 2011).
+                  Dies soll vor allem in der Lehre verankern, dass es sich bei der Projektion um
+                  bewusste gestalterische Prozesse handelt. Um den intensiven Arbeitsprozess der
+                  Gestaltung auf die Spitze zu treiben, haben sich strenge Rahmenbedingungen als
+                  zielführend erwiesen. Sie zwingen zu einer Auseinandersetzung in der Tiefe,
+                  wodurch Erkenntnisse generiert werden, die sich problemlos auf andere Projekte
+                  übertragen lassen.</p>
+                  <p>Das Curriculum in der Architekturlehre ist bestimmt durch die Steigerung der Komplexität. Am Beginn steht die visuelle Reflexion vorgegebener architektonischer Gestaltung. Die Auseinandersetzung mit bereits realisierter Architektur verlangt es, fremde Gestaltungsmotive zu reflektieren, zunächst also ein den Geisteswissenschaften geläufiger Vorgang, diese dann aber in eine eigenständig gestaltete Darstellung umzusetzen. So werden hier die Grundlagen der digitalen Visualisierung gelegt, denn das zugrunde liegende Modell wird im virtuellen Raum dreidimensional konstruiert. Hierfür werden nicht nur die digitalen Werkzeuge und auch die digitalen Methoden der Konstruktion, Rotation, Vervielfältigung, Konstruktionspunkte usw. geübt, sondern die Analyse der geometrischen Strukturen führt darüberhinaus zu einem inhaltlichen Verständnis der vorgefundener Motive.</p>
+                  <p>Mit zunehmender Komplexität erhält entweder der Kontext der Architektur oder auch
+                    die eigenständige Gestaltung ein höheres Gewicht. In der Seminarreihe
+                    „Perspektiven Gestalten“ vermittelt die Architekturfotografie als praktisches
+                    Vorbild Komposition als Gestaltungskonzept (vgl. Lengyel 2008). Reflektiert
+                    werden neben der Komposition natürlich auch Beleuchtung, Brennweite, natürliche
+                    Augenhöhe, senkrechte Bildebene. Gleichzeitig werden auch Begriffe der
+                    inhaltlichen Ebene wie Kontext, Tiefenstaffelung und Detaillierungsgrad
+                    behandelt.</p>
+                    <p>Aufgaben der nächsten Stufe erhalten zusätzliche Anforderungen. In der
+                      Fotomontage wird eine eigenständige Raumgestaltung mit einem vorgegebenen
+                      architektonischen Kontext konfrontiert. Durch den Dialog zwischen realer und
+                      virtueller Welt wird ein wichtiger Anspruch an die digitale Visualisierung
+                      deutlich, nämlich die angemessene Abstraktion. Wie definiert nämlich muss ein
+                      Modell sein, um erstens neben dem Foto bestehen zu können und zweitens trotz
+                      seiner unvermeidlichen Abstraktion immersiv und überzeugend zu wirken. Diese
+                      Kombination entspricht natürlich auch dem üblichen Arbeiten der Architekten,
+                      Abstrakte Inhalte überzeugend zu präsentieren. Vermittelt wird also die Stärke
+                      der Abstraktion als Weg, bestimmte Komponenten besonders in der Vordergrund zu
+                      stellen. Die Abstraktion umfasst alle Stufen von der geringfügigen geometrischen
+                      Vereinfachung über die Typenbildung bis hin zu diagrammatischen Strukturen (vgl.
+                      Lengyel / Toulouse 2013).</p>
+                      <p>Um die Bildaussage in höchstem Maße auf das gesteckte Ziel abzustimmen, wie es bei der Visualisierung geisteswissenschaftlicher Inhalte der wissenschaftliche Anspruch verlangt, verfolgen die Aufgaben die Raumgestaltung allein zum Zweck der Raumwirkung. Diese Fokussierung ist kein Eingeständnis, sondern die bewusste Betonung eines einzelnen Aspektes, auch dies also die Auseinandersetzung in die Tiefe als Voraussetzung für intensives gestalterisches Arbeiten in der digitalen Visualisierung.</p>
+                      <p>Im Masterstudium wird es dann möglich, unmittelbar forschungsinduziert zu lehren. Allgemeine Fragestellungen zum geometrischen Abstraktionsprozess etwa lauten, wie weit eine Abstraktion gehen kann, ohne das die Wiedererkennbarkeit leidet. Oder wie sich Farbigkeit auf Raumwahrnehmung auswirkt, auf die Tiefenwahrnehmung, auf das Licht, die Plausibilität des Raumes usw.</p>
+                      <p>Abgeschlossen wird die Heranführung der werdenden Architekten an die digitalen Visualisierungen als studentische Hilfskraft in laufenden Forschungsprojekten. Sie kommen so besonders nah an die Komplexität des Themas heran. Gerade mehrjährige Projekte in Forschungsgruppen oder Clustern erlauben es, einen besonderes tiefen Eindruck zu gewinnen. Das Excellence Cluster TOPOI, bei dem der Lehrstuhl mit dem Thema der Darstellung von Unschärfe im archäologischen Wissen – oben erwähnt als Beitrag zur DHd-Konferenz 2015 – beteiligt ist, beispielsweise besteht fast ausschließlich aus Geisteswissenschaftlern.</p>
+                    </div>
+                    <div type="div1" rend="DH-Heading1">
+                      <head>Fazit</head>
+                      <p>Die digitale Visualisierung ist eine gestalterische Tätigkeit, die durch die wissenschaftliche Reflexion erst einen Mehrwert in den Geisteswissenschaften entfalten kann. Obgleich die Beherrschung grundlegender Techniken unverzichtbar ist, sind diese noch kein Garant für eine weiterführende Anwendung. Technik und Methoden sind noch am ehesten erlernbar. Gestaltung aber ist vor allem eine Sache von Praxis und Erfahrung. Erst der kritische Umgang mit den Werkzeugen, der intensive Dialog mit den beteiligten Wissenschaften und vor allem Selbstreflexion erlauben es der digitalen Visualisierung, als Instrument sowohl der Forschung selbst als auch deren Vermittlung zu dienen. Das vorgestellte Curriculum aus der Architektenlehre sei als Beispiel gedacht für eine mögliche Heranführung an das Thema digitale Visualisierungen als eine Möglichkeit der Aufarbeitung geisteswissenschaftlicher Daten. </p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="bibliogr">
+                      <listBibl>
+                        <head>Bibliographie</head>
+                        <bibl>
+                          <hi rend="bold">Laufer, Eric / Lengyel, Dominik / Pirson, Felix /
+                            Stappmanns, Verena / Toulouse, Catherine</hi> (2011): "Die
+                            Wiederentstehung Pergamons als virtuelles Stadtmodell", in: Scholl, Andreas,
+                            Kästner, Volker / Grüssinger, Ralf (eds.): <hi rend="italic">Antikensammlung
+                            Staatliche Museen Berlin</hi>. Pergamon. Panorama der antiken Metropole.
+                            Petersberg: Imhof 82–86. </bibl>
+                            <bibl>
+                              <hi rend="bold">Lengyel, Dominik</hi> (2005): "Anschauliche Geometrie", in:
+                              <hi rend="italic">Positionen der Geometrieausbildung</hi>. Tagungsband
+                              der ersten Tagung der Deutschen Gesellschaft für Geometrie und Grafik 45–52. </bibl>
+                              <bibl>
+                                <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2008): <hi
+                                rend="italic">Perspektiven Gestalten</hi>. Cottbus: Brandenburgische
+                                Technische Universität.</bibl>
+                                <bibl>
+                                  <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2011a): "Die
+                                  Gestaltung der Vision Naga - Designing Naga's Vision", in: Kröper, Karla /
+                                  Schoske, Sylvia / Wildung, Dietrich (eds.): <hi rend="italic">Königsstadt
+                                  Naga - Naga, Royal City</hi>. Grabungen in der Wüste des Sudan -
+                                  Excavations in the Desert of the Sudan. München / Berlin: Naga-Projekt
+                                  Berlin / Staatliches Museum Ägyptischer Kunst München 163-175. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2011b):
+                                    "Darstellung von unscharfem Wissen in der Rekonstruktion historischer
+                                    Bauten", in: Heine, Katja / Rheidt, Klaus / Henze, Frank / Riedel, Alexandra
+                                    (eds.): <hi rend="italic">Von Handaufmaß bis High Tech III</hi>. 3D in der
+                                    historischen Bauforschung. Darmstadt / Mainz: Philipp von Zabern 182-186. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2011c): "Ein
+                                      Stadtmodell von Pergamon - Unschärfe als Methode für Darstellung und
+                                      Rekonstruktion antiker Architektur", in: Petersen, Lars / Hoff, Ralf von den
+                                      (eds.): <hi rend="italic">Skulpturen in Pergamon</hi>. Gymnasion, Heiligtum,
+                                      Palast. Katalog zur gleichnamigen Ausstellung, Archäologische Sammlung der
+                                      Universität Freiburg, 6. Mai 2011 - 31. Juli 2011: 22–26.</bibl>
+                                      <bibl>
+                                        <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2012):
+                                        "Rekonstruktionszeichnungen der Bauphasen des kaiserzeitlichen Palatin in
+                                        Rom", in: Märtin, Ralf-Peter (ed.): <hi rend="italic">Jenseits des
+                                        Horizonts</hi>. Raum und Wissen in den Kulturen der Alten Welt.
+                                        Stuttgart: Verlag Konrad Theiss 14–20. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2013): "Die
+                                          Bauphasen des Kölner Domes und seiner Vorgängerbauten: Gestaltung zwischen
+                                          Architektur und Diagrammatik", in: Boschung, Dietrich / Jachman, Julian
+                                          (eds.): <hi rend="italic">Diagrammatik der Architektur</hi>. Tagungsband
+                                          Internationales Kolleg Morphomata der Universität zu Köln. Paderborn: Verlag
+                                          Wilhelm Fink 327-352. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Lengyel, Dominik / Toulouse, Catherine</hi> (2014):
+                                            "3D-Scans für die Rekontextualisierung antiker Skulptur", in: Bienert,
+                                            Andreas / Helmsley, James / Santos, Pedro (eds.): <hi rend="italic">EVA
+                                            Berlin 2014</hi>. Elektronische Medien &amp; Kunst, Kultur und Historie.
+                                            Konferenzband. Darmstadt / Berlin: Staatliche Museen zu Berlin / Stiftung
+                                            Preußischer Kulturbesitzt / Fraunhofer-Institut für Grafische
+                                            Datenverarbeitung 135-142. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Lengyel, Dominik / Schock-Werner, Barbara / Toulouse,
+                                                Catherine</hi> (2011): <hi rend="italic">Die Bauphasen des Kölner Doms
+                                                und seiner Vorgängerbauten</hi> / <hi rend="italic">Cologne Cathedral
+                                                and Preceding Buildings</hi>. Köln: Verlag Kölner Dom e.V. </bibl>
+                                              </listBibl>
+                                            </div>
+                                          </back>
+                                        </text>
+                                      </TEI>

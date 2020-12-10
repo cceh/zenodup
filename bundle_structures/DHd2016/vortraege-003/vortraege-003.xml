@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Algorithmische Visualisierungen: Ausdruck von Routinen und Denkstilen in den Digital Humanities</title>
+        <author>
+          <name>
+            <surname>Bubenhofer</surname>
+            <forename>Noah</forename>
+          </name>
+          <affiliation>Universität Zürich, Schweiz</affiliation>
+          <email>bubenhofer@cl.uzh.ch</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-09-28T11:32:36</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>algorithmische Visualisierung</term>
+          <term>Visual Analytics</term>
+          <term>Coding Cultures</term>
+          <term>Denkstile</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Theoretisierung</term>
+          <term>Visualisierung</term>
+          <term>Forschungsprozess</term>
+          <term>Software</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Zu den wichtigsten Arbeitsinstrumenten der Digital Humanities gehören die algorithmische Verarbeitung von Daten, die statistische Modellierungen von Zusammenhängen in Daten und visuelle Analysemethoden, um Daten verstehen zu können. Diese Instrumente folgen bestimmten Routinen wissenschaftlicher Praxis: Sie verwenden erprobte Algorithmen und halten sich an Standards der Datenmodellierung. Gleichzeitig konstituieren sie aber auch die wissenschaftliche Praxis mit – sie sind, um mit Ludwick Fleck zu sprechen, Mittel zur Profilierung eines Denkstils innerhalb eines wissenschaftlichen Denkkollektivs. Dazu gehören nicht nur die erwähnten Arbeitsinstrumente, sondern auch sprachliche Mittel: Fachbegriffe, Metaphern, Stile.</p>
+      <p>Um die Verknüpfung von Arbeitsinstrumenten und wissenschaftlichen Routinen genauer zu verstehen, müssen die Praktiken und Kulturen, in denen diese Instrumente erstellt werden, reflektiert werden. Welchen Einfluss hat die Wahl einer bestimmten Programmiersprache zur Implementierung eines Algorithmus auf die Digital-Humanities-Praxis? Beispielsweise die Verwendung des „postmodernen“ Perl (Wall 1999) statt Python? Welchen Einfluss hat die Programmiersprache auf die Art der algorithmisch erstellen Visualisierung? Beispielsweise die Verwendung von D3.js, P5.js, R oder der Software Excel (Bubenhofer 2015)? Welchen wissenschaftlichen Paradigmen entspringen populäre statistische Modellierungen? Beispielsweise Topic Modelling oder Support Vector Machines? Und mit welchen sprachlichen Mitteln werden die angewandten Instrumente in den wissenschaftlichen Diskurs eingebracht und legitimiert? </p>
+      <p>Wissenschaftsgeschichtliche Ansätze von Ludwik Fleck (Fleck 1983, 2011) oder auch
+        Thomas S. Kuhn (Kuhn 1996) lassen sich fruchtbar verknüpfen mit Überlegungen der
+        Software Studies (Fuller 2003; Mackenzie 2006; Manovich 2013; Cox / McLean 2012),
+        die den kulturellen Kontext und die soziale Praxis als Einflussfaktoren von
+        Software-Erstellung und -Nutzung betonen. Ebenso existiert eine Diskussion um die
+        Rolle von Algorithmen, statistischen Modellierungen oder generell Software-„Tools“
+        in Forschungsprozessen der Digital Humanities (Berry 2014; Bubenhofer / Scharloth
+        2015; Kath et al. 2015; Rieder / Röhle 2012). Die reiche Praxis der
+        Informationsvisualisierung und Visual Analytics für Fragen der Digital Humanities
+        führt ebenso nicht nur zu methodischen, sondern auch methodologischen und
+        theoretischen Diskussionen (Chen et al. 2008; Keim et al. 2010). Auch die Rolle von
+        Denkstilen in Wissenschaftsdiskursen und ihre Manifestation auf sprachlicher Ebene
+        wird in neuerer Zeit intensiver reflektiert (Czachur 2013; Fix 2011; Schiewe
+        1996).</p>
+        <p>Der Vortrag möchte vor diesem Hintergrund Code, Modelle, Visualisierungen und Sprache als Mittel und Instrument im Kontext wissenschaftlicher Routinen in den Digital Humanities reflektieren. Inwiefern drücken sich in den gewählten Programmiersprachen, Algorithmen, Visualisierungstypen, statistischen Modellen und sprachlich gefassten Interpretationen unterschiedliche Denkstile der Digital Humanities aus? Wo liegen die Chancen, aber auch die Gefahren, diese Denkstile zu reproduzieren? Welche Auswirkungen haben die Wahl und der reflektierte oder nicht reflektierte Umgang mit den Instrumenten auf wissenschaftliche Innovation in den Digital Humanities?</p>
+        <p>Dazu wird zunächst der Einsatz und die Typen von Visualisierungen in den textorientierten Digital Humanities analysiert und dann die technischen aber auch kulturellen Entstehungsbedingungen der algorithmischen Visualisierungen untersucht.</p>
+      </body>
+      <back>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl><hi rend="bold">Berry, David M.</hi> (2014): <hi rend="italic">Critical
+            Theory and the Digital</hi>. London, Oxford, New York, New Delhi,
+            Sydney: Bloomsbury.</bibl>
+            <bibl><hi rend="bold">Bubenhofer, Noah</hi> (2015): "Coding Cultures: Über den
+            Zusammenhang von Programmiersprachen und Denkstilen", in: <hi rend="italic"
+            >Sprechtakel</hi>. Linguistische Notizen <ref
+            target="https://www.bubenhofer.com/sprechtakel/2015/08/08/coding-cultures-ueber-den-zusammenhang-von-programmiersprachen-und-denkstilen/"
+            >https://www.bubenhofer.com/sprechtakel/2015/08/08/coding-cultures-ueber-den-zusammenhang-von-programmiersprachen-und-denkstilen/</ref>
+            [letzter Zugriff 17. August 2015].</bibl>
+            <bibl><hi rend="bold">Bubenhofer, Noah / Scharloth, Joachim</hi> (2015):
+            "Maschinelle Textanalyse im Zeichen von Big Data und Data-driven Turn –
+            Überblick und Desiderate", in: <hi rend="italic">Zeitschrift für
+            Germanistische Linguistik</hi> 43, 1: 1–26.</bibl>
+            <bibl><hi rend="bold">Chen, Chun-houh / Härdle, Wolfgang / Unwin, Antony</hi>
+            (eds.) (2008): <hi rend="italic">Handbook of data visualization</hi> (=
+            Springer handbooks of computational statistics). Heidelberg:
+            Springer.</bibl>
+            <bibl><hi rend="bold">Cox, Geoff / McLean, Alex</hi> (2012): <hi rend="italic"
+            >Speaking Code</hi>. Coding as Aesthetic and Political Expression.
+            Cambridge, Mass.</bibl>
+            <bibl><hi rend="bold">Czachur, Waldemar</hi> (2013): "Ludwik Flecks
+            Denkstilansatz als Inspiration für die Diskurslinguistik", in: <hi
+            rend="italic">Zeitschrift des Verbandes Polnischer Germanisten</hi> 2:
+            141–150.</bibl>
+            <bibl><hi rend="bold">Fix, Ulla</hi> (2011): <hi rend="italic">Denkstile und
+            Sprache</hi>. Die Funktion von „Sinn-Sehen“ und „Sinn-Bildern“ für die
+            „Entwicklung einer wissenschaftlichen Tatsache“ <ref
+            target="http://home.uni-leipzig.de/fix/Fleck.pdf"
+            >http://home.uni-leipzig.de/fix/Fleck.pdf</ref> [letzter Zugriff 04.
+            März 2014].</bibl>
+            <bibl><hi rend="bold">Fleck, Ludwik / Werner, Sylwia / Zittel, Claus</hi> (eds.)
+            (2011): <hi rend="italic">Denkstile und Tatsachen</hi>: Gesammelte Schriften
+            und Zeugnisse. Berlin: Suhrkamp.</bibl>
+            <bibl><hi rend="bold">Fleck, Ludwik / Schäfer, Lothar / Schnelle, Thomas</hi>
+            (eds.) (1983): <hi rend="italic">Erfahrung und Tatsache: gesammelte
+            Aufsätze</hi>. Frankfurt am Main: Suhrkamp.</bibl>
+            <bibl><hi rend="bold">Fuller, Matthew</hi> (2003): <hi rend="italic">Behind the
+            blip: essays on the culture of software</hi>. New York:
+            Autonomedia.</bibl>
+            <bibl><hi rend="bold">Kath, Roxana / Schaal, Gary S. / Dumm, Sebastian</hi>
+            (2015): "New Visual Hermeneutics", in: <hi rend="italic">Zeitschrift für
+            germanistische Linguistik</hi> 43, 1: 27–51.</bibl>
+            <bibl><hi rend="bold">Keim, Daniel A. / Kohlhammer, Jörn / Ellis, Geoffrey et
+              al.</hi> (2010): <hi rend="italic">Mastering the information age</hi> -
+              solving problems with visual analytics. Goslar: Eurographics
+              Association.</bibl>
+              <bibl><hi rend="bold">Kuhn, Thomas S.</hi> (1996): <hi rend="italic">Structure
+              of Scientific Revolutions</hi>. University of Chicago Press.</bibl>
+              <bibl><hi rend="bold">Mackenzie, Adrian </hi>(2006): <hi rend="italic">Cutting
+              Code: Software And Sociality</hi> (Digital Formations). Bern / Berlin /
+              Frankfurt am Main / New York / Paris / Wien: Peter Lang.</bibl>
+              <bibl><hi rend="bold">Manovich, Lev </hi>(2013): <hi rend="italic">Software
+              Takes Command</hi>. New York / London: INT edition.</bibl>
+              <bibl><hi rend="bold">Rieder, Bernhard / Röhle, Theo</hi> (2012): "Digital
+              Methods: Five Challenges", in: Berry, David M. (eds.): <hi rend="italic"
+              >Understanding Digital Humanities</hi>. Basingstoke: Palgrave
+              67–84.</bibl>
+              <bibl><hi rend="bold">Schiewe, Jürgen</hi> (1996): <hi rend="italic"
+              >Sprachenwechsel - Funktionswandel - Austausch der Denkstile</hi>. Die
+              Universität Freiburg zwischen Latein und Deutsch. Tübingen: Niemeyer.</bibl>
+              <bibl><hi rend="bold">Wall, Larry </hi>(1999): <hi rend="italic">Perl, the first
+              postmodern computer language</hi>
+              <ref target="http://www.wall.org/~larry/pm.html"
+                >http://www.wall.org/~larry/pm.html</ref> [letzter Zugriff 19. August
+                2015].</bibl>
+              </listBibl>
+            </div>
+          </back>
+        </text>
+      </TEI>

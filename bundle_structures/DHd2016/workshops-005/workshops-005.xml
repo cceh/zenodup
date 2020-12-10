@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="workshops-005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CATMA - Eine Plattform zum kollaborativen und automatisierten Annotieren und Analysieren von Texten</title>
+        <author>
+          <name>
+            <surname>Bögel</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>Universität Heidelberg, Deutschland</affiliation>
+          <email>thomas.boegel@informatik.uni-heidelberg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Gius</surname>
+            <forename>Evelyn</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>evelyn.gius@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Petris</surname>
+            <forename>Marco</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>marco.petris@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Strötgen</surname>
+            <forename>Jannik</forename>
+          </name>
+          <affiliation>Max-Planck-Institut für Informatik Saarbrücken, Deutschland</affiliation>
+          <email>jannik.stroetgen@mpi-inf.mpg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-10T15:06:00.76</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Workshops</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Textanalyse</term>
+          <term>Textannotation</term>
+          <term>Automatisierung</term>
+          <term>Kollaboration</term>
+          <term>Modellierung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Inhaltsanalyse</term>
+          <term>Strukturanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kollaboration</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Beschreibung</head>
+        <p> Dieser Workshop widmet sich der Textannotation und der Textanalyse mit der
+          web-basierten Annotationsplattform <ref target="http://www.catma.de/"
+          >CATMA</ref> (<hi rend="italic">Computer Aided Text Markup and
+          Analysis</hi>) (Meister et al. 2015), welche seit 2008 an der Universität
+          Hamburg entwickelt wird. Die Bedarfe der Modellierung und Operationalisierung
+          geisteswissenschaftlicher Konzepte und die Anwendung dieser Modelle auf
+          Textdaten stand bei der Entwicklung von CATMA im Fokus. CATMA ist Open Source
+          und außerdem XML / TEI-kompatibel, dadurch ist die Nachnutzbarkeit der mit CATMA
+          erstellten Annotationen und Analyseergebnisse sichergestellt. Der Workshop wird
+          neben einer Einführung in die Nutzung der Plattform für manuelles Annotieren auf
+          zwei weitere – gerade bei der Umsetzung größerer Annotationsprojekte wesentliche
+          – Aspekte genauer eingehen: Kollaboration und Automatisierung. </p>
+          <p>Im Workshop wird gezeigt werden, welche Funktionalitäten in CATMA für
+            kollaboratives Arbeiten zur Verfügung stehen und wie das kollaborative Arbeiten
+            unter den erschwerten Bedingungen der literaturwissenschaftlichen Praxis, wie z.
+            B. der Polyvalenz literarischer Texte, möglich ist. Beim automatischen Erstellen
+            von Annotationen hingegen spielen die kürzlich im Rahmen des <ref target="http://heureclea.de/">heureCLÉA</ref>-Projektes
+            <ref type="note" target="n01" n="1">1</ref> in CATMA integrierten
+            Möglichkeiten eine zentrale Rolle. </p>
+            <p>Ziel von heureCLÉA ist die Bereitstellung einer digitalen Heuristik zur
+              Annotation von einfachen bis komplexen Konzepten der Narratologie. Unter einer
+              digitalen Heuristik verstehen wir ein Werkzeug zur automatischen und
+              semiautomatischen Annotation. Das heureCLÉA-Projekt konzentriert sich hierfür
+              auf die Analyse temporaler Phänomene. Auf einer einfachen, an der Textoberfläche
+              orientierten Ebene handelt es sich hierbei unter anderem um die Erkennung von
+              Zeitausdrücken in literarischen Texten, auf einer komplexeren, metatextuellen
+              Ebene beispielsweise um die Erkennung von Phänomenen der zeitlichen Ordnung wie
+              Prolepse und Analepse (Gius / Jacke 2014). Dafür entwickelten wir einen auf
+              manuellen und automatischen Annotationen basierten Ansatz, in dem die
+              regelbasierte Extraktion und Normalisierung von Zeitausdrücken als Ausgangspunkt
+              für Machine Learning Verfahren verwendet wurde (Bögel et al. 2015). Eine ganz
+              wesentliche Komponente dieses Ansatzes ist das an der Universität Heidelberg
+              entwickelte System HeidelTime (Strötgen / Gertz 2013). Sowohl die automatische
+              Annotation von Zeitausdrücken, als auch linguistischer Oberflächenphänomene
+              (Wortarten und Satzgrenzen), sowie Tempusannotationen sind bereits in CATMA
+              integriert und können mit manuellen Annotationen kombiniert werden.</p>
+              <p>Im Workshop werden zunächst wesentliche Aspekte wie Modellierung, Annotation,
+                Analyse, Kollaboration und Automatisierung mit CATMA anhand der Erfahrungen des
+                heureCLÉA-Projektes vorgestellt. Anschließend haben die Teilnehmer_innen die
+                Gelegenheit in einer praktischen hands-on-Session CATMA sowie HeidelTime und
+                andere Komponenten der in CATMA integrierten NLP-Pipeline auszuprobieren.
+                Automatische Annotationen können evaluiert werden und mit manuellen Annotationen
+                kombiniert in die Analyse einfließen. Es kann entweder mit eigenen oder
+                kollaborativ mit von uns zur Verfügung gestellten Texten gearbeitet werden. </p>
+                <p>Wir erhoffen uns außerdem durch den Workshop kritisches Feedback zur weiteren Verbesserung von CATMA und eine Diskussion über die Anforderungen für Textanalyse-Plattformen in verschiedenen Bereichen der Digital Humanities.</p>
+              </div>
+              <div type="div1" rend="DH-Heading">
+                <head>Beitragende</head>
+                <p>Alle Veranstalter_innen sind Mitglieder des heureCLÉA-Projektes. Wir haben auf
+                  zahlreichen nationalen und internationalen Tagungen und Konferenzen unsere
+                  Arbeiten zu CATMA, HeidelTime und heureCLÉA vorgestellt. Dieser Workshop baut
+                  auf Erfahrungen aus anderen Workshops zum selben Thema sowie der Einbettung von
+                  CATMA in die Lehre auf. Auch das sehr positive Feedback vergangener Workshops,
+                  z. B. zu unserem Tutorial im Rahmen der DH 2014, hat uns dazu motiviert, erneut
+                  einen Workshop anzubieten bzw. einen Antrag dafür einzureichen.</p>
+                  <p>
+                    <ref target="http://dbs.ifi.uni-heidelberg.de/index.php?id=161">Thomas Bögel</ref>, Institut für Informatik, Universität Heidelberg,
+                  </p>
+                  <p>Nach seinem Computerlinguistikstudium begann Thomas Bögel sein Promotionsstudium am Institut für Informatik an der Universität Heidelberg, wo er auch wissenschaftlicher Mitarbeiter ist. Seine Forschung beschäftigt sich vor allem mit "event extraction" und "timeline generation" sowie mit der Entwicklung von Machine Learning Systemen für die Extraktion von temporalen Relationen in narratologischen Texten.</p>
+                  <p>
+                    <ref target="https://www.slm.uni-hamburg.de/germanistik/personen/gius.html">Evelyn Gius</ref>, Institut für Germanistik, Universität Hamburg,
+                  </p>
+                  <p>Evelyn Gius forscht und lehrt im Bereich der Digital Humanities mit einem Fokus auf computergestützter Textanalyse und der Hermeneutik digitaler Zugänge zu Texten. In ihrer Promotion hat sie mithilfe von CATMA an einem Korpus von Erzählungen über Arbeitssituationen untersucht, inwiefern narratologische Kategorien aus der Literaturwissenschaft für die Analyse der Konflikthaftigkeit von Alltagserzählungen genutzt werden können.</p>
+                  <p>
+                    <ref target="https://www.slm.uni-hamburg.de/germanistik/personen/petris.html">Marco Petris</ref>, Institut für Germanistik, Universität Hamburg,
+                  </p>
+                  <p>Marco Petris ist Informatiker mit starker Affinität für die Geisteswissenschaften und hat von Beginn an CATMA federführend aufgebaut. Als Software Entwickler ist er in zahlreiche Projekte für die Digital Humanities involviert, wobei er sich dabei vor allem um die Konzeption und Implementierung kümmert.</p>
+                  <p>
+                    <ref target="http://people.mpi-inf.mpg.de/~jstroetge/">Jannik Strötgen</ref>, Max-Planck-Institut für Informatik, Saarbrücken,
+                  </p>
+                  <p>Bevor Jannik Strötgen als Postdoc zum MPI wechselte, studierte er in Heidelberg
+                    Computerlinguistik und promovierte und arbeitete am Institut für Informatik der
+                    Universität Heidelberg. Im Rahmen seiner Dissertation beschäftigte er sich vor
+                    allem mit Informationsextraktion sowie Information Retrieval und begann die
+                    Entwicklung von HeidelTime, einem frei verfügbaren Temporal Tagger, der für
+                    verschiedene Domänen und Sprachen geeignet ist. </p>
+                  </div>
+                  <div type="div1" rend="DH-Heading">
+                    <head>Kapazität und Ausstattung</head>
+                    <p>Die Teilnehmerzahl ist auf 20 Personen begrenzt. Jede_r Teilnehmer_in braucht
+                      einen Laptop (ein Tablet PC reicht nicht aus!) und ein Google Mail Konto für den
+                      CATMA Login.</p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+                      <note xml:id="n01" n="1">heureCLEA ist ein BMBF-gefördertes
+                        ehumanities Projekt zwischen der Universität Hamburg und der Universität
+                        Heidelberg (Gertz / Meister 2016).</note>
+                      </div>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <head>Bibliographie</head>
+                          <bibl>
+                            <hi rend="bold">Bögel,Thomas / Strötgen, Jannik / Gertz, Michael</hi>
+                            (2015): „A Hybrid Approach to Extract Temporal Signals from Narratives“,
+                            accepted at: <hi rend="italic">International Conference of the German
+                            Society for Computational Linguistics and Language Technology
+                            (GSCL’15)</hi>, Duisburg-Essen, Germany. </bibl>
+                            <bibl><hi rend="bold">Gertz, Michael / Meister, Jan Christioph </hi>(2016): <hi
+                            rend="italic">heureCLÉA</hi>. Collaborative Literature exploration &amp;
+                            annotation. Hamburg: Universität Hamburg <ref target="http://heureclea.de/"
+                            >http://heureclea.de/</ref> [letzter Zugriff 08. Oktober 2015].</bibl>
+                            <bibl>
+                              <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2014): „Zur Annotation narratologischer
+                              Kategorien der Zeit. Guidelines zur Nutzung des CATMA-Tagsets“. Hamburg 2014
+                              <ptr target="http://heureclea.de/publications/guidelines.pdf"/>[letzter
+                              Zugriff 08. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">Meister, Jan Christoph / Gius, Evelyn / Petris, Marco / Meister, Malte
+                                / Jacke, Janina</hi> (2015): <hi rend="italic">CATMA</hi>. Computer
+                                Aided Textual Markup Computer Aided Textual Markup &amp; AnalysisAnalysis.
+                                Hamburg: Universität Hamburg <ref target="http://www.catma.de/"
+                                >http://www.catma.de/</ref> [letzter Zugriff 08. Oktober 2015].</bibl>
+                                <bibl>
+                                  <hi rend="bold">Strötgen, Jannik / Gertz, Michael</hi> (2013): „Multilingual and cross-domain temporal
+                                  tagging“ in: <hi rend="italic">Language Resources and Evaluation</hi> 47, 2:
+                                  269-298. </bibl>
+                                </listBibl>
+                              </div>
+                            </back>
+                          </text>
+                        </TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-012">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>With a little help from my (HDC-)friends</title>
+        <author>
+          <name>
+            <surname>Engelhardt</surname>
+            <forename>Claudia</forename>
+          </name>
+          <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+          <email>claudia.engelhardt@sub.uni-goettingen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kurzawe</surname>
+            <forename>Daniel</forename>
+          </name>
+          <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+          <email>kurzawe@sub.uni-goettingen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Wuttke</surname>
+            <forename>Ulrike</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+          <email>uwuttke@gwdg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Buddenbohm</surname>
+            <forename>Stefan</forename>
+          </name>
+          <affiliation>Max-Planck-Institut zur Erforschung multireligiöser und multiethnischer Gesellschaften</affiliation>
+          <email>buddenbohm@mmg.mpg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Forschungsdatenzentrum</term>
+          <term>Forschungsdatenmanagement</term>
+          <term>Langzeitarchivierung</term>
+          <term>Beratung</term>
+          <term>DatenkuratorInnen</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Bewertung</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Organisation</term>
+          <term>Konservierung</term>
+          <term>Daten</term>
+          <term>Datei</term>
+          <term>Bilder</term>
+          <term>3D-Bilder</term>
+          <term>Infrastruktur</term>
+          <term>Sprache</term>
+          <term>Link</term>
+          <term>Literatur</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>Multimedia</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Projekte</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Video</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Der Einsatz digitaler Methoden in den Geisteswissenschaften bringt eine Fülle von digitalen Forschungsdaten und -ergebnissen hervor. Hierunter fallen zum einen “einfache”, dateibasierte Objekte, von denen die traditionell in den Geisteswissenschaften stark verbreiteten Textformate den größten Teil ausmachen, die aber unter anderem auch audiovisuelle Medien (Bild, Ton, Video) umfassen. Zum anderen spielen zunehmend auch komplexe digitale Objekte eine Rolle, die aus mehreren, miteinander verbunden Einzelobjekten bestehen, wie etwa Digitale Editionen oder verknüpfte Datenbanken.</p>
+      <p>Die Langzeitarchivierung und dauerhafte Bereitstellung dieser Vielfalt von Forschungsdaten und -ergebnissen stellt sowohl Datenzentren als auch Wissenschaftlerinnen und Wissenschaftler vor zahlreiche Herausforderungen. Neben der Entwicklung und Bereitstellung angemessener technischer Lösungen gehört hierzu das Wissen um den sorgfältigen und kundigen Umgang mit Forschungsdaten. Aspekte der Langzeitarchivierung und dauerhaften Bereitstellung von Forschungsdaten müssen idealerweise von Beginn an und über den gesamten Forschungsprozess hinweg beachtet werden, damit Hindernisse, die einer Archivierung bzw. Nachnutzung der Daten entgegenstehen, von vornherein ausgeschlossen und die Daten ohne vermeidbaren Mehraufwand ins Datenzentrum überführt werden können. Ein fachgerechtes Forschungsdatenmanagement, insbesondere komplexer Datentypen, erfordert jedoch entsprechendes Know-how und Ressourcen (hauptsächlich in Form von Arbeitszeit) - was sich im wissenschaftlichen Alltag oft als beträchtliches Hemmnis herausstellt. Untersuchungen zeigen entsprechend, dass sich Wissenschaftlerinnen und Wissenschaftler sachkundige Unterstützung beim Datenmanagement und der Langzeitarchivierung wünschen (vgl. bspw. Simukovic et al. 2013: 30ff.; Feijen 2011: 28).</p>
+      <p>In seinem in der Designphase (Mai 2014 - April 2016) entwickelten Konzept für ein geisteswissenschaftliches Forschungsdatenzentrum trägt das Humanities Data Centre (<ref target="http://humanities-data-centre.org/">HDC 2014-2016</ref>) dieser Situation mit dem Entwurf eines stark nutzerorientierten Angebotsportfolios Rechnung. Das Portfolio kombiniert die technologischen Lösungen für die Langzeitarchivierung und Bereitstellung der Daten mit umfangreichen Angeboten zur Beratung, Unterstützung und Schulung von Wissenschaftlerinnen und Wissenschaftlern. Die tragende Säule des Beratungs- und Schulungskonzepts ist dabei ein verteiltes Netzwerk von Datenkuratorinnen und -kuratoren, die sowohl am Datenzentrum, als auch an assoziierten wissenschaftlichen Forschungseinrichtungen angesiedelt sind. Sie sollen zukünftig die Schnittstelle zwischen dem HDC und der Wissenschaft bilden und die Wissenschaftlerinnen und Wissenschaftler direkt vor Ort unterstützen und beraten. </p>
+      <p>Die Form und das Ausmaß der Zusammenarbeit der Datenkuratorinnen und -kuratoren mit den Forschenden wird, je nach Projektkonstellation, unterschiedlich sein. Grundsätzlich ist zwischen geplanten und abgeschlossenen Projekten zu differenzieren, da dieser Unterschied typische Implikationen für die (Beratungs-)Tätigkeit der Datenkuratorinnen und -kuratoren mit sich bringt.</p>
+      <p>Im Idealfall beginnt die Kooperation zwischen Wissenschaftlerinnen und
+        Wissenschaftlern und Datenkuratorinnen und -kuratoren bereits in der
+        Konzeptionsphase eines Projektes, in der gemeinsam der Umgang mit den Daten geplant,
+        ein Datenmanagementplan erstellt, der Aufwand für das Datenmanagement abgeschätzt
+        und idealerweise dafür auch Mittel beim Förderer beantragt werden. Das Projekt wird
+        auch im weiteren Verlauf von der / dem Datenkurator/-in begleitet, z. B. in Form von
+        Beratungsgesprächen an (für das Datenmanagement bzw. die spätere
+        Langzeitarchivierbarkeit und Nachnutzbarkeit der Daten) neuralgischen Punkten bis
+        hin zur Übergabe der Daten an das Datenzentrum. Da bereits während der
+        Projektlaufzeit ein sorgfältiges Datenmanagement erfolgte, ist in diesem Fall mit
+        einem vergleichsweise geringen Zusatzaufwand für die Aufbereitung der Daten für die
+        Übergabe ins Datenzentrum und die Nachnutzung zu rechnen. Anders ist die Situation
+        bei abgeschlossenen Projekten, insbesondere wenn die Forschungsdaten und -ergebnisse
+        komplexer Natur sind. Wenn hier kein gutes Datenmanagement stattgefunden hat, ist
+        die Gefahr groß, dass sich die Übergabe der Daten ins Datenzentrum und die
+        Aufbereitung zur späteren Nachnutzung ungleich aufwendiger gestaltet. In diesem Fall
+        muss zunächst einmal eine “Anamnese” durchgeführt werden, im Rahmen derer eruiert
+        wird, ob und inwieweit Langzeitarchivierung und Nachnutzung der Daten technisch und
+        rechtlich möglich sind, eine Lösung für die Langzeitarchivierung entwickelt und die
+        Daten anschließend entsprechend aufbereitet werden, bevor die Überführung ins
+        Datenzentrum stattfinden kann.</p>
+        <p>Das Poster illustriert die Aufgaben der zukünftigen HDC-Datenkuratorinnen und -kuratoren am konkreten Beispiel.</p>
+        <p>Das HDC-Konsortium in der Designphase besteht aus der Akademie der Wissenschaften zu Göttingen (ADWG), der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW), der Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG), dem Konrad-Zuse-Zentrum für Informationstechnik Berlin (ZIB), dem Max-Planck-Institut zur Erforschung multireligiöser und multiethnischer Gesellschaften Göttingen (MPIMMG) und der Niedersächsischen Staats- und Universitätsbibliothek Göttingen (SUB). Assoziierter Partner ist das Max-Planck-Institut für Wissenschaftsgeschichte Berlin (MPIWG). </p>
+        <p>Das Projekt wird vom Niedersächsischen Ministerium für Wissenschaft und Kultur (Niedersächsisches Vorab) gefördert.</p>
+      </body>
+      <back>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl>
+              <hi rend="bold">Feijen, Martin</hi> (2011): <hi rend="italic">What
+              researchers want</hi>. A literature study of researchers’ requirements
+              with respect to storage and access to research data. Utrecht: Surffoundation
+              <ref
+                target="https://www.surf.nl/binaries/content/assets/surf/en/knowledgebase/2011/What_researchers_want.pdf"
+                >https://www.surf.nl/binaries/content/assets/surf/en/knowledgebase/2011/What_researchers_want.pdf</ref>
+                [letzter Zugriff 15. Oktober 2015]. </bibl>
+                <bibl>
+                  <hi rend="bold">HDC</hi> (2014-2016): <hi rend="italic">HDC - Projekt
+                  Humanities Data Centre</hi>. Gesellschaft für wissenschaftliche
+                  Datenverarbeitung Göttingen / Akademie der Wissenschaften zu Göttingen /
+                  Berlin-Brandenburgische Akademie der Wissenschaften / Max-Planck-Institut
+                  zur Erforschung multireligiöser und multiethnischer Gesellschaften /
+                  Niedersächsische Staats- und Universitätsbibliothek Göttingen /
+                  Konrad-Zuse-Zentrum für Informationstechnik / Max-Planck-Institut für
+                  Wissenschaftsgeschichte <ref target="http://humanities-data-centre.org/"
+                  >http://humanities-data-centre.org/</ref> [letzter Zugriff 08. Januar
+                  2016]. </bibl>
+                  <bibl>
+                    <hi rend="bold">Simukovic, Elena / Kindling, Maxi / Schirmbacher, Peter</hi>
+                    (2013): <hi rend="italic">Umfrage zum Umgang mit digitalen Forschungsdaten
+                    an der Humboldt-Universität zu Berlin</hi>. Umfragebericht, Version 1.0.
+                    URN: urn:nbn:de:kobv:11-100213001, Computer- und Medienservice, Institut für
+                    Bibliotheks- und Informationswissenschaft, Humboldt-Universität zu Berlin
+                    <ref target="http://nbn-resolving.de/urn:nbn:de:kobv:11-100213001"
+                      >http://nbn-resolving.de/urn:nbn:de:kobv:11-100213001</ref> [letzter
+                      Zugriff 15. Oktober 2015]. </bibl>
+                    </listBibl>
+                  </div>
+                </back>
+              </text>
+            </TEI>

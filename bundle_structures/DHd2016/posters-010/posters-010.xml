@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-010">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Baustein statt Datenruine: Beitrag zu einer Forschungsumgebung mit Bild-Text-Annotationen</title>
+        <author>
+          <name>
+            <surname>Decker</surname>
+            <forename>Eric</forename>
+          </name>
+          <affiliation>Universität Heidelberg, Deutschland</affiliation>
+          <email>decker@asia-europe.uni-heidelberg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Volkmann</surname>
+            <forename>Armin</forename>
+          </name>
+          <affiliation>Universität Heidelberg, Deutschland</affiliation>
+          <email>armin.volkmann@asia-europe.uni-heidelberg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Guth</surname>
+            <forename>Matthias</forename>
+          </name>
+          <affiliation>Universität Heidelberg, Deutschland</affiliation>
+          <email>guth@asia-europe.uni-heidelberg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T17:23:30.62</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>XML</term>
+          <term>GUI</term>
+          <term>Arbeitsablauf</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Sammlung</term>
+          <term>Bilderfassung</term>
+          <term>Transkription</term>
+          <term>Programmierung</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Lehre</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Artefakte</term>
+          <term>Daten</term>
+          <term>Bilder</term>
+          <term>Infrastruktur</term>
+          <term>Link</term>
+          <term>Karte</term>
+          <term>Metadaten</term>
+          <term>Multimedia</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>In dieser Posterpräsentation soll das am Exzellenzcluster Asien und Europa der Universität Heidelberg angesiedelten Projekt "Standardisierte Arbeitsabläufe zur Retrodigitalisierung am Fallbeispiel der Grabungsdokumentation Kastell Heidelberg-Neuenheim" (RetroDig) vorgestellt werden. Im Rahmen dieses einjährigen (04/2015 - 03/2016) Disziplin übergreifenden Forschungsprojekts entwickelt die JRG Digital Humanites and Digital Cultural Heritage zusammen mit der Heidelberg Research Architecture (HRA) eine Reihe von strikt generischen Komponenten für den Einsatz in einem interdisziplinären Forschungsverbund.</p>
+      <p>Außeruniversitärer Partner bei diesem Vorhaben ist das Kurpfälzische Museum der Stadt Heidelberg, das eine bisher unpublizierte archäologische Grabungsdokumentation aus den 1970er für einen exemplarischen Retrodigitalisierungs-Workflow bereitstellt.</p>
+      <p>Im Fallbeispiel werden sämtliche analogen Artefakte der vom Verfall bedrohten Dokumentation (handgezeichnete Pläne, handschriftliches Grabungstagebuch und Papierabzüge von Fotos) von Mitarbeitern der JRG Digital Humanities digitalisiert, erschlossen und annotiert. Dazu wird am Exzellenzcluster vorhandene digitale Infrastruktur verwendet und wo nötig erweitert.</p>
+      <p>Das Kernstück der digitalen Forschungsumgebung des Clusters ist das
+        Metadaten-Ökosystem Tamboti<ref type="note" target="n01" n="1">1</ref>. Es handelt sich dabei um ein auf eXist DB basierendes Open Source System,
+      dass von der HRA zusammen mit ihren Partnern bereits seit mehreren Jahren entwickelt
+      und schrittweise ausgebaut wird. Größere Komponenten für Tamboti werden
+      grundsätzlich an Forschungsfragen orientiert im Rahmen von kleinen thematischen
+      Fallbeispielen entworfen und implementiert. Nach Projektabschluss werden die
+      entwickelten Softwarekomponenten von der HRA in den Regelbetrieb in Forschung und
+      Lehre überführt. </p>
+      <p>Im hier vorgestellten Projekt RetroDig sollen darüber hinaus auch Einsatzmöglichkeiten im Museumsbereich evaluiert werden. Die generierten Datensätze und Softwarekomponenten werden die Grundlage für eine inhaltliche Aufbereitung der RetroDig Ergebnisse in einem zukünftigen digitalen Editionsprojekt der JRG Digital Humanities and Digital Cultural Heritage sein.</p>
+      <p>Im derzeit laufenden Prokjekt wurden bereits die analogen Dokumente im Medialab der
+        HRA digitalisiert. Im ersten Erschließungsschritt werden die materiellen
+        Gesichtspunkte der Artefakte betrachtet und dabei die Objektmetadaten im VRA Core 4
+        Standard aufgenommen. Dazu wird der formbasierter Zizphus VRA Editor<ref type="note" target="n02" n="2">2</ref>  verwendet, der die VRA-XML Datensätze direkt in einer Kollektion Tamboti
+      speichert, wo die Daten bereits durchsucht, mit anderen Nutzern geteilt oder für
+      Präsentationszwecke im integrierten Atomic-Wiki aufbereitet werden können. </p>
+      <p>Mitunter aus arbeitsökonomischen Gesichtspunkten werden beim Erstellen der Metadaten auch Beschriftungen transkribiert und vorerst im VRA &lt;inscriptionSet&gt; aufgenommen. Erst einmal ohne dabei qualitative Aussagen über deren Inhalt zu treffen.</p>
+      <p>Dieses Vorgehen erlaubt es der HRA parallel zur Erfassung der Daten an der
+        Entwicklung einer mehrteiligen Annotationskomponente zu arbeiten. Diese besteht 1.)
+        aus einem DOM-nahen SVG Editor, der auf OpenSeadragon aufsetzt, 2.) einem
+        semantischen Verlinkungsmechanismus (zum Zeitpunkt der Einreichung des Posters
+        werden mehrere Möglichkeiten der Informationsmodellierung und Umsetzung diskutiert
+        und ausprobiert. Bei der finalen Posterpräsentation wird sowohl auf die Diskussion,
+        als auch auf die Implementierung Bezug genommen werden) und 3.) der Integration von
+        TEIAN<ref type="note" target="n03" n="3">3</ref>,
+        einem Editor, der es erlaubt beliebige Subsets von XML Vokabularen über eine
+        graphische Nutzeroberfläche auf einen Text anzuwenden. Mit diesen Komponenten wird
+        es u. a. möglich sein: Annotationen im Sinne des Open Annotation Data Model (OADM)
+        zu erstellen, das im ersten Erfassungsschritt bereits transkribierte Material z. B.
+        in TEI auszuzeichnen und mit dem SVG-Editor Grabungspläne so nachzuzeichnen, dass
+        sie im Detail annotiert und in ein Geoinformationssystem eingehängt werden können. </p>
+        <p>Im vorgestellten Projekt haben wir uns aufgrund der kurzen Projektlaufzeit bewusst
+          gegen die Entwicklung einer projektspezifischen Präsentationsoberfläche entschieden.
+          Stattdessen konzentrieren wir uns auf Arbeitsabläufe zum Erstellen standardisierter
+          Daten und der Frage wie diese möglichst zukunftssicher modelliert werden können. Die
+          Datenanzeige soll derweil über Tamboti oder per IIIF-P über Mirrador oder andere
+          standardkonforme Viewer erfolgen können. Die Daten können über Tamboti für weitere
+          Nutzergruppen freigegeben werden und so z. B. im Unterricht mit Atomic Wiki oder
+          HyperImage<ref type="note" target="n04" n="4">4</ref> aufbereitet werden. Ein Tutorenprogramm<ref type="note" target="n05" n="5">5</ref> und eine
+          ausführliche Dokumentation dafür wurden in den letzten Semestern bereits etabliert
+          und regelmäßig in unterschiedlichen Fachbereichen eingesetzt. </p>
+        </body>
+    <back><div type="Notes"><note xml:id="n01" n="1">Die
+      Produktivinstanz des Exzellenzclusters Asien und Europa ist unter <ref
+        target="http://tamboti.uni-hd.de/">http://tamboti.uni-hd.de</ref> zu
+      erreichen. Der Quellcode ist unter <ref
+        target="https://github.com/exc-asia-and-europe/tamboti"
+        >https://github.com/exc-asia-and-europe/tamboti</ref> veröffentlicht.
+    </note>
+      <note
+        xml:id="n02" n="2"> Ziziphus ist ein integrierter Bestandteil von
+        Tamboti und wird von der HRA in Zusammenarbeit mit betterFORM und eXist
+        solutions entwickelt. Der Quellcode ist unter <ref
+          target="https://github.com/exc-asia-and-europe/ziziphus/"
+          >https://github.com/exc-asia-and-europe/ziziphus/</ref> veröffentlicht.
+      </note>
+      <note xml:id="n03" n="3"> Der Quellcode ist unter <ref
+        target="http://sourceforge.net/projects/teian/"
+        >https://sourceforge.net/projects/teian/</ref> veröffentlicht. </note>
+      <note xml:id="n04" n="4"> Derzeit wird die Community
+        Edition des HyperImage Authoring Environment in der Version 3.0.beta2
+        eingesetzt.</note>
+      <note xml:id="n05" n="5"> Das Tutorenprogramm wurde im Wintersemester 2013 / 14,
+        unterstützt durch Mittel aus dem „Willkommen in der Wissenschaft“
+        Förderprogramm, vom Lehrstuhl für Visuelle und Medienanthropologie (Christiane
+        Brosius) initiert und gemeinsam mit der HRA implementiert. Der kontinuierliche
+        Ausbau des Programms wird von der Abteilung Schlüsselkompetenzen und
+        Hochschuldidaktik der Universität Heidelberg begleitet.</note></div></back>
+      </text>
+    </TEI>

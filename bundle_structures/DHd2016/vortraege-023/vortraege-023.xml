@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-023">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sonification: Vermittlungsansätze zwischen Klang und Information</title>
+        <author>
+          <name>
+            <surname>Roeder</surname>
+            <forename>Torsten</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>torsten.roeder@uni-wuerzburg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-10T15:06:00.76</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Klang</term>
+          <term>Bild</term>
+          <term>Information</term>
+          <term>Visualisierung</term>
+          <term>Sonifkation</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Visualisierung</term>
+          <term>Ton</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Das Verhältnis von Klang und Information</head>
+        <p>In diesem Beitrag geht um das rätselhafte Verhältnis zwischen Klang und Information. Rätselhaft deshalb, weil zwischen der meist konkreten und persistenten „Information“ und dem meist unkonkreten, transitorischen „Klang“ kaum Verbindungen möglich erscheinen. Wir kennen ein Verhältnis zwischen beiden aus der Beziehung zwischen erklingender Musik und lesbarer Notenschrift. Auch wenn man kaum davon sprechen kann, dass beide eindeutig voneinander ableitbar wären, stehen sie in einem nachvollziehbaren Verhältnis. Dieses ist durch Regeln bestimmt, die durch die Musiklehre festgelegt ist: Zum Beispiel wissen wir dank einer allgemeinen Konvention, dass der Ton „d“ im Violinschlüssel auf der zweiten Linie von oben notiert wird, der Ton „h“ hingegen auf der dritten; ebenso gibt es Übertragungskonventionen für Zeitmaße, für Lautstärke, für klangliche Parameter und vieles andere. Trotz vieler Unschärfen bei der Übertragung gelingt es in der Regel, von einer Notation ein wiedererkennbares musikalisches Abbild zu erzeugen, während abweichende Wiedergaben unterschiedlichen Interpretationen zuzuschreiben sind. In diesem Beispiel werden also Regeln angewendet, um aus Informationen Klänge zu erzeugen. Wir sind gewohnt, dies als „Kunst“ oder „Unterhaltung“ zu betrachten und schreiben diesem Phänomen, dem wir den Namen Musik geben, eine enorme gesellschaftliche Bedeutung zu.</p>
+      </div>
+      <div type="div1" rend="DH-Heading">
+        <head>Eine Analogie: Visualisierungen</head>
+        <p>Visualisierung en von Informationen sind derzeit en vogue. Dabei erscheinen Visualisierungen, die sich am Konkreten orientieren – etwa Statistiken, Landkarten, Zeitleisten – fast schon überholt. Es gilt, neue Regeln der Informationsabbildung zu entdecken, die alternative Lesarten erlauben und über die konventionellen Übertragungen auf die typischen Kategorien Globus, Kalender und Diagramm hinausgehen. Von besonderem Interesse sind dabei Beziehungsgeflechte und multidimensionale Darstellungen, um damit nicht-metrische Parameter abbilden zu können. Die aus dem kreativen Umgang mit Daten entstehenden Abbildungen sind vielfältig und die Regeln ihrer Generierung im Grunde nur durch Vorstellungskraft begrenzt; zum Teil erwachsen daraus Grafiken von fast künstlerischer Qualität. Der Erkenntniswert dieser Abbildungen ist vielerorts noch auszuloten, das „Lesen“ in solchen Grafiken noch nicht kultiviert, aber zweifellos besteht ein großes Interesse daran, alternative Erkenntnismethoden zu erfinden und zu entdecken.</p>
+      </div>
+      <div type="div1" rend="DH-Heading">
+        <head>Hören und Sehen von Daten</head>
+        <p>Die Wahrnehmung wird allgemein durch den Sehsinn dominiert, während andere Sinne
+          stark zurückgedrängt sind oder auf bestimmte Vorgänge limitiert sind. Als wahr
+          gilt, was man mit eigenen Augen gesehen hat. Der Hörsinn hingegen dient zwar dem
+          Verstehen des gesprochenen Wortes und wird für den Genuss vielschichtig
+          arrangierter Musik eingesetzt, scheint aber für Erkenntnisvorgänge prinzipiell
+          nicht infrage zu kommen, da er emotional konnotiert ist und somit als völlig
+          subjektiv ausscheidet. Ein analytisches Hören ist zwar erlernbar, jedoch stellt
+          es sich gegen Konventionen oder ist Musikern vorbehalten. Zudem gilt die
+          Auffassung, dass Hörbares ohnehin besser visualisiert wird. Jedoch ist das
+          menschliche Gehör dem Sehsinn in einigen Punkten voraus: Es unterscheidet nicht
+          nur Tonhöhen, sondern auch Lautstärken, Tempo, Klangqualität etc., und ist
+          dadurch in der Lage, eine Vielzahl an Parametern gleichzeitig darzustellen; die
+          plötzliche Veränderung eines Parameters kann dabei eine starke Signalwirkung
+          hervorrufen. Außerdem ist das Gehör ein extrem granularer Sinn: Es nimmt z. B.
+          äußerst geringe zeitliche Abstände wahr, die mit dem Auge nicht mehr
+          nachvollziehbar sind (Hintergrund ist ein chemischer Prozess).</p>
+          <p>Wäre es denkbar, das Prinzip der Visualisierung – d. h. aus Information werden
+            erfahrbare Bilder – auf die Welt des Klanges zu übertragen, um die Möglichkeiten
+            des Hörsinns für die Datenexploration auszuschöpfen? Das hieße: aus
+            Informationen werden erfahrbare Klänge. „Ausgangspunkt dafür [für Sonifikation]
+            ist die Tatsache, dass der Hörsinn in vielen Fällen ein hohes Potenzial besitzt,
+            zum Sehsinn komplementäre Informationen auf einfache Weise zu vermitteln.“
+            (Grond / Schubert-Minski 2009).</p>
+            <p>Einfache Übertragungen von Information in Klang sind z. B. aus dem Morsecode oder
+              vom Geigerzähler bekannt; gut in Erinnerung dürfte außerdem das akustische
+              Einwahlsignal eines Modems sein. Diese Klänge gehorchen keiner Ästhetik, jedoch
+              müssen sie das auch nicht (um einen Satz von John Cage anzuwenden: „You don’t
+              have to call it music, if the term shocks you“). Klang und Informationen
+              verhielten sich dann ähnlich, nur abstrakter, wie Musik und Notation; Klang wäre
+              dann eine mögliche Darstellungsform von Information, nach vorher bestimmten
+              Regeln interpretiert.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+              <head>Sonifikation</head>
+              <p>Die Idee der Sonifikation wird innerhalb des Technologiezweiges „Auditory Display“ ungefähr seit den 1990ern als Methode verfolgt (vgl. Flowers 2005). Eine von der
+                <hi rend="italic">International Community for Auditory Display</hi> (ICAD) herausgegebene Definition der Sonifikation lautet: „Sonification [is the] use of nonspeech audio to convey information; more specifically sonification is the transformation of data relations into perceived relations in an acoustic signal for the purposes of facilitating communication or interpretation.“ (Schoon / Volmer 2012)
+              </p>
+              <p>Sonifikation hat inzwischen das experimentelle Stadium verlassen und wird
+                erfolgreich eingesetzt, um komplexe Daten (Stichwort Big Data) effektiver
+                auswerten zu können (vgl. Kramer et al. 2010) . Dabei ist es auffällig, dass die
+                Nutzung in den Naturwissenschaften und in der Medizin bereits fortgeschritten
+                ist, in den Digital Humanities hingegen kaum repräsentiert ist, obwohl die
+                Methode grundsätzlich naheliegend wäre. Die bisher genutzten Verfahren
+                (Audifikation, Auditory Graphing u. a.) werden zu sehr unterschiedlichen Zwecken
+                eingesetzt (Schoon / Volmer 2012: 12); in der Regel werden die Sonifikationen
+                automatisch erzeugt, für mediale Zwecke werden sie manchmal aber auch live
+                produziert.</p>
+                <p>Eine „Einstiegsmethode“ ist dabei das Pitch Coding, bei dem Tonhöhen und
+                  Codepoints einander zugeordnet werden. Dieses sehr einfache Verfahren lehnt sich
+                  an die Logik der Notation an: hohe Werte werden als hohe Töne übertragen,
+                  niedrige Werte als tiefe Töne. Als anschauliches (aber spielerisches) Beispiel
+                  ist die <hi rend="italic">Higgs Boson Sonification</hi> (Rao 2015) zu nennen,
+                  bei der physikalische Messwerte in Tonwerte übertragen werden. Mehrdimensionales
+                  Pitch Coding, bei dem parallele Prozesse modelliert werden, wurde in <hi
+                  rend="italic">What climate change sounds like from the Amazon to the
+                  Arctic</hi> (Reubold 2015) umgesetzt. Die Live-Umsetzung ist in diesen
+                  Fällen lediglich als Kür anzusehen; den Live-Sonifikationen geht ansonsten
+                  üblicherweise die rechnergestützte Modellierung voraus. Eine schnelle
+                  rechnergestützte Umsetzung erlaubt z. B. das frei verfügbare Tool <hi
+                  rend="italic">Sonification Sandbox</hi> (Walker 2009), welches das
+                  Experimentieren mit mehreren klanglichen Dimensionen anhand einer Wertetabelle
+                  erlaubt und sowohl über Kommandozeile als auch GUI steuerbar ist. </p>
+                  <p>Über diese grundlegenden Verfahren hinaus gehen Verfahren, die mit
+                    Nutzerinteraktivität arbeiten und neben einer visuellen Darstellung auch
+                    akustische Rückmeldungen geben; dabei kann auch Sprache zum Einsatz kommen.
+                    Diese Anwendungen zielen vor allem darauf, Personen mit eingeschränkter
+                    Sehfähigkeit einen verbesserten Zugang zu Datenabbildungen zu ermöglichen,
+                    allerdings sind die Verfahren auch für uneingeschränkt sehfähige Nutzer von
+                    grundsätzlichem Interesse. Beispielsweise werden in der <hi rend="italic"
+                    >Sonification for Blind Users</hi> (Zhao et al. 2005) Stereo-Effekte für die
+                    Umsetzung der geographischen Dimension genutzt. Von höchster Komplexität sind
+                    schließlich Soundalgorithmen, die entsprechend der Datenveränderung Tempo und
+                    Harmonie nach bestimmten Mustern verändern (Morreale et al. 2013). </p>
+                    <p>Sonifikation führte tatsächlich bereits zu einigen wissenschaftlichen Erfolgen,
+                      etwa bei der Analyse von Sonnenstürmen (Alexander 2012), wobei insbesondere die
+                      akustische Darstellbarkeit der Granularität der Messdaten bei der Analyse
+                      ausschlaggebend waren.</p>
+                    </div>
+                    <div type="div1" rend="DH-Heading">
+                      <head>Eine Chance für die Digital Humanities</head>
+                      <p>Das Verfahren der Sonifikation bietet für die Digital Humanities eine Alternative
+                        zur Visualisierung, insbesondere im Hinblick auf die Abbildung zeitlicher,
+                        räumlicher und paralleler Prozesse. Die Möglichkeiten der Sonifikation wurden
+                        bislang nicht in dem gleichen Maße erschlossen und ausgeschöpft, wie es für
+                        Visualisierung bereits im Gange ist. Daher besteht das dringende Desiderat,
+                        Sonifikation als in den Naturwissenschaften bereits etabliertes Verfahren
+                        endlich auch in den Digital Humanities zu erproben und ihr Potenzial zu
+                        entdecken. Der Vortrag gibt einen Überblick über die Methoden und erörtert
+                        Anwendungsmöglichkeiten an verschiedenen Beispielen.</p>
+                      </div>
+                    </body>
+                    <back>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <head>Bibliographie</head>
+                          <bibl>
+                            <hi rend="bold">Alexander, Robert</hi> (2012): „How A Solar Storm Sounds –
+                            Particle Sonification Video“, in: <hi rend="italic">Space.com</hi>
+                            <ref
+                              target="http://www.space.com/14897-solar-storm-sounds-particle-sonification-video.html"
+                              >http://www.space.com/14897-solar-storm-sounds-particle-sonification-video.html</ref>
+                              [letzter Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl>
+                                <hi rend="bold">Flowers, John H.</hi> (2005): „Thirteen years of reflection
+                                on auditory graphing: Promises, pitfalls, and potential new directions“, in:
+                                <hi rend="italic">Proceedings of the 11th International Conference on
+                                  Auditory Display (ICAD2005)</hi> 406–409 <ref
+                                  target="http://www.icad.org/Proceedings/2005/Flowers2005.pdf"
+                                  >http://www.icad.org/Proceedings/2005/Flowers2005.pdf</ref> [letzter
+                                  Zugriff 15. Oktober 2015]. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Grond, Florian / Schubert-Minski, Theresa</hi> (2009):
+                                    „Sonifikation“ <ref target="http://see-this-sound.at/kompendium/abstract/70"
+                                    >http://see-this-sound.at/kompendium/abstract/70</ref> [letzter Zugriff
+                                    15. Oktober 2015]. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Hermann, Thomas / Hunt, Andy / Neuhoff, John G.</hi> (2011):
+                                      <hi rend="italic">The Sonification Handbook</hi>. Berlin: COST / Logos. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Kramer, Gregory / Walker, Bruce / Bonebright, Terri / Cook,
+                                          Perry / Flowers, John H. / Miner, Nadine / Neuhoff, John</hi> (2010):„
+                                          Sonification Report: Status of the Field and Research Agenda“, in: <hi
+                                          rend="italic">Faculty Publications, Department of Psychology, University
+                                          of Nebraska</hi>
+                                          <ref target="http://digitalcommons.unl.edu/psychfacpub/444"
+                                            >http://digitalcommons.unl.edu/psychfacpub/444</ref> [letzter Zugriff
+                                            15. Oktober 2015]. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Morreale, Fabio / Masu, Raul / De Angeli, Antonella</hi>
+                                              (2013): "Robin: An algorithmic Composer for Interactive Scenarios", in: <hi
+                                              rend="italic">Proceedings of the Sound and Music Computing Conference
+                                              2013 (SMC 2013)</hi> 207–212. </bibl>
+                                              <bibl>
+                                                <hi rend="bold">Rao, Achintya</hi> (2015): <anchor xml:id="id_page-title"/>
+                                                „What would the Higgs discovery sound like as a heavy-metal song? <anchor
+                                                xml:id="id_site-name"/>“ , in: <hi rend="italic">The Cylindrical
+                                                Onion</hi>
+                                                <ref
+                                                  target="http://cylindricalonion.web.cern.ch/blog/201504/what-would-higgs-discovery-sound-heavy-metal-song"
+                                                  >http://cylindricalonion.web.cern.ch/blog/201504/what-would-higgs-discovery-sound-heavy-metal-song</ref>
+                                                  [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Reubold, Todd</hi> (2015): „What climate change sounds like
+                                                    from the Amazon to the Arctic“, in: <hi rend="italic">Ensia</hi>
+                                                    <ref
+                                                      target="http://ensia.com/videos/what-climate-change-sounds-like-from-the-amazon-to-the-arctic/"
+                                                      >http://ensia.com/videos/what-climate-change-sounds-like-from-the-amazon-to-the-arctic/</ref>
+                                                      [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Schoon, Andi / Volmar, Axel</hi> (2012): <hi rend="italic"
+                                                        >Das geschulte Ohr</hi>. Eine Kulturgeschichte der Sonifikation.
+                                                        Bielefeld: Transcript. </bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Walker, Bruce N.</hi> (2009): <hi rend="italic">Sonification
+                                                          Sandbox</hi>. Atlanta: Georgia Institute of Technology, <ref
+                                                          target="http://sonify.psych.gatech.edu/research/sonification_sandbox/"
+                                                          >http://sonify.psych.gatech.edu/research/sonification_sandbox/</ref>
+                                                          [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">Zhao, Haixia / Plaisant, Catherine / Shneiderman, Ben</hi>
+                                                            (2005):<hi rend="italic"> iSonic: Interactive Data Sonification for
+                                                            Blind Users, University of Maryland</hi>
+                                                            <ref target="https://www.youtube.com/watch?v=8hUIAnXtlc4"
+                                                              >https://www.youtube.com/watch?v=8hUIAnXtlc4</ref> [letzter Zugriff 15.
+                                                              Oktober 2015]. </bibl>
+                                                            </listBibl>
+                                                          </div>
+                                                        </back>
+                                                      </text>
+                                                    </TEI>

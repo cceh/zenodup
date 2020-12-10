@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-055">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Topic, Genre, Text</title>
+        <author>
+          <name>
+            <surname>Schöch</surname>
+            <forename>Christof</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>christof.schoech@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Henny</surname>
+            <forename>Ulrike</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>ulrike.henny@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Calvo</surname>
+            <forename>José</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>jose.calvo@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schlör</surname>
+            <forename>Daniel</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>daniel.schloer@informatik.uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Popp</surname>
+            <forename>Stefanie</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>stefanie.popp@uni-wuerzburg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-09-30T13:44:34.898902389</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.13">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Topic Modeling</term>
+          <term>Spanische Literatur</term>
+          <term>Lateinamerikanische Literatur</term>
+          <term>Textverlauf</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Annotieren</term>
+          <term>Visualisierung</term>
+          <term>Literatur</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>Der Beitrag möchte zeigen, wie die Berücksichtigung detaillierter,
+          gattungsbezogener Metadaten auf produktive Weise mit dem Verfahren des Topic
+          Modeling verbunden werden kann, um bisher nicht bekannte thematische Strukturen
+          im Textverlauf in einer Sammlung spanischer und hispanoamerikanischer Romane zu
+          entdecken. Ausgangshypothese ist, dass die Wichtigkeit bestimmter Topics nicht
+          nur im Textverlauf variiert, sondern dies auch in verschiedenen Untergattungen
+          auf unterschiedliche Weise tut. Eine Pilotstudie wurde im März 2015 beim
+          Workshop zu Computational Narratology bei der DHd-Tagung in Graz vorgestellt. Im
+          Rahmen der interdisziplinären Würzburger eHumanities-Nachwuchsgruppe
+          "Computergestützte literarische Gattungsstilistik (<ref target="http://cligs.hypotheses.org">CLiGS</ref>)
+          wurde dieser Fragestellung nun mit weiter entwickelten Methodik sowie einer neu
+          erstellten Sammlung spanischsprachiger Romane aus Spanien und Hispanoamerika
+          nachgegangen. </p>
+        </div>
+        <div type="div1">
+          <head>Stand der Forschung und Fragestellung</head>
+          <p>Die Frage nach dem Text- oder Handlungsverlauf in narrativen literarischen Texten hat jüngst zunehmende Aufmerksamkeit in der digitalen Literaturwissenschaft erhalten. Matthew Jockers kam durch Sentiment Analysis im Verlauf zahlreicher Romane zu dem (kontrovers diskutierten) Ergebnis, es gäbe sechs oder sieben grundlegende Plotstrukturen (Jockers 2015). Ben Schmidt hat unter anderem den Verlauf von Topic-Wahrscheinlichkeiten in der "screen time" amerikanischer Fernsehserien verfolgt (Schmidt 2014). Der vorliegende Beitrag verbindet die Frage nach dem Textverlauf mit der nach den Untergattungen, seine zentrale Fragestellung lautet: Können wir nach Untergattung unterschiedliche Verlaufsmuster für bestimmte Topics über den Textverlauf hinweg feststellen?</p>
+        </div>
+        <div type="div1">
+          <head>Daten</head>
+          <p>Die Textsammlung enthält 150 spanische und hispanoamerikanische Romantexte aus
+            der Zeit von 1880 bis 1930 (für den spanischen Roman: Altisent 2008; de Nora
+            1963, für den hispanoamerikanischen Roman: Gallo 1981; Williams 2009). Die Texte
+            sind in TEI aufbereitet und mit detaillierten Metadaten versehen worden. Es
+            wurden vier weit gefasste Untergattungen gewählt, um die Romane miteinander
+            vergleichen zu können: <hi rend="italic">novela sentimental</hi>, <hi
+            rend="italic">novela histórica</hi>, <hi rend="italic">novela
+            político-social</hi> und <hi rend="italic">novela de tendencia
+            subjetiva</hi>. Die Auswahl der Texte ist auch von der Verfügbarkeit als
+            digitaler Volltext beeinflusst und daher nicht unbedingt repräsentativ.
+            Abbildung 1 zeigt die Verteilung der Romane nach ausgewählten Metadaten. </p>
+            <figure>
+              <graphic url="055-10000000000007E8000001FB0CBF0334.png"/>
+              <p><hi rend="bold">Abb. 1</hi>: Verteilung der Romane nach Metadaten </p>
+            </figure>
+          </div>
+          <div type="div1">
+            <head>Methode</head>
+            <p>Topic Modeling ist eine unüberwachte, nicht-deterministische Methode aus dem
+              Bereich des <hi rend="italic">Natural Language Processing</hi>, die auf Annahmen
+              aus der distributionellen Semantik basiert und verborgene semantische Strukturen
+              in großen Textsammlungen aufdeckt (einführend Blei 2011, grundlegend Blei 2003).
+              Gruppen semantisch verwandter Wörter werden insbesondere aufgrund ihres häufigen
+              gemeinsamen Auftretens in den untersuchten Dokumenten entdeckt. Ein Topic ist
+              eine Wahrscheinlichkeitsverteilung von Wörtern; ein Dokument wird als
+              Wahrscheinlichkeitsverteilung von Topics beschrieben. Topic Modeling ist eine in
+              den DH äußerst beliebte Methode (Anwendungsbeispiele: Blevins 2010; Rhody 2012;
+              Jockers 2013; Schöch 2015). </p>
+              <p>Hier wurde Topic Modeling als Teil eines umfassenden, weitgehend automatischen Arbeitsablaufes als Serie von Python-Skripten implementiert: Präprozessieren der Texte (Segmentierung, Binning, Lemmatisierung, POS-Tagging), das eigentliche Topic Modeling (mit Mallet, siehe McCallum 2002), Aufbereitung des Mallet-Outputs, zahlreiche Visualisierungen als Perspektiven auf die Ergebnisse. Die wichtigsten Parameter: Berücksichtigung ausschließlich der Substantive, Weglassung der 70 häufigsten Substantive, Romansegmente von ca. 600 Wörtern (unter Berücksichtigung von Absatzgrenzen), Anzahl von 70 Topics. Die Python-Skripte sind frei verfügbar und ausführlich dokumentiert, Begleitmaterialien (Skripte, Parameterdatei, Metadaten, Abbildungen) sind unter
+                <ref target="https://github.com/cligs/projects/tree/master/2016/dhd">https://github.com/cligs/projects/tree/master/2016/dhd</ref> einsehbar.
+              </p>
+            </div>
+            <div type="div1">
+              <head>Ergebnisse und Diskussion</head>
+              <p>Es werden zunächst die Topics selbst dargestellt, dann Unterschiede in den Topic-Verteilungen nach Untergattungen, über den Textverlauf hinweg und schließlich über den Textverlauf in Abhängigkeit der Untergattung.</p>
+              <div type="div2">
+                <head>Topics</head>
+                <p>Die Mehrheit der erhobenen Topics beinhaltet konkrete typische Themen und
+                  Motive des spanischsprachigen Romans der Epoche. Man erkennt eine klare
+                  semantische Beziehung der Wörter: ein konkreter Bereich menschlicher
+                  Tätigkeiten, wie in Topic 19 (maestro-colegi o-escuela, dt.
+                  "Lehrer-Schule-Schule") oder Topic 23 (sangre-golpe-arma, dt.
+                  "Blut-Schlag-Waffe"); oder abstrakte Begriffe und Gefühle, wie bei Topic 69
+                  (conciencia-honor-crimen, dt. "Gewissen-Ehre-Verbrechen"). Weniger kohärent
+                  ist Topic 45 (marido-rato-chico, dt. "Ehegatte-Weile-Junge"). Die folgenden
+                  Wordclouds (Abbildung 2) veranschaulichen die erwähnten Topics.</p>
+                  <figure>
+                    <graphic url="055-10000000000003E800000226AACF8EE3.png"/>
+                    <p><hi rend="bold">Abb. 2</hi>: Wordclouds für ausgewählte Topics.</p>
+                  </figure>
+                </div>
+                <div type="div2">
+                  <head>Untergattungen und Topics</head>
+                  <p>Die folgende Heatmap (Abbildung 3) zeigt die Verteilung der
+                    durchschnittlichen Topic-Wahrscheinlichkeiten in den vier Untergattungen für
+                    diejenigen 20 Topics, deren Werte zwischen den Untergattungen besonders
+                    stark schwanken (nach Standardabweichung). Besonders distinktive Topics
+                    existieren für die <hi rend="italic">novela de tendencia subjetiva</hi>
+                    (Topic 11: mirada-huerto-silencio, dt. "Blick-Garten-Stille") und die <hi
+                    rend="italic">novela sentimental</hi> (Topic 45). Wenig überraschend
+                    auch, dass die <hi rend="italic">novela histórica</hi> als distinktiven
+                    Topic unter anderem Topic 57 hat (rey-caballero-príncipe, dt.
+                    "König-Ritter-Prinz"). Für die <hi rend="italic">novela
+                    histórico-social</hi>, für die aufgrund der großen Zahl von Beispielen
+                    eine größere Bandbreite an Topic-Verteilungen zu erwarten ist, gibt es
+                    keinen vergleichbar stark distinktiven Topic. Dennoch sind die
+                    Untergattungen ein wichtiger Faktor für die Verteilung der Topics in der
+                    Sammlung und die thematische Komponente spielt für die Definition der
+                    Untergattungen tatsächlich eine wesentliche Rolle. </p>
+                    <figure>
+                      <graphic url="055-1000020100000F0000000A5074E12A5B.png"/>
+                      <p><hi rend="bold">Abb. 3</hi>: Verteilung von Topic-Scores nach Untergattungen.</p>
+                    </figure>
+                  </div>
+                  <div type="div2">
+                    <head>Topics im Textverlauf</head>
+                    <p>Die Ausprägung der Topics variiert nicht nur hinsichtlich der Untergattungen,
+                      sondern auch über den Textverlauf hinweg. So gibt es einige Topics, deren
+                      Vorkommen am Anfang der Romane besonders wahrscheinlich ist (Abbildung 4a).
+                      Dazu zählen Topic 10 (vino-plato-pan, dt. "Wein-Teller-Brot"), Topic 17
+                      (sombrero-ropa-bota, dt. "Hut-Kleidung-Stiefel") und Topic 19, welche auf
+                      die Beschreibung von Ambiente, Situation und Personen hindeuten. Gegen Ende
+                      der Romane sind andere Topics wahrscheinlicher (Abbildung 4b), z. B. Topic 2
+                      (pecado-caridad-conciencia, dt. "Sünde-Wohltätigkeit-Gewissen"), Topic 23
+                      und Topic 69, also abstraktere Themen oder solche, die sich auf
+                      Wertvorstellungen beziehen. Dies deutet darauf hin, dass in den Romanen am
+                      Ende Bilanz gezogen wird, die Handlung einen drastischen Ausgang nimmt oder
+                      das im Textverlauf Behandelte in gesellschaftliche oder religiöse Diskurse
+                      eingebunden wird.</p>
+                      <figure>
+                        <graphic url="055-1000020100000960000006727A3917D2.png"/>
+                        <p><hi rend="bold">Abb. 4a</hi>: Verteilung von Topics im Textverlauf (fallend).</p>
+                      </figure>
+                      <figure>
+                        <graphic url="055-100002010000096000000672E1230A42.png"/>
+                        <p><hi rend="bold">Abb. 4b</hi>: Verteilung von Topics im Textverlauf (steigend).</p>
+                      </figure>
+                    </div>
+                    <div type="div2">
+                      <head>Textverlauf abhängig von den Untergattungen</head>
+                      <p>Für einige der genannten Topics, die in bestimmten Bereichen des Textverlaufs
+                        wahrscheinlicher sind, kann die Tendenz über alle Untergattungen hinweg
+                        bestätigt werden (bspw. bei Topic 10 und 17, siehe oben). Es gibt aber auch
+                        Themen, bei denen sich durch die Betrachtung des Verlaufs in den einzelnen
+                        Untergattungen ein differenzierteres Bild ergibt. Die Wahrscheinlichkeit von
+                        Topic 23 beispielsweise nimmt nur für die <hi rend="italic">novela
+                        político-social</hi> zum Ende hin zu (Abbidung 5a): </p>
+                        <figure>
+                          <graphic url="055-100002010000119400000BB8B4D866D1.png"/>
+                          <p><hi rend="bold">Abb. 5a</hi>: Topic 23 nach Textverlauf und Untergattung.</p>
+                        </figure>
+                        <p>Das kann so interpretiert werden, dass die <hi rend="italic">novela
+                          político-social</hi> im Gegensatz zu den anderen Untergattungen dazu
+                          tendiert, am Ende des Textes mit einer gewalttätigen Szene und einem Umbruch
+                          zu schließen. Topic 19 ist nicht in allen Untergattungen zu Beginn des
+                          Textverlaufes stark ausgeprägt, sondern nur bei der <hi rend="italic">novela
+                          de tendencia subjetiva</hi>. Dies erklärt sich, weil bei diesen Romanen
+                          das Schulthema als Teil einer autofiktionalen Erzählung zu Beginn erscheint
+                          (Abbildung 5b): </p>
+                          <figure>
+                            <graphic url="055-100002010000119400000BB8B2AD217A.png"/>
+                            <p><hi rend="bold">Abb. 5b</hi>: Topic 19 nach Textverlauf und Untergattung </p>
+                          </figure>
+                          <p>Allgemein gilt, dass die Untergattungen sich in ihrer Topicverteilung im Textverlauf auch dann deutlich unterscheiden können, wenn dies für alle Untergattungen zusammengenommen nicht der Fall ist und so leicht übersehen werden könnte.</p>
+                          <p>Für die Berechnung wurden die Romansegmente von 600 Wörtern bezüglich des Textverlaufs auf 15 Romanabschnitte (Bins) verteilt, um die unterschiedliche Romanlänge zu berücksichtigen. Diese Bins wurden hinsichtlich der Untergattung gruppiert und jeweils das arithmetische Mittel bestimmt. Die in den Plots eingezeichneten Kurven entsprechen der linearen Interpolation dieser gemittelten Werte. Zusätzlich wurde der Standardfehler vertikal um den jeweiligen Kurvenpunkt eingezeichnet, der deutlich macht, wie sehr die jeweiligen dem Mittelwert zugrunde liegenden Werte streuen, also wie gut der Mittelwert die Gesamtheit der Segmentwerte repräsentiert.</p>
+                        </div>
+                      </div>
+                      <div type="div1">
+                        <head>Die Ergebnisse im literaturgeschichtlichen Kontext</head>
+                        <p>Insgesamt zeigen sich verschiedene Zusammenhänge: Zwischen bestimmten Topics und einzelnen Roman-Untergattungen, zwischen Topics und dem Textverlauf, und dies zum Teil dann auch wieder in Abhängigkeit von den Untergattungen. Aus literaturgeschichtlicher Perspektive betrachtet erweisen sich die in die Untersuchung einbezogenen Metadaten für eine Einordnung der Topic-Resultate als nützlich. Topics sind für die Romangattungen im vorliegenden Korpus ein wichtiger Faktor, ähnlich wie dies für Gattungen wie die klassische Komödie und Tragödie bereits gezeigt werden konnte (Schöch 2015).</p>
+                        <p>Ein detaillierterer Blick zeigt beispielsweise Folgendes: Topic 11, welches typisch für die
+                          <hi rend="italic">novela de tendencia subjetiva</hi> ist, ist vor allem in den 1910er- und 1920er-Jahren wichtig sowie für bestimmte Autoren. Interessanterweise ist dieses bei spanischen und hispanoamerikanischen Modernisten vorkommende Thema auch bei der früher wirkenden Schriftstellerin Juana Manuela Gorriti schon wichtig, die offenbar thematische Präferenzen späterer Autoren vorweggenommen hat. Außerdem kommt Topic 11 bei Larreta in einem (modernistischen) historischen Roman vor, obwohl es ansonsten vor allem für die Romane subjektiver Tendenz typisch ist. Es ist anzunehmen, dass für dieses spezielle Thema eher die literarische Strömung bestimmend ist als die Untergattung. Der Topic enthält einige für die modernistische Strömung typische Wörter, etwa zu Sinneseindrücken (azul, dt. "blau", olor, dt. "Geruch") und Zurückgezogenheit (huerto, silencio, campo, soledad, dt. "Garten, Ruhe, Land, Einsamkeit").
+                        </p>
+                      </div>
+                      <div type="div1">
+                        <head>Fazit und Ausblick</head>
+                        <p>Die Nutzung von Topic Modeling als Methode kann für die digitale Literaturwissenschaft verbessert werden, wenn spezifisch literaturwissenschaftliche Metadaten in die Betrachtungen einbezogen werden und die Textstruktur - hier als Sequenz von Textverlaufseinheiten - berücksichtigt wird. Verschiedene Visualisierungsstrategien erweisen sich als entscheidende "Interfaces" zu den Daten (im Sinne von Doueihi 2012), die Muster sichtbar machen und den Blick lenken. Die Ergebnisse des Topic Modelings können differenzierter und aus verschiedenen Perspektiven betrachtet und mit literaturhistorischem Wissen in Verbindung gebracht werden. Die Ergebnisse ergänzen und erweitern etablierte hermeneutische Lektürestrategien, insofern sie einen synthetisierenden Blick auf sehr umfangreiche Textsammlungen erlauben.</p>
+                        <p>Nächste Schritte betreffen insbesondere die weitere Auseinandersetzung mit der
+                          Signifikanz von Unterschieden in den Topic-Wahrscheinlichkeiten im Textverlauf,
+                          deren Berechnung u. a. durch die mangelnde Normalverteilung der Werte nicht
+                          trivial ist. Zusätzlich zu den Untergattungen sollen auch Kategorien wie das
+                          Setting modelliert werden. Zudem sollen die Textverlaufs-Daten für die
+                          automatische Klassifikation von Romanen nach Untergattungen genutzt werden.
+                          Schließlich wird bereits an der Erweiterung der Textsammlung gearbeitet,
+                          insbesondere mit Blick auf den Umfang und ein ausgeglicheneres Verhältnis der
+                          Untergattungen.</p>
+                        </div>
+                      </body>
+                      <back>
+                        <div type="bibliogr">
+                          <listBibl>
+                            <head>Bibliography</head>
+                            <bibl><hi rend="bold">Altisent, Marta E.</hi> (2008): <hi rend="italic">A
+                            Companion to the Twentieth-Century Spanish Novel</hi>. Woodbridge:
+                            Tamesis. </bibl>
+                            <bibl><hi rend="bold">Blei, David M.</hi> (2011): “Introduction to Probabilistic
+                            Topic Models,” in:  <hi rend="italic">Communication of the ACM</hi>. </bibl>
+                            <bibl><hi rend="bold">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I.</hi>
+                            (2003): “Latent Dirichlet Allocation,” in:  <hi rend="italic">Journal of
+                            Machine Learning Research</hi> 3: 993–1022. </bibl>
+                            <bibl>
+                              <hi rend="bold">Blevins, Cameron</hi> (2010): “Topic Modeling Martha
+                              Ballard’s Diary,” in:  <hi rend="italic">Historying</hi>
+                              <ref
+                                target="http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/"
+                                >http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/</ref>
+                                [letzter Zugriff 16. Februar 2016]. </bibl>
+                                <bibl><hi rend="bold">Doueihi, Milad</hi> (2012):  <hi rend="italic">Pour un
+                                humanisme numérique (2011)</hi>. Paris: Seuil. </bibl>
+                                <bibl><hi rend="bold">Gallo, Marta</hi> (1981):  <hi rend="italic">La Novela
+                                Hispanoamericana En El Siglo XIX</hi>. Madrid: La Muralla. </bibl>
+                                <bibl><hi rend="bold">García de Nora, Eugenio</hi> (1963):  <hi rend="italic">La
+                                Novela Española Contemporánea</hi>. Madrid: Gredos. </bibl>
+                                <bibl><hi rend="bold">Jockers, Matthew L.</hi> (2013):  <hi rend="italic"
+                                >Macroanalysis - Digital Methods and Literary History</hi>. Champaign,
+                                IL: University of Illinois Press. </bibl>
+                                <bibl><hi rend="bold">Jockers, Matthew L. </hi>(2015): “Revealing Sentiment and
+                                Plot Arcs with the Syuzhet Package” in:  <hi rend="italic">Matthew. L.
+                                Jockers</hi>
+                                <ref target="http://www.matthewjockers.net/2015/02/02/syuzhet/"
+                                  >http://www.matthewjockers.net/2015/02/02/syuzhet/</ref> [letzter
+                                  Zugriff 09. Februar 2016]. </bibl>
+                                  <bibl><hi rend="bold">McCallum, Andrew K.</hi> (2002): <hi rend="italic">MALLET:
+                                  A Machine Learning for Language Toolkit</hi>
+                                  <ref target="http://mallet.cs.umass.edu/">http://mallet.cs.umass.edu</ref>
+                                  [letzter Zugriff 09. Februar 2016]. </bibl>
+                                  <bibl><hi rend="bold">Nachwuchsgruppe CLiGS</hi> (o.J.): <hi rend="italic"
+                                  >Computergestützte literarische Gattungsstilistik</hi>
+                                  <ref target="http://cligs.hypotheses.org/"
+                                    >http://cligs.hypotheses.org/</ref> [letzter Zugriff 16. Februar
+                                    2016].</bibl>
+                                    <bibl><hi rend="bold">Rhody, Lisa M.</hi> (2012): “Topic Modeling and Figurative
+                                    Language,” in:  <hi rend="italic">Journal of Digital Humanities</hi> 2  <ref
+                                    target="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/"
+                                    >http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody</ref>
+                                    [letzter Zugriff 09. Februar 2016]. </bibl>
+                                    <bibl><hi rend="bold">Schmidt, Benjamin M.</hi> (2014): “Typical TV Episodes:
+                                    Visualizing Topics in Screen Time,” in:  <hi rend="italic">Sapping
+                                    Attention</hi>
+                                    <ref
+                                      target="http://sappingattention.blogspot.de/2014/12/typical-tv-episodes-visualizing-topics.html"
+                                      >http://sappingattention.blogspot.de/2014/12/typical-tv-episodes-visualizing-topics.html</ref>
+                                      [letzter Zugriff 09. Februar 2016]. </bibl>
+                                      <bibl><hi rend="bold">Schöch, Christof</hi> (2015): “Topic Modeling Genre: An
+                                      Exploration of French Classical and Enlightenment Drama [submitted]”, in: 
+                                      <hi rend="italic">Digital Humanities Quarterly</hi>. </bibl>
+                                      <bibl><hi rend="bold">Williams, Raymond L.</hi> (2009):  <hi rend="italic">The
+                                      Twentieth-Century Spanish American Novel</hi>. Austin, Texas: University
+                                      of Texas Press. </bibl>
+                                    </listBibl>
+                                  </div>
+                                </back>
+                              </text>
+                            </TEI>

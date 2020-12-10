@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-02">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Monasterium. Benutzerintegration in einem DH-Großprojekt</title>
+        <author>
+          <name>
+            <surname>Bürgermeister</surname>
+            <forename>Martina</forename>
+          </name>
+          <affiliation>ZIM, Universität Graz, Österreich</affiliation>
+          <email>martina.buergermeister@uni-graz.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Makowski</surname>
+            <forename>Stephan</forename>
+          </name>
+          <affiliation>CCeH, Universität Köln, Deutschland</affiliation>
+          <email>stephan.makowski@uni-koeln.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Strecker</surname>
+            <forename>Bernhard</forename>
+          </name>
+          <affiliation>CCeH, Universität Köln, Deutschland</affiliation>
+          <email>bernhard.strecker@uni-koeln.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jeller</surname>
+            <forename>Daniel</forename>
+          </name>
+          <affiliation>ICARUS, Wien, Österreich</affiliation>
+          <email>daniel.jeller@icar-us.eu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schneider</surname>
+            <forename>Gerlinde</forename>
+          </name>
+          <affiliation>ZIM, Universität Graz, Österreich</affiliation>
+          <email>gerlinde.schneider@uni-graz.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Bigalke</surname>
+            <forename>Jan</forename>
+          </name>
+          <affiliation>CCeH, Universität Köln, Deutschland</affiliation>
+          <email>jan.bigalke@uni-koeln.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T10:36:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Benutzerintegration</term>
+          <term>Crowdsourcing</term>
+          <term>Edition</term>
+          <term>Georeferecing</term>
+          <term>Retrieval</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Sammlung</term>
+          <term>Transkription</term>
+          <term>Inhaltsanalyse</term>
+          <term>Beziehungsanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Bearbeitung</term>
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Veröffentlichung</term>
+          <term>Crowdsourcing</term>
+          <term>Kollaboration</term>
+          <term>Webentwicklung</term>
+          <term>Artefakte</term>
+          <term>Daten</term>
+          <term>Interaktion</term>
+          <term>Metadaten</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Werkzeuge</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Benutzerintegration in Monasterium</head>
+        <p>Monasterium ist das größte digitale Urkundenarchiv Europas. Es wurde im Jahr 2001 initiiert und beinhaltet heute etwa eine Million Urkundendatensätze aus dem Mittelalter und der Frühen Neuzeit. </p>
+        <p>Das Angebot von Monasterium hat sich mittlerweile entscheidend über die reine Präsentation von Urkunden hinaus entwickelt. Monasterium ist ein Portal mit vielen Datenlieferanten und einer seit Projektstart offenen Datenaufnahmepolitik. Dieser Umstand begünstigte das kontinuierliche Wachstum des Datenbestandes, machte ihn aber gleichzeitig amorph hinsichtlich Erfassungs- und Erschließungstiefe. Aus diesem Grund ist für Monasterium die Integration der Benutzerinnen und Benutzer in der Datenerzeugung besonders wichtig. Die Integration verläuft (1) über kollaborativ-partizipative Nutzerveranstaltungen, sogenannte „MOMathons“, (2) über benutzerfreundliche Editionswerkzeuge wie WYSIWYM-Editoren, (3) über Visualisierung von vernetztem Wissen durch Georeferenzierung und (4) über verbesserten Retrieval durch „Drill Down“-Einsatz. Das Poster gibt einen Einblick in den aktuellen Stand der Entwicklungen. </p>
+        <p>Im Allgemeinen setzt die Bewältigung des Softwarepakets von Monasterium, genannt MOM-CA (Monasterium Collaborative Archive) eine stabile, effiziente und vor allem skalierbare Softwarearchitektur voraus. Grundlage des Datenbankmanagementsystems ist die Java-basierte XML-Datenbank „eXist“ mit darauf aufsetzendem XRX-Framework. Die Entwicklung von Monasterium erfolgte bis 2014 hauptsächlich am Kölner HKI. Heute übernehmen diese Aufgabe Digitale Geisteswissenschaftler und -innen vom CCeH in Köln, ZIM in Graz, ICARUS in Wien. Der Sourcecode von MOM-CA wird open source auf Github verwaltet und zur Verfügung gestellt.</p>
+        <div type="div2" rend="DH-Heading2">
+          <head>Benutzerintegration durch „MOMathons“</head>
+          <p>Monasterium veranstaltet regelmäßig sogenannte „MOMathons“. Dabei haben Teilnehmerinnen und Teilnehmer die Möglichkeit auf Basis des Crowdsourcing-Prinzips bei der Tiefenerschließung von Urkunden mitzuwirken. Dieses kollaborativ eingebrachte Wissen vergrößert das Datenmaterial, das über Monasterium der Öffentlichkeit zugänglich gemacht wird. Die bei diesen Veranstaltungen entstehende Benutzererfahrung ist auch für die Fortentwicklung der Plattform wichtig. Durch „MOMathons“ kann eine direkte Rückmeldung unmittelbar in die Programmiertätigkeit einfließen. So eingebunden, hat jede Nutzerin und jeder Nutzer auf eigene Art und Weise die Möglichkeit zu dem Erfolg des Projektes beizutragen.</p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Benutzerintegration durch WYSIWYM-Editor</head>
+          <p>Das Ziel einer virtuellen Editionsumgebung ist seit jeher ein wichtiger Entwicklungsaspekt von Monasterium. Um Wissen in der Webdatenbank strukturiert sammeln und veröffentlichen zu können, mussten die Barrieren des Zugangs für die Benutzerinnen und Benutzer minimiert werden. Aus diesem Grund wurde ein XML-generierender WYSIWYM-Editor entwickelt. Aktuell ist die dritte Editorengeneration umgesetzt. Es handelt sich dabei um eine Javascript-basierte Editionsumgebung, die die Beschreibung der Urkunden intuitiv ermöglicht: Der Editor bietet eine Mischung aus strukturierten Eingabemasken und Freitextfeldern an, die den Zugriff auf kontrollierte Vokabularien sowie Text-Bild-Verknüpfungswerkzeuge bereitstellt. Durch den benutzerfreundlichen Aufbau des Editors können sich so Anwenderinnen und Anwender auf die Erfassung der eigentlichen Inhaltsdaten konzentrieren.</p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Benutzerintegration durch Georeferencing-Tool</head>
+          <p>Um den Nutzerinnen und Nutzern weiterhin intuitive Orientierung innerhalb des mitunter sehr schnell anwachsenden Bestandes zu bieten, wurde ein Georeferencing-Tool implementiert. </p>
+          <p>Die Kartenfunktionalität dient nicht nur einer intuitiven Darstellung von Ausstellungsorten, sondern lässt zudem eine direkte Bearbeitung der mit den Urkunden verknüpften Geoinformationen zu. Das Tool ist in enger Verbindung mit der neuen Suchfunktion in Monasterium zu sehen. So haben die Benutzerin und der Benutzer die Möglichkeit, auf einen Blick für sie räumlich interessante Urkunden wahrnehmen und deren Relevanz einschätzen zu können.</p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+          <head>Benutzerintegration durch „Drill Down“</head>
+          <p>Der in dieser Größe einzigartige archivübergreifende Datenbestand lässt bei Monasterium herkömmliche Such- und Ordnungsfunktionalitäten an ihre Grenzen stoßen. Besonderes Augenmerk wurde und wird deshalb auf eine Erweiterung der Suchfunktion gelegt. Diese wird dahingehend verbessert, dass Treffermengen auf Basis verschiedener Urkunden-Attribute visualisiert und gefiltert werden können. Strukturen und Verbindungen innerhalb des Datenbestandes können besser erfasst und aufgedeckt werden. User werden insofern integriert, als das sie die Datenbank auf gezielte Forschungsfragen durchsuchen können und durch das „Drill Down“ ausschließlich relevante Treffer geliefert bekommen.</p>
+        </div>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Zusammenfassung</head>
+        <p>Um eine ganzheitliche Integration der Benutzerinnen und Benutzer zur Datenerzeugung anbieten zu können, werden bei der Softwareweiterentwicklung von Monasterium unterschiedlichste Zugänge berücksichtigt: Für direktes Benutzerfeedback sorgen „MOMathons“. Auf einer inhaltlich textbasierten Ebene wird die Datenerfassung durch WYSIWYM-Editoren erleichtert. Auf einer visuellen Ebene gestaltet die Kartenfunktionalität das Material anschaulicher und auf semantischer Ebene wird die Qualität der Informationsrückgewinnung durch die Granulierung der Suchparameter und entsprechender Suchtreffervisualisierung erhöht. Alle Entwicklungsebenen zusammen genommen lassen Monasterium als eine vielversprechende integrative und interaktive Forschungs-, Kommunikations- und Präsentationsumgebung erscheinen.</p>
+      </div>
+      <div type="bibliogr">
+        <listBibl>
+          <head>Bibliographie</head>
+          <bibl><hi rend="bold">ICARUS = International Centre for Archival Research</hi>
+          (2001-2016): <hi rend="italic">Monasterium.net</hi>. Virtuelles
+          Urkundenarchiv <ref
+          target="http://icar-us.eu/cooperation/online-portals/monasterium-net"
+          >http://icar-us.eu/cooperation/online-portals/monasterium-net</ref>.
+        </bibl>
+      </listBibl>
+    </div>
+  </body>
+</text>
+</TEI>

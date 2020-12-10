@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-077">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dramenwerkbank - Automatische Sprachverarbeitung zur Analyse von Figurenrede</title>
+        <author>
+          <name>
+            <surname>Blessing</surname>
+            <forename>Andre</forename>
+          </name>
+          <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+          <email>andre.blessing@ims.uni-stuttgart.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Bockwinkel</surname>
+            <forename>Peggy</forename>
+          </name>
+          <affiliation>Institut für Literaturwissenschaft, Universität Stuttgart, Deutschland</affiliation>
+          <email>peggy.bockwinkel@ilw.uni-stuttgart.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Reiter</surname>
+            <forename>Nils</forename>
+          </name>
+          <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+          <email>nils.reiter@ims.uni-stuttgart.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Willand</surname>
+            <forename>Marcus</forename>
+          </name>
+          <affiliation>Institut für Literaturwissenschaft, Universität Stuttgart, Deutschland</affiliation>
+          <email>Marcus.Willand@ilw.uni-stuttgart.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-02-10T21:58:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Drama</term>
+          <term>Werkbank</term>
+          <term>Sprachverarbeitung</term>
+          <term>NLP</term>
+          <term>Textanalyse</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Inhaltsanalyse</term>
+          <term>Strukturanalyse</term>
+          <term>Beziehungsanalyse</term>
+          <term>Annotieren</term>
+          <term>Netzwerkanalyse</term>
+          <term>Stilistische Analyse</term>
+          <term>Computer</term>
+          <term>Literatur</term>
+          <term>Metadaten</term>
+          <term>Personen</term>
+          <term>Software</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>In diesem Beitrag stellen wir erste Einsichten aus einer quantitativen Analyse von Dramen vor, sowie unsere Konzeption für eine darauf aufbauende interaktive Werkbank, die einen Anstoß für eine Diskussion zur Tool-Unterstützung quantitativer Dramenanalyse geben soll. Die Werkbank unterstützt interessierte Forscherinnen und Forscher beim Einlesen von Dramen aus TEI-basierten Quellen und befindet sich noch in Entwicklung
+          <ref type="note" target="n01" n="1">1</ref>. Neben den in Dramen schon explizit kodierten strukturellen Informationen (Wer spricht was?) stellt die Werkbank insbesondere Möglichkeiten zur Verfügung mit Werkzeugen zur maschinellen Sprachverarbeitung auch den Inhalt der Figurenrede zu analysieren. Inspektions- und Aggregationswerkzeuge und -sichten erlauben auch die Analyse größerer Korpora.
+        </p>
+        <p>Um die Anwendungsgebiete der Werkbank aufzuzeigen, skizzieren wir &#8211; anhand einer
+          <hi rend="italic">Pilotstudie</hi> zur Analyse des Verhältnisses von
+          dramatischer Figur zur dramatischen Handlung &#8211; den Problemhorizont quantitativer
+          Literaturwissenschaft. Dabei interessieren uns insbesondere diese Fragen: Gibt
+          es einen Zusammenhang zwischen angenommenen prototypischen Rollen (Protagonist,
+          Intrigant, König usw.) und Länge bzw. Häufigkeit der Redebeiträge oder der
+          Referenz auf die Figur? Wird über bestimmte Figuren(-rollen) auf bestimmte Arten
+          gesprochen (abwertend / aufwertend, ...)? Gibt es
+          Figuren(-rollen)konstellationen, die häufig kookurrieren, und zwar in Bezug auf
+          ihren eigenen Rede- und Bühnenbeitrag als auch im Bezug auf die Referenzen auf
+          die Figuren? </p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Dramenanalyse: Basics</head>
+          <p>Dramentexte unterscheiden sich insbesondere durch zwei zusammenhängende
+            Eigenschaften von Prosatexten: a) Dramatische Texte sind im Gegensatz zu vielen
+            anderen Textsorten auf allen Ebenen (Akt- bis Redefolge) ausgesprochen gut
+            strukturiert und ermöglichen somit eine verhältnismäßig unaufwändige
+            Datenerhebung. Die Kehrseite der guten Strukturiertheit ist dass dramatische
+            Texte damit nicht dem Prototyp eines Textes entsprechen, wie er von vielen
+            Werkzeugen zur Sprachverarbeitung angenommen wird. Die maschinelle
+            Sprachverarbeitung auf dramatischen Texten ist damit nicht durch existierende
+            Werkzeuge „out of the box“ zu leisten. b) Die dramatischen Figuren sprechen <hi
+            rend="italic">unvermittelt</hi>. Unterscheidungen zwischen Erzähler- und
+            Figurenrede und -denken spielen in Dramen keine Rolle. Während Ansätze der
+            Stilometrie, das Figurensignal vom Erzähler- und jenes wiederum vom
+            Gattungssignal zu trennen (Jannidis 2014), noch in den Kinderschuhen stecken,
+            muss sich die (teil-)automatische quantitative Dramenanalyse diesen
+            interpretativen Problemen nicht stellen. Sie hat vor allem <hi rend="italic"
+            >technisch</hi>- <hi rend="italic">methodische</hi> Probleme zu lösen: a)
+            Erfassung und Einlesen der Daten und b) (teil-)automatische Textanalyse in
+            Dramen. Zu letzterem gehört auch der adäquate Einsatz von interpretierbaren
+            Maßen und transparenten Verfahren sowie visuellen Repräsentationen von
+            Ergebnissen. </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Erfassung und Einlesen der Daten: TEI-Integration</head>
+            <p>Eine automatisierte Erfassung der Oberflächenstruktur inklusiver aller relevanten
+              Metadaten dramatischer Texte ist die Grundvoraussatzung einer quantitativen
+              Textanalyse im oben genannten Sinne. TEI / XML ist als Standard etabliert, um
+              Texte und Korpora möglichst genau entsprechend der/einer gedruckten Edition
+              digital zu kodieren (cf. TextGrid; DTA). Insbesondere erlaubt TEI auch die
+              Kodierung von Seitenzahlen, Formatierungen, Zeilenumbrüchen, Kopf- und Fußzeilen
+              und vieles mehr, was über den reinen Textinhalt hinausgeht.</p>
+              <p>Wie Trilcke et al. (2015) auch schon festgestellt haben, ist die Extraktion der inhaltlichen Textstruktur aus den TEI-Daten keineswegs trivial. Für Netzwerkanalyse ist die eindeutige Identifizierung von Figuren besonders relevant, für eine (maschinelle, computergestützte) Analyse des Inhaltes und der Häufigkeit der Figurenrede kommen o.g. Formatierungsmarkierungen noch als Herausforderung hinzu. In unserer Werkbank bieten wir einen Plausibilitätscheck an, der es erlaubt, Fehler im Importprozess (die sowohl durch Fehlannahmen im Importmodul als auch durch Fehlkodierungen in den Quelldaten verursacht werden können) direkt zu erkennen und zu beheben. Einmal identifizierte und behobene Fehler fließen in die Quelldaten zurück.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>(Automatische) Textanalyse in Dramen</head>
+              <p>In den bereits existierenden Arbeiten zur Stilometrie auf Dramen werden komplette
+                Dramen verglichen (z. B. durch Vorverarbeitung mit DIGIVOY). Ein differenzierter
+                Vergleich, bei dem einzelne Figuren oder Gruppen von Figuren betrachtet werden,
+                ist so noch nicht möglich gewesen.</p>
+                <p>Andere Projekte gehen genau den gegenteiligen Weg und verwerfen alle Dialoginhalte und beziehen ihre Netzwerkanalyse nur auf die Interaktion der jeweils in der Szene aktiven Figuren (cf. Trilcke et al.). Uns ist kein verfügbares System bekannt, das diese Lücke schließt und eine inhaltliche Analyse erlaubt, die sowohl die Interaktion der aktiven Figuren als auch deren Redeinhalt einbezieht. </p>
+                <p>In unserer Werkbank erfolgt die Textanalyse mit computerlinguistischen
+                  Werkzeugen, welche durch die CLARIN-D Infrastruktur (Mahlow et al. 2014)
+                  bereitgestellt werden. Der Aufbau von Dramen erfordert eine spezielle
+                  Herangehensweise bei der Textanalyse, da die in der Computerlinguistik oft
+                  getroffene Annahme, dass Texte aus vollständigen und grammatikalisch
+                  wohlgeformten Sätzen bestehen, in Dramen nicht zutrifft (wie auch in Texten aus
+                  sozialen Medien oder in gesprochener Sprache). Daneben weisen Dramen die oben
+                  genannte spezifische Struktur auf, die eine adäquate Vorverarbeitung bedingt. Um
+                  eine Verarbeitung mit einer nicht modifizierten CL-Verarbeitungskette zu
+                  ermöglichen, wird das Drama vorher in passende Textsegmente zerlegt. Segmente,
+                  die zu einem Dialog gehören müssen nach der Verarbeitung wieder der jeweiligen
+                  Figur zugeordnet werden. Im Kontext der Figurenanalyse sind insbesondere
+                  Eigennamenerkennung und Koreferenzresolution von Interesse. Wenn man den
+                  stilometrischen Blick weitet und auch syntaktische Konstruktionen (verwendet
+                  eine Figur mehr oder weniger komplexe Satzstruktur?) untersuchen möchte, sind
+                  auch andere linguistische Verarbeitungsschritte möglich. </p>
+                  <p>Die Ergebnisse dieser Verarbeitung werden nicht fehlerfrei sein, deswegen bietet
+                    die Werkbank Möglichkeiten, die Ergebnisse zu korrigieren. Insbesondere die
+                    Zusammenführung von unterschiedlich genannten oder geschriebenen (z. B. „Emilia“
+                    vs. „Emilie“ oder „die Soldaten“ vs. „erster Soldat“) Figuren ist nicht trivial
+                    und teilweise nur durch zusätzliches Weltwissen realisierbar. Damit dieser
+                    Schritt vereinfacht wird kommt hier ein halb-automatischer Figurenabgleich zum
+                    Einsatz. Das überarbeitete und manuell geprüfte Drama kann in einem
+                    TEI-konformen Format exportiert werden, damit die so kuratierte Ressource wieder
+                    der Community zur Verfügung gestellt werden kann. Linguistische Annotationen,
+                    die in TEI nicht direkt repräsentiert werden können, werden in einem geeigneten
+                    stand-off-Format exportiert.</p>
+                    <div type="div2" rend="DH-Heading2">
+                      <head>Pilotstudie</head>
+                      <p>In einer Pilotstudie haben wir anhand eines einzelnen Dramas exploriert, wie
+                        der Zusammenhang von (der zentralen) Dramenfigur zur dramatischen Handlung
+                        automatisiert sichtbar gemacht werden kann. Die (zentrale) Stellung im
+                        Figurennetzwerk wird dabei nicht (wie in der aktuellen Forschung gängig;
+                        vgl. Moretti 2011) lediglich durch häufige Präsenz oder Interaktion auf der
+                        Bühne repräsentiert, sondern durch differenziertere Analysen der
+                        Figurenaktivität. <hi rend="italic">Wie häufig</hi> eine Figur spricht, <hi
+                        rend="italic">wie viel</hi> sie spricht und <hi rend="italic">wie häufig
+                        über sie</hi> gesprochen wird, sind dabei die Kerndaten der
+                        quantitativen Analyse, auf der weiter vorzustellende Analysen beruhen. Eine
+                        manuelle Datenerfassung übersteigt jedoch selbst bei einzelnen Dramen
+                        schnell den vom Menschen leistbaren Zeiteinsatz (wie die in Abbildung 1
+                        manuell erstellte Erfassung der Redeteile in <hi rend="italic">Emilia
+                        Galotti</hi> zeigt): </p>
+                        <figure>
+                          <graphic n="1001" width="11.7348cm" height="11.260666666666667cm" url="p077-image1.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 1</hi>: „ <hi rend="bold">Token von
+                        x</hi>“ = Gesamthäufigkeit der Nennung jeder einzelnen Namensvariante.
+                        <hi rend="bold">Figurennennung</hi> = Nennung der Namensvarianten in der
+                        Rede anderer Figuren. <hi rend="bold">Redehäufigkeit</hi> = Wie oft spricht
+                        eine Figur. <hi rend="bold">Gesamtzahl der Wörter…</hi> = Redelänge in
+                        Wörtern. <hi rend="bold">(Aktivitäts)Quotient</hi> = Summe der
+                        Redehäufigkeit geteilt durch die Summe der Figurennennung: X &gt; 1 = Aktiv
+                        (Redet häufiger als über sie geredet wird); X &lt; 1 = Passiv. </p>
+                        </figure>
+                      </div>
+                    </div>
+                    <div type="div1" rend="DH-Heading1">
+                      <head>NLP-Unterstützte Analysemöglichkeiten in Dramen</head>
+                      <p>Die Kombination von in Dramen vorhandenen strukturellen Informationen und durch automatische Verarbeitung ermittelte inhaltlich-semantische Information erlaubt neue, feinkörnige Analysen von Dramen. Die im Folgenden genannten sollen durch die Werkbank unterstützt werden, entweder durch Integration existierender oder durch Entwicklung neuer Tools.</p>
+                      <div type="div2" rend="DH-Heading2">
+                        <head>Oberflächenanalyse der Figuren</head>
+                        <p>Möglich ist eine automatische Auswertung der Figurenreden nach inhaltlichen
+                          Kriterien. Ohne Vorwissen bereitstellen zu müssen, lassen sich wichtige
+                          Begriffe, durch deren Verwendung sich eine Figur von anderen unterscheidet,
+                          mit Verfahren wie TF*IDF ermitteln und z. B. als Tabelle oder als Wortwolke
+                          darstellen. Komplexere Verfahren wie topic modeling (Blei et al. 2003) oder
+                          Wortfeldanalysen können natürlich auch auf den Redeinhalt einer Person (ggf.
+                          auf Akte / Szenen o. ä. eingeschränkt) angewendet werden, erfordern aber
+                          zumindest die Einstellung von Parametern (z. B. Anzahl der topics im topic
+                          modelling) oder das Spezifizieren von Wortfeldern. Automatische Methoden zur
+                          Erweiterung von Wortfeldern (angelehnt an z. B. Query Expansion, vgl.
+                          Manning et al. 2008) können diesen Prozess unterstützen und sollen im
+                          Rahmen der Werkbank erprobt und integriert werden. Abbildung 2 zeigt eine
+                          visuelle Auswertung dieser Analyse.</p>
+                          <figure>
+                            <graphic n="1002" width="16.003763888888887cm" height="10.787944444444445cm" url="p077-image2.png" rend="inline"/>
+                          <p rend="figure"><hi rend="bold">Abb. 2</hi>: Strukturelle und inhaltliche
+                          Analyse von Schillers Johanna von Orleans. Unten: Figurenaktivität. Oben:
+                          Prominenz ausgewählter semantischer Räume in der Figurenrede (Frankreich,
+                          Gott, Militär). </p>
+                          </figure>
+                          <figure>
+                            <graphic n="1003" width="15.801947222222223cm" height="6.265333333333333cm" url="p077-image3.png" rend="inline"/>
+                          <p rend="figure"><hi rend="bold">Abb. 3</hi>: Anhand der Häufigkeit der
+                          Figurennennung („Emilia“ vs. „Tochter“) kann der (bisher kaum erforschte)
+                          Diskursverlauf im Sinne einer Unterscheidung in private und öffentliche
+                          Konversation sehr gut nachvollzogen werden. </p>
+                          </figure>
+                        </div>
+                        <div type="div2" rend="DH-Heading2">
+                          <head>Stilometrische Analysen von Figurenreden</head>
+                          <p>Stilometrische Analysen werden durch eine Schnittstelle ermöglicht, durch die
+                            man Figurenrede als Datenstrukturen in R abrufen und dann nach diversen
+                            Kriterien untersuchen kann, etwa mit Hilfe von stylo (Eder et al. 2013). Es
+                            ließe sich z. B. untersuchen, ob Könige bei Schiller anders sprechen als bei
+                            Lessing, oder ob Bürgerfiguren in einem bestimmten Dramenkorpus anders
+                            sprechen als Adelsfiguren:</p>
+                            <figure>
+                              <graphic n="1004" width="8.049772222222222cm" height="9.837011111111112cm" url="p077-image4.jpg" rend="inline"/>
+                            <p rend="figure"><hi rend="bold">Abb. 4</hi>: Figurenreden, extrahiert aus 34
+                            Dramen; nach Standeszugehörigkeit benannt.</p>
+                            </figure>
+                          </div>
+                          <div type="div2" rend="DH-Heading2">
+                            <head>Sentiment-Analyse</head>
+                            <p>Durch Methoden aus der Sentiment-Analyse (die zur automatisierten Analyse von
+                              Produktreviews eingesetzt wird) ließe sich z. B. analysieren, wie und ob
+                              bestimmte Figuren über andere sprechen. Neben positiv / negativ wären auch
+                              feinere, dramenspezifische Unterscheidungen denkbar (Feigling, Hahnrei,
+                              ...).</p>
+                            </div>
+                            <div type="div2" rend="DH-Heading2">
+                              <head>Kombination mit Netzwerkanalyse</head>
+                              <p>Die Kombination dieser Techniken mit Netzwerkanalyseverfahren würde es
+                                erlauben, im Netzwerk auch Entitäten darzustellen über die geredet wird,
+                                ohne dass sie direkt im Drama vorkommen (z. B. Gott), Kanten zwischen Knoten
+                                können dann (z. B. durch Farben) auch inhaltliche, relationale Informationen
+                                kodieren (X spricht viel / positiv über Y).</p>
+                                <p>Eine Netzwerkdarstellung, in der die Position der Figuren nicht mehr zufällig
+                                  (oder durch Layout-Algorithmen gesteuert) ist ist ebenfalls denkbar
+                                  (Abbildung 4). Dabei werden prototypischen Figurenrollen feste Positionen in
+                                  einem Raster zugewiesen, so dass große Mengen an Netzwerken schnell und
+                                  direkt verglichen werden können.</p>
+                                </div>
+                              </div>
+                            </body>
+                            <back>
+                              <div type="Notes">
+
+                                <note xml:id="n01" n="1">
+                             http://www.ims.uni-stuttgart.de/short/dramen</note></div>
+
+                              <div type="bibliogr">
+                                <listBibl>
+                                  <head>Bibliographie</head>
+                                  <bibl>
+                                    <hi rend="bold">Blei, David / Ng, Andrew Y. / Jordan, Michael I.</hi>
+                                    (2003): „Latent Dirichlet Allocation“, in: <hi rend="italic">Journal of
+                                    Machine Learning Research</hi> 3: 993–1022. </bibl>
+                                    <bibl><hi rend="bold">Eder, Maciej / Kestemont, Mike / Rybicki, Jan</hi> (2013):
+                                    „Stylometry with R: a suite of tools“, in: <hi rend="italic">Digital
+                                    Humanities 2013 Conference Abstracts</hi> 487-89. </bibl>
+                                    <bibl><hi rend="bold">Jannidis, Fotis</hi> (2014): „Der Autor ganz nah.
+                                    Autorstil in Stilistik und Stilometrie“, in: Schaffrick, Matthias / Marcus
+                                    Willand (eds.): <hi rend="italic">Theorien und Praktiken der
+                                    Autorschaft</hi>. Berlin: De Gruyter 169-195. </bibl>
+                                    <bibl><hi rend="bold">Mahlow, Cerstin / Eckart, Kerstin / Stegmann, Jens /
+                                      Blessing, Andre / Thiele, Gregor / Gärtner, Markus / Kuhn, Jonas</hi>
+                                      (2014): „Resources, Tools, and Applications at the CLARIN Center Stuttgart“,
+                                      in: <hi rend="italic">Akten der 12. Konferenz zur Verarbeitung natürlicher
+                                      Sprache (KONVENS 2014)</hi> 11-21. </bibl>
+                                      <bibl><hi rend="bold">Moretti, Franco</hi> (2011): <hi rend="italic">Network
+                                      Theory, Plot Analysis</hi>. LiteraryLab Pamphlet 2: <ref
+                                      target="http://litlab.stanford.edu/LiteraryLabPamphlet2.pdf"
+                                      >http://litlab.stanford.edu/LiteraryLabPamphlet2.pdf</ref> [letzter
+                                      Zugriff 20. August 2014]. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Manning, Christopher D / Raghavan, Prabhakar / Schütze,
+                                          Hinrich</hi> (2008): <hi rend="italic">Introduction to Information
+                                          Retrieval</hi>. Cambridge: Cambridge University Press. </bibl>
+                                          <bibl><hi rend="bold">Trilcke, Peer / Fischer, Frank / Kampkaspar, Dario</hi>
+                                          (2015): „Digital Network Analysis of Dramatic“, in: <hi rend="italic"
+                                          >Digital Humanities 2015 Conference Abstracts</hi>: <ref
+                                          target="http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_Dramati/FISCHER_Frank_Digital_Network_Analysis_of_Dramatic_Text.xml"
+                                          >http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_ Dramati/FISCHER_Frank_Digital_Network_ Analysis_of_Dramatic _Text.xml</ref>
+                                          [letzter Zugriff 16. Februar 2016].</bibl>
+                                        </listBibl>
+                                      </div>
+                                    </back>
+                                  </text>
+                                </TEI>

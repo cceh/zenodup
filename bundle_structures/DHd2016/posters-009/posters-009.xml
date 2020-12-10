@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-009">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>histoGraph: Graphbasierte Exploration und Crowdbasierte Indexierung </title>
+        <author>
+          <name>
+            <surname>Wieneke</surname>
+            <forename>Lars</forename>
+          </name>
+          <affiliation>CVCE Luxembourg, Luxemburg</affiliation>
+          <email>lars.wieneke@cvce.eu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Düring</surname>
+            <forename>Marten</forename>
+          </name>
+          <affiliation>CVCE Luxembourg, Luxemburg</affiliation>
+          <email>marten.duering@cvce.eu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Guido</surname>
+            <forename>Daniele</forename>
+          </name>
+          <affiliation>CVCE Luxembourg, Luxemburg</affiliation>
+          <email>daniele.guido@cvce.eu</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-16T12:21:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Crowdsourcing</term>
+          <term>Explorative Netzwerkvisualisierung</term>
+          <term>Indexierung</term>
+          <term>histoGraph</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Entdeckung</term>
+          <term>Sammlung</term>
+          <term>Bilderfassung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Beziehungsanalyse</term>
+          <term>Annotieren</term>
+          <term>Kontextsetzung</term>
+          <term>Bereinigung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Crowdsourcing</term>
+          <term>Kollaboration</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Visualisierung</term>
+          <term>Bilder</term>
+          <term>Multimedia</term>
+          <term>Multimodale Kommunikation</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Personen</term>
+          <term>Software</term>
+          <term>Text</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>histoGraph</head>
+        <p>Der Vortrag wird das im CVCE DH Lab entwickelte Werkzeug histoGraph vorstellen,
+          das die graphbasierte Exploration von digitalisierten Quellen mit crowdbasierter
+          Indexierung verknüpft. histoGraph basiert auf einer zu Demonstrationszwecken
+          entwickelten Software, die Teil des FP7-geförderten Projekts CUbRIK zur
+          Mensch-Maschine-Interaktion in der Multimediasuche war. Der Vortrag enthält
+          neben einer Präsentation des neu entwickelten Designs und des weiterentwickelten
+          Konzepts auch eine Live-Demo. histoGraph wird ab dem Frühjahr 2016 als open
+          source Software frei verfügbar sein.</p>
+          <p>Mit histoGraph eröffnen wir neue Perspektiven auf die umfangreichen Bestände des
+            <ref target="http://www.cvce.eu/">Centre Virtuel de la Connaissance sur
+              l’Europe</ref>. Gegenwärtig sind dort ca. 20.000 Texte, Bilder und Fotos
+              online verfügbar, hierarchisch organisiert in thematischen Sammlungen (<hi
+              rend="italic">ePublications</hi>). Diese Sammlungen erzählen die Geschichte
+              der europäischen Integration seit 1945 anhand von sorgfältig ausgewählten
+              Primärquellen. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Exploration</head>
+              <p>histoGraph ergänzt diese expertenbasierten Sammlungen um einen freieren, explorativen Zugang: Nutzer entscheiden, welche Entität – in unserem Falle: welche Person, Institution oder welches Dokument für sie von Interesse ist.</p>
+              <p>Das histoGraph-Interface ist in drei vertikale Spalten gegliedert: Die erste Spalte gibt einen ersten Überblick zu seiner Biographie und kookkurrienden anderen Personen. Die zweite Spalte listet alle assoziierten Dokumente auf. Die dritte Spalte repräsentiert diese auf Kookkurrenz basierenden Beziehungen als Graph. histoGraph bietet Nutzern nun mehrere Optionen, diese Ergebnisse zu filtern oder zu sortieren. Von besonderer Bedeutung ist aber die Möglichkeit, gezielt nach Beziehungen zwischen bestimmten Personen zu suchen. Hierzu werden zwei oder mehrere Personen ausgewählt und alle Dokumente aufgelistet, in denen beide erwähnt werden. Darüber hinaus zeigt der Graph alle weiteren Personen, die gemeinsam mit den Gesuchten erwähnt werden. Diese Art der Suche ist inspiriert vom Prinzip des
+                <hi rend="italic">shortest path</hi>, einer gängigen Methode zur Beschreibung von Netzwerktopologien und -zentralitäten. Hierbei werden alle Schritte gezählt die nötig sind um von einem Knoten des Netzwerks zu einem anderen zu gelangen.
+              </p>
+              <p>Diese Abfrage funktioniert übrigens ebenso gut für Dokumente oder Institutionen, nur dass in diesem Falle ähnliche Dokumente oder häufig zusammen erwähnte Institutionen dargestellt werden. Dieser Ansatz kombiniert eine gezielte Suche mit einem freieren Finden, dass unerwartete Querverbindungen außerhalb der ursprünglichen Suche sichtbar machen kann. Der größte Unterschied zwischen den eingangs erwähnten hierarchisch organisierten thematischen Sammlungen und histoGraph ist, dass Nutzer die Freiheit haben, ihren eigenen Interessen zu folgen und selbstständig nach für sie relevanten Dokumente und Sozialbeziehungen zu forschen. In histoGraph werden damit mehrere Aspekte historischen Arbeitens aufgegriffen: (1) das genaue Studium einzelner Objekte, (2) deren Betrachtung innerhalb ihres jeweiligen Kontexts, (3) die Suche nach weiteführenden, bislang unberücksichtigten Dokumenten. Die enge Verbindung zwischen Dokumenten und abstrakter Visualisierung sorgt dafür, dass letztere mit Gewinn „gelesen“ und evaluiert werden können.</p>
+              <p>histoGraph arbeitet momentan ausschließlich mit Kookkurrenzen. Es ist mit diesem Ansatz nur sehr schwer möglich, weitergehende Aussagen über die Bedeutung einer solchen Beziehung beispielsweise zwischen zwei gemeinsam erwähnten Personen zu machen: Diese können miteinander interagiert haben, in unterschiedlichen Kontexten erwähnt worden sein oder gar mit dem Hinweis, dass sie absolut nichts miteinander zu tun hatten. Diese Beliebigkeit ist allerdings auch eine Stärke: Sie überlässt Nutzern die Entscheidung, was als eine relevante Beziehung zu gelten hat. Hierbei gilt: Je genauer Beziehungen definiert sind, desto geringer ist der Anteil an irrelevanten Beziehungen. Aber auch: Je großzügiger Beziehungen definiert sind, desto höher ist die Chance, forschungsrelevante Querverbindungen zu entdecken. Im Entwicklungsprozess versuchen wir, die Balance zwischen diesen beiden erstrebenswerten und doch entgegengesetzten Polen zu halten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Indexierung</head>
+              <p>histoGraph eignet sich allerdings nicht nur für die Erforschung von digitalen Sammlungen sondern auch für deren Indexierung. Wir arbeiten mit einer Kombination aus unterschiedlichen Werkzeugen für die Identifizierung von
+                <hi rend="italic">named entities</hi> wie Personen, Institutionen, Zeitangaben und Orten. Um diese automatisch generierten Annotationen zu prüfen und gegebenenfalls zu verbessern, arbeiten wir zusätzlich mit Methoden des
+                <hi rend="italic">crowdsourcing</hi>. Hierbei werden einfache Aufgaben, wie etwa die Erkennung von Gesichtern in Fotos oder die Bestätigung eines Datums von so genannten generischen
+                <hi rend="italic">crowds</hi> übernommen. Anspruchsvollere Aufgaben, wie etwa der Umgang mit Namensvettern bleibt einer
+                <hi rend="italic">crowd</hi> von Experten vorbehalten. Das System eignet sich ebenso für das kollaborative Indexieren und Annotieren in Teams, etwa einer Projektgruppe.
+              </p>
+              <p>Im Vergleich mit den bisherigen Sammlungen ermöglicht histoGraph also eine freie Exploration des Materials und das effektive Finden von potentiell relevanten Dokumenten und Beziehungen. Im Zentrum steht hierbei nicht die von Experten kuratierte Auswahl, die mit einem Museumsbesuch vergleichbar ist sondern ein mehr oder minder zielgerichtetes Stöbern, dass einem Archivbesuch näher kommt.</p>
+            </div>
+          </body>
+          <back>
+            <div type="bibliogr">
+              <listBibl>
+                <head>Bibliographie</head>
+                <bibl><hi rend="bold">Centre Virtuel de la Connaissace sur l'Europe</hi>
+                (2004-2016), Luxembourg <ref target="http://www.cvce.eu/"
+                >http://www.cvce.eu/</ref> [letzter Zugriff 09. Januar 2016].</bibl>
+                <bibl>
+                  <hi rend="bold">Wieneke, Lars / Düring, Marten / Silaume, Ghislain /
+                    Lallemand, Carine / Croce, Vincenzo / Lazzarro, Marilena / Nucci,
+                    Francesco u. a. </hi>(2014): “histoGraph – A Visualization Tool for
+                    Collaborative Analysis of Historical Social Networks from Multimedia
+                    Collections”, in <hi rend="italic">Proceedings of 18th International
+                    Conference Information Visualisation (IV), 2014 Conference</hi>, Paris.
+                  </bibl>
+                </listBibl>
+              </div>
+            </back>
+          </text>
+        </TEI>

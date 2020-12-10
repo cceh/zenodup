@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-076">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Die Schule von Salamanca. Ansätze für vernetzte und visualisierbare Daten </title>
+        <author>
+          <name>
+            <surname>Wagner</surname>
+            <forename>Andreas</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+          <email>andreas.wagner@em.uni-frankfurt.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Caesar</surname>
+            <forename>Ingo</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+          <email>caesar@rg.mpg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T13:32:27.365465124</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Frühe Neuzeit</term>
+          <term>TEI</term>
+          <term>Semantic Web</term>
+          <term>Visualisierung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kontextsetzung</term>
+          <term>Veröffentlichung</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Methoden</term>
+          <term>Personen</term>
+          <term>Text</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Das 2013 gestartete Projekt
+        <hi rend="italic">Die Schule von Salamanca. Eine digitale Quellensammlung und ein Wörterbuch ihrer juristisch-politischen Sprache</hi> umfasst eine Sammlung von über 100 Texten iberischer Theologen und Juristen des 16. und 17. Jahrhunderts zu politischen und rechtlichen Themen. Diese Sammlung wird ergänzt durch ein Handbuch, in dem neben biografischen Informationen zu den in der Edition vertretenen Autoren die Entwicklung zentraler Begriffe der europäischen Rechts- und politischen Ideengeschichte in diesem Diskussionszusammenhang erschlossen wird. Beide Teile werden vollumfänglich und frei online zugänglich sein; zu Beginn des Jahres 2016 werden die ersten Daten der Quellensammlung und des Wörterbuchs zur Verfügung gestellt. Dies sind insbesondere die TEI-XML Dateien der Volltexte der ersten Werke sowie die dazugehörigen Digitalisate. Parallel besorgen wir die Bereitstellung der Daten als Linked Open Data in Verbindung mit einem SPARQL-Endpoint.
+      </p>
+      <p>Zu Beginn des DHd-Vortrags wird das Projekt und seine Website kurz vorgestellt. Eine wichtige Facette besonders der künftigen Projektentwicklung sehen wir aber in der Einbindung unserer Daten in eine Linked Data Infrastruktur. Der Vortrag soll daher vor allem dafür genutzt werden, um einen Einblick in die Arbeitsschritte, Entscheidungen und Implementierungen zu geben, die in dieser Hinsicht erfolgt sind und noch ausstehen.</p>
+      <p>1. Wie werden die TEI-Daten in einer Linked-Data-Umwelt angeboten: welche Elemente
+        oder Attribute werden welchen Objekten und Prädikaten welcher Ontologien zugeordnet?
+        Wie wird diese Zuordnung in Anschlag gebracht, um die Daten als semantische Daten
+        anzubieten? Wie ist die zeitliche Dimension vieler biographischer Angaben
+        abzubilden? Wie ist mit alternativen Werten, z. B. konkurrierenden Angaben zu
+        Geburtsdaten, umzugehen? Gibt es Rückwirkungen auf unser „Kerngeschäft“, i. e. das
+        TEI Schema und die Datenerfassung?</p>
+        <p>Wir werden semantische Daten zu den Werken und zu den in der Edition vertretenen Autoren anbieten, dabei hauptsächlich auf die foaf-, bio-, relationship-, und SPAR-Ontologien zurückgreifen und die TEI Daten über den xtriples Webservice (xTriples 2015) in RDF umwandeln.</p>
+        <p>2. Wie werden die Daten in unseren eigenen Diensten vernetzt genutzt, wie sollen sie
+          zur externen Nachnutzung und Vernetzung angeboten werden: Welche Dienste und
+          Ressourcen sollen – direkt oder indirekt – über das Projekt angeboten werden? <ref type="note" target="n01" n="1">1</ref> Welche Möglichkeiten ergeben sich durch die Vernetzung unserer Daten
+          mit denen anderer Anbieter, Forschungsfragen in neuer Weise zu bearbeiten? In
+          welcher Form können oder sollen solche erweiterten Möglichkeiten auf der Projektsite
+          öffentlich angeboten werden, wie verhält es sich mit Rechtemanagement und
+          Qualitätssicherung in föderierten Abfragen/Daten? Welche anderen Datenanbieter sind
+          interessante Kooperationspartner, welches sind die einschlägigen Normdatenbanken?
+          <ref type="note" target="n02" n="2">2</ref> Was sind die
+            Erfahrungen mit den verfügbaren Schnittstellen dieser Anbieter? </p>
+            <p>Wir werden sowohl auflösbare Entitäten URIs als auch einen SPARQL Endpoint anbieten.
+              Föderierte Abfragen zur Bearbeitung spezieller Forschungsfragen werden im Vortrag
+              vorgestellt. Auch für uns bislang noch ungelöste Probleme, die sich z. B. aus der
+              heterogenen Struktur und Qualität der Daten ergeben, werden angesprochen.</p>
+              <p>Über die infrastrukturelle Seite dieser Vernetzung hinaus gilt es hier die Benutzerperspektive nicht aus den Augen zu verlieren: Wie und wo sollen welche Art von Benutzern Vernetzungen und Abfragen selbständig definieren können? Weit mehr als eine Frage der technischen Möglichkeiten ist dies ein Problem der Widmung und des Einsatzes von Entwicklungsressourcen, denn sie betrifft die Entwicklung von Oberflächen, deren Nutzung weit über die Kernaufgaben der meisten Projekte hinausgeht.
+                <ref type="note" target="n03" n="3">3</ref>
+              </p>
+              <p>3. Visualisierungsmöglichkeiten, aufsetzend auf verschiedene Services: Ein Problem bei der Gewinnung vieler Daten aus dem Semantic Web ist ihre Aufbereitung in einer Form, die den Anwendenden dazu befähigt, neue Entdeckungen zu machen, vielleicht sogar neue wissenschaftliche Erkenntnisse zu generieren. Je größer dabei die Quantität und die Heterogenität der Daten ist, desto anspruchsvoller wird die Aufgabe, eine gute Visualisierung zu erzeugen.</p>
+              <p>Es gibt bereits verschiedene Open Source Programme, die sich als Visualisierungstools
+                eignen und bei denen es sich lohnt, über einen Einsatz nachzudenken. Neben
+                generischen Visualisierungs-Tools (z. B. NodeBox 2015, Sgvizler 2015, d3SPARQL
+                2015), <hi rend="italic">Google Heatmaps</hi> (Heatmaps 2015) und
+                Zeitverlaufsanzeigen (z. B. über Timeline 2015; HDAT 2015) etwa durch Abfragen von
+                Koordinaten aus dem TGN, lohnt es auch, einen Blick auf <hi rend="italic"
+                >RelFinder</hi> (2015) zu werfen. RelFinder visualisiert die Beziehungen
+                zwischen zwei Ressourcen und gibt auch den jeweiligen Inhalt der Ressource aus. Für
+                alle diese Werkzeuge gilt es jedoch das mögliche Einsatzszenario sorgfältig zu
+                entwerfen. Überlegungen und Kriterien für ein allgemeines Verfahren solcher Entwürfe
+                sollen vorgestellt werden. </p>
+                <p>Die Zukunftsperspektiven für die Bereiche Vernetzung und Visualisierung werden im Salamanca-Projekt stets mitbedacht, und so umreißt der Vortrag bereits erbrachte Leistungen und Implementierungen, getroffene Entscheidungen aber auch noch offene und zu erprobende Themen: Insbesondere in Punkt 1 gehen viele Aspekte schon im Frühjahr 2016 in „production use“, in Punkt 2 werden einige konzeptuelle Fragen angesprochen, die wir für uns noch nicht gelöst haben, in Punkt 3 werden wir beschreiben, wie wir von einem eher zufälligen Spiel mit verschiedensten technischen Möglichkeiten zu einem systematischen Prozess der Reflexion über aktuelle und neue Entwicklungsziele übergehen.</p>
+              </body>
+              <back>
+                <div type="Notes">
+
+                  <note xml:id="n01" n="1">Z.B. Auflösung von Ressourcen-URLs, content
+                negotiation, triple-store dump, Linked Data Fragments, SPARQL Endpoint
+                usw.</note>
+                  <note xml:id="n02" n="2">Projekte: z. B. <hi rend="italic"
+                    >Scholasticon</hi> (Schmutz 2009) mit biographischen Informationen, die
+                  Sammlung <hi rend="italic">Post-Reformation Digital Library </hi>
+                  <hi rend="italic">Scholastica</hi> (PRDL 2013) mit Informationen zu
+                  Universitäten, Fakultäten und Lehrstühlen der Frühen Neuzeit oder <hi
+                    rend="italic">Early Modern Letters Online</hi> (EMLO 2015) mit Daten zu
+                  frühneuzeitlichen Korrespondenzen. Normdatenbanken: z. B. <hi rend="italic"
+                    >Getty Thesaurus of Geographic Names</hi> (TGN 2015), <hi rend="italic"
+                      >Gemeinsame Normdatenbank</hi> der Deutschen Nationalbibliothek (GND 2015)
+                  oder der <hi rend="italic">CERL Thesaurus</hi> (CERL 2015).</note>
+                 <note xml:id="n03" n="3"> Die Anwendung
+                  <hi rend="italic">Linked Data Fragments Client</hi> (LDFC 2015) zeigt etwa Beispiele, wie sich Nutzende Ressource(n) und Abfragen zusammenklicken können. Eine graphische Oberfläche für (begrenzte) Abfragen ermöglicht einen effizienten Umgang mit Linked Open Data, ohne dafür die Abfragesyntax beherrschen zu müssen. Auch über
+                  <hi rend="italic">LodLive</hi> (LodLive 2012) ließe sich ein entsprechendes Abfrage-Interface realisieren.
+                  </note>
+                </div>
+
+
+                <div type="bibliogr">
+                  <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                      <hi rend="bold">CERL</hi> (2015): <hi rend="italic">CERL Thesaurus</hi>
+                      <ref target="http://thesaurus.cerl.org/">http://thesaurus.cerl.org</ref>
+                      [letzter Zugriff 14. Oktober 2015 ]. </bibl>
+                      <bibl>
+                        <hi rend="bold">d3SPARQL</hi> (2015): <hi rend="italic">d3sparql.js</hi>
+                        Utilities for visualizing SPARQL results with the D3 library <ref
+                        target="http://biohackathon.org/d3sparql/"
+                        >http://biohackathon.org/d3sparql/</ref> [letzter Zugriff 13. Oktober
+                        2015 ]. </bibl>
+                        <bibl>
+                          <hi rend="bold">EMLO</hi> (2015): <hi rend="italic">Early Modern Letters
+                          Online</hi>
+                          <ref target="http://emlo.bodleian.ox.ac.uk/"
+                            >http://emlo.bodleian.ox.ac.uk/</ref> [letzter Zugriff 14. Oktober 2015
+                            ]. </bibl>
+                            <bibl>
+                              <hi rend="bold">GND</hi> (2015): <hi rend="italic">Gemeinsame Normdatei</hi>
+                              <ref
+                                target="http://www.dnb.de/DE/Header/Hilfe/kataloghilfe.html#doc207526bodyText73"
+                                >http://www.dnb.de/DE/Header/Hilfe/kataloghilfe.html#doc207526bodyText73</ref>
+                                [letzter Zugriff 14. Oktober 2015 ]. </bibl>
+                                <bibl>
+                                  <hi rend="bold">HDAT</hi> (2015): <hi rend="italic">Historical Dutch-Asiatic
+                                  Shipping</hi>
+                                  <ref target="http://app.thebrownmap.nl/">http://app.thebrownmap.nl/</ref>
+                                  [letzter Zugriff 13. Oktober 2015 ]. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Heatmaps</hi> (2015): <hi rend="italic">Google Maps
+                                    Javascript API</hi>
+                                    <ref
+                                      target="https://developers.google.com/maps/documentation/javascript/heatmaplayer"
+                                      >https://developers.google.com/maps/documentation/javascript/heatmaplayer</ref>
+                                      [letzter Zugriff 13. Oktober 2015 ]. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">LDFC</hi> (2015): <hi rend="italic">Linked Data Fragments
+                                        client</hi>
+                                        <ref target="http://client.linkeddatafragments.org/"
+                                          >http://client.linkeddatafragments.org/</ref> [letzter Zugriff 13.
+                                          Oktober 2015 ]. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">LodLive</hi> (2012): <hi rend="italic">LodLive</hi> Browsing
+                                            the Web of Data <ref target="http://en.lodlive.it/"
+                                            >http://en.lodlive.it/</ref> [letzter Zugriff 13. Oktober 2015 ]. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">NodeBox</hi> (2015): <hi rend="italic">Meet NodeBox 3</hi>
+                                              <ref target="https://www.nodebox.net/node/"
+                                                >https://www.nodebox.net/node/</ref> [letzter Zugriff 13. Oktober 2015]. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">PRDL</hi> (2013): <hi rend="italic">Scholastica</hi> Early
+                                                  Modern Academies &amp; Universities <ref
+                                                  target="http://www.prdl.org/schools.php"
+                                                  >http://www.prdl.org/schools.php</ref> [letzter Zugriff 14. Oktober 2015
+                                                  ]. </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">RelFinder</hi> (2015): <hi rend="italic">RelFinder</hi>
+                                                    Interactive Relationship Discovery in RDF Data <ref
+                                                    target="http://www.visualdataweb.org/relfinder.php"
+                                                    >http://www.visualdataweb.org/relfinder.php</ref> [letzter Zugriff 13.
+                                                    Oktober 2015 ]. </bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Schmutz, Jacob </hi> (2009): <hi rend="italic"
+                                                      >Scholasticon</hi> Ressources en ligne pour l'étude de la scolastique
+                                                      moderne (1500-1800): auteurs, sources, institutions <ref
+                                                      target="http://scholasticon.ish-lyon.cnrs.fr/"
+                                                      >http://scholasticon.ish-lyon.cnrs.fr</ref> [letzter Zugriff 14. Oktober
+                                                      2015 ]. </bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Sgvizler</hi> (2015): <hi rend="italic">Sgvizler</hi>
+                                                        <ref target="http://dev.data2000.no/sgvizler/"
+                                                          >http://dev.data2000.no/sgvizler/</ref> [letzter Zugriff 13. Oktober
+                                                          2015]. </bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">TGN</hi> (2015): <hi rend="italic">The Getty Thesaurus of
+                                                            Geographic Names</hi> (TGN) <ref target="http://vocab.getty.edu/"
+                                                            >http://vocab.getty.edu/</ref> [letzter Zugriff 13. Oktober 2015 ]. </bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Timeline</hi> (2015): <hi rend="italic"
+                                                              >Leaflet.timeline</hi>
+                                                              <ref target="https://github.com/skeate/Leaflet.timeline"
+                                                                >https://github.com/skeate/Leaflet.timeline</ref> [letzter Zugriff 13.
+                                                                Oktober 2015]. </bibl>
+                                                                <bibl>
+                                                                  <hi rend="bold">xTriples</hi> (2015): <hi rend="italic">Xtriples</hi> A
+                                                                  generic webservice to extract RDF statements from XML resources <ref
+                                                                  target="http://xtriples.spatialhumanities.de/index.html"
+                                                                  >http://xtriples.spatialhumanities.de/index.html</ref> [letzter Zugriff
+                                                                  13. Oktober 2015 ]. </bibl>
+                                                                </listBibl>
+                                                              </div>
+                                                            </back>
+                                                          </text>
+                                                        </TEI>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-040">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Attribuierung direkter Reden in deutschen Romanen des 18.-20. Jahrhunderts. Methoden zur Bestimmung des Sprechers und des Angesprochenen</title>
+        <author>
+          <name>
+            <surname>Krug</surname>
+            <forename>Markus</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>markus.krug@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jannidis</surname>
+            <forename>Fotis</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>fotis.jannidis@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Reger</surname>
+            <forename>Isabella</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>isabella.reger@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Macharowsky</surname>
+            <forename>Luisa</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>luisa.macharowsky@stud-mail.uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Weimer</surname>
+            <forename>Lukas</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>lukas.weimer@stud-mail.uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Puppe</surname>
+            <forename>Frank</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>frank.puppe@uni-wuerzburg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-10T15:06:00.76</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Sprechererkennung</term>
+          <term>NLP</term>
+          <term>Quantitative Textanalyse</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Strukturanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Literatur</term>
+          <term>Personen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1">
+        <head><anchor xml:id="id_docs-internal-guid-4378e1fa-6ca5-cc9e-2c63-ec95391fd4ab"
+          />Problembeschreibung </head>
+          <p>
+            <anchor xml:id="id_docs-internal-guid-1f47a959-6ca3-8fa1-004e-73ced1fafd05"/>Im
+            Folgenden wird ein Verfahren vorgestellt, das die automatische Zuordnung von
+            direkter Rede in Erzähltexten sowohl zur sprechenden als auch zur angesprochenen
+            Figur ermöglicht. Kann man eine solche automatische Zuordnung vornehmen,
+            ermöglicht dies die Extraktion eines sozialen Netzwerks aus einem Text, wobei
+            die Figuren als Knoten und die direkte Rede als Kanten modelliert werden (Elson
+            / Dames 2010), aber sie kann auch eine wichtige Informationsquelle für andere
+            analytische Schritte sein, z.B. zur Verbesserung der Koreferenzresolution oder
+            zur Analyse der Quelle der Zuschreibung von Figurenattributen. </p>
+          </div>
+          <div type="div1">
+            <head>Stand der Forschung</head>
+            <p>Eine der ersten Arbeiten auf diesem Gebiet ist das System ESPER (Zhang et al.
+              2003), das direkte Reden innerhalb von Kindergeschichten erkennen soll. Das
+              System extrahiert zunächst die direkten Reden im Text und klassifiziert diese
+              mit einem Entscheidungsbaum in zwei Kategorien, Sprecherwechsel bzw. kein
+              Sprecherwechsel. Evaluiert werden die Ergebnisse mit zwei manuell annotierten,
+              sehr unterschiedlichen Geschichten. Sie berichten eine Genauigkeit, gemeint ist
+              hier die Anzahl der korrekt bestimmten Sprecher für alle direkten Reden, von
+              47.6% und 86.7%. Glass und Bangay (2006), ebenfalls regelbasiert, bestimmen
+              zunächst für eine direkte Rede das Kommunikationsverb und anschließend eine
+              Menge von Akteuren, woraus letztendlich der Sprecher bestimmt wird. Sie
+              evaluieren ihre Techniken auf 13 englischsprachigen fiktionalen Werken und
+              berichten eine Genauigkeit von 79.4% (Glass / Bangay 2007). Iosif und Mishra
+              (2014)  folgen im Prinzip dem Schema von Glass und Bangay (2007), ergänzen es
+              aber durch eine aufwendigere Vorverarbeitung einschließlich
+              Koreferenzresolution. Sie erreichen eine Genauigkeit von ca 84.5% und zählen
+              damit zu den besten bisher veröffentlichten Ergebnissen. Ruppenhofer und andere
+              (Ruppenhofer et al. 2010) berichten einen F-Score von 79% in der Zuordnung von
+              Politikern zu ihren Aussagen in deutschsprachigen Kabinettsprotokollen aus den
+              Jahren 1949-1960.</p>
+              <p> Neben diesen regelbasierten Ansätzen werden auch maschinelle Lernverfahren
+                eingesetzt. Zu den ersten erfolgreichen Systemen zählt das von Elson und McKeown
+                (2010). Ihre Daten für die Sprecherzuordnung ließen sie über Amazons  <hi
+                rend="italic">Mechanical Turk </hi>
+                System bearbeiten. Ihr System klassifiziert zunächst
+                regelbasiert eine direkte Rede in eine von fünf syntaktischen Kategorien.
+                Für jede dieser Kategorien wurden anschließend eigenständige maschinelle
+                Lernverfahren trainiert. Insgesamt erreichen sie eine Genauigkeit von etwa
+                83%, ausgewertet anhand von englischen Romanen des 19 Jahrhunderts. O’Keefe
+                und andere (O’Keefe et al. 2012), die an Elson und McKeowns Ansatz die
+                Erstellung des Goldstandards und auch die praxisferne Verwendung von
+                Informationen aus dem Goldstandard kritisieren,  betrachten die Zuordnung
+                als Sequenzproblem. Sie nutzen die Klassifikationsangaben von vorhergehenden
+                direkten Reden als Features für die gesamte Sequenz. In ihrer Evaluation
+                vergleichen Sie drei Verfahren mit einer sehr einfachen regelbasierten
+                Baseline. Ihre Ergebnisse bei der Anwendung des Systems auf zwei
+                Zeitungskorpora - Wall Street Journal und Sydney Morning Herald - sowie die
+                Sammlung literarischer Texte aus der Arbeit von Elson und McKeown zeigen
+                einen großen Unterschied zwischen den Domänen. Sie erreichen auf den beiden
+                Zeitungskorpora 84.1% (WSJ) bzw. 91.7% (SMH) Genauigkeit. Auf dem
+                literarischen Korpus erreichen sie dagegen lediglich eine maximale
+                Genauigkeit von 49%. (He et al. 2013) erreichen mit einem auf Ranking
+                basierten maschinellem Lernverfahren unter der Ausnutzung von Features des
+                Actor-Topic Modells (Celikyilmaz et al. 2010) auf dem Elson und
+                McKeown-Korpus eine Genauigkeit zwischen 74.8% und 80.3%. Almeida und andere
+                gehen von einer engen Verflechtung von Koreferenzresolution und
+                Sprecherattribution aus und integrieren dabei beide Verfahren in ihrem
+                Ansatz; die Ergebnisse der beiden einzelnen Lernverfahren werden in einem
+                dritten Schritt verbunden. Sie erreichen damit 88.1% Genauigkeit (Almeida et
+                al. 2014). Neuere Versuche mit Deep Learning-Verfahren aufgrund der Sprache
+                der Figuren haben nur Genauigkeiten  von unter 50% erreicht (Chaganty /
+                Muzny 2014).
+              </p>
+              <p>Die Zuordnung einer angesprochenen Figur wurde unserer Wissens noch in keiner anderen Arbeit untersucht.</p>
+            </div>
+            <div type="div1">
+              <head>Daten und Annotation</head>
+              <p> Für diese Arbeit verwenden wir Abschnitte des frei zugänglichen Korpus DROC.
+                DROC besteht aus 89 Romanausschnitten, jeweils 130 Sätze lang, in denen alle
+                Figurenreferenzen (mit und ohne Namen) und Koreferenzen annotiert sind. Aus dem
+                Korpus wurden 77 Ausschnitte ausgewählt und mit einem eigens entwickelten Tool
+                alle direkten Reden sowie die zugehörigen Sprecher und angesprochenen Figuren
+                eingetragen. Jeder Text wurde von einem Annotator bearbeitet; eine zweite
+                Annotation ist vorgesehen. Insgesamt wurden so 2264 direkte Reden mit Sprecher
+                und Angesprochenen annotiert. Für die in Abschnitt 5 diskutierten Experimente
+                wurde das Korpus in drei zufällige Mengen aufgeteilt:  </p>
+                <figure>
+                  <graphic url="v40-table1.png" rend="inline"></graphic>
+                  <p rend="figure"><hi rend="bold">Tab. 1</hi>: Überblick über die Auftrennung des in dieser Arbeit
+                  verwendeten Korpus.</p>
+                </figure>
+              </div>
+              <div type="div1">
+                <head>Methoden</head>
+                <p>Wir verwenden regelbasierte Verfahren und maschinelle Lernverfahren, aber anders
+                  als in (He et al. 2013) oder (O’Keefe et al. 2012) dienen erstere nicht nur als
+                  Baseline-Verfahren, sondern wurden soweit wie möglich optimiert. </p>
+                  <p>Wir verwenden die Techniken 2-Way Klassifikation und N-Way Klassifikation wie in
+                    (O’Keefe et al. 2012) vorgeschlagen. Zusätzlich evaluieren wir
+                    MaxEnt2WayToMatch, bei dem Kandidaten nur bis zum ersten tatsächlichen
+                    Sprecherkandidaten erzeugt werden.</p>
+                    <p>Für die Sprecherzuordnung und Zuordnung eines Angesprochenen sind die in dieser Arbeit verwendeten Features in Tabelle A1 im Anhang zusammengefasst. </p>
+                    <p> Für diese Aufgabe haben sich regelbasierte Verfahren als konkurrenzfähig mit den
+                      aktuellen ML-Verfahren erwiesen. Sie besitzen außerden den Vorteil, dass sie
+                      nicht so viele Trainingsbeispiele benötigen. Die Grundstruktur des Algorithmus
+                      ist der Idee des regelbasierten Koreferenzsystems von Stanford (Lee et al. 2011)
+                      angelehnt. Es werden eine Reihe von Regelpässen nacheinander ausgeführt. Die
+                      Regelpässe sind gemäß ihrer <hi rend="italic">Precision</hi> geordnet, d. h.
+                      Regeln mit einer hohen <hi rend="italic">Precision</hi> werden zuerst
+                      ausgeführt. Eine spätere Regel kann eine Entscheidung einer früheren Regel nicht
+                      revidieren. Tabelle A2 im Anhang zeigt die in dieser Arbeit verwendeten
+                      Regelpässe.  </p>
+                      <p>Mit Hilfe der Trainingsdaten konnte eine optimale Reihenfolge der Ausführung der Regeln empirisch ermittelt werden, bei der einige Regeln auch mehrfach angewendet werden. </p>
+                      <p>(1)→(2)→(3)→(4)→(5)→(6)→(7)→(5)→(6)→(8) →(9)→(5)→(6)→(7)→(10).</p>
+                    </div>
+                    <div type="div1">
+                      <head>Evaluation</head>
+                      <p>Die Parameter für die ML-Verfahren wurden auf dem Development-Anteil der Daten optimiert und anschließend gegen die Testmenge evaluiert. Für die regelbasierten Verfahren gibt es keine Unterscheidung zwischen Trainings- und Development-Korpus. Ein Sprecher gilt als korrekt bestimmt, wenn sich der vom System bestimmte Kandidat in der selben Koreferenzkette befindet, wie die Entität, die von unserem Annotator als korrekt markiert wurde. Tabelle 2 beschreibt die Ergebnisse bei der Anwendung der Verfahren auf das Testkorpus.</p>
+                      <figure>
+                        <graphic url="v40-table2.png" rend="inline"></graphic>
+                        <p rend="figure"><hi rend="bold">Tab. 2</hi>: Ergebnisse der einzelnen Verfahren auf dem
+                        Testkorpus, bestehend aus 20 zufällig gewählten Romanfragmenten. </p>
+                      </figure>
+                      <p>Unsere Experimente bestätigen die Aussagen von O’Keefe (O’Keefe et al. 2012),
+                        dass 2Way ML-Verfahren bessere Ergebnisse in der Sprechererkennung liefern, als
+                        korrespondierende NWay Verfahren. Analoges gilt für die Evaluation der CRFs, die
+                        sogar beinahe den selben Wert für die Sprechererkennung liefern wie in (O’Keefe
+                        et al. 2012). Sowohl auf dem Developmentkorpus, als auch auf dem Testkorpus
+                        zeigen regelbasierte Ansätze deutliche Vorteile gegenüber den in dieser Arbeit
+                        verwendeten ML-Verfahren. Es ist weiterhin ersichtlich, dass die Bestimmung des
+                        Sprechers einfacher ist, als die Bestimmung des Angesprochenen. Wahrscheinlich
+                        liegt das daran, dass im Fall der Sprecherzuschreibung mehr Information
+                        vorliegt, nämlich die direkte Rede und der Kontext, während bei der Ermittlung
+                        des Angesprochenen die direkte Rede selbst nur hilfreich ist, wenn ein
+                        Angesprochener direkt darin vermerkt ist.</p>
+                        <p>Ein direkter Vergleich mit dem besten in der Literatur zu findenden Verfahren
+                          (Almeida et al. 2014) kann direkt nicht durchgeführt werden. Berücksichtigt man
+                          den Unterschied, der Verfahren von O’Keefe auf den Texten des WSJ und den
+                          literarischen Texten, könnte eine Qualität von 90% Genauigkeit erreicht werden
+                          und damit ein mit der state of the art vergleichbares, sogar möglicherweise
+                          besseres Ergebnis. Im Gegensatz zu ihrem Verfahren ermitteln wir zudem auch noch
+                          eine angesprochene Entität. </p>
+                        </div>
+                        <div type="div1">
+                          <head>Diskussion und Ausblick</head>
+                          <p> Die Ergebnisse zeigen, dass das regelbasierte Verfahren für diese Aufgabe
+                            deutlich bessere Ergebnisse erzielen kann als alle ML-Verfahren, die in dieser
+                            Arbeit getestet wurden. Es ist geplant, die hier erstellte Zuordnung in die
+                            regelbasierte Koreferenzauflösung von (Krug et al. 2015) einzuarbeiten, um diese
+                            damit zu verbessern. Weil unsere Hauptmotivation die Verbesserung der
+                            Koreferenzresolution ist, diese aber im Ansatz von Almeida nicht wirksam
+                            verbessert werden konnte, haben wir darauf verzichtet, deren komplexes
+                            Lernverfahren nachzuvollziehen. Gerade die Ergebnisse, die in Tabelle 2 zu sehen
+                            sind, zeigen, dass mögliche Dialogsequenzen genauer untersucht werden müssen, um
+                            diese zuverlässig erkennen und auflösen zu können. Eine genaue Dialoganalyse
+                            vereinfacht wiederum die Korefenzauflösung, so dass eine Extraktion von
+                            Beziehungen zwischen Personen und Attributen zu Entitäten innerhalb der Romane
+                            möglicher erscheint. </p>
+                          </div>
+                          <div type="div1">
+                            <head>
+                              <anchor xml:id="id_docs-internal-guid-1f47a959-6ca4-c170-f3ac-c04e907df805"/>Anhang
+                            </head>
+                            <table rend="frame" xml:id="Tabelle3">
+                              <row>
+                                <cell>Featurebeschrei-bung (zwischen Kandidat und direkten Rede)</cell>
+                                <cell>
+                                  Verwendung für Sprecherzuord-nung
+                                </cell>
+                                <cell>
+                                  Zuordnung des Angesprochenen
+                                </cell>
+                              </row>
+                              <row>
+                                <cell>1. Ist der Kandidat Subjekt</cell>
+                                <cell>+</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>2. Das Verb in der Dependenzstruk-tur, auf das sich der Kandidat  bezieht</cell>
+                                <cell>+</cell>
+                                <cell>+</cell>
+                              </row>
+                              <row>
+                                <cell>3. Das POS-Tag des Kandidaten</cell>
+                                <cell>-</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>4. Ist der Kandidat ein Pronomen</cell>
+                                <cell>-</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>5-6. Befindet sich der Kandidat im Akkusativ/Dativ</cell>
+                                <cell>+/+</cell>
+                                <cell>+/+</cell>
+                              </row>
+                              <row>
+                                <cell>7. Kandidat befindet sich in einer direkten Rede</cell>
+                                <cell>+</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>8. Kandidat erscheint in der aktuellen direkten Rede</cell>
+                                <cell>-</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>9. Kandidat befindet sich im selben Satz wie die direkte Rede</cell>
+                                <cell>+</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>10. Die Direkte Rede beginnt mit einem kleingeschriebe-nem Wort</cell>
+                                <cell>+</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>11. Zwischen Kandidat und direkter Rede befindet sich ein Doppelpunkt</cell>
+                                <cell>-</cell>
+                                <cell>-</cell>
+                              </row>
+                              <row>
+                                <cell>12-14. Distanz zw. Kandidat und direkter Rede in Sätze/Wörter/Entitäten</cell>
+                                <cell>-/-/+</cell>
+                                <cell>-/-/-</cell>
+                              </row>
+                              <row>
+                                <cell>15-16. Wort an Position +1/-1</cell>
+                                <cell>-/-</cell>
+                                <cell>-/-</cell>
+                              </row>
+                              <row>
+                                <cell>17-18. Wort an Position +1/-1 ist Satzzeichen</cell>
+                                <cell>+/+</cell>
+                                <cell>-/-</cell>
+                              </row>
+                              <row>
+                                <cell>19-20. Wort an Position +1/-1 ist in direkter Rede</cell>
+                                <cell>+/+</cell>
+                                <cell>-/-</cell>
+                              </row>
+                              <row>
+                                <cell>19-20. Kandidat ist Sprecher der direkten Rede an Position -1/-2</cell>
+                                <cell>-/-</cell>
+                                <cell>+/-</cell>
+                              </row>
+                              <row>
+                                <cell>21-22. Kandidat ist Angesprochener der direkten Rede an Position -1/-2</cell>
+                                <cell>-/-</cell>
+                                <cell>-/-</cell>
+                              </row>
+                            </table>
+                            <p>
+                              <hi rend="bold">Tab. A1</hi>: Ein Überblick über die
+                              in dieser Arbeit verwendeten Features. Durch + und - ist angegeben, ob
+                              dieses Feature gewinnbringend eingesetzt werden konnte. Zur Wahl der
+                              Features vgl. auch  (Elson / McKeown 2010) und (He et al. 2013). <lb/>
+                            </p>
+                            <table rend="frame" xml:id="Tabelle4">
+                              <row>
+                                <cell>Regelbezeichnung</cell>
+                                <cell>Regelbeschreibung</cell>
+                              </row>
+                              <row>
+                                <cell>(1) Explizite Sprechererkennung</cell>
+                                <cell>Nutzt Pattern-Matching und grammatikalische Regeln um explizite Erwähnungen eines Sprechers im direkten Umfeld einer direkten Rede zu erkennen.</cell>
+                              </row>
+                              <row>
+                                <cell>(2) Explizite Erkennung des  Angesprochenen</cell>
+                                <cell>Nutzt Pattern-Matching und grammatikalische Regeln um explizite Erwähnungen eines Angesprochenen innerhalb der direkten Rede zu erkennen.</cell>
+                              </row>
+                              <row>
+                                <cell>(3) Explizite Erkennung des Angesprochenen II</cell>
+                                <cell>Wie (1) nur für den Angesprochenen</cell>
+                              </row>
+                              <row>
+                                <cell>(4) Explizite Sprechererkennung II</cell>
+                                <cell>Wie (1), nur der Kontext wird um 1 Satz außerhalb der direkten Rede erweitert.</cell>
+                              </row>
+                              <row>
+                                <cell>(5) Vorwärtspropagierung</cell>
+                                <cell>Zwei direkt aufeinanderfolgenden direkten Reden wird der Sprecher/Angesprochener der ersten direkten Rede zugeordnet, wenn beide direkte Reden innerhalb des selben Satzes liegen</cell>
+                              </row>
+                              <row>
+                                <cell>(6) Rückwärtspropagierung</cell>
+                                <cell>wie (5) nur mit entgegengesetzter Richtung der Ausführung</cell>
+                              </row>
+                              <row>
+                                <cell>(7) Nachbarschafts-propagierung</cell>
+                                <cell>Direkten Reden, die keinen eingeschobenen Kontext aufzeigen, wechseln den Sprecher/Angesprochenen ( falls vorhanden)</cell>
+                              </row>
+                              <row>
+                                <cell>(8) Fragenpropagierung</cell>
+                                <cell>Nach einer Frage wechseln Sprecher/Angesprochener</cell>
+                              </row>
+                              <row>
+                                <cell>(9) Dialogpropagierung</cell>
+                                <cell>Direkte Rede mit maximal einem zwischenliegenden Satz wechseln ihren Sprecher/Angesprochenen</cell>
+                              </row>
+                              <row>
+                                <cell>(10) Default-Sprecher/ Angesprochener</cell>
+                                <cell>Als Sprecher wird das letzte Subjekt außerhalb direkter Reden gesetzt, als Angesprochener das letzte Subjekt, das nicht Sprecher der aktuellen direkten Rede ist.</cell>
+                              </row>
+                            </table>
+                            <p><hi rend="italic"><hi rend="bold">Tab. A2</hi>: Überblick über die Regelpäse für das in dieser
+                            Arbeit vorgestellte regelbasierte Verfahren zur Sprecherzuordnung bzw. Zuordnung
+                            eines Angesprochenen. Optimale Reihenfolge der Ausführung der Regeln aufgrund
+                            der Auswertung des Trainingssatzes:</hi></p>
+                            <p>(1)→(2)→(3)→(4)→(5)→(6)→(7)→(5)→(6)→(8) →(9)→(5)→(6)→(7)→(10).</p>
+                            <figure>
+                              <graphic url="040-1000000000000331000001BBE3C72D0D.png"/>
+                              <p>
+                                <hi rend="bold">Abb. A3</hi>: Auszug aus Aston Louise “Lydia”: Beispiel für die
+                                Erkennung von Sprecher und Angesprochenem in direkten Reden gemäß den Regeln in
+                                Tabelle A2. Im ersten Durchlauf wird mit der Regel (1) die Sprecherin für die
+                                direkten Reden <hi rend="bold">1</hi> und <hi rend="bold">5</hi> erkannt.
+                                Anschließend erkennt Regel (7) in Rückwärtsrichtung jeweils abwechselnd
+                                Sprecherin <hi rend="bold">4</hi> und <hi rend="bold">2</hi> und Angesprochene
+                                in <hi rend="bold">3</hi>. Schließlich erkennt Regel (7) in Vorwärtsrichtung die
+                                Sprecherin in <hi rend="bold">3</hi> und die Angesprochene in <hi rend="bold"
+                                >4</hi> und <hi rend="bold">2</hi>. </p>
+                              </figure>
+                            </div>
+                          </body>
+                          <back>
+                            <div type="bibliogr">
+                              <listBibl>
+                                <head>Bibliographie</head>
+                                <bibl>
+                                  <anchor xml:id="id_docs-internal-guid-1f47a959-6ca4-35e7-7fb1-f0e048431e41"/>
+                                  <hi rend="bold">Almeida, Mariana S.C. / Almeida, Miguel B. / Martins, André
+                                    F.T.</hi> (2014): "A joint model for quotation attribution and
+                                    coreference resolution", in: <hi rend="italic">Proceedings of the 14th
+                                    Conference of the European Chapter of the Association for Computational
+                                    Linguistics, Gothenburg, Sweden</hi> 39-48. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Bohnet, Bernd / Kuhn, Jonas</hi> (2012): "The best of both
+                                      worlds: a graph-based completion model for transition-based parsers." In:
+                                      <hi rend="italic">Proceedings of the 13th Conference of the European
+                                        Chapter of the Association for Computational Linguistics</hi>. Avignon,
+                                        France: 77-87. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Chaganty, Arun / Muzny, Grace</hi> (2015): <hi rend="italic"
+                                          >Quote Attribution for Literary Text with Neural Networks</hi>
+                                          <ref target="https://cs224d.stanford.edu/reports/ChagantyArun.pdf"
+                                            >https://cs224d.stanford.edu/reports/ChagantyArun.pdf</ref> [letzter
+                                            Zugriff 08. Februar 2016].</bibl>
+                                            <bibl>
+                                              <hi rend="bold">Celikyilmaz, Asli / Hakkani-Tur, Dilek / He, Hua / Kondrak,
+                                                Greg / Barbosa, Denilson</hi> (2010): "The actortopic model for
+                                                extracting social networks in literary narrative.", in: <hi rend="italic"
+                                                >Proceedings of the NIPS 2010 Workshop Machine Learning for Social
+                                                Computing</hi>
+                                                <ref
+                                                  target="https://webdocs.cs.ualberta.ca/~denilson/files/publications/nips2010.pdf"
+                                                  >https://webdocs.cs.ualberta.ca/~denilson/files/publications/nips2010.pdf</ref>
+                                                  [letzter Zugriff 08. Februar 2016].</bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Elson, David K. / Dames, Nicholas / McKeown, Kathleen
+                                                      R.</hi> (2010a): "Extracting social networks from literary fiction", in:
+                                                      <hi rend="italic">Proceedings of the 48th annual meeting of the
+                                                        association for computational linguistics</hi>. Association for
+                                                        Computational Linguistics <ref
+                                                        target="http://www1.cs.columbia.edu/~delson/pubs/ACL2010-ElsonDamesMcKeown.pdf"
+                                                        >http://www1.cs.columbia.edu/~delson/pubs/ACL2010-ElsonDamesMcKeown.pdf</ref>
+                                                        [letzter Zugriff 08. Februar 2016]. </bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Elson, David K. / McKeown, Kathleen R.</hi> (2010b):
+                                                          "Automatic Attribution of Quoted Speech in Literary Narrative", in: <hi
+                                                          rend="italic">Proceedings of AAAI</hi> 1013-1019.</bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">Glass, Kevin / Bangay, Shaun</hi> (2006): "Hierarchical rule
+                                                            generalisation for speaker identification in fiction books", in: <hi
+                                                            rend="italic">Proceedings of the 2006 annual research conference of the
+                                                            South African institute of computer scientists and information
+                                                            technologists on IT research in developing countries</hi>. South African
+                                                            Institute for Computer Scientists and Information Technologists:
+                                                            31-40.</bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Glass, Kevin / Bangay, Shaun</hi> (2007): "A naive
+                                                              salience-based method for speaker identification in fiction books", in: <hi
+                                                              rend="italic">Proceedings of the 18th Annual Symposium of the Pattern
+                                                              Recognition Association of South Africa (PRASA’07)</hi>
+                                                              <ref
+                                                                target="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.494.3729&amp;rep=rep1&amp;type=pdf"
+                                                                >http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.494.3729&amp;rep=rep1&amp;type=pdf</ref>
+                                                                [letzter Zugriff 16. Februar 2016].</bibl>
+                                                                <bibl>
+                                                                  <hi rend="bold">He, Hua / Barbosa, Denilson / Kondrak, Grzegorz</hi> (2013):
+                                                                  "Identification of Speakers in Novels", in: <hi rend="italic">Proceedings of
+                                                                  the 51st Annual Meeting of the Association for Computational
+                                                                  Linguistics</hi>. Sofia, Bulgaria: 1312-1320.</bibl>
+                                                                  <bibl>
+                                                                    <hi rend="bold">Iosif, Elias / Mishra, Taniya</hi> (2014): "From Speaker
+                                                                    Identification to Affective Analysis: A Multi-Step System for Analyzing
+                                                                    Children’s Stories", in: <hi rend="italic">EACL</hi> 2014: 40-49. </bibl>
+                                                                    <bibl>
+                                                                      <hi rend="bold">Jannidis, Fotis / Krug, Markus / Reger, Isabella / Toepfer,
+                                                                        Martin / Weimer, Lukas / Puppe, Frank</hi> (2015): “Automatische
+                                                                        Erkennung von Figuren in deutschsprachigen Romanen”, in: <hi rend="italic"
+                                                                        >Digital Humanities im deutschsprachigen Raum (Dhd 2015), Graz,
+                                                                        Austria</hi>. </bibl>
+                                                                        <bibl>
+                                                                          <hi rend="bold">Joachims, Thorsten</hi> (2002): <hi rend="italic">Learning
+                                                                          to classify text using support vector machines</hi>. Methods, theory and
+                                                                          algorithms (= The Springer International Series in Engineering and Computer
+                                                                          Science 668). New York: Springer.</bibl>
+                                                                          <bibl>
+                                                                            <hi rend="bold">Krug, Markus / Puppe, Frank / Jannidis, Fotis / Macharowsky,
+                                                                              Luisa / Reger, Isabella / Weimer, Lukas</hi> (2015): "Rule-based
+                                                                              Coreference Resolution in German Historic Novels", in: <hi rend="italic"
+                                                                              >Proceedings of the Fourth Workshop on Computational Linguistics for
+                                                                              Literature</hi> 98-104. </bibl>
+                                                                              <bibl>
+                                                                                <hi rend="bold">Lee, Heeyoung / Peirsman, Yves / Chang, Angel / Chambers,
+                                                                                  Nathanael / Surdeanu, Mihai / Jurafsky, Dan</hi> (2011): "Stanford's
+                                                                                  multi-pass sieve coreference resolution system at the CoNLL-2011 shared
+                                                                                  task", in: <hi rend="italic">Proceedings of the Fifteenth Conference on
+                                                                                  Computational Natural Language Learning: Shared Task</hi>. Association
+                                                                                  for Computational Linguistics <ref
+                                                                                  target="http://nlp.stanford.edu/pubs/conllst2011-coref.pdf"
+                                                                                  >http://nlp.stanford.edu/pubs/conllst2011-coref.pdf</ref> [letzter
+                                                                                  Zugriff 08. Februar 2016]. </bibl>
+                                                                                  <bibl>
+                                                                                    <hi rend="bold">McCallum, Andrew Kachites</hi> (2002): <hi rend="italic"
+                                                                                    >MALLET: A Machine Learning for Language Toolkit</hi> <ref
+                                                                                    target="http://mallet.cs.umass.edu">http://mallet.cs.umass.edu</ref>
+                                                                                    [letzter Zugriff 08. Februar 2016].</bibl>
+                                                                                    <bibl>
+                                                                                      <hi rend="bold">Mikolov, Tomas / Sutskever, Ilya / Chen, Kai / Corrado, Greg
+                                                                                        / Dean Jeffrey</hi> (2013): "Distributed representations of words and
+                                                                                        phrases and their compositionality", in: <hi rend="italic">Advances in
+                                                                                        neural information processing systems</hi> 26 <ref
+                                                                                        target="http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf"
+                                                                                        >http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf</ref>
+                                                                                        [letzter Zugriff 08. Februar 2016].</bibl>
+                                                                                        <bibl>
+                                                                                          <hi rend="bold">O'Keefe, Tim / Pareti, Silvia / Curran, James R. /
+                                                                                            Koprinska, Irena / Honnibal, Matthew</hi> (2012): "A sequence labelling
+                                                                                            approach to quote attribution", in: <hi rend="italic">Proceedings of the
+                                                                                            2012 Joint Conference on Empirical Methods in Natural Language
+                                                                                            Processing and Computational Natural Language Learning</hi>. Association
+                                                                                            for Computational Linguistics, 2012: 790–799. </bibl>
+                                                                                            <bibl>
+                                                                                              <hi rend="bold">Rahman, Altaf / Ng, Vincent </hi> (2011): "Narrowing the
+                                                                                              modeling gap: a cluster-ranking approach to coreference resolution", in: <hi
+                                                                                              rend="italic">Journal of Artificial Intelligence Research</hi> 40:
+                                                                                              469-521.</bibl>
+                                                                                              <bibl>
+                                                                                                <hi rend="bold">Ruppenhofer, Josef / Sporleder, Caroline / Shirokov,
+                                                                                                  Fabian</hi> (2010): "Speaker Attribution in Cabinet Protocols", in: <hi
+                                                                                                  rend="italic">The seventh international conference on Language Resources
+                                                                                                  and Evaluation (LREC)</hi> 2510-2515. </bibl>
+                                                                                                  <bibl>
+                                                                                                    <hi rend="bold">Schmid, Helmut</hi> (1999): "Improvements in part-of-speech
+                                                                                                    tagging with an application to German", in: Armstrong, Susan / Church,
+                                                                                                    Kenneth / Isabelle, Pierre / Manzi, Sandra / Tzoukermann, Evelyne /
+                                                                                                    Yarowsky, David (eds.): <hi rend="italic">Natural language processing using
+                                                                                                    very large corpora</hi> (= Text, Speech and Language Technology 11). New
+                                                                                                    York: Springer 13-25.</bibl>
+                                                                                                    <bibl>
+                                                                                                      <hi rend="bold">Schmid, Helmut / Laws, Florian</hi> (2008): "Estimation of
+                                                                                                      conditional probabilities with decision trees and an application to
+                                                                                                      fine-grained POS tagging", in: <hi rend="italic">Proceedings of the 22nd
+                                                                                                      International Conference on Computational Linguistics (Coling 2008)</hi>
+                                                                                                      777–784.</bibl>
+                                                                                                      <bibl>
+                                                                                                        <hi rend="bold">Sutton, Charles / McCallum, Andrew</hi> (2006): "An
+                                                                                                        introduction to conditional random fields for relational learning", in:
+                                                                                                        Getoor, Lise / Taskar, Ben (eds.):<hi rend="italic">Introduction to
+                                                                                                        statistical relational learning</hi>. Cambridge, MA / London: The MIT
+                                                                                                        Press 93-128. </bibl>
+                                                                                                        <bibl>
+                                                                                                          <hi rend="bold">Zhang, Jason Y. / Black Alan W. / Sproat, Richard</hi>
+                                                                                                          (2003): "Identifying speakers in children's stories for speech synthesis",
+                                                                                                          in: <hi rend="italic">EUROSPEECH</hi> 2041-2044. </bibl>
+                                                                                                        </listBibl>
+                                                                                                      </div>
+                                                                                                    </back>
+                                                                                                  </text>
+                                                                                                </TEI>

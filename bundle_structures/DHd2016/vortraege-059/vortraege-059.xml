@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-059">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>&#8222;Alles ist Wechselwirkung&#8220; – auch in den Digital Humanities: Von &#8216;D&#8216; nach &#8216;H&#8216; und zurück durch Humboldts Kosmos-Vorträge (1827/28)</title>
+        <author>
+          <name>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </name>
+          <affiliation>Humboldt-Universität zu Berlin, Deutschland; Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+          <email>christian.thomas.1@staff.hu-berlin.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-18T21:24:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Modellierung geisteswissenschaftlicher Inhalte und Forschungsprozesse</term>
+          <term>Probleme des Markup und anderer Ansätze zur Formalisierung von Inhalten</term>
+          <term>Softwarewerkzeuge für die Geisteswissenschaften</term>
+          <term>Mehrwert von neuen Methoden und Technologien</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Entdeckung</term>
+          <term>Bilderfassung</term>
+          <term>Transkription</term>
+          <term>Inhaltsanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kontextsetzung</term>
+          <term>Bereinigung</term>
+          <term>Bearbeitung</term>
+          <term>Archivierung</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Crowdsourcing</term>
+          <term>Kollaboration</term>
+          <term>Kommentierung</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Infrastruktur</term>
+          <term>Literatur</term>
+          <term>Manuskript</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Personen</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Projekthintergrund: <ref target="http://www.culture.hu-berlin.de/hidden-kosmos">A. v. Humboldts „Kosmos-Vorträge“</ref> (1827/28)</head>
+        <p>Im Projekt Hidden Kosmos: Reconstructing A. v. Humboldt’s »Kosmos-Lectures«, das an der Berliner Humboldt-Universität (HU) aus Mitteln der Exzellenzinitiative über den Zeitraum von zwei Jahren (Juni 2014–Mai 2016) gefördert wird, werden sämtliche derzeit bekannte Nachschriften von Besuchern der weltberühmten <hi rend="italic">Vorlesungen über physikalische Geographie</hi> Alexander von Humboldts erschlossen und als vernetztes Forschungskorpus ediert.
+      </p>
+      <figure>
+        <graphic n="1001" url="059-image1.png" rend="inline"/>
+        <p><hi rend="bold">Abb. 1</hi>: „Alles ist Wechselwirkung.“ Humboldt [1803/04]: 27r,
+        <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527C00000000">http://resolver.staatsbibliothek-berlin.de/SBB0001527C00000000</ref><ref type="note" target="n01" n="1">1</ref></p>
+      </figure>
+      <p>Humboldts heute so genannten Kosmos-Vorträge fanden im Wintersemester 1827/28
+        in zwei unabhängig voneinander verlaufenden Zyklen statt: Er absolvierte
+        insgesamt 62 Vortragsstunden vor etwa 400 Studierenden und Lehrbefugten in der
+        Berliner Universität und parallel dazu 16 Vorträge vor einer bis dahin
+        unerreichten Zahl von etwa 1000 Zuhörern im großen Saal der Berliner
+        Singakademie. Humboldt verband in diesen Vorträgen seine eigenen Forschungen,
+        dabei aus dem reichen Erfahrungsschatz seiner fünfjährigen Amerikareise
+        schöpfend, mit dem damals aktuellen Erkenntnisstand auf faktisch jedem Gebiet
+        der aufstrebenden Naturwissenschaften. Beide Zyklen unterscheiden sich
+        wesentlich hinsichtlich der Abfolge der besprochenen Themen und – aufgrund ihres
+        sehr ungleichen Umfangs – auch im Hinblick auf die dabei jeweils erreichte Tiefe
+        und Ausführlichkeit der Darstellung. Gemeinsam ist beiden Vortragsreihen jedoch
+        der Anspruch, einen in sich abgeschlossenen Überblick zu geben, d. h. die
+        astronomischen und tellurischen Phänomene, die Gestalt der Erdoberfläche und das
+        organische Leben auf ihr, die kulturelle Entwicklung der Menschheit in den für
+        Humboldt allgegenwärtigen „Wechselwirkungen“ (Abbildung 1) darzustellen.</p>
+        <div type="div2" rend="DH-Heading2">
+          <head>Forschungsstand zu den Kosmos-Vorträgen und Ziele des Projekts Hidden Kosmos</head>
+          <p>Die Kosmos-Vorträge können nach wie vor als ‚blinder Fleck‘ der
+            Humboldt-Forschung gelten (vgl. Erdmann/Thomas 2014: 35f.). Zum einen wohl
+            deshalb, weil aufgrund einer (nachweislich falschen) Behauptung Humboldts im
+            Kosmos (Humboldt 1845: X) die Manuskripte des Vortragenden als nicht
+            existent galten, zum anderen weil auch der größte Teil der Nachschriften
+            seiner HörerInnen de facto unbekannt blieb. Bis zur laufenden
+            Veröffentlichung mehrerer Manuskripte durch das Hidden Kosmos-Projekt waren
+            nur zwei solcher Nachschriften publiziert worden – beide jedoch in kaum
+            wissenschaftstauglichen Editionen. Die übrigen zehn bisher bekannten
+            Nachschriften lagerten unberührt in verschiedenen Bibliotheken in
+            Deutschland und Polen bzw. in Privatbesitz.</p>
+            <p>Die digitale Edition dieser unikalen Manuskripte schafft überhaupt erst eine
+              solide Materialbasis, um die intensive Erforschung der Vortragsreihen zu
+              ermöglichen.<ref type="note" target="n02" n="2">2</ref> Das Projekt Hidden Kosmos arbeitet dabei eng mit dem Deutschen
+              Textarchiv (<ref target="http://www.deutschestextarchiv.de/">DTA</ref>) der
+              BBAW zusammen, wo die Nachschriften im Kontext des derzeit umfangreichsten
+              digitalen ‚Alexander-von-Humboldt-Korpus‘ (s. Thomas 2015) veröffentlicht
+              werden. Die weitere Dissemination und langfristige Bereitstellung der Daten
+              erfolgt über das web- und zentrenbasierte Infrastrukturprojekt <ref target="http://clarin-d.net/">CLARIN-D</ref>.<ref type="note" target="n03" n="3">3</ref> Derzeit (15.10.2015) stehen fünf Nachschriften mit mehr als 2 100
+              handschriftlichen Seiten im <ref target="http://www.deutschestextarchiv.de/search/metadata?corpus=avhkv">DTA bzw. über CLARIN-D</ref> bereit; bis zur DHd 2016 werden zehn
+              Bände mit ca. 3 760 Seiten zur Verfügung stehen. </p>
+              <figure>
+                <graphic n="1002" width="15.9cm" height="9.406280555555556cm" url="059-image2.png" rend="inline"/>
+                <p rend="Subtitle"><hi rend="bold">Abb. 2</hi>: DTA-Präsentation der Nachschrift
+                eines anonym gebliebenen Zuhörers der Kosmos-Vorträge an der Berliner
+                Universität: [N. N.]: Die physikalische Geographie von Herrn Alexander v.
+                Humboldt, vorgetragen im Semestre 1827/28. [Berlin], [1827/28]. </p>
+              </figure>
+            </div>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Gliederung des Vortrags</head>
+            <div type="div2" rend="DH-Heading2">
+              <head>Überblick über die edierten Materialien und erste Forschungsergebnisse</head>
+              <p>Auf der DHd 2016 wird zunächst ein konzentrierter Überblick über die bis
+                dahin publizierten Materialien gegeben und werden erste, auf dieser
+                Grundlage gewonnene Forschungsergebnisse vorgestellt. Der Fokus wird dabei
+                im Sinne des Konferenzthemas auf der <hi rend="bold">Modellierung</hi> der
+                Daten und deren Annotation in TEI-XML, der <hi rend="bold">Vernetzung</hi>
+                der Dokumente sowie verschiedenen <hi rend="bold">Visualisierungen</hi> der
+                annotierten Forschungsdaten liegen. Im Vergleich der tief strukturierten und
+                annotierten Online-Volltexte mit früheren Printeditionen zweier
+                Nachschriften werden die Vorzüge digitaler Editionen sichtbar: Auf der
+                Makroebene, d. h. hier: mit Blick auf die Gesamtheit der vielstimmigen
+                Überlieferung, liegen diese Vorzüge zum einen in deren Perfektibilität und
+                permanenten Erweiterbarkeit, zum anderen in der Vernetzung <hi rend="italic"
+                >aller</hi> bekannten Nachschriften untereinander und mit weiteren
+                elektronischen Ressourcen. In der Mikroperspektive, d. h. hier: mit Blick
+                auf die einzelne, jeweils unikale Quelle ermöglicht die digitale Edition
+                eine überlieferungsadäquate Repräsentation jedes einzelnen Manuskripts und
+                der Besonderheiten seiner handschriftlichen Verfasstheit. Die digitale
+                Edition erreicht dabei eine tiefere Granularität und eine größere
+                Flexibilität der Nutzungsmöglichkeiten als die Print-Edition. </p>
+                <p>Anschließend sollen die Auswirkungen diskutiert werden, die der Einsatz von Methoden und Verfahren aus dem Bereich der ‚Digital Humanities‘ sowohl auf die Produktions- als auch auf die Rezeptionsseite einer (Manuskript-)Edition haben. Ganz im oben zitierten Sinne Humboldts sollen diese als ‚Wechselwirkungen‘ zwischen Projektdesign und Produzent bzw. Rezipient erfasst werden.</p>
+              </div>
+              <div type="div2" rend="DH-Heading2">
+                <head>Wechselwirkung zwischen Projektdesign und Nutzerperspektive</head>
+                <p>Anschließend an die Präsentation im vergangenen Jahr auf der DHd 2015 in Graz
+                  (Thomas 2014/15) kamen zwei grundsätzliche Fragen aus dem Publikum, die
+                  vor dem Hintergrund des zum Zeitpunkt der DHd 2016 fast abgeschlossenen
+                  Projekts beantwortet werden sollen. Die erste Frage stellte sich aus der
+                  Perspektive der/s Rezipientin/en, der/die – so die an den Herausgeber der
+                  Edition herangetragene Forderung – an die Quellen ‚herangeführt‘ werden
+                  müsse. Denn im Unterschied zum überkommenen Prinzip der ‚Leithandschrift‘
+                  bzw. der Konstruktion eines ‚idealen‘ Textes durch den Editor, das den
+                  Beschränkungen gedruckter Editionen im ‚typographischen Paradigma‘ (Sahle
+                  2013: 88) geschuldet ist, stehen im DH-Projekt Hidden Kosmos zehn parallele,
+                  teils einander ergänzenden, teils miteinander konkurrierende Nachschriften
+                  prinzipiell gleichwertig nebeneinander. Die komplexe und vielschichtige
+                  Überlieferungslage soll für den/die Nutzer/in der edierten Texte
+                  transparent werden, anstatt sie wie im typographischen Paradigma einzuebnen.
+                  Der/die Nutzer/in soll ermutigt und befähigt werden, sich diese Komplexität
+                  und Vielschichtigkeit durch eine parallele Lektüre verschiedener Quellen und
+                  durch die angebotenen, explorativen Zugänge zu erschließen.<ref type="note" target="n04" n="4">4</ref>
+                </p>
+                <p>Um dieses Ziel zu erreichen, wurden im Hidden Kosmos-Projekt mehrere Dokument-übergreifende Zugänge geschaffen. In der vergleichsweise kurzen zweijährigen Projektlaufzeit mit sehr begrenzten personellen Ressourcen konnte diese Aufgabe überhaupt nur durch den konsequenten Einsatz digitaler Methoden bewältigt werden. Da mir das Problem begrenzter Zeit- und Personalressourcen typisch für den heutigen Forschungsalltag erscheint, soll auf die dabei verwendeten Ansätze näher eingegangen werden.</p>
+                <div type="div3" rend="DH-Heading3">
+                  <head>Automatisch erstellte, korpusübergreifende Zugänge als Orientierungshilfen</head>
+                  <p>Anhand der &lt;div&gt;-Ebenen der TEI-strukturierten Volltexte wurden je
+                    eine thematische Gliederung für den Universitätszyklus und für die
+                    Singakademie-Vorträge extrahiert und diese wiederum mit der
+                    chronologischen Gliederung nach Vortragsstunden des jeweiligen Zyklus
+                    kombiniert. Diese abstrahierte, alle Nachschriften verbindende
+                    Orientierungshilfe konnte in dieser Vollständigkeit nur durch eine
+                    Kombination aller vorliegenden Quellen erstellt werden, da die
+                    jeweiligen Schreiber ihre Hefte entweder nur grob thematisch
+                    strukturierten oder nur die Daten der jeweiligen Vortragsstunde
+                    notierten. Das Ergebnis ist eine sehr viel detaillierte Übersicht über
+                    die Kurse als die von Humboldt selbst überlieferte (Abbildung 3).</p>
+                    <figure>
+                      <graphic n="1003" width="9.605508333333333cm" height="15cm" url="059-image3.jpeg" rend="inline"/>
+                      <p rend="Subtitle"><hi rend="bold">Abb. 3</hi>: A. v. Humboldt:
+                      Vorlesungsverzeichnis für die Berliner Universität, Staatsbibliothek zu
+                      Berlin – Preußischer Kulturbesitz, Nachl. Alexander von Humboldt, gr.
+                      Kasten 8, Nr. 5a, Bl. 1r (<ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001676C00000000">http://resolver.staatsbibliothek-berlin.de/SBB0001676C00000000</ref>)</p>
+                    </figure>
+                    <p>Nutzer/innen der Edition können sich anhand der extrapolierten Gliederung
+                      leicht einen Überblick über die beeindruckende Themenfülle der
+                      Vortragsreihen verschaffen und zwischen dem Einstieg in ein beliebiges
+                      Thema oder eine Vortragsstunde wählen. Zudem wird die unterschiedliche
+                      Abfolge der Themen in beiden Vortragszyklen anschaulich und ein
+                      gezielter Einstieg in deren vergleichende Lektüre ermöglicht. Zugleich
+                      bilden die Gliederungen einen Anknüpfungspunkt für die weitere
+                      Kontextualisierung der Kosmos-Vorträge im übrigen Humboldt’schen Œuvre.
+                      Beispielseise übernahm Humboldt für seinen monumentalen <hi
+                      rend="italic">Kosmos</hi> (1845–62) im Wesentlichen die Anordnung
+                      der Singakademie-Vorträge (vgl. Erdmann/Thomas 2014: 37), wodurch sich
+                      die Vorträge nun auf Grundlage der aus den Nachschriften extrapolierten
+                      Gliederung mit den entsprechenden &lt;div&gt;-Ebenen der im DTA
+                      verfügbaren XML-Volltexte des <hi rend="italic">Kosmos</hi> verknüpfen
+                      lassen. </p>
+                      <p>Ebenso automatisch wurde aus den annotierten Daten, die mit dem
+                        TEI-Element &lt;persName&gt; und einem @ref-Attribut mit Link auf
+                        verfügbare Normdaten versehen wurden, ein übergreifendes
+                        Personenverzeichnis extrahiert, das derzeit mehr als 2000 Einträge
+                        enthält (siehe <ref target="http://deutschestextarchiv.de/kosmos/person">http://deutschestextarchiv.de/kosmos/person</ref>.
+                        Durch die Verknüpfung mit Normdaten aus der GND, VIAF o.Ä.
+                        werden die zwischen den Nachschriften teilweise erheblich voneinander
+                        abweichenden Vorlageformen der von Humboldt erwähnten Personen
+                        vereinheitlicht. Jeder Eintrag im Gesamtregister führt per Klick zum
+                        Kontext derjenigen Nachschrift, in der der gewählte Personenname getaggt
+                        wurde. Eine Verbindung des Personenregisters mit weiterführenden
+                        Informationsangeboten z. B. über eine <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Datei</ref> bietet NutzerInnen – ohne nennenswerten
+                        Mehraufwand für das Projekt – direkten Zugang zu weiteren Informationen.
+                        Neben seiner Funktion als übergreifende Orientierungshilfe eignet sich
+                        das Personenregister auch als Impulsgeber für die Beforschung der
+                        Nachschriften: Fehlt beispielsweise ein Personenname in einem Dokument,
+                        der in einem anderen an der entsprechenden Stelle referenziert wurde,
+                        erlaubt dies schon erste Rückschlüsse auf die Zuverlässigkeit und
+                        Vollständigkeit der Nachschrift. </p>
+                        <p>Weitere dokumentübergreifende Ordnungshilfen listen beispielsweise die
+                          von Humboldt im Zusammenhang mit naturwissenschaftlichen Untersuchungen
+                          eingesetzten Instrumente (<ref target="http://www.deutschestextarchiv.de/kosmos/instrument">http://www.deutschestextarchiv.de/kosmos/instrument</ref>),
+                          die von ihm erwähnten Himmelskörper sowie die
+                          mineralischen und chemischen Elemente auf, die im Laufe der Vorträge
+                          eine Rolle spielten. Diese und weitere ‚Inventarlisten‘ konnten direkt
+                          aus den Volltexten extrahiert werden, dank der Verbindung mit der
+                          computerlinguistischen Erschließung der Volltexte im Deutschen
+                          Textarchiv. Die im DTA implementierte Kombination der linguistischen
+                          Suchmaschine DDC mit dem Wortnetz GermaNet (Henrich/Hinrichs 2010;
+                          Hamp/Feldweg 1997) ermöglicht es beispielsweise, alle Nachschriften
+                          gezielt nach denjenigen Begriffen zu durchsuchen, die in GermaNet als
+                          „Element“ bzw. übergeordnet als „Grundstoff; Urstoff“ klassifiziert
+                          wurden (Abbildung 4). Eine umfassende Liste mit knapp 3000 Treffern und
+                          mehr als 300 verschiedenen Mineralien, Gesteinen und Substanzen ist das
+                          Ergebnis, das dem/der Nutzer/in unmittelbar zur zielgerichteten
+                          Navigation angeboten werden kann.</p>
+                          <figure>
+                            <graphic n="1004" width="15.8cm" height="7.907425cm" url="059-image4.png" rend="inline"/>
+                            <p rend="Subtitle"><hi rend="bold">Abb. 4</hi>: DDC-Suche im Deutschen
+                            Textarchiv nach Begriffen aus dem GermaNet-Synset „Grundstoff;
+                            Urstoff“</p>
+                          </figure>
+                        </div>
+                      </div>
+                      <div type="div2" rend="DH-Heading2">
+                        <head>Wechselwirkung zwischen Projektdesign und Produzentenperspektive</head>
+                        <p>Ebenfalls im Anschluss an die DHd-2015-Präsentation in Graz – und seitdem des
+                          Öfteren wiederholt – wurde die manche/n Geisteswissenschaftler/in offenbar
+                          beunruhigende Frage gestellt, worin denn noch die Aufgaben des Herausgebers
+                          einer wissenschaftlichen (Manuskript-)Edition bestünden, wenn wie im Projekt
+                          Hidden Kosmos grundständige Arbeiten wie das Transkribieren und Annotieren
+                          (fast) aller Textzeugen an einen Dienstleister ausgelagert werden, wenn
+                          bestehende Datenmodelle und Infrastrukturen einfach mit- oder nachgenutzt
+                          und wenn immer mehr Arbeitsschritte automatisiert werden können.</p>
+                          <p>Auf der DHd 2016 möchte ich mit Bezug auf die oben skizzierten
+                            Arbeitsschritte einige aus meiner Sicht notwendige Änderungen in der ‚Job
+                            Description‘ des Editors bzw. allgemeiner: der/des
+                            Geisteswissenschaftlerin/s in einem DH-Projekt anregen. Diese liegen m. E.
+                            nach wie vor im traditionellen Bereich der hermeneutisch-interpretierenden
+                            Quellenkritik, aber wesentlich mehr noch in den Bereichen der Datenkuration,
+                            tieferen Annotation, der Analyse und ständigen Wiederausführung und
+                            Optimierung automatisierter Prozesse. Denn selbstverständlich bleibt bei
+                            jedem computergestützten Prozess der Datenanalyse ein
+                            nicht-automatisierbarer ‚Rest‘, der interpretiert werden muss und der durch
+                            weitere, wiederum computergestützte Optimierung der Datenbasis oder durch
+                            eine Rekonfiguration des automatisierten Prozesses verringert oder zumindest
+                            verändert werden kann. Dabei wird dieser Rest wohl auch durch die
+                            Optimierung der Daten und die fortschreitende Verbesserung der Tools und
+                            Services nicht verschwinden, möglicherweise aber immer interessanter
+                            werden.</p>
+                          </div>
+                        </div>
+                      </body>
+                      <back>
+                        <div type="Notes">
+                          <note xml:id="n01" n="1">Alle URLs in diesem Text abgerufen am 15. Oktober 2015.</note>
+                          <note xml:id="n02" n="2">Humboldts eigenhändige Manuskripte liegen,
+                            soweit sie sich überhaupt erhalten haben, verstreut und z. T. nicht
+                            sicher identifizierbar in dessen Nachlass in der Staatsbibliothek zu
+                            Berlin und der Jagiellonen-Bibliothek in Krakau. Bis voraussichtlich
+                            Ende 2016 werden beide Nachlassteile komplett digitalisiert sein. In
+                            einem die Hidden Kosmos-Idee weiterführenden Anschlussprojekt sollen
+                            dann die ursprünglichen Vortragsmanuskripte mit Hilfe der
+                            Hörernachschriften identifiziert und in die laufende Edition
+                            integriert werden.
+                          </note>
+                          <note xml:id="n03" n="3">Für eine detailliertere Darstellung der
+                            Kooperation zwischen Hidden Kosmos, DTA und CLARIN-D s. Thomas
+                            2014/15.
+                          </note>
+                          <note xml:id="n04" n="4">Siehe auch dazu Sahle (2013: 107), der zu den
+                            oben skizzierten Auswirkungen digitaler Editionsformen festhält:
+                            „Die Visualität und Materialität der Überlieferung kann besser
+                            sichtbar gemacht werden, die Aufforderung zur Konstruktion der <hi
+                            rend="italic">einen</hi> autoritativen editorischen Fassung, die
+                            alle anderen Fassungen nahezu unsichtbar macht, wird schwächer.“
+                            (Hervorhebung CT)
+                          </note>
+                        </div>
+                        <div type="bibliogr">
+                          <listBibl>
+                            <head>Bibliographie</head>
+                            <bibl><hi rend="bold">Berlin-Brandenburgische Akademie der Wissenschaften
+                              (BBAW)</hi> (2007–16): <hi rend="italic">DTA</hi>. Deutsches Textarchiv
+                              <ref target="http://www.deutschestextarchiv.de/">http://www.deutschestextarchiv.de/</ref> [letzter Zugriff 15. Oktober
+                              2015].</bibl>
+                              <bibl><hi rend="bold">CLARIN-D</hi>
+                              <ref target="http://clarin-d.net/">http://clarin-d.net</ref> [letzter
+                              Zugriff 15. Oktober 2015].</bibl>
+                              <bibl><hi rend="bold">Erdmann, Dominik/Thomas, Christian</hi> (2014): „‚… zu
+                              den wunderlichsten Schlangen der Gelehrsamkeit zusammengegliedert‛. Neue
+                              Materialien zu den ‚Kosmos-Vorträgen‛ Alexander von Humboldts, nebst
+                              Vorüberlegungen zu deren digitaler Edition". In: <hi rend="italic">HiN –
+                              Humboldt im Netz</hi>. Internationale Zeitschrift für Humboldt-Studien
+                              (Potsdam – Berlin) XV, 28: 34–45. <ref target="http://dx.doi.org/10.18443/189">http://dx.doi.org/10.18443/189</ref> [letzter Zugriff
+                              27. Mai 2016]. </bibl>
+                              <bibl><hi rend="bold">Hamp, Birgit/Feldweg, Helmut</hi> (1997): “GermaNet – a
+                              Lexical-Semantic Net for German.” In: <hi rend="italic">Proceedings of the
+                              ACL workshop Automatic Information Extraction and Building of Lexical
+                              Semantic Resources for NLP Applications</hi>. Madrid: 9–15.</bibl>
+                              <bibl><hi rend="bold">Henrich, Verena/Hinrichs, Erhard </hi>(2010): “GernEdiT
+                              – The GermaNet Editing Tool”. In: <hi rend="italic">Proceedings of the
+                              Seventh Conference on International Language Resources and Evaluation
+                              (LREC 2010)</hi>. Valletta, Malta: 2228–2235. <ref target="http://www.lrec-conf.org/proceedings/lrec2010/pdf/264_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2010/pdf/264_Paper.pdf</ref>
+                              [letzter Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">Humboldt, Alexander von</hi> (1845): <hi rend="italic">Kosmos</hi>. Entwurf einer physischen Weltbeschreibung, 1. Stuttgart u.
+                              a.: Deutsches Textarchiv. <ref target="http://www.deutschestextarchiv.de/humboldt_kosmos01_1845">http://www.deutschestextarchiv.de/humboldt_kosmos01_1845</ref> [letzter
+                              Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">Humboldt, Alexander von</hi> ([1803/04]): <hi
+                              rend="italic">Tagebücher der Amerikanischen Reise</hi>: IX: Varia. Obs.
+                              Astron. de Mexico a Guanaxuato, Torullo, Tiluca, Veracruz, Cuba. Voy. De la
+                              Havana à Philadelphia. Geologie de Guanaxato, Volcans de Torullo et de
+                              Toluca. Voyage de Veracruz à la Havana et de la Havana à Philadelphia.
+                              Torulla. Berlin: Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527C00000000">http://resolver.staatsbibliothek-berlin.de/SBB0001527C00000000</ref>
+                              [letzter Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">Lehrstuhl für Kulturtechniken und Wissensgeschichte</hi>
+                              (2014–16): <hi rend="italic">Hidden Kosmos</hi>. Reconstructing Alexander von
+                              Humboldt‛s »Kosmos-Lectures«. <ref target="https://www.culture.hu-berlin.de/de/forschung/projekte/hidden-kosmos/">https://www.culture.hu-berlin.de/de/forschung/projekte/hidden-kosmos/</ref>
+                              [letzter Zugriff 15. Oktober 2015].</bibl>
+                              <bibl><hi rend="bold">N.N.</hi> (1827): <hi rend="italic">Die physikalische
+                              Geographie von Herrn Alexander v. Humboldt, vorgetragen im Semestre
+                              1827/28</hi>. Berlin: Deutsches Textarchiv. <ref target="http://www.deutschestextarchiv.de/nn_oktavgfeo79_1828/7">http://www.deutschestextarchiv.de/nn_oktavgfeo79_1828/7</ref> [letzter
+                              Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">Sahle, Patrick</hi> (2013): <hi rend="italic">Digitale
+                              Editionsformen</hi>. Zum Umgang mit der Überlieferung unter den
+                              Bedingungen des Medienwandels. 2: Befunde, Theorie und Methodik.
+                              Norderstedt: Books on Demand.</bibl>
+                              <bibl><hi rend="bold">Thomas, Christian</hi> (2014/15): „Hidden Kosmos –
+                              Humboldts ‚Kosmos-Vorträge‘ als Probe der Digital Humanities", in:
+                              DHd-Jahrestagung 2015 „Von Daten zu Erkenntnissen: Digitale
+                              Geisteswissenschaften als Mittler zwischen Information und Interpretation“,
+                              23.-27.2.2015, Zentrum für Informationsmodellierung – Austrian Centre for
+                              Digital Humanities an der Universität Graz. <ref target="https://www.culture.hu-berlin.de/de/forschung/projekte/hidden-kosmos/media/c-thomas-dhd-graz-paper-hidden-kosmos-20150126.pdf">https://www.culture.hu-berlin.de/de/forschung/projekte/hidden-kosmos/media/c-thomas-dhd-graz-paper-hidden-kosmos-20150126.pdf</ref>
+                              [letzter Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">Thomas, Christian</hi> (2015): „99 unselbständige
+                              Schriften Humboldts als Volltext im Deutschen Textarchiv verfügbar", in: <hi
+                              rend="italic">avhumboldt.de</hi>. Alexander von Humboldt Informationen
+                              online. <ref target="http://www.avhumboldt.de/?p=10922">http://www.avhumboldt.de/?p=10922</ref> [letzter Zugriff 15. Oktober
+                              2015]. </bibl>
+                            </listBibl>
+                          </div>
+                        </back>
+                      </text>
+                    </TEI>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-047">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A Visual Approach to the History of Swiss Federal Law</title>
+        <author>
+          <name>
+            <surname>Ourednik</surname>
+            <forename>André</forename>
+          </name>
+          <affiliation>Schweizer Bundesarchiv</affiliation>
+          <email>Andre.Ourednik@bar.admin.ch</email>
+        </author>
+        <author>
+          <name>
+            <surname>Nellen</surname>
+            <forename>Stefan</forename>
+          </name>
+          <affiliation>Schweizer Bundesarchiv</affiliation>
+          <email>Stefan.Nellen@bar.admin.ch</email>
+        </author>
+        <author>
+          <name>
+            <surname>Fleer</surname>
+            <forename>Peter</forename>
+          </name>
+          <affiliation>Schweizer Bundesarchiv</affiliation>
+          <email>Peter.Fleer@bar.admin.ch</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-22T13:16:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>complexity</term>
+          <term>legal texts</term>
+          <term>visualization</term>
+          <term>digitization</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Datenerkennung</term>
+          <term>Entdeckung</term>
+          <term>Sammlung</term>
+          <term>Bilderfassung</term>
+          <term>Aufzeichnung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Modellierung</term>
+          <term>Theoretisierung</term>
+          <term>Bereinigung</term>
+          <term>Bearbeitung</term>
+          <term>Archivierung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Bewertung</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Konservierung</term>
+          <term>Visualisierung</term>
+          <term>Daten</term>
+          <term>Bilder</term>
+          <term>Interaktion</term>
+          <term>Link</term>
+          <term>Forschung</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>The complexity of law is a recurring problem faced by government bodies, judges,
+        lawyers, jurists and, in fact, all citizens confronted with legal issues. Ideally,
+        the application of laws should be in line with the ideals of the society that
+        formulates them. Whether this ideal is satisfied or not depends on many factors,
+        among which the structure of the legal system, the quantity of its resources, or the
+        competence of law interpreters. But it also depends on the form of the laws
+        themselves. The equilibrium of law-writing consists in remaining intelligible while
+        accounting for the great diversity of social situations subject to legislation. It
+        must “find an optimal balance between rigorousness and flexibility, formality and
+        understandability, that is, between expressing authority and yet being grounded in
+        the everyday life of those affected by it” (Höfler / Piotrowski 2011). Problems
+        induced by excessive complexity of law are well identified in legal literature
+        (Epstein 1995; Kades 1996; Katz / Bommarito 2013; Palmirani / Cervone 2014). They
+        have also been drawn to public attention. Complaints about “overlegislation”,
+        meaning the rising quantity and complexity of law, have been formulated in recent
+        years by national media in Switzerland, partially reflecting public opinion and the
+        views of several politicians ( e.g. Zurlinden 2013-2015c). </p>
+        <p>Our question, focused on the Swiss Federal Law, is both formal and historical. We ask whether the degree of its complexity can be measured over time and how it can be represented. How could we, for example, identify specific domains of the Federal Law in which complexity has evolved more than in others? What would this evolution mean in historical terms? In a larger scope, we ask to which extent the history of legislation can be understood with the help of quantitative methods.</p>
+        <p>Since 1848, the Swiss federal government publishes legal instruments in 3 national
+          languages (German, French, Italian) and in 3 principal publications: the <hi
+          rend="italic">Federal Gazette</hi>, a weekly report of the Federal Council and
+          law drafts proposed to the Federal Assembly, the legally binding <hi rend="italic"
+          >Official Compilation</hi> (OC), a record of actual changes to the federal law
+          in chronological order, updated every week; finally the trimestral <hi rend="italic"
+          >Systematic compilation</hi>, in thematic order and representing the current
+          state of federal law. Texts are partitioned in structural units (chapters, sections,
+          articles, paragraphs, sentences and enumeration items) unequivocally identified by a
+          reference code ( e.g. SR 313.0, art. 29, §1, al. a) equivalent for all language
+          versions. Working with the OC allows us to observe the chronological development of
+          law on a weekly basis. </p>
+          <p>The OC is available since 1998 in digital format convertible to hierarchically structured XML by an XSLT transformation. Prior to 1998, the Swiss federal archives (SFA) dispose of paper version of the OC. This repository is currently being scanned in the scope of our project. Fields recognition (Figure 1) and OCR is applied to obtain, here also, structured XML (Figure 2).</p>
+          <p>This XML representation of the introduction of a new law at a given time allows a
+            data analysis with the R statistical programming tool, the extraction of its results
+            to a data format (JSON, cf. ECMA 2013) exploitable by the visualization framework
+            D3. We can visualize laws in the form of a hierarchical tree proceeding from the
+            whole body of the text – at the center of the figure – deployed into lower level
+            structural units (Figure 3). This gives us a structural overview of any given law. </p>
+            <p>The next step of our work consisted in determining a means to <hi rend="italic"
+              >measure</hi> the growth or regression of any given law over time. What we are
+              interested in is not only the absolute size of the law but, more generally, the
+              degree of difficulty it can represent for a comprehensive overview by individuals
+              deemed to conform to it or to apply it in the case of legal litigation. Beyond this
+              practical aspect, it is also our wish, and our theoretical posture, to understand
+              laws as organic actants (Callon 1986; Latour 1984, 1996), who prosper or regress in
+              a dialectical relationship with the evolution of their “environment” (Ourednik 2010:
+              §2.3.4.1, §2.2.4.2.), i.e. in relation to the context of other laws, superior ( e.g.
+              international) laws, as well as in relation to the social, cultural and economic
+              climate. This posture allows us to speak about growth and regression of laws.
+              Further, considering the dialectical relationship between an actant and its
+              environment, one <hi rend="italic">relatum</hi> can be taken as an index (Peirce et
+              al. 1934) of the other. More specifically, observing the evolution of a law allow us
+              to formulate historical hypotheses about the evolution of its environment. The
+              question is what quantitative variables can be used to measure the evolution of a
+              law. </p>
+              <p>In literature, we can distinguish between two approaches: measured and based on
+                <hi rend="italic"> textual statistics</hi> partially inspired by information theory and measures based on the
+                <hi rend="italic"> spatiotemporal extent of law application</hi>.
+              </p>
+              <p>Among the textual measures, Katz and Bommarito (2013) suggest the use of <hi
+                rend="italic">total text length</hi>, <hi rend="italic">average word
+                length</hi>, <hi rend="italic">Shannon entropy of word use</hi>, <hi rend="italic"
+                >depth of the hierarchical structure</hi> and <hi rend="italic">density of
+                external references</hi>. Höfler and Piotrowski (2011: 87) further consider the
+                structural complexity by observing the <hi rend="italic">number of subunits per
+                structural unit</hi> (e.g. paragraphs per article), down to <hi rend="italic"
+                >semantic units </hi>per sentence, separated by expressions like “whereby” or
+                “with the exception of” etc. Palmirani and Cervone (2014) take a diachronic posture,
+                and propose a comprehensive indicator of <hi rend="italic">dynamic complexity</hi>
+                based on the amount and the impact of consecutive amendments to an original law. </p>
+                <p>Among the extent-based measures, Tribou and Collins (2015) consider the number of USA
+                  States in which a given law applies before reaching federal application. Other
+                  suggestions imply more extensive approximations. Epstein (1995: 22), for instance,
+                  suggests to measure it in terms of the cost of obedience, in other words: “[T]he
+                  cheaper the cost of compliance, the simpler we can say the rule is”.</p>
+                  <p>Another question is how to visually render these measurements. In order for our research work to be of consequence in the
+                    <hi rend="italic">public sphere</hi>, we wish to address three publics: a)
+                    <hi rend="italic">researchers</hi>, b)
+                    <hi rend="italic">jurists</hi>, and c) the
+                    <hi rend="italic"> general public</hi>. For each, we have identified specific interests: a) to test the hypothesis of measurability of a historic process and to inspire new fields of investigation, b) to get a synthetic overview of a law, notably in terms of simultaneous or otherwise related amendments; to “identify tough cases [of complex laws] or to help resolve them” (Kades 1996) c) to navigate more easily in the realms of law and to obtain an answer to the question of rising complexity of the leas. From these interests ensue desired qualities of an optimal visualization: a) the hierarchical structure of given law must be visible; the measured quantities must be rendered; the visualization must allow for an animation reflecting the evolution of the measured quantities; b) both hierarchical and transversal (cross-references and thematic) links between elements of law must be renderable; c) the visualization must allow for an understanding of the structure of law for easier access to its elements; it should work as a metaphor of law as an “evolving organism”.
+                  </p>
+                  <p>Among possible visualizations, we have considered trees, partition layouts, and
+                    circle packing (Ourednik 2013). We have finally opted for a <hi rend="italic">force
+                    directed layout</hi> as our visualization of choice (Figure 4). In effect, the
+                    hierarchical structure of a given law is apparent, without excluding the concurrent
+                    visualization of cross-references hardly introducible in tree-structured data. The
+                    visualization can easily evolve to reflect historic change (cf. Data Publica 2012).
+                    It can also be restructured in order, for instance, to give more weight to thematic,
+                    rather than cross-referential transversal links: elements of law thus related become
+                    closer in the resulting visualization. Finally from the metaphorical point of view
+                    useful for making our theoretical posture understandable to the media and to the
+                    general public, the visualization presents a strong analogy with a dendritic
+                    organism like a Physarum polycephalum or the mangrove. It thus makes more accessible
+                    the description of law in terms of “growth” or “regression”. </p>
+                    <p>Our second choice visualization is the circular partition tree (Figure 5). Here, transversal links cannot be introduced but the hierarchical structure of law attains better visibility. This visualization also allows for a direct appreciation of the total volume of law and its evolution over time. </p>
+                    <p>At this stage of our research, we have applied quantitative measures based on textual statistics to a static situation, proceeding from an analysis of the French version of the
+                      <hi rend="italic"> Loi fédérale sur le droit pénal administratif (DPA)</hi> from March 22
+                      <hi rend="superscript">nd</hi> 1974. The hypothesis of measurability of law has thus been verified and we have been able to identify our visualizations of choice. The measurement and visualization method is reproducible for any law at any given time.
+                    </p>
+                    <p>Our ongoing work consists in consolidating the data on the evolution of Swiss federal law since 1947 in order to obtain distinct network structures and variable measurements for a fine-grained, week-based, observation of its evolution. Diachronic variable measurements shall be done in parallel on all 3 language versions of the legal texts, and compared, so as to control the robustness of our observations. The Swiss multilingual context offers a unique opportunity for such comparisons. </p>
+                    <p>Visualizations shall be converted in an interactive interface allowing other researches to examine the results and to hypothesize, we hope, innovative explanations of the evolution of the Federal Law. They shall also be made accessible to the general public via the media as an input for the debate about legal complexity in the public sphere.</p>
+                    <figure>
+                      <graphic n="1001" width="9.932311111111112cm" height="12.36266388888889cm" url="047-image1.jpeg" rend="inline"/>
+                      <p>
+                        <hi rend="bold">Fig. 1</hi>: Field recognition in the <hi rend="italic">DPA</hi>
+                        from March 22nd 1974. </p>
+                      </figure>
+                      <figure>
+                        <graphic n="1002" width="15.959666666666667cm" height="11.310055555555556cm" url="047-image2.png" rend="inline"/>
+                        <p>
+                          <hi rend="bold">Fig. 2</hi>: A XML Akoma Ntoso representation the <hi rend="italic"
+                          >Bundesgesetz über das Verwaltungsstrafrecht</hi> from March 22nd 1974
+                          (excerpt). </p>
+                        </figure>
+                        <figure>
+                          <graphic n="1003" width="12.402677777777777cm" height="11.62246388888889cm" url="047-image3.png" rend="inline"/>
+                          <p><hi rend="bold">Fig. 3</hi>: Circular tree layout representation of the <hi
+                          rend="italic">DPA</hi> from March 22nd 1974. </p>
+                        </figure>
+                        <figure>
+                          <graphic n="1004" width="13.77975cm" height="13.08003888888889cm" url="047-image4.jpeg" rend="inline"/>
+                          <p>
+                            <anchor xml:id="Ref431892850"/>
+                            <hi rend="bold">Fig. 4</hi>: Force directed layout visualization. Black: body of the
+                            <hi rend="italic">DPA</hi> from March 22nd 1974. Blue: article with number of
+                            contained paragraphs; Red: paragraphs with word lengths. </p>
+                          </figure>
+                          <figure>
+                            <graphic n="1005" width="16.007291666666667cm" height="6.589888888888889cm" url="047-image5.png" rend="inline"/>
+                            <p>
+                              <hi rend="bold">Fig. 5</hi>: Evolution of law viewed in a circle partition layout.
+                              size: total amount of text: green : titles, blue : articles and subarticles ; red :
+                              paragraphs. </p>
+                            </figure>
+                          </body>
+                          <back>
+                            <div type="bibliogr">
+                              <listBibl>
+                                <head>Bibliographie</head>
+                                <bibl rend="Biblio">
+                                  <hi rend="bold">Akoma Ntoso Group</hi> (2013): <hi rend="italic">Akoma Ntoso
+                                  - XML for parliamentary, legislative &amp; judiciary documents</hi>
+                                  <ref target="http://www.akomantoso.org/">http://www.akomantoso.org/</ref>
+                                  [last seen October 15th 2015]. </bibl>
+                                  <bibl rend="Biblio">
+                                    <hi rend="bold">Callon, Michel</hi> (1986): “Some Elements of a Sociology of
+                                    Translation: Domestication of the Scallops and the Fisher-men of St Brieuc
+                                    Bay”, in: Law, John (ed.): <hi rend="italic">Power, Action and Belief</hi>.
+                                    A New Sociology of Knowledge. London: Routledge &amp; Kegan 196-223. </bibl>
+                                    <bibl rend="Biblio">
+                                      <hi rend="bold">D3.js</hi>: <hi rend="italic">Data-Driven Documents</hi>
+                                      <ref target="http://d3js.org/">http://d3js.org/</ref> [last seen October
+                                      15th 2015]. </bibl>
+                                      <bibl rend="Biblio">
+                                        <hi rend="bold">Data Publica</hi> (2012): <hi rend="italic">Naviguez dans le
+                                        Code civil grâce à cette spectaculaire dataviz</hi>
+                                        <ref
+                                          target="http://www.data-publica.com/content/2012/07/naviguez-dans-le-code-civil-grace-a-cette-spectaculaire-dataviz/"
+                                          >www.data-publica.com/content/2012/07/naviguez-dans-le-code-civil-grace-a-cette-spectaculaire-dataviz/</ref>
+                                          [last seen October 15th 2015]. </bibl>
+                                          <bibl rend="Biblio">
+                                            <hi rend="bold">Epstein, Richard A.</hi> (1995): <hi rend="italic">Simple
+                                            Rules for a Complex World</hi>. Cambridge, Mass.: Harvard University
+                                            Press. </bibl>
+                                            <bibl rend="Biblio">
+                                              <hi rend="bold">ECMA International</hi> (2013): <hi rend="italic">The JSON
+                                              Data Interchange Format</hi>. ECMA. </bibl>
+                                              <bibl rend="Biblio">
+                                                <hi rend="bold">Höfler, Stefan / Piotrowski, Michael</hi> (2011): “Building
+                                                corpora for the philological study of Swiss legal texts”, in <hi
+                                                rend="italic">Journal for Language Technology and Computational
+                                                Linguistics</hi> 26, 2: 77-89. </bibl>
+                                                <bibl rend="Biblio">
+                                                  <hi rend="bold">Kades, Eric</hi> (1996): “Laws of Complexity and the
+                                                  Complexity of Laws: The Implications of Computational Complexity Theory for
+                                                  the Law”, in <hi rend="italic">Rutgers Law Review</hi> 49: 403. </bibl>
+                                                  <bibl rend="Biblio">
+                                                    <hi rend="bold">Katz, Daniel M. / Bommarito, Michael J.</hi> (2013):
+                                                    “Measuring the Complexity of the Law: The United States Code”, in <hi
+                                                    rend="italic">Social Science Research Network</hi>
+                                                    <ref target="http://ssrn.com/abstract=2307352"
+                                                      >http://ssrn.com/abstract=2307352</ref> [last seen October 15th 2015]. </bibl>
+                                                      <bibl rend="Biblio">
+                                                        <hi rend="bold">Latour, Bruno</hi> (1984): <hi rend="italic">Les microbes,
+                                                        guerre et paix</hi>. Paris: Métailié. </bibl>
+                                                        <bibl rend="Biblio">
+                                                          <hi rend="bold">Latour, Bruno</hi> (1996): “On actor-network theory: a few
+                                                          clarifications”, in: <hi rend="italic">Soziale Welt</hi> 47, 4: 369–381. </bibl>
+                                                          <bibl rend="Biblio">
+                                                            <hi rend="bold">Ourednik, André</hi> (2010): <hi rend="italic">L’habitant et
+                                                            la cohabitation dans les modèles de l’espace habité</hi>. PhD, Swiss
+                                                            Federal Institute of Technology (EPFL). </bibl>
+                                                            <bibl rend="Biblio">
+                                                              <hi rend="bold">Ourednik, André</hi> (2013): <hi rend="italic">Visualisation
+                                                              de flux géographiques</hi>. Rapport pour la DATAR sous mandat du
+                                                              Laboratoire Chôros, Swiss Federal Institute of Technology (EPFL). </bibl>
+                                                              <bibl rend="Biblio">
+                                                                <hi rend="bold">Palmirani, Monica / Cervone, Luca</hi> (2014): “Measuring
+                                                                the Complexity of the Legal Order over Time”, in: Casanovas, Pompeu /
+                                                                Pagallo, Ugo / Palmirani, Monica / Sartor, Giovanni (eds.): <hi
+                                                                rend="italic">AI Approaches to the Complexity of Legal Systems</hi>.
+                                                                Berlin: Springer 88-99. </bibl>
+                                                                <bibl rend="Biblio">
+                                                                  <hi rend="bold">Peirce, Charles S. / Hartshorne, Charles / Weiss, Paul</hi>
+                                                                  (1932): <hi rend="italic">Collected Papers of Charles Sanders Peirce</hi>.
+                                                                  II: Elements of Logic. Cambridge, Mass.: Harvard University Press. </bibl>
+                                                                  <bibl rend="Biblio">
+                                                                    <hi rend="bold">Tribou, Alex / Collins, Keith</hi> (2015): <hi rend="italic"
+                                                                    >This Is How Fast America Changes Its Mind</hi>
+                                                                    <ref target="http://www.bloomberg.com/graphics/2015-pace-of-social-change/"
+                                                                      >http://www.bloomberg.com/graphics/2015-pace-of-social-change/</ref>
+                                                                      [last seen October 15th 2015].</bibl>
+                                                                      <bibl rend="Biblio">
+                                                                        <hi rend="bold">Zurlinden, Urs</hi> (2013, 10.12): “Der unbegrenzte Eifer
+                                                                        des Gesetzgebers”, in <hi rend="italic">Tagesanzeiger</hi>
+                                                                        <ref
+                                                                          target="http://www.tagesanzeiger.ch/schweiz/standard/Der-unbegrenzte-Eifer-des-Gesetzgebers/story/11470997"
+                                                                          >http://www.tagesanzeiger.ch/schweiz/standard/Der-unbegrenzte-Eifer-des-Gesetzgebers/story/11470997</ref>
+                                                                          [last seen October 15th 2015].</bibl>
+                                                                          <bibl rend="Biblio">
+                                                                            <hi rend="bold">Zurlinden, Urs</hi> (2015a, 02.26): “Die Suppe köchelt mit
+                                                                            Gesetzen und Vorschriften”, in <hi rend="italic">Handelszeitung</hi>
+                                                                            <ref
+                                                                              target="http://www.handelszeitung.ch/bildergalerie/die-suppe-koechelt-mit-gesetzen-und-vorschriften"
+                                                                              >http://www.handelszeitung.ch/bildergalerie/die-suppe-koechelt-mit-gesetzen-und-vorschriften</ref>
+                                                                              [last seen October 15th 2015]. </bibl>
+                                                                              <bibl rend="Biblio">
+                                                                                <hi rend="bold">Zurlinden, Urs</hi> (2015b, 03.10): “Brouet de lois et
+                                                                                d’ordonnances légales” in : <hi rend="italic">Le Temps</hi>
+                                                                                <ref target="http://www.letemps.ch/interactive/2015/cuisine/"
+                                                                                  >http://www.letemps.ch/interactive/2015/cuisine/</ref> [last seen April
+                                                                                  16th 2015]. </bibl>
+                                                                                  <bibl rend="Biblio">
+                                                                                    <hi rend="bold">Zurlinden, Urs</hi> (2015c, 03.10): “L’inflation de lois vue
+                                                                                    à travers la cuisine d’un restaurant” in <hi rend="italic">Le Temps</hi>
+                                                                                    <ref
+                                                                                      target="http://www.letemps.ch/Page/Uuid/095a80c8-c69c-11e4-959d-74804f4bcbe7/Linflation_de_lois_vue_à_travers_la_cuisine_dun_restaurant"
+                                                                                      >http://www.letemps.ch/Page/Uuid/095a80c8-c69c-11e4-959d-74804f4bcbe7/Linflation_de_lois_vue_à_travers_la_cuisine_dun _restaurant</ref>
+                                                                                      [last seen April 16th 2015]. </bibl>
+                                                                                    </listBibl>
+                                                                                  </div>
+                                                                                </back>
+                                                                              </text>
+                                                                            </TEI>

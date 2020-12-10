@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-045">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Briding the GAP: 100 Jahre Dialektlexikographie als Cloud Service. Der SADE Use Case im DARIAH Competence Centre</title>
+        <author>
+          <name>
+            <surname>Wandl-Vogt</surname>
+            <forename>Eveline</forename>
+          </name>
+          <affiliation>Österreichische Akademie der Wissenschaften, Austrian Centre for Digital Humanities; AT</affiliation>
+          <email>eveline.wandl-vogt@oeaw.ac.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Barbera</surname>
+            <forename>Roberto</forename>
+          </name>
+          <affiliation>Institutio Nationale de Fisica Nucleare; IT</affiliation>
+          <email>roberto.barbera@ct.infn.it</email>
+        </author>
+        <author>
+          <name>
+            <surname>La Rocca</surname>
+            <forename>Guiseppe</forename>
+          </name>
+          <affiliation>Institutio Nationale de Fisica Nucleare; IT</affiliation>
+          <email>guiseppe.larocca@ct.infn.it</email>
+        </author>
+        <author>
+          <name>
+            <surname>Calanducci</surname>
+            <forename>Antonio</forename>
+          </name>
+          <affiliation>Institutio Nationale de Fisica Nucleare; IT</affiliation>
+          <email>antonio.calanducci@ct.infn.it</email>
+        </author>
+        <author>
+          <name>
+            <surname>Kalman</surname>
+            <forename>Tibor</forename>
+          </name>
+          <affiliation>Gesellschaft für wissenschaftliche Datenverarbeitung mgH Göttingen; DE</affiliation>
+          <email>tkalman@gwdg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-04-30T17:13:00</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Forschungsinfrastruktur; Cloud Services; Dialektlexikographie; Workplace Innovation</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Umwandlung</term>
+          <term>Strukturanalyse</term>
+          <term>Kontextsetzung</term>
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Bewertung</term>
+          <term>Crowdsourcing</term>
+          <term>Kollaboration</term>
+          <term>Einführung</term>
+          <term>Lehre</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Infrastruktur</term>
+          <term>Forschungsprozess</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Intro</head>
+        <p>In den Naturwissenschaften ist es seit mehreren Jahrzehnten undenkbar, exzellente Forschung nicht auf Basis elektronischer Forschungsinfrastrukturen zu betreiben bzw. sich diese zu Nutze zu machen. Anders ist dies in den Geisteswissenschaften, wo es nach wie vor zu den Ausnahmen gehört, sich elektronische Forschungsinfrastrukturen für die eigene Forschungsarbeit einzusetzen.</p>
+        <p>Um diese Lücke zu schließen, wurde das Projekt EGI ENGAGE – DARIAH Competence
+          Centre gestartet (Näheres s.u.).</p>
+          <p>In diesem Paper diskutieren die Autor.innen beispielhaft den Einsatz und die
+            Zusammenarbeit zweier sehr unterschiedlicher Anbieter von europäischen
+            Forschungsinfrastrukturen, nämlich Digital Research Infrastructures for the Arts
+            and Humanities European Research Infrastructure Consortium (DARIAH-ERIC (cf.
+            DARIAH) und European Grid Infrastructure (EGI 2010-*).</p>
+          </div>
+          <div type="div1" rend="DH-Heading">
+            <head>Die Ausgangsprojekte: EGI ENGAGE, DARIAH CC, exploreAT! und COST ENEL</head>
+            <p>Das Projekt EGI ENGAGE – Engaging the Research Community towards an Open Science
+              Commons (EGI 2015-*) – startete am 1. März 2015 unter Mitfinanzierung der
+              Europäischen Kommission (Horizon2020) mit einer Projektlaufzeit von 30 Monaten
+              und in Zusammenarbeit von mehr als 70 Institutionen in über 30 Ländern. Die
+              Projektmission ist, Open Science Commons für die Forschungsgemeinschaften zu
+              erschließen, und Zugang zu bzw. Nutzung von elektronischen Infrastrukturen für
+              die Forschung zu schaffen, und somit innovative Forschung zu fördern.</p>
+              <p>Zu diesem Zweck wird mit Forschungsinfrastrukturanbietern unterschiedlicher Disziplinen zusammengearbeitet, unter anderem mit DARIAH-ERIC.</p>
+              <p>Im Workpackage DARIAH Competence Centre (cf. EGI-DARIAH Competence Center) werden
+                im besonderen Forscher_innen aus den Arts und Humanities angesprochen und
+                eingeladen, elektronische Infrastrukturen zu nutzen.</p>
+                <p>Übergeordnete Ziele des Competence Centre sind</p>
+                <p>(1) die Stärkung der Zusammenarbeit zwischen DARIAH-EU und EGI,basierend auf Workflow-orientierten Gateway-Applikationen und der extensiven Nutzung von Applikationen aus den Arts und Humanities in der EGI Cloud (EGI FedCloud).</p>
+                <p>(2) die Vermehrung der zugänglichen e-Science Sercives und Applikationen für die Forscherinnen der Arts und Humanities sowie die Integration existierender NGI Ressourcen in EGI</p>
+                <p>(3) das Bewusstsein von möglichen Vorteilen (Stichwort „exzellente Forschung“) durch elektronische Infrastrukturen und e-Science Technologien für Forscher.innen der Arts und Humanities zu wecken bzw. zu stärken, indem man Konditionen schafft für nachhaltige Steigerung einer wachsenden Community von den Arts und Humanities und in den Social Sciences</p>
+                <p>(4) die Arbeit, die mit anderen Initiativen gestartet wurde wie zB. DC-NET
+                  (2009-2012), DCH-RP (2012-2014) auszuweiten und Ergebnisse für die Arts und
+                  Humanities konkret nutzbar zu machen und zu implementieren.</p>
+                  <p>Für das DARIAH-CC werden Miniprojekte pilotmäßig umgesetzt. Im konkreten Paper
+                    stellen die Autor.innen den SADE Use Case (Näheres s.u.) vor, in welchem die
+                    „Datenbank der bairischen Mundarten in Österreich (DBÖ)“ basierend auf
+                    unterschiedlichen Formaten und Arbeitschwerpunkten – Archivierung,
+                    Digitalisierung (cf. Wandl-Vogt 2007-*), technische Professionalisierung und
+                    Georeferenzierung (cf. explore.AT (2015-*), semantisch-kulturelle Vernetzung
+                    (Näheres s.u.; cf. COST-ENeL 2013-*)- weiterentwickelt wird. <lb/>Im Rahmen des
+                    laufenden Nationalstiftungsprojekts exploreAT! (1. April 2015; 48-60 Monate)
+                    werden methodisch neue Wege der Lexikographie erprobt. Schwerpunkte der
+                    aktuellen Arbeit liegen in der semantisch-kulturellen Vernetzung (Linked Open
+                    Data), visuellen Analyse, der Entwicklung von Serious Games sowie einer
+                    Erarbeitung und Umsetzung von Bürgerbeteiligungsmodellen (Citizen Science) und
+                    der Implementierung von Open Science. Methodisch werden damit Schritte in
+                    Richtung eines neuen digitalen Wörterbuchs (WBÖ 3.0) gesetzt. </p>
+                    <p>Die Ergebnisse werden mittels bestehender Netzwerke wie vor allem der DARIAH
+                      Arbeitsgruppe Lexical Resources und des COST Netzwerks IS 1305 zur
+                      elektronischen Lexikographie (ENeL 2013-2017; Davidovic 2015 et al.) im
+                      europäischen Kontext eingebettet, reflektiert und diskutiert. Für den SADE Use
+                      Case stellen diese Communities erste – aber nicht ausschließliche –
+                      Anlaufstellen für Zusammenarbeit dar.</p>
+                    </div>
+                    <div type="div1" rend="DH-Heading">
+                      <head>Der SADE Use Case</head>
+                      <p>SADE – kurz für: Storing and Accessing DARIAH content on EGI – sieht die Entwicklung eines kompletten Workflows für Forscher.innen im Bereich lexikalische Ressourcen / Lexikographie dar.</p>
+                      <p>Ausgehend der Beispielsammlung der ÖAW – zunächst der Daten aus dem Projekt
+                        <ref target="mailto:dbo@ema">dbo@ema</ref> (2007-) – und in Kontext mit Kooperationspartnern dieses Projekts, beispielsweise dem Naturhistorischen Museum Wien, Wikimedia.AT, Open Knowledge Foundation Österreich, Europeana, sowie der Partner aus DARIAH und COST ENeL, wird ein lexikalisches Netzwerk für kulturelle Fragestellungen erschlossen.
+                      </p>
+                      <p>Ein erster Schritt für die Nutzung von Science Commons ist die Entwicklung von
+                        Science Gateways. Diese tragen nachweislich zur vermehrten Nutzung von
+                        Infrastrukturen in den jeweiligen Forschungsbereichen / Disziplinen bei (cf.
+                        Balasko et al. 2013). Ob ein Science Gateway für DARIAH CC oder für einen
+                        Forschungsbereich eingerichtet wird, ist derzeit nicht endgültig entschieden.
+                        Das Gateway beruht auf Adaptierungen und fallspezifischen Erweiterungen von
+                        gUSE/WS-PGRADE (gUSE 2009-*) sowie gLibrary (cf. gLibrary) Technologien. Es wird
+                        gemäß den Erwartungen und Bedürfnissen der Lexikograph.innen angepasst und
+                        weiterentwickelt. </p>
+                        <p>Um eine Verbindung zwischen den sehr unterschiedlichen Forscher.innengruppen
+                          herzustellen, finden unter anderem Vernetzungstreffen statt, z. B. Februar 2015:
+                          COST-ENeL-meeting in Wien; Dezember 2015: DARIAH-COST-meeting zu Common Names in
+                          Wien.</p>
+                          <p>Die Ergebnisse des SADE Use Case werden umgekehrt im COST-EneL-Netzwerk zur Diskussion gestellt, um User Interessen auf breiter Basis einzuholen und in die Weiterentwicklugn der Infrastruktur einzubringen.</p>
+                          <p>Für die Nutzung der Cloud von essentieller Bedeutung ist das Vorhandensein einer
+                            inzwischen eingerichteten Virtuellen Organisation für die Arts und Humanities –
+                            vo.dariah.eu (vgl. EGI-VO (joined EGI 01072011).</p>
+                          </div>
+                          <div type="div1" rend="DH-Heading">
+                            <head>Forschungsparadimenwechsel im Blickwinkel der Zusammenarbeit</head>
+                            <p>Zusammenfassend wird das vorgestellte Projekt unter dem breiten Blickwinkel der
+                              Workplace-Innovation (Kesselring 2014 et al.) diskutiert. Dabei wird der
+                              Schwerpunkt auf folgende Punkte gelegt:</p>
+                              <p>(1) Produktinnovation</p>
+                              <p>Durch die Zusammenarbeit entstehen neuen „Produkte“ wie beispielsweise ein Science Gateweay für die Geisteswissenschaften. </p>
+                              <p>Für die Arts und Humanities wird beabsichtigt, Produkte zu entwickeln, die Folge-innovationen bedingen und den Forschungsprozess stimulieren.</p>
+                              <p>(2) Prozessinnovation</p>
+                              <p>Die Zusammenarbeit im interdisziplinären, internationalen, interkulturellen, multilingualen Kontext bedingt Veränderungen laufender Forschungsprozesse bzw. zielt sogar teilweise von Beginn an auf eine derartige Veränderung und Innovation ab.</p>
+                              <p>Durch die Implementierung in bestehende Forschungsnetzwerke und die Anbindung an
+                                aktuelle Forschungsfragen auf europäischem Niveau soll sichergestellt werden,
+                                dass es sich nicht nur um Projektinnovationen – z. B. eine neue Datenspeicherung
+                                für die <ref target="mailto:dbo@ema">dbo@ema</ref> handelt – sondern dass
+                                dadurch neue Forschungs- und Entwicklungsprozesse angestoßen werden. </p>
+                                <p>(3) Organisationsinnovation</p>
+                                <p>Die Einbettung in das Forschungsparadigma digitaler Infrastrukturen und Cloud
+                                  Services bedingt Organisationsinnovationen, wie beispielsweise die Gründung der
+                                  virtuellen Organisation für DARIAH, der Working Group Cloud Services in DARIAH
+                                  u. ä. <lb/>
+                                </p>
+                                <p>Nach der Implementierung der Services aus dem SADE Use Case soll eine Impactmessung der Workplaceinnovation entwickelt werden.
+                                  <lb/>An einer Maximierung der positiven Wirkungen der technischen Neuerungen flankierend durch soziale Innovationen am Beispielfall der digitalen Lexikographie wird gearbeitet.
+                                </p>
+                              </div>
+                            </body>
+                            <back>
+                              <div type="bibliogr">
+                                <listBibl>
+                                  <head>Bibliographie</head>
+                                  <bibl>
+                                    <hi rend="bold">Balasko, Akos / Farkas, Zoltan / Kacsuk, Peter</hi> (2013):
+                                    „Building science gateways by utilizing the generic WS-PGRADE/gUSE worklfow
+                                    sytem.“, in: <hi rend="italic">Computer Science Journal</hi> 14, 2: 307-325. </bibl>
+                                    <bibl><hi rend="bold">COST-ENeL</hi> (2013-*): <hi rend="italic">European
+                                    CO-operation in Science and Technology: European Network of
+                                    e-Lexicography (ENeL)</hi>. COST Association. <ref
+                                    target="http://www.cost.eu/COST_Actions/isch/IS1305"
+                                    >http://www.cost.eu/COST_Actions/isch/IS1305</ref> [letzter Zugriff 15.
+                                    Oktober 2015]. </bibl>
+                                    <bibl><hi rend="bold">DARIAH</hi>: <hi rend="italic">Digital Research
+                                    Infrastructures for the Arts and Humanities</hi> (DARIAH). <ref
+                                    target="http://www.dariah.eu/">http://www.dariah.eu</ref> [letzter
+                                    Zugriff 15. Oktober 2015]. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Davidovic, David / Wandl-Vogt, Eveline / Skala, Karolj /
+                                        Kalman, Tibor </hi>(2015): „EGI Engage – Competence Centre for DARIAH.“,
+                                        in: <hi rend="italic">12th European Semantic Web Conference 2015 Project
+                                        Networking Session</hi>. <ref
+                                        target="http://2015.eswc-conferences.org/sites/default/files/PN-ESWC-2015_num5.pdf"
+                                        >http://2015.eswc-conferences.org/sites/default/files/PN-ESWC-2015_num5.pdf</ref>
+                                        [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                        <bibl><hi rend="bold">DC-NET</hi> (2009-2012): <hi rend="italic">Digital
+                                        Cultural heritage NETwork</hi>. ERA-NET (European Research Area
+                                        Network). <ref target="http://www.dc-net.org/">http://www.dc-net.org/</ref>
+                                        [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                        <bibl><hi rend="bold">DCH-RP</hi> (2012-2014): <hi rend="italic">Digital
+                                        Cultural Heritage Roadmap for Preservation</hi>. <ref
+                                        target="http://www.dch-rp.eu/">http://www.dch-rp.eu/</ref> [letzter
+                                        Zugriff 15. Oktober 2015]. </bibl>
+                                        <bibl><hi rend="bold">EGI</hi> (2010-*): <hi rend="italic">European Grid
+                                        Infrastrucutre</hi> (EGI). <ref target="http://www.egi.eu/"
+                                        >http://www.egi.eu</ref> [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                        <bibl><hi rend="bold">EGI: Dariah Competence Centre</hi>: <ref
+                                        target="https://wiki.egi.eu/wiki/Competence_centre_DARIAH"
+                                        >https://wiki.egi.eu/wiki/Competence_centre_DARIAH</ref> [letzter
+                                        Zugriff 15. Oktober 2015]. </bibl>
+                                        <bibl><hi rend="bold">EGI-Engage</hi> (2015-*): <hi rend="italic">Engaging the
+                                        Research Community towards an Open Science Commons</hi> (EGI-ENGAGE).
+                                        <ref target="https://www.egi.eu/about/egi-engage/"
+                                          >https://www.egi.eu/about/egi-engage/</ref> [letzter Zugriff 15. Oktober
+                                          2015]. </bibl>
+                                          <bibl><hi rend="bold">EGI-VO</hi> (joined EGI 01072011): <hi rend="italic">EGI:
+                                          Virtual Organisation for arts and humanities</hi>: vo.dariah.eu.
+                                          EGI-Engage Competence Centre <ref
+                                          target="https://wiki.egi.eu/wiki/EGI_Virtual_Organisation_for_arts_and_humanities:_vo.dariah.eu"
+                                          >https://wiki.egi.eu/wiki/EGI_Virtual_Organisation_for_arts_and _humanities:_vo.dariah.eu</ref>
+                                          [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">ENeL</hi> (2013-2017): <hi rend="italic">European Network of
+                                            e-Lexicography</hi> (ENeL). COST <ref
+                                            target="http://www.elexicography.eu/">http://www.elexicography.eu</ref>
+                                            [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                            <bibl><hi rend="bold">exploreAT!</hi> (2015-*): <hi rend="italic">exploring
+                                            austria´s culture through the language glass</hi>. <ref
+                                            target="http://www.oeaw.ac.at/acdh/de/node/187"
+                                            >http://www.oeaw.ac.at/acdh/de/node/187</ref> [letzter Zugriff 15.
+                                            Oktober 2015]. </bibl>
+                                            <bibl><hi rend="bold">gLibrary</hi> (o.J.): <hi rend="italic">Digital Libraries
+                                            on the Grid</hi> (gLibrary). INFN <ptr
+                                            target="http://glibrary.ct.infn.it/glibrary_new/index.php"/> [letzter
+                                            Zugriff 15. Oktober 2015]. </bibl>
+                                            <bibl><hi rend="bold">gUSE</hi> (2009-*): <hi rend="italic"> Grid and Cloud User
+                                            Support Environment</hi> (gUSE). Laboratory of Parallel and Distributed
+                                            Systems (LPDS) <ref target="http://guse.hu/about/architecture"
+                                            >http://guse.hu/about/architecture</ref> [letzter Zugriff 15. Oktober
+                                            2015]. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Kesselring, Alexander / Blasy, Cosima / Scopetta, Anette
+                                              </hi>(2014): <hi rend="italic">Workplace Innovation. Concepts and
+                                              indicators</hi>. European Commission Report <ref
+                                              target="http://ec.europa.eu/DocsRoom/documents/8250/attachments/1/translations/en/renditions/native"
+                                              >http://ec.europa.eu/DocsRoom/documents/8250/attachments/1/translations/en/renditions/native</ref>
+                                              [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                              <bibl><hi rend="bold">Wandl-Vogt, Eveline</hi> (ed.) (2007-*): <hi rend="italic"
+                                              >"Datenbank der bairischen Mundarten in Österreich"</hi> (DBÖ), Wien
+                                              1993-2010, electronically mapped. Institut für Österreichische Dialekt- und
+                                              Namenlexika, Zentrum für Sprachwissenschaften, Bild- und Tondokumentation,
+                                              Österreichische Akademie der Wissenschaften (publiziert: Wien: 1. Juli 2010
+                                              <ref target="mailto:dbo@ema">dbo@ema</ref>). <ref
+                                              target="http://wboe.oeaw.ac.at/">http://wboe.oeaw.ac.at</ref> [letzter
+                                              Zugriff 15. Oktober 2015]. </bibl>
+                                            </listBibl>
+                                          </div>
+                                        </back>
+                                      </text>
+                                    </TEI>

@@ -95,7 +95,6 @@ def set_paths(argv: list) -> (Path, Path, Path, Path):
             pdf = os.path.join(conference, arg)
     return readable_dir(conference), readable_file(metadata_file), readable_dir(xml), readable_dir(pdf)
 
-
 # check if unchecked path references is readable directory
 def readable_dir(prospective_dir: str) -> str:
     if not os.path.isdir(prospective_dir):
@@ -104,14 +103,12 @@ def readable_dir(prospective_dir: str) -> str:
         raise Exception("readable_dir:{0} is not a readable dir".format(prospective_dir))
     return prospective_dir
 
-
 def readable_file(prospective_file: str) -> str:
     if not os.path.isfile(prospective_file):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_file))
     if not os.access(prospective_file, os.R_OK):
         raise Exception("readable_dir:{0} is not a readable dir".format(prospective_file))
     return prospective_file
-
 
 def get_publications(metadata: ET.Element) -> dict:
 
@@ -131,7 +128,6 @@ def get_publications(metadata: ET.Element) -> dict:
 
     return publications
 
-
 def ascii_rename(name: str) -> str:
     try:
         elements_to_be_replaced = [".", "-", ":", ",", "?", "!", " ", "(", ")", "&", "@"]
@@ -149,11 +145,9 @@ def ascii_rename(name: str) -> str:
     except AttributeError:
         pass
 
-
 def parse_creator(name: str) -> list:
     name = [ascii_rename(elem.strip()) for elem in name.split(",")]
     return name
-
 
 def get_possible_publication_names(metadata: list, publications: dict) -> dict:
 
@@ -185,7 +179,6 @@ def get_possible_publication_names(metadata: list, publications: dict) -> dict:
 
         publication_names.update({publication: possible_names})
     return publication_names
-
 
 def get_publication_files(publication_names: dict, file_dir) -> dict:
 
@@ -264,7 +257,6 @@ def get_publication_files(publication_names: dict, file_dir) -> dict:
 
     return publication_files
 
-
 def create_bundles(conference, publication_pdfs: dict, publication_xmls: dict) -> dict:
     
     # create directory for conference in bundle structure
@@ -299,7 +291,6 @@ def create_bundles(conference, publication_pdfs: dict, publication_xmls: dict) -
     else:
         logging.info("All directories have been created and contain two files. Continue..")
     return publication_paths
-
 
 def create_csv(conference:str, publications:dict):
     # safe ordered files and titles in csv file

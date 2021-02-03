@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-KUCZE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Nachhaltigkeitperspektiven von Graphdaten</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Kuczera</surname>
+<forename>Andreas</forename>
+</persName>
+<affiliation>Regesta Imperii, Universität Gießen, Akademie der Wissenschaften Mainz, Deutschland</affiliation>
+<email>andreas.kuczera@geschichte.uni-giessen.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-22T11:02:06.007359920</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Graphdaten</term>
+<term>Graphdatenbanken</term>
+<term>Erschließung</term>
+<term>Digitale Edition</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Umwandlung</term>
+<term>Sammlung</term>
+<term>Aufzeichnung</term>
+<term>Transkription</term>
+<term>Gestaltung</term>
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Strukturanalyse</term>
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Kontextsetzung</term>
+<term>Theoretisierung</term>
+<term>Bereinigung</term>
+<term>Bearbeitung</term>
+<term>Netzwerkanalyse</term>
+<term>Schreiben</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading" type="div1">
+<head/>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>Beispiele Graphbasierter Erschließung der Datenbank Nomen et Gens</head>
+<p>Die Datenbank Nomen et Gens ist aus einem DFG-Projekt hervorgegangen und verzeichnet Quellen und die in Ihnen belegten Personen für die vier Jahrhunderte vor der Zeit Karls des Großen. Das Abfragefrontend der Mysql-Datenbank ist im Internet unter www.nomen-et-gens.de zu erreichen.</p>
+<p>Ein Teil der Datenbank wurde im Vorfeld eines DFG-Antrages in eine Graphdatenbank konvertiert um neue Auswertungsmöglichkeiten zu testen, die im Rahmen dieses Posters dargestellt werden sollen.</p>
+<p>Frage an die Datenbank:</p>
+<p>Zeige mir die Quelle „Annales Petaviani“ und alle Personen, die in dieser Quelle belegt sind und alle Quellen, in denen diese Personen wiederum gemeinsam belegt sind. </p>
+<p>
+<figure>
+<graphic url="poster-KUCZE-image1.jpg"/>
+<head>Abbildung 1: Visualisierung der Graphdatenbankabfrage.</head>
+</figure>
+</p>
+<p>Bewertung des Abfrageergebnisses:</p>
+<list type="ordered">
+<item>Der interessanteste Information der Visualisierung ist die traversale Abfrage zu Personen in einer Quelle, die wiederum in einer Quelle gemeinsam vorkommen. Die Abfrage „Zeige mir alle Personen in einer Quelle" funktioniert ja auch mit einer relationalen Datenbank. Aber es gibt keine Möglichkeit, auf die Weise auch noch gleich zu sehen, in welcher Quelle eine Person außerdem noch steht. Insofern fügt die Graphdatenbank hier eine "Dimension" hinzu. </item>
+<item>Verwandtschaftliche Beziehungen zwischen Personen stehen beim jeweiligen Personeneintrag und sind damit immer nur bis zum nächsten Glied zu sehen.</item>
+<item>Für Frühmittelalterhistoriker besonders interessant sind gemeinsam urkundlich belegte Personen. Eine solche Abfrage ist über die relationale Datenbank nur schwer umfassend durchzuführen.</item>
+<item>Die Visualisierung aus der Graphdatenbank veranschaulicht die Überlieferungssituation von einzelnen Personen. Der umkringelte Radbod ist, anders als z.B. Bonifatius zu dem es sehr viele Belege gibt, nur schwer historisch fassbar.</item>
+</list>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Kuczera, Andreas</hi> (2016c): 
+                        „Digital Editions beyond XML – Graph-based Digital Editions“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the 3rd HistoInformatics Workshop on Computational History (HistoInformatics 2016)</hi> 37–46
+                        <ref target="http://ceur-ws.org/Vol-1632/paper_5.pdf">http://ceur-ws.org/Vol-1632/paper_5.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kuczera, Andreas</hi> (2016b): 
+                        „Graphbasierte digitale Editionen“, 
+                        in: 
+                        <hi rend="italic">Mittelalter: Interdisziplinäre Forschung und Rezeptionsgeschichte</hi> 19. April 2016 
+                        <ref target="http://mittelalter.hypotheses.org/7994">mittelalter.hypotheses.org/7994</ref>
+</bibl>
+<bibl>
+<hi rend="bold">Kuczera, Andreas</hi> (2016a): 
+                        „Endcoding and Presenting Historical Biographical Data with Graph Data Bases“,
+                        in: 
+                        <hi rend="italic">CO:OP. The Creative Archives' and Users' Network</hi>
+<ref target="https://coop.hypotheses.org/297">https://coop.hypotheses.org/297</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kuczera, Andreas</hi> (2015): 
+                        „Graphdatenbanken für Historiker. Netzwerke in den Registern der Regesten Kaiser Friedrichs III. mit neo4j und Gephi“,
+                        in: 
+                        <hi rend="italic">Mittelalter: Interdisziplinäre Forschung und Rezeptionsgeschichte</hi> 5. Mai 2015
+                        <ref target="http://mittelalter.hypotheses.org/5995">mittelalter.hypotheses.org/5995</ref>
+</bibl>
+<bibl>
+<hi rend="bold">Kuczera, Andreas</hi> (2014b): 
+                        „Big Data History“, 
+                        in: 
+                        <hi rend="italic">Mittelalter: Interdisziplinäre Forschung und Rezeptionsgeschichte</hi> 10. Oktober 2014
+                        <ref target="http://mittelalter.hypotheses.org/3962">mittelalter.hypotheses.org/3962</ref>
+</bibl>
+<bibl>
+<hi rend="bold">Kuczera, Andreas</hi> (2014a): 
+                        „Digitale Perspektiven mediävistischer Quellenrecherche“, 
+                        in: 
+                        <hi rend="italic">Mittelalter: Interdisziplinäre Forschung und Rezeptionsgeschichte</hi> 18. April 2014
+                        <ref target="http://mittelalter.hypotheses.org/3492">mittelalter.hypotheses.org/3492</ref>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

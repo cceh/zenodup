@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-007">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitale Forschungsaktivitäten multilingual: TaDiRAH für die deutschsprachige DH-Community</title>
+        <author>
+          <name>
+            <surname>Borek</surname>
+            <forename>Luise</forename>
+          </name>
+          <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+          <email>borek@linglit.tu-darmstadt.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schöch</surname>
+            <forename>Christof</forename>
+          </name>
+          <affiliation>Universität Würzburg</affiliation>
+          <email>christof.schoech@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Thoden</surname>
+            <forename>Klaus</forename>
+          </name>
+          <affiliation>Max-Planck-Institut für Wissenschaftsgeschichte</affiliation>
+          <email>kthoden@mpiwg-berlin.mpg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T10:26:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>TaDiRAH</term>
+          <term>Taxonomie</term>
+          <term>Übersetzung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Übersetzung</term>
+          <term>Annotieren</term>
+          <term>Daten</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Bei der <hi rend="italic">Taxonomy of Digital Research Activities in the
+        Humanities</hi>, kurz TaDiRAH, handelt es sich um eine anwendungsorientierte
+        Taxonomie, die unter Einbeziehung der Community dazu dient, Ressourcen aus dem
+        Kontext der Digitalen Geisteswissenschaften nach bestimmten Kategorien des
+        Forschungsprozesses zu klassifizieren. Sie trägt dazu bei, diese Ressourcen zu
+        strukturieren, referenzierbar und damit gleichzeitig auffindbar und sichtbar zu
+        machen. Zugleich ist die Taxonomie auch eine Modalität des Nachdenkens darüber, was
+        die digitalen Geisteswissenschaften sind. Als ein Instrument, das in verschiedenen
+        disziplinären Bereichen anwendbar sein soll, wurde die Struktur der Taxonomie in
+        einem <hi rend="italic">bottom-up</hi>-Verfahren so generisch wie möglich angelegt,
+        ohne dabei jedoch seine Funktionalität zur Unzulänglichkeit einzuschränken.
+        Ermöglicht wird dieser Ansatz z. B. zusätzliche Klassifizierungsparameter, die frei
+        und somit spezifisch erweiterbar sind. </p>
+        <p>TaDiRAH ist die Initiative einer transatlantischen Kooperation zwischen <ref
+          target="http://dirtdirectory.org/">DiRT</ref> und <ref
+          target="https://de.dariah.eu">DARIAH-DE</ref>. Konzipiert wurde die Taxonomie
+          anhand der Use-Cases dieser beiden Partner: dem Taggen von Tools innerhalb der DiRT
+          Registry sowie der kuratorischen Verschlagwortung bibliographischer Daten in DARIAHs
+          <ref target="https://de.dariah.eu/bibliographie"><hi rend="italic">Doing DH
+            Bibliography</hi></ref>. Darüber hinaus ist TaDiRAH z. B. für das Erfassen
+            von DH Studienangeboten im europäischen <ref
+            target="https://dh-registry.de.dariah.eu/">DH-Course Registry</ref> von
+            DARIAH-EU implementiert. Für die ebenfalls europaweite DiMPO-Initiative stellt die
+            Taxonomie einen Baustein dar, der in das komplexe Gebilde integriert werden kann.
+            Weitere Anwendungsszenarien umfassen u. a. die Verwendung für Surveys (z. B. im
+            Rahmen der Umfrage <hi rend="italic">practices4humanities</hi>)<ref type="note" target="n01" n="1">1</ref> oder das Klassifizieren von Konferenzbeiträgen, wie in diesem Jahr erstmals
+            bei der DHd-Konferenz erfolgt. </p>
+            <p>Bei der Konzeption profitierte die Taxonomie von verschiedenen Vorarbeiten in diesem
+              Bereich, die allesamt englischsprachigen Ursprungs sind. Namentlich sei hier
+              insbesondere auf das am King’s College London entwickelte arts-humanities.net
+              verwiesen, aus dem schließlich <ref target="http://dhcommons.org/">DHCommons</ref>
+              hervorging. Auch die Kommunikation im Rahmen von TaDiRAH einschließlich der
+              kollaborativen Phase, während der die Community im Vorfeld des ersten Releases aktiv
+              mit eingebunden wurde, um die spätere Verwendbarkeit zu gewährleisten, nutzte das
+              Englische als <hi rend="italic">lingua franca</hi>. Entsprechend wird es wenig
+              verwundern, dass auch TaDiRAH zunächst auf Englisch konzeptioniert wurde. Auf
+              datensprachlicher Seite zeigt sich die unter CC-BY-Lizenz stehende Taxonomie ohnehin
+              kompatibel: Neben der <ref target="https://github.com/dhtaxonomy/TaDiRAH"
+              >Projektwebsite auf GitHub</ref> mit vollständiger Dokumentation, Download als
+              SKOS Core sowie einem Issue Tracker bietet eine Instanz des <hi rend="italic"
+              >TemaTres Vocabulary Server</hi> zusätzlich einen <ref target="http://tadirah.dariah.eu/vocab/sparql.php">SPARQL-Endpoint</ref>,
+              der die Anwendung als Linked Open Data erlaubt. TemaTras unterstützt zudem das Implementieren multilingualer Taxonomien.
+              Auf Initiative des argentinischen Projekts “Methodologies on Digital Tools for
+              Research in the Humanities (<ref target="http://www.caicyt-conicet.gov.ar/metodologias-en-herramientas-digitales-para-la-investigacion-mhedi/">MHeDI</ref>)” konnte zunächst eine spanische Version von TaDiRAH entwickelt werden.<ref type="note" target="n02" n="2">2</ref>  Auch eine Ausweitung auf das Serbische ist bereits in Planung. </p>
+            <p>Inzwischen gibt es eine Vielzahl interessanter <hi rend="italic"
+              >state-of-the-art</hi>-Projekte der deutschsprachigen DH-Community. Sie ist in
+              einem eigenen Verband organisiert, dessen Veranstaltungen sich wachsender
+              Teilnehmerzahlen erfreuen. An verschiedenen Universitäten und DH-Zentren wurden mit
+              großem Erfolg spezifische DH-Angebote eingerichtet. Mit der <hi rend="italic"
+              >Zeitschrift für digitale Geisteswissenschaften</hi> (ZfdG) existiert inzwischen
+              zudem ein eigenes Publikationsorgan für deutschsprachige DH-Beiträge. Betrachtet man
+              die stabile Entwicklung von Version 0.5 von TaDiRAH und ihrer Implementierung in
+              weitere Sprachen und seine Integration in verschiedene EU-Initiativen, so scheint
+              der Zeitpunkt für eine deutsche Version günstig, wenn nicht überfällig. Wir freuen
+              uns daher sehr, der Community eine <ref target="https://github.com/dhtaxonomy/TaDiRAH/blob/master/deu/aktivitaeten.md">deutsche Version von TaDiRAH</ref>
+              vorstellen zu können. Die Übersetzung profitiert von den Vorarbeiten, die im Rahmen der <hi
+              rend="italic">practises4humanities</hi>-Umfrage geleistet wurden. Mit dem
+              vorliegenden Poster möchten wir einerseits einen Anstoß zur weiteren Verknüpfung und
+              Erschließung deutschsprachiger DH-Aktivitäten geben, und andererseits die
+              Selbstreflexivität der Disziplin im Abgleich und Austausch mit der internationalen
+              Community fördern. Die Multidisziplinarität ist den Digitalen Geisteswissenschaften
+              ebenso inhärent wie ihre Interdisziplinarität – diesem Sachverhalt möchte TaDiRAH
+              nun auch für die deutschsprachige (Sub-)Community gerecht werden. </p>
+            </body>
+            <back>
+             <div type="Notes"> <note xml:id="n01" n="1">Bei “practises4humanities. Wissenschaftliche
+                  Forschungspraxis in den Geisteswissenschaften” handelt es sich um eine
+                  Online-Umfrage des HCC.lab Berlin in Kooperation mit dem Einstein-Zirkel
+                  Digital Humanities Berlin und dem Interdisziplinären Forschungsverbund
+                  Digital Humanities in Berlin (if|DH|b). Vgl. den Vortrag von Claudia
+                  Müller-Birn im Rahmen dieser Tagung (DHd 2016).
+              </note>  
+              <note xml:id="n02" n="2">Die spanische Übersetzung wurde von Gimena del Rio angefertigt.
+              </note></div>
+              <div type="bibliogr">
+                <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl><hi rend="bold">Borek, Luise / Dombrowski, Quinn / Perkins, Jody / Schöch,
+                    Christof</hi> (2014): "Scholarly primitives revisited: towards a
+                    practical taxonomy of digital humanities research activities and objects",
+                    in: <hi rend="italic">Digital Humanities Conference 2014</hi>, Lausanne,
+                    Switzerland <ref target="http://dh2014.org/paper-session-details/">
+                    http://dh2014.org/paper-session-details/ </ref> [letzter Zugriff 13.
+                    Februar 2016]. </bibl>
+                    <bibl><hi rend="bold">centerNet</hi> (o. J.): <hi rend="italic">DH commons</hi>.
+                    A collaboration hub <ref target="http://dhcommons.org/"
+                    >http://dhcommons.org/</ref> [letzter Zugriff 13. Februar 2016].</bibl>
+                    <bibl><hi rend="bold">DARIAH-DE</hi> (o. J.): <hi rend="italic">Digital
+                    Humanities Course Registry</hi>
+                    <ref target="https://dh-registry.de.dariah.eu/"
+                      >https://dh-registry.de.dariah.eu/</ref> [letzter Zugriff 13. Februar
+                      2016]. </bibl>
+                      <bibl><hi rend="bold">DARIAH-DE</hi> (o. J.): <hi rend="italic">Digital Research
+                      Infrastructure for the Arts and Humanities</hi>
+                      <ref target="https://de.dariah.eu/">https://de.dariah.eu/</ref> [letzter
+                      Zugriff 13. Februar 2016]. </bibl>
+                      <bibl><hi rend="bold">DARIAH-DE</hi> (o. J.): <hi rend="italic">Doing Digital
+                      Humanities.</hi> Bibliographie. <ref
+                      target="https://de.dariah.eu/bibliographie"
+                      >https://de.dariah.eu/bibliographie</ref> [letzter Zugriff 13. Februar
+                      2016]. </bibl>
+                      <bibl><hi rend="bold">DiRT</hi> (o. J.): <hi rend="italic">DiRT</hi>. Digital
+                      Research Tools <ref target="http://dirtdirectory.org"
+                      >http://dirtdirectory.org</ref> [letzter Zugriff 13. Februar
+                      2016].</bibl>
+                      <bibl><hi rend="bold">Hughes, Lorna / Constantopoulos, Panos / Dallas,
+                        Costis</hi> (Im Druck): “Digital Methods in the Humanities:
+                        Understanding and Describing their Use across the Disciplines”, in
+                        Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): <hi rend="italic"
+                        >A new companion to digital humanities.</hi> Oxford: Wiley-Blackwell. </bibl>
+                        <bibl><hi rend="bold">NeDiMAH</hi> (2012): “Network for Digital Methods in the
+                        Arts and Humanities (NeDiMAH)” <ref
+                        target="http://www.esf.org/fileadmin/Public_documents/Publications/nedimah.pdf"
+                        >http://www.esf.org/fileadmin/Public_documents/Publications/nedimah.pdf</ref>
+                        [letzter Zugriff 13. Februar 2016].</bibl>
+                        <bibl><hi rend="bold">Schöch, Christof</hi> (2012): <hi rend="italic">Doing
+                        Digital Humanities</hi>. A DARIAH-DE Bibliography. Göttingen: DARIAH-DE
+                        <ref
+                          target="https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography"
+                          >
+                          https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography
+                        </ref> [letzter Zugriff 13. Februar 2016]. </bibl>
+                        <bibl><hi rend="bold">TaDiRAH</hi>: <hi rend="italic">Taxonomy of Digital
+                        Research Activities in the Humanities</hi>
+                        <ref target="https://github.com/dhtaxonomy/TaDiRAH"
+                          >https://github.com/dhtaxonomy/TaDiRAH</ref> [13. Februar 2016].</bibl>
+                        </listBibl>
+                      </div>
+                    </back>
+                  </text>
+                </TEI>

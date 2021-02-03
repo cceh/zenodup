@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-TABTI" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main"> relNet – Modellierung von Themen und Strukturen religiöser Online-Kommunikation</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Elwert</surname>
+<forename>Frederik</forename>
+</persName>
+<affiliation>RUB Bochum, Deutschland</affiliation>
+<email>frederik.elwert@rub.de</email>
+</author>
+<author>
+<persName>
+<surname>Tabti</surname>
+<forename>Samira</forename>
+</persName>
+<affiliation>RUB Bochum, Deutschland</affiliation>
+<email>Samira.Tabti@ruhr-uni-bochum.de</email>
+</author>
+<author>
+<persName>
+<surname>Krech</surname>
+<forename>Volkhard</forename>
+</persName>
+<affiliation>RUB Bochum, Deutschland</affiliation>
+<email>volkhard.krech@rub.de</email>
+</author>
+<author>
+<persName>
+<surname>Morik</surname>
+<forename>Katharina</forename>
+</persName>
+<affiliation>Technische Universität Dortmund</affiliation>
+<email>katharina.morik@cs.uni-dortmund.de</email>
+</author>
+<author>
+<persName>
+<surname>Pfahler</surname>
+<forename>Lukas</forename>
+</persName>
+<affiliation>Technische Universität Dortmund</affiliation>
+<email>lukas@wandelt-pfahler.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-22T21:51:20.48</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>religiöser Online-Kommunikation</term>
+<term>Modellierung</term>
+<term>topic models</term>
+<term>LDA</term>
+<term>relNet</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Datenerkennung</term>
+<term>Entdeckung</term>
+<term>Aufzeichnung</term>
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Modellierung</term>
+<term>Kommunikation</term>
+<term>Theoretisierung</term>
+<term>Netzwerkanalyse</term>
+<term>Veröffentlichung</term>
+<term>Identifizierung</term>
+<term>Forschung</term>
+<term>Forschungsprozess</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Von der Weiterentwicklung quantitativer Textanalysemethoden in der Informatik profitieren nicht nur die Geisteswissenschaften, auch für die qualitative Sozialforschung ergeben sich neue Impulse. Die Verwandtschaft qualitativer Forschungsmethoden in den Sozialwissenschaften und hermeneutischer Analyseansätze in den Geisteswissenschaften ermöglicht hier einen engen Austausch. Gleichzeitig stellt die Anwendung quantitativer Textanalysen zunehmend die ehemals strikte Trennung zwischen qualitativen und quantitativen Ansätzen in der Sozialforschung in Frage. Mit dem Aufkommen webbasierter Kommunikationsmedien können Sozialwissenschaftler_innen und Informatiker_innen zudem auf einen stetig wachsenden Datenbestand sozialer Interaktionen zugreifen, was zur Entstehung der 
+                <hi rend="italic">computational social sciences</hi> als eigenem Forschungsfeld geführt hat (Lazer et al. 2009:721–23). Die Netzwerkanalyse hat sich hier zu einem der zentralen Methodenansätze entwickelt.
+            </p>
+<p>Die Religionswissenschaft ist ein dankbares Experimentierfeld für diese Art der disziplinen- und schulenübergreifenden Forschungsansätze. Sie vereint in sich sowohl geistes- als auch sozialwissenschaftliche Traditionen und ist in besonderer Weise am Zusammenspiel von Geistesgeschichte und sozialen Strukturen interessiert, wie dies bereits Max Weber mit seiner Unterscheidung von Ideen und Interessen (Weber 1989 [1920]: 101) herausgearbeitet hat. Daraus ergeben sich nach wie vor relevante Fragen: Wie prägen religiöse Vorstellungen das soziale Zusammenleben? Wie wirken sich aber auch soziale und politische Strukturen auf die Entwicklung und Weitergabe religiöser Ideen aus?</p>
+<p>Das Projekt „relNet – Modellierung von Themen und Strukturen religiöser Online-Kommunikation“ nimmt vor diesem Hintergrund ein spezielles Segment gegenwärtiger Religiosität in den Blick: Neo-konservative christliche und islamische Bewegungen (etwa Evangelikale oder Anhänger der Salafiyya) haben in den letzten Jahren mit eigenen Online-Foren Kommunikationsplattformen geschaffen, in denen sie jeweils eigene Auslegungen in Theologie und Fragen der Lebensführung diskutieren (Becker 2009: 84; Neumaier 2016).</p>
+<p>Bei allen Unterschieden zeichnen sich diese Bewegungen durch zwei Merkmale aus: a) eine Universalisierung von Religion im Sinne einer Ablösung „reiner“ Religion von Kultur und Politik, und b) eine religiöse Durchdringung aller Lebensbereiche, die sich insbesondere durch eine umfassende Regulierung der Lebensführung ausdrückt (O. Roy 2010: 25). Die Analyse dieser Online-Communities erlaubt es, Rückschlüsse über die Entwicklung und Verbreitung bestimmter Vorstellungen, aber auch über die Genese sozialer Strukturen und neuer Autoritäten zu ziehen.</p>
+<p>Das Projekt ist eine Kooperation zwischen Religionswissenschaftler_innen der Ruhr-Universität Bochum und Informatiker_innen der TU Dortmund. Die interdisziplinäre Zusammenarbeit erlaubt es dabei insbesondere, Methoden in enger Passung auf das spezifische Material und die Fragestellungen zu adaptieren und zu entwickeln. In methodischer Hinsicht ist dabei die Unterscheidung von Strukturen und Inhalten leitend. Die Anwendung bereits etablierter Verfahren ermöglicht eine Analyse von Themen und ihrer zeitlichen Entwicklung einerseits (etwa über 
+                <hi rend="italic">topic models</hi> wie LDA (Blei, Ng, and Jordan 2003)) sowie der sozialen Kommunikationsstrukturen in den Foren andererseits (etwa über 
+                <hi rend="italic">social network analysis</hi>). Darüber hinaus werden im Rahmen des Projekts aber besonders solche Ansätze weiter erforscht, die beide Dimensionen in einem gemeinsamen Modell abbilden können. Dies bietet etwa die Möglichkeit, Gruppen in Netzwerken zu identifizieren, die sich nicht nur aufgrund ihrer Interaktionsstruktur, sondern auch durch gemeinsame Themen auszeichnen (Natarajan, N., Sen, P., &amp; Chaoji, V. 2013: 
+                <hi rend="italic">2174–2177</hi>).
+            </p>
+<p>Das Besondere dieses Ansatzes besteht darin, dass die vergleichsweise umfangreichen Datenbestände zu religiöser Onlinekommunikation nicht nur stichprobenartig, sondern in ihrer Gänze der Analyse zugänglich gemacht werden können</p>
+<p>Die zeitliche Tiefendimension der Daten erlaubt zudem Analysen, welche die Themen nicht nur isoliert betrachten, sondern auch Diskursstränge in ihrer zeitlichen Abfolge und Verschränkung zu analysieren (Shahaf, Guestrin, and Horvitz 2012:1122–30).</p>
+<p>Im Rahmen des Projekts werden dafür ausgewählte Online-Foren gecrawlt und in ein einheitliches Datenformat überführt. Für die eigentliche Analyse werden sie dann in die Software RapidMiner importiert, in der dann Verarbeitungs- und Analyseprozesse modelliert werden können. Neu entwickelte Methoden werden als Module für RapidMiner zur Verfügung gestellt. Dadurch lassen sich die Verarbeitungsschritte transparent dokumentieren und reproduzieren.</p>
+<p>Das Poster stellt das Projekt sowie erste Zwischenergebnisse vor. Das Projekt wird vom Mercator Research Center Ruhr gefördert.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Becker, Carmen</hi> (2009): 
+                        „Gaining Knowledge: Salafi Activism in German and Dutch Online Forums“,
+                        in: 
+                        <hi rend="italic">Masaryk University Journal of Law and Technology</hi> 3 (1): 79–98 
+                        <ref target="https://journals.muni.cz/mujlt/article/view/2526">https://journals.muni.cz/mujlt/article/view/2526</ref> [letzter Zugriff 15. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I.</hi> (2003):
+                        „Latent Dirichlet Allocation“,
+                        in:
+                        <hi rend="italic">Journal of Machine Learning Research</hi> 3: 993–1022 
+                        <ref target="http://dl.acm.org/citation.cfm?id=944919.944937">http://dl.acm.org/citation.cfm?id=944919.944937</ref> [letzter Zugriff 15. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Lazer, David / Pentland, Alex / Adamic, Lada / Aral, Sinan / Barabási, Albert-László / Brewer, Devon / Christakis, Nicholas</hi> et al. (2009):
+                        „Computational Social Science“,
+                        in:
+                        <hi rend="italic">Science</hi> 323 (5915): 721–23 <ref target="https://doi.org/10.1126/science.1167742">10.1126/science.1167742</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Natarajan, Nagarajan / Sen, Prithviraj / Chaoji, Vineet</hi> (2013):
+                        „Community Detection in Content-Sharing Social Networks“,
+                        in:
+                        <hi rend="italic">In Proceedings of the 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining</hi> 496–500: 2174–2177.
+                    </bibl>
+<bibl>
+<hi rend="bold">Neumaier, Anna</hi> (2016): 
+                        <hi rend="italic">Religion@home? Religionsbezogene Online-Plattformen Und Ihre Nutzung: Eine Untersuchung Zu Neuen Formen Gegenwärtiger Religiosität</hi>.
+                        Religion in Der Gesellschaft 39. Ergon Verlag.
+                    </bibl>
+<bibl>
+<hi rend="bold">Roy, Olivier</hi> (2010): 
+                        <hi rend="italic">Heilige Einfalt: Über Die Politischen Gefahren Entwurzelter Religionen</hi>.
+                        München: Siedler.
+                    </bibl>
+<bibl>
+<hi rend="bold">Shahaf, Dafna, Carlos Guestrin, and Eric Horvitz</hi> (2012):
+                        „Metro Maps of Science“,
+                        in: 
+                        <hi rend="italic">Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</hi>. KDD ’12.
+                        New York, NY, USA: ACM 1122–1130
+                        <ref target="https://doi.org/10.1145/2339530.2339706">10.1145/2339530.2339706</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Weber, Max</hi> (1989 [1920]):
+                        „Die Wirtschaftsethik Der Weltreligionen: Vergleichende Religionssoziologische Versuche: Einleitung“,
+                        in: 
+                        <hi rend="italic">Max Weber Gesamtausgabe</hi> 19.
+                        Tübingen: Mohr Siebeck 83–127.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

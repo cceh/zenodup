@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-FISCH" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">„Der Helmut Kohl unter den Brotaufstrichen“. Zur Extraktion vossianischer Antonomasien aus großen Zeitungskorpora</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Jäschke</surname>
+<forename>Robert</forename>
+</persName>
+<affiliation>University of Sheffield</affiliation>
+<email>r.jaschke@sheffield.ac.uk</email>
+</author>
+<author>
+<persName>
+<surname>Strötgen</surname>
+<forename>Jannik</forename>
+</persName>
+<affiliation>Max-Planck-Institut für Informatik, Saarbrücken</affiliation>
+<email>jannik.stroetgen@mpi-inf.mpg.de</email>
+</author>
+<author>
+<persName>
+<surname>Krotova</surname>
+<forename>Elena</forename>
+</persName>
+<affiliation>Higher School of Economics, Moskau</affiliation>
+<email>kroelebor@gmail.com</email>
+</author>
+<author>
+<persName>
+<surname>Fischer</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Higher School of Economics, Moskau</affiliation>
+<email>frafis@gmail.com</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-29T01:00:48.936622345</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Antonomasie</term>
+<term>vossianische Antonomasie</term>
+<term>Stilistik</term>
+<term>Zeitungskorpora</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Programmierung</term>
+<term>Stilistische Analyse</term>
+<term>Sprache</term>
+<term>Literatur</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einführung und Forschungslage</head>
+<p>Wenn Peter Paul Rubens als »Tarantino des Barock« beschrieben wird (im 
+                    <hi rend="italic">Tagesspiegel</hi>, 2014) oder Alice Schwarzer als der »Erich Honecker des Feminismus« (in 
+                    <hi rend="italic">Cicero</hi>, 2014), dann handelt es sich um eine Vossianische Antonomasie. Diese Trope ist nach dem niederländischen Humanisten und Rhetoriklehrer Vossius benannt (und wird im Folgenden als ›Vossanto‹ abgekürzt, in Anlehnung an den Vorschlag von Fischer/Wälzholz 2014). Generell spricht man von Antonomasie, wenn eine bestimmte Eigenschaft einer Person für diese selbst steht (z. B. »der Leimener« für Boris Becker). Beim Spezialfall der Vossanto wird einer Person über die Nennung einer anderen (bekannteren, populäreren, berüchtigteren) Person als Referenzgröße eine bestimmte Eigenschaft zugeschrieben. Dabei sorgt ein »untypologisches, aktualisierendes Signal« (Lausberg 1960) für den Bedeutungstransfer (in den oben genannten Beispielen wären dies der Barock und der Feminismus). Anders ausgedrückt: Die Vossanto stellt über einen ›modifier‹ einen Zusammenhang zwischen ›source‹ und ›target‹ her (Bergien 2013). Entitäten können sowohl als ›source‹ als auch als ›target‹ auftreten, wie ebd. am Beispiel Obama demonstriert: bis 2011 trat er in Vossantos vor allem als ›target‹ auf, danach diente er immer mehr als ›source‹. Die ›source‹-Referenz wird im Fachdiskurs im Anschluss an Lakoff 1987 auch als ›paragon‹ bezeichnet (»a specific example that comes close to embodying the qualities of the ideal«, ebd.).
+                </p>
+<p>Der Begriff »Vossianische Antonomasie« wird international kaum verwendet, stattdessen wird etwa zwischen »Antonomasia1« und »Antonomasia2« unterschieden: »metonymic« vs. »metaphorical antonomasia« (Holmqvist/Płuciennik 2010). Innerhalb dieses Klassifikationsschemas wäre unsere Vossanto ein Spezialfall von »Antonomasia2«, nämlich wenn es um »comparisons with paragons from other spheres of culture« geht: »Lyotard is a pope of postmodernism, Bush is no Demosthenes; and we can buy the Cadillac of vacuum cleaners.« (ebd.)</p>
+<p>Dieses Stilmittel, dessen reger Gebrauch seit der Antike belegt ist, ist heute medial ubiquitär anzutreffen. Oft findet es sich schon in Überschriften, da es zugleich informativ und rätselhaft sein kann und zudem oft unterhaltsame Qualitäten bietet. Eine eigene größere Sammlung an Musterexemplaren (
+                    <ptr target="http://www.umblaetterer.de/datenzentrum/vossianische-antonomasien.html"/>) gab den Ausschlag, dieses Phänomen systematisch zu erforschen, mit historischer Perspektive und auf Grundlage größerer englischer und deutscher Zeitungskorpora. Ziel dieser Arbeit ist eine erste methodisch-explorative Analyse des Phänomens Vossanto in der Tageszeitung 
+                    <hi rend="italic">New York Times</hi> (1987–2007) und der Wochenzeitung 
+                    <hi rend="italic">Die Zeit</hi> (1995–2011). Die Korpora wurden aufgrund ihrer Verfügbarkeit, Bedeutung und ihres Umfangs gewählt. Die Extraktion der Vossantos erfolgte jeweils korpusspezifisch, um den verschiedenen Formaten und Sprachen Rechnung zu tragen.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Englischsprachiges Korpus</head>
+<p>Aus den XML-Daten des 
+                    <hi rend="italic">New York Times</hi>-Korpus (Sandhaus 2008) wurde für jeden der 1.854.726 Artikel der Volltext extrahiert. Anschließend wurde der Text mit Hilfe des NLTK (Bird/Loper/Klein 2009) in Sätze zerlegt und die Wörter jedes Satzes mit dem Part-of-Speech-Tagger des NLTK annotiert. Zusätzlich wurden Named Entities (Personen, Orte, Organisationen) mit dem NLTK-eigenen Named-Entity-Extraktor annotiert. Die so annotierten Sätze wurden mit einer Liste von Vossanto-typischen Mustern (in Form von regulären Ausdrücken) abgeglichen. Eine vereinfachte Darstellung eines solchen Musters ist beispielsweise:
+                </p>
+<quote>\((PERSON|ORGANIZATION|GPE) *\) (is|has) (often|sometimes)? (been)? (called)? the \(PERSON|ORGANIZATION|GPE) *\) (of|among|from) \((PERSON|ORGANIZATION|GPE) *\)</quote>
+<p>Die zu findenden drei Elemente einer Vossanto sind darin durch * gekennzeichnet. Passte ein Satz auf eines der Muster, so wurden diese drei Teile extrahiert und tabellarisch ausgegeben. Anschließend wurden die extrahierten 10.744 Kandidaten manuell überprüft. Nicht-Vossantos und Vossantos mit Städten und Firmen wurden entfernt (Treffer der Art »Algarve, the Riviera of Portugal« oder »Pepsi is the Nike of soft drinks« sind eine eigene Untersuchung wert) und der Fokus auf Vossantos gelegt, in denen Individuen (Personen, Tiere, fiktive Figuren) als ›source‹ oder ›target‹ dienen. 246 Vossantos blieben dabei übrig (Übersicht in unserem Arbeitsrepo, siehe Bibliografie), die sich wie folgt über das Korpus verteilen:</p>
+<p>
+<figure>
+<graphic url="vortrag-FISCH-1000020000000320000002584F1C62E428FC24BB.png"/>
+<head>vossantos_nyt.png</head>
+</figure>
+</p>
+<p>Am häufigsten als ›source‹ verwendet wurden folgende Namen:</p>
+<table rend="frame" xml:id="Table1">
+<row>
+<cell rend="center bold">Anzahl</cell>
+<cell rend="center bold">source</cell>
+</row>
+<row>
+<cell rend="center">6</cell>
+<cell rend="center">Michael Jordan</cell>
+</row>
+<row>
+<cell rend="center">5</cell>
+<cell rend="center">Michelangelo</cell>
+</row>
+<row>
+<cell rend="center">4</cell>
+<cell rend="center">Babe Ruth</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Zelig</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Rodney Dangerfield</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Neil Young</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Elvis</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Don Quixote</cell>
+</row>
+</table>
+<p>Als Beispiel für Treffer seien diejenigen für Michael Jordan genannt:</p>
+<list type="unordered">
+<item>»Romario is the 
+                        <hi rend="italic">Michael Jordan</hi> of soccer and Bebeto is the Magic Johnson of soccer« (1994)
+                    </item>
+<item>»Bonfire, the 
+                        <hi rend="italic">Michael Jordan</hi> of dressage horses« (1998)
+                    </item>
+<item>»Brian Foster, the 
+                        <hi rend="italic">Michael Jordan</hi> of BMX racing« (1998)
+                    </item>
+<item>»The stunt biker Dave Mirra, the 
+                        <hi rend="italic">Michael Jordan</hi> of the dirt set« (2000)
+                    </item>
+<item>»Cynthia Cooper is the 
+                        <hi rend="italic">Michael Jordan</hi>, the Larry Bird, the Magic Johnson of this league« (2000)
+                    </item>
+<item>»McNabb has been called the 
+                        <hi rend="italic">Michael Jordan</hi> of the National Football League« (2001)
+                    </item>
+</list>
+<p>Trotz der zeitlichen Einschränkung des Korpus lassen sich bereits einige vielversprechende Beobachtungen anstellen und Thesen bilden: 1. Produktive Referenzgrößen einer Vossanto sind sowohl reale als auch fiktionale Figuren (Bsp. für letztere aus der obigen Liste: Woody Allens »Zelig«, Cervantes’ »Don Quixote«). 2. Öffentliche Personen oder bekannte fiktionale Charaktere haben bestimmte Eigenschaften, die sie für die Verwendung als Referenzgröße einer Vossanto prädestinieren oder nicht (es bleibt etwa zu erforschen, warum gerade Michael Jordan und Michelangelo sich so gut eignen und nicht andere Sportler bzw. Künstler). 3. Es gibt historisch stabile Referenzgrößen, deren Bekanntheit vorausgesetzt werden kann (z. B. Michelangelo), und es gibt ephemere Referenzgrößen, die ab irgendeinem Zeitpunkt nicht mehr als Bezugspunkt taugen (für das benutzte zeitgenössische Korpus eher noch nicht relevant).</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Deutschsprachiges Korpus</head>
+<p>Das deutsche Datenset besteht aus einer Sammlung des Archivs der Wochenzeitung 
+                    <hi rend="italic">Die Zeit</hi> und enthält die Artikel aus den Jahren 1995 bis 2011. Insgesamt umfasst das Korpus 126.702 Dokumente.
+                </p>
+<p>Zunächst wurden die Volltexte (inklusive Überschriften) aller Dokumente extrahiert. Diese wurden dann mit Hilfe des Part-of-Speech-Taggers und Named-Entity-Recognition-Tools des Stanford CoreNLP Package verarbeitet. Für die Analyse deutschsprachiger Texte enthält Stanford CoreNLP speziell für das Deutsche trainierte Modelle (Faruqui und Pado 2010). Somit können alle Texte auf drei Ebenen untersucht werden: auf der Wortebene, der Part-of-Speech-Ebene sowie der Named-Entity-Ebene. Mithilfe von regulären Ausdrücken, die auf den verschiedenen Ebenen angewandt werden können, wurde dann nach Vossanto-Mustern gesucht. Im Gegensatz zur Verarbeitung des englischsprachigen Korpus wurde jedoch noch nicht versucht, auch das ›target‹ einer Vossanto zu extrahieren. Stattdessen wurden Muster entworfen, die das ›source‹-Objekt sowie das »aktualisierende Signal« matchen. Ausschlaggebend für diese Herangehensweise waren die in einem Testdurchlauf beobachtete hohe Anzahl an Vossantos ohne unmittelbaren Verweis auf das ›target‹ sowie eine große Vielfalt an möglichen Formulierungen, die auf die Relation zum ›target‹ hinweisen können. Mithilfe relativ strikter Regeln konnte die Anzahl an falschen Extraktionen im Rahmen gehalten werden. Ein vereinfachtes Beispiel für eine Extraktionsregel lautet etwa: »eine Art PERSON (der|des) (ADJECTIVE)? NOUN«.</p>
+<p>Die Produktivität der beiden häufigsten Referenznamen des NYT-Korpus bestätigt sich im verwendeten deutschen Korpus, etwa wenn vom »Michael Jordan der analytischen Philosophie« die Rede ist (
+                    <hi rend="italic">Die Zeit</hi> 44/1999) oder vom »bulgarischen Michelangelo« (
+                    <hi rend="italic">Die Zeit</hi> 14/2001). Ansonsten scheint es sprachen- bzw. kulturspezifische Präferenzen zu geben. Die häufigsten ›sources‹ sind:
+                </p>
+<table rend="frame" xml:id="Table2">
+<row>
+<cell rend="center bold">Anzahl</cell>
+<cell rend="center bold">source</cell>
+</row>
+<row>
+<cell rend="center">9</cell>
+<cell rend="center">Robin Hood</cell>
+</row>
+<row>
+<cell rend="center">6</cell>
+<cell rend="center">Bill Gates</cell>
+</row>
+<row>
+<cell rend="center">4</cell>
+<cell rend="center">Franz Beckenbauer</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Daniel Düsentrieb</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Heinz Rühmann</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">James Dean</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Jesus Christus</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Norbert Blüm</cell>
+</row>
+<row>
+<cell rend="center">3</cell>
+<cell rend="center">Willy Brandt</cell>
+</row>
+</table>
+<p>Ähnlich wie im NYT-Korpus ist erkennbar, wie stark typisierend mythische bzw. fiktive Figuren sind (Robin Hood, Daniel Düsentrieb). Daneben zeigt sich, dass »Bill Gates«, der im NYT-Korpus nur zweimal als ›source‹ einer Vossanto vorkommt, im 
+                    <hi rend="italic">Zeit</hi>-Korpus sechs Mal als Referenz vertreten ist:
+                </p>
+<list type="unordered">
+<item>»eine Art Bill Gates des Stolperns« (1998)</item>
+<item>»Der Bill Gates von Aurich« (2001)</item>
+<item>»der Bill Gates von Ostfriesland« (2001)</item>
+<item>»der Bill Gates von Aurich« (2002)</item>
+<item>»der britische Bill Gates« (2008)</item>
+<item>»der Bill Gates von Estland« (2010)</item>
+</list>
+<p>Die wiederholte Verwendung des »Bill Gates von Aurich« zeigt, wie stark ein ›target‹ mit einer ›source‹ verwachsen kann. (Paradebeispiel hierfür ist im Übrigen Vittorio Hösle, »der Boris Becker der Philosophie«, eine Bezeichnung, die es bis in den Wikipedia-Artikel zu Hösle geschafft hat.) Am Beispiel Bill Gates’ lässt sich wie zuvor am Beispiel Obama demonstrieren, dass ein Name sowohl als ›target‹ als auch als ›source‹ vorkommen kann. Bevor Bill Gates selbst als Referenz verwendet wird, wird er in einem Artikel von 1995 noch durch eine andere Person beschrieben: »Bill Gates ist der Henry Ford des Computerzeitalters«.</p>
+<p>Insgesamt wurden aus 1.456 Vossanto-Kandidaten 225 manuell als Vossantos markiert, die sich wie folgt über die im Korpus vorhandenen Jahre verteilen:</p>
+<p>
+<figure>
+<graphic url="vortrag-FISCH-100002000000032000000258BB20B0C3704E9BD3.png"/>
+<head>vossantos_zeit.png</head>
+</figure>
+</p>
+<p>Zu den fälschlich extrahierten Named Entities gehören »der Berliner Klaus Wowereit«, »der deutsche Michel« oder »der Anton aus Tirol«, stehende Wendungen, die grammatisch unseren definierten Vossanto-Mustern entsprechen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Erkenntnisse und Ausblick</head>
+<p>Die Vossanto ist als Stilmittel nur scheinbar einfach strukturiert, das Erstellen von Extraktionsregeln daher alles andere als trivial. Die vorliegenden Skripte weisen bekannte Lücken auf, die Qualität hängt v. a. von der Verlässlichkeit der benutzten NER-Tools und der Präzision der definierten Muster ab. Fehlende Goldannotationen für dieses Phänomen erschweren zudem eine Evaluierung. Die vorliegende Arbeit hat daher explorativen Charakter, die Optimierung von Precision und Recall lag noch nicht in deren Fokus, ist aber das nächste Ziel dieses Projekts.</p>
+<p>Trotz der genannten Einschränkungen konnten durch diesen korpusbasierten Ansatz neue Erkenntnisse zur Vielgestaltigkeit des Phänomens ›Vossianische Antonomasie‹ gewonnen werden. So lassen sich zahlreiche Spezialfälle unterscheiden und systematisch untersuchen (vgl. auch Fischer/Wälzholz 2014), beispielhaft genannt seien:</p>
+<list type="unordered">
+<item>Tiere als ›target‹ (»
+                        <hi rend="italic">Sea Hero</hi> is the Bobo Holloman of racing«, NYT, 1993; »
+                        <hi rend="italic">Bonfire</hi>, the Michael Jordan of dressage horses«, NYT, 1998),
+                    </item>
+<item>Feminisierungen (Adele Schopenhauer, »eine Art 
+                        <hi rend="italic">Donna Quichotta</hi> des Weimarer Musenvereins«, 
+                        <hi rend="italic">Die Zeit</hi> 18/2002; »Tracey [Emin], die 
+                        <hi rend="italic">Donna Giovanna</hi> der britischen Gegenwartskunst«, 
+                        <hi rend="italic">Die Zeit</hi> 9/2006; »Kati Witt ist jetzt eine 
+                        <hi rend="italic">Franziska Beckenbauer</hi> der Münchner Olympiabewerbung.«, 
+                        <hi rend="italic">Die Zeit</hi> 39/2010),
+                    </item>
+<item>nicht individualisierbare ›sources‹: »the [God, King, Queen, Satan, Emperor, Oracle, Shogun, Czar, Sultan, Buddha] of«,</item>
+<item>mythologische und fiktive Figuren als ›sources‹: »the [Santa Claus, Midas, Godzilla, Pied Piper, Energizer Bunny, Jupiter, Icarus] of«,</item>
+<item>Personifizierungen, also der Einsatz individueller Personen/Figuren als ›source‹ für Firmen, Vereine, Bands oder Orte als ›target‹ (»
+                        <hi rend="italic">Sturm, Ruger</hi> is the 
+                        <hi rend="italic">Benedict Arnold</hi> of the gun industry«, NYT, 1989; »
+                        <hi rend="italic">Aerosmith</hi>, the 
+                        <hi rend="italic">Dorian Gray</hi> of rock bands«, NYT, 1993; »the 
+                        <hi rend="italic">Hudson</hi> has been the 
+                        <hi rend="italic">John Barrymore</hi> of rivers, noble in profile but a sorry wreck«, NYT, 1996; »the 
+                        <hi rend="italic">National Collegiate Athletic Association</hi>, the 
+                        <hi rend="italic">Kenneth Starr</hi> of sports«, NYT, 1998).
+                    </item>
+</list>
+<p>Zu letzteren Beispielen gehört nun endlich auch der titelgebende »Helmut Kohl unter den Brotaufstrichen« (
+                    <hi rend="italic">der Freitag</hi> 35/2011).
+                </p>
+<p>Auch zur Distribution der Vossantos innerhalb der beiden Zeitungskorpora ließen sich belastbare Ergebnisse gewinnen. Demnach sind Vossantos besonders im Kultur- und Sport-Ressort beliebt (Vorkommen in der Sektion »Arts« der NYT: 78; in der Sektion »Sports«: 57; auf dem nächsten Rang mit großem Abstand »New York and Region«: 28 – im »Feuilleton + Literatur«-Ressort der Zeit: 76, »Politik«: 54, nächstrangig ist weit entfernt »Wirtschaft« mit 23 Vorkommen; »Sport« hat hier keine Treffer, denn die gedruckte 
+                    <hi rend="italic">Zeit</hi> hat kein dediziertes Sport-Ressort).
+                </p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bergien, Angelika</hi> (2013):
+                        „Names as frames in current-day media discourse“, 
+                        in: Felecan, Oliviu (ed.): 
+                        <hi rend="italic">Name and Naming</hi>. Proceedings of the second international conference on onomastics. Cluj-Napoca: Editura Mega 2013: 19–27.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bird, Steven / Loper, Edward / Klein, Ewan</hi> (2009): 
+                        <hi rend="italic">Natural Language Processing with Python</hi>. 
+                        O’Reilly Media Inc.
+                    </bibl>
+<bibl>
+<hi rend="bold">Faruqui, Manaal / Pado, Sebastian</hi> (2010):
+                        „Training and Evaluating a German Named Entity Recognizer with Semantic Generalization“, 
+                        in: 
+                        <hi rend="italic">Proceedings of Konvens 2010</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Fischer, Frank / Wälzholz, Joseph</hi> (2014): 
+                        „Jeder kann Napoleon sein: Vossianische Antonomasie: Eine Stilkunde“, 
+                        in:
+                        <hi rend="italic">Frankfurter Allgemeine Sonntagszeitung</hi> 51 (21. Dezember 2014): 34 
+                        <ptr target="http://www.umblaetterer.de/wp-content/uploads/2014/12/vossanto_fas.png"/>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Holmqvist Kenneth / Płuciennik Jarosław</hi> (2010): 
+                        „Princess antonomasia and the truth: Two types of metonymic relations“,
+                        in: Burkhardt, Armin / Nerlich, Brigitte (eds.): 
+                        <hi rend="italic">Tropical Truth(s): The Epistemology of Metaphor and Other Tropes</hi>. 
+                        Berlin/New York: De Gruyter 373–381 
+                        10.1515/9783110230215.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lakoff, George</hi> (1987): 
+                        <hi rend="italic">Women, Fire, and Dangerous Things: What Categories Reveal about the Mind</hi>. 
+                        Chicago: The University of Chicago Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lausberg, Heinrich</hi> (1960): 
+                        <hi rend="italic">Handbuch der literarischen Rhetorik. Eine Grundlegung der Literaturwissenschaft</hi> 2. 
+                        München: Hueber.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sandhaus, Evan</hi> (2008): 
+                        <hi rend="italic">The New York Times Annotated Corpus LDC2008T19</hi>. DVD. 
+                        Philadelphia: Linguistic Data Consortium.
+                    </bibl>
+<bibl>
+<hi rend="bold italic">Arbeitsrepositorium</hi>: 
+                        <ptr target="https://github.com/weltliteratur/vossanto"/>
+</bibl>
+<bibl>
+<hi rend="bold italic">Folien zum Vortrag</hi>: 
+                        <ptr target="https://lehkost.github.io/slides/2017-bern/"/>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="181_final-KONLE_Leonard_Makroanalytische_Untersuchung_von_Heftromanen" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Makroanalytische Untersuchung von Heftromanen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Jannidis</surname>
+                        <forename>Fotis</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>fotis.jannidis@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Konle</surname>
+                        <forename>Leonard</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>leonardkonle@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Leinen</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Deutsche Nationalbibliothek, Frankfurt a.M.</affiliation>
+                    <email>P.Leinen@dnb.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T12:44:08.207998813</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Gattungen</term>
+                    <term>Komplexität</term>
+                    <term>Schemaliteratur</term>
+                    <term>Hochliteratur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Strukturanalyse</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Kollaboration</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-edacf593-7fff-10eb-5b1c-edc0d520c4c2"/>Einleitung
+                </head>
+                <p>Heftromane, früher als ‘Romane der Unterschicht’ (Nusser 1981) abgewertet, sind aufgrund eines weniger wertungsfreudigen Umgangs mit Populärliteratur (Hügel 2007, Kelleter 2012) in den letzten 10-15 Jahren wieder Gegenstand der Literaturforschung geworden (z.B. Nast 2017, Stockinger 2018). ‘Heftromane’ wurden immer definiert durch das eigene Publikationsformat (zumeist rd. 64 Seiten), eigene Formen der Distribution über den Zeitschriftenmarkt und nicht über den Buchhandel, und auch die Soziographie der Heftromanleser weicht deutlich von der der sonstigen Literatur ab. Im Folgenden berichten wir über erste Ergebnisse einer Auswertung von 9.000 deutschsprachigen Heftromanen aus den Jahren 2009-2017. Möglich wurde die Forschung durch eine Kooperation zwischen der Würzburger Arbeitsgruppe zur literarischen Textanalyse und der Deutschen Nationalbibliothek (DNB), die die Daten vorhält. Ziel dieser ersten, noch weitgehenden explorativen Studie, sind die Antworten auf zwei Fragen: Wie unterscheiden sich die Gattungen der Heftromane untereinander und wie unterscheiden sich die Heftromane von Hochliteratur? Im ersten Schritt gehen wir der Frage nach, wie gut sich die Gattungen klassifizieren lassen und welche Texteigenschaften dabei eine Rolle spielen. Im zweiten Schritt werden die Gattungen inhaltlich erfasst. Zuletzt geht es um die angeblich einfachere Sprache der Heftromane. </p>
+                <p>Die Analyse stützt sich auf die digitalen Texte, die an die Deutsche Nationalbibliothek abgeliefert wurden. Die Deutsche Nationalbibliothek (DNB) sammelt, archiviert, verzeichnet im gesetzlichen Auftrag die ab 1913 in Deutschland veröffentlichten Medienwerke sowie die im Ausland veröffentlichten deutschsprachigen Medienwerke, Übersetzungen deutschsprachiger Medienwerke in andere Sprachen und fremdsprachige Medienwerke über Deutschland und stellt diese der Öffentlichkeit zur Verfügung. Seit der Gesetzesnovelle von 2006 gehört auch das Sammeln von Medienwerken, die online publiziert werden, ausdrücklich zu den Aufgaben der DNB.</p>
+                <p>Der Bestand der DNB umfasst derzeit etwa 5 Millionen digitale Objekte, darunter ca. 900.000 E-Books, ca. 1,5 Millionen E-Journal Ausgaben und ca. 2 Millionen E-Paper Ausgaben. Neben dem umfangreichen physischen Bestand steht den Nutzerinnen und Nutzern der DNB damit ein wachsender Fundus von “born digital” Objekten zur Verfügung.</p>
+                <p>Die Anforderungen an die Informationsversorgung haben sich durch den digitalen Wandel insgesamt stark verändert. Die Einführung neuer Forschungsmethoden wie z.B. automatisierte Daten- und Textanalysen großer digitaler Bestände gehen mit der Notwendigkeit veränderter Formen der Bereitstellung von Beständen einher. </p>
+                <p>
+                    <hi rend="color(#000000)">Die DNB sieht in der Kooperation mit den DH-Communities eine strategisch wichtige 
+                    Fortsetzung</hi><ref target="ftn1" n="1"/>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">ihrer Dienstleistungs- und Benutzungs-Angebote. Ein Aspekt dabei ist die Unterstützung ausgewählter Kooperationspartner durch die Bereitstellung auch </hi>
+                    <anchor xml:id="id_docs-internal-guid-4fc8575b-7fff-5c1e-c3ef-a4114a2e7579"/>
+                    <hi rend="color(#000000)">umfangreicher Korpora vorrangig aus born digital Objekten wie E-Books sowie einer leistungsfähigen Infrastruktur für die Durchführung automatischer Analysen. Die letzte Urheberrechtsreform eröffnet den registrierten Nutzerinnen und Nutzern der DNB diese Möglichkeit in den Räumen der DNB und auf deren Infrastruktur.</hi>
+                </p>
+                <p>In der Vorverarbeitung wurden, soweit das aufgrund der selbst innerhalb eines Verlags sehr heterogenen Ausgangslage automatisch möglich war, Werbung, Leseproben usw. entfernt. Problematische Texte wurden nicht für die Analyse verwendet. Die unausgewogene Verteilung in Abbildung 1 kommt durch die Neupublikation älterer Hefte zustande. Die Verteilung über die Gattungen (Abbildung 2) ist sehr unausgewogen. Abb. 3 zeigt, dass manche der Gattungen von einzelnen Serien dominiert werden. Außerdem haben wir ein Vergleichskorpus ‘Hochliteratur’ mit 500 Romanen von Autoren erstellt, die einen literarischen Preis gewonnen haben oder dafür vorgeschlagen wurden. </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-ea571dec-7fff-77e8-4464-7d096a5d497d"/>
+                    <figure>
+                        <graphic url="181_final-15babbf27cdf0e83d7b1f4fdc95319f8.png"/>
+                        <head>
+                            <lb/>Abbildung 1. Anzahl der Publikationen nach Verlag und Erscheinungsjahr
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <lb/>
+                    <anchor xml:id="id_docs-internal-guid-fc944efd-7fff-b9a3-a6b5-5f38f8170f26"/>
+                    <hi rend="color(#000000)">
+                        <figure>
+                            <graphic url="181_final-e4818cede43092a7d769b455e686555e.png"/>
+                            <head>
+                                <lb/>Abbildung 2. Anzahl der Publikationen nach Gattung und Verlag
+                            </head>
+                        </figure>
+                    </hi>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-fd618775-7fff-1cdc-3f4d-6fd205417dc8"/>
+                    <figure>
+                        <graphic url="181_final-02ab2e05f19cb25179938bfafa6a64ba.png"/>
+                        <head>
+                            <lb/>Abbildung 3. Dominanz großer Serien
+                        </head>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-614f2d03-7fff-c8e5-712e-1c6e544b3598"/>Methoden
+                </head>
+                <p>
+                    <hi rend="color(#000000)bold">Gattungen erkennen. </hi>
+                    <hi rend="color(#000000)">Um einen Eindruck der Kohärenz der Gattungen aus inhaltlicher Perspektive zu erhalten, wird eine Document-Term-Matrix mit den 8000 häufigsten Substantiven verwendet und eine Dimensionsreduktion mit umap (McInnes 2018) durchgeführt, um eine zweidimensionale Darstellung zu ermöglichen. Um die Leistungsfähigkeit der Substantive für die Klassifikation der Texte nach Gattungen zu prüfen, wurde überwachtes Lernen mit durch Logistic Regression durchgeführt. Außerdem werden </hi>
+                    <hi rend="color(#000000)">die Texte aufgrund eines stilistischen Maßes gruppiert: Kosinus Delta (Evert et. al 2017) der 2000 häufigsten Worte, deren Leistungsfähigkeit wird ebenfalls durch eine Klassifikation getestet.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)bold">Themen und Topoi. </hi>
+                    <hi rend="color(#000000)">Wir verwenden zwei Verfahren, um Themen, Settings, Gegenstände, Figuren, rekurrente Formulierungen usw. der Gattungen zu identifizieren: Topic Modeling und Zeta. Ein Model (100 Topics) (Blei, Jordan, Ng 2002) wird über das gesamte Korpus mit Mallet 2.0.8 (McCallum 2002) erstellt. Zeta wird verwendet, um zu ermitteln, welche Worte in einer Gruppe von Texten im Vergleich mit einer zweiten bevorzugt werden (Burrows 2007, Craig, Kinney 2009). Für unsere Untersuchung wurden jeweils für jede Gattung 200 Texte dieser Gattung und 200 Texte aus allen anderen Gattungen zufällig gezogen und Eder’s Zeta mit Stylo berechnet (Eder, Kestemont, Rybicki 2016); Parameter nach Empfehlungen in (Schöch et al. 2018).</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)bold">Gattungskomplexität und Kontrast zu Hochliteratur</hi>
+                    <hi rend="color(#000000)">. Zur Prüfung der Hypothese, dass Schemaliteratur sprachlich weniger komplex sei als Hochliteratur, wurde Vokabular und Syntax untersucht: Die lexikalische Komplexität wurde durch ein standardisiertes type-token-ratio (sttr, Fenstergröße 10.000) (</hi>
+                    <hi rend="color(#24292e) background-color(#ffffff)">Kubát, Milička 2013) sowie die Wortlänge ermittelt</hi>
+                    <hi rend="color(#000000)">. Die syntaktische Komplexität wird zum einen durch die durchschnittliche Satzlänge und zum anderen durch die Variabilität von POS-Tags untersucht.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-487ee9e8-7fff-4a23-426f-9827614269f1"/>Ergebnisse
+                </head>
+                <p>
+                    <hi rend="color(#000000)bold">Gattungen erkennen. </hi>
+                    <hi rend="color(#000000)">In früheren Arbeiten mit Texten des 19. Jahrhunderts konnten wir stilometrisch (most frequent words) einige Gattungen sehr gut (z.B. Abenteuerroman), andere nur schlecht unterscheiden (z.B. Bildungsroman), während die thematischen Unterschiede (topic models) schlechtere Klassifikationsergebnisse erbrachten (Hettinger et al. 2016). Die Heftroman-Gattungen bilden sowohl inhaltlich (Abbildung 4) als auch stilistisch (Abbildung 5) recht deutlich abgegrenzte Einheiten. Diesen visuellen Eindruck bestätigen die Ergebnisse der Klassifikation mit den 8000 häufigsten Substantiven mit einem </hi>
+                    <hi rend="color(#000000) background-color(#ffffff)">0.90</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">F1 (macro) und 0.94 F1 (micro). Eine Klassifikation auf Basis der Distanzmatrix erreicht leicht schlechtere Werte von 0.78 F1 (macro) und 0.91 F1 (micro).</hi>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-5b36c48b-7fff-37a4-d38f-ab5e3a87ce94"/>
+                    <figure>
+                        <graphic url="181_final-a8ac23f29bcab4a9a25d0f33615f457b.png"/>
+                        <head>
+                            <lb/>Abbildung 4. Clustering der Texte auf Basis der 8000 most frequent nouns
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <lb/>
+                    <anchor xml:id="id_docs-internal-guid-919d341c-7fff-e481-0f53-6c0f0ee011c3"/>
+                    <hi rend="color(#000000)">
+                        <figure>
+                            <graphic url="181_final-fc39d86ff1d3f6976d69d1d969b23354.png"/>
+                            <head>
+                                <lb/>Abbildung 5. Transformation der Distanzmatrix (cosine delta, 2000 mfw)
+                            </head>
+                        </figure>
+                    </hi>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-d7e03cce-7fff-685e-876a-b7a64ad14e3a"/>
+                    <hi rend="color(#000000)bold">Themen und Topoi.</hi>
+                    <hi rend="color(#000000)bold"> </hi>
+                    <hi rend="color(#000000)">Das Topic Model eignet sich nur begrenzt zur inhaltlichen Erschließung des Korpus, da die ermittelten Topics zum größten Teil nicht interpretierbar sind. Einige wenige funktionieren sehr gut, z.B. in Abbildung 6 die wichtigsten Topics für die Gattung ‘Western’. Sie enthalten zentrale Entitäten (Pferde, Wagen), vor allem aber verdeutlichen sie, dass Kampfhandlungen wichtig für die Gattung sind. </hi>
+                </p>
+                <p>
+                    <lb/>
+                    <anchor xml:id="id_docs-internal-guid-7d98389f-7fff-7cac-6156-cd56b6d52cfb"/>
+                    <hi rend="color(#000000)">
+                        <figure>
+                            <graphic url="181_final-b05749f9d435975b0892a48d40897fe1.png"/>
+                            <head>
+                                <lb/>Abbildung 6. Häufigste Topics der Gattung “Western”
+                            </head>
+                        </figure>
+                    </hi>
+                    <lb/>
+                    <hi rend="color(#000000)">Allerdings sind zahlreiche Topics zwar statistisch diskriminativ, aber aus literaturwissenschaftlicher Perspektive undankbar. So ist es offensichtlich, dass das Topic in Abb. 7 Kommunikationswörter als typisch für den Liebesroman aufführt. Aber die Worte des Topic in Abb. 8, fast ebenso diskriminativ für Fantasy und SciFi, überschneiden sich damit in vielen Punkten. </hi>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-a4fb4be4-7fff-0f08-7c26-ef81101377c5"/>
+                    <figure>
+                        <graphic url="181_final-e4dd9e19a2d09c6efa18cded8d572846.png"/>
+                        <head>
+                            <lb/>Abbildung 7. Kommunikationswörter des Gattung Liebesroman
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-32aaf8fc-7fff-614d-7c52-831270bd86c3"/>
+                    <figure>
+                        <graphic url="181_final-33b164e8d262c2a279e98145e73b9a9c.png"/>
+                        <head>
+                            <lb/>Abbildung 8. Distinktives Topic für Fantasy und SciFi
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-4c38c3d2-7fff-c822-950b-fa21cce1c439"/>Wie das Clustering der Texte aufgrund der Topics in Abbildung 9 zeigt, können diese als Proxies für die Verteilungen von Worten in Romanen dienen, aber sie erschließen die Texte - anders als das in vielen vergleichbaren Untersuchungen der Fall ist - nur in wenigen Fällen inhaltlich.
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-53218b6b-7fff-da46-e2c0-6dbef0e20b4d"/>
+                    <figure>
+                        <graphic url="181_final-533f6a3adaf328bf55a2b6fdddb4cf98.png"/>
+                        <head>
+                            <lb/>Abbildung 9. Transformation der Verteilung der Topics pro Dokumenten mit umap
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <lb/>
+                    <anchor xml:id="id_docs-internal-guid-7f6eef5c-7fff-7aec-1b0b-d12a6bd44ce0"/>
+                    <hi rend="color(#000000)">Die Wörter, die aufgrund von Zeta, von der Gattung bevorzugt werden, leisten dagegen die inhaltliche Erschließung der Gattungen ausgesprochen gut (siehe die Beispiele in Abbildung 10 und 11): Vor allem Figuren (z.B. Seeleute, Fürsten, Oberarzt, usw.) sowie Objekte und Settings (z.B. Bordwand, BH, Bergwald) entsprechen den Erwartungen, lassen aber zugleich einen Einblick in die Spezifika der Genres zu, z.B. dass es sich im Falle der Science Fiction um eine langandauernde ‘space opera’ handelt oder dass der Handlungsort der Liebesromane häufig ein Oberschichtmilieu ist. Nur im Fall der Hochliteratur ist die Divergenz der sprachlichen Register / der Begriffe auffällig groß. Dieser Effekt schlägt sich in Abbildung 12 nieder, es ist zu beobachten, dass die Kohärenz, hier interpretiert als Maß für die Geschlossenheit einer Gruppe von Worten, der Zeta Wörter für Hochliteratur in etwa der einer Zufallsstichprobe entspricht. Wie gut die Zeta-Wörter die Gattungen repräsentieren, wird daran deutlich, dass eine Klassifikation (svm, 150 Zetawörter pro Gattung, 600 Texte </hi>
+                    <hi rend="color(#000000)">aus jeder Gattung mit Oversampling, wo notwendig) einen F1 (micro) score von 0.90 erreicht. </hi>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-a002bd05-7fff-9c98-1a13-97a41e8d8e48"/>
+                    <figure>
+                        <graphic url="181_final-96b54021c5fc8ecf41a01385fd23736a.png"/>
+                        <head>
+                            <lb/>Abbildung 10. Genretypische Wörter (Zeta)
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-23e4ec09-7fff-1485-797c-e6c7c7769794"/>
+                    <figure>
+                        <graphic url="181_final-1352c9dd5abb45277826a48651394777.png"/>
+                        <head>
+                            <lb/>Abbildung 11. Genretypische Wörter (Zeta)
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-85df9c32-7fff-7f7f-4dc4-26ecc8ff8895"/>
+                    <figure>
+                        <graphic url="181_final-c15c09ec569ec1e7244025b20b52a61e.png"/>
+                        <head>
+                            <lb/>Abbildung 12. Kohärenz der Zetawörter mittels word embedding. Rote/blaue Linien: Wert für zufällig gewählte Worte. Rot: Mittelwert, Blau +/- eine Standardabweichung
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-93a8399f-7fff-4503-9c27-2888d0fbe919"/>
+                    <hi rend="color(#000000)bold">Gattungskomplexität und Kontrast zu Hochliteratur</hi>
+                    <hi rend="color(#000000)">. Die Annahme, dass Heftromane weniger komplex seien als Hochliteratur ist schon Teil des Namens: Schemaliteratur. Zugleich ist es offensichtlich, dass literarische Komplexität unterschiedliche Aspekte betreffen kann. Die hier untersuchten Aspekte sind teilweise von der ideologiekritischen Trivialliteraturforschung bereits an kleinen Samples untersucht worden, die im Fall der Heftromane zu dem Ergebnis kommt, dass der Wortschatz kleiner sei, die durchschnittliche Satzlänge kürzer und die Komplexität der Sätze geringer (Nusser 1982: 88f.) Zwar wurde die ideologiekritische Forschung zur populären Literatur in den letzten Jahren kritisiert, die quantitativen Forschungen sind jedoch nicht durch neue ersetzt worden. </hi>
+                </p>
+                <p>Wir nehmen das Verhältnis von Types zu Tokens in einem Text als Maß für die Variabilität der Sprache und als Größe des Wortschatzes. Wie die Boxplots in Abbildung 13 zeigen, unterscheidet sich Hochliteratur (‘hlit’) in diesem Punkt keineswegs grundlegend vom Heftroman. t-Test. </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-cd9ed7b4-7fff-d75f-cd9a-c647048d6977"/>
+                    <figure>
+                        <graphic url="181_final-23b237de96c2ac165651b996ad9820a7.png"/>
+                        <head>
+                            <lb/>Abbildung 13. Standardized Type-Token-Ratio
+                        </head>
+                    </figure>
+                </p>
+                <p>Auch bei der durchschnittlichen Länge der Worte, häufig verwendet für Maße der Leseschwierigkeit von Texten, ist die Varianz innerhalb der Heftromane größer der Unterschied zwischen den Heftromanen und der Hochliteratur (siehe Abbildung 14). </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-ebb44bd2-7fff-453b-ad6a-4bd44e29d2d4"/>
+                    <figure>
+                        <graphic url="181_final-494b15a34f66700013255bf801961519.png"/>
+                        <head>
+                            <lb/>Abbildung 14. Durchschnittliche Wortlänge in Buchstaben
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-b34327e4-7fff-f78d-a5aa-49806bea294a"/>Die Messung der Satzlänge bestätigt die Untersuchungen aus den 1970er Jahren (Abbildung 15): Die Sätze sind im Durchschnitt über alle Gattungen hinweg kürzer, auch die Varianz der Satzlänge ist im Bereich der Hochliteratur deutlich größer. Allerdings widerspricht die Messung der Part-of-Speech Trigramme der Annahme, dass die Satzbaupläne ebenfalls schematischer sind (Abbildung 16).
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-7724cdc6-7fff-cafe-7ce0-7936231950a2"/>
+                    <figure>
+                        <graphic url="181_final-f0476d002327d400ead317543b709c5b.png"/>
+                        <head>
+                            <lb/>Abbildung 15. Durchschnittliche Satzlänge in Token
+                        </head>
+                    </figure>
+                </p>
+                <p>
+                    <lb/>
+                    <anchor xml:id="id_docs-internal-guid-addfc42c-7fff-21ab-eeb4-f0b6fbf0e7ba"/>
+                    <hi rend="color(#000000)">
+                        <figure>
+                            <graphic url="181_final-2ac31b5a2251197d771dbc7b6a1aed72.png"/>
+                            <head>
+                                <lb/>Abbildung 16. Schematisierung von Satzbauplänen anhand von POS-Triples
+                            </head>
+                        </figure>
+                    </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-58644b66-7fff-94ea-76e0-6de4ffd88b48"/>Diskussion
+                </head>
+                <p>
+                    <hi rend="color(#000000)">Die Gattungen der Heftromane sind - so der vorläufige Befund - deutlich umrissen und lassen sich durch die Zetawörter auch inhaltlich gut erschließen. Zwei Thesen zum Verhältnis von Hochliteratur zum Heftroman können dagegen als widerlegt gelten: Das Gebiet der Heftromane ist keineswegs besonders “homogen” (Domagalski 1980), vielmehr ist die Binnenvarianz sehr deutlich. Zum anderen ist die Sprache der Heftromane nicht eindeutig schlichter (Nusser 1982). Auch hier ist die Varianz innerhalb der Gattungen auffällig; insbesondere die Science-Fiction Romane</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">weichen deutlich ab. Diese Arbeit markiert erst den Anfang unserer Untersuchungen. In den nächsten Schritten werden Figurenkonstellation, Analyse von Erzähler- und Figurenrede sowie Sentiment untersucht werden.</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    <anchor xml:id="id_docs-internal-guid-44408008-7fff-89bc-f387-30c459e7db94"/> Strategische Prioritäten 2017 – 2020, 
+                    <ref target="http://nbn-resolving.de/urn:nbn:de:101-2017021403">urn:nbn:de:101-2017021403</ref>
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Blei, D. M., Ng, A. Y., &amp; Jordan, M. I. (2003)</hi>: <hi rend="italic">“Latent dirichlet allocation”</hi>. Journal of machine Learning research, 3 (Jan), 993-1022.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burrows, J.</hi>: <hi rend="italic">»All the Way Through. Testing for Authorship in Different Frequency Strata«</hi>, in: Literary and Linguistic Computing 22.1 (2007), S.27–47.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Craig, H., Kinney, A. (2009)</hi>: <hi rend="italic">Shakespeare, Computers, and the Mystery of Authorship</hi>. Cambridge.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eder, M., Rybicki, J.,  and Kestemont, M. (2016)</hi>: <hi rend="italic">Stylometry with R: a package for computational text analysis</hi>. R Journal, 8(1): 107-121.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Foltin, H. F. (1965)</hi>: <hi rend="italic">Die minderwertige Prosaliteratur. Einteilung und Bezeichnung</hi>. In: DVjs 39 H. 2, 288–323.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Domagalski, P. (1980)</hi>: <hi rend="italic">Trivialliteratur. Geschichte. Produktion, Rezeption.</hi> Freiburg im Breisgau.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hügel, H.-O. (2007)</hi>: <hi rend="italic">Lob des Mainstreams. Zu Theorie und Geschichte von Unterhaltung und Populärer Kultur</hi>. Köln: Halem.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Evert, S. Proisl, T., Reger, I., Pielström, S., Schöch, C. Vitt, T. (2017)</hi>: <hi rend="italic">Understanding and explaining Delta measures for authorship attribution</hi>. In: Digital Scholarship Humanities 32, 2,1, p. ii4-ii16.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hettinger, L., Jannidis, F., Reger, I., Hotho, A. (2016)</hi>:<hi rend="italic"> Classification of Literary Subgenres</hi>. Abstracts DHd-Tagung 2016, Leipzig 2016.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kelleter, F. (2012)</hi>: <hi rend="italic">Populäre Serialität. Eine Einführung</hi>. In: ders.: (Hg.): Populäre Serialität: Narration – Evolution – Distinktion. Zum seriellen Erzählen seit dem 19. Jahrhundert. Bielefeld: transcript, S. 11-46.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kubát, M. &amp; Milička, J. (2013)</hi>: <hi rend="italic">Vocabulary richness measure in genres</hi>. Journal of Quantitative Linguistics, 20(4), 339–349.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McCallum, A.</hi>: <hi rend="italic">"MALLET: A Machine Learning for Language Toolkit."</hi> <ref target="http://mallet.cs.umass.edu/">http://mallet.cs.umass.edu</ref>. 2002.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McInnes, L. Healy, J. (2018)</hi>: <hi rend="italic">“UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction”</hi>, ArXiv e-prints 1802.03426
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nast, M. (2017)</hi>: <hi rend="italic">"Perry Rhodan" lesen. Zur Serialität der Lektürepraktiken einer Heftromanserie</hi>. Bielefeld: transcript.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nusser, P.</hi>: <hi rend="italic">Romane für die Unterschicht. Stuttgart 1982.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nutz, W.; Schlögell, V. (1991)</hi>: <hi rend="italic">Die Heftroman-Leserinnen und -Leser in Deutschland. Beiträge zur Erfassung popularkulturaler Phänomene</hi>. In: Communications 16 (2). DOI: 10.1515/comm.1991.16.2.133.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schöch, C. (2018)</hi>: <hi rend="italic">Zeta für die kontrastive Analyse literarischer Texte. Theorie, Implementierung, Fallstudie</hi>. In <hi rend="bold">Bernhart, T., et al. (eds.)</hi>: <hi rend="italic">Quantitative Ansätze in der Literatur- und Geisteswissenschaften</hi>. Berlin: de Gruyter. 77-94.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schöch, C. Schlör, D., Zehe, A., Gebhard, H, Becker, M., Hotho, A.</hi>: <hi rend="italic">Burrows’ Zeta: Exploring and Evaluating Variants and Parameters</hi>. Abstracts DH 2018.
+                    </bibl>
+                    <bibl>
+                        <hi rend="italic">Stiftung Lesen. Lesen in Deutschland 2008.</hi> https://www.stiftunglesen.de/download.php?type=documentpdf&amp;id=11
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stockinger, C. (2018)</hi>: <hi rend="italic">Das Groschenheft</hi>. In: <hi rend="bold">Carlos Spoerhase und Steffen Martus (Hg.)</hi>: <hi rend="italic">Gelesene Literatur. Populäre Lektüre im Zeichen des Medienwandels</hi>. München: text + kritik. (Im Druck)
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

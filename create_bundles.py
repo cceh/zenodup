@@ -30,6 +30,7 @@ import json
 import re
 import pandas as pd
 
+import general_functions
 
 def main(argv):
 
@@ -54,17 +55,17 @@ def main(argv):
 
     # get publication pdfs
     publication_pdfs = get_publication_files(publication_names, pdf)
-    # print(publication_pdfs)
+
     # get publication xmls
     publication_xmls = get_publication_files(publication_names, xml)
-    # print(publication_xmls)
 
     # create bundle directories for publications
     publication_bundles = create_bundles(conference, publication_pdfs, publication_xmls)
     
     # create json metadata file for each bundle based on metadata for publication
-    create_bundles_metadata(publications_metadata, publication_bundles)
+    general_functions.create_bundles_metadata(publications_metadata, publication_bundles)
 
+    create_csv(os.path.basename(conference))
     logging.info(f"Bundle structure for conference {conference_name} has been created under "
                  f"'bundle_structures/{conference_name}'.")
 
@@ -93,22 +94,7 @@ def set_paths(argv: list) -> (Path, Path, Path, Path):
             xml = os.path.join(conference, arg)
         elif opt in ("-p", "--pdf"):
             pdf = os.path.join(conference, arg)
-    return readable_dir(conference), readable_file(metadata_file), readable_dir(xml), readable_dir(pdf)
-
-# check if unchecked path references is readable directory
-def readable_dir(prospective_dir: str) -> str:
-    if not os.path.isdir(prospective_dir):
-        raise Exception("readable_dir:{0} is not a valid path".format(prospective_dir))
-    if not os.access(prospective_dir, os.R_OK):
-        raise Exception("readable_dir:{0} is not a readable dir".format(prospective_dir))
-    return prospective_dir
-
-def readable_file(prospective_file: str) -> str:
-    if not os.path.isfile(prospective_file):
-        raise Exception("readable_dir:{0} is not a valid path".format(prospective_file))
-    if not os.access(prospective_file, os.R_OK):
-        raise Exception("readable_dir:{0} is not a readable dir".format(prospective_file))
-    return prospective_file
+    return general_functions.readable_dir(conference), general_functions.readable_file(metadata_file), general_functions.readable_dir(xml), general_functions.readable_dir(pdf)
 
 def get_publications(metadata: ET.Element) -> dict:
 
@@ -208,7 +194,7 @@ def get_publication_files(publication_names: dict, file_dir) -> dict:
                         logging.debug("----")
                         logging.debug(name)
                         logging.debug("----")
-                        publication_files.update({elem: readable_file(
+                        publication_files.update({elem: general_functions.readable_file(
                                                 os.path.join(file_dir, file_names_to_compare.get(name) + file_type))})
                         last_elem = (elem, name)
             counter = counter + 1
@@ -220,7 +206,7 @@ def get_publication_files(publication_names: dict, file_dir) -> dict:
                         logging.debug("----")
                         logging.debug(name)
                         logging.debug("----")
-                        publication_files.update({elem: readable_file(
+                        publication_files.update({elem: general_functions.readable_file(
                                                 os.path.join(file_dir, file_names_to_compare.get(name) + file_type))})
                         last_elem = (elem, name)
                         # print(last_elem)
@@ -251,7 +237,7 @@ def get_publication_files(publication_names: dict, file_dir) -> dict:
             logging.warning("***")
             logging.warning(f"For the publication {elem} exists no matching file. Get publication by previous file. "
                             f"Assigned \n {current_file} \n {elem}")
-            publication_files.update({elem: readable_file(os.path.join(file_dir, current_file + file_type))})
+            publication_files.update({elem: general_functions.readable_file(os.path.join(file_dir, current_file + file_type))})
             logging.warning("***")
             counter = counter + 1
 
@@ -268,7 +254,7 @@ def create_bundles(conference, publication_pdfs: dict, publication_xmls: dict) -
 
     publication_paths = {publication: os.path.join(bundle_path, os.path.basename(file_path)[:-4]) for
                          (publication, file_path) in publication_pdfs.items()}
-    create_csv(os.path.basename(conference), publication_paths)
+    # create_csv(os.path.basename(conference), publication_paths)
     logging.info(len(publication_paths))
     # create directory for each publication and copy pdfs / xmls to directory
     for (publication, path) in publication_paths.items():
@@ -292,74 +278,16 @@ def create_bundles(conference, publication_pdfs: dict, publication_xmls: dict) -
         logging.info("All directories have been created and contain two files. Continue..")
     return publication_paths
 
-def create_csv(conference:str, publications:dict):
+def create_csv(conference:str):
     # safe ordered files and titles in csv file
-    df = pd.DataFrame({"title": list(publications.keys()),
-                      'file name': [os.path.basename(elem) for elem in list(publications.values())]})
+    bundles_overview = []
+    for bundle in os.listdir(os.path.join("bundle_structures", conference)):
+        bundle_publications = os.listdir(os.path.join("bundle_structures", conference, bundle, "bundle_publications"))
+        data = [bundle] + bundle_publications
+        bundles_overview.append(data)
 
+    df = pd.DataFrame(data=bundles_overview, index = None, columns=["Bundle Name", "Pdf file", "XML file"])
     df.to_csv('support/' + conference + ".csv", header=True)
-
-def create_bundles_metadata(publications_metadata: ET.Element, publication_bundles: dict) -> None:
-
-    data = {}
-    for (publication, bundle_path) in publication_bundles.items():
-        for pub in publications_metadata:
-            if pub.find("title").text == publication:
-                if pub.find("doi").text:
-                    data = {"metadata": {"upload_type": pub.find("upload_type").text,
-                                         "publication_type": pub.find("publication_type").text,
-                                         "publication_date": pub.find("publication_date").text,
-                                         "title": pub.find("title").text,
-                                         "creators": [{"name": creator.find("name").text,
-                                                      "affiliation": creator.find("affiliation").text
-                                                       } for creator in pub.findall("creators/creator")],
-                                         "description": pub.find("description").text,
-                                         "access_right": pub.find("access_right").text,
-                                         "license": pub.find("license").text,
-                                         "doi": pub.find("doi").text,
-                                         "keywords": [keyword.replace("\"", "") for keyword in
-                                                      pub.find("keywords").text.split(", ")],
-                                         "contributors": [{"name": contributor.find("name").text,
-                                                          "affiliation": contributor.find("affiliation").text,
-                                                           "type": contributor.find("type").text
-                                                           } for contributor in pub.findall("contributors/contributor")],
-                                         "communities": [{"identifier": community.text
-                                                          } for community in pub.findall("communities/identifier")],
-                                         "conference_title": pub.find("conference_title").text,
-                                         "conference_acronym": pub.find("conference_acronym").text,
-                                         "conference_dates": pub.find("conference_dates").text,
-                                         "conference_place": pub.find("conference_place").text,
-                                         "conference_url": pub.find("conference_url").text
-                                         }
-                            }
-                else: 
-                    data = {"metadata": {"upload_type": pub.find("upload_type").text,
-                                         "publication_type": pub.find("publication_type").text,
-                                         "publication_date": pub.find("publication_date").text,
-                                         "title": pub.find("title").text,
-                                         "creators": [{"name": creator.find("name").text,
-                                                      "affiliation": creator.find("affiliation").text
-                                                       } for creator in pub.findall("creators/creator")],
-                                         "description": pub.find("description").text,
-                                         "access_right": pub.find("access_right").text,
-                                         "license": pub.find("license").text,
-                                         "keywords": [keyword.replace("\"", "") for keyword
-                                                      in pub.find("keywords").text.split(", ")],
-                                         "contributors": [{"name": contributor.find("name").text,
-                                                          "affiliation": contributor.find("affiliation").text,
-                                                           "type": contributor.find("type").text
-                                                           } for contributor in pub.findall("contributors/contributor")],
-                                         # "communities":[{"identifier": community.text
-                                         #  } for community in pub.findall("communities/identifier")],
-                                         "conference_title": pub.find("conference_title").text,
-                                         "conference_acronym": pub.find("conference_acronym").text,
-                                         "conference_dates": pub.find("conference_dates").text,
-                                         "conference_place": pub.find("conference_place").text,
-                                         "conference_url": pub.find("conference_url").text
-                                         }
-                            }
-        with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
-            json.dump(data, outfile)
 
 
 if __name__ == "__main__":

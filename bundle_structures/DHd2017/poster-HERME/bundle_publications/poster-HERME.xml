@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-HERME" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Twhistory mit autoChirp</title>
+<title type="sub">Social Media Tools für die Geschichtsvermittlung</title>
+</title>
+<author>
+<persName>
+<surname>Hermes</surname>
+<forename>Jürgen</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>hermesj@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Hoffmann</surname>
+<forename>Moritz</forename>
+</persName>
+<affiliation>Freier Historiker</affiliation>
+<email>kontakt@moritz-hoffmann.de</email>
+</author>
+<author>
+<persName>
+<surname>Eide</surname>
+<forename>Øyvind</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>oeide@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Geduldig</surname>
+<forename>Alena</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>ageduldi@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Schildkamp</surname>
+<forename>Philip</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>philip@schildkamp.net</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-24T10:23:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Public History</term>
+<term>Twitter</term>
+<term>Vermittlung</term>
+<term>Tools</term>
+<term>Daten-Organisation</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Transkription</term>
+<term>Programmierung</term>
+<term>Kommunikation</term>
+<term>Veröffentlichung</term>
+<term>Lehre</term>
+<term>Organisation</term>
+<term>Daten</term>
+<term>Bilder</term>
+<term>Infrastruktur</term>
+<term>Software</term>
+<term>Werkzeuge</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Public History (vgl. einführend Zündorf 2010) ist im deutschsprachigen Raum ein noch junges Feld, die erste Professur wurde erst Ende 2012 in Heidelberg eingerichtet. Die Disziplin ist zurückzuführen auf die doppelte Erkenntnis, dass die Mehrheit der Fachstudierenden nicht in der Geschichtswissenschaft wird arbeiten können (und dementsprechend zielgerichtet in Vermittlungskompetenzen aller Art geschult werden muss) und dass die meisten HistorikerInnen sich zwar über mangelnde Aufmerksamkeit für ihr Fach nicht beklagen können, demgegenüber aber kaum wissenschaftlich valide Werkzeuge für den Umgang mit der Öffentlichkeit entwickelt wurden.</p>
+<p>Paradoxerweise scheint die Public History trotz ihres modernen Selbstanspruchs den Fehler der herkömmlichen Geschichtswissenschaft zu wiederholen: Die Digitalisierung ihrer Arbeit bleibt weit hinter den technischen Möglichkeiten zurück und beschränkt sich größtenteils auf die Erleichterungen einer erweiterten Schreibmaschine. Doch Öffentlichkeiten, die sie schon ihrem Namen nach im Blick hat, migrieren zusehends in den digitalen Raum der sozialen Netzwerke und sollten genau dort angesprochen werden.</p>
+<p>Eine Möglichkeit, die digitale Teilöffentlichkeit zu erreichen, bietet das soziale Netzwerk Twitter. Seit ungefähr sechs Jahren werden dort historische Ereignisse in je maximal 140 Zeichen zeitgenau nacherzählt, was unter den Bezeichnungen „Re-Entweetment“ oder auch “Twhistory” bekannt geworden ist. Dieses Potential des Medium wurde bislang fast ausschließlich von Laien genutzt, so über die Accounts 
+                <ref target="https://twitter.com/titanicrealtime">@TitanicRealTime</ref> und das MDR-Projekt 
+                <ref target="https://twitter.com/9nov89live">@9Nov89live</ref>, das über einen Tag eine fiktive Geschichte des Mauerfalls zeichnete. In jüngerer Zeit wird es aber zunehmend auch von einer geringen Zahl von (Public) Historians aktiv angeboten, beispielsweise für 
+                <ref target="https://twitter.com/NRWHistory">@NRWHistory</ref> und das Zweitweltkriegsprojekt 
+                <ref target="https://twitter.com/DigitalPast">@DigitalPast</ref>, zu dem parallel das Sachbuch “Als der Krieg nach Hause kam” (Hoffmann 2015) veröffentlicht wurde. Wahrscheinlich besser als jede andere Medienform bietet Twhistory die Möglichkeit der Erzählung in Echtzeit als nicht-textlichem Inhalt, über den Geschichte lebendig gemacht und vorhandenes historisches Interesse (re-)aktiviert werden kann.
+            </p>
+<p>Insbesondere die Zeichenbegrenzung ist für das Re-Entweetment Chance und Risiko zugleich: die Einstiegsschwelle ist im Vergleich zu herkömmlichen Darreichungsformen (Buch, Museum) äußerst gering, zugleich besteht die Gefahr der Simplifizierung sowie der Falschdarstellung von Geschichte als Aneinanderkettung von Einzelereignissen. Trotz der mittlerweile international steigenden Projektzahl hat sich noch keine Best Practice ergeben, um diesen Risiken zu begegnen. Dadurch ist auch die Zahl der digitalen Tools für diesen Bereich noch sehr klein, die Liste der Desiderate an die Digital Humanities aber lang und äußerst divers. Beispielsweise sind für die Planung, die Sammlung, die Gesamtschau und die Quellenreferenzierung von Inhalten Datenbanken oder zumindest tabellarische Aufstellungen notwendig, für die noch keine Möglichkeit bestand, die aggregierten Inhalte auch automatisch mit der Twitter-Plattform zu verknüpfen.</p>
+<p>Dies hat sich mit der Bereitstellung der Software autoChirp geändert, die an der Kölner Informationsverarbeitung entwickelt wurde, um die Umsetzung entsprechender Twhistory-Projekte zu unterstützen. Zum einen vereinfacht autoChirp die Arbeit für die ErstellerInnen von Twitter-Timelines historischer Ereignisse, indem es eine Schnittstelle zum automatischen Upload von tabellarischen Sammlungen unterschiedlichen Formats anbietet. Dabei können neben dem gewünschten Datum, der genauen Uhrzeit und den Tweet-Text auch Bilder und Geolocations für den Tweet angegeben werden (vgl. Abb. 1). Auch können ganze Gruppen von Tweets per Mausklick auf eine neue Referenzzeit geschedulet werden.</p>
+<figure>
+<graphic height="10.556875cm" n="1001" rend="inline" url="poster-HERME-image1.png" width="15.927916666666667cm"/>
+</figure>
+<p>Abb. 1: Sceenshot des autoChirp-Web-Clients, mit dem eine Reihe von Tweets automatisch aus einer Tabelle geschedulet wurde. Das Web-Application-Frontend interagiert mit einer redundant angelegten Datenbank, um die Sicherung der in den verschiedenen Projekten generierten Tweets auch jenseits der Twitter-Plattform nachhaltig zu gewährleisten. </p>
+<p>Die autoChirp-App wird zur Zeit mindestens von den Twitter-Projekten @DigitalPast (
+                <ref target="http://digitalpast.de/">http://digitalpast.de/</ref>), @NRWHistory (
+                <ref target="http://nrwhistory.de/">http://nrwhistory.de/</ref>)und 
+                <ref target="https://twitter.com/goals_from_past">@goals_from_past</ref> genutzt und dabei unter anderem auch in der Lehre eingesetzt. Dabei stehen die EntwicklerInnen im engen Austausch mit den AnwenderInnen, um das Potential für Weiterentwicklungen abzuwägen. Aktuell wird die Integration von autoChirp in das Tiwoli-Projekt (vgl.Fischer &amp; Strötgen 2015) realisiert, was zeigt, dass nicht nur historische, sondern auch literaturwissenschaftliche Vorhaben von einer Unterstützung im Zugang zur Twitter-Plattform profitieren können. 
+            </p>
+<p>
+<lb/>Für einen niederschwelligen Einstieg läuft eine Instanz von autoChirp als Web-Application zur freien Nutzung unter 
+                <ref target="https://autochirp.spinfo.uni-koeln.de/home">
+<hi rend="color(1155CC)">https://autochirp.spinfo.uni-koeln.de/</hi>
+</ref>. Dort finden sich auch ausführliche Tutorials zur Benutzung. Für Weiterentwicklungen steht der dokumentierte Code im Github-Verzeichnis 
+                <ref target="https://github.com/spinfo/autoChirp">
+<hi rend="color(1155CC)">https://github.com/spinfo/autoChirp</hi>
+</ref> zur Verfügung.
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Fischer, Frank / Strötgen, Jannik</hi> (2015):
+                        „Wann ﬁndet die deutsche Literatur statt? Zur Untersuchung von Zeitausdrücken in großen Korpora“,
+                        in: 
+                        <hi rend="italic">DHd 2015: Von Daten zu Erkenntnissen</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hoffmann, Moritz</hi> (2015): 
+                        <hi rend="italic">Als der Krieg nach Hause kam</hi>.
+                        Berlin: Ullstein.
+                    </bibl>
+<bibl>
+<hi rend="bold">Strötgen, Jannik / Gertz, Michael</hi> (2012):
+                        „Temporal Tagging on Different Domains: Challenges, Strategies, and Gold Standards“,
+                        in 
+                        <hi rend="italic">Proceedings of LREC 2012</hi> 3746–3753. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Zündorf, Irmgard</hi> (2010):
+                        „Zeitgeschichte und Public History, Version: 1.0“,
+                        in: 
+                        <hi rend="italic">Docupedia-Zeitgeschichte</hi>, 11.2.2010 
+                        <ref target="http://docupedia.de/docupedia/index.php?title=Public_History&amp;oldid=68731">http://docupedia.de/docupedia/index.php?title=Public_History&amp;oldid=68731</ref> [letzter Zugriff 24. August 2016].
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

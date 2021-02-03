@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="227_final-KRAUTTER_Benjamin_Ein_Schritt_zur_ck__Distinktive_Eigenschaf" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ein Schritt zurück: Distinktive Eigenschaften im deutschsprachigen Drama</title>
+<author>
+<persName>
+<surname>Krautter</surname>
+<forename>Benjamin</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>Benjamin.Krautter@ilw.uni-stuttgart.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Topic Modeling</term>
+<term>Netzwerkanalyse</term>
+<term>Klassifikation</term>
+<term>Operationalisierung</term>
+<term>Methodologie</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Strukturanalyse</term>
+<term>Theoretisierung</term>
+<term>Netzwerkanalyse</term>
+<term>Literatur</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einführung in die Fragestellung</head>
+<p style="text-align:left; ">
+<hi rend="italic">Topic Modeling</hi> und soziale Netzwerkanalysen zählen zu den etabliertesten quantitativen Methoden innerhalb der 
+<hi rend="italic">Computational Literary Studies</hi> (vgl. Du 2019; Trilcke u.a. 2016, Jannidis 2017: 148–161). Beide gelten insbesondere als geeignet, um große literarische Korpora auf Muster – semantischer oder struktureller Art – zu untersuchen, die durch lineares Lesen nicht oder nur schwer zu greifen sind (vgl. Willand 2017: 86). Auf diese Weise versprechen sie literarhistorische Entwicklungslinien aufzuzeigen, die die traditionelle, auf symptomatische Beispiele fußende Literaturgeschichtsschreibung zu übersehen neige (vgl. Moretti 2017: 6f.; Jockers 2013: 9). Epistemologisch sind die durch 
+<hi rend="italic">Topics</hi> oder Netzwerkmaße erschlossenen Textmodelle jedoch vom ursprünglichen literarischen Text deutlich zu unterscheiden. So konstatieren Peer Trilcke und Frank Fischer, dass es sich um andere ‚epistemische Dinge‘ handle (vgl. Trilcke, Fischer 2018). Denn beide Methoden reduzieren den literarischen Text auf spezifische Eigenschaften: im Fall der Netzwerkanalyse zumeist auf Figurenbeziehungen, die durch Knoten und Kanten repräsentiert werden; im Fall des 
+<hi rend="italic">Topic Modeling</hi> auf Wortkollokationen, die als 
+<hi rend="italic">Topics</hi> interpretiert werden. Positiv ließe sich diese Reduktion als Notwendigkeit der Operationalisierung fassen, die ein – in Abhängigkeit der Fragestellung gewähltes – theoretisches Konzept messbar machen soll (vgl. Moretti 2013). So könnte sich, wie Franco Moretti postuliert, die Handlung eines Textes näherungsweise als die Summe an Interaktionen der Figuren im Netzwerk operationalisieren lassen (vgl. Moretti 2011: 2–4). Die Zentralitätsmaße von Figurennetzwerken ermöglichen dann einen auf quantitativen Werten basierenden Vergleich der literarischen Texte. 
+</p>
+<!-- <p style="text-align:left; "> -->
+<!-- <hi rend="italic">Abbildung 1</hi>:  -->
+<!--                     <hi rend="italic">Average Degree</hi> im historischen Verlauf;  -->
+<!--                     <hi rend="italic" xml:space="preserve">LOESS </hi>Kurve. -->
+<!--                 </p> -->
+<p style="text-align:left; ">Ein mögliches Anwendungsszenario zeigt 
+<hi rend="italic">Abbildung 1</hi>. Sie stellt das 
+<hi rend="italic" xml:space="preserve">Average Degree </hi>(durchschnittlicher Grad) von insgesamt 443 Dramennetzwerken dar. 
+<hi rend="italic">Degree</hi> ist ein simples Zentralitätsmaß, das für jede Dramenfigur bemisst, mit wie vielen anderen sie im Verlauf des Stücks interagiert. Trilcke und Fischer nutzen eine ähnliche Darstellung, um literarhistorische Erkenntnisse zu bestätigen. Basierend auf der Vorstellung, dass 
+<hi rend="italic">Degree</hi> ein „Indikator für soziale Komplexität“ (Trilcke, Fischer: 2018) sein könnte, formulieren sie die geläufige These, dass das Drama seit Mitte des 18. Jahrhunderts gesellschaftliche Modernisierungsprozesse widerspiegeln würde.
+</p>
+<figure>
+<graphic height="11.064875cm" n="1001" rend="inline" url="227_final-e565d6c230f2edac108f84b2e122bd98.png" width="15.991416666666666cm"/>
+<head> Abbildung 1: <hi rend="italic">Average Degree</hi> im historischen Verlauf; <hi rend="italic" xml:space="preserve">LOESS </hi>Kurve.</head>
+</figure>
+<p style="text-align:left; ">Ziel dieses Beitrags ist es jedoch, einen Schritt hinter solche makroanalytischen Befunde zurück zu treten. In einem vorgelagerten Arbeitsschritt möchte ich erörtern, welche quantitativ erfassbaren Merkmale dramatischer Texte überhaupt geeignet sind, um eine literarhistorische Einordnung und Unterscheidung der Dramen vorzunehmen. Anders formuliert sollen also die Kriterien ermittelt werden, die mit Blick auf die Entstehungszeit der Dramen unterscheidungstragend sind. Zu diesem Zweck dient im vorliegenden Fall eine einfach gehaltene Klassifikationsaufgabe. Ließen sich die dramatischen Texte erfolgreich ihrem Veröffentlichungszeitraum zuweisen, könnte daraus auf die Kriterien rückgeschlossen werden, die den entscheidenden Beitrag zu dieser Klassifikation leisten. Daran anschließend wäre eine Rückübersetzung der ermittelten Merkmale denkbar – analog zur Operationalisierung –, die eine Interpretation anleiten könnten.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Korpus</head>
+<p style="text-align:left; ">Die folgenden Untersuchungen konzentrieren sich auf 443 deutschsprachige Dramen zwischen 1730 und 1930 aus dem 
+                    <hi rend="italic" xml:space="preserve">German Drama Corpus </hi>(Fischer u.a. 2019). 
+                    <hi rend="italic">Abbildung </hi>2 gibt einen Überblick über die zeitliche Verteilung der Dramen. Es handelt sich um ein recht heterogenes Korpus, das auf unterschiedlichen poetologischen Vorstellungen fußt, die wiederum an verschiedene Produktions- und Rezeptionsbedingungen geknüpft sein können. Sowohl versifizierte als auch in Prosa gehaltene Damen sind enthalten. Sehr kurze Stücke, in denen die Figurenrede weniger als 3000 Tokens umfasst, wurden für die Analysen entfernt, so dass die Länge der Stücke zwischen noch immer kurzen 3017 und längst nicht mehr ungekürzt auf der Bühne darstellbaren 146248 Tokens liegt (median: 22548; Standardabweichung: 13304). Die Zahl der auftretenden Figuren liegt zwischen zwei und 183 (median: 17; Standardabweichung: 19,2). Das Korpus enthält Stücke von insgesamt 166 Autor*Innen, darunter sowohl hochkanonische als auch heutzutage kaum noch wahrgenommene.
+                </p>
+<figure>
+<graphic height="10.36cm" n="1002" rend="inline" url="227_final-06c79be4ff85da0eabf68b251626cb7f.png" width="11.33cm"/>
+<head> Abbildung 2: Korpusübersicht.</head>
+</figure>
+<!-- <p style="text-align:left; "> -->
+<!-- <hi rend="italic" xml:space="preserve">Abbildung </hi>2: Korpusübersicht. -->
+<!--                 </p> -->
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Methode</head>
+<p style="text-align:left; ">Die historische Verortung der dramatischen Texte fasse ich als basal gehaltene Klassifikationsaufgabe. Ziel der Klassifikation ist es, mittels maschineller Lernverfahren näherungsweise den Veröffentlichungszeitraum der Dramen zu bestimmen, um daran anschließend die Einflussfaktoren identifizieren und untersuchen zu können. Dazu greife ich auf Metadaten zurück, die Angaben zur Erstaufführung und zur Erstpublikation umfassen. Diese Metadaten werden genutzt, um jedes Drama einer von vier heuristisch gesetzten Zeitspannen zuzuordnen, die jeweils circa 50 Jahre umfassen: 1730–1785 (93 Dramen), 1786–1832 (116 Dramen), 1833–1881 (105 Dramen) und 1882–1930 (129 Dramen). Die dadurch entstehenden Zeiträume dienen als Zielpunkt der Klassifikation und orientieren sich an wichtigen literaturgeschichtlichen Zäsuren: Aufklärung, Goethezeit, Realismus und literarische Moderne (vgl. etwa Brenner 2011).<ref n="1" target="ftn1"/> Als Features der Klassifikation nutze ich verschieden komplexe Netzwerk- und Zentralitätsmetriken sowie durch 
+                    <hi rend="italic">Topic Modeling</hi> trainierte 
+                    <hi rend="italic">Topics</hi>.
+                </p>
+<p style="text-align:left; ">Basis der Netzwerk- und Zentralitätsmetriken sind Netzwerkgraphen, die auf Präsenz- bzw. Adjazenzmatrizen fußen. Knoten und Kanten repräsentieren hierbei Dramenfiguren und deren Interaktion, wobei Interaktion als das gemeinsame Sprechen innerhalb einer Szene operationalisiert ist (vgl. Trilcke 2013: 238f.). Eine Kante zwischen zwei Knoten wird also genau dann instanziiert, wenn die beiden fraglichen Figuren innerhalb derselben Dramenszene sprechen. Das bedeutet auch, dass verschiedene poetologische Vorstellungen von Akt und Aufzug sowie Szene und Auftritt, die im Verlauf der Dramengeschichte einem Wandel unterliegen, einen Eingang in die Graphen findet (vgl. etwa Vogel 2012). Für die Klassifikation nutze ich die folgenden acht Maße: 
+                    <hi rend="italic">Degree, Weighted Degree, Closeness Centrality, Betweenness Centrality, Eigenvector Centrality</hi>,
+                    <hi rend="italic" xml:space="preserve"> Average Path Length</hi>, 
+                    <hi rend="italic">Clustering Coefficient</hi> und 
+                    <hi rend="italic">Density</hi>.<ref n="2" target="ftn2"/>
+</p>
+<p style="text-align:left; ">
+<hi rend="italic">Topic Modeling</hi> gilt als Technik, die – in einem weiteren Sinn gefasst – semantische Strukturen in größeren Textkorpora zu identifizieren vermag (vgl. etwa Schöch 2017: 42). Die von mir verwendeten 
+                    <hi rend="italic">Topics</hi> wurden auf dem gesamten in 
+                    <hi rend="italic" xml:space="preserve">Abbildung 2 </hi>dargestellten Dramenkorpus trainiert, wobei die Figurenrede eines jeden Dramas nochmals in Segmente von je 1000 Tokens unterteilt ist. Vorab wurde das Wortmaterial auf Nomen, Adjektive und Vollverben beschränkt. Um die 
+                    <hi rend="italic">Topics</hi> zu trainieren, greife ich auf das von David M. Blei, Andrew Y. Ng und Michael I. Jordan (2003) vorgeschlagene probabilistische Modell 
+                    <hi rend="italic">Latent Dirichlet Allocation</hi> zurück. Für die maschinelle Klassifikation setze ich ein Modell mit 20 
+                    <hi rend="italic">Topics</hi> (T1–T20) ein, das einen guten Kompromiss bietet zwischen der Interpretierbarkeit einzelner 
+                    <hi rend="italic">Topics</hi> und ihrer Eignung, die Texte diachron zu unterscheiden.
+                </p>
+<p style="text-align:left; ">Das maschinelle Klassifikationsverfahren selbst nutzt den Algorithmus 
+                    <hi rend="italic">Random Forest</hi> (Ho 1995, Breiman 2001). 
+                    <hi rend="italic" xml:space="preserve">Random Forest </hi>fügt mehrere unkorrelierte Entscheidungsbäume zusammen und berechnet mittels mathematischer Regression die Parameter. Beim Trainieren wurde das Korpus in zehn Segmente gegliedert (10-
+                    <hi rend="italic">fold cross validation</hi>), wodurch verzerrte Ergebnisse durch die zufällige Verteilung von Trainings- und Testkorpus vermieden werden sollen.<ref n="3" target="ftn3"/>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ergebnisse</head>
+<p style="text-align:left; ">
+<hi rend="italic">Tabelle</hi> 1 zeigt die Ergebnisse der Klassifikation anhand von drei Modellen. Zusätzlich zum Gesamtmodell, das Netzwerkanalysen und 
+                    <hi rend="italic">Topic Modeling</hi> zusammenführt, wurden die acht Netzwerkmetriken und die 20 
+                    <hi rend="italic" xml:space="preserve">Topics </hi>auch isoliert betrachtet. Die 
+                    <hi rend="italic">Baseline</hi> berechnet sich, angelehnt an die einleitenden Überlegungen, anhand des 
+                    <hi rend="italic">Average Degree</hi>.<ref n="4" target="ftn4"/> Die Werte in 
+                    <hi rend="italic">Tabelle </hi>1 verdeutlichen zweierlei: Einerseits erreicht bereits die 
+                    <hi rend="italic">Baseline</hi> annehmbare Ergebnisse. 309 Dramen werden anhand ihres 
+                    <hi rend="italic">Average Degree</hi> richtig klassifiziert. Andererseits scheint insbesondere das trainierte 
+                    <hi rend="italic">Topic Model</hi> zur
+		    Leistungsfähigkeit des gesamten Modells
+		    beizutragen. Letzteres zeigt sich mit einem
+		    F<hi rend="subscript">1</hi>-Wert von 0.921 angemessen performant – lediglich 34 Dramen werden einem falschen Zeitraum zugewiesen. Wirklich überraschen kann dieser Umstand jedoch nicht, sind die heuristischen Klassifikationszeiträume doch recht groß gewählt. Kleiner gefasste Zeiträume führen das Modell hingegen recht schnell an seine Grenzen. Teilt man die durch das Textkorpus abgedeckte Dramengeschichte in feingliedrigere Segmente, beispielsweise in zehn Zeiträume von nurmehr 20 Jahren, sinkt der F<hi rend="subscript">1</hi>-Wert auf 0.431 (Precision: 0.585, Recall: 0.451).
+</p>
+<table rend="rules">
+  <head>Tabelle 1: Modelle trainiert auf 443 Dramen; 10-<hi rend="italic">fold cross validation</hi>, <hi rend="italic">SMOTE-sampling</hi>.  </head>
+<row>
+<cell rend="DH-Default"/>
+<cell rend="DH-Default">Precision </cell>
+<cell rend="DH-Default">Recall </cell>
+<cell rend="DH-Default">F<hi rend="subscript">1</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default">Baseline (
+                            <hi rend="italic">Avg. Degree</hi>) 
+                        </cell>
+<cell rend="DH-Default">0.701</cell>
+<cell rend="DH-Default">0.702</cell>
+<cell rend="DH-Default">0.698</cell>
+</row>
+<row>
+<cell rend="DH-Default">Netzwerkmetriken</cell>
+<cell rend="DH-Default">0.829</cell>
+<cell rend="DH-Default">0.821</cell>
+<cell rend="DH-Default">0.814</cell>
+</row>
+<row>
+<cell rend="DH-Default">Topic Model</cell>
+<cell rend="DH-Default">0.899</cell>
+<cell rend="DH-Default">0.903</cell>
+<cell rend="DH-Default">0.899</cell>
+</row>
+<row>
+<cell rend="DH-Default">Gesamtes Modell</cell>
+<cell rend="DH-Default">0.921</cell>
+<cell rend="DH-Default">0.925</cell>
+<cell rend="DH-Default">0.921</cell>
+</row>
+</table>
+<!-- <p style="text-align:left; "> -->
+<!-- <hi rend="italic">Tabelle</hi> 1: Modelle trainiert auf 443 Dramen; 10- -->
+<!--                     <hi rend="italic">fold cross validation</hi>,  -->
+<!--                     <hi rend="italic">SMOTE-sampling</hi>.  -->
+<!--                 </p> -->
+<p style="text-align:left; ">Die in 
+                    <hi rend="italic">Tabelle </hi>1 dargestellten Klassifikationsergebnisse erlauben nun einen Einblick in die Unterscheidungskraft der eingespeisten Features. 
+                    <hi rend="italic">Abbildung </hi>3 zeigt die sogenannte 
+                    <hi rend="italic">Feature Importance</hi>. Sie vergleicht nach und nach die Leistungsfähigkeit des Modells, wenn jeweils eines der Features nicht beachtet wird. Die Abnahme an Performanz entspricht dann der relativen Wichtigkeit des nicht einbezogenen Features für die Klassifikation. Die Abbildung verdeutlicht, dass das 
+                    <hi rend="italic" xml:space="preserve">Topic Model </hi>– insbesondere die 
+                    <hi rend="italic">Topics </hi>8 und 5 – einen starken Einfluss auf die Klassifikation nimmt. Doch bei weitem nicht jedes 
+                    <hi rend="italic" xml:space="preserve">Topic </hi>(etwa T17, T7, T10) ist von solch großer Bedeutung. Als gewichtigste Netzwerkmetrik lässt sich die 
+                    <hi rend="italic">Betweenness Centrality</hi> identifizieren. Der durchschnittliche Grad (
+                    <hi rend="italic">Average Degree</hi>) ist mittig platziert, wobei der Einfluss der weniger entscheidungstragenden Features insgesamt ähnlich gering ausfällt.
+                </p>
+<figure>
+<graphic height="10.137069444444444cm" n="1003" rend="inline" url="227_final-52ddd69ec662fb0104be16343fca2961.png" width="15.991416666666666cm"/>
+  <head>Abbildung 3: <hi rend="italic">Feature Importance</hi> des Klassifikationsmodells.</head>
+</figure>
+<!-- <p style="text-align:left; "> -->
+<!-- <hi rend="italic">Abbildung</hi> 3:  -->
+<!--                     <hi rend="italic">Feature Importance</hi> des Klassifikationsmodells. -->
+<!--                 </p> -->
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Operationalisierung und Interpretation</head>
+  <p style="text-align:left; ">Auf Basis dieser Daten lassen sich nun analog zu 
+  <hi rend="italic">Abbildung</hi> 1 Werte berechnen und visualisieren, die die zeitliche Entwicklung der als relevant erscheinenden Merkmale darstellen, etwa von 
+  <hi rend="italic">Topic</hi> 8 oder der 
+  <hi rend="italic">Betweenness Centrality</hi>. Diese sollten – vertraut man der Klassifikation – einen höheren Aussagegehalt haben, als der zu Beginn diskutierte 
+  <hi rend="italic">Average Degree</hi>.
+  </p>
+  <figure>
+    <graphic height="11.064875cm" n="1004" rend="inline" url="227_final-f2a1ee9d7f890f2df22927e39df6b22b.png" width="15.991416666666666cm"/>
+    <head>Abbildung 4: <hi rend="italic">Topic </hi>8 im historischen Verlauf, normalisiert nach Dramenlänge; <hi rend="italic" xml:space="preserve">LOESS </hi>Kurve.</head>
+  </figure>
+  <!-- <p style="text-align:left; "> -->
+<!-- <hi rend="italic">Abbildung 4</hi>:  -->
+<!--                     <hi rend="italic">Topic </hi>8 im historischen Verlauf, normalisiert nach Dramenlänge;  -->
+<!--                     <hi rend="italic" xml:space="preserve">LOESS </hi>Kurve. -->
+<!--                 </p> -->
+<figure>
+  <graphic height="11.064875cm" n="1005" rend="inline" url="227_final-444e0753dc6a8b3cb7ce32bd5149fa7b.png" width="15.991416666666666cm"/>
+  <head>Abbildung 5: <hi rend="italic">Betweenness Centrality</hi> im historischen Verlauf; <hi rend="italic" xml:space="preserve">LOESS </hi>Kurve.</head>
+</figure>
+<!-- <p style="text-align:left; "> -->
+<!-- <hi rend="italic">Abbildung </hi>5:  -->
+<!--                     <hi rend="italic">Betweenness Centrality</hi> im historischen Verlauf;  -->
+<!--                     <hi rend="italic" xml:space="preserve">LOESS </hi>Kurve. -->
+<!--                 </p> -->
+<p style="text-align:left; ">
+  <hi rend="italic">Abbildung </hi>4 zeigt die Frequenzen, mit denen sich die Wörter aus 
+  <hi rend="italic">Topic </hi>8 auf die einzelnen Dramen verteilen. Tatsächlich veranschaulicht die Visualisierung eine recht deutliche Entwicklung. Von 1730 ausgehend scheint 
+  <hi rend="italic">Topic </hi>8 bis etwa 1830 recht stark an Einfluss einzubüßen, ehe die Werte fortan auf einem stabilen Niveau bleiben. Betrachtet man die zehn ausschlaggebendsten Wörter des 
+  <hi rend="italic" xml:space="preserve">Topics </hi>– ‚liebe‘, ‚herz‘, ‚machen‘, ‚lassen‘, ‚sagen‘, ‚vater‘, ‚schwester‘, ‚sehen‘ und ‚weiß‘ –, lässt sich dieser Verlauf auch literaturgeschichtlich plausibilisieren. Zu einem großen Teil können diese Begriffe mit bürgerlichen Trauerspielen und Rührstücken in Verbindung gesetzt werden, die für die Dramengeschichte des 18. Jahrhunderts prägend sind.
+</p>
+<p style="text-align:left; ">Auch der in 
+<hi rend="italic">Abbildung </hi>5 dargestellte diachrone Verlauf der 
+<hi rend="italic">Betweenness Centrality</hi> macht eine Entwicklung der Werte sichtbar. Die lokal gewichtete Regression veranschaulicht einen Höhepunkt zwischen 1810 und 1825. Die 
+<hi rend="italic">Betweenness</hi> Centrality bemisst, in welchem Maß ein Knoten im Netzwerk selbst zum Teil eines Pfades wird, also die indirekte Verbindung von zwei anderen Knoten ermöglicht (vgl. Newman 2010: 185–193). Auf Dramennetzwerke übertragen ließen sich dadurch Figuren identifizieren, die als Brückenfiguren agieren und voneinander getrennte Figurengruppen verbinden. Die Darstellung lässt sich somit als weiterer Indikator für die zu Beginn skizzierte These von Trilcke und Fischer lesen. Die zusehende Abkehr von der Regelpoetik in der zweiten Hälfte des 18. Jahrhunderts scheint eine komplexere Struktur der Dramen nach sich zu ziehen, die sich in den Netzwerkdaten wiederfinden lässt.
+</p>
+<p style="text-align:left; ">Die größte Schwierigkeit bei der Interpretation dieser Daten bleibt jedoch nach wie vor bestehen und ist den hier gezeigten Analysen vorgelagert. Es ist die Operationalisierung der Fragestellung, die zumeist mit einem großen konzeptuellen Aufwand verbunden ist (vgl. Gius 2019: 2f.; Reiter / Willand 2018). Denn unklar bleibt, wie sich Zentralitätsmetriken in einem Figurennetzwerk oder Wahrscheinlichkeitsverteilungen von Worthäufigkeiten zu literaturwissenschaftlichen Kategorien verhalten. Die bemessenen Werte müssten sich konzeptionell so rückübersetzen lassen, dass sie auch mit Blick auf spezifisch literaturwissenschaftliche Fragestellungen interpretiert werden können. Dass etwa die Handlung literarischer Texte nicht einfach durch ein Figurennetzwerk abzubilden ist, muss auch Moretti erkennen, weshalb er die Netzwerktheorie letztlich nurmehr als Vorstufe, als „beginning of the beginning“ (Moretti 2011: 2) zu einer quantifizierbaren Handlung einordnet.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit und Ausblick</head>
+<p style="text-align:left; ">Das vorgestellte multidimensionale Modell
+liefert sinnvolle Ergebnisse und kann den recht weit gefassten
+Veröffentlichungszeitraum deutschsprachiger Dramen mit angemessener
+Genauigkeit (F<hi rend="subscript">1</hi>
+<hi rend="italic">-</hi>Wert 0.921) klassifizieren. Da die Entstehung neuer literarischer Epochen und Strömungen zumeist als fließender Prozess zu beschreiben ist, muss die hier vorgestellte Methode aber als Heuristik eingestuft werden, die vor allem zum Ziel hat, die entscheidungstragenden Merkmale der Klassifikation zu identifizieren. Erst dadurch bietet die Klassifikationsaufgabe Anschlusspotential für literarhistorische Studien. Für künftige Arbeiten erscheint es einerseits lohnend, eine metrische Vorhersage der Veröffentlichungsjahre zu erproben. Dadurch würde die Vorhersage deutlich an Präzision gewinnen. Andererseits würde es sich anbieten, neben 
+<hi rend="italic">Topic Modeling</hi> und Netzwerkanalysen auch stilometrische Maße in die Klassifikation zu integrieren. So könnte auch der Stil der Stücke – in einem quantitativen und damit weiten Sinn – Teil der Voraussage werden.
+</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Da literarische Epochen und Strömungen eine fließende Entwicklung nehmen, ergeben sich durch diese Setzung zwangsläufig Überschneidungen. So fallen beispielsweise Lessings 
+      <hi rend="italic" xml:space="preserve">Emilia Galotti </hi>(1772) und Schillers 
+      <hi rend="italic" xml:space="preserve">Die Räuber </hi>(1781), zwei schon strukturell sehr verschieden gebaute Stücke unterschiedlicher Strömungen, in die gleiche Klasse.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Für eine Übersicht über die verschiedenen Metriken vgl. Newman (2010): 168–204.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Die Implementierung erfolgt über die Pakete randomForest und  Caret für R:
+      <ptr target="https://cran.r-project.org/web/packages/randomForest/index.html/"/>
+      und <ptr target="https://cran.r-project.org/web/packages/caret/"/>.
+      Caret bietet vielfältige Optionen für das 
+      <hi rend="italic">Preprocessing</hi> und 
+      <hi rend="italic">Sampling</hi> der Daten. Ich nutze die Methoden 
+      <hi rend="italic">center</hi> und 
+      <hi rend="italic">scale</hi> zur Kalibrierung und 
+      <hi rend="italic">SMOTE-sampling</hi>, um die zahlenmäßige Ungleichverteilung der Dramen in den verschiedenen Zeiträumen auszugleichen (eine genauere Beschreibung eines ähnlichen Versuchsaufbaus findet sich in Krautter / Pagel / Reiter / Willand 2018: 19–29).
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Die Leistungsfähigkeit einer <hi rend="italic" xml:space="preserve">Majority Baseline </hi>wäre aufgrund des 
+      <hi rend="italic">multiclass</hi> Klassifikation sehr eingeschränkt (Precision: 0.291).
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+  <head>Bibliographie</head>
+  <bibl style="text-align:left; ">
+    <hi rend="bold" xml:space="preserve">Blei, David M. / Ng, Andrew Y.  / Jordan, Michael I. </hi>(2003). „Latent Dirichlet Allocation“, in: 
+    <hi rend="italic">The Journal of machine Learning research</hi> 3: 993–1022.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Breiman, Leo</hi> (2001): „Random Forests“, in: 
+    <hi rend="italic">Machine Learning</hi> 24 (2): 5–32.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Brenner, Peter J.</hi> (2011): 
+    <hi rend="italic">Neue deutsche Literaturgeschichte. Von ‚Ackermann‘ zu Günter Grass</hi>. Berlin / New York: De Gruyter.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Du, Keli</hi> (2019):
+    „A Survey on LDA Topic Modeling in Digital Humanities“, in: 
+    <hi rend="italic">DH 2019. Conference Abstracts</hi>. https://dev.clariah.nl/files/dh2019/boa/0326.html [letzer Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Fischer, Frank / Börner, Ingo / Göbel, Mathias / Hechtl, Angelika / Kittel, Christopher / Milling, Carsten / Trilcke, Peer</hi> (2019): „Programmable Corpora. Die digitale Literaturwissenschaft zwischen Forschung und Infrastruktur am Beispiel von DraCor“, in: 
+    <hi rend="italic">DHd 2019. Konferenzabstracts:</hi> 194–197. DOI: 10.5281/zenodo.2596094 [letzer Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Gius, Evelyn</hi> (2019): „Computationelle Textanalysen als fünfdimensionales Problem: Ein Modell zur Beschreibung von Komplexität“, in: 
+    <hi rend="italic" xml:space="preserve">Litlab Pamphlet </hi>8. https://www.digitalhumanitiescooperation.de/pamphlet-8-computationelle-textanalysen/ [letzter Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Ho, Tin Kam</hi> (1995): „Random Decision Forests“, in: 
+    <hi rend="italic">Proceedings of the 3rd International Conference on Document Analysis and Recognition</hi>: 278–282.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Jannidis, Fotis</hi> (2017): „Netzwerke“, in: Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.): 
+    <hi rend="italic" xml:space="preserve">Digital Humanities: Eine Einführung. </hi>Stuttgart: J.B. Metzler 148–161.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Jockers, Matthew L.</hi> (2013): 
+    <hi rend="italic">Macroanalysis. Digital Methods and Literary History.</hi> Urbana / Chicago / Springfield: University of Illinois Press.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Krautter, Benjamin / Pagel, Janis / Reiter, Nils / Willand, Marcus</hi> (2018): „Titelhelden und Protagonisten – Interpretierbare Figurenklassifikation in deutschsprachigen Dramen“, in: 
+    <hi rend="italic">Litlab Pamphlet</hi> 7. https://www.digitalhumanitiescooperation.de/wp-content/uploads/2019/06/p07_krautter_et_al-1.pdf [letzter Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Moretti, Franco</hi> (2011): „Network Theory, Plot Analysis“, in: 
+    <hi rend="italic">Literary Lab Pamphlet</hi> 2. https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf [letzer Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Moretti, Franco</hi> (2013): „‚Operationalizing‘: or, the Function of Measurement in Modern Literary Theory“, in: 
+    <hi rend="italic">Literary Lab Pamphlet</hi> 6. https://litlab.stanford.edu/LiteraryLabPamphlet6.pdf [letzer Zugriff 27. September 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Moretti, Franco</hi> (2017): „Patterns and Interpretation“, in: 
+    <hi rend="italic">Literary Lab Pamphlet</hi> 15. https://litlab.stanford.edu/LiteraryLabPamphlet15.pdf [letzer Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Newman, Mark E. J.</hi> (2010): 
+    <hi rend="italic">Networks: An Introduction</hi>. Oxford: UP.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold" xml:space="preserve">Reiter, Nils / Willand,
+    Marcus</hi> (2018):
+    „Poetologischer Anspruch und dramatische Wirklichkeit: Indirekte Operationalisierung in der digitalen Dramenanalyse. Shakespeares natürliche Figuren im deutschen Drama des 18. Jahrhunderts,
+    in: Bernhart, Toni / Willand, Marcus / Richter, Sandra / Albrecht, Andrea (eds.):
+    <hi rend="italic">Quantitative Ansätze in den Literatur- und Geisteswissenschaften: Systematische und historische Perspektiven</hi>. Berlin / Boston: De Gruyter
+    45–75.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Schöch, Christof</hi> (2017): „Gattungen des Kriminalromans: Ein quantitativer, Topic-basierter Zugang“, in: Koch, Corinna / Schmitz, Sabine / Lang, Sandra (eds.): 
+    <hi rend="italic">Dialogische Krimianalysen. Fachdidaktik und Fachwissenschaft untersuchen aktuelle Repräsentationsformen des französischen Krimis</hi>. Frankfurt a. M.: Peter Lang 37–64.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Trilcke, Peer</hi> (2013): „Social Network Analysis (SNA) als Methode einer textempirischen Literaturwissenschaft“, in: Ajouri, Philip / Mellmann, Katja / Rauen, Christoph (eds.): 
+    <hi rend="italic">Empirie in der Literaturwissenschaft</hi>. Münster: Mentis 201–247.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Trilcke, Peer / Fischer, Frank</hi> (2018): „Literaturwissenschaft als Hackathon. Zur Praxeologie der Digital Literary Studies und ihren epistemischen Dingen“, in: Huber, Martin / Krämer, Sybille (eds.): Sonderband 3 der ZfdG: Wie Digitalität die Geisteswissenschaften verändert: Neue Forschungsgegenstände und Methoden. http://www.zfdg.de/sb003_003 [letzter Zugriff 05. Januar 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Trilcke, Peer / Fischer, Frank / Göbel, Matthias / Kampkaspar, Dario</hi> (2016): „Theatre Plays as ‚Small Worlds‘? Network Data on the History and Typology of German Drama, 1730–1930“, in: 
+    <hi rend="italic">DH 2016. Conference Abstracts</hi>: 385–387.
+    <anchor xml:id="Hlk20520630"/>
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Vogel, Juliane</hi> (2012): „Aus dem Takt: Auftrittsstrukturen in Schillers 
+    <hi rend="italic">Don Karlos</hi>“, in: 
+    <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte</hi> 86 (4): 532–546.
+  </bibl>
+  <bibl style="text-align:left; ">
+    <anchor xml:id="Hlk20929611"/>
+    <hi rend="bold">Willand, Marcus</hi> (2017): „Hermeneutische Interpretation und digitale Analyse:
+    Versuch einer Verhältnisbestimmung“, in: Banki, Luisa / Scheffel, Michael (eds.): 
+    <hi rend="italic">Lektüren. Positionen zeitgenössischer Philologie</hi>. Trier: WVT 77–98.
+  </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

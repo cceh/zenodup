@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-PIELS" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Einfaches Topic Modeling in Python - Eine Programmbibliothek für Preprocessing, Modellierung und Analyse</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Jannidis</surname>
+<forename>Fotis</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>fotis.jannidis@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Pielström</surname>
+<forename>Steffen</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>pielstroem@biozentrum.uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Schöch</surname>
+<forename>Christof</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>christof.schoech@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Vitt</surname>
+<forename>Thorsten</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>thorsten.vitt@uni-wuerzburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T20:09:39.058531697</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>topic modeling</term>
+<term>python</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Modellierung</term>
+<term>Visualisierung</term>
+<term>Literatur</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+<anchor xml:id="id_docs-internal-guid-ecc43387-c80b-e926-6d2d-403a123a99df"/>Topic Modeling ist eine Methode zur semantischen Erschließung größerer Textsammlungen, die in den letzten Jahren zunehmend in den Fokus der Aufmerksamkeit digital arbeitender Literaturwissenschaftler gerückt ist. Die Methode nutzt probabilistische Verfahren um aus einer Textsammlung eine Reihe von Verteilungen über die Wahrscheinlichkeiten einzelner Wörter zu erzeugen. Diese werden dann als distinkte semantische Gruppen, sogenannte ‘Topics’, aufgefasst, also als Gruppen inhaltlich zusammenhängender Wörter, die in den einzelnen Texten jeweils mehr oder weniger stark präsent sind (Blei 2012, Steyvers und Griffiths 2006).
+            </p>
+<p>Ursprünglich entwickelt, um in größeren Sammlungen kürzerer Fachartikel schnell jene zu identifizieren, die für bestimmte Themen relevant sein könnten, kann diese Methode darüber hinaus für eine Reihe von Problem im Bereich der digitalen Literaturwissenschaft interessante neue Lösungsansätze bieten. Dazu gehört die automatische Identifikation von Romanen, die ähnliche Themen behandeln (wenngleich eine direkte Gleichsetzung probabilistischer ‘Topics’ mit literarischen ‘Themen’ durchaus problematisch ist), ebenso wie die Zuordnung zu bestimmten Genres anhand inhaltlicher Aspekte, oder die quantifizierende Betrachtung der zu- und abnehmenden Bedeutung einzelner Themenfelder über den Verlauf eines einzelnen Romans (vgl. Blevins 2012, Jockers 2011, 
+                <anchor xml:id="id_docs-internal-guid-ecc43387-c880-c0d8-b549-234385948524"/>Rhody 2012, Schöch in Vorbereitung).
+            </p>
+<p>Mit den Programmen ‘Mallet’ (vgl. McCallum 2002) und ‘Gensim’ (vgl. Rehurek 2010) stehen zur Zeit zwei State-of-the-Art Implementierungen von Topic Modeling-Algorithmen zur Verfügung. Um die Methode produktiv einzusetzen, sind aber neben der Erzeugung des Modells weitere Arbeitsschritte notwendig (Abb. 1). Im ‘Preprocessing’ gilt es zunächst, die Textsammlungen in eine Form zu bringen, in der sie vom Modellierungsprogramm verarbeitet werden können. Darüber hinaus werden die Texte normalerweise durch das Herausfiltern häufiger Funktionswörter auf die potentiell inhaltsrelevanten Wörter reduziert, was in der Regel den vorhergehenden Einsatz von NLP-Tools (Natural Language Processing) erfordert. Sind die ‘Topics’ dann erst einmal errechnet worden, kann sich eine Visualisierung der Ergebnisse anschließen, oder ihre statistische Evaluierung anhand interner oder externer Kriterien, ein Aspekt dem beim Einsatz von Topic Modeling-Verfahren im DH-Kontext bisher eher zu wenig Beachtung geschenkt wurde.</p>
+<p>Ziel unseres Projektes ist es, den Einstieg in aktuelle Topic Modeling-Verfahren für digital arbeitende Literaturwissenschaftler wesentlich zu vereinfachen, indem wir möglichst viele der notwendigen Arbeitsschritte in einer einheitlichen, umfangreichen und gut dokumentierten Programmbibliothek für die unter digital-quantitativ arbeitenden Geisteswissenschaftlern stark verbreitete Programmiersprache Python anbieten. Hierbei sollen Nutzerinnen und Nutzer bei allen Arbeitsschritten auf vorhandene, in einem ausführlichen Tutorial dokumentierte Funktionen zurückgreifen und so weit wie möglich wie mit einem Kommandozeilentool arbeiten können, ohne selbst programmieren zu müssen. Die Anforderungen an die Programmierkenntnisse der Forschenden, die diese Verfahren einsetzen möchten, werden damit minimiert und die Methode wird so einem größeren Nutzerkreis zugänglich gemacht.</p>
+<p>Für das NLP-Preprocessing steht mit dem DARIAH-DKPro-Wrapper (DDW) ein komfortables Einheitswerkzeug zur Verfügung, das ein großes Spektrum an NLP-Aufgaben abdeckt und linguistische Annotationen in einem Python-Pandas-kompatiblen Ausgabeformat erzeugt. Ein Ziel unserer Bibliothek ist die direkte Anbindung des DDW-Outputs an existierende Implementierungen verschiedener etablierter Varianten von Topic Modeling-Algorithmen. </p>
+<p>Für die Untersuchung der resultierenden Modelle möchten wir verschiedene Evaluierungsverfahren anbieten, sowohl interne Verfahren wie z.B. das Perplexity-Maß, als auch externe Vefahren, wie z.B. die Weglänge zwischen zwei Begriffen in einem Wörterbuch. Hieran schließen sich verschiedene Optionen zur Visualisierung der Ergebnisse an.</p>
+<p>Im Fokus der Entwicklung steht die Gestaltung schlüssig aufeinander aufbauender Programmbefehle, die einer einheitlichen Syntax folgen und deren Funktion sich schnell erschließen lässt. Sie sollen sich ohne längere Einarbeitung nutzen und zu einer Pipeline zusammenfügen lassen, die die spezifischen Arbeitsschritte eines bestimmten Topic Modeling-Projektes umsetzt. Hierbei können Nutzerinnen und Nutzer auf detaillierte Anleitungen aus einem umfangreichen Tutorial zurückgreifen, in dem alle Funktionen, alle Outputs, und potentielle Kombinationen detailliert dokumentiert und anhand von Beispielen erläutert werden.</p>
+<p>
+<hi rend="color(#000000)">Die Entwicklung der Programmbibliothek kann auf Erfahrungen mit einer vorhandenen, Python-basierten Implementierung eines entsprechenden Workflows aufbauen, die allerdings eher “proof of concept”-Character hat (Topic Modeling Workflow “tmw”, vgl. Schöch 2015 und </hi>
+<ptr target="http://github.com/cligs/tmw"/>
+<hi rend="color(#000000)">).</hi>
+</p>
+<p>
+<figure>
+<graphic url="poster-PIELS-image1.png"/>
+</figure>
+<anchor xml:id="id_docs-internal-guid-1bb372fd-c80e-0f7c-acac-9f6ea8a5f647"/>Abbildung 1: Workflow eines Topic Modeling-Projektes
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Blei, David M.</hi> (2012):
+                        „Probabilistic Topic Models“,
+                        in:
+                        <hi rend="italic">Communication of the ACM</hi> 55 (4): 77–84
+                        10.1145/2133806.2133826.
+                    </bibl>
+<bibl>
+<hi rend="bold">Blevins, Cameron</hi> (2010):
+                        „Topic Modeling Martha Ballard’s Diary“,
+                        in:
+                        <hi rend="italic">Historying</hi>                        . 
+                        <ref target="http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/">http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jockers, Matthew L.</hi> (2013): 
+                        <hi rend="italic">Macroanalysis - Digital Methods and Literary History</hi>. 
+                        Champaign, IL: University of Illinois Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">McCallum, Andrew K. </hi> (2002): 
+                        <hi rend="italic">MALLET: A Machine Learning for Language Toolkit</hi>
+<ref target="http://mallet.cs.umass.edu/">http://mallet.cs.umass.edu</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rehurek, Radim / Sojka, Petr</hi> (2010):
+                        „Software framework for topic modelling with large corpora“,
+                        in:
+                        <hi rend="italic">Proceedings of LREC 2010</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rhody, Lisa M.</hi> (2012):
+                        „Topic Modeling and Figurative Language“,
+                        in:
+                        <hi rend="italic">Journal of Digital Humanities</hi> 2 (1) 
+                        <ref target="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/">http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Richardson, Stephen D. / Braden-Harder, Lisa</hi> (1988):
+                        „The Experience of Developing a Large-Scale Natural Language Text Processing System: CRITIQUE“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Second Conference on Applied Natural Language Processing</hi> 195–202.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schöch, Christof</hi> (in Vorbereitung):
+                        „Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama“,
+                        in:
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi>
+<ref target="http://digitalhumanities.org/dhq">http://digitalhumanities.org/dhq</ref>.
+                        Preprint: 
+                        <ref target="https://zenodo.org/record/48356">https://zenodo.org/record/48356</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Steyvers, Mark / Griffiths, Tom </hi> (2006): 
+                        „Probabilistic Topic Models“, 
+                        in: Landauer, T. / McNamara, D. / Dennis, S. / Kintsch, W.:
+                        <hi rend="italic">Latent Semantic Analysis: A Road to Meaning</hi>.
+                        Laurence Erlbaum.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

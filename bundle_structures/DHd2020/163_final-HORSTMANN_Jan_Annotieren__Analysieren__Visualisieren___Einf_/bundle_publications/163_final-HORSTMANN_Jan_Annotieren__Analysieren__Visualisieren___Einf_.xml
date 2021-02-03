@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="163_final-HORSTMANN_Jan_Annotieren__Analysieren__Visualisieren___Einf_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Annotieren, Analysieren, Visualisieren – Einführung in CATMA 6</title>
+<author>
+<persName>
+<surname>Horstmann</surname>
+<forename>Jan</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>jan.horstmann@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Meister</surname>
+<forename>Jan Christoph</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>jan-c-meister@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Petris</surname>
+<forename>Marco</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>marco.petris@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Schumacher</surname>
+<forename>Mareike</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>mareike.schumacher@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Flüh</surname>
+<forename>Marie</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>marie.flueh@uni-hamburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-12-20T10:45:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Workshop</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>kollaboratives Arbeiten</term>
+<term>Interpretation</term>
+<term>Hermeneutik</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Strukturanalyse</term>
+<term>Annotieren</term>
+<term>Organisation</term>
+<term>Visualisierung</term>
+<term>Literatur</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<!-- <div> -->
+<!-- <p> -->
+<!-- <hi rend="bold">Horstmann, Jan</hi> -->
+<!-- <lb/> -->
+<!-- <ref target="mailto:jan.horstmann@uni-hamburg.de"> -->
+<!-- <hi rend="underline color(1155CC)">jan.horstmann@uni-hamburg.de</hi> -->
+<!-- </ref> -->
+<!-- <lb/>Institut für Germanistik, Universität Hamburg, Deutschland -->
+<!--                 </p> -->
+<!-- <p> -->
+<!-- <hi rend="bold">Meister, Jan Christoph</hi> -->
+<!-- <lb/> -->
+<!-- <ref target="mailto:jan-c-meister@uni-hamburg.de"> -->
+<!-- <hi rend="underline color(1155CC)">jan-c-meister@uni-hamburg.de</hi> -->
+<!-- </ref> -->
+<!-- <lb/>Institut für Germanistik, Universität Hamburg, Deutschland -->
+<!--                 </p> -->
+<!-- <p> -->
+<!-- <hi rend="bold">Petris, Marco</hi> -->
+<!-- <lb/> -->
+<!-- <ref target="mailto:marco.petris@uni-hamburg.de"> -->
+<!-- <hi rend="underline color(1155CC)">marco.petris@uni-hamburg.de</hi> -->
+<!-- </ref> -->
+<!-- <lb/>Institut für Germanistik, Universität Hamburg, Deutschland -->
+<!--                 </p> -->
+<!-- <p> -->
+<!-- <hi rend="bold">Schumacher, Mareike</hi> -->
+<!-- <lb/> -->
+<!-- <ref target="mailto:mareike.schumacher@uni-hamburg.de"> -->
+<!-- <hi rend="underline color(1155CC)">mareike.schumacher@uni-hamburg.de</hi> -->
+<!-- </ref> -->
+<!-- <lb/>Institut für Germanistik, Universität Hamburg, Deutschland -->
+<!--                 </p> -->
+<!-- <p> -->
+<!-- <hi rend="bold">Flüh, Marie</hi> -->
+<!-- <lb/> -->
+<!-- <ref target="mailto:marie.flueh@uni-hamburg.de"> -->
+<!-- <hi style="font-family:Open Sans">marie.flueh@uni-hamburg.de</hi> -->
+<!-- </ref> -->
+<!-- <lb/>Institut für Germanistik, Universität Hamburg, Deutschland -->
+<!--                 </p> -->
+<!-- </div> -->
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>Der ohne technische Vorkenntnisse besuchbare hands-on Workshop bildet eine Einführung in die Möglichkeiten der für Geisteswissenschaftlerïnnen entwickelten, webbasierten Annotations- und Analyseplattform CATMA, deren sechste Version im Oktober 2019 veröffentlicht wurde. Im Zentrum stehen theoretische und praktische Aspekte der digitalen Annotation von (literarischen) Texten sowie die Analyse und Visualisierung dieser Texte und der erstellten Annotationen.</p>
+<p>CATMA (<hi rend="italic">Computer Assisted Text Markup and Analysis</hi>; 
+<ref target="https://catma.de">https://catma.de</ref>) ist ein webbasiertes open-source-Tool, das seit 2008 an der Universität Hamburg entwickelt und derzeit von über 60 Forschungsprojekten und ca. 12.000 Nutzerïnnen weltweit genutzt wird. Die im Zuge des DFG-Projektes forTEXT (<ref target="https://fortext.net">https://fortext.net</ref>) entwickelte sechste Version bietet neben erweiterten technischen Möglichkeiten (wie beispielsweise der Datenversionierung und der Organisation kollaborativer Arbeit in einer Projektstruktur), ein völlig überarbeitetes, intuitiver nutzbares User Interface, das einen leichten Einstieg in die digitale Textannotation und -analyse ermöglicht, ohne dass umfangreiche technische Kenntnisse vonnöten wären, und ohne dass die Nutzerïnnen mit zu vielen (Experten-)Funktionen gleichzeitig konfrontiert würden. Das gesamte Repertoire an Funktionen (wie beispielsweise kollaborative Annotation oder automatische Annotation von Textkorpora) kann von erfahreneren Nutzerïnnen bei Bedarf genutzt werden.
+                </p>
+<figure>
+  <graphic height="7.886347222222223cm" n="1001" rend="inline"
+	   url="163_final-26274c77e90df8ab7325991f80025809.png"
+	   width="16.002cm"/>
+  <head>Abbildung 1: CATMA</head>
+</figure>
+<p>CATMA unterstützt...</p>
+<list type="unordered">
+<item>private und teambasierte Texterforschung durch individuelle wie kollaborative Annotation, Analyse und Visualisierung;</item>
+<item>explorative, non-deterministische Praktiken der Textannotation – CATMA liegt ein diskursiver, diskussionsorientierter Ansatz zur Textannotation zugrunde, der auf die Forschungspraktiken hermeneutischer Disziplinen zugeschnitten ist;</item>
+<item>die nahtlose Verknüpfung von Textannotation, Analyse und Visualisierung in einer webbasierten Arbeitsumgebung – Analyse und Interpretation gehen nach dem Prinzip des ‘hermeneutischen Zirkels’ in CATMA damit Hand in Hand.</item>
+</list>
+<p>Von linguistischen Textanalysetools unterscheidet sich CATMA insbesondere durch seinen „undogmatischen” Ansatz: Das System schreibt mit seiner hermeneutischen Annotation (vgl. Piez 2010) weder definierte Annotationsschemata oder -regeln vor, noch erzwingt es die Verwendung von starren Ja-/Nein- oder Richtig-/Falsch-Taxonomien. Wenn eine Textstelle mehrere Interpretationen zulässt (wie es in literarischen Texten häufig der Fall ist), ist es in CATMA (durch die Nutzung von Standoff-Markup) daher möglich, mehrere und sogar widersprechende Annotationen zu vergeben und so der Bedeutungsvielfalt der Texte Rechnung zu tragen. Mit der 
+<hi rend="italic">Build-Query</hi>-Funktion lassen sich zudem ganz ohne Kenntnisse der Query Language Schritt für Schritt Abfragen kreieren und Textanalysen durchführen. Die Ergebnisse der Analyse können in verschiedenen Varianten visualisiert und für die literaturwissenschaftliche Interpretation und Argumentation genutzt werden. Die sechste Version des Tools integriert gemäß der im Projekt 3DH (<ref target="http://threedh.net">http://threedh.net</ref>) formulierten Kriterien einer 
+<hi rend="italic">Dynamic Data Visualisation and Exploration for Digital Humanities Research</hi> ein geisteswissenschaftlich orientiertes Visualisierungskonzept. Dieses Konzept nutzt die 
+<hi rend="italic">Vega Visualization Grammar</hi>, die auf die von Wilkinson (2005) formulierte generische 
+<hi rend="italic">Grammar of Graphics</hi> zurückgeht. Schließlich bietet CATMA die Möglichkeit, bereits annotierte Texte zu verarbeiten (z. B. durch den Upload von XML-Dateien) und die in anderen Tools erstellten Annotationen anzuzeigen, mit zu analysieren und damit wissenschaftlich nachzunutzen. Außerdem lassen sich in CATMA auch automatische (z. B. POS für deutschsprachige Texte) und halb-automatische Annotationen generieren.
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Manuelles und kollaboratives Annotieren</head>
+<p>Die seit Jahrhunderten zu den textwissenschaftlichen Kernpraktiken gehörende Annotation (vgl. Moulin 2010) lässt sich in sog. Highlights, Freitextkommentare sowie taxonomiebasierte Annotation und Textauszeichnung aufteilen, wobei die Übergänge häufig fließend sind (vgl. Jacke 2018, § 9). Während CATMA 6 auch die Möglichkeit für Highlights und Freitextkommentare bietet, ist die taxonomiebasierte Annotation das eigentliche Kerngeschäft des Tools – wobei die Taxonomie prinzipiell undogmatisch erstellt werden kann und die Form von sog. Tagsets annimmt, denen für kollaborative Annotationsprojekte wahlweise eine Annotations-Guideline beigegeben werden kann (vgl. auch Bögel et al).</p>
+<p>Im Workshop werden wir den Unterschied von 
+                    <hi rend="italic">Document</hi> (der eigentliche Text), 
+                    <hi rend="italic">Tagset</hi> (die aus 
+                    <hi rend="italic" xml:space="preserve">Tags </hi>– d. h. aus einzelnen Beschreibungsbegriffen – gebildete Taxonomie, mit der Texte annotiert werden) und 
+                    <hi rend="italic">Annotation Collection</hi> (die nutzerspezifische Sammlung individueller Annotationen zu einem 
+                    <hi rend="italic">Document</hi> oder einem Korpus) kennenlernen. Diese für CATMA spezifische Dreigliederung bietet mehrere Vorteile:
+                </p>
+<list type="unordered">
+<item>Taxonomien können projektübergreifend und unabhängig von Texten und Annotationen wiederverwendet werden;</item>
+<item>Annotationen können als 
+                        <hi rend="italic" xml:space="preserve">Collections </hi>nach unterschiedlichen inhaltlichen (z. B. nach Forschungsaspekten) oder auch organisatorischen Gesichtspunkten (z. B. nach Projektmitgliedern) gruppiert und wiederverwendet bzw. erweitert werden;
+                    </item>
+<item>benutzerspezifische Annotationen werden als sog. 
+                        <hi rend="italic">Stand-off Markup</hi> gespeichert und können damit wahlweise angezeigt oder ausgeblendet werden. Der eigentliche Text wird hierbei nicht verändert. Arbeitet eine Gruppe von Annotatorïnnen mit der gleichen Taxonomie an einem Text, lassen sich Übereinstimmungen und Widersprüche direkt und einfach erkennen (vgl. Gius und Jacke 2017), um auf interessante oder problematische Textstellen aufmerksam zu werden und die ‘Arbeit am Text’ zugleich kritisch zu reflektieren.
+                    </item>
+</list>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Analyse und Visualisierung</head>
+<p>Neben der Annotation sind die Analyse und Visualisierung der Text- und Annotationsdaten das andere wichtige Standbein von CATMA. Hier wird 
+<hi rend="italic">distant reading</hi> mit 
+<hi rend="italic">close reading</hi> zusammengebracht, denn die zuvor manuell erstellten qualitativen Annotationen werden nun in ihrer Quantität, Relationalität und Verteilung hinterfragt. Dies geschieht in Zusammenhang mit „klassischen” DH-Textanalysemethoden wie dem Erstellen einer Wortfrequenzliste, der Analyse von Keywords in Context (<hi rend="italic">KWIC</hi> und 
+<hi rend="italic">DoubleTree</hi>) oder der Distribution ausgewählter Wörter (oder eben Annotationen) im Text oder in der Textsammlung.
+</p>
+<p>Neben diesen grundlegenden Funktionen, die alle per Klick ausgeführt werden können, bietet CATMA die sog. 
+<hi rend="italic">Build-Query</hi>-Funktion, ein Wizzard, in dem komplexere Abfragen einfach per Mausklick erzeugt werden können, ohne dass tiefergehende Kenntnisse einer Abfragesprache (sog. 
+<hi rend="italic">Query Language</hi>) verlangt werden. Im Workshop werden wir uns dabei nicht nur den Analysefunktionen widmen, sondern auch die unterschiedlichen Visualisierungsmöglichkeiten zu den einzelnen Abfragen anschauen und hinterfragen.
+</p>
+<p>Im Analysebereich können außerdem halbautomatische Annotationen erstellt werden, d. h. man annotiert wiederkehrende Wörter oder Wortgruppen auf einmal mit einem bestimmten Tag, statt dies manuell und wiederholt im Annotationsmodul zu tun.</p>
+<p>Der Wechsel zwischen der Arbeit im Annotations- und Analyse- und Visualisierungs-Modul ist ein iterativer Prozess, der die klassisch-zirkuläre hermeneutische Interpretationsarbeit in der Literaturwissenschaft widerspiegelt (vgl. Gius, im Erscheinen).</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ablauf</head>
+<p>Im Workshop werden wir uns in abwechselnden Präsentations- und Hands-on-Phasen der textanalytischen Arbeit in CATMA 6 nähern. Nach einer generellen Einführung in das Tool werden die Teilnehmerïnnen anhand eines vorgegebenen Beispieltextes den gesamten Workflow von der individuellen taxonomiebasierten Textannotation, über die Analyse hin zur Visualisierung und Interpretation der Text- und Annotationsdaten kennenlernen und praktisch erproben können.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Lernziele</head>
+<p>Die Teilnehmerïnnen sollen ausgehend vom digitalen Text in die Lage versetzt werden, Annotationen manuell und automatisch unterstützt zu erstellen und in Annotation Collections zu speichern, Tagsets/Taxonomien zu entwickeln und den Text alleine und in Kombination mit den Annotationen zu analysieren und zu visualisieren. Für kritische Reflektionen, Diskussionen sowie individuelle Rückfragen (theoretischer, praktischer und technischer Art) auf jedem Niveau und in Bezug auf die Projekte der Teilnehmerïnnen wird ausreichend Möglichkeit bestehen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Zeitplan</head>
+<p>Im Workshop werden wir anhand von Kafkas Erzählung 
+                    <hi rend="italic">Erstes Leid</hi> und narratologischen Kategorien der erzählerischen Distanz beispielhaft den Arbeitsablauf der digitalen Texterforschung praktisch kennenlernen (die Teilnehmenden können jedoch auch gerne mit selbst mitgebrachten Texten und Annotationskategorien arbeiten):
+                </p>
+<list type="unordered">
+<item>analytische Textexploration (ca. 30 Minuten)</item>
+<item>manuelle und automatische Annotation und Spezifikation von Annotationskategorien (ca. 40 Minuten)</item>
+<item>kombinierte Abfragen von Annotations- und Textdaten (ca. 30 Minuten)</item>
+<item>visuelle Darstellungsmöglichkeiten von Abfrageergebnissen (ca. 20 Minuten)</item>
+</list>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Beitragende (Kontaktdaten und Forschungsinteressen)</head>
+  <div type="div2" rend="DH-Heading2">
+    <head>Dr. Jan Horstmann </head>
+    <p>
+      <lb/> Universität Hamburg, Institut für Germanistik
+      <lb/> Überseering 35, Postfach #15
+      <lb/> 22297 Hamburg
+    </p>
+    <!--   <p>Dr. Jan Horstmann</p> -->
+    <!-- <p>Universität Hamburg, Institut für Germanistik, Überseering 35, Postfach #15, 22297 Hamburg</p> -->
+    <p>&#160;</p>
+    <p>Jan Horstmann ist Postdoc und koordiniert das DFG-Projekt forTEXT (<ref target="https://fortext.net"><hi rend="underline color(1155CC)">https://fortext.net</hi></ref>), in dem neben der Dissemination von digitalen Routinen, Ressourcen und Tools in die traditionelleren Fachwissenschaften auch die Weiterentwicklung von CATMA eine wesentliche Rolle spielt. Als Literaturwissenschaftler interessiert er sich vor allem für die neuen Perspektiven und Erkenntnispotentiale, die DH-Methoden auf literarische Artefakte bereithalten können.
+    </p>
+  </div>
+    <div type="div2" rend="DH-Heading2">
+    <head>Prof. Dr. Jan Christoph Meister </head>
+    <p>
+      <lb/> Universität Hamburg, Institut für Germanistik
+      <lb/> Überseering 35, Postfach #15
+      <lb/> 22297 Hamburg
+    </p>
+    <!-- <p>Prof. Dr. Jan Christoph Meister</p> -->
+    <!-- <p>Universität Hamburg, Institut für Germanistik, Überseering 35, Postfach #15, 22297 Hamburg</p> -->
+    <p>&#160;</p>
+    <p>Jan Christoph Meister ist Professor für Digital Humanities mit dem
+    Schwerpunkt Literaturwissenschaft. Als ursprünglicher Erfinder von
+    CATMA hat er etliche Forschungsprojekte zur Annotation und
+    Visualisierung textueller Daten und der Entwicklung und Verbesserung
+    von DH-Tools geleitet.</p>
+    </div>
+    <div type="div2" rend="DH-Heading2">
+      <head>Marco Petris, Dipl. Inform. </head>
+    <p>
+      <lb/> Universität Hamburg, Institut für Germanistik
+      <lb/> Überseering 35, Postfach #15
+      <lb/> 22297 Hamburg
+    </p> 
+    <!-- <p>Marco Petris, Dipl. Inform.</p> -->
+    <!-- <p>Universität Hamburg, Institut für Germanistik, Überseering 35, Postfach #15, 22297 Hamburg</p> -->
+    <p>&#160;</p>
+   <p>Marco Petris ist Informatiker mit starker Affinität zu
+    geisteswissenschaftlichen Fragestellungen. Er ist von Anfang an an
+    der Entwicklung von CATMA beteiligt und beschäftigt sich mit allen
+    Aspekten der DH-Toolentwicklung, des Tool-Designs und der
+    Implementierung.</p>
+    </div>
+    <div type="div2" rend="DH-Heading2">
+      <head>Mareike Schumacher, M.A.</head>
+    <p>
+      <lb/> Universität Hamburg, Institut für Germanistik
+      <lb/> Überseering 35, Postfach #15
+      <lb/> 22297 Hamburg
+    </p> 
+    <!--     <p>Mareike Schumacher, M.A.</p> -->
+    <!-- <p>Universität Hamburg, Institut für Germanistik, Überseering 35, Postfach #15, 22297 Hamburg</p> -->
+    <p>&#160;</p>
+   <p>Mareike Schumacher promoviert als digitale Literaturwissenschaftlerin über Orte und narratologische Ortskategorien in literarischen Texten, beschäftigt sich besonders mit den Methoden des 
+    <hi rend="italic">distant reading</hi> (u. a. 
+    <hi rend="italic">Named Entity Recognition</hi> oder Stilometrie) und ist im forTEXT-Projekt u. a. für die Dissemination in den (sozialen) Medien zuständig.
+    </p>
+    </div>
+    <div type="div2" rend="DH-Heading2">
+      <head>Marie Flüh, M.Ed.</head>
+    <p>
+      <lb/> Universität Hamburg, Institut für Germanistik
+      <lb/> Überseering 35, Postfach #15
+      <lb/> 22297 Hamburg
+    </p> 
+    <!-- <p>Marie Flüh, M.Ed.</p> -->
+    <!-- <p>Universität Hamburg, Institut für Germanistik, Überseering 35, Postfach #15, 22297 Hamburg</p> -->
+    <p>&#160;</p>
+   <p>Marie ist Master of Education und interessiert sich besonders für Christoph Martin Wieland und seine Zeitgenossen. Außerdem liegt ihr Forschungsschwerpunkt auf der Wertung von Literatur. Sie studierte in Kiel und Hamburg und ist nun wissenschaftliche Mitarbeiterin an der Universität Hamburg.</p>
+    </div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Zahl der möglichen Teilnehmerïnnen</head>
+<p>Bis zu 30 Personen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Benötigte technische Ausstattung</head>
+<p>Teilnehmerïnnen bringen ihren eigenen Laptop mit, der mit dem Internet verbunden ist (<hi rend="italic">Achtung: Touch-Devices werden derzeit noch nicht unterstützt</hi>). Am Workshop können bis zu 30 Personen teilnehmen. Neben einer stabilen Internetverbindung werden ein Beamer und eine Leinwand benötigt.
+                </p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+  <head>Bibliographie</head>
+  <bibl>
+    <hi rend="bold">Bögel, Thomas / Gertz, Michael / Gius, Evelyn / Jacke, Janina / Meister, Jan Christoph / Petris, Marco / Strötgen, Jannik</hi>
+    <hi style="font-family:Open Sans" xml:space="preserve"> (2015): </hi>
+    „Collaborative Text Annotation Meets Machine Learning: heureCLÉA, a Digital Heuristic of Narrative”, in: 
+    <hi rend="italic">DHCommons Journal</hi> 1. 
+  </bibl>
+  <bibl>
+    <hi rend="bold">Gius, Evelyn</hi>
+    <hi style="font-family:Open Sans" xml:space="preserve"> (im Erscheinen): </hi>
+    „Digitale Hermeneutik: Computergestütztes close reading als literaturwissenschaftliches Forschungsparadigma?”, in:  Jannidis, Fotis / Winko, Simone / Rapp, Andrea / Meister, Jan Christoph / Stäcker, Thomas (eds.): 
+    <hi rend="italic">Digitale Literaturwissenschaft. DFG-Symposium Villa Vigoni, 2017</hi>. Berlin, New York: de Gruyter.
+</bibl>
+<bibl>
+  <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> (2017): </hi>
+  „The Hermeneutic Profit of Annotation: On Preventing and Fostering Disagreement in Literary Analysis”, in: 
+  <hi rend="italic">International Journal of Humanities and Arts Computing</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> 11 (2): 233–254.</hi>
+</bibl>
+<bibl>
+  <hi rend="bold">Jacke, Janina</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> (2018): </hi>
+  „Manuelle Annotation", in: <hi rend="italic">forTEXT. Literatur digital erforschen</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve">. </hi>
+  <ref target="http://fortext.net/routinen/methoden/manuelle-annotation">http://fortext.net/routinen/methoden/manuelle-annotation</ref>
+  <hi style="font-family:Open Sans" xml:space="preserve"> (letzter Zugriff 20. Dezember 2018).</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Moulin, Claudine</hi>
+<hi style="font-family:Open Sans" xml:space="preserve"> (2010): „Am Rande der Blätter. Gebrauchsspuren, Glossen und Annotationen in Handschriften und Büchern aus kulturhistorischer Perspektive", in: </hi>
+<hi rend="italic" style="font-family:Open Sans">Autorenbibliotheken, Quarto. Zeitschrift des Schweizerischen Literaturarchivs</hi>
+<hi style="font-family:Open Sans" xml:space="preserve"> 30 (31): 19–26.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-family:Open Sans">Piez, Wendell</hi>
+<hi style="font-family:Open Sans" xml:space="preserve"> (2010): „Towards Hermeneutic Markup. An Architectural Outline". </hi>
+<hi rend="italic" style="font-family:Open Sans">Digital Humanities Conference</hi>
+<hi style="font-family:Open Sans" xml:space="preserve"> 2010, London </hi>
+<ref target="http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-743.html">http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-743.html</ref>
+<hi style="font-family:Open Sans" xml:space="preserve"> (letzter Zugriff 20. Dezember 2018).</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-family:Open Sans">Wilkinson, Leland</hi>
+<hi style="font-family:Open Sans" xml:space="preserve"> (2005): </hi>
+<hi rend="italic" style="font-family:Open Sans">The grammar of graphics</hi>
+<hi style="font-family:Open Sans">. 2. Aufl. New York: Springer.</hi>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

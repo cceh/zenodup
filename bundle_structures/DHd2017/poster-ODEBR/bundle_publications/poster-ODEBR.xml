@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-ODEBR" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Zwei grundlegende Fragen der digitalen Nachhaltigkeit: Wie können wir die heterogenen Forschungsfragen und die Community bei der Verfügbarmachung von Forschungsdaten miteinbeziehen?</title>
+<author>
+<persName>
+<surname>Odebrecht</surname>
+<forename>Carolin</forename>
+</persName>
+<affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+<email>carolin.odebrecht@hu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Dreyer</surname>
+<forename>Malte</forename>
+</persName>
+<affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+<email>malte.dreyer@cms.hu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Lüdeling</surname>
+<forename>Anke</forename>
+</persName>
+<affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+<email>anke.luedeling@hu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Krause</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+<email>krauseto@hu-berlin.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Langzeitarchivierung</term>
+<term>Community-Building</term>
+<term>Heterogene Forschungsfragen</term>
+<term>Historische Korpora</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Sammlung</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Kommunikation</term>
+<term>Archivierung</term>
+<term>Community-Bildung</term>
+<term>Identifizierung</term>
+<term>Kollaboration</term>
+<term>Projektmanagement</term>
+<term>Organisation</term>
+<term>Daten</term>
+<term>Infrastruktur</term>
+<term>Metadaten</term>
+<term>Projekte</term>
+<term>Forschungsergebnis</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Zielstellung</head>
+<p>Digitale Nachhaltigkeit verstehen wir als eine komplexe Anforderung, die aus besonders vielen Blickwinkeln betrachtet werden kann und sollte. Wir stellen mit dem LAUDATIO-Projekt
+                    <ref n="1" target="poster-ODEBRftn1" type="note">1</ref> eine Möglichkeit vor, digitale Nachhaltigkeit herzustellen, in dem wir einen unabhängigen und freien Zugriff auf historische Korpora zum Zweck der Wiederverwendung für Forschungszwecke, die über diejenigen hinausgehen, für die die Daten ursprünglich gesammelt wurden, ermöglichen. Eine so definierte digitale Nachhaltigkeit realisieren wir, in dem wir eine Vielzahl an verschiedenen, teils sehr unterschiedlichen historischen Korpusdaten inklusive einer umfangreichen aber einheitlichen Dokumentation, die ihre Erschließbarkeit in Bezug auf konkrete Nutzungsszenarien gewährleistet, bereitstellen. Aus dieser Arbeit zeigt sich, dass eine interdisziplinäre und insbesondere lokale institutionelle Zusammenarbeit mit den Korpuserstellern notwendig ist, die einen engen kommunikativen Austausch von Zielen und Anforderungen diesbezüglich sowie eine Identifikation von möglichen Kooperationen erst ermöglicht. Digitale Nachhaltigkeit definiert sich dementsprechend aus der jeweiligen Perspektive der Daten, der Dokumentation und der Institutionen ein wenig anders. Diese drei Perspektiven und deren Zusammenspiel in Bezug auf die digitale Nachhaltigkeit wollen wir anhand von historischen Korpora (vgl. Claridge 2008; Kytö 2011; Gippert und Gehrke 2015) diskutieren und an einem Best-Practice-Beispiel einer interdisziplinären Zusammenarbeit der Philosophischen Fakultät und dem Rechenzentrum der Humboldt-Universität zu Berlin (HU) erklären. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Heterogenität von Forschungsdaten </head>
+<p>Die vielfältige Datenlandschaft in den Geisteswissenschaften stellt eine große Herausforderung in Bezug auf die digitale Nachhaltigkeit dar, da es unterschiedliche Datenmodelle und -formate und verschiedene Aufbereitungs- und Analyseverfahren gibt, die alle aus immer neuen Nutzungsszenarien und ihren Forschungsfragen, resultieren. In diesem Sinne verstehen wir die Arbeit mit Korpora als eine innovative, fortlaufende, wissenschaftliche Arbeit, die sich nicht ausschließlich auf existierende Standards stützen kann (auch wenn solche Standards natürlich immer beachtet werden müssen). Es werden daher zusätzlich andere, neue Forschungsdatenmodelle und -formate sowie Ressourcentypen entwickelt und auf die unterschiedlichsten Weisen weiter- und wiedergenutzt. Beispielsweise werden in den Projekten, die LAUDATIO unterstützt, eine Vielzahl an allein XML-basierten Formaten (nach z.B. Dipper 2005; Schmidt und Wörner 2009; Romary et al. 2015; TEI Consortium 2015) sowie CSV-basierte Formate (nach z.B. Nivre, Hall und Nilsson 2004; Krause und Zeldes 2016) für die Erstellung von historischen Korpora genutzt. Daneben finden auch und graphbasierten Lösungen (nach z.B. Ide und Suderman 2014) sowie proprietäre Formate, wie bei Ágel und Hennig (2007)
+                    <ref n="2" target="poster-ODEBRftn2" type="note">2</ref>, und immer häufiger JSON-basierte Formate wie bei Vertan et al. (2016) Anwendung. Zusätzlich dazu können Korpora in mehreren Formaten vorliegen, vor allem wenn Korpora in einer Mehrebenenarchitektur (vgl. Romary und Ide 2004; Lüdeling 2012) entworfen und verschiedene Formate für unterschiedliche Abschnitte des Forschungsdatenzyklus (vgl. Rümpel 2011) genutzt werden.
+                </p>
+<p>Der innovative Charakter der Korpuserstellung zeigt sich neben den verwendeten Formaten auch in den Annotationsrichtlinien: Einige Formate wie TIGER-XML (Romary et al. 2015) und tcf (Heid et al. 2010) legen die Anzahl und die Bedeutung der Annotationen inklusive ihrer Tagsets fest, andere wie TEI-XML (TEI Consortium 2015) lassen Spielraum in der Serialisierung und in der Anwendung, in dem es beispielsweise mehrere valide Möglichkeiten gibt, Autoren in einem Dokument auszuweisen.
+                    <ref n="3" target="poster-ODEBRftn3" type="note">3</ref> Wieder andere Formate wie EXMARaLDA-XML (Schmid und Wörner 2009) oder PAULA-XML (Dipper 2005) geben keinerlei solcher Beschränkungen vor.
+                </p>
+<p>Insbesondere bei solchen Formaten mit größtmöglichem Spielraum für Interpretationen in Form von Annotationen zeigt sich die Vielfältigkeit der korpusbasierten Forschung. Ein typisches Annotationsbeispiel für historische Korpora sind Normalisierungen. Viele Korpora besitzen eigene Richtlinien für die Normalisierung, vgl. zum Beispiel für historisches Deutsch Jurish (2010), Bollmann et al. (2012); Odebrecht et al., (eingereicht). Auch für verschiedene Forschungsfragen wesentliche Kategorisierungen wie Wortarten gibt es annähernd für jedes historische Korpus eine eigene Lösung. So werden beispielsweise de-facto-Standards wie das STTS (Schiller et al. 1999) jeweils für ein Korpus angepasst, z.B. Dipper et al. (2013)
+                    <ref n="4" target="poster-ODEBRftn4" type="note">4</ref> oder Fürstinnenkorresondenzkorpus
+                    <ref n="5" target="poster-ODEBRftn5" type="note">5</ref>. 
+                </p>
+<p>Diese Beispiele zeigen, dass sich Korpora desselben Formats und ein Korpus, das in verschiedenen Formaten vorliegt, in Bezug auf ihre Annotationen stark unterscheiden können.</p>
+<p>Ausgehend von dieser Datenlage erscheint die Nachvollziehbarkeit des Lebenszyklus der Korpora als ein weiterer wesentlicher Faktor für die digitale Nachhaltigkeit. Welche der bisher genutzten Formate und Annotationskonzepte sich langfristig durchsetzen, welche Formate wie technisch unterstützt und welche neuen Lösungen entwickelt werden, hängt dann im Wesentlichen von der Entwicklung der korpusbasierten Forschung ab. Daher setzen wir eine Archivierung und Dokumentation aller verwendeten Formate und Annotationen eines Korpus in LAUDATIO um. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Metadaten</head>
+<p>Über einheitliche extensive Metadaten dieser heterogenen Korpusdaten und deren Lebenszyklus kann eine umfangreiche Korpusdokumentation sowie eine einheitliche Suche und ein gezielter Zugriff über eine Plattform auf die Forschungsdaten erstellerunabhängig gewährleistet werden (Bird und Simons 2001; Broeder et al. 2010; Burnard 2013; Hedges et al. 2013; Odebrecht et al. 2015). Die relevanten Kriterien für die Dokumentation und die Suche leiten sich aus den Wiederverwendungsszenarien ab (Odebrecht 2014). Um eine überfachliche Suche zu ermöglichen, wird in LAUDATIO eine technisch-abstrakte Modellierung der Metadaten eingesetzt, um die fachspezifischen Konzepte von Korpora überfachlich abzubilden (Odebrecht 2015). Neben den deskriptiven Metadaten sind für eine nachhaltige Vorhaltung von Forschungsdaten auch administrative, strukturelle, technische und Archivierungsmetadaten relevant (vgl. Xie und Matusiak 2016; Solodovnik 2011; NISO 2004), die für eine technische Infrastruktur berücksichtigt werden müssen, um die Nachvollziehbarkeit über längere Zeiträume und wechselnde Anwendergruppen hinweg gewährleisten zu können. So ermöglicht das einheitliche Metadatenmodell eine extensive und transparente Informationsarchitektur für die unterschiedlichen Ressourcen, was wiederum ein Baustein für deren digitale Nachhaltigkeit darstellt.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Institutionelle (Zusammen-)Arbeit</head>
+<p>Bedingt durch die unterschiedlichen Sichtweisen und Anforderungen zur digitalen Nachhaltigkeit aus den Fachdisziplinen und durch die technische Infrastruktur sind Lösungen nur im Team und in Zusammenarbeit unterschiedlicher Kompetenzen plan- und erstellbar. Im Beispiel ist für den erstellerunabhängigen Zugang zu historischen Korpora die enge Zusammenarbeit zwischen den FachwissenschaftlerInnen und LAUDATIO erforderlich. Der Computer- und Medienservice (CMS) und die Arbeitsgruppe Korpuslinguistik am Institut für deutsche Sprache und Linguistik der HU setzen mit dem LAUDATIO-Projekt einen Schwerpunkt auf eine enge institutionelle Zusammenarbeit mit den verschiedenen Arbeitsgruppen der philosophischen Fakultät, in dem es die Anforderungen für die digitale Nachhaltigkeit von Forschungsdaten der Fakultät mit den ForscherInnen erarbeitet und umsetzt und in Bezug auf die Hochschule als Ganzes in einen Entwicklungsrahmen einbettet (Dreyer und Vollmer 2016). Der Betrieb des LAUDATIO-Repositoriums wird nach Ende des Projektes, in dem Entwicklungen und Anpassungen am System vorgenommen werden, weiterhin durch das CMS sowie durch die Arbeitsgruppe Korpuslinguistik am Institut für deutsche Sprache und Linguistik gewährleistet. Um die heterogene Datenlandschaft zu verstehen, die umfassende Dokumentation zu erstellen und die neuen Entwicklungen aufzunehmen, erweist sich eine lokale Zusammenarbeit über die Fakultäten hinweg als sehr vorteilhaft. So bestehen enge Kooperationen unter anderem mit Projekten</p>
+<list type="unordered">
+<item>der Sprachgeschichte: DDD-AD
+                        <ref n="6" target="poster-ODEBRftn6" type="note">6</ref>, HIPKON
+                        <ref n="7" target="poster-ODEBRftn7" type="note">7</ref>, DDB
+                        <ref n="8" target="poster-ODEBRftn8" type="note">8</ref>, Fürstinnenkorrespondenzkorpus
+                        <ref n="9" target="poster-ODEBRftn9" type="note">9</ref>
+</item>
+<item>der Germanistik: Märchenkorpus
+                        <ref n="10" target="poster-ODEBRftn10" type="note">10</ref> und RIDGES
+                        <ref n="11" target="poster-ODEBRftn11" type="note">11</ref>
+</item>
+<item>der Slawistik: “Korpuslinguistik und diachrone Syntax: Subjektkasus, Finitheit und Kongruenz in slavischen Sprachen”
+                        <ref n="12" target="poster-ODEBRftn12" type="note">12</ref>
+</item>
+</list>
+<p>die jeweils sehr unterschiedliche Arbeitsweisen und Zielrichtungen haben. Durch diese Synergiebildung können Projekte ohne gesonderte Finanzierung oder Ressourcen nach ihrem Projektende durch eine genaue Kenntnis der Forschungsdatenlandschaft in einer Institution identifiziert und unterstützt werden. Die durch die Förderer (z.B. Deutsche Forschungsgemeinschaft 2015) oder Universitäten (z.B. Humboldt-Universität zu Berlin 2014) vorgegeben Richtlinien zur Veröffentlichung und Archivierung von Projektergebnissen können so ebenfalls berücksichtigt werden. </p>
+<p>Mit diesem Ansatz können gleichzeitig zwei Ziele erreicht werden: Die Projekte müssen sich keinen umfangreichen semantischen Anforderungen unterwerfen und können sich frei ausdrücken. Gleichzeitig können sie ihre fachspezifischen Anforderungen direkt an die Arbeitsgruppe Korpuslinguistik bzw. an den CMS richten. Andersherum können die Korpusprojekte in Umfragen zur gewünschten Anforderungen und Softwarelösungen direkt befragt und in die Entwicklung mit einbezogen werden.
+                    <ref n="13" target="poster-ODEBRftn13" type="note">13</ref> Auf diese Art findet ein Community-Aufbau statt, der sich nicht nur über gemeinsame technische Plattformen definiert, sondern rein über die inhaltliche Gemeinsamkeit der Arbeit mit historischen Korpora und somit auch über disziplinäre Grenzen hinweg. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Einordnung und Schlussfolgerungen</head>
+<p>Der hier vorgestellte Weg, digitale Nachhaltigkeit von Forschungsdaten zu ermöglichen, stützt sich auf eine Spezialisierung auf einen bestimmten Typ von Forschungsdaten - historisches Korpus - und grenzt sich so von Ansätzen wie Zenodo
+                    <ref n="14" target="poster-ODEBRftn14" type="note">14</ref> und dem Virtual Language Observatory (Van Uytvanck 2012) ab, die keine deutliche Eingrenzung hinsichtlich der Daten und deren Nutzungsszenarien machen. 
+                </p>
+<p>Weiterhin zielt unsere Strategie auf die Unterstützung der Diversität der genutzten Formate und Konzepte, die sich von den TEI spezialisierten Ansätzen wie dem Deutschen Textarchiv (Geyken 2013) und Textgrid (Hedges et al. 2013) unterscheiden. </p>
+<p>Die Korpusersteller selbst nutzen LAUDATIO auch mehr und mehr, um ihre eigenen neuen Versionen der historischen Korpora und damit ihren wissenschaftlichen Fortschritt zu veröffentlichen. Dass unser Ansatz, sich auf die erstellerunabhängige Wiederverwendung von Korpora als eine Strategie für digitale Nachhaltigkeit zu fokussieren, auch außerhalb der Institution funktioniert, zeigt Dumont (2016).</p>
+<p>Um die unterschiedlichen Entwicklungen und Innovationen bei der Korpuserstellung zu identifizieren, kennenzulernen und zu dokumentieren, ist eine enge, auf eine rein fachliche Ebene bezogene Zusammenarbeit mit der Community notwendig, die wir angefangen haben, im Rahmen der Philosophischen Fakultät der HU aufzubauen. </p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" xml:id="poster-ODEBRftn1"> LAUDATIO steht für 
+                            <hi rend="bold">L</hi>ong-term 
+                            <hi rend="bold">A</hi>ccess and 
+                            <hi rend="bold">U</hi>sage of 
+                            <hi rend="bold">D</hi>eeply 
+                            <hi rend="bold">A</hi>nnotated Informa
+                            <hi rend="bold">tio</hi>n. 
+                            <ref target="http://www.laudatio-repository.org">
+<hi rend="underline color(1155CC)">www.laudatio-repository.org</hi>
+</ref>. Zugriff am 16.08.2016.
+                        </note><note n="2" xml:id="poster-ODEBRftn2"> Ágel, Vilmos; Hennig, Mathilde; KAJUK (Version 1.1), Justus-Liebig-Universität Gießen. http://www.uni-giessen.de/kajuk/index.htm.</note><note n="3" rend="footnote text" xml:id="poster-ODEBRftn3"> Wie es zum Beispiel mit den Element &lt;author&gt; möglich ist, vgl. 
+                            <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-author.html">http://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-author.html</ref> Zugriff am 19.08.2016. 
+                        </note><note n="4" xml:id="poster-ODEBRftn4"> Donhauser, Karin; Gippert, Jost; Lühr, Rosemarie; ddd-ad (Version 0.1), Humboldt-Universität zu Berlin. https://referenzkorpusaltdeutsch.wordpress.com/.
+                            <lb/>
+<ref target="http://hdl.handle.net/11022/0000-0000-7FC2-7">
+<hi rend="underline color(1155CC)">http://hdl.handle.net/11022/0000-0000-7FC2-7</hi>
+</ref>
+</note><note n="5" xml:id="poster-ODEBRftn5"> Lühr, Rosemarie; Faßhauer, Vera; Prutscher, Daniela; Seidel, Henry; Fuerstinnenkorrespondenz (Version 1.1), Universität Jena, DFG. http://www.indogermanistik.uni-jena.de/Web/Projekte/Fuerstinnenkorr.htm.</note><note n="6" xml:id="poster-ODEBRftn6">
+<ref target="http://www.deutschdiachrondigital.de/">
+<hi rend="underline color(1155CC)">http://www.deutschdiachrondigital.de/</hi>
+</ref> Zugriff am 16.08.2016.
+                            </note><note n="7" xml:id="poster-ODEBRftn7">
+<ref target="https://www.linguistik.hu-berlin.de/de/institut/professuren/sprachgeschichte/forschung/sfb632-informationsstruktur">
+<hi rend="underline color(1155CC)">https://www.linguistik.hu-berlin.de/de/institut/professuren/sprachgeschichte/forschung/sfb632-informationsstruktur</hi>
+</ref> Zugriff am 16.08.2016.
+                            </note><note n="8" xml:id="poster-ODEBRftn8">
+<ref target="http://korpling.german.hu-berlin.de/ddb-doku/index.htm">
+<hi rend="underline color(1155CC)">http://korpling.german.hu-berlin.de/ddb-doku/index.htm</hi>
+</ref> Zugriff am 16.08.2016.
+                            </note><note n="9" xml:id="poster-ODEBRftn9">
+<ref target="http://dwee.eu/Rosemarie_Luehr/?Projekte___DFG-Projekte___Fruehneuzeitliche_Fuerstinnenkorrespondenz_im_mitteldeutschen_Raum">
+<hi rend="underline color(1155CC)">http://dwee.eu/Rosemarie_Luehr/?Projekte___DFG-Projekte___Fruehneuzeitliche_Fuerstinnen korrespondenz_im_mitteldeutschen_Raum</hi>
+</ref> Zugriff am 16.08.2016.
+                            </note><note n="10" xml:id="poster-ODEBRftn10"> Die Erstellung des Korpus erfolgte im Rahmen von universitärer Lehre 
+                                <ref target="http://www.textbewegung.de/lehre.html">http://www.textbewegung.de/lehre.html</ref> Zugriff am 16.08.2016.
+                            </note><note n="11" xml:id="poster-ODEBRftn11">
+<ref target="https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/ridges-projekt/">
+<hi rend="underline color(1155CC)">https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/ridges-projekt/</hi>
+</ref> Zugriff am 16.08.2016.
+                            </note><note n="12" xml:id="poster-ODEBRftn12">
+<ref target="https://www.slawistik.hu-berlin.de/de/member/meyerrol/subjekte/corpora">
+<hi rend="underline color(1155CC)">https://www.slawistik.hu-berlin.de/de/member/meyerrol/subjekte/corpora</hi>
+</ref> Zugriff am 16.08.2016.
+                            </note><note n="13" rend="footnote text" xml:id="poster-ODEBRftn13"> Zusätzlich helfen uns auch Evaluationen mit Kooperationspartner durch Dritte, die angebotenen Lösungen zu verbessern (z.B. Stiller et al. 2016).</note><note n="14" rend="footnote text" xml:id="poster-ODEBRftn14">
+<ref target="http://zenodo.org">http://zenodo.org</ref> Zugriff am 19.08.2016.
+                        </note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Ágel, Vilmos / Hennig, Mathilde</hi> (eds.) (2007):
+                        <hi rend="italic">Zugänge zur Grammatik der gesprochenen Sprache</hi>. Germanistische Linguistik 269.
+                        Tübingen: Niemeyer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bird, Steven / Simons, Gary</hi> (2001): 
+                        „The OLAC Metadata Set and Controlled Vocabularies“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the 39th Annual Meeting of the Association for Computational Linguistics</hi> 7–18 
+                        arXiv:cs/0105030v1.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bollmann, Marcel / Dipper, Stefanie / Krasselt, Julia / Petran, Florian</hi> (2012): 
+                        „Manual and semi-automatic normalization of historical spelling - case studies from Early New High German“, in: 
+                        <hi rend="italic">Proceedings of KONVENS 2012</hi> 342–350 
+                        <ref target="http://www.oegai.at/konvens2012/proceedings/51_bollmann12w/">http://www.oegai.at/konvens2012/proceedings/51_bollmann12w/</ref> [letzter Zugriff 22 August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Broeder, Daan / Kemps-Snijders, Marc / Van Uytvanck, Dieter / Windhouwer, Menzo / Withers, Peter / Wittenburg, Peter / Zinn, Claus</hi> (2010): 
+                        „A data category registry- and component-based metadata framework“, 
+                        in: 
+                        <hi rend="italic">Proceedings of LREC 2010</hi> 43–47.
+                    </bibl>
+<bibl>
+<hi rend="bold">Burnard, Lou</hi> (2013): 
+                        „The Evolution of the Text Encoding Initiative: From Research Project to Research Infrastructure“, 
+                        in: 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 5: 1–13 10.4000/jtei.811.
+                    </bibl>
+<bibl>
+<hi rend="bold">Claridge, Claudia</hi> (2008): 
+                        „Historical Corpora“, 
+                        in: Lüdeling, Anke / Kytö, Merja (eds): 
+                        <hi rend="italic">Corpus Linguistics. An International Handbook</hi> 1. 
+                        Berlin: De Gruyter 242–259.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dipper, Stefanie</hi> (2005): 
+                        „XML-based Stand-off Representation and Exploitation of Multi-Level Linguistic Annotation“, in: 
+                        <hi rend="italic">Proceedings of Berliner XML Tage</hi> 39–50.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dipper, Stefanie / Donhauser, Karin / Klein, Thomas / Linde, Sonja / Müller, Stefan / Wegera, Klaus-Peter</hi> (2013): 
+                        „HiTS. Ein Tagset für historische Sprachstufen des Deutschen“, 
+                        in: Zinsmeister, Heike / Heid, Ulrich / Beck, Kathrin (eds.): 
+                        <hi rend="italic">Das Stuttgart-Tübingen Wortarten-Tagset: Stand und Perspektiven</hi>. Journal for Language Technology and Computational Linguistics 28(1) 85–137.
+                    </bibl>
+<bibl>
+<hi rend="bold">Deutsche Forschungsgemeinschaft</hi> (2015): 
+                        <hi rend="italic">Leitlinien zum Umgang mit Forschungsdaten</hi>. 
+                        Bonn: DFG. 
+                        <ref target="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf">http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf</ref> [letzter Zugriff 22. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Dreyer, Malte / Vollmer, Andreas</hi> (2016): 
+                        „An Integral Approach to Support Research Data Management at the Humboldt-Universität zu Berlin“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the European University Information Systems organisation</hi> 320–327.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dumont, Stefan</hi> (2016): 
+                        „Fürstinnenkorrespondenzen. Experiment einer Nachnutzung“, 
+                        in: 
+                        <hi rend="italic">Entwicklung und Nutzung interdisziplinärer Repositorien für historische textbasierte Korpora. DHd 2016 Workshop</hi>
+<ref target="http://www.laudatio-repository.org/laudatio/workshop-dhd2016/">http://www.laudatio-repository.org/laudatio/workshop-dhd2016/</ref> [letzter Zugriff 22. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Gippert, Jost / Gehrke, Ralf</hi> (eds.) (2015): 
+                        <hi rend="italic">Historical Corpora</hi>. Korpuslinguistik und interdisziplinäre Perspektiven auf Sprache 5. 
+                        Tübingen: Narr.
+                    </bibl>
+<bibl>
+<hi rend="bold">Geyken, Alexander</hi> (2013): 
+                        „Wege zu einem historischen Referenzkorpus des Deutschen. das Projekt Deutsches Textarchiv“, 
+                        in: Hafemann, Ingelore (ed.): 
+                        <hi rend="italic">Perspektiven einer corpusbasierten historischen Linguistik und Philologie</hi>. Internationale Tagung des Akademienvorhabens "Altägyptisches Wörterbuch“ an der BBAW. Thesaurus Linguae Aegyptiae, 4: 221–234.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hedges, Mark / Neuroth, Heike / Smith, Kathleen M. / Blanke, Thomas / Romary, Laurent / Küster, Marc / Illingworth, Malcom</hi> (2013): 
+                        „TextGrid, TEXTvre, and DARIAH. Sustainability of Infrastructure for Textual Scholarship“, in: 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 5: 1–13.
+                    </bibl>
+<bibl>
+<hi rend="bold">Heid, Ulrich / Schmid, Helmut / Eckart, Kerstin / Hinrichs, Erhard W.</hi> (2010): 
+                        „A Corpus Representation Format for Linguistic Web Services. The D-SPIN Text Corpus Format and its Relationship with ISO Standards“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the Seventh International Conference on Language Resources and Evaluation</hi> 494–499.
+                    </bibl>
+<bibl>
+<hi rend="bold">Humboldt-Universität zu Berlin</hi> (2014): 
+                        <hi rend="italic">Grundsätze zum Umgang mit Forschungsdaten an der Humboldt-Universität zu Berlin</hi>. Unter Mitarbeit von Elena Simukovic 
+                        <ref target="https://www.cms.hu-berlin.de/de/ueberblick/projekte/dataman/hu-fdt-policy/view">https://www.cms.hu-berlin.de/de/ueberblick/projekte/dataman/hu-fdt-policy/view</ref> [letzter Zugriff 6. Juni 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Ide, Nancy / Sudermann, Keith</hi> (2014): 
+                        „The Linguistic Annotation Framework. a standard for annotation interchange and merging“,
+                        in: 
+                        <hi rend="italic">Language Resources and Evaluation</hi> 48 (3): 395–418.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jurish, Bryan</hi> (2010): 
+                        „More than Words: Using Token Context to Improve Canonicalization of Historical German“,
+                        in: 
+                        <hi rend="italic">Journal for Language Technology and Computational Linguistics</hi> 25 (1): 23–40.
+                    </bibl>
+<bibl>
+<hi rend="bold">Krause, Thomas / Zeldes, Amir</hi> (2016): 
+                        „ANNIS3. A new architecture for generic corpus query and visualization“, 
+                        in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 31 (1): 118–139 10.1093/llc/fqu057.
+                    </bibl>
+<bibl rend="No Spacing">
+<hi rend="bold">Kytö, Merja</hi> (2011): 
+                        „Corpora and historical linguistics“, 
+                        in: 
+                        <hi rend="italic">Revista Brasileira de Linguistica Aplicada</hi> 11: 417–457 10.1590/S1984-63982011000200007.
+                    </bibl>
+<bibl rend="No Spacing">
+<hi rend="bold">Lüdeling, Anke</hi> (2012): 
+                        „A corpus-linguistics perspective on language documentation, data, and the challenge of small corpora“, 
+                        in: Seifart, Frank / Haig, Geoffrey / Himmelmann, Nikolaus P. / Jung, Dagmar / Margetts Anna / Trilsbeek, Paul (eds.): 
+                        <hi rend="italic">Potentials of Language Documentation. Methods, Analyses, and Utilization</hi> 4. Language Documentation &amp; Conservation Special Publication 3. 
+                        Hawaii: University of Hawai‘i Press 32–38.
+                    </bibl>
+<bibl>
+<hi rend="bold">NISO</hi> (2004): 
+                        <hi rend="italic">Understanding Metadatada</hi>. 
+                        Bethesda: NISO Press 
+                        <ref target="http://www.niso.org/publications/press/UnderstandingMetadata.pdf">http://www.niso.org/publications/press/UnderstandingMetadata.pdf</ref> [letzter Zugriff 13. Februar 2015].
+                    </bibl>
+<bibl>
+<hi rend="bold">Nivre, Joakim / Hall, Johan / Nilsson, Jens</hi> (2004): 
+                        „Memory-Based Dependency Parsing“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Eighth Conference on Computational Natural Language Learning</hi> 49–56. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Odebrecht, Carolin / Belz, Malte / Zeldes, Amir / Lüdeling, Anke / Krause, Thomas</hi> (eingereicht):
+                        <hi rend="italic">RIDGES Herbology - Designing a Diachronic Multi-Layer Corpus</hi>. 
+                        Vorversion
+                        <ref target="https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/ridges-projekt/download-files/pubs/odebrechtetaleingereicht_ridgesherbology.pdf/at_download/file">https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/ridges-projekt/download-files/pubs/odebrechtetaleingereicht_ridgesherbology.pdf/at_download/file</ref> [letzter Zugriff 22. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Odebrecht, Carolin</hi> (2014): 
+                        „Modeling Linguistic Research Data for a Repository for Historical Corpora“,
+                        in: 
+                        <hi rend="italic">DH2016: Book of Abstracts</hi> 284–285.
+                    </bibl>
+<bibl>
+<hi rend="bold">Odebrecht, Carolin</hi> (2015): 
+                        „Interdisziplinäre Nutzung von Forschungsdaten mithilfe einer technisch-abstrakten Modellierung“, 
+                        in: 
+                        <hi rend="italic">DHd 2015: Von Daten zu Erkenntnissen</hi>
+<ref target="https://dh2014.files.wordpress.com/2014/07/dh2014_abstracts_proceedings_07-11.pdf">https://dh2014.files.wordpress.com/2014/07/dh2014_abstracts_proceedings_07-11.pdf</ref> [letzter Zugriff 22. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Odebrecht, Carolin / Krause, Thomas / Lüdeling, Anke</hi> (2015):
+                        „Austausch von historischen Texten verschiedener Sprachen über das LAUDATIO-Repository“,
+                        in: 
+                        <hi rend="italic">DGfS-CL Poster Session. 37. Jahrestagung der Deutschen Gesellschaft für Sprachwissenschaft</hi>
+<ref target="http://asvdoku.informatik.uni-leipzig.de/dgfs2015cl-ps/index.html">http://asvdoku.informatik.uni-leipzig.de/dgfs2015cl-ps/index.html</ref> [letzter Zugriff 22. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Romary, Laurent / Ide, Nancy</hi> (2004): 
+                        „International standard for a linguistic annotation framework“,
+                        in: 
+                        <hi rend="italic">Natural Language Engineering</hi> 10 (3-4): 211–225.
+                    </bibl>
+<bibl>
+<hi rend="bold"> Romary, Laurent / Zeldes, Amir / Zipser, Florian</hi> (2015):
+                        „&lt;tiger2/&gt;: serialising the ISO SynAF syntactic object model“, 
+                        in: 
+                        <hi rend="italic">Language Resources and Evaluation</hi> 49 (1): 1–18.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rümpel, Stefanie</hi> (2011): 
+                        „Der Lebenszyklus von Forschungsdaten“, 
+                        in: Büttner, Stephan / Hobohm, Hans-Christoph / Müller, Lars (eds.): 
+                        <hi rend="italic">Handbuch Forschungsdatenmanagement</hi>. 
+                        Bad Honnef: Bock + Herchen 25–34.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schmidt, Thomas / Wörner, Kai</hi> (2009): 
+                        „EXMARaLDA. Creating, analysing and sharing spoken language corpora for pragmatic research”, 
+                        in: 
+                        <hi rend="italic">Pragmatics</hi> 19 (4): 565–582.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine / Thielen, Christine</hi> (1999): 
+                        „Guidelines für das Tagging deutscher Textkorpora mit STTS“, 
+                        in: Universität Tübingen (ed.): Seminar für Sprachwissenschaft. Technischer Report. 
+                        <ref target="http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf">http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf</ref> [letzter Zugriff 22. August 2016]. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Solodovnik, Iryna</hi> (2011): 
+                        „Metadata issues in Digital Libraries. key concepts and perspectives“,
+                        in: 
+                        <hi rend="italic">Italian Journal of Library, Archives and Information Science</hi> 2 (2): 4663-1–4663-27. 10.4403/jlis.it-4663.
+                    </bibl>
+<bibl>
+<hi rend="bold">Stiller, Juliane / Thoden, Klaus / Zielke, Dennis</hi> (2016): 
+                        „Usability in den Digital Humanities am Beispiel des LAUDATIO-Repositoriums“,
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 244–247.
+                    </bibl>
+<bibl>
+<hi rend="bold">TEI Consortium</hi> (2015): 
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi> (2.9.1). 
+                        <ref target="http://www.tei-c.org/Guidelines/P5/">http://www.tei-c.org/Guidelines/P5/</ref> [letzter Zugriff 15. November 2015].
+                    </bibl>
+<bibl>
+<hi rend="bold">Van Uytvanck, Dieter / Stehouwer, Herman / Lempen, Lari</hi> (2012):
+                        ”Semantic metadata mapping in practice: the Virtual Language Observatory“, 
+                        in: 
+                        <hi rend="italic">Proceedings of LREC 2012</hi> 1029–1033.
+                    </bibl>
+<bibl>
+<hi rend="bold">Vertan, Cristina / Ellwardt, Andreas / Hummerl, Susanne</hi> (2016):
+                        „Ein Mehrebenen-Tagging-Modell für die Annotation altäthiopischer Texte“, 
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 258–261.
+                    </bibl>
+<bibl>
+<hi rend="bold">Xie, Iris / Matusiak, Krystyna</hi> (2016): 
+                        <hi rend="italic">Discover Digital Libraries. Theory and Practice</hi>. 
+                        Oxford: Elsevier.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

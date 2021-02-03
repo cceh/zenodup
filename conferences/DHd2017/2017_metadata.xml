@@ -1,0 +1,3728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <metadata><!-->9 Panels<-->
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltige Entwicklung digitaler Ressourcen und Werkzeuge für wenig erforschte historische Sprachen</title>
+      <creators>
+         <creator>
+            <name>Feige, Tillmann</name>
+             <affiliation>Universität Hamburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>González, Alicia</name>
+             <affiliation>Universität Hamburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Prager, Christian</name>
+             <affiliation>NRW Akademie der Wissenschaften und der Künste</affiliation>
+         </creator>
+          <creator>
+              <name>Vertan, Cristina</name>
+              <affiliation>Universität Hamburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Werwick, Heiko</name>
+              <affiliation>Universität Jena, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Virtuelle Forschungsplattformen im Vergleich: MONK, Textgrid, Transcribo und Transkribus</title>
+      <creators>
+         <creator>
+             <name>Piotrowski, Michael</name>
+             <affiliation>Université de Lausanne</affiliation>
+         </creator>
+         <creator>
+             <name>Schomaker, Lambert</name>
+             <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+         </creator>
+          <creator>
+              <name>Burch, Thomas</name>
+              <affiliation>Staatsarchiv des Kantons Zürich</affiliation>
+          </creator>
+          <creator>
+              <name>Hodel, Tobias</name>
+              <affiliation>Leibniz-Institut für europäische Geschichte Mainz</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Das digitale Museum: ein nachhaltiger Partner der Digital Humanities?</title>
+      <creators>
+         <creator>
+             <name>Hohmann, Georg</name>
+             <affiliation>Deutsches Museum, München</affiliation>
+         </creator>
+         <creator>
+             <name>Schmidt, Antje</name>
+             <affiliation>Museum für Kunst und Gewerbe, Hamburg</affiliation>
+         </creator>
+         <creator>
+             <name>Doppelbauer, Regina</name>
+             <affiliation>Albertina, Wien</affiliation>
+         </creator>
+         <creator>
+             <name>Rehbein, Malte</name>
+             <affiliation>Universität Passau</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>eValuation - Kriterien zur Evaluation digitaler Angebote und Forschungsinfrastrukturen</title>
+      <creators>
+         <creator>
+             <name>Kurmann, Eliane</name>
+             <affiliation>infoclio.ch, Schweiz</affiliation>
+         </creator>
+         <creator>
+             <name>Baumann, Jan</name>
+             <affiliation>infoclio.ch, Schweiz</affiliation>
+         </creator>
+         <creator>
+             <name>Natale, Enrico</name>
+             <affiliation>infoclio.ch, Schweiz</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Virtuelle Forschungsumgebung für objekt- und raumbezogene Forschung</title>
+      <creators>
+         <creator>
+             <name>Kuroczyński, Piotr</name>
+            <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften</affiliation>
+         </creator>
+         <creator>
+             <name>Stanicka-Brzezicka, Ksenia</name>
+             <affiliation>Herder-Institut für historische Ostmitteleuropaforschung – Institut der Leibniz-Gemeinschaft, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Fichtl, Barbara</name>
+              <affiliation>Herder-Institut für historische Ostmitteleuropaforschung – Institut der Leibniz-Gemeinschaft, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Köhler, Werner</name>
+              <affiliation>Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Brahaj, Armand</name>
+              <affiliation>FIZ Karlsruhe - Leibniz-Institut für Informationsinfrastruktur, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Fichtner, Mark</name>
+              <affiliation>Germanisches Nationalmuseum Nürnberg, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Zugänglichkeit und dauerhafte Nutzbarkeit historischer Bildrepositorien für Forschung und Vermittlung</title>
+      <creators>
+         <creator>
+             <name>Niebling, Florian</name>
+             <affiliation>Julius-Maximilians Universität Würzburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Münster, Sander</name>
+             <affiliation>Technische Universität Dresden, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Friedrichs, Kristina</name>
+             <affiliation>Julius-Maximilians Universität Würzburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Henze, Frank</name>
+             <affiliation>Brandenburgische Technische Universität Cottbus-Senftenberg, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Kröber, Cindy</name>
+              <affiliation>Technische Universität Dresden, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Bruschke, Jonas</name>
+              <affiliation>Julius-Maximilians Universität Würzburg, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Hackathons als Zukunftslabor für die digitale Nachhaltigkeit</title>
+      <creators>
+         <creator>
+             <name>Noyer, Frédéric</name>
+             <affiliation>Verein Opendata.ch, Schweiz</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Aktuelle Herausforderungen der Digitalen Dramenanalyse</title>
+      <creators>
+         <creator>
+             <name>Willand, Marcus</name>
+             <affiliation>Universität Stuttgart</affiliation>
+         </creator>
+         <creator>
+             <name>Trilcke, Peer</name>
+             <affiliation>Universität Potsdam</affiliation>
+         </creator>
+          <creator>
+              <name>Schöch, Christof</name>
+              <affiliation>Universität Würzburg</affiliation>
+          </creator>
+          <creator>
+              <name>Rißler-Pipka, Nanette</name>
+              <affiliation>Katholische Universität Eichstätt-Ingolstadt</affiliation>
+          </creator>
+          <creator>
+              <name>Reiter, Nils</name>
+              <affiliation>Universität Stuttgart</affiliation>
+          </creator>
+          <creator>
+              <name>Fischer, Frank</name>
+              <affiliation>Higher School of Economics, Moskau</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Citizen Science unter dem Blickwinkel nachhaltiger sozialer und technischer Infrastrukturen</title>
+      <creators>
+         <creator>
+             <name>Seltmann, Melanie</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+          <creator>
+              <name>Wandl-Vogt, Eveline</name>
+              <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+          </creator>
+          <creator>
+              <name>Dorn, Amelie</name>
+              <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"panel"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata><!-- 3 Plenarvorträge -->
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Wenn Forschen ein nicht reproduzierbarer Prozess ist – Nachhaltigkeit als Herausforderung in der Archäologie</title>
+      <creators>
+         <creator>
+             <name>Fless, Friederike</name>
+             <affiliation>Deutsches Archäologisches Institut, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"plenary"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Nachhaltigkeit: Mittel und/oder Zweck?</title>
+      <creators>
+         <creator>
+             <name>Seele, Peter</name>
+             <affiliation>Università della Svizzera italiana, Schweiz</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"plenary"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Ein Bild sagt mehr als tausend Worte, aber sagen tausend Pixel mehr als ein Wort?</title>
+      <creators>
+         <creator>
+             <name>Süsstrunk, Sabine</name>
+             <affiliation>Digital Humanities Instituts (DHI) der École polytechnique fédérale de Lausanne, Schweiz</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"plenary"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata><!-- 36 Poster -->
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltigkeit durch Zusammenschluss: Die DARIAH Data Re-Use Charter</title>
+      <creators>
+         <creator>
+             <name>Baillot, Anne</name>
+             <affiliation>Centre Marc Bloch, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Busch, Anna</name>
+             <affiliation>Forschungsverbund Weimar Marbach Wolfenbüttel</affiliation>
+         </creator>
+          <creator>
+              <name>Puren, Marie</name>
+              <affiliation>Inria Paris</affiliation>
+          </creator>
+          <creator>
+              <name>Mertens, Mike</name>
+              <affiliation>Goettingen Center for Digital Humanities</affiliation>
+          </creator>
+          <creator>
+              <name>Romary, Laurent</name>
+              <affiliation>Inria Paris</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Living Books about History</title>
+      <creators>
+         <creator>
+             <name>Baumann, Jan</name>
+             <affiliation>infoclio.ch, Schweiz</affiliation>
+         </creator>
+         <creator>
+             <name>Kurmann, Eliane</name>
+             <affiliation>infoclio.ch, Schweiz</affiliation>
+         </creator>
+          <creator>
+              <name>Natale, Enrico</name>
+              <affiliation>infoclio.ch, Schweiz</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Nachhaltigkeit in den Geisteswissenschaften durch TOSCA: Nutzung eines standardbasierten Open-Source Ökosystems</title>
+      <creators>
+         <creator>
+             <name>Breitenbücher, Uwe</name>
+             <affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Barzen, Johanna</name>
+             <affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Falkenthal, Michael</name>
+              <affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Leymann, Frank</name>
+              <affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>„Soziale Datenkuratierung“: Nachhaltigkeit im Projekt. Illuminierte Urkunden als Gesamtkunstwerk</title>
+      <creators>
+         <creator>
+             <name>Bürgermeister, Martina</name>
+             <affiliation>ZIM, Universität Graz, Österreich</affiliation>
+         </creator>
+          <creator>
+              <name>Vogeler, Georg</name>
+              <affiliation>ZIM, Universität Graz, Österreich</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Erschließung einer Sammlung von Volksliedern aus dem deutschsprachigen Raum</title>
+      <creators>
+         <creator>
+             <name>Burghardt, Manuel</name>
+             <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Spanner, Sebastian</name>
+              <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Schmidt, Thomas</name>
+              <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Fuchs, Florian</name>
+              <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Buchhop, Katia</name>
+              <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Nickl, Miriam</name>
+              <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Wolff, Christian</name>
+              <affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>PaLaFra – Entwicklung einer Annotationsumgebung für ein diachrones Korpus spätlateinischer und altfranzösischer Texte</title>
+      <creators>
+         <creator>
+             <name>Döhling, Lars</name>
+             <affiliation>Universität Regensburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Burghardt, Manuel</name>
+             <affiliation>Universität Regensburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Wolff, Christian</name>
+             <affiliation>Universität Regensburg, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Kriterienbasierte Evaluation und Dokumentation technischer Nachhaltigkeit von Forschungssoftware in einem Metadatenrepositorium</title>
+      <creators>
+         <creator>
+             <name>Druskat, Stephan</name>
+             <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Tool zur Normalisierung und Historisierung</title>
+      <creators>
+         <creator>
+             <name>Eder, Elisabeth</name>
+             <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Hadersbeck, Maximilian</name>
+             <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>maus - eine WebApp zur einfachen Erstellung funktionaler Webdokumente</title>
+      <creators>
+         <creator>
+             <name>Dufner, Matthias</name>
+             <affiliation>Hochschule Mainz, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Kunz, Axel</name>
+             <affiliation>Hochschule Mainz, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Klammt, Anne</name>
+              <affiliation>Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed), Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+      <title>Kompilation eines Diskursstruktur-annotierten deutschsprachigen Blogkorpus</title>
+      <creators>
+         <creator>
+             <name>Grumt Suárez, Holger</name>
+             <affiliation>Justus-Liebig-Universität Gießen, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Karlova-Bourbonus, Natali</name>
+             <affiliation>Justus-Liebig-Universität Gießen, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Lobin, Henning</name>
+             <affiliation>Justus-Liebig-Universität Gießen, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Werkzeuge und Infrastrukturen zur Analyse und Beschreibung von Bewegungen in vormodernen Wissensbeständen</title>
+      <creators>
+         <creator>
+             <name>Hegel, Philipp</name>
+             <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Tonne, Danah</name>
+             <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Geukes, Albert</name>
+              <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Krewet, Michael</name>
+              <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Rapp, Andrea</name>
+              <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Stotzka, Rainer</name>
+              <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Uhlmann, Gyburg</name>
+              <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>UIMA als Plattform für die nachhaltige Software-Entwicklung in den Digital Humanities</title>
+      <creators>
+         <creator>
+             <name>Hellrich, Johannes</name>
+             <affiliation>Graduiertenkolleg „Modell Romantik“, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Matthies, Franz</name>
+             <affiliation>Jena University Language &amp; Information Engineering (JULIE) Lab, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Hahn, Udo</name>
+              <affiliation>Jena University Language &amp; Information Engineering (JULIE) Lab, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Twhistory mit autoChirp, Social Media Tools für die Geschichtsvermittlung</title>
+      <creators>
+         <creator>
+             <name>Hermes, Jürgen</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Eide, Øyvind</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Hoffmann, Moritz</name>
+             <affiliation>Freier Historiker</affiliation>
+         </creator>
+          <creator>
+              <name>Eide, Øyvind</name>
+              <affiliation>Universität zu Köln, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Geduldig, Alena</name>
+              <affiliation>Universität zu Köln, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Schildkamp, Philip</name>
+              <affiliation>Universität zu Köln, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Raum und Zeit in Comics: Die Wirkung von Zwischenräumen auf Aufmerksamkeit und empfundene Zeit beim Lesen graphischer Literatur</title>
+      <creators>
+         <creator>
+             <name>Hohenstein, Sven</name>
+             <affiliation>Universität Potsdam, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Laubrock, Jochen</name>
+             <affiliation>Universität Potsdam, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Grotefend digital</title>
+      <creators>
+         <creator>
+             <name>Vogeler, Georg</name>
+             <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Klugseder, Robert</name>
+             <affiliation>Österreichische Akademie der Wissenschaften</affiliation>
+         </creator>
+         <creator>
+             <name>Klug, Helmut W.</name>
+             <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Steiner, Christian</name>
+             <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Raunig, Elisabeth</name>
+             <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltigkeitperspektiven von Graphdaten</title>
+      <creators>
+         <creator>
+             <name>Kuczera, Andreas</name>
+             <affiliation>Regesta Imperii, Universität Gießen, Akademie der Wissenschaften Mainz, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Visuelle Elemente grafischer Literatur: Aufmerksamkeitszuwendung und objektive Beschreibung</title>
+      <creators>
+         <creator>
+             <name>Laubrock, Jochen</name>
+             <affiliation>Universität Potsdam, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Richter, Eike</name>
+             <affiliation>Universität Potsdam, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Hohenstein, Sven</name>
+             <affiliation>Universität Potsdam, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>APIS – Eine Linked Open Data basierte Datamining-Webapplikation für das Auswerten biographischer Daten</title>
+      <creators>
+         <creator>
+             <name>Schlögl, Matthias</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Lejtovicz, Katalin</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Umfrage zu Forschungsdaten an der Philosophischen Fakultät der Universität zu Köln</title>
+      <creators>
+         <creator>
+             <name>Mathiak, Brigitte</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Kronenwett, Simone</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Zwei grundlegende Fragen der digitalen Nachhaltigkeit: Wie können wir die heterogenen Forschungsfragen und die Community bei der Verfügbarmachung von Forschungsdaten miteinbeziehen?</title>
+      <creators>
+         <creator>
+             <name>Odebrecht, Carolin</name>
+             <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Dreyer, Malte</name>
+              <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Lüdeling, Anke</name>
+              <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Krause, Thomas</name>
+              <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Webbasierte Morphemannotation Diachroner Korpora: Ein Weg zu mehr Nachhaltigkeit?</title>
+      <creators>
+         <creator>
+             <name>Peukert, Hagen</name>
+             <affiliation>Universität Hamburg, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Einfaches Topic Modeling in Python - Eine Programmbibliothek für Preprocessing, Modellierung und Analyse</title>
+      <creators>
+         <creator>
+             <name>Jannidis, Fotis</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Schöch, Christof</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Pielström, Steffen</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Vitt, Thorsten</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Paraphrasenerkennung im Projekt Digital Plato</title>
+      <creators>
+         <creator>
+             <name>Kath, Roxana</name>
+             <affiliation>Universität Leipzig</affiliation>
+         </creator>
+         <creator>
+             <name>Keilholz, Franz</name>
+             <affiliation>Technische Universität Dresden</affiliation>
+         </creator>
+         <creator>
+             <name>Klinker, Fabian</name>
+             <affiliation>Technische Universität Dresden</affiliation>
+         </creator>
+         <creator>
+             <name>Pöckelmann, Marcus</name>
+             <affiliation>Martin-Luther-Universität Halle-Wittenberg</affiliation>
+         </creator>
+         <creator>
+             <name>Rücker, Michaela</name>
+             <affiliation>Universität Leipzig</affiliation>
+         </creator>
+         <creator>
+             <name>Švitek, Mihael</name>
+             <affiliation>Technische Universität Dresden</affiliation>
+         </creator>
+         <creator>
+             <name>Wöckener-Gade, Eva</name>
+             <affiliation>Universität Leipzig</affiliation>
+         </creator>
+          <creator>
+              <name>Yu, Xiaozhou</name>
+              <affiliation>Technische Universität Dresden</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Entitäten als Topic Labels: Verbesserung der Interpretierbarkeit und Evaluierbarkeit von Themen durch Kombinieren von Entity Linking und Topic Modeling</title>
+      <creators>
+         <creator>
+             <name>Lauscher, Anne</name>
+             <affiliation>Universität Mannheim, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Nanni, Federico</name>
+              <affiliation>Universität Mannheim, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Ponzetto, Simone Paolo</name>
+              <affiliation>Universität Mannheim, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Comparison of Methods for Automatic Relation Extraction in German Novels</title>
+      <creators>
+         <creator>
+             <name>Krug, Markus</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Wick, Christoph</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Jannidis, Fotis</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Reger, Isabella</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Weimer, Lukas</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Madarasz, Nathalie</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Puppe, Frank</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Kollaborative Forschung über Linked Open Data Forschungsdatenbanken der Universitätsgeschichte. Implementierung des Heloise Common Research Model</title>
+      <creators>
+         <creator>
+             <name>Riechert, Thomas</name>
+             <affiliation>Hochschule für Technik, Wirtschaft und Kultur (HTWK) Leipzig, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Beretta, Francesco</name>
+              <affiliation>Laboratoire de recherche historique Rhône-Alpes (LARHRA), Frankreich</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Die Odyssee zum richtigen Standard - Herausforderungen einer konsistenten Datenmigration von Ulysses: A Critical and Synoptic Edition (1984)</title>
+      <creators>
+         <creator>
+             <name>Schäuble, Joshua</name>
+             <affiliation>Universität Passau, Deutschland; Reichsuniversität Groningen, Niederlande</affiliation>
+         </creator>
+          <creator>
+              <name>Crowley, Ronan</name>
+              <affiliation>Universität Passau, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>... warum nicht gleich Wikidata?!</title>
+      <creators>
+         <creator>
+             <name>Schelbert, Georg</name>
+             <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>„IT for all“ – Das Projekt „Digitaler Campus Bayern – Digitale Datenanalyse in den Geisteswissenschaften“ als Beispiel für nachhaltige IT-Didaktik</title>
+      <creators>
+         <creator>
+             <name>Schulz, Julian</name>
+             <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Maßnahmen zur digitalen Nachhaltigkeit in Langzeitprojekten – Das Beispiel Capitularia</title>
+      <creators>
+         <creator>
+             <name>Schulz, Daniela</name>
+             <affiliation>Bergische Universität Wuppertal; Universität zu Köln</affiliation>
+         </creator>
+          <creator>
+              <name>Fischer, Franz</name>
+              <affiliation>Cologne Center for eHumanities</affiliation>
+          </creator>
+          <creator>
+              <name>Geißler, Nils</name>
+              <affiliation>Cologne Center for eHumanities</affiliation>
+          </creator>
+          <creator>
+              <name>Gödel, Martina</name>
+              <affiliation>Cologne Center for eHumanities</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Where the words are: a visual interactive exploration of plants names</title>
+      <creators>
+         <creator>
+             <name>Therón, Roberto</name>
+             <affiliation>Universidad de Salamanca, Spanien</affiliation>
+         </creator>
+         <creator>
+             <name>Dorn, Amelie</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Seltmann, Melanie</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+         <creator>
+              <name>Benito, Alejandro</name>
+              <affiliation>Universidad de Salamanca, Spanien</affiliation>
+         </creator>
+         <creator>
+             <name>Wandl-Vogt, Eveline</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Gabriel Losada Gómez, Antonio</name>
+             <affiliation>Universidad de Salamanca, Spanien</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>relNet – Modellierung von Themen und Strukturen religiöser Online-Kommunikation</title>
+      <creators>
+         <creator>
+             <name>Elwert, Frederik</name>
+             <affiliation>RUB Bochum, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Tabti, Samira</name>
+              <affiliation>RUB Bochum, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Krech, Volkhard</name>
+              <affiliation>RUB Bochum, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Morik, Katharina</name>
+              <affiliation>Technische Universität Dortmund</affiliation>
+          </creator>
+          <creator>
+              <name>Pfahler, Lukas</name>
+              <affiliation>Technische Universität Dortmund</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Zukünftiger Teil eines Fachinformationsdienstes: Eine Datenbank zur Fachgeschichte der deutschsprachigen Musikwissenschaft zwischen ca. 1810 und ca. 1990, projektiert am Max-Planck-Institut für empirische Ästhetik, Frankfurt am Main</title>
+      <creators>
+         <creator>
+             <name>van Dyck-Hemming, Annette</name>
+             <affiliation>Max Planck-Institut für empirische Ästhetik, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Nachhaltigkeit bei Grundlagenforschung in Akademieprogramm: Das Beispiel „Johann Friedrich Blumenbach-online“</title>
+      <creators>
+         <creator>
+             <name>Wettlaufer, Jörg</name>
+             <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Johnson, Christopher</name>
+              <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>AGATE – European Academies Internet Gateway: Konzept für eine digitale Infrastruktur für die geistes- und sozialwissenschaftlichen Forschungsvorhaben der europäischen Wissenschaftsakademien</title>
+      <creators>
+         <creator>
+             <name>Wuttke, Ulrike</name>
+             <affiliation>Union der deutschen Akademien der Wissenschaften, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Adrian, Dominik</name>
+             <affiliation>Union der deutschen Akademien der Wissenschaften, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Ott, Carolin</name>
+             <affiliation>Union der deutschen Akademien der Wissenschaften, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>TEASys (Tübingen Explanatory Annotations System): Die erklärende Annotation literarischer Texte in den Digital Humanities</title>
+      <creators>
+         <creator>
+             <name>Zirker, Angelika</name>
+             <affiliation>Eberhard Karls Universität Tübingen, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Bauer, Matthias</name>
+             <affiliation>Eberhard Karls Universität Tübingen, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"poster"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata><!--  36 Vorträge -->
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Modellierung literarischen Raums</title>
+      <creators>
+         <creator>
+             <name>Barth, Florian</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Viehhauser, Gabriel</name>
+              <affiliation>Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Dokumentation, Werkzeugkasten, Pakete - Nachhaltigkeit von Daten und Funktionalität Digitaler Editionen</title>
+      <creators>
+         <creator>
+             <name>Czmiel, Alexander</name>
+             <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Hermann Burgers Lokalbericht: Hybrid-Edition mit digitalem Schwerpunkt</title>
+      <creators>
+         <creator>
+             <name>Daengeli, Peter</name>
+             <affiliation>Cologne Center for eHumanities</affiliation>
+         </creator>
+         <creator>
+             <name>Zumsteg, Simon</name>
+             <affiliation>Schweizerisches Literaturarchiv</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Semantische Suche in Ausgestorbenen Sprachen: Eine Fallstudie für das Hethitische</title>
+      <creators>
+         <creator>
+             <name>Daxenberger, Johannes</name>
+             <affiliation>Ubiquitous Knowledge Processing Lab, Department of Computer Science, Technische Universität Darmstadt</affiliation>
+         </creator>
+          <creator>
+              <name>Görke, Susanne</name>
+              <affiliation>Altorientalische Philologie, Institut für Altertumswissenschaften, Johannes Gutenberg-Universität Mainz</affiliation>
+          </creator>
+          <creator>
+              <name>Siahdohoni, Darjush</name>
+              <affiliation>Ubiquitous Knowledge Processing Lab, Department of Computer Science, Technische Universität Darmstadt</affiliation>
+          </creator>
+          <creator>
+              <name>Gurevych, Iryna</name>
+              <affiliation>Ubiquitous Knowledge Processing Lab, Department of Computer Science, Technische Universität Darmstadt</affiliation>
+          </creator>
+          <creator>
+              <name>Prechel, Doris</name>
+              <affiliation>Altorientalische Philologie, Institut für Altertumswissenschaften, Johannes Gutenberg-Universität Mainz</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Autorschaftsattribution bei nicht-normalisiertem Mittelhochdeutsch. Bessere Erkennungsquoten durch ein Normalisierungswörterbuch</title>
+      <creators>
+         <creator>
+             <name>Dimpel, Friedrich Michael</name>
+             <affiliation>FAU Erlangen-Nürnberg, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Von sammlungsspezifischen Visualisierungen zu nachnutzbaren Werkzeugen</title>
+      <creators>
+         <creator>
+             <name>Glinka, Katrin</name>
+             <affiliation>Fachhochschule Potsdam</affiliation>
+         </creator>
+         <creator>
+             <name>Pietsch, Christopher</name>
+             <affiliation>Fachhochschule Potsdam</affiliation>
+         </creator>
+         <creator>
+             <name>Dörk, Marian</name>
+             <affiliation>Fachhochschule Potsdam</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Ein PoS-Tagger für „das“ Mittelhochdeutsche</title>
+      <creators>
+         <creator>
+             <name>Echelmeyer, Nora</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Reiter, Nils</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Schulz, Sarah</name>
+              <affiliation>Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltige Erschließung umfangreicher handschriftlicher Überlieferungen. Ein Fallbeispiel</title>
+      <creators>
+         <creator>
+             <name>Faßhauer, Vera</name>
+             <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>„Der Helmut Kohl unter den Brotaufstrichen“. Zur Extraktion vossianischer Antonomasien aus großen Zeitungskorpora</title>
+      <creators>
+         <creator>
+             <name>Jäschke, Robert</name>
+             <affiliation>University of Sheffield</affiliation>
+         </creator>
+         <creator>
+             <name>Strötgen, Jannik</name>
+             <affiliation>Max-Planck-Institut für Informatik, Saarbrücken</affiliation>
+         </creator>
+         <creator>
+             <name>Krotova, Elena</name>
+             <affiliation>Higher School of Economics, Moskau</affiliation>
+         </creator>
+         <creator>
+             <name>Fischer, Frank</name>
+             <affiliation>Higher School of Economics, Moskau</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+    <metadata>
+        <upload_type>publication</upload_type>
+        <publication_type>conferencepaper</publication_type>
+        <publication_date>13.02.2017</publication_date>
+        <title>Datenvisualisierung als Aisthesis</title>
+        <creators>
+            <creator>
+                <name>Gius, Evelyn</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+            </creator>
+            <creator>
+                <name>Kleymann, Rabea</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+            </creator>
+            <creator>
+                <name>Meister, Jan Christoph</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+            </creator>
+            <creator>
+                <name>Petris, Marco</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+            </creator>
+        </creators>
+        <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+        <access_right>open</access_right>
+        <license>cc-by</license>
+        <doi/>
+        <keywords>"Vortrag"</keywords>
+        <contributors>
+            <contributor>
+                <name>Helling, Patrick</name>
+                <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+                <type>DataCurator</type>
+            </contributor>
+        </contributors>
+        <communities>
+            <identifier>dhd</identifier>
+        </communities>
+        <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+        <conference_acronym>DHd 2017</conference_acronym>
+        <conference_dates>13.02.2017-18.02.2017</conference_dates>
+        <conference_place>Bern</conference_place>
+        <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+    </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Niklas Luhmanns Werk- und Lesekosmos - DH in der bibliographischen Dimension</title>
+      <creators>
+         <creator>
+             <name>Goedel, Martina</name>
+             <affiliation>Cologne Center for eHumanities, Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Zimmer, Sebastian</name>
+             <affiliation>Cologne Center for eHumanities, Universität zu Köln, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+       <upload_type>publication</upload_type>
+       <publication_type>conferencepaper</publication_type>
+       <publication_date>13.02.2017</publication_date>
+       <title>Langzeitinterpretierbarkeit auf Basis des CIDOC-CRM in inter- und transdisziplinären Forschungsprojekten am Germanischen Nationalmuseum (GNM), Nürnberg</title>
+       <creators>
+           <creator>
+               <name>Große, Peggy</name>
+               <affiliation>Germanisches Nationalmuseum, Deutschland</affiliation>
+           </creator>
+           <creator>
+               <name>Wagner, Sarah</name>
+               <affiliation>Germanisches Nationalmuseum, Deutschland; für MUSICES</affiliation>
+           </creator>
+       </creators>
+       <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+       <access_right>open</access_right>
+       <license>cc-by</license>
+       <doi/>
+       <keywords>"Vortrag"</keywords>
+       <contributors>
+           <contributor>
+               <name>Helling, Patrick</name>
+               <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+               <type>DataCurator</type>
+           </contributor>
+       </contributors>
+       <communities>
+           <identifier>dhd</identifier>
+       </communities>
+       <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+       <conference_acronym>DHd 2017</conference_acronym>
+       <conference_dates>13.02.2017-18.02.2017</conference_dates>
+       <conference_place>Bern</conference_place>
+       <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+    
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltige Konzeptionsmethoden für Digital Humanities Projekte am Beispiel der Goethe-PROPYLÄEN</title>
+      <creators>
+         <creator>
+             <name>Kasper, Dominik</name>
+             <affiliation>Akademie der Wissenschaften und der Literatur, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Grüntgens, Max</name>
+             <affiliation>Akademie der Wissenschaften und der Literatur, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Das „Was-bisher-geschah“ von KOLIMO. Ein Update zum Korpus der literarischen Moderne</title>
+      <creators>
+         <creator>
+             <name>Herrmann, J. Berenike</name>
+             <affiliation>Universität Göttingen, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Lauer, Gerhard</name>
+              <affiliation>Universität Göttingen, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Archival Cultural Heritage Online: Eine Virtuelle Forschungsumgebung im Spannungsfeld von Open Access, Nachhaltigkeit und Datenschutz</title>
+      <creators>
+         <creator>
+             <name>Lange, Felix</name>
+             <affiliation>Max-Planck-Institut für Wissenschaftsgeschichte, Berlin</affiliation>
+         </creator>
+         <creator>
+             <name>Wintergrün, Dirk</name>
+             <affiliation>Max-Planck-Institut für Wissenschaftsgeschichte, Berlin</affiliation>
+         </creator>
+          <creator>
+              <name>Wannenwetsch, Oliver</name>
+              <affiliation>Gesellschaft für wissenschaftliche Datenverarbeitung mbH, Göttingen</affiliation>
+          </creator>
+          <creator>
+              <name>Schoepflin, Urs</name>
+              <affiliation>Gesellschaft für wissenschaftliche Datenverarbeitung mbH, Göttingen</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Datenmodellierung und -visualisierung mit Graphdatenbanken. Konzepte und Erfahrungen anlässlich des Relaunches der Bilddatenbank REALonline</title>
+      <creators>
+         <creator>
+             <name>Matschinegg, Ingrid</name>
+             <affiliation>Universität Salzburg, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Nicka, Isabella</name>
+             <affiliation>Universität Salzburg, Österreich</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Digitale Transformationen. Zum Einfluss der Digitalisierung auf die musikwissenschaftliche Editionsarbeit</title>
+      <creators>
+         <creator>
+             <name>Meise, Bianca</name>
+             <affiliation>Universität Paderborn, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Meister, Dorothee</name>
+              <affiliation>Universität Paderborn, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Kontextbasierte Zitationsanalyse soziologischer Klassiker im Verlauf von 100 Jahren</title>
+      <creators>
+         <creator>
+             <name>Messerschmidt, Reinhard</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Mathiak, Brigitte</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Projekte und Aktivitäten im Kontext digitaler 3D-Rekonstruktion im deutschsprachigen Raum</title>
+      <creators>
+         <creator>
+             <name>Münster, Sander</name>
+             <affiliation>Medienzentrum / TU Dresden, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Kuroczyński, Piotr</name>
+              <affiliation>Herder Institut Marburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Pfarr-Harfst, Mieke</name>
+              <affiliation>Fachbereich Architektur, Digitales Gestalten / TU Darmstadt, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Bild, Beschreibung, (Meta)Text. Automatische inhaltliche Erschließung und Annotation kunsthistorischer Daten</title>
+      <creators>
+         <creator>
+             <name>Dieckmann, Lisa</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Hermes, Jürgen</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Neuefeind, Claes</name>
+             <affiliation>Universität zu Köln, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>The Colorized Dead: Computerunterstützte Analysen der Farblichkeit von Filmen in den Digital Humanities am Beispiel von Zombiefilmen</title>
+      <creators>
+         <creator>
+             <name>Pause, Johannes</name>
+             <affiliation>Technische Universität Dresden, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Walkowski, Niels-Oliver</name>
+             <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland / KU Leuven, Belgien</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Aufbau eines historisch-literarischen Metaphernkorpus für das Deutsche</title>
+      <creators>
+         <creator>
+             <name>Pernes, Stefan</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Keller, Lennart</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Peterek, Christoph</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Analyzing Features for the Detection of Happy Endings in German Novels</title>
+      <creators>
+         <creator>
+             <name>Jannidis, Fotis</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Reger, Isabella</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Zehe, Albin</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Becker, Martin</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Hettinger, Lena</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Hotho, Andreas</name>
+              <affiliation>Universität Würzburg, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Automatische Bild-Text-Analyse: Chancen für die Zeitschriftenforschung jenseits von reinen Textdaten</title>
+      <creators>
+         <creator>
+             <name>Rißler-Pipka, Nanette</name>
+             <affiliation>Katholische Universität Eichstätt-Ingolstadt, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Chandna, Swati</name>
+             <affiliation>Karlsruhe Institute of Technology, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Tonne, Danah</name>
+              <affiliation>Karlsruhe Institute of Technology, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Anybody out there? Der Begriff der Masse im Crowdsourcing</title>
+      <creators>
+         <creator>
+             <name>Schilz, Andrea</name>
+             <affiliation>Universität Passau, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Wiederholende Forschung in den digitalen Geisteswissenschaften</title>
+      <creators>
+         <creator>
+             <name>Schöch, Christof</name>
+             <affiliation>Universität Würzburg, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltige Softwareentwicklung in den Digital Humanities. Konzepte und Methoden.</title>
+      <creators>
+         <creator>
+             <name>Schrade, Torsten</name>
+             <affiliation>Akademie der Wissenschaften und der Literatur Mainz, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltigkeit als Prozess: Zur konzeptionellen Funktion digitaler Technologien in der Nachhaltigkeitssicherung für historische Fotos im Projekt efoto-Hamburg</title>
+      <creators>
+         <creator>
+             <name>Schumacher, Mareike</name>
+             <affiliation>Universität Hamburg, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>3D-Metamodeling Christopher Polhem’s Laboratorium mechanicum 1696</title>
+      <creators>
+         <creator>
+             <name>Snickars, Pelle</name>
+             <affiliation>Umea university, Schweden</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Die Impactomatrix – ein interaktiver Katalog für Impactfaktoren und Erfolgskriterien für digitale Infrastrukuren in den Geisteswissenschaften</title>
+      <creators>
+         <creator>
+             <name>Thoden, Klaus</name>
+             <affiliation>Max-Planck-Institut für Wissenschaftsgeschichte, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Wintergrün, Dirk</name>
+             <affiliation>Max-Planck-Institut für Wissenschaftsgeschichte, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Stiller, Juliane</name>
+             <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Meiners, Hanna</name>
+             <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+         </creator> 
+         <creator>
+              <name>Gnadt, Timo</name>
+             <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+         </creator> 
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Netzwerkdynamik, Plotanalyse – Zur Visualisierung und Berechnung der ›progressiven Strukturierung‹ literarischer Texte</title>
+      <creators>
+         <creator>
+             <name>Trilcke, Peer</name>
+             <affiliation>Universität Potsdam, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Fischer, Frank</name>
+              <affiliation>Higher School of Economics, Moskau, Russland</affiliation>
+          </creator>
+          <creator>
+              <name>Göbel, Mathias</name>
+              <affiliation>Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Kampkaspar, Dario</name>
+              <affiliation>Herzog-August-Bibliothek Wolfenbüttel, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Kittel, Christopher</name>
+              <affiliation>Universität Graz, Österreich</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>„Quellen aus der Schweiz für die Welt: jederzeit, überall, für alle“ – Neue Kooperationen der NB im digitalen Zeitalter</title>
+      <creators>
+         <creator>
+             <name>von Wartburg, Karin</name>
+             <affiliation>Schweizerische Nationalbibliothek, Schweiz</affiliation>
+         </creator>
+         <creator>
+             <name>Nepfer, Matthias</name>
+             <affiliation>Schweizerische Nationalbibliothek, Schweiz</affiliation>
+         </creator>     
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Ambige idiomatische Ausdrücke in kinderliterarischen Texten: Mehrwert einer Datenbankanalyse</title>
+      <creators>
+         <creator>
+             <name>Wagner, Wiltrud</name>
+             <affiliation>Eberhard Karls Universität Tübingen, Deutschland</affiliation>
+         </creator>    
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Perspektiven der Benutzeraktionsanalyse im Kontext der Evaluation von Forschungspraktiken in den Digital Humanities</title>
+      <creators>
+         <creator>
+             <name>Walkowski, Niels-Oliver</name>
+             <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+         </creator>   
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+      <title>Zur polykubistischen Informationsvisualisierung von Biographiedaten</title>
+      <creators>
+         <creator>
+             <name>Windhager, Florian</name>
+             <affiliation>Donau-Universität Krems, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Mayr, Eva</name>
+             <affiliation>Donau-Universität Krems, Österreich</affiliation>
+         </creator>
+         <creator>
+            <name>Wandl-Vogt, Eveline</name>
+            <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Schreder, Günther</name>
+             <affiliation>Donau-Universität Krems, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Gruber, Christine</name>
+             <affiliation>Österreichische Akademie der Wissenschaften, Wien</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Entwicklung und Einrichtung einer digitalen Arbeitsumgebung für die Jeremias Gotthelf-Edition. Ein Erfahrungsbericht</title>
+      <creators>
+         <creator>
+             <name>Zihlmann, Patricia</name>
+             <affiliation>Universität Bern, Forschungsstelle Jeremias Gotthelf, Schweiz</affiliation>
+         </creator>
+         <creator>
+             <name>von Zimmermann, Christian</name>
+             <affiliation>Universität Bern, Forschungsstelle Jeremias Gotthelf, Schweiz</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"Vortrag"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata><!-- 8 Workshops -->
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Daten sammeln, modellieren und durchsuchen mit DARIAH-DE</title>
+      <creators>
+         <creator>
+             <name>Gradl, Tobias</name>
+             <affiliation>Universität Bamberg</affiliation>
+         </creator>
+         <creator>
+             <name>Aschauer, Anna</name>
+             <affiliation>Leibniz-Institut für Europäische Geschichte (IEG)</affiliation>
+         </creator>
+         <creator>
+             <name>Dogunke, Swantje</name>
+             <affiliation>Klassik Stiftung Weimar</affiliation>
+         </creator>
+         <creator>
+             <name>Klaffki, Lisa</name>
+             <affiliation>Herzog August Bibliothek Wolfenbüttel</affiliation>
+         </creator>
+          <creator>
+              <name>Schmunk, Stefan</name>
+              <affiliation>Niersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+          </creator>
+          <creator>
+              <name>Steyer, Timo</name>
+              <affiliation>Herzog August Bibliothek Wolfenbüttel</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>open your data, open your code: Offene Lizenzierung für geisteswissenschaftliche Projekte</title>
+      <creators>
+         <creator>
+             <name>Hannesschläger, Vanessa</name>
+             <affiliation>ACDH-OEAW Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+         </creator>
+          <creator>
+              <name>Losehand, Joachim</name>
+              <affiliation>creative commons Austria</affiliation>
+          </creator>
+          <creator>
+              <name>Kamocki, Paweł</name>
+              <affiliation>IDS Mannheim, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Scholger, Walter</name>
+              <affiliation>ZIM-ACDH Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz, Österreich</affiliation>
+          </creator>
+          <creator>
+              <name>Witt, Andreas</name>
+              <affiliation>IDS Mannheim, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Amini, Seyavash</name>
+              <affiliation>e-Infrastructures Austria</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+    <metadata>
+        <upload_type>publication</upload_type>
+        <publication_type>conferencepaper</publication_type>
+        <publication_date>13.02.2017</publication_date>
+        <title>Dokumente segmentieren und Handschriften erkennen: Arbeiten mit der Plattform Transkribus</title>
+        <creators>
+            <creator>
+                <name>Hodel, Tobias</name>
+                <affiliation>Staatsarchiv des Kantons Zürich</affiliation>
+            </creator>
+            <creator>
+                <name>Lang, Eva-Maria</name>
+                <affiliation>Archiv des Bistums Passau</affiliation>
+            </creator>
+            <creator>
+                <name>Fiel, Stefan</name>
+                <affiliation>Technische Universität Wien, Faculty of Informatics, Institute of Computer Aided Automation, Computer Vision Lab</affiliation>
+            </creator>
+        </creators>
+        <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+        <access_right>open</access_right>
+        <license>cc-by</license>
+        <doi/>
+        <keywords>"workshop"</keywords>
+        <contributors>
+            <contributor>
+                <name>Helling, Patrick</name>
+                <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+                <type>DataCurator</type>
+            </contributor>
+        </contributors>
+        <communities>
+            <identifier>dhd</identifier>
+        </communities>
+        <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+        <conference_acronym>DHd 2017</conference_acronym>
+        <conference_dates>13.02.2017-18.02.2017</conference_dates>
+        <conference_place>Bern</conference_place>
+        <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+    </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Einführung in das PANDORA Linked Open Data Framework.</title>
+      <creators>
+         <creator>
+             <name>Johnson, Christopher</name>
+             <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Wettlaufer, Jörg</name>
+             <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+         </creator>     
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>HowTo build a your own »Digital Edition Web-App«</title>
+      <creators>
+         <creator>
+             <name>Kampkaspar, Dario</name>
+             <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Andorfer, Peter</name>
+             <affiliation>Österreichische Akademie der Wissenschaften – Austrian Centre for Digital Humanities, Wien, Österreich</affiliation>
+         </creator>
+         <creator>
+             <name>Baumgarten, Marcus</name>
+             <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Steyer, Timo</name>
+             <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+         </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Annotieren und Publizieren mit DARIAH-DE und TextGrid</title>
+      <creators>
+         <creator>
+             <name>Kollatz, Thomas</name>
+             <affiliation>Steinheim-Institut für deutsch-jüdische Geschichte Essen, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Hegel, Philipp</name>
+              <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Veentjer, Ubbo</name>
+              <affiliation>Niedersächsische Staat- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Söring, Sibylle</name>
+              <affiliation>Niedersächsische Staat- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Funk, Stefan E.</name>
+              <affiliation>Niedersächsische Staat- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>Nachhaltiges Management von Bildmetadaten mit XMP, exiftool und Fotostation</title>
+      <creators>
+         <creator>
+             <name>Pohl, Oliver</name>
+             <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Schrade, Torsten</name>
+             <affiliation>Akademie der Wissenschaften und Literatur Mainz, Deutschland</affiliation>
+         </creator>     
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+   <metadata>
+      <upload_type>publication</upload_type>
+      <publication_type>conferencepaper</publication_type>
+      <publication_date>13.02.2017</publication_date>
+       <title>CUTE: CRETA Unshared Task zu Entitätenreferenzen</title>
+      <creators>
+         <creator>
+             <name>Reiter, Nils</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Blessing, Andre</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Echelmeyer, Nora</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+         <creator>
+             <name>Koch, Steffen</name>
+             <affiliation>Universität Stuttgart, Deutschland</affiliation>
+         </creator>
+          <creator>
+              <name>Kremer, Gerhard</name>
+              <affiliation>Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Murr, Sandra</name>
+              <affiliation>Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Overbeck, Maximilian</name>
+              <affiliation>Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+          <creator>
+              <name>Pichler, Axel</name>
+              <affiliation>Universität Stuttgart, Deutschland</affiliation>
+          </creator>
+      </creators>
+      <description>A single abstract from the DHd-2017 Book of Abstracts.</description>
+      <access_right>open</access_right>
+      <license>cc-by</license>
+      <doi/>
+      <keywords>"workshop"</keywords>
+      <contributors>
+         <contributor>
+            <name>Helling, Patrick</name>
+            <affiliation>Digital Humanities im deutschsprachigen Raum e.V.</affiliation>
+            <type>DataCurator</type>
+         </contributor>
+      </contributors>
+      <communities>
+         <identifier>dhd</identifier>
+      </communities>
+      <conference_title>DHd 2017 - Digitale Nachhaltigkeit. 4. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum"</conference_title>
+      <conference_acronym>DHd 2017</conference_acronym>
+      <conference_dates>13.02.2017-18.02.2017</conference_dates>
+      <conference_place>Bern</conference_place>
+      <conference_url>https://dhd2015.uni-graz.at/de/</conference_url>
+   </metadata>
+</root>

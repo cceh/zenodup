@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="154_final-RISSLER_PIPKA_Nanette_Zeitungen_und_Zeitschriften_als_multim" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zeitungen und Zeitschriften als multimodale, digitale Forschungsobjekte: Theorien und Methoden</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-09-28T08:34:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Zeitungen</term>
+                    <term>Zeitschriften</term>
+                    <term>Digitalisierung</term>
+                    <term>Datenanalyse</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align:left; ">Zeitschriften und Zeitungen aus den verschiedenen historischen Epochen und Ländern werden seit Jahren digitalisiert und der Öffentlichkeit und Forschung zugänglich gemacht. Allein im europäischen Raum gibt es dazu groß angelegte Projekte, die untereinander z.T. eng vernetzt sind (Europeana, ANNO, The British Newspaper Archive, Delpher, Gallica, Hemeroteca digital, ZDB, ZEFYS). Diese Erzeugung neuer Forschungsdaten bzw. das Zugänglichmachen von bisher auf der ganzen Welt verstreuter kultureller Zeitzeugen wirft für sich allein genommen bereits eine Reihe praktischer und theoretischer Fragen auf. Da die meisten Digitalisierungsprojekte von Bibliotheken initiiert werden, herrschen zumindest in der Art und Weise der Erstellung und Verwaltung gewisse Standards vor (DFG 2013). Die Einigung auf ein Dateiformat, in dem die Zeitungen und Zeitschriften präsentiert werden oder welche Zugriffsrechte bestehen, scheint aber dennoch schwierig zu sein. Wenn sich Forschende ein Zeitungs- oder Zeitschriftenkorpus zusammenstellen, dann gehen sie zumeist eine Kooperation mit der besitzenden Bibliothek ein oder verfügen selbst über die Rechte an der Sammlung (vgl. dazu DH-Projekte wie: Oceanic Exchanges, illustrierte magazine, Die Fackel, Chinese Entertainment Newspapers, Chinese Women's Magazines, WeChangEd, Blue Mountain, MJP, MMP, Revistas Culturales 2.0, Journalliteratur, Literatur im Zeitalter der Illustrierten, u.v.m.). Es stellen sich schon bei der Datenerzeugung eine Reihe von Fragen, deren Klärung zu einer vereinfachten Zugänglichkeit der Forschungsdaten und -objekte führen würde (vgl. Panelbeiträge Neudecker, Kampkaspar/Resch).</p>
+                <p style="text-align:left; ">Daneben sind Zeitungen und Zeitschriften als Medien per se multimodal (Igl / Menzel 2016; Fricke 2012) und -medial konzipiert. Sie setzen sich aus Bild-Text-Arrangements zusammen und nutzen verschiedene Modalitäten (Interaktion versch. Codes im selben Medium) zur Kommunikation. Da Zeitungen und Zeitschriften in verschiedene Bereiche untergliedert sind, verlangen sie von Leser*innen einen anderen Lektüremodus als das Buch, der Brief, das Plakat, das Comic oder andere Druckwerke. Dabei können sie aber selbst diese anderen Medien enthalten und abbilden. Gerade die Mischung der Formate und Inhalte zeichnet das Medium aus und definiert Sub-Genres (Tages- oder Wochenzeitung, Sport- oder Kulturzeitschrift). Zusätzlich zur schlichten Menge der Inhalte, kommt normalerweise auch ein Layout, das sich von anderen Druckwerken unterscheidet. Bei Zeitungen sind es zumeist Kolonnen, bei Zeitschriften können es auch buchähnliche Aufteilungen sein, die sich zudem im Laufe der Entwicklung vom 17.-21. Jahrhundert verändern (Rißler-Pipka 2017). All diese Merkmale, die hier nur angerissen werden können, bescheren uns beim Wechsel vom analogen Druckwerk zum Digitalisat eine Reihe von Herausforderungen – sowohl theoretischer als auch technischer Art. Von theoretischer Perspektive aus behaupten wir, historische Brüche und Veränderung anhand multimodaler Wahrnehmung diagnostizieren zu können. Das geht einher mit der von Walter Benjamin beschriebenen technischen Reproduzierbarkeit des Kunstwerks (Benjamin 1935-39) und reicht bis zu aktuell kritischen Beobachtungen aus Lateinamerika, die die Rezeption der modernen Presse und Zeitschriften mit der Nutzung digitaler Medien vergleichen (Macciuci 2015: 209). Aus technischer Perspektive stellt sich zum einen das Problem der Texterkennung auf Artikelebene (OCR, NewsEye). Zum anderen gilt es zu überlegen, wie man diese Besonderheiten des Artefakts Zeitung oder Zeitschrift ins digitale Forschungsobjekt überträgt (Drucker 2009: 109; Gooding 2017: 173). Nicht nur die Lesesituation wird eine andere sein, ob das Werk aus Papier im Kaffeehaus gelesen wird oder ob es am Bildschirm digital geblättert oder als XML-Datei dargestellt wird. Auf der anderen Seite gibt es Sorgen um den Verlust der Materialität, der Haptik, der multimodalen Wahrnehmung. Dazu haben sich schon lange vor der Digitalisierung eigene Theorien gebildet (Gumbrecht et al. 1995; Genz / Gévaudan 2016). Niemand möchte ernsthaft ein Äquivalent zum Artefakt finden, aber es sollte auf der anderen Seite die Flexibilität und Interoperabilität bestehen, um sowohl die Anforderungen von FAIR (Wilkinson et al.) als auch diejenigen der Forschung zu erfüllen. Entsprechend der vorgestellten Beiträge sollen gemeinsame Fragen diskutiert werden wie: </p>
+                <list type="unordered">
+                    <item>Welche für die Forschung relevanten Elemente werden im digitalen Forschungsobjekt repräsentiert? </item>
+                    <item>Wie können die Daten und Metadaten für die Analyse genutzt werden? </item>
+                    <item>Welche Metadatenstandards werden aktuell international verwendet und welche Probleme könnten damit gelöst werden? </item>
+                    <item>Wie verändert sich die Forschung und ihre Fragestellungen durch die Arbeit am digitalen Forschungsobjekt?</item>
+                    <item>Kann die Multimodalität des Forschungsobjekts durch digitale Methoden analysiert werden oder wird das Nebeneinander eher verstärkt (Podewski 2018)?</item>
+                </list>
+                <p style="text-align:left; ">Die Panelvorträge zeigen verschiedene Seiten aus den Bereichen der Digitalisierung und Bereitstellung (1-2) sowie der späteren Analyse (3-4), um so anhand konkreter Beispiele aus der Praxis die Diskussion anzustoßen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head> Panelvorträge</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Masse vs Klasse oder (wie) lässt sich die Dynamik von Digitalisierung und Digital Humanities organisieren? (Clemens Neudecker)</head>
+                    <p style="text-align:left; ">Die Zeitungsdigitalisierung wurde in Deutschland im internationalen Vergleich lange Zeit vernachlässigt. Vom DFG-Pilotprojekt zur Digitalisierung historischer Zeitungen wurde 2016 ein Master-Plan vorgelegt, dem neben einer DFG-Ausschreibung zur Massendigitalisierung von Zeitungen auch ein Projekt zur Errichtung eines nationalen Zeitungsportals innerhalb der Deutschen Digitalen Bibliothek (DDB) folgte. Das Ziel dieser Initiativen ist es, in den kommenden Jahren eine maßgebliche Erhöhung der digitalisierten Zeitungen in Deutschland und deren zentralen Nachweis für die Forschung zu ermöglichen. In Vorbereitung darauf wurde bereits die Zeitschriftendatenbank (ZDB) überarbeitet und bietet nun forschungsrelevante Mehrwertdienste wie u.a. die Visualisierung von Zeitungsnetzwerken. Aber auch auf europäischer (Europeana Newspapers) und internationaler Ebene finden Bemühungen statt, die zum Ziel haben, Suche und Analyse für digitalisierte Zeitungen über Sprach- und Landesgrenzen hinaus zu vereinfachen. Parallel dazu sind zahlreiche Digital Humanities Projekte entstanden (Oceanic Exchanges, impresso, NewsEye) die mit unterschiedlichen Verfahren und Forschungsdesigns an umfangreichen Zeitungskorpora arbeiten. Die Interoperabilität von Datenmodellen spielt dabei für die Digital Humanities eine ebenso große Rolle wie die Möglichkeit, zusätzliche durch Analyse und Annotation gewonnene Informationen zu vorhandenen Metadaten hinzuzufügen. Andererseits stoßen auch die im Zuge der Digitalisierung entstehenden Metadaten zur Provenienz auf zunehmendes Interesse bei Forschenden. Vor diesem Hintergrund stellt sich die Frage, wie sich die Dynamiken von (Massen-)Digitalisierung und spezifischen Anforderungen der diversen Forschungsvorhaben in Einklang bringen lassen und inwieweit hierbei neue Technologien wie IIIF und das W3C Web Annotation Data Model von Nutzen sein können.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Die Wiener Zeitung als Fallstudie: Partizipative Ansätze in der Praxis (Dario Kampkaspar / Claudia Resch )</head>
+                    <p style="text-align:left; ">Wie sich historische Zeitungen vom analogen Druckwerk in digitale Medien überführen lassen, wird derzeit am Beispiel der ältesten, bestehenden Zeitung der Welt, der Wiener Zeitung (im 18. Jahrhundert: "Wien(n)erisches Diarium") an der Österreichischen Akademie der Wissenschaften erprobt. Das Projektteam nutzt die Plattform "Transkribus", um aus mehreren Hundert historischen (Frakturtext-) Ausgaben, die derzeit im Portal ANNO als Bild-Digitalisate vorliegen, verlässliche Volltexte zu generieren und diese schrittweise online zur Verfügung zu stellen. Am Beispiel des Projekts soll gezeigt werden, wie gemeinsam mit künftigen User*innen im Rahmen der technischen Möglichkeiten eine Benutzeroberfläche entwickelt wird. In diesem Zusammenhang wird das Projektteam seine aktuelle Umfrage unter Forschenden, die mit der Zeitung vertraut sind und häufig mit ihr arbeiten, vorstellen. Denn je konkreter die individuellen Interessen der zukünftigen Zielgruppen am Datenmaterial formuliert sind, desto besser lässt sich einschätzen, worin die Herausforderungen bei der Digitalisierung historischer Zeitungs- und Zeitschriftenbestände in Zukunft liegen (vgl. Gooding 2017: 172).</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Kulturzeitschriften als soziokulturelle Produkte (Teresa Herzgsell / Jörg Lehmann)</head>
+                    <p style="text-align:left; ">Im DFG-Projekt "Literarische Modernisierungsprozesse und transnationale Netzwerkbildung im Medium der Kulturzeitschrift" werden Metadaten zu Kulturzeitschriften manuell erhoben und in ein feingliedriges Klassifikationssystem eingeordnet: Name des/der Beiträger*in (nebst Geschlecht, Herkunftsland, etc.), Pseudonyme, Titel, Genre und Sprache des Beitrags. Gegebenenfalls werden auch Widmungen, Erstpublikation, Originalsprache, etc. erfasst. Gegen Ende des Projekts werden fast 60 spanischsprachige Kulturzeitschriften ausgewertet sein. Diese umfangreiche Datensammlung bildet die Grundlage für die Analyse der Akteurs- und Genrenetzwerke (Ehrlicher / Herzgsell 2016). Sie bietet aber auch die Möglichkeit, statistische Auswertungen der erhobenen Merkmale der Zeitschriften sowie der Beiträger*innen durchzuführen. </p>
+                    <p style="text-align:left; ">Um Zeitschriften als soziokulturelle Produkte zu charakterisieren, präsentieren wir in unserem Beitrag Auswertungen relevanter Metadaten. Unser Anliegen ist es, auf einer quantitativen Grundlage sichtbar zu machen, wie die Zeitschriften aufgemacht sind und wie die soziodemographischen Daten zu den Beiträger*innen diese Aufmachung konfigurieren. Wir wollen folgenden Forschungsfragen nachgehen: Inwiefern können die manuell erhobenen Daten – wie etwa die verwendeten Genreklassifikationen und die Titel der Beiträge – Auskunft geben über das Profil der Zeitschriften? Lassen sich die verschiedenen Zeitschriften auf Grundlage dieser Merkmalskombinationen in Gruppen mehr oder weniger ähnlicher Kulturprodukte unterteilen? Kann man auf statistischer Basis Vorlieben bestimmter Beiträger*innen für bestimmte Text- und Bildformen ausmachen, d.h. Autor*in-Genre-Korrespondenzen? Lassen sich Korrelationen zwischen den verwendeten Genres und den biografischen Daten der Beiträger*innen finden?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Forschen mit Metadaten: Über notwendige und zusätzliche Metadaten in Zeitungs- und Zeitschriftenprojekten (Nanette Rißler-Pipka)</head>
+                    <p style="text-align:left; ">Was bezeichnen wir überhaupt als Metadaten von Zeitungen und Zeitschriften und welchen Mehrwert haben sie für die Forschung?</p>
+                    <p style="text-align:left; "> Von Seiten der Literaturwissenschaft wird das Desiderat der Forschung bezüglich fehlender (Meta-)Daten, die es ermöglichen Zeitungen und Zeitschriften als kulturelle Zeitzeugen in Beziehung zu setzen, schon von Frank et al. genau bestimmt, (Frank et al.: 2010, 10). Es wird dort gefragt, wer wo über wen und aus welcher Perspektive geschrieben habe. Teilweise lässt sich dies mit bibliographischen Metadaten oder denjenigen aus Inhaltsverzeichnissen quantitativ ermessen. Teilweise müssen aber auch je nach Forschungsfrage Metadaten in Form von Annotationen hinzu gefügt werden. Der Fokus soll hier auf die Interoperabilität der Metadaten gelegt werden, d.h. wie werden sie angelegt? Dies zielt auf die Frage ab, welche theoretischen Vorüberlegungen für die Entwicklung einheitlicher Metadatenstandards speziell in dem Bereich der Zeitungen- und Zeitschriftenforschung notwendig sind. Neben den händisch angelegten Metadaten kommen in einem digitalen Analyseworkflow meist auch Ergebnisse aus Tools hinzu, die auch als Metadaten des digitalen Forschungsobjekts behandelt werden und im Idealfall gemeinsam mit den vorhandenen Metadaten ausgewertet werden sollten.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">ANNO (AustriaN Newpapers Online)</hi>: <ref target="http://anno.onb.ac.at/">http://anno.onb.ac.at</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Benjamin, Walter (1935-39)</hi>: <hi rend="italic">"Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit"</hi> in: ders.: Gesammelte Schriften, Bd. 1,2 Frankfurt am Main: Suhrkamp, {1980} 471–508.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Blue Mountain Project</hi>: <ref target="http://bluemountain.princeton.edu/exist/apps/bluemountain/index.html">http://bluemountain.princeton.edu/exist/apps/bluemountain/index.html</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chinese Women‘s Magazines in the Late Qing and Early Republican Period</hi>: <ref target="https://kjc-sv034.kjc.uni-heidelberg.de/frauenzeitschriften/">https://kjc-sv034.kjc.uni-heidelberg.de/frauenzeitschriften/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chinese Entertainment Newspapers</hi>: <ref target="http://projects.zo.uni-heidelberg.de/xiaobao/index.php?p=start">http://projects.zo.uni-heidelberg.de/xiaobao/index.php?p=start</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Das Wien(n)erische Diarium</hi>: <hi rend="italic">Digitaler Datenschatz für die geisteswissenschaftlichen Disziplinen (GD2016/16)</hi><ref target="https://www.oeaw.ac.at/de/acdh/projects/wiennerisches-diarium-digital/" xml:space="preserve"> https://www.oeaw.ac.at/de/acdh/projects/wiennerisches-diarium-digital/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Delpher</hi>: <ref target="https://www.delpher.nl/">https://www.delpher.nl</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Deutsche Forschungsgemeinschaft (2013)</hi>: <hi rend="italic">"DFG-Praxisregeln 'Digitalisierung'"</hi>, <ref target="http://www.dfg.de/download/pdf/foerderung/programme/lis/praxisregeln_digitalisierung_2013.pdf">http://www.dfg.de/download/pdf/foerderung/programme/lis/praxisregeln_digitalisierung_2013.pdf</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">DFG Ausschreibung</hi> <hi rend="italic">"Digitalisierung historischer Zeitungen des deutschen Sprachgebiets"</hi> vom 22. März 2018: <ref target="http://www.dfg.de/foerderung/info_wissenschaft/info_wissenschaft_18_08/index.html">http://www.dfg.de/foerderung/info_wissenschaft/info_wissenschaft_18_08/index.html</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">DFG Projekt</hi> <hi rend="italic">"Errichtung eines nationalen Zeitungsportals auf der Basis der organisatorischen und technischen Infrastruktur der Deutschen Digitalen Bibliothek (DDB) – 'DDB-Zeitungsportal'"</hi>: <ref target="http://gepris.dfg.de/gepris/projekt/404633104">http://gepris.dfg.de/gepris/projekt/404633104</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Die Fackel</hi>, Austrian Academy Corpus: <ref target="http://corpus1.aac.ac.at/fackel">http://corpus1.aac.ac.at/fackel</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Drucker, Johanna (2009)</hi>: <hi rend="italic">SpecLab: digital aesthetics and projects in speculative computing</hi>. Chicago: University of Chicago Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ehrlicher, Hanno / Herzgsell, Teresa (2016)</hi>: <hi rend="italic">Zeitschriften als Netzwerke und ihre digitale Visualisierung. Grundlegende methodologische Überlegungen und erste Anwendungsbeispiele</hi>. <ref target="http://www.revistas-culturales.de/de/buchseite/hanno-ehrlicher-teresa-herzgsell-zeitschriften-als-netzwerke-und-ihre-digitale">http://www.revistas-culturales.de/de/buchseite/hanno-ehrlicher-teresa-herzgsell-zeitschriften-als-netzwerke-und-ihre-digitale</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Empfehlungen zur Digitalisierung historischer Zeitungen in Deutschland (Masterplan Zeitungsdigitalisierung)</hi>: <ref target="http://www.zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/z/Masterplan.pdf">http://www.zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/z/Masterplan.pdf</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">ESPrit</hi>: <ref target="http://www.espr-it.eu">http://www.espr-it.eu</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Europeana Newspapers</hi>: <ref target="http://www.europeana-newspapers.eu">http://www.europeana-newspapers.eu</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Forschergruppe Journalliteratur</hi>: <ref target="https://journalliteratur.blogs.ruhr-uni-bochum.de/ueber-die-forschergruppe/">https://journalliteratur.blogs.ruhr-uni-bochum.de/ueber-die-forschergruppe/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Frank, Gustav / Podewski, Madleen / Scherer, Stefan (2010)</hi>: <hi rend="italic">"Kultur – Zeit – Schrift. Literatur- und Kulturzeitschriften als 'kleine Archive'"</hi>, Internationales Archiv für Sozialgeschichte der deutschen Literatur (IASL). 34, Nr. 2 (Januar): 1-45. <ref target="https://doi.org/10.1515/iasl.2009.013">https://doi.org/10.1515/iasl.2009.013</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fricke, Ellen (2012)</hi>: <hi rend="italic">Grammatik multimodal: wie Wörter und Gesten zusammenwirken</hi>. Linguistik, Impulse &amp; Tendenzen 40. Berlin / Boston: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gallica</hi> (presses et revues): <ref target="https://gallica.bnf.fr/html/und/presse-et-revues/presse-et-revues">https://gallica.bnf.fr/html/und/presse-et-revues/presse-et-revues</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Genz, Julia / Gévaudan, Paul (2016)</hi>: <hi rend="italic">Medialität, Materialität, Kodierung: Grundzüge einer allgemeinen Theorie der Medien</hi>. Bielefeld: De Gruyter / transcript.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gooding, Paul (2017)</hi>: <hi rend="italic">Historic Newspapers in the Digital Age. "Search All About It!”</hi>. London / New York: Routledge.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gumbrecht, Hans Ulrich / Elsner, Monika / Pfeiffer, Karl Ludwig (eds.) (1995)</hi>: <hi rend="italic">Materialität der Kommunikation</hi>. Frankfurt am Main: Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hemeroteca digital</hi> (Bibiblioteca Nacional de España): <ref target="http://www.bne.es/es/Catalogos/HemerotecaDigital/">http://www.bne.es/es/Catalogos/HemerotecaDigital/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Igl, Natalia / Menzel, Julia (eds.) (2016)</hi>: <hi rend="italic">Illustrierte Zeitschriften um 1900: mediale Eigenlogik, Multimodalität und Metaisierung</hi>. Edition Medienwissenschaft. Bielefeld: Transcript.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">illustrierte magazine</hi>: <ref target="http://magazine.illustrierte-presse.de">http://magazine.illustrierte-presse.de</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">impresso</hi>: <ref target="https://impresso-project.ch/">https://impresso-project.ch/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">International Image Interoperability Framework</hi>: <ref target="https://iiif.io/">https://iiif.io/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Literatur im Zeitalter der Illustrierten</hi>: <hi rend="italic">Stationen komplexer Text-Bild-Beziehungen im 19. Jahrhundert</hi>: <ref target="http://gepris.dfg.de/gepris/projekt/282457319">http://gepris.dfg.de/gepris/projekt/282457319</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Macciuci, Raquel (2015)</hi>: <hi rend="italic">"Técnica, soporte, ámbitos de sociabilidad y mecanismos de legitimación: sobre la construcción de espacios de literatura en la prensa periódica"</hi> in: <hi rend="bold">Schlünder, Susanne / Macciuci, Raquel (eds.)</hi>: <hi rend="italic">Literatura y técnica: derivas ficcionales y materiales. Libros, escritores, textos, frente a la máquina y la ciencia, </hi>Actas del VIII Congreso Orbis Tertius. La Plata: Ediciones del lado de acá 205–231.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">MJP</hi>, Modernist Journals Project, <ref target="http://modjourn.org/">http://modjourn.org</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">MMP</hi>, Modernist Magazines Project: <ref target="http://www.modernistmagazines.com/">http://www.modernistmagazines.com</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">NewsEye</hi>: <ref target="https://www.newseye.eu/">https://www.newseye.eu/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Oceanic Exchanges</hi>: <ref target="http://oceanicexchanges.org/">http://oceanicexchanges.org/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Podewski, Madleen (2018)</hi>: <hi rend="italic">"›Kleine Archive‹ in den Digital Humanities – Überlegungen zum Forschungsobjekt ›Zeitschrift‹"</hi>, in: <hi rend="bold">Huber, Martin / Krämer, Sybille (eds.)</hi>: <hi rend="italic">Sonderband 3 der Zeitschrift für digitale Geisteswissenschaften.</hi><ref target="https://doi.org/10.17175/sb003_010">https://doi.org/10.17175/sb003_010</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Revistas Culturales 2.0</hi>: <ref target="http://www.revistas-culturales.de/">http://www.revistas-culturales.de</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rißler-Pipka, Nanette (2017)</hi>: <hi rend="italic">"Image and Text in Numbers: Layout Analysis for Hispanic and Spanish Modern Magazines"</hi>, in: <hi rend="bold">Busch, Hannah / Fischer, Franz / Sahle, Patrick (eds.)</hi>: <hi rend="italic">Kodikologie und Paläographie im digitalen Zeitalter 4 - Codicology and Palaeography in the Digital Age 4</hi>, Books on Demand, Norderstedt 25–42, <ref target="http://kups.ub.uni-koeln.de/id/eprint/7780">http://kups.ub.uni-koeln.de/id/eprint/7780</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">The British Newspaper Archive</hi>: <ref target="https://www.britishnewspaperarchive.co.uk/">https://www.britishnewspaperarchive.co.uk</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Web Annotation Data Model</hi>: <ref target="https://www.w3.org/TR/annotation-model/">https://www.w3.org/TR/annotation-model/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">WeChangEd</hi>: <ref target="http://www.wechanged.ugent.be">http://www.wechanged.ugent.be</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wilkinson, Mark u. a. (2016)</hi>: <hi rend="italic">"The FAIR Guiding Principles for Scientific Data Management and Stewardship"</hi>, Scientific Data 3 (15. März 2016): 160018, <ref target="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">ZDB</hi>: Zeitschriftendatenbank: <ref target="https://zdb-katalog.de/">https://zdb-katalog.de/</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">ZEFYS</hi>: <ref target="http://zefys.staatsbibliothek-berlin.de">http://zefys.staatsbibliothek-berlin.de</ref> [letzter Zugriff 31. August 2018]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

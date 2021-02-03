@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="224_final-DUMONT_Stefan_CMIF_Creator___digitale_Briefverzeichnisse_lei" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CMIF Creator - digitale Briefverzeichnisse leicht erstellt</title>
+                <author>
+                    <persName>
+                        <surname>Müller-Laackman</surname>
+                        <forename>Jonas</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>jonas.mueller-laackman@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>dumont@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Grabsch</surname>
+                        <forename>Sascha</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>grabsch@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T09:27:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Briefedition</term>
+                    <term>Vernetzung</term>
+                    <term>TEI-XML</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Metadaten</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-size:12pt">Der Webservice correspSearch</hi><hi rend="superscript">1</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> wird an der Berlin-Brandenburgischen Akademie der Wissenschaften entwickelt, um digitale und gedruckte Briefeditionen editionsübergreifend zu vernetzen und durchsuchbar zu machen. Darüber hinaus sollen die Briefmetadaten mit correspSearch für neue digitale Forschungsmethoden (wie z.B. aus der Historischen Netzwerkforschung) bereitgestellt werden. Mittlerweile sind über 44.000 edierte Briefe in correspSearch nachgewiesen.</hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Ein wesentlicher Bestandteil von correspSearch ist die Möglichkeit, den Datenbestand mit Metadaten zu eigenen - digitalen oder gedruckten - Briefeditionen zu erweitern. Durch die damit einhergehende Standardisierung der Metadaten auf der Grundlage  der Richtlinien der Text Encoding Initiative (TEI) werden Editionen für die digitale Vernetzung erschlossen. Je mehr Briefmetadaten bereitgestellt und  aggregiert werden, desto größer ist der Nutzen dieser Daten für die Recherche und Forschung. Mit dem CMIF Creator erfasste Daten werden im „Correspondence Metadata Interchange Format” (CMIF) kodiert, das von der TEI Correspondence Special Interest Group entwickelt und gepflegt wird. Anschließend werden die TEI XML-Daten auf Anbieterseite online verfügbar gemacht und vom Webservice per URL abgerufen. Die Metadaten der Briefeditionen werden somit dezentral aggregiert und erfordern nicht den Betrieb einer zentralen Speicherlösung. Der Webservice correspSearch, sowie das zugrundeliegende CMIF und das TEI-Elementset correspDesc wurden 2018 mit dem </hi>
+                <hi rend="italic" style="font-size:12pt">Rahtz Prize for TEI Ingenuity</hi><hi rend="superscript">2</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> ausgezeichnet.</hi>
+            </p>
+            <figure>
+                <graphic n="1001" width="11.086041666666667cm" height="8.734777777777778cm" url="224_final-3102985dd2139f0e8d3bbda977188941.jpg" rend="block"/>
+				<head>
+				<lb/>Abbildung 1. Oberfläche des CMIF Creator, Schritt 1: Metadaten.
+				</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="14.72963611111111cm" height="10.570105555555555cm" url="224_final-5a9ebccaed2d101803f67c2524c5db04.png" rend="inline"/>
+				<head>
+				<lb/>Abbildung 2. Listenansicht der Briefdatensätze.
+				</head>
+            </figure>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">War es bis vor kurzem nötig, das CMIF manuell zu kodieren, bietet der </hi>
+                <hi rend="italic" style="font-size:12pt">CMIF Creator</hi><hi rend="superscript">3</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> nun eine benutzerfreundliche grafische Oberfläche, um eigene Brief-Metadaten in das nötige Format zu übertragen.</hi><hi rend="superscript">4</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> Der mittlerweile in seiner zweiten Version verfügbare CMIF Creator bietet eine einfach zugängliche Möglichkeit, online und browserbasiert Briefeditionen in TEI-konforme CMIF-Dateien zu übertragen. Diese können dann in das Datenbanksystem von correspSearch überführt werden. Durch die browserbasierte Anwendung, die nicht auf serverseitige Speicherroutinen angewiesen ist, können Nutzer*innen die gesamte Verarbeitung lokal ausführen. Das bedeutet, dass die Nutzer*innen jederzeit vollständige Kontrolle über ihre Daten haben, da diese ausschließlich lokal gespeichert werden. Das Zwischenspeichern und Laden begonnener CMIF-Dateien ermöglicht weiterhin eine Bearbeitung über einen längeren Zeitraum. Der CMIF Creator unterstützt die Abfrage von Normdaten der </hi>
+                <hi rend="italic" style="font-size:12pt">Gemeinsamen Normdatei</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> (GND) der Deutschen Nationalbibliothek</hi><hi rend="superscript">5</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> über die von </hi>
+                <hi rend="italic" style="font-size:12pt">lobid</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> bereitgestellte API</hi><hi rend="superscript">6</hi>
+                <hi style="font-size:12pt" xml:space="preserve">, sowie das Abrufen von ortsbezogenen Normdaten aus der Datenbank des Ortsnamendienstes </hi>
+                <hi rend="italic" style="font-size:12pt">GeoNames</hi><hi rend="superscript">7</hi>
+                <hi style="font-size:12pt" xml:space="preserve">, und ermöglicht eine in das User Interface integrierte Auswahl und Zuweisung von Normdaten zu Korrespondent*innen und Orten. Die Unterstützung von Normdaten ist essentiell, da correspSearch  für die Auflösung der Ambiguitäten von Personen- und Ortsnamen wesentlich auf die Nutzung von eindeutigen Normdaten-IDs zurückgreift. Die Oberfläche des Editors ist bewusst einfach und gleichzeitig so flexibel wie möglich gestaltet, um das CMIF Format im Frontend möglichst gut abzubilden und auch für weniger technisch versierte Nutzer*innen verfügbar zu machen. </hi>
+            </p>
+            <figure>
+                <graphic n="1003" width="16.002cm" height="6.016625cm" url="224_final-b1600971cfb632cb99682ba10105ee0e.jpg" rend="inline"/>
+				<head>
+				<lb/>Abbildung 3. Listenauswahl von Normdaten.
+				</head>
+            </figure>
+            <p>
+                <hi style="font-size:12pt">In den letzten Jahren hat sich JavaScript durch die breite Verwendung von hochentwickelten JavaScript-Frameworks zu einer der zentralen Skriptsprachen im Bereich des Frontend-Development entwickelt. Das zugrundeliegende Datenformat JSON bietet seinerseits eine bewährte und einfache Möglichkeit der Datenspeicherung im Frontend. Da XML-Frameworks oder -Bibliotheken für einen browserbasierten Editor dieses Umfangs als weitestgehend veraltet</hi><hi rend="superscript">8</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> und unzureichend performant evaluiert wurden, erfolgte die Entscheidung schließlich zugunsten einer JavaScript- und JSON-basierten Anwendung. Durch die Crossplatform-Tauglichkeit von JavaScript bietet sich in der Perspektive darüber hinaus großer Spielraum für die Weiterentwicklung des CMIF Creators analog zum Format und den Bedürfnissen der Nutzer*innen.</hi>
+            </p>
+            <figure>
+                <graphic n="1004" width="13.824480555555555cm" height="12.951838888888888cm" url="224_final-0685b0d5b3ad9fa1646e408a16cb5d42.png" rend="inline"/>
+				<head>
+				<lb/>Abbildung 4. Ansicht eines Briefdatensatzes.
+				</head>
+            </figure>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Während der Arbeit im Editor verbleiben die Daten im JSON-Format und ermöglichen so eine dynamische Nutzung im Kontext des dem Editor zugrundeliegenden reaktiven JavaScript-Frameworks </hi>
+                <hi rend="italic" style="font-size:12pt">vue.js</hi><hi rend="superscript">9</hi>
+                <hi style="font-size:12pt" xml:space="preserve">. Durch die Verwendung von </hi>
+                <hi rend="italic" style="font-size:12pt" xml:space="preserve">vue.js </hi>
+                <hi style="font-size:12pt" xml:space="preserve">in Verbindung mit dem CSS-Framework </hi>
+                <hi rend="italic" style="font-size:12pt">Bootstrap</hi><hi rend="superscript">10</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> wird jede Eingabe und Änderung der Nutzer*innen unmittelbar im JSON-Datenmodell abgebildet. Beim Speicherungsvorgang werden die JSON-Daten über die correspSearch-eigene API in valides XML serialisiert, das dann später von correspSearch abgerufen werden kann. Im Falle von invaliden Eingaben enthält der CMIF Creator interne Validierungsfunktionen, die sowohl nach der Eingabe in einzelnen Feldern, als auch vor dem abschließenden Speichervorgang, die Eingaben auf technische Korrektheit überprüft. Finden sich Fehler, so werden diese nicht nur lokalisiert, sondern auch verlinkt, sodass Nutzer*innen direkt zum entsprechenden Eintrag springen können. Beim Laden von validen XML-Dateien in den Editor findet die Umwandlung in JSON ebenfalls über die correspSearch-API statt. Der CMIF Creator wird als OpenSource-Software entwickelt und unter der GNU LGPL lizensiert. Die Quellen sind auf der GitHub-Seite von correspSearch</hi><hi rend="superscript">11</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> frei zugänglich.</hi>
+            </p>
+            <figure>
+                <graphic n="1005" width="13.427605555555555cm" height="9.189655555555555cm" url="224_final-792043a041710e2de1110da6d3ae33bc.png" rend="inline"/>
+				<head>
+				<lb/>Abbildung 5. Bei fehlerhaften Einträgen kann die CMIF-Datei nur als JSON-Entwurf gespeichert werden.
+				</head>
+            </figure>
+            <figure>
+                <graphic n="1006" width="13.401147222222223cm" height="6.522483333333334cm" url="224_final-13e318eb2f3b9cb95650c71b2d21276f.png" rend="inline"/>
+				<head>
+				<lb/>Abbildung 6. Gibt es keine Fehler, können die Daten als valide .xml-Datei gespeichert werden.
+				</head>
+            </figure>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> <ref target="https://correspsearch.net/">https://correspsearch.net/</ref></note>
+			<note place="foot" xml:id="ftn2" n="2"> <ref target="http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2018/Rahtz-Prize-for-TEI-Ingenuity-2018">http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2018/Rahtz-Prize-for-TEI-Ingenuity-2018</ref></note>
+			<note place="foot" xml:id="ftn3" n="3"> <ref target="https://correspsearch.net/creator/index.xql">https://correspsearch.net/creator/index.xql</ref></note>
+			<note place="foot" xml:id="ftn4" n="4"> Der CMIF Creator basiert auf der schon in Andert et al. 2015 geäußerten Annahme, dass die Eingabe von Briefmetadaten möglichst effizient gestaltet sein sollte. Im Gegensatz zu dem von Andert et al. skizzierten Tool arbeitet der CMIF Creator allerdings standardbasiert. Darüber hinaus überlässt der CMIF Creator die Daten in der Obhut ihrer Ersteller*innen, die jederzeit vollständige Einsicht in die und volle Kontrolle über die (lokal) gespeicherten XML-Daten haben.</note>
+			<note place="foot" xml:id="ftn5" n="5"> <ref target="http://www.dnb.de/">http://www.dnb.de/</ref></note>
+			<note place="foot" xml:id="ftn6" n="6"> <ref target="http://lobid.org/gnd/api">http://lobid.org/gnd/api</ref></note>
+			<note place="foot" xml:id="ftn7" n="7"> <ref target="http://www.geonames.org/">http://www.geonames.org/</ref></note>
+			<note place="foot" xml:id="ftn8" n="8"> So lief z.B. die Unterstützung für betterForm in existdb Anfang 2018 aus, siehe hierzu auch den Eintrag in der Mailingliste <ref target="https://sourceforge.net/p/exist/mailman/message/36239166/">https://sourceforge.net/p/exist/mailman/message/36239166/</ref> bzw. den entsprechenden Issue <ref target="https://github.com/eXist-db/exist/pull/1736">https://github.com/eXist-db/exist/pull/1736</ref></note>
+			<note place="foot" xml:id="ftn9" n="9"> <ref target="https://vuejs.org/">https://vuejs.org/</ref></note>
+			<note place="foot" xml:id="ftn10" n="10"> <ref target="https://bootstrap-vue.js.org/">https://bootstrap-vue.js.org/</ref></note>
+			<note place="foot" xml:id="ftn11" n="11"> <ref target="https://github.com/correspSearch">https://github.com/correspSearch</ref></note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Andert, Martin / Frank Berger / Paul Molitor / Jörg Ritter (2015):</hi> 
+                        <hi rend="italic">An Optimized Platform for Capturing Metadata of Historical Correspondence</hi>,
+                        Literary and Linguistic Computing Advance Access 30 (4): 471–480.
+                        <ref target="https://doi.org/10.1093/llc/fqu027">
+                            <hi rend="underline color(0000FF)">https://doi.org/10.1093/llc/fqu027.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dumont, Stefan (2016):</hi> 
+                        <hi rend="italic">CorrespSearch – Connecting Scholarly Editions of Letters</hi>,
+                        Journal of the Text Encoding Initiative, Nr. Issue 10 (Dezember).
+                        <ref target="https://doi.org/10.4000/jtei.1742">
+                            <hi rend="underline color(0000FF)">https://doi.org/10.4000/jtei.1742.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stadler, Peter (2012):</hi>
+                        <hi rend="italic">Normdateien in der Edition</hi>,
+                        editio 26: 174–83.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">TEI Consortium, Hrsg. o. J. </hi>
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange. Version 3.4.0 vom 23.07.2018.</hi>
+                        TEI Consortium.
+                        <ref target="http://www.tei-c.org/Guidelines/P5/">
+                            <hi rend="underline color(0000FF)">http://www.tei-c.org/Guidelines/P5/.</hi> 
+                        </ref>[zuletzt abgerufen: 12. Oktober 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">TEI Correspondence SIG, Hrsg. (2015):</hi> 
+                        <hi rend="italic">Correspondence Metadata Interchange Format (CMIF)</hi>,
+                        <ref target="https://github.com/TEI-Correspondence-SIG/CMIF">
+                            <hi rend="underline color(0000FF)">https://github.com/TEI-Correspondence-SIG/CMIF.</hi>
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

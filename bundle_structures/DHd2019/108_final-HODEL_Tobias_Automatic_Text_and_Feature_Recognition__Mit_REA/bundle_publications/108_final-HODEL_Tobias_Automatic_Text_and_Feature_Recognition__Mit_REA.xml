@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="108_final-HODEL_Tobias_Automatic_Text_and_Feature_Recognition__Mit_REA" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Automatic Text and Feature Recognition: Mit READ Werkzeugen Texte erkennen und Dokumente analysieren</title>
+                <author>
+                    <persName>
+                        <surname>Hodel</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <affiliation>Staatsarchiv des Kantons Zürich, Schweiz</affiliation>
+                    <email>tobias.hodel@uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Diem</surname>
+                        <forename>Markus</forename>
+                    </persName>
+                    <affiliation>Computer Vision Lab, TU Wien</affiliation>
+                    <email>diem@cvl.tuwien.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Oliveira Ares</surname>
+                        <forename>Sofia</forename>
+                    </persName>
+                    <affiliation>Digital Humanities Lab, EPF Lausanne</affiliation>
+                    <email>sofia.oliveiraares@epfl.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Weidemann</surname>
+                        <forename>Max</forename>
+                    </persName>
+                    <affiliation>Citlab, Universität Rostock</affiliation>
+                    <email>max.weidemann@uni-rostock.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handwritten Text Recognition</term>
+                    <term>Layout Analysis</term>
+                    <term>Transcription</term>
+                    <term>Crowdsourcing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bilderfassung</term>
+                    <term>Transkription</term>
+                    <term>Identifizierung</term>
+                    <term>Kollaboration</term>
+                    <term>Infrastruktur</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left; ">Dank 
+                <hi rend="italic">machine learning</hi> und 
+                <hi rend="italic">computer vision</hi> ist seit wenigen Jahren die automatisierte Handschriftenerkennung möglich. Obwohl aktuell einzelne Handschriften bzw. sehr ähnliche Handschriftentypen noch trainiert werden müssen, wird es in absehbarer Zeit allgemeine Modelle geben, die Rohtranskriptionen mit einer Fehlerquote unter 10% ausgeben. Paläographische Kenntnisse werden vor allem zur Korrektur und kritischen Begutachtung der Technik nötig sein.
+            </p>
+            <p style="text-align:left; ">Im Rahmen des Projekts READ (Recognition and Enrichment of Archival Documents) werden unterschiedliche Aufgaben der Automatisierung (weiter-)entwickelt, um qualitativ gute Ergebnisse mit optimalem Ressourceneinsatz zu erhalten. Ein speziell dafür entwickeltes Tool ist die Software Transkribus und die Transkribus Weboberfläche (für Transkription, Tagging/Annotation und Korrektur in der Layouterkennung). Beide Ansätze verkoppeln auf unterschiedliche Weise die Arbeit von Expertinnen und maschinelle Erkennleistung. Software und Webservice sind frei verfügbar unter 
+                <ref target="http://www.transkribus.eu">www.transkribus.eu</ref>. Darüber hinaus wurden im Rahmen von READ weitere Extraktions- und Annotationsmöglichkeiten entwickelt, die im Workshop zusammen mit Transkribus vorgestellt und durch die Teilnehmenden mit eigenen oder zur Verfügung gestellten Dokumenten getestet werden 
+                können.<ref target="ftn1" n="1"/>
+            </p>
+            <p style="text-align:left; ">Transkribus unterstützt alle Prozesse vom Import der Bilder über die Identifikation der Textblöcke und Zeilen, die zu einer detaillierten Verlinkung zwischen Text und Bild führt, sowie die Transkription und Annotation der Handschrift bis zum Export der gewonnen Daten in standardisierten Formaten. Darüber hinaus wurden aber noch weitere Tools und Algorithmen entwickelt, die zur Erkennung von graphischen Features genutzt werden können und Tabellen als solche aufbereiten.</p>
+            <p rend="DH-Heading2">Transkribus als Arbeitsumgebung </p>
+            <p style="text-align:left; ">Die Erkennung von Texten bedingt den Upload digitaler Bilder und Prozessierung mit Layouterkennungswerkzeugen. Upload und Layoutanalyse können grosse Batches verarbeiten. Die Nachkorrektur von Layoutanalyse ist nur noch in wenigen Fällen nötig.</p>
+            <p style="text-align:left; ">Je nach Einsatzzweck könne Dokumente entweder automatisch mit bereits bestehenden ATR-Modellen (Automatic Text Recognition) erkannt oder händisch Transkriptionen erstellt werden. Um im erkannten Text und Variantenlesungen (sog. Keywordspotting) zu suchen reicht in den meisten Fällen die Anwendung von bestehenden Modellen.</p>
+            <p style="text-align:left; ">Einzig im Umgang mit Tabellen sind weiterhin diverse manuelle Schritte möglich, um eine hochwertige Identifikation zu gewährleisten. Der Workshop wird einen Fokus auf die Bearbeitung und Erkennung von Tabellenstrukturen legen, die halbautomatisch erfolgen kann.</p>
+            <p style="text-align:left; ">Korrekter Text – entweder durch Transkription oder Korrektur von erkanntem Text entstanden – kann danach zum Training von Handschriftenmodellen verwendet werden. Im Rahmen des Workshops wird das Trainieren von Handschriftenmodellen demonstriert und kann durch die Teilnehmenden selbst ausgetestet werden.</p>
+            <p style="text-align:left; ">Aufbauend auf den Transkriptionen ist es möglich Entitäten (Personen, Orte, Verweise) auszuzeichnen und textuelle Annotationen (Titel, Marginalien, Fussnoten) innerhalb des Textes, aber auch darüber hinaus für Einzeldokumente und ganze Dokumentenbestände anzulegen. Visuelle Features wie Seitenzahlen, Titel oder Marginalien lassen sich nach der Auszeichnung als Strukturmodelle trainieren und können für die Erkennung von grösseren Dokumentenmassen verwendet werden. Die Vorgehensweise wird im Rahmen des Workshops vorgeführt und kann selbst nachvollzogen werden. Daneben ist auch die Anreicherung der Dokumente mit 
+                <hi rend="italic">named entities</hi> (Personen, Orten und Organisationen) möglich, sodass simple digitale Editionen grösstenteils in Transkribus erstellt werden können.
+            </p>
+            <p rend="DH-Heading2">Ausgabeformate </p>
+            <p style="text-align:left; ">Für den Export stehen unterschiedliche Formate und Ausgabeformen zur Verfügung. So ist es möglich XML-Dateien zu exportieren, die den Vorgaben der TEI entsprechen (auch ist es möglich die Standardumformung abzuändern und den eigenen Bedürfnissen anzupassen). Weiter sind auch Ausgaben als Druckdaten (PDF) oder zur Weiterbearbeitung für Textverarbeitungsprogramme (DOCX, TXT) implementiert. Schließlich ist auch ein Export im PAGE-Format (zur Anzeige in Viewern für OCR gelesene Dokumente, Pletschacher, 2010) sowie als METS (Metadata Encoding and Transmission) möglich. </p>
+            <p rend="DH-Heading2">Zielpublikum </p>
+            <p style="text-align:left; ">Die Plattform Transkribus ist für unterschiedliche Gruppen konzipiert. Einerseits für Geisteswissenschaftler*innen, die selbst Transkriptionen und Editionen historischer Dokumente erstellen möchten. Andererseits richtet sich die Plattform an Archive, Bibliotheken und andere Erinnerungsinstitutionen, die handschriftliche Dokumente in ihren Sammlungen aufbewahren und ein Interesse an der Suchbarmachung des Materials haben. Angesprochen werden sollen auch Studierende der Geistes-, Archiv- und Bibliothekswissenschaften mit einem Interesse an der Transkription historischer Handschriften. </p>
+            <p style="text-align:left; ">Das Ziel, eine robuste und technisch hochstehende Automatisierung von Layout- und Handschriftenerkennung, lässt sich nur durch die enge Zusammenarbeit zwischen Geisteswissenschaftler*innen und Informatiker*innen sowie anderen Computerspezialist*innen mit unterschiedlichen Voraussetzungen und Ansprüchen an Datenqualität und Herstellung von Transkriptionen erreichen. Die Algorithmen werden somit nicht nur bis zu einem Status als 
+                <hi rend="italic">proof-of-concept</hi> erarbeitet, sondern bis zur Praxistauglichkeit verfeinert und in größeren Forschungs- und Aufbewahrungsumgebungen getestet und verbessert. Die Informatiker*innen sowie Personen aus angrenzenden Fächern sind entsprechend ebenfalls ein wichtiges Zielpublikum, wobei bei ihnen weniger die Nutzung der Plattform als das Beisteuern von Software(teilen) anvisiert wird. 
+            </p>
+            <p style="text-align:left; ">Die Speicherung der Dokumente erfolgt in der Cloud, gehostet auf Servern der Universität Innsbruck. Die importierten Daten bleiben auch während der Bearbeitung unverändert im Dateisystem liegen und werden ergänzt durch METS und PAGE XML. Alle bearbeiteten Dokumente und Daten bleiben somit in den unterschiedlichen Bearbeitungsstadien nicht nur lokal verfügbar, sondern können für andere Transkribusnutzerinnen und -nutzer freigegeben werden. Dank elaboriertem 
+                <hi rend="italic">user-management</hi> ist die Zuteilung von Rollen möglich. 
+            </p>
+            <p style="text-align:left; ">Die eingespeisten Dokumente und Daten bleiben privat und vor dem Zugriff Dritter geschützt. Von Projektseite können vorgenommene Arbeitsschritte zwecks besserem Verständnis der ausgeführten Arbeiten und letztlich der Verbesserung der Produkte ausgewertet werden.</p>
+            <p style="text-align:left; ">Die Erkennprozesse werden serverseitig durchgeführt, sodass die Ressourcen auf den lokalen Rechnern nicht strapaziert werden. Transkribus ist mit JAVA und SWT programmiert und kann daher plattformunabhängig (Windows, Mac, Linux) genutzt werden. </p>
+            <p rend="DH-Heading2">Ein- und Ausblicke im Workshop </p>
+            <p style="text-align:left; ">Der Workshop richtet sich sowohl an Geisteswissenschaftler*innen als auch an Computerwissenschaftler*innen, wobei vorwiegend die Tools und Möglichkeiten von Transkribus präsentiert werden. </p>
+            <p style="text-align:left; ">Drei zentrale Forschungsaspekte aus READ können im Rahmen des Workshops neben Transkribus 
+                <hi rend="italic">hands-on</hi> ausgetestet werden:
+            </p>
+            <list type="ordered">
+                <item>Max Weidemann: Das Training von Handschriftenmodellen (HTR+);</item>
+                <item>Sofia Ares Oliveira 
+                (<hi rend="italic">in English</hi>): Identifikation von visuellen Features mit dh-segment;
+                </item>
+                <item>Markus Diem: Aufbereitung und Erkennung von Tabellen mit Transkribus und nomacs.</item>
+            </list>
+            <p rend="DH-Heading2">Programm/Ablauf des Workshops </p>
+            <list type="unordered">
+                <item>Begrüssung und Einführung in READ und Transkribus :45’</item>
+                <item>Kurze Beschreibungen der vermittelten Forschungsaspekte (je 15’): 45’</item>
+                <item>Kaffeepause: 30’</item>
+                <item>Arbeit in Kleingruppen am jeweiligen Forschungsaspekt: 60’ (nach ca. 40 Minuten besteht die Möglichkeit die Gruppe zu wechseln)</item>
+                <item>Diskussion der Resultate, weiterer Ausblick und Evaluation: (15-)30'</item>
+            </list>
+            <p style="text-align:left; ">Nach Interesse der Teilnehmenden können während der Gruppenarbeit weitere Tools und Ansätze, die im Rahmen von READ entwickelt wurden, kurz diskutiert werden: 1. Matching von Text und Bild (bspw. aus bestehenden Transkriptionen), 2. Transkribus Learn (e-Learningumgebung), 3. Crowdsourcing-Infrastruktur, 4. ScanTent und DocScan (Fotografieren von Dokumenten mit Android App). </p>
+            <p style="text-align:left; ">Während des gesamten Workshops stehen vier wissenschaftliche Mitarbeitende des Projekts für Fragen und Auskünfte zur Verfügung.</p>
+            <p style="text-align:left; ">Tobias Hodel nimmt bereits im Vorfeld gerne Dokumente oder Projektideen an, damit sich die Veranstalter bereits vor dem Workshop Gedanken zu möglichen technischen Umsetzungen machen können. </p>
+            <p style="text-align:left; ">Das Projekt READ und somit die Weiterentwicklung von Transkribus werden finanziert durch einen Grant der Europäischen Union im Rahmen des Horizon 2020 Forschungs- und Innovationsprogramms (grant agreement No 674943). </p>
+            <p style="text-align:left; ">Zahl der möglichen Teilnehmerinnen und Teilnehmer: Max. 30 Personen.
+                <hi style="font-family:MS Mincho"> </hi>Benötigte technische Ausstattung: Beamer und Whiteboard. 
+            </p>
+            <p style="text-align:left; ">Teilnehmende: Eigener Rechner (wenn möglich Installation von Transkribus; Hilfe zur Installation von Transkribus wird 15 Minuten vor der Veranstaltung angeboten).</p>
+            <p style="text-align:left; ">Rückfragen bitte an tobias.hodel@ji.zh.ch </p>
+            <p style="text-align:left; ">Kontaktdaten aller Beitragenden (inkl. Forschungsinteressen)</p>
+            <p style="text-align:left;">Sofia Ares Oliveira, École Polytechnique de Lausanne, 
+                <hi rend="color(252525)" style="font-family:Helvetica;font-size:10.5pt">CDH-DHLAB</hi>, 
+                <hi rend="color(252525)" style="font-family:Helvetica;font-size:10.5pt">INN 116 / Station 14 / CH-1015 Lausanne / Switzerland</hi>; sofia.oliveiraares@epfl.ch (
+                <hi rend="color(252525)" style="font-family:Helvetica;font-size:10.5pt">Electrical engineering, signal processing, computer vision</hi>).
+            </p>
+            <p style="text-align:left; ">Markus Diem, Technische Universität Wien, Institute of Computer Aided Automation Computer Vision Lab, Favoritenstr. 9/183-2, A-1040 Vienna, Österreich; diem@caa.tuwien.ac.at (Computer Vision, Document Analysis, Layout Analysis/Page Segmentation, Cluster Analysis, Automated Flow Cytometry Analysis).</p>
+            <p style="text-align:left; ">Tobias Hodel, Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, CH-8057 Zürich, Schweiz; tobias.hodel@ji.zh.ch (Digital Humanities; Automatic Text Recognition; eArchiving; Information Retrieval).</p>
+            <p style="text-align:left; ">Max Weidemann, Institut für Mathematik, Ulmenstraße 69, Universität Rostock, 18051 Rostock, Deutschland; max.weidemann@uni-rostock.de; (Deep Learning, Information Retrieval und Natural Language Processing). </p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    Einführend siehe die online Tutorials: 
+                    <ref target="https://read.transkribus.eu/transkribus/">https://read.transkribus.eu/transkribus/</ref>. Als 
+                    <hi rend="italic">hands-on</hi> Anleitung wird der Beitrag von Martin Prell empfohlen: »ps: ich bitt noch mahl umb ver gebung meines confusen und üblen schreibens wegen« – Frühneuzeitliche Briefe als Herausforderung automatisierter Handschriftenerkennung. Online: https://doi.org/10.22032/dbt.34849.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Leifert, Gundram / Strauß, Tobias / Grüning, Tobias / Wustlich, Welf / Labahn, Roger (2016)</hi>: <hi rend="italic">„Cells in Multidimensional Recurrent Neural Networks”</hi> in: <hi rend="italic">Journal of Machine Learning Research</hi> 17, 1-37.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Prell, Martin (2018)</hi>: <hi rend="italic">„»ps: ich bitt noch mahl umb ver gebung meines confusen und üblen schreibens wegen« – Frühneuzeitliche Briefe als Herausforderung automatisierter Handschriftenerkennung“</hi>. Online: https://doi.org/10.22032/dbt.34849.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">READ (2018)</hi>: <hi rend="italic">„Tutorials and How To Guides“</hi>. Online: https://read.transkribus.eu/transkribus/.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

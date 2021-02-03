@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-ZIRKE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>TEASys (Tübingen Explanatory Annotations System): Die erklärende Annotation literarischer Texte in den Digital Humanities</title>
+<author>
+<persName>
+<surname>Zirker</surname>
+<forename>Angelika</forename>
+</persName>
+<affiliation>Eberhard Karls Universität Tübingen, Deutschland</affiliation>
+<email>angelika.zirker@uni-tuebingen.de</email>
+</author>
+<author>
+<persName>
+<surname>Bauer</surname>
+<forename>Matthias</forename>
+</persName>
+<affiliation>Eberhard Karls Universität Tübingen, Deutschland</affiliation>
+<email>m.bauer@uni-tuebingen.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-22T07:22:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Annotation</term>
+<term>Literaturwissenschaft</term>
+<term>Hermeneutik</term>
+<term>Lehrinstrument</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Entdeckung</term>
+<term>Gestaltung</term>
+<term>Inhaltsanalyse</term>
+<term>Strukturanalyse</term>
+<term>Annotieren</term>
+<term>Kontextsetzung</term>
+<term>Theoretisierung</term>
+<term>Community-Bildung</term>
+<term>Stilistische Analyse</term>
+<term>Kollaboration</term>
+<term>Lehre</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Das Poster präsentiert das Lehr- und Forschungsprojekt TEASys (Tübingen Explanatory Annotations System) zur erklärenden Annotation literarischer Text in den Digital Humanities. Die erklärende Annotation wird dabei als Anreicherung bislang vor allem literarischer Texte um Informationen verstanden, die zum Textverständnis beitragen bzw. es überhaupt ermöglichen, d.h. sie dienen etwa der Überwindung von historischer Distanz (vgl. Hanna 1991). Eine Anwendung des Systems auf andere (nicht-literarische) Texte wird derzeit vorbereitet.</p>
+<p>TEASys arbeitet mit verschiedenen Kategorien der erklärenden Annotation sowie ihrer Präsentation auf mehreren Ebenen, die sich etwa bezüglich ihrer Komplexität unterscheiden und aufeinander aufbauen (vgl. Bauer &amp; Zirker 2015). Die Kategorien der erklärenden Annotation sind Sprache, Form, Intratextualität, Intertextualität, Kontext und Interpretation. Die Interpretation ergibt sich dabei aus den Informationen, die aus den anderen Kategorien zum besseren Verständnis an den Text herangetragen werden. Weitere Kategorien, die auf einer Meta-Ebene angesiedelt sind, beinhalten philologische Informationen (z.B. zu Varianten) sowie Fragen oder Anmerkungen (z.B. zu Items, zu denen bislang keine Informationen gefunden werden konnten sowie zur bislang bereits stattgefundenen Recherche zu einzelnen Items). Letztere Kategorie ist vor allem auch im Hinblick auf Fragen der Nachhaltigkeit essentiell. Die Ebenen der Annotation bauen aufeinander auf, d.h. die erste von insgesamt drei Ebenen bietet Informationen an, die das Textverstehen grundsätzlich ermöglichen, und die weiteren Ebenen nennen weitere, meist komplexere und ausführliche Informationen. </p>
+<p>TEASys geht auf ein Peerlearning-Projekt zurück, das in Tübingen seit 2011 besteht und von Studierenden der englischen Literatur und weiteren geisteswissenschaftlichen Fächern getragen und von den Leitern des Forschungsprojekts (Prof. Dr. Matthias Bauer &amp; PD Dr. Angelika Zirker) wissenschaftlich unterstützt wird. Es gibt derzeit vier Peerlearning-Gruppen, die sich mit Texten verschiedener Gattungen und Epochen beschäftigen und diese kollaborativ annotieren (zur Kollaboration in den DH s. z.B. McCarty 2012; Meister 2012; Stroud 2006). Das Forschungsprojekt widmet sich vor allem der Theoriebildung zur erklärenden Annotationen und der darauf aufbauenden Entwicklung eines best-practice-Modells, das wiederum auf die Theorie rückwirken soll (s. dazu Bauer &amp; Zirker 2015). Die DH-Komponente liegt vor allem in der entsprechenden Aufbereitung und Visualisierung der erklärenden Annotationen für das digitale Medium sowie der darin möglichen Dynamik (s. Eggert 2009): Annotationen sind, entgegen ihrer Darstellung im Buch, ständig revidier- und erweiterbar und somit einer möglichst großen Rezipientengruppe offen, die umgekehrt für eine beständige Qualitätskontrolle sorgt. Ferner ermöglicht die digitale Repräsentation das Filtern von Informationen: je nach Bedarf können z.B. lediglich Annotationen zur Intertextualität angezeigt werden.</p>
+<p>Das Poster stellt sowohl den Aufbau von TEASys als best-practice-Modell vor wie auch seine theoretischen Grundlagen und Beispielannotationen aus dem Peerlearning-Projekt, die von Studierenden erstellt wurden. Es macht deutlich, wie grundlegende hermeneutische Fragestellungen in das digitale Medium übernommen und dort abgebildet werden können (vgl. Drucker 2012) – und wie umgekehrt wiederum die digitale Präsentation aufgrund der theoretischen Überlegungen verbessert werden kann.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2015):
+                        „Whipping Boys Explained: Literary Annotation and Digital Humanities“,
+                        in: Siemens, Ray / Price, Kenneth M:
+                        <hi rend="italic">Literary Studies in the Digital Age: An Evolving Anthology</hi>.
+                        <ref target="http://dlsanthology.commons.mla.org/under-review-matthias-bauer-and-angelika-zirker-whipping-boys-explained-literary-annotation-and-digital-humanities/">http://dlsanthology.commons.mla.org/under-review-matthias-bauer-and-angelika-zirker-whipping-boys-explained-literary-annotation-and-digital-humanities/</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Drucker, Johanna</hi> (2012):
+                        „Humanistic Theory and Digital Scholarship“,
+                        in Gold, Matthew K. (ed.):
+                        <hi rend="italic">Debates in the Digital Humanities</hi>. 
+                        Minneapolis: University of Minnesota Press 85–95.
+                    </bibl>
+<bibl>
+<hi rend="bold">Eggert, Paul</hi> (2009):
+                        „The Book, the E-text and the ‚Work-site‘“, 
+                        in: Deegan, Marilyn / Sutherland, Kathryn (eds.):
+                        <hi rend="italic">Text Editing, Print and the Digital World</hi>.
+                        Ashgate 63–82.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hanna, Ralph III</hi> (1991):
+                        „Annotation as Social Practice“,
+                        in: Barney, Stephan A. (ed.):
+                        <hi rend="italic">Annotation and Its Texts</hi>.
+                        New York: OUP 178–184.
+                    </bibl>
+<bibl>
+<hi rend="bold">McCarty, Willard</hi> (2012):
+                        „Collaborative Research in the Digital Humanities“,
+                        in: Deegan, Marilyn / McCarthy, Willard (eds.):
+                        <hi rend="italic">Collaborative Research in the Digital Humanities</hi>.
+                        Farnham: Ashgate 1–10.
+                    </bibl>
+<bibl>
+<hi rend="bold">Meister, Jan-Christoph</hi> (2012):
+                        „Crowd Sourcing ‚True Meaning‘: A Collaborative Approach to Textual Interpretation“,
+                        in: Deegan, Marilyn / McCarthy, Willard (eds.):
+                        <hi rend="italic">Collaborative Research in the Digital Humanities</hi>. 
+                        Farnham: Ashgate 105–122. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Stroud, Matthew D.</hi> (2006):
+                        „The Closest Reading: Creating Annotated Online Editions“,
+                        in: Bass, Laura R. / Greer, Margaret R. (eds.):
+                        <hi rend="italic">Approaches to Teaching Early Modern Spanish Drama</hi>.
+                        New York: The MLA of America 214–219.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-SCHUJ" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>„IT for all“ – Das Projekt „Digitaler Campus Bayern – Digitale Datenanalyse in den Geisteswissenschaften“ als Beispiel für nachhaltige IT-Didaktik</title>
+<author>
+<persName>
+<surname>Schulz</surname>
+<forename>Julian</forename>
+</persName>
+<affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+<email>julian.schulz@lmu.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-30T13:28:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>DH-Curriculum</term>
+<term>Nachhaltige IT-Didaktik</term>
+<term>Fachnahe IT-Grundausbildung</term>
+<term>Interaktive Lehr- und Lernumgebung</term>
+<term>Datenrepositorium</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Lehre</term>
+<term>Curricula</term>
+<term>Infrastruktur</term>
+<term>Interaktion</term>
+<term>Software</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div/>
+<div rend="DH-Heading1" type="div1">
+<head>Ausgangslage</head>
+<p>Der Einfluss der unter Digital Humanities (DH) zusammengefassten digitalen Theorien und Methoden auf die geisteswissenschaftlichen Disziplinen wächst stetig. Digitale Projekte erleben in den Geisteswissenschaften einen rasanten Aufschwung (Koller 2016: 43). Damit einher geht der Bedarf an Absolventen geisteswissenschaftlicher Fächer, die bereits während ihres Studiums Kompetenzen im Bereich der Digital Humanities erwerben konnten. Bereits 2013 forderten Vertreter/innen im „Manifest für die DH“ eine Etablierung „digitale[r] Trainingsprogramme in den Geisteswissenschaften“ (DH-Manifest: 2013), angepasst an die unterschiedlichen Bedürfnisse der Fachbereiche und die jeweiligen Karrierestufen. Auch der DHd misst der Ausgestaltung der IT-Ausbildung von Studierenden eine gesteigerte Bedeutung zu. Die Arbeitsgruppe zur Erarbeitung eines „Referenzcurriculums Digital Humanities“
+                    <ref n="2" target="poster-SCHUJftn2" type="note">2</ref> beschäftigt sich mit der Suche nach einer 
+                    <hi rend="italic">bestpraxis</hi>, von der Anwender und Institutionen gleichermaßen profitieren (Sahle 2013; Thaller 2015: 3).
+                </p>
+<p>Zahlreiche Universitätsstandorte haben auf die neuen Anforderungen mit der Einrichtung unterschiedlich ausgestalteter DH-Studiengänge reagiert (Bartsch/Borek/Rapp 2016: 173; DH Course Registry). Trotz dieser neugeschaffenen Angebote besteht ein zusätzlicher Bedarf an informationstechnologischer Ausbildung in der Breite (Ehrlicher 2016: 625). Zunehmend wird auch in „klassischen“ geisteswissenschaftlichen Berufsfeldern Sicherheit im Umgang mit Software und digitalen Technologien vorausgesetzt. Dieses Grundverständnis digitaler Methoden kann nicht mehr ausschließlich im Selbststudium angeeignet werden (Spiro 2013: 332; Sahle 2016: 79).</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Projektziele und Rahmenbedingungen</head>
+<p>Hier setzt das Projekt „Digitaler Campus Bayern – Digitale Datenanalyse in den Geisteswissenschaften“ an, welches von der IT-Gruppe Geisteswissenschaften (ITG) der Ludwig-Maximilians-Universität München (LMU) seit Beginn dieses Jahres durchgeführt wird. Grundgedanke ist eine IT-Grundausbildung („
+                    <hi rend="italic">IT for all</hi>“), welche die Studierenden problemorientiert in die Anwendung digitaler Methoden einführt. Ausgehend von fachwissenschaftlichen Fragestellungen werden Lehrveranstaltungen mit IT-Inhalten in Kooperation mit verschiedenen geschichtswissenschaftlichen Disziplinen und der Kunstgeschichte konzipiert. Dabei soll eine möglichst umfassend angelegte Grundlagenvermittlung in Erfassung, Modellierung, Analyse und anschließender Visualisierung von Daten erfolgen (Lücke/Riepl 2016: 77). Das Verständnis digitaler Methoden steht ebenso im Vordergrund wie eine fachliche Reflexion ihrer Potentiale (Rehbein 2016: 17).
+                </p>
+<p>Die Situation der DH an der LMU gestaltete sich bis Projektbeginn (Januar 2016
+                    <ref n="3" target="poster-SCHUJftn3" type="note">3</ref>) ambivalent. In den vorgenannten Studiengängen wurden regelmäßig Überblicksveranstaltungen zur Einführung in die Informatik für Historiker bzw. Kunsthistoriker angeboten. Eine praktische Umsetzung des theoretischen Wissens konnte im Rahmen dieser Veranstaltungen jedoch nicht geleistet werden. Demgegenüber werden durch die ITG, die auf langjährige und umfangreiche Erfahrungen im Bereich des digitalen Projektmanagements
+                    <ref n="4" target="poster-SCHUJftn4" type="note">4</ref> verweisen kann, optimale Voraussetzungen für eine fortan praxisnahe IT-Ausbildung geschaffen.
+                </p>
+<p>Als Mitglied im Münchner Arbeitskreis für digitale Geisteswissenschaften (dhmuc)
+                    <ref n="5" target="poster-SCHUJftn5" type="note">5</ref> kooperiert die IT-Gruppe zudem fach- und institutionsübergreifend mit zahlreichen kulturellen Einrichtungen. An der Schnittstelle zur universitären Lehre ist es möglich, die „
+                    <hi rend="italic">IT for all</hi>“-Ausbildung geisteswissenschaftlicher Studierender auf die Anforderungen und Wünsche der potentiellen Arbeitgeberseite im (digitalen) Kultur-, Wissenschafts- und Informationssektor auszurichten.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Interaktive Lehr- und Lernumgebung 
+                    <hi rend="italic">DHVLab</hi>
+</head>
+<p>Für die praktische Umsetzung kommt eine interaktive Lehr- und Lernumgebung, das 
+                    <hi rend="italic">Digital Humanities Virtual Laboratory</hi> – kurz 
+                    <hi rend="italic">DHVLab</hi> – zum Einsatz
+                    <ref n="6" target="poster-SCHUJftn6" type="note">6</ref>. Die im Entstehen begriffene Plattform umfasst mehrere Komponenten, die im Folgenden vorgestellt werden sollen:
+                </p>
+<div rend="DH-Heading2" type="div2">
+<head>Virtuelle Rechenumgebung</head>
+<p>Die virtuelle Rechenumgebung ist das „Herzstück“ der Ausbildungsplattform. Auf dem virtuellen Desktop werden in Abstimmung mit dem/der Kursleiter/in Software und Tools installiert. Dadurch wird die sukzessive Installation durch die Teilnehmer/innen obsolet, wodurch Probleme aufgrund unterschiedlicher Betriebssysteme und Versionierungen vermieden werden. Bei Anmeldung im 
+                        <hi rend="italic">DHVLab</hi> erhält jede/r Teilnehmer/in eine eigene SQL-Datenbank. Gleichzeitig werden strukturierteDatensammlungen vorgehalten. Diese sind für die Kursteilnehmer/innen zugänglich und für eigene oder im Kurs behandelte Fragestellungen verwendbar. Im Laufe der Lehrveranstaltung können neue Forschungsfragen ausgearbeitet und ein grundsätzliches Verständnis für den sinnvollen Einsatz von Tools und Software
+                        <ref n="7" target="poster-SCHUJftn7" type="note">7</ref> in den Geisteswissenschaften entwickelt werden.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Ausbildungsmaterialien</head>
+<p>Im vergangenen Semester wurde das System testweise in vorgenannten Einführungsveranstaltungen eingesetzt. Die bei der Evaluation gesammelten Erfahrungen fließen unmittelbar in die Erstellung bzw. Erweiterung der Ausbildungsmaterialien. Anhand praxisnaher Manuale wird IT-Grundlagenwissen, in einzelne Lehreinheiten gegliedert, anschaulich dargestellt und erklärt. Die Erstellung von Lehrvideos und Übungsaufgaben ist vorgesehen. Aus diesem Portfolio können Dozentinnen und Dozenten Module entsprechend ihrer fachwissenschaftlichen Schwerpunktsetzung und der Voraussetzungen der Teilnehmer/innen auswählen. Die Seminarplanung und -durchführung erfolgt stets in enger Abstimmung mit den Projektmitarbeitern.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Publikationsumgebung</head>
+<p>Für die Vor- und Nachbereitung der einzelnen Sitzungen steht ein WordPress-Blog zur Verfügung. Dort können die Kursleiter/innen Materialen einstellen, die Studierenden ihren Erkenntnisfortschritt und Analyseergebnisse dokumentieren. Dabei erlernen sie gleichzeitig 
+                        <hi rend="italic">in praxi</hi> das wissenschaftliche Bloggen als innovative Form des Publizierens. Eine abschließende Publikation der studentischen Seminararbeiten ist auf dieser Plattform möglich.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Datenrepositorium</head>
+<p>In einem gesonderten Bereich der Datenbankumgebung werden die von den Studierenden im Rahmen einer Lehrveranstaltung erarbeiteten Datenbestände modelliert und nachhaltig abgelegt. Langfristiges Ziel ist der Aufbau eines Forschungsdatenrepositoriums. Nachfolgende Kurse mit ähnlichen Seminarthemen können auf diese Datensammlungen zugreifen, für die eigene Forschungsarbeit verwenden und dadurch sukzessive erweitern. Unterstützung erfährt die ITG durch die Universitätsbibliothek der LMU als Kooperationspartnerin auf dem Gebiet der nachhaltigen und nachnutzbaren elektronischen Publikation von Forschungsdaten.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Entwicklung eigener Analyse- und Softwarekomponenten</head>
+<p>Mit dem 
+                        <hi rend="italic">DHVLab Analytics Center</hi> wurde eine Webanwendung entwickelt, die dazu dient, konkrete geisteswissenschaftliche Fragestellungen mithilfe quantitativer statistischer Methoden zu beantworten, sowie im Stile eines explorativen Werkzeuges neue Forschungsansätze zu eröffnen. Das 
+                        <hi rend="italic">Analytics Center</hi> kombiniert einführende deskriptive Analysen mit komplexeren Methoden der multivariaten Statistik. Neben diesem Analysetool entsteht derzeit eine Editionsumgebung, die speziell auf die Anforderungen von Studierenden und Promovierenden ausgerichtet wird. Diese wird erstmals im Sommersemester 2017 in einer Übung zur Edition mittelalterlicher Urkunden zum Einsatz kommen. Die Entwicklung weiterer Instrumente ist geplant.
+                    </p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Der Einsatz der Plattform in der Lehre</head>
+<p>Nach der technischen Realisierung der Plattform und dem Aufbau grundlegender Ausbildungsmaterialien im ersten Projekthalbjahr kommt das System im Wintersemester 2016/2017 erstmals in eigens konzipierten Lehrveranstaltungen zur Anwendung. In der Kunstgeschichte soll das 
+                    <hi rend="italic">Analytics Center</hi> in einem Seminar zur Beschäftigung mit informatischen und mathematischen Verfahrensweisen anregen. Parallel dazu erfolgt eine Einführung in die Statistiksoftware 
+                    <hi rend="italic">RStudio</hi>. Ein geschichtswissenschaftliches Hauptseminar beschreitet den Weg von der Originalquelle über die strukturierte Aufnahme und Modellierung von Forschungsdaten sowie die Einführung in die Arbeit mit relationalen Datenbanken hin zur Georeferenzierung. Die in den Seminaren gewonnenen Erfahrungen und Erkenntnisse fließen unmittelbar in die Verbesserung und Ausweitung des bestehenden Lehrmaterials ein (u.a. Erstellung von Anwendungsszenarien). Neben den genannten Kursen wird die Plattform bereits in zahlreichen Lehrveranstaltungen als technische Grundlage verwendet
+                    <ref n="8" target="poster-SCHUJftn8" type="note">8</ref>.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Konzeption eines fachspezifischen DH-Curriculums</head>
+<p>Die sukzessive wachsende Plattform und die aktuell angebotenen Kurse dienen als Grundlage für eine Institutionalisierung der IT-Grundausbildung in Form eines fachspezifischen DH-Curriculums. Das Konzept für das geplante freiwillige Zusatz-Zertifikat wird derzeit in der Projektgruppe erarbeitet und baut auf Erfahrungen vergleichbarer Angebote im deutschsprachigen Raum auf
+                    <ref n="9" target="poster-SCHUJftn9" type="note">9</ref>. Angedacht ist eine Kombination aus Veranstaltungen, die explizit IT-Grundlagenwissen vermitteln, und praxisorientierten Kursen, in denen die erlernten IT-Inhalte auf fachwissenschaftliche Gegenstände angewendet werden. Wichtig erscheint eine ausgewogene Verschränkung von 
+                    <hi rend="italic">eLearning</hi>-Angeboten und Präsenzveranstaltungen, da insbesondere letzteren durch den intensiven Austausch der Studierenden mit DH-Spezialisten ein großer Beitrag zum Lernerfolg beigemessen wird
+                    <ref n="10" target="poster-SCHUJftn10" type="note">10</ref>.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Grundlage einer nachhaltigen IT-Didaktik</head>
+<p>Neben der Langzeitarchivierung der Forschungsdaten wird auch die Nachhaltigkeit der informationstechnologischen Infrastruktur (Serveranlage mit redundant ausgelegten File-, Datenbank- und Web-Servern sowie ausreichenden Storages) durch die IT-Gruppe Geisteswissenschaften dauerhaft gewährleistet. Die Architektur des 
+                    <hi rend="italic">DHVLab</hi> ist flexibel und skalierbar gestaltet, sodass sie weiter ausgebaut werden kann (bei Bedarf ist ein Hosting der Server am Leibniz-Rechenzentrum in Garching bei München möglich). Für eine nachhaltige IT-Didaktik spielt neben der langfristig gesicherten technischen Infrastruktur insbesondere die inhaltliche Kontinuität eine entscheidende Rolle. Die im Rahmen des Projektes erarbeiteten Lehreinheiten werden dauerhaft zur Verfügung gestellt. Thematisch sind sie so zu gliedern und fachlich anzupassen, dass eine spezifische Auswahl für eine Lehrveranstaltung und damit eine Integration in ein geisteswissenschaftliches Einzelfach möglich ist. Die IT-Gruppe stellt auch nach Ende der Projektlaufzeit die unterstützende Begleitung der Lehrveranstaltungen sicher. Der Vortrag möchte zur Diskussion anregen, inwiefern sich die Anpassung der Materialien an die sich rasch wandelnden Anforderungen im Bereich der Digital Humanities möglichst effizient gestalten lässt. IT-Didaktik scheint nur dann einen Anspruch auf Nachhaltigkeit zu besitzen, wenn sie sich in einem steten Anpassungsprozess befindet.
+                </p>
+<p>Ganz im Sinne des „Digitalen Campus Bayern“ ist das Münchener Pilotprojekt auf eine Ausweitung auf andere Studienstandorte ausgerichtet. Die Plattform wird beispielsweise ab 2017 in einem im Aufbau befindlichen Kooperationsprogramm zur DH-Ausbildung der Universitäten Erlangen, München und Regensburg zum Einsatz kommen. Alle Module des 
+                    <hi rend="italic">DHVLab</hi> können kollaborativ von anderen Hochschulen genutzt werden, um umfassende Sammlungen von Tutorials, Aufgaben, Softwarebeschreibungen, Anwendungsszenarien sowie Sammlungen fachwissenschaftlicher Objekt- und Metadaten aufzubauen und gemeinsam zu pflegen.
+                </p>
+</div>
+</body>
+<back><div type="Notes"><note n="2" rend="footnote text" xml:id="poster-SCHUJftn2">Vgl. 
+                            <ref target="http://www.dh-curricula.org/index.php?id=1">http://www.dh-curricula.org/index.php?id=1</ref> [letzter Zugriff: 30. November 2016].
+                        </note><note n="3" rend="footnote text" xml:id="poster-SCHUJftn3"> Die Projektlaufzeit beträgt zwei Jahre. Das Vorhaben ist Teil eines Förderprogramms, welches das Bayerische Wissenschaftsministerium aufgelegt hat. Vgl. 
+                            <ref target="https://www.km.bayern.de/pressemitteilung/9340/.html">https://www.km.bayern.de/pressemitteilung/9340/.html</ref> [letzter Zugriff: 30. November 2016].
+                        </note><note n="4" rend="footnote text" xml:id="poster-SCHUJftn4"> Vgl. die Übersicht unter 
+                            <ref target="http://www.itg.lmu.de/projekte">www.itg.lmu.de/projekte</ref> [letzter Zugriff: 30. November 2016].
+                        </note><note n="5" rend="footnote text" xml:id="poster-SCHUJftn5"> Vgl. 
+                            <ref target="http://dhmuc.hypotheses.org/uber">http://dhmuc.hypotheses.org/uber</ref> [letzter Zugriff: 30. November 2016].
+                        </note><note n="6" rend="footnote text" xml:id="poster-SCHUJftn6"> Für die Dokumentation der technischen Infrastruktur vgl. 
+                            <hi rend="Hyperlink">http://dhvlab.gwi.uni-muenchen.de/index.php/Category:</hi>
+<ref target="http://dhvlab.gwi.uni-muenchen.de/index.php/Category:Architektur">Architektur</ref> [letzter Zugriff: 30. November 2016].
+                        </note><note n="7" rend="footnote text" xml:id="poster-SCHUJftn7"> Derzeit stehen in der virtuellen Umgebung u.a. folgende Software und Programme zur Verfügung: LibreOffice-Paket, OCRFeeder und Ocrad (Texterkennung), Python (PyCharm), RStudio (Statistik), Gephi (Visualisierung), epcEdit (XML-Editor), AntConc und TreeTagger (Korpuslinguistik).</note><note n="8" rend="footnote text" xml:id="poster-SCHUJftn8"> Vgl. die Zusammenstellung auf der Projektseite: 
+                            <ref target="http://dhvlab.gwi.uni-muenchen.de/index.php/Das_DHVLab_im_Einsatz">http://dhvlab.gwi.uni-muenchen.de/index.php/Das_DHVLab_im_Einsatz</ref> [letzter Zugriff: 30. November 2016].
+                        </note><note n="9" rend="footnote text" xml:id="poster-SCHUJftn9"> Vgl. insbesondere die Angebote in Köln (
+                            <ref target="http://www.itzertifikat.uni-koeln.de/">http://www.itzertifikat.uni-koeln.de/</ref>), Passau (
+                            <ref target="http://www.phil.uni-passau.de/zertifikat-dh/">http://www.phil.uni-passau.de/zertifikat-dh/</ref>) und Stuttgart („Das digitale Archiv“, 
+                            <ref target="http://www.uni-stuttgart.de/dda">http://www.uni-stuttgart.de/dda</ref>), letztgenanntes als Vorläufer eines DH-Masterstudienganges [letzter Zugriff: 30. November 2016].
+                        </note><note n="10" rend="footnote text" xml:id="poster-SCHUJftn10"> Vor diesem Hintergrund erscheinen grundständige 
+                            <hi rend="italic">eLearning</hi>-Angebote wie „The Programming Historian“ (
+                            <ref target="http://programminghistorian.org/">http://programminghistorian.org/</ref>) für einen autodidaktischen Einstieg begrüßenswert. Die Initiatoren des DHVLab sind jedoch der Auffassung, dass eine umfassende Präsenzausbildung nicht ersetzt werden kann.
+                        </note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bartsch, Sabine / Borek, Luise / Rapp, Andrea</hi> (2016): 
+                        „Aus der Mitte der Fächer, in die Mitte der Fächer: Studiengänge und Curricula – Digital Humanities in der universitären Lehre“,
+                        in: 
+                        <hi rend="italic">Bibliothek – Forschung und Praxis</hi> 40 (2): 172–178 10.1515/bfp-2016-0030.
+                    </bibl>
+<bibl>
+<hi rend="bold">DARIAH-EU</hi>: 
+                        <hi rend="italic">Digital Humanities Registry – Courses</hi>
+<ref target="https://dh-registry.de.dariah.eu/">https://dh-registry.de.dariah.eu/</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">DHI Paris (Teamaccount)</hi> (2013): 
+                        „Wissenschaftlicher Nachwuchs in den Digital Humanities: Ein Manifest“,
+                        in: 
+                        <hi rend="italic">Digital Humanities am DHIP</hi>, 23. August 2013 
+                        <ref target="http://dhdhi.hypotheses.org/1995">http://dhdhi.hypotheses.org/1995</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Ehrlicher, Hanno</hi> (2016): 
+                        „Fingerübungen in Digitalien. Erfahrungsbericht eines teilnehmenden Beobachters der Digital Humanities aus Anlass eines Lehrexperiments“, 
+                        in: 
+                        <hi rend="italic">Romanische Studien</hi> 4: 623–636 
+                        <ref target="http://www.romanischestudien.de/index.php/rst/article/view/88">http://www.romanischestudien.de/index.php/rst/article/view/88</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Koller, Guido</hi> (2016): 
+                        <hi rend="italic">Geschichte digital: Historische Welten neu vermessen</hi>. 
+                        Stuttgart: Kohlhammer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lücke, Stephan / Riepl, Christian</hi> (2016): 
+                        „Auf dem Weg zu einem Curriculum in den Digital Humanities“,
+                        in: 
+                        <hi rend="italic">Akademie Aktuell</hi> 57 (1): 74–77 
+                        <ref target="http://badw.de/fileadmin/pub/akademieAktuell/2016/56/0116_17_Riepl_V04.pdf">http://badw.de/fileadmin/pub/akademieAktuell/2016/56/0116_17_Riepl_V04.pdf</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Rehbein, Malte</hi> (2016): 
+                        <hi rend="italic">Geschichtsforschung im digitalen Raum. Über die Notwendigkeit der Digital Humanities als historische Grundwissenschaft</hi>. (Preprint) 
+                        <ref target="http://www.phil.uni-passau.de/fileadmin/dokumente/lehrstuehle/rehbein/Dokumente/GeschichtsforschungImDigitalenRaum_preprint.pdf">http://www.phil.uni-passau.de/fileadmin/dokumente/lehrstuehle/rehbein/Dokumente/GeschichtsforschungImDigitalenRaum_preprint.pdf</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Sahle, Patrick</hi> (2013): 
+                        <hi rend="italic">DH studieren! Auf dem Weg zu einem Kern- und Referenzcurriculum der Digital Humanities (= DARIAH-DE Working Papers 1)</hi>. 
+                        Göttingen: GOEDOC 
+                        <ref target="http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2013-1.pdf">http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2013-1.pdf</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Sahle, Patrick</hi> (2016): 
+                        „Digital Humanities als Beruf. Wie wird man ein „Digital Humanist“, und was macht man dann eigentlich?“, 
+                        in: 
+                        <hi rend="italic">Akademie Aktuell</hi> 57 (1): 78–83 
+                        <ref target="http://badw.de/fileadmin/pub/akademieAktuell/2016/56/0116_18_Sahle_V04.pdf">http://badw.de/fileadmin/pub/akademieAktuell/2016/56/0116_18_Sahle_V04.pdf</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Spiro, Lisa</hi> (2012): 
+                        „Openingup Digital Humanities Education“, 
+                        in: Hirsch, Brett D. (ed.):
+                        <hi rend="italic">Digital Humanities Pedagogy: Practices, Principlesand Politics</hi> 331–363 
+                        <ref target="http://www.openbookpublishers.com/product/161/">http://www.openbookpublishers.com/product/161/</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Thaller, Manfred</hi> (2015): 
+                        „Panel: Digital Humanities als Beruf – Fortschritte auf dem Weg zu einem Curriculum“, 
+                        in: 
+                        <hi rend="italic">Digital Humanities als Beruf: Fortschritte auf dem Weg zu einem Curriculum, vorgelegt auf der Jahrestagung 2015</hi> 3–5 
+                        <ref target="https://www.digitalhumanities.tu-darmstadt.de/fileadmin/dhdarmstadt/materials/Digital_Humanities_als_Beruf_-_Stand_2015.pdf">https://www.digitalhumanities.tu-darmstadt.de/fileadmin/dhdarmstadt/materials/Digital_Humanities_als_Beruf_-_Stand_2015.pdf</ref> [letzter Zugriff 30. November 2016].
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

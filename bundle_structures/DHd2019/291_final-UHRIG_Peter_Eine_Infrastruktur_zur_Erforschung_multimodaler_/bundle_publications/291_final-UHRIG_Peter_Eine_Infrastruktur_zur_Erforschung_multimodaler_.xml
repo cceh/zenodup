@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="291_final-UHRIG_Peter_Eine_Infrastruktur_zur_Erforschung_multimodaler_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eine Infrastruktur zur Erforschung multimodaler Kommunikation</title>
+                <author>
+                    <persName>
+                        <surname>Uhrig</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Universität Osnabrück, Deutschland</affiliation>
+                    <email>peter.uhrig@uos.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T22:19:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>multimodale Kommunikation</term>
+                    <term>maschinelle Sprachverarbeitung</term>
+                    <term>Korpuslinguistik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Bilderfassung</term>
+                    <term>Aufzeichnung</term>
+                    <term>Transkription</term>
+                    <term>Sprache</term>
+                    <term>Multimodale Kommunikation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Eine Infrastruktur zur Erforschung multimodaler Kommunikation</head>
+                <p style="text-align:left; ">Dieser Vortrag zeigt, wie mit Hilfe des Distributed Little Red Hen Lab eine umfassende Datenbank und Forschungsinfrastruktur geschaffen wurde (und immer noch wird), mit der sich viele Aspekte multimodaler Kommunikation auf Basis der Fernsehaufnahmen des NewsScape-Projekts untersuchen lassen (Steen/Turner 2013).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datensammlung und Datenbasis</head>
+                <p style="text-align:left; ">Mit dem UCLA Library Broadcast NewsScape steht Forschern mittlerweile eine Datensammlung von über 400.000 Stunden digitaler Fernsehaufnahmen aus über 10 Jahren zur Verfügung, nicht nur vom US-amerikanischen Fernsehmarkt, aber mit einem starken Fokus auf demselben (vgl. Tabellen 1 und 2). Aufgrund besonderer Einschränkungen des Urheberrechts in den USA darf ein Archiv oder eine Bibliothek „News“ aufnehmen und Forschern zur Verfügung stellen. Bei NewsScape wird der Begriff 
+                    <hi rend="italic">News</hi> relativ weit ausgelegt, so dass sich auch politische Comedy oder verschiedenste Talkshows in den Aufnahmen finden. Aufgrund gesetzlicher Vorgaben müssen in den USA alle Sendungen mit Untertiteln ausgestrahlt werden, die NewsScape ebenfalls mit aufnimmt, so dass sofort eine relativ brauchbare Verschriftlichung vorliegt, wodurch die Aufnahmen durchsuchbar werden. Dies betrifft auch in den USA ausgestrahlte spanischsprachige Sendungen. Insgesamt nimmt Red Hen Sendungen in mehr als 15 Sprachen auf, unter anderem inzwischen auch in China und Indien, wobei nicht in allen Sprachen bzw. nicht auf allen Sendern Untertitel ausgestrahlt werden. Das Distributed Little Red Hen Lab kooperiert mit dem Open-Source-Projekt CCExtractor um verschiedenste technische Umsetzungen von Untertiteln in Text umwandeln zu können.
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="DH-Default">Video</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Videodateien</cell>
+                        <cell rend="DH-Default">451.974</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Laufzeit in Stunden</cell>
+                        <cell rend="DH-Default">350.223</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Text</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Untertiteldateien</cell>
+                        <cell rend="DH-Default">452.208</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">OCR-Dateien (für Text im Bild)</cell>
+                        <cell rend="DH-Default">428.920</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">TPT-Dateien (heruntergeladende Transkripte)</cell>
+                        <cell rend="DH-Default">37.148</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Wörter in Untertiteldateien</cell>
+                        <cell rend="DH-Default">2,82 Mrd.</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Wörter in OCR-Dateien</cell>
+                        <cell rend="DH-Default">981,54 Mio.</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Wörter in TPT-Dateien</cell>
+                        <cell rend="DH-Default">440,38 Mio.</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Bilder</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Miniaturbilder</cell>
+                        <cell rend="DH-Default">126,08 Mio.</cell>
+                    </row>
+                </table>
+                <p style="text-align:left; ">Tabelle 1: Zahlen zur gesamten Sammlung, Mitte November 2017 (übersetzt aus Uhrig 2018)</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="DH-Default">Sprache</cell>
+                        <cell rend="DH-Default">Laufzeit</cell>
+                        <cell rend="DH-Default">Wörter</cell>
+                        <cell rend="DH-Default">Kommentar</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Amerikanisches Englisch</cell>
+                        <cell rend="DH-Default">298,004:48:10</cell>
+                        <cell rend="DH-Default">2,089,518,746</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Spanisch</cell>
+                        <cell rend="DH-Default">15,104:47:23</cell>
+                        <cell rend="DH-Default">78,075,367</cell>
+                        <cell rend="DH-Default">ca. 60% mexikanisches Spanisch</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Französisch</cell>
+                        <cell rend="DH-Default">11,425:36:07</cell>
+                        <cell rend="DH-Default">8,222,300</cell>
+                        <cell rend="DH-Default">verschiedene Varitäten; viele Aufnahmen ohne Untertitel</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Internationales Englisch</cell>
+                        <cell rend="DH-Default">8,271:55:02</cell>
+                        <cell rend="DH-Default">35,646,649</cell>
+                        <cell rend="DH-Default">Al Jazeera, France 24, Deutsche Welle, Russia Today, …</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Persisch</cell>
+                        <cell rend="DH-Default">5,103:04:54</cell>
+                        <cell rend="DH-Default">0</cell>
+                        <cell rend="DH-Default">Übertragung ohne Untertitel</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Norwegisch</cell>
+                        <cell rend="DH-Default">3,241:49:55</cell>
+                        <cell rend="DH-Default">7,466,801</cell>
+                        <cell rend="DH-Default">Aufnahmen seit 2007, Untertitel seit 2012</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Britisches Englisch</cell>
+                        <cell rend="DH-Default">2,313:59:54</cell>
+                        <cell rend="DH-Default">14,545,895</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Russisch</cell>
+                        <cell rend="DH-Default">1,905:47:52</cell>
+                        <cell rend="DH-Default">6,511,767</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Deutsch</cell>
+                        <cell rend="DH-Default">1,362:15:13</cell>
+                        <cell rend="DH-Default">6,381,895</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Schwedisch</cell>
+                        <cell rend="DH-Default">1,017:41:15</cell>
+                        <cell rend="DH-Default">1,661,240</cell>
+                        <cell rend="DH-Default">Aufnahmen seit 2011, Untertitel seit 2015</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Portugiesisch</cell>
+                        <cell rend="DH-Default">873:31:57</cell>
+                        <cell rend="DH-Default">4,897,107</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Dänisch</cell>
+                        <cell rend="DH-Default">866:47:26</cell>
+                        <cell rend="DH-Default">4,628,942</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Niederländisch/ Flämisch</cell>
+                        <cell rend="DH-Default">565:56:41</cell>
+                        <cell rend="DH-Default">4,363,813</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Tschechisch</cell>
+                        <cell rend="DH-Default">413:47:34</cell>
+                        <cell rend="DH-Default">2,956,235</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Polnisch</cell>
+                        <cell rend="DH-Default">262:57:42</cell>
+                        <cell rend="DH-Default">1,672,483</cell>
+                        <cell rend="DH-Default"/>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">Arabisch</cell>
+                        <cell rend="DH-Default">148:51:14</cell>
+                        <cell rend="DH-Default">0</cell>
+                        <cell rend="DH-Default">Übertragung ohne Untertitel</cell>
+                    </row>
+                </table>
+                <p style="text-align:left; ">Tabelle 2: Verteilung auf die einzelnen Sprachen (übersetzt aus Uhrig 2018)</p>
+                <p style="text-align:left; ">Inzwischen zeigt sich jedoch, dass z.T. die Ergebnisse automatischer Spracherkennung im Englischen näher am gesprochenen Wort liegen als die Untertitel, so dass mittelfristig davon auszugehen ist, dass das Vorhandensein von Untertiteln an Relevanz verliert.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenverarbeitung</head>
+                <p style="text-align:left; ">In einem seit 2014 laufenden Projekt wird die Datensammlung auch für die linguistische Forschung aufbereitet, so dass sie nicht nur für traditionell linguistische Fragestellungen sondern auch für multimodale Forschung genutzt werden kann (momentan vorrangig für das Englische).</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Textbasierte maschinelle Sprachverarbeitung</head>
+                    <p style="text-align:left; ">Amerikanische Untertitel werden fast ausschließlich in Großbuchstaben ausgestrahlt. Dies stellt eine nicht zu unterschätzende Herausforderung für die weitere Verarbeitung dar, da viele Natural Language Processing (NLP)-Werkzeuge massiv schlechtere Ergebnisse liefern, wenn das Eingabeformat nur aus Großbuchstaben besteht. Das bereits fängt mit der Satzsegmentierung an, für die (gerade im Englischen) die Großschreibung am Satzanfang ein wichtiger Hinweis darauf ist, wo Satzgrenzen zu finden sind. Ein neu entwickelter Satztrenner speziell für die Untertiteldaten und ihre Besonderheiten – Zeilen sind 32 Zeichen lang; Sätze beginnen oft auf einer neuen Zeile – verbesserte die Ergebnisse deutlich, was auch für nachfolgende Verarbeitungsschritte, vor allem das syntaktische Parsing, vorteilhaft ist.</p>
+                    <p style="text-align:left; ">Auch beim Part-of-Speech Tagging zeigte sich, dass reine Großbuchstaben zu schlechten Ergebnissen führen. Das „caseless“ Modell von Stanford CoreNLP (Manning et al. 2014) für das Englische sorgte hier für gute Ergebnisse, die den Ergebnissen für Text mit Groß- und Kleinschreibung kaum nachstehen. Zusätzlich kann man optional ein Modul namens „TrueCase“ nachschalten, das versucht, auf Basis der PoS tags die ursprüngliche Groß- und Kleinschreibung zu erraten.</p>
+                    <p style="text-align:left; ">Für das syntaktische Parsing bietet Stanford ebenfalls ein „caseless“-Modell an, das jedoch auf relativ alter Parsertechnologie aufbaut (klassischer PCFG-Parser mit regelbasiertem Konverter für Dependenzen) und bei unseren Tests auf englischen Daten mit normaler Groß- und Kleinschreibung deutlich schlechter abschneidet das aktuelle Modell (Chen and Manning 2014) namens 
+                        <hi rend="italic">dependency neural network</hi> (F-Score labeled attachment: 76,22 vs. 79,56). Es war also notwendig, eine genaue Evaluation durchzuführen, um die bestmögliche Parameterkombination zu ermitteln. Insgesamt wurden 576 Parameterkombinationen evaluiert. Dazu wurde das Korpus ANC MASC mit verschiedenen Parsern und Modellen sowie mit der Originalschreibweise, nur Großschreibung, nur Kleinschreibung und mit den Ergebnissen des TrueCase-Moduls (wo das möglich war) geparst. Es zeigte sich, dass mit TrueCase das Ergebnis des modernen 
+                        <hi rend="italic">dependency neural network</hi> Parsers aus Stanford CoreNLP die Ergebnisse relativ nahe an den Ergebnissen mit Originalschreibweise lagen (79,18 vs. 79,56) und damit diese Art von Vorverarbeitung zu deutlich besseren Parsing-Ergebnissen führt als die Verwendung des „caseless“ Modells. Ein Überblick findet sich in Tabelle 3:
+                    </p>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="DH-Default"/>
+                            <cell rend="DH-Default" cols="2">F Original-schreibw.</cell>
+                            <cell rend="DH-Default" cols="2">F bestes caseless</cell>
+                            <cell rend="DH-Default" cols="2">F Klein-schreibung</cell>
+                            <cell rend="DH-Default" cols="2">F Groß-schreibung</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold" style="font-size:9pt">Parser-modell</hi>
+                            </cell>
+                            <cell rend="DH-Default">labeled</cell>
+                            <cell rend="DH-Default">unlabeled</cell>
+                            <cell rend="DH-Default">labeled</cell>
+                            <cell rend="DH-Default">unlabeled</cell>
+                            <cell rend="DH-Default">labeled</cell>
+                            <cell rend="DH-Default">unlabeled</cell>
+                            <cell rend="DH-Default">labeled</cell>
+                            <cell rend="DH-Default">unlabeled</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">factored</cell>
+                            <cell rend="DH-Default">76.29</cell>
+                            <cell rend="DH-Default">80.32</cell>
+                            <cell rend="DH-Default">75,90</cell>
+                            <cell rend="DH-Default">80,18</cell>
+                            <cell rend="DH-Default">72,63</cell>
+                            <cell rend="DH-Default">77,68</cell>
+                            <cell rend="DH-Default">35,20</cell>
+                            <cell rend="DH-Default">48,18</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">pcfg_cased</cell>
+                            <cell rend="DH-Default">76.34</cell>
+                            <cell rend="DH-Default">80.16</cell>
+                            <cell rend="DH-Default">75,99</cell>
+                            <cell rend="DH-Default">79,98</cell>
+                            <cell rend="DH-Default">74,77</cell>
+                            <cell rend="DH-Default">79,34</cell>
+                            <cell rend="DH-Default">29,17</cell>
+                            <cell rend="DH-Default">43,68</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">pcfg_case-less</cell>
+                            <cell rend="DH-Default">76.22</cell>
+                            <cell rend="DH-Default">80.30</cell>
+                            <cell rend="DH-Default">76,20</cell>
+                            <cell rend="DH-Default">80,30</cell>
+                            <cell rend="DH-Default">76,20</cell>
+                            <cell rend="DH-Default">80,30</cell>
+                            <cell rend="DH-Default">76,11</cell>
+                            <cell rend="DH-Default">80,24</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">shift-reduce</cell>
+                            <cell rend="DH-Default">76.05</cell>
+                            <cell rend="DH-Default">79.82</cell>
+                            <cell rend="DH-Default">75,74</cell>
+                            <cell rend="DH-Default">79,54</cell>
+                            <cell rend="DH-Default">72,20</cell>
+                            <cell rend="DH-Default">77,16</cell>
+                            <cell rend="DH-Default">42,77</cell>
+                            <cell rend="DH-Default">54,46</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">shift-reduce with beam search</cell>
+                            <cell rend="DH-Default">76.80</cell>
+                            <cell rend="DH-Default">80.90</cell>
+                            <cell rend="DH-Default">78,05</cell>
+                            <cell rend="DH-Default">81,86</cell>
+                            <cell rend="DH-Default">72,08</cell>
+                            <cell rend="DH-Default">77,10</cell>
+                            <cell rend="DH-Default">42,93</cell>
+                            <cell rend="DH-Default">54,92</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">relational neural network</cell>
+                            <cell rend="DH-Default">78.24</cell>
+                            <cell rend="DH-Default">82.20</cell>
+                            <cell rend="DH-Default">77,76</cell>
+                            <cell rend="DH-Default">81,80</cell>
+                            <cell rend="DH-Default">76,87</cell>
+                            <cell rend="DH-Default">81,34</cell>
+                            <cell rend="DH-Default">24,94</cell>
+                            <cell rend="DH-Default">40,32</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">dependen-cy neural network</cell>
+                            <cell rend="DH-Default">79.56</cell>
+                            <cell rend="DH-Default">83.06</cell>
+                            <cell rend="DH-Default">79,18</cell>
+                            <cell rend="DH-Default">82,80</cell>
+                            <cell rend="DH-Default">77,70</cell>
+                            <cell rend="DH-Default">81,68</cell>
+                            <cell rend="DH-Default">40,70</cell>
+                            <cell rend="DH-Default">51,96</cell>
+                        </row>
+                    </table>
+                    <p style="text-align:left; ">Tabelle 3: Vergleich der Parsermodelle bei unterschiedlicher Groß- und Kleinschreibung</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Audio</head>
+                    <p style="text-align:left; ">Zur Vorbereitung der Audioverarbeitung mussten darüber hinaus die Untertitel von allem Text befreit werden, der nicht gesprochen wird. Wesentliche Punkte sind dabei Sprecherangaben („Reporter:“) und Angaben über den nicht-gesprochenen Ton („[Doorbell rings.]“ oder „[Applause]“). Mittels einer Frequenzliste wurde ein Filter erstellt, der ca. 95 % des nicht-gesprochenen Texts entfernt.</p>
+                    <p style="text-align:left; ">Im nächsten Schritt wurde mit Forced Alignment Software (in diesem Fall 
+                        <hi rend="italic">Gentle</hi>) versucht, für jedes Wort in den Untertiteln die genaue Position in der Audiospur des Videos zu ermitteln. Die Software selbst gibt an, etwas über 91 % der Wörter zu alignieren, aber Stichproben zeigen, dass auch bei den alignierten noch falsche Ergebnisse auftreten. Die genaue Größenordnung des Fehlers muss noch ermittelt werden.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Video</head>
+                    <p style="text-align:left; ">Schließlich wurde mittels Computer-Vision-Software die visuelle Ebene auf verschiedene Merkmale hin annotiert, die für die Erforschung multimodaler Kommunikation relevant sind. Der Computer versucht hier, automatisch zu erkennen, ob eine Person auf dem Bild zu sehen ist, ob diese der Sprecher bzw. die Sprecherin ist, ob die Person ihre Hände bewegt und ob bestimmte high-level-Gesten (in diesem Fall als Test sogenannte „timeline gestures“) zu sehen sind (Turchyn et al. 2018). Erste Tests zeigen, dass das System auf OpenCV-Basis eine sehr gute Präzision jenseits der 90% für die Personenerkennung schafft, aber leider bei den Handbewegungen nur eine Präzision im Bereich von ca. 33 % erreicht. Es ist also im Moment immer ein nachgeschalteter manueller Analyseschritt nötig. Aktuell laufen Experimente, die Erkennung mittels OpenPose zu verbessern.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Abfragemöglichkeiten</head>
+                <p style="text-align:left; ">Alle Daten wurden in 
+                    <hi rend="italic">CQPweb</hi> (Hardie 2012), einer korpuslinguistischen Abfrageplattform mit großem Funktionsumfang, gespeichert und können so effizient und komfortabel abgefragt werden. Es wird gezeigt, wie mit einer Abfrage sowohl linguistische als visuelle Parameter abgefragt werden können, so dass man sofort die jeweils passenden Stellen im Video angezeigt bekommt.
+                </p>
+                <p style="text-align:left; ">Weiterhin werden Abfragemöglichkeiten über ein Geoinformationssystem (GIS) in Verbindung mit linguistischer Analyse (z.B. für die kulturgeographische Forschung) sowie die Suchmaschinen der UCLA demonstriert.</p>
+                <p style="text-align:left; ">Um die oben erwähnte manuelle Analyse zu beschleunigen, wurde im Rahmen des 
+                    <hi rend="italic">Google Summer of Code</hi> 2018 die Version 2 des 
+                    <hi rend="italic">Red Hen Rapid Annotator</hi> entwickelt, mit dem komfortabel und schnell große Mengen an Videoschnipseln klassifiziert werden können. Im Vortrag wird dieser ebenfalls kurz demonstriert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anwendungen</head>
+                <p style="text-align:left; ">Abschließend wird ein kurzer Überblick über laufende und abgeschlossene Projekte mit der Infrastruktur gegeben, um zu zeigen, welch vielfältige Fragestellungen bereits heute bearbeitet werden können.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Chen, Danqi / Manning, Christopher D. (2014):</hi> 
+                        <hi rend="italic">A Fast and Accurate Dependency Parser using Neural Networks</hi>, 
+                        in: 
+                        <hi rend="bold">Moschitti, Alessandro / Pang, Bo / Daelemans, Walter (eds.):</hi> 
+                        <hi rend="italic">Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP'14)</hi>. 
+                        Doha: Association for Computational Linguistics, 740-750. 
+                        <ref target="http://aclweb.org/anthology/D14-1082">http://aclweb.org/anthology/D14-1082</ref> [Letzter Zugriff 15. Januar 2018]
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Hardie, Andrew (2012):</hi> 
+                        <hi rend="italic">CQPweb – Combining Power, Flexibility and Usability in a Corpus Analysis Tool</hi>, 
+                        in: International Journal of Corpus Linguistics, 17.3, 380-409
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Manning, Christopher D. / Surdeanu, Mihai / Bauer, John / Finkel, Jenny Rose / Bethard, Steven / McClosky, David (2014):</hi> 
+                        <hi rend="italic">The Stanford CoreNLP Natural Language Processing Toolkit</hi>, 
+                        in: Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL'14). Baltimore, MD: Association for Computational Linguistics, 55-60. http://aclweb.org/anthology/P14-5010.pdf [Letzter Zugriff 15. Januar 2018]
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Steen, Francis F. / Turner, Mark (2013):</hi> 
+                        <hi rend="italic">Multimodal Construction Grammar</hi>, 
+                        in: 
+                        <hi rend="bold">Borkent, Michael / Dancygier, Barbara / Hinnell, Jennifer (eds.): </hi>
+                        <hi rend="italic">Language and the Creative Mind</hi>. Stanford, CA: CSLI Publications, 255-274
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Turchyn, Sergiy / Olza Moreno, Inés / Pagán Cánovas, Cristóbal / Steen, Francis / Turner, Mark / Valenzuela, Javier / Ray, Soumya (2018):</hi> 
+                        <hi rend="italic">Gesture Annotation with a Visual Search Engine for Multimodal Communication Research</hi>, 
+                        in: IAAI-18, article 72.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Uhrig, Peter (2018):</hi> 
+                        <hi rend="italic">NewsScape and the Distributed Little Red Hen Lab – A digital infrastructure for the large-scale analysis of TV broadcasts</hi>, 
+                        in: 
+                        <hi rend="bold">Anne-Julia Zwierlein / Jochen Petzold / Katharina Böhm / Martin Decker (eds.):</hi>
+                        <hi rend="italic">Anglistentag 2018 in Regensburg: Proceedings. Proceedings of the Conference of the German Association of University Teachers of English</hi>. 
+                        Trier: Wissenschaftlicher Verlag Trier.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

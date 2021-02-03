@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-ECHEL" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ein PoS-Tagger für „das“ Mittelhochdeutsche</title>
+<author>
+<persName>
+<surname>Echelmeyer</surname>
+<forename>Nora</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>nora.echelmeyer@ilw.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Reiter</surname>
+<forename>Nils</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>nils.reiter@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Schulz</surname>
+<forename>Sarah</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>sarah.schulz@ims.uni-stuttgart.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-28T14:11:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Mittelhochdeutsch</term>
+<term>Wortarten</term>
+<term>Tagging</term>
+<term>PoS</term>
+<term>Disambiguierung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Annotieren</term>
+<term>Veröffentlichung</term>
+<term>Computer</term>
+<term>Sprache</term>
+<term>Literatur</term>
+<term>Text</term>
+<term>Werkzeuge</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>Ein grundlegender Schritt für eine Vielzahl von Aufgaben aus dem Bereich des 
+                    <hi rend="italic">Natural Language Processing</hi> (NLP) ist das 
+                    <hi rend="italic">Part of Speech</hi> (PoS)-Tagging. Ein PoS-Tagger annotiert im Kontext eines Satzes jedes Wort mit seiner Wortart aus einer Menge an festgelegten Wortarten (Tagset).
+                </p>
+<p>Ein Großteil der dazu vorhandenen Arbeiten konzentriert sich auf das Englische, auch für das Neuhochdeutsche sind vergleichbar viele Daten verfügbar. Historische Sprachstufen stellen hingegen eine Herausforderung für NLP-Aufgaben wie PoS-Tagging dar, da sie keine Standardsprache kennen, sondern nur als Vielfalt dialektaler Varietäten existieren, und ihre Verschriftlichung nicht nach einheitlichen Regeln erfolgt. Dies schlägt sich in einer hohen Varianz nieder, was die Annotation einer ausreichenden Menge an Referenzdaten erschwert.</p>
+<p>Mit diesem Beitrag möchten wir einen PoS-Tagger für das Mittelhochdeutsche vorstellen, der auf einem thematisch breiten und diachronen Korpus trainiert wurde. Als Tagset verwenden wir ein Inventar aus 17 universellen Wortart-Kategorien (
+                    <hi rend="italic">Universal Dependency</hi>-Tagset, Nivre et al. 2016). Mit den annotierten Daten entwickeln wir ein Modell für den TreeTagger (Schmid 1995), das frei zugänglich ist.
+                </p>
+<p>Dabei vergleichen wir drei verschiedene Möglichkeiten, den PoS-Tagger zu trainieren. Zunächst verwenden wir ein kleines, manuell annotiertes Trainingsset, vergleichen dessen Ergebnisse dann mit einem kleinen, automatisch disambiguierten Trainingsset und schließlich mit den maximal verfügbaren Daten.</p>
+<p>Mit dem Tagger möchten wir nicht nur eine „Marktlücke“ schließen (denn bisher gibt es keinen frei verwendbaren PoS-Tagger für das Mittelhochdeutsche), sondern auch eine größtmögliche Anwendbarkeit auf mittelhochdeutsche Texte verschiedener Gattungen, Jahrhunderte und regionaler Varietäten erreichen und weiteren Arbeiten mit mittelhochdeutschen Texten den Weg ebnen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschungsstand</head>
+<div rend="DH-Heading2" type="div2">
+<head>Tagset</head>
+<p>Als PoS-Tagset hat sich für Neuhochdeutsch das Stuttgart-Tübingen-Tagset (STTS) etabliert (Schiller et al. 1999). Um auf die Besonderheiten historischer Sprachstufen besser eingehen zu können, entwickelten Dipper et al. (2013) ein hieran angelehntes Historisches Tagset (HiTS), das aus 12 Wortklassen besteht, die sich ihrerseits in 84 Wortarten gliedern. </p>
+<p>Mit dem Ziel eines universellen Tagsets, welches konsistente Annotation vereinfacht und sprachübergreifendes Lernen für automatische Syntaxannotationen ermöglicht, wurde im Rahmen des 
+                        <hi rend="italic">Universal Dependency</hi>-Projekts (UD) ein Tagset aus 17 Tags erstellt. Dieses kann bei Bedarf um sprachspezifische Tags erweitert werden.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Tagging</head>
+<p>Die besten verfügbaren PoS-Tagger erreichen auf englischsprachigen Zeitungstexten über 97% Accuracy (cf. Spoustová et al. 2009). Für deutschsprachige Zeitungstexte werden um die 95% erzielt, für Web-Texte 90–93% (Giesbrecht / Evert 2009). PoS-Tagging für das Mittelhochdeutsche ist weit weniger erforscht. Schulz / Kuhn (2016) beschreiben Ansätze zum PoS-Tagging eines spezifischen Textes. Barteld et al. (2015) trainieren einen PoS-Tagger für Mittelniederdeutsch. Dipper (2011) berichtet eine Accuracy von ca. 92% für zwei spezifische Modelle für die Dialekte Ober- und Mitteldeutsch, trainiert auf normalisierten Lemmata und mit dem STTS-Tagset. Alle genannten Modelle sind auf eine bestimmte Varietät des Mittelhochdeutschen beschränkt, zudem ist keines dieser Modelle (soweit uns bekannt) öffentlich verfügbar.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Korpora</head>
+<p>Die wohl umfangreichsten Projekte zum Mittelhochdeutschen sind das Wörterbuchnetz
+                        <ref n="1" target="vortrag-ECHELftn1" type="note">1</ref>, ein online zugänglicher Verbund aus Nachschlagewerken, das linguistisch motivierte Referenzkorpus Mittelhochdeutsch
+                        <ref n="2" target="vortrag-ECHELftn2" type="note">2</ref> (ReM, Dipper 2015) sowie die Mittelhochdeutsche Begriffsdatenbank
+                        <ref n="3" target="vortrag-ECHELftn3" type="note">3</ref> (s.u.).
+                    </p>
+<p>Die annotierten Textkorpora (cf. Dipper 2015: 521–526) können z.T. über das Suchtool ANNIS (Zeldes et al. 2009) abgefragt werden, wobei Suchanfragen auf den Ebenen Wortform, Lemma und Morphologie möglich sind.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Mittelhochdeutsche Begriffsdatenbank (MHDBDB)</head>
+<p>Durch eine Kooperation mit dem Projekt „Mittelhochdeutschen Begriffsdatenbank“ konnten wir für die Entwicklung unseres PoS-Taggers auf eine reiche Datensammlung zurückgreifen, bestehend aus 658 Texten mit insgesamt knapp 10 Millionen Tokens. Die Texte umfassen eine Zeitspanne von etwa vier Jahrhunderten (1100–1500), verschiedene dialektale Ausprägungen sowie nahezu alle Gattungen (von großepischen Genres wie Artusroman, Heldenepik und Antikenroman über Kleinepik hin zu Lyrik sowie diversen nicht-literarischen Texten wie Kochbüchern, Alchemistischen Schriften und Flugblättern).</p>
+<table rend="rules">
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">Kürzel</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Name</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Beispiel</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">NOM</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Nomen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">acker, zît</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">NAM</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Name</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Uolrîch, Wiene, Rhîn</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">ADJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Adjektiv</cell>
+<cell rend="DH-Default background-color(FFFFFF)">grôz, schoene</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">ADV</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Adverb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">schone, schnelleclîche</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">ART</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Artikel</cell>
+<cell rend="DH-Default background-color(FFFFFF)">der, eine</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">DET</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Determinante</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ditze, mîn, ieman</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">POS</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Possessiv- pronomen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">mîn, dîn, unser</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">PRO</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Pronomen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ich, ez, wir</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">PRP</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Präposition</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ûf, zuo, under</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">NEG</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Negation</cell>
+<cell rend="DH-Default background-color(FFFFFF)">nie, âne, niht</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">NUM</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Numeral</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ein, zwô, zweinzegest</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">CNJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Konjunktion</cell>
+<cell rend="DH-Default background-color(FFFFFF)">als, und, abr</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">GRA</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Gradations- partikel</cell>
+<cell rend="DH-Default background-color(FFFFFF)">sêre, vil</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">IPA</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Interrogativ- partikel</cell>
+<cell rend="DH-Default background-color(FFFFFF)">swer, swar, wie</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">VRB</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Verb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">liuhten, varn</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">VEX</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Hilfsverb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">haben, sîn, werden</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">VEM</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Modalverb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">müezen, suln</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">INJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Interjektion</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ahî, owê</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">CPA</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Komparativ- partikel</cell>
+<cell rend="DH-Default background-color(FFFFFF)">als, wie</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">DIG</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Zahl (Digit)</cell>
+<cell rend="DH-Default background-color(FFFFFF)">IX, XVII, III</cell>
+</row>
+</table>
+<p>
+<hi rend="bold">Tabelle 1</hi>: Grammatische Kategorien der MHDBDB
+                    </p>
+<p>Die Daten der MHDBDB enthalten – neben Tokenisierung und Lemmatisierung – bereits grammatische Auszeichnungen (Tabelle 1). Diese sind allerdings nicht disambiguiert, da sie den Kontext eines Wortes unberücksichtigt lassen (Typ-level-Annotationen, z.B. NOM|ADJ|ADV für 
+                        <hi rend="italic">guot</hi>). Darüber hinaus kodieren sie die morphologische Zusammensetzung von Wörtern (z.B. NOM|NEG für 
+                        <hi rend="italic">unheil</hi>), so dass es zu häufigen Mehrfachauszeichnungen kommt (z.B. 
+                        <hi rend="italic">unvuoge</hi> NOM|ADJ|ADV|NEG). Hinzu kommt, dass das Tagset nicht alle möglichen Verwendungsformen der Wörter abdeckt: So kann z.B. 
+                        <hi rend="italic">daz</hi> nicht nur Artikel oder subordinierende Konjunktion sein (Satz 1), sondern auch als Relativ- (2) oder Demonstrativpronomen (3) fungieren:
+                    </p>
+<p>
+<hi rend="italic">(1)</hi>
+<hi rend="italic">Daz edel kint hât mir verjehen, daz ez in troume sî geschehen.
+                            <lb/>(2) Wie staete ist ein dünnez eis daz ougestheize sunnen hât?
+                            <lb/>(3)
+                        </hi>
+<hi rend="italic">Daz sage ich iu vür ungelogen.</hi>
+</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Trainings- und Testdaten</head>
+<p>Obige Beobachtungen zeigen exemplarisch, dass die grammatischen Auszeichnungen der MHDBDB einer Überarbeitung bedürfen, um für die Entwicklung eines PoS-Taggers nutzbar zu sein. Dazu annotieren wir ein Teilkorpus, das für den mittelhochdeutschen Wortart-Tagger als Trainings- und Testdatei dient und für eine automatische Re-Annotation der restlichen MHDBDB-Daten herangezogen wird. Um Anschlussuntersuchungen sowie sprachübergreifende Betrachtungen zu ermöglichen, greifen wir für unsere Annotationen auf die universellen Kategorien aus dem UD-Tagset zurück (Tabelle 2).</p>
+<table rend="rules">
+<row>
+<cell cols="2" rend="DH-Default background-color(FFFFFF)">Tag</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Anmerkun- gen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Beispiele</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">ADJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">adjective</cell>
+<cell rend="DH-Default background-color(FFFFFF)">vorangestellt, nachgestellt, Partizipien</cell>
+<cell rend="DH-Default background-color(FFFFFF)">der ritter 
+                            <hi rend="bold">guot</hi>; daz 
+                            <hi rend="bold">elder</hi> kint; 
+                            <hi rend="bold">roemisch</hi> lant; der 
+                            <hi rend="bold">ander</hi> man
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">ADP</cell>
+<cell rend="DH-Default background-color(FFFFFF)">adposition</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Prä-, Post- und Zirkum- position</cell>
+<cell rend="DH-Default background-color(FFFFFF)">
+<hi rend="bold">mit</hi> dem swerte; 
+                            <hi rend="bold">gein</hi> Nantes; 
+                            <hi rend="bold">âne</hi> ir schulde
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">ADV</cell>
+<cell rend="DH-Default background-color(FFFFFF)">adverb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">auch adverbial gebrauchte Adjektive und relativischer Gebrauch</cell>
+<cell rend="DH-Default background-color(FFFFFF)">der ritter 
+                            <hi rend="bold">lîdenlîche</hi> leit; 
+                            <hi rend="bold">so</hi> sprach der künec; rehte liebe im 
+                            <hi rend="bold">nie</hi> geschach; hôret, 
+                            <hi rend="bold">swie</hi> er ze strîte quam
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">AUX</cell>
+<cell rend="DH-Default background-color(FFFFFF)">auxiliary verb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Hilfs- und Modal- verben</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ich 
+                            <hi rend="bold">muoz</hi> ir dienen; die 
+                            <hi rend="bold">sint</hi> enterbet; ir 
+                            <hi rend="bold">habet</hi> ez von mir gehôrt
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">CONJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">coordinating conjunction</cell>
+<cell rend="DH-Default background-color(FFFFFF)">neben- ordnend</cell>
+<cell rend="DH-Default background-color(FFFFFF)">ritter 
+                            <hi rend="bold">unde</hi> diep; zwei teil 
+                            <hi rend="bold">oder</hi> mêr; 
+                            <hi rend="bold">denne</hi> ich welle jehen
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">DET</cell>
+<cell rend="DH-Default background-color(FFFFFF)">determiner</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Artikel (be- stimmt und unbestimmt); attribuie- rende De- monstrativ-, Possessiv- und Relativ- pronomen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">
+<hi rend="bold">ein</hi> maere; 
+                            <hi rend="bold">der</hi> ritter guot; 
+                            <hi rend="bold">diz</hi> bîspel; 
+                            <hi rend="bold">dirre</hi> âventiure; 
+                            <hi rend="bold">ir</hi> triuwe; 
+                            <hi rend="bold">mîn</hi> bruoder; 
+                            <hi rend="bold">dehein</hi> man; in 
+                            <hi rend="bold">welhem</hi> lande
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">INTJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">interjection</cell>
+<cell rend="DH-Default background-color(FFFFFF)"/>
+<cell rend="DH-Default background-color(FFFFFF)">ouwê; ach!</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">NOUN</cell>
+<cell rend="DH-Default background-color(FFFFFF)">noun</cell>
+<cell rend="DH-Default background-color(FFFFFF)">auch sub- stantivierte Adjektive, Verben, Numeralia</cell>
+<cell rend="DH-Default background-color(FFFFFF)">diu 
+                            <hi rend="bold">vrouwe</hi>; 
+                            <hi rend="bold">duc</hi> Orilus; 
+                            <hi rend="bold">rîche</hi> und 
+                            <hi rend="bold">arme</hi>; die 
+                            <hi rend="bold">drî</hi>; daz 
+                            <hi rend="bold">singen</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">NUM</cell>
+<cell rend="DH-Default background-color(FFFFFF)">numeral</cell>
+<cell rend="DH-Default background-color(FFFFFF)">nur Kardinal- zahlen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">die 
+                            <hi rend="bold">drî</hi> ritter
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">PART</cell>
+<cell rend="DH-Default background-color(FFFFFF)">particle</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Negations- partikel; abgetrennter Verbzusatz; zu (mit Inf.); Vergleichs- partikel; Abtönungs- partikel</cell>
+<cell rend="DH-Default background-color(FFFFFF)">daz 
+                            <hi rend="bold">en</hi>weiz ich 
+                            <hi rend="bold">niht</hi>; lâzet allez trûren 
+                            <hi rend="bold">abe</hi>; daz ist swere 
+                            <hi rend="bold">ze</hi> halten; snêwîz 
+                            <hi rend="bold">als</hi> ein harm
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">PRON</cell>
+<cell rend="DH-Default background-color(FFFFFF)">pronoun</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Personal-, Relativ-, Reflexiv- pronomen; substitu- ierende Possessiv-, Indefinit-, Demonstra- tiv-, Interrogativ- pronomen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">
+<hi rend="bold">er</hi> lac tôt; Isenhârten, 
+                            <hi rend="bold">der</hi> den lîp verlôs; die kuenen heten 
+                            <hi rend="bold">sich</hi> berâten; der 
+                            <hi rend="bold">sîne</hi> sprach; da was 
+                            <hi rend="bold">nieman</hi>; 
+                            <hi rend="bold">allez</hi>, 
+                            <hi rend="bold">daz</hi> ich habe; 
+                            <hi rend="bold">man</hi> saget; 
+                            <hi rend="bold">diz</hi> was dô getân; 
+                            <hi rend="bold">swaz</hi> er gebôt
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">PROPN</cell>
+<cell rend="DH-Default background-color(FFFFFF)">proper noun</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Eigennamen (auch mehrteilig)</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Parzivâl; Orilus de Lalander; Nantes</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">SPUNCT</cell>
+<cell rend="DH-Default background-color(FFFFFF)">punctuation</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Satz-beendende Zeichen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">. : ! ?</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">PUNCT</cell>
+<cell rend="DH-Default background-color(FFFFFF)">punctuation</cell>
+<cell rend="DH-Default background-color(FFFFFF)">alle sonstigen Satzzeichen</cell>
+<cell rend="DH-Default background-color(FFFFFF)">, ; &lt; &gt; „ / ( ) usw.</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">SCONJ</cell>
+<cell rend="DH-Default background-color(FFFFFF)">sub- ordinating conjunction</cell>
+<cell rend="DH-Default background-color(FFFFFF)">unter- ordnend</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Er sagete 
+                            <hi rend="bold">daz</hi> Isenhart küneclîch bestatet wart; 
+                            <hi rend="bold">sît</hi> er an mir ist sus verzagt; 
+                            <hi rend="bold">ob</hi> mich gelücke wil bewarn
+                        </cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">SYM</cell>
+<cell rend="DH-Default background-color(FFFFFF)">symbol</cell>
+<cell rend="DH-Default background-color(FFFFFF)"/>
+<cell rend="DH-Default background-color(FFFFFF)"/>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">VERB</cell>
+<cell rend="DH-Default background-color(FFFFFF)">verb</cell>
+<cell rend="DH-Default background-color(FFFFFF)">alle Vollverben</cell>
+<cell rend="DH-Default background-color(FFFFFF)">Er 
+                            <hi rend="bold">lac</hi> tôt; wir suln kurzwîl 
+                            <hi rend="bold">phlegen</hi>; er 
+                            <hi rend="bold">hat</hi> ein grôz her; ir reht was 
+                            <hi rend="bold">vernomen</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default background-color(FFFFFF)">X</cell>
+<cell rend="DH-Default background-color(FFFFFF)">other</cell>
+<cell rend="DH-Default background-color(FFFFFF)"/>
+<cell rend="DH-Default background-color(FFFFFF)"/>
+</row>
+</table>
+<p>
+<hi rend="bold">Tabelle 2</hi>: 
+                    <hi rend="italic">Universal Dependency</hi> (UD)-Tagset. Zum besseren Verständnis wurde das Tagset mit Beispielen und Anmerkungen versehen. Das Tag SYM wurde nicht benötigt; hingegen wurde das Tag SPUNCT hinzugefügt, um Satz-beendende Satzzeichen von anderen Satzzeichen zu unterscheiden.
+                </p>
+<div rend="DH-Heading2" type="div2">
+<head>Manuelle PoS-Annotationen</head>
+<p>Das manuell annotierte Teilkorpus besteht aus 20.000 Tokens. Ein Teil der Daten (1.500 Tokens) wurde doppelt annotiert, um das Inter-Annotator-Agreement zu bestimmen (Cohen‘s kappa: 0.88; Cohen 1960). Um der Heterogenität der Sprache gerecht zu werden, enthält das Teilkorpus zufällig ausgewählte Abschnitte aus verschiedenen Textsorten des Gesamtkorpus.</p>
+<p>Durch die Annotation aller Wörter im Kontext eines Satzes wurden Ambiguitäten aufgehoben. Zur Bestimmung der Wortart kann der Substitutionstest herangezogen werden, bei dem ein Wort durch ein Wort der gleichen Kategorie ersetzt wird. So wird 
+                        <hi rend="italic">schoene</hi> in 
+                        <hi rend="italic">daz schoene wîp</hi> durch ein anderes Adjektiv (z.B. 
+                        <hi rend="italic">daz minnicliche wîp</hi>), in 
+                        <hi rend="italic">die schoene saz bî ime</hi> hingegen durch ein Nomen ersetzt (z.B. 
+                        <hi rend="italic">die vrouwe saz bî ime</hi>). 
+                    </p>
+<p>Als Schwierigkeiten bei der Annotation stellten sich u.a. die Trennschärfe von DET und ADJ heraus (insb. für Wörter wie „viele“/„alle“) oder die Annotation von noch nicht lexikalisierten bzw. grammatikalisierten Formen (z.B. das mittelhochdeutsche 
+                        <hi rend="italic">sît daz</hi>, bei dem die Bestandteile ADP und PRON noch identifizierbar sind, wohingegen neuhochdeutsch „seitdem“ eine SCONJ ist).
+                    </p>
+<p>Ein weiterer Sonderfall des Mittelhochdeutschen besteht in der (weitgehend unsystematischen) Verwendung klitischer Formen, z.B. der Verschmelzung von Negationspartikel und Verb (
+                        <hi rend="italic">enmac</hi>), der Kontraktion mehrerer Pronomen (
+                        <hi rend="italic">siz = sie+ez</hi>), von Pronomen und Adposition (
+                        <hi rend="italic">zem = ze+im</hi>) o.Ä. In solchen Fällen werden alle miteinander verschmolzenen Wörter annotiert, wobei ein + die Verschmelzung der Wörter anzeigt (
+                        <hi rend="italic">zem</hi> ADP+PRON). Das UD-Tagset muss für das Mittelhochdeutsche also um „kombinierte Tags“ (in unseren Daten finden sich 23 verschiedene Kombinationen) erweitert werden.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Automatische Disambiguierung des Gesamtkorpus</head>
+<p>Das annotierte Teilkorpus dient neben seiner direkten Verwendung als Trainings- und Testkorpus (Modell 1) auch der automatischen Disambiguierung des Gesamtkorpus. Hierfür verwenden wir einen sequenziellen Tagger (Conditional Random Fields), der auf dem manuell annotierten Subkorpus trainiert wurde. Dieser lernt anhand der Annotationen und wortbasierten Eigenschaften, die ambigen Annotationen auf ihre disambiguierten Entsprechungen (UD-Tagset) abzubilden. Da sich in den Daten 
+                        <hi rend="italic">auch</hi> nicht-ambige Wörter befinden, lernt der Tagger an vielen Stellen 1-zu-1-Abbildungen, die als Anker fungieren können.
+                    </p>
+<p>Die Disambiguierung des Gesamtkorpus erreicht eine Accuracy von 86,9%. Die auf diese Weise disambiguierten Daten kommen für die Modelle 2 und 3 als Trainingsdaten zum Einsatz.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Experiment und Evaluation</head>
+<p>Um die Schwierigkeit der Aufgabe und die Tagging-Qualität einschätzen zu können, vergleichen wir drei verschiedene Modelle:</p>
+<list type="unordered">
+<item>Baseline: Anwendung des neuhochdeutschen TreeTagger-Modells auf den Testdaten.</item>
+<item>Modell 1: Der TreeTagger wird nur mit den manuell annotierten Daten trainiert, die Evaluation erfolgt als 5-fache Kreuzvalidierung (Cross-Validation), so dass in jedem Durchgang 16k Tokens als Trainingsdaten zur Verfügung stehen. Vorteil: Qualitativ hochwertige Trainingsdaten, Nachteil: Geringe Datenmenge.</item>
+<item>Modell 2: Der TreeTagger wird auf zufällig ausgewählten Sätzen trainiert, die zusammen etwa 16k automatisch disambiguierte Tokens umfassen. Die Trainingsmenge ist damit gleich groß wie für Modell 1 und erlaubt, die Auswirkungen der nicht-perfekten Disambiguierung abzuschätzen.</item>
+<item>Modell 3: Der TreeTagger wird mit allen automatisch disambiguierten Daten aus der MHDBDB trainiert (9,9M Tokens).</item>
+</list>
+<table rend="rules">
+<row>
+<cell rend="DH-Default">Modell</cell>
+<cell rend="DH-Default">Precision</cell>
+<cell rend="DH-Default">Recall</cell>
+<cell rend="DH-Default">F-Score</cell>
+<cell rend="DH-Default">Accuracy</cell>
+</row>
+<row>
+<cell rend="DH-Default">Baseline</cell>
+<cell rend="DH-Default">40,3</cell>
+<cell rend="DH-Default">35,4</cell>
+<cell rend="DH-Default">33,1</cell>
+<cell rend="DH-Default">45,4</cell>
+</row>
+<row>
+<cell rend="DH-Default">Modell 1
+                            <lb/>(kleines Trainingsset, manuell annotiert)
+                        </cell>
+<cell rend="DH-Default">86,0</cell>
+<cell rend="DH-Default">80,3</cell>
+<cell rend="DH-Default">82,2</cell>
+<cell rend="DH-Default">87,0</cell>
+</row>
+<row>
+<cell rend="DH-Default">Modell 2
+                            <lb/>(kleines Trainingsset, autom. disambiguiert)
+                        </cell>
+<cell rend="DH-Default">84,8</cell>
+<cell rend="DH-Default">68,8</cell>
+<cell rend="DH-Default">72,3</cell>
+<cell rend="DH-Default">84,7</cell>
+</row>
+<row>
+<cell rend="DH-Default">Modell 3
+                            <lb/>(großes Trainingsset, autom. disambiguiert)
+                        </cell>
+<cell rend="DH-Default">91,2</cell>
+<cell rend="DH-Default">79,6</cell>
+<cell rend="DH-Default">82,9</cell>
+<cell rend="DH-Default">90,9</cell>
+</row>
+</table>
+<p>
+<hi rend="bold">Tabelle 3:</hi> Ergebnisse des PoS-Taggings mit verschiedenen Modellen.
+                    <ref n="4" target="vortrag-ECHELftn4" type="note">4</ref> Alle Modelle wurden auf den gleichen Daten evaluiert, für Modell 1 kam Cross-Validation zum Einsatz. Der Precision, Recall und F-Score ermöglichen eine tiefere Einsicht in die Performanz unter Berücksichtigung aller Wortartenklassen, während Accuracy die Gesamtperformanz sichtbar macht und als Vergleichswert zu State-of-the-Art-Ergebnissen dient.
+                </p>
+<p>Die Ergebnisse der unterschiedlichen Modelle sind in Tabelle 3 zusammengefasst. Zunächst zeigt sich erwartungsgemäß, dass die Baseline keine zufriedenstellenden Ergebnisse liefert. Modell 1 erreicht eine Accuracy von 87%, Modell 2 gut 2 Prozentpunkte weniger. Angesichts der Tatsache, dass die Trainingsdaten automatisch disambiguiert wurden, ist das nur ein geringer Verlust. Die Performanz steigt deutlich, wenn das große Datenset zum Training herangezogen wird (Modell 3). Gegenüber Modell 1 erreichen wir eine Verbesserung von ca. 3 Prozentpunkten Accuracy und damit insgesamt fast 91%. Eine Kombination der Modelle 1 und 3 erzielte keine Verbesserungen gegenüber Modell 3.</p>
+<p>Eine Inspektion der von Modell 3 produzierten Annotationen ergibt, dass ein Großteil der Fehler (53%) auf die kombinierten Tags entfallen, die überwiegend als Pronomen oder Verben getaggt werden. Die nächsthäufigsten Fehlerklassen sind Numeralia und Partikeln. Die meisten Inhaltswörter (Nomen, Verben) werden korrekt erkannt (&gt; 90%).</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit</head>
+<p>Mit unserem Beitrag stellen wir einen nahezu universellen PoS-Tagger für das Mittelhochdeutsche vor, der auf Daten trainiert wurde, die dialektal, zeitlich sowie genremäßig variantenreich sind. Damit gehen wir davon aus, dass der Tagger auf ebensolchen Daten Ergebnisse erzielt, die ihn für darauf aufbauende Forschungen einsetzbar machen.</p>
+<p>Daneben haben wir gezeigt, dass der Vorverarbeitungsschritt der Disambiguierung keineswegs perfekt funktionieren muss, um mit den Daten weiterzuarbeiten. Die Accuracy von ca. 87% für die Disambiguierung führt zwar bei gleicher Datenmenge zu einem Verlust an Tagging-Performanz, durch die größere, automatisch vorverarbeitete Datenmenge wird dieser aber mehr als aufgefangen.</p>
+<p>Um die Nutzung unserer Forschungsergebnisse nachhaltig zu ermöglichen, stellen wir das Modell sowohl auf der TreeTagger-Webseite
+                    <ref n="5" target="vortrag-ECHELftn5" type="note">5</ref> als auch über eine Webanwendung
+                    <ref n="6" target="vortrag-ECHELftn6" type="note">6</ref> zur Verfügung. Des Weiteren ist das Modell als Ressource ins Clarin-D-Repositorium
+                    <ref n="7" target="vortrag-ECHELftn7" type="note">7</ref> aufgenommen, wodurch die Metadaten sowie die Links zum Modell permanent auffindbar bleiben.
+                </p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="vortrag-ECHELftn1"> Online zugänglich unter 
+                                <ref target="http://woerterbuchnetz.de/">
+<hi rend="Internet_Link">
+<hi rend="color(00000A)">http://woerterbuchnetz.de/</hi>
+</hi>
+</ref>, letzter Zugriff 23.08.2016.
+                            </note><note n="2" rend="footnote text" xml:id="vortrag-ECHELftn2"> Online zugänglich unter 
+                                <ref target="http://referenzkorpus-mhd.uni-bonn.de/">
+<hi rend="Internet_Link">
+<hi rend="color(00000A)">http://referenzkorpus-mhd.uni-bonn.de</hi>
+</hi>
+</ref>, letzter Zugriff 23.08.2016.
+                            </note><note n="3" rend="footnote text" xml:id="vortrag-ECHELftn3"> Online zugänglich unter 
+                                <ref target="http://mhdbdb.sbg.ac.at/">
+<hi rend="Internet_Link">
+<hi rend="color(00000A)">http://mhdbdb.sbg.ac.at/</hi>
+</hi>
+</ref> (MHDBDB), letzter Zugriff 23.08.2016.
+                            </note><note n="4" rend="footnote text" xml:id="vortrag-ECHELftn4"> Für die Evaluation wurden die kombinierten Tags zu einer Klasse zusammengefasst.</note><note n="5" rend="footnote text" xml:id="vortrag-ECHELftn5">
+<ref target="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/">http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/</ref>.
+                        </note><note n="6" rend="footnote text" xml:id="vortrag-ECHELftn6">
+<ref target="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/PoS_Tag_MHG.html">www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/PoS_Tag_MHG.html</ref>.
+                        </note><note n="7" rend="footnote text" xml:id="vortrag-ECHELftn7"> Die Ressource kann im IMS-Repository gefunden werden: 
+                            <ref target="http://clarin04.ims.uni-stuttgart.de/fedora/objects/clarind-ims:92/datastreams/CMDI/content">http://clarin04.ims.uni-stuttgart.de/fedora/objects/clarind-ims:92/datastreams/CMDI/content</ref>. 
+                        </note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Barteld, Fabian / Schröder, Ingrid / Zinsmeister, Heike</hi> (2015): 
+                        „Unsupervised regularization of historical texts for POS tagging“,
+                        in: 
+                        <hi rend="italic">Proceedings of the 4th Workshop on Corpus-based Research in the Humanities (CRH)</hi> 3–12 
+                        <ref target="http://www.slm.uni-hamburg.de/germanistik/personen/zinsmeister/downloads/barteld-etai-2015.pdf">www.slm.uni-hamburg.de/germanistik/personen/zinsmeister/downloads/barteld-etai-2015.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Cohen, Jacob</hi> (1960): 
+                        „A coefficient of agreement for nominal scales“,
+                        in: 
+                        <hi rend="italic">Educational and Psychological Measurement</hi> 20: 37–46.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dipper, Stefanie</hi> (2015): 
+                        „Annotierte Korpora für die Historische Syntaxforschung. Anwendungsbeispiele anhand des Referenzkorpus Mittelhochdeutsch“,
+                        in: 
+                        <hi rend="italic">Zeitschrift für Germanistische Linguistik</hi> 43: 516–563.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dipper, Stefanie</hi> (2011): 
+                        „Morphological and Part-of-Speech Tagging of Historical Language Data: A Comparison“,
+                        in: 
+                        <hi rend="italic">Journal for Language Technology and Computational Linguistics</hi> 26: 25–37 (= Proceedings of the TLT-Workshop on Annotation of Corpora for Research in the Humanities 2012) 
+                        <ref target="http://www.jlcl.org/2011_Heft2/2.pdf">www.jlcl.org/2011_Heft2/2.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Dipper, Stefanie / Donhauser, Karin / Klein, Thomas / Linde, Sonja / Müller, Stefan / Wegera, Klaus-Peter</hi> (2013): 
+                        „HiTS: ein Tagset für historische Sprachstufen des Deutschen“,
+                        in: 
+                        <hi rend="italic">Journal for Language Technology and Computational Linguistics</hi> 28: 85–137 
+                        <ref target="http://www.jlcl.org/2013_Heft1/5Dipper.pdf">www.jlcl.org/2013_Heft1/5Dipper.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Giesbrecht, Eugenie / Evert, Stefan</hi> (2009): 
+                        „Is Part-of-speech tagging a Solved Task? An Evaluation of POS Taggers for the German Web as Corpus“,
+                        in: 
+                        <hi rend="italic">Proceedings of the 5th Web as Corpus Workshop (WAC5)</hi>
+<ref target="http://www.stefan-evert.de/PUB/GiesbrechtEvert2009_Tagging.pdf">www.stefan-evert.de/PUB/GiesbrechtEvert2009_Tagging.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold italic">Mittelhochdeutsche Begriffsdatenbank (MHDBDB)</hi>.
+                        Universität Salzburg. Koordination: Margarete Springeth. Technische Leitung: Nikolaus Morocutti/Daniel Schlager. 1992–2016 
+                        <ref target="http://mhdbdb.sbg.ac.at/">http://mhdbdb.sbg.ac.at/</ref> [letzter Zugriff 23. August 2016]. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Nivre, Joakim / de Marneffe, Marie-Catherine / Ginter, Filip / Goldberg, Yoav / Hajič, Jan / Manning, Christopher D. / Mc Donald, Ryan / Petrov, Slav / Pyysalo, Sampo / Silveira, Natalia / Tsarfaty, Reut / Zeman, Daniel</hi> (2016): 
+                        „Universal Dependencies v1: A Multilingual Treebank Collection“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016)</hi> 1659–1666 
+                        <ref target="http://www.petrovi.de/data/lrec16.pdf">www.petrovi.de/data/lrec16.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine / Thielen, Christine</hi> (1999): 
+                        „Guidelines für das Tagging deutscher Textcorpora mit STTS (Kleines und großes Tagset)“.
+                        Universität Stuttgart / Tübingen 
+                        <ref target="http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf">www.sfs.uni-tuebingen.de/resources/stts-1999.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Schmid, Helmut</hi> (1995): 
+                        „Improvements in Part-of-Speech Tagging with an Application to German“,
+                        in: 
+                        <hi rend="italic">Proceedings of the ACL SIGDAT-Workshop</hi> 47–50 
+                        <ref target="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger2.pdf">http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger2.pdf</ref> [letzter Zugriff 23. August 2016]. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Schulz, Sarah / Kuhn, Jonas</hi> (2016): 
+                        „Learning from Within? Comparing PoS Tagging Approaches for Historical Text“,
+                        in: 
+                        <hi rend="italic">Proceedings of LREC 2010</hi> 4316–4322 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2016/pdf/1237_Paper.pdf">www.lrec-conf.org/proceedings/lrec2016/pdf/1237_Paper.pdf</ref> [letzter Zugriff 23. August 2016].
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

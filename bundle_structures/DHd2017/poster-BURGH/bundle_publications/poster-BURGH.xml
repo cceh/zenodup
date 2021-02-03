@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-BURGH" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Digitale Erschließung einer Sammlung von Volksliedern aus dem deutschsprachigen Raum</title>
+<author>
+<persName>
+<surname>Burghardt</surname>
+<forename>Manuel</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>manuel.burghardt@ur.de</email>
+</author>
+<author>
+<persName>
+<surname>Spanner</surname>
+<forename>Sebastian</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>sebastian.spanner@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Schmidt</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>thomas.schmidt@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Fuchs</surname>
+<forename>Florian</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>florian.fuchs@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Buchhop</surname>
+<forename>Katia</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>katia.buchhop@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Nickl</surname>
+<forename>Miriam</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>miriam.nickl@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Wolff</surname>
+<forename>Christian</forename>
+</persName>
+<affiliation>Lehrstuhl Medieninformatik, Universität Regensburg, Deutschland</affiliation>
+<email>christian.wolff@ur.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>crowdsourcing</term>
+<term>optical character recognition</term>
+<term>optical music recognition</term>
+<term>music transcription tool</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Crowdsourcing</term>
+<term>Webentwicklung</term>
+<term>Notenblätter</term>
+<term>Werkzeuge</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Projektkontext</head>
+<p>Dieser Beitrag beschreibt ein laufendes Projekt
+                    <ref n="1" target="poster-BURGHftn1" type="note">1</ref> zur digitalen Erschließung einer großen Sammlung von Volksliedern aus dem deutschsprachigen Raum, mit dem Ziel diese später über ein öffentliches Informationssystem verfügbar zu machen. Mithilfe dieses Informationssystems soll neben der üblichen Exploration gescannter Faksimiles der Originalliedblätter zusätzlich ein quantitativer Zugang zu den Daten ermöglicht werden, der diese anhand unterschiedlicher Parameter durchsuchbar und analysierbar macht. Ziel des Projekts ist also nicht nur, einen in dieser Form einzigartigen Bestand an Liedblättern nachhaltig digital zu erschließen und zugänglich zu machen, sondern darüber hinaus computergestützt nach Auffälligkeiten in Form wiederkehrender Phrasen und Themen oder melodischen Universalien zu suchen, die für verschiedene Regionen oder Zeitabschnitte charakteristisch sind.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Datenbasis</head>
+<p>Die Datengrundlage des Projekts stellen umfangreichen Quellen zur Volksmusikforschung dar, die seit einigen Jahren von der Universitätsbibliothek Regensburg verwaltet werden. Die Regensburger Liedblattsammlung umfasst etwa 140.000 Blätter mündlich oder handschriftlich tradierter Volkslieder aus dem gesamten deutschsprachigen Raum, und ist, was Abdeckung und Umfang angeht, in dieser Form einzigartig (Krüger, 2013). Die losen Einzelblätter enthalten einerseits handschriftliche, monophone Melodien und andererseits Liedtexte, welche zumeist mit Schreibmaschine verfasst wurden (vgl. Abb. 1).</p>
+<figure>
+<graphic height="14.76375cm" n="1001" rend="inline" url="poster-BURGH-image1.jpeg" width="12.012083333333333cm"/>
+</figure>
+<p>Abbildung 1: Ausschnitt aus dem Liedblatt Nr. A23: „Klana Mann wollt’ e grouß Fraa hou“.</p>
+<p>Zu den Liedblättern existieren darüber hinaus Metadaten wie 
+                    <hi rend="italic">Titel</hi>, 
+                    <hi rend="italic">Text-Incipit</hi>, 
+                    <hi rend="italic">Sangesort </hi>und 
+                    <hi rend="italic">Jahr</hi>, die ursprünglich in einem umfangreichen Zettelkastensystem vorlagen, mittlerweile jedoch in eine Datenbank (
+                    <hi rend="italic">Augias</hi>) übertragen wurden. In Zusammenarbeit mit der Universitätsbibliothek Regensburg werden zunächst Scans der Liedblätter erstellt und mit den bereits vorhandenen digitalen Metadaten verknüpft. Daraufhin werden die Scans inhaltlich erfasst und in ein maschinenlesbares Format gebracht, das erlaubt, die Daten computergestützt zu durchsuchen und zu analysieren. Dieser Beitrag beschreibt Herausforderungen und Lösungsansätze bei der digitalen Erschließung der Liedblätter hinsichtlich ihrer Texte und Melodien.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Digitale Erschließung der Liedblätter</head>
+<p>Für die Transkription der Texte und Melodien wurden Tools für die automatische Erfassung evaluiert. Neben automatischer Texterkennung (OCR, 
+                    <hi rend="italic">Optical Character Recognition</hi>), wurde auch die automatische Notenerkennung (OMR, 
+                    <hi rend="italic">Optical Music Recognition</hi>) untersucht (vgl. Bainbridge &amp; Bell, 2001; 2006; Raphael &amp; Wang, 2011; Rebelo, Capela, &amp; Cardoso, 2010).
+                </p>
+<div rend="DH-Heading2" type="div2">
+<head>Erschließung der Liedtexte über OCR mit manueller Nachkorrektur</head>
+<p>Die Evaluation der Eignung bestehender OCR-Tools für den Kontext der Regensburger Liedblattsammlung lehnt sich an Kanungo, Marton und Bulbul (1999) an. Das Testkorpus umfasst 102 Liedblätter, die möglichst viele unterschiedliche typographische und orthographische Phänomene abdecken, etwa Druckschrift (mit unterschiedlich starkem Kontrast), Frakturschrift, aufgeklebte Korrekturen, Sonderzeichen, etc. Für die Evaluation wurde die Textzone unterhalb der Notenzeilen ausgewählt, da die Noten als unbekannte Sonderzeichen das Texterkennungsergebnis negativ verfälschen würden. Für jene Textzonen wurde eine manuelle Transkription erstellt, die in der weiteren Evaluation als 
+                        <hi rend="italic">ground truth</hi> dient. Evaluiert wurden die folgenden drei OCR-Tools:
+                    </p>
+<list type="unordered">
+<item>
+<hi rend="italic">Abbyy Fine Reader</hi> (http://www.abbyy.de/)
+                        </item>
+<item>
+<hi rend="italic">Omnipage Professional (</hi>http://www.nuance.de/for-individuals/by-product/omnipage/index.htm)
+                        </item>
+<item>
+<hi rend="italic">Adobe Acrobat X Pro </hi>(https://helpx.adobe.com/de/acrobat/kb/acrobat-downloads.html) 
+                        </item>
+</list>
+<p>Mithilfe des OCR-Evaluationstools 
+                        <hi rend="italic">ocrevalUAtion </hi>(Carassco, 2014) wurde jeweils der Output der drei getesteten OCR-Tools mit den 
+                        <hi rend="italic">ground truth</hi>-Daten verglichen. Abb. 2 zeigt für jedes OCR-Tool die Anzahl korrekt erkannter Zeichen (
+                        <hi rend="italic">correct</hi>), die Anzahl falsch erkannte Zeichen (
+                        <hi rend="italic">confused</hi>), die Anzahl nicht erkannte Zeichen (
+                        <hi rend="italic">lost</hi>) sowie die Anzahl überflüssiger Zeichen (
+                        <hi rend="italic">spurious</hi>) als gestapeltes Balkendiagramm.
+                    </p>
+<figure>
+<graphic height="11.191875cm" n="1002" rend="inline" url="poster-BURGH-image2.png" width="12.012083333333333cm"/>
+</figure>
+<p>Abbildung 2: OCR-Evaluationsergebnisse für die getesteten Tools hinsichtlich der korrekt erkannten, der falsch erkannten, der gar nicht erkannten sowie der überflüssigerweise erkannten Zeichen.</p>
+<p>Anhand dieser Parameter lassen sich Kennzahlen für die Tools berechnen, etwa die 
+                        <hi rend="italic">precision</hi> oder auch die global 
+                        <hi rend="italic">error rate</hi>. Bezüglich der korrekten Erkennung in Prozent wird deutlich, dass 
+                        <hi rend="italic">Abbyy</hi> mit einer Erkennungsrate von 80% (
+                        <hi rend="italic">Omnipage</hi>: 56%, 
+                        <hi rend="italic">Adobe</hi>: 26%) und einer vergleichsweise geringen Streuung am besten in der Evaluation abschneidet (vgl. Abb. 3).
+                    </p>
+<figure>
+<graphic height="9.472083333333334cm" n="1003" rend="inline" url="poster-BURGH-image3.png" width="12.012083333333333cm"/>
+</figure>
+<p>Abbildung 3: Boxplot zur Erkennungsgenauigkeit der einzelnen OCR-Tools.</p>
+<p>Dass 
+                        <hi rend="italic">Abbyy</hi>-Tool liefert die besten Evaluationsergebnisse und wurde somit als OCR-Tool für die Liedblattsammlung ausgewählt. Die 80%-Erkennungsrate erlaubt erste explorative Analysen der Liedblätter anhand bestimmter Schlüsselwörter. Für die sukzessive Korrektur der Texte wurde ein Tool entwickelt, das die manuelle Korrektur des OCR-Outputs für jedes Liedblatt erlaubt. Um die Texte der insgesamt 140.000 Liedblätter möglichst effizient zu transkribieren, sind zudem weitere Evaluationsexperimente mit anderen OCR-Tools geplant. Zudem soll versucht werden, das 
+                        <hi rend="italic">Abbyy</hi>-Tool anhand der Liedblätter zu trainieren, um so die Erkennungsrate weiter zu verbessern.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Erschließung der Melodien über ein Crowdsourcing-Webtool</head>
+<p>In Anlehnung an eine OMR-Evaluationsstudie (Bellini, Bruno &amp; Nesi, 2007) wurden drei der am weitesten verbreiteten OMR-Tools hinsichtlich ihrer Eignung für die Liedblattsammlung evaluiert:</p>
+<list type="unordered">
+<item>
+<hi rend="italic">Photoscore</hi> (http://www.sibelius.com/products/photoscore/ultimate.html)
+                        </item>
+<item>
+<hi rend="italic">SharpEye</hi> (https://www.columbussoft.de/SharpEye.php)
+                        </item>
+<item>
+<hi rend="italic">CapellaScan</hi> (http://www.capella.de/de/index.cfm/produkte/capella-scan/info-capella-scan/)
+                        </item>
+</list>
+<p>Anders als bei der OCR-Evaluation ist die Erstellung eines automatisch abgleichbaren 
+                        <hi rend="italic">ground truth</hi>-Datensatzes nicht ohne weiteres möglich, da die Erfassung musikalischer Notation wesentlich komplexer ist als reine Textzeichenerkennung. Der Abgleich des jeweiligen OMR-Outputs mit dem entsprechenden Originalliedblatt erfolgte deshalb manuell. Insgesamt wurden auf diese Weise 20 Liedblätter ausgewählt, welche eine möglichst hohe Bandbreite unterschiedlicher Merkmalsausprägungen abdecken. Zu den Merkmalen zählen Zeichenabstand, Einheitlichkeit der Zeichen, allgemeiner Kontrast, Kontrast der Notenlinien, Größe der Notenköpfe, Länge der Notenhälse und das Vorkommen von Fremdzeichen.
+                    </p>
+<p>Bei der Berechnung der Erkennungsgenauigkeit wurden dieselben Parameter verwendet wie schon bei der OCR-Evaluation (vgl. Abb. 2). Die Ergebnisse der OMR-Evaluation zeigen, dass hinsichtlich der durchschnittlichen Erkennungsgenauigkeit mit 36% bei 
+                        <hi rend="italic">Photoscore</hi>, 8% bei 
+                        <hi rend="italic">CapellaScan</hi> und 4% 
+                        <hi rend="italic">SharpEye</hi> keines der Tools auch nur ansatzweise für den produktiven Einsatz in Frage kommt (vgl. Abb. 4). Dabei ist selbst beim am besten evaluierten Tool 
+                        <hi rend="italic">Photoscore</hi> eine enorme Streuung zu beobachten, die bei 5 von 20 Blättern auf 0% kommt, und nur ein einziges Mal als beste Erkennungsrate 80% bei einem Liedblatt erreicht. 
+                    </p>
+<figure>
+<graphic height="9.392708333333333cm" n="1004" rend="inline" url="poster-BURGH-image4.png" width="11.985625cm"/>
+</figure>
+<p>Abbildung 4: Boxplot zur Erkennungsgenauigkeit der einzelnen OMR-Tools.</p>
+<p>Als alternative Erschließungsstrategie wurde ein Transkriptionstool namens 
+                        <hi rend="italic">Allegro</hi> entwickelt, welches aufgrund der erheblichen Datenmenge von mehreren tausend Liedblättern auf einen Crowdsourcing-Ansatz (Dunn &amp; Hedges, 2013; Oomen &amp; Aroyo, 2011) zurückgreifen soll. Erfolgreiche Beispiele für solche Ansätze im Bereich der Digital Humanities finden sich etwa beim Sammeln und Dokumentieren von urbaner Kunst (Burghardt, Schneider, Bogatzki, &amp; Wolff, 2015), bei der Transkription von Manuskripten (Causer &amp; Wallace, 2012), bei der Verschlagwortung von Kunstwerken (Commare, 2011) und auch im Bereich der Transkription von Musikstücken, wie beim Projekt „What’s the Score?“
+                        <ref n="2" target="poster-BURGHftn2" type="note">2</ref>. 
+                    </p>
+<p>Bei der Umsetzung des Tools für die Transkription der Regensburger Liedblätter wurde besonderes Augenmerk auf die einfache Bedienbarkeit durch iteratives 
+                        <hi rend="italic">usability testing</hi> während des Entwicklungsprozesses gelegt (vgl. ISO 13407:1999). Die Benutzeroberfläche wurde dabei so konzipiert, dass auch Personen, die keine Noten lesen können, in der Lage sind, die Noten zu transkribieren, indem sie diese auf ein virtuelles Notenblatt übertragen und das Original im Wesentlichen nachbauen (vgl. Meier et al., 2015). Die zusätzliche Möglichkeit der Transkription über ein Midi-Instrument soll später über einen speziell anzuwählenden Expertenmodus optional verfügbar gemacht werden. 
+                    </p>
+<p>Als erster Schritt wird in 
+                        <hi rend="italic">Allegro</hi> zunächst das Notenblatt manuell in einzelne Takte segmentiert (Abb. 5):
+                    </p>
+<p>
+<graphic height="3.2004cm" n="1005" rend="inline" url="poster-BURGH-image5.png" width="16.002cm"/>Abbildung 5: Taktweise Segmentierung der Liedblätter mit dem 
+                        <hi rend="italic">Allegro</hi>.
+                    </p>
+<p>Nach Angabe der Liedblattnummer sowie der Auswahl von Taktart und Tonart gelangt man in den eigentlichen Transkriptionsmodus, bei dem Takt für Takt auf einer interaktiven Notenzeile mit Maus und Tastatur (Shortcuts) transkribiert wird (vgl. Abb. 6). Jeder einzelne Takt kann im Browser abgespielt werden, um so ggf. auf auditiver Ebene schnell Transkriptionsfehler zu erkennen.</p>
+<figure>
+<graphic height="9.551458333333333cm" n="1006" rend="inline" url="poster-BURGH-image6.png" width="10.4775cm"/>
+</figure>
+<p>Abbildung 6: Taktweise Transkription der Liedblätter mit dem Allegro-Tool.</p>
+<p>Im Hintergrund werden die Eingaben auf das virtuelle Notenblatt schließlich in ein maschinenlesbares Format (
+                        <hi rend="italic">JSON</hi>) übersetzt, das mithilfe einer 
+                        <hi rend="italic">Converter</hi>-Toolbox in beliebige andere Formate wie etwa 
+                        <hi rend="italic">MusicXML</hi> transformiert werden kann. Da die Transkription durch Laien eine erhöhte Gefahr für Transkriptionsfehler mit sich bringt, wird jedes Liedblatt doppelt übersetzt (vgl. das 
+                        <hi rend="italic">double keying</hi>-Konzept bei Texttranskriptionen). Liedblätter, bei denen die Transkriptionen nicht übereinstimmen, werden auf redaktioneller Ebene final geprüft. Um den Anreiz zur Beteiligung an der Transkription zu erhöhen, ist es den Teilnehmern möglich die selbst transkribierten Texte und Melodien in einer privaten Sammlung zu speichern und bei Bedarf als PDF bzw. als MP3 herunterzuladen.
+                    </p>
+<p>Das Transkriptionstool befindet sich aktuell in der offenen Beta-Testphase und findet guten Zuspruch bei den Anwendern:</p>
+<list type="unordered">
+<item>
+<hi rend="italic">Allegro</hi>: http://allegro.sytes.net/
+                        </item>
+</list>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Zusammenfassung</head>
+<p>Dieser Beitrag gibt einen Einblick in ein laufendes Projekt zur digitalen Erschließung einer großen Sammlung von Liedblättern. Während OCR-Tools für die automatische Erfassung der Liedtexte annehmbare Ergebnisse mit einer Erkennungsrate von bis zu 80% liefern, so liegt die Erkennungsgenauigkeit bestehender OMR-Tools für die handschriftlichen Notensätze bei lediglich maximal 36%. Im Falle der Notenerkennung wurde von Grund auf ein neues, intuitiv bedienbares Transkriptionstool entwickelt, welches über einen Crowdsourcing-Ansatz die sukzessive Erschließung der Notensätze sicherstellen soll.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick </head>
+<p>Aktuell liegt der Projektfokus auf der Erschließung der Liedblätter. Parallel entstehen zudem erste Prototypen (vgl. Burghardt et al., 2016) für das angedachte Informationssystem, das die Analyse der Liedblätter anhand der verfügbaren Metadaten, der Liedtexte sowie anhand verschiedener melodischer Parameter (vgl. Mongeau &amp; Sankoff, 1990; Orio &amp; Rodá, 2009; Typke, 2007) erlaubt. Im Rahmen des weiteren Projektverlaufs sollen anhand der digital erschlossenen Liedblätter u.a. die folgenden Fragestellungen untersucht werden:</p>
+<list type="unordered">
+<item>Welche sind die häufigsten Wörter in den Texten deutscher Volkslieder, und welche Wörter treten besonders häufig zusammen auf (Kollokationen)? Lassen sich daraus Rückschlüsse auf wiederkehrende Themen ziehen, einerseits für das gesamte Liedblattkorpus, andererseits aus einer regionalen und diachronen Perspektive?</item>
+<item>Gibt es melodische Universalien, die typisch für deutsche Volkslieder sind, einerseits für das gesamte Liedblattkorpus, andererseits aus einer regionalen und diachronen Perspektive?</item>
+<item>Lassen sich musikalisch-linguistische Kollokationen identifizieren, kommen also bestimmte Melodien oder einzelne Rhythmen oder Intervalle besonders häufig in Texten mit auffälligen Schlüsselwörtern vor?</item>
+</list>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="poster-BURGHftn1"> Anmerkung: Erste Vorarbeiten zu den hier beschriebenen Vorhaben erfolgten im Rahmen des DFG-Projekts „Erschließung von Quellen der Volksmusikforschung, Zugänglichmachung durch Digitalisierung sowie virtuelle Wiederherstellung zerstreuter Bestände“, vgl. http://rvp.ur.de.</note><note n="2" rend="footnote text" xml:id="poster-BURGHftn2"> Projekt „What’s the Score?“ online: https://www.bodleian.ox.ac.uk/weston/our-work/projects/whats-the-score</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bainbridge, David / Bell, Tim</hi> (2001):
+                        „The challenge of optical music recognition“,
+                        in:
+                        <hi rend="italic">Computers and the Humanities</hi> 35: 95–121.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bellini, Pierfranceso / Bruno, Ivan / Nesi, Paolo</hi> (2007):
+                        „Assessing Optical Music Recognition Tools“,
+                        in:
+                        <hi rend="italic">Computer Music Journal</hi> 31 (1), 68–93. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Burghardt, Manuel / Lamm, Lukas / Lechler, David / Schneider, Matthias / Semmelmann, Tobias</hi> (2016):
+                        „Tool-based Identification of Melodic Patterns in MusicXML Documents“,
+                        in: 
+                        <hi rend="italic">Digital Humanities 2016: Conference Abstracts</hi> 440–442.
+                    </bibl>
+<bibl>
+<hi rend="bold">Burghardt, Manuel / Schneider, Patrick / Bogatzki, Christopher / Wolff, Christian</hi> (2015):
+                        „StreetartFinder – Eine Datenbank zur Dokumentation von Kunst im urbanen Raum“,
+                        in:
+                        <hi rend="italic">DHd 2015: Von Daten zu Erkenntnissen</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Carrasco, Rafael C.</hi> (2014):
+                        „An open-source OCR evaluation tool“,
+                        in: 
+                        <hi rend="italic">DATeCH 2014</hi>. 
+                        New York: ACM Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Causer, Tim / Wallace, Valerie</hi> (2012):
+                        „Building A Volunteer Community: Results and Findings from Transcribe Bentham“,
+                        in:
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 6 (2).
+                    </bibl>
+<bibl>
+<hi rend="bold">Commare, Laura</hi> (2011):
+                        „Social Tagging als Methode zur Optimierung Kunsthistorischer Bilddatenbanken – Eine empirische Analyse des Artigo-Projekts“,
+                        in: 
+                        <hi rend="italic">Kunstgeschichte. Open Peer Reviewed Journal</hi> urn:nbn:de:bvb:355-kuge-160-9.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dunn, Stuart / Hedges, Mark</hi> (2013):
+                        „Crowd-sourcing as a Component of Humanities Research Infrastructures“,
+                        in:
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi> 7 (1-2):  147–169.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kanungo, Tapas / Marton, Gregory A. / Bulbul, Osama</hi> (1999):
+                        „Performance evaluation of two Arabic OCR products“,
+                        in: 
+                        <hi rend="italic">The 27th AIPR workshop: Advances in computer-assisted recognition</hi> 76–83.
+                    </bibl>
+<bibl>
+<hi rend="bold">Krüger, Gerd</hi> (2013):
+                        „Das ‚Regensburger Volksmusik-Portal‘ der Universitätsbibliothek Regensburg: Bestände – Problematiken – Perspektiven: Zwischenbericht aus einem Erschließungsprojekt“,
+                        in: Mohrmann, Ruth-E. (ed.), 
+                        <hi rend="italic">Audioarchive – Tondokumente digitalisieren, erschließen und auswerten</hi>. 
+                        Münster et al.: Waxmann Verlag 119–131.
+                    </bibl>
+<bibl>
+<hi rend="bold">Meier, Florian / Bazo, Alexander / Burghardt, Manuel / Wolff, Christian</hi> (2015):
+                        „A Crowdsourced Encoding Approach for Handwritten Sheet Music“,
+                        in:
+                        <hi rend="italic">Music Encoding Conference Proceedings 2013 and 2014</hi> 127–130.
+                    </bibl>
+<bibl>
+<hi rend="bold">Mongeau, Marcel / Sankoff, David </hi> (1990):
+                        „Comparison of Musical Sequences“,
+                        in:
+                        <hi rend="italic">Computers and the Humanities</hi> 24: 161–175.
+                    </bibl>
+<bibl>
+<hi rend="bold">Oomen, Johan / Aroyo, Lora</hi> (2011):
+                        „Crowdsourcing in the Cultural Heritage Domain: Opportunities and Challenges“,
+                        in:
+                        <hi rend="italic">C&amp;T ’11 Proceedings of the 5th International Conference on Communities and Technologies</hi> 138–149. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Orio, Nicola / Rodà, Antonio</hi> (2009):
+                        „A Measure of Melodic Similarity Based on a Graph Representation of the Music Structure“,
+                        in: 
+                        <hi rend="italic">Proceedings of the 10th International Society for Music Information Retrieval Conference (ISMIR 2009)</hi> 543–548.
+                    </bibl>
+<bibl>
+<hi rend="bold">Raphael, Christopher / Wang, Jingya</hi> (2011):
+                        „New Approaches to Optical Music Recognition“,
+                        in:
+                        <hi rend="italic">12th International Society for Music Information Retrieval Conference (ISMIR)</hi> 305–310.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rebelo, Ana / Capela, G. / Cardoso, Jaime S.</hi> (2010):
+                        „Optical recognition of music symbols“,
+                        <hi rend="italic">International Journal on Document Analysis and Recognition</hi> 13: 19–31.
+                    </bibl>
+<bibl>
+<hi rend="bold">Typke, Rainer</hi> (2007):
+                        <hi rend="italic">Music Retrieval based on Melodic Similarity</hi>. 
+                        Ph.D Thesis, Utrecht University.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

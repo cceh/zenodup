@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="222_final-P_CKELMANN_Marcus_Keter_Shem__ov___Prozessualisierung_eines_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Keter Shem Ṭov - Prozessualisierung eines Editionsprojekts mit 100 Textzeugen</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Molitor</surname>
+<forename>Paul</forename>
+</persName>
+<affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+<email>paul.molitor@informatik.uni-halle.de</email>
+</author>
+<author>
+<persName>
+<surname>Necker</surname>
+<forename>Gerold</forename>
+</persName>
+<affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+<email>gerold.necker@judaistik.uni-halle.de</email>
+</author>
+<author>
+<persName>
+<surname>Pöckelmann</surname>
+<forename>Marcus</forename>
+</persName>
+<affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+<email>marcus.poeckelmann@informatik.uni-halle.de</email>
+</author>
+<author>
+<persName>
+<surname>Rebiger</surname>
+<forename>Bill</forename>
+</persName>
+<affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+<email>bill.rebiger@judaistik.uni-halle.de</email>
+</author>
+<author>
+<persName>
+<surname>Ritter</surname>
+<forename>Jörg</forename>
+</persName>
+<affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+<email>joerg.ritter@informatik.uni-halle.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-26T21:48:29.953773259</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Kabbala</term>
+<term>Hebräisch</term>
+<term>Edition</term>
+<term>Synopse</term>
+<term>Kollationierung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Inhaltsanalyse</term>
+<term>Beziehungsanalyse</term>
+<term>Webentwicklung</term>
+<term>Manuskript</term>
+<term>Software</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Der folgende Beitrag stellt das Forschungsvorhaben und erste Ergebnisse des DFG geförderten Projekts "Synoptische Edition des kabbalistischen Traktats 
+<hi rend="italic">Keter Shem Ṭov</hi> mit englischer Übersetzung, Stellenkommentar und rezeptionsgeschichtlichen Studien" vor<ref n="1" target="ftn1"/>.
+</p>
+<p>Der im 13. Jahrhundert auf Hebräisch verfasste Traktat 
+<hi rend="italic">Keter Shem Ṭov</hi> (“Krone des
+guten Namens”) ist einer der wichtigsten
+Einführungstexte in die esoterischen Lehren der
+jüdischen Kabbala. Er wird häufig Abraham ben Axelrad
+von Köln zugeschrieben, der möglicherweise ein Schüler
+von El<space quantity="0" unit="chars"/><hi rend="math">‘</hi>azar von Worms (ca. 1176–1238) und Ezra ben Salomo von Gerona (um 1240) war. Der Traktat verbindet die in der spanischen Kabbala klassisch ausgeprägte Symbolik der zehn Sefirot bzw. Manifestationen der Gottheit mit solchen Deutungen des Tetragrammatons, d.h. des vierbuchstabigen („guten“) Gottesnamens, wie sie aus der Literatur der „Deutschen Frommen“, den 
+<hi rend="italic">Ḥaside Ashkenaz</hi>, bekannt sind. 
+<hi rend="italic">Keter Shem Ṭov</hi> ist der älteste bekannte Text, der diese beiden mystischen Traditionen vereint. Er wird in verschiedenen Versionen in etwa 100 Handschriften bezeugt, die sich voneinander deutlich in Umfang und Struktur unterscheiden. Die Herkunft dieser Handschriften umfasst ashkenazische, sefardische, italienische, byzantinische und orientalische Provenienzen. Die ältesten handschriftlichen Textzeugen stammen bereits aus der zweiten Hälfte des 13. Jahrhunderts und sind somit nur wenige Jahre nach der Komposition dieses Traktats entstanden. Der Traktat wurde nicht nur in Kreisen der jüdischen Kabbala, sondern auch von christlichen Kabbalisten rezipiert.
+            </p>
+<p>
+<lb/>Das Ziel des Projekts, das für drei Jahre von der Deutschen Forschungsgemeinschaft (DFG) bewilligt wurde, ist eine kritische Edition der verschiedenen Versionen dieses Traktats in Form einer Spaltensynopse, die sowohl in einer Druckausgabe als auch in einer digitalen und interaktiven Edition online verfügbar gemacht werden soll. Eine englische Übersetzung des Textes, ein detaillierter Stellenkommentar und Studien zur Geschichte seiner Rezeption werden die Edition ergänzen.
+            </p>
+<p>Für die Kollationierung und Analyse der Textvarianten kommt das
+webbasierte Werkzeug LERA<ref n="2" target="ftn2"/> zum Einsatz, das
+im Rahmen des Projekts weiterentwickelt wird. Die ersten
+transkribierten Textfassungen – in UTF-8 codierte Textdateien – konnten bereits mit dem Werkzeug verglichen werden. Abbildung 1 vermittelt einen ersten Eindruck der Oberfläche von LERA und zeigt beispielhaft den Vergleich von vier verschiedenen Textfassungen.
+            </p>
+<p>
+<figure>
+  <graphic url="222_final-641356883b9b4387b4e7e26a09a8c7d5.png"/>
+  <head> Abbildung 1: Auszug einer mit LERA erstellten Synopse für vier Textfassungen von <hi rend="italic">Keter Shem Ṭov</hi>. Im Ausschnitt zu sehen sind je zwei alignierte Absätze der vier Fassungen mit den farblich hervorgehobenen Textvarianten. Unter dem zweiten Absatz ist zudem der Variantenapparat eingeblendet.</head>
+</figure>
+</p>
+<!-- <p> -->
+<!-- <hi rend="bold">Abbildung 1</hi>: Auszug einer mit LERA erstellten Synopse für vier Textfassungen von  -->
+<!--                 <hi rend="italic">Keter Shem Ṭov</hi>. Im Ausschnitt zu sehen sind je zwei alignierte Absätze der vier Fassungen mit den farblich hervorgehobenen Textvarianten. Unter dem zweiten Absatz ist zudem der Variantenapparat eingeblendet. -->
+<!--             </p> -->
+<p>Ein nächster Arbeitsschritt besteht darin, an das Werk und das Hebräische angepasste Vergleichsfilter zu entwickeln, um spezifische Textvarianten auf Wunsch ausblenden zu können. Beispielsweise enthält 
+                <hi rend="italic">Keter Shem Ṭov </hi>verschiedenartige Bezeichnungen für "Gott", die in ausgeschriebenen oder abgekürzten Formen auftreten und oftmals mehrdeutig sind, sodass ein einfacher Wörterbuchansatz fehlschlägt. Wesentlicher Bestandteil des Textes sind zudem zitierte Bibelverse, die neben ihrer orthografischen Varianz auch in unterschiedlicher Länge wiedergegeben werden. Viele Textfassungen enthalten dabei nur die ersten Wörter; das Wissen um den vollständigen Vers setzt der Verfasser voraus. So entstehen Textvarianten, die vom System gesondert hervorgehoben oder verborgen werden sollen, was auf Basis entsprechender Auszeichnungen realisiert wird. Eine teilautomatisierte Erkennung, die den manuellen Aufwand dafür reduziert, ist derzeit in Entwicklung.
+            </p>
+<p>Ein wesentlicher Aspekt des Projektes ist der Umgang mit sehr vielen Textfassungen, der mit voranschreitender Transkribierung weiterer Manuskripte stetig an Bedeutung gewinnt. LERA wurde ursprünglich für die Verarbeitung und Darstellung umfangreicher, aber weniger Textfassungen konzipiert (Bremer et al. 2015), obgleich seitdem für andere Editionsvorhaben angepasst, siehe bspw. (Gründler und Pöckelmann 2018, Roeder 2019). Um den Anforderungen von 
+                <hi rend="italic">Keter Shem Ṭov</hi>
+<hi rend="italic"> </hi>gerecht zu werden, sind verschiedene Erweiterungen in Arbeit. So wird die bisherige synoptische Darstellungsform mit je einer Spalte pro Textfassung um eine zeilenweise bzw. partitursynoptische Darstellung ergänzt. Über die Nutzeroberfläche soll es möglich sein, einzelne Textfassungen dynamisch ein- und auszublenden, was mit Hilfe der bereits integrierten Übersichtsleiste realisiert werden kann. Es ist eine dynamische Auswahl der Leithandschrift geplant, was neben der Anpassung der Oberfläche auch die Modifizierung des Vergleichsalgorithmus notwendig macht, da dieser die Textfassungen derzeit stets gleichrangig betrachtet. Es wird angestrebt diese interaktive Eingriffsmöglichkeit durch geschickte Vorberechnung möglichst effizient zu gestalten, damit für den Nutzer des Systems keine Wartezeiten entstehen. Ferner ist das Zusammenfassen mehrerer ähnlicher Handschriften in Gruppen angedacht. Der synoptische Vergleich findet dann auf Basis dieser Gruppen statt und wird größere Textunterschiede aufzeigen, während ein Apparat auch die kleinsten Änderungen innerhalb einer Gruppe aufschlüsselt.
+            </p>
+<div rend="DH-Heading" type="div1">
+<head>Anmerkungen</head>
+<p>Diese Arbeiten werden durch die Deutsche Forschungsgemeinschaft (DFG) [Projektnummer 414786977] im Rahmen des Projekts „Synoptische Edition des kabbalistischen Traktats 
+                    <hi rend="italic">Keter Shem Ṭov</hi> mit englischer Übersetzung, Stellenkommentar und rezeptionsgeschichtlichen Studien“ unter Leitung von apl. Prof. Dr. Gerold Neckerund Prof. Dr. Paul Molitor gefördert.
+                </p>
+</div>
+</body>
+<back>
+<div type="notes"><note n="1" rend="footnote text" xml:id="ftn1"> Homepage des Projekts:https://kabbalaheditions.org</note><note n="2" rend="footnote text" xml:id="ftn2"> LERA – Locate, Explore, Retrace and Apprehend complex text variants, siehe https://lera.uzi.uni-halle.de</note></div><div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Abrams, Daniel</hi> (2013): 
+<hi rend="italic">"Kabbalistic Manuscripts and Textual Theory:
+Methodologies of Textual Scholarship and Editorial Practice in the
+Study of Jewish Mysticism"</hi>, Jerusalem / Los Angeles: Cherub Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bremer, </hi>
+<hi rend="bold">Thomas /</hi>
+<hi rend="bold"> Molitor, </hi>
+<hi rend="bold">Paul / </hi>
+<hi rend="bold">Pöckelmann, </hi>
+<hi rend="bold">Marcus / </hi>
+<hi rend="bold">Ritter, </hi>
+<hi rend="bold">Jörg</hi>
+<hi rend="bold"> / Schütz, </hi>
+<hi rend="bold">Susanne</hi> (2015):
+"Zum Einsatz digitaler Methoden bei der Erstellung und Nutzung genetischer Editionen gedruckter Texte mit verschiedenen Fassungen – Das Fallbeispiel der Histoire philosphique des deux Indes von Guillaume Thomas Raynal" in: 
+<hi rend="italic">Editio, Internationales Jahrbuch für Editionswissenschaften</hi>, Hrsg. R. v. Nutt-Kofoth, B. Plachta und W. Woesler, Band 29, Heft 1, S. 29–51, de Gruyter.
+</bibl>
+<bibl>
+<hi rend="bold">Gründler, Beatrice / Pöckelmann, Marcus</hi> (2018): 
+"Adjusting LERA For The Comparison Of Arabic Manuscripts Of Kalīla
+wa-Dimna", in: <hi rend="italic">Book of Abstracts of the
+29. International Annual Conference of Digital Humanities, DH2018,</hi>
+Mexico City, pp. 467–468.
+</bibl>
+<bibl>
+<hi rend="bold">Idel, Moshe</hi> (2007): 
+"Ashkenazi Esotericism and Kabbalah in Barcelona", in:
+<hi rend="italic">Hispania Judaica Bulletin</hi> 5, S. 69–113.
+</bibl>
+<bibl>
+  <hi rend="bold">Jellinek, Adolph</hi> (1988):
+  "Kleine Schriften zur Geschichte der Kabbala",  Hildesheim: Olms, S. 29–48.
+</bibl>
+<bibl>
+<hi rend="bold">Oron, Michal</hi> (2013/14): 
+"Ha-Sifrut ha-parshanit le-<space quantity="0" unit="chars"/><hi rend="math">ʿ</hi>eser Sefirot", in: Yoram Ben-Na‘eh et. al. (Hg.), <space quantity="0" unit="chars"/><hi rend="math">ʾ</hi>Asupa le-Yosef, FS Joseph Hacker, Jerusalem: Shazar, S. 212–229 (Hebr.).
+</bibl>
+<bibl>
+<hi rend="bold">Roeder</hi>
+<hi rend="bold">, Torsten</hi> (2019): 
+"Genesis and Variance: From Letter to Literature", in:
+<hi rend="italic">Book of Abstracts of the 19th Annual Conference and Members’ Meeting of the Text Encoding Initiative Consortium(TEI)</hi>, Graz, pp. 92–93.
+</bibl>
+<bibl>
+<hi rend="bold">Scholem, Gershom</hi> (1933): 
+"Index to the Commentaries on the Ten Sefirot", Qiryat Sefer 10, S. 498–515 (Hebr.).
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

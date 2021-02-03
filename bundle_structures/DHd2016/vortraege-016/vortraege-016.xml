@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-016">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> HistStadt4D - Multimodale Zugänge zu historischen Bildrepositorien zur Unterstützung stadt- und baugeschichtlicher Forschung und Vermittlung </title>
+        <author>
+          <name>
+            <surname>Münster</surname>
+            <forename>Sander</forename>
+          </name>
+          <affiliation>Medienzentrum/TU Dresden, Deutschland</affiliation>
+          <email>sander.muenster@tu-dresden.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Niebling</surname>
+            <forename>Florian</forename>
+          </name>
+          <affiliation>Lehrstuhl HCI/Universität Würzburg, Deutschland</affiliation>
+          <email>florian.niebling@uni-wuerzburg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Spatial Humanities</term>
+          <term>Visual Humanities</term>
+          <term>Bilddatenbanken</term>
+          <term>Kulturgeschichte</term>
+          <term>3D-Modelle</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Sammlung</term>
+          <term>Gestaltung</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kommunikation</term>
+          <term>Kontextsetzung</term>
+          <term>Bereinigung</term>
+          <term>Bearbeitung</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Visualisierung</term>
+          <term>Bilder</term>
+          <term>3D-Bilder</term>
+          <term>Karte</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Nutzungsszenarien und Forschungsmehrwerte</head>
+        <p>Ähnlich virtuellen 3D-Modellen adressieren auch digitale Bildrepositorien einen
+          breiten Nutzerkreis mit höchst unterschiedlichen Anforderungen, welche von einer
+          Forschungsunterstützung und damit verbundenen geistes- und
+          informationswissenschaftlichen Fragestellungen über eine Wissensvermittlung in
+          akademischen und musealen Kontexten bis hin zu touristischen Anwendungen reichen
+          (Münster 2011a). In Abhängigkeit vom Nutzerkreis existieren dabei eine Reihe
+          teilweise gegensätzlicher Anforderungen: Für geschichtswissenschaftliche
+          Forschungsaufgaben stehen beispielsweise Aspekte einer Vergleich- und
+          Kontextualisierbarkeit von Quellen (Wohlfeil 1986; Brandt 2012; Münster et al.
+          2015) oder des Bezugs zwischen Quelle und Repräsentation (Favro 2004; Niccolucci
+          / Hermon 2006) ebenso wie eine Identifikation beispielsweise von formalen
+          Mustern, Singularitäten, Brüchen und Devianzen in Architektur und Stadtbild
+          (Andersen 2007; Bürger 2011) im Vordergrund. Zu den damit verbundenen
+          geschichts- und kulturwissenschaftlichen Fragestellungen gehören beispielsweise: </p>
+          <list type="unordered">
+            <item>Wie verändern sich Bauten und Städte im Laufe der Zeit? </item>
+            <item>Welche zeitlichen und örtlichen Zäsuren und Brüche lassen sich erkennen?</item>
+            <item>In welchen Kontexten findet die Transformation eines historischen Stadtbilds statt?</item>
+            <item>Welche baukulturellen Standards und Notwendigkeiten, Bauvorschriften sowie Zeit-, Regional- und Personalstile und Singularitäten von historischen Objekten lassen sich erkennen?</item>
+            <item>Welche Ansichten weisen die historisch höchste Überlieferungsdichte auf? </item>
+            <item>Welche Blickwinkel lassen auf eine bestimmte Betrachterwirkung und ein abhängiges Betrachterverhalten schließen? </item>
+            <item>Wie wird durch die Motive der Ansichten bzw. durch die Ansichten selbst regionale Identität erzeugt und transportiert?</item>
+          </list>
+          <p>Demgegenüber sind für eine Vermittlung geschichtswissenschaftlichen Wissens -
+            neben der Attraktion von Aufmerksamkeit beispielsweise durch spielerische
+            Elemente (Jacobson et al. 2009) - dessen mentale Anknüpfbarkeit und
+            Verständlichkeit relevant. Mit Blick auf eine Nutzung sind zwei wesentliche
+            Vorgehensweisen der Informationserschließung erkennbar: Einerseits ein
+            selbstgesteuertes Durchsuchen von Sammlungen historischer Fotografien,
+            Zeichnungen und Pläne, andererseits eine orts- oder kontextbezogene
+            Informationsvermittlung beispielsweise im Zuge stadträumlicher oder musealer
+            Präsentation. Mit Blick auf diesen letzten Aspekt hat insbesondere mit dem
+            Aufkommen leistungsfähiger personal devices wie Smartphones oder Tablets eine
+            Vor-Ort-Darstellung geschichtswissenschaftlicher Information als Augmented
+            Reality Bedeutung gewonnen und wurde vielfältig erprobt und untersucht
+            (Livingston et al. 2008; Zöllner et al. 2010; Walczak 2011). Dabei stehen
+            umfassende Untersuchungen eines derartigen interaktiven Zugangs zu großen und
+            heterogenen historischen Medienrepositorien sowohl aus technischer und
+            gestalterischer Sicht als auch mit Blick auf Wissenstransfers und Lerneffekte
+            jedoch noch aus. </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head>Klassifikation von Bildern</head>
+            <p>Mit Blick auf eine Bildklassifikation gehen bisherige Ansätze vor allem von einer
+              – durch Experten oder eine Nutzercommunity – vorgenommenen Verschlagwortung von
+              Bildern aus. Insbesondere bei fotografischen Aufnahmen lassen sich über
+              derartige manuelle Klassifikationen hinaus technische Ansätze einer Erkennung
+              von Bild-Features oder Bildkompositionen (Hanzl / Káňa 2012) anwenden und daraus
+              beispielsweise Ähnlichkeiten von Motiven ableiten (Hoiem / Savarese 2011; Endres
+              2013). Analog nutzen photogrammetrische Verfahren die Möglichkeit, anhand von
+              fotografischen Aufnahmen von unterschiedlichen Standpunkten mit überlappenden
+              Bildinhalten räumlich dreidimensionale Strukturen abzuleiten
+              (Pierrot-Deseilligny et al. 2011; Kersten et al. 2012). Gerade umfangreiche
+              Fotorepositorien ermöglichen die Erzeugung komplexer dreidimensionaler
+              Landschafts- und Stadtmodelle, welche unter Nutzung bekannter ortsbezogener
+              Objekte wie Bauwerke oder Straßenverläufe im Weltkoordinatensystem verortet
+              werden können. Damit erlauben derartige 3D-Modelle wiederum einen ortsbezogenen
+              und intuitiven Zugriff auf einzelne Bilder. Während solche Ansätze für
+              zeitgenössische Fotografien erprobt sind und vielfältig Anwendung finden
+              (Structure-from-Motion, z. B. Virtual Rome, MS Photosynth), stellt sich bei
+              historischem Bildmaterial nicht nur das Problem höchst unterschiedlicher
+              technischer Qualitäten und einer mangelnden Reproduzierbarkeit der
+              Aufnahmesituation (Brenningmeyer / Begg 2006; Stojakovic / Tepavcevic 2009)
+              sondern auch die Anforderung einer zeitlichen Dimensionierung der Aufnahmen. Die
+              Forderung nach einer Auslotung derartiger Ansätze im Dienste der Humanities
+              stammt dabei insbesondere aus den Reihen der Archäologie und im Kontext
+              kulturellen Erbes (Ioannides et al. 2013). Aus diesen Bereichen stammen
+              ebenfalls umfangreiche Vorarbeiten insbesondere zu technischen Algorithmen und
+              Vorgehensweisen, welche jedoch zumeist anhand zeitgenössischer Aufnahmen oder
+              anhand spezifisch ausgewählter historischer Bilddatenbestände erprobt wurden
+              (Ioannides et al. 2013). </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>4D- Informationssysteme</head>
+              <p>Durch die Verknüpfung von Orts- und Zeitbezügen entstehen Informationssysteme, in
+                welche sich neben Fotografien eine Vielzahl weiterer, ortsbezogener Daten
+                integrieren lassen. Gerade im deutschsprachigen Raum fokussieren derartige
+                Systeme zumeist auf eine räumlich-zweidimensionale, zeitbezogene Kartierung
+                historischer Artefakte sowie damit verbundene Relations- und
+                Aggregationsinformationen. Dies spiegelt sich nicht nur in einer Vielzahl von
+                Projekten sondern auch im als diesbezügliches Infrastrukturangebot entwickelten
+                Europeana 4D Interface wider, welches die Basis des Dariah-Geobrowsers bildet
+                und trotz seines Namens auf eine vorrangig zweidimensionale Kartierung abzielt.
+                Darüber hinausgehend eröffnen perspektivisch korrekte Darstellungen
+                dreidimensionaler Daten, beispielsweise als virtuelle Stadt- und
+                Landschaftsmodelle, gerade mit Blick auf die Verknüpfung und Veranschaulichung
+                komplexer historischer Informationen gegenüber Kartierungen eine Reihe von
+                Möglichkeiten (Prechtel et al. 2013). </p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Die BMBF-eHumanities-Nachwuchsgruppe HistStadt4D</head>
+                <p>Die vorgeschlagene Präsentation stellt die konzeptionellen sowie empirischen Vorarbeiten der schon angeführten eHumanities-Nachwuchsgruppe HistStadt4D vor.</p>
+                <p>Die Nachwuchsgruppe adressiert mit Blick auf die beschriebene Problemstellung drei Fragenkomplexe. Ein geschichtlich-architektonischer Komplex behandelt am Beispiel der baugeschichtlichen Entwicklung der Stadt Dresden im 20. Jahrhundert Fragen, deren Bearbeitung mit einer intensiven Nutzung von Bild- und Planquellen verbunden ist und für welche eine Zusammenführung und technische Unterstützung Forschungs- und Vermittlungsmehrwerte verspricht. Dies umfasst Aspekte zeitlicher Entwicklung und Transformation einer Stadtlandschaft und formaler Stile ebenso wie kulturelle Aspekte wie beispielsweise ein fotografisches Dokumentationsverhalten und dessen geschichtsbildende Wirkung aber auch spezifische Fragen wie die nach einer Rekonstruktion des Aufnahmestandpunktes von historischen Fotografien.</p>
+                <p>Damit verknüpft ist ein zweiter, methodischer Komplex, welcher diesbezüglich forschungsmethodische Anforderungen an digitale Bild- und Planquellenrepositorien und sich daraus ableitenden technische Unterstützungsoptionen behandelt. Dazu gehören die Systematisierung von Unterstützungsbedarfen beispielsweise einer Identifikation und Kontextualisierung sowie eines visuellen Vergleichs zwischen derartigen Quellen und die Entwicklung von Nutzungsszenarien.</p>
+                <p>Darauf aufbauend behandelt ein informationell-technischer Komplex eine bedarfsgerechte Informationsmodellierung und deren technische Umsetzung am Beispiel der Deutschen Fotothek . Dazu gehören Aspekte einer Prozessierung und Verknüpfung von historischen Medien- und Wissensbeständen unter Einbeziehung von Ort und Zeit zu einer virtuellen Forschungsumgebung, sowie die Untersuchung und Entwicklung von Visualisierungs- und Informationszugängen mittels 4D-Browser sowie als interaktive ortsbezogene Augmented Reality.</p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Präsentationsinhalte</head>
+                <p>Die vorgestellte Nachwuchsforschergruppe HistStadt4D befindet sich momentan in der Vorbereitungsphase. Zum Zeitpunkt der Konferenz werden präsentierbar sein:</p>
+                <list type="unordered">
+                  <item>Die im Rahmen zweier beginnender Habilitationsvorhaben erarbeiteten
+                    Darlegungen der Forschungsstände (1) zu Forschungsansätzen sowie
+                    Arbeitstechniken der Visual Humanities (Münster / Prechtel 2014; Münster et
+                    al. 2015; Münster in Vorbereitung) sowie (2) zur Visualisierung
+                    umfangreicher Bildrepositorien. </item>
+                    <item>Ein darauf aufbauendes Forschungskonzept der Nachwuchsgruppe.</item>
+                  </list>
+                  <p>Darüber hinaus liegen zum Zeitpunkt der Konferenz Ergebnisse im Kontext der Nachwuchsgruppe entstandener flankierender Forschungsarbeiten vor und sollen in eine Präsentation einfließen:</p>
+                  <list type="unordered">
+                    <item>In einer Diplomarbeit gewonnene und getestete Erkenntnisse zur Abstraktion
+                      und Wiedererkennbarkeit virtueller Gebäuderepräsentationen (Weller 2013;
+                      Münster et al. submitted paper). </item>
+                      <item>Eine im Rahmen einer Masterarbeit ab Mitte 2015 erfolgte wissenschaftlich fundierte Bewertung und Konzeption sowie prototypische Testung von technischen Unterstützungsoptionen stadträumlicher Forschung und Vermittlung.</item>
+                      <item>Die im Rahmen einer weiteren Masterarbeit ab Mitte 2015 erfolgte Untersuchung der dreidimensionalen Verortung historischer Fotografien unter Zuhilfenahme eines fotogrammetrisch erstellten zeitgenössischen 3D-Modells.</item>
+                      <item>Mit Blick auf eine Bandbreite der geschichtswissenschaftlichen Nutzung von
+                        Medienrepositorien erfolgte im Rahmen einer Dissertation (Münster 2014)
+                        anhand einer Analyse von 578 - in erweiterter Form knapp 3000 -
+                        internationalen Konferenzbeiträgen der Spatial Humanities eine umfassende
+                        Aufstellung sowohl von Projekttypen und Objekten (Münster / Köhler 2012) als
+                        auch von verwendeten Technologien sowie Forschungs- und
+                        Vermittlungskontexten (Münster 2011; Münster / Ioannides 2015; Münster et
+                        al. im Druck). </item>
+                        <item>Im Kontext einer Untersuchung von Kooperationstechniken wurde durch die
+                          Autoren nachgewiesen, dass bildliche Darstellungen eine wesentliche
+                          Bedeutung zur Unterstützung von Kommunikations- und Wissenstransferprozessen
+                          sowohl für eine wissenschaftlich fundierte Modellgenese (Münster 2013) als
+                          auch zur Wissensvermittlung besitzen (Weller 2013; Köhler et al. 2014;
+                          Münster et al. 2014). </item>
+                          <item>Vor diesem Hintergrund wurden durch die Autoren im Rahmen mehrerer
+                            internationaler Drittmittelprojekte räumliche, geobasierte
+                            3D-Informationssysteme für geschichtswissenschaftliche Inhalte untersucht
+                            und hinsichtlich Gebrauchstauglichkeit und Informationsvermittlung getestet
+                            (Köhler et al. 2013). Dabei wurden innovative Informations- und
+                            Softwarearchitekturen sowohl für Geobrowser (Schubert 2013; Schubert 2013;
+                            Kröber 2014) als auch Plugin-freie und browserbasierte mobile 3D-Augmented
+                            Reality Verfahren (Prechtel et al. 2013; Schietzold 2013) entwickelt.
+                            Darüber hinaus wurden derartige Techniken für ein ubiquitäres Bildungs- und
+                            Informationssystem verwandt, welches individuelle Nutzerpräferenzen, Social
+                            Media-Aktivitäten und Online-Inhalte über eine semantische Wissensbasis
+                            verknüpft und dafür verwendet, dem Nutzer personalisierte Lerninhalte auf
+                            unterschiedlichen Endgeräten bereitzustellen (Funke et al. 2013). </item>
+                          </list>
+                        </div>
+                      </body>
+                      <back>
+                        <div type="bibliogr">
+                          <listBibl>
+                            <head>Bibliographie</head>
+                            <lb/>
+                            <bibl>
+                              <hi rend="bold">Andersen, Kirsti</hi> (2007): <hi rend="italic">The Geometry
+                              of an Art</hi>. The History of the Mathematical Theory of Perspective
+                              from Alberti to Monge. New York: Springer.</bibl>
+                              <bibl>
+                                <hi rend="bold">Brandt, Ahasver von</hi> (2012): <hi rend="italic">Werkzeug
+                                des Historikers</hi>. Eine Einführung in die Historischen
+                                Hilfswissenschaften. Stuttgart: Kohlhammer.</bibl>
+                                <bibl>
+                                  <hi rend="bold">Brenningmeyer, Todd / Begg, Ian D. J.</hi> (2006):
+                                  "Reconstructing Tebtunis: Assembling a Site Model Using Archived Aerial
+                                  Photography", in: <hi rend="italic">Proceedings of the 34th Conference on
+                                  Computer Applications and Quantitative Methods in Archaeology</hi>
+                                  (CAA), Fargo, USA.</bibl>
+                                  <bibl>
+                                    <hi rend="bold">Bürger, Stefan</hi> (2011): "Unregelmässigkeit als Anreiz
+                                    zur Ordnung oder Impuls zum Chaos. Die virtuose Steinmetzkunst der Pirnaer
+                                    Marienkirche", in: <hi rend="italic">Zeitschrift für Kunstgeschichte</hi>
+                                    74: 123-132. </bibl>
+                                    <bibl><hi rend="bold">Burke, Peter</hi> (2003): <hi rend="italic"
+                                    >Augenzeugenschaft</hi>. Bilder als historische Quellen. Berlin: Klaus
+                                    Wagenbach Verlag.</bibl>
+                                    <bibl><hi rend="bold">DARIAH-DE</hi> (2015): <hi rend="italic">DARIAH-DE
+                                    Geobrowser</hi>
+                                    <ref target="http://dev2.dariah.eu/e4d/">http://dev2.dariah.eu/e4d/</ref>
+                                    [letzter Zugriff 9. Februar 2016].</bibl>
+                                    <bibl><hi rend="bold">DRESDEN-concept</hi> (2016): <hi rend="italic"
+                                    >Organisational Structure</hi>
+                                    <ref target="http://www.dresden-concept.de/en/alliance/structures.html"
+                                      >http://www.dresden-concept.de/en/alliance/structures.html</ref>
+                                      [letzter Zugriff 9. Februar 2016].</bibl>
+                                      <bibl><hi rend="bold">Endres, Ian / Shih, Kevin J. / Jiaa, Johnston / Hoiem,
+                                        Derek</hi> (2013): "Learning Collections of Part Models for Object
+                                        Recognition", in: <hi rend="italic">26th IEEE Conference on Computer Vision
+                                        and Pattern Recognition</hi> (CVPR).</bibl>
+                                        <bibl><hi rend="bold">Favro, Diane</hi> (2004): "In the eyes of the beholder.
+                                        Virtual Reality re-creations and academia", in: Haselberger, Lothar /
+                                        Humphrey, Jon / Abernathy, D.C. (eds.): <hi rend="italic">Imaging ancient
+                                        Rome: Documentation, visualization, imagination</hi>. Proceedings of the
+                                        3rd Williams Symposium on Classical Architecture, Rome. Portsmouth: Journal
+                                        of Roman Archaeology.</bibl>
+                                        <bibl><hi rend="bold">Funke, Alexandra / Brunk, Sören / Kühn, Romina / Schlegel,
+                                          Thomas</hi> (2013): "An Ontology-based Interaction Concept for
+                                          Social-aware Applications Human-Computer Interaction. Towards Intelligent
+                                          and Implicit Interaction", in: <hi rend="italic">Proceedings of the 15th
+                                          International Conference on Human-Computer Interaction 2013, Las
+                                          Vegas</hi>. New York: Springer.</bibl>
+                                          <bibl><hi rend="bold">Hanzl, Vlastimil / Káňa, David</hi> (2012): "Application
+                                          of computer vision methods and algorithms in documentation of cultural
+                                          heritage", in: <hi rend="italic">Geoinformatics FCE CTU</hi> 9 <ref
+                                          target="https://ojs.cvut.cz/ojs/index.php/gi/article/viewFile/gi.9.3/2407"
+                                          >https://ojs.cvut.cz/ojs/index.php/gi/article/viewFile/gi.9.3/2407</ref></bibl>
+                                          <bibl>.</bibl>
+                                          <bibl><hi rend="bold">Hoiem, Derek / Savarese, Silvio</hi> (2011): <hi
+                                          rend="italic">Representations and Techniques for 3D Object Recognition
+                                          &amp; Scene Interpretation</hi>. San Rafael: Morgan &amp; Claypool
+                                          Publishers.</bibl>
+                                          <bibl><hi rend="bold">Ioannides, Marinos / Hadjiprocopis, Andreas / Doulamis,
+                                            Nikolaos / Doulamis, Anastasios / Protopapadakis, Eftychios /
+                                            Makantasis, Kostas / Santos, Pedro / Fellner, Dieter / Stork, Andre /
+                                            Balet, O./ Julien, Martine Julien / Weinlinger, Günther / Johnson, Paul
+                                            S. / Klein, Michael / Fritsch, Dieter</hi> (2013): "Online 4D
+                                            Reconstruction using Multi-Images available under Open Access", in:<hi
+                                            rend="italic"> ISPRS Annals of the Photogrammetry, Remote Sensing and
+                                            Spatial Information Sciences</hi>, XL-5/W2 (XXIV International CIPA
+                                            Symposium) 169-174.</bibl>
+                                            <bibl><hi rend="bold">Jacobson, Jeffrey / Handron, Kerry / Holden, Lynn</hi>
+                                            (2009): "Narrative and Content Combine in a Learning Game for Virtual
+                                            Heritage", in: <hi rend="italic">Proceedings of the 37th Computer
+                                            Applications and Quantitative Methods in Archaeology Conference</hi>,
+                                            Williamsburg. </bibl>
+                                            <bibl><hi rend="bold">Justus-Liebig-Universität Gießen</hi> (2012-2015): <hi
+                                            rend="italic">GeoBib</hi>. GeoBib - Virtueller Atlas und
+                                            Online-Bibliographie der frühen Holocaustliteratur <ref
+                                            target="http://www.uni-giessen.de/fbz/zmi/projekte/geobib"
+                                            >http://www.uni-giessen.de/fbz/zmi/projekte/geobib</ref> [letzter
+                                            Zugriff 9. Februar 2016].</bibl>
+                                            <bibl><hi rend="bold">Kersten, Thomas P. / Lindstaedt, Maren / Mechelke, Klaus /
+                                              Zobel, Kay</hi> (2012): "Automatische 3D-Objektrekonstruktion aus
+                                              unstrukturierten digitalen Bilddaten für Anwendungen in Architektur,
+                                              Denkmalpflege und Archäologie", in: Seyfert, Eckhardt (ed.): <hi
+                                              rend="italic">Erdblicke - Perspektiven für die Geowisseschaften</hi>.
+                                              Vorträge: 32. Wissenschaftlich-technische Jahrestagung der DGPF, Potsdam (=
+                                              Publikationen der Deutschen Gesellschaft für Photogrammetrie, Fernerkundung
+                                              und Geoinformation e. V. 21). Oldenburg: DGPF.</bibl>
+                                              <bibl><hi rend="bold">Kohle, Hubertus / Bry, Francois</hi>(2015): <hi
+                                              rend="italic">ARTigo</hi>. Play4Science Projekt <ref
+                                              target="http://www.artigo.org/">http://www.artigo.org/</ref> [letzter
+                                              Zugriff 9. Februar 2016].</bibl>
+                                              <bibl><hi rend="bold">Köhler, Thomas / Münster, Sander / Schlenker, Lars</hi>
+                                              (2013): "Didaktik virtueller Realität. Merkmale einer zielgruppengerechten
+                                              Gestaltung im Kontext akademischer Bildung", in: Reinmann, Gabi / Ebner,
+                                              Martin / Schön, Sandra (eds.): <hi rend="italic">Hochschuldidaktik im
+                                              Zeichen von Heterogenität und Vielfalt</hi>. Doppelfestschrift für Peter
+                                              Baumgartner und Rolf Schulmeister. Norderstedt: Books on Demand <ref
+                                              target="http://bimsev.de/">http://bimsev.de/</ref> [letzter Zugriff 16.
+                                              Februar 2016].</bibl>
+                                              <bibl>.</bibl>
+                                              <bibl>
+                                                <hi rend="bold">Köhler, Thomas / Münster, Sander / Schlenker, Lars</hi>
+                                                (2014): "Smart communities in virtual reality. A comparison of design
+                                                approaches for academic education", in: <hi rend="italic">Interaction Design
+                                                and Architecture(s) Journal (IxD&amp;A)</hi> 22 (Special issue on
+                                                "Social Behaviors and Learning in Smart Communities): 48-59.</bibl>
+                                                <bibl><hi rend="bold">Kröber, Cindy / Münster, Sander / Prechtel, Nikolas /
+                                                  Schietzold, Sebastian / Schubert, Christian</hi> (2014): "GEPAM – Eine
+                                                  interaktive Informationsplattform zur "Landschaft des Gedenkens (Poster)",
+                                                  in: <hi rend="italic">1. Jahrestagung der Digital Humanities im
+                                                  deutschsprachigen Raum (DHd 2014)</hi>, Passau.</bibl>
+                                                  <bibl><hi rend="bold">Kwastek, Katja</hi> (2014): "Vom Bild zum Bild. Digital
+                                                  Humanities jenseits des Texts (Keynote)", in: <hi rend="italic">1.
+                                                  Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd
+                                                  2014)</hi>. Passau.</bibl>
+                                                  <bibl><hi rend="bold">Livingston, Mark A. / Bimber, Oliver / Saito, Hideo</hi>
+                                                  (2008): <hi rend="italic">Proceedings of the 7th IEEE International
+                                                  Symposium on Mixed and Augmented Reality</hi>. Cambridge, UK.
+                                                  Piscataway, N.J.: IEEE Xplore.</bibl>
+                                                  <bibl><hi rend="bold">Münster, Sander</hi> (2011a): "Entstehungs- und
+                                                  Verwendungskontexte von 3D-CAD-Modellen in den Geschichtswissenschaften",
+                                                  in: Meißner, Klaus / Engelien, Martin (eds.) <hi rend="italic">Virtual
+                                                  Enterprises, Communities &amp; Social Networks.</hi> Dresden: TUDpress. </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Münster, Sander</hi> (2011b): "Militärgeschichte aus der
+                                                    digitalen Retorte - Computergenerierte 3D-Visualisierung als Filmtechnik",
+                                                    in: Kästner, Alexander / Mazerath, Josef (eds.): <hi rend="italic">Mehr als
+                                                    Krieg und Leidenschaft</hi>. Die filmische Darstellung von Militär und
+                                                    Gesellschaft der Frühen Neuzeit (= Militär und Gesellschaft in der frühen
+                                                    Neuzeit 15, 2). Potsdam: Universitätsverlag.</bibl>
+                                                    <bibl><hi rend="bold">Münster, Sander</hi> (2013): "The role of images for a
+                                                    virtual 3D reconstruction of historic artifacts", in: <hi rend="italic"
+                                                    >Annual Meeting of the International Communication Association
+                                                    (ICA)</hi>. London.</bibl>
+                                                    <bibl><hi rend="bold">Münster, Sander</hi> (2014): <hi rend="italic"
+                                                    >Interdisziplinäre Kooperation bei der Erstellung virtueller
+                                                    geschichtswissenschaftlicher 3D-Rekonstruktionen</hi>. Dissertation.
+                                                    Technische Universität Dresden.</bibl>
+                                                    <bibl><hi rend="bold">Münster, Sander / Hegel, W. / Kröber, Cindy</hi> (in
+                                                    Vorbereitung): "A classification model for digital reconstruction in context
+                                                    of humanities research", in: Münster, Sander / Pfarr-Harfst, Mieke /
+                                                    Ioannidis, Marinos / Quack, Ewald (eds.) <hi rend="italic">The 2nd
+                                                    International Workshop on ICT for the Preservation and Transmission of
+                                                    Intangible Cultural Heritage "How to exchange Cultural Heritage 3D
+                                                    objects and knowledge in Digital Libraries?"</hi> Cham: Springer LNCS. </bibl>
+                                                    <bibl><hi rend="bold">Münster, Sander / Ioannides, Marinos</hi> (2015): "The
+                                                    scientific community of digital heritage in time and space", in: <hi
+                                                    rend="italic">Digital Heritage 2015</hi>.</bibl>
+                                                    <bibl><hi rend="bold">Münster, Sander / Jahn, Peter Heinrich / Wacker,
+                                                      Markus</hi> (2015): "Von Plan- und Bildquellen zum virtuellen
+                                                      Gebäudemodell. Zur Bedeutung der Bildlichkeit für die digitale
+                                                      3D-Rekonstruktion historischer Architektur", in: Ammon, Sabine /
+                                                      Hinterwaldner, Inge (eds.): <hi rend="italic">Bildlichkeit im Zeitalter der
+                                                      Modellierung</hi>. Operative Artefakte in Entwurfsprozessen der
+                                                      Architektur und des Ingenieurwesens. München: Wilhelm Fink Verlag.</bibl>
+                                                      <bibl><hi rend="bold">Münster, Sander / Köhler, Thomas</hi> (2012): "3D
+                                                      reconstruction of Cultural Heritage artifacts. A literature based survey",
+                                                      in: <hi rend="italic">Proceedings of CHCD2012 Conference</hi>.
+                                                      Beijing.</bibl>
+                                                      <bibl><hi rend="bold">Münster, Sander / Köhler, Thomas / Hoppe, Stephan</hi>
+                                                      (2013): "3D modeling technologies as tools for the reconstruction and
+                                                      visualization of historic items in humanities. A literature-based survey",
+                                                      in: Traviglia, Arianna (ed.): <hi rend="italic">Across Space and Time</hi>.
+                                                      Selected Papers from the 41st Computer Applications and Quantitative Methods
+                                                      in Archaeology Conference, Perth. Amsterdam: Amsterdam University
+                                                      Press.</bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Münster, Sander / Kröber, Cindy / Schlenker, Lars / Weller,
+                                                          Heide</hi> (submitted paper): "Virtual Reconstructions of Historical
+                                                          Architecture as Media for Visual Knowledge Representation", in: <hi
+                                                          rend="italic">International Communication Association (ICA) Annual
+                                                          Meeting, 9-13 June 2016</hi>. Fukuoka. </bibl>
+                                                          <bibl><hi rend="bold">Münster, Sander / Prechtel, Nikolas</hi> (2014): "Beyond
+                                                          Software. Design Implications for Virtual Libraries and Platforms for
+                                                          Cultural Heritage from Practical Findings", in: Ioannidis, Marinos /
+                                                          Magnenat-Thalmann, Nadja / Fink, Eleanor / Žarnić, Roko / Yen, Alex-Yianing
+                                                          / Quak, Ewald (eds.): <hi rend="italic">Digital Heritage</hi>. Progress in
+                                                          Cultural Heritage: Documentation, Preservation, and Protection. Cham:
+                                                          Springer.</bibl>
+                                                          <bibl><hi rend="bold">Münster, Sander / Schlenker, Lars / Köhler, Thomas</hi>
+                                                          (2014): "Common grounds and representations in cross-disciplinary
+                                                          processes", in: Carlussi, Daniela, Schiuma, Giovanni / Spender, JC (eds.):
+                                                          <hi rend="italic">Knowledge and Management Models for Sustainable
+                                                            Growth</hi>. Basilicata: Institute of Knowledge Asset Management.</bibl>
+                                                            <bibl><hi rend="bold">Niccolucci, Franco / Hermon, Sorin</hi> (2006): "A Fuzzy
+                                                            Logic Approach to Reliability in Archaeological Virtual Reconstruction", in:
+                                                            Niccolucci, Franco / Hermon, Sorin (eds.): <hi rend="italic">Beyond the
+                                                            Artifact</hi>. Digital Interpretation of the Past. Budapest:
+                                                            Archaeolingua.</bibl>
+                                                            <bibl><hi rend="bold">Paul, Gerhard</hi> (2006): <hi rend="italic">Visual
+                                                            History</hi>. Ein Studienbuch. Göttingen: Vandenhoeck &amp;
+                                                            Ruprecht.</bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">Pérez-Gómez, Alberto / Pelletier, Louise</hi> (1997): <hi
+                                                              rend="italic">Architectural Representation and the Perspective
+                                                              Hinge</hi>. Cambridge / London: University Press.</bibl>
+                                                              <bibl><hi rend="bold">Pierrot-Deseilligny, Marc / de Luca, Livio / Remondino,
+                                                                Fabio</hi> (2011): "Automated Image-Based Procedures for Accurate
+                                                                Artifacts 3D-Modeling and Orthoimage Generation", in: <hi rend="italic"
+                                                                >Geoinformatics CTU FCE</hi> 291-299.</bibl>
+                                                                <bibl>
+                                                                  <hi rend="bold">Prechtel, Nikolas / Münster, Sander / Kröber, Cindy /
+                                                                    Schubert, Christian / Schietzold, Sebastian</hi> (2013): "Presenting
+                                                                    Cultural heritage Landscapes - From GIS via 3D Models to Interactive
+                                                                    Presentation Frameworks", in: <hi rend="italic">ISPRS Annals of the
+                                                                    Photogrammetry, Remote Sensing and Spatial Information Sciences</hi>.
+                                                                    XL-5/W2 (XXIV International CIPA Symposium) 253-258.</bibl>
+                                                                    <bibl><hi rend="bold">Schietzold, Sebastian</hi> (2013): <hi rend="italic"
+                                                                    >Augmented Reality mit 3D-Inhalten auf mobilen Endgeräten</hi>.
+                                                                    Studienarbeit, betreut duch Florian Niebling / Sander Münster. TU Dresden. </bibl>
+                                                                    <bibl><hi rend="bold">Schubert, Christian</hi> (2013a): <hi rend="italic"
+                                                                    >Verbesserte Graphik und Integration für das 3D-Landschaftsmodell des
+                                                                    Ethno-Nature Parks „Uch-Enmek“ (Altai) unter Verwendung von
+                                                                    OpenWebGlobe</hi>. Studienarbeit, betreut duch Nikolas Prechtel / Sander
+                                                                    Münster. TU Dresden. </bibl>
+                                                                    <bibl>
+                                                                      <hi rend="bold">Schubert, Christian</hi> (2013b): <hi rend="italic">Vom 3D –
+                                                                      Landschaftsmodell zu einer integrativen Web-basierten
+                                                                      Informationsapplikation für ein archäologisches Schutzgebiet</hi> (Uch
+                                                                      Enmek, Republik Altai). Diplomarbeit, betreut duch Nikolas Prechtel / Sander
+                                                                      Münster. TU Dresden.</bibl>
+                                                                      <bibl>
+                                                                        <hi rend="bold">Stojakovic, Vesna / Tepavcevic, Boran</hi> (2009): "Optimal
+                                                                        methods for 3d modeling of devastated architectural objects", in: Remondino,
+                                                                        Fabio / El-Hakim, Sabry F. / Gonzo, Lorenzo (eds.): <hi rend="italic"
+                                                                        >3D-ARCH 2009.</hi> 3D Virtual Reconstruction and Visualization of
+                                                                        Complex Architectures. Trento, Italy. </bibl>
+                                                                        <bibl>
+                                                                          <hi rend="bold">Walczak, Krzysztof / Cellary, Wojciech / Prinke,
+                                                                            Andrzej</hi> (2011): "Interactive Presentation of Archaeological Objects
+                                                                            Using Virtual and Augmented Reality", in: Jerem, Erszébet / Redö, Ferenc /
+                                                                            Szeverényi, Vajk (eds.): <hi rend="italic">On the Road to Reconstructing the
+                                                                            Past</hi>. Proceedings of the 36th International Conference on Computer
+                                                                            Applications and Quantitative Methods in Archaeology (CAA). Budapest:
+                                                                            Archaeolingua.</bibl>
+                                                                            <bibl><hi rend="bold">Weller, Heide</hi> (2013): <hi rend="italic"
+                                                                            >Generalisierte 3D-Gebäuderepräsentation im Spannungsfeld von
+                                                                            Primärinformation, Modellierungsaufwand und Wiedererkennbarkeit am
+                                                                            Beispiel eines 3D-Stadtmodells von Dresdens um 1940 (Diploma
+                                                                            thesis).</hi> Diploma Thesis, TU Dresden.</bibl>
+                                                                            <bibl><hi rend="bold">Wohlfeil, Rainer</hi> (1986): "Das Bild als
+                                                                            Geschichtsquelle", in: <hi rend="italic">Historische Zeitschrift</hi> 243:
+                                                                            91–100.</bibl>
+                                                                            <bibl><hi rend="bold">Zöllner, Michael / Becker, Mario / Keil, Jens</hi> (2010):
+                                                                            "Snapshot Augmented Reality - Augmented Photography", in: Artusi, Alessandro
+                                                                            / Joly-Parvex, Morwena / Lucet, Genevieve / Ribes, Alejandro / Pitzalis,
+                                                                            Denis (eds.): <hi rend="italic">11th International Symposium on Virtual
+                                                                            Reality, Archaeology and Cultural Heritage (VAST 2010).</hi> Paris:
+                                                                            Eurographics Association.</bibl>
+                                                                          </listBibl>
+                                                                        </div>
+                                                                      </back>
+                                                                    </text>
+                                                                  </TEI>

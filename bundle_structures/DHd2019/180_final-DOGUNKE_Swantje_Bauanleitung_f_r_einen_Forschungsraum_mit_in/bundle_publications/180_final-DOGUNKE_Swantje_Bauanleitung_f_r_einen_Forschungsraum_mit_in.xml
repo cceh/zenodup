@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="180_final-DOGUNKE_Swantje_Bauanleitung_f_r_einen_Forschungsraum_mit_in" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bauanleitung für einen Forschungsraum mit institutionellem Fundament: Erfahrungen aus fünf Jahren Infrastrukturentwicklung im Forschungsverbund MWW</title>
+                <author>
+                    <persName>
+                        <surname>Dogunke</surname>
+                        <forename>Swantje</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund MWW | Klassik Stiftung Weimar, Deutschland</affiliation>
+                    <email>swantje.dogunke@klassik-stiftung.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Steyer</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund MWW | Herzog August Bibliothek Wolfenbüttel</affiliation>
+                    <email>steyer@hab.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-08T12:15:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Bedarfsanalyse</term>
+                    <term>Projektplanung</term>
+                    <term>Kommunikation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Identifizierung</term>
+                    <term>Kollaboration</term>
+                    <term>Projektmanagement</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Ein Schwerpunkt des Forschungsverbunds Marbach Weimar Wolfenbüttel besteht im Aufbau einer digitalen Infrastruktur, um bestandsbezogene Forschung von der Korpusbildung über Analyse- und Auswertungsverfahren bis zur Veröffentlichung von Forschungsergebnissen digital zu unterstützen. Das infrastrukturelle Profil konzentriert sich auf den Bereich der Sammlungsforschung und führt über diese thematische Ausrichtung Erschließung und Forschung zusammen. Durch die gemeinsame Forschungsinfrastruktur sollen die Sammlungen und die damit verbundenen Forschungsaktivitäten virtuell zusammenwachsen.</p>
+            <p>Die Forschungsinfrastruktur MWW ist modular aufgebaut; die zentralen Komponenten bilden ein verlässlicher Speicher und ein virtueller Forschungsraum. Die Gesamtarchitektur des virtuellen Forschungsraums folgt der Taxonomie TaDiRAH (Borek 2014) und konnte in einen mehrschichtigen Architekturplan überführt werden. Dieser bildet über eine bestandsübergreifenden Suche, durch Instrumente für kollaboratives Arbeiten und durch Services zur Analyse sowie Modifizierung von Forschungsdaten signifikante Bestandteile der geisteswissenschaftliche Forschungsprozesses ab. Innerhalb des Forschungsraumes steht den Projekten jeweils eine spezifische Arbeitsumgebung zur Verfügung, in denen über ein Basis-Set an Services hinaus die projektrelevanten Tools und Services aus dem Portfolio des Forschungsraums angeboten werden.</p>
+            <p>Der Beitrag widmet sich primär jedoch nicht den Funktionen des Forschungsraums, sondern möchte die Kriterien des Aufbaus ausgehend von dem über Umfragen ermittelten Bedarf thematisieren und dabei auch auf nicht realisierbare Vorstellungen und Ansprüche eingehen. Darauf aufbauend soll das Konzept der Realisierung vorgestellt werden, welches sich weniger auf Neuprogrammierung von Services denn auf die Adaption und Modifizierung bestehender Tools sowie auf die Vernetzung mit anderen Infrastrukturen fokussiert. </p>
+            <p>Den zweiten Schwerpunkt bildet die entworfene Anforderungsliste für die Integration von digitalen Sammlungen in den Forschungsraum. In diesem Feld ergaben sich aufgrund der unterschiedlichen Bestände und technischen Ausrichtungen der beteiligten Häuser ein Bedarf an gemeinsamer Standardisierung und der Entwicklung von Anwendungsprofilen für Metadaten, um die verteilten Sammlungen zu einem interoperablen Datenpool zu transformieren (Gradl 2015). Die Wichtigkeit von Normdaten- und Forschungsdatenmanagement wird dabei an konkreten Beispielen thematisiert werden (Kraft 2017).</p>
+            <p>Zudem wird der Beitrag anhand von bestandsbezogenen Forschungsprojekten die Nutzung und den Mehrwert der aufgebauten Forschungsinfrastruktur erläutern (Beyer 2017). Anhand dieses Beispiels wird deutlich werden, welchen Mehrwert digitale Arbeitsmethoden für das jeweilige Projekt dargestellt haben und welche Forschungsaufgaben sonst nur eingeschränkt umsetzbar gewesen wären. Dabei spielen im Sinne des Tagungsthema auch die Integration unterschiedlicher medialer Inhalte in eine Publikationsform eine wesentlich Rolle.</p>
+            <p>Kritisch wird aber auch gefragt, nach dem Aufwand an Vermittlung und Unterstützung im Bereich der Digital Humanities, welche die Realisierung solcher Projekte mit sich bringt und welche Grenzen trotzdem weiterhin bestehen. In diesem Kontext wird auch auf die Frage eingegangen, wie eine Forschungsinfrastruktur sich innerhalb der beteiligten Einrichtungen legitimiert und welche Erfolgskriterien entscheidend sind (Dogunke 2018).</p>
+            <p>Abschließend wird ein Modell vorgestellt, um die Weiterentwicklung von aufgebauter Infrastruktur und die parallele Planung multidisziplinärer Forschungsprojekte zu koordinieren. Der Mehrwert dieses Vorgehens besteht in der exakten und frühen Ermittlung des Nutzerbedarfs, so sind z.B. Gesamtkostenpläne, Arbeitspläne sowie Synergieeffekte durch eine bessere Personalverteilung und die gemeinsame Entwicklung fehlender Komponenten zu nennen. Das Moderationsverfahren wurde bereits in mehreren Projekten angewendet und soll gemeinsam mit einer Dokumentation der Community zur Verfügung gestellt werden.</p>
+            <p>Das Poster möchte die positiven und negativen Erfahrungen, welche das Projektteam beim Aufbau des Forschungsraums gemacht hat, visualisieren und zur Diskussion anregen. Da Infrastrukturaufbau im Kontext der digitalen Geisteswissenschaften nach wie vor ein aktuelles Thema dargestellt, wie es z. B. die Diskussion um Software-as-a-Service zeigen (Cremer 2018), erhoffen sich die Einreichenden die Community damit ansprechen zu können.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+						<hi rend="bold">Beyer, Hartmut / Münkner, Jörn / Schmidt, Katrin / Steyer, Timo (2017)</hi>: <hi rend="italic">Bibliotheken im Buch: Die Erschließung von privaten Büchersammlungen der Frühneuzeit über Auktionskataloge</hi>, in: <hi rend="bold">Hannah Busch, Franz Fischer und Patrick Sahle [Hrsg.]</hi>: <hi rend="italic">Kodikologie und Paläographie im digitalen Zeitalter 4 (Codicology and Palaeography in the Digital Age)</hi>. Norderstedt 2017. S. 43-70.
+					</bibl>
+                    <bibl>
+						<hi rend="bold">Borek, Louise (2014)</hi>: <hi rend="italic">TaDiRAH – Taxonomy of Digital Research Activities in the Humanities</hi>, in: DHd-Blog. <ref target="https://dhd-blog.org/?p=3073">https://dhd-blog.org/?p=3073</ref> [letzter Zugriff: 27.09.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Cremer, Fabian /Wübbena, Thorsten</hi>: <hi rend="italic">The next big thing will be a lot of small things – Serviceorientierung als Modell für die Infrastrukturlandschaft</hi>, in: DHd-Blog <ref target="https://dhd-blog.org/?p=10480">https://dhd-blog.org/?p=10480</ref> [letzter Zugriff: 27.09.2018]. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Dogunke, Swantje, Steyer, Timo und Mayer, Corinna</hi>: <hi rend="italic">"Barcamp Data and Demons: von Bestands- und Forschungsdaten zu Services. Treffen sich ein Bibliothekar, eine Archäologin, ein Informatiker, …"</hi>. In:LIBREAS. Library Ideas, Nr. 33 (2018). <ref target="https://libreas.eu/ausgabe33/dogunke/%20">https://libreas.eu/ausgabe33/dogunke/</ref> [letzter Zugriff: 6.09.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gradl, Tobias, Henrich, Andreas, Plutte, Christoph</hi>: <hi rend="italic">Heterogene Daten in den Digital Humanities: Eine Architektur zur forschungsorientierten Föderation von Kollektionen</hi>. In: <hi rend="bold">Constanze Baum und Thomas Stäcker (Hrsg.)</hi>: <hi rend="italic">Grenzen und Möglichkeiten der Digital Humanities</hi>. 2015. <ref target="http://dx.doi.org/10.17175/sb001_020">DOI: 10.17175/sb001_020</ref> [letzter Zugriff: 6.9.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Kraft, Angelina</hi>: <hi rend="italic">The FAIR Data Principles for Research Data</hi>. In: TIB-Blog – Weblog der Technischen Informationsbibliothek (TIB). Beitrag vom 12. September 2017. Online:
+					</bibl>
+                    <bibl>
+                        <ref target="https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data">https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data</ref>/ [letzter Zugriff: 6.09.2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

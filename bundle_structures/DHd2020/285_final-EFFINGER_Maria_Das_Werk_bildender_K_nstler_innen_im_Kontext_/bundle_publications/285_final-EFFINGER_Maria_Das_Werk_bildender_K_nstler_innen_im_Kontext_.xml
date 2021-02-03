@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="285_final-EFFINGER_Maria_Das_Werk_bildender_K_nstler_innen_im_Kontext_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Das Werk bildender Künstler*innen im Kontext – Digitale Werkverzeichnisse im semantischen Netz</title>
+<author>
+<persName>
+<surname>Effinger</surname>
+<forename>Maria</forename>
+</persName>
+<affiliation>Universitätsbibliothek Heidelberg, Deutschland</affiliation>
+<email>effinger@ub.uni-heidelberg.de</email>
+</author>
+<author>
+<persName>
+<surname>Sobriel</surname>
+<forename>Nicole</forename>
+</persName>
+<affiliation>Universitätsbibliothek Heidelberg, Deutschland</affiliation>
+<email>sobriel@ub.uni-heidelberg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T19:10:00Z</date>
+</edition>
+</editionStmt>s
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digitale Werkverzeichnisse</term>
+<term>Semantisches Publizieren</term>
+<term>WissKI</term>
+<term>CIDOC-CRM</term>
+<term>Open Access</term>
+<term>Normdaten</term>
+<term>arthistoricum.net</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Archivierung</term>
+<term>Veröffentlichung</term>
+<term>Kollaboration</term>
+<term>Artefakte</term>
+<term>Standards</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+Ein Werkverzeichnis – auch Catalogue raisonné oder Œuvrekatalog genannt – hat den Anspruch, alle Werke eines bildenden Künstlers oder einer bildenden Künstlerin aufzulisten und zu beschreiben, auch wenn die Werke nicht mehr erhalten oder verschollen sind und ihre Existenz nur indirekt (z.B. durch Schriftquellen) nachweisbar ist. In der wissenschaftlichen Literatur oder Auktionskatalogen wird ein Werkverzeichnis in der Regel mit dem Autor*innennamen und der betreffenden Nummer des Werkes, der sogenannten „Werkverzeichnisnummer“ zitiert. 
+</p>
+<p>
+Œuvrekataloge in gedruckter Form haben eine sehr lange Tradition, bedeutet doch das Vorhandensein für den oder die Künstler*in gleichsam den „Ritterschlag“. Zugleich bezeugt es das Expertentum des Verfassers oder der Verfasserin über das erforschte Werk und dient überdies für den Kunstmarkt als verbindliches Nachweisinstrument. 
+</p>
+<p>
+  Werkverzeichnisse sind genuin auf stetige Fortschreibung hin angelegt, damit kontinuierlich notwendige Ergänzungen zum jeweiligen Forschungsstand (wie Nachträge und Revisionen) möglich sind. Demzufolge ist eine zukünftig wachsende Bedeutung digitaler Werkverzeichnisse zu prognostizieren (Roettgen 2019, S. 376). Welchen Stellenwert die Erarbeitung von Œuvrekatalogen nach wie vor hat, zeigte die große Resonanz, auf den Aufruf einen „Arbeitskreis Werkverzeichnis“ (<ref target="https://arbeitskreis-werkverzeichnis.de">https://arbeitskreis-werkverzeichnis.de</ref>) ins Leben zu rufen. Bei der Gründungsveranstaltung in der Hamburger Kunsthalle am 03.11.2018 diskutierten rund 120 Teilnehmer und  Teilnehmerinnen (<ref target="https://arthist.net/archive/19049">https://arthist.net/archive/19049</ref>) über die vielfältigen Aspekte bei der Erstellung von Werkverzeichnissen. Die Chancen und Herausforderungen digitaler Angebote sind dabei wesentlicher Bestandteil der jährlich stattfindenden Workshops (und bildeten in der Novembertagung 2019 sogar den Schwerpunkt, vgl. <ref target="https://www.belvedere.at/arbeitskreis-werkverzeichnis-3-tagung">https://www.belvedere.at/arbeitskreis-werkverzeichnis-3-tagung</ref>).
+</p>
+<p>
+Im Rahmen des DFG-Programms „Fachinformationsdienste für die Wissenschaft“ (FID) entwickeln die Universitätsbibliothek Heidelberg und die SLUB Dresden mit dem Fachportal arthistoricum.net ein maßgeschneidertes Angebot für die kunsthistorische Fachcommunity. Die UB Heidelberg zeichnet dabei u.a. für den Bereich des elektronischen Publizierens im Open Access verantwortlich. Ihr aktueller Fokus liegt hierbei auf kollaborativen, mit Linked-Data-Technologien realisierten, dynamischen Publikationsmöglichkeiten und deren Weiterentwicklung. Nach dem Prinzip von „Enhanced e-Books“ sollen wissenschaftliche Texte unter anderem mit Bildern oder Multimediadateien verknüpft sowie gemeinsam mit weiteren Forschungsdaten weltweit zur Verfügung gestellt werden.
+</p>
+<p>
+Obgleich es für die Forschung nur förderlich ist, haben Onlineressourcen immer noch ein Autoritätsproblem in der kunsthistorischen Forschung: Während in naturwissenschaftlichen Plattformen Kollektiv- und Mikropublikationen zunehmen, gibt es für Kunsthistoriker*innen verhältnismäßig wenige nachhaltige und damit zitierfähige Optionen.
+</p>
+<p>
+Vor dem oben skizzierten Hintergrund lag es nahe, dass die UB Heidelberg die Gattung „Digitales Werkverzeichnis“ als einen ihrer Arbeitsschwerpunkte gewählt hat, da sich die Datenhaltung in einem Repositorium oder einer virtuellen Forschungsumgebung, die zugleich als Präsentationsplattform dient, besonders anbietet. Im Kontext von arthistoricum.net werden aktuell in Heidelberg mit der Objekt- und Multimediadatenbank heidICON sowie der „Wissenschaftlichen Kommunikations-Infrastruktur“
+WissKI dafür unterschiedliche Lösungsansätze erarbeitet und z.T. auch schon bereitgestellt (<ref target="https://www.arthistoricum.net/themen/wvz/">https://www.arthistoricum.net/themen/wvz/</ref>). Ziel ist der Aufbau von Angeboten zu den Werken bildender Künstler*innen, die gemäß Linked-Data-Prinzipien und Semantic-Web-Standards die 2014 erarbeiteten Prämissen einer Digitalen Kunstgeschichte umsetzt (vgl. „Zürcher Erklärung zur digitalen Kunstgeschichte“,
+<ref target="http://www.digitale-kunstgeschichte.de/w/images/6/6b/ZuercherErklaerungzurdigitalenKunstgeschichte2014.pdf">http://www.digitale-kunstgeschichte.de/w/images/6/6b/ZuercherErklaerungzurdigitalenKunstgeschichte2014.pdf</ref>).
+</p>
+<p>
+Der erste, eher pragmatische Lösungsansatz – die Veröffentlichung eines Werkverzeichnisses in heidICON – kommt immer dann zur Anwendung, wenn nur wenige Eckdaten zu den Werken erhoben werden und es primär um die nachhaltige Veröffentlichung dieser Inhalte geht, d.h. weniger um darüber hinausgehende vertiefende Analysen wie z.B. Beziehungen der Werke untereinander oder zu  Künstlernetzwerken. Auch stellen knappe Personalressourcen häufig einen limitierenden Faktor dar. 
+</p>
+<p>
+Die objektorientierte Datenbank heidICON (https://heidicon.ub.uni-heidelberg.de) ist das zentrale, nachhaltige Repositorium für die Universität Heidelberg und dient dort als Erschließungssystem sowie Präsentationsplattform für zahlreiche Institute, Sammlungen und Projekte der Universität Heidelberg. heidICON basiert auf der Software easydb der Firma programmfabrik (Berlin).<ref n="1" target="ftn1"/>
+ In dem durch das gemeinsam von Universitätsbibliothek und Universitätsrechenzentrum betriebenen Kompetenzzentrum Forschungsdaten (KFD) entwickelten OAIS-kompatiblen Langzeitarchivsystem heiARCHIVE werden alle in heidICON erfassten Daten in die Langzeitarchivierung überführt.
+</p>
+<p>
+Hinsichtlich Technik und Erschließung auf internationale Standards setzend, hat sich heidICON zu einem unverzichtbaren Infrastrukturangebot entwickelt und leistet damit einen wichtigen Beitrag für die Etablierung der Digital Humanities an der Universität. Darüber hinaus wird heidiCON im Kontext des nationalen Auftrags der UB im Rahmen Fachinformationsdienste (FID) auch für die nachhaltige Bereitstellung von Bildsammlungen für die Fachcommunity der FIDs arthistoricum.net (Kunstgeschichte), Propylaeum (Altertumswissenschaften) und CrossAsia (Asienwissenschaften) bereitgestellt. 
+</p>
+<p>
+Besondere Aufmerksamkeit erfährt dieses Angebot aktuell bei der Erstellung digitaler Werkverzeichnisse. Naturgemäß stehen die Werke mit ihren digitalen Reproduktionen im Zentrum. So gilt es, umfangreiches, digital vorliegendes Abbildungsmaterial, Dokumentation von Restaurierungsmaßnahmen oder historische Quellen zu integrieren. Die in Heidelberg gewählte Lösung sieht vor, neben 2D- und 3D-Bildern auch vorhandenes Multimediamaterial nachhaltig zu speichern. Die Datenmaske zur Erfassung der Objekte ist nicht explizit auf Kunstwerke zugeschnitten, hat jedoch einen Schwerpunkt auf Gütern des kulturellen Erbes. Das eingesetzte Datenmodell bzw. die Erfassungskategorien der zu beschreibenden Werke sind am XML-Harvesting Schema LIDO (Lightweight Describing Objects, <ref target="http://network.icom.museum/cidoc/working-groups/lido/what-is-lido">http://network.icom.museum/cidoc/working-groups/lido/what-is-lido</ref>) angelehnt. Der ereignisbasierte Aufbau deckt alle wesentlichen Aspekte für die Darstellung einer Objektgeschichte und den Anforderungen eines Werkverzeichnisses ab. Die Homogenisierung der Erschließungsdaten durch die Orientierung am LIDO-Schema erleichtert die spätere Nachnutzung der Daten, wenn die Datensätze exportiert und an Portale wie z.B. an die Deutsche digitale Bibliothek (DDB) geliefert werden.
+</p>
+<p>
+Als Linked Data wurde kontrolliertes Vokabular und Normdaten, wie die Gemeinsame Normdatei (GND), GeoNames und der iDAI Gazzetteer implementiert, wodurch erste Schritte semantischer Verknüpfungen über die Datenwerte möglich sind. Dank dieser Referenzen zu Orten und Institutionen (Aufbewahrungs- und Standort, Entstehungsort oder dargestellter Ort), Personen (Künstler*in, ehemalige Eigentümer*innen [Provenienz], Darstellte oder Auftraggeber*innen), Klassifikation (Gattungen), Materialien, Technik und Werktitel ist eine eindeutige Identifizierung möglich (und soll zukünftig mit der Einbindung der Getty-Thesauri weiter ausgebaut werden). 
+</p>
+<p>
+Die einzelnen Datensätze sind zitierfähig durch persistente URIs oder die Vergabe von DOIs (Digital Object Identifiers). DOIs und die Einspeisung der Dateien in die Langzeitarchivierungssysteme der Universität Heidelberg garantieren eine nachhaltige Verfügbarkeit. Außerdem fördert die Ausgabe der Bilder und Metadaten via IIIF, die Referenzierbarkeit sowie die Bereitstellung der Inhalte als Linked Data im Semantic Web. 
+</p>
+<p>
+Neben dem Download der Multimediadateien ist der Export der Metadaten in CSV, XML oder JSON-Formaten möglich oder die Erstellung von Powerpoint-Präsentationen und deren Download. Sämtliche Funktionen in heidICON lassen sich über eine Programmierschnittstelle (API) steuern, was eine bessere Vernetzung mit bestehenden Systemen für die Datenpräsentation und die Archivierung zur Folge hat.
+</p>
+<p>
+  Die in heidICON erstellten Werkkataloge – wie aktuell beispielsweise das Online-Werkverzeichnis des Künstlers  Georg Jakob Best (1903 – 2003,
+  <ref target="https://www.arthistoricum.net/themen/wvz/best/">https://www.arthistoricum.net/themen/wvz/best/</ref>) oder des Bildhauers Bernhard Vogler (*1930, 
+  <ref target="https://www.arthistoricum.net/themen/wvz/vogler/">https://www.arthistoricum.net/themen/wvz/vogler/</ref>) – werden in arthistoricum.net in eine Themenseite über den Künstler oder die Künstlerin eingebettet, welche individuelle Angaben zu Leben und Werk, ggf. eine Bibliographie oder andere weiterführende Informationen beinhalten kann. Darüber hinaus können die digitalen Werkverzeichnisse aber auch optisch in institutionelle Webauftritte von Museen, Sammlungen oder anderen Kultureinrichtungen integriert werden. Hierfür werden eigens entwickelte Javascript-Module bereitgestellt, welche die Präsentation der Suche, verschiedene Browsingeinstiege sowie die Visualisierung der Trefferanzeigen außerhalb von heidICON im „Look and feel“ der das Werkverzeichnis verantwortenden Institution.
+</p>
+<p>
+  Der zweite Heidelberger Lösungsansatz zur Realisierung digitaler Werkverzeichnisse setzt für die Tiefenerschließung und Präsentation der Daten primär auf WissKI. Er kommt immer dann zur Anwendung, wenn komplexere Fragestellungen behandelt und vor allem auf der Grundlage semantischer Tiefenerschließung visualisiert werden sollen. Im Gegensatz zu heidICON ermöglicht die „Wissenschaftliche Forschungsinfrastruktur – WissKI“
+  (<ref target="http://wiss-ki.eu/">http://wiss-ki.eu/</ref>) eine individuellere und projektspezifischere Datenhaltung. Neben der Werkbeschreibung können auch andere Kategorien (Entitäten), zum Beispiel verknüpfte Personen oder Institutionen, ausführlicher beschrieben und vorhandene Kategorien untereinander verlinkt werden. 
+</p>
+<p>
+ Das Alleinstellungsmerkmal von WissKI im Vergleich zu anderen Dokumentationssystemen ist die Fähigkeit, durch die ontologiebasierte wissenschaftliche Tiefenerschließung auf der Basis des ISO-Standards CIDOC-CRM
+  (<ref target="http://www.cidoc-crm.org">http://www.cidoc-crm.org</ref>) die Komplexität der kunstgeschichtlichen Dokumentation mit all ihren vielfältigen Bezügen abzubilden und als Linked Open Data bereitzustellen. Durch eine ontologiebasierte Datenhaltung in einem Triple Store stehen Forschungsergebnisse weltweit zur Verknüpfung mit anderen Datenrepositorien bereit. Kontrollierte Vokabulare und Normdaten (GND, Getty-Thesauri etc.) werden eingebunden. Besonders im Fokus steht hierbei die Nutzung von Werktitelnormdaten der Gemeinsamen Normdatei (GND) 
+(<ref target="http://www.arthistoricum.net/netzwerke/graphik-vernetzt/werktitelnormdaten/">http://www.arthistoricum.net/netzwerke/graphik-vernetzt/werktitelnormdaten/</ref>). Ausgehend von im Fach anerkannten Referenzwerken für Graphik oder Werkverzeichnisse erstellt die UB Heidelberg in enger Abstimmung mit dem „Arbeitskreis Graphik vernetzt“ und der Deutschen Nationalbibliothek (DNB), systematisch Werktitelnormdaten mit wissenschaftlich gesicherten Inhalten. 
+</p>
+<p>
+Aber auch der zweite Lösungsansatz setzt für die nachhaltige Archivierung der Bild- und Multimediadateien auf heidICON. Für die aufwendiger angelegten digitalen Werkverzeichnisse erfolgt ebenfalls die Basiserschließung wie bereits oben beschrieben in heidICON. Das dort erfasste Bildmaterial kann inklusive ausgewählter Erschließungsdaten über einen eigens programmierten Picker direkt in das WissKI-basiertes Werkverzeichnis eingebunden werden. 
+</p>
+<p >Diese webbasierte und kollaborative Arbeits- und Publikationsweise sowie die multiplen Verbindungen von Bild und Text schaffen gegenüber bisher üblichen Printpublikationen neue Möglichkeiten der Visualisierung und Verbreitung stets aktueller Forschungsergebnisse. So können die zwischen den in der Datenbank erfassten Artefakten oder Personen bestehenden komplexen, geographischen, überlieferungskontextuellen, sprachlichen, inhaltlichen, ikonographischen oder editorischen Bezüge komfortabel recherchiert, visualisiert und dynamisch ausgebaut werden. </p>
+<p>
+  Individuelle Umsetzungen erfolgen u.a. in Kooperation mit dem Institut für Kunstgeschichte Regensburg
+  (<ref target="http://www.uni-regensburg.de/philosophie-kunst-geschichte-gesellschaft/kunstgeschichte/institut/professuren/wagner/">Prof. Christoph Wagner</ref>) für den Schweizer Maler, Kunsttheoretiker und Bauhausmeister
+<ref target="https://www.arthistoricum.net/themen/wvz/itten/">Johannes Itten</ref> (1888-1967), des Weiteren wird in Zusammenarbeit mit der Kunsthistorikerin Prof. Dr. Steffi Roettgen (München) das bereits 1999 gedruckte Werkverzeichnis Anton Raphael Mengs in ein digitales Werkverzeichnis überführt und durch neue Werke bzw. Entitäten (wie etwa Neuzuschreibungen, Abschreibungen und Kopien) komplementiert. Darüber hinaus wird in einer Kooperation mit dem 
+<ref target="http://www.museen.nuernberg.de/duererhaus/">Albrecht-Dürer-Haus</ref> in Nürnberg mit einem digitalen Werkverzeichnis des Œuvres <ref target="https://www.arthistoricum.net/themen/wvz/duerer/">Albrecht Dürers</ref>
+ begonnen.
+</p>
+<p>
+  Um diese ersten Prototypen zu einer nachhaltigen und vor allem nachnutzbaren Forschungsinfrastruktur ausbauen zu können, wird aktuell in dem DFG-Projekt „Semantics4Art&amp;Architecture“
+  (<ref target="http://www.ub.uni-heidelberg.de/wir/projekt_semantics4art.html">http://www.ub.uni-heidelberg.de/wir/projekt_semantics4art.html</ref>) gemeinsam mit dem Herder-Institut für Ostmitteleuropaforschung in Marburg, eine auf CIDOC-CRM beruhende nachnutzbare Basis-Ontologie für digitale Werkverzeichnisse mit WissKI entwickelt und bereitgestellt. Die Erstellung anpassbarer Templates für Datenmodelle hilft einerseits der Homogenisierung der WissKI-Werkverzeichnisse, andererseits dient ein Datenmodell „von der Stange“ der Zeitersparnis und reduziert die benötigten informationstechnologischen Kenntnisse.
+</p>
+<p>
+Bei der Konzeption digitaler Werkverzeichnisse muss zudem berücksichtigt werden, dass diese nicht nur der kunstwissenschaftlichen Dokumentation und Forschung dienen, sondern auch in anderen Bereichen, wie z.B. der Provenienzforschung, dem Kunsthandel oder aber auch dem Ausstellungswesen im Fokus des Interesses stehen. Die interdisziplinären Anforderungen für ein Werkverzeichnis werden deshalb in Workshops erarbeitet und in Datenmodell-Templates überführt, welche der Nachnutzung durch die  Fachcommunity dienen. Wenngleich es das Ziel sein muss, ein sehr umfassendes Mustertemplate zu erstellen, um den unterschiedlichen Bedürfnisse verschiedener Gattungen Rechnung zu tragen, aus dem sich die Anwender – wie aus einem Bausteinkasten – bedienen können, ist die Modellierung und die Wahl der CRM-Klassen in manchen Fällen passender als in anderen. 
+</p>
+<p>
+Trotz der vielen Vorteile gibt es offene Fragen und Probleme, deren Klärung wichtig ist, wie zum Beispiel die Frage nach der Versionierung: Ab wann liegt eine neue Version vor und wie kann und sollte die technische Umsetzung erfolgen, wenn im besten Fall kenntlich gemacht werden soll, welche neuen Informationen im Vergleich zur Vorgängerversion vorliegen?  
+</p>
+<p>
+Rechtliche Hindernisse kommen insbesondere bei der von der Provenienzforschung gewünschten lückenlosen Erfassung ehemaliger Besitzer*innen auf. Diese können nicht immer veröffentlicht werden, was zum einen eine Herausforderung an die Modellierung und das WissKI-System setzt, wenn bestimmte Informationen eines Werkdatensatzes nicht in allen Fällen oder für eine gewisse Zeitspanne nicht als linked open Data zur Verfügung gestellt werden können. 
+</p>
+<p>
+Eine andere, im ersten Moment vielleicht weithergeholte Frage ist, ob Hackerangriffe eine mögliche Gefahr darstellen können? Eine illegale Platzierung eines Werkes in das System, wäre für Kunstfälscher von großem Vorteil, schließlich ist die Nennung eines Kunstwerkes in einem Werkverzeichnis für den Kunstmarkt von entscheidender Bedeutung.
+</p>
+<p>
+Eine Folge digitaler Werkverzeichnisse unter der linked Data-Prämisse könnte die Auflösung der Monopolstellung der Autor*innen sein, wenn zum Beispiel durch kooperatives Fortschreiben der Inhalte, durch die Verknüpfung von Normdaten oder die Einbindung der Forschungsergebnisse von z.B. Restaurator*innen oder Provenienzforscher*innen das Wissen unterschiedlicher Forscher*innen zusammenfließt und die Grenzen der individuellen Autorenschaft verschwimmen.
+</p>
+<p>
+Und welche Rollen und möglichen Probleme hat der Hoster – in unserem Fall also die Bibliothek – auszufüllen und zu berücksichtigen? Wenngleich sie nicht für den Inhalt zuständig ist, muss sie Lösungen finden, wenn die ursprünglich Hauptverantwortlichen nicht mehr zur Verfügung stehen, die Idee des dynamisch fortgeführten Werkverzeichnisses jedoch Bestand haben soll?
+</p>
+<p>Das Heidelberger modulare Angebot für digitale Werkverzeichnisse soll den unterschiedlichen fachlichen Bedarfen hinsichtlich der geschilderten Komplexität und Erschließungstiefe sowie verschiedenartigen Nutzungsmöglichkeiten Rechnung tragen. Ebenfalls Berücksichtigung finden müssen dabei die hierfür jeweils zur Verfügung stehenden personellen und finanziellen Ressourcen. Stets gewahrt werden soll jedoch immer die Forderung, die digitalen Forschungsergebnisse nachhaltig, zitierfähig und interoperabel im Open Access zugänglich zu machen.</p>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+Im Rahmen der Anfang 2019 erfolgtem Migration auf die neue Softwareversion easydb 5 wurde heidICON von der bisherigen bildorientierten Erfassung auf eine hierarchische und objektorientierte Datenhaltung auf der Basis des internationalen Standard LIDO (Lightweight Information Describing Objects) umgestellt.
+    </note>
+    <p>&#160;<lb/>&#160;<lb/>&#160;<lb/>&#160;</p>
+  </div>
+</back>
+</text>
+</TEI>

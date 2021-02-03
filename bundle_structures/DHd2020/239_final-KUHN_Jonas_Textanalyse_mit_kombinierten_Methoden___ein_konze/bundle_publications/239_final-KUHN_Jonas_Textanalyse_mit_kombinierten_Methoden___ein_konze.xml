@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="239_final-KUHN_Jonas_Textanalyse_mit_kombinierten_Methoden___ein_konze" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Textanalyse mit kombinierten Methoden – ein konzeptioneller Rahmen für reflektierte Arbeitspraktiken</title>
+<author>
+<persName>
+<surname>Kuhn</surname>
+<forename>Jonas</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>jonas.kuhn@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Pichler</surname>
+<forename>Axel</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>axel.pichler@ts.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Reiter</surname>
+<forename>Nils</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>nils.reiter@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Viehhauser</surname>
+<forename>Gabriel</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>gabriel.viehhauser-mery@ilw.uni-stuttgart.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T13:25:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Arbeitspraktiken</term>
+<term>Methoden</term>
+<term>Reflexion</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Kontextsetzung</term>
+<term>Theoretisierung</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Die Zahl und Intensität der Aktivitäten im interdisziplinären Spektrum der 
+                    <hi rend="italic" xml:space="preserve">Digital Humanities </hi>(DH) bzw. 
+                    <hi rend="italic" xml:space="preserve">Computational Social Science </hi>ist in den vergangen 5-10 Jahren enorm angewachsen. Nicht zuletzt dank eines undogmatischen Selbstverständnisses der Forschungscommunity basieren die Aktivitäten auf einem Methodenpluralismus, dem eine ebenso facettenreiche Methodenreflexion entspricht. Gleichwohl ist es für die wissenschaftliche Praxis unerlässlich, dass sich Teilcommunities, die ein vergleichbares Erkenntnisinteresse innerhalb des DH-Spektrums verfolgen, über den konzeptuellen Rahmen sowie die aus ihm folgenden Maßstäbe verständigen, die sie an ein methodisch valides Vorgehen anlegen. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschung mit kombinierte komputationell/geisteswissenschaftlichen Methoden</head>
+<p rend="normal">Dieser Beitrag fokussiert auf denjenigen Teilbereich der DH, der sich zum Ziel setzt, adaptierbare datenorientierte Computermodelle methodisch adäquat in kombiniert komputationell/geisteswissenschaftliche Arbeitspraktiken zu integrieren. Methodologisch zielt diese Teildisziplin also darauf ab, Forschungsfragen aus einem geisteswissenschaftlichen Kontext mit kombinierten Methoden (bzw. mit “mixed methods”) adäquat bearbeiten zu können.<ref n="1" target="ftn1"/> Basierend auf eigenen Erfahrungen und dem Austausch innerhalb der DH-Community ist unsere Einschätzung, dass Mitglieder von Forschungsteams, die im Spektrum der komputationell/geisteswissenschaftlichen Methodenkombination eingehende Projekterfahrung gesammelt haben, eine ausdifferenzierte Wahrnehmung der zu kombinierenden Arbeitspraktiken entwickelt haben. Ein methodologischer Metadiskurs, der eine enge Verzahnung der kombinierten Methoden thematisiert, findet jedoch nur in engen Zirkeln – häufig projektintern – statt. Für neu etablierte Projektkooperationen ist es daher nach wie vor schwierig, Workflows aufzusetzen, die ein reflektiertes Vorgehen garantieren. Zudem wird für unterschiedliche methodische Komponenten die jeweilige Adäquatheit häufig nicht auf dem gleichen Reflexionsniveau diskutiert: so kann für die “komputationelle” Praxis, das Modellverhalten im Rahmen einer Evaluation und Fehleranalyse zu reflektieren, auf klarere Konventionen aufgebaut werden als etwa für ein Hinterfragen der Annahmen zum Interpretationskontext der untersuchten Texte, die mit der Operationalisierung zentraler Analysekategorien einhergehen.
+                </p>
+<p rend="normal">Es erscheint uns daher an der Zeit, intensiver über einen geeigneten konzeptionellen Rahmen für Arbeiten aus einem der DH-Teilbereiche zu diskutieren, in denen kombinierte Methoden zum Einsatz kommen – einen Rahmen, der eine gleichermaßen adäquate Reflexion für alle einfließenden Vorannahmen ermöglicht und zudem einfach genug darstellbar ist, dass sich ein methodisch adäquater Workflow mit vertretbarem Aufwand und ohne Brüche konstruieren lässt. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Vier Aspekte des konzeptionellen Rahmens für die Methodenkombination </head>
+<p rend="normal">In diesem Beitrag stellen wir Kernpunkte eines generalisierten arbeitspraktischen Vorgehensmodells dar, das wir aus den Erfahrungen des Stuttgarter 
+<hi rend="italic" xml:space="preserve">Zentrums für reflektierte Textanalyse </hi>(CRETA<ref n="2" target="ftn2"/>) heraus entwickelt haben, in dem Beteiligte aus einer Reihe von unterschiedlichen Textwissenschaften und Computerwissenschaften kooperieren. Wir beschränken den Forschungsgegenstand auf Texte, öffnen den Raum aber für sehr unterschiedliche Arten von Fragestellungen: eine literaturwissenschaftliche Auseinandersetzung mit (poetischen) Primärtexten soll ebenso abgedeckt werden wie die Analyse von wissenschaftlichen Diskursen (etwa in der Philosophie) oder von Texten als Quellen für historische oder sozialwissenschaftliche Untersuchungen. Eine paradigmatische Auswahl erster Forschungsresultate der am Zentrum angesiedelten Projekte bietet der Band Kuhn/Pichler/Reiter (erscheint).<ref n="3" target="ftn3"/>
+</p>
+<p rend="normal">
+  <anchor xml:id="gjdgxs"/>Die Motivation für den vorgeschlagenen konzeptionellen Rahmen liegt nicht vordringlich in einer deskriptiven wissenschaftstheoretischen Betrachtung. Vielmehr soll der Rahmen Ansatzpunkte für die konkrete Praxis bieten – etwa für 
+  <hi rend="italic">Best-Practice</hi>-Vorschläge. Wir fokussieren auf vier ineinandergreifende Aspekte, die für die DH zentral sind. Keiner dieser Aspekte ist grundsätzlich neu für die Methodendiskussion – hier geht es jedoch um eine handhabbare Gesamtkonzeption.
+</p>
+<p rend="normal">Als konkrete Illustration des Vorgehens mögen Arbeiten aus dem QuaDramA-Projekt dienen (Krautter/Pagel 2019, Krautter et al. 2018): ein Korpus von deutschsprachigen Dramen wird mit kombinierten Methoden erschlossen; ein exemplarischer Analyseschritt dabei liegt in der Klassifikation von Figuren nach bestimmten Typen. Einige Figurentypen sind bereits literaturwissenschaftlich etabliert (zärtlicher Vater) oder lassen sich relativ treffsicher aus der Figurentafel (Tochter) oder den Metadaten (Titelfigur) extrahieren. Andere Typen wie z.B. die Protagonistin bzw. der Protagonist entziehen sich einer aus unmittelbar verfügbaren Texteigenschaften oder Metadaten ableitbaren Zuweisung, sind jedoch von Bedeutung für literaturhistorische Betrachtungen (etwa für die Frage, inwieweit Emilia Galotti als Titelfigur aus G. E. Lessings bürgerlichem Trauerspiel (1772) den Status einer Protagonistin hat). Eine Annäherung an derartige Kategorien mit kombinierten Methoden kann ausgehend von klaren Fällen eine vorläufige Operationalisierung ansetzen, darauf aufbauend datenbasierte Computermodelle erzeugen und die Modellvorhersagen auf dem Gesamtkorpus in den Prozess einer Verfeinerung der Operationalisierung einfließen lassen.</p>
+<figure>
+<graphic height="6.792736111111111cm" n="1001" rend="inline" url="239_final-5a98d0611e21386aa122290ff8d43395.jpg" width="10.886722222222222cm"/>
+<head> Abbildung 1: Typisches Vorgehen bei der komputationellen Modellierung nicht-trivialer Kategorien in der DH-Textanalyse</head>
+</figure>
+<!-- <p> -->
+<!-- <hi style="font-size:10pt" xml:space="preserve">Abbildung 1: </hi> -->
+<!-- <hi rend="italic" style="font-size:10pt">Typisches Vorgehen bei der komputationellen Modellierung nicht-trivialer Kategorien in der DH-Textanalyse</hi> -->
+<!-- </p> -->
+<p rend="normal">Als Ausgangspunkt skizziert Abbildung 1 ein DH-Vorgehen, das sich bei nicht-trivialen Modellierungsaufgaben etabliert hat – in Anlehnung an ausgeprägte methodische Konventionen in der Korpus- und Computerlinguistik (vgl. u.a. Hovy/Lavid 2010, Kuhn/Reiter 2015, Stefanowitsch 2018, Kuhn 2019): Die Analysekategorie, die im Rahmen einer geisteswissenschaftlichen Gesamtfragestellung angewendet werden soll, wird konzeptuell operationalisiert – gängiger Weise in Form von präzisen Annotationsrichtlinien. Der erste zentrale Aspekt für eine effektive Praxis der Methodenkombination liegt in der 
+                    <hi rend="bold">(I)</hi> <hi rend="bold">Anwendung der Annotationsrichtlinien auf ein geeignetes Korpus von Referenzdaten</hi>. Die Referenzannotation kann anschließend durch die datenbasierte Entwicklungsmethodik der Computerwissenschaften für die Modelloptimierung herangezogen werden:<ref n="4" target="ftn4"/> sie fixiert das Ziel für eine Optimierung der Vorhersagekraft von möglichen Modellarchitekturen und deren Parametrisierungen.<ref n="5" target="ftn5"/>
+</p>
+<p rend="normal">Das bislang geschilderte Vorgehen fokussiert ausschließlich auf die technische Optimierung der Vorhersagemodelle für fixierte Referenzdaten. Ein effektiver konzeptioneller Rahmen für die Methodenkombination muss daneben Prozessen Raum geben, die eine sukzessive Verfeinerung der Analysekategorien vornehmen, um einem geisteswissenschaftlichen Fragenkomplex gerecht zu werden. Hier sind mehrere Aspekte zu unterscheiden: 
+                    <hi rend="bold">(II)</hi> eine <hi rend="bold">Inspektion der Vorhersageergebnisse</hi> der (technisch optimierten) Modelle kann empirische Indikatoren zu Tage fördern, die Anlass zu einer 
+                    <hi rend="bold" xml:space="preserve">Revision der Operationalisierung </hi>geben. Neben dem Entwicklungszirkel auf der rechten Seite muss es also einen Zirkel auf der linken Seite geben. Ein solches Revisionsmodell ist im Rahmen eines 
+                    <hi rend="italic">Prototyping</hi>-Ansatzes bzw. in der agilen Softwareentwicklung verbreitet – unabhängig davon, ob sich die Zielkategorisierung selbst in einem technischen Rahmen bewegt oder ob sie einem von der computerwissenschaftlichen Methodik abweichenden Rahmen entstammt.<ref n="6" target="ftn6"/>
+</p>
+<p rend="normal">Letzteres ist allerdings bei einer komputationell/geisteswissenschaftlichen Methodenkombination der Fall. Die Gütekriterien, die zur Revision einer geisteswissenschaftlichen Analysekategorie führen, können grundsätzlich anderen methodischen Prinzipien und Vorannahmen folgen. Eine probehalber vorgenommene Operationalisierung eines vielschichtigen Konzepts in der Textanalyse (z.B. Protagonisten in Dramen) mag sich zum Beispiel als unergiebig erweisen, obgleich die komputationelle Umsetzung entsprechend den Referenzdaten eine hohe Vorhersagequalität ermöglicht. 
+                    <hi rend="bold">(III)</hi> der <hi rend="bold">textanalytische Inferenzschritt</hi> (für den eine Computermodellierung vorgenommen wird) und die 
+                    <hi rend="bold">datenbasierte Modellierung</hi> sind jeweils in 
+                    <hi rend="bold">eigene methodische bzw. arbeitspraktische Rahmen</hi> eingebettet; zentrale Aufgabe für die „Mixed methods“-Forschung ist die Spezifikation von adäquaten Übersetzungsschritten. 
+                </p>
+<figure>
+<graphic height="6.928330555555555cm" n="1002" rend="inline" url="239_final-e76d83b52f6a1b8c4e88863d489e03c1.jpg" width="10.692580555555555cm"/>
+<head>Abbildung 2: Konzeptionelle Trennung der arbeitspraktischen/methodischen Rahmen für einen textanalytischen Inferenzschritt und seine datenorientierte Modellierung; beide folgen eigenen Zyklen der Verfeinerung/Weiterentwicklung </head>
+</figure>
+<!-- <p> -->
+<!-- <hi style="font-size:10pt" xml:space="preserve">Abbildung 2: </hi> -->
+<!-- <hi rend="italic" style="font-size:10pt" xml:space="preserve">Konzeptionelle Trennung der arbeitspraktischen/methodischen Rahmen für einen textanalytischen Inferenzschritt und seine datenorientierte Modellierung; beide folgen eigenen Zyklen der Verfeinerung/Weiterentwicklung </hi> -->
+<!-- </p> -->
+<p rend="normal">Abbildung 2 zeigt entsprechend eine stärker ausdifferenzierte Skizze des konzeptionellen Rahmens. Der vierte Aspekt ist hier bereits angedeutet: 
+                    <hi rend="bold">(IV)</hi> Ein bestimmter 
+                    <hi rend="bold">Analysebefund zu einem Text</hi> hinsichtlich einer Analysekategorie ist 
+                    <hi rend="bold">stets in Bezug auf einen angenommen Interpretationskontext</hi> (mit potenziell vielfältigen relevanten Dimensionen) zu sehen.<ref n="7" target="ftn7"/> Ein textanalytischer Inferenzschritt (die innere blaue Box) wird also dargestellt als Ableitung eines Befundes aus einem Text, gegeben eine bestimmte Instantiierung der Kontextfaktoren, für die teilweise eigene Analysekategorien angesetzt werden müssen. (Zum Beispiel könnte die Operationalisierung der Kategorie 
+                    <hi rend="italic">Protagonist</hi> verwoben sein mit einer Analyse der aktiven und der passiven Präsenz der Figur, welche jeweils als eigene Kategorien zu operationalisieren sind.) 
+                </p>
+<p rend="normal">Wie Abbildung 2 suggeriert findet die Übersetzung aus der geisteswissenschaftlichen in die Sphäre der datenbasierten Computermodellierung sinnvollerweise für einzelne Inferenzschritte separat statt (obgleich wie in Fn. 5 angedeutet die Computerarchitektur für einen Schritt selbst technisch komplex sein kann). Es wird deutlich, dass bei der Bearbeitung von nicht-trivialen Fragestellungen rasch ein vielschichtiges Geflecht von Komponenten mit unterschiedlichem Status entsteht. Ein Hauptziel der hier vorgeschlagenen Konzeption liegt darin, das Augenmerk auf genau jene Statusunterschiede zu lenken, die für ein methodisch reflektiertes Vorgehen zu relevanten Vorannahmen relevant sind. </p>
+<p rend="normal">Strukturell sind die Elemente unserer Konzeption trotz der darstellbaren Komplexität vergleichsweise einfach – sie konzentrieren sich auf die Aufgabe der methodenübergreifenden Übersetzung mittels der referenzdatengestützten Operationalisierung und komputationellen Modellierung. Für die konkrete arbeitspraktischen Projektroutine sollte also eine verhältnismäßig übersichtliche Sicht auf die relevanten Komponenten möglich sein. Die abschließende Abbildung 3 demonstriert jedoch, dass der konzeptionelle Rahmen bei Bedarf eine Schnittstelle zu einer sehr differenziert ausgearbeiteten wissenschaftstheoretischen Konzeption wie der von Danneberg/Albrecht 2017 bietet. (Aus Platzgründen können wir in diesem Abstract nicht auf Details eingehen.) Ein reflektiertes Vorgehen kann also auch auf fundamentalere Fragen etwa zur Problematisierung von divergierenden Wissensansprüchen über Disziplingrenzen hinweg eingehen.</p>
+<figure>
+<graphic height="9.560277777777777cm" n="1003" rend="inline" url="239_final-3e4d0c6367e11b044372383bddcc5c17.jpg" width="15.486944444444445cm"/>
+<head>Abbildung 3: Bei Bedarf können die Wissensbereiche detailliert ausspezifiziert werden, die in die Methodenkombination gehen – aufbauend auf der wissenschaftstheoretischen Konzeption disziplinärer Praxis als Bearbeitung eines wissenschaftstheoretischen Problems nach Danneberg/Albrecht 2017 (mit den Komponenten (i) problematisierte Wissensansprüche, (ii) Wertungskomponenten, (iii) Fragenkomplex)</head>
+</figure>
+<!-- <p> -->
+<!-- <anchor xml:id="Ref431239124"/> -->
+<!-- <hi style="font-size:10pt">Abbildung 3:</hi> -->
+<!-- <hi rend="italic" style="font-size:10pt">Bei Bedarf können die Wissensbereiche detailliert ausspezifiziert werden, die in die Methodenkombination gehen – aufbauend auf der wissenschaftstheoretischen Konzeption disziplinärer Praxis als Bearbeitung eines wissenschaftstheoretischen Problems nach Danneberg/Albrecht 2017 (mit den Komponenten (i) problematisierte Wissensansprüche, (ii) Wertungskomponenten, (iii) Fragenkomplex)</hi> -->
+<!-- </p> -->
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      <hi style="font-size:10pt" xml:space="preserve"> Zentral für unsere methodologische Argumentation ist der Anspruch, Computermodelle für die Ableitung von einzelnen Befunden aus der Datenlage so in kombinierte Arbeitspraktiken zu integrieren, dass folgende zwei Aspekte unabhängig voneinander reflektiert werden können: (a) Wie hoch liegt die komputationelle Vorhersagequalität des Modells bei der Anwendung auf den Untersuchungsgegenstand (Texte einer bestimmten Epoche, Gattung, Inhaltsdomäne etc.) bezogen auf eine definierte Analyseaufgabe (etwa die Extraktion aller textuellen Erwähnungen der Akteure in einem Text)? (b) Wie aussagekräftig sind Befunde aus einer gegebenen, definierten Analyseaufgabe bezogen auf eine übergeordnete geisteswissenschaftliche Forschungsfrage?  Eine modular aufgebaute Architektur von Analyseschritten kann entlang dieser beiden Aspekte sukzessive für die Bearbeitung eines geisteswissenschaftlichen Forschungsgegenstands angepasst werden.</hi>
+      <p rend="normal">
+	<hi style="font-size:10pt">Fasst man die Idee der komputationell/geisteswissenschaftlichen Methodenkombination sehr weit, fallen natürlich alle Arbeiten aus dem Spannungsfeld der DH darunter: Bevor Standard-Werkzeuge (auch ohne eine Möglichkeit der Adaptation) etwa für explorative oder heuristische Zwecke eingesetzt werden, werden sich die Forschenden ein Bild zu deren Vorhersagequalität auf dem studienspezifischen Material machen. Und bevor in einem Machine-Learning-Projekt mit großem Zeitaufwand Computermodelle für eine Analyseaufgabe und ein bestimmtes Korpus optimiert werden, vergewissern sich die Beteiligten in der Regel, dass die ableitbaren Befunde einen relevanten Beitrag zu Fachfragen leisten. Insofern schlägt sich das Nebeneinander der beiden Aspekte mittelbar auf jede DH-Methodendiskussion nieder (vgl. etwa die Diskussion von computergestützten Analyseverfahren in unterschiedlichen DH-Fachkontexten in Reiche et al. 2014 oder die Diskussion der Rolle der Informatik in den DH bei Heyer/Niekler/Wiedemann 2014 oder Deck 2018). Die praktischen und theoretischen Implikationen für das weitere Vorgehen unterscheiden sich jedoch abhängig davon, ob eine parallel komputationell/geisteswissenschaftlich reflektierte Modularisierung der Analysekonzepte im Kern des arbeitspraktischen Vorgehensmodells für ein DH-Projekt steht oder ob beispielsweise zunächst unüberwachte Verfahren explorativ eingesetzt werden (vgl. das in Allison et al. 2011 dokumentierte Experiment). Betroffen sind also zentrale methodische Fragen, etwa zur Rolle der Visualisierung im Erkenntnisprozess (hierzu fanden und finden vielfältige Diskurse statt, vgl. z.B. Ihde 1998, Schaal/Kath/Dumm 2016, Romele et al. 2018); auch die Frage nach dem Verhältnis zwischen “building” (als Erstellen von Computerprogrammen) und “studying” in den DH (vgl. die 2011 von Stephen Ramsay ausgelöste Kontroverse, Ramsay/Rockwell 2012) erhält in einem eng verzahnten Vorgehensmodell einen differenzierten Charakter.</hi>
+      </p>
+      <p rend="normal">
+	<hi style="font-size:10pt" xml:space="preserve">Gerade angesichts vielschichtiger möglicher Implikationen zum methodischen Selbstverständnis erscheint es uns für den vorliegenden Beitrag sinnvoll, die Kernideen des verzahnten Vorgehensmodells zunächst systematisch zu diskutieren. Auf eine Vertiefung spezifischer methodologischer Querbezüge müssen wir aus Platzgründen verzichten. </hi>
+      </p>
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      <hi style="font-size:10pt">CRETA (<ptr target="https://www.creta.uni-stuttgart.de"/>) wurde 2016 im Rahmen der BMBF-Förderung für Digital Humanities-Zentren etabliert.</hi>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      <hi style="font-size:10pt" xml:space="preserve">Aus Platzgründen können wir die Umsetzung des konzeptionellen Rahmens in einzelnen Projekten im vorliegenden Vortragsexposé nicht diskutieren. </hi>
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      <hi style="font-size:10pt">Falls hinreichend viele Daten annotiert wurden, kann überwachtes Lernen auf Basis einer Aufteilung in Trainings- und Testdaten zur Anwendung kommen. Zumeist ist bei speziellen Kategorisierungsaufgaben jedoch die Menge der Referenzdaten so klein, dass sie lediglich als Testmenge dienen kann – etwa für die Adaptation von Modellen, die für vergleichbare Kategorien trainiert werden können, oder für unüberwachte Verfahren.</hi>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      <hi style="font-size:10pt">Die interne Modellstruktur wird im Rahmen eines solchen Vorgehens getrennt vom Modellierungsziel gesehen; sie kann zwar von systematischen Annahmen über die zu modellierende Aufgabe inspiriert sein, ausschlaggebend ist jedoch die Optimierung der fixierten Referenzannotationen. Häufig erzwingt die mangelnde Verfügbarkeit von unmittelbar verwendbaren Daten bzw. Annotationen eine Modellarchitektur, die von den kausalen Zusammenhängen der modellierten Domäne abweicht.</hi>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      <hi style="font-size:10pt" xml:space="preserve">Einen Prototyping-Ansatz innerhalb der DH diskutieren El Khatib et al. 2019. Ein verzahntes zyklisches Vorgehensmodell ist auch in der Visualisierung/den </hi>
+      <hi rend="italic" style="font-size:10pt">Visual Analytics</hi>
+      <hi style="font-size:10pt" xml:space="preserve"> verbreitet (vgl. etwa Sacha et al. 2014, El-Assady et al. 2019 und die Beiträge in Butt et al. 2020). Iterative Annotationszyklen zur Optimierung der Operationalisierung werden beschrieben bei Pustejovsky/Stubbs, 2012, Bögel et. al. 2015 Gius/Jacke 2017 und Pagel et al. 2018. Eine ausführliche Diskussion des Bezugs zu </hi>
+      <hi rend="italic" style="font-size:10pt">close/distant reading</hi>
+      <hi style="font-size:10pt" xml:space="preserve"> in DH findet sich in Jänicke 2016, Kap. 2.</hi>
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      <hi style="font-size:10pt">Wir schließen uns hier der Konzeptualisierung an, die Danneberg/Albrecht 2017 im Rahmen einer möglichst allgemeinen wissenschaftstheoretischen Charakterisierung der Inferenzschritte vornehmen, welche einer literaturwissenschaftlichen Textinterpretation zugrunde liegen. Eine Verallgemeinerung auf andere textanalytische Problemstellungen ist ohne Weiteres möglich.</hi>
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Allison, Sarah / Heuser, Ryan / Jockers, Matthew / Moretti, Franco / Witmore, Michael</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2011): "Quantitative Formalism: An Experiment", in: </hi>
+<hi rend="italic" style="font-size:10pt">Pamphlets of the Stanford Literary Lab</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 1.. http://litlab.stanford.edu/LiteraryLabPamphlet1.pdf [Letzter Zugriff: 05.01.2020]</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Bögel, Thomas / Gertz, Michael / Gius, Evelyn / Jacke, Janina / Meister, Jan Christoph / Petris, Marco / Strötgen, Jannik</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2015): "Collaborative Text Annotation Meets Machine Learning: heureCLÉA, a Digital Heuristic of Narrative", in: </hi>
+<hi rend="italic" style="font-size:10pt">DHCommons Journal</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 1 10.5281/zenodo.3240591</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Butt, Miriam / Hautli-Janisz, Annette / Lyding, Verena</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2020): </hi>
+<hi rend="italic" style="font-size:10pt">LingVis: Visual Analytics for Linguistics</hi>
+<hi style="font-size:10pt">. CSLI lecture notes. Stanford: CSLI Publications.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Danneberg, Lutz / Albrecht, Andrea </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2017): "Beobachtungen zu den Voraussetzungen des hypothetisch-deduktiven und des hypothetisch-induktiven Argumentierens im Rahmen einer hermeneutischen Konzeption der Textinterpretation", in: </hi>
+<hi rend="italic" style="font-size:10pt">Journal of Literary Theory</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 10(1): 1–37.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Deck, Klaus-Georg</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2018): "Digital Humanities – Eine Herausforderung an die Informatik und an die Geisteswissenschaften", in: Huber, Martin / Krämer, Sybille (eds.): </hi>
+<hi rend="italic" style="font-size:10pt">Wie Digitalität die Geisteswissenschaften verändert: Neue Forschungsgegenstände und Methoden.</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (= Sonderband der Zeitschrift für digitale Geisteswissenschaften, 3). PDF Format ohne Paginierung. 10.17175/sb003_002.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">El-Assady, Mennatallah / Jentner, Wolfgang / Sperrle, Fabian / Sevastjanova, Rita / Hautli-Janisz, Annette / Butt, Miriam / Keim, Daniel A.</hi>
+<hi rend="color(2E414F)" style="font-size:10pt" xml:space="preserve"> (2019):</hi>
+<hi style="font-size:10pt" xml:space="preserve"> "</hi>
+<hi rend="color(2E414F)" style="font-size:10pt">lingvis.io - A Linguistic Visual Analytics Framework</hi>
+<hi style="font-size:10pt">"</hi>
+<hi rend="color(2E414F)" style="font-size:10pt" xml:space="preserve">, in: </hi>
+<hi rend="italic" style="font-size:10pt">Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: System Demonstrations</hi>
+<hi rend="color(2E414F)" style="font-size:10pt" xml:space="preserve"> 13-18.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">El Khatib, Randa / Wrisley, David J. / Elbassuoni, Shady / Jaber, Mohamad / El Zini, Julia</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2019): "Prototyping Across the Disciplines"</hi>
+<hi rend="color(2E414F)" style="font-size:10.5pt">,</hi>
+<hi style="font-size:10pt" xml:space="preserve"> in: </hi>
+<hi rend="italic" style="font-size:10pt">Digital Studies/le Champ Numérique</hi>
+<hi style="font-size:10pt">, 8(1), 10 10.16995/dscn.282</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Gius, Evelyn / Jacke, Janina</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2017): „The Hermeneutic Profit of Annotation. On preventing and fostering disagreement in literary text analysis”, in: </hi>
+<hi rend="italic" style="font-size:10pt">International Journal of Humanities and Arts Computing</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 11(2): 233–254.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Ihde, Don </hi>
+<hi style="font-size:10pt" xml:space="preserve">(1998): </hi>
+<hi rend="italic" style="font-size:10pt">Expanding Hermeneutics: Visualism in Science</hi>
+<hi style="font-size:10pt">, Evanston, Ill.: Northwestern University Press.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Jänicke, Stefan </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2016): </hi>
+<hi rend="italic" style="font-size:10pt">Close and Distant Reading Visualizations for the Comparative Analysis of Digital Humanities Data</hi>
+<hi style="font-size:10pt" xml:space="preserve">. Dissertation, Universität Leipzig. </hi>
+<ref target="http://www.informatik.uni-leipzig.de/~stjaenicke/dissertation.pdf">http://www.informatik.uni-leipzig.de/~stjaenicke/dissertation.pdf</ref>
+<hi style="font-size:10pt" xml:space="preserve"> [Letzter Zugriff: 05.01.2020]</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Heyer, Gerhard / Niekler, Andreas / Wiedemann, Gregor</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2014): "Brauchen die Digital Humanities eine eigene Methodologie? Überlegungen zur systematischen Nutzung von Text Mining Verfahren in einem politikwissenschaftlichen Projekt", in: </hi>
+<hi rend="italic" style="font-size:10pt">1. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2014)</hi>
+<ref target="http://asv.informatik.uni-leipzig.de/publication/file/255/Heyer-Brauchen_die_Digital_Humanities_eine_eigene_Methodologie__berlegungen-1451050.pdf">http://asv.informatik.uni-leipzig.de/publication/file/255/Heyer-Brauchen_die_Digital_Humanities_eine_eigene_Methodologie__berlegungen-1451050.pdf</ref>
+<hi style="font-size:10pt" xml:space="preserve"> [Letzter Zugriff: 05.01.2020]</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Hovy, Eduard / Lavid, Julia</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2010): "Towards a ‘science’ of corpus annotation: a new methodological challenge for corpus linguistics", in: International Journal of Translation</hi>
+<hi rend="italic" style="font-size:10pt" xml:space="preserve">, </hi>
+<hi style="font-size:10pt">22(1): 13–36.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Kuhn, Jonas </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2019): "Computational text analysis within the humanities: How to combine working practices from the contributing fields?", in: </hi>
+<hi rend="italic" style="font-size:10pt">Language Resources &amp; Evaluation</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 53: 565–602 </hi>
+<ref target="https://doi.org/10.1007/s10579-019-09459-3">
+<hi rend="underline color(1155CC)" style="font-size:10pt">https://doi.org/10.1007/s10579-019-09459-3</hi>
+</ref>
+<hi style="font-size:10pt">.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Kuhn, Jonas / Reiter, Nils </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2015): "A plea for a method-driven agenda in the Digital Humanities“, in: </hi>
+<hi rend="italic" style="font-size:10pt" xml:space="preserve">Proceedings of Digital Humanities 2015, Sydney, Australia, </hi>
+<hi style="font-size:10pt">(</hi>
+<hi rend="italic" style="font-size:10pt">June 2015</hi>
+<hi style="font-size:10pt">).</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Kuhn, Jonas / Pichler, Axel / Reiter, Nils</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (eds.) (erscheint): </hi>
+<hi rend="italic" style="font-size:10pt" xml:space="preserve">Reflektierte algorithmische Textanalyse: Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt. </hi>
+<hi style="font-size:10pt">Berlin: de Gruyter.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Krautter, Benjamin / Pagel, Janis / Reiter, Nils / Willand, Marcus </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2018): "Titelhelden und Protagonisten – Interpretierbare Figurenklassifikation in deutschsprachigen Dramen", in: LitLab Pamphlets 7. </hi>
+<ref target="https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf">
+<hi rend="underline color(1155CC)" style="font-size:10pt">https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf</hi>
+</ref>
+<hi style="font-size:10pt" xml:space="preserve"> [Letzter Zugriff: 05.01.2020].</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Krautter, Benjamin / Pagel, Janis</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2019): "Klassifikation von Titelfiguren in deutschsprachigen Dramen und Evaluation am Beispiel von Lessings ‘Emilia Galotti’," in: </hi>
+<hi rend="italic" style="font-size:10pt">Konferenzabstracts DHd 2019 Digital Humanities: multimedial &amp; multimodal, Frankfurt am Main, März 2019</hi>
+<hi style="font-size:10pt">.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Pagel, Janis / Reiter, Nils / Rösiger, Ina / Schulz, Sarah</hi>
+<hi rend="color(272727)" style="font-size:10pt" xml:space="preserve"> (2018)</hi>
+<hi rend="color(272727) background(white)" style="font-size:10pt" xml:space="preserve">: </hi>
+<hi style="font-size:10pt">"</hi>
+<hi rend="color(272727)" style="font-size:10pt">A Unified Annotation Workflow for Diverse Goals</hi>
+<hi style="font-size:10pt">"</hi>
+<hi rend="color(272727)" style="font-size:10pt">, in:</hi>
+<hi rend="color(272727) background(white)" style="font-size:10pt" xml:space="preserve"> Kübler, </hi>
+<hi rend="color(272727)" style="font-size:10pt">Sandra / Zinsmeister, Heike (eds.)</hi>
+<hi rend="color(272727) background(white)" style="font-size:10pt" xml:space="preserve">: </hi>
+<hi rend="italic" style="font-size:10pt">Proceedings of the Workshop on Annotation in Digital Humanities, co-located with ESSLLI 2018</hi>
+<hi rend="color(272727) background(white)" style="font-size:10pt">.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Pustejovsky, James / Stubbs, Amber </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2012). </hi>
+<hi rend="italic" style="font-size:10pt">Natural language annotation for machine</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="italic" style="font-size:10pt">learning</hi>
+<hi style="font-size:10pt">. Sebastopol: O'Reilly Media.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Ramsay, Stephen / Rockwell, Geoffrey</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2012): "Developing Things: Notes toward an Epistemology of Building in the Digital Humanities", in: Gold, Matthew K. (ed.): </hi>
+<hi rend="italic" style="font-size:10pt">Debates in the digital humanities.</hi>
+<hi style="font-size:10pt" xml:space="preserve"> Minneapolis and London: University of Minnesota Press, 2012: 75–84 10.5749/minnesota/9780816677948.003.0010.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Reiche, Ruth / Becker, Rainer / Bender, Michael / Munson, Matt / Schmunk, Stefan / Schöch, Christof</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2014): </hi>
+<hi rend="italic" style="font-size:10pt">Verfahren der Digital Humanities in den Geistes- und Kulturwissenschaften</hi>
+<hi style="font-size:10pt" xml:space="preserve">. </hi>
+<hi rend="background(white)" style="font-size:10pt">DARIAH-DE Working Papers. Göttingen: DARIAH-DE, 2014.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Romele, Alberto / Severo, Marta / Furia, Paolo </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2018): "Digital Hermeneutics: From Interpreting with Machines to Interpretational Machines", in: </hi>
+<hi rend="italic" style="font-size:10pt">AI &amp; Society: Knowledge, Culture and Communication</hi>
+<hi style="font-size:10pt" xml:space="preserve">, Springer, in press. </hi>
+<ref target="https://hal.archives-ouvertes.fr/hal-01824173">
+<hi rend="underline color(1155CC)" style="font-size:10pt">https://hal.archives-ouvertes.fr/hal-01824173</hi>
+</ref>
+<hi style="font-size:10pt" xml:space="preserve"> [Letzter Zugriff: 05.01.2020]</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Sacha, Dominik / Stoffel, Andreas / Stoffel, Florian / Kwon, Bum Chul / Ellis, Geoffrey / Keim</hi>
+<hi style="font-size:10pt" xml:space="preserve">, </hi>
+<hi rend="bold" style="font-size:10pt" xml:space="preserve">Daniel A. </hi>
+<hi style="font-size:10pt" xml:space="preserve">(2014): "Knowledge Generation Model for Visual Analytics",  in: </hi>
+<hi rend="italic" style="font-size:10pt">IEEE Transactions on Visualization and Computer Graphics</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 20 (12) 1604–1613. 10.1109/TVCG.2014.2346481.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Schaal, Gary S. / Kath, Roxana / Dumm, Sebastian</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2016): "New Visual Hermeneutics", in: </hi>
+<hi rend="italic" style="font-size:10pt">Cybernetics &amp; Human Knowing</hi>
+<hi style="font-size:10pt" xml:space="preserve"> 23: 51–76.</hi>
+</bibl>
+<bibl rend="normal">
+<hi rend="bold" style="font-size:10pt">Stefanowitsch, Anatol</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2018): </hi>
+<hi rend="italic" style="font-size:10pt" xml:space="preserve">Corpus Linguistics: A Guide to the Methodology </hi>
+<hi style="font-size:10pt" xml:space="preserve">(Textbooks in Language Sciences 8). Open Review Version. Berlin: Language Science Press. </hi>
+<ref target="http://www.langsci-press.org">
+<hi rend="underline color(1155CC)" style="font-size:10pt">www.langsci-press.org</hi>
+</ref>
+<hi style="font-size:10pt">. [Letzter Zugriff: 05.01.2020]</hi>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

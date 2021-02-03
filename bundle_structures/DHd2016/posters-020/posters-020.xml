@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-020">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mit der FinderApp durch Goethes Faust: Treffer im Faksimile visuell hervorgehoben und multimediale Ausgabe in Videoaufführung und Hörbuch.</title>
+        <author>
+          <name>
+            <surname>Hadersbeck</surname>
+            <forename>Maximilian</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>maximilian@cis.uni-muenchen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Eder</surname>
+            <forename>Elisabeth</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>e.eder@campus.lmu.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Capsamun</surname>
+            <forename>Roman</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>r.capsamun@campus.lmu.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Eichfeldt</surname>
+            <forename>Nora</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>nora.eichfeldt@campus.lmu.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Herteis</surname>
+            <forename>Simeon</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>s.herteis@campus.lmu.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Lindinger</surname>
+            <forename>Matthias</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>m.lindinger@live.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Höps</surname>
+            <forename>Raphael</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>R.Hoeps@campus.lmu.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Schweter</surname>
+            <forename>Stefan</forename>
+          </name>
+          <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+          <email>stefan@schweter.eu</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-13T11:34:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>GoetheFind</term>
+          <term>anchor-key XML</term>
+          <term>No SQL-Database</term>
+          <term>Faksimile-Viewer</term>
+          <term>Multimedia</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Bilderfassung</term>
+          <term>Transkription</term>
+          <term>Programmierung</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kontextsetzung</term>
+          <term>Bearbeitung</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Daten</term>
+          <term>Bilder</term>
+          <term>Sprache</term>
+          <term>Link</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>Multimedia</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Software</term>
+          <term>Ton</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Video</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p rend="Plain Text">In unserem Poster möchten wir unsere neueste FinderApp <ref
+          target="http://goethefind.cis.lmu.de">GoetheFind</ref> vorstellen, die mit
+          computerlinguistischen Methoden die Originalausgabe von Goethes Faust
+          durchsucht. GoetheFind hat einen neuen browser-basierten Faksimile-Viewer, der
+          die Schaltstelle der multimedialen Ausgabe der Suchtreffer darstellt: Die
+          Treffer werden im Faksimile der Originalausgaben gehighlighted dargestellt und
+          mit einer gesprochenen Faust-Hörbuchausgabe verlinkt. Bei Faust I werden die
+          Treffer mit der entsprechenden Szene des Videos der Bühnenaufführung vom
+          Hamburger Schauspielhaus mit Gustav Gründgens (1960) verlinkt. GoetheFind
+          entstand aus unserer FinderApp <ref target="http://wittfind.cis.uni-muenchen.de"
+          >WiTTFind</ref> (Hadersbeck / Pichler; Hadersbeck et al. 2014), die den
+          öffentlich zugänglichen Teil des Nachlasses von Ludwig Wittgenstein durchsucht
+          und mit der wir im Sommer 2014 den <ref
+          target="http://dm2e.eu/open-humanities-awards-round-2-winners-announced/"
+          >EU-AWARD</ref> des EU-Projekt Digitised Manuscripts to Europeana (cf.
+          Ploeger 2014) gewannen. </p>
+          <p rend="Plain Text">In unserer neuen FinderApp GoetheFind, setzen wir Ideen des „Standoff-Markups“ um, damit „overtagged“-XML vermieden wird. Wir entwickelten eine reduzierte „XML-TEI-P5 anchor-key“ Edition und speichern die Metainformatione in einer „NoSQL-mongo“-Datenbank. Alle relevanten Editions-, OCR- und Transkriptionsinformationen zur multimedialen Trefferausgabe sind in der Datenbank gespeichert.</p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Modellierung der Editionsdaten </head>
+          <div type="div2" rend="DH-Heading2">
+            <head>Anstatt „overtagged“ XML ein reduziertes „anchor-key“ XML-TEI-P5 mit „NoSQL“-Database</head>
+            <p>Grundlage unserer FinderApp GoetheFind ist die XML-TEI-P5 Textedition im
+              DTABf Format vom Deutschen Textarchiv (DTA) der Berlin-Brandenburgischen
+              Akademie der Wissenschaften (BBAW 2013; Haaf et al. 2015), dazu die
+              Bilddigitalisate der Staatsbibliothek zu Berlin (BBAW 2013) und dem freiem
+              Hochstift Frankfurt des Frankfurter Goethe-Hauses (Signatur: III B / 23).
+              Da wir zur multimedialen Ausgabe der Suchtreffer zahlreiche
+              Metainformationen benötigen und "overtagged" XML des Editionstexts vermeiden
+              wollten, verwenden wir Ideen des „Standoff-Markups“ und lagern alle
+              notwendigen Meta-Informationen in der „NoSQL“ mongo-Datenbank GoetheDB aus.
+              Eine eindeutige Referenz der Datenbankeinträge zum Editionstext lösen wir
+              über den XML-TEI-P5 Tag &lt;anchor/&gt;, der an Seitenanfängen in die
+              Edition eingefügt ist. Die Trefferpositionen werden über ein
+              XML-Attributtrippel (Seite, Zeile, Token) genau spezifiziert. </p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>Vorverarbeitung der Edition, Faksimile, Videoaufführung und Audioaufnahme</head>
+              <p>Da unsere FinderApp die Suchanfragen regelbasiert mit Hilfe von lokalen
+                Grammatiken im Kontext eines Satzes realisiert, verwenden wir als wichtigste
+                Strukturierungsebene Sätze. Goethes Faustdrama bettet Sätze in Rede und
+                Gegenrede, sogenannte Repliken ein, die die zweite Strukturierungsebene
+                darstellt. Zur visuellen Hervorhebung und multimedialen Ausgabe der
+                gefundenen Textstellen im Faksimile ermitteln wir für die Replike
+                geometrische Informationen mit Hilfe eines von uns entwickelten
+                semiautomatischem OCR-Correction Tools. Die Bühnen- und Audioaufnahme werden
+                mit Hilfe des Clarin-Tools: „Munich Automatic Segmentation System WebMAUS“
+                (CLARIN) semiautomatisch transkribiert. </p>
+              </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Computerlinguistische Methoden zur Textinterpretation </head>
+              <p>Mit Hilfe unseres Speziallexikons GoetheLEX, angereichert um historische Sprachvarianten, Part of Speech Tagging und lokalen Grammatiken implementierten wir eine Partikelverb- und Semantische Suche. Bei der Eingabe von Suchanfragen verwenden wir eine symmetrische Autovervollständigung mit Informationen zur Häufigkeit des Auftretens im Text.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Treffer im Faksimile-Viewer und multimediale Ausgabe</head>
+              <p>Ähnlich wie bei Google-Docs entwickelten wir einen Browser basierter Faksimile-Viewer mit dem man in einem doppelseitigen Buchlesemodus durch das Dokument blättern kann und die gefundenen Textstellen farblich hervorgehoben werden. GoetheFind vernetzt alle Treffer mit der entsprechenden Replik in der Bühnenaufführung und der Hörbuchausgabe. Sobald der Nutzer auf die Mulitmediabuttons des Treffers drückt, startet im Browser ein Videoviewer oder eine Ausdioausgabe ab dieser Stelle. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Danksagung</head>
+              <p>Wir danken dem Deutschen Textarchiv für die gute Zusammenarbeit und die
+                freundliche Verfügungsstellung der Editionsdaten von Goethes Faust (BBAW 2013).
+                Der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz und dem Freien
+                Deutschen Hochstift, in Frankfurt danken wir für die Wiedergaberechte der
+                Bilddigitalisate der Originalausgabe Goethes Faust.</p>
+              </div>
+            </body>
+            <back>
+              <div type="bibliogr">
+                <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl>
+                    <hi rend="bold">BBAW</hi> (2013): <hi rend="italic">Das DTA-Basisformat
+                    DTABf</hi>. Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat"
+                      >http://www.deutschestextarchiv.de/doku/basisformat</ref> [letzter
+                      Zugriff 09. Januar 2016]. </bibl>
+                      <bibl><hi rend="bold">CLARIN</hi> (o. J.): <hi rend="italic">CLARIN-D
+                      WebMAUS</hi>. Automatic Segmentation of Speech. <ref
+                      target="https://www.clarin.eu/movies/clarin-d-webmaus-automatic-segmentation-speech"
+                      >https://www.clarin.eu/movies/clarin-d-webmaus-automatic-segmentation-speech</ref>
+                      [letzter Zugriff 08. September 2015]. </bibl>
+                      <bibl>
+                        <hi rend="bold">Haaf, Susanne / Geyken, Alexander / Wiegand, Frank</hi>
+                        (2015): "The DTA 'Base Format': A TEI Subset for the Compilation of a Large
+                        Reference Corpus of Printed Text from Multiple Sources", in: <hi
+                        rend="italic">Journal of the Text Encoding Initiative</hi> 8 <ref
+                        target="https://jtei.revues.org/1114">https://jtei.revues.org/1114</ref>
+                        [letzter Zugriff 09. Januar 2016]. </bibl>
+                        <bibl>
+                          <hi rend="bold"> Hadersbeck, Max / Bruder, Daniel / Capsamun, Roman / Conforti, Costanza / 
+                            Eder, Elisabeth / Eichfeldt, Nora / Fink, Florian / Herteis, Simeon / Höps, Raphael /
+                            Lindinger, Matthias / Ling, Jennifer / Mittelhammer, Katharina / Schmidt, Katharina / 
+                            Schweter, Stefan</hi>
+                          <hi rend="italic">FinderApp GoetheFind</hi>.
+                          Centrum für Informations- und Sprachverarbeitung (CIS), Ludwig Maximilians Universität
+                          München
+                          <ref target="http://goethefind.cis.uni-muenchen.de/">http://goethefind.cis.uni-muenchen.de/
+                          </ref> [18.02.2016]. </bibl>
+                          <bibl><hi rend="bold">Hadersbeck, Max / Pichler, Alois</hi> (eds.) (o. J.) <hi
+                          rend="italic">FinderApp WiTTFind</hi>. Centrum für Informations- und
+                          Sprachverarbeitung (CIS), Ludwig Maximilians Universität München &amp;
+                          Wittgenstein Archives, University of Bergen <ref
+                          target="http://wittfind.cis.uni-muenchen.de/"
+                          >http://wittfind.cis.uni-muenchen.de/</ref> [letzter Zugriff 09. Januar
+                          2016].</bibl>
+                          <bibl>
+                            <hi rend="bold">Hadersbeck, Max, Pichler, Alois, Fink, Florian , Gjesdal,
+                              Øyvind Liland</hi> (2014): "Wittgenstein's Nachlass. WiTTFind and
+                              Wittgenstein advanced search tools (WAST)", in: <hi rend="italic">Digital
+                              Access to Textual Cultural Heritage (DaTeCH 2014)</hi>, Madrid 91-96
+                              <ref
+                                target="http://dblp.uni-trier.de/db/conf/datech/datech2014.html#HadersbeckPFG14"
+                                >http://dblp.uni-trier.de/db/conf/datech/datech2014.html#HadersbeckPFG14</ref>
+                                [letzter Zugriff 09. Januar 2016]. </bibl>
+                                <bibl><hi rend="bold">Hadersbeck, Max / Pichler, Alois / Fink, Florian / Bruder,
+                                  Daniel / Arends, Ina / Baiter, Johannes</hi> (2015): "Wittgensteins
+                                  Nachlass. Erkenntnisse und Weiterentwicklung der FinderApp WiTTFind", in:
+                                  <hi rend="italic">2. Tagung der Digital Humanities im deutschsprachigen
+                                    Raum 23.-27.2.2015</hi>, Graz.</bibl>
+                                    <bibl>
+                                      <hi rend="bold">Ploeger, Lieke</hi> (2014): "Open Humanities Awards round 2
+                                      – Winners announced", in: <hi rend="italic">DM2E. Digitised Manuscripts to
+                                      Europeana</hi>
+                                      <ref
+                                        target="http://dm2e.eu/open-humanities-awards-round-2-winners-announced/"
+                                        >http://dm2e.eu/open-humanities-awards-round-2-winners-announced/</ref>
+                                        [letzter Zugriff 09. Januar 2016]. </bibl>
+                                        <bibl><hi rend="bold">TEI</hi> (2015): "Stand-off Markup", in: <hi rend="italic"
+                                        >TEI Guidelines for Electronic Text Encoding and Interchange</hi>,
+                                        Version 2.9.1, 16.9 <ref
+                                        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASO"
+                                        >http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASO</ref>
+                                        [letzter Zugriff 09. Januar 2016].</bibl>
+                                      </listBibl>
+                                    </div>
+                                  </back>
+                                </text>
+                              </TEI>

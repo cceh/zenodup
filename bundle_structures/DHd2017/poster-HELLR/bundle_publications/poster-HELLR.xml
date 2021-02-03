@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-HELLR" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">UIMA als Plattform für die nachhaltige Software-Entwicklung in den Digital Humanities</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Hellrich</surname>
+<forename>Johannes</forename>
+</persName>
+<affiliation>Graduiertenkolleg „Modell Romantik“, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+<email>johannes.hellrich@uni-jena.de</email>
+</author>
+<author>
+<persName>
+<surname>Matthies</surname>
+<forename>Franz</forename>
+</persName>
+<affiliation>Jena University Language &amp; Information Engineering (JULIE) Lab, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+<email>franz.matthies@uni-jena.de</email>
+</author>
+<author>
+<persName>
+<surname>Hahn</surname>
+<forename>Udo</forename>
+</persName>
+<affiliation>Jena University Language &amp; Information Engineering (JULIE) Lab, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+<email>udo.hahn@uni-jena.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-30T13:26:59</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Computerlinguistik</term>
+<term>Open Source</term>
+<term>UIMA</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Programmierung</term>
+<term>Einführung</term>
+<term>Infrastruktur</term>
+<term>Software</term>
+<term>Standards</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Texte und ihre automatische Analyse stehen im Zentrum vieler Untersuchungen in den Digital Humanities, etwa zur Erforschung sprachlicher und kultureller Wandlungsprozesse (siehe etwa Michel u.a. (2011)) oder im Bereich der Stilometrie (siehe etwa Jannidis (2014)). Die automatische Analyse von Texten beinhaltet typischerweise eine Reihe zunehmend komplexer werdender Schritte, angefangen bei der Segmentierung von Sätzen und Wörtern (Leerzeichen sind kein hinreichendes Kriterium, vgl. 
+                <hi rend="italic">„New York“</hi>) über die syntaktische und semantische Analyse bis hin zu diskursstrukturellen und pragmatischen Analysen. Die für diese einzelnen Schritte nötigen sprachtechnologischen Komponenten sind oft, zumindest innerhalb einer Anwendungsdomäne, wiederverwendbar. Folglich gibt es mittlerweile eine Fülle von Software-Repositorien, die entsprechende computerlinguistische Komponenten sammeln, und Frameworks, die ihre Integration in sogenannte Pipelines, also funktionsbezogene sequenzielle Kombinationen von einzelnen Komponenten, erleichtern. Die dadurch ermöglichte Wiederverwendung von Komponenten ist im Sinne nachhaltiger Forschung, da diese so nicht mehrfach entwickelt werden müssen und der Software-Austausch zwischen Gruppen unterstützt wird.
+            </p>
+<p>
+<hi rend="smallcaps">Uima</hi>
+<hi rend="italic">(Unstructured Information Management Architecture)</hi>
+<hi rend="color(#000000)">
+<ref target="poster-HELLRftn0" type="note">1</ref>
+</hi>
+<hi rend="color(#000000)"> i</hi>st ein solches Framework, das sowohl im akademischen Kontext (in Deutschland u.a. DKPro
+                <hi rend="smallcaps">
+<ref target="poster-HELLRftn1" type="note">2</ref>
+</hi>
+<hi rend="smallcaps"> </hi>(de Castilho &amp; Gurevych, 2014) und 
+                <hi rend="smallcaps">JCoRe</hi>
+<hi rend="color(#000000)smallcaps">
+<ref target="poster-HELLRftn2" type="note">3</ref>
+</hi> (Hahn u.a., 2016)) als auch in industriellen Anwendungen (etwa bei IBMs 
+                <hi rend="italic">Jeopardy</hi> Champion 
+                <hi rend="smallcaps">Watson</hi> (Ferrucci u.a., 2010)) breite Verwendung findet (einen Vergleich unterschiedlicher Frameworks stellen Bank und Schierle (2012) an). 
+                <hi rend="smallcaps">Uima</hi> ist 
+                <hi rend="italic">open source</hi> unter der 
+                <hi rend="smallcaps">Apache</hi>-Lizenz verfügbar und unterstützt mehrere Programmiersprachen, wobei 
+                <hi rend="smallcaps">Java</hi> in der Praxis eine dominierende Rolle zukommt. 
+            </p>
+<p>Wir nutzen mit 
+                <hi rend="smallcaps">JCoRe</hi> seit fast einem Jahrzehnt 
+                <hi rend="smallcaps">Uima</hi> für computerlinguistische Problemstellungen in verschiedenen Domänen bzw. Sprachen und stellen die dabei entwickelten Komponenten öffentlich zur Verfügung. Aktuell arbeiten wir daran, unser ursprünglich für bio-medizinische Fragestellungen und englischsprachige Fachtexte entwickeltes Repositorium auf den DH-Bereich, primär für das Deutsche, zu erweitern. 
+                <hi rend="smallcaps">JCoRe</hi> stellt nicht nur sprachtechnologische Komponenten zur Verfügung, sondern auch die dafür nötigen Modelle für verschiedene Domänen — denn vor allem die Erstellung dieser Modelle ist ein enorm zeit- und rechenintensiver Prozess, der zudem ein hohes Maß an computerlinguistischer Expertise verlangt. Um die Einstiegshürden für die Benutzung solcher Ressourcen zu senken, bieten wir Anleitungen und Beispiele zur deklarativen Erstellung von Textanalyse-Pipelines mit 
+                <hi rend="smallcaps">Uima</hi> und haben zudem eine interaktive Anwendung entwickelt (Hahn u.a., 2016).
+            </p>
+<p>Eine Vielzahl von existierenden Sprachanalyse-Komponenten und Repositorien kann über 
+                <hi rend="smallcaps">Uima</hi> eingebunden werden, darunter auch einige, die nicht originär für das Framework entwickelt wurden, wie etwa das über 
+                <hi rend="smallcaps">DKPro</hi> verfügbare Stanford 
+                <hi rend="smallcaps">CoreNLP</hi>
+<hi rend="color(#000000)smallcaps">
+<ref target="poster-HELLRftn3" type="note">4</ref>
+</hi> (Manning u.a., 2014) oder 
+                <hi rend="smallcaps">OpenNLP</hi>
+<hi rend="smallcaps">
+<ref target="poster-HELLRftn4" type="note">5</ref>
+</hi>. Während 
+                <hi rend="smallcaps">Uima</hi> für den produktiven Einsatz entwickelt wurde, steht beim alternativen 
+                <hi rend="italic">Natural Language Toolkit</hi> (NLTK)
+                <hi rend="color(#000000)">
+<ref target="poster-HELLRftn5" type="note">6</ref>
+</hi> der Einsatz in der Lehre im Zentrum (Bird u.a., 2009). 
+                <hi rend="smallcaps">Uima</hi> ist eher mit dem 
+                <hi rend="italic">General Architecture for Text Engineering</hi> (GATE) Framework (Cunningham u.a., 2011) vergleichbar, das aber ein „geschlossenes“ NLP-System repräsentiert, das exklusiv von den Entwicklern von 
+                <hi rend="smallcaps">Gate</hi> verwaltet wird. Generell sind integrierte Frameworks vorteilhaft gegenüber Pipelines aus einzelnen Werkzeugen, die mittels Textdateien/-strömen kommunizieren, da nicht bei jedem Schritt zwischen verschiedenen Formaten konvertiert werden muss. Insbesondere werden die bei selbstständigen Werkzeugen verbreiteten 
+                <hi rend="italic">in-line</hi>-Annotationen (wie etwa 
+                <hi rend="italic">„das_Artikel Haus_Nomen“</hi>) vermieden, die sich oft als unübersichtlich und fehleranfällig erweisen.
+            </p>
+<p>
+<hi rend="smallcaps">Uima</hi> und die anderen bisher genannten Frameworks sind primär für den Einsatz auf lokaler Rechner-Infrastruktur gedacht und somit nur bedingt mit Systemen wie 
+                <hi rend="smallcaps">WebLicht</hi>
+<hi rend="color(#000000)smallcaps">
+<ref target="poster-HELLRftn6" type="note">7</ref>
+</hi> (Hinrichs u.a., 2010) vergleichbar, die als Webservice verschiedene dezentral verteilte Komponenten zusammenführen. Dadurch wird zwar der Einstieg in die Nutzung sprachtechnologischer Systeme erleichtert, jedoch sind derartige Systeme nicht für die Verarbeitung großer Datenmengen geeignet und es entsteht eine eher intransparente Abhängigkeit von fremder Infrastruktur. 
+                <hi rend="smallcaps">Uima</hi> ist somit kein Konkurrent für 
+                <hi rend="smallcaps">WebLicht</hi>, sondern ermöglicht es vielmehr, Komponenten zu entwickeln, die bei Bedarf auch (durch in 
+                <hi rend="smallcaps">DKPro</hi> enthaltene Konverter) in 
+                <hi rend="smallcaps">WebLicht</hi> eingebunden werden können.
+            </p>
+<p>Im Kern ist 
+                <hi rend="smallcaps">Uima</hi> für die sequentielle Anreicherung mit Metadaten ausgelegt. Die möglichen Annotationen werden frei über ein objektorientiertes Typensystem definiert (siehe etwa Hahn u.a., 2007). In 
+                <hi rend="smallcaps">Uima</hi> wird zwischen Komponenten unterschieden, die Annotationen vornehmen 
+                <hi rend="italic">(Analysis Engines)</hi>, und solchen, die Texte in das interne CAS 
+                <hi rend="italic">(Common Analysis System)</hi> Format konvertieren 
+                <hi rend="italic">(Collection Reader)</hi>; letztere können dabei auch bereits im Ursprungstext kodierte Metadaten verarbeiten. Die ersten Komponenten, die im Rahmen der Erweiterung 
+                <hi rend="smallcaps">JCoRe</hi>s
+                <hi rend="smallcaps"> </hi>um DH-Komponenten entstanden und öffentlich zugänglich gemacht wurden, sind ein solcher 
+                <hi rend="italic">Collection Reader</hi>, der die neuerdings vom 
+                <hi rend="italic">Deutschen Textarchiv</hi>
+<hi rend="italic">
+<ref target="poster-HELLRftn9" type="note">8</ref>
+</hi> (Geyken, 2013) zur Verfügung gestellten Dateien mit TCF-
+                <hi rend="color(#000000)">
+<ref target="poster-HELLRftn7" type="note">9</ref>
+</hi> und 
+                <hi rend="italic">Dublin Core</hi>-Annotationen
+                <ref target="poster-HELLRftn8" type="note">10</ref> verarbeiten kann, sowie eine entsprechende Erweiterung unseres Typensystems. In der unmittelbaren Zukunft geplante Erweiterungen betreffen 
+                <hi rend="italic">Analysis Engines</hi> für Text- bzw. Wortsegmentierung und Wortartenerkennung (POS-Tagging) in historischen (literarischen) Texten.
+            </p>
+<p>Wir möchten durch unseren Beitrag insbesondere diejenigen, die primär computerlinguistische 
+                <hi rend="italic">Anwendungen</hi> für Fragestellungen der Digital Humanities realisieren wollen (und damit meist keine computerlinguistischen 
+                <hi rend="italic">Entwicklung</hi>sinteressen verfolgen), anregen, sich aus dem breiten Fundus existierender Komponenten zu bedienen und diese durch den Einsatz des 
+                <hi rend="smallcaps">Uima</hi>-Frameworks zu verbinden. Die dadurch implizit eingeführte Modularität erleichtert zudem die Durchführung von Funktionstests, die Anpassung an neue Domänen und darüber hinaus den Austausch mit anderen Forschenden 
+                <hi rend="color(#000000)">—</hi> allesamt Anforderungen an eine nachhaltige Software-Infrastruktur.
+            </p>
+</body>
+<back><div type="Notes"><note n="1" place="foot" xml:id="poster-HELLRftn0">
+<ref target="https://uima.apache.org/">https://uima.apache.org</ref>
+</note><note n="2" place="foot" xml:id="poster-HELLRftn1">
+<ref target="https://dkpro.github.io/">https://</ref>
+<ref target="https://dkpro.github.io/">
+<hi rend="smallcaps">DKPro</hi>
+</ref>
+<ref target="https://dkpro.github.io/">.github.io</ref>
+</note><note n="3" place="foot" xml:id="poster-HELLRftn2">
+<ref target="http://julielab.github.io/">http://julielab.github.io</ref>
+</note><note n="4" place="foot" xml:id="poster-HELLRftn3">
+<ref target="http://stanfordnlp.github.io/CoreNLP/">http://stanfordnlp.github.io/Core</ref>
+<ref target="http://stanfordnlp.github.io/CoreNLP/">
+<hi rend="smallcaps">NLP</hi>
+</ref>
+</note><note n="5" place="foot" xml:id="poster-HELLRftn4">
+<ref target="https://opennlp.apache.org/">https://open</ref>
+<ref target="https://opennlp.apache.org/">
+<hi rend="smallcaps">NLP</hi>
+</ref>
+<ref target="https://opennlp.apache.org/">.apache.org</ref>
+</note><note n="6" place="foot" xml:id="poster-HELLRftn5">
+<ref target="http://www.nltk.org/">http://www.nltk.org</ref>
+</note><note n="7" place="foot" xml:id="poster-HELLRftn6">
+<ref target="https://weblicht.sfs.uni-tuebingen.de/">https://weblicht.sfs.uni-tuebingen.de</ref>
+</note><note n="8" place="foot" xml:id="poster-HELLRftn9">
+<ptr target="http://www.deutschestextarchiv.de/download"/>
+</note><note n="9" place="foot" xml:id="poster-HELLRftn7">
+<ptr target="http://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/The_TCF_Format"/>
+</note><note n="10" place="foot" xml:id="poster-HELLRftn8">
+<ref target="http://dublincore.org/">http://dublincore.org</ref>
+</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bank, Mathias / Schierle, Martin</hi> (2012):
+                        „A survey of text mining architectures and the Uima standard“,
+                        in: 
+                        <hi rend="italic">Proceedings of LREC 2012</hi> 3479–3486.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bird, Steven / Klein, Ewan / Loper, Edward</hi> (2009): 
+                        <hi rend="italic">Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit</hi>.
+                        Sebastopol, CA: O'Reilly.
+                    </bibl>
+<bibl>
+<hi rend="bold">de Castilho, Eckart R. / Gurevych, Iryna</hi> (2014):
+                        „A broad-coverage collection of portable NLP components for building shareable analysis pipelines“,
+                        in: 
+                        <hi rend="italic">OIAF4HLT 2014 – Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT @ COLING 2014</hi> 1–11.
+                    </bibl>
+<bibl>
+<hi rend="bold">Cunningham, Hamish / Maynard, Diana / Bontcheva, Kalina</hi> (2011): 
+                        <hi rend="italic">Text Processing with GATE</hi>.
+                        Murphys, CA: Gateway Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Ferrucci, David A. / Brown, Eric / Chu-Carroll, Jennifer / Fan, James / Gondek, David C. / Kalyanpur, Aditya A. / Lally, Adam / Murdock, J. William / Nyberg 3rd, Eric H. / Prager, John M. / Schlaefer, Nico / Welty, Christopher A.</hi> (2010):
+                        „Building Watson: An overview of the DeepQA project“,
+                        in: 
+                        <hi rend="italic">AI Magazine</hi> 31 (3): 59–79.
+                    </bibl>
+<bibl>
+<hi rend="bold">Geyken, Alexander</hi> (2013):
+                        „Wege zu einem historischen Referenzkorpus des Deutschen: das Projekt Deutsches Textarchiv“,
+                        in: 
+                        <hi rend="italic">Perspektiven einer corpusbasierten historischen Linguistik und Philologie</hi> 221–234.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hahn, Udo / Buyko, Ekaterina / Tomanek, Katrin / Piao, Scott / McNaught, John / Tsuruoka, Yoshimasa / Ananiadou, Sophia</hi> (2007):
+                        „An annotation type system for a data-driven NLP pipeline“,
+                        in:
+                        <hi rend="italic">LAW 2007 – Proceedings of the Linguistic Annotation Workshop @ ACL 2007</hi> 33–40.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hahn, Udo / Matthies, Franz / Faessler, Erik / Hellrich, Johannes</hi> (2016): 
+                        „Uima-based JCoRe 2.0 goes GitHub and Maven Central: State-of-the-art software resource engineering and distribution of NLP pipelines“,
+                        in: 
+                        <hi rend="italic">LREC 2016 – Proceedings of the 10th International Conference on Language Resources and Evaluation</hi> 2502–2509.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hinrichs, Erhard W. / Hinrichs, Marie / Zastrow, Thomas</hi> (2010):
+                        „WebLicht: Web-based LRT services for German“,
+                        in: 
+                        <hi rend="italic">Proceedings of ACL-2010: System Demonstrations</hi> 25–29.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jannidis, Fotis</hi> (2014):
+                        „Der Autor ganz nah: Autorstil in Stilistik und Stilometrie“,
+                        in: Schaffrick, Matthias / Willand, Marcus (eds.): 
+                        <hi rend="italic">Theorien und Praktiken der Autorschaft</hi>.
+                        Berlin: de Gruyter 169–195.
+                    </bibl>
+<bibl>
+<hi rend="bold">Manning, Christopher D. / Surdeanu, Mihai / Bauer, John / Finkel, Jenny Rose / Bethard, Steven J. / McClosky, David</hi> (2014): "The Stanford CoreNLP Natural Language Processing Toolkit", in: 
+                        <hi rend="italic">Proceedings of ACL-2014: System Demonstrations</hi> 55–60.
+                    </bibl>
+<bibl>
+<hi rend="bold">Michel, Jean-Baptiste / Shen, Yuan K. / Aiden, Aviva P. / Veres, Adrian / Gray, Matthew K. / The Google Books Team / Pickett, Joseph P. / Hoiberg, Dale / Clancy, Dan / Norvig, Peter / Orwant, Jon / Pinker, Steven / Nowak, Martin A. / Aiden, Erez L.</hi> (2011):
+                        „Quantitative analysis of culture using millions of digitized books“,
+                        in: 
+                        <hi rend="italic">Science</hi> 331 (6014): 176–182.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

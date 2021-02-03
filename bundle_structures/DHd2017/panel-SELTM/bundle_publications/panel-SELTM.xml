@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="panel-SELTM" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Citizen Science unter dem Blickwinkel nachhaltiger sozialer und technischer Infrastrukturen</title>
+<author>
+<persName>
+<surname>Seltmann</surname>
+<forename>Melanie</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+<email>melanie.seltmann@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Wandl-Vogt</surname>
+<forename>Eveline</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+<email>eveline.wandl-vogt@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Dorn</surname>
+<forename>Amelie</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+<email>amelie.dorn@oeaw.ac.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-12-01T15:39:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Panel</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Citizen Science</term>
+<term>Bürgerwissenschaft</term>
+<term>Infrastrukturen</term>
+<term>Nachhaltigkeit</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Community-Bildung</term>
+<term>Veröffentlichung</term>
+<term>Crowdsourcing</term>
+<term>Kollaboration</term>
+<term>Lehre</term>
+<term>Daten</term>
+<term>Infrastruktur</term>
+<term>Interaktion</term>
+<term>Methoden</term>
+<term>Projekte</term>
+<term>Forschung</term>
+<term>Forschungsprozess</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Unter Citizen Science wird eine Forschungsform verstanden, in der Wissenschaftler.Innen von Citizens in verschiedenen Bereichen des Forschungsprozesses unterstützt werden oder die gänzlich von Citizens durchgeführt wird. Die Verwendung von Citizen Science bringt für beide Seiten gewisse Vorteile: Wissenschaftler.Innen können auf neue Aspekte in ihrem Forschungsschwerpunkt kommen, und Citizens können den Elfenbeinturm der Wissenschaft durchbrechen und sich mit ihren eigenen Interessen in den Forschungsprozess einbringen (vgl. Riesch &amp; Potter, 2014). Zudem kommt es häufig zur Community-Bildung innerhalb von Interessensgruppen, so darf der soziale Aspekt nicht vernachlässigt werden.</p>
+<p>Während Citizen Science ursprünglich oft mit Arbeitsweisen in naturwissenschaftlichen Bereichen in Verbindung gebracht wurde, ist die Rolle von Citizen Science in den Humanities im Vergleich dazu noch weniger ausführlich beleuchtet und scheint erst in den letzten Jahren zunehmend an Aufmerksamkeit, zum Beispiel durch gezielte Förderprogramme oder Infrastrukturen, zu gewinnen. Aber ist dem tatsächlich so? Dabei bietet die Hinzunahme der Citizen Science in Forschungsprojekte ein großes Potential in verschiedenen Bereichen: begonnen vom Finden interessanter und gesellschaftsrelevanter Fragestellungen über die den meisten wohl zuerst in den Sinn kommende Datensammlung bis hin zur Disseminierung können Citizens zentrale Rollen, wie beispielsweise Partizipation bei der Entwicklung von Forschungsfragen, Co-Design des Forschungsprozesses oder der Resultate, einnehmen. Welche Rolle spielt Citizen Science demnach nun in den Humanities?</p>
+<p>In dem vorgeschlagenen Panel greifen wir diese Thematik unter verschiedenen Ansatzpunkten auf. Es soll diskutiert werden, welche Rahmenbedingungen es für gute Citizen Science in (neuen) Humanities-Forschungsprojekten gibt und braucht. Zudem soll angeregt werden, eine Gemeinschaft für die Vernetzung und explorative Forschung im Rahmen der Digital Humanities aufzubauen und zu etablieren. In einem ersten Teil stellen die Panelisten ihre Standpunkte zum Thema Citizen Science in den Humanities dar. Diese vertreten unterschiedliche Plattformen, Fördergeber und führende Akteure in den Citizen Science. Namentlich handelt es sich um:</p>
+<p>
+<hi rend="bold">Celine Loibl</hi>
+<hi rend="italic">(Bundesministerium für Wissenschaft, Forschung und Wirtschaft (Österreich)): Programme Direktor Sparkling Science</hi>
+</p>
+<p>Das Förderprogramm des österreichischen BMWFW “Sparkling Science” fördert seit 2007 Citizen Science Projekte. Es setzt bereits im Schulalter an und bringt – einzigartig in Europa – Wissenschaftler.Innen und Schüler.Innen zusammen. Mit dieser Form von Citizen Science zielt es im Besonderen darauf ab, bei den Schüler.Innen Interesse an der Forschung zu wecken und somit Forschung und Bildungspolitik zu verbinden. Des Weiteren können durch die Zusammenarbeit von Wissenschaft und Schulen innovative wissenschaftliche Ansätze und Erkenntnisse generiert werden. Es soll erläutert werden, warum derartige Förderprogramme zur Verfügung gestellt werden. Weiters soll deren Situation in einem deutschsprachigen Kontext erschlossen werden. </p>
+<p>
+<hi rend="bold">Mike Mertens</hi>
+<hi rend="italic">(DARIAH): CEO, DARIAH Public Humanities Grant</hi>
+</p>
+<p>Nachdem auf den Istzustand der Verwendung von Citizen Science in den Humanities eingegangen wurde, soll das Augenmerk darauf gelegt werden, wie Infrastrukturen wie DARIAH Citizen Science sehen, und warum solche Organisationen die Hinzunahme von Citizen Science in den Humanities fördern. Warum hat Citizen Science in Förderprogrammen für die Humanities eine europäische Perspektive, und vor allem welche? Es soll erörtert werden warum dies wichtig ist und inwiefern sich dadurch etwas an unserer Forschung ändern könnte.</p>
+<p>
+<hi rend="bold">Fermin Serrano Sanz</hi>
+<hi rend="italic"> (Socientize/Institute for Biocomputation and Physics of Complex Systems (BIFI), Univ. Zaragoza; Responsible Research and Innovation (RRI) liaison at ECSA): Citizen Science Infrastrukturen </hi>
+</p>
+<p>Ein wichtiger Punkt, damit Citizen Science so eingesetzt werden kann, wie von allen Beteiligten (Fördergeber, Wissenschaftler und Citizens) gewünscht, ist die Verwendung zuverlässiger und leicht verständlicher und nutzbarer Infrastrukturen. Es soll einen Überblick über Möglichkeiten von etablierten Infrastrukturen geben, sowie deren Nutzen insbesondere für die Humanities aufgezeigt werden. Es wird erläutert inwiefern Infrastrukturen. u.A. auch aus technischer Sicht, zur Verfügung stehen und inwiefern diese von Citizen Science Projekten genutzt werden, beziehungsweise nutzbar sind. Als Beispiele können das Projekt Socientize, das Weißbuch Citizen Science, aber ebenso Themen wie “do-it-yourself” und “responsible science”, sowie die soziale Infrastruktur ECSA und die COST Action on Citizen Science herangezogen werden.</p>
+<p>
+<hi rend="bold">Roberto Barbera</hi>
+<hi rend="italic">(Univ. of Catania/National Institute for Nuclear Physics (INFN)): From Open Access and Open Data to Open Science</hi>
+</p>
+<p>Schließlich soll der Blick geöffnet werden. Wie funktioniert Citizen Science in anderen Disziplinen und wie kann eine gute Open Access und Open Data Policy zu nachhaltiger und guter Open Science führen. Es soll erörtert werden inwiefern Open Science Commons (ein Ansatz zur gemeinsamen Nutzung digitaler Dienste, wissenschaftlicher Instrumente, Daten, Wissen, etc. für leichtere und produktivere Zusammenarbeit) Citizen Science einbringen kann und inwiefern aktuelle Forschungsinfrastrukturen Citizen Science unterstützen.</p>
+<p>
+<hi rend="bold">Eveline Wandl-Vogt</hi>
+<hi rend="italic"> (Österreichische Akademie der Wissenschaften): Koordinatorin des Lexicography Laboratory (lexlab) ACDH, Koordinatorin des Projekts exploreAT!</hi>
+</p>
+<p>Sie berichtet von ihren Erfahrungen im Bereich Open Innovation, Open Science und Citizen Science, sowie Open Innovation in Science Methoden und deren Bedeutung am Beispiel eines konkreten Projektes, 
+                <hi rend="italic">exploreAT!</hi>. Weiters wird der Citizen Science Survey, der im Rahmen des Projektes 
+                <hi rend="italic">exploreAT!</hi> entstanden ist, vorgestellt, um einen Status quo der Citizen Science in Humanities Projekten abschätzen und darauf basierend Empfehlungen für (zukünftige) Projekte geben zu können.  
+            </p>
+<p>Die Moderation des Panels wird durchgeführt von 
+                <hi rend="bold">Amelie Dorn</hi> (
+                <hi rend="italic">Österreichische Akademie der Wissenschaften</hi>; Projektmitarbeiterin 
+                <hi rend="italic">exploreAT!</hi>).
+            </p>
+<p>Im zweiten Teil werden im Podium wesentliche Fragen zu den Citizen Science in den (Digital) Humanities diskutiert. Begonnen wird mit der Metaebene, inwiefern Wissen etwas vergleichbares wie das 
+                <hi rend="italic">Mode 2</hi> im Sinne einer 
+                <hi rend="italic">Knowledge Society</hi> (vgl. Gibbons et al., 1994 und Nowotny et al., 2003) ist, nämlich nicht ein öffentliches Gut, sondern ein geistiges Eigentum, das wie andere Güter und Dienstleistungen in einer Knowledge Society produziert, angehäuft und gehandelt wird. Ebenso soll gefragt werden, wie sich die Wissenschaft in ein solches Modell einbetten kann.
+            </p>
+<p>Im zweiten Schritt soll erörtert werden, wie eine Förderung der Citizen Science aussieht oder aussehen kann. Daraufhin sollen politische und technische Infrastrukturen unter denen Citizen Science stattfinden kann diskutiert werden. Von den politischen und technischen Infrastrukturen soll auf die sozialen Infrastrukturen übergegangen werden. Es soll beleuchtet werden, warum Fördertöpfe von Nöten sind und ob diese eher für Citizens oder Wissenschaftler.Innen gebraucht werden. Zudem soll die Frage aufgeworfen werden, ob es damit weiters nur zu wissenschaftsgetriebener Citizen Science kommen kann. Es stellt sich die Frage, ob mit Fördertöpfen wirklich der Aufbau von Netzwerken gefördert wird.</p>
+<p>In einem weiteren Block werden Ein- und Ausblicke von Fördergebern wie Sparkling Science und Infrastrukturen wie DARIAH erörtert, warum Citizen Science 
+                <hi rend="italic">in</hi> ist, warum Citizen Science verwendet werden sollte und warum gerade zum jetzigen Zeitpunkt. Ebenso soll auf Strategiepapiere wie das White Paper (Serrano et al., 2016) auf europäischer Ebene sowie das Grünbuch (Bonn et al., 2016) auf deutscher Ebene und deren konkreten Nutzen eingegangen werden. Im Hinblick auf diese Papiere soll gefragt werden, was zum einen die Politik als ein gutes Projekt bezeichnet, zum anderen was der Wissenschaftler und inwiefern sich die beiden Ansichten voneinander unterscheiden. Am Beispiel von Österreich soll verdeutlicht werden, inwiefern der Support für Wissenschaftler zu mehr Forschungsprojekten geführt hat.
+            </p>
+<p>Schließlich sollen Infrastrukturen und Interakteure miteinander verbunden werden. Was ist die konkrete Rolle der technischen Infrastrukturen? Können diese den Prozess der Projekte verbessern, beschleunigen und/oder festigen? Wie können sie zu einer gediegenen Projektentwicklung beitragen? Und werden die technischen Infrastrukturen nur von den Wissenschaftler.Innen genutzt oder auch von den Laien? Beziehungsweise werden sie überhaupt genutzt?</p>
+<p>Nachdem die Panelisten über diese Fragestellungen diskutiert haben, wird im dritten Teil das Publikum eingeschlossen. Zum einen gibt es vorbereitete Befragungen an das Publikum zu den zuvor diskutierten Inhalten, zum anderen kann das Publikum eigene aufgekommene Fragen an das Podium stellen. Hierbei soll unter anderem auf die Einschätzungen des Publikum zur Verwendung von Citizen Science konkret in den Humanities eingegangen werden. Die Annahmen des Publikums sollen mit den Ergebnissen aus dem Citizen Science Survey verglichen werden und Fragen des Publikums damit zu beantworten versucht werden.</p>
+<p>Des Weiteren soll erörtert werden, wie ein positives Bild von technischer und sozialer Entwicklung aussehen kann, durch welches für alle Seiten ermöglicht werden kann, bessere Projekte hervorzubringen. Es wird versucht, diese prinzipielle Frage durch eine interaktive Direktbefragung zu entschlüsseln. Daraufhin wird das Podium gebeten, hierauf eine Antwort zu finden. Anschließend soll die Frage für das Publikum geöffnet werden.</p>
+<p>Abschließend lässt sich zusammenfassen, dass das vorgeschlagene Panel wichtige Themen sowie einen vielfältigen, breiten Einblick in die sozialen und technischen Strukturen der Citizen Science anspricht und diskutiert. Die Ergebnisse der Diskussion zwischen Panel und Podium, zwischen Citizens und Wissenschaftlern, bieten die Möglichkeit für weitere Ansatzpunkte um einen gemeinsamen Weg für zukünftige Ausrichtungen zu schaffen. Ausserdem bietet das vorgeschlagene Panel die Möglichkeit Personen aus den verschiedensten Bereichen die mit Citizen Science in Berührung kommen im Dialog zusammenzubringen, was nicht nur eine günstige Chance für potentielle Weiterentwicklungen im Citizen Science Bereich in den Humanities ist, sondern auch unabdingbar ist, um den direkten Austausch und Kontakt auf lokaler und weiterer europäischer Ebene zu stärken sowie zu avancieren.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bonn, Aletta / Richter, Anne / Vohland, Katrin / Pettibone, Lisa / Brandt, Miriam / Feldmann, Reinart / Goebel, Claudia / Grefe, Christiane / Hecker, Susanne / Hennen, Leonhard / Hofer, Heribert / Kiefer, Sarah / Klotz, Stefan / Kluttig, Thekla / Krause, Jens / Küsel, Kirsten / Liedtke, Christin / Mahla, A. / Neumeier, V. / Premke-Kraus, Matthias /  Rillig, M. C. / Röller, Oliver / Schäffler, Livia /  Schmalzbauer, Bettina / Schneidewind, Uwe / Schumann, Anke / Settele, Josef / Tochtermann, Klaus / Tockner, Klement / Vogel, Johannes / Volkmann, Wiebke / von Unger, Hella / Walter, D. / Weisskopf, Markus / Wirth, Christian / Witt, Thorsten / Wolst, Doris / Ziegler, David</hi> (2016): 
+                        <hi rend="italic">Grünbuch Citizen Science Strategie 2020 für Deutschland</hi>.
+                        Leipzig: Helmholtz-Zentrum für Umweltforschung (UFZ) / Deutsches Zentrum für integrative Biodiversitätsforschung (iDiv) Halle-Jena-Leipzig / Berlin: Museum für Naturkunde Berlin / Leibniz-Institut für Evolutions- und Biodiversitätsforschung (MfN) / Berlin-Brandenburgisches Institut für Biodiversitätsforschung (BBIB).
+                        <ref target="http://www.buergerschaffenwissen.de/sites/default/files/assets/dokumente/gewiss-gruenbuch_citizen_science_strategie.pdf">http://www.buergerschaffenwissen.de/sites/default/files/assets/dokumente/gewiss-gruenbuch_citizen_science_strategie.pdf</ref> [letzter Zugriff  01. Dezember 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Gibbons, Michael / Limoges, Camille / Nowotny, Helga / Schwartzman, Simon / Scott, Peter / Trow, Martin</hi> (1994): 
+                        <hi rend="italic">The New Production of Knowledge: The Dynamics of Science and Research in Contemporary Societies</hi>.
+                        London: Sage.
+                    </bibl>
+<bibl>
+<hi rend="bold">Nowotny, Helga / Scott, Peter / Gibbons, Michael</hi> (2003):
+                        „Mode 2 revisited: The New Production of Knowledge“,
+                        in: 
+                        <hi rend="italic">Minerva</hi> 41: 179–194.
+                    </bibl>
+<bibl>
+<hi rend="bold">Riesch, Hauke / Potter, Clive</hi> (2014):
+                        „Citizen science as seen by scientists: Methodological, epistemological and ethical dimensions“,
+                        in: 
+                        <hi rend="italic">Public Understanding of Science</hi> 23 (1): 107–120.
+                    </bibl>
+<bibl>
+<hi rend="bold">Serrano Sanz, Fermín / Holocher-Ertl, Teresa / Kieslinger, Barbara /  Sanz García, Francisco / Silva, Cândida G.</hi> (2014): 
+                        <hi rend="italic">White Paper on Citizen Science for Europe</hi>.
+                        Socientize Consortium
+                        <ref target="https://www.zsi.at/object/project/2340/attach/White_Paper-Final-Print.pdf">https://www.zsi.at/object/project/2340/attach/White_Paper-Final-Print.pdf</ref> [letzter Zugriff 01. Dezember 2016].
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

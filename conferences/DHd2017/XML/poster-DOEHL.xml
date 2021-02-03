@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-DOEHL" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>PaLaFra – Entwicklung einer Annotationsumgebung für ein diachrones Korpus spätlateinischer und altfranzösischer Texte</title>
+<author>
+<persName>
+<surname>Döhling</surname>
+<forename>Lars</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>lars.doehling@ur.de</email>
+</author>
+<author>
+<persName>
+<surname>Burghardt</surname>
+<forename>Manuel</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>manuel.burghardt@ur.de</email>
+</author>
+<author>
+<persName>
+<surname>Wolff</surname>
+<forename>Christian</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>christian.wolff@ur.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Tagset</term>
+<term>Splätlatein</term>
+<term>Altfranzösisch</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Programmierung</term>
+<term>Annotieren</term>
+<term>Bereinigung</term>
+<term>Bearbeitung</term>
+<term>Einführung</term>
+<term>Metadaten</term>
+<term>Text</term>
+<term>Werkzeuge</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Ziel von 
+                <hi rend="italic">PaLaFra</hi>
+<ref n="1" target="poster-DOEHLftn1" type="note">1</ref> („Le passage du latin au français“) ist der Aufbau eines digitalen Korpus spätlateinischer und altfranzösischer Texte, das durch die Kombination von Lemmatisierung, syntaktischer und morphologischer Annotation sowie diskurspragmatischen und texttypologischen Deskriptoren komplexe Abfragestrategien ermöglicht und so eine qualitativ neuartige Nutzung der Texte bei der Rekonstruktion des lateinisch-romanischen Sprachwandels erreichen soll. Daran arbeitet ein deutsch-französisches Team der Universität Regensburg, der Universität Tübingen, der 
+                <hi rend="italic">École Normale Supérieure</hi> in Lyon und der Universität Lille, das seit Sommer 2015 von der Deutschen Forschungsgemeinschaft (DFG) und der 
+                <hi rend="italic">Agence Nationale de Recherche</hi> (ANR) gefördert wird. Das Projektteam ist interdisziplinär ausgerichtet und besteht aus romanischen Sprachwissenschaftlern, Computerlinguisten und Medieninformatikern. Während für den Bereich des Altfranzösischen auf das bestehende 
+                <hi rend="italic">Base de Français Médiéval</hi>-Korpus
+                <ref n="2" target="poster-DOEHLftn2" type="note">2</ref> zurückgegriffen werden kann, so ist die Erstellung eines — was die Annotation angeht — kompatiblen Korpus spätlateinischer Texte ein wichtiges Teilziel des 
+                <hi rend="italic">PaLaFra</hi>-Projekts.
+            </p>
+<p>In diesem Posterbeitrag berichten wir über Herausforderungen und Lösungsansätze bei der Erstellung einer Annotationsumgebung und eines diachronen Tagsets, das gleichermaßen in der Lage ist, die Idiosynkrasien der beiden Sprachstufen adäquat abzubilden, aber auch die diachronen Elemente im Sprachwandel einheitlich zu markieren.</p>
+<p>Bereits für das spätlateinische Teilkorpus zeigt sich, dass es an einem standardisierten Tagset fehlt. Mindestens drei Varianten wurden in der Vergangenheit für die Annotation (spät-)lateinischer Texte entwickelt: 
+                <hi rend="italic">CoLaMer</hi> (Selig et al. 2015), 
+                <hi rend="italic">CompHistSem</hi> (Eger et al. 2015) und 
+                <hi rend="italic">LASLA</hi> (Denooz 1978). Diese unterscheiden sich sowohl in den zugrunde liegenden linguistischen Konzepten als auch in ihrer Granularität. Demzufolge existiert auch kein einfaches Mapping zwischen ihnen. Für die Entwicklung eines sprachübergreifenden Tagsets in 
+                <hi rend="italic">PaLaFra</hi> kommt erschwerend hinzu, dass die beiden Zielsprachen — Spätlatein und Altfranzösisch — trotz ihrer Verwandtschaft klare strukturellen Unterschiede aufweisen.
+            </p>
+<p>Zumindest für die Ebene der Wortarten (PoS, Part-of-Speech) liefert beispielsweise das Projekt 
+                <hi rend="italic">Universal Dependencies</hi>
+<ref n="3" target="poster-DOEHLftn3" type="note">3</ref> wichtige Anhaltspunkte für ein sprachübergreifendes Tagset. Dieses Projekt hat sich die Entwicklung sprachübergreifend-kompatibler Baumbanken als Ziel gesetzt hat, die auf universellen Wortartkategorien basieren. Trotzdem bedingt die Entwicklung eines übergreifenden Tagsets oft den manuellen Vergleich von Annotationen, z.B. durch visuelle Gegenüberstellung annotierter Parallelkorpora. Unsere Recherche ergab, dass es an einem adäquaten Werkzeug für diese Aufgabe mangelt. Einerseits gibt es unzählige Annotationswerkzeuge, welche auf die Darstellung nur eines Textes samt Annotationen fokussieren (Burghardt 2014, Neves and Leser 2014). Auf der anderen Seite gibt es Alignierwerkzeuge, die auf die parallele Darstellung von Texten spezialisiert sind, aber dabei Annotation meist ignorieren, z.B. 
+                <hi rend="italic">LF Aligner</hi>
+<ref n="4" target="poster-DOEHLftn4" type="note">4</ref>, 
+                <hi rend="italic">Moses</hi>
+<ref n="5" target="poster-DOEHLftn5" type="note">5</ref> oder 
+                <hi rend="italic">ParaVoz</hi>
+<ref n="6" target="poster-DOEHLftn6" type="note">6</ref>. Um diese Lücke zu schließen, haben wir auf der Basis von 
+                <hi rend="italic">InterText</hi>
+<ref n="7" target="poster-DOEHLftn7" type="note">7</ref> — einem im Webbrowser zu bedienenden Alignierwerkzeug (Vondricka 2014) — ein Vergleichswerkzeug für annotierte Parallelkorpora entwickelt. Unsere Erweiterung unterstützt sowohl die Hervorhebung zueinander kompatibler (PoS-)Tags als auch die flexible Darstellung von Lemmata und morpho-syntaktischen Annotationen (
+                <ref rend="fldSimple mergeformat" target="#Ref459211164">Abbildung 1</ref>). Die dafür nötigen Informationen werden beim Import aus den TEI-XML-Daten extrahiert und mit Hilfe von JavaScript dynamisch visualisiert.
+            </p>
+<figure>
+<graphic height="3.887611111111111cm" n="1001" rend="inline" url="poster-DOEHL-image1.png" width="15.989652777777778cm"/>
+<head>
+<hi rend="italic">Abbildung </hi>
+<hi rend="italic">: Das Bildschirmfoto zeigt die modifizierte InterText-Ansicht, erkennbar oben an der zusätzlichen Schalterleiste. Links ist die lateinische „Vita Benedicti“ (Vogüe und Antin 1979) zu sehen, annotiert mit dem LASLA Tagset (Denooz 1978), rechts das französische Gegenstück „Vie de saint Benoit“ (Foerster 1876), annotiert mit dem Cattex Tagset (Guillot et al. 2010). Aktuell ist sowohl die Hervorhebung kompatibler PoS-Tags („Toogle color“) als auch die Anzeige der vollständigen PoS-Annotation („Toogle POS (full)“) aktiviert.</hi>
+</head>
+</figure>
+<p>Neben der eigentlichen Datenaufbereitung ist auch die Optimierung des Annotationsworkflows mit geeigneten Werkzeugen im Sinne verbesserter 
+                <hi rend="italic">User Experience </hi>ein wesentliches Projektziel (
+                <hi rend="italic">tool science</hi>, Wolff 2015). 
+            </p>
+<p>Die Entwicklung des spätlateinisch-altfranzösischen Tagsets wird im Projekt — auch mit Hilfe unseres modifizierten 
+                <hi rend="italic">InterText</hi>-Tools — vorangetrieben. In unserem Posterbeitrag erläutern wir das Vorgehen und präsentieren erste Ergebnisse.
+            </p>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="poster-DOEHLftn1">
+<ref target="http://www.palafra.org/">http://www.palafra.org/</ref>
+</note><note n="2" rend="footnote text" xml:id="poster-DOEHLftn2">
+<ref target="http://bfm.ens-lyon.fr/">http://bfm.ens-lyon.fr/</ref>
+</note><note n="3" rend="footnote text" xml:id="poster-DOEHLftn3">
+<ref target="http://universaldependencies.org/">http://universaldependencies.org/</ref>
+</note><note n="4" xml:id="poster-DOEHLftn4">
+<ref target="http://sourceforge.net/projects/aligner/">http://sourceforge.net/projects/aligner/</ref>
+</note><note n="5" rend="footnote text" xml:id="poster-DOEHLftn5">
+<ref target="http://www.statmt.org/moses/">http://www.statmt.org/moses/</ref>
+</note><note n="6" rend="footnote text" xml:id="poster-DOEHLftn6">
+<ref target="https://bitbucket.org/rvwfels/paravoz2">https://bitbucket.org/rvwfels/paravoz2</ref>
+</note><note n="7" rend="footnote text" xml:id="poster-DOEHLftn7">
+<ref target="http://wanthalf.saga.cz/intertext">http://wanthalf.saga.cz/intertext</ref>
+</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Burghardt, Manuel</hi> (2014):
+                        „Engineering annotation usability - Toward usability patterns for linguistic annotation tools“.
+                        Diss. Phil., Universität Regensburg, Institut für Information und Medien, Sprache und Kultur, urn:nbn:de:bvb:355-epub-307682.
+                    </bibl>
+<bibl>
+<hi rend="bold">Denooz, Joseph</hi> (1978):
+                        „L’ordinateur et le latin, techniques et methods“,
+                        in:
+                        <hi rend="italic">Revue de l’Organisation Internationale pour l’Etude des Langues Anciennes par Ordinateur</hi> 4.
+                    </bibl>
+<bibl>
+<hi rend="bold">Eger, Steffen / vor der Brück, Tim / Mehler, Alexander</hi> (2015):
+                        „Lexicon-assisted tagging and lemmatization in latin: A comparison of six taggers and two lemmatization methods“,
+                        in: 
+                        <hi rend="italic">LaTeCH 2015</hi> 105.
+                    </bibl>
+<bibl>
+<hi rend="bold">Guillot, Céline / Prévost, Sophie / Lavrentiev, Alexei</hi> (2010): 
+                        <hi rend="italic">Manuel de référence du jeu cattex09</hi>. technical manual, UMR ICAR, CNRS/ENS-LSH. 
+                        <ref target="http://bfm.ens-lyon.fr/IMG/pdf/Cattex2009_manuel_2.0.pdf">http://bfm.ens-lyon.fr/IMG/pdf/Cattex2009_manuel_2.0.pdf</ref>
+</bibl>
+<bibl>
+<hi rend="bold">Neves, Mariana / Leser, Ulf</hi> (2014):
+                        „A survey on annotation tools for the biomedical literature“,
+                        in:
+                        <hi rend="italic">Briefings in bioinformatics</hi> 15 (2): 327–340.
+                    </bibl>
+<bibl>
+<hi rend="bold">Selig, Maria / Eufe, Rembert / Linzmeier, Laura</hi> (2015): 
+                        <hi rend="italic">CoLaMer</hi> (corpus du latin mérovingien). (im Erscheinen).
+                    </bibl>
+<bibl>
+<hi rend="bold">Vondricka, Pavel</hi> (2014):
+                        „Aligning parallel texts with intertext“,
+                        in:
+                        <hi rend="italic">Proceedings of LREC 2014</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Vogüé, Adalbert de / Antin, Paul</hi> (1979): 
+                        <hi rend="italic">GREGOIRE LE GRAND, Dialogues</hi> II. 
+                        Cambridge University Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Von Foerster, Wendelin</hi> (1876): 
+                        <hi rend="italic">Li Dialoge Gregoire lo Pape. Altfranzösische Uebersetzung des XII. Jahrhunderts der Dialogen des Papstes Gregor, mit dem lateinischen Original, einem Anhang: Sermo de Sapientia und Moralium in Iob Fragmenta, einer grammatischen Einleitung, erklärenden Anmerkungen und einem Glossar</hi>, première partie: Textes. 
+                        Paris: Champion.
+                    </bibl>
+<bibl>
+<hi rend="bold">Wolff, Christian</hi> (2015):
+                        „The case for teaching ‚tool science‘. Taking software engineering and software engineering education beyond the confinements of traditional software development contexts“,
+                        in: 
+                        <hi rend="italic">Global Engineering Education Conference (EDUCON), 2015 IEEE</hi> 932–938 10.1109/EDUCON.2015.7096085
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

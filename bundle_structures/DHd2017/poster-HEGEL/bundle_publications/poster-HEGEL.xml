@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-HEGEL" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Digitale Werkzeuge und Infrastrukturen zur Analyse und Beschreibung von Bewegungen in vormodernen Wissensbeständen</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Hegel</surname>
+<forename>Philipp</forename>
+</persName>
+<affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+<email>hegel@linglit.tu-darmstadt.de</email>
+</author>
+<author>
+<persName>
+<surname>Tonne</surname>
+<forename>Danah</forename>
+</persName>
+<affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+<email>danah.tonne@kit.edu</email>
+</author>
+<author>
+<persName>
+<surname>Geukes</surname>
+<forename>Albert</forename>
+</persName>
+<affiliation>Freie Universität Berlin, Deutschland</affiliation>
+<email>albert.geukes@cedis.fu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Krewet</surname>
+<forename>Michael</forename>
+</persName>
+<affiliation>Freie Universität Berlin, Deutschland</affiliation>
+<email>m.krewet@fu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Rapp</surname>
+<forename>Andrea</forename>
+</persName>
+<affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+<email>rapp@linglit.tu-darmstadt.de</email>
+</author>
+<author>
+<persName>
+<surname>Stotzka</surname>
+<forename>Rainer</forename>
+</persName>
+<affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+<email>rainer.stotzka@kit.edu</email>
+</author>
+<author>
+<persName>
+<surname>Uhlmann</surname>
+<forename>Gyburg</forename>
+</persName>
+<affiliation>Freie Universität Berlin, Deutschland</affiliation>
+<email>g.uhlmann@fu-berlin.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-21T11:44:45.223363369</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Episteme</term>
+<term>mise en page</term>
+<term>SFB 980</term>
+<term>Infrastruktur</term>
+<term>DARIAH-DE</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Datenerkennung</term>
+<term>Sammlung</term>
+<term>Bilderfassung</term>
+<term>Räumliche Analyse</term>
+<term>Annotieren</term>
+<term>Archivierung</term>
+<term>Visualisierung</term>
+<term>Bilder</term>
+<term>Manuskript</term>
+<term>Karte</term>
+<term>Metadaten</term>
+<term>Software</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einführung</head>
+<p>Der Sonderforschungsbereich 980 „Episteme in Bewegung“ untersucht Prozesse des Wissenswandels in europäischen und nicht-europäischen Kulturen vom 3. Jahrtausend vor Christus bis ca. 1750 nach Christus. In den Analysen der insgesamt 22 Teilprojekte aus 20 Disziplinen wird gezeigt, wie gerade dort, wo in den Selbstbeschreibungen der vormodernen Kulturen und aus der Perspektive der Moderne Kontinuität und Stabilität im Vordergrund stehen, vielfältige Formen des Wandels und der Entwicklung beschrieben werden können. Wissen wird dabei als Episteme gefasst. Dieser Begriff aus der griechischen Antike schließt Wissenschaft ebenso ein wie nicht institutionalisierte Formen von Wissen. Er zeigt an, dass Wissen sich immer auf einen Gegenstand bezieht und impliziert zudem, dass Wissen als Wissen von etwas immer mit einem Geltungsanspruch versehen ist. Wissensbewegungen, die mit dem Terminus „Wissenstransfer“ als Neukontextualisierung von Wissenselementen in neuen Kontexten beschreibbar gemacht werden, finden immer in komplexen Austauschprozessen statt, in denen verschiedene Akteure, Medien, Praktiken, Diskurse und Institutionen miteinander interagieren. Um diese komplexen multidirektionalen und multidimensionalen Prozesse erfassen und beschreiben zu können, werden digitale Werkzeuge entwickelt, die komplementär zu qualitativen exemplarischen Einzelanalysen auf größere Mengen an Texten und Bildern angewendet werden können.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Bücher auf Reisen</head>
+<p>In diesem Rahmen entwickelt das Informationsinfrastrukturprojekt „Bücher auf Reisen“ Softwarewerkzeuge, durch die räumliche und zeitliche Bewegungen von Handschriften, Drucken oder anderen Text- und Bildträgern auch für größere Objektzahlen hinweg systematisch erforscht werden. Die Ergebnisse werden als miteinander dynamisch vernetzte Elemente visualisiert. Auch „innere Reisen“, das heißt Bewegungen in Objekten wie das Hinzufügen von Randnotizen oder der Verweis auf andere Texte, sollen auf diese Weise digital aufbereitet und gespeichert werden. Neben dem Schwerpunkt auf der Entwicklung informationstechnisch unterstützter Verfahren zur Datenerschließung wird ein Forschungsdatenrepositorium für die digitalisierten Objekte mitsamt den neu ermittelten Metadaten zu Reisen und Veränderungsprozessen aufgebaut werden, das nachhaltig nutzbar ist.</p>
+<p>Zentrale Fragestellungen sind hierbei die Modellierung und Verwaltung der Relationen der sehr heterogenen Datenbestände als „dynamische Metadaten“, eine verlässliche Speicherung aller Daten im Sinne einer Langzeitverfügbarkeit und eine sehr intuitive und benutzerfreundliche Bedienung. Durch die Verwendung international anerkannter Standards und Schnittstellen wird die Interoperabilität mit anderen standardisierten Infrastrukturen, zum Beispiel DARIAH-DE, und die leichte Erweiterbarkeit gewährleistet. Alle entwickelten oder adaptierten Softwarekomponenten werden der Öffentlichkeit als open source zur Verfügung gestellt.</p>
+<p>Zuerst werden anhand von Pilotprojekten mit Daten aus der Aristotelesüberlieferung, altägyptischen Pyramidentexten, frühneuzeitlichen Fremdsprachenlehrwerken und einer Bibliothek des Osmanischen Reiches das Forschungsdatenrepositorium und die Softwarewerkzeuge erprobt und schrittweise verbessert, bis sie von allen Projektpartnertn verwendet werden können.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Handschriften in Bewegung</head>
+<p>Im selben Rahmen werden im Gastprojekt „Handschriften in Bewegung“ digitale Verfahren zur Analyse von Veränderungen innerhalb von Handschriften im Sinne der genannten „inneren Reisen“ entwickelt. Mit Algorithmen der Bildverarbeitung aus dem Projekt „eCodicology“ können Merkmale des Layouts auf digitalisierten Buchseiten und Handschriften erkannt werden, die auch als strategische Momente zur Übermittlung von Wissen verstanden werden können. Auf der Grundlage dieser reproduzierbaren Messdaten werden durch statistische Auswertungen neue Erkenntnisse über Veränderungen in Einzelhandschriften oder Entwicklungen eines gesamten Buchbestandes gewonnen. Die Ergebnisse können insbesondere genutzt werden, um De- und Rekontextualisierungen von Wissensbeständen in Büchern aufzuzeigen. Zu diesem Zweck werden verschiedene bereits existierende Softwarekomponenten eingesetzt:</p>
+<list type="ordered">
+<item>Mit einem Bildverarbeitungsworkflow werden Seiten, Text- und Bildflächen auf Digitalisaten vermessen.</item>
+<item>Mit einer Annotationssoftware können die vermessenen Bildbereiche geisteswissenschaftlich eingeordnet und mit zusätzlichen Informationen angereichert werden. So lässt sich die Wanderung einzelner Wissensbestände in einem Korpus nachvollziehen.</item>
+<item>Die Metadaten werden graphisch aufbereitet, um gattungsspezifische Differenzen und historische Veränderungen sichtbar zu machen.</item>
+</list>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit und Überlegungen zur Nachhaltigkeit</head>
+<p>Die Forschungsfrage des Sonderforschungsbereichs „Episteme in Bewegung“ mit seiner Vielfalt an geisteswissenschaftlichen Disziplinen und Methoden wird durch den Einsatz informatischer Methoden und Fragestellungen substantiell bereichert. Umgekehrt bedeuten die Multidisziplinarität und die Diversität der Objekte ebenso eine Chance für die Weiterentwicklung informatischer Werkzeuge wie eine Herausforderung für die informatische Operationalisierung von Fragestellungen.</p>
+<p>Auf Grund von Erfahrungen in früheren Projektarbeiten wird ein besonderer Fokus auf Nachhaltigkeit gelegt und diesem Bereich ein eigenes Arbeitspaket gewidmet. Im Rahmen einer engen Kooperation des SFB mit DARIAH-DE und dem Center für Digitale Systeme der Freien Universität Berlin stehen der nachhaltige Betrieb der erweiterten bzw. neu geschaffenen Forschungsdateninfrastruktur sowie deren fachliche Anschlussfähigkeit bzw. Anwendbarkeit auch für andere Fachrichtungen im Vordergrund. Durch standardisierte Schnittstellen sowie Nachnutzung und Erweiterung bestehender Werkzeuge werden bereits in der Konzeption erste Ansätze verfolgt, zusätzlich sind aber auch die Integration in bestehende Infrastrukturen und Institutionen vor Ort sowie in institutionenübergreifende Infrastrukturverbünde zentrale Fragestellungen.</p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Chandna, Swati / Tonne, Danah / Jeikal, Thomas / Stotzka, Rainer / Krause, Celia / Vanscheidt, Philipp / Busch, Hannah / Prabhune, Ajinkya</hi> (2015):
+                        „Software workflow for the automatic tagging of medieval manuscript images (SWATI)“,
+                        in: Ringger, Eric K. / Lamiroy, Bart (eds.):
+                        <hi rend="italic">Proceedings SPIE9492, Document Recognition and Retrieval XXII, 940201</hi> <ref target="http://dx.doi.org/10.1117/12.2076124">10.1117/12.2076124</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Chandna, Swati / Tonne, Danah / Stotzka, Rainer / Busch, Hannah / Vanscheidt, Philipp / Krause, Celia</hi> (2016):
+                        „An effective visualization technique for determining co-relations in high-dimensional medieval manuscripts data“,
+                        in:
+                        <hi rend="italic">Proceedings of Visualization and Data Analyses 2016</hi>
+<ref target="http://www.ingentaconnect.com/contentone/ist/ei/2016/00002016/00000001/art00013">http://www.ingentaconnect.com/contentone/ist/ei/2016/00002016/00000001/art00013</ref>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

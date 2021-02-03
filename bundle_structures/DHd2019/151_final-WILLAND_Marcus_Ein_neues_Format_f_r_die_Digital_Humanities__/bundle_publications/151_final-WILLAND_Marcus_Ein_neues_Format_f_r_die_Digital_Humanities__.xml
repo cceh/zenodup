@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="151_final-WILLAND_Marcus_Ein_neues_Format_f_r_die_Digital_Humanities__" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ein neues Format für die Digital Humanities: Shared Tasks. Zur Annotation narrativer Ebenen</title>
+                <author>
+                    <persName>
+                        <surname>Willand</surname>
+                        <forename>Marcus</forename>
+                    </persName>
+                    <affiliation>Universität Heidelberg; Universität Stuttgart</affiliation>
+                    <email>marcus.willand@gs.uni-heidelberg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg</affiliation>
+                    <email>evelyn.gius@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Reiter</surname>
+                        <forename>Nils</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart</affiliation>
+                    <email>nils.reiter@ims.uni-stuttgart.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-09-28T07:35:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Shared Task</term>
+                    <term>Evaluation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Bewertung</term>
+                    <term>Projektmanagement</term>
+                    <term>Methoden</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align:left; ">Dieses Paper führt unsere letztjährige 
+                Präsentation<ref target="ftn1" n="1"/> des Vorhabens fort, den ersten 
+                    <hi rend="bold">Shared Task (ST) zur Annotation literarischer Phänomene</hi> zu organisieren und solch ein kompetitives Verfahren als fruchtbares Format für die 
+                    <hi rend="italic">Digital Humanities</hi> einzuführen. Dieser ST hat mit dem abgehaltenen Workshop der teilnehmenden Teams einen Meilenstein erreicht. 
+                </p>
+                <p style="text-align:left; ">Bei einem ST bewerben sich Teams mit einem Vorschlag für die Lösung eines durch die Organisatoren ausgeschriebenen Problems, den Task. STs sind kompetitive Verfahren, weil die Lösungsvorschläge vergleichend evaluiert und gemäß einer definierten Metrik in eine Rangfolge gebracht werden. Vor allem in der Sprachverarbeitung (NLP, natural language processing) sind diese Arbeitszusammenhänge weit verbreitet und ein wesentlicher Antrieb für die Fortschritte bei wichtigen Aufgaben, etwa des syntaktischen 
+                Parsings.<ref target="ftn2" n="2"/> Wir haben dieses kompetitive Verfahren für literaturwissenschaftliche Problemstellungen durch kooperative Aspekte modifiziert und möchten hier sowohl den angepassten Workflow als auch zentrale Einsichten vorstellen, die wir durch den o.g. Workshop generieren 
+                konnten.<ref target="ftn3" n="3"/> Wir gehen davon aus, dass durch solch adaptierte STs sehr viele andere Problemstellungen der Geisteswissenschaften adressiert werden können, wodurch sich STs als Verfahren für die Digital Humanities natürlicherweise anbieten. Dies ist insbesondere der Fall, wenn computationelle Verfahren auf geisteswissenschaftliche Konzepte treffen und diese in einem intersubjektiven Aushandlungsprozess operationalisiert werden sollen.
+                </p>
+                <p style="text-align:left; ">Wir haben uns für ein zweiphasiges Verfahren entschieden. Die erste Phase – „SANTA“ genannt: Systematic Analysis of Narrative Texts through Annotation – widmet sich der Erstellung von Annotationsrichtlinien für das Phänomen narrativer 
+                Ebenen.<ref target="ftn4" n="4"/> Die von den acht teilnehmenden Teams eingereichten und auf dem Workshop diskutierten Richtlinien bilden die Grundlage für den Task der geplanten zweiten Phase: die automatisierte Identifikation von Erzählebenen auf Basis von Daten, die nach den Richtlinien annotiert wurden 
+                (wird vsl. 2019 ausgeschrieben).<ref target="ftn5" n="5"/>
+                </p>
+                <p style="text-align:left; ">Die acht Teams divergieren hinsichtlich ihrer:</p>
+                <list type="unordered">
+                    <item>
+                        <hi rend="bold">Größe</hi>: 1-4 Mitglieder, wobei drei Teams die Richtlinien im Seminarkontext, also mit einer Vielzahl an Studierenden entwickelten (was eine von uns vorgeschlagene Option war)
+                    </item>
+                    <item>
+                        <hi rend="bold">Disziplin</hi>: Literaturwissenschaft, Informatik, Linguistik, Computerlinguistik, Mediävistik, 
+                        <hi rend="italic">Digital Humanities</hi>
+                    </item>
+                    <item>
+                        <hi rend="bold">Forschungsziele</hi>: Narratologische Konzeptentwicklung, bzw. -reflexion, Anwendung narratologischer Konzepte für die Einzeltextinterpretation (bzw. ausschließlich für die Texte im von uns vorgegebenen Korpus), linguistische Diskursanalyse, Automatisierung der Annotation
+                    </item>
+                    <item>
+                        <hi rend="bold">Nation</hi>: Deutschland, USA, Schweden, Irland, Kanada
+                    </item>
+                    <item>
+                        <hi rend="bold">Narratologie</hi>: Überwiegend Genette und/oder Ryan, teilweise linguistische oder selbstentworfene Level-Definitionen
+                    </item>
+                </list>
+                <p style="text-align:left; ">Der Workshop selbst war konzeptionell offen angelegt und sollte den Teilnehmer/innen wie auch uns Organisator/innen ermöglichen, den geplanten Ablauf in Reaktion auf die Arbeitsergebnisse zu verändern. Dies war realisierbar, da bis auf wenige Kurzvorträge (z.B. stellte jedes Team zu Beginn in 5 Minuten die zentralen Aspekte seiner Richtlinien vor) hauptsächlich in kooperativen Formaten wie Gruppenarbeiten, Feedback-Runden und Plenumsdiskussionen gearbeitet wurde.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Guidelines: Unterschiede und Gemeinsamkeiten</head>
+                <p style="text-align:left; ">Am 
+                    <hi rend="bold">ersten Workshop-Tag</hi> sollten die Teilnehmer/innen einen differenzierten Einblick in alle acht Annotationsrichtlinien und deren Spezifika bekommen. Dabei wurden 
+                    <hi rend="bold">Unterschiede</hi> auf mehreren Abstraktionsebenen identifiziert: Die erste und grundlegendste Einsicht bestand in der Beobachtung, dass die Definitionen narrativer Level mitunter stark differieren und diese Unterschiede durch die divergierenden Forschungsfragen (siehe oben) erklärt werden können: etwa, ob die Level-Annotation im Dienste narratologischer Konzeptentwicklung eingesetzt wird oder zur Erkennung linguistischer Diskursebenen in Texten. Das spezifische Level-Verständnis hat gleichsam Auswirkungen auf den Modus des Definierens. So werden narrative Level teilweise inhaltlich bestimmt über die Elemente der „Story“ oder aber – etwas abstrakter – über die Elemente der Erzählung der Story. Zu unterscheiden sind davon Ansätze, die narrative Level über ihre Grenzen bestimmen, teilweise ohne auf die Erzählinhalte zurückzugreifen. Dies ist der Fall, wenn Erzähler- oder Weltwechsel als Definiens eingesetzt werden. Deutlich wurde zudem, dass gerade literaturwissenschaftliche Ansätze nicht immer eindeutig zwischen 
+                    <hi rend="italic">identifizierenden</hi> und (bloß) 
+                    <hi rend="italic">charakterisierenden</hi> Texteigenschaften narrativer Ebenen – wie etwa Fokalisierung – unterscheiden, wobei die Frage aufkommt, ob letztere einen berechtigten Ort in den Guidelines haben. 
+                    <hi rend="bold">Gemeinsamkeiten</hi> der Guidelines wurden ebenfalls diskutiert. Dabei zeigte sich, dass die eingereichten Guidelines zwei recht homogene Gruppen bilden hinsichtlich 
+                    <hi rend="italic">Forschungsziel</hi> (Narratologie vs. Automatisierung) und 
+                    <hi rend="italic">Konzeptverständnis</hi> (komplex vs. vereinfachend).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Evaluation der Guidelines: Drei Bewertungsdimensionen</head>
+                <p style="text-align:left; ">Der 
+                    <hi rend="bold">zweite Workshop-Tag</hi> widmete sich der Evaluation der Guidelines: Das Ziel der Organisator/innen war es, mit den Teilnehmer/innen gemeinsam die ‚besten‘ Richtlinien zu finden, wobei zunächst unklar blieb, ob es 
+                    <hi rend="italic">einen</hi> oder 
+                    <hi rend="italic">mehrere</hi> Gewinner geben sollte (etwa jeweils einen aus den beiden o.g. recht homogenen Gruppen). Die von den Organisator/innen im Vorfeld ausgearbeiteten Evaluationskriterien zur Beurteilung der Stärken und Schwächen der Einreichungen folgen der Idee, den interdisziplinären Aushandlungsprozess anhand von drei Dimensionen zu strukturieren und so neben in der Computerlinguistik etablierten Kriterien weitere relevante geisteswissenschaftliche Aspekte in die Bewertung zu integrieren. 
+                </p>
+                <p style="text-align:left; ">Diese Kriterien wurden zuerst während des Workshops im Plenum reflektiert und anschließend per online-Fragebogen live in die Evaluation überführt. Jede Dimension sollte auf nachvollziehbare Weise potentielle Guideline-Stärken vergleichbar machen und so für eine ausgewogene Beurteilung durch die Workshopteilnehmer/innen sorgen. Die drei Dimensionen sind – um in der Tagungssprache zu bleiben – 
+                    <hi rend="italic">Conceptual Coverage</hi>, 
+                    <hi rend="italic">Applicability</hi> und 
+                    <hi rend="italic">Usefulness</hi>.
+                </p>
+                <p style="text-align:left; ">Die erste Dimension beurteilt anhand von vier Fragen die Qualität der Guidelines hinsichtlich ihrer 
+                    <hi rend="bold">Abdeckung der zugrundeliegenden (meist narratologischen) Theorie</hi>:
+                </p>
+                <list type="ordered">
+                    <item>Is the narrative level concept explicitly described?</item>
+                    <item>Is the narrative level concept based on existing concepts?</item>
+                    <item>How comprehensive are the guidelines with respect to aspects of the theory?</item>
+                    <item>How adequate is the narrative level concept implemented by this guidelines in respect to narrative levels?</item>
+                </list>
+                <p style="text-align:left; ">Die zweite Dimension evaluiert die 
+                    <hi rend="bold">Anwendbarkeit der Guidelines auf den Text</hi> anhand von zwei Fragen und eines von uns im Vorhinein gemessenen 
+                    <hi rend="italic">Inter-annotator agreements</hi>:<ref target="ftn6" n="6"/>
+                </p>
+                <list type="ordered">
+                    <item>How easy is it to apply the guidelines for researchers 
+                        <hi rend="underline">with</hi> a narratological background?
+                    </item>
+                    <item>How easy is it to apply the guidelines for researchers 
+                        <hi rend="underline">without</hi> a narratological background?
+                    </item>
+                </list>
+                <p style="text-align:left; ">Die dritte Dimension bewertet anhand von vier Fragen, wie der auf Basis einer Richtlinie annotierte Text das T
+                    <hi rend="bold">extverstehen und die weitergehende Textarbeit</hi> befördert:
+                </p>
+                <list type="ordered">
+                    <item>Thought experiment: Assuming that the narrative levels defined in the annotation guidelines can be detected automatically on a huge corpus. How helpful are these narrative levels for an interesting corpus analysis?</item>
+                    <item>How helpful are they as an input layer for subsequent corpus or single text analysis steps (that depend on narrative levels)?</item>
+                    <item>Do you gain new insights about narrative levels in texts by applying the foreign guidelines, compared to the application of your own guidelines?</item>
+                    <item>Does the application of these guidelines influence your interpretation of a text?</item>
+                </list>
+                <p style="text-align:left; ">Jede der Fragen wurde von den Teams in einer Feedback-Runde erläutert und anhand einer vierstufigen Likert-Skala online beurteilt.</p>
+                <p style="text-align:left; ">Die dergestalt relativ differenziert abgefragten drei Evaluationsdimensionen lassen sich – stark abstrahiert – auch verstehen als prozedurale Vergewisserungskriterien für gute Guidelines zur Annotation literaturwissenschaftlicher (oder allgemein: geisteswissenschaftlicher) Konzepte auf Texten unterschiedlicher Genres. Sie können prozessorientiert abgebildet werden:</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.001125cm" url="151_final-e9c44e759efd7ec2825a4c485c398e31.png" rend="inline"/>
+                    <head>
+                        <lb/>Abb. 1: Prozedurale Darstellung der Evaluationsdimensionen
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Evaluation der Evaluation: Ergebnisse des Workshops</head>
+                <p style="text-align:left; ">Am 
+                    <hi rend="bold" xml:space="preserve">dritten Workshop-Tag </hi>wurden die Ergebnisse der Evaluation vorgestellt und diskutiert. Als methodisch ausgesprochen interessantes Resultat zeigte sich, dass die qualitative Plenumsdiskussion der Guidelines zu Einschätzungen führte, die durch die Resultate der quantitativen Evaluation in den Fragebögen abgebildet wurden: Die als theoretisch hochdifferenziert gelobten Guidelines waren just diejenigen, die in der ersten Dimension die meisten Punkte erzielten usw. Eine vierstufige Skala scheint also den gesamten Evaluationsbereich mit den drei komplexen Theorie-, Anwendungs- und Brauchbarkeitsfragen ausreichend differenziert abbilden zu können. Problematisch erschien den Teilnehmer/innen allerdings, dass die Fragen zunehmend schwerer zu beantworten waren. Dies resultierte aus der Schwierigkeit, für einige Fragen potentielle Anwendungsfälle zu antizipieren, in denen bereits annotierte Texte sinnvolle Forschungsfragen ermöglichen. Allerdings wurden im Gegensatz zur subjektiven Wahrnehmung der Teilnehmer/innen diese Fragen der letzten Dimension mit einer zunehmend geringeren Standardabweichung beantwortet. Trotz 
+                    <hi rend="italic">gefühlt</hi> größerer Schwierigkeiten mit den Fragen zur Usefulness wurden die Guidelines dort einvernehmlicher evaluiert.
+                </p>
+                <p style="text-align:left; ">Die drei Dimensionen erwiesen sich damit als praktikables Instrument einer differenzierten Bewertung der Guidelines. Das Experiment "Shared Task für die DH" ist also geglückt. Die drei Bewertungsdimensionen stehen allerdings auch weiterhin für eine der großen methodischen Herausforderungen im 
+                    <hi rend="italic">Digital Humanities</hi>-Bereich: die Evaluation von Operationalisierung, Analyse und Interpretation in interdisziplinären Kontexten. 
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    Siehe Gius et al. (2018), aber auch Reiter et al. (2017), bzw. zur Projekt-Dokumentation Gius et al. (2016ff.).
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    Bspw. Daniel Zeman et al. 2017 dokumentieren, wie ein typischer NLP Task funktioniert.
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    Wir danken der VolkswagenStiftung für die Finanzierung dieses Workshops, der vom 17.-19. Sept. 2018 an der Universität Hamburg stattgefunden hat. CRETA (Stuttgart) danken wir für die Finanzierung der notwendigen Annotationsarbeiten durch unsere HiWis Linda Kessler, Tanja Preuß, Nina Stark, Hanna Winter. Katharina Krüger hat uns bei der Organisation in Hamburg unterstützt und Carla Sökefeld den Workshop protokolliert.
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    Ausführlichere Informationen und Literaturhinweise zu einführender (etwa Jahn 2017), grundlegender (etwa Ryan 1991 und Genette 1980: 227-237) und vertiefender (etwa Mani 2013) narratologischer Literatur finden sich auf der Projekthomepage 
+                    <ref target="https://sharedtasksinthedh.github.io/levels">https://sharedtasksinthedh.github.io/levels</ref>
+                </note>
+                <note xml:id="ftn5" n="5" rend="footnote text">
+                    Die ausführliche Dokumentation der Abläufe des STs, die Publikation der Guidelines inkl. Reviews wird in zwei Sonderheften der 
+                    <hi rend="italic">Cultural Analytics</hi> publiziert (vsl. Q4/2018 und Q3/2019).
+                </note>
+                <note xml:id="ftn6" n="6" rend="footnote text">
+                    Alle Guidelines wurden 1) durch die jeweiligen Autor/innen selbst, 2) durch ein zufällig ausgewähltes anderes teilnehmendes Team und 3) durch von uns eingesetzte Hilfskräfte annotiert. Grundlage der Annotation waren acht literarische Prosatexte unterschiedlichen Umfangs, die zwischen 1797 und 1931 publiziert wurden. Als Metrik für das Agreement wurde Gamma verwendet (Mathet et al., 2015).
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Genette, Gérard (1972)</hi>: <hi rend="italic">Narrative Discourse. An Essay in Method</hi>. Ithaca 1980. (Franz. Figures III. Paris 1972).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gius, Evelyn, / Nils Reiter / Marcus Willand (2016ff.)</hi>: <hi rend="italic">Shared Tasks in the Digital Humanities. Systematic Analysis of Narrative Texts through Annotation</hi>, Projektwebsite und -dokumentation <ref target="https://sharedtasksinthedh.github.io/">https://sharedtasksinthedh.github.io/</ref> [letzter Zugriff 28 September 2018]. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gius, Evelyn, / Reiter, Nils / Strötgen, Jannik / Willand, Marcus (2018)</hi>: <hi rend="italic">SANTA: Systematische Analyse Narrativer Texte durch Annotation</hi>. DHd2018, Köln.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mani, Inderjeet (2013)</hi>: <hi rend="italic">Computational Narratology</hi>. Peter Hühn, John Pier, Wolf Schmid und Jörg Schönert (Hrsg.). The living handbook of narratology. Hamburg University Press <ref target="http://www.lhn.uni-hamburg.de/article/computational-narratology">http://www.lhn.uni-hamburg.de/article/computational-narratology</ref> [letzter Zugriff 28 September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pier, John (2014)</hi>: <hi rend="italic">Narrative Levels</hi> (revised version; uploaded 23 April 2014). Peter Hühn, John Pier, Wolf Schmid und Jörg Schönert (Hrsg.). The living handbook of narratology. Hamburg University Press <ref target="http://www.lhn.uni-hamburg.de/article/narrative-levels-revised-version-uploaded-23-april-2014">ttp://www.lhn.uni-hamburg.de/article/narrative-levels-revised-version-uploaded-23-april-2014</ref> [letzter Zugriff 28 September 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reiter, Nils / Gius, Evelyn, / Strötgen, Jannik / Willand, Marcus (2017)</hi>: <hi rend="italic">A Shared Task for a Shared Goal - Systematic Annotation of Literary Texts</hi>. DH2017, Montreal.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ryan, Marie-Laure (1991)</hi>: <hi rend="italic">Possible Worlds, Artificial Intelligence, and Narrative Theory.</hi> Bloomington: Indiana University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mathet, Yann / Widlöcher, Antoine / Métivier, Jean-Philippe (2015)</hi>: <hi rend="italic">The unified and holistic method gamma (γ) for inter-annotator agreement measure and alignment</hi>. Computational Linguistics, 41(3):437–479.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zeman, Daniel et al. (2017)</hi>: <hi rend="italic">Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies</hi>. CoNLL <ref target="http://www.aclweb.org/anthology/K17-3001">http://www.aclweb.org/anthology/K17-3001</ref> [letzter Zugriff 28 September 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-013">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>„Bis zum Sankt(-|\s)?[Nn]immerleins(-|\s)?[Tt]ag“ – Der Datumserkenner „PDR-Dates“</title>
+        <author>
+          <name>
+            <surname>Fechner</surname>
+            <forename>Martin</forename>
+          </name>
+          <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+          <email>fechner@bbaw.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Körner</surname>
+            <forename>Fabian</forename>
+          </name>
+          <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+          <email>fkoerner@bbaw.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-10T15:06:00.76</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>normalization</term>
+          <term>regular expressions</term>
+          <term>date recognition</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Datenerkennung</term>
+          <term>Annotieren</term>
+          <term>Daten</term>
+          <term>Standards</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>Die Idee für einen Datumserkenner „PDR-Dates“ entwickelte sich 2009 während des
+          Anfangsstadiums des von der DFG geförderten <ref
+          target="http://www.personendatenrepositorium.de/"
+          >Personendaten-Repositoriums</ref> an der <ref target="http://www.bbaw.de/"
+          >Berlin-Brandenburgischen Akademie der Wissenschaften</ref>. Im Zuge dieses
+          Projektes wurde eine Lösung für die gemeinsame Speicherung und Bereitstellung
+          von Informationen aus heterogenen historischen Personendatenbeständen
+          geschaffen. Diese Bestände stammen vorrangig aus laufenden und abgeschlossenen
+          Projekten der BBAW. </p>
+          <p>Neben der zu erstellenden Software-Umgebung lag also von Anfang an ein wesentlicher Anteil der Arbeit des PDR im Bereich der Migration bestehender Informationsmengen aus ihrem wie auch immer gearteten Ausgangsformat in das Format des PDR.</p>
+          <p>Dabei fiel auf, dass man bei dieser Gelegenheit zwei Fliegen mit einer Klappe schlagen und versuchen kann, die Strukturierung der Informationen nicht nur zu übernehmen, sondern zu verbessern. Dabei ist extrem hilfreich, dass man den genauen Kontext der Inhalte einer Informationsmenge nutzen kann, um das global extrem komplexe Problem der Erkennung von Datumsangaben soweit zu reduzieren, das ein realisierbares Werkzeug für die Automatisierung geschaffen werden kann: der Datumserkenner „PDR-Dates“.</p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Funktionsweise</head>
+          <p>Ziel der Datumserkenners „ PDR-Dates“ ist die Identifizierung von natürlich-sprachlichen Datumsangaben in verschieden-sprachigen Texten, um im Sinne des Data Retrieval einen Mehrwert zu erzielen. Natürlich-sprachliche Datumsangaben sollen hierfür in das Standardformat nach ISO 8601 (s.
+            <ref target="http://www.iso.org/iso/iso8601">International Organization of Standardization</ref> und
+            <ref target="https://de.wikipedia.org/wiki/ISO_8601">Wikipedia</ref> ) umgewandelt werden, damit sie maschinenlesbar sind. Zu diesem Zweck wurde eine Java-Bibliothek programmiert, die in Forschungsumgebungen oder in Web Services integriert werden kann. Beispiele hierfür sind die Zeitraumangaben des Webservices „
+            <ref target="http://correspsearch.bbaw.de/search.xql?l=de">correspSearch</ref> “ oder die
+            <ref target="http://pdr.bbaw.de/software/webservices/">Webservices des PDR</ref> , die mit „PDR-Dates“ arbeiten. Der Datumserkenner „PDR-Dates“ kann sowohl einzelne Zeitpunkte, als auch Zeiträume erkennen.
+          </p>
+          <p>Der Datumserkenner baut auf der syntaktischen Mustererkennung durch reguläre Ausdrücke auf. Um komplexere Zeitangaben in Texten erkennen zu können, werden drei Schritte angewandt: (1) Der tokenisierte Text wird mit regulären Ausdrücken geprüft, ob die einzelnen Tokens für eine Datumsangabe relevante Informationen enthalten können. (2) Über mehrere klassifizierte Tokens hinweg wird nach definierten Mustern gesucht. Diese Mustererkennung wird mit einer Vielzahl von Mustern über dem gleichen Text wiederholt, so dass auch lange zusammengesetzte Datumsangaben erkannt werden können. (3) Schließlich werden alle erkannten Datumsangaben hinsichtlich ihrer Bedeutung interpretiert. Dafür wird auf alle zusammengetragenen Informationen zurückgegriffen.</p>
+          <p>(1) Die regulären Ausdrücke unterteilen die Tokens in einzelne Klassen, so wird:
+            "Anfang", "Januar", "2016" als "approximation", "month01", "d4" erkannt. Neben
+            Zahlen und Zahlausdrücken werden Feiertage, Monatsnamen, Jahreszeiten,
+            Näherungsangaben, Jahrhundertangaben und Wörter mit Sonderfunktion erkannt.</p>
+            <p>(2) Die Mustererkennung gibt den einzelnen Tokens eine vorläufige Bedeutung für die spätere Interpretation (etwa "März 1800" als "month_yyyy"). Da im Text iterativ nach verschiedenen Mustern gesucht wird, ist es möglich schon erkannte Datumsangaben durch Konkretisierungen in Form von Prefix- oder Suffix-Mustern zu erweitern. Jede so erkannte Datumsangabe bezeichnet entweder einen Zeitpunkt ("1.1.1800" als "d_m_yyyy") oder es ist möglich, dass durch ungefähre Angaben ein Zeitraum bezeichnet wird ("Anfang März 1800" als "approximation_month_yyyy"). Auch kann erkannt werden, ob zwei schon erkannte Datumsangaben einen Zeitraum bezeichnen ("von Dezember 1800 bis Januar 1805" als "limit_month_yyyy_to_month_yyyy"). </p>
+            <p>(3) Bei der Interpretation der Muster werden alle festgestellten Informationen
+              für die Verarbeitung zum Format nach ISO 8601 genutzt. Einige Tokens erhalten je
+              nach Positionierung im Muster eine andere Interpretation, so bezeichnet der Term
+              "Anfang" in "Anfang März" und "Anfang 1800" jeweils unterschiedlich lange
+              Zeiträume. Auch können feste Feiertage ("Mariä Empfängnis 1800"), sowie von
+              Ostern und dem Jahr abhängige Feiertage ("Pfingstmontag 1800") interpretiert
+              werden. Handelt es sich bei einem oder beiden Daten bereits um eine Zeitspanne,
+              wird der volle Zeitraum als Zieldatum ausgegeben.</p>
+              <p>(Beispiel über den Web Service des PRD mit dem Text „Die nächsten Semesterferien dauern von Mitte Februar bis Mitte April 2016“ findet sich hier:</p>
+              <p>
+                <ref target="https://pdrprod.bbaw.de/pdrws/dates?lang=de&amp;text=Die%20nächsten%20Semesterferien%20dauern%20von%20Mitte%20Februar%20bis%20Mitte%20April%202016&amp;output=xml">https://pdrprod.bbaw.de/pdrws/dates?lang=de&amp;text=Die%20n%C3%A4chsten%20Semesterferien%20dauern%20von%20Mitte%20Februar%20bis%20Mitte%20April%202016&amp;output=xml</ref> )
+              </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Erweiterungen und Begrenzungen</head>
+              <p>Mit Hilfe einer Konfigurationsdatei in XML ist es möglich eine eigene Java-Bibliothek zu erzeugen. Damit kann die Datumserkennung an einzelne Forschungskontexte angepasst und dort zwischen möglichen Kooperationspartnern ausgetauscht werden.</p>
+              <p>Mit dem geschilderten Vorgehen werden ausschließlich vollständige Datumsangaben
+                erkannt. Für eine Interpretation von Datumsangaben, die sich nur relativ zu
+                einem Bezugsdatum interpretieren lassen (etwa: "letzte Woche"), müsste die
+                syntaktische Mustererkennung auch um eine semantische Mustererkennung erweitert
+                werden. Die bereitgestellte Bibliothek (zu erreichen über den Web Service des
+                PDR, für die APIs <ref target="https://pdrprod.bbaw.de/pdrws/dates?doc=api"
+                >https://pdrprod.bbaw.de/pdrws/dates?doc=api</ref>) erkennt Datumsangaben in
+                deutsch, englisch und italienisch. Mit der geschilderten Konfigurationsdatei ist
+                eine Erweiterung aber auch ohne Programmierkenntnisse möglich. </p>
+              </div>
+            </body>
+            <back>
+              <div type="bibliogr">
+                <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl>
+                    <hi rend="bold">correspSearch</hi> (2015): <hi rend="italic">correspSearch –
+                    Verzeichnisse von Briefeditionen durchsuchen</hi>. <ref
+                    target="http://correspsearch.bbaw.de/search.xql?l=de"
+                    >http://correspsearch.bbaw.de/search.xql?l=de</ref> [letzter Zugriff 15.
+                    Oktober 2015]. </bibl>
+                    <bibl>
+                      <hi rend="bold">International Organization for Standardization</hi> (o. J.):
+                      <hi rend="italic">Date and time format – ISO 8601</hi>. <ref
+                      target="http://www.iso.org/iso/iso8601"
+                      >http://www.iso.org/iso/iso8601</ref> [letzter Zugriff 15. Oktober
+                      2015]. </bibl>
+                      <bibl>
+                        <hi rend="bold">Personendaten-Repositorium</hi> (2012): <hi rend="italic"
+                        >Webservices – Personendaten-Repositorium</hi>. <ref
+                        target="http://pdr.bbaw.de/software/webservices/"
+                        >http://pdr.bbaw.de/software/webservices/</ref> [letzter Zugriff: 15.
+                        Oktober 2015]. </bibl>
+                        <bibl>
+                          <hi rend="bold">Wikipedia</hi>: <hi rend="italic">ISO 8601</hi>. <ref
+                          target="https://de.wikipedia.org/wiki/ISO_8601"
+                          >https://de.wikipedia.org/wiki/ISO_8601</ref> [letzter Zugriff 15.
+                          Oktober 2015]. </bibl>
+                        </listBibl>
+                      </div>
+                    </back>
+                  </text>
+                </TEI>

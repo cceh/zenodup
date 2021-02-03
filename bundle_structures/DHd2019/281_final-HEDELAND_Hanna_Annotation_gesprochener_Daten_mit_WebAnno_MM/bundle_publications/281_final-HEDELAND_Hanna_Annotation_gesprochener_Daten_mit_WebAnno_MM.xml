@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="281_final-HEDELAND_Hanna_Annotation_gesprochener_Daten_mit_WebAnno_MM" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotation gesprochener Daten mit WebAnno-MM</title>
+                <author>
+                    <persName>
+                        <surname>Hedeland</surname>
+                        <forename>Hanna</forename>
+                    </persName>
+                    <affiliation>Hamburger Zentrum für Sprachkorpora, Universität Hamburg, Deutschland</affiliation>
+                    <email>hanna.hedeland@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Remus</surname>
+                        <forename>Steffen</forename>
+                    </persName>
+                    <affiliation>Language Technology Group, Universität Hamburg, Deutschland</affiliation>
+                    <email>remus@informatik.uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ferger</surname>
+                        <forename>Anne</forename>
+                    </persName>
+                    <affiliation>Hamburger Zentrum für Sprachkorpora, Universität Hamburg, Deutschland</affiliation>
+                    <email>anne.ferger@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bührig</surname>
+                        <forename>Kristin</forename>
+                    </persName>
+                    <affiliation>Hamburger Zentrum für Sprachkorpora, Universität Hamburg, Deutschland</affiliation>
+                    <email>kristin.buehrig@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Biemann</surname>
+                        <forename>Chris</forename>
+                    </persName>
+                    <affiliation>Language Technology Group, Universität Hamburg, Deutschland</affiliation>
+                    <email>biemann@informatik.uni-hamburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T09:18:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>WebAnno</term>
+                    <term>EXMARaLDA</term>
+                    <term>ISO/TEI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Sprache</term>
+                    <term>Multimedia</term>
+                    <term>Standards</term>
+                    <term>Video</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align:left; ">Wir präsentieren 
+                WebAnno-MM<hi rend="superscript">1</hi>, eine Erweiterung des populären web-basierten Annotationstools 
+                WebAnno<hi rend="superscript">2</hi> (Yimam et al., 2013; Eckart de Castilho et al., 2014), welches die Annotation transkribierter Daten ermöglicht und dabei parallel synchronisierte Ansichten auf die Daten zur Verfügung stellt. Die Erweiterung wurde im Rahmen eines Projekts zur Erarbeitung und Erprobung innovativer Lehrmethoden entwickelt (vgl. Remus et al, 2018), um Annotation von Videodaten als Unterstützung für die Analyse und Reflexion authentischer Diskursbeispiele einsetzen zu können. Eine entscheidende Rolle spielen dabei das kollaborative Annotieren und die systematische Überprüfung der Übereinstimmung – einerseits zwischen Studierenden, als Diskussionsgrundlage im Seminar, und anderseits durch einen Studierenden zu verschiedenen Zeitpunkten, um so Einblicke in die Aneignung neuer Konzepte zu bekommen. Die Auswertung von Inter- und Intra-Annotator-Agreement wird durch die elaborierte Nutzerverwaltung und das bereits existierende Kurationsmodul von WebAnno ermöglicht. Ein weiterer Vorteil von WebAnno in Hinblick auf die Diskursannotation ist der bessere Überblick über größere Abschnitte des Diskurses verglichen mit gängigen Werkzeugen, die in erster Linie für die Transkription und Annotation auf Äußerungsebene entwickelt worden sind, wie z.B. der EXMARaLDA Partitur-Editor (Schmidt und Wörner, 2014) oder ELAN (Sloetjes, 2014). Auch hinsichtlich der Struktur der Annotationen bietet WebAnno große Flexibilität, da neben einfacher Spannenannotation auch relationale und feature-basierte Annotationen möglich sind. Ein wichtiger Aspekt für den Einsatz in der Lehre ist zudem die einfache Handhabung einer web-basierten Plattform.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>WebAnno-MM Plugin</head>
+                <p style="text-align:left; ">WebAnno bietet in der Basisversion nur geringe Funktionalität für transkribierte gesprochene Daten. WebAnno-MM bietet daher nun als Plugin für WebAnno sowohl die Möglichkeit, alignierte Mediendateien abzuspielen, als auch die Transkriptionsdaten nach bestimmten Konventionen und dem vorgesehenen Layout für die qualitative Analyse zu visualisieren. Durch ein Open-Source-Projekt wie WebAnno wird nicht nur der Einsatz der Lehrmethode und der neuen WebAnno-Version in verschiedenen Kontexten ermöglicht, sondern auch die Ergänzung und Weiterentwicklung zusätzlicher Funktionalitäten für ähnliche Vorhaben. In Hinblick auf Interoperabilität und Nachhaltigkeit der Lösung wurde dementsprechend der auf den 
+                TEI-Richtlinien<hi rend="superscript">3</hi> basierende ISO-Standard „Transcription of Spoken 
+                Language“<hi rend="superscript">4</hi> als Grundlage gewählt, für die eine Konvertierung aus gängigen Transkriptionswerkzeugformaten bereits möglich ist (vgl. Schmidt et al., 2017).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenmodellierung in WebAnno</head>
+                <p style="text-align:left; ">Die Grundlage in WebAnno‘s Backend ist UIMA (Unstructured Information Management 
+                Architecture)<hi rend="superscript">5</hi> (Ferrucci und Lally, 2004). UIMA speichert Textinformationen, d.h. den Text selbst und die Annotationen, in sogenannten CASs (Common Analysis Systems). Eine große Herausforderung ist die Darstellung von Transkriptionen und den (zeitlichen) Annotationen basierend auf mehreren Sprechern. Die Textsequenz soll dabei die Wahrnehmung einer Konversation möglichst wenig behindern und die einzelnen segmentierten Äußerungen der Sprecher und ihrer kontinuierlichen Annotationen beibehalten. Dazu parsen wir ISO/TEI-XML-Inhalte und speichern Äußerungen einzelner Sprecher in verschiedenen sogenannten Views (verschiedene CASs des gleichen Dokuments) und behalten Zeitstempel als Metadaten innerhalb einer CAS. Wir verwenden das jeweils auf einzelnen Sprecherbeiträgen basierende 
+                    <hi rend="italic">annotationBlock</hi>-XML-Element als eine unterbrechungsfreie Einheit, da wir in diesem Fall davon ausgehen können, dass einzelne Annotationen innerhalb der Zeitgrenzen des Sprecherbeitrags liegen. Äußerungen und vorhandene Spannenannotationen werden auf diese Weise in die vorhandene Annotationsansicht von WebAnno übernommen. Eigenständige Ereignisse wie beispielsweise non-verbale Äußerungen hingegen, die als sogenannte 
+                    <hi rend="italic">Incidents</hi> auch über andere, sprecherabhängige Äußerungen hinweg auftreten können, werden nicht in die sequentielle WebAnno Annotationsansicht konvertiert, sondern nur in der zusätzlichen Partituransicht dargestellt.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Visualisierung der Transkriptionsdaten</head>
+                <p style="text-align:left; ">Die neu integrierte Partituransicht basiert auf einer Visualisierung von Äußerungen und Annotationen im bekannten 
+                Partiturlayout<hi rend="superscript">6</hi>. Abbildung 1 (rechts) zeigt einen Screenshot von der Partituransicht. Die Annotationsansicht und die Partituransicht sind synchronisiert, d.h. durch Klicken auf die entsprechenden Zeitmarkierungen im jeweiligen Browserfenster ändert sich der Fokus in dem anderen. Durch Klicken wird auch die Medienwiedergabe gestartet oder pausiert. Darüber hinaus kann in der Partituransicht unter den verknüpften Medienformaten die aktuell abzuspielende Datei festgelegt und die Breite der Partiturflächen nach Bedarf eingestellt werden. Es stehen außerdem die Metadaten der Aufnahme und den Sprechern zur Verfügung.
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.003763888888887cm" height="6.164791666666667cm" url="281_final-89dfedcde9e56588ef711a208d16db9f.png" rend="block"/>
+					<head>
+						<lb/><quote>Abbildung 1. Annotationsansicht (links), Partituransicht (rechts)</quote>
+					</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Präsentation</head>
+                <p style="text-align:left; ">Wir stellen auf der Grundlage unseres Posters die theoretischen Hintergründe sowie die technische Implementierung der Erweiterung vor und zeigen das Plugin und seine Anwendung in einer Live-Demonstration.</p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> https://github.com/webanno/webanno-mm
+                    </note>
+					<note place="foot" xml:id="ftn2" n="2"> https://webanno.github.io
+                    </note>
+					<note place="foot" xml:id="ftn3" n="3"> http://www.tei-c.org/guidelines/p5/
+                    </note>
+					<note place="foot" xml:id="ftn4" n="4"> http://www.iso.org/iso/catalogue_detail.htm?csnumber=37338
+                    </note>
+					<note place="foot" xml:id="ftn5" n="5"> https://uima.apache.org/
+                    </note>
+					<note place="foot" xml:id="ftn6" n="6"> Beispiel der Partituransicht: http://hdl.handle.net/11022/0000-0000-4F70-A
+                    </note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Eckart de Castilho, Richard / Biemann, Chris / Gurevych, Iryna / Yiman, Seid Muhie (2014):</hi> 
+                        <hi rend="italic">WebAnno: a flexible, web-based annotation tool for CLARIN</hi>, 
+                        in: Proceedings of the CLARIN Annual Conference 2014 1-3.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Ferrucci, David / Lally, Adam (2004):</hi> 
+                        <hi rend="italic">UIMA: An Architectural Approach to Unstructured Information Processing in the Corporate Research Environment</hi>, 
+                        in: Natural Language Engineering, 10(3–4): 327-348.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Remus, Steffen / Hedeland, Hanna / Ferger, Anne / Bührig, Kristin / Biemann, Chris (2018):</hi> 
+                        <hi rend="italic">WebAnno meets EXMARaLDA</hi>, 
+                        in: Selected papers from the CLARIN Annual Conference 2018, Pisa, 8–10 October 2018. Linköping: University Electronic Press.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schmidt, Thomas / Wörner, Kai (2014):</hi> 
+                        <hi rend="italic">EXMARaLDA</hi>, 
+                        in: 
+                        <hi rend="bold">Durand, Jacques / Gut, Ulrike / Kristoffersen, Gjert (eds.): </hi>
+                        <hi rend="italic">Handbook on Corpus Phonology</hi>. Oxford: University Press 402-419.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schmidt, Thomas / Hedeland, Hanna / Jettka, Daniel (2017):</hi> 
+                        <hi rend="italic">Conversion and annotation web services for spoken language data in CLARIN</hi>, 
+                        in: Selected papers from the CLARIN Annual Conference 2016, Aix-en-Provence, 26–28 October 2016. Linköping: University Electronic Press 113–130.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Sloetjes, Han (2014):</hi> 
+                        <hi rend="italic">ELAN: Multimedia annotation application</hi>, 
+                        in: 
+                        <hi rend="bold">Durand, Jacques / Gut, Ulrike / Kristoffersen, Gjert (eds.): </hi>
+                        <hi rend="italic">Handbook on Corpus Phonology</hi>. Oxford: University Press 305–320.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Yimam, Seid Muhie / Gurevych, Iryna / Eckart de Castilho, Richard / Biemann, Chris (2013):</hi> 
+                        <hi rend="italic">WebAnno: A flexible, web-based and visually supported system for distributed annotations</hi>, 
+                        in: Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics: System Demonstrations  , Sofia, Bulgaria 1-6.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

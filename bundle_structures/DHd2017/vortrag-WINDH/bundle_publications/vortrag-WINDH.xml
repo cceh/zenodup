@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-WINDH" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Zur polykubistischen Informationsvisualisierung von Biographiedaten</title>
+<author>
+<persName>
+<surname>Windhager</surname>
+<forename>Florian</forename>
+</persName>
+<affiliation>Donau-Universität Krems, Österreich</affiliation>
+<email>florian.windhager@donau-uni.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Mayr</surname>
+<forename>Eva</forename>
+</persName>
+<affiliation>Donau-Universität Krems, Österreich</affiliation>
+<email>eva.mayr@donau-uni.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Schreder</surname>
+<forename>Günther</forename>
+</persName>
+<affiliation>Donau-Universität Krems, Österreich</affiliation>
+<email>guenther.schreder@donau-uni.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Wandl-Vogt</surname>
+<forename>Eveline</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Wien</affiliation>
+<email>eveline.wandl-vogt@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Gruber</surname>
+<forename>Christine</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Wien</affiliation>
+<email>christine.gruber@oeaw.ac.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T20:44:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Biographiedaten</term>
+<term>Informationsvisualisierung</term>
+<term>Visuelle Analyse</term>
+<term>Visuelle Synthese</term>
+<term>Space-Time Cube</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Gestaltung</term>
+<term>Strukturanalyse</term>
+<term>Räumliche Analyse</term>
+<term>Netzwerkanalyse</term>
+<term>Visualisierung</term>
+<term>Daten</term>
+<term>Bilder</term>
+<term>Karte</term>
+<term>Metadaten</term>
+<term>Methoden</term>
+<term>Personen</term>
+<term>Forschung</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Methoden der Informationsvisualisierung dienen der Unterstützung menschlicher Kognition im Umgang mit abstrakten Daten und Themen (Scaife &amp; Rogers, 1996). Dank der erfolgreichen Entwicklung entsprechender Verfahren helfen interaktive visuelle Repräsentationen seit geraumer Zeit bei der Analyse von multidimensionalen Daten in verschiedensten Disziplinen, inklusive zahlreicher geistes- und kulturwissenschaftlicher Forschungsfelder (cf. Sula, 2013; Jänicke, Franzini, Cheema &amp; Scheuermann, 2015). Als Resultat ist mittlerweile ein ganzes Spektrum von bildgebenden Methoden für die Exploration und Analyse der Daten von geisteswissenschaftlichen ForscherInnen verfügbar. Dies gilt auch für HistorikerInnen, die biographische Datensätze von historischen Individuen exemplarisch mit Hilfe von geographischen Karten, chronologischen Timelines, genealogischen Bäumen, oder in relationalen Topologien und Netzwerken von Akteuren und Artefakten veranschaulichen und visuell analysieren können. </p>
+<p>Der Vortrag baut auf dieser Vielheit von etablierten Methoden für die visuelle Analyse biographischer Daten auf – und präsentiert ein neue Methode der visuellen Synthese und Integration in einem konsistenten Rahmenwerk. Damit wird ein Vorschlag für die Gestaltung eines visuellen Interface unterbreitet, das die bessere kognitive Integration von mehreren möglichen Perspektiven auf komplexe historische Datensätze ermöglicht. </p>
+<p>Das Bezugsproblem stellt dabei die kognitive Herausforderung dar, die auftritt, wenn multiple Visualisierungen (z.B. Karten, Treemaps oder Netzwerke – mit ihrer jeweiligen zeitlich-dynamischen Dimension) als Teilperspektiven auf denselben Datensatz zusammenkommen. Indem die resultierenden Bilder üblicherweise nur zeitlich gestaffelt (sequentiell) oder in räumlichem Nebeneinander (parallel, gelegentlich auch als „coordinated multiple views“, Roberts, 2007) präsentiert werden, stellt die makrokognitive Synthese (Klein &amp; Hofmann, 2008) dieser lokalen Teilperspektiven zu einem globalen 
+                <hi rend="italic">bigger picture</hi> eine besondere Herausforderung dar, das die kognitiven Systeme von ForscherInnen nicht selten überlastet. Kognitionswissenschaftlichen Reflexionen zum Gebrauch visueller Interfaces (Hegarty, 2011; Liu, Nersessian, &amp; Stasko, 2008; Patterson et al., 2014) gehen davon aus, dass solche Synthesen qualitativ sehr unterschiedliche Ergebnisse zeitigen können – und dass ohne besonderen makrokognitiven Aufwand nur das Zustandekommen von unvollständigen und oftmals inkonsistenten „kognitiven Collagen“ (Tversky, 1993) zu erwarten ist.
+            </p>
+<p>Im Kontrast dazu präsentiert der Vortrag ein polykubistisches Rahmenwerk (Windhager, 2013; Windhager et al., 2016), das eine Synthese von unterschiedlichen Visualisierungen schon auf der Ebene der externen Repräsentation (i.e. des Displays) vornimmt, und somit die Konstruktion eines konsistenten mentalen Modells als interne Repräsentation erleichtert. Als grundlegende Methode der Visualisierung dienen hierbei sogenannte Raum-Zeit-Kuben (Space-Time Cubes), die zweidimensionale Visualisierungen (z.B. Karten) mit einer Zeitachse in der dritten Dimension zusammenführen. Die geographische Bewegung von Individuen oder Objekten wird in solchen Kuben als Raum-Zeit-Spur mit jeweils spezifischer und charakteristischer Gestalt sichtbar: Während ruhende Objekte vertikale Trajektorien in die Raumzeit zeichnen, werden Wanderungen und Ortsveränderungen als horizontale Abweichungen sichtbar, die in der Folge visuell analysiert werden können. Durch die freie Skalierbarkeit solcher Kuben können räumliche Bewegungen (von lokalen bis zu globalen Mustern) in allen zeitlichen Maßstäben (von Stunden bis zu Epochen) abgedeckt werden. </p>
+<p>Dieses Verfahren, dass die beiden Visualisierungsmethoden von geographischen Karten und chronographischen Timelines zur Synthese bringt, kann in der Folge auf andere Methoden wie Treemaps oder Netzwerkvisualisierungen übertragen werden (Federico, Aigner, Miksch, Windhager, &amp; Zenk, 2011; Windhager, 2013). Damit werden komplementäre Perspektiven auf die Lebenswege von Individuen durch die dreidimensionalen Topologien von geografischer, sozialer oder kulturell-kategorialer Raumzeit zusammengeführt (Abb. 1). Dieses Rahmenwerk von „coordinated multiple cubes“ dient durch seine generalisierte Projektionsmethode für zeit-orientierte Daten insofern zugleich der visuellen Analyse, sowie der visuellen Synthese von üblicherweise getrennten Einzelperspektiven. Die Kuben können in der Folge mit verschiedenen Methoden der dynamischen Visualisierung im Detail exploriert werden (Bach et al., 2014), sowie durch die Nutzung weiterer visueller Kohärenztechniken (z.B. narrative Methoden, cf. Windhager, Schreder, Smuc, &amp; Mayr 2015) verwoben werden. Darüber hinaus wird durch die skizzierte Architektur die Trennung von Methoden der “Scientific Visualization” und der “Information Visualization” (Rhyne, 2003) überbrückt, wodurch Vorteile und Synergien für beide Seiten zum Tragen kommen (Sedlmair et al., 2009).</p>
+<p>Um die praktische Relevanz dieses Rahmenwerks für die Exploration historischer Daten zu demonstrieren, präsentieren wir erste Ergebnisse der geo-temporalen Visualisierung von biographischen Datensätzen aus dem APIS-Projekt (http://www.oeaw.ac.at/acdh/en/apis) mithilfe der Software GeoTime (Kapler &amp; Wright, 2005). In der Gegenüberstellung der Lebenswege von Individuen verschiedener Berufsgruppen (z.B. von Abenteurern und Kunstschaffenden) kommen strukturelle Merkmale zum Vorschein, die der visuellen Analyse komplexer historischer Datensätze neue Möglichkeiten eröffnen.</p>
+<figure>
+<graphic height="8.006102777777778cm" n="1001" rend="inline" url="vortrag-WINDH-image1.png" width="16.002cm"/>
+</figure>
+<p>
+<hi rend="bold">Abbildung 1</hi>: Rahmenwerk zur Visualisierung von Biographiedaten mit paralleler Perspektive auf geographische, soziale und kategoriale Raumzeit.
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bach, Benjamin / Dragicevic, Pierre / Archambault, Daniel / Hurter, Christophe / Carpendale, Sheelagh</hi> (2014):
+                        „A Review of Temporal Data Visualizations Based on Space-Time Cube Operations“, 
+                        in:
+                        <hi rend="italic">EuroVis-STARs</hi>.
+                        The Eurographics Association 23–41. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Engelhardt, Yuri</hi> (2006): 
+                        „Objects and spaces: The visual language of graphics“,  
+                        in:
+                        <hi rend="italic">International Conference on Theory and Application of Diagrams</hi>. 
+                        Berlin / Heidelberg: Springer 104–108.
+                    </bibl>
+<bibl>
+<hi rend="bold">Federico, Paolo / Aigner, Wolfgang / Miksch, Silvia / Windhager, Florian / Zenk, Lukas</hi> (2011): 
+                        „A Visual Analytics Approach to Dynamic Social Networks“, 
+                        in:
+                        <hi rend="italic">Proceedings of the 11th International Conference on Knowledge Management and Knowledge Technologies (i-KNOW), Special Track on Theory and Applications of Visual Analytics (TAVA)</hi>. 
+                        Graz: ACM 47:1–47:8.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hegarty, Mary</hi> (2011): 
+                        „The cognitive science of visual-spatial displays: Implications for design“ ,
+                        in: 
+                        <hi rend="italic">Topics in Cognitive Science</hi> 3: 446–474.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jänicke, Stefan / Franzini, Greta / Cheema, Muhammad Faisal / Scheuermann, Gerik</hi> (2015): 
+                        „On Close and Distant Reading in Digital Humanities: A Survey and Future Challenges“,  
+                        in:
+                        <hi rend="italic">EuroVis-STARs</hi>. 
+                        The Eurographics Association.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kapler, Thomas / Wright, William</hi> (2005): 
+                        „GeoTime information visualization“,
+                        in: 
+                        <hi rend="italic">Information Visualization</hi> 4 (2), 136–146.
+                    </bibl>
+<bibl>
+<hi rend="bold">Klein, Gary / Hoffman, Robert R.</hi> (2008): 
+                        „Macrocognition, mental models, and cognitive task analysis methodology“, 
+                        in: 
+                        <hi rend="italic">Naturalistic Decision Making and Macrocognition</hi> 57–80.
+                    </bibl>
+<bibl>
+<hi rend="bold">Liu, Zhicheng / Nersessian, Nancy J. / Stasko, John T.</hi> (2008): 
+                        „Distributed cognition as a theoretical framework for information visualization“,
+                        in:
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics</hi> 14 (6) 1173–1180.
+                    </bibl>
+<bibl>
+<hi rend="bold">Patterson, Robert E. / Blaha, Leslie M. / Grinstein, Georges G. / Liggett, Kristen K. / Kaveney, David E. / Sheldon, Kathleen C. /  Moore, Jason A.</hi> (2014): 
+                        „A human cognition framework for information visualization“,  
+                        in:
+                        <hi rend="italic">Computers &amp; Graphics</hi> 42: 42–58.
+                    </bibl>
+<bibl>
+<hi rend="bold">Roberts, Jonathan C.</hi> (2007): 
+                        „State of the art: Coordinated &amp; multiple views in exploratory visualization“,  
+                        in:
+                        <hi rend="italic">Fifth International Conference on Coordinated and Multiple Views in Exploratory Visualization (CMV’07)</hi> 61–71. 
+                        IEEE.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rhyne, Theresa-Marie</hi> (2003): 
+                        „Does the difference between information and scientific visualization really matter?“,
+                        in:
+                        <hi rend="italic">IEEE Computer Graphics and Applications</hi> 23 (3): 6–8.
+                    </bibl>
+<bibl>
+<hi rend="bold">Scaife, Mike / Rogers, Yvonne</hi> (1996): 
+                        „External cognition: how do graphical representations work?“,
+                        in:
+                        <hi rend="italic">International Journal of Human-Computer Studies</hi> 45 (2): 185–213.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sedlmair, Michael / Ruhland, Kerstin / Hennecke, Fabian / Butz, Andreas / Bioletti, Susan / O’Sullivan, Carol</hi> (2009): 
+                        „Towards the big picture: Enriching 3d models with information visualisation and vice versa“,  
+                        in:
+                        <hi rend="italic">Smart Graphics</hi>.
+                        Springer 27–39.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sula, Chris Alen</hi> (2013): 
+                        „Quantifying Culture: Four Types of Value in Visualisation“,  
+                        in: Bowen, Jonathan P. / Keene, Suzanne / Ng, Kia (eds.):
+                        <hi rend="italic">Electronic Visualisation in Arts and Culture</hi>. 
+                        Springer 25–37.
+                    </bibl>
+<bibl>
+<hi rend="bold">Swaab, Roderick I. / Postmes, Tom / Neijens, Peter / Kiers, Marius H. / Dumay, Adrie C. M.</hi> (2002): 
+                        „Multiparty negotiation support: The role of visualization’s influence on the development of shared mental models“, 
+                        in:
+                        <hi rend="bold">Journal of Management Information Systems</hi> 19 (1): 129–150.
+                    </bibl>
+<bibl>
+<hi rend="bold">Tversky, Barbara</hi> (1993): 
+                        „Cognitive maps, cognitive collages, and spatial mental models“,  
+                        in:
+                        <hi rend="italic">Spatial Information Theory: A Theoretical Basis for GIS</hi>. 
+                        Berlin: Springer 14–24.
+                    </bibl>
+<bibl>
+<hi rend="bold">Windhager, Florian</hi> (2013): 
+                        „On Polycubism. Outlining a Dynamic Information Visualization Framework for the Humanities and Social Sciences“,  
+                        in: Fuellsack, Manfred (ed.):
+                        <hi rend="italic">Networking Networks: Origins, Applications, Experiments</hi>. 
+                        Wien: Turia + Kant 26–63.
+                    </bibl>
+<bibl>
+<hi rend="bold">Windhager, Florian / Mayr, Eva / Schreder, Günther / Smuc, Michael / Federico, Paolo / Miksch, Silvia</hi> (2016): 
+                        „Reframing Cultural Heritage Collections in a Visualization Framework of Space-Time Cubes“,  
+                        in:
+                        <hi rend="italic">Proceedings of the 3rd International Workshop on Computational History (HistoInformatics 2016)</hi>.
+                        CEUR 20–24.
+                    </bibl>
+<bibl>
+<hi rend="bold">Windhager, Florian / Schreder, Günther / Smuc, Michael / Mayr, Eva</hi> (2015): 
+                        „Drawing Things Together: Supporting Information Visualizations' Coherence across Multiple Views“,  
+                        in:
+                        <hi rend="italic">Proceedings of the IEEE Information Visualization Conference 2016 (Posters Compendium)</hi>.
+                        IEEE Computer Society Press.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

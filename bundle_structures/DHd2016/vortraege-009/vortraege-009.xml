@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-009">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DH-Projekte Österreichischer Literaturarchive: Ein Problembericht</title>
+        <author>
+          <name>
+            <surname>Hannesschläger</surname>
+            <forename>Vanessa</forename>
+          </name>
+          <affiliation>ACDH-OEAW Austrian Center for Digital Humanities, Österreich</affiliation>
+          <email>vanessa.hannesschlaeger@oeaw.ac.at</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-29T14:54:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Archiv</term>
+          <term>best practices</term>
+          <term>Standards</term>
+          <term>Digitalisierung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Sammlung</term>
+          <term>Transkription</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kommunikation</term>
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Bewertung</term>
+          <term>Kollaboration</term>
+          <term>Lehre</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Visualisierung</term>
+          <term>Bibliographie</term>
+          <term>Curricula</term>
+          <term>Daten</term>
+          <term>Infrastruktur</term>
+          <term>Literatur</term>
+          <term>Manuskript</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>In diesem Beitrag werden die Probleme skizziert, die sich aus Praktiken
+          Österreichischer Archive bei der Umsetzung von online-Projekten ergeben. Die
+          Beschränkung auf Österreich ergibt sich, um die Beispiel-Palette überschaubar zu
+          halten; die Problembereiche und Lösungsvorschläge lassen sich allerdings
+          allgemein anwenden. State-of-the-art Projekte von Bibliotheken und Archiven im
+          deutschsprachigen Raum, die den neusten Stand der Forschung umsetzen, werden in
+          einem ersten Schritt beschrieben. Der zweite Abschnitt skizziert Gründe dafür
+          und Konsequenzen daraus, dass diese Standards häufig nicht herangezogen werden.
+          Schließlich werden Lösungsvorschläge präsentiert und eine Agenda vorgeschlagen,
+          die die Situation nachhaltig verbessern könnte. Diese wird im Rahmen des
+          Vortrags auf der DHd 2016 im Zentrum stehen. Dort werden auch die hier allgemein
+          beschriebenen Schwierigkeiten anhand mehrerer Beispielprojekte illustriert.</p>
+        </div>
+        <div xml:id="h.patkyope3cu4" type="div1" rend="DH-Heading1">
+          <head>Forschungsstand / Vorbildprojekte</head>
+          <p>Vor allem im Bereich der digitalen Edition haben sich im deutschsprachigen Raum
+            auf breiter Ebene Standards und “best practices” entwickelt, die von einer
+            etablierten Community umgesetzt werden. Umfangreiche Bibliotheken publizierter /
+            rechtefreier Werke bieten etwa das <ref target="http://www.deutschestextarchiv.de/"><hi rend="italic">Deutsche Textarchiv</hi></ref>
+            oder der Forschungsverbund <ref
+            target="https://textgrid.de/digitale-bibliothek"><hi rend="italic">TextGrid</hi></ref>. Diese Plattformen greifen zur Annotation der zur Verfügung gestellten
+            Texte auf die Auszeichnungssprache XML und das Datenformat TEI zurück, die sich
+            in den DH als Standards etabliert haben, und machen auch ihre entsprechenden
+            Tools verfügbar. Die Texte selbst sind creative-commons-lizenziert und können
+            von der Website des Deutschen Textarchivs downgeloadet werden, ebenso wie aus
+            dem <hi rend="italic">TextGrid Repository</hi>, das darüberhinaus als
+            Langzeitarchiv fungiert. </p>
+            <p>Im Bereich der Beforschung von Archivbeständen überwiegen im digitalen Raum
+              ebenfalls Editionsprojekte, die die erwähnten Standards zur Anwendung bringen.
+              Beispiele hierfür sind das <ref
+              target="http://www.hhp.uni-trier.de/Projekte/HHP/"><hi rend="italic"
+              >Heinrich-Heine-Portal</hi></ref>, das u. a. vom Deutschen
+              Literaturarchiv Marbach unterstützt und vom <hi rend="italic">Trier Centre for
+              Digital Humanities</hi> umgesetzt wird, oder die <ref
+              target="http://august-wilhelm-schlegel.de/briefedigital/"><hi rend="italic"
+              >Digitale Edition der Korrespondenz August Wilhelm Schlegels</hi></ref>,
+              an der letztgenanntes Zentrum ebenfalls beteiligt ist. Die Herzog August
+              Bibliothek Wolfenbüttel erarbeitet für ihre in der Reihe <ref
+              target="http://www.hab.de/de/home/bibliothek/digitale-bibliothek-wdb/digitale-editionen.html"
+              ><hi rend="italic">Editiones Electronicae Guelferbytanae</hi></ref>
+              publizierten digitalen Editionen ebenfalls neue Editionstechniken auf Basis der
+              TEI und stellt dazu Dokumentation zur Verfügung. Ein positives Beispiel mit
+              Österreichischer Beteiligung (eine Kooperation zwischen dem Literaturarchiv der
+              ÖNB und dem Institut für Germanistik der Universität Hamburg) ist die
+              Hybridedition des Briefwechsels August Sauer – Bernhard Seuffert (<ref
+              target="http://sauer-seuffert.onb.ac.at/"
+              >ÖNB 2015</ref>), die die Metadaten der online
+              edierten Briefe entsprechend TEI Standards codiert. </p>
+              <p>Wegweisend speziell für die Arbeit mit literarischen Nachlässen ist auch das
+                Virtual Research Environment (VRE) <ref target="http://salsah.org/"><hi
+                rend="italic">SALSAH </hi></ref> (System for Annotation and Linkage of
+                Sources in Arts and Humanities) des <hi rend="italic">Digital Humanities
+                Lab</hi> der Universität Basel, das ähnlich dem System von Susan Schreibmans
+                <ref
+                  target="http://v-machine.org/"><hi rend="italic">versioning machine</hi></ref> funktioniert.
+                </p>
+                <p>Im Bereich der Archivierung und Bereitstellung von elektronischen Publikationen,
+                  Multimedia-Objekten und anderen digitalen Daten wird in Österreich das Projekt
+                  <ref target="http://e-infrastructures.at/"><hi rend="italic"
+                    >e-Infrastructures Austria</hi></ref> umgesetzt, das u. a. mit Horizon
+                    2020 verbunden ist und wichtige Impulse für Forschungswebsitearchivierung
+                    bringen könnte. </p>
+                  </div>
+                  <div xml:id="h.d3mtqw5axf29" type="div1" rend="DH-Heading1">
+                    <head>Problemanalyse</head>
+                    <p>Die in Österreichischen Literaturarchiven aufbewahrten Bestände werden im Rahmen von wissenschaftlichen Projekten mit direkt an der Institution angesiedelten Mitarbeitenden erforscht und publiziert. Aufgrund der Vergabepolitik des FWF Forschungsfonds, der in den allermeisten Fällen Geldgeber dieser Unternehmen ist, haben die betreffenden Projekte mittlerweile häufig eine digitale Komponente. Projektleitende und Mitarbeitende sind zumeist literaturwissenschaftlich ausgebildet. Sie konzipieren und entwerfen, wie die digitale Repräsentation ihrer Arbeit strukturiert wird und erarbeiten das wissenschaftliche Konzept, das Inhalt und Funktionalität zugrundeliegt. Für die technische Umsetzung werden meist erst nach Abschluss der konzeptionellen Arbeit externe Auftragnehmende engagiert, oft privatwirtschaftliche IT-Unternehmen, die von den Möglichkeiten, die im Bereich der DH bereits verfügbar wären, nur eingeschränkte Kenntnis haben.</p>
+                    <p>Aus dieser Situation ergeben sich Probleme in mehreren Bereichen:</p>
+                    <div xml:id="h.96y70wck9r2t" type="div2" rend="DH-Heading2">
+                      <head>Langzeitarchivierung von Scans</head>
+                      <p>Die im Rahmen von Projekten erstellten Scans sollten in einer digitalen Langzeitarchivierung der projekttragenden Institution abgelegt werden, was fallweise versäumt wird. Gründe:</p>
+                      <list type="unordered">
+                        <item>fehlender Speicherplatz </item>
+                        <item>fehlende Arbeitszeit (sowohl auf Projekt- als auch auf Institutionsseite)</item>
+                        <item>pragmatische Lösungen: Langzeitarchivierungstaugliche Scans bedeuten einen aufwändigeren Arbeitsprozess</item>
+                        <item>die Materialien werden häufig nicht in größere Projekte eingespeist
+                          (z. B. Europeana)</item>
+                        </list>
+                      </div>
+                      <div xml:id="h.inv7af16a44w" type="div2" rend="DH-Heading2">
+                        <head>Datenmodellierung</head>
+                        <p>Die Projektzuständigen haben aufgrund ihrer Ausbildung meist einen editorischen oder von archivarischen Ordnungsprinzipien geprägten Zugang zur Modellierung und Strukturierung der Projektdaten. Gründe und Konsequenzen:</p>
+                        <list type="unordered">
+                          <item>die gewählten Datenmodelle sind selbst innerhalb einzelner Geisteswissenschaften nicht homogen</item>
+                          <item>wie konkret die gewählten Daten zu notieren und annotieren sind, wird in jedem Projekt individuell entschieden</item>
+                          <item>selbst bei Orientierung an vorhandenen Standards ergeben sich unterschiedliche Auslegungen</item>
+                          <item>keine ausreichenden Kenntnisse von TEI und anderen Standards</item>
+                          <item>“Selbstverständlichkeiten” werden im Datenmodell oft vergessen (z. B.
+                            die Angabe der Verfassenden, wenn ein Projekt sich mit dem Werk einer
+                            Einzelperson beschäftigt.)</item>
+                            <item>keine transdisziplinäre (Wieder-)Verwendung der Daten</item>
+                          </list>
+                        </div>
+                        <div xml:id="h.1g75i6oz4qu9" type="div2" rend="DH-Heading2">
+                          <head>Technische Umsetzung, Vernetzung, Visualisierung</head>
+                          <p>Forschungsprojekte werden häufig in Zusammenarbeit mit Firmen umgesetzt, die nicht (primär) mit wissenschaftlicher Klientel arbeiten, deren Wünsche und Methoden daher nicht im Detail verstehen und nicht mit bereits existierenden DH-Tools und Ressourcen vertraut sind. Konsequenzen:</p>
+                          <list type="unordered">
+                            <item>keine semantische Annotation, Vernetzung mit verfügbaren Datensätzen bzw. LOD</item>
+                            <item>keine projektinterne Vernetzung der Daten</item>
+                            <item>keine strukturierte Visualisierung des Datensatzes</item>
+                          </list>
+                        </div>
+                        <div xml:id="h.xkfzyqsz6uvq" type="div2" rend="DH-Heading2">
+                          <head>Langzeitarchivierung / Verfügbarmachung von Daten</head>
+                          <p>An hostenden Institutionen werden kaum personelle Ressourcen zur Wartung abgeschlossener online-Projekte einkalkuliert. Projekt-Websites sterben daher oft nach wenigen Jahren, mit ihnen die Daten. Auch in Projektfinanzierungsplänen wird dieser Aspekt bislang nicht berücksichtigt. Konsequenzen:</p>
+                          <list type="unordered">
+                            <item>Daten werden nicht als LOD zur Verfügung gestellt</item>
+                            <item>Trägerinstitutionen archivieren die Daten nicht sachgemäß</item>
+                          </list>
+                        </div>
+                      </div>
+                      <div xml:id="h.g4p2oxf1pwf7" type="div1" rend="DH-Heading1">
+                        <head>Lösungsansätze</head>
+                        <p>Der skizzierten Situation muss auf allen Ebenen begegnet werden:</p>
+                        <div xml:id="h.d8dbmf7dque8" type="div2" rend="DH-Heading2">
+                          <head>Institutionen</head>
+                          <p>Seitens der hostenden Institutionen muss stärker daran gearbeitet werden, für langfristige Datensicherung Möglichkeiten zu entwickeln und anzubieten oder Kooperationen mit Langzeitdatenarchiven einzugehen. Dafür müssen sowohl substanzielle finanzielle als auch personelle Ressourcen explizit dieser Aufgabe zugeordnet werden. Die Postionen, die die
+                            <hi rend="italic">AG Datenzentren im Verband DHd</hi> 2015 formuliert hat, sind dafür wertvolle Impulse und sollten stärker an Institutionen herangetragen werden. Da die betreffenden Institutionen meist Bibliotheken bzw. an solche angeschlossen sind, scheint es auch gewinnbringend, die institutionsinterne Kommunikation zu intensivieren: "digitale Biliothek"-Abteilungen haben für viele der skizzierten Probleme bereits gute Lösungsansätze entwickelt, wie das umfangreiche Vortragsprogramm zu diesem Thema am Österreichischen Bibliothekartag 2015 gezeigt hat. Auch die ÖNB hat mittlerweile eine wichtige Initiative in Angriff genommen: Eine interne Arbeitsgruppe Digital Humanities soll dort Lösungen für die digitale Arbeit entwickeln. Diese Herangehensweise kann für Bibliotheken allgemein als Vorbild dienen, sollte aber auch mit einer Initiative verbunden sein, die im Idealfall kollaborativ erarbeiteten (technischen) Lösungen mit anderen Bibliotheken und Digital Humanists zu teilen.
+                          </p>
+                        </div>
+                        <div xml:id="h.pxz0b1crvf7o" type="div2" rend="DH-Heading2">
+                          <head>Fördergebende</head>
+                          <p>Bei der Bewilligung von Projektanträgen sollten Fördergebende die skizzierten Probleme ernsthaft berücksichtigen und Projekte, die keine ausreichenden Ressourcen für die Arbeit an der digitalen Repräsentation der Projektergebnisse vorsehen, ablehnen - anstatt die Praxis, utopische Ziele in Projektanträge einzubauen, zu unterstützen. (Inter)Nationale DH-Plattformen sollten es sich zur Aufgabe machen, ein entsprechendes Empfehlungspapier zur Verfügung zu stellen. Bedenkenswert ist auch die Forderung nach einem “offenen Lebenszyklus” von Forschungsprojekten, die etwa von der Plattform
+                            <ref target="https://acdh.oeaw.ac.at/dha/"><hi rend="italic">digital humanities austria</hi></ref>
+                            gestellt wird.
+                          </p>
+                        </div>
+                        <div xml:id="h.22dj2fdx4pqx" type="div2" rend="DH-Heading2">
+                          <head>Forschende</head>
+                          <p>Das größte Potential zur nachhaltigen Verbesserung der Situation liegt im
+                            Bereich der Projektangestellten. Geisteswissenschaftlich Forschende erfahren
+                            im Rahmen des Studiums unzureichende Ausbildung zur Arbeit im digitalen Raum
+                            und haben in der Folge entsprechende Hemmungen, mit digital humanists in
+                            Austausch zu treten. Deshalb werden DH von nicht primär im digitalen Raum
+                            arbeitenden Forschenden noch immer als eigene Disziplin wahrgenommen anstatt
+                            als Teil und Methode des geisteswissenschaftlichen Forschens an sich. Hier
+                            muss Bewusstsein geschaffen und Skepsis abgebaut werden, indem die Lehrpläne
+                            grundlegend überarbeitet und gegenwärtigen Standards angepasst werden.
+                            Dadurch würden viele der umrissenen Probleme gar nicht erst entstehen. Neben
+                            den Forschenden der Zukunft, die man so erreichen kann, müssen kurz- bis
+                            mittelfristig auch die Forschenden der Gegenwart stärker animiert werden,
+                            sich mit seriösen Methodiken und Frameworks für Forschungsprojekte im
+                            digitalen Raum auseinanderzusetzen, indem sie dort, wo sie mit ihrem Wissen
+                            stehen, abgeholt werden. Dafür kann etwa die Vorgehensweise des <ref
+                            target="http://www.oeaw.ac.at/acdh/"><hi rend="italic">Austrian Centre
+                            for Digital Humanities</hi></ref> der Österreichischen Akademie der
+                            Wissenschaften als vorbildlich genannt werden: Hier steht den Forschenden
+                            ein digitaler Helpdesk zur Verfügung, der über Möglichkeiten und potentielle
+                            Partner für Projekte informiert. Auch das Outreach-Programm, in dessen
+                            Rahmen Vorträge, Workshops und eine jährliche DH-Konferenz veranstaltet
+                            werden, bietet die Möglichkeit, sich über digitale Methoden zu informieren
+                            und mit digital humanists in Kontakt zu treten. Ebenso zu begrüßen sind die
+                            Outreach Programme des <ref
+                            target="https://informationsmodellierung.uni-graz.at/"><hi rend="italic"
+                            >Zentrum für Informationsmodellierung – ACDH</hi></ref> der
+                            Universität Graz, das vor allem im Bereich der Lehre ein Österreichweites
+                            Vorbild sein sollte, und von <hi rend="italic">e-Infrastructures
+                            Austria.</hi>
+                          </p>
+                          <p>Die Arbeit in den Bereichen Helpdesk und Outreach zeigt, dass für eine zeitnahe Verbesserung der Situation Adaptionen in der Ausbildung der Forschenden der Zukunft alleine nicht ausreichen; um die Forschenden der Gegenwart zu erreichen, die nicht in digitaler Methodik ausgebildet wurden und sich (noch) nicht damit auseinandergesetzt haben, braucht es “Übersetzende”, die die Kommunikation zwischen rein geisteswissenschaftlich und rein digital Denkenden erleichtern und Brücken bauen. Die Wichtigkeit solcher Bindeglieder, die “beide Sprachen sprechen”, kann nicht hoch genug eingeschätzt werden, da sie allen Beteiligten Frustration, Zeit, überflüssige Arbeit und letztlich auch Geld ersparen können. Zentren, Institute und Verbände, die in den Digital Humanities arbeiten, sollten ihre Aufmerksamkeit vermehrt auf diesen neuen Arbeitsbereich der digital Übersetzenden richten und ihre Aktivitäten gezielt in diese Richtung lenken.</p>
+                        </div>
+                      </div>
+                      <div xml:id="h.9105aamjlxn" type="div1" rend="DH-Heading1">
+                        <head>Conclusio</head>
+                        <p>Die unzureichende Vernetzung geisteswissenschaftlich Forschender mit der DH Community führt zu technischen Unzulänglichkeiten in abseits davon ambitionierten digitalen Projekten, die ihre Nachhaltigkeit gefährden. Gegenseitige Annäherung über Outreach-Programme und die Adaption der Lehrpläne geisteswissenschaftlicher Studienrichtungen, vor allem aber verbesserte interne und externe Kommunikation sind notwendig, um zu nachhaltiger Verbesserung der Situation zu gelangen.</p>
+                      </div>
+                    </body>
+                    <back>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <head>Bibliographie</head>
+                          <bibl><hi rend="bold">AG Datenzentren der DHd</hi> (2015): "Was sind und was
+                          sollen Datenzentren in den Geisteswissenschaften?", in: <hi rend="italic"
+                          >Panel der AG Datenzentren im Verband DHd</hi>. Verbandstagung der DHd
+                          in Graz, 26.02.2015 <ref
+                          target="https://www.conftool.pro/dhd2015/index.php?page=browseSessions&amp;form_session=37"
+                          >https://www.conftool.pro/dhd2015/index.php?page=browseSessions&amp;form_session=37</ref>
+                          [letzter Zugriff 09. Februar 2016].</bibl>
+                          <bibl><hi rend="bold">Berlin-Brandenburgische Akademie der Wissenschaften</hi>
+                          (2007-2015): <hi rend="italic">Deutsches Textarchiv</hi>
+                          <ref target="http://www.deutschestextarchiv.de/"
+                            >www.deutschestextarchiv.de</ref>.</bibl>
+                            <bibl><hi rend="bold">Digital Humanities Lab der Universität Basel</hi>
+                            (2009-2016): <hi rend="italic">SALSAH</hi>. System for Annotation and
+                            Linkage of Sources in Arts and Humanities <ref target="http://salsah.org/"
+                            >http://salsah.org/</ref> [letzter Zugriff 09. Februar 2016].</bibl>
+                            <bibl><hi rend="bold">Europeana Foundation</hi> (o. J.): <hi rend="italic"
+                            >Europeana Collections</hi>. <ref
+                            target="http://www.europeana.eu/portal/"
+                            >http://www.europeana.eu/portal/</ref> [letzter Zugriff 09. Februar
+                            2016].</bibl>
+                            <bibl><hi rend="bold">Herzog August Bibliothek Wolfenbüttel</hi> (o. J.): <hi
+                            rend="italic">Editiones Electronicae Guelferbytanae</hi>
+                            <ref
+                              target="http://www.hab.de/de/home/bibliothek/digitale-bibliothek-wdb/digitale-editionen.html"
+                              >http://www.hab.de/de/home/bibliothek/digitale-bibliothek-wdb/digitale-editionen.html</ref>
+                              [letzter Zugriff 09. Februar 2016].</bibl>
+                              <bibl><hi rend="bold">Karl-Franzens-Universität Graz</hi> (2016): <hi
+                              rend="italic">Zentrum für Informationsmodellierung – Austrian Centre for
+                              Digital Humanities</hi>
+                              <ref target="https://informationsmodellierung.uni-graz.at/"
+                                >https://informationsmodellierung.uni-graz.at/</ref> [letzter Zugriff 09
+                                Februar 2016].</bibl>
+                                <bibl><hi rend="bold">Österreichische Akademie der Wissenschaften</hi> (2015):
+                                <hi rend="italic">Austrian Centre for Digital Humanities</hi>
+                                <ref target="http://www.oeaw.ac.at/acdh/">http://www.oeaw.ac.at/acdh/</ref>
+                                [letzter Zugriff 09. Februar 2016].</bibl>
+                                <bibl><hi rend="bold">Österreichische Akademie der Wissenschaften / Universität
+                                  Wien / Universität Graz</hi> (o. J.): <hi rend="italic">digital
+                                  humanities austria</hi>
+                                  <ref target="http://digital-humanities.at/de/node/24"
+                                    >http://digital-humanities.at/</ref> [letzter Zugriff 09. Februar
+                                    2016].</bibl>
+                                    <bibl><hi rend="bold">Österreichische Nationalbibliothek</hi> (2011-2015): <hi
+                                    rend="italic">Handkeonline</hi>. <ref
+                                    target="http://handkeonline.onb.ac.at/"
+                                    >http://handkeonline.onb.ac.at/</ref> [letzter Zugriff 09. Februar
+                                    2016].</bibl>
+                                    <bibl><hi rend="bold">ÖNB = Österreichische Nationalbibliothek</hi> (2015): <hi
+                                    rend="italic">Briefwechsel Sauer - Seuffert</hi>. <ref
+                                    target="http://sauer-seuffert.onb.ac.at/"
+                                    >http://sauer-seuffert.onb.ac.at/</ref> [letzter Zugriff 09. Februar
+                                    2016].</bibl>
+                                    <bibl><hi rend="bold">Susan Schreibman</hi> (2010): <hi rend="italic">Versioning
+                                    Machine V4.0</hi>
+                                    <ref target="http://v-machine.org/">http://v-machine.org/.</ref></bibl>
+                                    <bibl><hi rend="bold">TextGrid Konsortium</hi> (2006–2015): <hi rend="italic"
+                                    >TextGrid</hi>. Digitale Bibliothek. Göttingen <ref
+                                    target="https://textgrid.de/digitale-bibliothek"
+                                    >https://textgrid.de/digitale-bibliothek</ref>.</bibl>
+                                    <bibl><hi rend="bold">Trier Centre for Digital Humanities</hi> (2014): <hi
+                                    rend="italic">Digitale Edition der Korrespondenz August Wilhelm
+                                    Schlegels (beta-Version)</hi>
+                                    <ref target="http://august-wilhelm-schlegel.de/briefedigital/"
+                                      >http://august-wilhelm-schlegel.de/briefedigital/</ref> [letzter Zugriff
+                                      09. Februar 2016].</bibl>
+                                      <bibl><hi rend="bold">Trier Centre for Digital Humanities /
+                                        Heinrich-Heine-Institut Düsseldorf</hi> (2004-2009): <hi rend="italic"
+                                        >Heinrich-Heine-Portal</hi>
+                                        <ref target="http://www.hhp.uni-trier.de/Projekte/HHP/"
+                                          >http://www.hhp.uni-trier.de/Projekte/HHP/</ref> [letzter Zugriff 09.
+                                          Februar 2016].</bibl>
+                                          <bibl><hi rend="bold">Universität Wien</hi> (2014-1016): <hi rend="italic"
+                                          >e-Infrastructures Austria</hi>
+                                          <ref target="http://e-infrastructures.at/"
+                                            >http://e-infrastructures.at/</ref> [letzter Zugriff 09. Februar
+                                            2016].</bibl>
+                                          </listBibl>
+                                        </div>
+                                      </back>
+                                    </text>
+                                  </TEI>

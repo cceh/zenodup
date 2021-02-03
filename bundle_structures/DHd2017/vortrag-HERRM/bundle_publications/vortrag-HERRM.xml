@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-HERRM" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Das „Was-bisher-geschah“ von KOLIMO. Ein Update zum Korpus der literarischen Moderne</title>
+<author>
+<persName>
+<surname>Herrmann</surname>
+<forename>J. Berenike</forename>
+</persName>
+<affiliation>Universität Göttingen, Deutschland</affiliation>
+<email>bherrma1@gwdg.de</email>
+</author>
+<author>
+<persName>
+<surname>Lauer</surname>
+<forename>Gerhard</forename>
+</persName>
+<affiliation>Universität Göttingen, Deutschland</affiliation>
+<email>Gerhard.Lauer@phil.uni-goettingen.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-12-01T21:23:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Korpus</term>
+<term>Annotation</term>
+<term>Moderne</term>
+<term>POS</term>
+<term>Stil</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Sammlung</term>
+<term>Strukturanalyse</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Kontextsetzung</term>
+<term>Theoretisierung</term>
+<term>Bereinigung</term>
+<term>Bearbeitung</term>
+<term>Archivierung</term>
+<term>Veröffentlichung</term>
+<term>Stilistische Analyse</term>
+<term>Projektmanagement</term>
+<term>Webentwicklung</term>
+<term>Konservierung</term>
+<term>Artefakte</term>
+<term>Daten</term>
+<term>Infrastruktur</term>
+<term>Sprache</term>
+<term>Link</term>
+<term>Literatur</term>
+<term>Metadaten</term>
+<term>benannte Entitäten (named entities)</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Der vorgeschlagene Beitrag dokumentiert den Fortschritt beim Aufbau unseres digitalen Korpus der literarischen Moderne (KOLIMO), das im Herbst 2016 in der Beta-Version veröffentlicht werden soll (abrufbar unter https://kolimo.uni-goettingen.de/). Im Fokus des Beitrags stehen das Verfahren zur Aufbereitung der Texte (insb. Format und Metadaten in TEI) und das linguistische Tagging (POS).</p>
+<p>Als Teil des laufenden Projektes Q-LIMO (Quantitative Analyse der literarischen Moderne) ist KOLIMO ein repräsentatives und computerlinguistisch solide aufbereitetes Korpus von narrativen fiktionalen Erzähltexten der literarischen Epoche der Moderne. Um durch stratifiziertes Sampling Repräsentativität (verstanden als „extent to which a sample includes the full range of variability in a population“; vgl. Biber 1994) zu ermöglichen, umfasst das Korpus ein möglichst breites Spektrum der literarischen Moderne, verteilt über kanonische und nichtkanonische Texte. So wurden in das Korpus bislang ca. 596.000.000 Wörter aus frei zugänglichen Repositorien importiert (s. Abbildung 1).</p>
+<p>Abbildung 1</p>
+<p>Gesamtanzahl Wörter aus den drei Hauptressourcen (Zwischenstand August 2016)</p>
+<figure>
+<graphic height="9.0805cm" n="1001" rend="inline" url="vortrag-HERRM-image1.png" width="15.197666666666667cm"/>
+</figure>
+<p>Die Datenbank umfasst so neben Texten aus TextGrid und Gutenberg-DE (s. Abbildung 2) und dem DTA auch eine wachsende Zahl von Retrodigitalisaten. Das Sampling ist nicht zuletzt dadurch beeinflusst, dass KOLIMO auch das Kafka/Referenzkorpus (KAREK) beinhaltet, welches zum Ziel hat, Kafkas Texte und Texte, die Kafkas Schreibprozess beeinflusst haben könnten, möglichst umfangreich abzubilden (vgl. Herrmann / Lauer 2016a,b).</p>
+<p>Abbildung 2</p>
+<p>Screenshot KOLIMO-WebApp: Anzahl Wörter, Autoren und Einträge aus TextGrid &amp; Gutenberg-DE (ohne DTA und andere Quellen, Stand August 2016)</p>
+<figure>
+<graphic height="10.117666666666667cm" n="1002" rend="inline" url="vortrag-HERRM-image2.png" width="15.896166666666666cm"/>
+</figure>
+<p>Um philologischen Ansprüchen an den editorischen Status literarischer Texte und die Abbildung von Epochen sowie Gattungskonzepten zu genügen, war eine hohe Genauigkeit und Konsistenz bei der informatischen Vorverarbeitung Textmarkup (XML-TEI) inklusive der Metadaten (Autor, Entstehungszeitpunkt und Gattung) besonders wichtig. Gerade die Auszeichnung der genannten Metadaten stellt eine Schnittstelle zwischen den informatischen und philologischen Dimensionen unseres Projektes dar: so sind Metadaten (a) die unabhängigen Variablen unserer stilistischen Analyse und (b) variieren in den von uns importierten Korpus-Ressourcen stark in qualitativer und quantitativer Hinsicht (Fehler, missing entries, unterschiedliche Ontologien). Der vorgeschlagene Beitrag wird so erstens einen kurzen Einblick in unsere Vorgehensweise geben, wobei Kriterien der Nachhaltigkeit berücksichtigt werden:</p>
+<list type="unordered">
+<item>Strategien der Textextraktion nach Genre-Kriterien unter Nutzung bestehender Metadatenschemata (ausgeschlossen wurden z.B. alle Texte, deren Metadaten sie als dramatisch und lyrisch ausflaggten, sowie Texte, die keine Absätze [without (tei:p)] enthielten);</item>
+<item>ein transparenter Workflow zur Korpusauszeichnung (internes eXist Webinterface);</item>
+<item>Anwendung eines standardisierten Text-Markups (u.a. Transformation der TextGrid und Gutenberg Header in das DTA-Basisformat TEI);</item>
+<item>Strategien der konsistenten Implementierung und Verbesserung von Metadatenschemata (Ineinandergreifen von händischen und skriptgestützen Workflows, wie Recherche zu [Erst-]Erscheinungsdaten bei missing entries, Zusammenführung der unterschiedlichen Gattungschemata, Überprüfung und ggf. Zuweisung von GNDs für Autoren);</item>
+<item>die nachhaltige Veröffentlichung des Korpus auf einem eigenen Server mit standardisierten Datenschnittstellen;</item>
+<item>Datenbankabbild (nonpublic) zur Langzeitarchivierung.</item>
+</list>
+<p>Zweitens wird der Beitrag unser Vorgehen bezüglich der linguistischen Anreicherung zusammenfassen: Unter der Annahme, dass Stil quantitativ beschreibbar ist (vgl. Herrmann / van Dalen-Oskam / Schöch 2015), und dass Wortarten verlässliche Indikatoren für Register und Genrevariation sind (vgl. z.B. Biber / Conrad 2009), haben wir uns für die linguistische Annotation auf POS (STTS Tagset; vgl. Schiller / Teufel / Thielen 1995) entschieden. POS sind im Vergleich mit anderen Variationsmarkern durch eine relativ akkurate automatische Annotation besonders praktikabel. Das Webinterface liefert variablen Zugriff auf die annotierten Daten, u.a. eine Volltextansicht (siehe Abbildung 3); geplant sind zur Veröffentlichung die Exportierbarkeit in .csv-Files und TCF-Format.</p>
+<p>Abbildung 3</p>
+<p>Screenshot KOLIMO WebApp Textview POS-Tagging</p>
+<figure>
+<graphic height="8.339666666666666cm" n="1003" rend="inline" url="vortrag-HERRM-image3.png" width="16.213666666666665cm"/>
+</figure>
+<p>Zwar liefern bereits trainierte Modelle von einigen Taggern (z.B. TreeTagger) eine gute Genauigkeit für das gegenwärtige Standarddeutsch, angewendet auf ältere Sprachstufen oder vom Standarddeutschen abweichende Register wie „Literatur“ sinkt die Genauigkeit jedoch. Ein bereits auf POS annotiertes Korpus ist das Deutsche Textarchiv (DTA, Berlin-Brandenburgische Akademie der Wissenschaften 2016), ein Referenzkorpus für das Deutsche, das sowohl historische Sprachstufen als auch das Register „Literatur“ enthält. Die POS-Annotation baut hier auf fehlertoleranten linguistischen Analyse historischer Texte auf und verwendet ein Tool zur Morphologisierung (Jurish 2012), ist allerdings hinsichtlich ihrer Qualität noch nicht umfassend evaluiert worden. Ausgehend von diesem Datensatz haben wir zwei Strategien verfolgt: (1) Ein epochensensitives POS-Tagging, das verschiedene Tagger auf dem Datensatz des DTA, aber auf unterschiedlichen literarischen Epochen trainiert (vgl. Paluch et al. in Vorbereitung); (2) eine Überprüfung der Qualität der DTA-POS-Tags durch quantitative und qualitative Verfahren. </p>
+<p>In Strategie (1) machen wir uns zunutze, dass Annotationsgenauigkeit erhöht werden kann, wenn Tagger auf verschiedene Register/Sprachstände trainiert und diese trainierten Modelle dann auf noch nicht trainierte Texte des gleichen Registers angewendet werden (vgl. Giesbrecht / Evert). Für KOLIMO haben wir u.a. den TreeTagger (vgl. Schmid 1994), Perceptron (vgl. Rosenblatt 1958) und MarMoT (vgl. Müller / Schmid / Schütze 2013) verwendet. Durch die Wahl unterschiedlicher Tagger soll gewährleistet werden, dass die Genauigkeit der POS-Annotation maximiert werden kann, indem nur derjenige Tagger mit den besten Ergebnissen pro Register verwendet wird. Die Auswahl der Tagger basierte einerseits darauf, dass sie unterschiedliche Prinzipien benutzen: So funktioniert der TreeTagger nach dem Hidden Markov Model (HMM, vgl. Baum / Petrie 1966), MarMot nach dem Prinzip der Conditional Random Fields (DRF, vgl. Hammersly / Clifford 1971) und Perceptron nach dem neuronaler Netzwerke. Der Grund für die Wahl des TreeTaggers war zudem seine Prävalenz in der Forschungsliteratur, die nicht zuletzt durch gute Ergebnisse begründet scheint (vgl. Dipper 2012; Giesbrecht / Evert 2009). In einem ersten Schritt (vgl. Paluch et al. in Vorbereitung) wurden hier bereits getaggte Texte aus dem DTA in fünf Epochen geordnet. Neben der Moderne umfassten diese zu Vergleichszwecken auch Barock, Aufklärung, Romantik, und Realismus. Für die Einteilung der Epochen in Zeitperioden sowie der Einteilung von Autoren zu bestimmten Epochen wurden einschlägige Literaturgeschichten zu Rate gezogen (u.a. Beutin 2001; Jørgensen / Bohnen / Øhrgaard 1990; Meid 2009; Schulz 2000; Sprengel 1998, 2004). Anschließend wurden die Tagger auf jeweils eine Epoche trainiert, indem die Texte randomisiert in Trainings- und Evaluationstexte getrennt wurden und eine k-fold cross validation (vgl. Witten / Elbe 2005) für jeden Tagger durchgeführt wurde. Die Ergebnisse (vgl. auch Paluch et al. in Vorbereitung) weisen auf eine gute Genauigkeit insbesondere von Perceptron hin, müssen aber unter dem Vorbehalt betrachtet werden, dass der Status des DTA als Goldstandard für POS-Tagging noch fraglich ist.</p>
+<p>Hier setzen wir mit Strategie (2) an, mit der wir zunächst für alle POS-Tags Übereinstimmung und Abweichung (Matches und Missmatches) des Outputs des Tree-Taggers und MarMots mit dem DTA-Datensatz vergleichen. Aufbauend auf diese quantitative Überprüfung der einzelnen Tag-Zuweisung evaluieren wir zudem händisch Stichproben der Nichtübereinstimmungen in der Annotation der einzelnen Tags. </p>
+<p>Unsere quantitative Überprüfung ergibt eine generelle Übereinstimmung mit dem DTA-Datensatz in POS-Tags für den TreeTagger und den Marmot Tagger von jeweils 80%. Die generelle Übereinstimmung zwischen den Tags des TreeTaggers und denen des MarMot Taggers hingegen liegt bei 0.78%. </p>
+<p>Tabelle 1 zeigt Ergebnisse aus der Analyse der Übereinstimmungen (Matches) und Abweichungen (Missmatches) bei der POS-Tagzuweisung von TreeTagger (TT) und MarMot (MM) im Vergleich mit den Tags des DTA. Abgebildet sind hier solche Fälle pro POS-Tag, in denen TT und MM übereinstimmen, aber vom DTA abweichen. Die Tabelle listet die elf POS-Tags, die (von TT und MM gemeinsam) die proportional den höchsten Anteil der Abweichung vom DTA ausmachen.</p>
+<p>Tabelle 1 Abweichung zu POS-Tags des DTA (Übereinstimmung MM und TT)</p>
+<table rend="rules">
+<row>
+<cell>POS-Tag*</cell>
+<cell>Häufigkeit</cell>
+<cell>Rel. Häufigkeit </cell>
+</row>
+<row>
+<cell>NE</cell>
+<cell>1444048</cell>
+<cell>0.12</cell>
+</row>
+<row>
+<cell>NN</cell>
+<cell>1443795</cell>
+<cell>0.12</cell>
+</row>
+<row>
+<cell>VVFIN</cell>
+<cell>1326081</cell>
+<cell>0.11</cell>
+</row>
+<row>
+<cell>ADJA</cell>
+<cell>1309006</cell>
+<cell>0.11</cell>
+</row>
+<row>
+<cell>ADJD</cell>
+<cell>741903</cell>
+<cell>0.06</cell>
+</row>
+<row>
+<cell>ADV</cell>
+<cell>618465</cell>
+<cell>0.05</cell>
+</row>
+<row>
+<cell>VAFIN</cell>
+<cell>582791</cell>
+<cell>0.05</cell>
+</row>
+<row>
+<cell>FM.la</cell>
+<cell>404341</cell>
+<cell>0.03</cell>
+</row>
+<row>
+<cell>PPOSAT</cell>
+<cell>397465</cell>
+<cell>0.03</cell>
+</row>
+<row>
+<cell>APPR</cell>
+<cell>362774</cell>
+<cell>0.03</cell>
+</row>
+<row>
+<cell>PDAT</cell>
+<cell>255896</cell>
+<cell>0.02</cell>
+</row>
+</table>
+<p>*STTS Tagset</p>
+<p>Aufbauend auf diesen Daten wird im nächsten Schritt die tatsächliche Qualität der bereits vorhandenen DTA-Tags für den Datensatz der literarischen Texte evaluiert. Auf der Grundlage von randomisiertem Sampling verbessern wir die POS-Annotationen bei tatsächlichen Fehlern händisch, um in der Folge u.a. eigene Sprachmodelle für unser spezifisches Korpus narrativer Texte zu trainieren. So soll schließlich unter Nutzung vorhandener Ressourcen ein Silber- oder sogar Goldstandard für das POS-Tagging historischer literarischer Texte des Deutschen erreicht werden. </p>
+<p>KOLIMO wird in der Beta-Version zur Tagung veröffentlicht (s. 
+                <ref target="https://kolimo.uni-goettingen.de">https://kolimo.uni-goettingen.de</ref>) und so der Forschungsgemeinschaft zur Verfügung gestellt. Es soll eine hypothesengetriebene, aber auch explorative, quantitative Stilistik ermöglichen (vgl. Herrmann eingereicht); zum Zeitpunkt der Tagung sind erste Ergebnisse zur stilistischen Variation der literarischen Moderne zu erwarten (vgl. schon Herrmann / Lauer / Mattner 2016).
+            </p>
+<p>Gleichzeitig planen wir eine detaillierte Dokumentation der Arbeitsschritte zu veröffentlichen, die ähnlichen Projekten als Leitfaden zur Verfügung zu stehen soll. Unser Projekt dokumentiert in seinem gegenwärtigen Status Entscheidungen auf verschiedenen konzeptionellen, analytischen und prozeduralen Ebenen. Es zeigt, dass der Aufbau eines digitalen literarischen Korpus, das den synchronen und diachronen quantitativen Vergleich einer Schwerpunktepoche erlauben soll, bei Weitem keine triviale Aufgabe darstellt. So wurde zum Beispiel deutlich, wie Hypothesen zur Konstitution von Epochen, Autorschaft und Gattungen die Korpuskompilation steuern – und deshalb auf einer möglichst präzisen Modellierung der zugrundeliegenden textwissenschaftlichen Theorien fußen sollten. Gleichzeitig sind Metadaten (u. a. Autor, Titel, Publikationsdatum, Publikationsort, Gattung) und linguistische Parameter (wie POS) gerade die Ansatzpunkte, an denen philologische Fragestellungen in präzise und praktikable Kategorien umgewandelt werden können. Nicht zuletzt deshalb sollten literarische Daten in flexiblen Architekturen gespeichert werden, die zusätzliche Annotationsebenen zulassen – denn hermeneutische Erkenntnisprozesse stellen eine erwachsene Stärke der Geisteswissenschaften dar, die auch im digitalen Zeitalter einen explizit modellierten Platz einnehmen muss.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Baum, Leonard E. / Petrie, Ted</hi> (1966): 
+                        „Statistical inference for probabilistic functions of finite state markov chains“, 
+                        in: 
+                        <hi rend="italic">The annals of mathematical statistics 37</hi> (6) :1554–1563.  
+                    </bibl>
+<bibl>
+<hi rend="bold">Berlin-Brandenburgische Akademie der Wissenschaften</hi> (2016): 
+                        <hi rend="italic">Deutsches Textarchiv</hi>. 
+                        <ref target="http://www.deutschestextarchiv.de/">http://www.deutschestextarchiv.de/</ref> [letzer Zugriff 24. Mai 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Beutin, Wolfgang</hi> (2001): 
+                        <hi rend="italic">Deutsche Literaturgeschichte: von den Anfängen bis zur Gegenwart</hi>. 
+                        Stuttgart: Metzler.
+                    </bibl>
+<bibl>
+<hi rend="bold">Biber, Douglas / Conrad, Susan</hi> (2009): 
+                        <hi rend="italic">Register, Genre, and Style</hi>. 
+                        Cambridge: Cambridge University Press.</bibl>
+<bibl>
+<hi rend="bold">Dipper, Stefanie</hi> (2012): 
+                        „Morphological and part-of-speech tagging of historical language data: A comparison“,
+                        in: 
+                        <hi rend="italic">Workshop on Annotation of Corpora</hi>.
+                        <ref target="http://www.coli.uni-saarland.de/conf/ACRH10/slides/dipper.pdf">http://www.coli.uni-saarland.de/conf/ACRH10/slides/dipper.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Gaede, Friedrich</hi> (1971): 
+                        <hi rend="italic">Humanismus, Barock, Aufklärung: Geschichte der deutschen Literatur vom 16. bis zum 18. Jahrhundert</hi>. 
+                        Bern: Francke Verlag.
+                    </bibl>
+<bibl>
+<hi rend="bold">Giesbrecht, Eugenie / Evert, Stefan</hi> (2009): 
+                        „Is part-of-speech tagging a solved task? An evaluation of pos taggers for the German web as corpus“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the fifth Web as Corpus Workshop</hi> 27–35. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Hammersley, John M. / Clifford, Peter</hi> (1971): 
+                        <hi rend="italic">Markov fields on finite graphs and lattices</hi>.
+                         <ref target="http://www.statslab.cam.ac.uk/~grg/books/hammfest/hamm-cliff.pdf">http://www.statslab.cam.ac.uk/~grg/books/hammfest/hamm-cliff.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Herrmann, J. Berenike</hi> (eingereicht): 
+                        „In test bed with Kafka. Introducing a mixed-method approach to digital stylistics“,
+                        in: Chambers, Sally / Jones, Catherine / Kestemont, Mike / Koolen, Marijn / Zundert, Joris van (Eds.). 
+                        <hi rend="italic">Special Issue DHBenelux 2015, Digital Humanities Quarterly</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Herrmann, J. Berenike / Lauer, Gerhard</hi> (2016a): 
+                        „KAREK: Building and Annotating a Kafka/Reference Corpus“,
+                        in:
+                        <hi rend="italic">DH2016: Conference Abstracts</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Herrmann, J. Berenike / Lauer, Gerhard</hi> (2016b): 
+                        „Aufbau und Annotation des Kafka/Referenzkorpus“,
+                        in:
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Herrmann, J. Berenike / Lauer, Gerhard / Mattner, Cosima</hi> (2016): 
+                        <hi rend="italic">Measuring Kafka's Diaries</hi>. A Psychostylistic Approach International Society for the Empirical Study of Literature and Media (IGEL), Chicago, USA.
+                    </bibl>
+<bibl>
+<hi rend="bold">Herrmann, J. Berenike / van Dalen-Oskam, Karina / Schöch, Christof</hi> (2015): 
+                        „Revisiting Style, a Key Concept in Literary Studies“,
+                        in:
+                        <hi rend="italic">Journal of Literary Theory</hi> 9 (1): 25–52.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jørgensen, Sven Aaage / Bohnen, Klaus / Øhrgaard, Per</hi> (1990): 
+                        <hi rend="italic">Aufklärung, Sturm und Drang, frühe Klassik: 1740 - 1789</hi>. (Boor, Helmut de / Newald, Richard, eds.). 
+                        München: Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jurish, Bryan</hi> (2012): 
+                        <hi rend="italic">Finite-state Canonicalization Techniques for Historical German</hi>. 
+                        PhD, Universität Potsdam.
+                    </bibl>
+<bibl>
+<hi rend="bold">Manning, Christopher D. / Raghavan, Prabhakar / Schütze, Heinrich</hi> (2008): 
+                        <hi rend="italic">Introduction to information retrieval</hi> 1. 
+                        Cambridge: Cambridge University Press. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Meid, Volker</hi> (2009):
+                        <hi rend="italic">Die deutsche Literatur im Zeitalter des Barock: vom Späthumanismus zur Frühaufklärung: 1570 - 1740</hi>. (Boor, Helmut de / R. Newald, Richard, eds.) ([Neuausg.].). 
+                        München: Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Müller, Thomas / Schmid, Helmut / Schütze, Hinrich</hi> (2013): 
+                        „Efficient higher-order CRFs for morphological tagging“,
+                        in:
+                        <hi rend="italic">Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Nekula, Marek</hi> (2003): 
+                        „Franz Kafkas Deutsch“, 
+                        in: 
+                        <hi rend="italic">Linguistik online</hi> 13 (1)
+                        <ref target="https://bop.unibe.ch/linguistik-%20online/article/view/879/1533">https://bop.unibe.ch/linguistik- online/article/view/879/1533</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Paluch, Markus / Rotari, Gabriela / Steding, David / Weß, Maximilian / Moritz, Maria</hi> (in Vorbereitung): 
+                        <hi rend="italic">Non-static analysis of part-of-speech tagging of historical German texts</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rosenblatt, Frank</hi> (1958): 
+                        „The perceptron: a probabilistic model for information storage and organization in the brain“, 
+                        in:
+                        <hi rend="italic">Psychological Review</hi> 65 (6): 386. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Schiller, Anne / Teufel, Simone / Thielen, Christine</hi> (1995): 
+                        „Guidelines für das Tagging deutscher Textcorpora mit STTS“,
+                        in:
+                        <hi rend="italic">Manuscript, Universities of Stuttgart and Tübingen</hi>.
+                        <ref target="http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf">http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schmid, Helmut</hi> (1994):
+                        „Probabilistic part-of-speech tagging using decision trees“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the international conference on new methods in language processing</hi> 12: 44–49. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Schulz, Gerhard</hi> (2000): 
+                        <hi rend="italic">Das Zeitalter der Französischen Revolution: 1789 - 1806</hi>. (Boor, Helmut de / Newald, Richard, eds.) (2., neubearb. Aufl.). 
+                        München: Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sprengel, Peter</hi> (1998):
+                        <hi rend="italic">Geschichte der deutschsprachigen Literatur 1870 - 1900: von der Reichsgründung bis zur Jahrhundertwende</hi>. (Boor, Helmut de / Newald, Richard, eds.). 
+                        München: Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sprengel, Peter</hi> (2004): 
+                        <hi rend="italic">Geschichte der deutschsprachigen Literatur 1900 - 1918: von der Jahrhundertwende bis zum Ende des Ersten Weltkriegs</hi>. (Boor, Helmut de / Newald, Richard, eds.). 
+                        München: Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Witten, Ian H. / Elbe, Frank</hi> (2005): 
+                        <hi rend="italic">Data Mining: Practical machine learning tools and techniques</hi>. 
+                        San Francisco: Morgan Kaufmann Publishers.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

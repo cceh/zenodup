@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="220_final-SCHL_R_Daniel_Multimedia_aus_Rezipientenperspektive__Wirkung" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Multimedia aus Rezipientenperspektive: Wirkungsmessung anhand von Biofeedback</title>
+                <author>
+                    <persName>
+                        <surname>Schlör</surname>
+                        <forename>Daniel</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>daniel.schloer@informatik.uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Veseli</surname>
+                        <forename>Blerta</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>blerta.veseli@stud-mail.uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hotho</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>hotho@informatik.uni-wuerzburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-08T09:17:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Rezipientenwirkung</term>
+                    <term>Multimedia</term>
+                    <term>Text</term>
+                    <term>Biofeedback</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Aufzeichnung</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Multimedia</term>
+                    <term>Software</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Wirkung, die Medien wie Literatur, Musik oder Film auf Rezipienten haben, ist häufig Gegenstand kultur- und geisteswissenschaftlicher Arbeiten. Das Rezipieren von beispielsweise Literatur oder Film involviert emotionale Prozesse (Schwarz-Friesel, 2013), welche sich durch physiologische Reaktionen, wie die Veränderung von Atmung, Herzfrequenz oder Schweißabsonderung, ausprägen (Hergovich, 2018). Eben diese Ausprägung in Form von klar messbarer Kenngrößen erlaubt die Digitalisierung der Rezipientenwirkungen durch körpernahe Daten. Diese Digitalisate ermöglichen den digitalen Kultur- und Geisteswissenschaften gezielte Rückschlüsse auf die Wahrnehmung inhaltlicher, narrativer oder stilistischer Aspekte rezipierter Medien zu ziehen. </p>
+                <p>In dieser Arbeit stellen wir eine einfache Methode vor, Rezipientenwirkung in ihrer physischen Ausprägung zu digitalisieren und auszuwerten. Um leicht eine ausreichend große Datenbasis für quantitativ belegbare Ergebnisse zu schaffen, stellen wir Nutzern und Forschern dazu unsere mobile Applikation “BioReader” als Werkzeug zur Verfügung, das beim Lesen und Medienkonsum den Lesefortschritt sowie physiologische Reaktionen über Fitnessuhren erfasst.</p>
+                <p>In einer Machbarkeitsstudie wurden auf diese Weise körpernahe Sensordaten von 15 Probanden in einer multimedialen Versuchsreihe beim Lesen von vier Kurzgeschichten und Schauen eines Kurzfilms aufgenommen, die wir in diesem Beitrag vorstellen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Verwandte Arbeiten</head>
+                <p>Medienkonsum wird im großen Stil vor allem aus wirtschaftlichen Interessen, beispielsweise von Videostreaming bzw. eBook Anbietern wie Netflix (Tassi, 2018) bzw. Jellybooks (Buchreport, 2017) erfasst und analysiert und misst meist lediglich das Konsumverhalten. Aus wissenschaftlicher Sicht gibt es einige Studien, die physiologische Reaktionen auf multimedialen Konsum untersuchen:</p>
+                <p>So haben (Riese et al., 2014) die Reaktionen der Pupille auf Spannung im Text untersucht und dabei festgestellt, dass es signifikante Korrelationen zwischen dem Durchmesser der Pupille und dem Verlauf der Spannung in einem Text über die Zeit gibt. Eine Studie von (Richter et al., 2011) untersuchte die Reaktion von Lesern auf schmerzassoziierte Wörter wie “bohrend” oder “krampfartig” und stellte fest, dass bei der Verarbeitung derartiger Wörter dieselben Hirnareale aktiviert werden, die für die Verarbeitung realer Schmerzreize zuständig sind. In einer Studie von (Bar-Haim et al., 2004) wurde die Herzfrequenz bei Kindern gemessen, denen sechs Geschichten mit verschiedenen Themen präsentiert wurden. Das Ergebnis dieser Studie zeigte, dass relativ zum zuvor gemessenen Ruhepuls, die Probanden bei einigen Geschichten eine signifikant schnellere Herzfrequenz aufwiesen.</p>
+                <p>In ihrer Studie untersuchten (Baldaro et al., 2001) physiologische Reaktionen auf Filme. Dafür wurden den Probanden zwei zehn-minütige Filmausschnitte gezeigt: ein 
+                    <hi rend="italic">Surgery film</hi> über eine Operation am Brustkorb und ein 
+                    <hi rend="italic">Neutral film</hi> über Landschaften. Während des Schauens der Filme wurden Körperparameter wie beispielsweise Atemfrequenz und Herzrate erfasst. Es zeigte sich im Vergleich zum 
+                    <hi rend="italic">Neutral film</hi> ein stärkeres Absinken der Herzfrequenz während des 
+                    <hi rend="italic" xml:space="preserve">Surgery </hi>Films.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>“BioReader” Tracking-Applikation</head>
+                <p>Die von uns entwickelte Tracking App “BioReader”, ist als eReader konzipiert und erlaubt das Lesen von Texten aus der eigenen Nutzerbibliothek. Diese werden seitenweise auf dem Smartphone dargestellt. Eine Eigenentwicklung war nötig, um die aufgezeichneten Daten den gelesenen Stellen automatisch zuordnen zu können. </p>
+                <figure>
+					<graphic n="1001" width="13.29531388888889cm" height="8.572336111111111cm" url="220_final-744768ad44547634f9045269fdd9d8bc.png" rend="inline"/>
+					<head>
+						<lb/> Abbildung 1. Seitendarstellung in App “BioReader”
+					</head>
+                </figure>
+                <p>Für die Messung nutzt die App alle verfügbaren Sensoren, die in der über Android Wear gekoppelten Smartwatch verbaut sind. Ist die Uhr verbunden, startet die Messung automatisch mit dem Öffnen eines Textes. Alle Events während der Aufzeichnung, beispielsweise das Drücken von Home-Button, Fokus-Wechsel zu anderen Apps, Schließen der Anwendung, Abschalten des Bildschirms oder Anzeigen des Lock-Screens werden protokolliert, um potentielle Ablenkungen beim mobilen Lesen (Kuzmicova et al., 2018) zu berücksichtigen.</p>
+                <p>Der Nutzer kann sich seinen Lesefortschritt und jeweils aufgezeichneten Sensorwerte für jede Lese-Session auf einer Auswertungsseite visualisieren lassen. </p>
+                <figure>
+					<graphic n="1002" width="6.444186111111111cm" height="11.46968888888889cm" url="220_final-1532fd2bcbbe9ba528501a94bd8108a3.jpg" rend="inline"/>
+					<head>
+						<lb/>Abbildung 2. Datenvisualisierung mit Lesefortschritt-Anzeige am Beispiel des Gravity und Heart Rate Sensors
+					</head>
+				</figure>
+                <p>Um Messwerte während der Rezeption anderer Medien wie beispielsweise Filme oder Musik aufzuzeichnen, verfügt die App über die Möglichkeit Messungen manuell zu starten und zu beenden. Über eine Export-Funktion können alle von der App aufgezeichneten Daten im CSV-Format exportiert werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Experiment</head>
+                <p>Mit dieser App wurde eine Machbarkeitsstudie durchgeführt, um zu untersuchen, ob mit verbreiteten Fitnessuhren physiologische Reaktionen der Rezipienten auf verschiedene Medien messbar sind.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Korpus Zusammenstellung</head>
+                    <p>Für die im Folgenden präsentierte Studie wurden vier kurze Textausschnitte und ein Kurzfilm ausgewählt, um die Veränderung von Körperparametern während der Rezeption zu untersuchen.</p>
+                    <p>Dabei sollen die Texte bzw. das Video zum einen leicht verständlich und schnell zu lesen bzw. zu schauen sein, zum anderen sollen sie starke emotionale Reaktionen und damit potenziell auch körperliche Veränderungen hervorrufen. Hinsichtlich der Textauswahl wurden dazu unterschiedliche Textarten mit verschiedenen Wirkungszielen verwendet, darunter ein Sachtext (Arbeitstitel: 
+                        <hi rend="italic">Hunde</hi><hi rend="superscript">1</hi>), welcher in einem nüchternen Sprachstil gehalten ist und zur Eingewöhnung der Probanden dienen soll, eine jugendsprachlich verfasste, narrative Kurzgeschichte (Arbeitstitel: 
+                        <hi rend="italic">Praxis</hi><hi rend="superscript">2</hi>) mit komischen Erzählelementen und zwei negative Texte: ein Kurzartikel (Arbeitstitel: 
+                        <hi rend="italic">Genie</hi><hi rend="superscript">3</hi>), der sich durch die Verwendung eines stark negativ konnotierten Vokabulars auszeichnet und ein Textausschnitt (Arbeitstitel: 
+                        <hi rend="italic">James</hi><hi rend="superscript">4</hi>), welcher den Tathergang während eines Mordes objektiv und chronologisch beschreibt. 
+                    </p>
+                    <p>Bezüglich des Videos fiel die Wahl auf den drei-minütigen Horror-Kurzfilm <hi rend="italic">Lights Out</hi><hi rend="superscript">5</hi>, der auf kurze, intensive Filmsequenzen mit starken Schockmomenten und die Vermeidung von direkter Gewaltdarstellung setzt.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Durchführung</head>
+                    <p>Jede Versuchsperson wurde zunächst über den Studienablauf, d.h. Reihenfolge der Inhalte und Fragebögen, aufgeklärt. Im weiteren Verlauf bedienten die Teilnehmer selbstständig und abgesehen vom Ablaufplan ohne weitere Anleitung die BioReader App, die zum Lesen der Texte, Starten und Stoppen der Messung und zur Visualisierung der Messwerte verwendet werden sollte. Für die Messung wurde eine Polar M600 Pulsuhr verwendet, die die Probanden während der Studie am Handgelenk trugen. Diese zeichnet unter anderem Sensorwerte für Accelerometer, Gyroskop und Herzfrequenz auf, wobei wir im Rahmen dieser Studie unseren Fokus auf die Herzfrequenz setzen.</p>
+                    <p>Nach dem Lesen aller Texte bzw. Schauen des Videos wurden die Probanden in einem Fragebogen bezüglich der Wahrnehmungsintensität, Immersion bzw. Transportation in die narrative Welt (Appel, Richter 2010), Gefühle bei der Rezeption und Intensität einzelner Teile befragt.</p>
+                    <p>Schließlich füllten die Versuchspersonen noch einen Fragebogen zur Usability der BioReader App aus und beantworteten einige demographische Fragen.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ergebnisse</head>
+                    <p>Zur Bewertung der Usability und User Experience der App wurde der 
+                        <hi rend="italic">UEQ - User Experience Questionnaire</hi> (Laugwitz et al., 2008) eingesetzt, welcher den Gesamteindruck der Nutzer in Bezug auf die Applikation misst. Die Auswertung des Fragebogens ergab, dass die App von den Probanden als sehr nutzerfreundlich und einfach zu bedienen eingeschätzt wurde. Im Folgenden werden die Ergebnisse der Machbarkeitsstudie vorgestellt, die einen Ausblick auf mögliche Anwendungen der App geben soll. Daher beschränken wir uns in diesem Beitrag auf eine explorative Auswertung zur Gewinnung von Hypothesen, die in weiteren Arbeiten statistisch bewertet werden müssen.
+                    </p>
+                    <p>Die Versuchspersonen zeigen im Verlauf der Studie zum Texterlebnis eine mittlere Herzfrequenzschwankung von 23,27 Schläge pro Minute, wobei sie wenigstens um 13, höchstens um 33 Schläge pro Minute im Verlauf schwankt. Wir normieren die Sensordaten pro Teilnehmer, um Abweichungen im Textverlauf zu erkennen und visualisieren diese neben der dazugehörigen Textseite. Ein Punkt repräsentiert auf der Y-Achse den Lesezeitpunkt, auf der X-Achse den Messwert der Herzfrequenz. Die Verbindung der Punkte approximiert linear den normierten Herzratenverlauf eines Probanden.</p>
+                    <p>Um eine Eingewöhnung an die Studiensituation zu erreichen, beginnen alle Teilnehmer mit dem Sachtext. Entsprechend Abbildung 3 messen wir, dass einige Probanden zu Beginn der Studie einen relativ hohen Puls haben, der sich im Verlauf der ersten halben Seite normalisiert. Betrachtet man die Herzfrequenz über alle Textseiten, wird deutlich, dass Probanden an unterschiedlichen Stellen im Text mit einer Veränderung des Pulses reagierten. Bei manchen Probanden scheinen z.B. Gewaltdarstellungen (siehe Abbildung 4) zu einer Pulserhöhung (z.B. H1User4, H2User6 oder H2User7) zu führen, was sich bei einigen Probanden (z.B. H2User7, H1User2, H1User6, H1User4) auch bei komischen Elementen (siehe Abbildung 5) beobachten lässt. </p>
+                    <p>Zu Beginn des Videos “Lights Out”, in einer Szene, in der sich die Darstellerin unter einer Bettdecke versteckt und bei der Schockszene am Ende des Kurzfilms zeigen einige Probanden deutliche Veränderungen in der Herzfrequenz (siehe Abbildung 6). Diese intensiven Szenen zeichnen sich durch besonders tiefe und laute Frequenzen in der Audiospur aus, die zur Wirkung der Szene beitragen. Die Bewertung der Szenen durch die Probanden deckt sich mit der Analyse der Messwerte und motiviert die Hypothese, dass besonders intensiv erlebte Spannungselemente durch Veränderung in der Herzrate messbar werden.</p>
+                    <figure>
+						<graphic n="1003" width="16.51cm" height="11.465277777777779cm" url="220_final-62e8d25e00c19096fb713b7413e72030.png" rend="inline"/>
+						<head>
+						<lb/>Abbildung 3. Herzfrequenzverläufe für den ersten Text (Sachtext) im Studienverlauf
+						</head>
+					</figure>
+                    <figure>
+						<graphic n="1004" width="16.51cm" height="11.465277777777779cm" url="220_final-164ebbe1deaf81de1b4b02a07403ed30.png" rend="inline"/>
+						<head>
+						<lb/>Abbildung 4. Herzfrequenzverläufe für einen Textabschnitt mit Gewaltdarstellungen
+						</head>
+					</figure>
+                    <figure>
+						<graphic n="1005" width="16.51cm" height="11.465277777777779cm" url="220_final-a71ad731abc3abdb64de3a2b1dde12a0.png" rend="inline"/>
+						<head>
+							<lb/>Abbildung 5. Herzfrequenzverläufe für einen komischen Textabschnitt
+						</head>
+					</figure>
+                    <figure>
+						<graphic n="1006" width="16.51cm" height="8.290277777777778cm" url="220_final-df25db7de88938218c532085411c60b2.png" rend="inline"/>
+						<head>
+							<lb/>Abbildung 6. Video Snapshots, Herzfrequenzen und Audio Waveform für den Film “Lights out”
+						</head>
+					</figure>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und Ausblick</head>
+                <p>Die von uns entwickelte App ermöglicht Nutzern bequem Körperreaktionen bei Multimedia Konsum zu tracken und bietet für Studien ein Werkzeug, um Zusammenhänge zwischen Nutzerwahrnehmung, Körperreaktionen und Medieninhalten zu erfassen und zu untersuchen.
+                    <lb/>In unserer Teststudie konnten wir zeigen, dass die Usability der App von Probanden als sehr gut bewertet wurde und die App in der Lage ist, Sensordaten wie Herzfrequenz zuverlässig zum Lesefortschritt aufzuzeichnen und darzustellen. 
+                </p>
+                <p>Damit eröffnet “BioReader” die Möglichkeit in großangelegten Studien physiologische Reaktionen und Rezipientenwirkung zu digitalisieren und diese zu untersuchen, um damit generalisierbare Erkenntnisse zu gewinnen. Diese können darüber hinaus mit inhaltlichen Analysen, beispielsweise Sentiment-Analyse, kombiniert werden und neue Zusammenhänge zwischen Wahrnehmungsebene und Inhaltsebene aufdecken.</p>
+                <p>In zukünftigen App-Versionen planen wir zusätzliche Sensorik wie beispielsweise Hautleitwertsensor oder die Front-Kamera für eine bildbasierte Emotionserkennung zu integrieren. </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> Wei-Haas, Maya: Wohin verschwanden die ersten Hunde Amerikas? In: National Geographic. Link: <ref target="https://www.nationalgeographic.de/wissenschaft/2018/07/wohin-verschwanden-die-ersten-hunde-amerikas">https://www.nationalgeographic.de/wissenschaft/2018/07/wohin-verschwanden-die-ersten-hunde-amerikas</ref> (zuletzt aufgerufen: 28.09.2018).</note>
+				<note place="foot" xml:id="ftn2" n="2"> Kling, Marc-Uwe: Theorie und Praxis. In: Die Känguru-Chroniken. Ansichten eines vorlauten Beuteltiers, Berlin 2009.</note>
+				<note place="foot" xml:id="ftn3" n="3"> WDR: 4. November 1970 - Entdeckung des Wolfskinds “Genie”. Link: <ref target="https://www1.wdr.de/stichtag/stichtag-554.html">https://www1.wdr.de/stichtag/stichtag-554.htm</ref><ref target="https://www1.wdr.de/stichtag/stichtag-554.html">l</ref> (zuletzt aufgerufen: 28.09.2018)</note>
+				<note place="foot" xml:id="ftn4" n="4"> Wikipedia: Mord an James Bulger. Link: <ref target="https://de.wikipedia.org/wiki/Mord_an_James_Bulger">https://de.wikipedia.org/wiki/Mord_an_James_Bulger</ref> (zuletzt aufgerufen: 28.09.2018)</note>
+				<note place="foot" xml:id="ftn5" n="5"> Lights Out, in: Youtube. Link: <ref target="https://www.youtube.com/watch?v=kNbJE0y29_c&amp;t=7s">https://www.youtube.com/watch?v=kNbJE0y29_c&amp;t=7s</ref> (zuletzt aufgerufen: 28.09.2018)</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold"> Appel, Markus / Richter, Tobias (2010):</hi> 
+                        <hi rend="italic">Transportation and Need for Affect in Narrative Persuasion: A Mediated Moderation Model</hi>, 
+                        Media Psychology, 13:2, 101-135, DOI:10.1080/15213261003799847
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Baldaro, Bruno / Codispoti, Maurizio / Mazetti, Michela / Tuozzi, Giovanni (2001):</hi> 
+                        <hi rend="italic">Autonomic reactivity during viewing of an unpleasant film</hi>, 
+                        in: Perceptual and Motor Skills, Seite 797-805.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bar-Haim, Yair / Fox, Nathan A. / VanMeenen, Kirsten M. / Marshall, Peter J.(2004):</hi> 
+                        <hi rend="italic">Children’s narratives and patterns of cardiac reactivity</hi>, 
+                        in: Developmental Psychobiology Volume 44, Seite 238.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Buchreport (2017):</hi> 
+                        <hi rend="italic">Mit Jellybooks lernen lernen Verlage und Autoren die Leser kennen</hi>, 
+                        Link:
+                        <ref target="https://www.buchreport.de/2017/11/06/leser-machen-unglaublich-gerne-mit-bei-jellybooks/">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://www.buchreport.de/2017/11/06/leser-machen-unglaublich-gerne-mit-bei-jellybooks/</hi>
+                        </ref>
+                        <hi style="font-size:11pt" xml:space="preserve"> [zuletzt aufgerufen: 01.10.2018]</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Kuzmicova, Anezka / Schilhab, Theresa / Burke, Michael (2018):</hi>
+                        <hi rend="italic">m-Reading: Fiction reading from mobile phones</hi>, 
+                        in: Convergence: The International Journal of Research into New Media Technologies, Seite 1-17.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Laugwitz, B. / Schrepp, M. / Held, T. (2008):</hi>
+                        <hi rend="italic">Construction and evaluation of a user experience questionnaire</hi>, 
+                        in: Holzinger, A. (Ed.): USAB 2008, LNCS 5298, pp. 63-76.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Richter, M. / Miltner, W. / Weiss, T. (2011):</hi>
+                        <hi rend="italic">Schmerzwörter aktivieren schmerzverarbeitende Hirnareale</hi>, 
+                        in: Schmerz Volume 25, Seite 322.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Riese, Katrin / Bayer, Mareike / Lauer, Gerhard / Schacht, Annekathrin (2014):</hi>
+                        <hi rend="italic">In the eye of the recipient - pupillary responses to suspense in literary classics</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Schwarz-Friesel, Monika (2013):</hi>
+                        <hi rend="italic">Sprache und Emotion</hi>, 
+                        UTB GmbH, Stuttgart
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Andreas Hergovich (2018):</hi>
+                        <hi rend="italic">Allgemeine Psychologie - Wahrnehmung und Emotion</hi>,
+                        facultas.wuv Universitäts, Wien, S. 137.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Tassi, Paul (2018):</hi>
+                        <hi rend="italic">The ten horror movies netﬂix says are so scary, viewers can’t ﬁnish them</hi>, 
+                        Link: 
+                        <ref target="https://www.forbes.com/sites/insertcoin/2018/03/14/the-ten-horror-movies-netflix-says-are-so-scary-viewers-cant-finish-them/">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://www.forbes.com/sites/insertcoin/2018/03/14/the-ten-horror-movies-netflix-says-are-so-scary-viewers-cant-finish-them/</hi>
+                        </ref>
+                        <hi style="font-size:11pt" xml:space="preserve">  [zuletzt aufgerufen 01.10.2018].</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

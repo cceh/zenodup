@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="252_final-WALKOWSKI_Niels_Oliver_Scalable_Viewing_in_den_Filmwissensch" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scalable Viewing in den Filmwissenschaften</title>
+                <author>
+                    <persName>
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName>
+                    <affiliation>Universität Leipzig</affiliation>
+                    <email>burghardt@informatik.uni-leipzig.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pause</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Universität Luxemburg</affiliation>
+                    <email>johannes.pause@uni.lu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Walkowski</surname>
+                        <forename>Niels-Oliver</forename>
+                    </persName>
+                    <affiliation>unabhängiger Wissenschaftler</affiliation>
+                    <email>walkowski@nowalkowski.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-07T20:11:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>scalable viewing</term>
+                    <term>filmwissenschaften</term>
+                    <term>visualisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Theoretisierung</term>
+                    <term>Visualisierung</term>
+                    <term>Video</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align:left; ">Der vorliegende Beitrag greift das Konferenzmotto „multimedial, multimodal“ der DHd 2019 durch die Einführung des methodischen Konzepts des
+                    <hi rend="italic" xml:space="preserve"> Scalable Viewings</hi> im Kontext filmwissenschaftlicher Forschung auf. Angelehnt an Designprinzipien aus dem Feld der Datenvisualisierung (Keim et al. 2008) und ersten Beiträgen zu einer Idee des Scalable Readings (Weitin 2017) zielt der Begriff Scalable Viewing darauf, die dynamische, multi-perspektivische Repräsentation von Forschungsdaten als methodischen Kernbestandteil einer computergestützten Filmanalyse zu etablieren und zugleich zu systematisieren. Diese Systematisierung basiert auf zwei Forschungsprojekten, die sich mit Aspekten von Farbigkeit, ästhetischen Reizen, Figuren, Montage sowie Dialogen und Filmskripten auseinandergesetzt haben und die zur Illustration des Scalable Viewing-Konzepts im Rahmen des Vortrags vorgestellt werden.
+                </p>
+                <p style="text-align:left; ">In den letzten Jahren wurde eine Reihe von Tools zur Visualisierung von Bewegtbilddaten präsentiert (vgl. Schoeffmann et al. 2015). Die gestiegene Bedeutung dieses Themas zeigt sich in Teilen auch in der Ausrichtung eines eigenständigen Tracks (
+                    <ref target="https://trecvid.nist.gov/">https://trecvid.nist.gov/</ref>) im Rahmen der 
+                    <hi rend="italic">Text Retrieval Conference</hi> (TREC). Während die meisten Tools und Visualisierungen aus dem Bereich der Informatik stammen, gibt es zunehmend auch Visualisierungen, die speziell das Feld der Digital Humanities adressieren. So hat Lev Manovich im Rahmen des 
+                    <hi rend="italic">Visualizing Vertov</hi>-Projekts (Manovich 2013) ein exploratives Visualisierungsinterface für die Analyse von Vertov-Filmen kreiert, das weit darüber hinaus zur Anwendung gekommen ist, so zum Beispiel bei der Untersuchung der 
+                    <hi rend="italic">Jean Desmet Collection</hi> (Olesen u. a. 2016) oder bei einer Auseinandersetzung mit 55 Filmen aus den 
+                    <hi rend="italic" xml:space="preserve">Walt Disney Animation Studios </hi>(Ferguson 2017). 
+                    <hi rend="italic">ScriptsThreads</hi> (Hoyt 2014) ist ein weiteres Werkzeug, das die Figurenkonstellation in Filmen automatisiert extrahiert und visualisiert. Wiederum andere Visualisierungswerkzeuge fokussieren auf die Darstellung der Entwicklung von Stimmungen (
+                    <hi rend="italic">sentiment analysis</hi>) oder dominanter Farbstrukturen (Burghardt et al. 2016; Hohman et al. 2017, Pause &amp; Walkowski 2018). Besonders stark rezipiert wurde in diesem Zusammenhang das zum Begriff für eine Reihe von Visualisierungsansätzen gewordene Projekt 
+                    <hi rend="italic">MovieBarcodes</hi> (
+                    <ref target="http://moviebarcode.tumblr.com/">
+                        <hi rend="underline color(1155CC)">http://moviebarcode.tumblr.com/;</hi>
+                    </ref> vgl. Abbildung 1), das sich konzeptuell mindestens bis 2001 zurückverfolgen lässt (Barbieri, 2001).
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.927916666666667cm" height="5.995458333333334cm" url="252_final-5a224f4e921005f2bbcee29cd2980263.png" rend="block"/>
+					<head>
+						<lb/>Abbildung 1. Star Wars: Episode VIII - The Last Jedi (2017), Quelle: http://moviebarcode.tumblr.com/image/173580407805
+					</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Scalable Viewing: Skalierbarkeit von Abstraktion und Visualisierung</head>
+                <p style="text-align:left; ">MovieBarcodes wie auch ein Großteil der anderen in diesem Kontext relevanten Visualisierungen basieren in der Regel auf einem Distant Reading-Ansatz, da sie die visuelle Ebene der Farbverwendung oder anderer Features innerhalb eines Films auf einen Blick darzustellen versuchen. Mit dem Begriff des ‘Distant Reading’ beschreibt Franco Moretti (Moretti 2013) die rein quantitative Analyse großer literarischer Korpora. Distant Reading soll eine abstrakte Repräsentation literarischer Werke ermöglichen, die auf der Grundlage bestimmter Vorentscheidungen in Daten und Diagramme übersetzt und so großmaßstäblich vergleichbar gemacht werden. Die Vogelperspektive etwa auf die Entwicklung einer ganzen literarischen Gattung über mehrere Jahrzehnte hinweg eröffnet dabei unweigerlich Einsichten, die über die qualitativ-hermeneutische Analyse und das 
+                    <hi rend="italic">Close Reading</hi> eines literarischen Texts nicht generierbar wären. Freilich nimmt eine derart distanzierte Perspektive Verluste in Kauf, indem sie dasjenige, was an den literarischen Werken kommensurabel ist, isoliert. Auf dieser Grundlage artikulieren sich dann die meisten der gegenüber digitalen Methoden geäußerten Vorbehalte, zum Beispiel jene des Reduktionismus, Empirismus oder Szientismus, die unmittelbar mit wissenschaftspolitischen Grundsatzentscheidungen zusammenfallen. Sie greifen die vermeintliche Abbildfunktion von Visualisierungen an, indem sie ihre Selektivität in den Vordergrund rücken. Solche Vorbehalte erweisen sich jedoch als nicht länger haltbar, sobald Visualisierungen im Rahmen einer vielgestaltigen Praxis konzipiert werden, die im besten Falle durch die Visualisierung selbst initiiert wird und die Statik des Abbildes auflöst.
+                </p>
+                <p style="text-align:left; ">In Erweiterung des von Martin Müller 
+                    <ref target="https://scalablereading.northwestern.edu/">(https://scalablereading.northwestern.edu/)</ref> eingeführten und von Thomas Weitin (2017) am deutschen Novellenschatz erprobten Konzepts des 
+                    <hi rend="italic">Scalable Readings</hi> wollen wir für eine computergestützte Auseinandersetzung mit Bewegtbildern, die in der Regel eine aisthetische Dimension aufweisen, den Begriff des 
+                    <hi rend="italic">Scalable Viewings</hi> vorschlagen. Während sich Moretti in seinem Buch vom Close Reading methodisch in einer Form abgrenzen zu wollen scheint, die nachgerade Unvermittelbarkeit suggeriert, stellt Scalable Viewing die Verbindung zu den traditionelleren Methoden der Geisteswissenschaften im Sinne eines mixed methods-Ansatzes (Kuckartz 2014) wieder her:
+                </p>
+                <quote>Wer die Oxford-Klassiker-Ausgabe der Odyssee liest (...), ist im Grunde bereits ein ‚distant reader‘ der Gesänge, die Homer zugeschrieben worden sind. Und gerade der distant reader im herkömmlichen Verständnis, der mit digitalen Analysen Daten und Visualisierungen erzeugt, muss diese verstehen und interpretieren. „Scalable Reading“ bedeutet indes nicht nur, dass sich close und distant reading methodisch durchdringen, es steht für ein integriertes Verständnis aller Akte des Lesens … (Weitin 2015: Abschnitt 2)</quote>
+                <p style="text-align:left; ">In diesem Sinne lässt sich die an Müller und Weitin angelehnte Idee einer freien Skalierung als methodische Durchdringung von Distant and Close Viewing fassen. Im Rahmen einer Analyse von Bewegtbildern lässt sich dieser Ansatz mit bestehenden Gestaltungsrichtlinien zur Informationsvisualisierung ("Overview first, zoom and filter, then details-on-demand"; Shneiderman 1996) und dem Ansatz der 
+                    <hi rend="italic">Visual Movie Analytics</hi> (Kurzhals et al. 2016) verbinden, wie am Beispiel des nachfolgend beschriebenen 
+                    <hi rend="italic">Scalable MovieBarcode</hi>-Tools gezeigt werden kann.
+                </p>
+                <p style="text-align:left; ">Wie eingangs bereits erläutert wurde, handelt es sich bei MovieBarcodes um eine typische Distant Reading-Visualisierung, werden doch Filme in komprimierter Form anhand der Farbverwendung und deren linearer Abfolge dargestellt. Um im Sinne des vorgeschlagenen Scalable Viewing-Konzepts weitere Detailebenen für die Analyse verfügbar zu machen, wurde das Konzept der 
+                    <hi rend="italic" xml:space="preserve">Scalable MovieBarcodes </hi>entwickelt (Burghardt et al. 2018). Dabei kann ein Film in beliebigen Zoom-Stufen dargestellt werden, von einer Überblicksdarstellung im Sinne klassischer MovieBarcodes bis hin zur Detailansicht auf Ebene einzelner Keyframes (vgl. Abb. 2). Darüber hinaus wurde die bei MovieBarcodes rein auf die Farbinformation beschränkte Visualisierung um eine textuelle Ebene ergänzt, indem Dialoge und Figurennamen mit den jeweiligen Keyframes aligniert wurden (für technische Details vgl. Burghardt et al. 2018). Die Dialoge werden je nach Sprecher in unterschiedlichen Farbcodes als kleine Rechtecke unterhalb der Keyframes visualisiert und können bei Bedarf auch als Untertitel angezeigt werden (vgl. Abb. 3). Gleichzeitig erlaubt die textuelle Erschließung des Films die gezielte Suche nach Keyframes mit bestimmten Figuren und Schlüsselwörtern, wodurch eine Skalierung der MovieBarcodes anhand bestimmter Filterkriterien ermöglicht wird (vgl. Abb. 4).
+                </p>
+                <figure>
+                    <graphic n="1002" width="15.927916666666667cm" height="5.785555555555556cm" url="252_final-90e43e0c35058b79433176b965c1281e.png" rend="block"/>
+					<head>
+						<lb/>Abbildung 2. Darstellung unterschiedlicher Zoomstufen der Scalable MovieBarcodes-Visualisierung am Beispiel von “Pretty Woman” (Garry Marshall, 1990). Oben: Überblick über alle Einstellungen; unten: Detailansicht einzelner Keyframes.
+					</head>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="15.5575cm" height="6.997347222222222cm" url="252_final-0198aa70a0fbc72846cbc0a0736b4bf6.png" rend="block"/>
+					<head>
+						<lb/>Abbildung 3. Detailansicht einer Einstellung bei “Pretty Woman” (Garry Marshall, 1990) mit Anzeige der transkribierten Dialoge.
+					</head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="15.121819444444444cm" height="6.330597222222222cm" url="252_final-fedb5dc4b5cea1eb9ca12d2ea3ca789b.png" rend="block"/>
+					<head>
+						<lb/>Abbildung 4. Darstellung eine Sub-MovieBarcodes, der Einstellungen mit dem Suchbegriff “love” enthält.
+					</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erweiterung des Scalable Viewing-Konzepts um die Dimensionen Korpusgröße und Medialisierung</head>
+                <p style="text-align:left; ">Das Beispiel der Scalable MovieBarcodes demonstriert, entsprechend der zuvor geäußerten These, wie durch Interaktivität und Zoomfähigkeit der Visualisierung den Fallstricken einer auf eine Abbildfunktion reduzierten Visualisierung als reines Distant Viewing entgegengearbeitet werden kann. An die Stelle des Abbildes tritt die freie Skalierung zwischen Distant und Close Viewing. Was das Beispiel darüber hinaus implizit auch noch deutlich machen kann, ist die Inkongruenz zwischen der Distant und Close Viewing-Dimension einerseits und der Frage nach der Größe des untersuchten Korpus andererseits. Scalable MovieBarcodes zeigen, dass ein Distant Viewing eines Einzelwerks genauso wie ein Close Viewing von dreißig Sequenzen (shots) innerhalb desselben Tools denkbar sind. Die Produktivität einer solchen Distant Viewing-Analyse einzelner Filme konnte zuletzt auch anhand der detaillierten Untersuchung dreier Zombiefilme (Pause &amp; Walkowski 2018) unter Beweis gestellt werden. Verhindert werden soll durch diese Differenzierung vor allem eine voreilige Gleichsetzung von Distant Viewing-Methoden mit “Big Data”. Aus diesem Grund ist der Scalable Viewing-Ansatz um die Skalierbarkeit der Positionierung zwischen Einzelwerk- und Korpus-Perspektive zu ergänzen. So erlauben es computergestützte Methoden, beide Perspektiven innerhalb eines einzigen Forschungsprozesses positiv aufeinander zu beziehen.</p>
+                <p style="text-align:left; ">Schließlich konstituiert das gemeinsame Arrangement aus Skripttext, extrahierten Frames und diagrammatischen Elementen eine dritte, eigenständige Dimension des Scalable Viewing-Ansatzes. Bei Weitin wird diese Dimension angedeutet, wenn von “einer weiteren ‘scale’ medialer Formen und analytischer Aufbereitungen” die Rede ist (Weitin 2015). Genau genommen sind hier zwei miteinander verwandte Möglichkeitsräume angesprochen: Zum einen geht es um den Versuch, möglichst viele Modalitäten des Forschungsgegenstandes selbst zu medialisieren, d.h. in Repräsentationen wie farbige Rechtecke, gestauchte, 1-Pixel breite Frames und ähnliches zu verarbeiten und dadurch analytisch zugriffsfähig zu machen. Zum anderen kann es aber auch darum gehen, ein einziges Merkmal des Forschungsgegenstands in vielen, möglichst unterschiedlichen Modalitäten aufzubereiten.</p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="8.932cm" url="252_final-66ea5d1fbeb9e46e8a6997c7f69bbaaf.png" rend="block"/>
+					<head>
+						<lb/>Abbildung 5. Die Repräsentation eines spezifischen Farbeffekts als numerische, diagrammatische und aisthetische Größe in einem interaktiven Filmanalyse-Dashboard.
+					</head>
+                </figure>
+                <p style="text-align:left; ">Ein Beispiel hierfür ist das im zweiten Fallbeispiel präsentierte 
+                    <hi rend="italic">HoloViews</hi>-Dashboard 
+                    <ref target="http://holoviews.org/">(http://holoviews.org/).</ref> Das Dashboard wurde im Rahmen einer Analyse von 24 Politthrillern erstellt und kombiniert unterschiedliche Formen der Repräsentation von Farbeffekten in verschiedenen miteinander in Beziehung stehenden Widgets. Abbildung 5 zeigt, wie ein solcher Farbeffekt gleichzeitig: (a) als Punkt auf einem, den gesamten Film umspannenden Scatterplot, (b) als numerische Größe des relativen Pixelanteils am Frame sowie (c) als ein durch Histogramm-Backprojection isolierter Bereich auf dem Filmstill dargestellt werden kann. Die Bedeutung des Farbeffekts ist somit Folge einer multimodalen Kontextualisierung.
+                </p>
+                <p style="text-align:left; ">Werden nun alle drei diskutierten Dimensionen zusammengedacht, so ergibt sich ein dreidimensionaler Möglichkeitsraum, innerhalb dessen unterschiedliche Scalable Viewing-Ansätze systematisiert werden können (Abbildung 6).</p>
+                <figure>
+                    <graphic n="1006" width="12.22375cm" height="7.831666666666667cm" url="252_final-fdd05f5b328acb1ab7a464b59e52f786.png" rend="inline"/>
+					<head>
+						<lb/>Abbildung 6. Die drei Achsen des Scalable Viewing.
+					</head>
+                </figure>
+                <p style="text-align:left; ">Die Pointe eines Ansatzes, der Scalable Viewing als eigenständiges methodisches Konzept vorstellt, liegt mithin in der Möglichkeit, progressiv innerhalb ein und desselben Forschungsprozesses zu skalieren, anstatt sich für einen Distant oder einen Close Viewing-Ansatz, für eine Fallbeispielanalyse oder einen Big Data-Ansatz oder für die effizienteste Form der Darstellung bzw. das effizienteste Tool zu entscheiden. Dabei bezieht das vorgeschlagene Konzept die schon im Scalable Reading-Ansatz angedachte, integrative Perspektive nicht allein auf die epistemischen Objekte der Filmwissenschaft, sie sieht die Leistung computergestützter Analyseverfahren gerade darin, dass unterschiedliche Formen des Zugriffs auf das Material durch diese selbst immer von Neuem angeregt werden. Die Skalierung dient nicht der Kompensation der einen digitalen Methodik, vielmehr ist die Pluralisierung von Perspektiven auf das Untersuchungsmaterial selbst das Resultat eines durch computerisierte Verfahren erweiterten, wissenschaftlichen Möglichkeitsraums, der im Rahmen eines konzeptuellen Scalable Viewing-Rahmenwerks methodologisierbar wird. Gerade den Digital Humanities sollte es ein Anliegen sein, nicht immer schon festgelegten Methoden zu folgen, sondern den eher experimentellen Weg einer epistemischen “Bastelei” einzuschlagen, in welcher Zugriff wie Untersuchungsobjekt erst im Prozess emergieren.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Barbieri, M. / Mekenkamp, G. / Ceccarelli, M., / Nesvadba, J. (2001):</hi> 
+                        <hi rend="italic">The color browser: a content driven linear video browsing tool</hi>, 
+                        in: Multimedia and Expo Conference. IEEE 627–630.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Burghardt, M. / Kao, M. / Walkowski, N.-O. (2018):</hi> 
+                        <hi rend="italic">Scalable MovieBarcodes – An Exploratory Interface for the Analysis of Movies</hi>. 
+                        3rd IEEE VIS Workshop on Visualization for the Digital Humanities, Berlin.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Burghardt, M. / Kao, M. / Wolff, C. (2016):</hi> 
+                        <hi rend="italic">Beyond Shot Lengths – Using Language Data and Color Information as Additional Parameters for Quantitative Movie Analysis</hi>, 
+                        in: Book of Abstracts of the International Digital Humanities Conference (DH). Krakow.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Ferguson, K. L. (2019):</hi> 
+                        <hi rend="italic">Digital Surrealism: Visualizing Walt Disney Animation Studios</hi>, 
+                        in: Digital Humanities Quarterly. 11(1) 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/11/1/000276/000276.html">
+                            <hi rend="underline color(1155CC)">http://www.digitalhumanities.org/dhq/vol/11/1/000276/000276.html.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Hohman, F. / Soni, S. / Stewart, I. / Stasko, J. (2017):</hi> 
+                        <hi rend="italic">A Viz of Ice and Fire: Exploring Entertainment Video Using Color and Dialogue</hi>, in: 
+                        Proceedings of the 2nd Workshop on Visualization for the Digital Humanities (VIS4DH), Phoenix, Arizona.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Hoyt, E. / Ponot, K. / Roy, C. (2014):</hi> 
+                        <hi rend="italic">Visualizing and Analyzing the Hollywood Screenplay with ScripThreads</hi>, in: 
+                        Digital Humanities Quarterly. 8(4) 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/8/4/000190/000190.html">
+                            <hi rend="underline color(1155CC)">http://www.digitalhumanities.org/dhq/vol/8/4/000190/000190.html-</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Keim D. / Andrienko G. / Fekete JD. / Görg C. / Kohlhammer J. / Melançon G. (2008):</hi> 
+                        <hi rend="italic">Visual Analytics: Definition, Process, and Challenges</hi>, 
+                        in: 
+                        <hi rend="bold">Kerren A. / Stasko J.T. / Fekete JD. / North C. (Hrsg.): </hi>
+                        <hi rend="italic">Information Visualization. Lecture Notes in Computer Science.</hi> 4950: 154-175.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Kuckartz, U. (2014): </hi>
+                        <hi rend="italic">Mixed Methods. Methodologie, Forschungsdesigns und Analyseverfahren</hi>. Wiesbaden: Springer VS
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Kurzhals, K. / John, M. / Heimerl, F. / Kuznecov, P. / Weiskopf, D. (2016):</hi> 
+                        <hi rend="italic">Visual Movie Analytics</hi>, in: 
+                        IEEE Transactions on Multimedia. 18(11): 2149-2160.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Manovich, L. (2013):</hi> 
+                        <hi rend="italic">Visualizing Vertov</hi>, in: 
+                        Russian Journal of Communication. 5(1): 44-55 doi:
+                        <ref target="https://doi.org/10.1080/19409419.2013.775546">
+                            <hi rend="underline color(1155CC)">10.1080/19409419.2013.775546.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Moretti, F. (2013): </hi>
+                        <hi rend="italic">Distant Reading</hi>. London, New York: Verso.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Gosvig Olesen, C./ Masson, E. / Van Gorp, J. / Fossati, G. / Noordegraaf, J. (2016):</hi> 
+                        <hi rend="italic">Data-Driven Research for Film History: Exploring the Jean Desmet Collection</hi>, in: 
+                        The Moving Image. 6(1): 82–105.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Pause, J. / Walkowski, N.-O. (2018):</hi> 
+                        <hi rend="italic">Everything is Illuminated. Zur Numerischen Analyse von Farbigkeit in Filmen</hi>, in: 
+                        Zeitschrift für digitale Geisteswissenschaften. Wolfenbüttel doi:10.17175/2018_003
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Schoeffmann, K. / Hudelist, M. A. / Huber, J. (2015):</hi> 
+                        <hi rend="italic">Video interaction tools: A survey of recent work</hi>, in: 
+                        ACM Computing Surveys (CSUR) 48(1): 1–34.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Shneiderman, B. (1996):</hi> 
+                        <hi rend="italic">The eyes have it: A task by data type taxonomy for information visualizations</hi>, in: 
+                        Proceedings of the IEEE Symposium on Visual Languages. 336-343.
+                    </bibl>
+                    <bibl style="text-align:left; ">
+                        <hi rend="bold">Weitin, T. (2017):</hi> 
+                        <hi rend="italic">Scalable Reading</hi>, in: 
+                        Zeitschrift für Literaturwissenschaft und Linguistik. 1-6 doi:
+                        <ref target="https://doi.org/10.1007/s41244-017-0048-4">
+                            <hi rend="underline color(1155CC)">10.1007/s41244-017-0048-4.</hi>
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

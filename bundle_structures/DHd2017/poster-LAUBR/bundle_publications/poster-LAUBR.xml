@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-LAUBR" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Visuelle Elemente grafischer Literatur: Aufmerksamkeitszuwendung und objektive Beschreibung</title>
+<author>
+<persName>
+<surname>Laubrock</surname>
+<forename>Jochen</forename>
+</persName>
+<affiliation>Universität Potsdam, Deutschland</affiliation>
+<email>laubrock@uni-potsdam.de</email>
+</author>
+<author>
+<persName>
+<surname>Richter</surname>
+<forename>Eike</forename>
+</persName>
+<affiliation>Universität Potsdam, Deutschland</affiliation>
+<email>Eike.Richter@uni-potsdam.de</email>
+</author>
+<author>
+<persName>
+<surname>Hohenstein</surname>
+<forename>Sven</forename>
+</persName>
+<affiliation>Universität Potsdam, Deutschland</affiliation>
+<email>hohenstein@uni-potsdam.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>grafische Literatur</term>
+<term>Comics</term>
+<term>Eyetracking</term>
+<term>Korpus</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Räumliche Analyse</term>
+<term>Annotieren</term>
+<term>Visualisierung</term>
+<term>Bilder</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Graphische Romane vereinen als hybride Gattung Aspekte von Literatur und bildender Kunst (McCloud, 1993). Wie interagieren Bild und Text beim Lesen graphischer Literatur und ermöglichen das Verstehen des Gesamtwerkes? Worauf fokussiert die Aufmerksamkeit des Lesers? Als Methode zur Beantwortung dieser Fragen ist die Blickbewegungsmessung besonders geeignet. Blickbewegungen haben sich in einer Vielzahl an Studien als valides, nichtreaktives Maß für die Verarbeitung und das Verstehen von Text und Bild erwiesen, in dem sich zudem auch unbewusste Verarbeitungsprozesse niederschlagen (Findlay &amp; Gilchrist, 2003; Wade &amp; Tatler, 2005). </p>
+<p>In früheren Arbeiten (Laubrock, Hohenstein &amp; Thoß, 2016; Dunst, Hartel, Hohenstein Laubrock, 2016) haben wir mit Eyetracking-Analysen gezeigt, dass beim Lesen grafischer Literatur der größte Teil der Aufmerksamkeit dem Text in Sprechblasen und Beschriftungen (Captions) zugewandt wird und nur ein relativ kleiner Teil den originär visuellen Gestaltungselementen alloziert wird. Wird der visuelle Inhalt gar nicht beachtet, oder kann er möglicherweise bereits im peripheren Sehen während der Fixationen auf dem Text verarbeitet werden? Wir hatten bereits berichtet, dass Comics-Experten den Bildanteil stärker beachten und darauf verstehensrelevante Information extrahieren. In einer neuen Serie von Studien untersuchen wir mittels blickkontingenter Präsentation, ob (a) den Bildanteilen mehr Aufmerksamkeit zugewandt wird, wenn die Vorschau verhindert wird, indem das Bild erst eingeblendet wird, wenn der Blick sich auf ein Panel bewegt und (b) die Aufmerksamkeit andere grafische Elemente auswählt, wenn zwar der visuelle Teil der Panels sichtbar ist, der Text aber erst nach Fokussierung eines Panels eingeblendet wird.</p>
+<p>Das visuelle Material wurde auf zweierlei Weise annotiert. Einerseits annotierten Menschen Personen und einzelne Objekte innerhalb der Panels. Andererseits versuchen wir eine objektiven Beschreibung des visuellen Materials mithilfe von Deskriptoren aus dem maschinellen Sehen (Computer Vision), z.B. mittels Farbhistogrammen, lokalem Fourier-Spektrum oder SIFT-Deskriptoren (Lowe, 1999). Der Vorteil dieser Beschreibung ist neben der Objektivität die skriptgesteuerte Anwendbarkeit auf große Datenmengen, etwa digitalisierte Korpora grafischer Literatur. Vergleichbare Arbeiten aus der Schnittstelle von Kunstgeschichte und Informatik ermöglichen beispielsweise eine automatisierte Klassifikation von Kunstrichtungen (Saleh &amp; Elgammal, 2015) und zeigen das Potenzial eines solchen Ansatzes als Stilometrie visueller Merkmale.</p>
+<p>Für die Zuordnung der Blickbewegungsdaten auf das Stimulusmaterial nutzen wir die im Projekt entwickelte Graphic Novel Markup Language (GNML), eine Erweiterung der Comic Book Markup Language (CBML; Walsh, 2012). Das Material wurde mit unserem Editor annotiert, für Weiterverarbeitung und statistische Analyse der Daten nutzten wir ein in Entwicklung befindliches R-Paket. Die objektive Beschreibung des visuellen Materials mit Deskriptoren aus dem maschinellen Sehen wurde unter Nutzung von OpenCV (Bradski, 2000) und VLFEAT (Vedaldi &amp; Fulkerson, 2008) teils in Python und teils in Matlab implementiert, da für R für diesen Anwendungsbereich keine hinreichend entwickelte Funktionsbibliothek existiert. </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bradski, Gary</hi> (2000):
+                        „The OpenCV library“,
+                        in:
+                        <hi rend="italic">Dr. Dobb’s Journal of Software Tools</hi> 25 (11): 120–125. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Dunst, Alexander / Hartel, Rita / Hohenstein, Sven / Laubrock, Jochen</hi> (2016):
+                        „Corpus Analyses of Multimodal Narrative: The Example of Graphic Novels“,
+                        in:
+                        <hi rend="italic">DH2016: Conference Abstracts</hi> 178–180.
+                    </bibl>
+<bibl>
+<hi rend="bold">Findlay, John M. / Gilchrist, Ian D.</hi> (2003):
+                        <hi rend="italic">Active Vision. The Psychology of Looking and Seeing</hi>.
+                        Oxford: Oxford University Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Laubrock, Jochen / Hohenstein, Sven / Thoß, Aalexander</hi> (2016):
+                        „Moving around the city of glass“,
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 186. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Lowe, David G.</hi> (1999):
+                        „Object recognition from local scale-invariant features“,
+                        in:
+                        <hi rend="italic">Proceedings of the International Conference on Computer Vision (ICCV'99)</hi> 1150–1157.
+                    </bibl>
+<bibl>
+<hi rend="bold">McCloud, Scott</hi> (1993):
+                        <hi rend="italic">Understanding comics: the invisible art</hi>.
+                        Northampton, MA: Tundra.
+                    </bibl>
+<bibl>
+<hi rend="bold">Saleh, Babak / Elgammal, Ahmed M.</hi> (2015):
+                        „Large-scale classification of fine-art paintings: Learning the right metric on the right feature“,
+                        in:
+                        <hi rend="italic">CoRR</hi> abs/1505.00855, 1–21 
+                        <ref target="http://arxiv.org/pdf/1505.00855v1.pdf">http://arxiv.org/pdf/1505.00855v1.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Vedaldi, Andrea / Fulkerson, Brian</hi> (2008):
+                        <hi rend="italic">VLFeat: An open and portable library of computer vision algorithms</hi>. [Computer Software: http://www.vlfeat.org/ ]</bibl>
+<bibl>
+<hi rend="bold">Wade, Nicholas J. / Tatler, Benjamin W.</hi> (2005): 
+                        <hi rend="italic">The Moving Tablet of the Eye: Origins of modern eye movement research</hi>. 
+                        Oxford: Oxford University Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Walsh, John</hi> (2012):
+                        „Comic Book Markup Language: An Introduction and Rationale“,
+                        in:
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 6 (1).
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

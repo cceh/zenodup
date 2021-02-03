@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-GOEDE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Niklas Luhmanns Werk- und Lesekosmos - DH in der bibliographischen Dimension</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Goedel</surname>
+<forename>Martina</forename>
+</persName>
+<affiliation>Cologne Center for eHumanities, Universität zu Köln, Deutschland</affiliation>
+<email>mgoedel@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Zimmer</surname>
+<forename>Sebastian</forename>
+</persName>
+<affiliation>Cologne Center for eHumanities, Universität zu Köln, Deutschland</affiliation>
+<email>sebastian.zimmer@uni-koeln.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-22T21:51:20.48</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Soziologie</term>
+<term>Zettelkasten</term>
+<term>Nachlass</term>
+<term>Bibliographie</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Datenerkennung</term>
+<term>Sammlung</term>
+<term>Transkription</term>
+<term>Gestaltung</term>
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Kontextsetzung</term>
+<term>Bereinigung</term>
+<term>Bearbeitung</term>
+<term>Archivierung</term>
+<term>Netzwerkanalyse</term>
+<term>Veröffentlichung</term>
+<term>Identifizierung</term>
+<term>Einführung</term>
+<term>Kommentierung</term>
+<term>Projektmanagement</term>
+<term>Webentwicklung</term>
+<term>Konservierung</term>
+<term>Visualisierung</term>
+<term>Bibliographie</term>
+<term>Daten</term>
+<term>Manuskript</term>
+<term>Metadaten</term>
+<term>benannte Entitäten (named entities)</term>
+<term>Forschung</term>
+<term>Ton</term>
+<term>Text</term>
+<term>texttragende Gegenstände</term>
+<term>Video</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+<anchor xml:id="id_docs-internal-guid-0de78556-c22b-0d77-0914-b3b88e406c87"/>
+<hi rend="color(#000000)">Der hier vorgestellte Workflow für die Digitalisierung und Integration bibliographischer Informationen ist Teil des Forschungsprojektes </hi>
+<hi rend="color(#000000)bold">Niklas Luhmann - Theorie als Passion. Wissenschaftliche Erschließung und Edition des Nachlasses</hi>
+<hi rend="color(#000000)">. Das Langzeitvorhaben (2015-2030) an der Fakultät für Soziologie der Universität Bielefeld in Kooperation mit dem Cologne Center for eHumanities (CCeH) wird im Akademienprogramm durch die Nordrhein-Westfälische Akademie der Wissenschaft und der Künste gefördert. Weitere Kooperationspartner sind das Archiv und die Bibliothek der Universität Bielefeld.</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn1" type="note">1</ref>
+</hi>
+</p>
+<p>Ziel des Gesamtprojektes ist die Sicherung, Digitalisierung, Erschließung, werkgenetische Erforschung und teilweise Edition des wissenschaftlichen Nachlasses Niklas Luhmanns. Zu diesem Zweck werden die bewahrenswerten Teile des Nachlasses (Manuskripte, Zettelkasten, Korrespondenz, Bibliothek etc.) zunächst archivarisch gesichert und in den Teilen, die wissenschaftlich erschlossen werden sollen, digitalisiert, sowie für die weitere Bearbeitung bereitgestellt. Die daran anschließende Edition will den Luhmannschen Nachlass als geistesgeschichtliches Dokument der wissenschaftlichen Forschung sowie der interessierten Öffentlichkeit zugänglich machen. Sie bildet dadurch zugleich die Grundlage für die Entwicklung einer kritisch gesicherten infrastrukturellen Wissensressource, auf welche die interdisziplinäre und internationale Forschung zur und mit der Theorie Luhmanns zukünftig zurückgreifen kann.</p>
+<p>Bibliographische Informationen stellen ein besonders wichtiges verbindendes Element zwischen den zu erschließenden und ggf. zu edierenden Materialien aus dem Nachlass Niklas Luhmanns dar. Ihre Modellierung, Zusammenführung und Visualisierung verspricht einen vollständigen Überblick über Grundlagen, Rezeption und Verbreitung des Luhmannschen Werks aber auch detaillierte Einblicke in seine Arbeitsweise. </p>
+<div rend="DH-Heading1" type="div1">
+<head>Quellen und Forschungsfragen</head>
+<p>
+<hi rend="color(#000000)">In Hinblick auf den </hi>
+<hi rend="color(#000000)bold">Werkkosmos </hi>
+<hi rend="color(#000000)">Niklas Luhmanns</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">wurde am Institut für Soziologie in Bielefeld eine Bibliographie aller Publikationen erstellt, die in digitaler Form finalisiert werden soll. Enthalten sind Monographien, Aufsätze, Rezensionen, Festschriften. Gelistet werden außerdem alle </hi>
+<hi rend="color(#000000)">bearbeiteten </hi>
+<hi rend="color(#000000)">Neu-Auflagen und Übersetzungen. Die insgesamt etwa 1.900 Datensätze sind stark miteinander vernetzt: Sowohl auf der Ebene von Monographien als auch bei Artikeln wird jeweils auf Nachdrucke, Übersetzungen und weitere Auflagen hingewiesen. Die Aufbereitung </hi>
+<hi rend="color(#000000)">dieser Informationen soll anschaulich machen, in welchen Medien Luhmann hauptsächlich publiziert hat und wie sich seine Schriften durch Übersetzungen und Nachdrucke international verbreitet haben. </hi>
+</p>
+<p>
+<figure>
+<graphic url="vortrag-GOEDE-10000000000004A400000101CFB19D07.png"/>
+<head>Schematische Darstellung zur Vernetzung der Datensätze</head>
+</figure>
+</p>
+<p>
+<hi rend="color(#000000)">Den </hi>
+<hi rend="color(#000000)bold">Lesekosmos</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Niklas Luhmanns darstellbar und damit erforschbar zu machen, ist ein zweites zentrales Anliegen. Die folgenden Quellen bibliographischer Information liegen dazu vor: </hi>
+</p>
+<list type="unordered">
+<item>die zitierte Literatur in den Zettelkästen</item>
+<item>eigenständige bibliographische Abteilungen je Zettelkasten (ca. 17.800 Einträge)</item>
+<item>die zitierte Literatur in seinen eigenen publizierten Werken</item>
+<item>die Literaturhinweise in seinen unpublizierten Manuskripten</item>
+<item>die private Arbeitsbibliothek (ca. 4.000)</item>
+</list>
+<p>Nach Aufarbeitung dieser Materialien können wichtige werkhistorische Fragestellungen untersucht werden: Welche und wie viel Literatur (aus welchen wissenschaftlichen Disziplinen) hat Luhmann im Laufe seiner Forschung rezipiert bzw. verarbeitet? Gibt es bestimmte Werke / Autoren, die er wiederkehrend konsultiert bzw. zitiert hat? Gibt es bevorzugte Zeitschriften?</p>
+<p>Der Zettelkasten ist der zentrale Startpunkt für die Reise in den bibliographischen Kosmos. Er enthält durchgehend auf den Notizzetteln Hinweise auf benutzte Literatur und ab der Mitte der 70er Jahre auch eine eigenständige Bibliographie-Abteilung (insgesamt etwa 17.800 Einträge). </p>
+<p>Eine Auswertung der Zitatnachweise in den gedruckten Bänden Luhmanns soll dann die Verbindung von Zettelkasten und Publikationen erleichtern. Wieviel der im Zettelkasten nachgewiesenen Lektürearbeit ist tatsächlich in die Publikationen eingegangen? Und gibt es Stellen in den Publikationen, die scheinbar keine Wurzeln im Zettelkasten haben? </p>
+<p>In den unveröffentlichten Manuskripten finden sich neben bereits standardisierten Literaturnachweisen häufig auch handschriftliche Nennungen von Notizzetteln, die den Kreis über den Zettelkasten wieder schließen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Datenmodell</head>
+<p>Zu unseren Zielen gehört die Vernetzung der Datensätze zu visualisieren, um so den Werk- bzw. Lesekosmos erfahrbar zu machen. In Anlehnung an das FRBR-Modell
+                    <ref target="vortrag-GOEDEftn2" type="note">2</ref> verstehen wir die hier zu modellierenden bibliografischen Datensätze als 
+                    <hi rend="italic">Manifestationen</hi> eines 
+                    <hi rend="italic">Werks</hi>
+<hi rend="italic"> </hi>(Wiesenmüller 2008: 350
+                    <hi rend="bold">)</hi>. Im Fall der Publikationen Niklas Luhmanns selbst, sind bereits Bezugsinformationen zu anderen 
+                    <hi rend="italic">Manifestationen</hi> (z.B. im Sinne von "ist Teil von") und 
+                    <hi rend="italic">Expressions</hi> (z.B. im Sinne von "ist Übersetzung von") enthalten. Perspektivisch werden hier noch übergeordnete Datensätze zu 
+                    <hi rend="italic">Werken</hi> und deren 
+                    <hi rend="italic">Expressions</hi> entstehen, mit denen die Fachwissenschaftler das Material weiter strukturieren und die Werkgenese genauer beschreiben können.
+                    <ref target="vortrag-GOEDEftn3" type="note">3</ref> Vor allem im Fall der unterschiedlichen Manuskriptfassungen Luhmanns wird die Bestimmung übergreifender 
+                    <hi rend="italic">Werke</hi>
+<hi rend="italic"> </hi>eine explizit fachwissenschaftliche Aufgabe sein.
+                </p>
+<p>
+<hi rend="color(#000000)">Die Basiskodierung erfolgt zunächst ohne </hi>
+<hi rend="color(#000000)">weiterführende </hi>
+<hi rend="color(#000000)">ontologischen Differenzierungen und Deutungen in voneinander getrennten Datensätzen </hi>
+<hi rend="color(#000000)">auf </hi>
+<hi rend="color(#000000)">gleicher Ebene</hi>
+<hi rend="color(#000000)">.</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Die TEI bietet </hi>
+<hi rend="color(#000000)">hier </hi>
+<hi rend="color(#000000)">mit &lt;biblStruct&gt; ein geeignetes standardisiertes Datenmodell</hi>
+<hi rend="color(#000000)"> um </hi>
+<hi rend="color(#000000)italic">Manifestationen</hi>
+<hi rend="color(#000000)"> zu beschreiben, aber auch bereits etablierte Wege wie Personen, Körperschaften, Werktitel und später auch Sachschlagwörter mit Normdatensätzen</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn4" type="note">4</ref>
+</hi>
+<hi rend="color(#000000)"> verbunden werden können.</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn5" type="note">5</ref>
+</hi>
+<hi rend="color(#000000)"> Beziehungen zu anderen Datensätzen </hi>
+<hi rend="color(#000000)">werden</hi>
+<hi rend="color(#000000)"> über &lt;relatedItems&gt; angereichert. </hi>
+<hi rend="color(#000000)">Alle Erwähnungen und Verweise auf das bibliograhierte Item werden über &lt;idno&gt;-Elemente</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">aufgenommen</hi>
+<hi rend="color(#000000)">. </hi>
+<hi rend="color(#000000)">Selbst weiterführende </hi>
+<hi rend="color(#000000)">inhaltliche </hi>
+<hi rend="color(#000000)">Informationen aus den unterschiedlichen Nachlasszusammenhängen können über &lt;note&gt; mitgeführt werden. </hi>
+</p>
+<p>
+<hi rend="color(#000000)">Die Offenheit einer TEI-Auszeichnung ermöglicht uns, im Gegensatz zu anderen bestehenden bibliografischen Formaten, die meist für Bibliothekszusammenhänge </hi>
+<hi rend="color(#000000)">zugespitzt wurden</hi>
+<hi rend="color(#000000)">, alle vorliegenden Informationen im Datensatz selbst mitzuführen und </hi>
+<hi rend="color(#000000)">schwellenlos</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">projektintern</hi>
+<hi rend="color(#000000)"> für die restlichen in TEI kodierten Materialien </hi>
+<hi rend="color(#000000)">nutzbar </hi>
+<hi rend="color(#000000)">vorzuhalten</hi>
+<hi rend="color(#000000)">.</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn6" type="note">6</ref>
+</hi>
+</p>
+<p>Umsetzung im Detail</p>
+<p>
+<hi rend="color(#000000)">Die Guidelines empfehlen für strukturierte bibliographische Informationen &lt;biblStruct&gt;-Items in Listen (&lt;listBibl&gt;).</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn7" type="note">7</ref>
+</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Wir weichen in diesem Punkt ab und erzeugen für jede </hi>
+<hi rend="color(#000000)italic">Manifestation</hi>
+<hi rend="color(#000000)"> einen eigenständigen bibliographischen Datensatz in Form eines &lt;biblStruct&gt;-Single-Files.</hi>
+<anchor xml:id="id_docs-internal-guid-11aa1985-c749-daa3-ad13-9c8c21aecca1"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Jeder Datensatz enthält nur ein &lt;monogr&gt; bzw. ein &lt;analytic&gt; und ein &lt;monogr&gt;. Die Dateien erhalten</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">einen</hi> eindeutigen Dateinamen (Name des Autors + Erscheinungsjahr + ggf. Erweiterung) und eine entsprechende xml:id. Jedes Vorkommen, etwa im Zettelkasten oder in einem Manuskript, wird in einem &lt;idno&gt;-Element dokumentiert. Hinweise auf Reprints, Übersetzungen und weiterführende Informationen werden in Form von &lt;relatedItems&gt; ergänzt. Da die Dateinamen und xml:ids auf Basis des bibliographierten Werks sprechend benannt wurden, ist eine direkte Verlinkung der Datensätze untereinander problemlos möglich. 
+                </p>
+<p>Die Aufspaltung in &lt;biblStruct&gt;-Single-Files lässt sich nun auch für die Vorhaltung von unselbstständigen Titeln nutzen. Die Titelinformation für einen Aufsatz wird in &lt;analytic&gt; erfasst, die Information zum Sammelband in einem anschließenden &lt;monogr&gt;-Element. Um die Wiederholung dieser Information für jeden Aufsatz des Sammelbands zu umgehen, wird ein eigenes &lt;biblStruct&gt;-Single-File für den Sammelband erzeugt. Über einen XInclude
+                    <ref target="vortrag-GOEDEftn8" type="note">8</ref>-basierten Weg wird das &lt;monogr&gt;-Element des Sammelbands in die Datei des Artikels eingebunden. Damit ist die TEI-Datei des Artikels auch während der Bearbeitung vollständig (zusätzlich zu &lt;analytic&gt; wird das externe &lt;monogr&gt; des Sammelbands eingebunden).
+                    <ref target="vortrag-GOEDEftn9" type="note">9</ref>
+</p>
+<p>
+<figure>
+<graphic url="vortrag-GOEDE-add1.jpg"/>
+<head>Gliederungsansicht eines &lt;biblStruct&gt;-Elements, Typ  Sammelband</head>
+</figure>
+</p>
+<p>
+<hi rend="color(#000000)">”</hi>
+<hi rend="color(#000000)">
+<figure>
+<graphic url="vortrag-GOEDE-add2.jpg"/>
+<head>Gliederungsansicht eines &lt;biblStruct&gt;-Elements, Typ “Artikel in Sammelband</head>
+</figure>
+</hi>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Arbeitsumgebung</head>
+<p>
+<hi rend="color(#000000)">Als Arbeitsumgebung zur Bearbeitung und Neuerfassung von bibliographischen Informationen kommt ein speziell für dieses Projekt entwickeltes oXygen-Framework</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn10" type="note">10</ref>
+</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">zum Einsatz. Ein solches Framework ist eine Erweiterung für den oXygen XML-Editor, welches spezifische Vorgaben für die grafische Darstellung und Funktionsweise eines Eingabeformulars für das hier entwickelte Datenmodell in oXygen macht. Außerdem werden darin benutzerdefinierte Schaltflächen angelegt, die auf den Workflow des Bearbeiters ausgerichtet sind. Damit ist es für Laien ohne Vorkenntnisse in XML oder TEI auf einfache Weise möglich, bibliographische Informationen auf Grundlage des verwendeten Datenmodells zu erstellen, </hi>
+<hi rend="color(#000000)">zu </hi>
+<hi rend="color(#000000)">bearbeiten und auszuzeichnen.
+                        <lb/>Das Framework-Verzeichnis wird auf den Rechnern der Bearbeiter zur Verfügung gestellt, von oXygen als solches erkannt und ist damit vom Bearbeiter verwendbar.
+                    </hi>
+</p>
+<p>
+<anchor xml:id="id_docs-internal-guid-11aa1985-c74f-c415-c6c2-cdb2c1461cf7"/>
+<hi rend="color(#000000)">
+<figure>
+<graphic url="vortrag-GOEDE-add3.jpg"/>
+<head>oXygen-Framework (Author-Mode)</head>
+</figure>
+</hi>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Veröffentlichung</head>
+<p>
+<hi rend="color(#000000)">Nachdem die Daten in die Datenbank importiert wurden, werden sie automatisiert im Projektportal veröffentlicht. Dies geschieht mit einem modular aufgebauten Web-Präsentationssystem, bestehend aus etablierten Open-Source-Softwarelösungen wie eXist XML Database</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn11" type="note">11</ref>
+</hi>
+<hi rend="color(#000000)">, NodeJS</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn12" type="note">12</ref>
+</hi>
+<hi rend="color(#000000)">, ReactJS</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn13" type="note">13</ref>
+</hi>
+<hi rend="color(#000000)">, sowie dem Design-Framework Material Design Lite</hi>
+<hi rend="color(#000000)">
+<ref target="vortrag-GOEDEftn14" type="note">14</ref>
+</hi>
+<hi rend="color(#000000)">. Die Datenbank verknüpft automatisch die verschiedenen Datensätze und gibt sie aus, sodass der Benutzer des Portals sofort sehen kann, in welchem Verhältnis ein Werk zu verwandten Werken steht. Eine Visualisierung mittels eines Netzwerk-Graphs soll diese Verknüpfungen zusätzlich veranschaulichen.</hi>
+</p>
+<p>Die hier dargestellten Workflows setzen ausschließlich auf Open-Source-Softwarelösungen, sowie offene Standards wie TEI. Die Weitergabe des Frameworks mit allen Templates, der ODD, des Schemas und einer Dokumentation wird angestrebt. Die generische Architektur ist nachhaltig und nachnutzbar von anderen Projekten mit ähnlichen Anforderungen.</p>
+<p>Das Luhmann-Projekt eignet sich aufgrund der Heterogenität des bibliographischen Materials sehr gut als Ausgangspunkt zur Entwicklung eines allgemeinen Modells, das vom konkreten Projekt abstrahiert werden kann und soll. Im CCeH wird der Workflow schon von weiteren Projekten eingesetzt und auf seine Tauglichkeit geprüft.</p>
+<p>Die für die Publikationen Luhmanns, ihre Reprints und Veröffentlichungen vergebenen Namen und IDs werden, neben den luhmann-basierten Zettelkennungen, als autoritative Identifikatoren für das Werk Luhmanns nachnutzbar sein.</p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" place="end" xml:id="vortrag-GOEDEftn1">
+<hi rend="color(#000000)">Website des Niklas Luhmann-Archivs </hi>
+<ptr target="http://www.uni-bielefeld.de/soz/luhmann-archiv/"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff </hi>
+<hi rend="color(#000000)">30</hi>
+<hi rend="color(#000000)">. </hi>
+<hi rend="color(#000000)">November </hi>
+<hi rend="color(#000000)">2016] </hi>
+</note><note n="2" place="end" xml:id="vortrag-GOEDEftn2">
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">“Functional Requirements for Bibliographic Records” (FRBR)</hi>
+<hi rend="color(#000000)">: </hi>
+<ptr target="http://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff </hi>
+<hi rend="color(#000000)">30</hi>
+<hi rend="color(#000000)">. </hi>
+<hi rend="color(#000000)">November </hi>
+<hi rend="color(#000000)">2016] </hi>
+</note><note n="3" place="end" xml:id="vortrag-GOEDEftn3">
+<hi rend="color(#000000)"> Ein ähnliche Ansatz findet Anwendung im Projekt "Wome</hi>
+<hi rend="color(#000000)">n</hi>
+<hi rend="color(#000000)"> Writer</hi>
+<hi rend="color(#000000)">s</hi>
+<hi rend="color(#000000)"> in Review", vgl </hi>
+<ptr target="http://wwp.neu.edu/review/about/terms"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff </hi>
+<hi rend="color(#000000)">30</hi>
+<hi rend="color(#000000)">. </hi>
+<hi rend="color(#000000)">November </hi>
+<hi rend="color(#000000)">2016] </hi>
+</note><note n="4" place="end" xml:id="vortrag-GOEDEftn4">Gemeinsame Normdatei der Deutschen Nationalbibliothek (GND), 
+                            <ptr target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html"/>
+<hi rend="color(#000000)">[letzter Zugriff </hi>
+<hi rend="color(#000000)">30</hi>
+<hi rend="color(#000000)">. </hi>
+<hi rend="color(#000000)">November </hi>
+<hi rend="color(#000000)">2016] </hi>
+</note><note n="5" place="end" xml:id="vortrag-GOEDEftn5">Nach dem FRBR-Modell betrifft das die Entitäten der Gruppe 2 und 3 (Tillet 2010: 3)</note><note n="6" place="end" xml:id="vortrag-GOEDEftn6">
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Bei späteren Exporten in andere bibliographische Formate, wie etwa BibTeX, können Hauptfelder gemappt werden, wohingegen Zusatzinformationen - je nach inhaltlicher Zielsetzung des Ausgabeformat</hi>
+<hi rend="color(#000000)">s</hi>
+<hi rend="color(#000000)"> - </hi>
+<hi rend="color(#000000)">schlicht </hi>
+<hi rend="color(#000000)">nicht exportiert werden. </hi>
+</note><note n="7" place="end" xml:id="vortrag-GOEDEftn7">
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. TEI-Guidelines, Abschnitt 3.11: Bibliographic Citations and References (</hi>
+<ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff </hi>
+<hi rend="color(#000000)">30</hi>
+<hi rend="color(#000000)">. </hi>
+<hi rend="color(#000000)">November </hi>
+<hi rend="color(#000000)">2016] </hi>
+</note><note n="8" place="end" xml:id="vortrag-GOEDEftn8">
+<anchor xml:id="id_docs-internal-guid-11aa1985-c6d6-efdb-7aa9-26f911fb4207"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. W3C Empfehlung: </hi>
+<ptr target="https://www.w3.org/TR/xinclude/"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">und TEI Guidelines </hi>
+<ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html#SG-mult"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff 25. August 2016]</hi>
+</note><note n="9" place="end" xml:id="vortrag-GOEDEftn9"> Für die Weitergabe der Daten nach außenwird das XInclude wieder aufgelöst und für die Verlinkung ergänzte IDs werden gelöscht, so dass die Ausgabe von standardkonformen und vollständigen &lt;biblStruct&gt;-Files sichergestellt ist.</note><note n="10" place="end" xml:id="vortrag-GOEDEftn10">
+<anchor xml:id="id_docs-internal-guid-11aa1985-c6d8-84bc-3679-24e0f3b0a927"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. oXygen Visual (WYSIWYG) XML</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Editors:</hi>
+<ptr target="https://www.oxygenxml.com/xml_author/WYSIWYG_Editors.html"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff 25. August 2016]</hi>
+</note><note n="11" place="end" xml:id="vortrag-GOEDEftn11">
+<anchor xml:id="id_docs-internal-guid-11aa1985-c6dc-834d-2026-b346e68c8e60"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. </hi>
+<ptr target="http://exist-db.org/exist/apps/homepage/index.html"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff 25. August 2016]</hi>
+</note><note n="12" place="end" xml:id="vortrag-GOEDEftn12">
+<anchor xml:id="id_docs-internal-guid-11aa1985-c6dd-14ab-86ae-fb93560ed203"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. </hi>
+<ptr target="https://nodejs.org/en/"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff 25. August 2016]</hi>
+</note><note n="13" place="end" xml:id="vortrag-GOEDEftn13">
+<anchor xml:id="id_docs-internal-guid-11aa1985-c6dd-9d6a-51c7-70152c679175"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. </hi>
+<ptr target="https://facebook.github.io/react/"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff 25. August 2016]</hi>
+</note><note n="14" place="end" xml:id="vortrag-GOEDEftn14">
+<anchor xml:id="id_docs-internal-guid-11aa1985-c6de-44e3-8085-12dce8d0ebf6"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">Vgl. </hi>
+<ptr target="https://getmdl.io/"/>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">[letzter Zugriff 25. August 2016]</hi>
+</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Deutsche Nationalbibliothek</hi> (Hg.) (2009): 
+                        <hi rend="italic">Funktionale Anforderungen an bibliografische Datensätze</hi>. 
+                        Abschlussbericht der IFLA Study Group on the Functional Requirements for Bibliographic Records. Geänderte und korrigierte Fassung, Februar 2009 (Leipzig/Frankfurt am Main/Berlin, 2009), 
+                        <ptr target="http://www.ifla.org/files/assets/cataloguing/frbr/frbr_2009_de.pdf"/>. 
+                        [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<!-- was ist hier was -->
+<hi rend="bold">Tillett, Barbara</hi> (2003): <!-- sept/okt -->
+                        „What is FRBR?“. Library of Congress Cataloging Distribution Service, 2004 , 
+                        in: 
+                        <hi rend="italic">Technicalities</hi> 25 (5) 
+                        <ptr target="https://web.archive.org/web/20091229040757/http://www.loc.gov/cds/downloads/FRBR.PDF"/>
+                        [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Wiesenmüller, Heidrun / Horny, Silke</hi> (2015):
+                        <hi rend="italic">Basiswissen RDA: Eine Einführung für deutschsprachige Anwender</hi>.
+                        De Gruyter Saur.
+                    </bibl>
+<bibl>
+<hi rend="bold">Wiesenmüller, Heidrun</hi> (2008): 
+                        „Zehn Jahre ‚Functional Requirements for Bibliographic Records“: Vision, Theorie und praktische Anwendung“, 
+                        in: 
+                        <hi rend="italic">Bibliothek, Forschung und Praxis</hi> 32 (3).
+                    </bibl>
+<bibl>
+<hi rend="bold italic">Niklas-Luhmann-Archiv</hi>:
+                        Webseite
+                        <ptr target="http://www.uni-bielefeld.de/soz/luhmann-archiv/"/> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">TEI</hi>:
+                        <hi rend="italic">Bibliographic Citations and References in den TEI-Guidelines</hi>
+<ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI"/> [letzter Zugriff 30. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">IFLA</hi>:
+                        <hi rend="italic">Functional Requirements for Bibliographic Records (FRBR)</hi>
+<ptr target="http://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/> [letzter Zugriff 30. November 2016].
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

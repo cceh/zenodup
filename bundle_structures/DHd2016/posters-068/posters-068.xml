@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-068">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Datenbank für Gesprochenes Deutsch (DGD)</title>
+        <author>
+          <name>
+            <surname>Schmidt</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>IDS Mannheim, Deutschland</affiliation>
+          <email>thomas.schmidt@ids-mannheim.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T08:04:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Mündliche Korpora</term>
+          <term>Analyse-Plattform</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Archivierung</term>
+          <term>Veröffentlichung</term>
+          <term>Sprache</term>
+          <term>Software</term>
+          <term>Ton</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>Eine Korpusplattform für die Arbeit mit mündlichen Daten</head>
+      <p>Die Datenbank für Gesprochenes Deutsch (<ref target="http://dgd.ids-mannheim.de"
+        >DGD</ref>)(vgl. Institut für Deutsche Sprache; Schmidt 2014a) ist die zentrale
+        Plattform für den Zugriff auf Daten des Archivs für Gesprochenes Deutsch (AGD). Über
+        die DGD werden 23 mündliche Korpora des Deutschen im Gesamtumfang von mehr als 3000
+        Stunden Audio und 8 Millionen transkribierter Wort-Tokens angeboten. </p>
+        <p>Der Bestand umfasst erstens mehrere große Variationskorpora des Deutschen,
+          insbesondere das Korpus „Deutsche Mundarten“ (Zwirner-Korpus) mit mehreren
+          Satelliten-Korpora nach dem gleichen Design („Deutsche Mundarten: Ehemalige deutsche
+          Ostgebiete“, „Deutsche Mundarten: DDR“ und mehrere kleinere, regional begrenzte
+          Sammlungen von Dialektaufnahmen) sowie das Korpus „Deutsche Umgangssprachen“
+          (Pfeffer-Korpus). Diese Dokumentation binnendeutscher Mundarten wird komplementiert
+          durch Korpora auslandsdeutscher Varietäten, z. B. das Korpus „Australiendeutsch“ und
+          drei Korpora zum Emigrantendeutsch in Israel. </p>
+          <p>Zweitens bietet die DGD Zugriff auf verschiedene Gesprächskorpora, u. a. das Berliner
+            Wendekorpus, die Korpora „Grundstrukturen“ (Freiburger Korpus) und
+            „Dialogstrukturen“, sowie das Korpus „Elizitierte Konfliktgespräche“. Mit dem
+            Forschungs- und Lehrkorpus Gesprochenes Deutsch (FOLK, Schmidt 2014b) wird im AGD
+            ein großes, breit stratifiziertes Gesprächskorpus des Deutschen aufgebaut, das
+            technisch und methodisch auf dem Stand aktueller bester Praktiken ist und der
+            wissenschaftlichen Gemeinschaft ebenfalls über die DGD zur Verfügung gestellt wird. </p>
+            <p>Die Bestände sind nach einem einheitlichen XML basierten Metadatenschema dokumentiert und durch Transkriptions- und Annotationsdaten, die ebenfalls auf einem gemeinsamen XML-Datenmodell basieren, für die wissenschaftliche Analyse erschlossen. </p>
+            <p>Die DGD erlaubt zum einen ein exploratives Browsen auf diesen Daten. Korpus-, Sprecher- und Ereignisdokumentationen können eingesehen und die zugehörigen Audiodateien online abgespielt werden. Mit dem Audio alignierte Transkripte werden dem Benutzer in einer HTML5-basierten Darstellung präsentiert, die das Anspringen beliebiger Stellen im Transkript und das synchronisierte Abspielen der entsprechenden Segmente der Aufnahme ermöglicht. Diese Form des Zugangs dient sowohl dem Kennenlernen der Datenbestände als auch dem Einstieg in deren qualitative Analyse. </p>
+            <figure>
+              <graphic n="1001" width="16.002cm" height="6.705966666666667cm" url="p068-image1.png" rend="inline"/>
+            </figure>
+            <p>Für die gezielte Auswertung der Daten in quantitativer Hinsicht bietet die DGD zum
+              anderen mehrere Recherchefunktionen. Über eine strukturierte Metadatensuche können
+              nach flexibel spezifizierbaren Kriterien (z. B. Gespräche mit Sprechern aus dem
+              norddeutschen Raum, älter als 40 Jahre) Teilmengen des Gesamtbestands ausgewählt und
+              als virtuelle Korpora gespeichert werden. Die strukturierte Tokensuche erlaubt
+              korpuslinguistische Anfragen über mehrere Annotationsebenen (Transkription,
+              orthographische Normalisierung, Lemmatisierung, POS-Annotation), deren Ergebnisse in
+              vielfältiger Hinsicht kontextualisiert (d. h. mit Metadaten korreliert, auf
+              Transkript- und Aufnahmekontext rückbezogen) werden können. </p>
+              <p>Für die weitere Bearbeitung von Ausgangsdaten oder Analyseergebnissen bietet die DGD schließlich verschiedene Möglichkeiten zum Download von Datensätzen oder geeigneten Ausschnitten.</p>
+              <p>Bei allen Funktionen zum Browsen und Durchsuchen der Daten legt die DGD Wert darauf, korpusgesteuerte Analysemethoden zu ermöglichen, in denen Hypothesen aus den Daten selbst generiert und in einer interaktiven Auseinandersetzung mit selbigen schrittweise verfeinert werden können. </p>
+              <p>Die DGD ist seit Ende 2012 online und hat mittlerweile mehr als 4000 registrierte
+                Nutzer_innen aus Forschung und Lehre. Datenbestände und Funktionalität werden
+                kontinuierlich erweitert. </p>
+              </body>
+              <back>
+                <div type="bibliogr">
+                  <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Institut für Deutsche Sprache (IDS)</hi> (o. J.): <hi
+                    rend="italic">DGD.</hi> Datenbank für Gesprochenes Deutsch <ref
+                    target="http://dgd.ids-mannheim.de">http://dgd.ids-mannheim.de</ref>
+                    [letzter Zugriff 12. Februar 2016].</bibl>
+                    <bibl><hi rend="bold">Schmidt, Thomas</hi> (2014a): "The Database for Spoken
+                    German – DGD2", in: <hi rend="italic">Proceedings of the Ninth conference on
+                    International Language Resources and Evaluation (LREC’14)</hi>,
+                    Reykjavik, Iceland 1451-1457 <ref
+                    target="http://www.lrec-conf.org/proceedings/lrec2014/pdf/171_Paper.pdf"
+                    >http://www.lrec-conf.org/proceedings/lrec2014/pdf/171_Paper.pdf</ref>
+                    [letzter Zugriff 12. Februar 2016]. </bibl>
+                    <bibl><hi rend="bold">Schmidt, Thomas (2014b)</hi>: "The Research and Teaching
+                    Corpus of Spoken German – FOLK", in: <hi rend="italic">Proceedings of the
+                    Ninth conference on International Language Resources and Evaluation
+                    (LREC’14)</hi>, Reykjavik, Iceland 383-387 <ref
+                    target="http://www.lrec-conf.org/proceedings/lrec2014/pdf/290_Paper.pdf"
+                    >http://www.lrec-conf.org/proceedings/lrec2014/pdf/290_Paper.pdf</ref>
+                    [letzter Zugriff 12. Februar 2016].</bibl>
+                  </listBibl>
+                </div>
+              </back>
+            </text>
+          </TEI>

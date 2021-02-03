@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-THODE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Die Impactomatrix – ein interaktiver Katalog für Impactfaktoren und Erfolgskriterien für digitale Infrastrukuren in den Geisteswissenschaften</title>
+<author>
+<persName>
+<surname>Thoden</surname>
+<forename>Klaus</forename>
+</persName>
+<affiliation>Max-Planck-Institut für Wissenschaftsgeschichte, Deutschland</affiliation>
+<email>kthoden@mpiwg-berlin.mpg.de</email>
+</author>
+<author>
+<persName>
+<surname>Wintergrün</surname>
+<forename>Dirk</forename>
+</persName>
+<affiliation>Max-Planck-Institut für Wissenschaftsgeschichte, Deutschland</affiliation>
+<email>dwinter@mpiwg-berlin.mpg.de</email>
+</author>
+<author>
+<persName>
+<surname>Stiller</surname>
+<forename>Juliane</forename>
+</persName>
+<affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+<email>juliane.stiller@ibi.hu-berlin.de</email>
+</author>
+<author>
+<persName>
+<surname>Gnadt</surname>
+<forename>Timo</forename>
+</persName>
+<affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+<email>gnadt@sub.uni-goettingen.de</email>
+</author>
+<author>
+<persName>
+<surname>Meiners</surname>
+<forename>Hanna</forename>
+</persName>
+<affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+<email>meiners@sub.uni-goettingen.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-30T11:22:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Impact</term>
+<term>Evaluation</term>
+<term>Infrastruktur</term>
+<term>Begleitforschung</term>
+<term>Erfolgskriterien</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Kommunikation</term>
+<term>Lehre</term>
+<term>Kommentierung</term>
+<term>Projektmanagement</term>
+<term>Daten</term>
+<term>Infrastruktur</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Software</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einführung</head>
+<p>Wissenschaftliche Großprojekte in den Geistes- und Kulturwissenschaften müssen sich damit auseinandersetzen, welchen Mehrwert sie für die wissenschaftliche Community schaffen, wie sie diesen sichtbar/messbar machen und wie sie die in sie investierten Mittel nutzbringend verwenden. Ausgehend davon war ein Forschungsziel in der ersten Förderphase von DARIAH-DE
+                    <ref n="1" target="vortrag-THODEftn1" type="note">1</ref>, dezidiert für die Geistes- und Kulturwissenschaften einsetzbare Erfolgskriterien und Impactfaktoren für digitale Tools und Infrastrukturkomponenten zu erheben. Dabei sollten nicht allein quantitative Merkmale wie Nutzungsstatistiken, sondern auch qualitative Merkmale wie beispielsweise Transparenz oder Nachhaltigkeit, berücksichtigt werden. 
+                </p>
+<p>Die dabei zentralen Themen Erfolgsmessung, Impact und Evaluation sind bereits in einigen Publikationen – auch im Bereich der Digital Humanities – behandelt worden, beschränken sich jedoch in der Regel auf Nutzeranforderungen und -bedürfnisse für bestimmte Dienste und zu entwickelnde Tools (z.B. Brown u.a. 2006). Die Erfüllung dieser Anforderungen kann zwar als Erfolg gewertet werden, greift aber für eine umfassende Bewertung zu kurz. Genauso bieten Nutzerstudien einen Anhaltspunkt, wie Dienste und Tools genutzt und wo Verbesserungen angesetzt werden können. Beispielhaft soll hier die Nutzerstudie zu den Korpusplattformen, die bei der DHd 2016 vorgestellt wurde, genannt werden (Fandrych u.a. 2016).</p>
+<p>Innerhalb des von der DFG geförderten Projektes "Erfolgskriterien für den Aufbau und nachhaltigen Betrieb von Virtuellen Forschungsumgebungen (DFG-VRE)"
+                    <ref n="2" target="vortrag-THODEftn2" type="note">2</ref> wurde ein generisches Set an Erfolgskriterien erstellt, welches an gegebene Projekte angepasst werden kann (Buddenbohm u.a. 2014) und nicht nur die Nutzerperspektive berücksichtigt, sondern auch interne Problematiken und Aspekte. 
+                </p>
+<p>Zur tatsächlichen Messung von Veränderungen wurde im Rahmen der ersten Förderphase von DARIAH-DE, sowie in der 
+                    <hi rend="italic">DARIAH-EU Working Group for impact factors and success criteria</hi>
+<ref n="3" target="vortrag-THODEftn3" type="note">3</ref> eine Übersicht entwickelt, die verschiedene Impact-Bereiche, diese Bereiche beeinflussende Faktoren sowie Kriterien zusammenträgt: Die 
+                    <hi rend="italic">Impactomatrix</hi>
+<ref n="4" target="vortrag-THODEftn4" type="note">4</ref>. Ziel war neben der Bewertung der verschiedenen Kriterien und Faktoren unter Berücksichtigung verschiedener Stakeholder (WissenschaftlerInnen, BetreiberInnen, FörderInnen und EntwicklerInnen) auch ein modularer und erweiterbarer Aufbau.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Begriffe und Methodik</head>
+<p>Den methodischen Untersuchungen ging eine extensive Literaturanalyse voraus, bei der Impact-Bereiche, und die diese beeinflussenden Kennzahlen und Faktoren extrahiert wurden – insgesamt konnten Begriffe aus 11 einschlägigen Quellen gezogen werden, die in Gnadt u.a. (2015) näher beschrieben sind. Basierend auf diesen Vorarbeiten wurden Erhebungen unter verschiedenen Stakeholdergruppen in Bezug auf digitale Tools und Infrastrukturdienste durchgeführt.</p>
+<p>Innerhalb der geistes- und kulturwissenschaftlichen Community wurden zwei groß angelegte Online-Umfragen mit jeweils unterschiedlichen Zielgruppen vorgenommen: erstens 24 erfahrene, digital und in einem internationalen Kontext arbeitende FachwissenschaftlerInnen (Gnadt, Stiller &amp; Höckendorff 2015) und zweitens 103 FachwissenschaftlerInnen, die hauptsächlich nicht digital arbeiten (Stiller u.a. 2015, Bulatovic u.a. 2016). Bei diesen Umfragen ging es vor allem um eine Einschätzung des Ist-Zustandes im Umgang mit digitalen Werkzeugen in der Forschung und der Nutzung von virtuellen Forschungsinfrastrukturen. Eine weitere Befragung zu Impactfaktoren und -kriterien fand unter den TeilnehmerInnen eines DINI-Workshops
+                    <ref n="5" target="vortrag-THODEftn5" type="note">5</ref> sowie den DiensteanbieterInnen und DiensteentwicklerInnen in DARIAH-DE statt. Hierbei konnten die insgesamt 44 TeilnehmerInnen ihre Einschätzung der Wichtigkeit verschiedener Eigenschaften eines Tools abgeben, wie z.B. "Bedienbarkeit", "Funktionsumfang", "Dokumentation", "Einbeziehung von NutzerInnen", "curricularer Einsatz" und "Zahl an Referenzierungen". Zusätzlich wurden von einer Studentin im Rahmen ihrer Masterarbeit am Institut für Bibliotheks- und Informationswissenschaft der Humboldt-Universität zu Berlin sechs Interviews mit VertreterInnen verschiedener Fachdisziplinen durchgeführt (Rose 2015). In den Interviews widmete sich die Autorin vor allem Fragen zur Einschätzung des Erfolgs von virtuellen Forschungsumgebungen und den eingesetzten Tools und Software in den jeweiligen Fachdisziplinen. 
+                </p>
+<p>Auf Grundlage dieser Erhebungen und Studien wurde ein Katalog erarbeitet, der Impact-Bereiche, Faktoren und Kriterien zusammenfasst (Gnadt u.a. 2015). Diese Einteilung erfolgte auf der Basis der folgenden aus der Literatur abgeleiteten Definitionen von Impact, Erfolg, Kriterium und Faktor:</p>
+<list type="unordered">
+<item>
+<hi rend="italic">Impact</hi> bezeichnet die Form, den Grad oder die Diversität einer Änderung eines Verhaltens oder Einstellung einer Gruppe
+                    </item>
+<item>
+<hi rend="italic">Erfolg</hi> bezeichnet eine positive Resonanz auf eine Maßnahme oder ein Produkt, welche in ihrem Ausmaß messbar ist
+                    </item>
+<item>
+<hi rend="italic">Faktoren </hi>beschreiben Eigenschaften oder Mittel zur Veränderung eines Zustands
+                    </item>
+<item>
+<hi rend="italic">Kriterien</hi> beschreiben konkrete Merkmale zur Unterscheidung zwischen Zuständen 
+                    </item>
+</list>
+<p>Abbildung 1 zeigt das Zusammenspiel von Impact-Bereichen, Faktoren, mit denen diese Bereiche beeinflusst und Kriterien, mit denen die Veränderungen gemessen werden können. Als Faktoren wurden auf der Basis der hergeleiteten Definitionen Eigenschaften, Mittel und Maßnahmen von Tools bzw. Forschungsinfrastrukturen klassifiziert, als Kriterien hingegen messbare Größen wie Kennzahlen, Indikatoren und Umfrageauswertungen. Der Erfolg von Tools und Forschungsinfrastrukturen wurde – ebenfalls auf der Basis der Literaturauswertungen – als Übereinstimmung von Nutzeranforderungen mit erreichtem Impact definiert.</p>
+<figure>
+<graphic height="8.224316666666667cm" n="1001" rend="inline" url="vortrag-THODE-image1.png" width="14.300730555555555cm"/>
+<head>Abbildung : Zusammenspiel von Impact, Erfolg, Faktoren und Kriterien.</head>
+</figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Die Impactomatrix</head>
+<p>Aus den unterschiedlichen Erhebungen und der Literatur wurden Begrifflichkeiten für die Bereiche Impact, Kriterien und Faktoren gesammelt, ggf. übersetzt, zusammengefasst und in eine oder mehrere der drei Kategorien eingeordnet. Insgesamt wurden 101 relevante Begriffe extrahiert, von denen 21 als Impact-Bereiche identifiziert wurden. 67 Begriffe wurden als Faktoren eingestuft und 25 als Kriterien.
+                    <ref n="6" target="vortrag-THODEftn6" type="note">6</ref> Bei einigen Begriffen gab es Mehrfachzuordnungen, da eine eindeutige Trennung nach Faktoren und Kriterien nicht immer möglich war.
+                </p>
+<p>Die Begriffe wurden außerdem ins Englische übertragen, mit dem Ziel, den Katalog einem größtmöglichen Publikum zugänglich zu machen. Auch die weitere Entwicklung der Impactomatrix wird auf Englisch erfolgen. Um diese gesammelten Daten nun für die Entwicklung, Anpassung und das Angebot von digitalen Diensten nutzen zu können, haben wir eine Übersicht in Form der Impactomatrix entwickelt und auf GitHub zur Verfügung gestellt.
+                    <ref n="7" target="vortrag-THODEftn7" type="note">7</ref> Ausgehend von den 21 Impact-Bereichen können somit leicht die Faktoren ermittelt werden, die diese Bereiche beeinflussen. Zur positiven Veränderung von Impact in einem bestimmten Bereich sollten also diese Mittel eingesetzt bzw. diese Eigenschaften verbessert werden. Es können auch geeignete Kriterien bestimmt werden, mit denen Veränderungen im gegebenen Impact-Bereich gemessen werden können.
+                </p>
+<p>Die 21 Impact-Bereiche bzw. -Formen sind:</p>
+<table rend="rules">
+<row>
+<cell>
+<list type="unordered">
+<item>Außenwirkung (External Impact)</item>
+<item>Bildung (Education)</item>
+<item>Datensicherheit/ Datenschutz (Data Security/ Safety)</item>
+<item>Dissemination (Dissemination)</item>
+<item>Effektivität (Effectivity)</item>
+<item>Effizienz (Efficiency)</item>
+<item>Förderperspektiven (Funding Perspective)</item>
+<item>Innovation (Innovation)</item>
+<item>Integration (Integration)</item>
+<item>Kohärenz (Coherence)</item>
+</list>
+</cell>
+<cell>
+<list type="unordered">
+<item>Kollaboration (Collaboration)</item>
+<item>Kommunikation (Communication)</item>
+<item>Kompetenzvermittlung (Transfer of Expertise)</item>
+<item>Nachhaltigkeit (Sustainability)</item>
+<item>Nutzung (Usage)</item>
+<item>Publikationen (Publications)</item>
+<item>Relevanz (Relevance)</item>
+<item>Reputation (Reputation)</item>
+<item>Transparenz (Transparency)</item>
+<item>Wettbewerbsfähigkeit (Competitiveness)</item>
+<item>Wissenstransfer (Transfer of Knowledge) </item>
+</list>
+</cell>
+</row>
+</table>
+<p>Die Impactomatrix kann dazu verwendet werden, das Problembewusstsein für die Belange und Notwendigkeiten aller beteiligten Gruppen zu reflektieren und im Endeffekt erfolgreichere Angebote innerhalb einer Infrastruktur zu schaffen. </p>
+<p>Zum Beispiel kann die Steigerung des Impacts in den Bereichen 
+                    <hi rend="italic">Effizienz</hi> und 
+                    <hi rend="italic">Effektivität </hi>erzielt werden, indem unter anderem Maßnahmen wie eine leichte Bedienbarkeit, die Einbettung in wissenschaftliche Workflows und die Bereitstellung von Hilfestellungen für die Nutzer umgesetzt werden. Ob diese Maßnahmen dann erfolgreich sind, um Effizienz und Effektivität zu steigern, kann in der Folge anhand verschiedener Indikatoren nachgewiesen werden. Solche Indikatoren sind beispielsweise die Intensität und der Umfang der Nutzung sowie das Ansehen und die Akzeptanz in der Community. Abbildung 2 zeigt einen Screenshot der Impactomatrix für den Bereich Nachhaltigkeit (Sustainability).
+                </p>
+<figure>
+<graphic height="8.668275cm" n="1002" rend="inline" url="vortrag-THODE-image2.png" width="15.306147222222222cm"/>
+<head>Abbildung : Screenshot der Impactomatrix.</head>
+</figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick und Zusammenfassung</head>
+<p>Die Impactomatrix bietet verschiedenen Stakeholdern einen Zugang zur Problematik der Erfolgsmessung von digitalen Tools und Diensten. Die Verzahnung der Impact-Bereiche mit ihren sie beeinflussenden Faktoren und Kriterien bietet eine einzigartige Möglichkeit, den Mehrwert von Entwicklungen in den Digital Humanities zu hinterfragen. Als Anwendungsbeispiel kann das Schreiben von Anträgen dienen, wenn es darum geht, auf den erhofften Impact des beantragten Projekts einzugehen sowie Maßnahmen zu bestimmen und festzulegen, die diesen Impact noch steigern können. </p>
+<p>Hervorzuheben ist auch, dass in der Impactomatrix nicht nur die üblichen quantitativen Messzahlen in einer Liste zusammengetragen, sondern auch einen Beitrag zur qualitativen Bewertung von digitalen Diensten in den Geistes- und Kulturwissenschaften geleistet wurde: Ausgehend von dem Beispiel in Abbildung 2 ist ein Kriterium für die Nachhaltigkeit von Infrastrukturen die Unterstützung von offenen Datenformaten. Hier stellt sich die Frage, ob diese Kennzahl qualitativ (das meist genutzte offene Datenformat wird unterstützt) oder quantitativ (viele verschiedene offene Datenformate werden genutzt) gemessen werden sollte. </p>
+<p>Die Impactomatrix wird ständig weiterentwickelt, und so wollen wir sukzessive eine engere Verzahnung der Faktoren mit den Kriterien (oder auch Kennzahlen) erzielen. Außerdem arbeiten wir an einer Ausdifferenzierung der Priorität verschiedener Impact-Bereiche für unterschiedliche Stakeholdergruppen. Da diese Weiterentwicklungen vornehmlich auf Feedback aus der Fachcommunity beruhen, laden wir mit diesem Beitrag auch dazu ein, den Katalog kennenzulernen, kritisch zu hinterfragen und Impulse für die Weiterentwicklung zu geben.</p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" xml:id="vortrag-THODEftn1"> 
+                            <ref target="https://de.dariah.eu/">https://de.dariah.eu/</ref>
+</note><note n="2" xml:id="vortrag-THODEftn2"> 
+                            <ref target="https://www.sub.uni-goettingen.de/projekte-forschung/projektdetails/projekt/dfg-vre-1/">https://www.sub.uni-goettingen.de/projekte-forschung/projektdetails/projekt/dfg-vre-1/</ref>
+</note><note n="3" xml:id="vortrag-THODEftn3"> 
+                            <ref target="http://www.dariah.eu/activities/working-groups.html">http://www.dariah.eu/activities/working-groups.html</ref>
+</note><note n="4" xml:id="vortrag-THODEftn4"> Der Bewertungskatalog der zur Entwicklung der Impactomatrix geführt hat, wird im DARIAH-DE Report 1.3.3 (Gnadt u.a. 2015) ausführlich beschrieben.</note><note n="5" xml:id="vortrag-THODEftn5"> 
+                            <ref target="https://dini.de/veranstaltungen/workshops/digitales-arbeiten-in-den-geisteswissenschaften-ermoeglichen">https://dini.de/veranstaltungen/workshops/digitales-arbeiten-in-den-geisteswissenschaften-ermoeglichen</ref>
+</note><note n="6" xml:id="vortrag-THODEftn6"> Das Ergebnis dieser Kategorisierung ist in Gnadt u.a. 2015 (Tabelle C.1 im Anhang C) zu sehen.</note><note n="7" xml:id="vortrag-THODEftn7"> Quelltext auf 
+                            <ref target="https://github.com/DARIAH-DE/Impactomatrix">
+<hi rend="underline color(1155CC)">https://github.com/DARIAH-DE/Impactomatrix</hi>
+</ref>, interaktive Version auf 
+                            <ref target="https://dariah-de.github.io/Impactomatrix/">
+<hi rend="underline color(1155CC)">https://dariah-de.github.io/Impactomatrix/</hi>
+</ref>.
+                        </note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Buddenbohm, Stefan / Enke, Harry / Hofmann, Matthias / Klar, Jochen / Neuroth, Heike / Schwiegelshohn, Uwe</hi> (2014): 
+                        <hi rend="italic">Erfolgskriterien für den Aufbau und nachhaltigen Betrieb Virtueller Forschungsumgebungen</hi>. DARIAH-DE Working Papers 7
+                        <ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2014-5-4">http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2014-5-4</ref> [letzter Zugriff 29. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Brown, Stephen / Ross, Robb / Gerrard, David / Greengrass, Mark / Bryson, Jared</hi> (2006): 
+                        <hi rend="italic">RePAH: A User Requirements Analysis for Portals in the Arts and Humanities</hi>. 
+                        De Montfort University Leicester and The University of Sheffield 
+                        <ref target="http://repah.dmu.ac.uk/report/pdfs/RePAHReport-Complete.pdf">http://repah.dmu.ac.uk/report/pdfs/RePAHReport-Complete.pdf</ref> [letzter Zugriff 29. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Bulatovic, Natasa / Gnadt, Timo / Romanello, Matteo / Schmitt, Viola / Stiller, Juliane / Thoden, Klaus</hi> (2016): 
+                        <hi rend="italic">Usability von DH-Tools und Services (R1.2.3)</hi>. 
+                        Göttingen: DARIAH-DE 
+                        <ref target="https://wiki.de.dariah.eu/download/attachments/14651583/AP1.2.3_Usability_von_DH-Tools_und-Services_final.pdf">https://wiki.de.dariah.eu/download/attachments/14651583/AP1.2.3_Usability_von_DH-Tools_und-Services_final.pdf</ref> [letzter Zugriff 29. November 2016]. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Fandrych, Christian / Frick, Elena / Hedeland, Hanna / Iliash, Anna / Jettka, Daniel / Meißner, Cordula / Schmidt, Thomas / Wallner, Franziska / Weigert, Kathrin</hi> (2016): 
+                        „Wer bist du, Nutzer?“,
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 122–126 
+                        <ref target="http://www.dhd2016.de/abstracts/vortr%C3%A4ge-053.html">http://www.dhd2016.de/abstracts/vorträge-053.html</ref> [letzter Zugriff 29. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Gnadt, Timo / Stiller, Juliane / Höckendorff, Mareike</hi> (2014): 
+                        <hi rend="italic">Umfrage zu Erfolgskriterien (R1.3.1)</hi>. 
+                        Göttingen: DARIAH-DE 
+                        <ref target="https://wiki.de.dariah.eu/download/attachments/14651583/R%201.3.1%20-%20Erhebung%20einer%20Nutzerbefragung%20zu%20Nutzererwartungen%20und%20-kriterien.pdf">https://wiki.de.dariah.eu/download/attachments/14651583/R%201.3.1%20-%20Erhebung%20einer%20Nutzerbefragung%20zu%20Nutzererwartungen%20und%20-kriterien.pdf</ref> [letzter Zugriff 29. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Gnadt, Timo / Stiller, Juliane / Thoden, Klaus / Schmitt, Viola</hi> (2015): 
+                        <hi rend="italic">Finale Version. Erfolgskriterien (R1.3.3)</hi>. 
+                        Göttingen: DARIAH-DE 
+                        <ref target="https://wiki.de.dariah.eu/download/attachments/14651583/R133_Erfolgskriterien_Konsortium.pdf">https://wiki.de.dariah.eu/download/attachments/14651583/R133_Erfolgskriterien_Konsortium.pdf</ref> [letzter Zugriff 29. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Rose, Corinna</hi> (2015): 
+                        <hi rend="italic">Chancen und Grenzen der Abbildung fachspezifischer Forschungsprozesse durch eine virtuelle Forschungsumgebung in den Geisteswissenschaften</hi>. 
+                        Masterarbeit, Humboldt-Universität zu Berlin.
+                    </bibl>
+<bibl>
+<hi rend="bold">Stiller, Juliane / Thoden, Klaus / Leganovic, Oona / Heise, Christian / Höckendorff, Mareike / Gnadt, Timo</hi> (2015):
+                        <hi rend="italic"> (R 1.2.1/M 7.6)</hi>. 
+                        Göttingen: DARIAH-DE
+                        <ref target="https://wiki.de.dariah.eu/download/attachments/26150061/Report1.2.1-final.pdf">https://wiki.de.dariah.eu/download/attachments/26150061/Report1.2.1-final.pdf</ref> [letzter Zugriff 29. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Stiller, Juliane / Gnadt, Timo / Romanello, Matteo / Thoden, Klaus</hi> (2016): 
+                        „Anforderungen ermitteln, Lösungen evaluieren und Erfolge messen – Begleitforschung in DARIAH-DE“,
+                        in: 
+                        <hi rend="italic">Bibliothek Forschung und Praxis</hi> 40 (2): 250–258. DOI:10.1515/bfp-2016-0025.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

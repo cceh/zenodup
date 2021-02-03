@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="179_final-PRELL_Martin_Altbausanierung_mit_Niveau___die_Digitalisierun" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title type="full">
+	  <title type="main">Altbausanierung mit Niveau – die Digitalisierung gedruckter Editionen</title>
+	  <title type="sub"/>
+	</title>
+      </titleStmt>
+      <editionStmt>
+	<edition>
+	  <date>2015-10-05T00:04:51.74</date>
+	</edition>
+      </editionStmt>
+      <publicationStmt>
+	<publisher>Universität Paderborn</publisher>
+	<address>
+	  <addrLine>Warburger Str. 100</addrLine>
+	  <addrLine>33098 Paderborn</addrLine>
+	  <addrLine>Deutschland</addrLine>
+	</address>
+      </publicationStmt>
+      <sourceDesc>
+	<p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+	<application ident="DHCONVALIDATOR" version="1.22">
+	  <label>DHConvalidator</label>
+	</application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+	<keywords n="category" scheme="ConfTool">
+	  <term>Paper</term>
+	</keywords>
+	<keywords n="subcategory" scheme="ConfTool">
+	  <term>Panel</term>
+	</keywords>
+	<keywords n="keywords" scheme="ConfTool">
+	  <term>(Retro)Digitalisierung</term>
+	  <term>Digitale Editionen</term>
+	  <term>Druckeditionen</term>
+	  <term>Best Practices</term>
+	</keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+<div rend="DH-Heading" type="div1">
+<head>Kontext</head>
+<p>Während das Buch immer noch den höchsten Stellenwert in der geisteswissenschaftlichen Forschung im Allgemeinen besitzt, sind Editionen, die als Buch erscheinen, seit Jahren rückläufig (Eggert 2009). Bestehende Druckeditionen wirken mittlerweile neben ihren digitalen Nachfolgerinnen wie Relikte aus einer anderen Zeit. Ihr wissenschaftlicher Wert bleibt weitestgehend in den Grenzen des Buches verhaftet, während der digitale Editionskosmos wächst und perspektivisch zu einem dichten Wissensnetz wird. Um Druckeditionen besser verfügbar zu machen, sie mit anderen Editionen zu vernetzen, oder einen neuen Blick auf die Quellen zu ermöglichen, häufen sich in den letzten Jahren Unternehmungen zur Digitalisierung von Druckeditionen.<ref n="1" target="ftn1"/>
+</p>
+<p>Die mit der Digitalisierung von Editionen verbundenen, generalisierbaren Anforderungen und Implikationen sind, trotz ihrer unmittelbaren Relevanz für den Bereich der Digitalen Editionen, bisher noch nicht systematisch und projektübergreifend untersucht worden. Da bis dato zudem kaum auf die zahlreichen Erfahrungen bestehender Digitalisierungsprojekte zurückgegriffen werden kann, existiert sowohl bei laufenden als auch neuen Projekten stets die Gefahr, dass die organisatorischen, konzeptionellen und technischen Herausforderungen unterschätzt oder gar nicht erst erkannt werden. So entpuppen sich bspw. Projekte, die zunächst mit geringem Aufwand umsetzbar scheinen, nicht selten als Mammutaufgaben, die in Bezug auf Komplexität und Ressourcenbedarf die Anforderungen vergleichbarer 
+<hi rend="italic">born digital-</hi>Editionen teils deutlich übersteigen können.
+</p>
+<p>Aus wissenschaftstheoretischer Perspektive stellt sich die Frage, welchen Stellenwert digitalisierte Editionen im Kosmos digitaler Editionstypen einnehmen können, wenn sie, wie Sahle formuliert, gar keine digitalen Editionen sind (Sahle 2013: 58ff.). In diesem Spannungsfeld gilt zu diskutieren, wie gedruckte editorische Leistungen der Vergangenheit unter den neuen medialen Bedingungen methodisch angemessen transformiert und für die Zukunft gesichert werden können.</p>
+</div>
+<div rend="DH-Heading" type="div1">
+<head>Konzeption des Panels</head>
+<p>Das Panel richtet sich als Forum für den Erfahrungsaustausch und die Diskussion über theoretische und praktische Implikationen bei der Digitalisierung von Editionen sowohl an SoftwareentwicklerInnen aus den digitalen Geisteswissenschaften als auch an FachwissenschaftlerInnen. Vier Fragefelder sollen aus der Perspektive verschiedener Akteure im Panel diskutiert werden:</p>
+<list type="unordered">
+<item>Wie lassen sich Typen von digitalisierten Editionen im Spektrum der digitalen Editionen kartieren? Können sie sich an 
+<hi rend="italic">born digital</hi>-Editionen annähern oder bleiben sie im Paradigma des Drucks verhaftet?
+</item>
+<item>Welche strukturellen, technischen und wissenschaftlichen Hürden können von der Planung bis zum Abschluss einer digitalisierten Edition auftreten?</item>
+<item>Welche Komponenten und Verfahren erfolgreicher Digitalisierungs
+<hi rend="italic">workflows</hi> lassen sich erkennen?
+</item>
+<item>Welche Handlungsempfehlungen und 
+<hi rend="italic">Best Practices</hi> können auf Grundlage der vorhergehenden Fragen formuliert werden?
+</item>
+</list>
+<p>Das Panel beginnt mit einer Einleitung durch die Moderatoren, der kurze Statements der Beitragenden mit Schwerpunkt auf bestimmte Fragefelder folgen und die mit einer These oder Fragestellung enden. Sie dienen als Problemaufriss und zur Identifizierung unterschiedlicher Positionierungen im Kontext der (Retro)Digitalisierung, über die im Anschluss debattiert wird. Es folgt eine Diskussion im Plenum. Darauf aufbauend werden die Beitragenden (sowie weitere Interessierte) im Nachgang der DHd2020 die Arbeit an einem Leitfaden aufnehmen, der sowohl technisch-praktische als auch methodische Fragen der Digitalisierung von Druckeditionen berücksichtigt und als Ausgangspunkt für einen weiterführenden Diskurs dient. Der Entwurf des Leitfadens soll online vorab veröffentlicht werden. Die diskutierte und finalisierte Fassung (in englischer und deutscher Sprache) wird dauerhaft zugänglich gemacht werden.</p>
+</div>
+<div rend="DH-Heading" type="div1">
+  <head>Leitfragen der Statements</head>
+  <div rend="DH-Heading2" type="div2">
+    <head>,Born’, ,reborn’, ,retro’: Kartierung von Editionstypen</head>
+    <p style="text-align:left; ">
+      <hi rend="italic"> Frederike Neuber </hi>
+    </p>
+    <!-- <p>,Born’, ,reborn’, ,retro’: Kartierung von Editionstypen (Frederike Neuber)</p> -->
+    <p>Im editionswissenschaftlichen Diskurs unterscheidet man im Spektrum der digitalen Editionstypen meist zwischen „<hi rend="italic">born digital</hi>” und „Retrodigitalisierungen”. Letzterem Typus wird dabei abgesprochen, eine „digitale Edition” im engeren Sinne zu sein; laut Sahle etwa überschreiten „<hi rend="italic">retrokonvertierte gedruckte Editionen oder vertiefende Digitalisierungs- und Erschließungsprojekte […] oft nicht die Schwelle zu ‚digitalen Editionen’</hi>" (Sahle 2014). Sind digitalisierte Editionen also dazu verdammt, als ‘digitalisierte Bücher’ im Paradigma der Druckkultur verhaftet zu bleiben oder konstituieren sie einen weiteren, und neu zu definierenden Editionstyp? Bei der Beantwortung dieser Frage spielt zum einen der Grad ihrer „<hi rend="italic">Verdatung</hi>” (Krämer/Huber 2018) eine zentrale Rolle. Zum anderen rückt der doppelte Rückbezug auf eine historische Quelle/Dokument einerseits und die Druckedition andererseits die digitalisierte Edition in ein Spannungsfeld von Tradition und Wandel.
+    </p>
+    <p>&#160;<lb/>&#160;<lb/>&#160;&#160;<lb/>&#160;<lb/>&#160; &#160;<lb/>&#160;<lb/>&#160;</p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>„Das bisschen Edition macht sich doch von selbst”: Herausforderungen bei der Retrodigitalisierung von Editionen in der Praxis</head>
+    <p style="text-align:left; ">
+      <hi rend="italic">Torsten Schaßan/Timo Steyer </hi>
+    </p>
+    <!-- <p>„Das bisschen Edition macht sich doch von selbst”: Herausforderungen bei der Retrodigitalisierung von Editionen in der Praxis (Timo Steyer)</p> -->
+    <p>In der Umsetzung der Retrodigitalisierung können vor allem zwei paradigmatische Schwierigkeiten ausgemacht werden: Zum einen wird der mit dieser Transformation verbundene Aufwand unterschätzt. Zum anderen wird der gedruckten Vorlage allzu häufig ein sakrosankter Status zugeschrieben. Damit verbunden sind zahlreiche Fragen, die einer Klärung im jeweiligen Projektkontext bedürfen. Häufig unklar ist bspw. ob und wenn ja, in welcher Form in den Text eingegriffen werden darf; sei dies aus Gründen der Fehlerkorrektur oder der Angleichung an den aktuellen Forschungsstand. Zentraler Diskussionspunkt wird im Statement die Frage nach dem Einfluss des Layouts der Druckedition auf die digitale Präsentation sein. Ebenso wird in die Debatte der Aspekt eingebracht, dass die Retrodigitalisierung häufig als rein technischer Prozess ohne philologischen Anspruch und wissenschaftlichen Mehrwert bewertet wird (Ball et. al 2016; Sahle 2012) und die beteiligten digital affinen WissenschaftlerInnen zum Dienstleister marginalisiert werden. Dies wird auch durch Missverständnisse bedingt, die mit dem Eingang neuer Terminologie in das Editionsprojekt aufgrund der <hi rend="italic">Datafication </hi>einhergehen können.
+    </p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>Vier auf einen Streich – Zum Verhältnis von Workflow und Mindsets (nicht nur) im PROPYLÄEN-Projekt</head>
+    <p style="text-align:left; ">
+      <hi rend="italic">Dominik Kasper</hi>
+    </p>
+    <!-- <p>Vier auf einen Streich – Zum Verhältnis von Workflow und Mindsets (nicht nur) im PROPYLÄEN-Projekt (Dominik Kasper)</p> -->
+    <p>Auf dem Weg vom Druck zur digitalisierten oder gar digitalen Edition können unterschiedliche 
+    <hi rend="italic">Workflows </hi>und Werkzeuge zum Einsatz kommen. Dabei lassen sich grundsätzlich zwei Verfahrensweisen nach ihrem Schwerpunkt unterscheiden: manuelle und automatische Erfassung. Im Statement werden häufig wiederkehrende Komponenten möglicher 
+    <hi rend="italic">Workflows </hi>benannt und aufgezeigt, wann welches Verfahren - und ggf. auch deren Kombination - sinnvoll erscheint.
+    </p>
+    <p>Welches Vorgehen Anwendung findet, wird unter anderem dadurch bestimmt, welche Erwartungen und Mentalitäten das Projekt prägen. Unterschiedliche 
+    <hi rend="italic">Mindsets </hi>und Perspektiven können bspw. unterschiedliche Priorisierungen von Arbeitspaketen nach sich ziehen. Aber auch das Anhaften am Buch-Medium und divergente Sichtweisen auf den Charakter von Text-Modellierung oder den Stellenwert von Automatisierung einerseits und händischem Arbeiten/Annotieren andererseits können sich hier auswirken.
+    </p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>Dienstleistung als ein Baustein digitalisierter Editionen</head>
+    <p style="text-align:left; ">
+      <hi rend="italic">Martina Gödel</hi>
+    </p>
+    <!-- <p>Dienstleistung als ein Baustein digitalisierter Editionen (Martina Gödel)</p> -->
+    <p>Ein Projekt
+    <hi rend="italic">workflow</hi> muss sich nicht allein auf Leistungen der Projektpartner beschränken. Aufträge an externe Dienstleister können eine Option sein, um auf zügigem Wege eine solide Datenbasis zu erhalten, von der die fachwissenschaftliche Arbeit aus beginnen kann. Die genaue Definition von Umfang und Art der Leistungen, die je nach Projektbeschaffenheit und Personaldecke flexibel ausgeschrieben werden können, stellt eine Herausforderung dar, die zugleich das Bewusstsein für die konkreten Projektanforderungen erhöhen kann. Das Spektrum geht von reiner Texterkennung (entsprechend der gewünschten Fehlerfreiheit) bis zur Entwicklung und Anwendung von TEI-Datenmodellen, die auf die Spezifika der Druckedition eingehen und die Weiterarbeit möglichst weit vorbereiten und unterstützen. 
+    </p>
+    <p>Projekten, die in der Planungs- oder 
+    <hi rend="italic">Controlling</hi>phase sind, soll anhand von erfolgreichen Projektbeispielen eine Entscheidungshilfe angeboten werden, wann und in welchen Bereichen Dienstleistung sinnvoll sein kann.
+    </p>
+  </div>
+<div rend="DH-Heading2" type="div2">
+  <head>Bewahrung des kulturellen Erbes durch Transformation oder die Edition der Edition. Das Spannungsfeld von digitalisierter zur digitalen Edition aus Sicht der Bibliotheken</head>
+  <p style="text-align:left; ">
+    <hi rend="italic">Thomas Stäcker</hi>
+  </p>
+  <!-- <p>Bewahrung des kulturellen Erbes durch Transformation oder die Edition der Edition. Das Spannungsfeld von digitalisierter zur digitalen Edition aus Sicht der Bibliotheken (Thomas Stäcker)</p> -->
+  <p>Bibliotheken bewahren gedruckte Editionen. Mit der Durchsetzung des digitalen Paradigmas werden diese selbst Gegenstand editorischer Prozesse. Nicht nur die Edition, sondern auch der digitale Transformationsprozess stellt eine neue erschließende Dimension dar:
+  <hi rend="italic">„Throughout history, the act of editing stands out as the conscious effort, anonymous or non-anonymous, of making existing texts available in a new form”</hi> (Haugen 2016: 206). Die erschließende ,Übersetzung’ im Sinne der Herstellung von Maschinenlesbarkeit bzw. 
+  <hi rend="italic">Datafication </hi>ist eine wichtige Aufgabe von Bibliotheken. Dabei geht es weniger um eine hermeneutische Neuaneignung als um die Remediatisierung des Druckes (Bolter 2001). Sie dient - mit einem erweiterten Editionsbegriff (Price 2009) - der Sicherung der Zugänglichkeit nach Maßgabe der FAIR-Prinzipien und ist als umfassende, auf Dauer angelegte Aufgabe zu verstehen. Dabei ergeben sich u.a. Aufgaben und Fragen der Remodellierung, der Metadatenerfassung, Standardisierung sowie Entwicklung geeigneter Schnittstellen und Suchmöglichkeiten.
+  </p>
+</div>
+ </div>
+ <div rend="DH-Heading" type="div1">
+<head>Teilnehmende</head>
+<p>Frederike Neuber ist wissenschaftliche Mitarbeiterin bei der TELOTA-Initiative der Berlin-Brandenburgischen Akademie der Wissenschaften. Sie ist Mitherausgeberin von „Jean Paul - Sämtliche Briefe digital“ und im Institut für Dokumentologie und Editorik u. a. als <hi rend="italic">Managing Editor</hi> der Zeitschrift RIDE aktiv.
+</p>
+<p>
+Torsten Schaßan ist wissenschaftlicher Mitarbeiter an der Herzog August Bibliothek Wolfenbüttel. Er betreut dort den Bereich Digitale Editionen. An der HAB wurden mehrere Retrodigitalisierungsvorhaben umgesetzt, darunter die Briefe der Fruchtbringenden Gesellschaft und "Controversia et Confessio".
+</p>
+<!-- <p>Timo Steyer ist wissenschaftlicher Mitarbeiter im Forschungsverbund Marbach Weimar Wolfenbüttel. Er war an mehreren Retrodigitalisierungsvorhaben beteiligt, darunter die Briefe der Fruchtbringenden Gesellschaft und „<hi rend="italic">Controversia et Confessio”</hi>. -->
+<!-- </p> -->
+<p>Dominik Kasper ist wissenschaftlicher Mitarbeiter an der Akademie der Wissenschaften und der Literatur Mainz. Erfahrungen mit Retrodigitalisierung konnte er in den Projekten “Deutsche Inschriften Online” und “PROPYLÄEN – Goethes Biographica” (Leiter der Frankfurter Arbeitsstelle) sammeln.
+</p>
+<p>Martina Gödel ist seit 2011 freiberuflich unter dem Namen <hi rend="italic">textloop </hi>im Bereich Texterkennung, -korrektur und TEI-Auszeichnung tätig. Erfahrungen mit der Digitalisierung von gedruckten Editionen konnte sie unter anderem in der Arbeit für die Projekte Dingler-Online, Blumenbach-online, Schule von Salamanca oder der Leibniz-Edition sammeln. Sie ist Mitglied in der DTABf-Steuerungsgruppe.
+</p>
+<p>
+Thomas Stäcker (<ptr target="https://orcid.org/0000-0002-1509-6960"/>) ist Direktor der ULB Darmstadt und nebenamtlicher Professor für <hi rend="italic">Digital Humanities</hi>
+an der FH Potsdam. Zu seinen zahlreichen initiierten oder begleiteten DH-Projekten gehören zum Bereich der digital(isierten)en Editionen bspw. die Briefe Athanasius Kirchers an Herzog August, Lessings Übersetzungen, Lipsius’ <hi rend="italic">De Bibliothecis</hi>, die Werke Andreas Bodensteins gen. Karlstadt, Christoph Heidmanns <hi rend="italic">Oratio de Bibliotheca Julia</hi>
+oder „Europäische Religionsfrieden”.
+</p>
+<p>Max Grüntgens (Moderation) ist wissenschaftlicher Mitarbeiter an der Akademie der Wissenschaften und der Literatur Mainz. Erfahrungen mit Retrodigitalisierung konnte er in den Projekten “Deutsche Inschriften Online” (Leiter der Mainzer Arbeitsstelle) und “PROPYLÄEN – Goethes Biographica” sammeln.
+</p>
+<p>Martin Prell (Moderation) ist DH-Koordinator der PROPYLÄEN-Edition (Goethe- und Schiller-Archiv Weimar) und des “Editionenportal Thüringen” (Universität Jena). Er gibt unter anderem die Briefe Erdmuthe Benignas von Reuß-Ebersdorf heraus.</p>
+</div>
+</body>
+<back>
+<div type="notes"><note n="1" rend="footnote text" xml:id="ftn1">
+<anchor xml:id="id_docs-internal-guid-cc8bab7c-7fff-8b80-7be6-e8fce53dcdc5"/>
+Unter Digitalisierung von Editionen verstehen wir die Überführung bereits gedruckter Publikationen in ein elektronisches Format zum Zwecke der digitalen Verarbeitung und Bereitstellung. Beispiele dafür sind u.a. die Teilvorhaben von <hi rend="italic">PROPYLÄEN - Goethes Biographica</hi>, <ptr target="http://www.goethe-biographica.de/"/>; <hi rend="italic">Jean Paul - Sämtliche Briefe digital,</hi> <ref target="http://jeanpaul-edition.de/"> <hi rend="underline">http://jeanpaul-edition.de</hi></ref>
+oder <hi rend="italic">Briefe der Fruchtbringenden Gesellschaft und Beilagen. Die Zeit Fürst Ludwigs von Anhalt-Köthen 1617–1650</hi>, <ptr target="http://diglib.hab.de/edoc/ed000213/start.htm"/>.
+</note>
+</div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold">Ball et al. </hi> (2016): „Der gedruckten Edition eine digitale Schwester. Das AEDit-Projekt und die digitale Edition der Fruchtbringenden Gesellschaft“, in: 
+  <hi rend="italic">Denkströme. Journal der Sächsischen Akademie der Wissenschaften zu Leipzig</hi> 16: 69-81, <ptr target="http://www.denkstroeme.de/heft-16/s_69-81_ball-dickel-herz-steyer"/> 
+  [letzter Zugriff: 25.09.2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Bolter, Jay David </hi>(2001): 
+  <hi rend="italic">Writing Space: Computers, Hypertext, and the Remediation of Print</hi>. 2. Aufl. Mahwah, NJ u.a.: Erlbaum.
+</bibl>
+<bibl>
+  <hi rend="bold">Eggert, Paul </hi>(2009): “The book, the E-text and the 'Work-site'”, in: Deegan, Marilyn (ed.): 
+  <hi rend="italic">Text editing, print and the digital world</hi>. Farnham u.a.: Ashgate 63-82.
+</bibl>
+<bibl>
+  <hi rend="bold">Haugen, Odd Einar</hi> (2014): “The Making of an Edition”, in: Apollon, Daniel / Bélisle, Claire /  Régnier, Philippe (eds.): 
+  <hi rend="italic">Digital Critical Editions. Topics in the Digital Humanities.</hi> Urbana: University of Illinois Press 203-245.
+</bibl>
+<bibl>
+  <hi rend="bold">Krämer, Sybille / Huber, Martin</hi> (2018): „Dimensionen Digitaler Geisteswissenschaften“, in: 
+  <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>, <ref target="http://dx.doi.org/10.17175/sb003_013">http://dx.doi.org/10.17175/sb003_013</ref>.
+</bibl>
+<bibl>
+  <hi rend="bold">Price, Kenneth M. </hi> (2009): „Edition, Project, Database, Archive, Thematic Research Collection: What’s in a Name?“, in: 
+  <hi rend="italic">Digital Humanities Quarterly</hi> 3, Nr. 3,
+  <ref target="http://digitalhumanities.org:8081/dhq/vol/3/3/000053/000053.html">http://digitalhumanities.org:8081/dhq/vol/3/3/000053/000053.html</ref> 
+  [letzter Zugriff: 25.09.2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Sahle, Patrick</hi> (2012): „Mal wieder und immer noch: Digitized vs. Digital“, in: 
+  <hi rend="italic">DHd-Blog</hi> (27. November 2012) 
+  <ptr target="https://dhd-blog.org/?p=1122"/>
+  [letzter Zugriff: 25.09.2019].
+</bibl>
+<bibl>
+  <hi rend="bold">Sahle, Patrick</hi> (2013): 
+  <hi rend="italic">Digitale Editionsformen: zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels</hi>. 
+  <hi rend="italic">Teil 2: Befunde, Theorie und Methodik </hi>(= Schriften des Instituts für Dokumentologie und Editorik 8). Norderstedt: Books on Demand.
+</bibl>
+<bibl>
+  <hi rend="bold">Sahle, Patrick</hi> (unter Mitarbeit von Georg Vogeler und den Mitgliedern des IDE) (2014): „Kriterienkatalog für die Besprechung digitaler Editionen“ (Version 1.1) 
+  <ptr target="https://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/"/> [letzter Zugriff: 25.09.2019].
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

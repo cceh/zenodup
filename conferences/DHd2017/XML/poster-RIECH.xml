@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-RIECH" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main"> Kollaborative Forschung über Linked Open Data Forschungsdatenbanken der Universitätsgeschichte</title>
+<title type="sub">Implementierung des Heloise Common Research Model</title>
+</title>
+<author>
+<persName>
+<surname>Riechert</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Hochschule für Technik, Wirtschaft und Kultur (HTWK) Leipzig, Deutschland</affiliation>
+<email>thomas.riechert@htwk-leipzig.de</email>
+</author>
+<author>
+<persName>
+<surname>Beretta</surname>
+<forename>Francesco</forename>
+</persName>
+<affiliation>Laboratoire de recherche historique Rhône-Alpes (LARHRA), Frankreich</affiliation>
+<email>francesco.beretta@ish-lyon.cnrs.fr</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T12:33:53.272020100</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Geschichtswissenschaft</term>
+<term>Informatik</term>
+<term>Methodologie</term>
+<term>Semantic Web</term>
+<term>Forschung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Kollaboration</term>
+<term>Webentwicklung</term>
+<term>Daten</term>
+<term>Infrastruktur</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Standards</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Motivation</head>
+<p>Die Beantwortung von Forschungsfragen über bestehende Forschungsdatenquellen im Linked Open Data Web ist von besonders hohe Relevanz für nachhaltige Forschungsarbeiten in den Geisteswissenschaften und insbesondere in der Geschichtswissenschaft (vgl. Meroño Peñuela et al. 2014: 1-27). Eine ständig wachsende Menge an Archivmaterialien, Literaturquellen, Forschungsergebnisse und Forschungsdatenbanken ist online verfügbar. Durch Standardisierungsbestrebungen u. a. durch den Einsatz von RDF und OWL als Beschreibungssprache von Daten ist es möglich diese zu verknüpfen, und Inferenz-Algorithmen auf diesen Ressourcen anzuwenden. Eine typische Herangehensweise an die damit einhergehenden Herausforderungen der Datenintegration ist die Verwendung von Standard-Vokabularen, wie sie z. B. im E-Business erfolgreich praktiziert wird (vgl. Domingue et al. 2011). Im Bereich der Geisteswissenschaften haben sich zum Beispiel mit GND
+                    <ref target="poster-RIECHftn1" type="note">1</ref> und Europeana Data Model (EDM)
+                    <ref target="poster-RIECHftn2" type="note">2</ref> solche Vokabulare entwickelt. Darüber hinaus wird CIDOC-CRM
+                    <ref target="poster-RIECHftn3" type="note">3</ref> von unterschiedlichen Projekten als Modell für die Veröffentlichung von Daten verwendet (vgl. Kurtz et al. 2009). Die Autoren sind in verschiedenen Forschungsprojekten in Deutschland und Frankreich im Bereich der Informatik und der Geschichtswissenschaften aktiv und müssen konstatieren, dass der Weg der Standardisierung in der historischen Forschung schwieriger ist. Dies ist vor allem auf den hohen Grad der domänspezifischen Eigenheiten der vorliegenden Daten, und auf die besondere Rolle projektbezogener Forschungsfragestellungen bei der Datenerstellung und Datenerhebung zurückzuführen (vgl. Beretta 2009).
+                </p>
+<p>Das im Jahr 2012 gegründete Europäische Netzwerk Héloïse
+                    <ref target="poster-RIECHftn4" type="note">4</ref> zur Vernetzung von online verfügbaren Datenbanken im Bereich der Universitätsgeschichte
+                    <ref target="poster-RIECHftn5" type="note">5</ref>, sieht sich dieser Herausforderung gegenübergestellt. Inhalte regelmäßig stattfindender Workshops sind die Präsentation von verfügbaren Forschungsdatenbanken und deren Verwendung bei auf diese heterogenen Datenbanken aufbauenden Forschungsfragestellungen. Parallel mit der Nutzung der Repositorien in zukünftigen Forschungskontexten erfolgt einekollaborative Daten-Kuration und sichert daher die Langzeitlebigkeit von historischen Forschungsdaten - nicht nur im Sinne von Datensicherung, sondern auch von ständiger Anreicherung und Qualitätsverbesserung der Daten.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Heloise Common Research Model</head>
+<p>Mit dem Heloise Common Research Model (HCRM) haben die beiden Autoren dem Konsortium eine Methode präsentiert (vgl. Beretta und Riechert 2016), welches durch die Forschungspartner gemeinsam verfeinert wird und in der Forschungsdomäne eingesetzt werden soll. Das HCRM ist als Schichtenarchitektur konzipiert, bestehend aus drei Schichten: dem Repository-Layer, dem Application-Layer und dem Research-Interface-Layer. In einem parallelem Entwicklungsprozess entsteht neben der detaillierten Definition von Modulen (vgl. Abbildung 1, Beretta und Riechert 2016) im HCRM eine Implementierung der Methodologie in Form der Héloïse-Plattform. </p>
+<p>
+<figure>
+<graphic url="poster-RIECH-image1.png"/>
+<head>Abbildung 1: Heloise Common Research Modell – Überblick über die Schichten und Module (links), Héloïse-Plattform (rechts) (vgl. Beretta und Riechert 2016)</head>
+</figure>
+</p>
+<p>
+<emph>Repository-Layer </emph>
+<emph>Die </emph>Datenbanken der Partnern des Héloïse-Netzwerkes, genauso wie externe Informationsquellen, stellen die Basis zur Beantwortung übergeordneter Forschungsfragen. Die Publikation der Daten als LOD erfolgt mit Hilfe etablierter Werkzeuge. So werden u. a. die Werkzeuge OntoWiki (Frischmuth et al. 2013) und D2RQ (Bizer und Cyganiak 2006) zum Publizieren eingesetzt. Die Verlinkung erfolgt innerhalb etablierter Authoring-Prozesse in den Forschungsprojekten.
+                </p>
+<p>
+<emph>Application-Layer: </emph>
+<emph>Die Applikations</emph>
+<emph>schicht</emph> unterstützt das Auffinden von Ressourcen und deren Verlinkung. Hierfür wird auf generische Werkzeuge und standardisierte Vokabulare aufgebaut, damit einhergehend ist der Zugang auf die Informationen auf diese Standards beschränkt. Als erste Anwendungen im Forschungskonsortium wird gegenwärtig die Implementierung einer Personen-Suche, basierend auf der BIO-Ontologie (Davis und Galbraith 2010), sowie die Darstellung relevanter geographischer Daten, über die Repositorien der Partner, entwickelt.
+                </p>
+<p>
+<emph>Research Interface Layer </emph>Die Forschungsschicht des Modells bietet einen Zugang auf die Forschungsdaten für neue wissenschaftliche Fragestellungen. Hierfür wird basierend auf einer Meta-Ontologie, wie sie das SyMoGIH Projekt (Beretta 2015, Beretta 2016) für die Geschichtswissenschaft entwickelt hat
+                    <ref target="poster-RIECHftn6" type="note">6</ref>, ein fachspezifisches Meta-Vokabular entwickelt. Dieses Vokabular verbindet einen kollaborativen, domänespezifischen Ansatz mit einer größtmöglichen Unabhängigkeit von spezifischen, Projekt-bezogenen Forschungsfragestellungen und ermöglicht den Datenaustausch im Héloïse-Netzwerk.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Héloïse-Plattform</head>
+<p>Zentral für zukünftige Forschungsprojekte im Héloïse-Konsortium ist die Implementierung der Methodologie. Die heterogene Zusammensetzung des Konsortium spricht gegen die Etablierung einer zentralen Administration einer solchen Plattform. Vielmehr ist die Forschungskooperation auf der Ebene der Historiker in einer vergleichbaren Art und Weise bei den assoziierten IT-Partnern zu finden. Die Autoren schlagen daher die Realisierung von Diensten der Plattform durch Microservices vor. Microservice stellen unabhängige Dienste zur Verfügung und sind im Sinne der angestrebten Cloud-basierten Plattform virtualisierbar (vgl. Newman 2015).</p>
+<p>Das Poster stellt die Resultate der iterativen Implementierung des HCRM im Héloïse-Forschungsnetzwerk detailliert vor. Es werden die Ergebnisse der fachlichen Diskussion über zwei Heloise Workshops (Madrid, 2015 und Perugia, 2016) vorgestellt. Der komplette Katalog, der durchgängig im Kontext der Linked-Open-Data-Philosophie, als Open-Source verfügbaren Microservices (Docker Container
+                    <ref target="poster-RIECHftn7" type="note">7</ref>), wird präsentiert und deren Anwendung innerhalb der Heloise-Plattform online gezeigt
+                    <ref target="poster-RIECHftn8" type="note">8</ref>.
+                </p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" place="foot" xml:id="poster-RIECHftn1">GND Ontology http://d-nb.info/standards/elementset/gnd [25/08/2016]</note><note n="2" place="foot" xml:id="poster-RIECHftn2">Europeana Data Model: http://pro.europeana.eu/page/edm-documentation [25/08/2016]</note><note n="3" place="foot" xml:id="poster-RIECHftn3">CIDOC Conceptual Reference Model: http://www.cidoc-crm.org [25/08/2016]</note><note n="4" place="foot" xml:id="poster-RIECHftn4">Héloïse - European Workshop on academic Database: http://heloisenetwork.eu/ [25/08/2016]</note><note n="5" place="foot" xml:id="poster-RIECHftn5">Héloïse-Partner: http://heloisenetwork.eu/repositories [25/08/2016]</note><note n="6" place="foot" xml:id="poster-RIECHftn6">Ontologie und Instanzen des Vokabulars sind auf der Webseite des Projektes online zugänglich: http://symogih.org [25/08/2016]</note><note n="7" place="foot" xml:id="poster-RIECHftn7">Docker Virtualisierung: http://docker.com [25/08/2016]</note><note n="8" place="foot" xml:id="poster-RIECHftn8">Héloïse-Network-Plattform: http://heloisenetwork.eu/platform [25/08/2016]</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Beretta, Francesco</hi> (2015):
+                        „Publishing and sharing historical data on the semantic web: the SyMoGIH project–symogih.org“,
+                        in: 
+                        <hi rend="italic">Workshop: Semantic Web Applications in the Humanities</hi> II.                    
+                    </bibl>
+<bibl>
+<hi rend="bold">Beretta, Francesco</hi> (2016):
+                        „L’interopérabilité des données historiques et la question du modèle: l'ontologie du projet SyMoGIH“,
+                        in: Minel, Jean-Luc (ed.):
+                        <hi rend="italic">Quels enjeux numériques pour les médiations scientifique et culturelle</hi>.
+                        Presses universitaires de Paris Ouest (im Erscheinen).
+                    </bibl>
+<bibl>
+<hi rend="bold">Beretta, Francesco / Riechert, Thomas</hi> (2016):
+                        „Collaborative Research on Academic History using Linked Open Data: A Proposal for the Heloise Common Research Model“, 
+                        in:
+                        <hi rend="italic">CIAN-Revista de Historia de las Universidades, Norteamérica</hi> 19 (Juni). 
+                    </bibl>
+<bibl>
+<hi rend="bold">Bizer, Christian / Cyganiak, Richard</hi> (2006):
+                        „D2r server-publishing relational databases on the semantic web“,
+                        in:
+                        <hi rend="italic">5th International Semantic Web Conference</hi> 294–309.
+                    </bibl>
+<bibl>
+<hi rend="bold">Davis, Ian / Galbraith, David</hi> (2010):
+                        <hi rend="italic">BIO: A vocabulary for biographical information</hi>. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Domingue, John / Fensel, Dieter / Hendler, James A.</hi> (eds.) (2011):
+                        <hi rend="italic">Handbook of semantic web technologies</hi>. 
+                        Berlin / Heidelberg: Springer Science / Business Media.
+                    </bibl>
+<bibl>
+<hi rend="bold">Frischmuth, Philipp / Martin, Michael / Tramp, Sebastian / Riechert, Thomas / Auer, Sören</hi> (2014):
+                        „OntoWiki - An Authoring, Publication and Visualization Interface for the Data Web“,
+                        in:
+                        <hi rend="italic">Semantic Web Journal (IOS Press)</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kurtz, Donna / Parker, Greg / Shotton, David / Klyne, Graham / Schroff, Florian / Zisserman, Andrew / Wilks, Yorick</hi> (2009):
+                        „Claros-bringing classical art to a global public“,
+                        in: 
+                        <hi rend="italic">Fifth IEEE International Conference on e-Science</hi> 20–27.
+                    </bibl>
+<bibl>
+<hi rend="bold">Meroño-Peñuela, Albert / Ashkpour, Ashkan / van Erp, Marieke / Mandemakers, Kees / Breure, Leen</hi> (2014):
+                        „Semantic technologies for historical research: A survey“,
+                        in:
+                        <hi rend="italic">Semantic Web Journal (IOS Press)</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Newman, Sam</hi> (2015):
+                        <hi rend="italic">Building Microservices: Designing Fine-Grained Systems</hi>.
+                        O'Reilly Media.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

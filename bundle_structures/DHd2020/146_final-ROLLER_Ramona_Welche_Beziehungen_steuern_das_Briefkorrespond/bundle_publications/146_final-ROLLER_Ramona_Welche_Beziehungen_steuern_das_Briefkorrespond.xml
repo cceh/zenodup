@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="146_final-ROLLER_Ramona_Welche_Beziehungen_steuern_das_Briefkorrespond" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Welche Beziehungen steuern das Briefkorrespondenz- netzwerk der Reformatoren? Eine Netzwerkanalyse</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Roller</surname>
+<forename>Ramona</forename>
+</persName>
+<affiliation>ETH Zürich, Schweiz</affiliation>
+<email>rroller@ethz.ch</email>
+</author>
+<author>
+<persName>
+<surname>Schweitzer</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>ETH Zürich, Schweiz</affiliation>
+<email>fschweitzer@ethz.ch</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-16T11:03:50</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>unvollständige Daten</term>
+<term>sozio-historische Netzwerkanalyse</term>
+<term>statistische Inferenz</term>
+<term>Reformation</term>
+<term>Briefkorrespondenznetzwerk</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Netzwerkanalyse</term>
+<term>Metadaten</term>
+<term>Methoden</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="div1">
+  <head>Einleitung</head>
+  <p>Die europäische Reformation war eine gesellschaftliche Erneuerungsbewegung im 16. Jahrhundert, die die Spaltung der katholischen Kirche zur Folge hatte (Kaufmann, 2016; Strohm, 2017). Jene Periode zeichnete sich durch einen regen Briefverkehr zwischen Gelehrten aus, die so miteinander im Austausch blieben. Diese Briefkorrespondenzen lassen sich als Netzwerk darstellen, eine beliebte Modellierungsmethode, um Verbindungsmuster in sozialen Systemen zu repräsentieren (Newman, 2018).</p>
+  <p>Wir konstruieren ein Korrespondenznetzwerk der Reformatoren aus Briefdaten mit dem Ziel, Aspekte des sozialen Systems der Reformation zu analysieren. Dieses Netzwerk beruht auf 20.000 Briefen, welche zwischen 1510 und 1575 von 2.000 Personen in ganz Europa verschickt und empfangen wurden. Reformatoren werden zu Punkten reduziert (Knoten), welche durch Linien (Kanten) miteinander verbunden sind, wenn sie sich Briefe geschrieben haben. Die Richtung der Kanten identifiziert Sender und Empfänger.</p>
+  <p>Das Problem dieser Netzwerkkonstruktion ist, dass jene Briefdaten nicht alle Briefe, inklusive Sender und Empfänger, enthalten, die während der Reformation verfasst wurden. Dies kann verschiedene Gründe haben: Lediglich Briefe von „wichtigen“ Akteuren wurden aufbewahrt, Briefe wurden absichtlich vernichtet oder wurden noch nicht digitalisiert. Bei unseren Briefdaten handelt es sich also um eine unrepräsentative Stichprobe von <hi rend="italic">unvollständigen Daten</hi>. Diese unvollständigen Daten führen zu verzerrten Netzwerktopologien, welche die Interpretation des Netzwerks beeinflussen und somit zu falschen Rückschlüssen auf das reale System führen können (Eliassi-Rad et al., 2019).
+  </p>
+  <p>Netzwerkrekonstruktion, also die Wiederherstellung des globalen Netzwerks mithilfe des observierten verzerrten Netzwerks, ist ein schwieriges und noch stets ungelöstes Problem. Ein grosser Nachteil bisheriger Lösungsansätze ist, dass sie ausschließlich Eigenschaften des observierten Netzwerks verwenden, um genau jenes zu rekonstruieren (Liben-Nowell &amp; Kleinberg, 2007; Eagle &amp; Lazer, 2009; Wu et al., 2009). Diese eingeschränkte Sichtweise lässt außer Acht, dass das observierte Netzwerk nur eine Form sozialer Interaktion widerspiegelt, nämlich Briefkorrespondenz. In Wirklichkeit bestand das soziale System der Reformation aus vielen verschiedenen Interaktionen und Beziehungen, die sich gegenseitig beeinflussen. Neben Briefkorrespondenzen können Reformatoren zum Beispiel auch durch persönliche Gespräche, Familienbande oder Kollegenschaft miteinander verbunden sein. Wenn wir verstehen, wie verschiedene soziale Beziehungen miteinander zusammenhängen, können wir diese Zusammenhänge eventuell nutzen, um fehlende Briefkorrespondenzen zu rekonstruieren.</p>
+  <p>Hierzu sind mehrere Zwischenschritte erforderlich: Wir müssen zunächst verstehen, (i) welche Beziehungen wichtig sind, (ii) wie diese mit dem observierten, jedoch unvollständigen Netzwerk zusammenhängen (iii) und wie wir von diesem Zusammenhang auf einen vergleichbaren Zusammenhang im globalen, jedoch unbekannten, Netzwerk schließen können. Diese Zwischenschritte lassen sich mithilfe von Regressionsanalyse und Inferenzstatistik untersuchen. 
+  <hi rend="italic">Regressionsanalyse </hi>ist eine statistische Methode, um den Zusammenhang zwischen Variablen in vorhandenen Daten zu quantifizieren. 
+  <hi rend="italic">Inferenzstatistik</hi> benutzt Wahrscheinlichkeitstheorie, um von jenem ermittelten Zusammenhang in der Stichprobe Rückschlüsse auf die gesamte Population zu ziehen.
+  </p>
+  <p>In diesem Beitrag veranschaulichen wir den Nutzen von Regressionsanalysen und Inferenzstatistik am Beispiel des Briefkorrespondenznetzwerks der Reformatoren. Im Speziellen sind wir an folgender Frage interessiert: 
+  <hi rend="bold">Welcher Zusammenhang besteht zwischen der geographischen Distanz zwischen Reformatoren-Paaren und der Anzahl Briefe, die sie sich schreiben?</hi>
+  </p>
+  <p>Wir erklären, warum etablierte Regressionsmodelle nicht auf das Korrespondenznetzwerk der Reformatoren angewandt werden können und stellen eine neue Methode vor, die Netzwerkregression, welche jene Nachteile entschärft. Zuletzt zeigen wir, wie wir die Netzwerkregression für statistische Inferenz nutzen können. Unsere Arbeit zeigt Möglichkeiten auf, Unsicherheiten in unvollständigen Daten zu quantifizieren und jene in die Interpretation der Ergebnisse mit einzubauen.</p>
+</div>
+<div type="div1">
+  <head>Datengrundlage und Korrespondenznetzwerk</head>
+  <p>Unsere Daten beruhen auf den Briefeditionen sieben ausgewählter Reformatoren. Martin Luther (ProQuest LLC, 2019), Philipp Melanchthon (HAW, 2019), Ulrich Zwingli (Moser, 2019), Heinrich Bullinger (Bodenmann, 2019), Martin Bucer (Simon &amp; Friedrich, 2018), Andreas Karlstadt (Kaufmann, 2012) und Oswald Myconius (Wallraff, 2016). Unser ausschlaggebendes Auswahlkriterium bestand darin, dass die Briefdaten öffentlich digital zugänglich sind, sodass wir sie mit einem Web-Crawler aus den entsprechenden Datenbanken herausfiltern konnten. Wir verwenden den Begriff „Reformator“ als Sammelbegriff für alle Sender und Empfänger in unserem Datensatz, obwohl viele jener Personen keine protestantischen Theologen waren. „Reformator“ umfasst somit auch Adlige, Humanisten, Katholiken und andere gesellschaftliche Gruppen. 
+  </p>
+  <p>Neben den Sendern und Empfängern der Briefen beinhalten unsere Daten das Sendedatum, sowie Sende- und Empfangsort. In der Datenvorverarbeitung haben wir Synonyme in Personen- und Ortsnamen eindeutigen Entitäten zugeordnet, sowie das jeweilige taggenaue Sendedatum aus den Ausgangsdaten abgeleitet.</p>
+  <p>Abbildung 1 zeigt das Briefkorrespondenznetzwerk, welches wir aus obigen Daten erstellen. Wir stellen fest, dass die sieben ausgewählten Reformatoren als Sternzentren mit vielen Briefverbindungen erscheinen, wohingegen Knoten in der Netzwerkperipherie kaum Briefverbindungen aufweisen. Hier zeigt sich bereits, wie unsere Datenauswahl die Netzwerktopologie beeinflusst. Demnach sind die dazugehörigen deskriptiven Statistiken der Netzwerktopologie nicht aussagekräftig für die Reformationszeit. Abbildung 2 listet jene Statistiken auf, um das unvollständige Korrespondenznetzwerk besser zu beschreiben.</p>
+  <p>
+    <figure>
+      <graphic url="146_final-94bb4c307fc05964df7929f7d794eb2e.jpg"/>
+      <head>Abbildung 1: Unvollständiges Briefkorrespondenznetzwerk der Reformatoren. Die Knotengröße veranschaulicht die Anzahl gesendeter und empfangener Briefe. Die Kantendicke veranschaulicht die Anzahl gesendeter Briefe.</head>
+    </figure>
+  </p>
+  <p>
+    <figure>
+      <graphic url="146_final-211630b03e0ef64b308b1d3affff9318.png"/>
+      <head>Abbildung 2: Deskriptive topologische Netzwerkmaße im unvollständigen Briefkorrespondenznetzwerk der Reformatoren. Knoten-spezifische Maße werde als Durschnittswert (&lt; &gt;) zusammen mit der Standardabweichung (<hi rend="math">σ</hi>) angegeben. Das „norm“ Kürzel, gibt normalisierte Werte an (Minimum=0, Maximum=1). Wir weisen eindrücklich darauf hin, dass diese Netzwerkmaße lediglich ei­ne 
+      <hi rend="bold">Beschreibung</hi> des Briefkorrespondenznetzwerk darstellen. Aufgrund unserer unvollständigen Daten ist die Netzwerktopologie verzerrt und eine Interpretation der resultierenden Netzwerkmaße in Bezug auf die Reformation daher nicht möglich. 
+      </head>
+    </figure>
+  </p>
+</div>
+<div type="div1">
+  <head>Soziale Beziehungen auswählen</head>
+  <p>Gemäß Schritt (i) (siehe Einleitung), müssen zunächst einige Beziehungstypen für die Analyse ausgewählt werden. Die Auswahl erfolgt auf Grundlage von vorhandenen Theorien und Datenverfügbarkeit.</p>
+  <p>Wir konzentrieren uns hier auf die geographische Distanz zwischen Reformatoren, eine Beziehung, die bereits zur Rekonstruktion von antiken Handelsnetzwerken genutzt wurde (Amati et al., 2019). Da unsere Korrespondenzdaten den Sende- und den Empfangsort der jeweiligen Briefe enthalten, benutzen wir die GoogleMaps API, um die Gehstrecke zwischen Sender und Empfänger per Brief zu berechnen. Für unsere Analyse ist es unbedeutend, dass die ermittelte moderne Gehstrecke nicht mit historischen Geh- oder Poststrecken übereinstimmt. Wichtig ist, dass die Größenordnungen vergleichbar sind. Unsere Methode gewährleistet zum Beispiel, dass die Strecke über die Alpen heute wie damals um den gleichen Faktor länger ist als die Strecke zwischen Wittenberg und Heidelberg.</p>
+  <p>Wir analysieren zwei mögliche Hauptszenarien wie geographische Distanz die Anzahl der Briefe zwischen Reformatoren beeinflusst: Auf der einen Seite schreiben sich Reformatoren weniger Briefe, je weiter sie auseinander wohnen, da die Kosten steigen (z.B. teure Boten), um jene zu verschicken (Kostenszenario). Auf der anderen Seite schreiben sich Reformatoren mehr Briefe, je weiter sie auseinander wohnen, da Briefe das einzige Kommunikationsmittel waren, um lange Abstände zu überbrücken (Zweckmäßigkeitsszenario). Über kurze Abstände ist es demnach praktischer persönliche Gespräche zu führen, anstatt Briefe zu schreiben.</p>
+  <p>Neben der geographischen Distanz testen wir zwei Kontrollfaktoren. Dies sind weitere soziale Beziehungen, an deren Effekt auf die Anzahl Briefe wir nicht per se interessiert sind, die jene Anzahl aber dennoch beeinflussen und deshalb mitberücksichtigt werden müssen. Der erste Kontrollfaktor ist Reziprozität, ein Grundprinzip des menschlichen Handels, wobei eine Person die Handlung ihres Gegenübers erwidert.</p>
+  <p>Der zweite Kontrollfaktor ist religiöse Homophilie. Homophilie beschreibt ein soziologisches Prinzip, wonach Menschen verstärkt interagieren, wenn sie sich ähneln (z.B. gleicher Bildungsstatus). Religiöse Homophilie beschreibt die Annahme, dass Reformatoren, die dieselbe protestantische Strömung vertreten, sich mehr Briefe schreiben, als wenn sie unterschiedliche Strömungen unterstützen.</p>
+</div>
+<div type="div1">
+  <head>Etablierte Modelle und ihre Schwächen</head>
+  <p>Regression ist ein statistisches Modell, welches den Zusammenhang und dessen Stärke zwischen verschiedenen Variablen mithilfe einer mathematischen Funktion beschreibt. Auf das Briefkorrespondenznetzwerk bezogen, können wir zum Beispiel ermitteln, wie die geographische Distanz, Reziprozität und religiöse Homophilie die Anzahl Briefe zwischen Sender- und Empfänger-Paaren beeinflussen. Abbildung 3 veranschaulicht eine einfache lineare Regression.</p>
+  <p>
+    <figure>
+      <graphic url="146_final-17b9af81849c51f7db7e20cf8826769f.png"/>
+      <head>Abbildung 3: Schematisches Beispiel einer einfachen linearen Regression. Die Abhängigkeit zwischen geographischer Distanz (x-Achse) und der Anzahl Briefe per Sender-Empfänger-Paar (y-Achse) wird durch die lineare Funktion y = <hi rend="math">β</hi><hi rend="sub">0</hi> + <hi rend="math">β</hi><hi rend="sub">1</hi>*x <hi rend="sub">1</hi> + <hi rend="math">ε</hi> beschrieben. <hi rend="math">β</hi><hi rend="sub">0</hi> ist der y-Achsenabschnitt. <hi rend="math">β</hi><hi rend="sub">1</hi> ist die Steigung der Geraden und quantifiziert die Stärke des ermittelten Zusammenhangs zwischen Distanz und Briefanzahl. <hi rend="math">ε</hi> ist der Fehlerterm, der unbeobachtete Zufallsvariablen repräsentiert. Für jede weitere getestete soziale Beziehung (z.B. Homophilie), fügen wir eine Dimension in der Abbildung hinzu und ergänzen die obere Formel mit einem weiteren <hi rend="math">β</hi>*x. Das heißt, wir berechnen eine Gerade im mehrdimensionalen Raum.
+      </head>
+    </figure>
+  </p>
+  <p>Der ermittelte Zusammenhang zwischen den Variablen ist nicht absolut, sondern abhängig von Fehlern in der Datenmessung und Bestimmung der Parameterwerte (<hi rend="math">β</hi>‘s). Diese Unsicherheiten lassen sich in der Regression modellieren und können so in die Interpretation der Ergebnisse mit einbezogen werden.</p>
+  <p>Allerdings setzt die Regression voraus, dass Observationen unabhängig sind, eine Annahme, die in Netzwerken ungültig ist, da die Postion von Kanten durch die restlichen Kanten eingeschränkt ist. Klassische generative Netzwerkmodelle, wie das 
+  <hi rend="italic">Exponential Random Graph Model,</hi> machen jene Annahme zwar nicht, sind aber sehr rechenintensiv und daher für Netzwerke mit mehreren hundert Knoten nicht geeignet (An, 2016). Für das Briefkorrespondenznetzwerk sind wir daher auf ein alternatives Modell angewiesen, die Netzwerkregression.
+  </p>
+</div>
+<div type="div1">
+  <head>Netzwerkregression</head>
+  <div type="div2">
+    <head>Konzept und Definition</head>
+    <p>Ähnlich wie bei der klassischen Regression ermittelt die Netzwerkregression den Zusammenhang und dessen Stärke zwischen einer abhängigen und einer oder mehrerer unabhängiger Variablen (Casiraghi, 2017). Allerdings sind nun die abhängige und die unabhängigen Variablen keine einfachen Zahlen mehr (z.B. Briefanzahl, geografische Distanz in km), sondern Netzwerktopologien. Ausgangspunkt für die Netzwerkregression ist ein mehrlagiges Netzwerk, dessen unterste Lage ein Interaktionsnetzwerk darstellt (abhängige Variable) und jede weitere Lage jeweils ein soziales Beziehungsnetzwerk darstellt (unabhängige Variablen) (siehe Abbildung 4).</p>
+    <p>
+      <figure>
+	<graphic url="146_final-7434e49fafb3258bda72ceaf6ed84af0.png"/>
+	<head>Abbildung 4: Mehrlagiges Netzwerk als Ausgangspunkt für die Netzwerkregression. Die unterste Lage (grün) repräsentiert das Briefkorrespondenznetzwerk der Reformatoren. Jede weitere blaue Lage repräsentiert jeweils eine soziale Beziehung zwischen den Reformatoren: geographische Distanz, Reziprozität und religiöse Homophilie. Alle Lagen beinhalten dieselben Knoten (Reformatoren), welche aber unterschiedlich miteinander verbunden sind, weil die Kanten verschiedene soziale Relationen darstellen. Ziel der Netzwerkregression ist es einen Zusammenhang zwischen den blauen und der grünen Lage herzustellen, um die Topologie des Briefkorrespondenznetzwerk durch soziale Beziehungen zu erklären.</head>
+      </figure>
+    </p>
+    <p>Jede Netzwerklage, die eine unabhängige Variable repräsentiert, wird durch eine Matrix
+    (<hi rend="bold">R</hi>) dargestellt, welche die soziale Beziehung für jedes Reformatoren-Paar quantifiziert. Ähnlich wie in der klassischen Regression quantifiziert der Parameter <hi rend="math">β</hi> die Stärke des Zusammenhangs zwischen einer 
+    <hi rend="bold">R</hi> Matrix und dem Briefkorrespondenznetzwerk.
+    </p>
+    <p>Mithilfe der <hi rend="bold">R</hi> Matrizen wird nun die Wahrscheinlichkeit per Reformatoren-Paar berechnet, dass dieses durch eine Kante verbunden ist. Diese Berechnung basiert auf einem statistischen Modell dem <hi rend="italic">generaliserten hypergeometrischen Ensemble</hi> (Casiraghi &amp; Nanumyan, 2018). Mit diesen Verbindungswahrscheinlichkeiten werden neue synthetische Netzwerke generiert, deren Topologien wissentlich durch die getesteten sozialen Beziehungen zustande kommen. Falls sich das observierte Netzwerk sehr stark von den synthetischen unterscheidet, sind die getesteten sozialen Beziehungen keine gute Erklärungen für die Topologie des observierten Netzwerks. Umgekehrt schon.
+    </p>
+  </div>
+  <div type="div2">
+    <head>Anwendung im Briefkorrespondenznetzwerk</head>
+    <p>Wir konstruieren zunächst die jeweiligen <hi rend="bold">R</hi> Matrizen für die sozialen Beziehungen geographische Distanz, Reziprozität und religiöse Homophilie. Im Bezug auf geographische Distanz möchten wir herausfinden, ob die Anzahl der Briefe einem Kostenszenario (größere Distanz führt zu weniger Briefen) oder einem Zweckmäßigkeitsszenario (größere Distanz führt zu mehr Briefen) folgt. Für dieses Ziel teilen wir den Effekt der geographischen Distanz auf zwei <hi rend="bold">R</hi> Matrizen auf, die jeweils eine Exponentialfunktion der geographischen Distanz darstellen. <hi rend="bold">R</hi><hi rend="sup">(1)</hi> hat die lineare Distanz per Sender-Empfänger-Paar im Exponenten und <hi rend="bold">R</hi><hi rend="sup">(2)</hi> die quadratische.
+    </p>
+    <p>
+      <figure>
+	<graphic url="146_final-555d146b66e161d55e09a39f167b9795.png"/>
+      </figure>
+    </p>
+    <p>wobei 
+    <hi rend="italic">dist</hi> die geografische Distanz zwischen zwei Reformatoren <hi rend="italic">i</hi> und <hi rend="italic">j</hi> darstellt.
+    </p>
+    <p>Abbildung 5 zeigt ein schematisches Beispiel der <hi rend="bold">R</hi><hi rend="sup">(1)</hi> Matrix.
+    </p>
+    <p>
+      <figure>
+	<graphic url="146_final-4fee535ff39279dc091d20467306676b.png"/>
+	<head>Abbildung 5: Schematisches Beispiel der linearen geografischen Distanzmatrix 
+        <hi rend="bold">R</hi><hi rend="sup">(1)</hi>. Reihen repräsentieren die Briefsender und Spalten die Empfänger, also jeweils die Knoten (Reformatoren) im Netzwerk. Für jedes Sender-Empfänger-Paar berechnen wir e<hi rend="sup">Distanz [km]</hi>. Wenn Luther und Melanchthon zum Beispiel 2 km von einander entfernt wären, würden wir e<hi rend="sup">2</hi>=7,28 in die entsprechende Matrixzelle eintragen. Die Werte auf der Diagonalen sind 1, da Sender und Empfänger hier die gleiche Person sind, die sich räumlich nicht aufteilen kann (Distanz = 0 km, e<hi rend="sup">0</hi>=1). Reformator<hi rend="sub">n</hi> ist der letzte Reformator im Datensatz.
+        </head>
+      </figure>
+    </p>
+    <p>Die <hi rend="bold">R</hi> Matrizen für Reziprozität (<hi rend="bold">R</hi><hi rend="sup">(3)</hi>) und religöse Homophilie (<hi rend="bold">R</hi><hi rend="sup">(4)</hi>) werden jeweils mit numerischen Ersatzwerten und der change statistic konstruiert. Letztere ist ein Standardmaß für Netzwerkmuster in generativen Netzwerkmodellen (Snijders et al., 2006). Wir aggregieren die vier <hi rend="bold">R</hi> Matrizen, um für jedes Sender-Empfänger Paar die Chance zu berechnen, dass es sich Briefe schreibt. In dieser Berechnung ermitteln wir den Wert für jeweils ein <hi rend="math">β</hi> pro 
+    <hi rend="bold">R</hi> Matrix. Die <hi rend="math">β</hi>‘s beschreiben, wie sehr die entsprechende soziale Beziehung die Anzahl geschriebener Briefe beeinflusst. Abhängig vom Vorzeichen der ermittelnden  <hi rend="math">β</hi>‘s, werden vier Verläufe unterschieden, wie sich die geographische Distanz auf jene Chance auswirkt (siehe Abbildung 6). 
+    </p>
+    <p>
+      <figure>
+	<graphic url="146_final-33a99c5dd342120e7c58d73b1762a5d1.png"/>
+	<head>Abbildung 6: Schematische Repräsentation der Auswirkung von geographischer Distanz (x-Achse) auf die Wahrscheinlichkeit zum Briefeschreiben (y-Achse) in Abhängigkeit des Vorzeichens der ermittelten <hi rend="math">β</hi> Koeffizienten für <hi rend="bold">R</hi><hi rend="sup">(1)</hi> und 
+	<hi rend="bold">R</hi><hi rend="sup">(2)</hi>. Sind beide <hi rend="math">β</hi>‘s positiv, steigt die Chance, dass Reformatoren sich Briefe schreiben, mit wachsender geographischer Distanz. Dies ist das absolute Zweckmäßigkeitsszenario). Sind beide <hi rend="math">β</hi>‘s negativ, sinkt die Chance, dass Reformatoren sich Briefe schreiben, mit wachsender geographischer Distanz. Dies ist das absolute Kostenszenario. Ist das lineare <hi rend="math">β</hi> negativ und das quadratische <hi rend="math">β</hi> positiv, ist die Chance, dass Reformatoren sich Briefe schreiben, hoch für sehr kurze und sehr lange Distanzen. Dies ist ein Kosten- oder Zweckmäßigkeitsszenario). Ist das lineare <hi rend="math">β</hi> positiv und das quadratische <hi rend="math">β</hi> negativ, ist die Chance, dass Reformatoren sich Briefe schreiben, hoch für mittlere geographische Distanzen. Das Kosten- und das Zweckmäßigkeitsszenario sind in Balance.
+        </head>
+      </figure>
+    </p>
+    <p>Abbildung 7 zeigt die Ergebnisse der Netzwerkregression. Die Vorzeichen der <hi rend="math">β</hi> Koeffizienten für geographische Distanz geben an, dass das Zweckmässigkeitsszenario bei großen geographischen Distanzen dominiert und das Kostenszenario bei kurzen Distanzen. Es ist also wahrscheinlicher, dass Reformatoren sich Briefe über sehr kurze und sehr lange Distanzen schreiben als über mittlere.</p>
+    <p>
+      <figure>
+	<graphic url="146_final-28ab4b4da839a488180e4361c0e88213.png"/>
+	<head>Abbildung 7: Ergebnis der Netzwerkregression. Der negative und positive Koeffizient für geographische Distanz zeigen, dass Reformatoren sich vor allem über sehr kurze und sehr lange Distanzen Briefe schreiben. Die positiven Koeffizienten der Kontrollfaktoren weisen darauf hin, dass Reziprozität und religiöse Homophilie die Anzahl geschriebener Briefe positiv beeinflussen.</head>
+      </figure>
+    </p>
+    <p>Die Koeffizienten für Reziprozität und religiöse Homophilie zeigen jeweils, dass beide Faktoren einen positiven Effekt auf die Anzahl versendeter Briefe haben. Demnach steigt die Chance, dass ein Reformator A einem anderen Reformator B Briefe schreibt, falls B bereits Briefe an A geschrieben hat und beide Reformatoren dieselbe religiöse Strömung vertreten. Am absoluten Wert der <hi rend="math">β</hi> Koeffizienten sehen wir, dass Reziprozität einen größeren Effekt hat als religiöse Homophilie.</p>
+    <p>Diese Ergebnisse sind an sich nicht überraschend, könnten jedoch sehr nützlich für die Netzwerkrekonstruktion sein. Aus den Werten für Distanz, Reziprozität und Homophilie können wir die oben beschriebenen Wahrscheinlichkeit berechnen, dass Reformatoren sich Briefe geschrieben haben. Falls unsere Daten keine Briefverbindung zwischen zwei Reformatoren aufweisen, jene berechnete Wahrscheinlichkeit aber groß ist, können wir annehmen, dass jene Briefe in unseren Daten schlicht fehlen. Unter der Annahme, dass Briefe zur Verbreitung reformatorischen Gedankenguts genutzt wurden, können wir anhand der <hi rend="math">β</hi>-Werte bestimmen, welche sozialen Beziehungen die Etablierung der Reformation vorangetrieben haben. Dies erlaubt uns eine neue Perspektive auf die Reformation, welche nicht bestimmte Hauptfiguren (z.B. Luther als Wegbereiter der Reformation) oder einzelne Großereignisse (z.B. Erfindung des Buchdrucks, Augsburger Religionsfrieden) als Antriebsfaktoren für die Reformation in den Vordergrund rückt, sondern sich auf die lokalen Interaktions- und Beziehungsstrukturen der Leute von damals konzentriert.</p>
+    <p>Unabhängig von der Reformation lassen sich mithilfe der Netzwerkregression Interaktionsnetzwerke jeglicher Art beschreiben. Beispiele für weitere Interaktionsnetzwerke umfassen den Handel mit Gütern, finanzielle Transaktionen und persönliche Gespräche. Wenn wir zusätzlich zu jenem Interaktionsnetzwerk auch Informationen zu den sozialen Beziehungen zwischen den Knoten im Netzwerk haben (z.B. Verwandtschaft, Heirat, Arbeitsverhältnis und Homophilie), können wir mithilfe der Netzwerkregression ermitteln wie sehr jene Beziehungen das Interaktionsnetzwerk beeinflussen. Die Auswahl des Interaktionsnetzwerks und der sozialen Beziehungen hängt von theoretischen Überlegungen und der Datengrundlage ab. Welche Interaktionen und Beziehungen sind für den Forschungsstand von Belang? Sind die gewünschten Daten zugänglich?</p>
+  </div>
+</div>
+<div type="div1">
+<head>Fazit</head>
+<p>Wir beschreiben den Zusammenhang zwischen sozialen Beziehungen und einem Interaktionsnetzwerk mithilfe einer Netzwerkregression. Am Beispiel des Briefkorrespondenznetzwerks der Reformatoren haben wir aufgezeigt, dass sehr kurze und sehr lange Distanzen, Reziprozität, sowie Zugehörigkeit zur selben religiösen Strömung die Chance vergrößern, dass Reformatoren sich Briefe schreiben. Diese Ergebnisse geben mögliche Hinweise, wie externe Faktoren, soziale Normen und Gruppendynamiken Briefkorrespondenzen beeinflussen. Sie sind erste wichtige Bausteine, um das globale unbekannte Briefkorrespondenznetzwerk zu rekonstruieren.</p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+  <head>Bibliographie</head>
+  <bibl>
+    <hi rend="bold">An, Weihua </hi> (2016):
+    „Fitting ERGMs on big networks.“, in: Social Science Research 59: 107-119.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Amati, Viviana / Mol, Angus / Shafie, Termeh / Hofman, Corinne / Brandes, Ulrik </hi> (2019):
+    „A Framework for Reconstructing Archaeological Networks Using Exponential Random Graph Models.“, in: 
+    <hi rend="italic">Journal of Archaeological Method and Theory</hi> 29: 1-28.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Bodenmann, Reinhard</hi> (2019): „Bullinger-Briefwechsel“, unter
+    <ptr target="http://www.arpa-docs.ch/SedServer/SedWEB.cgi?fld_41a=&amp;fld_30b=&amp;fld_41c=&amp;fld_30c=&amp;fld_41e=&amp;search=&amp;range=&amp;Alias=Briefe&amp;Lng=0&amp;first=0&amp;session=0&amp;awidth=1440&amp;aheight=769&amp;PrjName=Bullinger+-+Briefwechsel"/>
+    (abgerufen am 12.12.2019).
+  </bibl>
+  <bibl>
+    <hi rend="bold">Casiraghi, Giona / Nanumyan, Vahan</hi> ( 2018): „Generalised hypergeometric ensembles of random graphs: the configuration model as an urn problem“, 
+    <hi rend="italic">arXiv:1810.06495</hi>.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Casiraghi, Giona</hi> (2017): „Multiplex Network Regression: How do relations drive interactions?“ 
+    <hi rend="italic">arXiv:1702.02048</hi>.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Eagle, Nathan / Lazer, David</hi> (2009): „Inferring friendship network structure by using mobile phonedata“, in 
+    <hi rend="italic">PNAS </hi>106
+    <hi rend="italic">(36)</hi>, 15274-15278.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Eliassi-Rad, Tina / Caceres, Rajmonda. / LaRock, Timothy</hi> (2019): „Incompleteness in Networks: Biases, Skewed Results, and Some Solutions“, in 
+    <hi rend="italic">KDD’19 Proceedings</hi>.
+  </bibl>
+  <bibl>
+    <hi rend="bold">HAW-Forschungsstelle Melanchthon-Briefwechsel</hi> (2019): „Melanchthon Briefwechsel – Regesten online“, unter 
+    <ptr target="https://www.haw.uni-heidelberg.de/forschung/forschungsstellen/melanchthon/mbw-online.de.html"/>
+    <hi rend="color(#000000)">(abgerufen am 12.12.2019).</hi>
+  </bibl>
+  <bibl>
+    <hi rend="bold">Liben-Nowell, David / Kleinberg, Jon</hi> (2007): „The Link Prediction Problem for Social Net- works“, in 
+    <hi rend="italic">Proceedings of the Twelfth Annual ACM International Conference on Information and Knowledge Management (CIKM)</hi>.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Kaufmann, Thomas. </hi>(2017): „Erlöste und Verdammte - Eine Geschichte der Reformation (2. Ed.)“, C.H.Beck.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Kaufmann, Thomas</hi> (2012): 
+    <hi rend="italic">„Kritische Gesamtausgabe der Schriften und Briefe Andreas Bodensteins von Karlstadt, Teil I (1507-1518)</hi>. Wolfenbüttel 2012. 
+    <hi rend="italic">(Editiones Electronicae Guelferbytanae), </hi> unter
+    <ptr target="http://diglib.hab.de/edoc/ed000216/start.htm"/> (abgerufen am 12.12.2019).
+  </bibl>
+  <bibl>
+    <hi rend="bold">Moser, Christian</hi> (2019): 
+    „Huldrych Zwingli Briefe: Digitale Texte“, unter 
+    <ptr target="http://www.irg.uzh.ch/static/zwingli-briefe/?n=Main.HomePage"/>
+    (abgerufen am 12.12.2019).
+  </bibl>
+  <bibl>
+    <hi rend="bold">Newman, Mark. </hi>(2018): „Networks (2. Ed.)“, Oxford University Press.
+  </bibl>
+  <bibl>
+    <hi rend="bold">ProQuest LLC.</hi> (2019): „Luthers Werke im WWW: Weimarer Ausgabe“, unter <ptr target="luther.chadwyck.co.uk"/> (abgerufen am 12.12.2019).
+  </bibl>
+  <bibl>
+    <hi rend="bold">Simon, Wolfgang / Friedrich, Reinhold</hi> (2018): „Briefkorrespondenz von Martin Bucer, unter 
+    <ptr target="https://augustana.de/forschung-lehre/kirchengeschichte/bucer-forschungsstelle.html"/>
+    <hi rend="color(#000000)">(abgerufen am 12.12.2019).</hi>
+  </bibl>
+  <bibl>
+    <hi rend="bold">Snijders, Tom / Pattison, Philippa / Robins, Garry / Handcock, Mark</hi> (2006): „New specifications for exponential random graph models“, in 
+    <hi rend="italic">Sociological methodology </hi>36
+    <hi rend="italic">(1)</hi>, 99-153.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Strohm, Christoph</hi> (2017): „Theologenbriefwechsel im Südwesten des Reichs in der Frühen Neuzeit (1550-1620)“ , Universitätsverlag WINTER Heidelberg.
+  </bibl>
+  <bibl>
+    <hi rend="bold">Wallraff, Martin</hi> (2016): 
+    „Erschliessung des Briefwechsels von Oswald Myconius“, unter 
+    <ptr target="https://myconius.unibas.ch/impressum.html"/>
+    <hi rend="color(#000000)">(abgerufen am 12.12.2019).</hi>
+  </bibl>
+  <bibl>
+    <hi rend="bold">Wu, Yun-Jhong / Levina, Elizaveta / Zhu, Ji</hi> (2009): „Link prediction for egocentrically sampled networks“, 
+    <hi rend="italic">arXiv:1803.04084.</hi>
+  </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

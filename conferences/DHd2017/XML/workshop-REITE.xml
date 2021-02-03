@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="workshop-REITE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>CUTE: CRETA Unshared Task zu Entitätenreferenzen</title>
+<author>
+<persName>
+<surname>Reiter</surname>
+<forename>Nils</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>nils.reiter@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Blessing</surname>
+<forename>Andre</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>andre.blessing@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Echelmeyer</surname>
+<forename>Nora</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>nora.echelmeyer@ilw.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Koch</surname>
+<forename>Steffen</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>steffen.koch@vis.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Kremer</surname>
+<forename>Gerhard</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>gerhard.kremer@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Murr</surname>
+<forename>Sandra</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>sandra.murr@ilw.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Overbeck</surname>
+<forename>Maximilian</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>maximilian.overbeck@sowi.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Pichler</surname>
+<forename>Axel</forename>
+</persName>
+<affiliation>Universität Stuttgart, Deutschland</affiliation>
+<email>axel.pichler@ts.uni-stuttgart.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Workshops</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>shared task</term>
+<term>unshared task</term>
+<term>Entitätenreferenz</term>
+<term>Annotation</term>
+<term>Modularisierung von Forschungsfragen</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Beziehungsanalyse</term>
+<term>Annotieren</term>
+<term>Veröffentlichung</term>
+<term>Kollaboration</term>
+<term>Literatur</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Standards</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>Der Workshop zum CRETA Unshared Task (CUTE) verfolgt ein inhaltliches und ein methodisches Ziel. Das inhaltliche Ziel ist die Anregung eines Diskurses über Entitäten, deren Annotation und Kategorisierung entlang von geistes- und sozialwissenschaftlichen Forschungsfragen sowie deren Potential als disziplinübergreifende Textanalyseaufgabe. Methodisch möchten wir ein Workshop-Format erproben, das unseres Erachtens eine produktive Schnittstelle zwischen Geistes-/SozialwissenschaftlerInnen und InformatikerInnen bildet. Das genaue Programm des Workshops wird von den Teilnehmenden durch Beiträge gestaltet (durch Beiträge, siehe Call for Papers
+                    <ref n="1" target="workshop-REITEftn1" type="note">1</ref>) und vor rechtzeitig vor dem Workshop auf der Webseite veröffentlicht
+                    <ref n="2" target="workshop-REITEftn2" type="note">2</ref>.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="entitätenreferenzen">
+<head>Entitätenreferenzen</head>
+<p>Das Konzept der Entität und ihrer Referenz ist ein bewusst weites, das anschlussfähig sein soll für verschiedene Forschungsfragen aus den Geistes- und Sozialwissenschaften. Wir möchten dabei explizit verschiedene Perspektiven auf Entitäten berücksichtigen.</p>
+<div rend="DH-Heading2" type="div2">
+<head>Entitäten in der Literaturwissenschaft</head>
+<p>Figuren in literarischen Texten sind „mit ihrer sinnkonstitutiven und handlungsprogressiven Funktion“ ein zentraler Bestandteil der fiktiven Welt (Platz-Waury 1997). Von besonderem Interesse dabei sind Figurenkonstellationen und Interaktionen, die Entwicklung von Figuren sowie die Funktionalisierung von Figuren als Handlungsträger. Die Erkennung von Figurenreferenzen ist grundlegend, um z.B. Figuren zu charakterisieren, ihre Relationen identifizieren und Netzwerkanalysen durchführen zu können (vgl. Jannidis 2015, Trilcke 2013).</p>
+<p>Neben der Figur rückt –- spätestens seit dem 
+                        <hi rend="italic">spatial turn</hi> -– auch der Raum als relevante Entität in den Fokus der Literaturwissenschaft. Der Handlungsraum in literarischen Texten dient der Strukturierung der fiktiven Welt und ist zumeist semantisiert (Lotman 1972). Zudem kann er in Wechselwirkung mit Aspekten der Figur („sujethafte Grenzüberschreitung“, Lotman 1972) oder der Zeit stehen („Chronotopos“, Bachtin 1989).
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2" xml:id="entitäten-in-der-sozialwissenschaft">
+<head>Entitäten in der Sozialwissenschaft</head>
+<p>Politische Parteien, internationale Organisationen oder Institutionen sind seit jeher zentrale Analyseobjekte der empirischen sozialwissenschaftlichen Forschung und werden spätestens seit dem 
+                        <hi rend="italic">linguistic turn</hi> (Rorty 1967) in den Sozialwissenschaften auch mittels inhalts- oder diskursanalytischer Methoden auf zunächst kleinen und zunehmend größeren Mengen von Textdokumenten (beispielsweise Parteiprogrammen, offizielle Regierungsdokumenten, Zeitungstexten) untersucht. Neben vielfältigen anderen Analysen stehen dabei oftmals Fragen nach der Sichtbarkeit oder Bewertung bestimmter Entitäten, wie beispielsweise der Europäischen Union als supra-/internationaler Organisation (Kantner 2015) im Vordergrund.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2" xml:id="entitäten-in-der-philosophie">
+<head>Entitäten in der Philosophie</head>
+<p>Im Unterschied zu den Literatur- und Sozialwissenschaften spielen Entitäten als Untersuchungsgegenstand in philosophischen Texten zunächst keine Rolle. Aufgrund ihrer metareflexiven Ausrichtung fragt Philosophie primär nicht nach individuell unterscheidbaren Objekten in der echten oder einer fiktiven Welt, sondern beschäftigt sich mit transzendentalen Fragen nach den Bedingungen und Möglichkeiten derartiger individueller Objekte. Dabei arbeitet sie mit abstrakten Konzepten, die sich ebenfalls als -- nicht-dingliche -- Objekte einer Welt auffassen lassen. Pragmatisch gesehen erfolgt die Referenz auf abstrakte Konzepte in Texten jedenfalls in ähnlicher Weise wie die Referenz auf Figuren, Organisationen und Orten (s.u.).</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="fachübergreifende-annotationsschemata">
+<head>Fachübergreifende Annotationsschemata</head>
+<p>Auch wenn die Interpretation von z.B. der Erwähnung von Organisationen in politischen und des Auftretens von Figuren in literarischen Texten anderen Regeln folgt und mit anderen Forschungsfragen zusammenhängt, gibt es Gemeinsamkeiten auf linguistisch-struktureller Ebene. Im Text realisiert werden Referenzen auf die o.g. Arten von Entitäten entweder als Eigennamen (
+                    <hi rend="italic">Angela Merkel</hi>/
+                    <hi rend="italic">Ästhetische Theorie</hi>), Pronomen (
+                    <hi rend="italic">sie</hi>/
+                    <hi rend="italic">sie</hi>) oder als appellative Nominalphrasen (
+                    <hi rend="italic">die Bundeskanzlerin</hi>/
+                    <hi rend="italic">das Spätwerk Adornos</hi>). Wir haben daher ein einheitliches Vokabular und Annotationsschema entwickelt und auf einem ausgewählten heterogenen Korpus getestet. Dieses soll im Rahmen des Workshops diskursiv erörtert und wenn möglich erweitert werden.
+                </p>
+<p>Abstrakt gesprochen verstehen wir unter Entitäten individuell unterscheidbare Objekte in der echten oder einer fiktiven Welt. Wir unterscheiden sechs verschiedene Typen von Entität: Personen, Orte, Ereignisse, Organisationen, kulturelle Artefakte und Konzepte. Die Bezeichnung als „Objekt“ impliziert also 
+                    <hi rend="italic">nicht</hi>, dass es sich um physikalische Objekte handelt. Die Einteilung in Typen ist von den oben skizzierten Forschungsfragen und -feldern abgeleitet und ist -- bei anderen Forschungsfragen oder -daten -- offen für Ergänzungen. Die Anwendbarkeit auf zusätzliche Texte und Textgattungen ist für uns (und für diesen Workshop) von besonderem Interesse.
+                </p>
+<p>Die Erstellung abstrakter Annotationsrichtlinien und deren systematische, kontrollierte Anwendung (Annotation) auf konkrete Texte verspricht im Wesentlichen zwei Ergebnisse:</p>
+<list type="ordered">
+<item>Das Erzeugen von parallelen Annotationen auf Basis von Richtlinien zwingt zu einem sehr genauen Lesen des Textes und sorgt für eine intensive Auseinandersetzung mit den Annotationskategorien (und auch für ein Hinterfragen derselben). Recht schnell wird auf diese Weise deutlich, welche Annahmen bei der Anfertigung der Annotationsrichtlinien nicht von den Daten gedeckt waren. Auch Phänomene, die inhaltlich berücksichtigt werden sollten, aber nicht in den Richtlinien enthalten sind, fallen den FachwissenschaftlerInnen schnell ins Auge. Dadurch, dass die eigenen Annotationsentscheidungen ggf. diskutiert und verteidigt werden müssen, sorgen Parallelannotationen für die Aufdeckung von Vagheiten in den Definitionen und damit für eine Klärung der Begriffe (vgl. Gius / Jacke 2016).</item>
+<item>Die Entwicklung von maßgeschneiderten Textanalysewerkzeugen für spezifische geistes- und sozialwissenschaftliche Forschungsfragen stößt schnell an Ressourcengrenzen. Als Problem erweist sich oft, dass die Textanalyseaufgaben zu speziell oder die Datenmengen zu klein sind und damit ein Forschungsbeitrag in der Informatik oder Computerlinguistik nur schwer möglich ist (was typischerweise wiederum Auswirkungen auf den Ressourceneinsatz hat). Eine Antwort auf diese Herausforderung ist die Etablierung fachübergreifender Textanalyseaufgaben, etwa für bestimmte Annotationsebenen. Dies erlaubt die Entwicklung von allgemeineren, wiederverwendbaren Werkzeugen und -- mit geeigneten Testdaten -- deren iterative Verbesserung. Damit wird die Bearbeitung geistes- und sozialwissenschaftlicher Forschungsfragen letztlich nachhaltiger unterstützt als durch die Entwicklung spezieller, aber nach Projektende nicht weiterentwickelter Werkzeuge. Ein Katalysator dafür können shared und unshared tasks sein (vgl. Kuhn / Reiter 2015).</item>
+</list>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="sharedunshared-task">
+<head>Shared/Unshared Task</head>
+<p>In diesem Sinne ist das zweite, methodische Ziel des Workshops zu verstehen: Wir möchten einen Community-Task veranstalten, der eine 
+                    <hi rend="italic">shared</hi> und drei 
+                    <hi rend="italic">unshared</hi>-Tracks hat. Damit wird ein Workshop-Format auf die Probe gestellt, das eine produktive Schnittstelle zwischen Geistes-/SozialwissenschaftlerInnen und InformatikerInnen zu bilden verspricht (s.a. Belz / Kilgarriff 2006). Im Gegensatz zu 
+                    <hi rend="italic">shared tasks</hi>, bei denen die Performanz verschiedener Systeme, Ansätze oder Methoden direkt anhand einer klar definierten und quantitativ evaluierten Aufgabe verglichen wird, sind 
+                    <hi rend="italic">unshared tasks</hi> offen für verschiedenartige Beiträge, die auf einer gemeinsamen Datengrundlage oder Fragestellung basieren. Neben dem Call -- der bereits eine Sammlung möglicher Fragestellungen nennt -- veröffentlichen wir daher ein heterogenes Korpus, das als Datengrundlage dient. Im Rahmen von CUTE können Forscherinnen und Forscher an den folgenden Tracks teilnehmen:
+                </p>
+<list type="ordered">
+<item>
+<hi rend="bold">Automatische Erkennung von Entitätenreferenzen</hi>: Experimente zum automatischen Vorhersagen von Annotationen auf noch nicht annotierten Texten, mit regelbasierten oder statistischen Systemen
+                        <ref n="3" target="workshop-REITEftn3" type="note">3</ref>
+</item>
+<item>
+<hi rend="bold">Visualisieren von Entitätenreferenzen im Text</hi>: Visualisierungsmöglichkeiten zur (interaktiven) Exploration der vorhandenen oder neuen Annotationen
+                    </item>
+<item>
+<hi rend="bold">Annotationsanalyse</hi>: Qualitative oder quantitative Analyse der vorhandenen Annotationen oder der Annotationsrichtlinien; Annotationsexperimente zur Anwendbarkeit der Richtlinien auf neue Texte
+                    </item>
+<item>
+<hi rend="bold">Freestyle</hi>: Kreative Ideen, die keinen der obigen Tasks adressieren
+                    </item>
+</list>
+<p>Beiträge zu Aufgabe 1 werden quantitativ evaluiert und im Wettbewerb mit den Evaluationsergebnissen der anderen Beiträge verglichen (
+                    <hi rend="italic">shared task</hi>, die technischen Details dazu werden auf der Webseite veröffentlicht). Beiträge für die Aufgaben 2 bis 4 werden vom Programmkomitee qualitativ evaluiert (
+                    <hi rend="italic">unshared task</hi>). Der Austausch während des Workshops (in Form von Kurzvorträgen und Diskussion) wird insoweit eine Bandbreite an Zugängen abbilden, deren verbindendes Element die gemeinsame Datengrundlage sein wird. Da die Teilnehmerinnen und Teilnehmer sich dann im Vorfeld intensiv mit den Daten aus verschiedenen Perspektiven beschäftigen werden, erwarten wir für den Workshop eine erkenntnisreiche Diskussion.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="textgrundlage-und-daten">
+<head>Textgrundlage und Daten</head>
+<p>Das von uns im Rahmen des Workshops veröffentlichte Korpus umfasst vier Teilkorpora:</p>
+<list type="ordered">
+<item>jeweils eine PolitikerInnenrede aus insgesamt vier Parlamentsdebatten des Deutschen Bundestags (S. Leutheuser-Schnarrenberger am 28.10.99, A. Merkel am 16.12.04, A. Ulrich am 15.11.07 und A. Karl am 17.03.11)</item>
+<item>Briefe aus Goethes 
+                        <hi rend="italic">Die Leiden des jungen Werther</hi> (1787) vom 4. Mai bis einschließlich 16. Juni
+                    </item>
+<item>der Abschnitt Zur Theorie des Kunstwerks aus Adornos Ästhetische Theorie</item>
+<item>die Bücher 3 bis 6 aus Wolframs von Eschenbach 
+                        <hi rend="italic">Parzival</hi> (mittelhochdeutsch)
+                    </item>
+</list>
+<p>Auch wenn jedes Teilkorpus seine eigenen Besonderheiten hat, wurden alle nach einheitlichen Annotationsrichtlinien annotiert, die wir ebenfalls veröffentlichen und zur Diskussion stellen möchten.</p>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="beitragende-kontaktdaten-und-forschungsi">
+<head>Ausrichter</head>
+<p>Der Workshop wird ausgerichtet vom Centre for Reflected Text Analytics (CRETA) an der Universität Stuttgart. CRETA verbindet Literaturwissenschaft, Linguistik, Philosophie und Sozialwissenschaft mit Maschineller Sprachverarbeitung und Visualisierung. Hauptaufgabe von CRETA ist die Entwicklung reflektierter Methoden zur Textanalyse, wobei wir Methoden als Gesamtpaket aus konzeptuellem Rahmen, Annahmen, technischer Implementierung und Interpretationsanleitung verstehen. Methoden sollen also keine "black box" sein, sondern auch für nicht-Technikerinnen und -Techniker so transparent sein, dass ihr reflektierter Einsatz im Hinblick auf geistes- und sozialwissenschaftliche Fragestellungen möglich wird.</p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="workshop-REITEftn1"> http://dhd-blog.org/?p=7333</note><note n="2" rend="footnote text" xml:id="workshop-REITEftn2"> http://www.creta.uni-stuttgart.de/index.php/de/cute/</note><note n="3" rend="footnote text" xml:id="workshop-REITEftn3"> Von dem in der maschinellen Sprachverarbeitung etablierten Task der 
+                                <hi rend="italic">named entity recognition</hi> (NER) unterscheidet sich die vorliegende Aufgabe insofern, als dass unsere Annotationen neben Eigennamen auch andere Arten von Referenz enthalten. Werkzeuge (und tasks) zur NER sind darauf getrimmt, ausschließlich Eigennamen zu erkennen.
+                            </note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bachtin, Michail Michailowitsch / Kowalski, Edward / Wegner, Michael</hi> (1989): 
+                        <hi rend="italic">Formen der Zeit im Roman. Untersuchungen zur historischen Poetik</hi>.
+                        Frankfurt am Main: Fischer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Belz, Anja / Kilgarriff, Adam</hi> (2006):
+                        „Shared-task Evaluations in HLT: Lessons for NLG“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Fourth International Natural Language Generation Conference</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2016):
+                        „Kollaboratives Annotieren literarischer Texte“,
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jannidis, Fotis / Krug, Markus / Reger, Isabella / Toepfer, Martin / Weimer, Lukas / Puppe, Frank</hi> (2015):
+                        „Automatische Erkennung von Figuren in deutschsprachigen Romanen“, 
+                        in: 
+                        <hi rend="italic">DHd 2016: Von Daten zu Erkenntnissen</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kantner, Cathleen</hi> (2015): 
+                        <hi rend="italic">War and Intervention in the Transnational Public Sphere: Problem-solving and European identity-formation</hi>.
+                        New York: Routledge.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kuhn, Jonas / Reiter, Nils</hi> (2015):
+                        „A Plea for a Method-Driven Agenda in the Digital Humanities“,
+                        in: 
+                        <hi rend="italic">DH2015: Global Digital Humanities</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lotman, Juri</hi> (1972): 
+                        <hi rend="italic">Die Struktur literarischer Texte</hi>.
+                        München: Fink.
+                    </bibl>
+<bibl>
+<hi rend="bold">Platz-Waury, Elke</hi> (1997):
+                        „Figur“,
+                        in: Weimar, Klaus (ed.): 
+                        <hi rend="italic">Reallexikon der deutschen Literaturwissenschaft</hi>. Neubearbeitung des Reallexikon der deutschen Literaturgeschichte.
+                        Berlin, New York: de Gruyter 587–589.
+                    </bibl>
+<bibl>
+<hi rend="bold">Rorty, Richard M.</hi> (1967): 
+                        <hi rend="italic">The Linguistic Turn</hi>.
+                        Chicago: University of Chicago Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Trilcke, Peer</hi> (2013):
+                        „Social Network Analysis als Methode einer textempirischen Literaturwissenschaft“,
+                        in: Ajouri, Philip / Mellmann, Katja / Rauen, Christoph (eds.): 
+                        <hi rend="italic">Empirie in der Literaturwissenschaft</hi>.
+                        Münster: Mentis 201–247.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

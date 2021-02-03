@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="workshop-KOLLA" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Annotieren und Publizieren mit DARIAH-DE und TextGrid</title>
+<author>
+<persName>
+<surname>Kollatz</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Steinheim-Institut für deutsch-jüdische Geschichte Essen, Deutschland</affiliation>
+<email>kol@steinheim-institut.org</email>
+</author>
+<author>
+<persName>
+<surname>Hegel</surname>
+<forename>Philipp</forename>
+</persName>
+<affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+<email>hegel@linglit.tu-darmstadt.de</email>
+</author>
+<author>
+<persName>
+<surname>Veentjer</surname>
+<forename>Ubbo</forename>
+</persName>
+<affiliation>Niedersächsische Staat- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+<email>veentjer@sub.uni-goettingen.de</email>
+</author>
+<author>
+<persName>
+<surname>Söring</surname>
+<forename>Sibylle</forename>
+</persName>
+<affiliation>Niedersächsische Staat- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+<email>sibylle.soering@sub.uni-goettingen.de</email>
+</author>
+<author>
+<persName>
+<surname>Funk</surname>
+<forename>Stefan E.</forename>
+</persName>
+<affiliation>Niedersächsische Staat- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+<email>funk@sub.uni-goettingen.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-12-01T20:21:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Workshops</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Annotation</term>
+<term>Infrastruktur</term>
+<term>Publizieren</term>
+<term>Archivieren</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Annotieren</term>
+<term>Kommunikation</term>
+<term>Bearbeitung</term>
+<term>Archivierung</term>
+<term>Veröffentlichung</term>
+<term>Kollaboration</term>
+<term>Kommentierung</term>
+<term>Daten</term>
+<term>Bilder</term>
+<term>Infrastruktur</term>
+<term>Interaktion</term>
+<term>Metadaten</term>
+<term>Text</term>
+<term>Werkzeuge</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Annotieren und Publizieren mit DARIAH-DE und TextGrid</head>
+<p>Im Rahmen des halbtägigen Workshops werden den Teilnehmerinnen und Teilnehmern Werkzeuge zum Publizieren und Annotieren von Forschungsdaten demonstriert, die im Rahmen von Hands-On-Einheiten anhand eigener und / oder bereitgestellter Daten erprobt werden können.</p>
+<p>Vorgestellt und angewendet werden das TextGrid- und DARIAH-DE Repositorium, der DARIAH-DE Publikator und die DARIAH-DE Annotation Sandbox. Zudem wird in die Arbeit mit dem Text-Bild-Link-Editor des TextGrid Laboratoriums eingeführt und exemplarisch gezeigt, diese Text-Bild Relationen mit Hilfe des Web-Publikationstools „SADE – Scalable Architecture for Digital Editions“ in eine digitale Präsentation bzw. ein Web-Portal zu übernehmen. </p>
+<p>Der Workshop richtet sich an Geisteswissenschaftlerinnen und –wissenschaftler aus text- und bildbasierten Disziplinen aller Phasen des akademischen Werdegangs ebenso wie an Vertreterinnen und Vertreter von Institutionen – etwa Bibliotheken, Forschungsverbünde oder Archive –, die im Rahmen ihrer Vorhaben digitale Forschungsinfrastruktur nutzen bzw. nutzen wollen, um ihre Forschungsdaten nachhaltig digital zu publizieren und zu annotieren. </p>
+<p>Der Workshop liefert durch Kurzvorträge und Hands-On-Einheiten Einblicke in verschiedene Verfahren, Anwendungen und Workflows liefern, um Geisteswissenschaftlerinnen und Geisteswissenschaftlern die maschinenlesbare Annotation von Text- und Bilddaten sowie die Publikation solcher Forschungsdaten in einem Repositorium zu ermöglichen. Nach einer kursorischen Einführung in die Angebote von TextGrid und DARIAH-DE liefert ein Überblick über das Annotieren in den digitalen Geisteswissenschaften verschiedene Anwendungsszenarien, -anforderungen, -modelle und -technologien. Dabei werden neben bereits bestehenden Angeboten wie dem TextGrid Text-Bild-Link-Editor auch neuere Entwicklungen wie die Annotation Sandbox und das DARIAH-DE Repositorium und seine Publish GUI (Publikator) demonstriert und in interaktiven Übungen durch die Teilnehmenden anhand eigener bzw. zur Verfügung gestellter Daten erprobt.</p>
+<p>
+<hi rend="s1">Der Workshop ist Teil zweier konzeptionell eigenständiger Einreichungen zu den Angeboten der digitalen Forschungsinfrastrukturen TextGrid und DARIAH-DE.</hi>
+<ref n="1" target="workshop-KOLLAftn1" type="note">1</ref>
+<hi rend="s1">. Der Besuch beider Workshops ermöglicht eine grundlegende und umfassende Einführung in und Anwendung von Architektur, Tools, Diensten und Workflows zum Annotieren, Sammeln, Modellieren, Recherchieren und Publizieren geisteswissenschaftlicher Forschungsdaten.</hi>
+</p>
+<div rend="DH-Heading2" type="div2">
+<head>Annotationen in den digitalen Geisteswissenschaften</head>
+<p>Digitales Annotieren ist zentrale Praxis bei der Wissensgenerierung und variiert je nach spezifischer wissenschaftlicher Zielsetzung und Forschungsgegenstand. Verfahren des fachwissenschaftlichen digitalen Annotierens bilden heute eine der Kernanwendungen der Digital Humanities. Im Zentrum steht dabei ein weites Spektrum von Daten und / oder Objekten, z.B. Texte, Bilder und Musik (Töne, Noten). Digitale Annotationen unterscheiden sich daher in Form, Funktion und Tragweite. Einführend werden die technischen Ebenen und theoretischen Dimensionen der digitalen Annotation in den Geisteswissenschaften exemplarisch erörtert. Die vermittelten Grundlagen können danach im Workshop praktisch angewandt werden.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Annotieren im Rahmen einer digitalen Infrastruktur</head>
+<p>Forschungsinfrastrukturen wie TextGrid und DARIAH-DE haben zum Ziel, methodologische Fähigkeiten auf diesem Gebiet zu vermitteln, entsprechende Verfahren zu evaluieren bzw. bereitzustellen und die nachhaltige Anwendung dieser Verfahren in den Fachwissenschaften zu ermöglichen.</p>
+<p>Die DARIAH-DE Annotation Sandbox (Beta) ermöglicht heute die Text- und Bildannotation der Bestände des TextGrid Repository. Darüber hinaus können beliebige Webseiten über den DARIAH-DE Annotationsdienst annotiert werden. Zudem lässt sich der DARIAH-DE Annotationsdienst in eigene Webseiten einbetten; hierzu wurden die digitalen Werkzeuge Annotator.js, Via und ein Annotation Manager über die DARIAH AAI (Authorization and Authentification Service) verfügbar gemacht.</p>
+<p>Die DARIAH-DE Annotation Sandbox gestattet die direkte Verbindung der in den Repositorien publizierten Forschungsdaten mit ihrer digitalen Annotation. Diese schließt sowohl die disziplinübergreifenden Nachnutzung als auch die Datenanreicherung oder die Analyse ein. Mittelfristig können Annotationen somit als Zwischenschritt des Forschungsprozesses, aber auch als genuines Forschungsergebnis - etwa im Sinne einer Mikropublikation - verstanden bzw. generiert, verfügbar gemacht und als solches nachgenutzt werden. Im Rahmen einer digitalen Infrastruktur fließen sie wie die Forschungsdaten, auf die sie Bezug nehmen, ebenfalls in die Archivierung ein, um  weiterverarbeitet und nachgenutzt zu werden. </p>
+<div rend="DH-Heading3" type="div3">
+<head>Bilder in TextGrid annotieren</head>
+<p>Ein weiteres Anwendungsszenario digitaler Annotation stellt die Annotation von Bildern bzw. Bilddaten dar. Eine Vielzahl von Werkzeugen im TextGrid Laboratory erlaubt das Arbeiten mit Texten und Bildern, aber auch beispielsweise mit Noten und Digitalisaten. Eine dieser Komponenten, die auch für die Annotation von Bildbereichen dienen kann, ist der Text-Bild-Link-Editor. Er unterstützt den in TextGrid integrierten XML-Editor bei der Alignierung von Text- und Bildelementen. Ziel ist die Erstellung einer Ausgabedatei, die die Textelemente und die topographische Position von rechtwinkligen und polygonen Bildbereichen in SVG miteinander verknüpft, wie dies zum Beispiel bei der Verbindung von Faksimiles und Transkriptionen in kritischen Editionen der Fall ist. Auch können Bilder auf diese Weise im Rahmen kunsthistorischer Untersuchungen annotiert werden.</p>
+</div>
+<div rend="DH-Heading3" type="div3">
+<head>Text-Bild-Relationen publizieren</head>
+<p>Die Software SADE der Berlin-Brandenburgischen Akademie der Wissenschaften ist als „Skalierbare Architektur für digitale Editionen“ in TextGrid eingebunden, um eigene Webportale für die Publikation gestalten zu können. Sie enthält ein Modul, mit dem die Verknüpfungen, die mit dem Text-Bild-Link-Editor erstellt wurden, in ein Web-Portal übernommen werden können. Dieses Modul basiert auf dem in DARIAH-DE integrierten Werkzeug „Semantic Topological Notes” (SemToNotes). Es erlaubt unter anderem, Zeilen auf einem Digitalisat auszuwählen und Transkriptionen anzuzeigen.</p>
+</div>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Publizieren via Infrastruktur: 
+                        <lb/>Das DARIAH-DE Repositorium und der DARIAH-DE Publikator
+                    </head>
+<p>Das DARIAH-DE Repositorium bildet eine zentrale Komponente der Infrastruktur, auf die mittels verschiedener Dienste und Anwendungen zugegriffen werden kann. Das Repositorium erlaubt es, Forschungsdaten zu speichern, diese mit Metadaten zu versehen und die Forschungsdaten durch die Generische Suche aufzufinden. Die Daten werden im DARIAH-DE Storage sicher gespeichert. Darüber hinaus ermöglicht das Repositorium die nachhaltige und sichere Archivierung von Datensammlungen bzw. Kollektionen.</p>
+<figure>
+<graphic height="14.449777777777777cm" n="1001" rend="inline" url="workshop-KOLLA-image1.png" width="16.002cm"/>
+</figure>
+<p>Abb.1: DARIAH-DE-Repositorium: Architektur</p>
+<p>Dies ist komfortabel und intuitiv über ein Web-Interface des DARIAH-DE Portals im Browser möglich, dem DARIAH-DE Publikator. Daten im Repositorium sind in Kollektionen organisiert, die zunächst vom Nutzer über den Publikator angelegt und mit Metadaten ausgezeichnet werden. Einer Kollektion können beliebig viele Dateien zugeordnet werden, die ebenfalls über den Publikator hochgeladen und mit Metadaten ausgezeichnet werden. Eine publizierte Kollektion sowie alle darin enthaltene Objekte können unmittelbar nach dem Publizieren per Persistent Identifier (PID) referenziert werden und sind damit öffentlich zugänglich und nachhaltig referenzier- und zitierbar. Im nächsten Schritt kann die Kollektion in der Collection Registry nachgewiesen und veröffentlicht werden. Sobald die Kollektion selbst ebenfalls in der Collection Registry publiziert wurde, sind die Daten auch mit der Generischen Suche recherchierbar.</p>
+<figure>
+<graphic height="11.02cm" n="1002" rend="inline" url="workshop-KOLLA-image2.png" width="13.1cm"/>
+</figure>
+<p>Abb. 2: DARIAH-DE Publikator: Übersicht über die Kollektionen</p>
+<figure>
+<graphic height="11.02cm" n="1003" rend="inline" url="workshop-KOLLA-image3.png" width="13.1cm"/>
+</figure>
+<p>Abb. 3: DARIAH-DE Publikator: Kollektion bearbeiten</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Anforderungen</head>
+<p>Im Workshop werden exemplarisch Annotationen an einem Digitalisat in TextGrid vorgenommen. Zu diesem Zweck ist ein eigener Rechner mitzubringen, auf dem im Idealfall TextGrid bereits installiert ist – 
+                        <ref target="https://textgrid.de/download">
+<hi rend="color(1155CC)">https://textgrid.de/download</hi>
+</ref> .
+                    </p>
+<p>Eine Registrierung für TextGrid und DARIAH kann online beantragt werden unter</p>
+<p>
+<ref target="http://auth.dariah.eu/">
+<hi rend="color(1155CC)">http://auth.dariah.eu/</hi>
+</ref>
+</p>
+<p>Bitte teilen Sie uns im Vorfeld des Workshops (möglichst bis zum 5. Februar 2017) mit, ob und welche eigenen Materialien Sie verwenden wollen. </p>
+<p>Für Rückfragen erreichen Sie uns unter workshop@de.dariah.eu</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Kontaktdaten</head>
+<p>Mirjam Blümm, Niedersächsische Staats- und Universitätsbibliothek Göttingen, Abt. Forschung und Entwicklung, Papendiek 14, 37073 Göttingen, 
+                    <ref target="mailto:bluemm@sub.uni-goettingen.de">bluemm@sub.uni-goettingen.de</ref>
+<lb/>Forschungsinteressen: Virtuelle Forschungsumgebungen, Digitale Forschungsinfrastrukturen, Digitale Editionen
+                </p>
+<p>Stefan E. Funk, Niedersächsische Staats- und Universitätsbibliothek Göttingen, Abt. Forschung und Entwicklung, Papendiek 14, 37073 Göttingen, 
+                    <ref target="mailto:funk@sub.uni-goettingen.de">
+<hi rend="color(1155CC)">funk@sub.uni-goettingen.de</hi>
+</ref>
+<lb/>Forschungsinteressen:  Forschungsdatenmanagement, Digitale Langzeitarchivierung, Repositoriums-Technologien.
+                </p>
+<p>Canan Hastik, Technische Universität Darmstadt, Dolivostraße 15, Institut für Sprach- und Literaturwissenschaft, 64293 Darmstadt,  
+                    <ref target="mailto:hastik@linglit.tu-darmstadt.de">hastik@linglit.tu-darmstadt.de</ref>
+<lb/>Forschungsinteressen: Digital Humanities, Semantisches Wissensmanagement, Digitale Kultur und Kunst
+                </p>
+<p>Philipp Hegel, Technische Universität Darmstadt, Institut für Sprach- und Literaturwissenschaft, Dolivostraße 15, 64293 Darmstadt, 
+                    <ref target="mailto:hegel@linglit.tu-darmstadt.de">
+<hi rend="color(1155CC)">hegel@linglit.tu-darmstadt.de</hi>
+</ref>
+<lb/>Forschungsinteressen: Digitale Editionen, virtuelle Forschungsumgebungen
+                </p>
+<p>Thomas Kollatz, Salomon Ludwig Steinheim-Institut für deusch-jüdische Geschichte, Essen, Edmund-Körner-Platz 2, 42157 Essen, 
+                    <ref target="mailto:kol@steinheim-institut.org">
+<hi rend="color(1155CC)">kol@steinheim-institut.org</hi>
+</ref>
+<lb/>Forschungsinteressen: Digitale Epigraphik, Jüdische Studien
+                </p>
+<p>Sibylle Söring, Niedersächsische Staats- und Universitätsbibliothek Göttingen, Abt. Forschung und Entwicklung, Papendiek 14, 37073 Göttingen, 
+                    <ref target="mailto:soering@sub.uni-goettingen.de">
+<hi rend="color(1155CC)">soering@sub.uni-goettingen.de</hi>
+</ref>
+<lb/>Forschungsinteressen: Virtuelle Forschungsumgebungen, Digitale Forschungsinfrastrukturen, Digitale Editionen
+                </p>
+<p>Ubbo Veentjer, Niedersächsische Staats- und Universitätsbibliothek Göttingen, Abt. Forschung und Entwicklung, Papendiek 14, 37073 Göttingen, 
+                    <ref target="mailto:veentjer@sub.uni-goettingen.de">
+<hi rend="color(1155CC)">veentjer@sub.uni-goettingen.de</hi>
+</ref>
+<lb/>Forschungsinteressen: Digitale Forschungsinfrastrukturen, Text- und Bild-Annotation, Visualisierungstechnologien.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Zahl der möglichen Teilnehmerinnen und Teilnehmer.</head>
+<p>Aufgrund des hohen Praxisanteils soll die Zahl der Teilnehmerinnen und Teilnehmer auf möglichst 25 beschränkt bleiben. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Angaben zu einer etwa benötigten technischen Ausstattung.</head>
+<p>WLAN / Beamer / Stellwände / Verlängerungskabel</p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="workshop-KOLLAftn1"> Siehe auch Workshop 
+                            <hi rend="s1">"Daten sammeln, modellieren und durchsuchen mit DARIAH-DE“</hi>
+</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Becker, Rainer / Bender, Michael / Borek, Luise / Hastik, Canan / Kollatz, Thomas / Lordick, Harald / Mache, Beata / Rapp, Andrea / Reiche, Ruth / Walkowski, Niels-Oliver</hi> (2016):
+                        „Digitale Annotationen in der geisteswissenschaftlichen Praxis“,
+                        in: 
+                        <hi rend="italic">Bibliothek – Forschung und Praxis</hi> 40 (2): 186–199 
+                        <ref target="https://www.degruyter.com/view/j/bfup.2016.40.issue-2/bfp-2016-0042/bfp-2016-0042.xml?format=INT">https://www.degruyter.com/view/j/bfup.2016.40.issue-2/bfp-2016-0042/bfp-2016-0042.xml?format=INT</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bender, Michael / Borek, Luise / Kollatz, Thomas / Reiche, Ruth</hi> (2015):
+                        "Wissenschaftliche Annotationen: Formen – Funktionen – Anforderungen",
+                        in:
+                        <hi rend="italic">DHd-Blog</hi>
+<ref target="http://dhd-blog.org/?p=5388">http://dhd-blog.org/?p=5388</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Borek, Luise / Reiche, Ruth</hi> (2014):
+                        „Round Table ‚Annotation von digitalen Medien“ (Veranstaltungsbericht),
+                        in:
+                        <hi rend="italic">DHd-Blog</hi>
+<ref target="http://dhd-blog.org/?p=3831">http://dhd-blog.org/?p=3831</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Blümm, Mirjam / Funk, Stefan E. / Söring, Sibylle</hi> (2015):
+                        „Die Infrastruktur-Angebote von DARIAH-DE und TextGrid“,
+                        in:
+                        <hi rend="italic">Information. Wissenschaft &amp; Praxis</hi> 66 (5–6): 304–312.
+                    </bibl>
+<bibl>
+<hi rend="bold">Neuroth, Heike / Rapp, Andrea / Söring, Sibylle</hi> (2015):
+                        <hi rend="italic">TextGrid: Von der Community für die Community – Eine Virtuelle Forschungsumgebung für die Geisteswissenschaften</hi>.
+                        Göttingen <ref target="http://www.univerlag.uni-goettingen.de/handle/3/Neuroth_TextGrid">http://www.univerlag.uni-goettingen.de/handle/3/Neuroth_TextGrid</ref>.
+                    </bibl>
+<bibl>
+<!-- in was? -->
+<hi rend="bold">Schmunk, Stefan / Funk, Stefan</hi> (2015):
+                        „Das DARIAH-DE- und das TextGrid-Repositorium: Geistes- und kulturwissenschaftliche Forschungsdaten persistent und referenzierbar langzeitspeichern“,
+                        in:
+                        <hi rend="italic">Bibliothek Forschung und Praxis</hi> 40 (2): 213–221 10.1515/bfp-2016-0020
+                    </bibl>
+<bibl>
+<hi rend="bold">Söring, Sibylle</hi> (2016):
+                        „Technische und infrastrukturelle Lösungen für digitale Editionen: DARIAH-DE und TextGrid“,
+                        in: 
+                        <hi rend="italic">Bibliothek Forschung und Praxis</hi> 40 (2): 207–212 <ref target="http://dx.doi.org/10.1515/bfp-2016-0040">10.1515/bfp-2016-0040</ref>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

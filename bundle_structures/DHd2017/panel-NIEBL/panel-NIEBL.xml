@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="panel-NIEBL" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Zugänglichkeit und dauerhafte Nutzbarkeit historischer Bildrepositorien für Forschung und Vermittlung</title>
+<author>
+<persName>
+<surname>Niebling</surname>
+<forename>Florian</forename>
+</persName>
+<affiliation>Julius-Maximilians Universität Würzburg, Deutschland</affiliation>
+<email>florian.niebling@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Münster</surname>
+<forename>Sander</forename>
+</persName>
+<affiliation>Technische Universität Dresden, Deutschland</affiliation>
+<email>sander.muenster@tu-dresden.de</email>
+</author>
+<author>
+<persName>
+<surname>Friedrichs</surname>
+<forename>Kristina</forename>
+</persName>
+<affiliation>Julius-Maximilians Universität Würzburg, Deutschland</affiliation>
+<email>kristina.friedrichs@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Henze</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Brandenburgische Technische Universität Cottbus-Senftenberg, Deutschland</affiliation>
+<email>frank.henze@b-tu.de</email>
+</author>
+<author>
+<persName>
+<surname>Kröber</surname>
+<forename>Cindy</forename>
+</persName>
+<affiliation>Technische Universität Dresden, Deutschland</affiliation>
+<email>cindy.kroeber@tu-dresden.de</email>
+</author>
+<author>
+<persName>
+<surname>Bruschke</surname>
+<forename>Jonas</forename>
+</persName>
+<affiliation>Julius-Maximilians Universität Würzburg, Deutschland</affiliation>
+<email>jonas.bruschke@uni-wuerzburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T11:46:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Panel</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Visual Humanities</term>
+<term>Bildrepositorien</term>
+<term>Forschung</term>
+<term>Vermittlung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Räumliche Analyse</term>
+<term>Annotieren</term>
+<term>Visualisierung</term>
+<term>Artefakte</term>
+<term>Bilder</term>
+<term>Interaktion</term>
+<term>Methoden</term>
+<term>Visualisierung</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Digitalisate historischer Fotografien und deren Nutzbarkeit zur geschichtswissenschaftlichen Forschung und quellenbasierten Vermittlung stellen ebenso wie räumliche Modelle historischer Objekte Kernthemen der Digital Humanities dar. Angesichts des Umfangs derartiger Repositorien besteht eine wesentliche Herausforderung darin, für die Beantwortung geschichtswissenschaftlicher Fragestellungen relevante und aussagekräftige Quellen zu finden, zu kontextualisieren sowie die darin beschriebenen historischen Objekte vorstellbar zu machen. Die Verbindung zwischen digitalen Bildrepositorien und Raumbezug verspricht durch eine Zusammenführung und nutzerzentrierte Präsentation von Informationsbeständen ein umfassendes Repertoire technischer Unterstützungsoptionen geschichtswissenschaftlicher Forschungspraxis. Im Gegensatz zu bisherigen Zugängen zu Bild- und Planrepositorien wird durch die dreidimensional-räumliche Verortung von Quellen, ebenso wie durch ihre Vor-Ort-Präsentation ein hohes Maß intuitiver Zugänglichkeit und Kontextbezuges geschaffen. Im Panel diskutiert werden innovative Softwarewerkzeuge und damit verbundene methodische Ansätze für die Verwendung historischer Bildrepositorien in der stadt- und architekturgeschichtlichen Forschung. Hierbei sollen ausgehend von aktuellen digitalen Rekonstruktionsprojekten Forschungsmethoden vorgestellt, kategorisiert und hinsichtlich vorhandener Unterstützungsbedarfe diskutiert werden. Davon ausgehend werden softwaretechnische Methoden aufgezeigt, welche einerseits den Zugang zu Bildrepositorien erleichtern und dadurch eine dauerhafte Benutzbarkeit sicherstellen sollen, sowie andererseits in Fotografien verborgenes Wissen, beispielsweise über den Betrachterstandpunkt und den Zeitpunkt der Aufnahme zugänglich machen.</p>
+<p>Dr. Kristina Friedrichs: Methoden architekturgeschichtlicher Forschung</p>
+<p>Die Kunstgeschichte kann auf eine lange Tradition der wissenschaftlichen Auseinandersetzung mit Architektur zurückblicken. Im Zuge dessen haben sich verschiedene Methoden des Herangehens entwickelt, die sowohl tatsächlich erhaltene als auch nie gebaute oder später zerstörte Bauwerke zum Zwecke der Chronologisierung, der historischen Kontextualisierung und Bedeutungsentschlüsselung erschließen. </p>
+<p>Neue technologische Möglichkeiten erlauben es Architekturhistorikern einerseits, ihre Untersuchungen auf einen größeren Fundus an Quellen aufzubauen, die beispielsweise durch digitale Bildarchive zur Verfügung gestellt werden. Andererseits ergeben sich neue methodische Ansätze aus innovativen Software-Werkzeugen, die helfen, die Quellen zeitlich wie räumlich zu verorten, oder die Forschung durch Visualisierungen bei der Erstellung von Datierungen, stilkritischen Betrachtungen, der Zuweisung von Autorenschaften oder bauarchäologischen Untersuchungen zu unterstützen (Verstegen 2007). </p>
+<p>Gerade am Beispiel der Stadt Dresden mit ihrer reichen und wechselhaften Geschichte lassen sich dank umfangreicher Bildrepositorien neue Untersuchungsfelder eröffnen. Am Dresdner Zwinger wurden große Teile der Planungs- und Baugeschichte durch Visualisierungen nachvollzogen und darüber hinaus die fertigen Modelle in die Vermittlung innerhalb eines musealen Kontextes überführt (Jahn/Welich 2009). Für die Kunstgeschichte ergeben sich vor diesem Hintergrund mannigfaltige neue Arbeitsansätze, die sowohl hinsichtlich ihrer Methodik diskutiert werden müssen, als auch einer Unterstützung mithilfe von adäquaten Werkzeugen aus den technischen Disziplinen bedürfen.</p>
+<p>Dr. Sander Münster: Eine Wissensbasis für die Digital Visual Humanities</p>
+<p>Eine daran eng anknüpfende Frage ist die nach einer methodischen Validierung digitaler Methoden sowie insbesondere der Verwendung von Bildrepositorien im Kontext der Architekturgeschichte (c.f. Arbeitstagung digitale Kunstgeschichte 2014). Dies umfasst zunächst einmal den Bedarf, ein Spektrum digitaler Werkzeuge sowie Verwendungskontexte im Kontext der Kunstgeschichte zu systematisieren (Kohle 2013, Heusinger 1989). Vor diesem Hintergrund sollen im Rahmen dieses Vortrags Ergebnisse dreier Workshops vorgestellt werden, welche 2016 auf internationalen Konferenzen abgehalten wurden und bei welchen unter Einbeziehung von ca. 100 Experten mit den Schwerpunkten Cultural Heritage und Digital Visual Humanities wesentliche Methoden und Forschungsansätze sowie Podien erfasst und systematisiert wurden.</p>
+<p>Darüber hinaus sollen im Vortrag exemplarisch spezifische fachkulturelle sowie wissenschaftlich-methodische Herausforderungen des Einsatzes digitaler Methoden sowie insbesondere von Bildrepositorien im Kontext architekturgeschichtlicher Forschung beleuchtet werden. Dazu gehören Aspekte wie die Transparentmachung von Erkenntnisprozessen (Benkowska-Kafel et al. 2012) ebenso wie eine bildgestützte Diskurskultur (vgl. Münster, Friedrichs &amp; Hegel in Vorb.) sowie nicht zuletzt der Blick auf eine digitale Nachhaltigkeit. Im Ergebnis sollen somit nicht nur ein methodologischer State-Of-the-Art vorgestellt, sondern auch die Determinanten für die Konzeption digitaler Werkzeuge und Unterstützungsoptionen skizziert werden</p>
+<p>Cindy Kröber: Zielgruppen-orientierte Erstellung von Werkzeugen für die Arbeit mit Bildrepositorien</p>
+<p>Der Erfolg von Bilddatenbanken hängt stark von der Usability der Anwendung sowie der Tauglichkeit als Forschungs- oder Vermittlungstool ab. Bisherige Werkzeuge und Funktionalitäten entsprechender Anwendungen entsprechen häufig nicht den Bedarfen der architektur- und kunstgeschichtlichen Forschung und Vermittlung (Dudek et al. 2015). </p>
+<p>Allgemeine Anforderungen der Nutzer sind ein schnelles Verstehen der Daten und Informationen, effiziente Such- und Filterfunktionen und eine intuitiv bedienbare Softwareoberfläche und Navigation (Barreau et al. 2014). Für Forschungsanliegen spielen wissenschaftliche Standards wie die ausführliche Dokumentation durch Metadaten eine wichtige Rolle (Maina/Suleman 2015). Eine interessierte Öffentlichkeit erwartet hingegen eine direkte und überschaubar gestaltete Einführung in das Thema und die entsprechenden Daten (Maina/Suleman 2015) sowie weitere Informationsangebote nach Bedarf. Für die Forschung sind visuelle Darstellungen von Hypothesen und Zusammenhängen wichtig (López-Romero 2014). Die erweiterte Bildanalyse von Fotos eines Objektes über die Zeit erlaubt die Detektion baulicher Veränderungen.</p>
+<p>Um zielgruppen-orientiert Softwarewerkzeuge für die Arbeit mit Bildrepositorien und insbesondere Bilddatendanken zu entwickeln, müssen die Unterstützungsmöglichkeiten identifiziert, konzipiert und überprüft werden. Die Nutzer sind von Beginn an mit Hilfe qualitativer Interviews und umfassenden Untersuchungen zu Nutzerverhalten und Nutzerinteraktion involviert.</p>
+<p>Jonas Bruschke: Werkzeuge für die Dokumentation digitaler Rekonstruktionsprozesse</p>
+<p>Digitale Rekonstruktionen können Experten und Laien ein Bild nicht mehr oder nur in Teilen existenter Gegenstandände vermitteln. 3D-Modelle sind dabei nicht nur Gegenstand der Betrachtung, sondern auch Forschungsgegenstände. Neben den materiellen Quellen die bei der Erstellung von 3D-Modellen eingesetzt werden, wie Pläne und Fotografien, handelt es sich oft auch um immaterielle Quellen, beispielsweise die Entscheidung von Experten. Resultierende Visualisierungen haben letztendlich aber keinen direkten Bezug mehr zu den verwendeten Quellen. In aller Regel ist für eine externe, nicht an der Entstehung des Modells beteiligte Person oft nur schwer nachvollziehbar, ob eine Rekonstruktion auf verlässlichen Fakten beruht und inwieweit und welche Hypothesen bei der Erstellung eine Rolle spielten. Eine ausführliche, lückenlose Dokumentation der Rekonstruktion ist daher essentiell und sollte möglichst alle Aspekte und jegliches während der Bearbeitung erlangte Wissen umfassen. Dies betrifft nebst der Protokollierung der Entscheidungen auch Schwierigkeiten während des Entstehungsprozesses.</p>
+<p>Eine solch umfangreiche Dokumentation kommt in den Rekonstruktionsprojekten in der Regel nicht zustande (Pfarr 2010, Münster 2014). Zur Unterstützung des Dokumentationsverhaltens müssen interdisziplinären Projektteams, vorrangig bestehend aus Historikern und Modelleuren, geeignete Werkzeuge in die Hand gelegt werden. Die Abläufe und Problemstellungen solcher Projekte wurden bereits umfangreich untersucht (Münster 2014). Darauf aufbauend wurde ein erster Prototyp entwickelt (Bruschke 2015), welcher zum einen als zentrales Element während eines Projektes zum Einsatz kommen soll, indem es von der Koordination des Projektes über das Einpflegen und Halten der Daten bis hin zur direkten Arbeit und Diskussion am 3D-Modell viele Abläufe eines Rekonstruktionsprojektes unterstützt und gleichzeitig auch protokolliert. Dieses angesammelte Wissen kann außenstehenden Personen in Form einer Rechercheplattform zugänglich gemacht werden und gegebenenfalls durch sie verifiziert werden.</p>
+<p>Dr. Frank Henze: Photogrammetrische Methoden zur Wissensgenerierung aus Bildbeständen</p>
+<p>Das Potenzial fotografischer und photogrammetrischer Aufnahmen reicht von der reinen 
+                <hi rend="italic">Bilddokumentation</hi> im Bereich der Archäologie und Denkmalpflege, über die 
+                <hi rend="italic">Bildinterpretation</hi>, zum Beispiel für Schadensdokumentationen, bis hin zur Erstellung 
+                <hi rend="italic">maßstäblicher Bildpläne</hi> und komplexer 
+                <hi rend="italic">3D-Modelle</hi> für baugeschichtlich-archäologische Untersuchungen (z.B. Bührer et al. 2001, Hanke 2001).
+            </p>
+<p>Aus fotografischen Aufnahmen lassen sich, bei Vorliegen entsprechender Bildinhalte, geometrische Informationen über die abgebildeten Objekte zum Zeitpunkt der Aufnahme rekonstruieren. Die Grundlagen für die geometrische Rekonstruktion aus historischen Fotografien bilden die analytischen Verfahren der Photogrammetrie, d.h. die Gewinnung zwei- und dreidimensionaler Objektgeometrien aus den zweidimensionalen Bildinformationen. Beispiele für die photogrammetrische Auswertung historischer Aufnahmen und Messbilder finden sich unter anderem in Wiedemann et al. 2000, Bräuer-Burchardt und Voss 2001, Henze et al. 2009 oder Siedler et al. 2011. Die klassischen Verfahren der analytischen Photogrammetrie werden dabei zunehmend ergänzt durch angepasste Verfahren der digitalen Bildverarbeitung und Bildanalyse. Der aufwändige Prozess der manuellen Bildauswertung kann damit weitgehend automatisiert werden, womit auch große Bildbestände für eine automatische Gewinnung geometrischer Informationen erschlossen werden können (Pomaska 2011).</p>
+<p>Bisher werden automatisierte photogrammetrische Verfahren in der Regel jedoch ausschließlich für die Auswertung aktueller, zumeist digitaler Aufnahmen eingesetzt. Angepasste Verfahren für eine (semi-) automatische Auswertung historischer Bildbestände fehlen bisher. Dabei muss u.a. auf die Besonderheiten gescannter Analogaufnahmen mit zumeist unbekannter Kamerageometrie, fehlenden bzw. minimalen Objektinformationen und z.T. geringer radiometrischer und geometrischer Auflösung reagiert werden. Ziel ist es, anwendungsorientierte Werkzeuge für eine photogrammetrische Auswertung historischer Fotografien zu entwickeln und diese in den Prozess der geschichtswissenschaftlichen Bildanalyse zu integrieren und damit einen räumlichen Bezug zur heutigen Situation zu schaffen.</p>
+<p>Dr.-Ing. Florian Niebling: Augmented Reality in den Visual Humanities</p>
+<p>Bei der Nutzung digitaler Bildrepositorien sind zwei wesentliche Vorgehensweisen der Informationserschließung erkennbar: Einerseits ein selbstgesteuertes Durchsuchen von Sammlungen historischer Fotografien, Zeichnungen und Pläne, andererseits eine orts- oder kontextbezogene Informationsvermittlung beispielsweise im Zuge stadträumlicher oder musealer Präsentation (Münster et al. 2016). Die Vor-Ort-Darstellung von und Interaktion mit geschichtswissenschaftlichen Daten in der Augmented Reality hat hierbei in den letzten Jahren an Bedeutung gewonnen und wurde vielfältig erprobt und untersucht (Livingston et al. 2008; Zöllner et al. 2010; Walczak 2011).</p>
+<p>Augmented Reality beschreibt dabei die Anreicherung der realen Welt durch virtuelle Daten, wobei es sich sowohl um 3D-Modelle, Texte, Bilder, Filme oder auch Audiodaten handeln kann. Durch die Anreicherung der Realität oder Ersetzung von Teilen der Realität können Augmented Reality Methoden helfen den Unterschied zwischen verschiedenen Zuständen von Objekten darzustellen (Niebling, 2008). Im geschichtswissenschaftlichen und stadthistorischen Kontext wird es dem Betrachter ermöglicht, interaktiv visuelle und textuelle Informationen zu dreidimensional vermessenen Objekten in ihrem historischen räumlichen Bezugssystem zu erfassen. Ein Hauptaugenmerk liegt dabei auf der Zugänglichkeit historischer Datenbestände. Wie können Interaktionsmöglichkeiten mit virtuellen Gebäuden und mit ihnen verknüpften Informationen gestaltet werden? Können aus dem Umgang mit Mobilgeräten bekannte Interaktionsmetaphern in der Augmented Reality weiterverwendet werden? Welche Vermittlungsmethoden können in Augmented Reality Anwendungen zum Einsatz kommen?</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Barreau Jean-Baptiste / Gaugne, Ronan / Bernard, Yann / Le Cloirec, Gaétan / Gouranton, Valérie</hi> (2014):
+                        „Virtual reality tools for the West Digital Conservatory of Archaeological Heritage“,
+                        in: 
+                        <hi rend="italic">Proceedings of the 2014 Virtual Reality International Conference</hi> 1–4.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bentkowska-Kafel, Anna / Denard, Hugh / Baker, Drew</hi> (2012): 
+                        <hi rend="italic">Paradata and Transparency in Virtual Heritage</hi>.
+                        Burlington: Ashgate.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bräuer-Burchardt, Christian / Voss, Klaus</hi> (2001):
+                        „Facade Reconstruction of Destroyed Buildings Using Historical Photographs“,
+                        in: Albertz, Jörg (ed.): 
+                        <hi rend="italic">Proceedings of the XVIII. International CIPA Symposium</hi> 543–550.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bruschke, Jonas</hi> (2015): 
+                        <hi rend="italic">DokuVis – Ein Dokumentationssystem für Digitale Rekonstruktionen</hi>.
+                        Masterarbeit, HTW Dresden.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bührer, Thomas / Grün, Armin / Zhang, Li / Fraser, Clive / Rüther, Heinz</hi> (2001):
+                        „Photogrammetric Reconstruction and 3D Visualization of Bet Gorgis, a Rock-hewn Church in Ethiopia“,
+                        in: Albertz, Jörg (ed.): 
+                        <hi rend="italic">Proceedings of the XVIII. International CIPA Symposium</hi> 338–344.
+                    </bibl>
+<bibl>
+<hi rend="bold">Dudek, Iwona / Blaise, Jean-Yves / De Luca, Livio / Bergerot, Laurent / Renaudin, Noémie</hi> (2015): 
+                        „How was this done? An attempt at formalising and memorising a digital asset's making-of“,
+                        in: 
+                        <hi rend="italic">Digital Heritage</hi> 2: 343–346.
+                    </bibl>
+<bibl>
+<hi rend="bold">Gabbard, Joseph L. / Swan, J. Edward</hi> (2008):
+                        „Usability Engineering for Augmented Reality: Employing User-Based Studies to Inform Design“,
+                        in: 
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics</hi>, 14 (3): 513–525.
+                    </bibl>
+<bibl>
+<hi rend="bold">Henze, Frank / Lehmann, Heike / Bruschke, Bettina</hi> (2009):
+                        „Nutzung historischer Pläne und Bilder für die Stadtforschungen in Baalbek / Libanon“,
+                        in: 
+                        <hi rend="italic">Photogrammetrie - Fernerkundung - Geoinformation</hi> 3/2009: 221–234.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hertzig, Stefan / Friedrichs, Kristina</hi> (i. Vorb.): 
+                        <hi rend="italic">Das Japanische Palais in Dresden: Vom Porzellanschloss Augusts des Starken zu einem Museum des Bildungsbürgertums</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Heusinger, Lutz</hi> (1989):
+                        „Applications of Computers in the History of Art“,
+                        in: Hamber, Anthony / Miles, Jean / Vaughan, William (eds.): 
+                        <hi rend="italic">Computers and the History of Art</hi>.
+                        London: Mansell Pub 1–22.
+                    </bibl>
+<bibl>
+<hi rend="bold">Internationale Arbeitstagung „Digitale Kunstgeschichte: Herausforderungen und Perspektiven“</hi> (2014): 
+                        <hi rend="italic">Zürcher Erklärung zur digitalen Kunstgeschichte</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jahn, Peter Heinrich / Welich, Dirk</hi> (2009):
+                        „Zurück in die Zukunft: die Visualisierung planungs- und baugeschichtlicher Aspekte des Dresdner Zwingers“,
+                        in: 
+                        <hi rend="italic">Jahrbuch Staatliche Schlösser, Burgen und Gärten Sachsen</hi> 16: 51–72.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kohle, Hubertus</hi> (2013): 
+                        <hi rend="italic">Digitale Bildwissenschaft</hi>.
+                        Glückstadt.
+                    </bibl>
+<bibl>
+<hi rend="bold">Livingston, Mark A. / Bimber, Oliver / Saito, Hideo</hi> (2008): 
+                        <hi rend="italic">Proceedings of the 7th IEEE International Symposium on Mixed and Augmented Reality</hi>.
+                        Cambridge, UK. / Piscataway, N.J.: IEEE Xplore.
+                    </bibl>
+<bibl>
+<hi rend="bold">López-Romero, Elías</hi> (2014):
+                        „Out of the box: exploring the 3D modelling potential of ancient image archives“,
+                        in: 
+                        <hi rend="italic">Virtual archaeology review</hi> 5 (10): 107–116.
+                    </bibl>
+<bibl>
+<hi rend="bold">Maina, Job King’ori / Suleman, Hussein</hi> (2015):
+                        „Enhancing Digital Heritage Archives Using Gamified Annotations“,
+                        in: 
+                        <hi rend="italic">Digital Libraries: Providing Quality Information</hi> 9469. 
+                        Seoul: 169-179.
+                    </bibl>
+<bibl>
+<hi rend="bold">Münster, Sander</hi> (2014): 
+                        <hi rend="italic">Interdisziplinäre Kooperation bei der Erstellung virtueller geschichtswissenschaftlicher 3D-Rekonstruktionen</hi>.
+                        Dissertation, TU Dresden.
+                    </bibl>
+<bibl>
+<hi rend="bold">Münster, Sander / Niebling, Florian</hi> (2016):
+                    „HistStadt4D - Multimodale Zugänge zu historischen Bildrepositorien zur Unterstützung stadt- und baugeschichtlicher Forschung und Vermittlung“,
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 203-208.
+                    </bibl>
+<bibl>
+<hi rend="bold">Münster, Sander / Friedrichs, Kristina / Hegel, Wolfgang</hi> (eingereicht):
+                        „3D Reconstruction techniques as a Cultural Shift in Art History?“,
+                        in: 
+                        <hi rend="italic">International Journal of Digital Art History</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Niebling, Florian / Griesser, Rita T. / Woessner, Uwe</hi> (2008):
+                        „Using Augmented Reality and Interactive Simulations to Realize Hybrid Prototypes“,
+                        in: 
+                        <hi rend="italic">Advances in Visual Computing, 4th International Symposium</hi> ISVC 2008. Proceedings I: 1008–1017.
+                    </bibl>
+<bibl>
+<hi rend="bold">Pfarr, Mieke</hi> (2010): 
+                        <hi rend="italic">Dokumentationssystem für Digitale Rekonstruktionen am Beispiel der Grabanlage Zhaoling, Provinz Saanxi, China</hi>.
+                        Dissertation, TU Darmstadt.
+                    </bibl>
+<bibl>
+<hi rend="bold">Pomaska, Günter</hi> (2011):
+                        „Zur Dokumentation und 3D-Modellierung von Denkmalen mit digitalen fotografischen Verfahren“,
+                        in: Heine, Katja / Rheidt, Klaus / Henze, Frank / Riedel, Alexandra (eds.): 
+                        <hi rend="italic">Von Handaufmaß bis High Tech III – 3D in der historischen Bauforschung</hi>.
+                        Mainz: Verlag Philipp von Zabern 79–84.
+                    </bibl>
+<bibl>
+<hi rend="bold">Siedler, Gunnar / Sacher, Gisbert / Vetter, Sebastian</hi> (2011):
+                        „Photogrammetrische Auswertung historischer Fotografien am Potsdamer Stadtschloss“,
+                        in: Heine, Katja / Rheidt, Klaus / Henze, Frank / Riedel, Alexandra (eds.): 
+                        <hi rend="italic">Von Handaufmaß bis High Tech III - 3D in der historischen Bauforschung</hi>.
+                        Mainz: Verlag Philipp von Zabern 26–32.
+                    </bibl>
+<bibl>
+<hi rend="bold">Verstegen, Ute</hi> (2007):
+                        „Vom Mehrwert digitaler Simulationen dreidimensionaler Bauten und Objekte in der architekturgeschichtlichen Forschung und Lehre“, Vortrag am 16.3.2007,
+                        in: 
+                        <hi rend="italic">XXIX. Deutscher Kunsthistorikertag</hi>, Regensburg. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Walczak, Krzysztof / Cellary, Wojciech / Prinke, Andrzej</hi> (2011):
+                        „Interactive Presentation of Archaeological Objects Using Virtual and Augmented Reality“,
+                        in: Jerem, Erszébet / Redő, Ferenc / Szeverényi, Vajk (eds.): 
+                        <hi rend="italic">On the Road to Reconstructing the Past</hi>.
+                        Proceedings of the 36th International Conference on Computer Applications and Quantitative Methods in Archaeology (CAA).
+                        Budapest: Archaeolingua.
+                    </bibl>
+<bibl>
+<hi rend="bold">Wiedemann, Albert / Hemmleb, Matthias / Albertz, Jörg</hi> (2000):
+                        „Reconstruction of historical buildings based on images from the Meydenbauer archives“,
+                        in: 
+                        <hi rend="italic">International Archives of Photogrammetry and Remote Sensing</hi> XXXIII (B5/2): 887–893.
+                    </bibl>
+<bibl>
+<hi rend="bold">Zöllner, Michael / Becker, Mario / Keil, Jens</hi> (2010):
+                        „Snapshot Augmented Reality - Augmented Photography“,
+                        in: Artusi, Alessandro / Joly-Parvex, Morwena / Lucet, Genevieve / Ribes, Alejandro / Pitzalis, Denis (eds.): 
+                        <hi rend="italic">11th International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2010).</hi>
+                        Paris: Eurographics Association.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

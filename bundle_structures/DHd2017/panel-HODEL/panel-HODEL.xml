@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="panel-HODEL" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Virtuelle Forschungsplattformen im Vergleich: MONK, Textgrid, Transcribo und Transkribus</title>
+<author>
+<persName>
+<surname>Piotrowski</surname>
+<forename>Michael</forename>
+</persName>
+    <affiliation>Université de Lausanne</affiliation>
+<email>piotrowski@ieg-mainz.de</email>
+</author>
+<author>
+<persName>
+<surname>Schomaker</surname>
+<forename>Lambert</forename>
+</persName>
+<affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+<email>l.r.b.schomaker@rug.nl</email>
+</author>
+<author>
+<persName>
+<surname>Horstmann</surname>
+<forename>Wolfram</forename>
+</persName>
+<affiliation>Universität Trier</affiliation>
+<email>horstmann@sub.uni-goettingen.de</email>
+</author>
+<author>
+<persName>
+<surname>Burch</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Staatsarchiv des Kantons Zürich</affiliation>
+<email>burch@uni-trier.de</email>
+</author>
+<author>
+<persName>
+<surname>Hodel</surname>
+<forename>Tobias</forename>
+</persName>
+<affiliation>Leibniz-Institut für europäische Geschichte Mainz</affiliation>
+<email>tobias.hodel@hist.uzh.ch</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T09:01:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Panel</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>virtuelle Forschungsumgebungen</term>
+<term>Edition</term>
+<term>Transkription</term>
+<term>Datenaufbereitung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Datenerkennung</term>
+<term>Entdeckung</term>
+<term>Sammlung</term>
+<term>Transkription</term>
+<term>Gestaltung</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Kommunikation</term>
+<term>Bereinigung</term>
+<term>Bearbeitung</term>
+<term>Archivierung</term>
+<term>Schreiben</term>
+<term>Veröffentlichung</term>
+<term>Crowdsourcing</term>
+<term>Kollaboration</term>
+<term>Kommentierung</term>
+<term>Organisation</term>
+<term>Konservierung</term>
+<term>Daten</term>
+<term>Datei</term>
+<term>Bilder</term>
+<term>Infrastruktur</term>
+<term>Manuskript</term>
+<term>Metadaten</term>
+<term>Projekte</term>
+<term>Forschungsprozess</term>
+<term>Werkzeuge</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div>
+<p>Eine zentrale Forderung zur Unterstützung digitaler Editionen ist das Anbieten virtueller Umgebungen (Interfaces, Software) zur Produktion, aber auch zum Management digitaler Daten (BMBF 2013). In den letzten Jahren wurden aufgrund dieser durch FachwissenschaftlerInnen getragenen Nachfrage mehrere Plattformen und Softwareangebote/Infrastrukturen geschaffen, die Prozesse der digitalen Datenerstellung von der Aufnahme von Informationen (Metadaten, Transkriptionen) über die Auswertung und Anreicherung bis zur Publikation unterstützen (DARIAH-DE (Hg.), 2015) und nachhaltig betrieben werden sollen. Unterschiedliche Konzepte und angebotene Abläufe sowie integrierte Hilfsmittel stehen für eine je eigene Profilierung der Plattformen. Merkmale der Angebote, insbesondere Leistungsfähigkeit, unterstützte Prozesse und Ausrichtungen unterscheiden sich zwangsläufig. Im Panel werden aus diesem Grund wichtige und häufig eingesetzte Plattformen in ihrem Leistungsumfang verglichen und einander gegenübergestellt. Im Sinne geisteswissenschaftlicher software studies (Andrews, 2016) müssen die Plattformen nicht nur aus pragmatischen Gründen gegeneinander abgewogen werden sondern auch, um in den angebotenen Prozessen angelegte Praktiken auf ihre Logik und dadurch entstehende Folgen zu untersuchen (Drucker, 2013). Anhand eines klar umrissenen Fragebogens präsentieren Monk, Textgrid, Transcribo und Transkribus Arbeitsabläufe, Services und Vernetzungsmöglichkeiten. Damit wird Interessierten in einem Panel aus erster Hand ein Vergleich wichtiger, produktiv nutzbarer Angebote geliefert.</p>
+<p>Das Panel wird moderiert von Michael Piotrowski (IEG Mainz).</p>
+<p>Folgende Frage- und Themenschwerpunkte werden schriftlich und in kurzen Präsentationen dargeboten:</p>
+<list type="unordered">
+<item>Idealtypischer/Schematisierter Ablauf für den Gebrauch der Plattform</item>
+<item>Zeitliche Anforderungen, um ein Projekt aufzusetzen/ein Dokument zu verarbeiten; zu exportieren</item>
+<item>Herstellung von Transkriptionen</item>
+<item>Bild-Text-Verknüpfung</item>
+<item>Text-Markup</item>
+<item>Ausgabemöglichkeiten (für Edition und/oder Transkription)</item>
+<item>Vernetzungsmöglichkeiten (Wörterbücher, externe Ressourcen, Ontologien)</item>
+<item>Datei-/Bildverwaltung</item>
+<item>Projektverwaltung</item>
+<item>Auswertungs-/Abfrageoptionen</item>
+<item>Automatisierungen</item>
+<item>Crowdsourcing/Optionen zum Einbezug von Laien oder Externen</item>
+<item>Nachhaltigkeit der Plattform/der enthaltenen Daten</item>
+<item>Updates bis 2018</item>
+</list>
+<p rend="DH-Heading2">Monk (presented by Lambert Schomaker, Rijksuniversiteit Groningen)</p>
+<p>The Monk system is a trainable search engine for handwritten material. For the humanities, it may serve as a method for getting keyword access to scanned pages at the earliest stages after a document digitisation. For pattern recognition research, it is an observatory for complicated visual material and its human-provided labels (e.g., word or character labels). The system act as an e-Science service that is continuously available.</p>
+<p>An internal image and metadata format is used, which can be exported to, e.g., PAGE xml. Provisional transcriptions can be retrieved as flat text. Indices can be exported upon request.</p>
+<p>The system makes a distinction between four different forms of annotation: page (scan) descriptors, typically page titles, page regions of interest (tags for visual objects), transcription of segmented lines, and finally, word labeling. The system could export in TEI, however, within the OCR community, there is a preference for layout-centric description languages, as opposed to editorial descriptions. In practice, both TEI and PAGE are used, as well as other formalisms that allow to provide metadata to polygonal image sections.</p>
+<p>In order to proceed data in Monk, scans are uploaded via sftp or mailed hard disks. The collection is then judged on the required preprocessing steps (multicolumn, contrast enhancement, line segmentations), and ‘ingested’. Within one or two days users can start to label words. The system performs data mining on the collection and presents hit lists for words which can be labeled further, and so on. Static indices and provisional transcriptions are updated nightly.</p>
+<p>At the moment 400 documents from different periods and handwriting styles are being processed. The Monk system is one of the first 24/7 machine learning systems. The system detects where compute resources should be directed, on the basis of observed user activities and interests.</p>
+<p>The Monk system is part of the large multi-petabyte Target platform of the university of Groningen, in collaboration with astronomy, genomics and the IBM company.</p>
+<p rend="DH-Heading2">TextGrid (präsentiert durch Wolfram Horstmann, Niedersächsische Staats- und Universitätsbibliothek Göttingen)</p>
+<p>Hintergrund</p>
+<p>Die Entwicklung von TextGrid, einer Virtuellen Forschungsumgebung für die Geistes- und Kulturwissenschaften, wurde durch die zunehmende Nachfrage aus den Fachwissenschaften nach digitalen Werkzeugen v.a. des philologischen Edierens und kollaborativen Arbeitens angestoßen. Das Bundesministerium für Bildung und Forschung (BMBF) hat TextGrid als Verbundprojekt mit über zehn institutionellen und universitären Partnern zwischen 2006 und 2015 gefördert.</p>
+<p>Die Software steht mittlerweile in einer stabilen Version 3.0 zum kostenfreien Download bereit. Software, Archiv und damit das gesamte Angebot werden in Zusammenarbeit mit AnwenderInnen, FachwissenschaftlerInnen und Fachgesellschaften und in Kooperation mit DARIAH-DE - Digital Research Infrastructure for the Arts and Humanities weiter entwickelt und dauerhaft betrieben.</p>
+<p>Zielpublikum</p>
+<p>
+<hi rend="bold">FachwissenschaftlerInnen</hi>, die mit TextGrid Forschungsprojekte wie z.B. digitale Editionen erarbeiten
+            </p>
+<p>
+<hi rend="bold">EntwicklerInnen</hi>, die TextGrid-Tools und Services für eigene Vorhaben anpassen oder externe Services und Tools in TextGrid integrieren
+            </p>
+<p>
+<hi rend="bold">Forschungsprojekte und -institutionen</hi>, die Daten in TextGrid archivieren und für Dritte zugänglich und nutzbar machen (Repository)
+            </p>
+<p>Form des Einsatzes</p>
+<p>Die virtuelle Forschungsumgebung (VFU) TextGrid unterstützt digital arbeitende GeisteswissenschaftlerInnen im gesamten Forschungsprozess – insbesondere beim Erstellen digitaler Editionen.</p>
+<p>Sie besteht aus drei Kernbereichen:</p>
+<p>-       Die Software 
+                <hi rend="bold">TextGrid Laboratory</hi> stellt den Einstiegspunkt in die VFU dar und bietet unterschiedliche Open-Source-Werkzeuge und -Services für den gesamten Forschungsprozess zur Verfügung, z. B. einen Text-Bild-Link Editor für die Verknüpfung von Digitalisaten und Transkriptionen
+            </p>
+<p>-       Im 
+                <hi rend="bold">TextGrid Repository</hi>, einem Langzeitarchiv für geisteswissenschaftliche Forschungsdaten, können XML / TEI-kodierte Texte, Bilder und Datenbanken sicher gespeichert, publiziert und durchsucht werden.
+            </p>
+<p>-       Die beständig wachsende 
+                <hi rend="bold">TextGrid Community</hi> trifft sich bei regelmäßigen Nutzertreffen zu themen- bzw. anwendungsspezifischen Workshops, die nicht zuletzt auch den Austausch zwischen digitalen Forschungs- vorhaben aus den Geisteswissenschaften befördern.
+            </p>
+<p>Eine Stärke</p>
+<p>TextGrid unterstützt den gesamten wissenschaftlichen Arbeitsprozess im Rahmen der Erstellung digitaler Editionen vom Ingest des Ausgangsmaterials (Text- und/oder Bilddatei- en / Faksimiles) über die Anreicherung und Auszeichnung der Daten (Annotationen, Verknüpfungen) bis zur Veröffentlichung (Portal, Print) und nachhaltigen Archivierung (Repository) und wird stetig basierend auf konkreten fachwissenschaftlichen Anforderungen weiterentwickelt.</p>
+<p>Eine Schwäche</p>
+<p>Technisch setzt TextGrid auf dem Eclipse-Framework auf, aus heutiger Sicht, wären webbasierte Tools wünschenswerter. Zugleich verdeutlicht dies, dass Softwareentwicklungen permanente Weiterentwicklung benötigen, um sich neuen technologischen aber auch sich wandelnden User-Requirements stellen zu können. </p>
+<p rend="DH-Heading2">Transcribo (präsentiert durch Thomas Burch, Universität Trier)</p>
+<p>Transcribo wird in enger Zusammenarbeit von Philologen und Informatikern der Kooperationspartner entwickelt. Die grafische Nutzeroberfläche ist um das digitale Faksimile, also in der Regel den gescannten Überlieferungsträger, zentriert. Beliebig große Einheiten (z.B. Wörter, Zeilen oder Absätze) können mittels eines Rechteck- oder Polygonwerkzeugs markiert, transkribiert und annotiert werden. Dabei wird jede Bilddatei doppelt dargeboten: links liegt das Original zur Ansicht, die rechte Version dient als Arbeitsunterlage, hier wird der transkribierte Text topografisch exakt über das leicht ausgegraute Faksimile gelegt. Wo die räumliche Anordnung nicht der textuellen Wortreihenfolge entspricht, können Wörter in der grafischen Oberfläche zu Sequenzen zusammengefasst und so die semantischen Zusammenhänge im Transkript protokolliert werden. Ein zentrales Merkmal des Programms liegt außerdem in der Möglichkeit, in jeder erfassten Einheit textgenetische und editionsphilologisch relevante Phänomene zu kennzeichnen und mit Annotationen zu versehen. Dabei kommt ein Kontextmenü mit einer projektspezifischen Auswahl zum Einsatz. Diese umfasst bisher unterschiedliche Varianten von Korrekturen (wie etwa Sofortkorrekturen, Spätkorrekturen mit ein-, zwei- oder mehrfacher Durchstreichung und Überschreibung), die Kennzeichnung von Hervorhebungen sowie von unsicheren Lesungen oder nicht identifizierten Graphen. Diese Auswahl ist jedoch beliebig erweiterbar und wird über den gesamten Projektverlauf hinweg an die Erfordernisse der Textgrundlage angepasst.</p>
+<p rend="DH-Heading2">Transkribus (präsentiert durch Tobias Hodel, Staatsarchiv Zürich)</p>
+<p>Hintergrund</p>
+<p>Transkribus ist eine Plattform, die zur automatisierten Erkennung und Annotierung von Texten dient. Sie leistet einerseits eine Verlinkung zwischen Text und Bild (auf Block, Zeilen und Wortebene), produziert andererseits standardisierte Exportformate (XML nach TEI-Standard, PDF, aber auch METS für die Integration in Repositorien). Damit steht eine vollausgerüstete Softwaresuite zur Verfügung, die von der Segmentierung über die Erkennung, Transkription und Edition bis zur Ausgabe alle Schritte in der Herstellung hochwertiger Daten unterstützt.</p>
+<p>Die im Projekt READ weiterentwickelte Software vereint somit praxisnah die Bedürfnisse von GeisteswissenschaftlerInnen und Aufbewahrungsinstitutionen mit den technischen Möglichkeiten und Angeboten, die momentan im Bereich der Informatik und Computerlinguistik ermöglicht werden.</p>
+<p>Die Software steht in einer stabilen Version zum kostenfreien Download bereit. Das Projekt READ wird unterstützt durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union.</p>
+<p>Zielpublikum</p>
+<p>
+<hi rend="bold">Aufbewahrungsinstitutionen</hi>, die eigene Bestände und Dokumente aufbereiten und zur Verfügung stellen wollen 
+            </p>
+<p>
+<hi rend="bold">Geisteswissenschaftlerinnen</hi>, die eigene Transkriptionen und Editionen in Transkribus erstellen wollen oder mit darin aufbereiteten Daten arbeiten
+            </p>
+<p>
+<hi rend="bold">Interessierte Laien</hi>, die sich an Crowdsourcing-Initiativen beteiligen wollen
+            </p>
+<p>
+<hi rend="bold">ComputerwissenschaftlerInnen</hi>, die mit den gewonnenen Daten arbeiten und eigene Algorithmen entwickeln oder verbessern wollen
+            </p>
+<p>Form des Einsatzes</p>
+<p>Auf Transkribus werden Bilddateien hochgeladen, mit Layoutverlinkungen und Transkriptionen sowie Annotationen versehen. Unterstützt werden die Vorgänge durch Automatisierungsvorgänge im Bereich der Layouterkennung und der Transkription. Der Export der gewonnen Daten ist in unterschiedlichen Formaten möglich. Zusätzlich werden Module zum Crowdsourcing und zukünftig für e-Learning und Analyse mit Smartphone bereitgestellt. </p>
+<p>Eine Stärke</p>
+<p>Transkribus nutzt neueste Automatisierungsprozesse (u.a. mit rekursiven neuronalen Netzen) somit werden bestmögliche Resultate in Aussicht gestellt.</p>
+<p>Eine Schwäche</p>
+<p>Transkribus ist eine Expertensoftware und benötigt entsprechende Einarbeitungszeit, um die Dokumente effizient und zielgerichtet zu bearbeiten.</p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Andrews, Tara</hi> (2015):
+                        „Software and Scholarship – Editorial“,
+                        in: 
+                        <hi rend="italic">Interdisciplinary Science Reviews</hi> 40: 342–348  10.1080/03080188.2016.1165456.
+                    </bibl>
+<bibl>
+<hi rend="bold">BMBF (Bundesministerium für Bildung und Forschung)</hi> (eds.) (2013): 
+                        <hi rend="italic">Forschungsinfrastrukturen für die Geistes- und Sozialwissenschaften</hi>
+<ref target="https://www.bmbf.de/pub/forschungsinfrastrukturen_geistes_und_sozialwissenschaften.pdf">https://www.bmbf.de/pub/forschungsinfrastrukturen_geistes_und_sozialwissenschaften.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">DARIAH-DE</hi> (ed.) (2015): 
+                        <hi rend="italic">Handbuch Digital Humanities: Anwendungen, Forschungsdaten und Projekte</hi>
+<ref target="http://handbuch.io/w/DH-Handbuch">http://handbuch.io/w/DH-Handbuch</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Drucker, Johanna</hi> (2013):
+                        „Performative Materiality and Theoretical Approaches to Interface“, in: 
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 7 (1) 
+                        <ref target="http://digitalhumanities.org:8081/dhq/vol/7/1/000143/000143.html">http://digitalhumanities.org:8081/dhq/vol/7/1/000143/000143.html</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schomaker, Lambert</hi> (2016):
+                        „Design considerations for a large-scale image-based text search engine in historical manuscript collections“,
+                        in: 
+                        <hi rend="italic">Information Technology</hi> 58 (2): 80–88 10.1515/itit-2015-0049.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-SNICK" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>3D-Metamodeling Christopher Polhem’s <hi rend="italic">Laboratorium mechanicum</hi> 1696</title>
+<author>
+<persName>
+<surname>Snickars</surname>
+<forename>Pelle</forename>
+</persName>
+<affiliation>Umea university, Schweden</affiliation>
+<email>pelle.snickars@umu.se</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Christopher Polhem</term>
+<term>virtual heritage</term>
+<term>pedagogical models</term>
+<term>3D modeling</term>
+<term>3D scanning</term>
+<term>3D simulation</term>
+<term>Laboratorium mechanicum</term>
+<term>Royal Swedish Model Chamber</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Sammlung</term>
+<term>Modellierung</term>
+<term>Archivierung</term>
+<term>Visualisierung</term>
+<term>3D-Bilder</term>
+<term>Forschungsprozess</term>
+<term>Forschungsergebnis</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p rend="Brödtext A">In a letter from autumn 1696 to the Royal Swedish Bergs Collegium, the scientist and pre-industrial inventor, Christopher Polhem (1661-1751)—sometimes described as “the Father of Swedish Technology” (Lindroth 1951; Johnson 1963, Lindgren 2011)—argued that the Swedish king really ought to establish a 
+                <hi rend="italic">Laboratorium mechanicum</hi>, all in order to foster future engineers. Importantly, this mechanical laboratory should have included educational 
+                <hi rend="italic">wood models</hi> of contemporary equipment, machines and building structures, as well as water gates, hoistings and locks. Following Polhem, mechanics was simply the foundation of all knowledge: ”mechaniken är en grund och fundament til heela philosophien”. A few years later, a mechanical laboratory was indeed founded by Polhem, established near the Falu copper mine. Essentially his 
+                <hi rend="italic">Laboratorium mechanicum</hi> became a pioneering facility (albeit small) for the pre-industrial training of Swedish engineers, as well as a laboratory for testing and exhibiting Polhem’s own wooden models and designs. By the mid 1700, Polhem’s 
+                <hi rend="italic">Laboratorium mechanicum</hi> had transformed into the so called, 
+                <hi rend="italic">Royal Model Chamber</hi>, a Swedish institution (funded by the king) for information and dissemination of technology and architecture set up in central Stockholm. It was admired, for example, by Johann Beckmann on his trip through Sweden in the mid 1760s. Later, during the 19th century, the pedagogical models belonging to the Royal Model Chamber were frequently used by engineering students at the KTH Royal Institute of Technology (in Stockholm). Apparently, this was especially the case with Polhem’s so called 
+                <hi rend="italic">mechanical alphabet</hi>. Initially, it consisted of 80 wooden models of basic machine elements like the lever, the wheel and the screw. Since a writer naturally had to know the alphabet in order to create words and sentences, Polhem argued that a contemporary 
+                <hi rend="italic">mechanicus</hi> had to grasp his mechanical alphabet to be able to construct and 
+                <hi rend="italic">understand</hi> machines. Evidently, Polhem’s models are interesting as physical traces of the 
+                <hi rend="italic">material foundations</hi> of scientific knowledge (Ludwig, Weber &amp; Zausig, 2014). Around 1930, however, part of the Royal Model Chamber and Polhem’s mechanical alphabet collection was transferred to the Swedish National Museum of Science and Technology. Ever since it has served—and been frequently exhibited—as a kind of 
+                <hi rend="italic">meta-museological artifact</hi>, since Polhem’s designs proved to be pedagogical museological objects 
+                <hi rend="italic">avant la lettre</hi>.
+            </p>
+<p rend="Brödtext A"> One of the objectives of the London Charter on computer-based visualisation of heritage promotes “intellectual and technical rigour in digital heritage visualisation” (London Charter 2009)—yet, in what way should one today digitise Polhem’s 
+                <hi rend="italic">Laboratorium mechanicum</hi>? What is the 
+                <hi rend="italic">exact</hi> relation between “technical rigour” and virtual heritage in a software culture permeated by constant updates? Within the interdisciplinary Swedish research project, “Digital Models. Techno-historical collections, digital humanities &amp; narratives of industrialisation” (funded by the Royal Swedish Academy of Letters, History and Antiquities) parts of Polhem’s collection has been 3D scanned and 3D reconstructed by 
+                <hi rend="italic">different</hi> software. The project set up is part of the trend were heritage institutions are today exploring how 3D technologies can broaden access to, and the understanding of their collections (Urban 2016; Ioannides 2014). Then again, is a 3D scan of a model (in our case) for example more 
+                <hi rend="italic">rigour</hi> than a simulation? 
+            </p>
+<p rend="Brödtext A"> In general, the research project “Digital Models” (that I am heading) explores the 
+                <hi rend="italic">potential</hi> of digital technologies to reframe Swedish industrialisation and its stories about society, people and environments. The project uses three different cultural heritage perspectives to examine the 
+                <hi rend="italic">specificity of digitisation</hi> and its potential to bridge research, institutional heritage and interest from the general public. Departing from the digitisation of three selected categories of material in the Swedish National Museum of Science and Technology collections, these mirror the three phases of industrialisation: (A.) parts of the business leader and industry historian, Carl Sahlin’s extensive collection. (B.), all editions of the museum yearbook, 
+                <hi rend="italic">Daedalus</hi> (1931-2014), and (C.) all of Polhem’s preserved wooden models. These materials and phases correspond to three methodological approaches: traditional digitisation (A.), mass digitisation (B.) and critical digitisation (C.). Digitisation methods are hence correlated with different industrial-historical periods, resulting in three sets of digital tools, applications and/or game prototypes focused on various narratives of Swedish industrialisation.
+            </p>
+<p rend="Brödtext A"> In my presentation—done in English, but where questions can be posed in German since I am a fluent speaker—I want to present the ways in which we have worked with 3D modeling (parts of) Christopher Polhem’s mechanical alphabet. Our 3D-metamodeling has been conceived as both a scholarly and as a museological practice. On the one hand we have tried to increase the historical understanding and knowledge about (and around) Polhem’s models via visualisation, virtualisation and simulation, and on the other to experiment with novel ways to use the model’s inherent pedagogical quality, and especially so within a museological context at the Swedish National Museum of Science and Technology. We have for example 3D scanned some of Polhem’s models using a simple iPad iSense 3D scanner—and where we have also 3D printed some of our resulting imagistic models (with moving parts). Some of these digitisation activities have been performed within the actual museum space as a pedagogical activity, stressing the ways in which Polhem’s old models still have a didactic quality to them. In addition, we have designed a few simple 
+                <hi rend="italic">virtual reality models</hi> (of the models). Furthermore, in co-operation with Visualiseringscenter C (at Linköping University) we have also CT-scanned some of Polhem’s models—i.e where images are taken from different angles to produce a cross-sectional and tomographic 3D image, a kind of virtual slice, allowing one to see inside the models without breaking them. Digital geometry processing has, in short, been used to generate a three-dimensional image of the inside of the models and their different parts. We have also co-operated with the professional animator Rolf Lindberg; on YouTube he has uploaded a number of videos of Polhem’s models (Lindberg 2016). Lindberg, however, did not 3D scan Polhem’s mechanical models—he 
+                <hi rend="italic">computer-animated</hi> them in Cinema4D.
+            </p>
+<p rend="Brödtext A"> Hence, from a museological perspective, digitising Polhem’s mechanical alphabet has produced a number of really different results. The London Charter on computer-based visualisation of heritage defines principles for the use of computer-based visualisation methods “in relation to intellectual integrity, reliability, documentation, sustainability and access” (London Charter 2009). Indeed, the charter recognises that the range of available computer-based visualisation methods is constantly increasing. Still, the linkage and genealogy between copy and original sometimes becomes weak. For animator Lindberg, rather than 3D scanning Polhem’s heritage items, it was way easier—and more pedagogical and visually enticing to 
+                <hi rend="italic">simulate</hi> them—that is, building and constructing 
+                <hi rend="italic">brand new virtual objects</hi>. The precious and highly esteemed original models collected at the museum—Polhem’s mechanical alphabet—then becomes a model (rather than vice versa). Still, in the case of Polhem’s models, the theme of (digital) reconstruction also has a profound historical dimension, since he sincerely believed (as a pre-industrial inventor) that 
+                <hi rend="italic">physical models</hi> were always superior to drawings and abstract representations. The question is if he would have considered 3D reconstructions in a similar manner.
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Ioannides, Marinos</hi> et. al. (eds.) (2014):
+                        <hi rend="italic">Digital Heritage: Progress in Cultural Heritage</hi>.
+                        Cham: Springer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Johnson, William A.</hi> (1963):
+                        <hi rend="italic">Christopher Polhem, The Father of Swedish Technology</hi>.
+                        Hartford: Trinity College Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lindberg, Rolf</hi> (2016):
+                        <ref target="https://www.youtube.com/channel/UC0UKj1XHuArjk-EZOrQRafQ">https://www.youtube.com/channel/UC0UKj1XHuArjk-EZOrQRafQ</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lindgren, Mikael H.</hi> (2011):
+                        <hi rend="italic">Christopher Polhems testamente</hi>.
+                        Stockholm: Innovationshistoria förlag.
+                    </bibl>
+<bibl>
+<hi rend="bold">Ludwig, David / Weber, Cornelia / Zausig, Oliver</hi> (eds.) (2014):
+                        <hi rend="italic">Das Materielle Model</hi>.
+                        Paderborn: Fink.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lindroth, Sten</hi> (1951):
+                        <hi rend="italic">Christopher Polhem och Stora Kopparberget</hi>.
+                        Uppsala: Almqvist &amp; Wiksell.
+                    </bibl>
+<bibl>
+<hi rend="bold">London Charter</hi> (2009): 
+                        <ref target="http://www.londoncharter.org/fileadmin/templates/main/docs/london_charter_2_1_en.pdf">http://www.londoncharter.org/fileadmin/templates/main/docs/london_charter_2_1_en.pdf</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Urban, Richard</hi> (2016):
+                        <hi rend="italic">Collections Cubed: Into the third dimension</hi>.
+                        <ref target="http://mw2016.museumsandtheweb.com/paper/collections-cubed-into-the-third- dimension/">http://mw2016.museumsandtheweb.com/paper/collections-cubed-into-the-third- dimension/</ref>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

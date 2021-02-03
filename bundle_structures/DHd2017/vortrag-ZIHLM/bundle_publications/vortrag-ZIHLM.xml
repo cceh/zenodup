@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-ZIHLM" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Entwicklung und Einrichtung einer digitalen Arbeitsumgebung für die <hi rend="italic">Jeremias Gotthelf-Edition</hi>. Ein Erfahrungsbericht</title>
+<author>
+<persName>
+<surname>Zihlmann</surname>
+<forename>Patricia</forename>
+</persName>
+<affiliation>Universität Bern, Forschungsstelle Jeremias Gotthelf, Schweiz</affiliation>
+<email>patricia.zihlmann@germ.unibe.ch</email>
+</author>
+<author>
+<persName>
+<surname>von Zimmermann</surname>
+<forename>Christian</forename>
+</persName>
+<affiliation>Universität Bern, Forschungsstelle Jeremias Gotthelf, Schweiz</affiliation>
+<email>vonzimmermann@germ.unibe.ch</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-29T07:50:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Edition</term>
+<term>kritischer Apparat</term>
+<term>digitale Arbeitsumgebung</term>
+<term>TEI</term>
+<term>Webedition</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Annotieren</term>
+<term>Archivierung</term>
+<term>Veröffentlichung</term>
+<term>Kollaboration</term>
+<term>Webentwicklung</term>
+<term>Daten</term>
+<term>Literatur</term>
+<term>Manuskript</term>
+<term>Forschung</term>
+<term>Text</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Ausgangslage</head>
+<p>Die 
+                    <hi rend="italic">Historisch-kritische Gesamtausgabe der Werke und Briefe von Jeremias Gotthelf</hi> (
+                    <hi rend="italic">HKG</hi>), begründet von Prof. Dr. Barbara Mahlmann-Bauer und PD Dr. Christian von Zimmermann im Jahr 2003, ist auf 67 Text- und Kommentarbände angelegt und damit eines der grösseren Editionsvorhaben im deutschsprachigen Raum.
+                    <ref n="1" target="vortrag-ZIHLMftn1" type="note">1</ref>
+</p>
+<p>Nach der Publikation der ersten Bände (2012) wurden die Arbeitsprozesse evaluiert, um die Edition adäquat auf digitale Arbeitsverfahren und Publikationsformen ausrichten zu können. Texte und Kommentare sollten nun 
+                    <hi rend="italic">TEI</hi>-konform erfasst werden, zumal sich inzwischen die erweiterten 
+                    <hi rend="italic">TEI-Guidelines </hi>als internationaler editionsphilologischer Standard durchsetzen konnten. Die Umstellung sollte aber umfassender sämtliche editorischen Arbeiten von der Transkription und textgenetischen Analyse über die Dokument- und Datenverwaltung, die Registeranbindung oder Kontrollroutinen bis hin zur Publikation in Print und Web berücksichtigen. Ein wichtiges Anliegen war es, aus einem Datensatz mehrere Ausgabenformate erzeugen zu können (d.h.: unterschiedliche Printformate und digitale Präsentationsformen). Schliesslich sollten die ‘endgültigen’ Daten, die bisher allein in der historisch-kritischen Buchedition gedruckt vorlagen, in einem einheitlichen Datenformat in der 
+                    <hi rend="italic">Forschungsstelle</hi> zentral verfügbar, gesichert und anderweitig verwertbar sein. (Zuvor lagerten die durch Fahnenkorrekturen aktualisierten und in unterschiedlichen Satzprogrammen codierten Satzdaten bei mehreren beauftragten Satzbüros.)
+                </p>
+<p>Diese unterschiedlichen Aspekte machen das Umstellungsprojekt aussergewöhnlich komplex; einige der Etappenziele sind bereits erreicht worden. Unser Beitrag handelt von den Erfahrungen der vergangenen vier Jahre und gibt Aufschluss über Chancen und Schwierigkeiten des Umstiegs eines editorischen Grossprojekts auf ein exaktes, weitestgehend inhaltsorientiertes Markup und auf computerphilologische Arbeitsweisen. Von besonderem Interesse ist für uns die Vermittlung zwischen übergreifenden editorischen und digitalen Standards einerseits und individuellen Projektbedürfnissen andererseits. In unserem Vortrag möchten wir zudem den Einfluss institutioneller Rahmenbedingungen (
+                    <hi rend="italic">DaSCH/DDZ, SAGW</hi>, 
+                    <hi rend="italic">SNF, metagrid</hi>
+<ref n="2" target="vortrag-ZIHLMftn2" type="note">2</ref>) auf die Durchführung computerphilologischer Reformen thematisieren.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Kooperation mit der BBAW und Pagina</head>
+<p>Der Weg zu einer Arbeitslösung für die Edition erfolgt nicht durch eine eigene Programmentwicklung, deren Kosten auch bei einem nationalen Zusammenschluss mehrerer Projekte so nicht tragbar wären. Mittlerweile haben sich unterschiedliche modulare Lösungen etabliert (etwa auch 
+                    <hi rend="italic">textgrid</hi> etc.). Nach längerer Prüfung entschied sich die Projektgruppe dazu, die Arbeitsumgebung 
+                    <hi rend="italic">Ediarum </hi>der 
+                    <hi rend="italic">BBAW</hi> für das eigene Projekt weiterzuentwickeln, zumal 
+                    <hi rend="italic">Ediarum</hi> bereits für die 
+                    <hi rend="italic">Schleiermacher-Edition </hi>als digitale Arbeitsumgebung angewendet und auch für andere Projekte angepasst worden war. 
+                    <hi rend="italic">Ediarum </hi>basiert auf einer 
+                    <hi rend="italic">eXist</hi>-Datenbank, nutzt den 
+                    <hi rend="italic">Oxygen Author</hi> und umfasst Module für den Satzprozess sowie die digitale Datenpräsentation (Dumont/Fechner 2012; Arbeitsgruppe Telota o.J.).
+                </p>
+<p>Inzwischen sind erste Module unserer Arbeitsumgebung, die Schemata für Handschriften und Drucktexte nebst entsprechenden Anpassungen im 
+                    <hi rend="italic">Oxygen Author</hi> abgeschlossen. Für die Satzvorbereitung besteht eine Kooperation mit der Firma 
+                    <hi rend="italic">Pagina</hi>, welche das Satzmodul mit 
+                    <hi rend="italic">Tustep</hi> für die Druckvorstufe programmiert und in ersten Versionen für Drucktexte und Manuskripte bereits erfolgreich zur Verfügung gestellt hat (drucknaher Satzpreview für den Editionstext und Apparat).
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Schema und Ausgabeformate</head>
+<p>Die Entwicklung (insbesondere des Handschriftenschemas) war vor allem deshalb anspruchsvoll, da die Codierung nicht nur die Einrichtung der historisch-kritischen Ausgabe nach der bisherigen Gestalt sicherstellen musste, sondern auch davon abweichende gedruckte und digitale Präsentationsformen ermöglichen sollte. Dabei sollten etwa an die Stelle der Apparate der Drucktexte in der Webedition medienspezifische Annotationsformen treten können.</p>
+<p>Die kritische Edition stellt einen Editionstext bereit und verzeichnet sämtliche textgenetischen Prozesse in der Handschrift, Emendationen bei Drucktexten und allfällige Varianten zwischen Drucktexten und Handschriften am Seitenende in unterschiedlichen Apparaten (textgenetischer Apparat, Emendationsapparat, Variantenapparat, Textstufenapparat; häufig Kombinationen). </p>
+<p>Um die Apparate der kritischen Edition in der Printausgabe zu erzeugen, hätte ein Freitextelement wie 
+                    <hi rend="bold">&lt;note&gt;</hi> völlig ausgereicht. Doch hätte eine solche Lösung, welche die analytischen Stärken der Codierung für die editionsphilologische Arbeit nicht nutzt, den Aufwand für einen Umstieg auf 
+                    <hi rend="italic">XML/TEI </hi>nicht gerechtfertigt. Gerade die Möglichkeit zur präzisen Erfassung textgenetischer Prozesse einerseits und andererseits der Anspruch, einen Datensatz für unterschiedliche Ausgabeformate zu nutzen, legte den Umstieg nahe. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Digitale Präsentation und Korrespondenzedition</head>
+<p>Die digitale Präsentation soll im Wesentlichen im Rahmen der Edition von Gotthelfs Korrespondenzen entwickelt werden (Zihlmann-Märki 2017). Dabei sind drei Ansichten für unterschiedliche Nutzungsszenarien vorgesehen. Neben der historisch-kritischen Ansicht, welche die 
+                    <hi rend="italic">Tustep</hi>-Routine einbindet, und einer diplomatischen Ansicht stellt eine Inhaltsansicht den finalen Text samt ausgezeichneten Entitäten und Stellenkommentaren bereit. Die Codierung wird die Vorschläge der 
+                    <hi rend="italic">TEI Special Interest Group Correspondence </hi>berücksichtigen, und die Verwendung standardisierter Daten ist Voraussetzung für eine Integration in externe Suchumgebungen wie 
+                    <hi rend="italic">CorrespSearch</hi>.
+                    <ref n="3" target="vortrag-ZIHLMftn3" type="note">3</ref> Ebenso können Informationen aus anderen digitalen Ressourcen dank dem Einsatz von Normdateien und dem BEACON-Format in der digitalen Umgebung angezeigt werden (Stadler 2012; Stadler 2014). 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Vorzüge und Schwierigkeiten der Reform</head>
+<p>Überblickt man die bisherige Reform, haben sich folgende Vorteile für die Arbeitsprozesse ergeben:</p>
+<list type="unordered">
+<item>Durch neue Arbeitsabläufe der Texterfassung (angepasste Scann- und OCR-Verfahren bei Drucktexten) konnte eine nicht unerhebliche Zeitersparnis erzielt werden. </item>
+<item>Unterschiedliche Previewansichten des Editionstextes erlauben die Hervorhebung spezifischer Besonderheiten, die für einzelne Korrekturschritte notwendig sind (etwa Hervorhebung des Zeilenfalles oder Hervorhebung von Stellen, die differenzierter codiert sind, als dies für die Druckedition im Apparat ausgegeben wird etc.). </item>
+<item>Die Dokumentation der Codierungsrichtlinien ermöglichte es, unterschiedliche Aspekte zu verknüpfen: 1) editorische Prinzipien konnten verbessert und verbindlicher gestaltet werden, 2) Probleme im Übergang von Transkription und Apparatgestaltung entfallen durch die Verbindung beider Prozesse, 3) die Verbindung von Codeerläuterung, Transkriptionsbeispiel und Präsentationsbeispiel hat der Satzfirma die Programmierung der Satzroutinen erleichtert.</item>
+<item>Die Satzfirma 
+                        <hi rend="italic">Pagina </hi>investiert vor allem in die Konzeption von Satzroutinen und kommt dann nur noch für den Feinsatz der Buchausgabe zum Einsatz. Dank Roundtripping können die Satzinformationen (Seiten- und Zeilenzahlen) in die originalen 
+                        <hi rend="italic">XML</hi>-Daten zurückgespielt werden; so verfügt die 
+                        <hi rend="italic">Forschungsstelle </hi>über aktuelle Daten, die alle Informationen zur Druckausgabe enthalten und leicht auch für andere Präsentationsformen oder – in weiteren Reformetappen – für digitale Querverweise und Kommentarverankerungen genutzt werden können.
+                    </item>
+</list>
+<p>Zugleich erwies sich der Reformprozess als überaus anspruchsvoll sowie als zeit- und kostenintensiv. </p>
+<list type="ordered">
+<item>Als Illusion erweist sich die Vorstellung, es sei möglich, eine Codierung unabhängig von späteren Ausgabeformaten zu entwickeln. Editionen, welche die Daten tatsächlich für mehrere Formate bereit halten wollen und nicht nur auf eine spezifische Ausgabe zielen, stehen hier vor bedeutenden Problemen, da sie die Dateninterpretation durch Webapplikationen ebenso berücksichtigen müssen wie die Eigenheiten von Satzroutinen oder den Wunsch nach einer mediumsspezifischen Apparatgestaltung. Dies gilt umso mehr für Projekte, welche die Umstellung im laufenden Arbeitsprozess bei bereits etablierten Editionsrichtlinien durchführen.</item>
+<item>Innerhalb der modularen Arbeitsumgebung konnte aufgrund der projektspezifischen Bedürfnisse letztlich kein einziges Modul unverändert übernommen werden. Da die Module jeweils spezifischen Projektinteressen der an der Modulentwicklung beteiligten Projektpartner folgen (müssen), sind sie – auch nach Erfahrung von 
+                        <hi rend="italic">Telota</hi> – in keinem Fall ohne Anpassung nutzbar. Andere Module (Druckvorstufe) konnten dagegen problemlos ausgetauscht werden, und dies wäre wohl eine Grundanforderung überhaupt an modulare Editionsumgebungen.
+                    </item>
+<item>Die graphische Oberfläche in 
+                        <hi rend="italic">Ediarum </hi>können wir für unsere Edition nicht nutzen, weil in ihr komplexe Textphänomene und sich überlagernde Korrekturen nicht übersichtlich darstellbar sind. Allerdings hat sich auch gezeigt, dass die Arbeit in der Code-Ansicht für die meisten Mitarbeitenden unproblematisch ist. Für einzelne Arbeitsschritte wie die Lemmatisierung wäre die Arbeit in der graphischen Oberfläche möglich.
+                    </item>
+</list>
+<p>Allein von der Kostenseite aus betrachtet, lohnt sich bei begonnenen Buchausgaben die Umstellung auf eine differenzierte Codierungspraxis nur bei einem bedeutenden Projektvolumen. Erst dann stehen die Entwicklungs- und Anpassungskosten einer digitalen Arbeitsweise in einem Verhältnis zur Einsparung von Satzkosten. Das gilt auch dann, wenn auf eine Buchedition gänzlich verzichtet wird.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Standardisierung und heterogene Editionslandschaft</head>
+<p>Freilich wäre es zwecks Ressourcenschonung wünschenswert, dass andere Projekte von Schemata, von Satzroutinen, von der Arbeitsumgebung und der digitalen Präsentation profitieren könnten, die in unserem oder einem anderen Projekt entwickelt wurden. Tatsächlich sehen wir ein gewisses Potential im Erfahrungsaustausch. Dass eigentliche Übernahmen von Projektstrukturen hingegen schwierig sind, liegt weniger an den Codierungsstandards als an heterogenen Editionstypen und -prinzipien. Verbindliche Prinzipien der Textwiedergabe und Apparatierung könnten die Digitalisierungsprozesse wie auch die langfristige Sicherung vereinfachen (
+                    <hi rend="italic">ein</hi> Prozedere, 
+                    <hi rend="italic">ein</hi> Umwandlungsschema für alle Daten) und möglicherweise kostensenkend wirken. Die Diversität von Editionen entspringt aber nicht zufälligen Entwicklungen, sondern ist tief in heterogenen Forschungstraditionen verankert, und die Entscheidung für einen Editionstyp geht in der Regel mit einer intensiven Auseinandersetzung mit dem Editionsgegenstand einher. So rechtfertigt die Berner Parzival-Edition ihr Projekt nicht zuletzt durch Annahmen über den mittelalterlichen Textbegriff (Stolz 2002), und die Berner Gotthelf-Edition hebt auf den politisch-publizistischen wie diskursiven Charakter der Texte ab, der nur durch eine umfassende Kommentierung adäquat dargestellt werden kann (von Zimmermann 2014).
+                </p>
+<p>Auch die 
+                    <hi rend="italic">TEI </hi>trägt der Diversität prinzipiell Rechnung, stellt sie doch einen Pool möglicher Codes zur Verfügung, aus denen die Einzelprojekte ihre eigenen Schemata erarbeiten müssen. Ein über das Bekenntnis zu 
+                    <hi rend="italic">TEI/XML </hi>(oder einer anderen Auszeichnungssprache) hinausgehender, projektübergreifender Standard, der die textphilologische Kernarbeit (Transkription und Apparatierung) betrifft, kann deshalb vermutlich eher nicht entwickelt werden. 
+                </p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="vortrag-ZIHLMftn1"> Allgemeine Projektinformationen: 
+                            <hi rend="Hyperlink">http://www.gotthelf.unibe.ch</hi>
+</note><note n="2" rend="footnote text" xml:id="vortrag-ZIHLMftn2">
+<hi rend="Hyperlink">http://www.metagrid.ch</hi>
+</note><note n="3" rend="footnote text" xml:id="vortrag-ZIHLMftn3">
+<hi rend="Hyperlink">http://correspsearch.net/index.xql</hi>
+</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Dumont, Stefan / Fechner, Martin</hi> (2012): 
+                        <hi rend="italic">Digitale Arbeitsumgebung für das Editionsvorhaben „Schleiermacher in Berlin 1808–1834“</hi>.
+                        <ref target="http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/">http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834</ref> [letzter Zugriff 25. August 2016]. 
+                    </bibl>
+<bibl>[
+                        <hi rend="bold">Arbeitsgruppe Telota</hi>]: 
+                        <hi rend="italic">Ediarum – Digitale Arbeitsumgebung für Editionsvorhaben</hi>.
+                        <ref target="http://www.bbaw.de/telota/software/ediarum">http://www.bbaw.de/telota/software/ediarum</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Schweizerische Akademie der Geistes- und Sozialwissenschaften</hi> (2015): 
+                        <hi rend="italic">Final report for the pilot project „Data and Service Center for the Humanities“ (DaSCH)</hi>. Swiss Academies Reports 10 (1).
+                    </bibl>
+<bibl>
+<hi rend="bold">Stadler, Peter</hi> (2012): 
+                        „Normdateien in der Edition“,
+                        in: 
+                        <hi rend="italic">editio</hi> 26: 174–183.
+                    </bibl>
+<bibl>
+<hi rend="bold">Stadler, Peter</hi> (2014): 
+                        „Interoperabilität von digitalen Briefeditionen“,
+                        in: Delf von Wolzogen, Hanna / Falk, Rainer (Hg.): 
+                        <hi rend="italic">Fontanes Briefe editiert</hi>. Internationale wissenschaftliche Tagung des Theodor-Fontane-Archivs Potsdam, 18. bis 20. September 2013 (= Fontaneana 12). 
+                        Würzburg: Königshausen &amp; Neumann 278–287.
+                    </bibl>
+<bibl>
+<hi rend="bold">Stolz, Michael</hi> (2002): 
+                        „Wolframs ‚Parzival‘ als unfester Text. Möglichkeiten einer überlieferungsgeschichtlichen Edition im Spannungsfeld traditioneller Textkritik und elektronischer Darstellung“,
+                        in: Haubrichs, Wolfgang / Lutz, Eckart C. / Ridder, Klaus (Hg.): 
+                        <hi rend="italic">Wolfram von Eschenbach – Bilanzen und Perspektiven</hi>.Eichstätter Colloquium 2000 (= Wolfram-Studien 17). 
+                        Berlin: Schmidt 294–321.
+                    </bibl>
+<bibl>
+<hi rend="bold">Zihlmann-Märki, Patricia</hi> (2017): 
+                        „Kommentierung in gedruckten und digitalen Briefausgaben“, 
+                        in: Lukas, Wolfgang / Richter, Elke (Hg.): 
+                        <hi rend="italic">Kommentieren und Erläutern im digitalen Kontext</hi> (= Beihefte zu editio) [erscheint 2017].
+                    </bibl>
+<bibl>
+    <hi rend="bold">von Zimmermann, Christian</hi> (2014): „Geschichte, Ziele und Perspektiven der Historisch-kritischen Gesamtausgabe der Werke und Briefe von Jeremias Gotthelf (HKG)“, in: Marianne Derron / Christian von Zimmermann (Hg.): 
+                        <hi rend="italic">Jeremias Gotthelf</hi>. Neue Studien. 
+                        Hildesheim / Zürich / New York: Olms 13–37.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

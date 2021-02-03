@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="workshop-HANNE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>open your data, open your code: Offene Lizenzierung für geisteswissenschaftliche Projekte</title>
+<author>
+<persName>
+<surname>Hannesschläger</surname>
+<forename>Vanessa</forename>
+</persName>
+<affiliation>ACDH-OEAW Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+<email>vanessa.hannesschlaeger@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Losehand</surname>
+<forename>Joachim</forename>
+</persName>
+<affiliation>creative commons Austria</affiliation>
+<email>joachim@losehand.at</email>
+</author>
+<author>
+<persName>
+<surname>Kamocki</surname>
+<forename>Paweł</forename>
+</persName>
+<affiliation>IDS Mannheim, Deutschland</affiliation>
+<email>kamocki@ids-mannheim.de</email>
+</author>
+<author>
+<persName>
+<surname>Scholger</surname>
+<forename>Walter</forename>
+</persName>
+<affiliation>ZIM-ACDH Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz, Österreich</affiliation>
+<email>walter.scholger@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Witt</surname>
+<forename>Andreas</forename>
+</persName>
+<affiliation>IDS Mannheim, Deutschland</affiliation>
+<email>witt@ids-mannheim.de</email>
+</author>
+<author>
+<persName>
+<surname>Amini</surname>
+<forename>Seyavash</forename>
+</persName>
+<affiliation>e-Infrastructures Austria</affiliation>
+<email>amini@ivocat.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-30T12:30:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>Universität Bern</addrLine>
+<addrLine>Institut für Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Workshops</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Lizenzierung</term>
+<term>creative commons</term>
+<term>digital peer publishing</term>
+<term>Datenlizenzen</term>
+<term>Softwarelizenzen</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Programmierung</term>
+<term>Modellierung</term>
+<term>Bearbeitung</term>
+<term>Archivierung</term>
+<term>Veröffentlichung</term>
+<term>Konservierung</term>
+<term>Bibliographie</term>
+<term>Daten</term>
+<term>Bilder</term>
+<term>Metadaten</term>
+<term>Methoden</term>
+<term>Forschung</term>
+<term>Forschungsergebnis</term>
+<term>Software</term>
+<term>Standards</term>
+<term>Text</term>
+<term>Werkzeuge</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>In Diskussionen über digitale Nachhaltigkeit sind rechtliche Fragen von zunehmender Bedeutung. Häufig entscheiden die rechtlichen Rahmenbedingungen, ob, wie und wie lange Daten und Programme, die im Rahmen von digitalen geisteswissenschaftlichen Forschungsprojekten entwickelt werden, verfügbar sind. Gerade im digitalen Raum, der nationale Grenzen überschreitet, ergibt sich - auch aufgrund der territorialen Beschränkung des jeweiligen Urheberrechts - die Notwendigkeit neuer rechtlicher Regelungen, die einerseits das Urheberrecht des Forschenden schützen, andererseits die Wiederverwendbarkeit ihrer Arbeiten sicherstellen sollen. Offene Lizenzierungsmodelle bieten hier Lösungen, die internationale Forschung an lokal erzeugten Daten und mit individuell entwickelten Softwares ermöglichen.</p>
+<p>In den Geisteswissenschaften, in denen die Publikation von und die Arbeit mit “Rohdaten” im Rahmen der digitalen Wende substantiell an Bedeutung gewonnen haben, beginnt die Forschungscommunity zunehmend, sich diesem Thema im Kontext von Open Access-Diskussionen zu widmen. Obwohl das Bewusstsein für die Notwendigkeit der Auseinandersetzung mit diesen rechtlichen Aspekten zunimmt, fehlt den Forschenden oft der Überblick über die unterschiedlichen Möglichkeiten der Lizenzierung ihrer Daten. Creative Commons-Lizenzen sind weltweit das etablierteste Modell. Während sie in vielen Fällen eine gute Lösung sind, kommen sie häufig auch nur deshalb zum Einsatz, weil den Forschenden Informationen über andere Lizenzierungsmodelle fehlen. Auch wenn Creative Commons-Lizenzen angemessen sind, herrscht in vielen Fällen oft Unklarheit und Unsicherheit über die Wahl der konkret geeigneten Lizenz. Noch komplexer ist die Landschaft an verfügbaren Software-Lizenzen.</p>
+<p>Dieser Workshop möchte zur Information und Aufklärung der Community beitragen, indem zuerst ein allgemeiner Überblick über die unterschiedlichen nationalen rechtlichen Rahmenbedingungen und über verfügbare Daten- und Software-Lizenzen gegeben wird, bevor im zweiten Teil lizenzierte Beispielprojekte vorgestellt werden. Eingegangen wird auch auf die unterschiedlichen Materialtypen (z.B. Manuskript-, Photodigitalisate) und den umgang mit “verwaisten Werken”.  Erwartet wird ein Publikum, das sich einen Überblick über die Lizenz-Möglichkeiten, die sich für einzelne Projekte bieten, verschaffen und die passende Lizenz für das jeweils eigene Projekt finden möchte. Dazu dient der dritte Abschnitt des Workshops, der in der Art einer offenen Sitzung gestaltet ist, in der nach einer Einführung zu Lizenzierungstools Projekte aus dem Publikum diskutiert werden. Die Beitragenden sind Expert/innen für Lizenzierungs- und Rechtsfragen und wünschen sich den Austausch mit Forschenden, die sich ebenfalls mit diesen Themen beschäftigen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Daten-Lizenzen</head>
+<div rend="DH-Heading2" type="div2">
+<head>Creative Commons (CC)</head>
+<p>Creative Commons (CC) ist eine Non-Profit-Organisation, die eine Auswahl an Standard-Lizenzverträgen zur öffentlichen Nutzung von Werken für juristische Laien entwickelt hat. Der Ausgangspunkt dafür war, dass “[t]he idea of universal access to research, education, and culture is made possible by the Internet, but our legal and social systems don’t always allow that idea to be realized.” (
+                        <ref target="https://creativecommons.org/about/">
+<hi rend="color(1155CC)">https://creativecommons.org/about/</hi>
+</ref>) CC-Lizenzen sind standardisierte Lizenzen, die durch die Creative-Commons-Stiftung entwickelt und ausformuliert wurden und Rechteinhabenden zur freien Verwendung zur Verfügung stehen. Sie sind vorrangig für den Einsatz bei digitalen Werken und der Verbreitung im Internet geschaffen worden, lizenzieren aber gleichzeitig auch die Verwendung im nicht-digitalen Bereich (Druckwerke); sie umfassen alle (wesentlichen) urheberrechtlichen und leistungsschutzrechtlichen Aspekte.
+                    </p>
+<p>CC-Lizenzen der Versionen 1.0 bis 3.0 wurden vielfach mit nationalen Recht akkordiert (d.h. “portiert”) und so in spezifischen nationalen Varianten zur Verfügung gestellt. Ab Einführung der aktuellen Version 4.0 erfolgten keine spezifischen nationalen Adaptierungen mehr, um eine einheitliche, international gültige Lizenzierung und Rechtssicherheit zu gewährleisten. In jedem Fall sind aber - wie bei allen Einzel- und Massenlizenzen - die jeweils geltenden nationalen urheberrechtlichen bzw. internationalen Regelungen vorrangig und deshalb zu beachten.</p>
+<p>Alle nach geltendem Recht urheberrechtlich schutzwürdigen Werke können durch die Rechteinhabenden zu jeder Zeit mit Creative Commons (neu) lizenziert werden. Eine einmal erteilte CC-Lizenz kann grundsätzlich nicht widerrufen und damit erteilte Nutzungsrechte können grundsätzlich nicht eingeschränkt werden, jedoch kann die Lizenz in eine weniger einschränkende Lizenz umgewandelt werden. Davon sollte jedoch nur in einzelnen Ausnahmefällen Gebrauch gemacht werden.</p>
+<p>CC-Lizenzen bestehen aus mehreren Modulen, wobei die Zusammensetzung nicht von den Lizenzgebenden gewählt werden kann, sondern vorgegeben ist.</p>
+<p>In den Digital Humanities hat es sich zum de-facto-Standard entwickelt, Projekte, Daten und Ergebnisse unter CC-Lizenzen zur Verfügung zu stellen, wobei die Unterschiede zwischen den verschiedenen Versionen, portierten und nicht portierten Fassungen und unterschiedlichen Lizenz-Inhalten oft zu Unklarheiten führen. In diesem Workshop werden daher die Grundlagen des CC-Modells erklärt und zahlreiche weitergehende Aspekte erläutert.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Digital Peer Publishing (DiPP/DPPL)</head>
+<p>Das Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen (hbz) stellt zur Erleichterung der Publikation von Open Access-Journals das System Digital Peer Publishing (DiPP) zur Verfügung, in dessen Rahmen auch die Digital Peer Publishing Lizenzen (DPPL) entwickelt wurden. Aktuell ist die Version 3.0. Die Grundlage dieser Lizenzen bildet das deutsche Recht, was - anders als CC - im internationalen Bereich häufiger zu Problemen führen kann. Um den Teilnehmenden eine breitere Perspektive zu ermöglichen, werden als eine mögliche Alternative zu Creative Commons die DPP-Lizenzen  vorgestellt.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Software-Lizenzen</head>
+<p>Es ist zu beachten, dass die oben beschriebenen Datenlizenzen nicht zur Lizenzierung von Software geeignet sind, da sie diverse Software-spezifische Aspekte nicht berücksichtigen. Es müssen für diesen Zweck daher spezifische Software-Lizenzen verwendet werden, die in einem weiteren Teil des Workshops vorgestellt werden.</p>
+<p>
+<hi rend="color(292934)">Freie Lizenzen haben im Bereich der Software bereits eine längere Tradition, als dies bei Daten und anderen Inhalten der Fall ist: Die ersten öffentlichen Software-Lizenzen gab es in den 1980er Jahren. Heute ist eine Fülle an freien Softwarelizenzen in Gebrauch. Nach gegenwärtigen Standards gilt eine Lizenz dann als Open Source, wenn sie den von der Open Source Initiative entwickelten Kriterien entspricht (</hi>
+<ref target="https://opensource.org/osd-annotated">
+<hi rend="color(1155CC)">https://opensource.org/osd-annotated</hi>
+</ref>
+<hi rend="color(292934)">). Die Wichtigsten davon sind: Die Möglichkeiten des Zugangs, der Verbreitung und der Adaptierung von Quellcode.</hi>
+</p>
+<p>Des Weiteren können Open Source Lizenzen in drei Kategorien eingeteilt werden:</p>
+<list type="unordered">
+<item>
+<hi rend="color(292934)">Freizügig (</hi>
+<hi rend="italic color(292934)">permissive</hi>
+<hi rend="color(292934)">): erlaubt breite Verwendung der lizenzierten Software (z.B. BSD, MIT oder Apache Lizenzen)</hi>
+</item>
+<item>Starkes Copyleft: “virale” Lizenzen, die den Benutzenden auferlegt, modifizierten Code unter einer kompatiblen Copyleft-Lizenz zu veröffentlichen (GNU GPLs sind die wichtigsten Lizenzen dieser Gruppe)</item>
+<item>Schwaches Copyleft: Lizenzen, die die Benutzenden verpflichten, modifizierte Software unter einer kompatiblen Copyleft-Lizenz zu veröffentlichen, aber die Verbindung mit Bibliotheken erlauben, die andere Lizenzen verwenden (z.B. GNU LGPL)</item>
+</list>
+<p>Aufgrund dieser breiten Auswahl an Möglichkeiten, von denen sich einige nur durch Formalitäten unterscheiden, variiert die Lizenzierungspraxis zwischen Communities und Projekten stark. Das ist insofern problematisch, als dadurch in großen, verteilten Projekten oft komplexe Kompatibilitätsprobleme entstehen. Es ist daher notwendig, gemeinsame “best practices” zu entwickeln, um die Bestrebungen innerhalb der Digital Humanities Community zu harmonisieren.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Lizenzierungstools</head>
+<p>Um den Teilnehmenden im praktischen Teil des Workshops nicht nur konkrete Beratung für aktuelle Projekte anbieten zu können, sondern ihnen auch Unterstützung für die Entscheidung von Lizenzierungsfragen im Rahmen zukünftiger Projekte und Kontexte zur Verfügung zu stellen, werden ausgewählte Lizenzierungstools präsentiert und unmittelbar unter Anleitung der Beitragenden getestet. Zu den wesentlichsten Hilfsmitteln gehören:</p>
+<list type="unordered">
+<item>
+<hi rend="color(292934)">Europeana Available Rights Statement </hi>
+<hi rend="italic color(292934)">&lt;</hi>
+<ref target="http://pro.europeana.eu/share-your-data/rights-statement-guidelines">
+<hi rend="italic color(1155CC)">http://pro.europeana.eu/share-your-data/rights-statement-guidelines</hi>
+</ref>
+<hi rend="italic color(292934)">&gt;</hi>
+</item>
+<item>
+<hi rend="color(292934)">CLARIN License Category Calculator </hi>
+<hi rend="italic color(292934)">&lt;</hi>
+<ref target="https://www.clarin.eu/content/license-categories">
+<hi rend="italic color(1155CC)">https://www.clarin.eu/content/license-categories</hi>
+</ref>
+<hi rend="italic color(292934)">&gt;</hi>
+</item>
+<item>
+<hi rend="color(292934)">Licentia License Tool </hi>
+<hi rend="italic color(292934)">&lt;</hi>
+<ref target="http://licentia.inria.fr/">
+<hi rend="italic color(1155CC)">http://licentia.inria.fr/</hi>
+</ref>
+<hi rend="italic color(292934)">&gt;</hi>
+</item>
+<item>
+<hi rend="color(292934)">ELRA License Wizard </hi>
+<hi rend="italic color(292934)">&lt;</hi>
+<ref target="http://wizard.elda.org/">
+<hi rend="italic color(1155CC)">http://wizard.elda.org/</hi>
+</ref>&gt;
+                    </item>
+<item>Public License Selector &lt;
+                        <ref target="https://ufal.github.io/public-license-selector/">
+<hi rend="color(1155CC)">https://ufal.github.io/public-license-selector/</hi>
+</ref>&gt;
+                    </item>
+</list>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ablauf</head>
+<p>10.00 Uhr: Einleitung </p>
+<p>10.15 Uhr: Vorstellung der Lizenzmodelle</p>
+<list type="unordered">
+<item>Lizenzen für geisteswissenschaftliche Inhalte (Joachim Losehand/Seyavash Amini)</item>
+<item>Free/Open Source Software Licensing (Paweł Kamocki)</item>
+<item>Diskussion</item>
+</list>
+<p>11.45 Uhr: Pause</p>
+<p>13.00 Uhr: Beispielprojekte</p>
+<list type="unordered">
+<item>Lizenzierungsmodelle in CLARIN (Andreas Witt)</item>
+<item>Das Geisteswissenschaftliche Asset Management-System GAMS: Objekte, Digitalisate und Vervielfältigung (Walter Scholger)  
+                        <hi rend="apple-tab-span"> </hi>
+</item>
+<item>Internationale Werke: Lizenzierung des Abstractbands der TEI-Konferenz 2016 (Vanessa Hannesschläger)</item>
+<item>Diskussion</item>
+</list>
+<p>14.30 Uhr: Pause</p>
+<p>15.00 Uhr: hands-on: select your license</p>
+<list type="unordered">
+<item>Einführung: Lizenzierungstools (Walter Scholger)</item>
+<item>Offene Diskussion &amp; Beratungsrunde: Konkrete Beispiele aus dem Publikum</item>
+</list>
+<p>17.00 Uhr: Ende</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Benötigte Infrastruktur, Teilnehmende</head>
+<p>Erwartet wird ein großes Publikum, da der Workshop konkrete Beratung für individuelle Projekte vorsieht. Um jedoch einen lebendigen Austausch garantieren zu können, möchten wir die Zahl der Teilnehmenden auf 40 Personen beschränken.</p>
+<p>Teilnehmende werden gebeten, ihre eigenen Laptops mitzubringen.</p>
+<p>Benötigt wird ein Raum für 40 Personen mit WLAN und einem Beamer; ein zusätzlicher Computer mit Bildschirm &amp; installiertem Skype (für die Zuschaltung von Seyavash Amini) wäre wünschenswert.</p>
+<p>Eine Mittagspause von 11.45-13.00 Uhr und eine Kaffeepause von 14.30-15.00 Uhr ist geplant. Sollte für die Mittagspause keine Verpflegung verfügbar sein, werden die Teilnehmenden gebeten, sich selbst zu versorgen. Kaffee und Getränke in der Kaffeepause wären wünschenswert.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Beitragende</head>
+<p>Vanessa Hannesschläger &lt;
+                    <hi rend="color(1155CC)">vanessa.hannesschlaeger@oeaw.ac.at</hi>&gt;
+                </p>
+<p>studierte Germanistik in Wien. Sie ist wissenschaftliche Mitarbeiterin des Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften (ACDH-ÖAW) und dort für Rechts- und Lizenzierungsfragen zuständig. Schon im Rahmen eines vorangegangenen Forschungsprojekts am Literaturarchiv der Österreichischen Nationalbibliothek beschäftigte sie sich mit praktischen Fragen des Urheberrechts. Mitarbeit in CLARIN (CLARIN PLUS) und DARIAH (WG Thesaurus Maintenance). Zu ihren Forschungsinteressen gehören digitales Edieren, Text- und Datenmodellierung, das Archiv im digitalen Kontext, Vermittlungsstrategien in den DH sowie digitale Infrastrukturen.</p>
+<p>Joachim Losehand &lt;
+                    <hi rend="color(1155CC)">joachim@losehand.at</hi>&gt;
+                </p>
+<p>ist Kulturhistoriker und studierte u.a. Klassische Archäologie, Alte Geschichte und Altertumswissenschaften in Tübingen, München und Wien. Zwischen 2003 und 2006 war er wissenschaftlicher Lektor und Redakteur, seit 2006 ist er Lehrbeauftragter und Lektor an Universitäten in Bremen, Oldenburg und Wien. 2009/10 war er Mitglied der Lenkungsgruppe im Aktionsbündnis „Urheberrecht für Bildung und Wissenschaft“, seit 2013 ist er Projektkoordinator und Referent für Urheberrecht u.a. im Verband Freier Radios Österreich (VFRÖ) sowie Projektleiter Science Commons bei creative commons Austria.</p>
+<p>Paweł Kamocki &lt;
+                    <hi rend="color(1155CC)">kamocki@ids-mannheim.de</hi>&gt;
+                </p>
+<p>verfügt sowohl im Bereich des Rechts als auch im Bereich der Sprachwissenschaften über breites Fachwissen; derzeit ist er wissenschaftlicher Mitarbeiter am Institut für Deutsche Sprache in Mannheim und Lehr- und Forschungsassistent an der Descartes Universität in Paris und promoviert zu den rechtlichen Fragestellungen der Open Science. Er ist Mitglied des CLARIN Legal Issues Committee und arbeitete als rechtlicher Berater in zahlreichen anderen Projekten und Arbeitsgruppen (z.B. EUDAT, RDA, OpenMinTeD). Neben Urheberrecht und Datenschutz gilt sein Interesse auch den Sprachwissenschaften (insb. rechtliche Fachsprache).</p>
+<p>Walter Scholger &lt;
+                    <hi rend="color(1155CC)">walter.scholger@uni-graz.at</hi>&gt;
+                </p>
+<p>studierte Geschichte und Angewandte Kulturwissenschaften in Graz und Maynooth und ist administrativer Leiter des Zentrums für Informationsmodellierung - Austrian Centre for Digital Humanities an der Universität Graz. In Projekten, internationalen Workshops und universitärer Lehre widmet er sich rechtlichen Aspekten des digitalen Kulturerbes und Fragen offener digitaler Publikationsformen.</p>
+<p>Er ist Mitglied in facheinschlägigen Arbeitsgruppen der Digital Humanities Dachverbände und internationaler Projekte (ADHO, DHd, ICARUS, DARIAH) zu rechtlichen Aspekten, digitalen Publikationen und Lehre im Bereich der Digital Humanities.</p>
+<p>Andreas Witt &lt;
+                    <hi rend="color(1155CC)">witt@ids-mannheim.de</hi>&gt;
+                </p>
+<p>leitet den Programmbereich Forschungsinfrastrukturen am Institut für Deutsche Sprache in Mannheim und ist Honorarprofessor für Digital Humanities an der Universität Heidelberg. Seine Forschungsinteressen konzentrieren sich auf die Texttechnologie, die Digital Humanities, die Informationsmodellierung und Auszeichnungssprachen. Bei CLARIN-D ist er für die Arbeitsgruppe zu juristischen und ethischen Fragen beim Umgang mit digitalen Sprachressourcen verantwortlich.</p>
+<p>Seyavash Amini &lt;
+                    <hi rend="color(1155CC)">amini@ivocat.de</hi>&gt;
+                </p>
+<p>ist Rechtsberater der Universitätsbibliothek Wien, Teamleiter des Clusters E - “Legal and Ethical Issues” im Projekt 
+                    <hi rend="italic">e-Infrastructures Austria</hi>, Berater der Geschäftsleitung einer Gruppe von Medienunternehmen in Hannover sowie Lehrbeauftragter an den Universitäten Wien und Hannover. Er beschäftigt sich mit Fragen des Informations-, Immaterialgüter-, Medien- und Datenschutzrechts. Im Rahmen der jüngsten Novelle des österreichischen Urheberrechts hat der Gesetzgeber einen von Seyavash Amini mitgestalteten Formulierungsvorschlag aufgegriffen und umgesetzt. Er wird sich per Skype zum Workshop zuschalten.
+                </p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Amini, Seyavash / Blechl, Guido / Losehand, Joachim</hi> (2015): 
+                        <hi rend="italic">FAQs zu Creative-Commons-Lizenzen unter besonderer Berücksichtigung der Wissenschaft</hi>
+<ref target="https://phaidra.univie.ac.at/view/o:408042">https://phaidra.univie.ac.at/view/o:408042</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold italic">Creative Commons</hi>.
+                        <ref target="https://creativecommons.org/about/">https://creativecommons.org/</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold italic">DiPP - Digital Peer Publishing</hi>.
+                        <ref target="http://www.dipp.nrw.de/">http://www.dipp.nrw.de/</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Kamocki, Paweł / Ketzan, Erik</hi> (2014): 
+                        <hi rend="italic">Creative Commons and Language Resources: General Issues and What’s New in CC 4.0</hi>.
+                        CLARIN Legal Issues Committee: White Paper Series
+                        <ref target="http://clarin-d.de/images/legal/CLIC_white_paper_1.pdf">http://clarin-d.de/images/legal/CLIC_white_paper_1.pdf</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Kamocki, Paweł / Ketzan, Erik / Witt, Andreas</hi> (2016):
+                        „Lizenzauswahlwerkzeuge für die digitalen Geisteswissenschaften“,
+                        in:
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 336–337 
+                        <ref target="http://dhd2016.de/boa.pdf">http://dhd2016.de/boa.pdf</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Klimpel, Paul</hi> (2013): 
+                        <hi rend="italic">Free knowledge thanks to creative commons licenses: Why a non-commercial clause often won’t serve your needs</hi>.
+                        Wikimedia Deutschland / iRights.info / CC DE.
+                        <ref target="https://www.wikimedia.de/w/images.homepage/1/15/CC-NC_Leitfaden_2013_engl.pdf">https://www.wikimedia.de/w/images.homepage/1/15/CC-NC_Leitfaden_2013_engl.pdf</ref> [letzter Zugriff 25. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Klimpel, Paul / Weitzmann, John H.</hi> (2015): 
+                        <hi rend="italic">Forschen in der digitalen Welt. Juristische Handreichung für die Geisteswissenschaften</hi>.
+                        DARIAH-DE Working papers 12
+                        <ref target="https://irights.info/wp-content/uploads/2015/08/Forschen-in-der-digitalen-Welt-Juristische-Handreichung-Geisteswissenschaften-dwp-2015-12.pdf">https://irights.info/wp-content/uploads/2015/08/Forschen-in-der-digitalen-Welt-Juristische-Handreichung-Geisteswissenschaften-dwp-2015-12.pdf</ref>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-SCHUL" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Maßnahmen zur digitalen Nachhaltigkeit in Langzeitprojekten – Das Beispiel <hi rend="italic">Capitularia</hi></title>
+<author>
+<persName>
+<surname>Schulz</surname>
+<forename>Daniela</forename>
+</persName>
+<affiliation>Bergische Universität Wuppertal; Universität zu Köln</affiliation>
+<email>schulzd1@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Fischer</surname>
+<forename>Franz</forename>
+</persName>
+<affiliation>Cologne Center for eHumanities</affiliation>
+<email>franz.fischer@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Geißler</surname>
+<forename>Nils</forename>
+</persName>
+<affiliation>Cologne Center for eHumanities</affiliation>
+<email>nils.geissler@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Gödel</surname>
+<forename>Martina</forename>
+</persName>
+<affiliation>Cologne Center for eHumanities</affiliation>
+<email>mgoedel@uni-koeln.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-28T15:00:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term></term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Langzeitprojekt</term>
+<term>Nachhaltigkeit</term>
+<term>Maßnahmen</term>
+<term>digitale Edition</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Programmierung</term>
+<term>Modellierung</term>
+<term>Archivierung</term>
+<term>Projektmanagement</term>
+<term>Webentwicklung</term>
+<term>Organisation</term>
+<term>Konservierung</term>
+<term>Bibliographie</term>
+<term>Manuskript</term>
+<term>Metadaten</term>
+<term>Forschungsergebnis</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Bei der Planung und Durchführung von langfristigen (Editions-)Projekten stellen sich hinsichtlich der Nachhaltigkeit besondere Herausforderungen, da sich die technischen Entwicklungen der nächsten Jahre und Jahrzehnte eben nur bedingt vorausahnen lassen. Gerade in der Anfangsphase müssen aber bereits zahlreiche, oftmals richtungsweisende Entscheidungen getroffen werden, die den zukünftigen Erfolg oder Misserfolg, potenziell auftretende Probleme und Lösungsmöglichkeiten determinieren. Allerdings scheint es auch überhaupt nur in Projekten mit langer Laufzeit möglich, jenseits von reinen Willensbekundungen umfassende Strategien zur Nachhaltigkeit zu entwickeln und entsprechende Maßnahmen zu ergreifen. Damit leitet sich gleichzeitig die Pflicht ab, dies auch zu tun.</p>
+<p>Am Beispiel des Projektes 
+                <hi rend="italic">Capitularia</hi>, einem Langzeitprojekt (2014-2029), welches mit einer Hybrid-Edition frühmittelalterlicher Herrschererlasse befasst ist, sollen die verschiedenen Ebenen digitaler Nachhaltigkeit, damit verbundene Herausforderungen sowie erste Lösungsansätze präsentiert werden. Der von uns vorgeschlagene und in Teilen bereits umgesetzte Maßnahmenkatalog betrifft die Ebenen
+            </p>
+<list type="unordered">
+<item>Datenmodellierung und Textauszeichnung,</item>
+<item>Datenhaltung und Dokumentation,</item>
+<item>Infrastrukturen (technisch und institutionell),</item>
+<item>Webseite und verwendete (Web-)Technologien, </item>
+<item>Präsentation, Zugänglichkeit und Nachnutzbarkeit der Forschungsergebnisse.</item>
+</list>
+<p>Bei der 
+                <hi rend="bold">Textauszeichnung </hi>sollte auf etablierte Standards zurückgegriffen werden, um die programm- und plattformunabhängige Weiterverarbeitung der Daten langfristig zu gewährleisten. Bei 
+                <hi rend="italic">Capitularia</hi> werden Transkriptionen, Handschriftenbeschreibungen, Register und bibliographische Daten gemäß der im Projekt erarbeiteten Richtlinien in 
+                <hi rend="italic">TEI-XML</hi> codiert und durch ein den projektspezifischen Anforderungen angepasstes, restriktives Schema sowie den Einsatz von 
+                <hi rend="italic">Schematron</hi> (ISO/IEC 19757-3) kontrolliert, um damit über die gesamte Projektlaufzeit hinweg und auch bei wechselndem Personal die Konsistenz und Einheitlichkeit und damit die Qualität der erstellten Daten zu sichern. (Hedler u.a. 2011: 11-12)
+            </p>
+<p>Dies bedingt von Beginn an eine 
+                <hi rend="bold">umfassende Dokumentation</hi>, die nicht nur z.B. in Form eines Wikis vor allem für interne Zwecke verwendet wird, sondern auch möglichst viele Informationen öffentlich zugänglich macht, so dass andere Projekte von den Erfahrungen profitieren können. Die Entwicklung und Rationalisierung von Arbeitsprozessen sowie deren genaue Darlegung gewährleisten dabei neuen Mitarbeitern einen möglichst einfachen Einstieg. Für die öffentliche Dokumentation bieten sich neben der eigenen Projektwebseite beispielsweise Dienste wie 
+                <hi rend="italic">GitHub</hi> an, auf denen gleichzeitig eine 
+                <hi rend="bold">transparente Datenhaltung</hi> mit Versionierung möglich ist, und auch eigene technische Entwicklungen einfach zur Nachnutzung bereitgestellt werden können. Dies alles setzt natürlich die Verwendung entsprechender 
+                <hi rend="italic">Open Access</hi> Lizenzen voraus.
+            </p>
+<p>Die 
+                <hi rend="bold">Sicherung der Langzeitverfügbarkeit</hi> einer Ressource lässt sich generell nur durch eine entsprechende 
+                <hi rend="bold">technische Infrastruktur</hi> (Daten-, Kompetenz-, Rechenzentren) in Kombination mit 
+                <hi rend="bold">institutioneller Anbindung</hi> (Universitäten, Forschungsbibliotheken, kulturbewahrende Institutionen) gewährleisten. (Wissenschaftsrat 2011) Zu unterscheiden ist dabei zwischen der langfristigen Archivierung und Vorhaltung der Forschungsdaten und dem möglichst langen Erhalt der Webressource insgesamt, die ja ebenfalls mit allen Funktionalitäten über die Projektlaufzeit hinaus verfügbar sein soll. (Oßwald u.a. 2012: 13-15) Die Voraussetzungen in Köln erscheinen ideal, da dem Projekt mit dem 
+                <hi rend="italic">CCeH</hi> ein im Bereich der DH ausgewiesener technischer Partner zur Verfügung steht, der durch enge Kooperation mit weiteren universitären Einrichtungen wie dem 
+                <hi rend="italic">Data Center for the Humanities</hi> und dem Kölner Rechenzentrum, ideale strukturelle Voraussetzungen für Aufbau und langfristige Erhaltung digitaler Ressourcen schaffen konnte. Zusätzlich nimmt das 
+                <hi rend="italic">Capitularia</hi>-Projekt auch am Webarchivierungsprogramm der Bayerischen Staatsbibliothek teil.
+            </p>
+<p>Für die Webpräsentation wurden in enger Zusammenarbeit mit dem technischen Partner 
+                <hi rend="bold">geeignete (open source) Technologien</hi> ausgewählt, deren zukünftiger Erhalt sowie deren Weiterentwicklung von einer breiten Community getragen werden, und die sich in anderen Projekten bereits bewährt haben. Im Fall von 
+                <hi rend="italic">Capitularia</hi> wird aktuell das PHP-basierte Content Management System 
+                <hi rend="italic">WordPress</hi> zur Verwaltung der Webpräsenz verwendet. Dabei werden die Standardfeatures (Blog, Suche, Mehrsprachigkeit etc.) möglichst breit genutzt und vereinzelt um weitere Eigenentwicklungen ergänzt, die insbesondere den Bereich des XSLT-Pipelining betreffen. Diese im Kontext des Projektes entwickelten 
+                <hi rend="italic">Plugins</hi> sollen auch der Nachnutzung durch andere Projekte zur Verfügung stehen. WordPress erfüllt durch die freie Zugänglichkeit des Quellcodes, der aktiven und heterogenen Entwickler-Gemeinschaft, des Ökosystems, welches sich um diese Software etabliert hat, sowie der verwendeten Lizenzmodells wichtige Voraussetzungen digitaler Nachhaltigkeit. (Stürmer 2015, S. 36-37) Die bewusst gewählten 
+                <hi rend="italic">low-tech</hi>-Lösungen gewährleisten weiterhin langfristig die leichte Wartbarkeit des Systems sowie plattform- und auch personelle Unabhängigkeit. Bei Bedarf könnte somit ohne größere Probleme auf ein anderes Präsentationsframework umgezogen werden.
+            </p>
+<p>Die 
+                <hi rend="bold">Präsentation der Forschungsergebnisse</hi> findet auf mehreren Ebenen statt. Die angefertigten Transkriptionen werden zusammen mit weiteren Materialien projektbegleitend auf der Webseite veröffentlicht. Die Inhalte sind dort über Permalinks adressierbar und die zugrunde liegenden Daten (
+                <hi rend="italic">XML</hi>) stehen zum Download bereit. Um die Nachnutzung der Daten weiter zu erleichtern, ist die Implementierung von Schnittstellen (z.B. REST) vorgesehen.
+                <ref n="1" target="poster-SCHULftn1" type="note">1</ref> Die kritische Edition erscheint in Druckfassung in der 
+                <hi rend="italic">Leges</hi>-Reihe der 
+                <hi rend="italic">Monumenta Germaniae Historica</hi> und wird somit auch langfristig über deren Online-Angebot (dMGH) verfügbar sein. Vorabversionen der kritischen Editionstexte werden aber bereits zeitnah in digital aufbereiteter Form auf der Webpräsenz zur Verfügung gestellt. 
+            </p>
+<p>Wenn auch finanzielle Ausstattung und Laufzeit von Projekten und damit auch deren Handlungsmöglichkeiten hinsichtlich Nachhaltigkeitsstrategien durchaus unterschiedlich sind, so erscheinen doch die Bereiche, in denen Maßnahmen getroffen werden können, allgemeingültig zu sein. Mit den hier vorgestellten Ansätzen soll ein aktiver und vor allem praxisorientierter Beitrag zur Diskussion um digitale Nachhaltigkeit geleistet werden.</p>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="poster-SCHULftn1"> Die freie Bereitstellung von im Rahmen von Digitalen Editionen entstandenen (XML-)Daten lässt aktuell noch zu wünschen übrig. Nur durch diese wird aber Nachnutzung und damit integrative und innovative Forschung erst ermöglicht. (Turska u.a. 2016: 1) Technische Schnittstellen können die Nachnutzung befördern und stellen daher ein Kriterium einer aktuellen Ansprüchen genügenden digitalen Edition dar. (Sahle u.a. 2014). </note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Hedler, Marko / Montero Pineda, Manuel / Kutscherauer, Nico</hi> (2011):
+                        <hi rend="italic">Schematron. Effiziente Business Rules für XML-Dokumente</hi>.
+                        Heidelberg: dpunkt-Verlag.
+                    </bibl>
+<bibl>
+<hi rend="bold">Oßwald, Achim / Scheffel, Regine / Neuroth, Heike</hi> (2012):
+                        „Langzeitarchivierung von Forschungsdaten. Einführende Überlegungen“, 
+                        in: Neuroth, Heike / Strathmann, Stefan / Oßwald, Achim / Scheffel, Regine / Klump, Jens / Ludwig, Jens (eds.): 
+                        <hi rend="italic">Langzeitarchivierung von Forschungsdaten: Eine Bestandsaufnahme</hi>.
+                        Boizenburg: Verlag Werner Hülsbusch 13–23 
+                        <ref target="http://www.nestor.sub.uni-goettingen.de/bestandsaufnahme/nestor_lza_forschungsdaten_bestandsaufnahme.pdf">http://www.nestor.sub.uni-goettingen.de/bestandsaufnahme/nestor_lza_forschungsdaten_bestandsaufnahme.pdf</ref> [letzter Zugriff 9. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Sahle, Patrick / Vogeler, Georg / IDE </hi>(eds.) (2014):
+                        <hi rend="italic">Kriterien für die Besprechung digitaler Editionen</hi>. Version 1.1 Juni 2014 
+                        <ref target="http://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/">http://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/</ref> [letzter Zugriff 12. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Stürmer, Matthias</hi> (2015):
+                        „Wann sind Open Source Projekte digital nachhaltig?“,
+                        in: swissICT und Swiss Open Systems User Group (eds.):
+                        <hi rend="italic">Open Source Studie: Schweiz 2015</hi> 36–37 
+                        <ref target="http://www.swissict.ch/fileadmin/customer/Publikationen/OSS-Studie2015.pdf">http://www.swissict.ch/fileadmin/customer/Publikationen/OSS-Studie2015.pdf</ref> [letzter Zugriff 9. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Turska, Magdalena / Cummings, James / Rahtz, Sebastian</hi> (2016):
+                        „Challenging the Myth of Presentation in Digital Editions“,
+                        in: 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 9
+                        <ref target="http://jtei.revues.org/1453">http://jtei.revues.org/1453</ref> [letzter Zugriff 12. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Wissenschaftsrat</hi> (ed.) (2012); 
+                        <hi rend="italic">Empfehlungen zur Weiterentwicklung der wissenschaftlichen Informationsstrukturen in Deutschland bis 2020</hi>. 
+                        Drs. 2359-12. 
+                        Berlin 
+                        <ref target="http://www.wissenschaftsrat.de/download/archiv/2359-12.pdf">http://www.wissenschaftsrat.de/download/archiv/2359-12.pdf</ref> [letzter Zugriff 09. November 2016].
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -19,65 +19,44 @@ def readable_file(prospective_file: str) -> str:
     return prospective_file
 
 
-def create_bundles_metadata(publications_metadata: ET.Element, publication_bundles: dict) -> None:
+def create_bundles_metadata(pub: ET.Element, bundle_path: str) -> None:
 
     data = {}
-    for (publication, bundle_path) in publication_bundles.items():
-        for pub in publications_metadata:
-            if pub.find("title").text == publication:
-                if pub.find("doi").text:
-                    data = {"metadata": {"upload_type": pub.find("upload_type").text,
-                                         "publication_type": pub.find("publication_type").text,
-                                         "publication_date": pub.find("publication_date").text,
-                                         "title": pub.find("title").text,
-                                         "creators": [{"name": creator.find("name").text,
-                                                      "affiliation": creator.find("affiliation").text
-                                                       } for creator in pub.findall("creators/creator")],
-                                         "description": pub.find("description").text,
-                                         "access_right": pub.find("access_right").text,
-                                         "license": pub.find("license").text,
-                                         "doi": pub.find("doi").text,
-                                         "keywords": [keyword.replace("\"", "") for keyword in
-                                                      pub.find("keywords").text.split(", ")],
-                                         "contributors": [{"name": contributor.find("name").text,
-                                                          "affiliation": contributor.find("affiliation").text,
-                                                           "type": contributor.find("type").text
-                                                           } for contributor in pub.findall("contributors/contributor")],
-                                         "communities": [{"identifier": community.text
-                                                          } for community in pub.findall("communities/identifier")],
-                                         "conference_title": pub.find("conference_title").text,
-                                         "conference_acronym": pub.find("conference_acronym").text,
-                                         "conference_dates": pub.find("conference_dates").text,
-                                         "conference_place": pub.find("conference_place").text,
-                                         "conference_url": pub.find("conference_url").text
-                                         }
-                            }
-                else: 
-                    data = {"metadata": {"upload_type": pub.find("upload_type").text,
-                                         "publication_type": pub.find("publication_type").text,
-                                         "publication_date": pub.find("publication_date").text,
-                                         "title": pub.find("title").text,
-                                         "creators": [{"name": creator.find("name").text,
-                                                      "affiliation": creator.find("affiliation").text
-                                                       } for creator in pub.findall("creators/creator")],
-                                         "description": pub.find("description").text,
-                                         "access_right": pub.find("access_right").text,
-                                         "license": pub.find("license").text,
-                                         "doi": "",
-                                         "keywords": [keyword.replace("\"", "") for keyword
-                                                      in pub.find("keywords").text.split(", ")],
-                                         "contributors": [{"name": contributor.find("name").text,
-                                                          "affiliation": contributor.find("affiliation").text,
-                                                           "type": contributor.find("type").text
-                                                           } for contributor in pub.findall("contributors/contributor")],
-                                         "communities":[{"identifier": community.text
-                                                         } for community in pub.findall("communities/identifier")],
-                                         "conference_title": pub.find("conference_title").text,
-                                         "conference_acronym": pub.find("conference_acronym").text,
-                                         "conference_dates": pub.find("conference_dates").text,
-                                         "conference_place": pub.find("conference_place").text,
-                                         "conference_url": pub.find("conference_url").text
-                                         }
-                            }
-        with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
-            json.dump(data, outfile)
+    try: 
+        keywords = [keyword.replace("\"", "") for keyword in
+                    pub.find("keywords").text.split(", ")]
+    except AttributeError: 
+        keywords = []
+
+    if pub.find("doi").text:
+        doi = pub.find("doi").text
+    else:
+        doi = ""
+    data = {"metadata": {"upload_type": pub.find("upload_type").text,
+                        "publication_type": pub.find("publication_type").text,
+                        "publication_date": pub.find("publication_date").text,
+                        "title": pub.find("title").text,
+                        "creators": [{"name": creator.find("name").text,
+                                    "affiliation": creator.find("affiliation").text
+                                    } for creator in pub.findall("creators/creator")],
+                        "description": pub.find("description").text,
+                        "access_right": pub.find("access_right").text,
+                        "license": pub.find("license").text,
+                        "doi": doi,
+                        "keywords": keywords,
+                        "contributors": [{"name": contributor.find("name").text,
+                                        "affiliation": contributor.find("affiliation").text,
+                                        "type": contributor.find("type").text
+                                        } for contributor in pub.findall("contributors/contributor")],
+                        "communities": [{"identifier": community.text
+                                        } for community in pub.findall("communities/identifier")],
+                        "conference_title": pub.find("conference_title").text,
+                        "conference_acronym": pub.find("conference_acronym").text,
+                        "conference_dates": pub.find("conference_dates").text,
+                        "conference_place": pub.find("conference_place").text,
+                        "conference_url": pub.find("conference_url").text
+                        }
+            }
+   
+    with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
+              json.dump(data, outfile)

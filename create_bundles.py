@@ -63,9 +63,14 @@ def main(argv):
     publication_bundles = create_bundles(conference, publication_pdfs, publication_xmls)
     
     # create json metadata file for each bundle based on metadata for publication
-    general_functions.create_bundles_metadata(publications_metadata, publication_bundles)
+    pub_overview = {os.path.basename(path):"" for path in  publication_bundles.values()}
+    for (publication, bundle_path) in publication_bundles.items():
+        for pub in publications_metadata:
+            if pub.find("title").text == publication:
+                pub_overview[os.path.basename(bundle_path)] = pub.find("title").text
+                general_functions.create_bundles_metadata(pub, bundle_path)
 
-    create_csv(os.path.basename(conference))
+    create_csv(os.path.basename(conference), pub_overview)
     logging.info(f"Bundle structure for conference {conference_name} has been created under "
                  f"'bundle_structures/{conference_name}'.")
 
@@ -180,7 +185,6 @@ def get_publication_files(publication_names: dict, file_dir) -> dict:
     file_names = [os.path.splitext(file_name)[0] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"]
     file_names.sort()
     file_names_to_compare = {re.sub(r'[0-9]{3}_final-', '', name): name for name in file_names}
-    # print(file_names_to_compare)
     publication_files = {}
     last_elem = ()
     counter = 0
@@ -273,20 +277,21 @@ def create_bundles(conference, publication_pdfs: dict, publication_xmls: dict) -
     list_of_defective_dirs = [dirpath for (dirpath, dirs, files) in os.walk(bundle_path)
                               if len(dirs) == 0 and len(files) != 2]
     if len(list_of_defective_dirs) != 0:
-        logging.warning(f"The following directories do not contain two files: {list_of_defective_dirs}")
+        print(f"The following directories do not contain two files: {list_of_defective_dirs}")
     else:
-        logging.info("All directories have been created and contain two files. Continue..")
+        print("All directories have been created and contain two files. Continue..")
     return publication_paths
 
-def create_csv(conference:str):
+def create_csv(conference:str, metadata_titles:dict):
     # safe ordered files and titles in csv file
     bundles_overview = []
     for bundle in os.listdir(os.path.join("bundle_structures", conference)):
+        title_in_metadata = metadata_titles[bundle]
         bundle_publications = os.listdir(os.path.join("bundle_structures", conference, bundle, "bundle_publications"))
-        data = [bundle] + bundle_publications
+        data = [title_in_metadata] + [bundle] + bundle_publications
         bundles_overview.append(data)
 
-    df = pd.DataFrame(data=bundles_overview, index = None, columns=["Bundle Name", "Pdf file", "XML file"])
+    df = pd.DataFrame(data=bundles_overview, index = None, columns=["Title in metadata", "Bundle name", "Pdf file", "XML file"])
     df.to_csv('support/' + conference + ".csv", header=True)
 
 

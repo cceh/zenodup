@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-GRUEN" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main"> Nachhaltige Konzeptionsmethoden für Digital Humanities Projekte am Beispiel der Goethe-PROPYLÄEN</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Kasper</surname>
+<forename>Dominik</forename>
+</persName>
+<affiliation>Akademie der Wissenschaften und der Literatur, Deutschland</affiliation>
+<email>dominik.kasper@adwmainz.de</email>
+</author>
+<author>
+<persName>
+<surname>Grüntgens</surname>
+<forename>Max</forename>
+</persName>
+<affiliation>Akademie der Wissenschaften und der Literatur, Deutschland</affiliation>
+<email>max.gruentgens@adwmainz.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T14:01:58</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Domain Driven Design</term>
+<term>Behaviour Driven Development</term>
+<term>Akademienprogramm</term>
+<term>Goethes Biographica</term>
+<term>Langzeitforschungsvorhaben</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Kommunikation</term>
+<term>Projektmanagement</term>
+<term>Organisation</term>
+<term>Daten</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Software</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Vor dem Hintergrund des Akademievorhabens 
+                <hi rend="italic">PROPYLÄEN. Forschungsplattform zu Goethes Biographica</hi> werden zwei aktuelle Konzeptionsmethoden aus dem Bereich des Software-Engineering vorgestellt, die sich unserer Erfahrung nach als geeignete Grundlage für nachhaltige Konzeptionsprozesse in Digital Humanities Projekten erwiesen haben: 
+                <hi rend="italic">Domain Driven Design</hi> sowie 
+                <hi rend="italic">Behaviour Driven Development</hi>. Zunächst erfolgt ein Überblick über Aspekte digitaler Nachhaltigkeit bei der Beantragung geisteswissenschaftlicher Langzeitvorhaben im Akademienprogramm.
+            </p>
+<p>Die PROPYLÄEN sindein 2015 im Akademienprogramm gestartetes Forschungsvorhaben der Klassik Stiftung Weimar, der Sächsischen Akademie der Wissenschaften zu Leipzig und der Akademie der Wissenschaften und der Literatur Mainz (
+                <ref target="http://www.goethe-biographica.de/">http://www.goethe-biographica.de</ref>). Geplant ist bei einer Gesamtlaufzeit von 25 Jahren Fortführung und Abschluss von vier (Print-)Publikationsreihen: Die Editionen der Briefe von sowie an Goethe, seine Tagebücher und die Zeugnisse seiner Begegnungen und Gespräche. Die gleichzeitig entstehende Forschungsplattform wird sukzessive alle Biographica in einer technisch und inhaltlich offenen Infrastruktur bereitstellen sowie Recherchezugänge und Visualisierungen auf den Datenbestand anbieten.
+            </p>
+<p>Eine Voraussetzung für die Aufnahme eines Neuvorhabens in das Akademienprogramm ist ein ausgearbeitetes Digitalisierungskonzept, zu dem unter anderem eine Strategie zur Langzeitarchivierung und Langzeitverfügbarkeit der Forschungsergebnisse gehört (Vgl. Herrmann 2016: 9). Häufig konzentriert sich dieses auf eine enge Definition von Forschungsdaten, die unter diesem Begriff lediglich edierten Text versteht. Im Falle einer Forschungsplattform wie der PROPYLÄEN sind nicht nur die in der Datenschicht – Faksimiles, Editionstext, kurz die Gesamtheit der digitalen Forschungsdaten – befindlichen Komponenten für eine nachhaltige und langfristige Bereitstellung vorzusehen (zu Archivierungsschicht und Präsentationsschicht vgl. Pempe 2012: 141). Daneben sollte auch die Auswahl geeigneter Technologien ein Teil der Antragsstrategie sein. Unter Technologie sei alles vom Datenformat über ein Content-Management-System bis zur virtuellen Forschungsumgebung verstanden.
+                <hi rend="italic"> </hi>Angesichts des Verhältnisses zwischen langfristiger Projektförderung – die Akademienvorhaben werden 12 bis 25 Jahre gefördert – und der technischen Entwicklung ist die Vorstellung der einmaligen Einrichtung einer digitalen Arbeitsumgebung und Publikationsplattform am Anfang der Projektlaufzeit, welche daraufhin für 25 Jahre verwendet würde, nur mit begleitender Wartung und Weiterentwicklung denkbar. Wird das gewählte Datenformat in 30 Jahren noch maschinenlesbar sein? Absolute Sicherheit gibt es in diesem Fall nicht, aber allgemein gilt die Verwendung von (semistrukturierten) Rein-Textformaten – wie XML nach TEI – gegenüber proprietären Formaten als nachhaltiger.
+            </p>
+<p>Der 
+                <hi rend="italic">Mehrwert der elektronischen Fassung</hi> entsteht aber vornehmlich durch neue Verbindungs-, Gruppier-, Sortier-, Filter- und Suchmöglichkeiten, die auf dynamischen Verarbeitungsmechanismen, also auf der Geschäftslogik der Anwendung, basieren. Diese nicht-statischen Elemente, die sich insbesondere in der Präsentationsschicht einer geisteswissenschaftlichen Webanwendung konkretisieren, müssen in ihrer Funktionalität genauso nachvollziehbar und reproduzierbar über das Projektende hinaus zur Verfügung stehen.
+            </p>
+<p>Komplexer als die Datenschicht ist demnach die dauerhafte Erhaltung der Applikationslogik und Präsentationsschicht: Wie kann die webbasierte Verarbeitung von Anfragen und die Wiedergabe von Ergebnissen auch 10 Jahre nach Projektende noch funktionsfähig gehalten werden? Eine aktuell diskutierte Strategie ist die virtuelle Kapselung sämtlicher Softwarekomponenten einer Applikation, die künftig ein Emulieren aller Komponenten auf aktuellen Betriebssystemen ermöglicht (siehe dazu bspw. 
+                <ptr target="http://recomputation.org/"/>). Vorhaben wie die PROPYLÄEN müssen dieser Herausforderung während der Projektlaufzeit begegnen, indem sie eine hohe Flexibilität sowie stete Aktualisierung und Anpassung der Technologien ihrer Infrastruktur in der Grundplanung vorsehen. Um diesen Prozess auf eine transparente Grundlage zu stellen, gilt es bei der informationstechnischen Gestaltung des Forschungsvorhabens eine möglichst 
+                <hi rend="italic">gegenstandsnahe </hi>Abstraktion zu wählen und die Anforderungen an die Software auf 
+                <hi rend="italic">formalisierte</hi> Weise zu dokumentieren. Folgende Annahmen und Schlüsse gehen dieser Überlegung voran:
+            </p>
+<list type="unordered">
+<item>Es wird während der Projektlaufzeit intern wie extern neue Erkenntnisse zu Goethes Zeit und Wirken geben, die unseren Blick auf den Forschungsgegenstand verändern. Dennoch ist es möglich, übergreifende Wissensobjekte zu identifizieren und in Form von informatischen 
+                    <hi rend="italic">Entitäten</hi> abzubilden.
+                </item>
+<item>
+<hi rend="italic">Technologieunabhängige, anwendungsorientierte </hi>und
+                    <hi rend="italic"> allgemeinverständliche</hi> Funktionsbeschreibungen der Forschungsplattform sind formulierbar. Neue Erkenntnisse im Bereich der Goethe-Forschung wie im Bereich der 
+                    <hi rend="italic">usability</hi> werden diese Anforderungen innerhalb der Projektlaufzeit höchstwahrscheinlich verändern.
+                </item>
+</list>
+<p>In der 
+                <hi rend="italic">Konzeptionsphase</hi> einer nachhaltigen digitalen Grundlage für den Daten-, Präsentations- und Applikationsteil der Forschungsplattform PROPYLÄEN sind daher zwei Fragen leitend, deren Beantwortung uns nicht nur für Langzeitvorhaben mit Digital-Humanities-Anteil zentral erscheint (vgl. zu Prozessphasen und zur Konzeption hier und folgend: Schrade 2016: Step 14–21, zur Konzeption Step 17):
+            </p>
+<list type="unordered">
+<item>Wie lassen sich 
+                    <hi rend="italic">Biographica</hi> Goethes für technische und geisteswissenschaftliche Anforderungen nachhaltig modellieren bei gleichzeitiger Bewahrung der Flexibilität in der Anwendungsarchitektur für die Integration gegebenenfalls noch nicht bekannter digitaler Ressourcen?
+                </item>
+<item>Wie lassen sich die funktionalen Anforderungen an eine digitale Rechercheumgebung aus der Fachcommunity
+                    <hi rend="italic"> </hi>nachhaltig formulieren und dokumentieren?
+                </item>
+</list>
+<p>Zur Beantwortung können zwei Konzeptionsmethoden aus dem Bereich des Software-Engineering fruchtbar gemacht werden: 
+                <hi rend="italic">Domain Driven Design (DDD) </hi>(siehe Evans 2003, Vernon 2013)
+                <hi rend="italic"> </hi>und
+                <hi rend="italic"> Behavior Driven Development (BDD) </hi>(siehe North 2016)
+                <hi rend="italic">. </hi>Beiden ist gemein, dass sie unabhängig von Datenformaten, Programmiersprachen oder Präsentationstechnologien operieren.
+            </p>
+<p>
+<hi rend="italic">DDD</hi> nimmt an, dass einem Konzeptions- bzw. Entwicklungsprozess dann die größten Erfolgschancen und daraus resultierend die beste Nachhaltigkeit zukommen, wenn die 
+                <hi rend="italic">virtuellen</hi> Komponenten des informatischen Modells ausgehend von ihren 
+                <hi rend="italic">realen</hi> Entsprechungen gebildet werden. Damit kommt der fachwissenschaftlichen Logik, die sich aus dem Wissen von Domänen-Experten (im Anwendungsfall Goethe-Philologen) und deren Niederlegung in publizierten Editionsbänden ableitet, eine zentrale Rolle für die Modellierung zu. Die Ausmodellierung der Wissensdomäne entsteht iterativ in einem konstanten kommunikativen Prozess aller Projektbeteiligten. 
+                <hi rend="italic">DDD</hi> löst die gängige und nicht optimale Praxis einer ausschließlichen Bedarfsformulierung durch Geisteswissenschaftler und einer darauffolgenden Umsetzung durch Informatiker zugunsten eines gemeinsamen Modellierungsprozesses unter Verwendung einer für alle Beteiligten verständlichen (
+                <hi rend="italic">ubiquitären</hi>) Sprache auf. Dieser im Rahmen eines Projektes von allen Beteiligten zu entwickelnden Sprache liegen eine Reihe von Komponenten für ein Modell der Wissensdomäne (
+                <hi rend="italic">domain model</hi>) zugrunde, das in seiner Gesamtheit alle Eigenschaften, Beziehungen und „Geschäftsprozessen“ der zukünftigen Anwendung abbilden kann. Die wichtigsten Komponenten für die Fachdomäne „PROPYLÄEN“ sind:
+            </p>
+<list type="unordered">
+<item>Objekte mit eigener Identität (
+                    <hi rend="italic">entities)</hi>: Briefe, Faksimiles, Personen, Orte, Werke
+                </item>
+<item>Objekte, die sich über die Gesamtheit ihrer Eigenschaften definieren (
+                    <hi rend="italic">value objects</hi>): Geokoordinaten (Länge-Breite), Datierungen (Anfangs-Enddatum), Korrespondenzvorgang (Sender-Empfänger) etc.
+                </item>
+<item>Die Beziehungen dieser Objekte untereinander (
+                    <hi rend="italic">associations</hi>): Person → erwähnt in: Brief
+                </item>
+<item>Zusammenfassungen von 
+                    <hi rend="italic">entities, value objects </hi>und 
+                    <hi rend="italic">associations </hi>zu
+                    <hi rend="italic"> </hi>Aggregaten
+                    <hi rend="italic"> </hi>(
+                    <hi rend="italic">aggregates</hi>); der Zugriff auf einzelne Komponenten eines Aggregates darf ausschließlich über die Entität an der Aggregat-Wurzel (
+                    <hi rend="italic">aggregate root</hi>) erfolgen. Aggregate gewährleisen logische Konsistenz und funktionale Integrität einer Anwendungs- bzw. Wissensdomäne: Brief (Brieftext, Kommentar, Faksimile, Datierung, im Brief erwähnte Orte und Personen)
+                </item>
+<item>Dienste zwischen Objekten der Wissensdomäne (
+                    <hi rend="italic">services</hi>): Sortiere nach Datum etc.
+                </item>
+</list>
+<p>Die Fachdomäne kann grafisch dargestellt werden. Abbildung 1 dient der Illustration des DDD-Konzepts am Beispiel eines Teils der PROPYLÄEN-Domäne.</p>
+<p>
+<figure>
+<graphic url="vortrag-GRUEN-1000020100000708000004B006640D90.png"/>
+<head>Abbildung 1: Wissensdomäne Goethe PROPYLÄEN</head>
+</figure>Dan Norths Idee des 
+                <hi rend="italic">BDD</hi> ist, Anforderungen an die geplante Applikation in Form von 
+                <hi rend="italic">user stories</hi> und verhaltensorientierten Testszenarien im Vorfeld der Realisierung unter Zuhilfenahme einer ubiquitären Sprache zu beschreiben. Durch die Verwendung von Schlüsselwörtern in formalisierter Notation lässt sich eine einheitliche und leicht verständliche Dokumentation erstellen. Aufgrund starker Nutzerorientierung wird 
+                <hi rend="italic">BDD</hi> im Qualitätsmanagement von Softwareanwendungen zu den 
+                <hi rend="italic">Akzeptanztests</hi> gerechnet (neben Unit-Tests, Funktionstests, Performance-Tests oder manuellen Tests). 
+            </p>
+<p>Abbildung 2 zeigt ein BDD-Testszenario in den Goethe-PROPYLÄEN, das auf Gherkin-Notation basiert (Siehe 
+                <ptr target="https://github.com/cucumber/cucumber/wiki/Gherkin"/>, Stand 26.08.2016). Die Schlüsselwörter 
+                <hi rend="italic">Funktionalität, Beschreibung </hi>
+<hi rend="italic">und </hi>
+<hi rend="italic">Details </hi>enthalten übergeordnete Informationen, während im Bereich der 
+                <hi rend="italic">Szenarios</hi> mit Hilfe der Operatoren 
+                <hi rend="italic">Szenario </hi>
+<hi rend="italic">bzw. Gege</hi>
+<hi rend="italic">ben, Wenn, Dann, Und </hi>einzelne Anforderungen formuliert werden.
+                <hi rend="italic"> </hi>Die Ausführungen können dabei allgemein gehalten werden und lassen sich im späteren Verlauf auffächern.
+            </p>
+<p>
+<figure>
+<graphic url="vortrag-GRUEN-100000000000042800000410B2EA7242.jpg"/>
+<head>Abbildung 2: BDD-Testszenario in Gherkin-Notation</head>
+</figure>Ein Vorteil ist, dass Szenarios durch den Einsatz einer verständlichen, formalisierten Sprache nicht nur gemeinsam zwischen Geisteswissenschaftlern und Informatikern während des Entwicklungsprozess formuliert werden, sondern dass bei syntaktisch korrekter Formulierung diese als Grundlage für automatisierte Testverfahren der Präsentationsschicht einer Webanwendung herangezogen werden können (bspw. mit dem BDD Testing-Framework behat; siehe 
+                <ref target="http://docs.behat.org/">http://docs.behat.org</ref> (Stand 26.08.2016)). BDD ermöglicht somit eine zeit-ökonomische Überprüfung aller Bereiche und Funktionalitäten der Präsentationsschicht bei gleichzeitiger Dokumentation der Funktionalitäten in Reintext und natürlicher Sprache. Änderungen in der technischen Infrastruktur einer Plattform (Softwarewechsel der Datenbankschicht, Einführung neuer Programmroutinen) können mit deutlich gesteigerter Verlässlichkeit im Hinblick auf eine gleichbleibende, dauerhafte Funktion der Webanwendung durchgeführt werden.
+            </p>
+<p>Die gemeinsame Modellierung einer Wissensdomäne mittels DDD und BDD führt notwendigerweise zu intensiver Auseinandersetzung mit allen geistes- wie informationstechnischen Aspekten des Projektes. Dadurch wird projektintern eine kommunikative Ebene entstehen, die eine gemeinsame und unmißverständliche Sprache verwendet und perspektivisch eine verbesserte Tiefenschärfe in Bezug auf funktionale Aspekte der zu realisierenden Forschungsanwendung ermöglicht.</p>
+<p>DDD und BDD helfen als Konzeptionsmethoden, alle gemeinsam getroffenen Entscheidungen über die gesamte Projektlaufzeit transparent und nachvollziehbar zu dokumentieren. Da es sich gleichzeitig im Bezug auf die BDD-Akzeptanztests um „ausführbares Wissen“ handelt, wird eine dauerhafte und gleichbleibende Funktionalität der Präsentationsschicht geisteswissenschaftlicher Webanwendungen gewährleistet. Dies trägt erheblich zu gesteigerter Nachhaltigkeit digitaler Komponenten eines geisteswissenschaftlichen Forschungsprojektes bei.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Evans, Eric</hi> (2003): 
+                        <hi rend="italic">Domain-Driven Design</hi>. Tackling Complexity in the Heart of Software. 
+                        Boston et al.
+                    </bibl>
+<bibl>
+<hi rend="bold">Herrmann, Dieter</hi> (2016): 
+                        „E-Humanties im Akademienprogramm“, 
+                        in: Union der Deutschen Akademien der Wissenschaften (Hrsg.): 
+                        <hi rend="italic">Die Wissenschaftsakademien – Wissensspeicher für die Zukunft. Forschungsprojekte im Akademienprogramm</hi>. 
+                        Berlin / Mainz 9–11.
+                    </bibl>
+<bibl>
+<hi rend="bold">North, Dan</hi> (2016): 
+                        <hi rend="italic">Introducing BDD</hi>. 
+                        <ptr target="https://dannorth.net/introducing-bdd/"/> [letzter Zugriff 26. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Pempe, Wolfgang</hi> (2012): 
+                        „Geisteswissenschaften“, 
+                        in: Neuroth, Heike et al. (eds.): 
+                        <hi rend="italic">Langzeitarchivierung von Forschungsdaten – Eine Bestandsaufnahme</hi>. 
+                        Göttingen 137–159.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schrade, Torsten</hi> (2016): 
+                        <hi rend="italic">Nachhaltige Online-Applikationen in den Geisteswissenschaften – Modellierung und Implementierung</hi>. Vortrag vom 11. April 2016, Hochschule Mainz, 
+                        <ptr target="http://metacontext.github.io/nachhaltige-online-apps/"/> [letzter Zugriff 26. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Vernon, Vaugh</hi> (2013): 
+                        <hi rend="italic">Implementing Domain-Driven Design</hi>. 
+                        Boston et al.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

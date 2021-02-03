@@ -48,7 +48,6 @@ def main(argv):
     # set working paths based on command line arguments
     set_paths(argv[1:])
 
-    # print(pdf_only)
     # set logging
     conference_name = os.path.basename(conference)
     logging.basicConfig(filename='support/' + conference_name + '_bundle.log', filemode='w', level=logging.INFO)
@@ -83,13 +82,12 @@ def main(argv):
         while len(publications) < len(publication_pdfs):
             publications.append('')
 
-        print([os.path.basename(file_path) for file_path in publication_pdfs.keys()])
-        df = pd.DataFrame({"title": publications, 'file name': [os.path.basename(file_path) for file_path in publication_pdfs.keys()], 'title/text from pdf': list(publication_pdfs.values())})
+        df = pd.DataFrame({"title": publications, 'title from pdf': list(publication_pdfs.values()), 'pdf file': [os.path.basename(file_path) for file_path in publication_pdfs.keys()]})
         df.to_csv('support/' + conference_name + ".csv", header=True)
 
-        # create_bundles(conference, publications_metadata, list(publication_pdfs.keys()), [])
+        create_bundles(conference, publications_metadata, list(publication_pdfs.keys()), [])
 
-        logging.info(f"Bundle structure for conference {conference_name} has been created under "
+        print(f"Bundle structure for conference {conference_name} has been created under "
                      f"'bundle_structures/{conference_name}'.")
 
 
@@ -151,7 +149,6 @@ def get_publications(metadata: ET.Element) -> list:
 
     return publications
 
-
 def get_publication_files(file_dir) -> dict:
     # get types of files in given directory
     file_types = set([os.path.splitext(file_name)[1] for file_name in os.listdir(file_dir) if file_name != ".DS_Store"])
@@ -160,10 +157,9 @@ def get_publication_files(file_dir) -> dict:
         raise Exception("The given directory contains files with multiple formats")
     else:
         file_type = list(file_types)[0]
-        # print(file_type)
 
     # get file names
-    files = [os.path.join(file_dir, file) for file in os.listdir(file_dir) if file != ".DS_Store"]
+    files = [os.path.join(file_dir, f) for f in os.listdir(file_dir) if f != ".DS_Store"]
     files.sort()
 
     # get title from file
@@ -171,19 +167,18 @@ def get_publication_files(file_dir) -> dict:
 
     # get titles and creator names of publications
     if file_type == ".xml":
-        for file in files:
-            tree = ET.parse(file)
+        for f in files:
+            tree = ET.parse(f)
             try:
                 title = tree.find(".//TEI:title", namespace).text
             except AttributeError:
-                logging.warning(f"Couldn't extract title from file {file}")
+                logging.warning(f"Couldn't extract title from file {f}")
                 title = ""
-            file_titles.update({file: title})
-            # print(title)
+            file_titles.update({f: title})
 
     elif file_type == ".pdf":
-        for file in files:
-            fd = open(file, "rb")
+        for f in files:
+            fd = open(f, "rb")
             viewer = SimplePDFViewer(fd)
             viewer.navigate(1)
             viewer.render()
@@ -191,10 +186,8 @@ def get_publication_files(file_dir) -> dict:
             new_text = plain_text.replace(
                         "Book of Abstracts zur Konferenz Digital Humanities im deutschsprachigen Raum 2018", "")
             new_text = new_text[:100]
-            file_titles.update({file: new_text})
-            # print(new_text)
+            file_titles.update({f: new_text})
     return file_titles
-
 
 def create_bundles(conference, publications: list, publication_pdfs: list, publication_xmls: list):
     # create directory for conference in bundle structure
@@ -204,9 +197,9 @@ def create_bundles(conference, publications: list, publication_pdfs: list, publi
     except OSError:
         logging.warning("Directory already exists. Continue..")
     counter = 1
-    for file in publication_pdfs:
-        index = publication_pdfs.index(file)
-        file_name = os.path.splitext(os.path.basename(file))[0]
+    for f in publication_pdfs:
+        index = publication_pdfs.index(f)
+        file_name = os.path.splitext(os.path.basename(f))[0]
         if not pdf_only:
             bundle_dir = os.path.join(bundle_path, file_name)
         else:
@@ -216,19 +209,19 @@ def create_bundles(conference, publications: list, publication_pdfs: list, publi
         except OSError:
             logging.warning("Directory already exists. Continue..")
 
-        copyfile(file, os.path.join(bundle_dir, os.path.basename(file)))
+        copyfile(f, os.path.join(bundle_dir, os.path.basename(f)))
         if not pdf_only:
             copyfile(publication_xmls[index], os.path.join(bundle_dir, os.path.basename(publication_xmls[index])))
 
-        general_functions.create_bundles_metadata(bundle_dir, publications[index])
+        general_functions.create_bundles_metadata(publications[index], bundle_dir, )
         counter = counter + 1
 
     list_of_defective_dirs = [dirpath for (dirpath, dirs, files) in os.walk(bundle_path)
                               if len(dirs) == 1 and len(files) != 2]
     if len(list_of_defective_dirs) != 0:
-        logging.warning(f"The following directories do not contain two files: {list_of_defective_dirs}")
+        print(f"The following directories do not contain two files: {list_of_defective_dirs}")
     else:
-        logging.info("All directories have been created and contain two files. Continue..")
+        print("All directories have been created and contain two files. Continue..")
 
 if __name__ == "__main__":
     # call main function

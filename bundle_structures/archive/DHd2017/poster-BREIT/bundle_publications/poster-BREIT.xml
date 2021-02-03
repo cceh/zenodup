@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="poster-BREIT" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Digitale Nachhaltigkeit in den Geisteswissenschaften durch TOSCA: Nutzung eines standardbasierten Open-Source Ökosystems </title>
+<author>
+<persName>
+<surname>Breitenbücher</surname>
+<forename>Uwe</forename>
+</persName>
+<affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+<email>uwe.breitenbuecher@iaas.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Barzen</surname>
+<forename>Johanna</forename>
+</persName>
+<affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+<email>johanna.barzen@iaas.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Falkenthal</surname>
+<forename>Michael</forename>
+</persName>
+<affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+<email>michael.falkenthal@iaas.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Leymann</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Institut für Architektur von Anwendungssystemen, Universität Stuttgart, Deutschland</affiliation>
+<email>frank.leymann@iaas.uni-stuttgart.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-08-26T19:31:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Poster</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Software Archivierung</term>
+<term>Automatisierte Softwarebereitstellung</term>
+<term>TOSCA</term>
+<term>OpenTOSCA</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Programmierung</term>
+<term>Archivierung</term>
+<term>Veröffentlichung</term>
+<term>Konservierung</term>
+<term>Artefakte</term>
+<term>Daten</term>
+<term>Metadaten</term>
+<term>Software</term>
+<term>Standards</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>Die digitale Nachhaltigkeit von IT-Anwendungen in der Forschung spielt eine immer größer werdende Rolle, da IT-gestützte Forschungsergebnisse auch Jahre nach deren Publikation reproduzierbar sein müssen, um Dritten das Nachvollziehen und Überprüfen der Ergebnisse zu ermöglichen. Wenn das Forschungsresultat auf der automatisierten Auswertung strukturiert dokumentierter Daten mittels Softwareprogrammen basiert, wird die stetige und zügige Weiterentwicklung von IT-Technologien jedoch zu einem immer größeren Problem: Werden Forschungsergebnisse beispielsweise mittels eines Windows 95-basierten Programms ermittelt, wird dessen Ausführung mit jeder neuen Generation von Betriebssystemen umständlicher, da sich Schnittstellen ändern und Annahmen nicht mehr erfüllt sind. </p>
+<p>Während diese Probleme für einfache Softwareanwendungen mittels virtueller Maschinen gelöst werden können, sind komplexere Anwendungen mit diesem Ansatz nicht ohne großen manuellen Aufwand reproduzierbar. Basiert ein Forschungsergebnis beispielsweise auf einer umfangreichen softwarebasierten Simulation, welche unterschiedliche Dienste aufruft, die auf verschiedenen Betriebssystemen ausgeführt werden müssen, erfordert das Aufsetzen der Maschinen und Softwarekomponenten sowie deren Konfiguration detaillierte Expertise und ist mit großem Aufwand verbunden (Breitenbücher et al. 2013). </p>
+<p>In diesem Beitrag zeigen wir auf, wie die standardbasierte open-source Technologie 
+                    <hi rend="italic">OpenTOSCA</hi> in den Digital Humanities eingesetzt werden kann, um die Reproduzierbarkeit IT-gestützter Forschungsergebnisse unabhängig von Technologieentwicklungen zu ermöglichen. Insbesondere verdeutlichen wir, wie auch komplexe Softwareanwendungen automatisiert bereitgestellt werden können, ohne detaillierte technische Expertise aufweisen zu müssen. Dadurch wird die nachhaltige Entwicklung von Forschungssoftware ermöglicht, indem diese auch Jahre später von Laien ausgeführt werden kann.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Nutzung des OpenTOSCA Ökosystems zur Sicherung der digitalen Nachhaltigkeit von Forschungsergebnissen </head>
+<p>Das OpenTOSCA Ökosystem ist eine Werkzeugsammlung, welche die automatisierte Bereitstellung und Verwaltung von IT-Anwendungen ermöglicht. Die Werkzeuge basieren auf der 
+                    <hi rend="italic">Topology and Orchestration Specification for Cloud Applications (TOSCA)</hi> (OASIS 2013), einem OASIS Standard zur portablen Beschreibung von IT-Anwendungen. Der Standard definiert ein Metamodell zur Modellierung von 
+                    <hi rend="italic">Anwendungsmodellen</hi>, die alle Komponenten einer Anwendung, beispielsweise Webserver und Datenbanken, sowie deren Beziehungen untereinander beschreiben. TOSCA ist anbieter- und technologieagnostisch, wodurch ein Vendor-Lock-in verhindert wird. Dadurch können beliebige Komponententypen mittels TOSCA beschrieben und in Anwendungsmodellen miteinander kombiniert werden. Zur automatisierten Bereitstellung der modellierten Anwendungen definiert TOSCA die Konzepte der 
+                    <hi rend="italic">Deployment Artifacts (DA) </hi>und der
+                    <hi rend="italic"> Implementation Artifacts</hi>. Deployment Artifacts stellen die Implementierung einer Komponente dar. Beispielsweise kann die Java-Implementierung eines Analysealgorithmus als Deployment Artifact an das zugehörige Komponentenelement des Modells annotiert werden, siehe Abbildung 1. Managementoperationen, wie beispielsweise ein Installationsskript für einen Webserver, können mittels Implementation Artifacts modelliert werden. Um Anwendungsmodelle inklusive aller Artefakte zu paketieren, definiert TOSCA das selbstbeschreibende Archivformat 
+                    <hi rend="italic">Cloud Service Archive (CSAR). </hi>
+</p>
+<figure>
+<graphic height="9.400869444444444cm" n="1001" rend="inline" url="poster-BREIT-image1.png" width="11.879791666666666cm"/>
+<head>Abbildung 1: Simplifiziert dargestelltes Anwendungsmodell</head>
+</figure>
+<p>Zur automatisierten Bereitstellung TOSCA-basierter Anwendungen werden TOSCA-Laufzeitumgebungen eingesetzt, welche die Anwendungsmodelle interpretieren und alle nötigen Bereitstellungsaktivitäten ausführen, d.h. modellierte virtuelle Maschinen provisionieren, Webserver durch Ausführung von Implementation Artifacts installieren, Komponentenimplementierungen in Form von Deployment Artifacts ausliefern, etc. An der Universität Stuttgart wurde die open-source Laufzeitumgebung 
+                    <hi rend="italic">OpenTOSCA</hi> (Binz et al. 2013) sowie das TOSCA-Modellierungswerkzeug 
+                    <hi rend="italic">Winery</hi> (Kopp et al. 2013) entwickelt, um TOSCA-basierte Anwendungsmodelle auszuführen und zu erstellen. Das Selbstbedienungsportal 
+                    <hi rend="italic">Vinothek </hi>(Breitenbücher et al. 2014) ermöglicht es Nutzern, mittels eines Klicks, die Bereitstellung einer Anwendung zu veranlassen. Abbildung 2 zeigt das Zusammenspiel der Werkzeuge.
+                </p>
+<figure>
+<graphic height="9.47765cm" n="1002" rend="inline" url="poster-BREIT-image2.png" width="16.002cm"/>
+<head>Abbildung 2: Werkzeuge des OpenTOSCA Ökosystems</head>
+</figure>
+<p>Dieses OpenTOSCA Ökosystem kann zur Sicherung der digitalen Nachhaltigkeit von Forschungsergebnissen eingesetzt werden, indem Forschungssoftware in Form von CSARs paketiert wird. Durch die Möglichkeit, mit Winery alle erforderlichen Implementierungen in Form von Deployment und Implementation Artifacts zu spezifizieren, sowie die Struktur der Anwendung inklusive aller Beziehungen zwischen Komponenten zu modellieren, können Anwendungen selbstbeschreibend als CSAR archiviert werden. Diese CSARs können auch Jahre nach deren Entwicklung mittels der OpenTOSCA Laufzeitumgebung provisioniert werden, da alle nötigen Softwareartefakte und Modelle im CSAR enthalten sind und dadurch keine Abhängigkeiten zu externen Dateien existieren. Durch dieses Konzept können beispielsweise „Snapshots“ mehrerer virtueller Maschinen unterschiedlicher Betriebssysteme in Form von Virtual Machine Images in das CSAR gelegt und miteinander assoziiert werden, oder auch spezifische Webserver-Implementierungen, die Jahre später in der genutzten Form nur schwierig auffindbar sind bzw. von Laien nicht gemäß der erforderlichen Konfiguration installiert werden können. Die OpenTOSCA Laufzeitumgebung unterstützt zudem gängige Bereitstellungstechnologien wie Ansible (Hochstein 2014) oder Docker (Mouat 2015), wodurch Artefakte dieser Technologien ohne zusätzlichen Aufwand in das Anwendungsmodell eingebunden werden können. OpenTOSCA ermöglicht dadurch auch die effiziente Orchestrierung mehrerer Bereitstellungstechnologien.</p>
+<p>Zur Reproduktion der Forschungsergebnisse muss die Software typischerweise mit auszuwertenden Forschungsdaten gestartet und parametrisiert werden. Häufig ist dies nicht trivial, beispielsweise wenn Data-Mining-Algorithmen auf Basis von Daten über Kostüme in Filmen wiederkehrende Muster finden sollen (Falkenthal et al. 2016). Das Konzept der CSARs ermöglicht auch diese Automatisierung, indem individuelle 
+                    <hi rend="italic">Provisionierungspläne</hi> für eine Anwendung modelliert werden können. Ein solcher Plan kann dann automatisiert von OpenTOSCA ausgeführt werden, um die Anwendung zu installieren und wie vorgesehen zu starten.
+                </p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Binz, Tobias / Breitenbücher, Uwe / Haupt, Florian / Kopp, Oliver / Leymann, Frank / Nowak, Alexander / Wagner, Sebastian</hi> (2013):
+                        „OpenTOSCA - A Runtime for TOSCA-based Cloud Applications“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the 11th International Conference on Service-Oriented Computing (ICSOC 2013)</hi>.
+                        Springer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Breitenbücher, Uwe / Binz, Tobias / Kopp, Oliver / Leymann, Frank / Wettinger, Johannes</hi> (2013): 
+                        „Integrated Cloud Application Provisioning: Interconnecting Service-Centric and Script-Centric Management Technologies“, 
+                        in: 
+                        <hi rend="italic">On the Move to Meaningful Internet Systems: OTM 2013 Conferences (CoopIS 2013)</hi>. 
+                        Springer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Breitenbücher, Uwe / Binz, Tobias / Kopp, Oliver / Leymann, Frank</hi> (2014): 
+                        „Vinothek - A Self-Service Portal for TOSCA“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the 6th Central-European Workshop on Services and their Composition (ZEUS 2014)</hi>. 
+                        CEUR-WS.org.
+                    </bibl>
+<bibl>
+<hi rend="bold">Falkenthal, Michael / Barzen, Johanna / Breitenbücher, Uwe / Brügmann, Sascha / Joos, Daniel / Leymann, Frank / Wurster, Michael</hi> (2016): 
+                        „Pattern Research in the Digital Humanities - How Data Mining Techniques Support the Identification of Costume Patterns“,
+                        in: 
+                        <hi rend="italic">Proceedings of the 10th Symposium and Summer School On Service-Oriented Computing (SummerSOC)</hi>.
+                        Springer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Hochstein, Lorin</hi> (2014): 
+                        <hi rend="italic">Ansible: Up and Running</hi>. 
+                        O’Reilly Media.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kopp, Oliver / Binz, Tobias / Breitenbücher, Uwe / Leymann, Frank</hi> (2013): 
+                        „Winery – A Modeling Tool for TOSCA-based Cloud Applications“, 
+                        in: 
+                        <hi rend="italic">Proceedings of the 11th International Conference on Service-Oriented Computing (ICSOC 2013)</hi>. 
+                        Springer.
+                    </bibl>
+<bibl>
+<hi rend="bold">Mouat, Adrian</hi> (2015): 
+                        <hi rend="italic">Using Docker: Developing and Deploying Software with Containers</hi>. 
+                        O’Reilly Media.
+                    </bibl>
+<bibl>
+<hi rend="bold">OASIS</hi> (2013): 
+                        <hi rend="italic">Topology and Orchestration Specification for Cloud Applications Version 1.0</hi>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

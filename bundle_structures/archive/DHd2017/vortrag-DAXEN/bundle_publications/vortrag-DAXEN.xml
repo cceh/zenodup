@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="vortrag-DAXEN" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Semantische Suche in Ausgestorbenen Sprachen: Eine Fallstudie für das Hethitische</title>
+<author>
+<persName>
+<surname>Daxenberger</surname>
+<forename>Johannes</forename>
+</persName>
+<affiliation>Ubiquitous Knowledge Processing Lab, Department of Computer Science, Technische Universität Darmstadt</affiliation>
+<email>daxenberger@ukp.informatik.tu-darmstadt.de</email>
+</author>
+<author>
+<persName>
+<surname>Görke</surname>
+<forename>Susanne</forename>
+</persName>
+<affiliation>Altorientalische Philologie, Institut für Altertumswissenschaften, Johannes Gutenberg-Universität Mainz</affiliation>
+<email>goerkes@uni-mainz.de</email>
+</author>
+<author>
+<persName>
+<surname>Siahdohoni</surname>
+<forename>Darjush</forename>
+</persName>
+<affiliation>Ubiquitous Knowledge Processing Lab, Department of Computer Science, Technische Universität Darmstadt</affiliation>
+<email>siahdohoni@googlemail.com</email>
+</author>
+<author>
+<persName>
+<surname>Gurevych</surname>
+<forename>Iryna</forename>
+</persName>
+<affiliation>Ubiquitous Knowledge Processing Lab, Department of Computer Science, Technische Universität Darmstadt</affiliation>
+<email>gurevych@ukp.informatik.tu-darmstadt.de</email>
+</author>
+<author>
+<persName>
+<surname>Prechel</surname>
+<forename>Doris</forename>
+</persName>
+<affiliation>Altorientalische Philologie, Institut für Altertumswissenschaften, Johannes Gutenberg-Universität Mainz</affiliation>
+<email>prechel@uni-mainz.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016-11-11T16:08:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Keilschrift</term>
+<term>Hethitisch</term>
+<term>Semantische Suche</term>
+<term>Natural Language Processing</term>
+<term>Lexikalisch-Semantische Methoden</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Webentwicklung</term>
+<term>Artefakte</term>
+<term>Sprache</term>
+<term>Text</term>
+<term>texttragende Gegenstände</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1" xml:id="h.1818shwwkfq3">
+<head>Einleitung</head>
+<p>
+<hi rend="color(262626)">Mit dem Auftreten der Keilschrift am Ende des 4. Jt. v. Chr. bis zur Zeitenwende sind zahlreiche Sprachen des Vorderen Orients aufgezeichnet, deren Kenntnis sich heute allein dem Erhalt der Schriftträger dankt: Eine nicht mehr überschaubare Anzahl von Tontafeln stellt das wesentliche Medium zur Rekonstruktion einer alle menschlichen Lebensbereiche umfassenden dreitausendjährigen Geschichte der heutigen Staaten Syrien, Libanon, Türkei, Irak und Iran dar. Zu den besser bezeugten Sprachen gehört neben dem semitischen Akkadischen das isolierte Sumerisch und das indoeuropäische Hethitisch. Auch wenn sich inzwischen diverse Projekte mit der Digitalisierung des keilinschriftlichen Kulturschatzes befassen, z.B. </hi>Cohen et al. (2004) und 
+                    <hi rend="background(white)">Tyndall (2012)</hi>,
+                    <hi rend="color(262626)"> ist der Zugang zu den kulturell, historisch und linguistisch hochbedeutsamen Textcorpora, die zu großen Teilen noch unpubliziert in den Museen der Welt lagern, meist auf Fachwissenschaftler begrenzt. Um eine adäquate Verwendung der durch Grabungen stetig wachsenden Anzahl von Texten auch in fernerliegenden Arbeitsbereichen zu ermöglichen, ist ein umfassendes Angebot von Übersetzungen in moderne Sprachen höchst wünschenswert. </hi>
+</p>
+<p>
+<hi rend="color(262626)">Das hier skizzierte Projekt zielt insbesondere auf den Umstand, dass selbst die (wenigen) vorhandenen Übersetzungen aufgrund der Durchdringung mit autochtonen Termini es oft an Verständlichkeit vermissen lassen. Das Ziel unserer Pilotstudie ist eine digitale Annäherung an Keilschriftsprachen. Wir stellen eine erweiterte Suchfunktion vor, die es auch fachfremden Benutzern erlaubt, intelligente Suchanfragen in den hethitischen und akkadischen Textcorpora zu stellen. Dazu verwenden wir moderne Natural Language Processing (NLP) Methodologie, die automatisiert lexikalisch-semantische Informationen in mehrsprachigen Übersetzungen von aktuell gut 500 Keilschriftdokumenten extrahiert. Durch den Einsatz vollautomatischer Methoden ist das Hinzufügen neuer Übersetzungen jederzeit möglich </hi>
+<hi rend="color(252525)">–</hi>
+<hi rend="color(262626)"> es gibt alleine für das Akkadische über eine halbe Million (noch) nicht digitalisierter Quelltexte. Das Ergebnis unserer Studie ist in Form eines webbasierten Tools verfügbar und wurde in einer Benutzerstudie evaluiert. Die primären Anforderungen an das Tool</hi>
+<ref n="1" target="vortrag-DAXENftn1" type="note">1</ref>
+<hi rend="color(262626)"> sind a) die Rückgabe von Suchergebnissen, die neben exakten oder fast exakten Treffern auch solche enthalten, die aufgrund semantischer Ähnlichkeit zustande kommen, sowie b) eine intuitive Bedienung durch Nutzer, die weder mit der Sprache noch mit sonstigen kulturellen Gegebenheiten vertraut sind.</hi>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="h.edj8zv1mbuxr">
+<head>Vorarbeiten</head>
+<p>Bereits seit Längerem wird an der digitalen Methodik zur Verarbeitung von 
+                    <hi rend="color(262626)">Sprachen des Alten Orients geforscht. Dabei spielte insbesondere die automatisierte morphologische Verarbeitung eine Rolle, siehe bspw. </hi>
+<hi rend="background(white)">Barthélemy (1998) und Kataja (1988). Neuere Arbeiten setzen größtenteils auf statistische Verfahren anstelle von regelbasierten Ansätzen. Darunter fallen bspw. Liu et al. (2015) mit einer Studie zur Lemmatisierung für Sumerisch sowie Homburg und Chiarcos (2016) zur Wort-Segmentierung im Akkadischen. Im Rahmen des ORACC Projekts werden Tools zur Annotation der Morphologie in Keilschriftsprachen entwickelt, überwiegend für Akkadisch und Sumerisch.</hi>
+<ref n="2" target="vortrag-DAXENftn2" type="note">2</ref>
+<hi rend="background(white)"> Zur semantischen Analyse von Keilschrifttexten existieren hingegen kaum Arbeiten. Lediglich Jaworski (2008) entwickelte eine Ontologie für sumerische ökonomische Aktivitäten, die mit einer semantischen Grammatik dargestellt werden können. Einen Überblick über die lexikalisch-semantischen Analyseverfahren, die in dieser Arbeit zum Einsatz kommen, gibt bspw. Gurevych et al. (2016). Soweit uns bekannt ist, gab es bislang keine Studien, die untersuchen, inwiefern Keilschrifttexte bzw. deren Übersetzungen mittels semantischer-lexikalischer Verfahren für ein breiteres Publikum zugänglich gemacht werden können.</hi>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="h.6qulxeb46y40">
+<head>Methodik</head>
+<p>Um semantische Suche in Keilschrifttexten zu ermöglichen, haben wir zunächst die transliterierten und übersetzten Texte vorverarbeitet und für die Suche indexiert. Danach werden sie in einer Datenbank abgelegt, in der mittels einer webbasierten Oberfläche gesucht werden kann.</p>
+<div rend="DH-Heading2" type="div2" xml:id="h.8z4te40lfrf">
+<head>Daten</head>
+<p>Die Texte, die im Rahmen dieser Studie verarbeitet wurden, sind überwiegend hethitische, in Keilschrift verfasste Dokumente (Wilhelm 2008). Die Transliterationen und Übersetzungen (auf Deutsch, Englisch, Italienisch und Französisch) wurden an der Johannes Gutenberg-Universität Mainz sowie von Partnern an weiteren Forschungseinrichtungen im In- und Ausland erstellt. Die Originaltexte stammen aus Anatolien (heutige Türkei) und datieren in die zweite Hälfte des 2. Jt. v. Chr. Inhaltlich handelt es sich vornehmlich um religiöse Texte wie bspw. Gebete oder Rituale. Die Dokumente sind auf Satz- oder Teilsatzebene übersetzt und mit den Transliterationen abgeglichen, so dass einfach Bezüge zwischen den Übersetzungen und den Transliterationen hergestellt werden können. Für jedes Dokument existiert ein Einleitungstext, sowie jeweils eine (kommentierte) Übersetzung und eine Transliteration, siehe Abbildung 1. Die Texte sind unabhängig von dieser Arbeit online zugänglich.
+                        <ref n="3" target="vortrag-DAXENftn3" type="note">3</ref>
+</p>
+<figure>
+<graphic height="7.138458333333333cm" n="1001" rend="inline" url="vortrag-DAXEN-image1.png" width="16.002cm"/>
+</figure>
+<p>Abbildung 1: Eine manuell erstellte Transliteration (links) und normalisierte Übersetzung (rechts). Quelle: http://www.hethport.uni-wuerzburg.de</p>
+</div>
+<div rend="DH-Heading2" type="div2" xml:id="h.x26j2l98ghpy">
+<head>NLP Pipeline zur Vorverarbeitung der Texte</head>
+<p>Die Übersetzungen und Transliterationen werden direkt aus einem Textformat in eine Pipeline eingelesen, die die weitere linguistische Vorverarbeitung übernimmt. Diese Pipeline erkennt die Struktur der Eingabedokumente, bspw. Dokument-Titel, Sätze, Absätze oder Fußnoten. Außerdem werden die zusammengehörigen Übersetzungen und Transliterationen auf (Teil-)Satzebene gekoppelt. Anschließend werden die mehrsprachigen Übersetzungen mit Hilfe des NLP Frameworks DKPro Core (
+                        <hi rend="background(white)">Eckart de Castilho und Gurevych 2014</hi>) analysiert. DKPro Core vereint die Verwendung verschiedener NLP Werkzeuge zur linguistischen Verarbeitung. So ist es möglich, den Inhalt der Dokumente in vier Sprachen zu segmentieren, zu lemmatisieren und nach Wortarten auszuzeichnen.
+                        <ref n="4" target="vortrag-DAXENftn4" type="note">4</ref> Im nächsten Schritt werden unter Zuhilfenahme des Lesk Algorithmus (Lesk 1986) mehrdeutige Lemmata anhand ihres Kontexts disambiguiert. Dieser Schritt ist die Voraussetzung für die anschließende Zuweisung von sogenannten semantischen Labeln, die einzelne Lemmata mit abstrakteren Konzepten anreichert. Bspw. werden Verben, die eine Bewegung anzeigen, mit einem Label „Bewegung“ gekennzeichnet. Als Ergänzung zu diesen vollautomatischen Verfahren erlaubt es die Pipeline, manuell erstellte Listen für alternative Schreibweisen und Hyperonyme anzuwenden.
+                        <ref n="5" target="vortrag-DAXENftn5" type="note">5</ref> Darin enthalten sind bspw. geographische Einheiten oder Namen von hethitischen Königen oder Gottheiten, die in den lexikalisch-semantischen Ressourcen, die im Schritt zuvor eingesetzt werden, nicht oder nur teilweise enthalten sind. Bspw. werden verschiedene Namen des Wettergottes (u.a. Taru, Teššup) als solche gelistet. Das Endresultat der Pipeline wird in einem Zwischenformat gespeichert, so dass es anschließend in eine Datenbank importiert werden kann.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2" xml:id="h.s5wj3igylh01">
+<head>Semantische Suchmaschine: Back- und Frontend</head>
+<p>Eine MYSQL Datenbank nimmt die Dokumente inklusive der von der NLP Pipeline generierten zusätzlichen semantischen Informationen auf und legt diese in indexierten Tabellen ab. Suchanfragen über das Webinterface werden in entsprechende Abfragen auf die Tabellen übersetzt. Die Anordnung der Suchergebnisse wird über eine Priorisierung der verschiedenen zusätzlichen Informationen geregelt. Wörtliche Treffer werden entsprechend höher gerankt als solche, die durch Übereinstimmung mit semantischen Labeln oder alternativen Schreibweisen zustande kommen. </p>
+<p>Das Frontend der Suchmaschine besteht aus dem Eingabefeld für einen oder mehrere Suchbegriffe. Die Suchergebnisse werden pro Dokument gebündelt und angeordnet nach der Güte der Übereinstimmung mit dem Suchbegriff. Abbildung 2 zeigt die Benutzeroberfläche nach einer Suchanfrage. Ein Klick auf ein Suchergebnis öffnet ein Fester, das den Inhalt des gesamten Dokuments jeweils als Übersetzung und Transliteration zeigt.</p>
+<figure>
+<graphic height="9.888736111111111cm" n="1002" rend="inline" url="vortrag-DAXEN-image2.png" width="14.130291666666666cm"/>
+</figure>
+<p>Abbildung 2: Das Frontend mit Ergebnissen zu einer Suchanfrage.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="h.1inhcvp1s49x">
+<head>Evaluation</head>
+<p>Um zu überprüfen, ob die Suchmaschine die eingangs gestellten Anforderungen erfüllt, haben wir eine anonyme Online-Benutzerstudie mit 23 Fragen unter 27 Teilnehmern
+                    <ref n="6" target="vortrag-DAXENftn6" type="note">6</ref> durchgeführt. Die Mehrheit der Teilnehmer waren Studierende an deutschen Universitäten. Etwa die Hälfte hatte einen geisteswissenschaftlichen Studienhintergrund, die andere Hälfte einen technischen. Inhaltlich bestand die Benutzerstudie aus einer kurzen Einleitung sowie drei Teilen mit Fragen. Der erste Teil beinhaltete einfache Fragen, die das allgemeine Verständnis der Suchabfragen überprüfen sollten (bspw. Suche nach einem Begriff in einem bestimmten Dokument). Der zweite Teil zielt explizit auf den semantischen Teil der Suchfunktion ab (bspw. Suche nach dem Namen einer Gottheit). Im dritten Teil wurde die allgemeine Bedienbarkeit und Nützlichkeit des Tools erfragt.
+                </p>
+<p>Mit wenigen Ausnahmen wurden die Aufgaben aus dem ersten Teil der Benutzerstudie von allen Teilnehmern korrekt gelöst. Im zweiten Teil mussten diverse hethitische Gottheiten, Könige oder Städte namentlich benannt werden, diese Aufgabe konnten sämtliche Teilnehmer korrekt lösen. Eine Frage, in der die (nicht vorhandene) Beziehung zwischen zwei Gottheiten anhand von Suchergebnissen bestimmt werden sollte, wurde nur von etwa zwei Dritteln der Teilnehmer korrekt gelöst. Tabelle 1 fasst die Abfragen und Ergebnisse aus dem dritten Teil der Benutzerstudie zusammen.</p>
+<table rend="rules">
+<row>
+<cell>Kriterium</cell>
+<cell>Durchschnittswert (1-5)</cell>
+</row>
+<row>
+<cell>Sortierung der Ergebnisse basierend auf einer konkreten Suchanfrage</cell>
+<cell>4.15</cell>
+</row>
+<row>
+<cell>Benutzerfreundlichkeit der Weboberfläche</cell>
+<cell>4.19</cell>
+</row>
+<row>
+<cell>Allgemeine Qualität der Suchergebnisse</cell>
+<cell>4.26</cell>
+</row>
+<row>
+<cell>Nützlichkeit für Fachfremde</cell>
+<cell>4.3</cell>
+</row>
+</table>
+<p>Tabelle 1: Kriterien und Bewertungen (Auswahlmöglichkeiten zwischen 1 = sehr schlecht und 5 = sehr gut) des dritten Teils der Benutzerstudie.
+                    <anchor xml:id="h.tep961oyrbk"/>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1" xml:id="h.hdpw1u8gelus">
+<head>Diskussion</head>
+<p>In der Gesamtheit zeigen die Ergebnisse der Benutzerstudie, dass das Tool die eingangs gestellten Anforderungen erfüllt. Neben den zu lösenden Aufgaben gab es auch die Möglichkeit, per Freitextfeld Rückmeldung zu geben. Die so identifizierten Probleme sind zurückzuführen auf a) fehlende Erklärungen zur Formulierung von Suchanfragen, b) Fehlern in den manuell erstellten Listen mit alternativen Schreibweisen und Hyperonymen, und c) irreführender Hervorhebung von Wörtern bei Ergebnissen, die auf semantische Übereinstimmung zurückzuführen sind.</p>
+<p>Zu den allgemeinen Herausforderungen bei der Aufbereitung der Daten für die semantische Suche zählt u.a. die Fragmenthaftigkeit diverser Texte. Da solche Phänomene zu Fehlern in der NLP Vorverarbeitung (bspw. bei der Segmentierung) führen, wurde eine Komponente in die Pipeline integriert, die Lücken soweit möglich repariert. Der „Vocabulary Gap“ zwischen den Termini in den lexikalisch-semantischen Ressourcen und dem in den Übersetzungen tatsächlich verwendeten Vokabular hat letztlich dazu geführt, dass zusätzlich manuell erstellte Wortlisten eingesetzt wurden. Diese Listen müssen allerdings nur einmal erstellt werden und haben einen überschaubaren Umfang.</p>
+<p>Neben der Behebung der oben genannten Probleme ist als nächster Schritte u.a. vorgesehen, das Backend um eine Funktion zum einfachen Upload neuer, transliterierter und übersetzter Texte in die Datenbank zu erweitern. Wir sind zuversichtlich, dass mit dieser Studie ein erster Schritt hin zu einer einfacheren Erschließung des Inhalts keilschriftlicher Quellen genommen ist.
+                    <anchor xml:id="h.ie0ju6idepex"/>
+</p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="vortrag-DAXENftn1"> Zugänglich unter http://semsearch.ukp.informatik.tu-darmstadt.de. </note><note n="2" rend="footnote text" xml:id="vortrag-DAXENftn2"> http://oracc.museum.upenn.edu</note><note n="3" rend="footnote text" xml:id="vortrag-DAXENftn3"> http://www.hethiter.net</note><note n="4" xml:id="vortrag-DAXENftn4"> Die gesamte Verarbeitungspipeline wurde hier veröffentlicht: https://github.com/UKPLab/DHd2017-semsearch-cuneiform</note><note n="5" xml:id="vortrag-DAXENftn5"> Die Listen können hier eingesehen werden: https://github.com/UKPLab/DHd2017-semsearch-cuneiform</note><note n="6" rend="footnote text" xml:id="vortrag-DAXENftn6"> Das Geschlecht wurde nicht erfasst, wir beziehen uns jeweils auf alle Teilnehmerinnen und Teilnehmer.</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Barthélemy, François</hi> (1998): 
+                        „A morphological analyzer for akkadian verbal forms with a model of phonetic transformations“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Workshop on Computational Approaches to Semitic Languages</hi> 73–81. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Cohen, Jonathan / Duncan, Donald / Snyder, Dean / Cooper, Jerrold / Kumar, Subodh / Hahn, Daniel / Chen, Yuan / Purnomo, Budirijanto / Graettinger, John</hi> (2004): 
+                        „iClay: Digitizing Cuneiform“,
+                        in: 
+                        <hi rend="italic">Proceedings of the International conference on Virtual Reality, Archaeology and Intelligent Cultural Heritage</hi> 135–143.
+                    </bibl>
+<bibl>
+<hi rend="bold">Eckart de Castilho, Richard / Gurevych, Iryna</hi> (2014): 
+                        „A broad-coverage collection of portable NLP components for building shareable analysis pipelines“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT at COLING</hi> 1–11.
+                    </bibl>
+<bibl>
+<hi rend="bold">Gurevych, Iryna / Eckle-Kohler, Judith / Matuschek, Michael</hi> (2016): 
+                        <hi rend="italic">Linked Lexical-Semantic Knowledge Bases: Foundations and Applications</hi>. 
+                        Morgan &amp; Claypool Publishers.
+                    </bibl>
+<bibl>
+<hi rend="bold">Homburg, Timo / Chiarcos, Christian</hi> (2016): 
+                        „Word Segmentation for Akkadian Cuneiform“,
+                        in: 
+                        <hi rend="italic">Proceedings of the International Conference on Language Resources and Evaluation</hi>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jaworski, Woyciech </hi>(2008): 
+                        „Contents Modelling of Neo-Sumerian Ur III Economic Text Corpus“,
+                        in: 
+                        <hi rend="italic">Proceedings of the International Conference on Computational Linguistics</hi> 369–376.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kataja, Laura / Koskenniemi, Kimmo</hi> (1988): 
+                        „Finite-state description of semitic morphology: a case study of Ancient Akkadian“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Conference on Computational Linguistics</hi> 313–315.
+                    </bibl>
+<bibl>
+<hi rend="bold">Lesk, Michael</hi> (1986): 
+                        „Automatic sense disambiguation using machine readable dictionaries: how to tell a pine cone from an ice cream cone“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Annual International Conference on Systems Documentation</hi> 24–26.
+                    </bibl>
+<bibl>
+<hi rend="bold">Liu, Yudong / Burkhart, Clinton / Hearne, James / Luo, Liang</hi> (2015): 
+                        „Enhancing Sumerian Lemmatization by Unsupervised Named-Entity Recognition“,
+                        in: 
+                        <hi rend="italic">Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics</hi> 1446–1451.
+                    </bibl>
+<bibl>
+<hi rend="bold">Tyndall, Stephen</hi> (2012): 
+                        „Toward Automatically Assembling Hittite-language Cuneiform Tablet Fragments into Larger Texts“, 
+                        in: 
+                        <hi rend="italic">Proceedings of ACL-2012</hi> 243–247. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Wilhelm, Gernot</hi> (2008): 
+                        „Die Edition der Keilschrifttafeln aus Boğazköy und das Projekt ‚Hethitische Forschungen‘ der Akademie der Wissenschaften und der Literatur, Mainz“,
+                        in: Wilhelm, G. (ed.): 
+                        <hi rend="italic">Hattuša - Boğazköy: Das Hethiterreich im Spannungsfeld des Alten Orients</hi>.
+                        Wiesbaden: Harrassowitz 73–86. 
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="panel-REITE" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Aktuelle Herausforderungen der Digitalen Dramenanalyse</title>
+<author>
+<persName>
+<surname>Willand</surname>
+<forename>Marcus</forename>
+</persName>
+<affiliation>Universität Stuttgart</affiliation>
+<email>marcus.willand@ilw.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Trilcke</surname>
+<forename>Peer</forename>
+</persName>
+<affiliation>Universität Potsdam</affiliation>
+<email>trilcke@uni-potsdam.de</email>
+</author>
+<author>
+<persName>
+<surname>Schöch</surname>
+<forename>Christof</forename>
+</persName>
+<affiliation>Universität Würzburg</affiliation>
+<email>christof.schoech@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Rißler-Pipka</surname>
+<forename>Nanette</forename>
+</persName>
+<affiliation>Katholische Universität Eichstätt-Ingolstadt</affiliation>
+<email>nanette.rissler-pipka@ku.de</email>
+</author>
+<author>
+<persName>
+<surname>Reiter</surname>
+<forename>Nils</forename>
+</persName>
+<affiliation>Universität Stuttgart</affiliation>
+<email>nils.reiter@ims.uni-stuttgart.de</email>
+</author>
+<author>
+<persName>
+<surname>Fischer</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Higher School of Economics, Moskau</affiliation>
+<email>ffischer@hse.ru</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Prof. Dr. Michael Stolz</publisher>
+<address>
+<addrLine>UniversitÃ¤t Bern</addrLine>
+<addrLine>Institut fÃ¼r Germanistik</addrLine>
+<addrLine>Laenggass-Str. 49</addrLine>
+<addrLine>CH-3000 Bern 9</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.17">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Panel</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term/>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Dramenanalyse</term>
+<term>Methodenvergleich</term>
+<term>Labor</term>
+<term>Drama</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Strukturanalyse</term>
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Bereinigung</term>
+<term>Netzwerkanalyse</term>
+<term>Literatur</term>
+<term>Metadaten</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Software</term>
+<term>Standards</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Zielstellung und Konzeption</head>
+<p>Das hier vorgeschlagene Panel greift mit der Digitalen Dramenanalyse einen sich derzeit dynamisch entwickelnden Bereich der digitalen Literaturwissenschaften auf. Es setzt sich erstens zum Ziel, aktuelle Herausforderungen der Digitalen Dramenanalyse auf verschiedenen Ebenen vorzustellen, wobei insbesondere die Ebenen der dramatischen Gattung, der Netzwerkstrukturen und der dramatischen Figuren im Zentrum stehen werden. Zweitens möchte das Panel mit dem Publikum mögliche Lösungsansätze diskutieren, unter anderem durch Bezug auf vielfältige, vorhandene Erfahrungen mit der Analyse narrativer Texte. In der Summe wird das Panel einerseits eine Zwischenbilanz zum Stand der Forschung anbieten, andererseits auch im Sinne einer Konsolidierung des Forschungsfelds eine Agenda für die weitere Entwicklung formulieren, bei der es nicht zuletzt darum geht, Szenarien einer integrativen, mithin diverse methodische Ansätze synergetisch zusammenführenden Forschung, zu diskutieren.</p>
+<p>Dazu wird das Panel eine Art Laborsituation fingieren, in der die Erkenntnisziele, Möglichkeiten und Grenzen unterschiedlicher methodischer Zugänge zu dem titelgebenden Forschungsbereich der digitalen Dramenanalyse zu Tage treten sollen:
+                    <hi rend="italic">Topic Modeling</hi>, (soziale) Netzwerkanalyse und Analyse der Figurenrede. Diese Gegenüberstellung soll es dem Publikum erlauben, Grundannahmen und Perspektivierungen der jeweiligen Ansätze direkt zu identifizieren und in der Diskussion adressieren zu können. Welche Modellierung des dramatischen Textes liegt der Methode zugrunde? Welche Aspekte eines dramatischen Textes werden durch die jeweilige Methode eigentlich beobachtet, und welche nicht? Und welche Art von Aussagen macht sie möglich?
+                </p>
+<p>In den
+                    <hi rend="italic">digital literary studies</hi> wird zwar häufig Methodenkritik geäußert, dies in der Regel aber nur mit Blick auf einzelne Methoden, auch wenn diese auf ganz unterschiedliche Forschungsgegenstände angewandt werden können. Dieses Vorgehen möchte das Panel invertieren, indem nicht eine Methode auf unterschiedliche Objekte, sondern unterschiedliche Methoden auf das gleiche Objekt angewandt werden: Digitalisierte Dramen zwischen 1700 und 1900 aus dem deutsch- und französischsprachigen Raum. Erreicht werden soll durch dieses Vorgehen eine systematische Aufarbeitung der Möglichkeiten einer methodisch reflektierten digitalen Dramenanalyse, die zugleich theoretische und methodologische Grundfragen der digitalen Analyse literarischer Texte im Allgemeinen thematisiert.
+                </p>
+<p>In drei Kurzvorstellungen sollen die folgenden Methoden von jeweils einer Forschergruppe des Panels vorgestellt werden, wobei zur besseren Vergleichbarkeit der drei methodisch unterschiedlich aufgestellten Arbeitsgruppen zeitlich und gattungsbezogen vergleichbare Textsammlungen analysiert werden. Zwar werden diese Verfahren jeweils anhand eines individuellen Teilkorpus vorgestellt, es ist jedoch zu berücksichtigen, dass sie alle auf der statistischen Analyse größerer Textmengen basieren.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Panelvorträge</head>
+<div rend="DH-Heading2" type="div2">
+<head>Topic Modeling und Gattung (Christof Schöch, Nanette Rißler-Pipka)</head>
+<p>Der Einsatz von
+                        <hi rend="italic">Topic Modeling</hi> (Blei 2012) für die im weitesten Sinne inhaltliche Erschließung großer Sammlungen literarischer Texte zeigt zwei Dinge: Erstens sind die erzielten Ergebnisse, insbesondere die jeweils dominanten Typen der
+                        <hi rend="italic">Topics</hi>, textsortenabhängig (Schöch 2016). So sind nicht-fiktionale expositorische Texte (bspw. Pressemitteilungen) durch abstrakte thematische
+                        <hi rend="italic">Topics</hi> geprägt, fiktionale Erzähltexte (bspw. Romane) aber durch
+                        <hi rend="italic">Topics</hi>, die sich auf narrative und deskriptive Motive beziehen. Auch dramatische Texte zeichnen sich durch ein eigenes Profil solcher Typen von
+                        <hi rend="italic">Topics </hi>aus, in dem diskursive und metadiskursive
+                        <hi rend="italic">Topics </hi>eine besondere Rolle spielen. Dieser Umstand schärft auch den Blick auf die spezifische, textuelle Funktionsweise der jeweiligen Gattung und literarischer Texte insgesamt.
+                    </p>
+<p>Zweitens zeigt sich, dass sich einzelne dramatische Untergattungen wie Tragödie, Komödie oder Tragikomödie zwar in Bezug auf die jeweils dominanten Einzel
+                        <hi rend="italic">topics</hi> unterscheiden (und beispielsweise jeweils ein unterschiedlich strukturiertes
+                        <hi rend="italic">Liebes-Topic </hi>haben können). Zugleich fördert
+                        <hi rend="italic">Topic Modeling</hi> aber keine scharfen Trennungslinien zu Tage, sondern zeigt auf, wie prototypisch gedachte Untergattungen in der Praxis unscharf ineinander übergehen können (Schöch, im Erscheinen). Beide genannten Phänomene sind bekannt, aber sowohl in methodischer bzw. informatischer als auch in literaturtheoretischer Perspektive derzeit nicht ausreichend klar erfasst und damit auch nicht empirisch überprüfbar.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Netzwerkanalyse (Frank Fischer, Peer Trilcke)</head>
+<p>Die in den quantitativen Sozialwissenschaften entwickelten Verfahren der Netzwerkforschung zielen auf eine formale Analyse sozialer Strukturen (Wasserman / Faust 1994). Angewandt auf literarische Texte ermöglichen sie Strukturbeschreibungen, die aus einer signifikant anderen Perspektive erfolgen als traditionelle literaturwissenschaftliche Verfahren der semantikbasierten Strukturanalyse (z.B. Titzmann 1977), insofern sie nicht die semantische Organisation literarischer Texte, sondern die ästhetische Modellierung sozialer Formationen im Medium der Literatur analysieren (Trilcke 2013). Ob ihres stark formalisierten Charakters operieren netzwerkanalytische Konzeptualisierungen dabei zunächst mit epistemischen Objekten, die sich erheblich von den Objekten der ›klassischen‹ Literaturwissenschaft unterscheiden. Gerade deshalb aber bilden solche Konzeptualisierungen ein ebenso attraktives wie kontroverses Experimentierfeld für computerbasierte Zugänge zum Gegenstandsbereich ›Literatur‹, die nicht nur neue Antworten auf alte Fragen finden, sondern dezidiert
+                        <hi rend="italic">andere</hi> Fragen formulieren wollen. Diese Ausrichtung wird noch unterstützt durch die
+                        <hi rend="italic">distant reading</hi>-Affinitität der literaturwissenschaftlichen Netzwerkanalyse: Zwar lässt sich die visuelle Auswertung in Form von statischen oder dynamischen Netzwerkgraphen noch im Sinne des ›traditionellen‹ Paradigmas der Einzeltextanalyse verwenden (vgl. Moretti 2011); insbesondere die Auswertung von Netzwerkdaten mittels statistischer Methoden zielt jedoch auf die vergleichende Analyse größerer Korpora, die im Bereich der digitalen Dramenanalyse etwa mit historiographischem (Fischer et al. 2015) oder typologisierendem (Trilcke et al. 2016) Erkenntnisinteresse betrieben wird. Der hohe Abstraktionsgrad insbesondere der statistischen Ergebnisse von literaturwissenschaftlichen Netzwerkanalysen sowie deren Korpusorientierung führen allerdings zu einer Spannung zu ›traditionellen‹ Analyse- und Interpretationspraktiken der Literaturwissenschaft, mit denen die Ergebnisse der Netzwerkanalyse auf den ersten Blick schwer zu vermitteln sind. Hier zeigen sich gleichermaßen die Gefahren (ein Transfer der Ergebnisse zwischen digitalen Methoden und ›traditioneller‹ Literaturwissenschaft wird unmöglich) wie die Potenziale (die ›andersartigen‹ Ergebnisse der digitalen Methoden führen zur produktiven Irritationen der ›traditionellen‹ Literaturwissenschaft) der Methode, die in diesem Einzelvortrag anhand der Netzwerkanalyse von Dramen aus dem dlina-Korpus
+                        <ref n="1" target="panel-REITEftn1" type="note">1</ref> exemplarisch diskutiert werden sollen.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Analyse der Figurenrede (Nils Reiter, Marcus Willand)</head>
+<p>Computerlinguistische Methoden wie Named Entity Recognition und Koreferenzresolution (cf. Poesio et al. 2016) erlauben die Erkennung von Figurenreferenzen in der Rede dramatischer Figuren. Die erkannten Referenzen wiederum können genutzt werden, um den Stellenwert einer Figur innerhalb des Gesamttextes zu identifizieren. Neben der direkten Präsenz von Figuren (im Sinne von: Figur spricht; siehe auch das Problem der sog. Konfiguration, hierzu Ilsemann 1995, 2008) lässt sich damit auch die indirekte Präsenz (über eine Figur wird gesprochen) messen. </p>
+<p>Im Falle von
+                        <hi rend="italic">Miss Sara Sampson</hi> und
+                        <hi rend="italic">Emilia Galotti</hi> (Lessing 1755, 1772) unterscheiden sich die beiden titelgebenden Figuren – Sara und Emilia – hinsichtlich dieser Dimensionen: Während Sara den größten Redeanteil auf sich vereinigt, spricht Emilia weniger als halb so viel (relativiert für die Länge des Gesamttextes)
+                        <ref n="2" target="panel-REITEftn2" type="note">2</ref>. Im Gegensatz dazu wird
+                        <hi rend="italic">über</hi> Emilia viel öfter gesprochen, so dass sie sozusagen passive Bühnenpräsenz zeigt. Anhand von Figuren wie dem
+                        <hi rend="italic">König</hi> zeigt sich, dass auch passive Figuren die dramatische Handlung beeinflussen können. Dies gilt auch für Figuren und figurenähnliche Entitäten, die nicht in den Dramatis Personae genannt werden (
+                        <hi rend="italic">Gott</hi>, das
+                        <hi rend="italic">Volk</hi>).
+                    </p>
+<p>Unser Beitrag zum Panel diskutiert zum einen die Herausforderungen an die maschinelle Sprachverarbeitung, wenn sie auf Dramentexte angewendet wird (Blessing et al. 2016). Zum anderen wollen wir untersuchen, inwiefern Autorinnen und Autoren sprachliche Eigenheiten der Figuren nutzen, um diese zu charakterisieren und z.B. als bestimmten Figurentypus (zärtlicher Vater, Hanswurst usw.; cf. Sørensen 1984, Aust 1989, Kord 2009) zu kennzeichnen.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Bilanzierung, Konsolidierung, Agenda </head>
+<p>Die unterschiedlichen methodischen Zugänge zu dramatischen Texten erlauben zwar eine direkte Gegenüberstellung und Diskussion der drei Forschungsansätze, ihrer Prämissen, aber auch der Relevanz ihrer Ergebnisse für literaturtheoretische oder -historische Fragestellungen. Die vorgestellten Verfahren sollen letztlich aber nicht als konkurrierend oder unverbunden gedacht werden, sondern als Beiträge zu einem gemeinsamen Ziel: dem differenzierteren literaturwissenschaftlichen Verständnis dramatischer Texte. Vor dem Hintergrund der das Panel leitenden Idee einer Bilanzierung bisheriger und Konsolidierung aktueller Forschung auf dem Gebiet der
+                    <hi rend="italic">Digitalen Dramenanalyse</hi> könnten ausgehend von den Einzelbeiträgen daher folgende Fragen diskutiert werden:
+                </p>
+<p>● Jede der drei Methoden verfolgt spezifische Fragen und birgt spezifische Herausforderungen. In welchem Maße gibt es gemeinsame Forschungsziele, zu denen jede der Methoden einen Beitrag leisten kann? Können die verschiedenen Methoden beispielsweise einen Beitrag zu einer empirisch gesicherten Gattungsdifferenzierung oder für die literaturgeschichtliche Periodisierung leisten? </p>
+<p>● Wie können Ergebnisse, die mit unterschiedlichen methodischem Vorgehen gewonnen wurden, in Bezug zueinander gesetzt werden? </p>
+<p>● Welche Ressourcen (insbesondere Textsammlungen) liegen vor und wie kann die Verfügbarkeit geeigneter Ressourcen für die Digitale Dramenanalyse zukünftig verbessert werden? Wie können die teils unterschiedliche Anforderungen der Methoden an die Formate von Daten und Metadaten aufgefangen werden? </p>
+<p>● Welche konzeptuellen und datenbezogenen Standards für dokumentbezogene Metadaten und strukturelle oder semantische, lokale Annotationen liegen vor, wie kann die Standardisierung (bspw. durch Annotationsrichtlinien) weiter gefördert werden? </p>
+<p>● Welche Tools sind für die digitale Dramenanalyse derzeit verfügbar, wie könnte die Tool-Entwicklung zielgerichtet gefördert werden? Welche generischen Tools könnten produktiv eingesetzt werden, wie könnte der Einsatzbereich vorhandener Tools erweitert (Adaptierbarkeit, Übertragbarkeit) und so eine breitere Nutzerbasis geschaffen werden? </p>
+<p>Indem das Panel die Vielfalt digitaler Dramenanalysen vorführt und die explorative Kraft methodischer Innovation durch die Digital Humanities für die Literaturwissenschaften betont, möchten wir die fingierte "Laborsituation" im Sinne der theoretischen und wissenschaftspolitischen Implikationen einer auf Überprüfbarkeit und Wiederholbarkeit angelegten Wissenschaft verstanden wissen. </p>
+</div>
+</body>
+<back><div type="Notes"><note n="1" rend="footnote text" xml:id="panel-REITEftn1"> https://dlina.github.io/Introducing-DLINA-Corpus-15-07-Codename-Sydney/</note><note n="2" rend="footnote text" xml:id="panel-REITEftn2"> https://quadrama.github.io/blog/2016/10/07/ottokar-capulet</note></div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Aust, Hugo</hi> (1989): 
+                        <hi rend="italic">Volksstück vom Hanswurstspiel zum sozialen Drama der Gegenwart</hi>.
+                        München: Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Blei, David M.</hi> (2012):
+                        „Probabilistic Topic Models“,
+                        in: 
+                        <hi rend="italic">Communication of the ACM</hi> 55 (4): 77–84 10.1145/2133806.2133826.
+                    </bibl>
+<bibl>
+<hi rend="bold">Blessing, Andre / Bockwinkel, Peggy / Reiter, Nils / Willand, Marcus</hi> (2016):
+                        „Dramenwerkbank: Automatische Sprachverarbeitung zur Analyse von Figurenrede“,
+                        in: 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung - Visualisierung</hi> 281–284
+                        <ref target="http://dhd2016.de/boa.pdf">http://dhd2016.de/boa.pdf</ref> [letzter Zugriff 24. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Fischer, Frank / Göbel, Mathias / Kampkaspar, Dario / Trilcke, Peer</hi> (2015):
+                        „Digital Network Analysis of Dramatic Texts“,
+                        in:
+                        <hi rend="italic">DH2015: Global Digital Humanities</hi>
+<ref target="http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_Dramati/FISCHER_Frank_Digital_Network_Analysis_of_Dramatic_Text.html">http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_ Dramati/FISCHER_Frank_Digital_Network_ Analysis_of_Dramatic_Text.html</ref> [letzter Zugriff 24. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Ilsemann, Hartmut</hi> (1995):
+                        „Computerized Drama Analysis“,
+                        in: 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 10 (1): 11–21.
+                    </bibl>
+<bibl>
+<hi rend="bold">Ilsemann, Hartmut</hi> (2008):
+                        „More statistical observations on speech lengths in Shakespeare’s plays“,
+                        in:
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 23 (4): 397–407.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kord, Susanne</hi> (2009):
+                        „Unmöglichkeiten. Vater-Tochter-Dramen im 18. und 19. Jahrhundert“,
+                        in: Martinec, Thomas / Nitschke, Claudia (eds.): 
+                        <hi rend="italic">Familie und Identität in der deutschen Literatur</hi>.
+                        Frankfurt am Main: Peter Lang 105–126.
+                    </bibl>
+<bibl>
+<hi rend="bold">Moretti, Franco</hi> (2011):
+                        „Network Theory, Plot Analysis“,
+                        in:
+                        <hi rend="italic">Stanford Literary Lab Pamphlets</hi> 2
+                        <ref target="http://litlab.stanford.edu/LiteraryLabPamphlet2.pdf">http://litlab.stanford.edu/LiteraryLabPamphlet2.pdf</ref> [letzter Zugriff 24. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Poesio, Massimo / Stuckardt, Roland / Versley, Yannick</hi> (2016): 
+                        <hi rend="italic">Anaphora Resolution: Algorithms, Resources, and Applications</hi>.
+                        Berlin / Heidelberg: Springer.
+                    </bibl>
+<bibl>
+<!-- todo -->
+<hi rend="bold">Schöch, Christof</hi> (2016):
+                        „What Are Literary Topics, Really?“,
+                        in: 
+                        <hi rend="italic">Digital Humanities Lunch</hi>.
+                        Krakau, Institut für Polnische Sprache, 8. April 2016
+                        <ref target="http://christofs.github.io/literary-topics/#/">http://christofs.github.io/literary-topics/#/</ref> [letzter Zugriff 24. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Schöch, Christof</hi> (im Erscheinen):
+                        „Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama“,
+                        in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>.
+                        (Preprint): https://zenodo.org/record/166356 [letzter Zugriff 15. November 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Sørensen, Bengt Algot</hi> (1984): 
+                        <hi rend="italic">Herrschaft und Zärtlichkeit der Patriarchalismus und das Drama im 18. Jahrhundert</hi>.
+                        München: C.H. Beck.
+                    </bibl>
+<bibl>
+<hi rend="bold">Titzmann, Michael</hi> (1977): 
+                        <hi rend="italic">Strukturale Textanalyse: Theorie und Praxis der Interpretation</hi>.
+                        München: W. Fink.
+                    </bibl>
+<bibl>
+<!-- todo -->
+<hi rend="bold">Trilcke, Peer / Fischer, Frank / Göbel, Mathias / Kampkaspar, Dario</hi> (2016):
+                        „Theatre Plays as ‚Small Worlds‘? Network Data on the History and Typology of German Drama, 1730–1930“,
+                        in: 
+                        <hi rend="italic">Digital Humanities 2016: Conference Abstracts</hi>
+<ref target="http://dh2016.adho.org/abstracts/360">http://dh2016.adho.org/abstracts/360</ref> [letzter Zugriff 24. August 2016].
+                    </bibl>
+<bibl>
+<hi rend="bold">Trilcke, Peer</hi> (2013):
+                        „Social Network Analysis (SNA) als Methode einer textempirischen Literaturwissenschaft“,
+                        in: Ajouri, Philip / Mellmann, Katja / Rauen, Christoph (eds.): 
+                        <hi rend="italic">Empirie in der Literaturwissenschaft</hi>.
+                        Münster: mentis 201–247.
+                    </bibl>
+<bibl>
+<hi rend="bold">Wasserman, Stanley / Faust, Katherine</hi> (1994): 
+                        <hi rend="italic">Social Network Analysis: Methods and Applications</hi>.
+                        New York: Cambridge University Press.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -136,7 +136,7 @@ def set_paths(argv: list):
                 metadata_file = general_functions.readable_file(os.path.join(conference, arg))
             elif opt in ("-p", "--pdf"):
                 pdf = general_functions.readable_dir(os.path.join(conference, arg))
-        return general_functions.readable_dir(conference), general_functions.readable_file(metadata_file), readable_dir(pdf)
+        return general_functions.readable_dir(conference), general_functions.readable_file(metadata_file), general_functions.readable_dir(pdf)
 
 def get_publications(metadata: ET.Element) -> list:
     logging.debug(f"Number of publications in metadata file: {len(metadata)}")

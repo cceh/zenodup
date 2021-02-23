@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="103_final-KUCZERA_Andreas_Aristoteles_multimodal___Mit_ediarum_in_den_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Aristoteles multimodal – Mit ediarum in den Graphen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Kuczera</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften Mainz - Digitale Akademie, Deutschland</affiliation>
+                    <email>andreas.kuczera@adwmainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Martin</surname>
+                        <forename>Fechner</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften</affiliation>
+                    <email>fechner@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-13T16:24:39.742092680</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Ediarum</term>
+                    <term>Graphentechnologien</term>
+                    <term>Forschungsdaten</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Visualisierung</term>
+                    <term>Daten</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="color(#000000)bold">Aristoteles multimodal – Mit </hi>
+                <hi rend="color(#000000)bold italic">ediarum</hi>
+                <hi rend="color(#000000)bold"> in den Graphen</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">In diesem Beitrag wird am Beispiel der Forschungsdaten des </hi>
+                <ref target="https://cagb-db.bbaw.de/">
+                    <hi rend="color(#000080)underline">Akademienvorhabens “Commentaria in Aristotelem Graeca et Byzantina”</hi>
+                </ref>
+                <hi rend="color(#000000)">(CAGB) gezeigt, welchen Mehrwert d</hi>as Zusammenspiel von Editionsumgebung (Ediarum) und Graphdatenbank (neo4j) bei
+                <hi rend="color(#000000)"> Analyse von Forschungsdaten bieten kann und warum Schnittstellen Digitaler Editionen für Graphdatenbanken von zentraler Bedeutung</hi> sind.
+                <ref target="ftn1" n="1"/>
+            </p>
+			<figure>
+                    <graphic url="103_final-4b229c3826aee1038a2b933b56599965.png"/>
+					<head>
+						<lb/>Abb. 1: Neue Homepage des Aristoteles-Projekts (Quelle: Fechner<ref target="ftn2" n="2"/>).
+					</head>
+            </figure>            
+            <p>
+                <hi rend="color(#000000)">Die Forschungssoftware </hi>
+                <ref target="http://www.bbaw.de/telota/software/ediarum">
+					<hi rend="italic">ediarum</hi>
+				</ref>
+                <hi rend="color(#000000)">stellt Werkzeuge zur Eingabe, Verwaltung und Präsentation von Digitalen Editionen zur Verfügung (vgl. Abb. 2). Die an der Berlin-Brandenburgischen Akademie der Wissenschaften entwickelte Software</hi><ref target="ftn3" n="3"/>
+                <hi rend="color(#000000)"> erlaubt es </hi>
+                <hi rend="color(#000000)">historische Texte zu transkribieren, auszuzeichnen und zu kommentieren, sowie die einzelnen Text mit anderen Texten und Registereinträgen zu verknüpfen. Aktuell wird das einheitliche Webframework </hi>
+                <hi rend="italic">ediarum.WEB</hi>
+                <hi rend="color(#000000)"> entwickelt, mit dessen Hilfe die Erstellung von Webpublikationen Digitaler Editionen aus </hi>
+                <hi rend="italic">ediarum</hi>
+                <hi rend="color(#000000)"> heraus vereinfacht wird.</hi> Grundlage dafür ist ein allgemeiner Ansatz, der die Funktionalitäten von Digitalen Editionen über eine Schnittstelle nachhaltig verfügbar macht.
+                <ref target="ftn4" n="4"/>
+                Dafür wird der bisherige Programmcode von schon bestehenden auf ediarum basierenden Digitalen Editionen nachgenutzt, vereinheitlicht und erweitert. In absehbarer Zeit ist eine Veröffentlichung von 
+                <hi rend="italic">ediarum.WEB</hi> auf 
+                <hi rend="italic">github </hi>geplant, damit es wie auch die übrigen Teile von 
+                <hi rend="italic">ediarum</hi> frei genutzt werden kann.
+            </p>
+			<figure>
+                    <graphic url="103_final-10ecb148109782680e96dbf9847ffd54.png"/>
+					<head>
+						<lb/>Abb. 2: Handschriftenbeschreibung von "Vind. phil. gr. 100" in Ediarum (Quelle: Fechner).
+					</head>
+            </figure>
+            <p>
+                <hi rend="color(#000000)">Durch die Nutzung dieses einheitlichen Webframeworks kommen alle darin enthaltenen und zukünftig entwickelten Features den damit publizierten Digitalen Editionen zugute. Auch s</hi>chon bestehende Webseiten, wie etwa die des hier besprochenen Akademienvorhabens CAGB, können in Zukunft auf 
+                <hi rend="italic">ediarum.WEB</hi> umgestellt werden.
+                <hi rend="color(#000000)"> Bereits abgedeckte Funktionalitäten sind unter anderem die Anzeige und Filterung </hi>von
+                <hi rend="color(#000000)"> Texten und Registereinträgen, sowie der Zugriff auf Daten und Metadaten über Schnittstellen. Auch gibt es eine Schnittstelle, die dafür e</hi>ntwickelt wurde
+                <hi rend="color(#000000)">, die Objekte und ihre Verknüpfungen von </hi>
+                <hi rend="color(#000000)">Digitalen Editionen in einem JSON-Format zu exportieren, das sich unter anderem für den Import in Graphdatenbanken eignet. </hi>
+            </p>
+			<figure>
+                    <graphic url="103_final-93e2b2e4ef37bf630ff82acd6af5bc0c.png"/>
+					<head>
+						<lb/>Abb. 3: Die gelben Knoten stellen die Aristoteleswerke dar, die roten Knoten Manuskripte, die sich jeweils auf Aristotelesstellen beziehen oder in deren Handschriftenbeschreibung von der Forschung auf andere Manuskripte verwiesen wird. Johannes Tetzel (die Person im linken blauen Knoten) hat vermutlich das rote Manuskrip geschrieben, auf welches es mit der AUTHOR_ATTESTED-Kante zeigt (Quelle: Kuczera/Fechner).
+					</head>
+            </figure>
+            <p>
+                <hi rend="color(#000000)">Graphdatenbanken haben sich in den letzten Jahren zu einem sehr flexiblen Werkzeug für das Management hochvernetzter Forschungsdaten entwickelt. Im Gegensatz zu relationalen Datenbanken, in denen Daten in verknüpften Tabellen abgespeichert werden, gibt es in </hi>
+                <hi rend="color(#000000)">Graphdatenbanken Knoten und Kanten (Kuczera2017 und Kuczera2018). </hi>Sie bieten die Möglichkeit, die Daten sehr flexibel aber gleichzeitig eng an der Forschungsfragestellung zu modellieren und zu analysieren. Damit ergeben sich Abfrageperspektiven, die mit relationalen oder XML-basierten Datenbanksystemen nur schwer zu realisieren sind.Solche
+                <hi rend="color(#000000)">hochvernetzten Forschungsdaten entstehen im Akademienvorhaben “Commentaria in Aristotelem Graeca et Byzantina” (vgl. Abb. 3). Mit Hilfe von </hi>
+                <hi rend="color(#000000)italic">ediarum</hi>
+                <hi rend="color(#000000)"> entsteht ein detaillierter Handschriftenkatalog, dessen Ziel es ist, relevante Manuskripte mit mittelalterlichen Kommentaren zu Texten des Aristoteles vor allem aus dem 13. und 14. Jahrhundert zu verzeichnen.</hi>
+                <ref target="ftn5" n="5"/>
+                <hi rend="color(#000000)"> Die digitale Publikation enthält darüber hinaus auch prosopographische Informationen zu den Autoren, Besitzern und Kommentatoren, sowie zu den in den Handschriften enthaltenen Texten. Allein für die drei Objekttypen "Personen", "Manuskripte" und "Aristoteles Werke" sind in der Datenbank mehrere Beziehungsmöglichkeiten eindeutig definiert. So kann ein Manuskript ein Werk des Aristoteles ganz oder teilweise enthalten, eine Person kann etwa Kopist oder Besitzer einer Handschrift sein, ebenso können aber auch die Handschriftenbeschreibungen Verweise auf damit in Beziehung stehende Handschriften enthalten. </hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">Neben den teilweise sehr umfangreichen Handschriften- und Personenbeschreibungen enthalten insbesondere die Beziehungen zwischen den Datenobjekten für die Aristoteles-Forschung interessante Informationen. Im Rahmen der Handschriften- und Personenbeschreibungen wird durch die Beziehungen zunächst eine Kontextualisierung des Gegenstandes vorgenommen, welche die Einordnung und das Verständnis der jeweiligen Handschrift bzw. Person verbessert. Die Beziehungen selbst spannen letztlich ein Netzwerk auf, welches sich mit Hilfe von graph-basierten Werkzeugen filtern, visualisieren und analysieren lässt. Durch die Möglichkeit an einen solchen Graphen präzise Abfragen zu richten, lassen sich schließlich forschungsrelevante Fragen beantworten, deren Erforschung bisher nur durch zusätzliche mühsame Detailarbeit gelingen konnte</hi> und die weit über rein statistische Ansätze hinausgeht
+                <hi rend="color(#000000)"> Im Gegensatz zur facettierten Filterung, die </hi>bei der Filterung auf die direkte Beziehung zwischen zwei Objekten angewiesen ist, können graphbasierte Abfragen auch Abhängigkeiten mit längeren Beziehungspfaden finden und darstellen.
+                <hi rend="color(#000000)"> Durch die gleichzeitige Visualisierung </hi>und damit 
+                <hi rend="color(#000000)">Kontextualisierung von Handschriften, Personen und Aristoteles Werken i</hi>n
+                <hi rend="color(#000000)"> einem gemeinsamen Netzwerk können die bekannten Verbindungen neu bewertet werden. Gerade die Möglichkeit zur Modellierung von multimodalen Netzwerken</hi>
+                <ref target="ftn6" n="6"/>
+                in Graphdatenbanken bietet flexible Möglichkeiten den Forschungsgegenstand strukturiert zu erfassen und zu analysieren. Im Gegensatz zur historischen Netzwerkanalyse, bei der oft Algorithmen aus anderen Wissenschaftsbereichen wie z.B. der sozialen Netzwerkforschung angewendet werden, können sich Abfragen an eine Graphdatenbank sehr eng an der vom Wissenschaftler selbst gewählten Modellierung orientieren.
+            </p>
+			<figure>
+                    <graphic url="103_final-2f2be3c54ee6fa917a51d5e090ce00a4.png"/>
+					<head>
+						<lb/>Abb. 4: Personen und Texte, auf die sie Zugriff hatten (Ausschnitt) (Quelle: Kuczera/Fechner).
+					</head>
+            </figure>
+			<p>Für die Forschung ist es etwa von Interesse herauszufinden, auf welche Texte eine bestimmte Person Zugriff hatte (Abb. 4) oder welche Kopisten und Besitzer von Handschriften eines bestimmten Textes es in einem bestimmten Zeitraum gab. Leider ist in bisherigen gedruckten Katalogen, sowie auch In der Datenbank diese Information nur implizit vorhanden: Die einzelnen Handschriftenbeschreibungen enthalten Angaben zu ihren Besitzern und den in ihnen enthaltenen Texten. Die Rechercheaufgabe besteht also etwa darin, zu einer bestimmten Person alle Handschriften, zu denen sie Zugang hatte, zu finden und weiterhin alle darin enthaltenen Texte. In einer graphbasierten Datenbank ist lässt sich dies in einem einfachen Query ausdrücken, wodurch die Antwort sogar nicht nur für eine Person, sondern auch gleich für alle ausgeführt werden kann.</p>
+			<figure>
+                    <graphic url="103_final-2de8434fb0a42c2a764c6f384c956200.png"/>
+					<head>
+						<lb/>Abb. 5: Personen und Manuskripte, auf die sie jeweils über ihre persönliche Sammlung Zugriff hatten (Quelle: Kuczera/Fechner).
+					</head>
+            </figure>
+            <p>
+                <hi rend="color(#000000)">In der Graphdatenbank sind aber auch darüber hinausgehende Abfragen möglich. So lassen sich die Texte finden, die von den meisten Personen besessen wurden, oder Personenpaare, welche die gleichen Manuskriptsammlungen besaßen (Abb. 5). Die Visualisierungen von</hi>N
+                <hi rend="color(#000000)">etzwerken ermöglichen den Forschern eine neue Perspektive auf die komplexen Beziehungen von Personen, Manuskripten und Texten. Einen guten Überblick über die Forschungslage zur Rezeption bestimmter Texte, ergibt etwa die Abfrage nach einzelnen Texten, nach den sie enthaltenen Manuskripten und den dazugehörigen Besitzern. Aus der Analyse wird leicht ersichtlich, bei welchen Personen der Zugriff auf einen oder mehrere Texte nachgewiesen werden kann (Abb. 6).</hi>
+            </p>
+            <p>
+                <hi rend="color(#000000)">Die Anreicherung von Texten mit Kontext, etwa über Register und Kommentare ist ein zentraler Aspekt von Editionen und Digitalen Editionen. Die Daten selbst basieren auf akribischer Forschungsarbeit an den Quellen, die ein großes Hintergrundwissen voraussetzt. Mit dem Export der von Digitalen Editionen behandelten Objekte und Relationen über eine nachnutzbare Schnittstelle wie in </hi>
+                <hi rend="color(#000000)italic">ediarum.WEB</hi>
+                <hi rend="color(#000000)"> wird die Möglichkeit eröffnet, die vernetzten Forschungsdaten neuen Analysen zugänglich zu machen. Die graphbasierten Analysen reproduzieren die in den Quellen abgebildeten Kontexte und stellen diese erstmals gemeinsam und vernetzt dar. Sie sind nicht als Gegensatz zur bisherigen Forschungspraxis zu sehen, sondern als Fortentwicklung der bestehenden Methoden. Damit helfen sie bei der Bewertung, Kontextualisierung und Einordnung der einzelnen Quellen und des Gesamtkorpus.</hi>
+            </p>
+			<figure>
+                    <graphic url="103_final-ad8a863bd8253f540459489d0af0c6c1.png"/>
+					<head>
+						<lb/>Abb. 6: Welche Personen (blau) haben über welche Manuskripte (rot) Zugriff auf die Werke (gelb) “De interpretatione” (links), “De anima” (oben rechts) und “Physica” (unten rechts). (Quelle: Kuczera/Fechner).
+					</head>
+            </figure>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    Den Autoren ist kein Projekt bekannt, bei dem eine digitale Editionsumgebung wie z.B. Ediarum über Schnittstellen zu einer Graphdatenbank Datenauswertungen vornimmt, die über die Möglichkeiten der Editionsumgebung hinausgehen. Eine nicht text-zentrierter Anwendungsfall von Graphdatenbanken wird im Dariahpaper "Alte Daten neu verknoten: Die Verwendung einer Graphdatenbank für die Bilddatenbank REALonline" von Ingrid Mattschinegg (u.a.) beschrieben (vgl. https://de.dariah.eu/working-papers).
+                <ref target="http://www.creta.uni-stuttgart.de">www.creta.uni-stuttgart.de</ref>
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    Die Bilder sind allesamt von den Autoren selbst erstellt worden.
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    <hi rend="italic">ediarum</hi> wird seit 2012 an der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW) entwickelt und wird mittlerweile in über 15 Projekten in- und außerhalb der BBAW eingesetzt (vgl. Fechner 2017). URL: 
+                    <ptr target="http://www.bbaw.de/telota/software/ediarum"/>. Der Quellcode für die publizierten Module von ediarum findet sich unter 
+                    <ptr target="https://github.com/ediarum"/>. 
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    Das Konzept hierzu wurde bereits auf der DHd-Tagung 2018 vorgestellt und diskutiert (vgl. Fechner 2018).
+                </note>
+                <note xml:id="ftn5" n="5" rend="footnote text">
+                    Das Akademienvorhaben „Commentaria in Aristotelem Graeca et Byzantina“ ist Teil des von Bund und Ländern geförderten Akademienprogramms. URL der digitalen Publikation: 
+                    <ptr target="https://cagb-db.bbaw.de/"/>.
+                </note>
+                <note xml:id="ftn6" n="6" rend="footnote text">
+                    Multimodale Netzwerke haben mehrere Typen von Knoten. Unimodale Netzwerke haben dagegen nur einen Knotentyp.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+					<bibl>
+                        <hi rend="bold">Martin Fechner</hi>:
+                        <hi rend="italic"> “ediarum: eine digitale Arbeitsumgebung für Editionsvorhaben”</hi>, Folien zum Workshop »ediarum« im Rahmen des Workshops der Akademienunion am 20. Oktober 2017 in Mainz, URL: 
+                        <ptr target="https://nbn-resolving.org/urn:nbn:de:kobv:b4-opus4-28169"/>
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Martin Fechner</hi>: <hi rend="italic">Eine nachhaltige Präsentationsschicht für digitale Editionen</hi>, in: DHd 2018 - Kritik der digitalen Vernunft. Konferenzabstrakts, hg. v. Georg Vogeler, Köln 2018, URL: 
+                        <ptr target="http://dhd2018.uni-koeln.de/"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andreas Kuczera</hi>: <hi rend="italic">Graphentechnologien in den Digitalen Geisteswissenschaften</hi>, in: ABI Technik 2017; 37(3): 179–196 (https://doi.org/10.1515/abitech-2017-0042). URL: 
+                        <ptr target="https://www.degruyter.com/downloadpdf/j/abitech.2017.37.issue-3/abitech-2017-0042/abitech-2017-0042.pdf"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andreas Kuczera</hi>: <hi rend="italic">Graphentechnologien in den digitalen Geisteswissenschaften</hi>. Modellierung – Import – Exploration (Online-Publikation unter 
+                        <ref target="https://kuczera.github.io/Graphentechnologien/">
+                            <hi rend="color(#1155cc)underline">https://kuczera.github.io/Graphentechnologien/)</hi>
+                        </ref>
+                        <hi rend="color(#000000)">. (2018)</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

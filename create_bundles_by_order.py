@@ -206,22 +206,23 @@ def create_bundles(conference, publications: list, publication_pdfs: list, publi
             bundle_dir = os.path.join(bundle_path, "bundle_"+str(counter))
         try:
             os.mkdir(bundle_dir)
+            os.mkdir(os.path.join(bundle_dir, "bundle_publications"))
         except OSError:
             logging.warning("Directory already exists. Continue..")
 
-        copyfile(f, os.path.join(bundle_dir, os.path.basename(f)))
+        copyfile(f, os.path.join(bundle_dir,"bundle_publications",os.path.basename(f)))
         if not pdf_only:
-            copyfile(publication_xmls[index], os.path.join(bundle_dir, os.path.basename(publication_xmls[index])))
+            copyfile(publication_xmls[index], os.path.join(bundle_dir,"bundle_publications", os.path.basename(publication_xmls[index])))
 
         general_functions.create_bundles_metadata(publications[index], bundle_dir, )
         counter = counter + 1
 
-    list_of_defective_dirs = [dirpath for (dirpath, dirs, files) in os.walk(bundle_path)
-                              if len(dirs) == 1 and len(files) != 2]
-    if len(list_of_defective_dirs) != 0:
-        print(f"The following directories do not contain two files: {list_of_defective_dirs}")
+    if pdf_only:
+        defective_dirs = [bundle_dir for bundle_dir in os.listdir(bundle_path) if len(os.listdir(os.path.join(bundle_path, bundle_dir, "bundle_publications"))) != 1]
+        print(f"The following directories do not contain the pdf file: {defective_dirs}")
     else:
-        print("All directories have been created and contain two files. Continue..")
+        defective_dirs = [bundle_dir for bundle_dir in os.listdir(bundle_path) if len(os.listdir(os.path.join(bundle_path, bundle_dir, "bundle_publications"))) != 2]
+        print(f"The following directories do not contain two files: {defective_dirs}")
 
 if __name__ == "__main__":
     # call main function

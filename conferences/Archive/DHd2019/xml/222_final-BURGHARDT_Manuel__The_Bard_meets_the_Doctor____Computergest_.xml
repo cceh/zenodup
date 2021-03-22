@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="222_final-BURGHARDT_Manuel__The_Bard_meets_the_Doctor____Computergest_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>“The Bard meets the Doctor” – Computergestützte Identifikation intertextueller Shakespearebezüge in der Science Fiction-Serie Dr. Who</title>
+                <author>
+                    <persName>
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName>
+                    <affiliation>Universität Leipzig, Deutschland</affiliation>
+                    <email>burghardt@informatik.uni-leipzig.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Meyer</surname>
+                        <forename>Selina</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Deutschland</affiliation>
+                    <email>Selina.Meyer@stud.uni-regensburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schmidtbauer</surname>
+                        <forename>Stephanie</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Deutschland</affiliation>
+                    <email>Stephanie.Schmidbauer@stud.uni-regensburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Molz</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>johannes.molz@googlemail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-06T14:11:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Text Reuse</term>
+                    <term>Intertextualität</term>
+                    <term>Shakespeare</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Kontextsetzung</term>
+                    <term>Methoden</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung: Shakespeare und Intertextualität</head>
+                <p>In der jüngeren Literatur- und Kulturtheorie geht man davon aus, dass alle literarischen Texte immer auch durch eine reiche Tradition, ja ein ganzes Ökosystem, bestehender Literatur beeinflusst sind (Allen, 2000, S. 1). Dieser Einfluss, der sich im Text sowohl in impliziten als auch in expliziten Querverbindungen durch Zitate offenbart, wird gemeinhin als Intertextualität bezeichnet<hi rend="superscript">1</hi>. Als eine der zentralen Kulturtechniken der Postmoderne, lässt sich das Zitat an keinem Autor so gut studieren wie an William Shakespeare, dessen intertextuelles Nachwirken die gesamte westliche Kulturhemisphäre durchzieht (Maxwell &amp; Rumbold, 2018, S. 1). Eine Untersuchung dieser allgegenwärtigen Spuren ist somit zwingend auch eine Geschichte unserer gesamten Kultur (Taylor, 1991) und beantwortet und eröffnet Fragen, die weit über Shakespeare hinausgehen. Dabei finden sich intertextuelle Bezüge auf das Werk Shakespeares nicht nur in unterschiedlichsten literarischen Genres, sondern in zunehmendem Maße auch im Massenmedium Film und Fernsehen (Malone, 2018).
+                </p>
+                <p>Wenngleich Film in erster Linie ein visuelles Medium ist, so bietet sich über die Dialoge zusätzlich ein verbaler Analysezugang (vgl. Kozloff, 2000), Klarer (1998, S. 54) spricht in dem Zusammengang gar von Film als semi-textuelles Genre. Die den Filmen zugrunde liegenden Skripte lassen sich als Dramen lesen, da sie ausschließlich aus Figurennamen, Sprechakten und Bühnenanweisungen bestehen. Für die quantitative Analyse von Intertextualitätsphänomenen bei Filmen liegt ein großer Vorteil in der Verfügbarkeit vollständig transkribierter Dialoge die als Untertitel<hi rend="superscript">2</hi>, Drehbücher<hi rend="superscript">3</hi> oder Fan-Transkripte<hi rend="superscript">4</hi> über diverse Online-Portale angeboten werden. Die maschinenlesbaren Dialoge können sodann mit bestehenden Methoden und Algorithmen aus dem informatischen Anwendungsbereich der 
+                    <hi rend="italic">text reuse detection</hi>, also der Identifikation einer Wiederverwendung bestimmter Textfragmente in anderen Texten, eingesetzt werden. Verwandte Arbeiten zur computergestützten Intertextualitätsforschung finden sich vor allem im Bereich historischer Sprachen, insbesondere Latein und Griechisch (vgl. Berti et al., 2013; Büchler et al. 2014; Scheirer et al., 2014; Forstall et al., 2015; Bamman &amp; Crane, 2018), weniger im Bereich der Anglistik und fast gar nicht in der Shakespeareforschung. Wenngleich das Thema umfangreich mit qualitativ-hermeneutischen Methoden untersucht wurde und wird (vgl. etwa den Sammelband von Maxwell &amp; Rumbold, 2018), so finden sich nur wenige Arbeiten, die quantitative, digitale Methoden einsetzen, bspw. das Hyper-Hamlet-Projekt<hi rend="superscript">5</hi>, bei dem eine große elektronische Datenbank mit Hamlet-Referenzen aufgebaut wurde (Hohl Trillini &amp; Quassdorf, 2010).
+                </p>
+                <p>Vor diesem Hintergrund exploriert der vorliegende Beitrag intertextuelle Bezüge auf das Werk Shakespeares in der britischen Fernsehserie Dr. Who und setzt dabei auf computergestützte Analysemethoden, die bislang vor allem im Bereich klassischer Altertumswissenschaften und historischer Sprachen eingesetzt wurden. Dr. Who eignet sich dabei in besonderer Weise, da die TV-Serie fester Bestandteil der britischen Kultur ist, was automatisch eine größere Nähe zum Werk ihres Landsmannes Shakespeare bedeutet. Andererseits gibt es einige Folgen bei Dr. Who, bei denen bereits im Titel explizite Shakespeare-Bezüge deutlich werden<hi rend="superscript">6</hi>, was auf die Identifikation weiterer Zitate und Referenzen in anderen Folgen hoffen lässt. Unser Beitrag versteht sich im Wesentlichen als Fallstudie anhand derer überprüft werden soll, ob sich Standard-Methoden der 
+                    <hi rend="italic">text reuse detection</hi> prinzipiell auch für eine vergleichende Analyse von Shakespeare und TV-Serien eignen. Gleichzeitig soll am Beispiel von Dr. Who exemplarisch untersucht werden, welche Art und Menge von intertextuellen Shakespeare-Bezügen im Kontext von TV-Serien zu erwarten sind, um darauf aufbauend den computergestützten Ansatz zu optimieren und weitere Filme und Serien zu analysieren. Übergeordnetes und langfristiges Ziel ist es demnach, systematisch die Referenzierung Shakespeares in Film und Fernsehen mithilfe computergestützter Methoden zu erfassen und so die intertextuelle und intermediale Durchdringung von Shakespeares Werk über die klassischen Literaturgenres hinaus zu quantifizieren und zu kartieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpora: Shakespeare vs. Dr. Who</head>
+                <p>Im Rahmen unserer Fallstudie werden systematisch Referenzen aus zehn der bekanntesten Shakespeare-Stücke 
+                (<hi rend="italic">Hamlet</hi>, 
+                    <hi rend="italic">Macbeth</hi>, 
+                    <hi rend="italic">Merchant of Venice</hi>, 
+                    <hi rend="italic">Midsummer Night's Dream</hi>, 
+                    <hi rend="italic">Much Ado About Nothing</hi>, 
+                    <hi rend="italic">Julius Caesar</hi>, 
+                    <hi rend="italic">The Tempest</hi>, 
+                    <hi rend="italic">Romeo and Juliet</hi>, 
+                    <hi rend="italic">King Lear</hi>, 
+                    <hi rend="italic">Othello</hi>) sowie aus 154 kurzen Sonetten identifiziert werden. Die Transkripte dieser Werke stammen von der Website 
+                    <hi rend="italic">Open Source Shakespeare</hi><hi rend="superscript">7</hi> und umfassen etwa 244.000 Tokens. Gesucht werden die Shakespearebezüge in einem Vergleichskorpus, welches aus den transkribierten Dialogen der TV-Serie Dr. Who besteht. Doctor Who ist eine der populärsten Science Fiction-Serien der britischen Geschichte und wird seit 1969 vom BBC produziert. Mittlerweile umfasst die Serie 840 Folgen, verteilt auf über 36 Staffeln und 13 verschiedene Doktoren. Für die vorliegende Studie wurden die Serientranskripte der ersten fünf Doktoren analysiert. Die Transkripte wurden von der Fan-Seite 
+                    <hi rend="italic">Chakoteya</hi><hi rend="superscript">8</hi> heruntergeladen und umfassen insgesamt 141 Folgen mit einem Gesamtumfang von etwa zwei Millionen Tokens. Die Transkripte enthalten einerseits die Dialoge und andererseits Metadaten zu den jeweiligen Szenen, die vergleichbar mit Bühnenanweisungen bei Dramen sind.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodik: Suche nach local alignments und keywords</head>
+                <p>Für die Identifikation von textuellen Übereinstimmungen und Textähnlichkeiten 
+                (<hi rend="italic">text reuse</hi>) findet sich ein breites Spektrum an computergestützten Methoden, die im Überblickspapier von Bär et al. (2012) grundlegend hinsichtlich (1) inhaltlicher, (2) struktureller und (3) stilistischer Ähnlichkeit kategorisiert werden. In dieser Studie verwenden wir den Smith-Waterman-Algorithmus (Smith &amp; Waterman, 1981), ein Standard-Verfahren zur Identifikation von 
+                    <hi rend="italic">local alignments</hi>, also textuellen Übereinstimmungen auf der Inhaltsebene, das u.a. auch im Bereich der Bioinformatik für die Analyse von Genomsequenzen eingesetzt wird. Dabei werden auch graduelle Unschärfen wie etwa 
+                    <hi rend="italic">gaps</hi>, also einzelne fehlende Worte in ansonsten größtenteils identischen Wortgruppen, berücksichtigt. Zur Analyse der Korpora wurden die R-Packages 
+                    <hi rend="italic">TextMining</hi><hi rend="superscript">9</hi> für das 
+                    <hi rend="italic">Preprocessing</hi> der Daten und 
+                    <hi rend="italic">TextReuse</hi><hi rend="superscript">10</hi> als Implementierung für den Smith-Waterman-Algorithmus verwendet. Beim 
+                    <hi rend="italic">Preprocessing</hi> wurde schnell deutlich, dass bspw. eine Stoppwortentfernung nicht sinnvoll ist, da diese teilweise sehr charakteristisch für Shakespeare-Zitate sind (Bsp.: „to be or not to be”). Auch von Stemming und Lemmatisierung wurde abgesehen, da dies zu sehr vielen falsch-positiven Treffern führt, die dann aufwendig durch manuelle Kontrolle ausgefiltert werden müssen.
+                </p>
+                <p>Weiterhin wurde das Shakespeare-Korpus in jeweils überlappende 9-Gramme 
+                (<hi rend="italic">shingling</hi>), also jeweils Gruppen von neun Wörtern zerlegt. Für jedes einzelne 9-Gramm wurde dann im Dr. Who-Korpus mithilfe des im TextReuse-Package implementierten Smith-Waterman-Algorithmus das optimale 
+                    <hi rend="italic">local alignment</hi>, also der beste Treffer ermittelt. Dabei ist erwähnenswert, dass für jedes einzelne Shakespeare-9-Gramm immer ein optimales 
+                    <hi rend="italic">alignment</hi> im Dr. Who-Vergleichskorpus berechnet wird, auch wenn dieses ggf. nur aus einem oder zwei gemeinsamen Wörtern besteht. Der Vorgang ist somit einerseits sehr rechenintensiv und liefert andererseits eine große Menge von 
+                    <hi rend="italic">alignments</hi>, deren ausschließlich manuelle Kontrolle enorm aufwendig wäre. Dabei ist offensichtlich, dass die Verwendung einzelner, noch dazu sehr allgemeiner Wörter (Artikel, Konjunktionen, etc.) längst keinen intertextuellen Bezug darstellt. Wir betrachten deshalb nur solche 
+                    <hi rend="italic">alignments</hi> näher, die aus mindestens drei oder mehr Wörtern bestehen.
+                </p>
+                <p>Gleichzeitig sind allerdings sehr kurze Referenzen, bspw. die Nennung einer Figur wie „Othello“ oder „Macbeth“, nicht ausgeschlossen, gehen aber bei diesem Ansatz verloren. Wir ergänzen den 
+                    <hi rend="italic">local alignment</hi>-Ansatz deshalb um eine 
+                    <hi rend="italic">keyword</hi>-Suche, bei der wir eine manuell erstellte Liste mit etwa 140 Stichwörtern und sehr kurzen Phrasen verwendeten. Die Liste enthält alle 
+                    <hi rend="italic">dramatis personae</hi> mit eindeutigen Namen (bspw. Ophelia, Romeo, Caliban, etc.), die Titel aller Stücke und Apokryphen sowie allgemeine Referenzen zu Shakespeares Person und Biographie (bspw. Shakespeare, Shaksper, The Bard, Stratford upon Avon, Anne Hathaway, etc.).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse und Diskussion</head>
+                <p>Insgesamt wurden mit der 
+                    <hi rend="italic">keyword</hi>-Suche 201 Treffer im Dr. Who-Korpus identifiziert, wobei ein Großteil der Treffer in einer einzelnen Folge vorkommen, da hier zwei der Hauptfiguren Troilus (108) und Cressida (37) heißen (vgl. Tabelle 1). 
+                </p>
+                <p>
+                    <hi style="font-size:9pt" xml:space="preserve">Beispielreferenz: “TROILUS: I'm sorry, </hi>
+                    <hi rend="bold" style="font-size:9pt">Cressida</hi>
+                    <hi style="font-size:9pt">, but I must obey orders.”</hi>
+                </p>
+                <p>Bei genauerer Überprüfung der Treffer wird schnell klar, dass Figurennamen aus Shakespeares Historiendramen häufig auch in der ursprünglichen Bedeutung der zugrundliegenden historischen Figur zitiert werden (bspw. 
+                    <hi rend="italic">Horatio [Nelson]</hi>, 
+                    <hi rend="italic">King John</hi>, 
+                    <hi rend="italic">Julius Caesar</hi>, 
+                    <hi rend="italic">Pericles</hi>) und somit keine genuine Shakespearereferenz vorliegt. Nach Entfernung dieser falsch-positiven Treffer verbleiben 185 echte Shakespearereferenzen. Hier muss allerdings angemerkt werden, dass die von uns verwendeten Transkripte neben den eigentlichen Dialogen auch umfangreiche Kommentare und Metadaten zu den Stücken enthalten, die häufig zusätzliche Shakespeare-Keywords enthalten. So kommt man ausschließlich über die Dialoge auf 77 Treffer, in den Metadaten finden sich zusätzliche 108 Treffer. 
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.89263888888889cm" height="6.700238888888889cm" url="222_final-23e3b67374bf471442860df948fc4de5.png" rend="inline"/>
+                </figure>
+                <p>
+                    <hi rend="bold" style="font-size:9pt">Tabelle 1</hi>
+                    <hi style="font-size:9pt" xml:space="preserve">: Überblick zu den gefundenen Keywords und </hi>
+                    <hi rend="italic" style="font-size:9pt">alignments</hi>
+                    <hi style="font-size:9pt" xml:space="preserve"> im Dr. Who-Korpus. Kursiv gesetzte Treffer sind falsch-Positive, d.h. nach manueller Prüfung stellte sich heraus, dass sie keine unmittelbare Shakespearereferenz beinhalten.</hi>
+                </p>
+                <p>Auffällig niedrig scheint im Vergleich zu den 
+                    <hi rend="italic">keyword</hi>-Treffern die Anzahl längerer 
+                    <hi rend="italic">alignments</hi> zu sein: So finden sich insgesamt nur acht längere Shakespeare-Zitate in unserem Dr. Who-Korpus, bspw.:
+                </p>
+                <p>
+                    <hi style="font-size:9pt">(1) “Friends, Romans, countrymen! Lend me your ears. I come to bury Caesar, not to praise him.”</hi>
+                </p>
+                <p>
+                    <hi style="font-size:9pt" xml:space="preserve">(Julius Caesar, Akt 3, Szene 2) </hi>
+                </p>
+                <p>
+                    <hi style="font-size:9pt">(2) “To be or not to be.” (Hamlet, Akt 3, Szene 1)</hi>
+                </p>
+                <p>
+                    <hi style="font-size:9pt">(3) “By the pricking of my thumbs, something wicked this way comes.” (Macbeth, Akt 4, Szene 1)</hi>
+                </p>
+                <p>Gleichzeitig erhalten wir mit dem local aligment-Ansatz auch viele falsch-positive Treffer, die zwar längere, in beiden Texten vorkommende Sequenzen beschreiben, aber keine genuinen Shakespeare-Zitate sind, sondern eher hochfrequente Idiome, bspw.:</p>
+                <p style="text-align:left;">
+                    <hi style="font-size:9pt">“You all know what you have to do.” (kommt gleichermaßen bei Shakespeare und Dr. Who vor)</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodenreflexion und Fazit</head>
+                <p>Der zweigleisige Ansatz einer 
+                    <hi rend="italic">local alignment</hi>- sowie einer gesonderten 
+                    <hi rend="italic">keyword</hi>-Suche bringt mit 193 intertextuellen Shakespearebezügen in unserem Dr. Who-Korpus eine beeindruckende Anzahl von Treffern, deren Identifikation manuell was Umfang und Arbeitsaufwand angeht, so nicht ohne Weiteres möglich gewesen wäre. Damit ergeben sich spannende Perspektiven für die Erweiterung des Ansatzes auf größere Korpora, mit weiteren Serien und Filmen. Gleichwohl muss angemerkt werden, dass der Löwenanteil der Treffer über den relativ trivialen Ansatz der 
+                    <hi rend="italic">keyword</hi>-Suche gefunden wurde. Von den insgesamt 193 Treffern stammen nur 8 aus dem 
+                    <hi rend="italic">local alignment</hi>-Ansatz. Bedenkt man den enormen Rechenaufwand (fast 200 Stunden mit Standard-Laptops) und den Aufwand der manuellen Filterung der 
+                    <hi rend="italic">alignments</hi>, so muss man den 
+                    <hi rend="italic">local alignment</hi>-Ansatz in dieser Form doch deutlich hinterfragen. Denkbar wären hier für künftige Experimente weitere Optimierungen auf algorithmischer Seite, bspw. die Berücksichtigung von Wortarten-Ngrammen oder die Verwendung alternativer Algorithmen aus dem Bereich der 
+                    <hi rend="italic">content similarity</hi> (vgl. Bär et al., 2012). Weitere Verbesserungen sind auf Seite der Ergebnispräsentation (vgl. Burghardt &amp; Wolff, 2015) möglich, welche die Beurteilung der Treffer deutlich erleichtern und damit beschleunigen könnte. Sinnvoll scheint auch eine Vorfilterung durch die 
+                    <hi rend="italic">keyword</hi>-Suche, d.h. nur diejenigen Episoden in denen bereits ein Shakespeare-
+                    <hi rend="italic">keyword</hi> erkannt wurde werden anschließend auch noch mit dem 
+                    <hi rend="italic">local alignment</hi>-Ansatz auf komplexere Zitate hin untersucht. Als nächste Schritte sollen deshalb systematisch Korrelationen zwischen komplexen 
+                    <hi rend="italic">alignments</hi> und einzelnen 
+                    <hi rend="italic">keywords</hi> in einem größeren Korpus untersucht werden.
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> Für eine Einführung zu „Intertextualität“ siehe Allen (2000).</note>
+				<note place="foot" xml:id="ftn2" n="2"> Untertitel online verfügbar unter https://www.opensubtitles.org/de (alle URLs in diesem Artikel wurden zuletzt am 14.10.2018 überprüft)</note>
+				<note place="foot" xml:id="ftn3" n="3">> Drehbücher online verfügbar unter https://www.imsdb.com/</note>
+				<note place="foot" xml:id="ftn4" n="4"> Fan-Transkripte online verfügbar unter http://transcripts.foreverdreaming.org/, https://www.springfieldspringfield.co.uk/, http://www.chakoteya.net/</note>
+				<note place="foot" xml:id="ftn5" n="5"> HyperHamlet online verfügbar unter http://www.hyperhamlet.unibas.ch/</note>
+				<note place="foot" xml:id="ftn6" n="6"> Bspw. „The Shakespeare Code“, Dr. Who Folge 180, Transkription online verfügbar unter http://www.chakoteya.net/DoctorWho/29-2.htm</note>
+				<note place="foot" xml:id="ftn7" n="7"> Open Source Shakespeare online verfügbar unter https://www.opensourceshakespeare.org/</note>
+				<note place="foot" xml:id="ftn8" n="8"> Chakoteya Fan-Transkripte online verfügbar unter http://www.chakoteya.net/DoctorWho/index.html</note>
+				<note place="foot" xml:id="ftn9" n="9"> Dokumentation online verfügbar unter https://cran.r-project.org/web/packages/tm/index.html</note>
+				<note place="foot" xml:id="ftn10" n="10"> Dokumentation online verfügbar unter https://cran.r-project.org/web/packages/textreuse/index.html</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Allen, G. (2000):</hi> 
+                        <hi rend="italic">Intertextuality</hi>, 
+                        London, New York: Routledge.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bamman, D. / Crane, G. (2008)</hi> 
+                        <hi rend="italic">The Logic and Discovery of Textual Allusion</hi>, 
+                        in: ACL Language Technology for Cultural Heritage, (1986).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bär, D. / Zesch, T. / Gurevych, I. (2012):</hi> 
+                        <hi rend="italic">Text Reuse Detection using a Composition of Text Similarity Measures</hi>, 
+                        in: Proceedings of COLING 2012, 1 (December), 167–184.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Berti, M. / Büchler, M. / Geßner, A. / Thomas, E. (2013):</hi>
+                        <hi rend="italic">Measuring the Influence of a Work by Text Reuse</hi>, 
+                        in: The Digital Classicist.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burghardt, M. / Wolff, C. (2015):</hi> 
+                        <hi rend="italic">Humanist-Computer Interaction: Herausforderungen für die Digital Humanities aus Perspektive der Medieninformatik</hi>,
+                        in: Book of Abstracts Workshop “Informatik und die Digital Humanities”, Leipzig.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Büchler, M. / Burns, P. R. / Müller, M. / Franzini, E. / Franzini, G. (2014):</hi> 
+                        <hi rend="italic">Towards a Historical Text Re-use Detection</hi>, 
+                        in 
+                        <hi rend="bold">C. Biemann / A. Mehler (Eds.):</hi> 
+                        <hi rend="italic">Text Mining, Theory and Applications of Natural Language Processing</hi>, 
+                        Springer International Publishing.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Forstall, C. / Coffee, N. / Buck, T. / Roache, K. / Jacobson, S. (2015):</hi> 
+                        <hi rend="italic">Modeling the scholars: Detecting intertextuality through enhanced word-level n-gram matching</hi>, 
+                        in: Digital Scholarship in the Humanities, 30 (4), 503–515. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hohl Trillini, R. / Quassdorf, S. (2010):</hi> 
+                        <hi rend="italic">A “key to all quotations”? A corpus-based parameter model of intertextuality</hi>, 
+                        in: Literary and Linguistic Computing, 25 (3), 269–286. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Klarer, M. (1999):</hi> 
+                        <hi rend="italic">An Introduction to Literary Studies</hi>, 
+                        London, New York: Routledge.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kozloff, S. (2000):</hi> 
+                        <hi rend="italic">Overhearing Film Dialogue</hi>, 
+                        Berkeley et al.: University of California Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Malone, T. (2018):</hi> 
+                        <hi rend="italic">Quoting Shakespeare in Twentieth- Century Film</hi>, 
+                        in: 
+                        <hi rend="bold">Maxwell, J. / Rumbold, K. (Eds.):</hi> 
+                        <hi rend="italic">Shakespeare and Quotation</hi> 
+                        (pp. 194–208). Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Maxwell, J. / Rumbold, K. (2018):</hi>
+                        <hi rend="italic">Shakespeare and Quotation</hi>, 
+                        Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scheirer, W. / Forstall, C. / Coffee, N. (2016):</hi> 
+                        <hi rend="italic">The sense of a connection: Automatic tracing of intertextuality by meaning</hi>, 
+                        Digital Scholarship in the Humanities, 
+                        31 (1), 204–217. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Smith, T. F. / Waterman, M. S. (1981):</hi> 
+                        <hi rend="italic">Identification of Common Molecular Subsequences</hi>, 
+                        Journal of Molecular Biology, 147, 195–197.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Taylor, G. (1991):</hi> 
+                        <hi rend="italic">Reinventing Shakespeare: A Cultural History from the Restoration to the Present</hi>, 
+                        Oxford: Oxford University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

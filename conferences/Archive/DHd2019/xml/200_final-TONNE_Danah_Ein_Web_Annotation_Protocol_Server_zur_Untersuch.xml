@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="200_final-TONNE_Danah_Ein_Web_Annotation_Protocol_Server_zur_Untersuch" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ein Web Annotation Protocol Server zur Untersuchung vormoderner Wissensbestände</title>
+                <author>
+                    <persName>
+                        <surname>Tonne</surname>
+                        <forename>Danah</forename>
+                    </persName>
+                    <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+                    <email>danah.tonne@kit.edu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Götzelmann</surname>
+                        <forename>Germaine</forename>
+                    </persName>
+                    <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+                    <email>germaine.goetzelmann@kit.edu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hegel</surname>
+                        <forename>Philipp</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>philipp.hegel@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Krewet</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>m.krewet@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hübner</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>julia.huebner@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Söring</surname>
+                        <forename>Sibylle</forename>
+                    </persName>
+                    <affiliation>Center für Digitale Systeme</affiliation>
+                    <email>ssoering@cedis.fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Löffler</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+                    <email>andreas@loeffler-bermayer.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hitzker</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+                    <email>mail@hitzker.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Höfler</surname>
+                        <forename>Markus</forename>
+                    </persName>
+                    <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+                    <email>Markus.Hoefler@live.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schmidt</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Karlsruher Institut für Technologie, Deutschland</affiliation>
+                    <email>timo.schmidt2@student.kit.edu</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-12-19T13:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotationen</term>
+                    <term>Web Annotation Data Model</term>
+                    <term>Triple-Store</term>
+                    <term>SPARQL 1.1</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Der Sonderforschungsbereich 980 „Episteme in Bewegung“</head>
+                <p>Der Sonderforschungsbereich 980 (SFB 980) „Episteme in Bewegung“ untersucht Prozesse des Wissenstransfers und Wissenswandels in europäischen und nicht-europäischen Kulturen vom 3. Jahrtausend vor Christus bis etwa 1750 nach Christus. In 27 Teilprojekten aus 21 Disziplinen wird gezeigt, wie gerade dort, wo in den Selbstbeschreibungen der vormodernen Kulturen und aus der Perspektive der Moderne Kontinuität und Stabilität im Vordergrund stehen, Neukontextualisierungen von Wissen fassbar werden. Die konkreten Möglichkeiten digitaler Methoden sowie Auswirkungen auf den Forschungsprozess werden an Hand zweier Anwendungsfälle dargelegt.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Anwendungsfall 1: Prozesse der Traditions- bildung in der de interpretatione-Kommentierung der Spätantike</head>
+                    <p>Die Erforschung der handschriftlichen Überlieferung einer Schrift kann Erkenntnisse über beispielsweise Verwandtschaftsverhältnisse oder Verwendungskontexte einzelner Exemplare liefern. Im Falle von Aristoteles’ Schrift 
+                        <hi rend="italic">de interpretatione</hi>, von der 150 griechischsprachige Handschriften erhalten sind, stößt die analoge Untersuchung jedoch an ihre Grenzen (Montanari 1984, Reinsch 2001). Vielfach hatte ein Kopist eines Textes gleich mehrere Exemplare mit unterschiedlichen Textversionen vor sich. Beim Kopieren konnte er diese vermischen oder sogar Vorlagen im Sinne einer für besser befundenen Version korrigieren. Ebenso konnte er beim Kopieren verschiedene Erklärungen unterschiedlichster Provenienz an den Rand des Textes schreiben. Diese Praktik macht es immens schwierig, den genauen Weg, wie die Schrift überliefert wurde, und Traditionen unter den Erklärungen zu erforschen.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Anwendungsfall 2: Vermittlung kommu- nikativer Alltagsroutinen im Kontext sprachlicher Diversität in der Frühen Neuzeit</head>
+                    <p>Im Zentrum stehen 315 Lehrwerke für Moderne Fremdsprachen mit Deutsch-Anteil (Glück 2002) aus der Frühen Neuzeit (Mitte des 15. Jahrhunderts bis Anfang des 18.Jahrhunderts). Diese Sprachlehrwerke waren in der Regel mehrsprachig angelegt und richteten sich an Reisende aller Art. Einige dieser Drucke wurden über Jahrzehnte immer wieder in überarbeiteter Form herausgegeben und eignen sich daher besonders gut für die Untersuchung von Wandelprozessen. Eine weitere spannende Fragestellung bilden die Autorisierungsstrategien in diesen Lehrwerken: wer ist autorisiert, Sprache zu beschreiben / zu unterrichten und mit welchen Mitteln legitimieren die Autoren ihre Werke?</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Modellierung fachwissenschaftlichen Wissens als Annotation</head>
+                <p>Zentrale Methodik zur Untersuchung der Forschungsfragen in beiden Anwendungsfällen ist die Anreicherung von Bilddigitalisaten mit zusätzlichen Informationen. Dieses Wissen wird auf technischer Ebene als digitale Annotation modelliert, wobei das verwendete Modell für beliebige referenzierbare Daten nutzbar sein soll. Seit Februar 2017 steht dazu mit dem 
+                    <hi rend="italic">Web Annotation Data Model</hi> (WADM) des W3C-Konsortiums (Young et al. 2017) der Nachfolger zum weitverbreiteten 
+                    <hi rend="italic">Open Annotation Data Model</hi> zur Verfügung. Mit diesem standardisierten Modell und Format soll der Austausch von Annotationen über Disziplin- und Systemgrenzen ermöglicht werden. 
+                </p>
+                <p>In der Infrastruktur des SFB 980 finden diese Empfehlungen ihre Anwendung, um der großen Heterogenität der Disziplinen, Erkenntnisinteressen und Arbeitsweisen und damit auch der Vielfältigkeit der Annotationstypen, -formate und -praktiken Rechnung zu tragen. Schon bei den zwei betrachteten Anwendungsfällen entstammen die Annotationen drei unterschiedlichen Quellen: </p>
+                <list type="ordered">
+                    <item>
+                        <hi rend="italic">Adobe Acrobat:</hi> Forschende annotieren Digitalisate innerhalb von PDFs, die Annotationen können als XFDF exportiert werden.
+                    </item>
+                    <item>
+                        <hi rend="italic">Automatische Layoutanalyse:</hi> Algorithmen vermessen Seiten-, Text- und Bildbereiche, die Informationen werden im PAGE-Standard abgelegt.
+                    </item>
+                    <item>
+                        <hi rend="italic">Projektspezifische grafische Annotationsoberfläche:</hi> Informationen werden direkt als Annotationen gemäß des Web Annotation Data Models gespeichert. 
+                    </item>
+                </list>
+                <p>Um eine disziplinübergreifende Auswertung zu ermöglichen, werden die XML-Dateien aus 1. und 2. mit Hilfe eines Parsers in das Web Annotation Data Model überführt und im Annotationsspeicher zugreifbar abgelegt. Abbildung 1 zeigt Auszüge der Modellierung für die automatische Layoutanalyse sowie manueller fachwissenschaftlicher Annotation. Die vermessenen bzw. eingegebenen Informationen werden im so genannten 
+                    <hi rend="italic">body</hi> aufgeführt. Zentral ist hierbei die Nutzung des Feldes 
+                    <hi rend="italic">purpose</hi> zur Klassifizierung der einzelnen 
+                    <hi rend="italic">bodies</hi> mit Hilfe von Kategorien aus dem Web Annotation Data Model (z.B. 
+                    <hi rend="italic">classifying</hi>, 
+                    <hi rend="italic">tagging</hi>) und der TaDiRAH (Borek et al. 2016) Taxonomie (z.B. 
+                    <hi rend="italic">translation</hi>, 
+                    <hi rend="italic">transcription</hi>), um eine automatische Auswertung und Visualisierung zu ermöglichen. Auch die aus der Layoutanalyse stammende Unterscheidung von Seiten-, Text- und Bildbereichen wird im 
+                    <hi rend="italic">body</hi> modelliert. Die annotierten Bilder werden im 
+                    <hi rend="italic">target</hi> referenziert, Bildausschnitte konform mit dem SVG-Standard definiert. Durch die Nutzung des Feldes 
+                    <hi rend="italic">creator</hi> sowohl auf Annotationsebene als auch in den 
+                    <hi rend="italic">bodies</hi> kann die Herkunft der Informationen nachverfolgt werden und können beispielsweise verschiedene Algorithmusversionen der Layoutanalyse verglichen werden.
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.968486111111112cm" height="6.9162083333333335cm" url="200_final-ebbb975f2f49cd651e3043312bbe07d5.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 1: JSON-Repräsentation einer Annotation (links) mit Auszügen möglicher bodies aus fachwissen-schaftlicher Annotation (Mitte) bzw. automatischer Layoutanalyse (rechts) im Web Annotation Data Model
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ein Blick unter die Haube: RDF-Server und SPARQL-Anfragen</head>
+                <p>Nach der Modellierung ist die verlässliche Sicherung und die standardisierte Abrufbarkeit der Annotationen von immenser Bedeutung. Das gemeinsam mit dem 
+                    <hi rend="italic">Web Annotation Data Model</hi> veröffentliche 
+                    <hi rend="italic">Web Annotation Protocol</hi> (Sanderson 2017) definiert eine REST-Schnittstelle für einen Annotationsspeicher und stellt so eine erfolgreiche Kommunikation zwischen Servern und Clients sicher. Ein im Rahmen der SFB-Infrastruktur entwickelter, generischer Annotationsserver setzt alle obligatorischen und viele der optionalen Vorgaben des Protokolls sowie die für Annotationen relevanten Teile der 
+                    <hi rend="italic">Linked Data Platform</hi> (LDP)-Empfehlungen vollständig um. Die javabasierte Serverarchitektur bindet dabei modular einen RDF Triple Store (derzeit Apache Jena TDB2, aber prinzipiell austauschbar) an. Auf diese Weise ist ein standardkonformer und damit an verbreitete Annotationsprogrammen anbindbarer Server entstanden, dessen lose gekoppelte Speicherkomponente bei beispielsweise Softwareobsoleszenz oder gestiegenen Skalierbarkeitsanforderungen mit geringstem Aufwand ausgetauscht werden kann. Nach aktuellem Stand sind ca. 15500 Bildannotationen aus automatischer Layoutanalyse und manueller Transkription und Klassifizierung im WADM-Format in Form einzelner RDF-Graphen abgelegt. 
+                </p>
+                <p>Neben der REST-Schnittstelle ist mit dem Triple Store zugleich auch ein SPARQL 1.1 Endpunkt verbunden, der semantische Anfragen an die Annotationsdaten ermöglicht. Hier rücken neben den formalen Vorgaben der Annotationen zur Erzeugung, Bearbeitung und Anzeige (Annotationstyp, Selektoren, Links zu Ressourcen, etc.), die Annotationsinhalte in den Blick. Diese sind je nach Forschungsinteresse unterschiedlich ausgestaltet und in einem oder mehreren 
+                    <hi rend="italic">bodies</hi> abgelegt. Mit inhaltsspezifischen SPARQL-Anfragen können diese 
+                    <hi rend="italic">bodies</hi> miteinander oder mit den 
+                    <hi rend="italic">targets</hi> in Beziehung gesetzt und ausgewertet werden. Über die eigenen Serverinhalte hinaus können mit Hilfe sogenannter föderierter SPARQL-Anfragen weitere Metadaten innerhalb der 
+                    <hi rend="italic">Linked Open Data Cloud</hi> zur Analyse hinzugezogen werden, ohne dass diese redundant abgelegt werden müssen. So eröffnen sich Möglichkeiten zur Nachnutzung von Norm- und Geodaten sowie zur projektübergreifenden Nutzung von Vokabularen und Taxonomien.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse und Ausblick</head>
+                <p>Bei 
+                    <hi rend="italic">de interpretatione</hi> wurden Textbereiche, besondere Textvarianten, Erklärungen, Diagramme und Interlinearglossen mit zusätzlichen Informationen wie Beschreibungen, Transkriptionen, Übersetzungen und vielfältigen Tags angereichert. Mit Hilfe von SPARQL-Anfragen werden beispielsweise die Transkriptionen von Interlinearglossen auf verschiedenen Digitalisatseiten dahingehend abgefragt, zu welchem Satz des Aristoteles-Textes und zu welchem Wort oder Satzfragment sie gehören (realisiert durch 
+                    <hi rend="italic">tagging</hi>). Auf diese Weise können verschiedene Variationen der Interlinearglossen verglichen, gezählt und visualisiert werden. Schon bei Betrachtung eines einzelnen Satzes (vergleiche Abbildung 2) lassen sich im Handschriftenkorpus Gemeinsamkeiten zwischen Manuskriptgruppen aufzeigen. Für die anderen Formen der antiken Kommentierung sowie der Textvarianten gestaltet sich die Auswertung analog. Die so durchgeführte Untersuchung von signifikanten Gemeinsamkeiten und Variationen 
+                    <hi rend="italic">aller</hi> Handschrifteninhalte ergänzt die herkömmliche textkritische Methode und stellt damit eine unerlässliche Hilfe für die Erforschung der komplexen Austauschprozesse dar, die bei der Textüberlieferung stattgefunden haben.
+                </p>
+                <figure>
+                    <graphic n="1002" width="15.980833333333333cm" height="12.982222222222223cm" url="200_final-6fa1cc0cbf3c95f9d243fa4df99133cc.png" rend="inline"/>
+                    <head>
+                        <lb/>Abbildung 2: Übersicht der Interlinearglossen des Satzes 16a1 aus 
+                        <hi rend="italic">de interpretatione</hi> (1. Achse: Satz des Referenztextes, 2. Achse: Signatur der Handschrift, 3. Achse: glossiertes Wort im Referenzsatz, 4. Achse: Transkription der Glosse)
+                    </head>
+                </figure>
+                <p>Im Falle der frühneuzeitlichen Sprachlehrwerke dient ein Annotationstool in einem ersten Schritt dem explorativen Annotieren und dem damit einhergehenden Aufdecken unterschiedlichster Prozesse des Wissenswandels. Im Weiteren wird das Tool dann genutzt, um Einzelanalysen vorzunehmen und um Teile des Korpus quantitativ auszuwerten. So werden Autorisierungsstrategien ausfindig gemacht und in verschiedene Kategorien unterteilt. Diese Ergebnisse werden anschließend mit den Metadaten wie Autor, Zielsprache, und didaktischer Ausrichtung des Lehrwerks korreliert.</p>
+                <p>Die vorgestellten Anwendungsfälle nutzen bereits die entwickelte Annotationsinfrastruktur und konnten eine neue Herangehensweise an ihre spezifischen Fragestellungen erproben. Die Infrastruktur erlaubt es, Text- und Bilddaten in ihren wechselseitigen Bezügen in den Blick zu nehmen und gemeinsam zu betrachten. Das 
+                    <hi rend="italic">Web Annotation Data Model</hi> hat sich als vielseitiges Modell bewiesen, um die heterogenen Annotationen zu modellieren. Dabei sind die Anwendungsmöglichkeiten jedoch weder auf die beiden Anwendungsfälle noch auf den Sonderforschungsbereich in seiner Gesamtheit beschränkt, sondern im Gegenteil Potentiale für alle Disziplinen und digitalen Datensätze erkennbar. Unterschiedliche, disziplinspezifische Praktiken und Anforderungen können im Modell abgebildet werden, die Annotationen verbleiben nach der zugehörigen Ontologie (Ciccarese 2017) strukturiert und damit auswertbar. Für die Inhalte ist allerdings kein semantisches Modell vordefiniert und auch nicht a priori festlegbar. Der Aushandlungsprozess eines solchen Modells ist daher für jede Anwendergruppe erneut und jeweils iterativ durchzuführen. Ebenso verbleibt die manuelle Annotation für die Forschenden arbeitsintensiv, da vielfältige Informationen abgelegt werden. Grafische Benutzeroberflächen können hier unterstützen, den Prozess so komfortabel wie möglich zu gestalten. Zusätzlich werden durch die Verwendung des 
+                    <hi rend="italic">Web Annotation Data Models</hi> die Kollaboration mit anderen Fachwissenschaftlerinnen und Fachwissenschaftlern und die Nachnutzbarkeit ermöglicht, so dass die Arbeitslast reduziert werden kann. Größter Vorteil ist jedoch die Möglichkeit, Informationen mit stabilen, in einem Repositorium abgelegten Daten zu verknüpfen und mit dynamisch im Forschungsprozess erlangtem Wissen anzureichern. Auf diese Weise werden Objektmetadaten, automatische und fachwissenschaftliche Annotationen gemeinsam auswertbar und damit gänzlich neue Erkenntnisse möglich.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Borek, Luise / Perkins, Jody / Schöch, Christof / Dombrowski, Quinn (2016)</hi>: <hi rend="italic">„TaDiRAH: A Case Study in pragmatic classification“</hi> in: DHQ: Digital Humanities Quarterly 10/1.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ciccarese, Paolo / Young, Benjamin / Sanderson, Robert (2017)</hi>: <hi rend="italic">„Web Annotation Vocabulary. W3C Recommendation“</hi> <ref target="https://www.w3.org/TR/2017/REC-annotation-vocab-20170223/">https://www.w3.org/TR/2017/REC-annotation-vocab-20170223/</ref> [letzter Zugriff 19.12.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Glück, Helmut (2002)</hi>: <hi rend="italic">Deutsch als Fremdsprache in Europa vom Mittelalter bis zur Barockzeit</hi>. Berlin/New York: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Linked Data Platform (LDP) 1.0</hi>: <ref target="https://www.w3.org/TR/ldp/">https://www.w3.org/TR/ldp/</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Montanari, Elio (1984)</hi>: <hi rend="italic">La sezione linguistica del Peri Hermeneias di Aristotele</hi>. Florenz.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">PAGE XML-Schema</hi>: <ref target="https://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd">https://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reinsch, Diether Roderich (2001)</hi>: <hi rend="italic">„Fragmente einer Organon-Handschrift des zehnten Jahrhunderts aus dem Katharinenkloster auf dem Berg Sinai“</hi> in: Philologus 151: 151-177.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sanderson, Robert (2017)</hi>: <hi rend="italic">„Web Annotation Protocol. W3C Recommendation“</hi> <ref target="https://www.w3.org/TR/2017/REC-annotation-protocol-20170223/">https://www.w3.org/TR/2017/REC-annotation-protocol-20170223/</ref> [letzter Zugriff 08.11.2018]. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sonderforschungsbereich 980 „Episteme in Bewegung“</hi>: <ref target="http://www.sfb-episteme.de/">http://www.sfb-episteme.de/</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">SPARQL</hi>: <ref target="https://www.w3.org/TR/sparql11-query/">https://www.w3.org/TR/sparql11-query/</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">SVG</hi>: <ref target="https://www.w3.org/TR/SVG11/">https://www.w3.org/TR/SVG11/</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">TDB2</hi>: <ref target="https://jena.apache.org/documentation/tdb2/">https://jena.apache.org/documentation/tdb2/</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">XML Forms Data Format Specification</hi>: <ref target="https://web.archive.org/web/20160408204348/https://partners.adobe.com/public/developer/en/xml/XFDF_Spec_3.0.pdf">https://web.archive.org/web/20160408204348/https://partners.adobe.com/public/developer/en/xml/XFDF_Spec_3.0.pdf</ref> [letzter Zugriff 05.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Young, Benjamin / Ciccarese, Paolo / Sanderson, Robert (2017)</hi>: <hi rend="italic">„Web Annotation Data Model. W3C Recommendation“</hi> <ref target="https://www.w3.org/TR/2017/REC-annotation-model-20170223/">https://www.w3.org/TR/2017/REC-annotation-model-20170223/</ref> [letzter Zugriff 08.11.2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

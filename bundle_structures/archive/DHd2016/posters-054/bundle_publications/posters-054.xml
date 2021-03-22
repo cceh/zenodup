@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-054">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ontologisierung vom Thompson Motif‘s Index – Teilergebnisse eines Softwareprojektes zum Thema „Classification of Folktales“, bei Antónia Kostevá, Universität des Saarlandes</title>
+        <author>
+          <name>
+            <surname>Declerck</surname>
+            <forename>Thierry</forename>
+          </name>
+          <affiliation>DFKI GmbH, Deutschland</affiliation>
+          <email>declerck@dfki.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-05T13:38:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Motif Index</term>
+          <term>Märchen</term>
+          <term>Ontologien</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Bilderfassung</term>
+          <term>Programmierung</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Veröffentlichung</term>
+          <term>Webentwicklung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Wir präsentieren eine Ontologisierung des Thompson‘s Motif Index Katalogs. Motive
+        können als sich regelmäßig wiederholende Elemente einer Literaturgattung betrachtet
+        werden, auch in verschiedenen Erzählungen. Es können darunter prototypische
+        Charaktere, Objekte, Handlungen oder auch Ereignisse verstanden werden. Die Arbeit
+        von Stith Thompson (Thompson 1955-58) ist ein Versuch, solche Motive in Märchen und
+        ähnlichen Texttypen zu indizieren. Und dieser Index wird heute sehr oft für die
+        Analyse von Märchen verwendet.</p>
+        <p>Basierend auf Arbeiten von Declerck et al. (2012) und Eisenreich et al. (2014), die
+          die Bedeutung von Ontologien für die automatisierte Analyse von Märchen betonen,
+          haben wir die Liste von Motiven, die Thompson bereitgestellt hat, in eine OWL <ref type="note" target="n01" n="1">1</ref> Ontologie überführt, die in Januar 2016 <ref target="www.dfki.de/~declerck/tmi.ttl">online verfügbar</ref> gemacht
+          worden ist, nachdem das zugrundenliegende Softwareprojekt an der Universität des
+          Saarlandes abgeschlossen war. </p>
+          <p>Wir verwenden für unsere Arbeit eine <ref target="http://www.ruthenia.ru/folklore/thompson/index.htm">digitale Version des Indexes</ref>
+            <ref type="note" target="n02" n="2">2</ref>. Vereinfachte Beispiele von Motiven sind unten angegeben:
+          </p>
+          <list type="unordered">
+            <item>A. Mythological motifs
+              <list type="unordered">
+                <item>A0-A99. Creator
+                  <list type="unordered">
+                    <item>A21 Creator from above
+                      <list type="unordered">
+                        <item>A21.1. Male and female creators</item>
+                      </list>
+                    </item>
+                  </list>
+                </item>
+                <item>A100-A499 Gods</item>
+                <item>A500-A599 Demigods and Culture Heroes</item>
+                <item>A500-A599 Cosmogony and cosmology</item>
+                <item>A900-A999 Topological</item>
+                <item>A1000-A1099 World calamitities</item>
+                <item>A1100-A1199 Establishment of natural order</item>
+                <item>A1100-A1699 Creation and ordering of human life
+                  <list type="unordered">
+                    <item>A1411 Theft of light</item>
+                    <item>A1415 Theft of fire</item>
+                  </list>
+                </item>
+                <item>A1700-A1799 Creation of animal life</item>
+                <item>A2200-A2599 Animal characteristics</item>
+                <item>A2600-A2699 Origins of trees and plants</item>
+              </list>
+            </item>
+            <item>B. Animals
+              <list type="unordered">
+                <item>B0-B99 Mythical animals</item>
+                <item>B100-B199 Magic animals </item>
+              </list>
+            </item>
+          </list>
+          <p>….</p>
+          <p>Diese hierarchische Listenstruktur wurde in eine formale Sub-Kategorisierung unter
+            Verwendung der OWL Repräsentationssprache überführt. Wir nennen die Hauptkasse
+            dieser Hierarchie „TMI“.<ref type="note" target="n03" n="3">3</ref> Und alle Motive, die wir als „Blätter“ in dieser Hierarchie auftreten lassen,
+            wurden einfach als Instanzen von einer flachen Struktur von Motivklassen eingeführt.
+            Hier ist „Motif“ die Hauptkasse für alle Instanzen, wie es in Abbildung 1 und in den
+            Kodebeispielen unten zu sehen ist. </p>
+            <p>Es sind somit 34.913 Motive kodiert worden, nach einer automatischen Konvertierung aus der oben genannten Internetquelle.</p>
+            <figure>
+              <graphic n="1001" width="16.003763888888887cm" height="8.535458333333333cm" url="p054-image1.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 1</hi>: Toplevel Stufe unserer Ontologie, dargestellt im
+              TopBraid Editor.</p>
+            </figure>
+            <p>Die Kodebeispiele unten zeigen erst eine Instanz eines Motivs, und dann wie die beinhaltenden Klasse in der Klassenhierarchie eingebettet ist.</p>
+            <figure>
+              <graphic n="1002" width="16.002cm" height="1.9420416666666667cm" url="p054-image2.PNG" rend="inline"/>
+            </figure>
+            <p>Und die Klasse, von der A104.1 eine Instanz ist, wird als Subklasse von A kodiert:</p>
+            <figure>
+              <graphic n="1003" width="15.506747222222222cm" height="5.451177777777778cm" url="p054-image3.PNG" rend="inline"/>
+            </figure>
+            <p>Aktuelle Arbeit besteht darin, links zu einem anderen Referenzwerk in der
+              Folkloristik zu etablieren: Die Aarne-Thompson-Uther (ATU, s. Uther 2004) Taxonomie
+              von Märchentypen. Eine erste Ontologie Version von ATU ist von uns bereitgestellt
+              worden, aber muss noch überprüft werden. Links von ATU zu TMI werden dann mit Hilfe
+              von symmetrischen „Object Properties“ beschrieben. Wir arbeiten auch daran, die
+              „labels“ der TMI Klassen und Instanzen in anderen Sprachen (Deutsch und Französisch)
+              zu erweitern.</p>
+            </body>
+            <back>
+              <div type="Notes">
+
+                <note xml:id="n01" n="1">OWL steht für „<ref
+                target="http://www.w3.org/TR/owl-features/">Ontology Web
+                Language</ref>“. Siehe auch http://www.w3.org/TR/owl-features/</note>
+                <note xml:id="n02" n="2">Siehe
+                <ref target="http://www.ruthenia.ru/folklore/thompson/index.htm">http://www.ruthenia.ru/folklore/thompson/index.htm</ref>
+              </note>
+               <note xml:id="n03" n="3"> Siehe Abbildung 1 weiter unten, für einen Screenshot
+                des von uns verwendeten Ontologie Editors “<ref
+                  target="http://www.topquadrant.com/products/topbraid-live"
+                  >TopBraid</ref>” (cf. TopQuadrant).</note>
+              </div>
+
+              <div type="bibliogr">
+                <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl><hi rend="bold">Eisenreich, Christian / Ott, Jana / Süßdorf, Tonio /
+                    Willms / Declerck, Thierry</hi> (2014): “From Tale to Speech:
+                    Ontology-based Emotion and Dialogue Annotation of Fairy Tales with a TTS
+                    Output”, in: <hi rend="italic">Proceedings of ISWC 2014, Riva del Garda,
+                    Italy, Springer.</hi>
+                  </bibl>
+                  <bibl>
+                    <hi rend="bold">Declerck, Thierry / Lendvai, Piroska / Darányi, Sándor</hi>
+                    (2012): “Multilingual and Semantic Extension of Folk Tale Catalogues”, in:
+                    Jan Christoph Meister (ed.): <hi rend="italic">Digital Humanities 2012</hi>.
+                    Conference Abstracts, Hamburg, Germany. Hamburg: Hamburg University Press. </bibl>
+                    <bibl><hi rend="bold">TopQuadrant</hi>: <hi rend="italic">TopBraid Live</hi>
+                    <ref target="http://www.topquadrant.com/products/topbraid-live/"
+                      >http://www.topquadrant.com/products/topbraid-live/</ref> [letzter
+                      Zugriff 11. Februar 2016].</bibl>
+                      <bibl>
+                        <hi rend="bold">Stith Thompson</hi> (1955-1958): <hi rend="italic"
+                        >Motif-index of folk-literature</hi>. A classification of narrative
+                        elements in folktales, ballads, myths, fables, medieval romances, exempla,
+                        fabliaux, jest-books, and local legends. Revised and enlarged edition.
+                        Bloomington: Indiana University Press. </bibl>
+                        <bibl><hi rend="bold">Uther, Hans-Jörg</hi> (2004): <hi rend="italic">The Types
+                        of International Folktales</hi>. A Classification and Bibliography.
+                        Based on the system of Antti Aarne and Stith Thompson (= FF Communications
+                        284–286). Helsinki: Suomalainen Tiedeakatemia. </bibl>
+                        <bibl><hi rend="bold">W3C = World Wide Web Consortium</hi> (2004): <hi
+                        rend="italic">OWL Web Ontology Language</hi>
+                        <ref target="http://www.w3.org/TR/owl-features/"
+                          >http://www.w3.org/TR/owl-features/</ref> [letzter Zugriff 16. Februar
+                          2016].</bibl>
+                        </listBibl>
+                      </div>
+                    </back>
+
+                  </text>
+                </TEI>

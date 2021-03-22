@@ -19,14 +19,9 @@ def readable_file(prospective_file: str) -> str:
     return prospective_file
 
 
-def create_bundles_metadata(pub: ET.Element, bundle_path: str) -> None:
-
+def create_bundles_metadata(pub: ET.Element, bundle_path: str, conf:str) -> None:
+    print(f"Create bundle for publication: {pub.find('title').text}")
     data = {}
-    try: 
-        keywords = [keyword.replace("\"", "") for keyword in
-                    pub.find("keywords").text.split(", ")]
-    except AttributeError: 
-        keywords = []
 
     if pub.find("doi").text:
         doi = pub.find("doi").text
@@ -43,13 +38,12 @@ def create_bundles_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "access_right": pub.find("access_right").text,
                         "license": pub.find("license").text,
                         "doi": doi,
-                        "keywords": keywords,
+                        "keywords": pub.find("keywords").text.split(", "),
                         "contributors": [{"name": contributor.find("name").text,
                                         "affiliation": contributor.find("affiliation").text,
                                         "type": contributor.find("type").text
                                         } for contributor in pub.findall("contributors/contributor")],
-                        "communities": [{"identifier": community.text
-                                        } for community in pub.findall("communities/identifier")],
+                        "communities": [{"identifier": "dhd"}],
                         "conference_title": pub.find("conference_title").text,
                         "conference_acronym": pub.find("conference_acronym").text,
                         "conference_dates": pub.find("conference_dates").text,

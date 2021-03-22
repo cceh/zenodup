@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-035">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Operationalisierung von Forschungsfragen in CLARIN-D - Der Anwendungsfall Ernst Jünger</title>
+        <author>
+          <name>
+            <surname>Goldhahn</surname>
+            <forename>Dirk</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>dgoldhahn@informatik.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Eckart</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>teckart@informatik.uni-leipzig.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Heyer</surname>
+            <forename>Gerhard</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>heyer@informatik.uni-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-05T00:04:51.74</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.13">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Differenzanalyse</term>
+          <term>Webapplikation</term>
+          <term>Forschungsinfrastruktur</term>
+          <term>Operationalisierung</term>
+          <term>Forschungsfrage</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Inhaltsanalyse</term>
+          <term>Stilistische Analyse</term>
+          <term>Visualisierung</term>
+          <term>Sprache</term>
+          <term>Forschungsprozess</term>
+          <term>Werkzeuge</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Einleitung</head>
+        <p><ref target="http://clarin.eu">CLARIN</ref> (<hi rend="italic">C</hi>ommon <hi
+        rend="italic">La</hi>nguage <hi rend="italic">R</hi>essources and Technology
+        <hi rend="italic">In</hi>frastructure) ist eine Forschungsinfrastruktur,
+        deren Umsetzungssphase im Jahr 2016 erfolgreich abgeschlossen sein wird (Krauwer
+        2014). Ziel von CLARIN ist der Aufbau  einer Forschungsinfrastruktur für die
+        Geistes- und Sozialwissenschaften, wobei insbesondere linguistische Daten,
+        Werkzeuge und Dienste in einer integrierten, interoperablen und skalierbaren
+        Infrastruktur für die Fachdisziplinen der Geistes- und Sozialwissenschaften
+        bereitgestellt werden sollen. Im nachfolgenden Beitrag wollen wir 
+        ausschnittsweise skizzieren, welche Probleme CLARIN adressiert, wie die
+        konzeptionelle Lösung und deren technische Umsetzung aussieht und in welcher
+        Form eine Interaktion mit der Nutzercommunity stattfindet. Einige der gesetzten
+        Ziele und gewählten Vorgehensweisen sind dabei allgemeingültig und wären somit
+        zumindest teilweise auf andere Infrastrukturprojekte übertragbar.  </p>
+        <p>Als konkretes Beispiel für die Nutzung einer solchen Forschungsinfrastruktur wird
+          im Folgenden ein Usecase vorgestellt, der zur Beantwortung einer realen
+          Forschungsfrage der Germanistik verschiedene Bestandteile der Infrastruktur
+          CLARIN nutzt (Goldhahn 2015). Dabei werden verteilte Daten und Werkzeuge
+          genutzt, um Ressourcen zu finden, zweckmäßig aufzubereiten, zu analysieren und
+          die Ergebnisse zu visualisieren.</p>
+        </div>
+        <div type="div1" rend="DH-Heading">
+          <head>Forschungsfrage</head>
+          <p>Ernst Jüngers politische Publizistik der Jahre 1919 bis 1933 liegt in einer
+            philologisch aufbereiteten und annotierten Edition (Berggötz 2001) vor. Die
+            Relevanz dieser Texte liegt in der Vielzahl behandelter Themen begründet, die
+            relevant für die Entwicklung Deutschlands in den zwanziger und frühen dreißiger
+            Jahren sind. Dies umfasst unter anderem Fronterfahrungen, Konsequenzen des
+            verlorenen Krieges sowie das Thema der nationalen Neuorientierung. Dabei ändern
+            Jüngers Texte in den 15 Jahren ihrer Erstellung deutlich thematische Prioritäten
+            und linguistische Form (Gloning 2016).</p>
+            <p>Schlüsselfragen, die aus linguistischer und diskurshistorischer Perspektive bezüglich dieses Korpus bestehen, umfassen eine mögliche Korrelation der Sprachverwendung auf Wortebene mit den konkreten Themen, die in den Texten behandelt werden. Dabei sollte das lexikalische Profil Jüngers über die Dimension Zeit charakterisiert und mit den lexikalischen Profilen zeitgenössischen Materials (wie zum Beispiel Zeitungstexte der 1920er oder Werke anderer Autoren der gleichen Zeit) abgeglichen werden.</p>
+          </div>
+          <div type="div1" rend="DH-Heading">
+            <head>Operationalisierung</head>
+            <p>Um diese Forschungsfragen systematisch zu beantworten, müssen sie zuerst operationalisiert werden. Wichtige Aspekte dieses Prozesses sind:</p>
+            <list type="unordered">
+              <item>Daten: Textkollektionen, die für Forschungsfrage genutzt werden können (sowohl für Analyse- als auch Referenzkorpora) </item>
+              <item>Algorithmen: Methoden, um die gewünschten Analysen durchzuführen und durch ihre Kombination zu komplexeren Anwendungen und Prozesses zu verbinden </item>
+              <item>Ergebnisse und Visualisierungen: Präsentation und Zugriffsmöglichkeiten auf die Analyse- und Rohdaten </item>
+            </list>
+            <p>Fokus der Operationalisierung wird auf der Nutzung der CLARIN Infrastruktur liegen, um relevante Daten und Algorithmen zu suchen und die Analyse durchzuführen. Dabei werden zuerst Texte gesucht, die für die Forschungsfrage von Relevanz sind. Das Korpus von Ernst Jüngers politischer Publizistik der Jahre 1919 bis 1933, das unter anderem auch die Veröffentlichungsdaten aller Texte enthält, dient dabei als Startpunkt.</p>
+            <p>Für den eigentlichen Vergleich wird eine konkrete Analysemethode benötigt. Eine
+              Möglichkeit ist hier die Nutzung einer sogenannten Differenzanalyse (Heyer et
+              al. 2008). Dabei können Unterschiede zwischen Jüngers Texten unterschiedlicher
+              Jahre oder zwischen Jüngers Texten und Referenzkorpora untersucht werden.</p>
+              <p>Dies erlaubt uns die:</p>
+              <list type="unordered">
+                <item>Quantifizierbarkeit von Korpusähnlichkeit, </item>
+                <item>Identifikation von Vokabularunterschieden und </item>
+                <item>weitere Analysen hervorstechender Ergebnisse. </item>
+              </list>
+            </div>
+            <div type="div1" rend="DH-Heading">
+              <head>Referenzdaten</head>
+              <p>Eine Voraussetzung für die Durchführung einer Differenzanalyse ist die Verfügbarkeit von Referenzmaterial. Für die Suche nach entsprechenden Textdaten bietet sich das bereits erwähnte CLARIN Virtual Language Observatory an. Durch die Einschränkung der vorhandenen Ressourcen des VLO über facettierte und Volltextsuche auf Korpora in deutscher Sprache des 20. Jahrhunderts stellt sich das DWDS Kernkorpus als relevante Ressource heraus (Abbildung 1).</p>
+              <figure>
+                <graphic url="035-100000000000055300000321C12A66C5.jpg"/>
+                <p><hi rend="bold">Abb. 1</hi>: Suche nach Referenztexten unter Verwendung des Virtual Language Observatory. </p>
+              </figure>
+              <p>Das DWDS Korpus (Geyken 2006) wurde an der Berlin-Brandenburgischen Akademie der
+                Wissenschaften zwischen 2000 und 2003 erstellt.</p>
+                <p>Der Hauptzweck des DWDS Kernkorpus ist der Einsatz als empirische Basis eines großen monolingualen Wörterbuches des 20. Jahrhunderts. Das Kernkorpus besteht aus ungefähr 100 Millionen laufenden Wörtern und ist weitgehend über Zeit und vier Genres balanciert. Über die DWDS Webservices wurden Texte aller Genres extrahiert.</p>
+              </div>
+              <div type="div1" rend="DH-Heading">
+                <head>Kombination zu Workflows - Vorverarbeitung</head>
+                <p>Voraussetzung für die Durchführung einer Differenzanalyse ist die Aufbereitung des Rohmaterials. Dabei müssen insbesondere die Wortfrequenzen der zugrunde liegenden Texte extrahiert werden. Damit sind vor allem Satzsegmentierung und Tokenisierung wichtige Vorverarbeitungsschritte. Darüber hinaus ist die Nutzung eines POS-Taggers zur Generierung von Wortartinformationen für erweiterte Analysen hilfreich.</p>
+                <p>Für derartige Verarbeitungen ist die bereits erwähnte verteilte Umgebung WebLicht
+                  (Hinrichs et al. 2010) ein wichtiges Hilfsmittel. Abbildung 2 stellt einen
+                  Überblick über eine WebLicht-basierte Prozesskette dar. Sie importiert die
+                  Plaintext-Dateien, konvertiert diese in ein internes Format (das Text Corpus
+                  Format TCF), extrahiert Sätze und Wörter, annotiert Wortarten und zählt die
+                  Häufigkeit aller vorkommenden Wörter.</p>
+                  <figure>
+                    <graphic url="035-10000000000004C4000000EA77294BF2.png"/>
+                    <p><hi rend="bold">Abb. 2</hi>: Vorverarbeitungskette in WebLicht. </p>
+                  </figure>
+                  <p>Diese Verarbeitung wurde auf der Basis der Ernst Jünger Texte für die Jahre 1919 bis 1933 durchgeführt. Als Resultat stehen die Worthäufigkeiten für jedes einzelne Jahr dieser Zeitspanne zur Verfügung. Darüber hinaus wurden die Referenztexte des DWDS in 15 Jahresscheiben zerlegt und jeweils für jedes Genre ein Teilkorpus erstellt. Diese 60 Einzelressourcen wurden anschließend mittels der bereits erläuterten Prozesskette aufbereitet.</p>
+                </div>
+                <div type="div1" rend="DH-Heading">
+                  <head>Kombination zu Workflows - Analyse</head>
+                  <p>Die eigentliche Analyse wurde im Anschluss mithilfe der Webanwendung Corpus
+                    Diff<ref type="note" target="n01" n="1">1</ref> durchgeführt. Diese Webumgebung ermöglicht die vergleichende Analyse
+                    verschiedener Textkorpora, genauer, deren Vokabulars. Die einfach zu benutzende
+                    Oberfläche erlaubt das Anlegen verschiedener Analyseprozesse für eine parallele
+                    Verarbeitung. Die Berechnung der Korpusähnlichkeit erfolgt dabei ausschließlich
+                    auf der Basis von Wortlisten die jeweils ein Textkorpus repräsentieren. Die
+                    Oberfläche erlaubt die Auswahl aus verschiedenen Ähnlichkeitsmaßen, die alle auf
+                    der Kosinusähnlichkeit von Wortvektoren basieren (Goldhahn 2013). Das Ergebnis
+                    ist ein normalisierter Wert zwischen 0 (keine Ähnlichkeit der Wortlisten) und 1
+                    (Vokabulare mit identischer Häufigkeitsverteilung). Die Anwendung basiert
+                    komplett auf RESTful Webservices, die alle benötigten Informationen
+                    bereitstellen: einen Überblick über alle vorhandenen Korpusrepräsentationen und
+                    die vollständigen Wortlisten für jedes Korpus. </p>
+                    <p>Die Nutzung von Worthäufigkeitslisten hat verschiedenen Vorteile: Wortlisten sind verdichtete Repräsentationen des Inhalts eines Korpus, die aufgrund ihrer geringen Größe einfach zu verarbeiten sind. Darüber hinaus unterliegen diese Informationen keinen Einschränkungen durch das Urheberrecht, da kein Zugriff auf die eigentlichen Volltexte benötigt wird. Dies bedeutet, dass in den meisten Fällen selbst für Ressourcen mit sehr restriktiven Lizenzbedingungen ein Austausch dieser Daten unbedenklich ist.</p>
+                    <p>Über die Weboberfläche kann ein Nutzer alle relevanten Einstellungen vornehmen:
+                      Auswählen einer Korpusmenge, des zu nutzenden Ähnlichkeitsmaßes und wie viele
+                      der häufigsten Wörter für die Analyse genutzt werden sollen (s. Abbildung 3).
+                      Als Resultat wird dem Benutzer eine Matrixdarstellung der paarweisen
+                      Korpusähnlichkeit mit verschiedenen Farbschemata präsentiert. Diese Farbschemata
+                      werden zur Betonung ähnlicher und somit zusammengeclusteter Korpora genutzt. Ein
+                      Dendogram stellt darüber hinaus eine Visualisierung der Korpusähnlichkeiten auf
+                      der Basis eines Single-Linkage-Clusterings für alle genutzten Wortlisten dar.
+                      Beide Visualisierungen, Matrix und Dendogram, sind Mittel zur Identifikation
+                      interessanter Korpuspaare mit ungewöhnlich hoher oder niedriger
+                      Vokabularähnlichkeit. Die beschriebene Analyse kann genutzt werden, um eine
+                      diachrone Analyse der Änderungen über die Zeit durchzuführen, aber auch um
+                      Korpora unterschiedlichen Genres oder unterschiedlicher Herkunft miteinander zu
+                      vergleichen.</p>
+                      <figure>
+                        <graphic url="035-10000201000004770000010563544316.png"/>
+                        <p><hi rend="bold">Abb. 3</hi>: Konfiguration eines
+                        Korpusvergleichs-Prozesses.</p>
+                      </figure>
+                      <p>Durch die Auswahl zweier Korpora können detailliertere Informationen über die Unterschiede ihrer Vokabulare angezeigt werden. Dies beinhaltet vor allem auch Listen von Wörtern, die in einem der Korpora signifikant häufiger oder sogar exklusiv auftreten. Beides sind wertvolle Hilfsmittel um Wörter zu identifizieren, die spezifisch für die jeweilige Ressource sind. Darüber hinaus sind diese Ergebnisse Ausgangspunkt für tiefere hermeneutische Analysen durch die jeweiligen Fachwissenschaftler.</p>
+                      <p>Ist der Nutzer an einem konkreten Wort interessiert, kann die Entwicklung seiner Häufigkeit über den Untersuchungszeitraum durch ein Liniendiagramm angezeigt werden. Dies ist üblicherweise relevant für wichtige Schlüsselterme der jeweiligen Texte oder Wörter, die in den vorherigen Analyseschritten als relevant herausgearbeitet wurden. Dabei kann die diachrone Entwicklung der Nutzungshäufigkeit des Wortes über verschiedene Genres hinweg einfach dargestellt werden.</p>
+                    </div>
+                    <div type="div1" rend="DH-Heading">
+                      <head>Beispielergebnisse</head>
+                      <p>Abbildung 4 (links) stellt die Ähnlichkeitsmatrix und das Dendogram für Ernst
+                        Jüngers Texte der Jahre 1919 bis 1933 dar. Unter anderen ist hier auch das
+                        Korpuspaar der Texte von 1920 und 1927 interessant, da hier eine besonders
+                        geringe Ähnlichkeit vorliegt. Bei der Analyse hervorstechenden Vokabulars fällt
+                        hier unter anderem die deutlich prominentere Nutzung des Wortes „Feuer“ in den
+                        Texten von 1920 auf (Abbildung 4, rechts).</p>
+                        <figure>
+                          <graphic url="035-10000201000006A4000002DE869A2698.png"/>
+                          <p><hi rend="bold">Abb. 4</hi>: Ähnlichkeitsmatrix und Dendogram für Ernst
+                          Jünger Texte der Jahre 1919-1933 (links), Liste der Wörter mit höherer relativer
+                          Worthäufigkeit für das Jahr 1920 im Vergleich mit 1927 (rechts). </p>
+                        </figure>
+                        <p>Das Beispiel „Feuer“ (hier vor allem in seiner militärischen Bedeutung) zeigt die
+                          Nützlichkeit dieser Visualisierung. Sowohl in der Verwendung durch Ernst Jünger
+                          über 15 Jahre hinweg als auch im Vergleich mit Zeitungstexten der gleichen
+                          Periode, können Unterschiede in dessen Verwendung identifiziert werden (s.
+                          Abbildung 5) und sind damit ein idealer Einstiegspunkt für die tiefere Analyse
+                          durch Fachwissenschaftler.</p>
+                          <figure>
+                            <graphic url="035-1000020100000754000001D9AA96BCA2.png"/>
+                            <p><hi rend="bold">Abb. 5</hi>: Relative Häufigkeit des Wortes “Feuer” in
+                            Texten von Ernst Jünger(links) und in Zeitungstexten(rechts) von 1919 bis 1933. </p>
+                          </figure>
+                          <p>Ein zweites Beispiel für diese Form der Analyse ist das Wort „Krieg“, das ebenfalls eine interessante Häufigkeitsverteilung aufweist. Die Verwendung dieses Wortes reflektiert das Nachwirken und die Allgegenwärtigkeit der Kriegserfahrungen in Texten dieser Zeit. Dabei ist die relative Häufigkeit in der Publizistik Ernst Jüngers deutlich höher als in Zeitungstexten.</p>
+                          <figure>
+                            <graphic url="035-100000000000041E000001E161E8D57C.png"/>
+                            <p><hi rend="bold">Abb. 6</hi>: Relative Häufigkeit des Wortes “Krieg” in
+                            Texten von Ernst Jünger und in Zeitungstexten von 1923 bis 1931. </p>
+                          </figure>
+                        </div>
+                        <div type="div1" rend="DH-Heading">
+                          <head>Zusammenfassung</head>
+                          <p>Anhand eines konkreten Anwendungsfalls der Germanistik wurde dargestellt wie sich die Infrastrukturbestandteile zu einem umfangreichen Workflow kombinieren lassen. Dabei wurden auf der Basis verteilter Ressourcen mit Hilfe einer Metadatensuchmaschine relevante Daten und Werkzeuge identifiziert und anschließend über eine föderierte Prozesskette aufbereitet. Die Analyse dieser Daten erfolgte über eine benutzerfreundliche Weboberfläche, die auch erweiterte Visualisierungsmöglichkeiten anbietet.</p>
+                        </div>
+                      </body>
+                      <back>
+                        <div type="Notes">
+                          <note xml:id="n01" n="1">Erreichbar unter <ref target="http://corpusdiff.informatik.uni-leipzig.de">http://corpusdiff.informatik.uni-leipzig.de</ref>.</note>
+                        </div>
+                        <div type="bibliogr">
+                          <listBibl>
+                            <head>Bibliographie</head>
+                            <bibl>
+                              <hi rend="bold">Berggötz, Sven Olaf</hi> (2001): <hi rend="italic">Ernst
+                              Jünger</hi>. Politische Publizistik 1919 bis 1933. Stuttgart:
+                              Klett-Cotta.</bibl>
+                              <bibl><hi rend="bold">CLARIN-D</hi>: <hi rend="italic">Forschungsinfrastruktur
+                              für Sprachressourcen in den Geistes- und Sozialwissenschaften</hi>
+                              <ref target="http://www.clarin-d.de/de/">http://www.clarin-d.de/de/</ref>
+                              [letzter Zugriff 16. Februar 2016].</bibl>
+                              <bibl><hi rend="bold">Geyken, Alexnder</hi> (2006): "A reference corpus for the
+                              German language of the 20th century", in: Fellbaum, Christiane (ed.): <hi
+                              rend="italic">Collocations and Idioms</hi>. Linguistic, lexicographic,
+                              and computational aspects. London: Continuum Press 23-40.</bibl>
+                              <bibl>
+                                <hi rend="bold">Gloning, Thomas</hi> (in Vorbereitung): "Ernst Jüngers
+                                Publizistik der 1920er Jahre. Befunde zum Wortgebrauchsprofil", in:
+                                Benedetti, Andrea / Hagestedt, Lutz (eds.): <hi rend="italic">Totalität als
+                                Faszination</hi>. Systematisierung des Heterogenen im Werk Ernst
+                                Jüngers. Berlin / Boston: de Gruyter.</bibl>
+                                <bibl>
+                                  <hi rend="bold">Goldhahn, Dirk</hi> (2013): <hi rend="italic">Quantitative
+                                  Methoden in der Sprachtypologie</hi>. Nutzung korpusbasierter
+                                  Statistiken. Dissertation, Universität Leipzig <ref
+                                  target="http://www.qucosa.de/fileadmin/data/qucosa/documents/13055/Thesis_Goldhahn_pflichtexemplare_druck.pdf"
+                                  >http://www.qucosa.de/fileadmin/data/qucosa/documents/13055/Thesis_Goldhahn_pflichtexemplare_druck.pdf</ref>. </bibl>
+                                  <bibl><hi rend="bold">Goldhahn, Dirk / Eckart, Thomas / Gloning, Thomas /
+                                    Dreßler, Kevin / Heyer, Gerhard</hi> (2015): "Operationalisation of
+                                    Research Questions of the Humanities within the CLARIN Infrastructure – An
+                                    Ernst Jünger Use Case", in: <emph>CLARIN Annual Conference 2015 in Wroclaw,
+                                    Poland</emph>. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Heyer, Gerhard / Quasthoff, Uwe / Wittig, Thomas</hi>
+                                      (2008): <anchor xml:id="id_productTitle"/><anchor xml:id="id_title"/><hi
+                                      rend="italic">Text Mining</hi>. Wissensrohstoff Text: Konzepte,
+                                      Algorithmen, Ergebnisse. W3L-Verlag. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Hinrichs, Marie / Zastrow, Thomas / Hinrichs, Erhard</hi>
+                                        (2010): "WebLicht: Web-based LRT Services in a Distributed eScience
+                                        Infrastructure", in: <hi rend="italic">Proceedings of the Seventh
+                                        International Conference on Language Resources and Evaluation</hi> (LREC
+                                        2010), Malta. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Krauwer, Steven / Hinrichs, Erhard</hi> (2014): "The CLARIN
+                                          Research Infrastructure: Resources and Tools for e-Humanities Scholars", in:
+                                          <hi rend="italic">Proceedings of the Ninth International Conference on
+                                            Language Resources and Evaluation</hi> (LREC 2014) 1525–1531.</bibl>
+                                          </listBibl>
+                                        </div>
+                                      </back>
+                                    </text>
+                                  </TEI>

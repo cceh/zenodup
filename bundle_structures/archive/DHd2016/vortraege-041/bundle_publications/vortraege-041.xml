@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-041">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DiaCollo: diachronen Kollokationen auf der Spur</title>
+        <author>
+          <name>
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </name>
+          <affiliation>Berlin-Brandenburg Akademie der Wissenschaften, Deutschland</affiliation>
+          <email>jurish@bbaw.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </name>
+          <affiliation>Berlin-Brandenburg Akademie der Wissenschaften, Deutschland</affiliation>
+          <email>geyken@bbaw.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Werneke</surname>
+            <forename>Thomas</forename>
+          </name>
+          <affiliation>Zentrum für Zeithistorische Forschung, Deutschland</affiliation>
+          <email>werneke@zzf-pdm.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-14T14:27:18.732899992</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Textkorpora</term>
+          <term>diachron</term>
+          <term>Kollokation</term>
+          <term>Visualisierung</term>
+          <term>Zeitreihe</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Entdeckung</term>
+          <term>Sammlung</term>
+          <term>Aufzeichnung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Modellierung</term>
+          <term>Bewertung</term>
+          <term>Einführung</term>
+          <term>Lehre</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Computer</term>
+          <term>Daten</term>
+          <term>Bilder</term>
+          <term>Sprache</term>
+          <term>Link</term>
+          <term>Methoden</term>
+          <term>Multimedia</term>
+          <term>Forschung</term>
+          <term>Software</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Abstract</head>
+        <p>Wir präsentieren <hi rend="italic">DiaCollo</hi>, ein Softwarewerkzeug zur
+        effizienten Extraktion, zum Vergleich und zur interaktiven Visualisierung von
+        Kollokationen aus einem diachronen Textkorpus. Im Gegensatz zu konventioneller
+        Kollokationssoftware eignet sich <hi rend="italic">DiaCollo</hi> für die
+        Verarbeitung diachroner Kollokationsdaten: Kollokationspaare, deren
+        Assoziationsstärke vom Zeitpunkt ihres Auftretens abhängt. Durch das Aufspüren
+        von Veränderungen in den charakteristischen Kollokaten eines Worts im zeitlichen
+        Verlauf kann <hi rend="italic">DiaCollo</hi> dazu beitragen, ein klareres Bild
+        von Veränderungsprozessen der Wortsemantik zu zeichnen.</p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einführung</head>
+        <p>In den letzten Jahren sind immer mehr große diachrone Textkorpora zu
+          Forschungszwecken verfügbar gemacht geworden (z. B. Geyken et al. 2011; Davies
+          2012). Die durch diese Korpora abgedeckten großen Zeitspannen stellen diverse
+          Herausforderungen an konventionelle Techniken der maschinellen Verarbeitung
+          natürlicher Sprache, die ihrerseits oft auf impliziten Annahmen der
+          Korpushomogenität basieren – insbesondere der zeitliche Achse betreffend.
+          Tatsächlich haben sogar vermeintlich synchrone Zeitungskorpora eine nicht
+          triviale temporale Extension und können bei entsprechender Behandlung
+          zeitabhängige Phänomene zeigen (Scharloth et al. 2013). In dieser Arbeit gehen
+          wir auf das Problem der automatischen Erstellung von Kollokationensprofilen
+          (Church / Hanks 1990 und Evert 2005) in diachronen Korpora ein, indem wir ein
+          neues, explizit für diesen Zweck entwickeltes Softwarewerkzeug <hi rend="italic"
+          >DiaCollo</hi> vorstellen, das dem Benutzer ermöglicht, für jede Abfrage
+          selber die Granularität der diachronen Achse frei zu wählen. Im Gegensatz zu
+          konventionellen Kollokationswerkzeugen wie dem <hi rend="italic"><ref
+          target="http://zwei.dwds.de/wp">DWDS Wortprofil</ref></hi> (Didakowski /
+          Geyken 2014) oder dem <hi rend="italic"><ref
+          target="http://www.sketchengine.co.uk/">Sketch Engine</ref></hi>
+          (Kilgarriff / Tugwell 2002) eignet sich <hi rend="italic">DiaCollo</hi> zur
+          Extraktion und Analyse diachroner Kollokationsdaten: Kollokationspaare, deren
+          Assoziationsstärke von dem Zeitpunkt ihres Auftretens abhängt. Durch das
+          Aufspüren von Veränderungen in den typischen Kollokaten eines Worts im
+          zeitlichen Verlauf und Anwendung von J. R. Firths berühmtem Prinzip “ <hi
+          rend="italic">you shall know a word by the company it keeps</hi>”, kann <hi
+          rend="italic">DiaCollo</hi> helfen, ein klareres Bild diachroner
+          Veränderungen im Wortgebrauch zu liefern. </p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Implementierung</head>
+          <p><hi rend="italic">DiaCollo</hi> ist als modulare Perl Bibliothek implementiert,
+          einschließlich wiederverwendbaren Klassen zum Umgang mit nativen
+          Binärindexstrukturen. <hi rend="italic">DiaCollo</hi> Indizes sind für
+          Hochlastumgebungen geeignet, da kein persistenter Server-Prozess benötigt wird
+          und jeglicher Laufzeitzugriff auf native Indexstrukturen über direkten
+          Dateisystem I/O stattfindet. Über die programmatische API der Perl-Module hinaus
+          bietet <hi rend="italic">DiaCollo</hi> sowohl eine Befehlszeilenschnittstelle
+          als auch einen öffentlich zugänglichen RESTful Webservice mit einer
+          formularbasierten Benutzerschnittstelle zur Auswertung von Datenbankanfragen und
+          einer interaktiven Visualisierung der Anfrageergebnisse. Ein öffentlich
+          zugängliches Web-Frontend für das Korpus des Deutschen Textarchivs ist unter
+          <ref target="http://kaskade.dwds.de/dstar/dta/diacollo/">http://kaskade.dwds.de/dstar/dta/diacollo</ref> zu finden; der
+          vollständige Quellcode ist via <ref target="http://metacpan.org/release/DiaColloDB">CPAN</ref> erhältlich.</p>
+          <div type="div2" rend="DH-Heading2">
+            <head>Anfragen &amp; Parameter</head>
+            <p><hi rend="italic">DiaCollo</hi> ist ein anfrageorientierter Dienst. Er
+            behandelt eine Benutzeranfrage als eine Menge von (<hi rend="italic">Parameter=Wert</hi>)-Paaren
+            und liefert ein korrespondierendes Profil
+            für den/die angefragten Term(e) zurück. Die Parameter werden wie bei einem
+            üblichen Web-Formular an den Service RESTfully via HTTP GET oder POST
+            Anfrage überreicht. Jede Anfrage muss einen <hi rend="italic">query</hi>
+            Parameter enthalten, der den oder die zu profilierenden Zielterm(e)
+            spezifiziert. Der <hi rend="italic">date</hi> Parameter selegiert die
+            gewünschte Zeitspanne, während die Granulariät der zurückgelieferten
+            Profildaten mithilfe des <hi rend="italic">slice</hi> Parameters durch
+            Angabe der Grösse einer einzelnen Profilepoche festgelegt werden kann.
+            Kollokatkandidaten können über den <hi rend="italic">groupby</hi> Parameter
+            gefiltert werden, und die Bereinigung (“pruning”) der zurückzuliefernden
+            ‘besten’ Kollokaten wird von den Parametern <hi rend="italic">score</hi>,
+            <hi rend="italic">kbest</hi> und <hi rend="italic">global</hi>
+            gesteuert. </p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Profile &amp; Diffs</head>
+            <p>Das Ergebnis einer einfachen <hi rend="italic">DiaCollo</hi> Anfrage wird als
+            tabellarisches Profil der <hi rend="math">k</hi>-best Kollokate für
+            den/die angefragte(n) Term(e) in jedem der angefragten Zeit-Subintervalle
+            ausgegeben (“Epochen” oder “Slices”, e.g. Dekaden), die mit den Parameter
+            <hi rend="italic">date</hi> und <hi rend="italic">slice</hi>
+            spezifiziert wurden. Als Alternative kann der Benutzer auch ein
+            Vergleichs- bzw. “Diff”-Profil anfordern, um die salientesten Unterschiede
+            zwischen zwei unabhängigen Anfragen hervorzuheben; z. B. zwischen zwei
+            verschiedenen Worten oder zwischen den Vorkommen eines Wortes in
+            verschiedenen Zeitintervallen, Teilkorpora oder lexikalischen Umgebungen. </p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Indizes, Attribute &amp; Aggregierung</head>
+            <p><hi rend="italic">DiaCollo</hi> benutzt eine interne “native” Indexstruktur
+            über alle Inhaltswörter des Eingabekorpus, um Kollokationsprofile zu
+            berechnen. Jedes indizierte Wort wird als <hi rend="math">n</hi>-Tupel
+            linguistisch relevanten Token- oder Dokumentattribute behandelt, zusätzlich
+            zum Dokumentdatum. Die Attribute <hi rend="italic">Lemma (l)</hi> und <hi
+            rend="italic">Pos (p)</hi> (“part-of-speech”) werden per Default
+            indiziert. Die Anfrageparameter <hi rend="italic">query</hi> und
+            <hi rend="italic">groupby</hi> werden als logische Konjunktionen von
+            Suchkriterien bezüglich dieser Attribute interpretiert, um die genauen zu
+            profilierenden Token-Tupel zu selegieren. Um eine feinkörnigere Auswahl von
+            Profilzielen zu ermöglichen, unterstützt DiaCollo den gesamten Umfang der
+            DDC-Abfragesprache (Sokirko 2003; Jurish et al. 2014), wenn die
+            DiaCollo-Instanz mit einem zugrundeliegenden DDC Server assoziiert ist. </p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Scoring &amp; Pruning</head>
+            <p><hi rend="italic">DiaCollo</hi> weist jedem Kollokat
+            <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi> eines unären Profils für einen Zielterm
+            <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">1</hi></hi> mittels einer
+            benutzerspezifizierten <hi rend="italic">Scorefunktion</hi> einen
+            reellwertigen Assoziationswert (“score”) zu. Zu den unterstützten
+            Scorefunktionen zählen absolute und logarithmische Frequenzen
+            (<hi rend="italic">f, lf</hi>), normierte absolute und logarithmische
+            Frequenzen pro Mio. Token (<hi rend="italic">fm, lfm</hi>), das
+            <hi rend="italic">pointwise mutual information</hi> × log Frequenz Produkt
+            (<hi rend="italic">mi</hi>), und der von Rychlý (2008) vorgeschlagene
+            skalierte log-Dice Koeffizient (<hi rend="italic">ld</hi>).
+            Kollokatkandidaten werden nach Assoziationswert absteigend geordnet und die
+            <hi rend="math">k</hi>-besten Kandidaten jeder Epoche ausgewählt und
+            zurückgegeben. Für “diff” Anfragen werden unabhängige Profile
+            <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a</hi></hi> und
+            <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">b</hi></hi> jeweils für die
+            <hi rend="italic">query</hi> und <hi rend="italic">bquery</hi> Parameter berechnet.
+            Nach der Sortierung anhand der selegierten Scorefunktion wird ein
+            Vergleichsprofil <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a−b</hi></hi> berechnet
+            als
+            <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a−b</hi></hi>
+            : <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>
+            <hi rend="math_alt_font">↦</hi><!-- LaTeX \mapsto -->
+            <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a</hi></hi>(<hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>)
+            −
+            <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">b</hi></hi>(<hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>)
+            für jeden der bis zu 2<hi rend="math">k</hi>
+            Kollokate
+            <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>
+            <hi rend="math_alt_font">∈</hi><!-- LaTex \in -->
+            <hi rend="math">k</hi>-best(<hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a</hi></hi>)
+            <hi rend="math_alt_font">∪</hi><!-- LaTeX  \cup -->
+            <hi rend="math">k</hi>-best(<hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">b</hi></hi>),
+            wonach die <hi rend="math">k</hi>-besten von diesen Kandidaten
+            mit den größten absoluten Unterschieden
+            <hi rend="sameline">|<hi rend="math">p</hi><hi rend="sub">a−b</hi>(</hi><hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi>)|</hi>
+            selegiert und zurückgegeben werden. </p>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Ausgabe &amp; Visualisierung</head>
+            <p><hi rend="italic">DiaCollo</hi> unterstützt verschiedene Ausgabeformate für
+            die zurückgelieferte Profildaten, darunter TAB-getrennten Text, natives JSON
+            für die weitere automatische Verarbeitung sowie einfaches tabellarisches
+            HTML. Zusätzlich zu den statischen tabellarischen Formaten bietet der
+            Webservice-Plugin auch mehrere interaktive Online-Visualisierungen für
+            diachrone Profildaten, unter anderem zweidimensionale Zeitreihen mithilfe
+            der Highcharts JavaScript Bibliothek, Flash-basierten Motion Charts mithilfe
+            der Google Motion Charts Bibliothek und dynamische Bubble- und Tag-Cloud
+            Visualisierungen mithilfe der D3.js Bibliothek. Das HTML sowie die
+            D3-basierten Formate bieten eine intuitive farbkodierte Repräsentation der
+            Assoziationsscores (bzw. Score-Unterschiede bei “diff”-Profilen) für jedes
+            Kollokationspaar sowie Hyperlinks zu den zugrundeliegenden Korpus-Treffer
+            (“KWIC-links”) für jeden abgebildeten Datenpunkt. Beispiele für die
+            Zeitreihen-, Tag-Cloud- und Bubble-Visualisierungen sind in den Abbildungen
+            1–3 zu finden.</p>
+            <figure>
+              <graphic url="041-1000020100000D27000007EEF2716672.png"/>
+              <p><hi rend="bold">Abb. 1</hi>: <hi rend="italic">DiaCollo</hi>
+              Zeitreihe für die zehn global besten nominale Hyponyme des GermaNet
+              (Hamp / Feldweg 1997; Henrich / Hinrichs 2010) SynSets <hi
+              rend="italic">Getränk</hi> unmittelbar links vom Verb <hi
+              rend="italic">trinken</hi> in 50-Jahres Epochen über den
+              Gesamtbestand des Deutschen Textarchivs und DWDS-Kernkorpus. </p>
+            </figure>
+          </div>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Fallstudien</head>
+          <div type="div2" rend="DH-Heading2">
+            <head>Zeitgeschichte</head>
+            <p>Ein Anwendungsgebiet für <hi rend="italic">DiaCollo</hi> stellt die
+            (zeit-)historische Forschung dar. Insbesondere politische Prozesse können
+            durch die zeitscheibenbasierte Analyse von DiaCollo auf neue Weise
+            beschrieben werden. Das Potenzial von <hi rend="italic">DiaCollo</hi> soll
+            hier kurz am Beispiel des Begriffs “Krise” in der Wochenzeitung DIE ZEIT
+            skizziert werden (Abbildung 2). Da der Begriff “Krise” eine inhärent
+            instabile Situation bezeichnet, kann davon ausgegangen werden, dass die
+            damit assoziierten Diskursumgebungen im zeitlichen Verlauf stark variieren.
+            Dies sollte sich auch in den Kollokationsprofilen von <hi rend="italic"
+            >DiaCollo</hi> niederschlagen. Mittels <hi rend="italic">DiaCollo</hi>
+            lassen sich Eigennamen (Personen, Orte, Institutionen) extrahieren, die als
+            Kollokationspartner von “Krise” in der ZEIT auftreten. Eine Analyse der
+            Zeitreihe dieser Kollokate zeigt, dass mittels <hi rend="italic"
+            >DiaCollo</hi> korrekt politische Krisen (etwa in den 2000ern “CDU”),
+            ökonomische Krisen (in den 1980ern “AEG”, in den 1990ern die Finanzkrise in
+            Südostasien), aber auch konflikthafte Krisen (z. B. Jugoslawien in den
+            1990ern) ermittelt werden können. Je nach Granularität der Abfrage werden
+            auch die Ergebnisse komplexer und damit auch für den Experten interessanter.
+            Ihre Interpretation bedarf dann in der Regel weiterer manueller
+            Aufarbeitung, z.B. mithilfe der von DiaCollo bereitgestellten Verknüpfung
+            mit der zugrundeliegenden Textbasis.</p>
+            <figure>
+              <graphic url="041-1000020100000E5600000A451F2B5E32.png"/>
+              <p><hi rend="bold">Abb. 2</hi>: <hi rend="italic">DiaCollo</hi>
+              dynamische Tag-Cloud Visualisierung der zehn besten
+              Eigennamenkollokaten für “Krise” in der Wochenzeitung <hi
+              rend="italic">DIE ZEIT</hi> für die Epochen 1980-1989 (oben
+              links), 1990–1999 (oben rechts), 2000–2009 (unten links) und
+              2010–2014 (unten rechts). </p>
+            </figure>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Lexikographie</head>
+            <p>Ein weiteres Anwendungsgebiet von <hi rend="italic">DiaCollo</hi> ist die
+            Lexikographie. Da Kollokationen und die Beschreibung des Bedeutungsspektrums
+            (Lesarten) eines Wortes eng miteinander zusammenhängen, lassen sich aus
+            zeitlichen Verläufen von Kollokationen wichtige lexikographische Befunde
+            ableiten: die Verlagerung der Gewichtung von Lesarten untereinander oder das
+            Verschwinden einer Lesart zugunsten einer anderen können dadurch ebenso
+            nachverfolgt werden wie das Auftauchen von neuen Lesarten (Neosemanteme).
+            Bekannte Beispiele hierfür sind Wörter wie ‘Maus’ (als Computermaus) oder
+            ‘Ampel’ (in der politischen Bedeutung), die seit den späten 1980er bzw. den
+            frühen 1990er Jahren im öffentlichen Sprachgebrauch sind. Ein komplexeres
+            Beispiel stellt das Adjektiv ‘autofrei’ dar. Dieses ist im Duden definiert
+            als “keinen Autoverkehr aufweisend”. Eine genauere Sicht auf die
+            Korpusbelege ergibt, dass das Wort zwei Unterbedeutungen aufweist: erstens
+            die “(per Verordnung) auferlegte Autofreiheit”, die durch die Öllkrise in
+            den 1970er Jahren in der Kollokation ‘autofreier Sonntag’ erstmals auftrat
+            und später in Verbindungen wie ‘autofreie Innenstädte’ ein
+            Bedeutungserweiterung erfuhr. In den 1990er Jahren bildet sich die zweite
+            Bedeutung des Wortes heraus, bei der der Verzicht auf das Auto auf
+            Selbstverpflichtung beruht (vgl. <ref
+            target="http://zwei.dwds.de/wb/autofrei"
+            >http://zwei.dwds.de/wb/autofrei</ref>). Diese Lesart ist durch
+            Kollokationen wie ‘autofreie Wohnanlage’ oder ‘autofreie Siedlung’
+            gekennzeichnet. Mit <hi rend="italic">DiaCollo</hi> lassen sich beide
+            Bedeutungen nicht nur unterscheiden, sondern auch in ihrem zeitlichen
+            Verlauf nachverfolgen (Abbildung 3). </p>
+            <figure>
+              <graphic url="041-1000020100000E560000046D7CC7E4D7.png"/>
+              <p><hi rend="bold">Abb. 3</hi>: <hi rend="italic">DiaCollo</hi>
+              dynamische Bubble-Chart Visualisierung der zehn besten Kollokaten
+              des Ajdketivs autofrei im aggregierten DWDS Zeitungskorpus für die
+              Epochen 1985–1989 (links) und 1990–1994 (rechts).</p>
+            </figure>
+          </div>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Zusammenfassung</head>
+          <p>Wir haben hier <hi rend="italic">DiaCollo</hi> vorgestellt, ein neues
+          Softwarewerkzeug für die effiziente Extraktion, den Vergleich und die
+          interaktive Visualisierung von Kollokationen, speziell zugeschnitten auf die
+          besonderen Anforderungen diachroner Textkorpora. Darüber hinaus haben wir anhand
+          von zwei Fallstudien skizziert, wie <hi rend="italic">DiaCollo</hi> als
+          modularer Webservice-Plugin Forscher in den Geistes- und Sozialwissenschaften
+          dabei unterstützen kann, ein klareres Bild der diachronen Variation in der
+          Verwendung eines Wortes zu erhalten.</p>
+        </div>
+      </body>
+      <back>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl>
+              <hi rend="bold">Church, Kenneth Ward / Hanks, Patrick</hi> (1990): "Word
+              association norms, mutual information, and lexicography", in: <hi
+              rend="italic">Computational Linguistics</hi> 16, 1: 22–29. </bibl>
+              <bibl>
+                <hi rend="bold">Davies, Mark</hi> (2012): "Expanding horizons in historical
+                linguistics with the 400-million word Corpus of Historical American
+                English", in: <hi rend="italic">Corpora</hi> 7, 2: 121–157 <ref
+                target="http://davies-linguistics.byu.edu/ling450/davies_corpora_2011.pdf"
+                >http://davies-linguistics.byu.edu/ling450/davies_corpora_2011.pdf</ref>
+                [letzter Zugriff 08. Februar 2016]. </bibl>
+                <bibl>
+                  <hi rend="bold">Didakowski, Jörg / Geyken, Alexander</hi> (2014): "From DWDS
+                  corpora to a German word profile – methodological problems and solutions",
+                  in Abel, Andrea / Lemnitzer, Lothar (eds.): <hi rend="italic">
+                  Vernetzungsstrategien, Zugriffsstrukturen und automatisch ermittelte
+                  Angaben in Internetwörterbüchern</hi> (= OPAL 2014, 2). Mannheim:
+                  Institut für Deutsche Sprache 39-47 <ref
+                  target="http://www.dwds.de/static/website/publications/pdf/%20didakowski_geyken_internetlexikografie_2012_final.pdf"
+                  >http://www.dwds.de/static/website/publications/pdf/
+                  didakowski_geyken_internetlexikografie _2012_final.pdf</ref> [letzter
+                  Zugriff 08. Februar 2016]. </bibl>
+                  <bibl>
+                    <hi rend="bold">Evert, Stefan</hi> (2005): <hi rend="italic">The Statistics
+                    of Word Cooccurrences</hi>. Word Pairs and Collocations. PhD, Institut
+                    für maschinelle Sprachverarbeitung, Universität Stuttgart <ref
+                    target="http://elib.uni-stuttgart.de/opus/volltexte/2005/2371/pdf/Evert2005phd.pdf"
+                    >http://elib.uni-stuttgart.de/opus/volltexte/2005/2371/pdf/Evert2005phd.pdf</ref>
+                    [letzter Zugriff 08. Februar 2016]. </bibl>
+                    <bibl>
+                      <hi rend="bold">Geyken, Alexander / Haaf, Susanne / Jurish, Bryan / Schulz,
+                        Matthias / Steinmann, Jakob / Thomas, Christian / Wiegand, Frank</hi>
+                        (2011): "Das Deutsche Textarchiv: Vom historischen Korpus zum aktiven
+                        Archiv", in Schomburg, Silke / Leggewie, Claus / Lobin, Henning / Puschmann,
+                        Cornelius (eds.): <hi rend="italic">Digitale Wissenschaft</hi>. Stand und
+                        Entwicklung digital vernetzter Forschung in Deutschland. Köln: hbz 157– 161
+                        <ref
+                          target="http://www.hbz-nrw.de/dokumentencenter/veroeffentlichungen/Tagung_Digitale_Wiss%20enschaft.pdf#page=159"
+                          >http://www.hbz-nrw.de/dokumentencenter/veroeffentlichungen/Tagung_Digitale_Wiss
+                          enschaft.pdf#page=159</ref> [letzter Zugriff 08. Februar 2016]. </bibl>
+                          <bibl>
+                            <hi rend="bold">Hamp, Birgit / Feldweg, Helmut</hi> (1997): "GermaNet – a
+                            lexical-semantic net for German", in: <hi rend="italic">Proceedings of the
+                            ACL workshop Automatic Information Extraction and Building of Lexical
+                            Semantic Resources for NLP Applications</hi> 9-15. </bibl>
+                            <bibl>
+                              <hi rend="bold">Henrich, Verena / Hinrichs, Erhard</hi> (2010): "GernEdiT –
+                              the GermaNet editing tool", in: <hi rend="italic">Proceedings of the ACL
+                              2010 System Demonstrations</hi> 19-24 <ref
+                              target="http://www.aclweb.org/anthology/P10-4004"
+                              >http://www.aclweb.org/anthology/P10-4004</ref> [letzter Zugriff 08.
+                              Februar 2016]. </bibl>
+                              <bibl>
+                                <hi rend="bold">Jurish, Bryan / Thomas, Christian / Wiegand, Frank</hi>
+                                (2014): "Querying the Deutsches Textarchiv", in: <hi rend="italic"
+                                >Proceedings of the Workshop Beyond Single-Shot Text Queries</hi>.
+                                Bridging the Gap(s) between Research Communities (MindTheGap 2014) 25–30
+                                <ref target="http://ceur-ws.org/Vol-1131/mindthegap14_7.pdf"
+                                  >http://ceur-ws.org/Vol-1131/mindthegap14_7.pdf</ref> [letzter Zugriff
+                                  08. Februar 2016]. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Kilgarriff, Adam / Tugwell, David</hi> (2002): "Sketching
+                                    words", in: Corréard, Marie.-Hélène (ed.): <hi rend="italic">Lexicography
+                                    and Natural Language Processing: A Festschrift in Honour of B. T. S.
+                                    Atkins</hi>. United Kingdom: EURALEX 125–137 <ref
+                                    target="http://www.kilgarriff.co.uk/Publications/%202002-KilgTugwell-AtkinsFest.pdf"
+                                    >http://www.kilgarriff.co.uk/Publications/
+                                    2002-KilgTugwell-AtkinsFest.pdf</ref> [letzter Zugriff 08. Februar
+                                    2016]. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Rychlý , Pavel</hi> (2008): "A lexicographer-friendly
+                                      association score", in: <hi rend="italic">Proceedings of Recent Advances in
+                                      Slavonic Natural Language Processing</hi>. RASLAN, 6–9 <ref
+                                      target="http://www.fi.muni.cz/usr/sojka/download/raslan2008/13.pdf"
+                                      >http://www.fi.muni.cz/usr/sojka/download/raslan2008/13.pdf</ref>
+                                      [letzter Zugriff 08. Februar 2016]. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Scharloth, Joachim / Eugster, David / Bubenhofer, Noah</hi>
+                                        (2013): "Das Wuchern der Rhizome. Linguistische Diskursanalyse und
+                                        Data-driven Turn", in: Busse, Dietrich / Teubert, Wolfgang (eds.): <hi
+                                        rend="italic">Linguistische Diskursanalyse</hi>. Neue Perspektiven.
+                                        Wiesbaden: VS Verlag 345–380 <ref
+                                        target="http://www.scharloth.com/files/Rhizom_Zeit.pdf"
+                                        >http://www.scharloth.com/files/Rhizom_Zeit.pdf</ref> [letzter Zugriff
+                                        08. Februar 2016]. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Sokirko, Alexey</hi> (2003): "A technical overview of
+                                          DWDS/Dialing Concordance", Vortrag beim Workshop <hi rend="italic"
+                                          >Computational linguistics and intellectual technologies</hi>. Protvino.
+                                          <ref target="http://www.aot.ru/docs/OverviewOfConcordance.htm"
+                                            >http://www.aot.ru/docs/OverviewOfConcordance.htm</ref> [letzter Zugriff
+                                            08. Februar 2016]. </bibl>
+                                          </listBibl>
+                                        </div>
+                                      </back>
+                                    </text>
+                                  </TEI>

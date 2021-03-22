@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-048">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>dariahTeach - Freizugängliche Plattform für DH Lehrmaterialien</title>
+        <author>
+          <name>
+            <surname>Wissik</surname>
+            <forename>Tanja</forename>
+          </name>
+          <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+          <email>Tanja.Wissik@oeaw.ac.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Durco</surname>
+            <forename>Matej</forename>
+          </name>
+          <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+          <email>Matej.Durco@oeaw.ac.at</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-08T11:09:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Plattform</term>
+          <term>Lehrmaterialien</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Sammlung</term>
+          <term>Veröffentlichung</term>
+          <term>Kollaboration</term>
+          <term>Lehre</term>
+          <term>Webentwicklung</term>
+          <term>Curricula</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>In den letzten Jahren ist auf Grund der steigenden Sichtbarkeit der Digital
+        Humanities auch die Frage der Vermittlung von Digital Humanities, im universitären
+        und außeruniversitären Bereich, immer wichtiger geworden (vgl. Thaller 2015). Dies
+        zeigen die steigende Anzahl an Studiengängen für Digital Humanities in der einen
+        oder anderen Form an Universitäten (vgl. <hi rend="italic">Digital Humanities Course
+        Registry</hi>, <ref target="https://dh-registry.de.dariah.eu/">Schmeer
+        2014</ref>), die Liste von DH-Studiengängen im deutschsprachigen Raum (<ref
+        target="http://www.cceh.uni-koeln.de/Dokumente/BroschuereWeb.pdf">vgl. Sahle
+        2011</ref>) und <ref
+        target="http://resolver.sub.uni-goettingen.de/purl/?dariah-2013-1">Sahle
+        (2013)</ref>, v. a. mit der im Anhang befindlichen Auflistung von DH-BA- und
+        MA-Studiengängen, außrdem Initiativen und Arbeitsgruppen zu Referenzcurricula (vgl.
+        z. B. Thaller 2015) sowie Vorträge und Artikel zum Thema Lehre in den Digital
+        Humanities oder DH Curricula (vgl. z. B. Sula et al. (2015); Thaller (2015); die
+        Ausgabe "Digital Humanities Pedagogy" der Zeitschrift <hi rend="italic">CEA</hi>,
+        vgl. Iantorno 2014). </p>
+        <p>Die meisten dieser Vorhaben sind stark auf den universitären Kontext ausgerichtet.
+          Sula et al. (2015) untersucht 34 universitäre DH Curricula in den USA, Australien,
+          Kanada und UK. Die DHd Arbeitsgruppe „Referenzcurriculum Digital Humanities“
+          beleuchtet Fallbeispiel von DH Curricula an Universitäten im deutschsprachigen Raum.
+          Auch in der Dariah <hi rend="italic">Digital Humanities Course Registry</hi> sind
+          mehr Studiengänge als Weiterbildungskurse wie z. B. Summer Schools aufgelistet (vgl.
+          Schmeer 2014). Auch auf der <hi rend="italic">coursera</hi> Plattform für kostenlose
+          Online-Kurse gibt es unter dem Suchbegriff „Digital Humanities“ nur zwei Treffer
+          (<ref target="https://www.coursera.org/courses?query=%22Digital%20Humanities%22"
+          >Coursera 19.08.2015</ref>). </p>
+          <p>Das dariahTeach Projekt, ein Projekt im Rahmen der Erasmus+ Strategische Partnerschaften Förderung, hat sich zum Ziel gesetzt, modulare Lehrmaterialien für die Digital Humanities zu entwickeln, die in einer Vielzahl von Szenarien – in universitären Studiengängen aber vor allem auch in Workshops bis hin zu informellen individuellen Lernsituationen – eingesetzt werden können und allen Interessierten über eine spezielle Open-Access und Open-Source-Web-Plattform zugänglich sein werden.</p>
+          <p>Das Poster wird einen Überblick über das dariahTeach Projekt und seine Ziele geben. Die bereits zur Verfügung stehenden Projektresultate werden vorgestellt unter anderem der Prototyp der Plattform zur Bereitstellung der Lehrmaterialien mit einigen exemplarischen Lehrmaterialien. Die freizugängliche Plattform wird nach den speziellen Anforderungen der zukünftigen User entwickelt sowie auf die unterschiedlichen Lehr- und Lernsituationen abgestimmt.</p>
+          <p>Das dariahTeach Projektkonsortium, bestehend aus <hi rend="italic">Maynooth
+            University</hi> (Koordination), <hi rend="italic">Aarhus Universitet</hi>, <hi
+            rend="italic">Athena Research and Innovation Center in Information Communication
+            &amp; Knowledge Technologies</hi>, <hi rend="italic">Belgrade Centre for Digital
+            Humanities</hi>, <hi rend="italic">Erasmus Universiteit Rotterdam</hi>, <hi
+            rend="italic">Österreichische Akademie der Wissenschaften</hi> und <hi
+            rend="italic">Université de Lausanne</hi> erarbeitet zumindest 5 Kernmodule zu
+            den folgenden Themen: Einführung in Digital Humanities; Textkodierung;
+            Multiliteralität und audio-visuelle Medien; Ontologien &amp; Wissensrepräsentation;
+            Retrodigitalisierung von Wörterbüchern. </p>
+            <p>Neben den englischen Lehrmaterialien werden auch Versionen, in den Sprachen der Partnerländer, die diese Module erstellen, vorliegen. dariahTeach wird eine Sammlung von mehrsprachigen Lehrmaterialien für Digital Humanities bereitstellen um mehrsprachige Aus- und Weiterbildung in den Digital Humanities zu stärken und um die Internationalisierung und Mehrsprachigkeit in den Digital Humanities zu fördern. </p>
+            <p>Die Web-Plattform wird auch nach dem Projektende weiter im Rahmen der DARIAH Infrastruktur zugänglich sein und es wird möglich sein, fortlaufend Material auf der Plattform bereitzustellen oder bereits bestehende Inhalte zu aktualisieren oder mehrsprachige Lehrmaterialien hinzuzufügen. </p>
+          </body>
+          <back>
+            <div type="bibliogr">
+              <listBibl>
+                <head>Bibliographie</head>
+                <bibl>
+                  <hi rend="bold">Coursera</hi> (19. August 2015): <hi rend="italic">Coursera
+                  Inc.</hi>. Mountain View, CA, USA <ref
+                  target="https://www.coursera.org/">https://www.coursera.org/</ref>
+                  [letzter Zugriff 09. Januar 2016]. </bibl>
+                  <bibl>
+                    <hi rend="bold">Schmeer, Hendrik</hi> (2014): <hi rend="italic">Digital
+                    Humanities Course Registry</hi>
+                    <ref target="https://dh-registry.de.dariah.eu/"
+                      >https://dh-registry.de.dariah.eu/</ref> [letzter Zugriff 08. Januar
+                      2016]. </bibl>
+                      <bibl>
+                        <hi rend="bold">Iantorno, Luke A.</hi> (2014): "Introducing Digital
+                        Humanities Pedagogy", in: <hi rend="italic">CEA Critic</hi> 76, 2: Special
+                        Issue: Digital Humanities Pedagogy 140-146. </bibl>
+                        <bibl>
+                          <hi rend="bold">Sahle, Patrick</hi> (ed.) (2011): <hi rend="italic">Digitale
+                          Geisteswissenschaften</hi>. Cologne Center for eHumanities (CCeH),
+                          Universität zu Köln <ref
+                          target="http://www.cceh.uni-koeln.de/Dokumente/BroschuereWeb.pdf"
+                          >http://www.cceh.uni-koeln.de/Dokumente/BroschuereWeb.pdf</ref> [letzter
+                          Zugriff 09. Januar 2016]. </bibl>
+                          <bibl>
+                            <hi rend="bold">Sahle, Patrick</hi> (2013): <hi rend="italic">DH Studieren!
+                            Auf dem Weg zu einem Kern- und Referenzcurriculum der Digital
+                            Humanities</hi> (= DARIAH-DE Working Papers 1). Georg-August-Universität
+                            Göttingen: GOEDOC <ref
+                            target="http://resolver.sub.uni-goettingen.de/purl/?dariah-2013-1"
+                            >http://resolver.sub.uni-goettingen.de/purl/?dariah-2013-1</ref>
+                            [letzter Zugriff 09. Januar 2016]. </bibl>
+                            <bibl><hi rend="bold">Sula, Chris Alen / Cunningham, Phillip / Hackney,
+                              Sarah</hi> (2015): <hi rend="italic">A Survey of DH Curricula at the
+                              Present Time. Keystone Digital Humanities Conference, Kislak Center for
+                              Special Collections</hi>. Philadelphia, USA, July 22–24, 2015 <ref
+                              target="http://sceti.library.upenn.edu/KeystoneDH/abstracts.html"
+                              >http://sceti.library.upenn.edu/KeystoneDH/abstracts.html</ref> [letzter
+                              Zugriff 09. Januar 2016]. </bibl>
+                              <bibl><hi rend="bold">Thaller, Manfred</hi> (2015): "Panel: Digital Humanities
+                              als Beruf – Fortschritte auf dem Weg zu einem Curriculum", in: <hi
+                              rend="italic">Digital Humanities als Beruf</hi>. Fortschritte auf dem
+                              Weg zu einem Curriculum. Akten der Dhd Arbeitsgruppe „Referenzcurriculum
+                              Digital Humanities“, Jahrestagung 2015, Graz 3-5.</bibl>
+                            </listBibl>
+                          </div>
+                        </back>
+                      </text>
+                    </TEI>

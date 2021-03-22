@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="194_final-DIEHR_Franziska_Open_Graph_Space___Einsatz_und_Potenzial_von" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Open Graph Space – Einsatz und Potenzial von Graphentechnologien in den digitalen Geisteswissenschaften</title>
+                <author>
+                    <persName>
+                        <surname>Diehr</surname>
+                        <forename>Franziska</forename>
+                    </persName>
+                    <affiliation>Stiftung Preußischer Kulturbesitz</affiliation>
+                    <email>f.diehr@smb.spk-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Brodhun</surname>
+                        <forename>Maximilian</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+                    <email>brodhun@sub.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kuczera</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur Mainz, Deutschland</affiliation>
+                    <email>andreas.kuczera@adwmainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kollatz</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur Mainz, Deutschland</affiliation>
+                    <email>thomas.kollatz@adwmainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wübbena</surname>
+                        <forename>Thorsten</forename>
+                    </persName>
+                    <affiliation>Goethe Universität Frankfurt am Main, Kunstgeschichtliches Institut, Deutschland; Deutsches Forum für Kunstgeschichte Paris, Frankreich</affiliation>
+                    <email>wuebbena@kunst.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Efer</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig, Deutschland; Universität Leipzig, Deutschland</affiliation>
+                    <email>efer@saw-leipzig.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-11T06:31:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Graphentechnologien</term>
+                    <term>Open Space</term>
+                    <term>Community-Bildung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Kollaboration</term>
+                    <term>Projekte</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left; ">Die AG Graphentechnologie möchte im Rahmen der DHd 2019 zum offenen Austausch von Erfahrungen, Fragestellungen und Ideen rund um das Thema Graphentechnologien in den digitalen Geisteswissenschaften zu einem „Open Graph Space“ einladen. </p>
+            <p style="text-align:left; ">Graph-basierte Technologien erfreuen sich eines breiten Anwendungsfeldes in verschiedenartigen Projekten und sind Thema zahlreicher Forschungsarbeiten und -vorhaben im Kontext der Digital Humanities. Die Möglichkeiten der Modellierung, Speicherung und vor allem auch der Datenanalyse überzeugen bei der Nutzung von Graphdatenbanken (Kuczera 2017:179). Durch die fein granulare Strukturierung der Daten in einzelne Knoten und deren Verbindung durch gerichtete oder ungerichtete Kanten können diese auch gezielt abgefragt werden (Rodriguez / Neubauer 2011:45). Die Graphenstruktur ist daher für die Analyse von Beziehungsstrukturen deutlich effizienter als andere Technologien: Im Gegensatz zu den dokument- und hierarchie-basierten Retrievalmöglichkeiten der X-Technologien wie XQuery und XPath oder auch den aufwändigen JOIN-Abfragen von tabellarischen Strukturen in SQL zeichnen sich graph-basierte Abfragen durch eine ressourcenschonende Vorgehensweise aus und liefern dabei präzise und ausdrucksfähige Ergebnisse (Rodriguez / Neubauer 2011:30). Projekte wie der Datums-Gazetteer GODOT und das Editionsprojekt Regesta Imperii zeigen eine hohe Performanz in der Datenanalyse und bei der Verbindung und Einbettung neuer Daten (Kuczera 2017:183, 188). Sie stehen damit beispielhaft für die breite Nutzung von Graphentechnologien in Digital 
+            Humanities-Projekten.<ref target="ftn1" n="1"/>
+            </p>
+            <p style="text-align:left; ">Mit dem „Open Graph Space“ soll die Gelegenheit zum Erfahrungsaustausch geschaffen werden, um konkrete Frage- und Problemstellungen zu erörtern und mögliche Lösungsansätze zu diskutieren. Darüber hinaus können weitere Anwendungsfelder für graph-basierte Technologien erschlossen werden. Um einen breiten Kreis von Interessierten zu erreichen, lehnt sich das geplante Format an die Methode des „Open Space“ (Owen 2008) und des „BarCamp“ (Hellmann 2012) an. Beides sind freie, offene Veranstaltungsformate mit selbstorganisierendem Charakter bei dem die TeilnehmerInnen das Programm aktiv mitgestalten. Konkrete Themenvorschläge werden ad hoc vom Plenum entwickelt und anschließend in Kleingruppen bearbeitet (Owen 2008: 2). Ziel ist es, freie Assoziationen und spontane Impulse aufzunehmen und Raum für aktive Debatten zu schaffen (Owen 2008: 15). Es entstehen kreative Ansätze, die das Potenzial haben sich zu konkreten Projekten und auch gemeinsamen Vorhaben zu entwickeln. </p>
+            <p style="text-align:left; ">TeilnehmerInnen mit unterschiedlichen Interessengebieten und Kenntnisstufen begegnen sich in einer offenen, ungezwungenen Atmosphäre, die dazu anregt, in einen lebendigen Wissensaustausch zu treten (Owen 2010: 11). Dadurch wird ein multiperspektivischer Blick auf Themen und Problemstellungen geschaffen. Angeregt durch andere und auch neue Betrachtungsmöglichkeiten entstehen kreative Impulse, die die TeilnehmerInnen zur aktiven Beteiligung animiert. Durch das sich entfaltende breite Spektrum an Betrachtungsweisen entsteht ein fachlicher Austausch, bei dem Themen auf vielschichtigen Ebenen exploriert werden. Von allgemeinen Fragen zu Graphentechnologien über konkreten Fragen der Modellierung und Abfrage bis hin zu praxisorientierten Problemen spezifischer Anwendungen ist ein weites Themenspektrum vorstellbar. </p>
+            <p style="text-align:left; ">Mitglieder der AG Graphentechnologie werden anwesend sein und können für bestimmte Fragestellungen und Problematiken als Experten dienen. So wäre es bspw. möglich eine ‚GraphClinic‘ für konkrete Fragen rund um den Einsatz von Graphentechnologien in spezifischen Anwendungszusammenhängen anzubieten. Neben theoretischen Ansätzen der Weiterentwicklung graph-basierter Technologie möchten wir auch kritische Fragen zum praktischen Einsatz und Nutzen von Graphentechnologien diskutieren.</p>
+            <p style="text-align:left; ">Auch wenn das Format sich thematisch frei gestaltet, so ist sein Aufbau und seine Durchführung genau geplant. Nach einer Einführung in das Format durch eine/n qualifizierte/n ModeratorIn werden von den Teilnehmenden spontan Themenvorschläge, Fragestellungen oder auch konkrete Probleme als Programmpunkte formuliert. Nachdem alle Vorschläge gesammelt wurden, bekunden die TeilnehmerInnen ihr Interesse an einem Thema. Je nach Gruppengröße werden die Themenvorschläge in einem bereits vorbereiteten Zeit- und Raumplan eingeordnet (Hellmann 2007:107). Anschließend verteilen sich die TeilnehmerInnen auf die Räume und finden sich so mit anderen Interessierten zusammen. Sollte während der Diskussion jemand für sich selbst feststellen, dass er oder sie nichts beitragen kann oder auch für sich nichts Neues gewinnen kann, so steht es jedem frei auch spontan die Gruppe zu wechseln (zur Bonsen 1998:21). In den Sessions wird das Thema vom Vorschlaggebenden nochmals skizziert, damit wird eine gemeinsame Diskussionsgrundlage geschaffen anhand derer alle in den gemeinsamen kreativen Ideenaustausch eintreten können.  Hierbei werden gemeinsam Ansätze skizziert, spontan relevante Beispiele herangezogen und tragfähige Konzepte entwickelt. Dies geschieht unter Zuhilfenahme unterschiedlicher Medien wie Whiteboard oder großformatigem Papier sowie auch bspw. Moderationskärtchen. Auch Live-Demos, Impulsvorträge und spontane Kurzpräsentationen von Beteiligten sind erwünscht. Zur Dokumentation der schnelllebigen Kreativprozesse dienen Fotos, Videos und auch das zu Papier gebrachte. Die AG Graphentechnologien möchte den „Open Graph Space“ anhand der Aufzeichnungen aufbereiten und frei zugänglich publizieren und damit auch zur weiteren Diskussion sowie zur Vertiefung und Ausgestaltung der formulierten Konzepte 
+            anregen.<ref target="ftn2" n="2"/>
+            </p>
+            <p style="text-align:left; ">Erfahrungen aus der Community zeigen, dass ein „Open Space“ bzw. „BarCamp“ erfolgreich und gewinnbringend für Themenfelder der Digital Humanities genutzt werden kann. So hat bspw. der MWW-Forschungsverbund ein „BarCamp“ zum Thema „Data and Demons – Von Bestands- und Forschungsdaten zu Services“ 
+            veranstaltet<ref target="ftn3" n="3"/> und dabei den kreativen und interdisziplinären Austausch in der Digital Humanities Community gefördert. Durch seinen offenen, aktivierenden Charakter eignet sich der „Open Space“ insbesondere auch als Pre-Conference Veranstaltung, da er ein breiten Interessentenkreis aus allen digital arbeitenden und forschenden Geisteswissenschaften anspricht und dabei aktive AnwenderInnen als auch Interessierte zusammenbringt.
+            </p>
+            <p style="text-align:left; ">Mit dieser etwas anderen Form des wissenschaftlichen Austauschs möchte die AG Graphentechnologien eine neue Art des fachlichen Diskurses anregen. Das Format des „Open Space“ unterstreicht dabei den kollaborativen und interdisziplinären Charakter der Digital Humanities und dient dabei auch der Verfestigung der Graphentechnologie-Community.</p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    Beispiele für DH-Projekte und Forschungsvorhaben, die Graphentechnologien einsetzen finden sich im Literaturverzeichnis.
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    Als mögliche Publikationsform bietet sich der Hypotheses-Blog der AG Graphentechnologien an: 
+                    <ref target="https://graphentechnologien.hypotheses.org/">
+                        <hi rend="color(1155CC)">https://graphentechnologien.hypotheses.org/</hi>
+                    </ref>
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    „Data and Demons – Von Bestands- und Forschungsdaten zu Services.“ Barcamp im Rahmen des Forschungsverbunds Marbach Weimar Wolfenbüttel, 27.- 28. November 2017, Wolfenbüttel.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Hellmann, Kai-Uwe (2012)</hi>: <hi rend="italic">„Barcamps als kommunikative Treffpunkte der Internetszene“</hi> in: <hi rend="bold">Bieber, Christoph / Leggewie, Claus (eds.)</hi>: <hi rend="italic">Unter Piraten. Erkundungen in einer neuen politischen Arena</hi>. Bielefeld: transcript 127–136.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hellmann, Kai-Uwe (2007)</hi>: <hi rend="italic">„Die Barcamp Bewegung. Bericht über eine Serie von Unconferences“</hi>, in:  <hi rend="bold">Klein, Ansgar / Legrand, Hans-Josef / Leif, Thomas / Rohwerder, Jan (eds.)</hi>: <hi rend="italic">Forschungsjournal Soziale Bewegungen 20</hi> (4): 107-110 <ref target="https://doi.org/10.1515/fjsb-2007-0415">https://doi.org/10.1515/fjsb-2007-0415</ref> [letzter Zugriff 1.10.2018]. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kuczera, Andreas (2017)</hi>: <hi rend="itlaic">„Graphentechnologien in den Digitalen Geisteswissenschaften“</hi> in: ABI Technik 37/3: 179–196 <ref target="https://doi.org/10.1515/abitech-2017-0042">https://doi.org/10.1515/abitech-2017-0042</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Owen, Harrison (2010)</hi>: <hi rend="italic">Expanding Our Now: The Story of Open Space Technology</hi>. Berrett-Koehler Publishers Inc.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Owen, Harrison (2008)</hi>: <hi rend="italic">‘Open Space’ Technology – A User’s Guide</hi>. San Francisco: Berrett-Koehler Publishers Inc.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rodriguez, Marko A. / Neubauer, Peter (2011)</hi>: <hi rend="italic">“The Graph Traversal Pattern”</hi> in: <hi rend="bold">Sakr, Sherif / Pardede, Eric (eds.)</hi>: <hi rend="bold">Graph Data Management: Techniques and Applications</hi> 29-46 <ref target="https://arxiv.org/abs/1004.1001">https://arxiv.org/abs/1004.1001</ref> [letzter Zugriff 1.10.2018]. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">zur Bonsen, Matthias (1998)</hi>: <hi rend="italic">„Mit der Konferenzmethode Open Space zu neuen Ideen“</hi> in: HARVARD BUSINESSmanager 3: 19-26.
+                    </bibl>
+					<bibl>
+                        <hi rend="bold">Dekker, Ronald H. / Birnbaum, David J. (2017)</hi>: <hi rend="italic">„It’s more than just overlap: Text As Graph“</hi> in: Proceedings of Balisage – The Markup Conference 2017 <ref target="https://www.balisage.net/Proceedings/vol19/print/Dekker01/BalisageVol19-Dekker01.html">https://www.balisage.net/Proceedings/vol19/print/Dekker01/BalisageVol19-Dekker01.html</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Efer, Thomas (2017)</hi>: <hi rend="italic">Graphdatenbanken für die textorientierten e-Humanities</hi>. Leipzig. <ref target="http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-219122">http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-219122</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">GODOT</hi> – Graph of Dated Objects and Texts: <ref target="https://godot.date/home">https://godot.date/home</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jödden, Tim (2013)</hi>: <hi rend="italic">Einsatz von Graphdatenbanken zur Repräsentation kultureller Metadaten</hi>. Bachelorarbeit, Universität Osnabrück.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Regesta Imperii</hi>: <ref target="http://www.regesta-imperii.de/">http://www.regesta-imperii.de/</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Standoff-Property Editor for Text Annotation</hi>: <ref target="https://argimenes.github.io/standoff-properties-editor/">https://argimenes.github.io/standoff-properties-editor/</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stemmaweb</hi>: <ref target="https://stemmaweb.net/stemmaweb/">https://stemmaweb.net/stemmaweb/</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Textdatenbank und Wörterbuch das Klassischen Maya</hi>: <ref target="http://mayawoerterbuch.de">http://mayawoerterbuch.de</ref> [letzter Zugriff 1.10.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">van Zundert, Joris J. / Andrews, Tara L. (2016)</hi>: <hi rend="italic">„Apparatus vs. Graph: New Models and Interfaces for Text“</hi> in: <hi rend="bold">Hadler, F. / Haupt, J. (eds)</hi>: <hi rend="italic">Interface Critique.</hi> Berlin: Kulturverlag Kadmos 183-205.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-66">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Excerpta Constantiniana: vom Palimpsest zur Edition einer mittelalterlichen Enzyklopädie</title>
+        <author>
+          <name>
+            <surname>Rafiyenko</surname>
+            <forename>Dariya</forename>
+          </name>
+          <affiliation>Universität Leipzig, Deutschland</affiliation>
+          <email>dariya.rafiyenko@uni-leipzig.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T15:38:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Digitale Edition</term>
+          <term>Editorisches Konzept</term>
+          <term>Graphische Rekonstruktion</term>
+          <term>XML</term>
+          <term>XSLT</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Transkription</term>
+          <term>Artefakte</term>
+          <term>Manuskript</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>In diesem Poster wird die digitale Edition der <hi rend="italic">Excerpta
+        Constantiniana</hi> (im Weiteren <hi rend="italic">Excerpta</hi>), einer
+        byzantinischen Geschichtsenzyklopädie, die im 10. Jahrhundert in Konstantinopel in
+        Altgriechisch verfasst wurde, vorgestellt. </p>
+        <p>Zugrunde liegt ein disziplinspezifisches Forschungsprojekt im Bereich Klassische und Byzantinische Philologie, dessen Ziel darin besteht, die Edition einer wichtigen Quelle der byzantinischen Geschichtsschreibung vorzulegen. Das Ziel dieses Posters ist fachübergreifend und besteht darin, die Rolle des Herausgebers sowie das Konzept der Präsentation einer historischen Quelle in digitaler Umgebung zu definieren.</p>
+        <p>Bei den <hi rend="italic">Excerpta</hi> handelt es sich um ein groß angelegtes,
+        mehrere Bände umfassendes Werk. Es besteht aus mehreren Tausend einzelnen Auszügen
+        (Exzerpten), die inhaltlich aus etwa drei Dutzend antiken und byzantinischen
+        Geschichtswerken stammen. Die erhaltenen Reste umfassen etwa 560 000 Wörter (es wird
+        vermutet, dass fast das Zehnfache verlorengegangen ist). Die beiden erhaltenen
+        Originalhandschriften der <hi rend="italic">Excerpta</hi> (je ein Band) zeichnen
+        sich durch ein bemerkenswertes Layout aus: zum Zweck der Navigation durch den Inhalt
+        wurden an deren Rändern mehrere hundert Notizen und Piktogramme angebracht (s.
+        Abbildung 2). </p>
+        <p>Die Edition des Gesamtwerks befindet sich in der Vorbereitungsphase; exemplarisch
+          wurde bereits ein Abschnitt aus den <hi rend="italic">Excerpta</hi> ediert, und zwar
+          24 Seiten aus der Originalhandschrift <hi rend="italic">Vaticanus graecus</hi> 73
+          (ca. 9 000 Wörter). Bei der Handschrift handelt es sich um einen Palimpsest: der
+          Text der <hi rend="italic">Excerpta</hi> wurde etwa im 14. Jahrhundert ausradiert
+          und mit einem anderen Text überschrieben, sodass der frühere Text heute nur mühsam
+          lesbar ist (s. Abbildung 1). </p>
+          <p>Die Standardlösung wäre es, das Faksimile der Handschrift zu publizieren und eine historisch-kritische Edition des Texts anzufertigen. Die Publikation von dermaßen beschädigten Seiten erwies sich jedoch als wenig ergiebig. Auch die traditionelle Art der Textgestaltung im Rahmen einer historisch-kritischen Edition war kaum für die Wiedergabe der
+            <hi rend="italic">Excerpta </hi>geeignet. So bedurfte es beispielsweise einer originalgetreuen Reproduktion der Notizen und Piktogramme an den Rändern, die einen wichtigen Beitrag für das Verständnis des Textes leisten.
+          </p>
+          <p>Die Art der Gestaltung der <hi rend="italic">Excerpta</hi> war ausschlaggebend bei
+          der Entwicklung des Konzepts dieser Digitaledition. Es wurde eine <hi rend="italic"
+          >pluralistische</hi> Herangehensweise an den Text zugrunde gelegt, die
+          gleichzeitig mehrere <hi rend="italic">Ansichten </hi>(Wiedergabemöglichkeiten)
+          desselben Textes ermöglicht. Dabei wurden drei Grundansichten ausgewählt: (1) die
+          digitale Rekonstruktion der Handschrift (<hi rend="italic">topographische
+          Edition</hi>), (2) die diplomatische Abschrift (<hi rend="italic">diplomatische
+          Edition</hi>) sowie (3) die normalisierte, historisch-kritische Version des
+          Textes (<hi rend="italic">digitale historisch-kritische Edition</hi>). </p>
+          <list type="ordered">
+            <item>
+              <hi rend="bold">Topographische Edition</hi>: Die topographische Edition umfasst
+              die digitale Rekonstruktion des Originals und die zweidimensionale, detaillierte
+              Darstellung der Oberfläche. Das bedeutet, dass der ausradierte Text der
+              Handschrift, stark vergrößert, auf Touchscreen mit Stylus nachgemalt wird (s.
+              Abbildungen 1 und 2). Diese Methodik wurde hier m.W. zum ersten Mal angewendet
+              und wird daher im Poster vorgestellt. Sie kombiniert menschliches Expertenwissen
+              mit den aktuellen technischen Möglichkeiten. </item>
+              <item>
+                <hi rend="bold">Diplomatische Edition</hi>: Unter einer diplomatischen Edition
+                wird eine möglichst originalgetreue Abschrift einer Handschrift verstanden. In
+                dieser Ansicht wird die Gestaltung der Originalhandschrift, d. h. vor allem das
+                Layout und die Navigationselemente des ursprünglichen Texts, visualisiert (s.
+                Abbildung 2). Nach Möglichkeit wird die ursprüngliche Orthographie wiedergeben.
+                Hier ist auch die Option vorgesehen, innerhalb derselben Ansicht auf
+                normalisierte Orthographie umzuschalten (dies ermöglicht z. B. die Wahl zwischen
+                mittelalterlicher und moderner Zeichensetzung, zwischen der Schreibweise mit
+                Abbreviaturen oder mit deren Auflösung u. ä.) </item>
+                <item>
+                  <hi rend="bold">Digitale historisch-kritische Edition</hi>: Diese Ansicht hat
+                  das Layout einer modernen Edition, die Orthographie wird weitgehend
+                  normalisiert. Außerdem wird unter dieser Ansicht als Option die Möglichkeit der
+                  Hervorhebung unterschiedlicher Textinhalte angeboten, wie z. B. von Zitaten,
+                  Orten, Personennamen, Völkerbezeichnungen usw. In diese Ansicht gehören ferner
+                  der kritische Apparat sowie Indices mit Namen, Orten usw. </item>
+                </list>
+                <p>Technisch wird das folgenderweise implementiert. Die topographische Edition wird in Form von Bildern hergestellt. Die Transkription der Handschrift für die diplomatische und historisch-kritische Edition wird in TEI-XML angefertigt. Erscheinungen, die mit XML-Tags kodiert werden, werden in größere
+                  <hi rend="italic">Blöcke</hi> aufgeteilt. Die wichtigsten Blöcke sind:
+                </p>
+                <list type="unordered">
+                  <item>
+                    <hi rend="italic">Physischer Zustand der Handschrift und physische Struktur des
+                      Texts</hi>: physische Schäden der Handschrift, Lesbarkeit des Textes,
+                      Seiten- und Zeileneinteilung an den Stellen, wo sie nicht mit der logischen
+                      Struktur des Texts in Verbindung stehen (s. u.); </item>
+                      <item>
+                        <hi rend="italic">Logische Struktur des Texts sowie alle Elemente des Layouts,
+                          welche die Navigation im Text unterstützen</hi>: Einheiten wie Bände,
+                          Kapitel, Exzerpte; Elemente der Gestaltung, die auf diese Einteilung verweisen
+                          (z. B. größere Leerräume im Text); Piktogramme und Randnotizen; </item>
+                          <item>
+                            <hi rend="italic">Orthographie der Handschrift</hi>: originale Zeichensetzung, Akzentuierung, Abbreviaturen und Ligaturen;
+                          </item>
+                          <item>
+                            <hi rend="italic">Normalisierte Orthographie</hi>: moderne Zeichensetzung, Worttrennung (fehlt in der Handschrift), Groß- und Kleinschreibung nach modernen Normen.
+                          </item>
+                          <item>
+                            <hi rend="italic">Inhalte im Text</hi>: Zitate, Namen, Orte, Völker u. a. </item>
+                          </list>
+                          <p>Die Webdarstellung wird auf der Basis von XSLT erstellt. Für jede Ansicht wird einzeln modelliert, wie die einzelnen Blöcke der Tags transformiert werden sollen. So ist beispielsweise für das Layout der diplomatischen Edition der physische Zustand der Handschrift und die physische Struktur des Texts maßgebend, während für das Layout der historisch-kritischen Edition die logische Struktur des Texts entscheidend ist. Die endgültige Darstellung wird über Cascading Stylesheets (CSS) gestaltet. Es ist geplant, die Edition bis Mitte des Jahres 2016 online zu stellen.
+                            <pb/>
+                          </p>
+                          <figure>
+                            <graphic n="1001" width="16.002cm" height="14.075833333333334cm" url="p066-image1.jpg" rend="inline"/>
+                            <p><hi rend="bold">Abb. 1</hi>: Der Prozess der graphischen Rekonstruktion des
+                            Palimpsests</p>
+                          </figure>
+                          <figure>
+                            <graphic n="1002" width="16.002cm" height="10.472208333333333cm" url="p066-image2.jpg" rend="inline"/>
+                            <p><hi rend="bold">Abb. 2</hi>: Die topographische Edition</p>
+                          </figure>
+                          <figure>
+                            <graphic n="1003" width="16.002cm" height="7.782277777777778cm" url="p066-image3.jpg" rend="inline"/>
+                            <p><hi rend="bold">Abb. 3</hi>: Die diplomatische Edition</p>
+                          </figure>
+                          <figure>
+                            <graphic n="1004" width="16.002cm" height="7.5776666666666666cm" url="p066-image4.jpg" rend="inline"/>
+                            <p><hi rend="bold">Abb. 4</hi>: Die historisch-kritische Edition</p>
+                          </figure>
+                        </body>
+                      </text>
+                    </TEI>

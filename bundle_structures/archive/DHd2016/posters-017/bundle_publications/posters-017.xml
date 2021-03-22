@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-017">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>: aichinger</title>
+        <author>
+          <name>
+            <surname>Mueller</surname>
+            <forename>Mathias</forename>
+          </name>
+          <affiliation>ÖAW, Österreich</affiliation>
+          <email>mathiasmueller@aon.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Dittrich</surname>
+            <forename>Andreas</forename>
+          </name>
+          <affiliation>ÖAW, Österreich</affiliation>
+          <email>dittricha@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Waltl</surname>
+            <forename>Gilbert</forename>
+          </name>
+          <affiliation>ÖAW, Österreich</affiliation>
+          <email>Gilbert_Waltl@gmx.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Csillag</surname>
+            <forename>Marlene</forename>
+          </name>
+          <affiliation>ÖAW, Österreich</affiliation>
+          <email>marlene@software-multimedia.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Godler</surname>
+            <forename>Katharina</forename>
+          </name>
+          <affiliation>ÖAW, Österreich</affiliation>
+          <email>katharina.godler@oeaw.ac.at</email>
+        </author>
+        <author>
+          <name>
+            <surname>Ivanovic</surname>
+            <forename>Christine</forename>
+          </name>
+          <affiliation>ÖAW, Österreich</affiliation>
+          <email>christine.ivanovic@univie.ac.at</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Raumbezüge</term>
+          <term>Textkorpus</term>
+          <term>Ortsannotationen</term>
+          <term>Wientopographie</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Datenerkennung</term>
+          <term>Bilderfassung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Visualisierung</term>
+          <term>Karte</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Ziel: Erfassung und Analyse literarischer Topographien</head>
+        <p>Der Fokus der Untersuchung liegt auf der literarischen Repräsentation von Raum.
+          Bisherige Untersuchungen ihres Werks haben erwiesen, dass Aichingers Bezugnahmen
+          auf Orte und Ereignisse in Wien zentrale Bedeutung zukommt (Fässler 2013). Dabei
+          fällt auf, dass Aichinger Raumbezüge in verschiedenen Phasen ihres Werks auf
+          ganz unterschiedliche Weise elaboriert: Der Wienbezug ihres ersten Romans, <hi
+          rend="italic">Die größere Hoffnung</hi> (1948), ist für den Leser / die
+          Leserin unzweifelhaft erkennbar, obwohl Aichinger konsequent auf die Nennung
+          identifizierbarer Ortsnamen verzichtet. Im mittleren Werk werden Ortsbezüge
+          zunehmend abstrakt; in ihren spätesten Texten hingegen häufen sich exakte
+          Ortsangaben im Stadtraum Wien. Ziel des Projekts ist es, grundlegende Strukturen
+          in Aichingers Referenzierung auf Orte zu ermitteln und deren Zusammenhang zur
+          historischen Erfahrung herauszuarbeiten, deren Darstellung im Zentrum ihres
+          Werks steht. Zu diesem Zweck sollen alle Angaben zu Ort, Zeit und Person in
+          ihren Texten so codiert werden, dass sie einer maschinellen Abfrage zugänglich
+          und damit sowohl systematisch als auch vollständig evaluiert werden können.</p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Arbeitsschritte</head>
+          <div type="div2" rend="DH-Heading2">
+            <head>Digitale Texterfassung</head>
+            <p>Textgrundlage ist die achtbändige Ausgabe der Werke Ilse Aichingers (S.
+              Fischer Verlag 1991) sowie die danach erschienenen Einzelbände. Diese Bände
+              wurden gescannt und mittels OCR (Optical Character Recognition) erfasst und
+              dadurch maschinenlesbar gemacht. Als Vergleichskorpora sollen zusätzlich die
+              davon abweichenden Textfassungen der Erstausgabe des Romans sowie der
+              zwischen 2000 und 2004 in Tageszeitungen publizierten Texte erfasst
+              werden.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+              <head>Digitale Texterschließung</head>
+              <p>Im zweiten Arbeitsschritt wird eine TEI-konforme Datei erstellt, in der die
+                Texte mithilfe von Standards wie RDF (Resource Description Framework), XML
+                (Extensible Markup Language) und PoS (Part-of-Speech-Tagging) codiert und
+                dadurch der maschinellen Abfrage durch Abfragesprachen wie SPARQL (SPARQL
+                Protocol And RDF Query Language) zugänglich gemacht werden. Im Hinblick auf
+                den primären Fokus der Untersuchung, die Erfassung und Analyse der
+                literarischen Topographien Aichingers, werden vorrangig Personennamen sowie
+                Orts- und Zeitangaben kodiert. Außerdem ist eine Analyse anhand semantischer
+                Felder geplant, wofür eine Vernetzung mit unterschiedlichen Datenbanken (z.
+                B. Dornseiff) vorgesehen ist. Von vornherein soll so gearbeitet werden, dass
+                die Möglichkeit weitere bzw. speziellere Codierungen zu ergänzen offen
+                bleibt.</p>
+              </div>
+              <div type="div2" rend="DH-Heading2">
+                <head>Erhebung und Einpflege zusätzlicher Daten / Metadaten</head>
+                <p>Ergänzend zur digitalen Erfassung und Erschließung der Texte werden weitere
+                  Metadaten eingebracht. Dies können textgenetisch relevante Daten sein wie
+                  Entstehungs- und Publikationsdaten, oder Sacherläuterungen, wie sie in
+                  Apparaten wissenschaftlicher Editionen oder Kommentaren üblich sind, sowie
+                  Hinweise auf Varianten, Querverweise, Illustrationen etc. Ein Teil dieser
+                  Daten ist durch Recherchen in Wiener Archiven oder am Aichinger-Vorlass im
+                  Deutschen Literaturarchiv (DLA) in Marbach zu erheben. Die Auszeichnung
+                  durch RDF ermöglicht aber auch die Verlinkung mit online Datenbanken und
+                  damit den Anschluss an das semantic web (Hitzler et al. 2008; Ivanovic /
+                  Frank 2015). </p>
+                </div>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>Darstellung der Ergebnisse</head>
+                <p>Das Textkorpus :aichinger soll die Basis bilden für die Durchführung von Abfragen
+                  und Analysen, die eine präzise, systematische und vollständige Evaluierung der
+                  Raumbezugnahmen im Gesamtwerk der Autorin ermöglichen soll. Erfassbar werden
+                  dadurch beispielsweise Personenkonstellationen in Verbindung mit Orten sowie
+                  Frequenzen der Nennung bestimmter Orte resp. Wege in Korrelation zur
+                  beschriebenen Zeit wie zur Zeit der Textabfassung. Diese Ergebnisse verlangen
+                  unterschiedliche Darstellungsformen. So sind Diagramme möglich, oder Wordclouds,
+                  die wiederum Häufungen oder Übereinstimmungen bzw. Korrelationen darstellen
+                  können. Auf der Basis der RDF Codierung lassen sich z. B. maschinell Karten
+                  generieren, in denen die erwähnten Orte oder Wege der in den Texten genannten
+                  Figuren u. a. aufscheinen. Die kartographische Darstellung ermöglicht es darüber
+                  hinaus Leerstellen ihres Werkes (nie genannte Orte oder Zonen) oder verdeckte
+                  Strukturen (die Wientopographie, die der für Aichinger maßgebliche Film Der
+                  Dritte Mann darstellt) sichtbar zu machen. Insbesondere anhand solcher Karten
+                  wird das Poster das Konzept und die Analysemöglichkeiten unseres Projektes
+                  darstellen.</p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Prototyp</head>
+                  <p>Das Projekt dient der Sichtbarmachung und besseren Analyse der raumrelevanten Strukturen im Werk Aichingers und deren Relevanz für die erinnerungskulturell motivierte Schreibweise, der die Autorin verpflichtet ist. Das Projekt hat insofern paradigmatischen Charakter, als die an diesem Beispiel entwickelten Methoden den Status eines Prototyps haben und auch bei der Analyse anderer Textkorpora Anwendung finden sollen.</p>
+                </div>
+              </body>
+              <back>
+                <div type="bibliogr">
+                  <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                      <hi rend="bold">Aichinger, Ilse</hi> (1991): <hi rend="italic">Werke in acht
+                      Bänden</hi>. Herausgegeben von Richard Reichensperger (Die größere
+                      Hoffnung / Der Gefesselte / Eliza Eliza / Schlechte Wörter / Kleist, Moos,
+                      Fasane / Auckland / Zu keiner Stunde / Verschenkter Rat). Frankfurt / Main:
+                      S. Fischer. </bibl>
+                      <bibl><hi rend="bold">Fässler, Simone</hi> (2011): <hi rend="italic">Von Wien
+                      her, auf Wien hin</hi>. Ilse Aichingers „Geographie der eigenen
+                      Existenz.“ Wien: Böhlau.</bibl>
+                      <bibl>
+                        <hi rend="bold">Hitzler, Pascal</hi> / <hi rend="bold">Krötzsch, Markus</hi>
+                        / <hi rend="bold">Rudolph, Sebastian</hi> (2008): <hi rend="italic">Semantic
+                        Web</hi>. Berlin / Heidelberg: Springer. </bibl>
+                        <bibl>
+                          <hi rend="bold">Ivanovic, Christine</hi> / <hi rend="bold">Frank,
+                          Andrew</hi> (2015): „Auf der Suche nach dem erfüllten Raum: Digitale
+                          Korpusanalyse in der Literaturwissenschaft am Beispiel Ilse Aichinger“, in:
+                          <hi rend="italic">Tagung der Digital Humanities im deutschsprachigen
+                            Raum</hi>, Graz. </bibl>
+                          </listBibl>
+                        </div>
+                      </back>
+                    </text>
+                  </TEI>

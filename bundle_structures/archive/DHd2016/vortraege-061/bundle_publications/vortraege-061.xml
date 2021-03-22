@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-061">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ein Mehrebenen-Tagging-Modell für die Annotation altäthiopischer Texte</title>
+        <author>
+          <name>
+            <surname>Vertan</surname>
+            <forename>Cristina</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>cristina.vertan@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Ellwardt</surname>
+            <forename>Andreas</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>andreas.ellwardt@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Hummerl</surname>
+            <forename>Susanne</forename>
+          </name>
+          <affiliation>Universität Hamburg, Deutschland</affiliation>
+          <email>sanne.hummel@gmx.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>semitische Sprachen</term>
+          <term>lingustische Annotation</term>
+          <term>tagging</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Datenerkennung</term>
+          <term>Entdeckung</term>
+          <term>Sammlung</term>
+          <term>Programmierung</term>
+          <term>Inhaltsanalyse</term>
+          <term>Strukturanalyse</term>
+          <term>Annotieren</term>
+          <term>Bearbeitung</term>
+          <term>Stilistische Analyse</term>
+          <term>Konservierung</term>
+          <term>Visualisierung</term>
+          <term>Computer</term>
+          <term>Sprache</term>
+          <term>Manuskript</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Kurze Darstellung des Altäthiopischen (Geʿez)</head>
+        <p>Das südsemitische Geʿez ist die Sprache des Königreichs Aksum in der heutigen
+          nordäthiopischen Provinz Tigray, von wo aus die im 4. Jahrhundert beginnende
+          Christianisierung Äthiopiens ihren Anfang nahm. Die in der Folge entstehende
+          reiche Literatur ist in großem Umfang geprägt von Übersetzungen aus dem
+          Griechischen und später, ab dem 13. Jahrhundert, aus dem Arabischen, was durch
+          grammatische Interferenzphänomene reflektiert wird. Während seine Verdrängung
+          als gesprochene Sprache bereits im 9./10. Jahrhundert beginnt, bleibt es als
+          Schriftsprache sehr viel länger erhalten und ist bis in die Gegenwart hinein
+          Liturgiesprache des äthiopischen und eriträischen Klerus. Das Altäthiopische hat
+          aus einer südsemitischen Schrift ein eigenes Silbenalphabet entwickelt, das bis
+          heute in mehreren modernen Sprachen Äthiopiens und Eritreas Verwendung findet.
+          Innerhalb der semitischen Sprachen fällt es durch die verwendete
+          Rechtsläufigkeit auf; außerdem werden die Vokale vollständig geschrieben. Beides
+          unterscheidet das Geʿez von verwandten Sprachen wie Altsüdarabisch, Arabisch,
+          Hebräisch und Syro-Aramäisch. Des weiteren sind Grapheme, die ursprünglich
+          distinkten Phonemen zugeordnet waren, schon früh in identischer phonetischer
+          Realisierung zusammengefallen, was sich konkret bereits in den ältesten
+          überlieferten Handschriftzeugnissen (aber noch nicht in den aksumitischen
+          Inschriften) niederschlägt, wo eine beliebige Austauschbarkeit der Laryngale und
+          Sibilanten jeweils untereinander zu konstatieren ist. Mit den genannten eng
+          verwandten semitischen Sprachen teilt das Altäthiopische die nichtkonkatenative
+          Morphologie. Hierbei muss das einzelne Lexem als Kombination von zwei Elementen
+          beschrieben werden, nämlich der Wurzel und dem Schema: Die konsonantische Wurzel
+          gibt veränderliche Positionen zwischen ihren, zumeist drei, Wurzelkonsonanten
+          vor, die durch die Vokale des Schemas aufgefüllt werden, häufig, jedoch nicht
+          zwingend, ergänzt um (vokalische oder konsonantische) Affixe. Das äthiopische
+          Silbenalphabet bringt dabei mit sich, dass Morphemgrenzen in der Schrift nicht
+          darstellbar sind, sodass beispielsweise ein einzelner Vokal als Bestandteil
+          einer Silbe eine eigenständige Wortart darstellen kann und tokenisiert werden
+          muss; z. B. ist im zweisilbigen Wort <hi rend="Ethiopic">ቤቱ፡</hi> /be·tu/ das /u/ als pronominales Suffix
+          zu bet- <hi rend="italic">u</hi> ( <hi rend="italic">sein </hi>Haus) zu
+          segmentieren. </p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Ein Tagest für die morphologische Annotation des Geʿez </head>
+          <p>Zur Analyse morphologischer Merkmale des Altäthiopischen wurde erstmals ein feingliedriges Tagset von 30 Wortarten entwickelt. Wir unterscheiden vier Klassen von Wortarten: Nomina, Verben, Existentiale, Partikel. Diese Klassen untergliedern sich weiter in die folgenden Wortarten:</p>
+          <list type="unordered">
+            <item>Nomina: Nomen (Eigennamen und Substantive), Pronomen (mit 10 Wortarten) und Zahlen (Kardinal- und Ordinalzahlen)</item>
+            <item>Verben</item>
+            <item>Existentiale (affirmativ und negativ)</item>
+            <item>Partikel (14 Wortarten, z. B. Konjunktionen, Präpositionen,
+              Adverbien)</item>
+            </list>
+            <p>Den Wortarten wurden entsprechende grammatische Kategorien zugewiesen (Genus,
+              Numerus, Kasus, Person usw.). Ein Sonderfall ist die Bestimmung des Genus für
+              das Nomen. Hier ist das Altäthiopische häufig uneindeutig sowohl in der
+              morphologischen Markierung, als auch in der syntaktischen Kongruenz. Bei
+              eindeutiger Kennzeichnung des grammatischen Genus wird daher weiter dahingehend
+              spezifiziert, wodurch das jeweilige Genus bestimmt ist: durch das morphologische
+              Schema, durch die Syntax und/oder aufgrund des natürlichen Geschlechts (z. B.
+              Mutter). Daher kann ein Nomen im selben Satz im Genus mehrfach bestimmt sein (z.
+              B. syntaktisch maskulin und dem Schema nach feminin). Ist das grammatische Genus
+              nicht eindeutig zu bestimmen, wird es als „unmarkiert“ annotiert. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>Das Annotationstool </head>
+              <p>Die Komplexität des in Sektion 2 dargestellten Annotationstools wird zwar zum
+                einen sehr vielfältige linguistische Anfragen und eine detaillierte Analyse der
+                Sprache ermöglichen, andererseits jedoch verhindert ebendiese Komplexität eine
+                automatische Annotation. Ein Vectorspace-Modell (das für maschinelle
+                Lernverfahren benutzt werden muss) das alle morphologischen Merkmale abdecken
+                würde, wäre zu groß. Vorstellbar ist lediglich eine flache automatische
+                Annotation (z. B. der Wortarten); jedoch wird auch für eine solche zunächst eine
+                relativ große Menge an Trainingsdaten benötigt. Daher ist die Entwicklung eines
+                Werkzeugs für die manuelle Annotation ein obligatorischer Schritt.</p>
+                <p>Das eigens für das Altäthiopische entwickelte Annotationstool berücksichtigt die spezifischen Besonderheiten der Sprache, von denen einige oben in Sektion 1 kurz skizziert wurden. Aufgrund der dargestellten Eigenheiten sowohl des Silbenalphabets als auch der semitischen Morphologie kann der Text nicht unmittelbar in der Originalschrift annotiert werden. Eine Annotation kann daher ausschließlich in der Transliteration erfolgen (siehe obiges Beispiel
+                  <hi rend="italic">bet-u</hi>).
+                </p>
+                <p>Die Transliteration wiederum ist nur bedingt durch automatische Regeln
+                  beschreibbar. Phänomena wie Konsonantenverdoppelung oder Kontraktion von zwei
+                  Silben können nicht durch klare Regeln beschrieben werden. Einige solcher
+                  Phänomena ließen sich zwar mittels weiterer Ressourcen automatisch regeln (z. B.
+                  Konsonantenverdoppelung bei bestimmten Verbklassen), jedoch müssten derartige
+                  Informationen aus einem (bisher noch nicht vorhandenen) digitalen Lexikon
+                  extrahiert werden. Auch über die genannten Schwierigkeiten hinaus wäre die
+                  Entwicklung einer (semi-)automatischen Transliteration ein äußerst
+                  zeitaufwendiger Prozess. Daher haben wir uns für die folgenden Arbeitsschritte
+                  entschieden:</p>
+                  <list type="unordered">
+                    <item> Die Texte werden mittels eines automatischen regelbasierten Prozesses transkribiert.</item>
+                    <item> Die Transkription wird manuell korrigiert (entspricht der Transliteration des Textes) </item>
+                  </list>
+                  <p>Aus den oben genannten Gründen ist der in der Arbeit mit anderen Sprachen gängige
+                    Arbeitsablauf – zuerst Textkorrektur, dann Annotation – hier nicht möglich. Ein
+                    solcher ist jedoch bei bereits existierenden Tools Bedingung, wenn eine
+                    Mehrebenen-Annotation angestrebt wird. Das <ref
+                    target="https://aclweb.org/anthology/W/W14/W14-0612.pdf">CorA-Tool</ref>
+                    (vg. Bollmann et al.) ermöglicht zwar Korrekturen synchron mit der Annotation,
+                    jedoch sind nicht mehr als zwei Annotationsebenen möglich; auch eine
+                    Mehrwortannotation ist nicht erlaubt. Für die Annotation muss ein XML-Schema des
+                    Tagsets vorliegen und es werden alle möglichen Kombinationen von morphologischen
+                    Merkmalen je Wortart generiert. Da sämtliche Kombinationsmöglichkeiten dem
+                    Benutzer in Form einer Dropdown-Liste präsentiert werden, ist das Tool in der
+                    Anwendung mit dem sehr umfangreichen Tagset für das Altäthiopische ungeeignet.
+                    Ein anderes Tool, das relativ häufig angewendet wird, ist <ref target="https://www.ukp.tu-darmstadt.de/software/webanno/">WebAnno</ref>.
+                    Dieses Tool ermöglicht eine Annotation mit mehr als zwei Ebenen, jedoch sind
+                    Korrekturen im Text während der Annotation nicht möglich. </p>
+                    <p>Im TraCES Projekt implementieren wir eine neuartige Architektur, die sowohl Änderungen im Text als auch eine Mehrebenen-Annotation ermöglicht.</p>
+                    <p>Wir betrachten als Grundtext den Originaltext in der altäthiopischen Schrift. Die Transliteration bildet die erste und die morphologische Annotation die zweite Ebene, wobei die Transliteration und der Originaltext bei allen Arbeitsschritten synchronisiert bleiben. Im folgenden Abschnitt beschreiben wir das Datenmodell, das diese Architektur ermöglicht.</p>
+                    <p>Die Basiseinheit in unserem System ist ein Wort, das eine einmalige ID zugewiesen erhält. Ein Wort hat folgende Komponenten:</p>
+                    <list type="unordered">
+                      <item>Eine Liste der einzelnen Fidal
+                        <ref type="note" target="n01" n="1">1</ref>-Objekte, wo ein Fidal-Objekt aus einer ID und einem Label (dem Fidal-Buchstaben) besteht.
+                      </item>
+                      <item>Eine Liste einzelner Silben-Objekte, wo ein Silben-Objekt aus einer ID und einer Liste von einzelnen Buchstaben-Objekten besteht</item>
+                      <item>Ein Buchstaben-Objekt hat immer eine ID und ein Label (das graphische Symbol)</item>
+                    </list>
+                    <p>Die Zusammengehörigkeit aller Komponenten wird durch die ID-Zusammensetzung gesichert:</p>
+                    <p>Eine Wort ID ist aus vier Komponenten zusammengesetzt</p>
+                    <quote>Projekt ID + Dokument ID + W + automatisch generierte Random ID</quote>
+                    <p>Ein Fidal-Buchstaben-Objekt wird dann durch</p>
+                    <quote>Wort ID + F + Random-Nummer</quote>
+                    <p>identifiziert, während ein Transliterationssilben-Objekt:</p>
+                    <quote>Wort ID + TF + Random-Nummer</quote>
+                    <p>als ID hat.</p>
+                    <p>Ein Transliterationsbuchstabe wird durch:</p>
+                    <quote>Wort ID + Transliterationssilben ID + L + Random-Nummer</quote>
+                    <p>identifiziert.</p>
+                    <p>Durch dieses System ist es zu jeder Zeit möglich, jeden einzelnen Buchstaben zu identifizieren und zu referenzieren. Da wir jeden Buchstaben als Objekt betrachten, trennen wir die graphische Realisierung von der linguistischen Annotation; so sind etwa die Annotation und die graphische Repräsentation eines Buchstabens in der Transliteration Labels für ein und dasselbe Objekt.</p>
+                    <p>In der Abbildung 1 wird dieses Modell für die Wortgruppe <hi rend="Ethiopic">ወእምኵሉሰ</hi>„
+                      <hi rend="italic">und vor allem nämlich</hi>“ (eigentlich <hi rend="Ethiopic">ወ</hi> - <hi rend="Ethiopic">እም</hi> - <hi rend="Ethiopic">ኵሉ</hi> - <hi rend="Ethiopic">ሰ</hi>, aber graphisch quasi ein „Wort“) dargestellt:
+                    </p>
+                    <figure>
+                      <graphic n="1001" width="15.437555555555555cm" height="11.578166666666666cm" url="061-image1.jpeg" rend="inline"/>
+                      <p><hi rend="bold">Abb. 1</hi>: Annotations-Modell für <hi rend="Ethiopic">ወእምኵሉሰ</hi></p>
+                    </figure>
+                  </div>
+                  <div type="div1" rend="DH-Heading1">
+                    <head>Zusammenfassung</head>
+                    <p>In diesem Artikel beschreiben wir ein neuartiges Modell für ein Annotationstool, das sowohl eine Annotation mit gleichzeitiger Korrektur, als auch eine Mehrebenen-Annotation ermöglicht. Wir begründen, warum die Entwicklung eines speziellen Modells für die Annotation des Altäthiopischen notwendig war. Möglicherweise könnte das Modell mit wenigen Änderungen auch für andere Sprachen benutzt werden. Eine Demonstration des ersten Prototyps wird auch möglich sein.</p>
+                    <p rend="DH-BibliographyHeading"><hi rend="bold">Acknowledgements</hi></p>
+                    <p>Das Projekt TraCES wird durch einen Grant der European Science Foundation unterstützt (Grant Agreement 338756).</p>
+                    <p>Die in diesem Artikel beschriebenen Ergebnisse sind das Resultat der Arbeit des
+                      gesamten TraCES-Teams: Alessandro Bausi (Projektleiter), Wolfgang Dickhut, Daria
+                      Elagina, Andreas Ellwardt, Susanne Hummel, Vitagrazia Pissani, Eugenia
+                      Sokolinski, Cristina Vertan.</p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+                      <note xml:id="n01" n="1">„Fidal“ ist der Terminus technicus für das äthiopische Silbenalphabet.</note>
+                    </div>
+                    <div type="bibliogr">
+                      <listBibl>
+                        <head>Bibliographie</head>
+                        <bibl><hi rend="bold">Bollmann, Marcel / Petran, Florian / Dipper, Stefanie /
+                          Krasselt, Julia</hi> (2014): "CorA: A web-based annotation tool for
+                          historical and other non-standard language data", in: <hi rend="italic"
+                          >Proceedings of the 8th Workshop on Language Technology for Cultural
+                          Heritage, Social Sciences, and Humanities</hi>, Gothenburg, Sweden 86-90
+                          <ref target="https://aclweb.org/anthology/W/W14/W14-0612.pdf"
+                            >https://aclweb.org/anthology/W/W14/W14-0612.pdf</ref> [letzter Zugriff
+                            30. Dezember 2015].</bibl>
+                            <bibl><hi rend="bold"> Castilho, Richard Eckart de / Biemann, Chris / Gurevych,
+                              Iryna / Yimam, Seid Muhie</hi> (2014): "WebAnno: a flexible, web-based
+                              annotation tool for CLARIN", in: <hi rend="italic">Proceedings of the CLARIN
+                              Annual Conference (CAC) 2014</hi>, Soesterberg, Netherlands <ref
+                              target="http://www.clarin.eu/sites/default/files/cac2014_submission_6_0.pdf"
+                              >http://www.clarin.eu/sites/default/files/cac2014_submission_6_0.pdf</ref>
+                              [letzter Zugriff 10. Februar 2016].</bibl>
+                              <bibl><hi rend="bold">Marquez, Lluis / Rodriguez, Horacio / Carmona, Josep /
+                                Montolio, Josep</hi> (1999): "Improving POS Tagging Using
+                                Machine-Learning Techniques", in: <hi rend="italic">Proceedings of the 1999
+                                Joint SIGDAT conference on Empirical Methods in Natural Language
+                                Processing and very large corpora</hi> 53-62 <ref
+                                target="http://www.aclweb.org/anthology/W99-0608"
+                                >http://www.aclweb.org/anthology/W99-0608</ref> [letzter Zugriff 30.
+                                Dezember 2015].</bibl>
+                              </listBibl>
+                            </div>
+                          </back>
+                        </text>
+                      </TEI>

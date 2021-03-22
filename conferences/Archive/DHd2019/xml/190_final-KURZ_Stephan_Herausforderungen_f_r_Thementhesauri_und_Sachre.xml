@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="190_final-KURZ_Stephan_Herausforderungen_f_r_Thementhesauri_und_Sachre" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Herausforderungen für Thementhesauri und Sachregister-Vokabularien zur Erschließung im Kontext des digitalen Editionsprojekts Cisleithanische Ministerratsprotokolle</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Kurz</surname>
+                        <forename>Stephan</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>stephan.kurz@oeaw.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Zaytseva</surname>
+                        <forename>Ksenia</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>ksenia.zaytseva@oeaw.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-12T17:47:47.180077820</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Edition</term>
+                    <term>Auxiliardaten</term>
+                    <term>Linked Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Entdeckung</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>benannte Entitäten (named entities)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung</head>
+                <p>Gegenstand des umliegenden Projekts ist die Umstellung eines Langzeitvorhabens der Österreichischen Akademie der Wissenschaften (ÖAW) auf eine XML-basierte digitale Edition nach den Maßgaben der Vorschläge der Text Encoding Initiative 
+                (TEI).<ref target="ftn1" n="1"/> Der Ministerrat war das zentrale Organ der Regierungstätigkeit in der Habsburgermonarchie beziehungsweise (nach 1867) in 
+                Österreich-Ungarn.<ref target="ftn2" n="2"/> Seine Sitzungsprotokolle präsentieren alle Facetten staatlichen Lebens, von Fragen der Struktur und der Organisation des Staates bis zu gesellschaftlichen, wirtschaftlichen und technischen Entwicklungen sowie kulturellen und sozialen Problemen. Die Edition der Ministerratsprotokolle, die seit den 1970er Jahren unter wechselnder editorischer Verantwortung erscheint und in der ersten Serie 28 gedruckte Bände mit rund 18000 Druckseiten vorzuweisen hat, wird aktuell am Institut für Neuzeit- und Zeitgeschichtsforschung der ÖAW auf ein TEI-basiertes Editionsverfahren umgestellt, das die zu edierenden Bände in einer Print- und einer Online-Komponente aus einer Quelle 
+                speist.<ref target="ftn3" n="3"/>
+                </p>
+                <p>Die wissenschaftliche Edition der Ministerratsprotokolle zeichnet sich aus durch: </p>
+                <list type="unordered">
+                    <item>den Umfang der zu edierenden Quellen
+                        <list type="unordered">
+                            <item>die große abzudeckende Zeitspanne von 1848 bis 1867 für die retrodigitalisierte erste Serie; von 1867 bis 1918 für die digitale Edition; </item>
+                            <item>als Folge des umfassenden Zeitraums die Varianz etwa in den Schreibungen (mit Konsequenzen für die Textkritik, aber auch für die Arbeit mit Named Entities)</item>
+                        </list>
+                    </item>
+                    <item>die unterschiedliche Provenienz der Quellen
+                        <list type="unordered">
+                            <item>teilweise durch den Justizpalastbrand 1927 beschädigte Protokolle („Brandakten“)</item>
+                            <item>Ergänzungsmaterial aus verschiedenen Archivbeständen</item>
+                        </list>
+                    </item>
+                    <item>vielfältige interne und externe Bezüge
+                        <list type="unordered">
+                            <item>zwischen Tagesordnungspunkten und Sitzungen, aber auch z.B. bandübergreifend</item>
+                            <item>zwischen ediertem Text und wissenschaftlichem Kommentar</item>
+                            <item>zu den Registern und Verzeichnissen, ergänzt durch Normdaten und Linked (Open) Data</item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Scope der Posterdokumentation</head>
+                <p>Das Poster präsentiert vor dem Hintergrund des Gesamtworkflows für die TEI-Edition eine Schlüsselstelle auf dem Weg zu einer digitalen Edition, die den mit dem Begriff verbundenen Anforderungen gerecht werden soll – die „Registerdaten“: </p>
+                <list type="unordered">
+                    <item>Einerseits werden die Register der bereits edierten Bände rückerschlossen und ergänzt um neue Editionsdaten als Named Entities in einer relationalen Datenbank abgelegt, die das 
+                    APIS-Projekt<ref target="ftn4" n="4"/> als biographische, prosopographische und mit Start- und Enddaten versehene Entitäten modelliert;
+                    </item>
+                    <item>andererseits werden die Sachregister in Form eines Thementhesaurus modelliert, der Politikbereiche sowie die administrative Gliederung der Habsburgermonarchie berücksichtigt.</item>
+                </list>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Herausforderungen</head>
+                    <p>Prüfsteine bestehen betreffend die Modellierung und Erstellung von notwendigen Auxiliardaten, wie etwa Named Entities mit diachroner Varianz (Beispiel: Namensänderung durch Personenstands- oder Standesänderungen; Umgang mit Mehrsprachigkeit bei Ortsnamen, wenn sie Zuordnungsveränderungen unterliegen), vor allem aber die Komplexität von Sachregister-Vokabularien und ‑Thesauri.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Methoden und Werkzeuge</head>
+                    <p>Bei der Bearbeitung werden gängige Standards aus den Bereichen Semantic Web und Linked Open Data befolgt. Alle kontrollierten Vokabularien folgen dem Datenmodell von Simple Knowledge Organization System 
+                    (SKOS),<ref target="ftn5" n="5"/> um Wiederverwendbarkeit und Interoperabilität mit Daten in anderen Projekten zu gewährleisten. Die generierten Daten werden mit Dublin Core-Metadaten versehen und in ARCHE 
+                    (A Resource Centre for the HumanitiEs),<ref target="ftn6" n="6"/> dem geisteswissenschaftlichen Repositorium der Österreichischen Akademie der Wissenschaften, archiviert.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Linked-Data-Anbindung</head>
+                <p>Folgende Sets von Linked Open Data-Datensätzen werden, so vorhanden, zur Anreicherung der Ministerratsprotokolltexte verwendet:</p>
+                <list type="unordered">
+                    <item>Orte: GeoNames-IDs<ref target="ftn7" n="7"/>
+                    </item>
+                    <item>Normdaten für Personen, Körperschaften, Ministerkonferenzen und Veranstaltungen, Geografische Entitäten, aus der Gemeinsamen Normdatei 
+                    (GND)<ref target="ftn8" n="8"/>
+                    </item>
+                    <item>Sachregister: kontrollierte Vokabularien, nach Möglichkeit Anbindung an den GEneral Multilingual Environmental Thesaurus 
+                    (GEMET)<ref target="ftn9" n="9"/>
+                    </item>
+                    <item>Prosopographische und biographische Daten: APIS-Datensatz zum Österreichischen Biographischen Lexikon (ab 2019 unter CC-Lizenz).</item>
+                </list>
+                <p>Dokumentiert und im Poster zur Diskussion gestellt wird der zum Zeitpunkt der DHd 2019 aktuelle Stand der Arbeiten am Editionsprojekt, inklusive der bisherigen Recherchen zu parallel gelagerten Editionsprojekten 
+                (u.a.: Die Protokolle des Bayerischen Ministerrats 1945–1962 Online)<ref target="ftn10" n="10"/> und einer Einladung zur Nachnutzung der entstehenden Daten.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    <ptr target="https://www.tei-c.org/"/>. [XML: eXtended Markup Language]
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    Vgl. den Einleitungsband zur Serie 1, insbes. darin Rumpler, Helmut: Ministerrat und Ministerratsprotokolle 1848 bis 1867. Wien: ÖBV 1970, S. 11-108.
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    Zum aktuellen Stand bei der Edition vgl. 
+                    <ptr target="https://www.oeaw.ac.at/inz/forschungsbereiche/kulturelles-erbe/forschung/ministerratsprotokolle-habsburgermonarchie/"/>.
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    Vgl. 
+                    <ptr target="http://apis.acdh.oeaw.ac.at/"/>; APIS steht für Austrian Prosopographical Information System; das 2019 auslaufende Projekt wurde in Kooperation zwischen dem Austrian Centre for Digital Humanities (ACDH), dem Institut für Stadt- und Regionalforschung (ISR) und dem Institut für Neuzeit- und Zeitgeschichtsforschung (INZ) – alle an der Österreichischen Akademie der Wissenschaften – entwickelt und bildete in einem ersten Schritt prosopographische Daten aus dem Österreichischen Biographischen Lexikon (ÖBL) als Set von Relationen zwischen persons, places, institutions, events und works ab. Modelliert als relationale Datenbank, ermöglicht APIS die Darstellung der Entitäten und Relationen in mehreren Exportformaten, die Linked-Open-Data-fähig sind, darunter neben diversen Serialisierungen auch RDF und [TEI]-XML.
+                </note>
+                <note xml:id="ftn5" n="5" rend="footnote text">
+                    Vgl. Miles/Bechhofer 2009.
+                </note>
+                <note xml:id="ftn6" n="6" rend="footnote text">
+                    <ptr target="https://www.oeaw.ac.at/acdh/tools/arche/"/>; das Repositorium wird betrieben von ÖAW-ACDH und dem Rechenzentrum der Österreichischen Akademie der Wissenschaften (ARZ) und basiert auf Fedora Commons.
+                </note>
+                <note xml:id="ftn7" n="7" rend="footnote text">
+                    Vgl. 
+                    <ptr target="https://www.geonames.org/"/>. Vorgesehen ist auch eine Verknüpfung mit einem weiteren am ÖAW-ACDH angesiedelten Projekt, das geografische Informationsdaten mit einer historischen Tiefendimension erweitert: HistoGIS, siehe 
+                    <ptr target="http://histogis.acdh.oeaw.ac.at/"/>. 
+                </note>
+                <note xml:id="ftn8" n="8" rend="footnote text">
+                    Die von vielen überregionalen Bibliotheksverbünden des deutschsprachigen Raums betriebene Datei (verwaltet von der Deutschen Nationalbibliothek, 
+                    <ptr target="http://portal.d-nb.info/"/>) bietet einerseits Ressourcen, andererseits ±eindeutige Identifikatoren zur Disambiguierung. Für den deutschsprachigen Raum des 19. Jahrhunderts sind in der Mehrzahl der Fälle auch für die zweite Reihe der administrativen Rangordnung bereits zumindest Rumpfdaten vorhanden, und auch das Virtual International Authority File (VIAF) der Library of Congress (ein Superset von GND) hätte diesen gegenüber keine Vorteile zu bieten. Eine Online-Abfrage bietet auch das Bibliotheksservicezentrum Baden-Württemberg, siehe 
+                    <ptr target="http://swb.bsz-bw.de/DB=2.104/"/>. 
+                </note>
+                <note xml:id="ftn9" n="9" rend="footnote text">
+                    Online-Zugang siehe 
+                    <ptr target="http://www.eionet.europa.eu/gemet"/>, Vorteile von GEMET sind die Verbreitung und die Verfügbarkeit (auch als SKOS/RDF).
+                </note>
+                <note xml:id="ftn10" n="10" rend="footnote text">
+                    Siehe 
+                    <ptr target="http://www.bayerischer-ministerrat.de/"/>.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Viele Herausgeber und Bearbeiter (1970–2015)</hi>: <hi rend="italic">Die Protokolle des österreichischen Ministerrates 1848–1867</hi>. Wien: mehrere Verlage. [https://hw.oeaw.ac.at/ministerrat/].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Viele HerausgeberInnen und BearbeiterInnen (1973–2018)</hi>: <hi rend="italic">Die Habsburgermonarchie 1848–1918</hi>, 12 Bände, Wien: Verlag der Österreichischen Akademie der Wissenschaften.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bernád, Ágoston Zénó / Gruber, Christine / Kaiser, Maximilian (2017)</hi>: <hi rend="italic">Europa baut auf Biographien</hi>. Wien: new academic press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fokkens, Antske / ter Braake, Serge / Ockeloen, Niels / Vossen, Piek / Legêne, Susan / Schreiber, Guus / de Boer, Victor (2017)</hi>: <hi rend="italic">„BiographyNet: Extracting Relations Between People and Events“</hi>, in: Europa baut auf Biographien, 193–223.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heath, Tom / Bizer, Christian (2011)</hi>: <hi rend="italic">Linked Data: Evolving the Web into a Global Data Space</hi> (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. San Rafael: Morgan &amp; Claypool
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Miles, Alistair / Bechhofer, Sean (eds.) (2009)</hi>: <hi rend="italic">SKOS Simple Knowledge Organization System</hi>, W3C Recommendation, 18 August 2009, <ptr target="http://www.w3.org/TR/skos-reference"/>.
+                    </bibl>
+                    <bibl>Eine ausführliche historiographische Literaturliste kann bei Bedarf zur Verfügung gestellt werden. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

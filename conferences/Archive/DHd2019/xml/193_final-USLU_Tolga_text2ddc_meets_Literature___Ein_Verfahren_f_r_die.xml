@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="193_final-USLU_Tolga_text2ddc_meets_Literature___Ein_Verfahren_f_r_die" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>text2ddc meets Literature - Ein Verfahren für die Analyse und Visualisierung thematischer Makrostrukturen</title>
+                <author>
+                    <persName>
+                        <surname>Mehler</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>Goethe University of Frankfurt, Deutschland</affiliation>
+                    <email>mehler@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Uslu</surname>
+                        <forename>Tolga</forename>
+                    </persName>
+                    <affiliation>Goethe University of Frankfurt, Deutschland</affiliation>
+                    <email>uslu@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gleim</surname>
+                        <forename>Rüdiger</forename>
+                    </persName>
+                    <affiliation>Goethe University of Frankfurt, Deutschland</affiliation>
+                    <email>gleim@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Baumartz</surname>
+                        <forename>Daniel</forename>
+                    </persName>
+                    <affiliation>Goethe University of Frankfurt, Deutschland</affiliation>
+                    <email>baumartz@stud.uni-frankfurt.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>topic</term>
+                    <term>visualization</term>
+                    <term>literature</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left;">In diesem Poster geht es um die thematische Analyse und Visualisierung literarischer Werke mithilfe automatisierter Klassifikationsalgorithmen. Hierfür wird ein bereits entwickelter Algorithmus namens text2ddc (Uslu et. al. 2018) verwendet, um die Themenverteilungen literarischer Werke zu identifizieren. Darüber hinaus thematisiert der Beitrag, wie diese Verteilungen von Themen und deren Abhängigkeiten untereinander visualisiert werden können.</p>
+            <p style="text-align:left;">Bei text2ddc handelt es sich um einen Klassifikator auf Basis neuronaler Netze, der Texte einer bestimmten Anzahl von Sprachen nach der Dewey-Dezimalklassifikation (DDC) kategorisiert. Die DDC ist ein internationaler Standard für die Themenklassifikation im Bereich von (digitalen) Bibliotheken. Um text2ddc zu trainieren, wurde die Wikipedia verwendet. Da viele Artikel der Wikipedia mit der Gemeinsamen Normdatei (GND) verlinkt sind und die GND Informationen zu den entsprechenden DDC-Kategorien hinterlegt, war es möglich, ein vergleichsweise großes und zugleich breites DDC-orientiertes Trainingskorpora für das Deutsche aufzubauen. Am Beispiel dieses Korpus erreicht unser Algorithmus einen F-Score von 87,4%. Da die Artikel der Wikipedia auch über Sprachgrenzen hinweg untereinander verlinkt sind, war es zudem möglich, text2ddc für über 40 Sprachen zu trainieren. </p>
+            <p style="text-align:left;">text2ddc wurde auf Korpora verschiedener Genres angewandt, um deren Themenverteilungen zu analysieren. Zum einen betrifft dies die Wikipedia selbst, aber auch Korpora basierend auf StadtWikis, anhand derer bestimmt wurde, welche Themen dominant sind und wie diese zusammenhängen. Ein drittes Beispiel betrifft literarische Texte bzw. historische Texte der Wissenschaft. Abbildung 1 zeigt etwa die Themenverteilung von 
+                <hi rend="italic">Die Geburt der Tragödie aus dem Geiste der Musik</hi> von Friedrich Nietzsche. In dieser Abbildung repräsentieren die Knoten die DDC-Kategorien, wobei die Knotenfarbe dazu dient, die jeweilige DDC-Hauptkategorie zu identifizieren. Kanten zwischen den Knoten repräsentieren den Zusammenhang der jeweiligen Themen. Hierfür wurde die semantische Ähnlichkeit von Sektionen, Paragraphen und Sätzen ausgewertet. Ein alternatives Beispiel bildet 
+                <hi rend="italic" xml:space="preserve">Massenpsychologie und Ich-Analyse </hi>von Sigmund Freud (siehe Abbildung 2). Die Beispiele verdeutlichen nicht nur die erwarteten Unterschiede beider Werke, sondern zeigen zugleich makrostrukturelle thematische Zusammenhänge auf.
+            </p>
+            <p style="text-align:left;">Der zugrundeliegende Algorithmus basiert auf folgendem Prozedere: Zunächst wird der Inputtext in Sektionen untergliedert, wofür die jeweilige logische Dokumentstruktur ausgewertet wird. Anschließend werden verschiedene NLP-Methoden angewendet, um Informationen über Lemmata und 
+                <hi rend="italic">Named Entities</hi> zu gewinnen, was wiederum auf einer automatischen Disambiguierung basiert. Mittels dieser Methoden erreichen wir eine höhere Genauigkeit bei der Klassifikation mit text2ddc. Im nächsten Schritt werden die Sektionen unter Verwendung der DDC als Zielklassifikation kategorisiert. Je mehr Sektionen auf dasselbe DDC-Thema abgebildet werden, desto höher ist das Gewicht des entsprechenden Zielknotens und desto größer kann dieser dargestellt werden. Da bei dieser Vorgehensweise nicht auf Linkstrukturen zurückgegriffen werden kann, erfolgt die Induktion von Themenkanten nach der inhaltlichen Ähnlichkeit der den Themen zugeordneten Sektionen. Hierfür werden Texteinbettungsalgorithmen aus dem Bereich neuronaler Netze angewandt. 
+            </p>
+            <p style="text-align:left;">Das Poster untersucht anhand der Werke einer Reihe von deutschsprachigen Autoren (u.a. Karl Marx, Sigmund Freud, Franz Kafka, Friedrich Nietzsche, Thomas Mann und Martin Heidegger) die Möglichkeiten und Grenzen von Themenkarten zur Erfassung makrostruktureller Themenzusammenhänge von Texten, wie sie unser Algorithmus erfasst. Auf diese Weise soll eine Alternative zu den in den DH omnipräsenten 
+                <hi rend="italic">topic models</hi> aufgezeigt werden. Zu diesem Zweck experimentiert der Beitrag mit alternativen Visualisierungstechniken basierend auf interaktiven konzentrischen Netzwerken (PolyViz) und alternativ basierend auf klassischen Netzwerkdarstellungen. 
+            </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="6.990713888888889cm" url="193_final-bfa6252a607491f7a172f56bc500f6c5.png" rend="inline"/>
+                <head>
+                    <lb/><hi rend="bold" style="font-size:11pt">Abbildung 1:</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> Friedrich Nietzsche (Die Geburt der Tragödie aus dem Geiste der Musik):</hi>
+                </head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="10.010383333333333cm" url="193_final-dbc7bf22a2ad5320b533eb9868b550c6.png" rend="inline"/>
+                <head>
+                    <lb/><hi rend="bold" style="font-size:11pt">Abbildung 2:</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> Siegmund Freud (Massenpsychologie und Ich-Analyse).</hi>
+                </head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">T. Uslu, A. Mehler, A. Niekler, and W. Hemati (2018)</hi>: <hi rend="italic">“Towards a DDC-based Topic Network Model of Wikipedia”</hi>, in Proceedings of 2nd International Workshop on Modeling, Analysis, and Management of Social Networks and their Applications (SOCNET 2018), February 28, 2018, 2018.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">T. Uslu and A. Mehler (2018)</hi>: <hi rend="italic">“PolyViz: a Visualization System for a Special Kind of Multipartite Graphs”</hi>, in Proceedings of the IEEE VIS 2018.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">D. Baumartz, T. Uslu, and A. Mehler (2018)</hi>: <hi rend="italic">“LTV: Labeled Topic Vector”</hi>, in Proceedings of COLING 2018, the 27th International Conference on Computational Linguistics: System Demonstrations, August 20-26, Santa Fe, New Mexico, USA.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

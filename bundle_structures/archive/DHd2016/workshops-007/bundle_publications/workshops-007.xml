@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="workshops-007">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Visualisierungs-methoden und -instrumente für historische Quellenkorpora</title>
+        <author>
+          <name>
+            <surname>Schrade</surname>
+            <forename>Torsten</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften und der Literatur Mainz</affiliation>
+          <email>Torsten.Schrade@adwmainz.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Andreas</surname>
+            <forename>Kuczera</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften und der Literatur Mainz</affiliation>
+          <email>Andreas.Kuczera@adwmainz.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Thomas</surname>
+            <forename>Kollatz</forename>
+          </name>
+          <affiliation>Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte</affiliation>
+          <email>kol@steinheim-institut.org</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T23:52:57</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Workshops</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Annotation</term>
+          <term>Visualisierung</term>
+          <term>Tools</term>
+          <term>Libraries</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Entdeckung</term>
+          <term>Annotieren</term>
+          <term>Webentwicklung</term>
+          <term>Visualisierung</term>
+          <term>Daten</term>
+          <term>Methoden</term>
+          <term>Software</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Kurzbeschreibung</head>
+        <p>Im Verlauf der letzten 10 Jahre hat die Menge an digital verfügbaren,
+          fachwissenschaftlich annotierten Volltexten für die historische Forschung stark
+          zugenommen. Damit einher geht auch eine Veränderung sowohl der Nutzungsformen
+          digitaler Quellen als auch der Möglichkeiten der historischen Arbeitsweise.
+          Bestand um die Jahrtausendwende noch enger Kontakt zwischen Historiker_innen und
+          Quellen, nimmt dies mit zunehmender Digitalisierung perspektivisch ab. Hat der /
+          die Forscher_in früher die für seine Forschungsfragen relevanten Quellen in der
+          Regel alle mindestens einmal gelesen, scheint dies bei den heute
+          recherchierbaren Mengen an digitalen Quellen kaum noch möglich. Ein Hauptproblem
+          ergibt sich hier aus der Schnittstelle zwischen Forscher_innen und den im Netz
+          erreichbaren Quellendatenbanken. Die Suchinterfaces der Datenbanken sind oft für
+          die Nutzung durch Expert_innen des jeweiligen Materials optimiert. Dies ist auf
+          der einen Seite zu begrüßen, da sie den Fachwissenschaftler_innen damit besten
+          Zugriff auf das Material gewähren. Daneben sollten aber weitere
+          Zugriffsmöglichkeiten für übergreifende Text-Mining- oder Big-Data-Recherchen
+          bereitgestellt werden, mit denen verschiedene Quellenkorpora parallel im
+          Hinblick auf übergreifende Fragestellungen untersucht werden können.</p>
+          <p>Neben Such- bzw. sammlungsorientierten Zugriffen auf die Daten wird die Fähigkeit, mittels bestimmter Visualisierungsmethoden und -instrumente neue Zusammenhänge in den Daten zu erkennen und diese dann für die historische Analyse zu nutzen immer wichtiger. Insbesondere im Bereich der graphorientierten Visualisierungsmethoden ist im Moment ein regelrechter Boom an Softwarebibliotheken und Online-Tools zu beobachten. Auch in den einschlägigen Forschungsumgebungen bzw. Forschungsinfrastrukturen für die Geisteswissenschaften wie TextGrid und DARIAH werden zunehmend Visualisierungsinstrumente für annotierte Fachdaten eingebunden.</p>
+          <p>Im Workshop zweier Partnerinstitutionen aus dem DARIAH-DE Cluster
+            "Fachwissenschaftliche Annotationen" (Salomon Ludwig Steinheim-Institut für
+            deutsch-jüdische Geschichte / Akademie der Wissenschaften und der Literatur
+            Mainz, Digitale Akademie) soll es mit konkretem Praxisbezug um die Potentiale,
+            Methoden und Instrumente zur Visualisierung von historischen Fachdaten gehen.
+            Als Anwendungsbeispiel dienen die historischen Fachdatenrepositorien, die beide
+            Partner in den Workshop mit einbringen (bspw. <ref
+            target="http://steinheim-institut.de/cgi-bin/epidat">Epidat</ref> –
+            epigraphische Datenbank; die <ref target="http://www.inschriften.net/">Deutschen
+            Inschriften Online</ref>; die <ref target="http://www.regesta-imperii.de/"
+            >Regesta Imperii Online</ref>). </p>
+            <p>Visualisiert werden zunächst klassische Fragestellungen, wie beispielsweise die
+              nach bestimmten Familienbeziehungen, nach Orts- oder Zeitbezügen in den Daten.
+              Genutzt werden Instrumente wie beispielsweise die Graphdatenbank neo4j, das
+              Netzwerkvisualisierungsinstrument Gephi, aber auch JavaScript-Tools auf Basis
+              von <ref target="http://sigmajs.org/">sigma.js</ref>,
+              <ref target="http://www.graphdracula.net/">dracula</ref> oder auch <ref target="http://d3js.org/"> d3 </ref>. Der Workshop wird
+              schrittweise vorgehen. Ein grundlegendes Verständnis für TEI/XML, JSON, RDF
+              sowie JavaScript-Webtechnologien ist für die Teilnahme am Workshop hilfreich,
+              aber nicht zwingend. Nach einer allgemeinen Einführung in den Bereich des
+              fachwissenschaftlichen Annotierens wird es um praktische Beispiele gehen, die in
+              den Daten vorhandenen Annotationen für verschiedene Visualisierungsinstrumente
+              aufzubereiten und dann die jeweiligen Visualisierungen zu erzeugen. In kurzen
+              Impulsreferaten werden sich die Workshop-Teilnehmer_innen die gemeinsam
+              erarbeiteten Visualisierungen und die Instrumente, mit denen diese
+              Visualisierungen erzeugt worden sind, gegenseitig vorstellen. </p>
+              <p>Im Fazit soll der Workshop ein Bewusstsein und auch schon erste Fähigkeiten
+                entwickeln, sich mit Hilfe von Visualisierungsinstrumenten neue Sichten auf das
+                Quellenmaterial und somit neue Forschungsperspektiven zu eröffnen. Deutlich
+                werden wird aber auch, dass dieser Ansatz nicht automatisch zu einer
+                „Antwort-Maschine“ führt, die dem / der Wissenschaftler_in die interpretative
+                Arbeit abnimmt. Vielmehr können sich durch Visualisierungen neue
+                Interpretationsmöglichkeiten des Quellenmaterials bieten, die vorher einfach auf
+                Grund der Datenmasse nicht sichtbar gemacht werden konnten.</p>
+                <p>Weiterführende Literatur:</p>
+                <p>Kuczera, Andreas (2015): <hi rend="italic">Graphdatenbanken für Historiker</hi>.
+                Netzwerke in den Registern der Regesten Kaiser Friedrichs III. mit neo4j und
+                Gephi <ref target="http://mittelalter.hypotheses.org/5995">http://mittelalter.hypotheses.org/5995</ref>.
+              </p>
+              <p>Schrade, Torsten (2013): "Datenstrukturierung", in: Frietsch, Ute / Rogge, Jörg
+                (eds.): <hi rend="italic">Über die Praxis des kulturwissenschaftlichen
+                Arbeitens</hi>. Ein Handwörterbuch. Bielefeld: transcript 91–97.</p>
+              </div>
+              <div type="div1" rend="DH-Heading">
+                <head>Teilnehmerzahl</head>
+                <p>10 - 15 Personen</p>
+              </div>
+              <div type="div1" rend="DH-Heading">
+                <head>Benötigte Ausstattung</head>
+                <list type="unordered">
+                  <item>WLAN-Zugang</item>
+                  <item>Beamer</item>
+                  <item>Workshop-Teilnehmer sollten ihre eigenen Laptops mitbringen</item>
+                </list>
+              </div>
+            </body>
+          </text>
+        </TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="workshops-002">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wissenschaftliches Bloggen bei de.hypotheses.org</title>
+        <author>
+          <name>
+            <surname>König</surname>
+            <forename>Mareike</forename>
+          </name>
+          <affiliation>Deutsches Historisches Institut Paris, Frankreich</affiliation>
+          <email>mkoenig@dhi-paris.fr</email>
+        </author>
+        <author>
+          <name>
+            <surname>Baillot</surname>
+            <forename>Anne</forename>
+          </name>
+          <affiliation>Humboldt Universität Berlin</affiliation>
+          <email>anne.baillot@gmail.com</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-08T03:00:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Workshops</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Wissenschaftsblog</term>
+          <term>Blog</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <body>
+      <head>Einführung in das wissenschaftliche Bloggen</head>
+      <p>Wissenschaftliche Blogs haben ein hohes Potential für die schnelle Verbreitung
+        und Diskussion aktueller Forschungsinhalte. Als neue Form der
+        fachwissenschaftlichen Kommunikation nutzen Blogs die Möglichkeiten des
+        Internets und des Web 2.0 für eine direkte und interaktive Publikation. Als
+        öffentlich geführte wissenschaftliche Notizbücher eignen sich Blogs zur
+        selbstkritischen Reflexion des eigenen Forschungsprozesses wie auch zur
+        Dokumentation desselben. Nicht nur Nachwuchswissenschaftlerinnen und
+        Nachwuchswissenschaftlern bietet Bloggen die Möglichkeit, bereits in einem
+        frühen Stadium auf ihr Projekt aufmerksam zu machen, mit erfahrenen
+        Wissenschaftlerinnen und Wissenschaftlern in Austausch zu treten und sich zu
+        vernetzen. </p>
+        <p>Mit Wissenschaftsblogs entwickelt sich rasant ein neues Genre, das bislang nicht
+          im Methoden-Kanon und den bisherigen Reputationsmechanismen geistes- und
+          sozialwissenschaftlicher Disziplinen vorgesehen war. Was genau bedeutet Bloggen
+          für das akademische Schreiben und Publizieren? Wie verändert diese
+          Kommunikationsform den wissenschaftlichen Alltag? Mit <hi rend="italic"
+          >de.hypotheses.org</hi> wurde Anfang 2012 eine deutschsprachige Plattform
+          für geistes- und sozialwissenschaftliche Blogs geschaffen, in deren Umfeld
+          seither eine stetig wachsende deutschsprachige Community als Teil eines
+          europäischen Netzwerks entstanden ist. </p>
+          <p>In einer Einführung werden zunächst konzeptionelle und wissenschaftliche Aspekte des Bloggens generell thematisiert und einige
+            <hi rend="italic">best practice</hi> Beispiele aus dem Bereich der Geistes- und Sozialwissenschaften vorgestellt. Anschließend beginnt der praktische Workshop mit Schulungsblogs für alle Teilnehmerinnen und Teilnehmer auf der Blogplattform 
+            <ref target="http://de.hypotheses.org/">de.hypotheses.org</ref> (Wordpress). Während des Workshops werden außerdem Tipps für die Anfangsphase eines wissenschaftlichen Blogs gegeben sowie rechtliche Belange erörtert.
+          </p>
+          <p>Besondere technische Kenntnisse sind nicht notwendig. Die Teilnehmenden sollten ihre eigenen Laptops mitbringen.</p>
+          <head>Inhalte des Workshops</head>
+          <list type="unordered">
+            <item>Bloggen in den Geisteswissenschaftenfigurftsblog: Impressum, Über das Blog, Foto </item>
+            <item>Veröffentlichung erster Beiträge: Artikel und Seiten </item>
+            <item>Inhalte ordnen: Kategorien und Schlagworte, Kommentare verwalten</item>
+            <item>Erweiterte Konfigurationsmöglichkeiten</item>
+            <item>Veröffentlichung komplexer Inhalte (Einfügen verschiedener Objekte und Medien wie Videos) </item>
+          </list>
+        </body>
+      </text>
+    </TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="207_final-ULLRICH_Sabine_Weltkulturerbe_international_digital__Erweite" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weltkulturerbe international digital: Erweiterung der Wittgenstein Advanced Search Tools durch Semantisierung und neuronale maschinelle Übersetzung</title>
+                <author>
+                    <persName>
+                        <surname>Röhrer</surname>
+                        <forename>Ines</forename>
+                    </persName>
+                    <affiliation>LMU München, Deutschland</affiliation>
+                    <email>i.roehrer@campus.lmu.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ullrich</surname>
+                        <forename>Sabine</forename>
+                    </persName>
+                    <affiliation>LMU München, Deutschland</affiliation>
+                    <email>sabine.ullrich@campus.lmu.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hadersbeck</surname>
+                        <forename>Maximilian</forename>
+                    </persName>
+                    <affiliation>LMU München, Deutschland</affiliation>
+                    <email>maximilian@cis.uni-muenchen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-12T14:52:06.885571374</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Semantisierung</term>
+                    <term>neuronale maschinelle Übersetzung</term>
+                    <term>Suchmaschine</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Übersetzung</term>
+                    <term>Annotieren</term>
+                    <term>Daten</term>
+                    <term>Forschung</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Einleitung</head>
+            <p>Mit der Aufnahme des Nachlasses von Ludwig Wittgenstein ins Internationale UNESCO-Weltdokumentenregister im Jahr 2017, gewinnen die Forschung an den Werken des Philosophen, sowie die Texte selbst an großer Bedeutung (Trötzmüller 2017). Durch langjährige fachübergreifende Kooperation mit dem Wittgenstein Archiv der Universität Bergen (WAB) (Pichler 2010, 2014) kann das Centrum für Informations- und Sprachverarbeitung (CIS) der Ludwigs-Maximilians-Universität München einen umfassenden Zugang zum Nachlass Ludwig Wittgensteins anbieten. Der Zugang zum Nachlass wird mit einer Suchmaschine und integriertem Faksimile Reader über das Portal WiTTFind 
+            <ref target="http://wittfind.cis.uni-muenchen.de/">(http://wittfind.cis.uni-muenchen.de)</ref> ermöglicht. Zur Forschung an der textgenetischen Entwicklung des Prototraktatus wurde als neueste Applikation der Odyssee Reader entwickelt (Still 2018). Durch die intensive Zusammenarbeit mit den Philosophen konnte die Suchmaschine durch die Wittgenstein Advanced Search Tools (WAST) bereits umfangreich erweitert werden (Hadersbeck et al. 2012, 2014) und ermöglicht eine schnelle Suche von konkreten Textstellen im Nachlass, semantischen Ähnlichkeiten in den Themenbereichen Farbe (Krey 2014) und Musik (Röhrer 2017), einen Faksimile Reader (Lindinger 2015), sowie einen Geheimschrift-Übersetzer. Eine Übersicht inklusive der hier vorgestellten Erweiterungen ist in Abbildung 1 zu sehen.
+            </p>
+            <p>
+                <figure>
+                    <graphic url="207_final-1d87d58f20d7bc6c911a271a03e4fdbe.png"/>
+                    <head>
+                        <lb/>Abbildung 1. Übersicht der Wittgenstein Advanced Tools (WAST) in WiTTFind. Die grau hinterlegten Komponenten werden hier vorgestellt.
+                    </head>
+                </figure>
+            </p>
+            <head>Integration der Semantisierung</head>
+            <p>Auf unserem Poster sollen nun zwei neue Komponenten der WAST vorgestellt werden. Zum einen wird das seit Jahren bestehende digitale Lexikon WiTTLex erweitert. Dieses Lexikon ist im DELA-Format verfasst und ermöglicht unserer FinderApp WiTTFind Suchbegriffe lemmatisiert und zerlegt nach Wortstamm und Partikel im Nachlass von Ludwig Wittgenstein zu finden. Die Besonderheit von WiTTLex besteht darin, dass es auf Wittgensteins Sprache zugeschnitten ist und nur Wörter enthält, die in seinem Nachlass vorkommen. Aufgrund dieser Eigenschaften bietet das Lexikon eine einzigartige Grundlage für sprachliche Untersuchungen in Ludwig Wittgensteins Werken. Um eine detailliertere Textforschung für Fragestellungen semantischer Natur zu ermöglichen wird derzeit im Rahmen eines studentischen Forschungsprojektes ein Synonymie-Speziallexikon, WiTTLex Synonym, entwickelt. Die Grundlage für dieses Lexikon ist einerseits die durch WiTTLex geschaffene Wortdatenbank, sowie andererseits die aus GermaNet (Hamp et al 1997, Henrich et al. 2010) und WordNet (Miller 1995, Fellbaum 1998) extrahierten Synonyme. Equivalent zu WorNet ist GermaNet ein lexikalisch-semantisches Wortnetzsystem, welches an der Universität Tübingen entwickelt wird. Anschließend wird diese Basis in eine dem DELA-System ähnliche Struktur formatiert, sowie manuell getestet und ergänzt. Das entstandene Lexikon kann die Suche von WiTTFind für die Nutzer anreichern, da ähnliche Textstellen gefunden werden können. Der Suchraum wird einerseits durch die Synonyme selbst, andererseits mit Wörtern erweitert, die eine Synonymverlinkung zum Suchwort haben. Ein derartiger schrittweiser Aufbau und Erweiterung eines Synonymielexikons ermöglicht eine Evaluation von GermaNet im sprachlichen Kontext der Philosophie und kann zeigen, für wie viele Wörter Synonyme automatisch gefunden werden konnten, und von welcher Güte die gefundenen Synonyme sind. In einem zweiten Evaluationsverfahren wird verglichen, ob unser finales WiTTLex Synonym eine Verbesserung gegenüber einem rein automatischen, auf GermaNet und WordNet basierenden Systems, bei unserer Ähnlichkeitssuche WiTTSim auf Ludwig Wittgensteins Nachlass zeigt.</p>
+            <p>
+                <figure>
+                    <graphic url="207_final-0a67544e4f2040b32e16f69f48f389f1.png"/>
+                    <head>
+						<lb/>Abbildung 2. Beispiel für eine Synonymverlinkung
+					</head>
+                </figure>
+            </p>
+            <head>Neuronale maschinelle Übersetzung</head>
+            <p>
+                <figure>
+                    <graphic url="207_final-68fbc4a2f094a18b1073d707d94f64e2.png"/>
+                    <head>
+                        <lb/>Abbildung 3. Übersicht des neuronalen maschinellen Übersetzungssystems.
+                    </head>
+                </figure>Die zweite Erweiterung der WAST betrifft den internationalen Zugang der Suchmaschine für nicht deutschsprachige Wissenschaftler. Die gefundenen Faksimile und deren Transkription aus Bergen können derzeit nur in Originalsprache angezeigt werden. Nur ein sehr geringer Anteil dieser Originaltexte wurde auf Englisch verfasst, während der Großteil in deutscher Sprache geschrieben wurde. Daher wird derzeit im Rahmen eines weiteren studentischen Forschungsprojekts ein maschinelles Übersetzungssystem integriert, um Philosophen und anderen Interessierten aus aller Welt einen möglichst objektiven Zugang zum Nachlass zu ermöglichen. Das Übersetzungssystem wird als Sequence to Sequence Modell (Luong et al. 2015, 2017, Sutskever et al. 2014) implementiert. Dafür werden zwei rekurrente neuronale Netze (RNNs) trainiert, bestehend aus einem Encoder und einem Decoder. Der Encoder berechnet einen Codierungsvektor für den deutschen Textabschnitt, während der Decoder den entstandenen Vektor ins Englische transformiert (Abbildung 3). Werden diese zwei Netze aneinandergeschaltet, erhält man ein neuronales maschinelles Übersetzungssystem, welches den Nachlass vom Deutschen ins Englische übersetzt.
+            </p>
+            <p>Es muss jedoch angemerkt werden, dass die automatische Übersetzung keinesfalls eine philosophisch-interpretatorische Übersetzung ersetzen kann. Sie kann lediglich eine Grundlage bilden, welche dann in intensiver Zusammenarbeit mit den Philosophen geprüft und optimiert werden kann.</p>
+            <p>Für zukünftige Arbeiten sollen die übersetzen Texte in die Ähnlichkeitssuche WiTTSim einfließen (Ullrich et al. 2018), wo sie der Aufdeckung von sprachübergreifende Ähnlichkeiten dienen kann (siehe Abbildung 4).</p>
+            <p>
+                <figure>
+                    <graphic url="207_final-afe676668a7b71b312c03771994c0346.png"/>
+                    <head>
+                        <lb/>Abbildung 4. Ähnlichkeitsberechnung mit WiTTSim und Vergleich der Ergebnisse mit und ohne maschineller Übersetzung am Beispiel von zwei Texten A und B.
+                    </head>
+                </figure>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Fellbaum, Christiane (1998):</hi> 
+                        <hi rend="italic">WordNet: An Electronic Lexical Database.</hi> 
+                        Cambridge, MA: MIT Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hadersbeck, Maximilian / Pichler, Alois / Fink, Florian / Seebauer, Patrick / Strutynska, Olga (2012):</hi>
+                        <hi rend="italic">New (re)search possibilities for Wittgenstein‘s Nachlass</hi>.
+                        35th International Wittgenstein Symposium 2012, Kirchberg am Wechsel, Contributions, pp. 102-105. Kirchberg am Wechsel: ALWS.</bibl>
+                    <bibl>
+                        <hi rend="bold">Hadersbeck, Maximilian / Pichler, Alois / Fink, Florian / Gjesdal, Øyvind (2014):</hi> 
+                        <hi rend="italic">Wittgenstein‘s Nachlass: WiTTFind and Wittgenstein advanced search tools (WAST)</hi>.
+                        Digital Access to Textual Cultural Heritage 2014 (DaTeCH 2014), pp. 91-96. Madrid.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hadersbeck, Maximilian / Pichler, Alois / Fink, Florian / Bruder, Daniel / Arends, Ina / Baiter, Johannes (2015):</hi> 
+                        <hi rend="italic">Wittgensteins Nachlass: Erkenntnisse und Weiterentwicklung der FinderApp WiTTFind</hi>.
+                        2. Tagung Digital Humanities im deutschsprachigen Raum 23.-27.2 (Graz).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hamp, Birgit / Helmut Feldweg (1997):</hi>
+                        <hi rend="italic">GermaNet - a Lexical-Semantic Net for German</hi>.
+                        Proceedings of the ACL workshop Automatic Information Extraction and Building of Lexical Semantic Resources for NLP Applications. Madrid.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Henrich, Verena / Erhard Hinrichs (2010):</hi> 
+                        <hi rend="italic">GernEdiT - The GermaNet Editing Tool.</hi> 
+                        Proceedings of the Seventh Conference on International Language Resources and Evaluation (LREC 2010). Valletta, Malta, pp. 2228-2235.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krey, Angela (2014):</hi> 
+                        <hi rend="italic">Semantische Annotation von Adjektiven im Big Typescript von Ludwig Wittgenstein</hi>.
+                        Bachelorarbeit, CIS.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lindinger, Matthias (2015):</hi>
+                        <hi rend="italic">Entwicklung eines WEB-basierten Faksimileviewers mit Highlighting von Suchmaschinen-Treffern und Anzeige der zugehörigen Texte in
+                        unterschiedlichen Editionsformaten</hi>. 
+                        Masterthesis, CIS.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Luong, Minh-Thang / Hieu Pham / Christopher D Manning (2015):</hi>
+                        <hi rend="italic">Effective approaches to attention-based neural machine translation</hi> 
+                        EMNLP.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Luong, Minh-Thang / Eugene Brevdo / Rui Zhao (2017):</hi>
+                        <hi rend="italic">Neural Machine Translation (seq2seq) Tutorial</hi>,
+                        https//github.com/tensorflow/nmt, zugegriffen am 9.10.2018.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Miller, George A. (1995):</hi>
+                        <hi rend="italic">WordNet: A Lexical Database for English</hi>,
+                        in: Communications of the ACM Vol. 38, No. 11: 39-41.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pichler, Alois (2010):</hi> 
+                        <hi rend="italic">Towards the New Bergen Electronic Edition</hi>, 
+                        in: Wittgenstein After His Nachlass. Ed. Nuno Venturinha, pp. 157-172. Houndmills: Palgrave Macmillan.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pichler, Alois / Bruvik, Tone Merete (2014):</hi> 
+                        <hi rend="italic">Digital Critical Editing: Separating Encoding from Presentation</hi>, 
+                        in: Digital Critical Editions. Ed. Daniel Apollon, Claire Bélisle, Philippe Régnier, pp. 179-202. Urbana Champaign: University of Illinois Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Röhrer, Ines (2017):</hi> 
+                        <hi rend="italic">Musik und Ludwig Wittgenstein: Semantische Suche in seinem Nachlass</hi>, 
+                        Bachelorarbeit, CIS.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Still, Sebastian (2018):</hi> 
+                        <hi rend="italic">Ludwig Wittgenstein: 100 Jahre Traktatus. Der Odyssee-Reader, ein web-basiertes Tool zur text-genetischen Suche im Traktatus</hi>, 
+                        Masterthesis, Ludwig-Maximilians-Universität München.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sutskever, Ilya / Oriol Vinyals, / Quoc V. Le. (2014):</hi> 
+                        <hi rend="italic">Sequence to sequence learning with neural networks</hi>, 
+                        NIPS.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Trötzmüller, Eva (2017):</hi> 
+                        <hi rend="italic">Unesco-Weltdokumentenerbe - Zwei Neuaufnahmen</hi>, 
+                        https://www.unesco.at/presse/artikel/article/unesco-weltdokumentenerbe-zwei-neuaufnahmen/, zugegriffen am 12.10.2018
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ullrich, Sabine /Bruder, Daniel / Hadersbeck, Maximilian (2018):</hi> 
+                        <hi rend="italic">Aufdecken von “versteckten” Einflüssen: Teil-Automatisierte Textgenetische Prozesse mit Methoden der Computerlinguistik und des 
+                        Machine Learning</hi>, 
+                        5. Tagung Digital Humanities im deutschsprachigen Raum 26.2.-2.3. (Köln)
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

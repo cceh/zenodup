@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="191_final-GIUS_Evelyn_Korpuserstellung_als_literaturwissenschaftliche_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Korpuserstellung als literaturwissenschaftliche Aufgabe</title>
+                <author>
+                    <persName>
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>evelyn.gius@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Katharina</surname>
+                        <forename>Krüger</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>katharina.krueger@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Carla</surname>
+                        <forename>Sökefeld</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>carla.soekefeld@studium.uni-hamburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Korpora</term>
+                    <term>Korpuserstellung</term>
+                    <term>Dubletten</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Bereinigung</term>
+                    <term>Literatur</term>
+                    <term>Methoden</term>
+                    <term>Forschungsprozess</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpuserstellung in der (digitalen) Literaturwissenschaft</head>
+                <p style="text-align:left;">Die Praxis der Zusammenstellung von Primärtexten zu einem Korpus ist gewissermaßen literaturwissenschaftliches Alltagsgeschäft, trotzdem wird sie selten problematisiert. Die beiden Standardfälle der nicht-digitalen Korpusanalyse erscheinen auch bezüglich der Korpuszusammenstellung unproblematisch: (1) Die Forschungsfrage erfordert eine bestimmte Textbasis (etwa bei einer Untersuchung zu Krankheitsdarstellungen bei Thomas Mann), (2) Die Korpuserstellung basiert auf der Kanonizität der Texte. Zumindest im zweiten Fall ist das geeignete Vorgehen allerdings nicht selbstverständlich, denn es müsste begründet werden, nach welchen Kriterien Werke tatsächlich exemplarisch und repräsentativ sind. Dies wird jedoch kaum thematisiert (vgl. Gius, in Vorbereitung). </p>
+                <p style="text-align:left;">Bei der konkreten Erstellung eines 
+                    <hi rend="italic">digitalen</hi> Korpus ist wiederum aufgrund der Menge der verfügbaren Texte häufig nur eine balancierte Sammlung nach vordefinierten Kriterien realisierbar, die allerdings die Gefahr von unerwünschten Korrelationen birgt 
+                    (Schöch 2017).<ref target="ftn1" n="1"/> Trotz dieser Problematik wird die methodologische Bedeutung der Korpuszusammenstellung auch in den 
+                    <hi rend="italic">Digital Humanities</hi> kaum wahrgenommen
+                    <hi rend="color(0000FF)" xml:space="preserve">. </hi>So ergibt eine Stichwortsuche nach „Korpus“ bzw. „corpus“ in allen Tagungsbänden der 
+                    <hi rend="italic">Digital Humanities</hi>- und 
+                    <hi rend="italic">Digital Humanities im deutschsprachigen Raum</hi>-Konferenzen von 2014-2017 jeweils hunderte Beiträge. Allerdings gehen nur acht der 49 Abstracts mit literaturwissenschaftlicher Thematik explizit auf die Korpus
+                    <hi rend="italic">erstellung</hi> ein, obwohl in den übrigen durchaus auch von repräsentativen Korpora die Rede ist. Lediglich 
+                    fünf<ref target="ftn2" n="2"/> dieser Beiträge beschäftigen sich dezidiert mit der Problematik eines literaturwissenschaftlichen Korpus.
+                </p>
+                <p style="text-align:left;">Ein Grund für die geringe Auseinandersetzung mit dem Thema kann sein, dass die Praxeologie der Zusammenstellung literarischer digitaler Korpora verhältnismäßig neu ist und sich bislang keine literaturwissenschaftlichen Routinen etablieren konnten, die das Zusammenstellen des Untersuchungsobjektes 
+                betreffen.<ref target="ftn3" n="3"/> Ein anderer Erklärungsansatz ist, dass schon in der traditionellen Literaturwissenschaft der “literaturwissenschaftliche Objektumgang vor allem durch implizite Normen strukturiert” ist (Schruhl 2018) und entsprechend auch eine Übersetzung dieses nicht-digitalen Zugangs in einen digitalen Zugang – also eine Art Operationalisierung der Korpuserstellung – nicht möglich ist.
+                </p>
+                <p style="text-align:left;">Die digitale literaturwissenschaftliche Korpuserstellung stellt also ein ungelöstes methodologisches Grundproblem dar.</p>
+                <p style="text-align:left;">Wir erläutern im Folgenden die Problematik der literaturwissenschaftlichen Korpuserstellung exemplarisch, um eine Diskussion darüber anzustoßen sowie mögliche Lösungsansätze vorzustellen. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erstellung eines Korpus zur Untersuchung von genderspezifischer Darstellung von Krankheit</head>
+                <p style="text-align:left;">Im Rahmen unseres Forschungsprojektes zu genderspezifischer Darstellung von Krankheit in literarischen Texten im Forschungsverbund hermA (“Automatische Modellierung hermeneutischer 
+                Prozesse”)<ref target="ftn4" n="4"/> geht es um die Frage nach der genderspezifischen Darstellung von Krankheit bei literarischen Figuren um 1900. In einem korpusbasierten Ansatz werden Methoden für die Analyse der Darstellung von Krankheit entwickelt. Da wir einen konstruktivistischen Ansatz in Bezug auf Genderkonzepte verfolgen und außerdem grundsätzlich davon ausgehen, dass sich semantische Aspekte in literarischen Texten nur bedingt an der Textoberfläche 
+                materialisieren,<ref target="ftn5" n="5"/>mussten wir Strategien entwickeln, um ein möglichst großes Ausgangskorpus zu etablieren. Die Grundlage zur Erstellung dieses Korpus war das Kolimo-Korpus nach Herrmann und Lauer (2017). Es enthält über 42.000 Texte mit einem Fokus auf der Zeitspanne von 1880 bis 1930 aus dem Deutschen Textarchiv, dem TextGrid Repository und dem Projekt Gutenberg-DE (vgl. Tabelle 2).
+                </p>
+                <p style="text-align:left;">Da die Entwicklung von Strategien zur Bildung themenspezifischer Subkorpora ebenfalls Ziel des Forschungsvorhabens ist, gab es für die Textauswahl zunächst keine inhaltlichen Einschränkungen. Kriterien zur Textauswahl waren deshalb nur das Datum der Erstveröffentlichung, Textsprache, das Genre und Textlänge; Grundlage für ihre Ermittlung bildeten die Kolimo-Metadaten. </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">Kriterium</cell>
+                        <cell rend="left">Relevanter Bereich</cell>
+                        <cell rend="left">Zweifelsfälle </cell>
+                        <cell rend="left">Festlegung durch:</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Erscheinungsdatum</cell>
+                        <cell rend="left">1870-1920</cell>
+                        <cell rend="left">Zeitspannen, widersprüchliche Angaben, fehlende Angaben</cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">Metadaten</p>
+                            <p style="text-align:left;">
+                                <hi style="font-size:10pt" xml:space="preserve">+ Recherche zu Ersterscheinungsdaten bzw. Lebensdaten </hi>
+                            </p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Sprache</cell>
+                        <cell rend="left">Deutschsprachig (Standardsprache), keine Übersetzungen</cell>
+                        <cell rend="left"/>
+                        <cell rend="left">Automatisierte Überprüfung: &gt;90% deutschsprachig</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Gattung/Genre</cell>
+                        <cell rend="left">Prosa und dazugehörige Genres</cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">Kinder- und Jugendbuch (im Kernkorpus)</p>
+                            <p style="text-align:left;">
+                                <hi style="font-size:10pt">Autobiographie, Biographie, Fabel, Märchen, Memoire, Tagebuch (nicht im Kernkorpus)</hi>
+                            </p>
+                            <p style="text-align:left;">Ohne spezifisches Genre</p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">Metadaten</p>
+                            <p style="text-align:left;">Kategorisierung der Angaben in den Metadaten</p>
+                            <p style="text-align:left;">Recherche </p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Textlänge</cell>
+                        <cell rend="left">&gt; 1.000 Wörter</cell>
+                        <cell rend="left">
+                            <hi style="font-size:10pt">Kapitelweise vorliegende Texte u.ä.</hi>
+                        </cell>
+                        <cell rend="left">automatische Wortzählung</cell>
+                    </row>
+                </table>
+                <p style="text-align:center;">
+                    <hi rend="italic bold">Tabelle 1:</hi> Übersicht der Kriterien für die Korpuserstellung
+                </p>
+                <p style="text-align:left;">Ins Korpus aufgenommen wurden Texte mit Erstveröffentlichung zwischen 1870 und 1920. Die Auswahl wurde anhand der vorliegenden Metadaten getroffen und bei Bedarf weiter ergänzt. Je nach Repositorium unterschied sich die zusätzlich nötige Recherchearbeit stark: elf DTA-Texte, 7.602 Gutenberg-Texte, und 27.300 TextGrid-Texte hatten keine Datumsangabe. </p>
+                <p style="text-align:left;">Da wir uns auf Phänomene konzentrieren, die in der deutschsprachigen zeitgenössischen Literatur verhandelt wurden, lag der Fokus auf standarddeutschen Texten. Übersetzungen wurden in ein Sonderkorpus aufgenommen, zu weniger als 90% deutschsprachige Texte aussortiert. 
+                    <lb/>Außerdem wurden ausschließlich Prosatexte berücksichtigt, wobei für die (Sub-)Genres Autobiographie, Biographie, Fabel, Märchen, Memoire und Tagebuch eigene Sonderkorpora erstellt wurden. Texte der Kategorie Kinder- beziehungsweise Jugendbuch wurden hingegen in das Kernkorpus miteinbezogen. 
+                    <lb/>Um Kürzestprosa auszuschließen, die sich meist deutlich von der narrativen Struktur anderer Formen unterscheidet, wurden nur Texte mit über 1.000 Wörtern aufgenommen. 
+                </p>
+                <p style="text-align:left;">Das nach diesen Kriterien manuell erstellte Kernkorpus umfasst nur noch etwa 2.700 Werke.</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">Korpus</cell>
+                        <cell rend="left">Texte (DTA/Textgrid/Gutenberg)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ausgangskorpus Kolimo</cell>
+                        <cell rend="left">42.710 (1.317 / 27.412 / 13.981)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Kernkorpus</cell>
+                        <cell rend="left">2.726 (50 / 1.137 / 1.539)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Sonderkorpus Märchen</cell>
+                        <cell rend="left">2.601</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Sonderkorpus Übersetzungen</cell>
+                        <cell rend="left">465</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Weitere Sonderkorpora </cell>
+                        <cell rend="left">69</cell>
+                    </row>
+                </table>
+                <p style="text-align:center;">
+                    <hi rend="italic bold">Tabelle 2:</hi> Übersicht Korpusgrößen
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpusbereinigung</head>
+                <p style="text-align:left;">Die dargestellten Schwierigkeiten bei der Entscheidung über die Aufnahme eines Textes in das Kernkorpus basierten auf unvollständigen, widersprüchlichen oder nicht ohne weiteres aufeinander abbildbaren Metadaten und konnten anhand der dargelegten Setzungen vergleichsweise einfach gelöst werden. Weitaus schwieriger gestaltete sich hingegen die Identifikation von Dubletten und die Konzipierung einer geeigneten Problembehandlung – ein leider typisches Problem bei der Aggregation eines Korpus aus verschiedenen Quellen. </p>
+                <p style="text-align:left;">So zeigte sich bei einer ersten manuellen Durchsicht der Liste und der stichprobenartigen Überprüfung der Volltexte, dass Dubletten nicht eindeutig anhand von Metadaten identifizierbar sind. Die naheliegende Lösung, ein Volltextvergleich, müsste jedoch bei 2.700 Texten über sieben Millionen mögliche Paare vergleichen und würde auch bei der Nutzung von Cluster Computing Jahrzehnte dauern. Deshalb mussten Heuristiken entwickelt werden, um das Verfahren abzukürzen.</p>
+                <p style="text-align:left;">Entsprechend haben wir einen Workflow entworfen, um mit möglichst hoher Treffgenauigkeit Dubletten zu identifizieren. Ziel war, alle echten Dubletten zu finden und das Korpus entsprechend zu bereinigen, ohne Texte vorschnell zu streichen. </p>
+                <p style="text-align:left;">Dafür wurden folgende, größtenteils automatische Prüfungen 
+                durchgeführt:<ref target="ftn6" n="6"/>
+                </p>
+                <list type="ordered">
+                    <item>Identifikation eindeutiger Dubletten:
+                        <list type="unordered">
+                            <item>Werke, denen derselbe Volltext zugeordnet wurde</item>
+                            <item>Werke mit einer Edit-Distanz (Levensthein 1966) ≤ 2 bei Autor und Titel </item>
+                        </list>
+                    </item>
+                    <item>Identifikation Dublettenkandidaten:
+                        <list type="unordered">
+                            <item>Werke mit einer Edit-Distanz ≤ 2 bei Autor (und mehr beim Titel)</item>
+                        </list>
+                    </item>
+                    <item>Volltextvergleich Dublettenkandidaten:
+                        <list type="unordered">
+                            <item>gemessene einseitige Edit-Distanz (in beiden Richtungen):
+                                <list type="unordered">
+                                    <item>≤15%: Dublette</item>
+                                    <item>≥ 80%: keine Dublette </item>
+                                </list>
+                            </item>
+                            <item>alle anderen Fälle: manuelle Prüfung (vgl. Tabelle 3)</item>
+                        </list>
+                    </item>
+                    <item>Entfernung verbleibender Texte mit 
+                        <list type="unordered">
+                            <item>≤ 1.000 Wörter und/oder </item>
+                            <item>≥ 10% nichtdeutscher Textanteil</item>
+                        </list>
+                    </item>
+                </list>
+                <p style="text-align:left;">Bei den verbleibenden Textpaaren gehen wir von echten Dubletten aus. Für diese erfolgt eine Repositorien-Priorisierung nach der Qualität der Repositorien (1. DTA, 2. TextGrid, 3. Gutenberg).</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">Problem</cell>
+                        <cell rend="left">Bsp.</cell>
+                        <cell rend="left">Lösungsansatz</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Text enthält zusätzlichen Paratext</cell>
+                        <cell rend="left">“Hymnen” (Ferdinand von Saar) mit Vorwort des Herausgebers</cell>
+                        <cell rend="left">Variante ohne Paratext</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Eindeutig stark veränderte Ausgabe</cell>
+                        <cell rend="left">“Die Pilger der Wildnis” (Johannes Scherr) als “für die Jugend bearbeitete Ausgabe“</cell>
+                        <cell rend="left">“Ursprungsvariante” wählen</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Mehrbändiges Werk (≠ Dubletten)</cell>
+                        <cell rend="left">
+                            <hi style="font-size:10pt">“Auch Einer” (Friedrich Theodor von Vischer, 1879): Band 1 und 2 mit zwei nahezu gleichlautenden Dateinamen</hi>
+                        </cell>
+                        <cell rend="left">zusammenführen</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Teile eines Sammelbandes (≠ Dubletten)</cell>
+                        <cell rend="left">“Der Schmied seines Glückes” von Gottfried Keller, erschienen in “Die Leute von Seldwyla”</cell>
+                        <cell rend="left">aufteilen</cell>
+                    </row>
+                </table>
+                <p style="text-align:center;">
+                    <hi rend="italic bold">Tabelle 3:</hi> Dubletten: Lösungsansätze bei manueller Überprüfung
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ansätze für die literaturwissenschaftliche Korpuserstellung?</head>
+                <p style="text-align:left;">Die Digitalisierung fördert die literaturwissenschaftliche Korpuserstellung in neuem Umfang und macht dadurch die Textzusammenstellung als literaturwissenschaftliches Problem offensichtlich, das methodologisch kaum beleuchtet ist. Oft dominiert die Frage, welche Texte überhaupt ins Korpus können, also aus welchen bereits digitalisierten oder noch digitalisierbaren Texten ausgewählt werden kann, die literaturwissenschaftlichen Überlegungen zur Textauswahl.</p>
+                <p style="text-align:left;">Da die Menge digitalisiert vorliegender Texte stetig steigt, haben Korpora außerdem immer häufiger eine Größe, die von einzelnen Forscher/innen nicht mehr überschaubar ist. Deshalb muss sich die literaturwissenschaftliche Begründung der Relevanz der Texte in einem Korpus einer gewissen Größe im Zweifelsfall auf Aspekte, die als Informationen in den Metadaten der Texte vorliegen – wie Zeit, Gattung/Genre oder Autor/innen – beschränken.</p>
+                <p style="text-align:left;">Sowohl die Menge der zur Verfügung stehenden Texte als auch die Qualität der Primär- und Metadaten sind noch steigerungsfähig. Hier ist die Forschungsgemeinschaft genauso gefordert wie Bibliotheken und Archive.</p>
+                <p style="text-align:left;">Im Sinne einer wissenschaftlichen Qualitätssicherung ist es daher umso wichtiger, im Hinblick auf das
+                    <hi rend="italic" xml:space="preserve"> zur Verfügung </hi>stehende Datenmaterial Qualitätskriterien für die Zusammenstellung der Korpora zu entwickeln und umzusetzen, wie das vorgestellte Verfahren zeigen soll. So können aus Texten mit schlechten oder fehlenden Metadaten vergleichsweise homogene Korpora erstellt und anschließend mit weiteren Informationen angereichert werden.
+                </p>
+                <p style="text-align:left;">Da das literaturwissenschaftliche Wissen über ein Korpus mit steigender Korpusgröße notwendigerweise ab- und damit die Gefahr unerwünschter Korrelationen zunimmt, sollte das Korpus außerdem mit Informationen angereichert werden, die für die Interpretation von Analyseergebnissen genutzt werden können (Epochenzugehörigkeit, thematische Zuordnung etc). Dadurch können entdeckte Korrelationen auf einer größeren Basis an Texteigenschaften – also: besser – interpretiert werden. Da das manuelle Ergänzen von Informationen sehr arbeitsaufwändig ist, sollten dafür (halb-)automatische Verfahren entwickelt bzw. genutzt 
+                werden.<ref target="ftn7" n="7"/>
+                </p>
+                <p style="text-align:left;">Die Anforderungen an ein Korpus variieren je nach Kontext und Forschungsfrage des Projekts, deshalb müssen allgemeine Qualitätskriterien für die Korpuserstellung eine gewisse Offenheit aufweisen. Grundsätzlich gilt aber: Für die Korpuserstellung muss frühzeitig eine Strategie zur Priorisierung von Problemen entwickelt – und dokumentiert! – werden. Dabei geht es darum, sich wie in diesem Beitrag skizziert eine Übersicht über konzeptuelle und technische Aspekte zu verschaffen und anschließend einfach zu lösende Probleme und konzeptuell wichtige Entscheidungen in eine geeignete Reihenfolge zu bringen – den Workflow für die Korpuserstellung.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    Zu den verschiedenen Typen von Datensammlungen bzw. Korpora vgl. ebenfalls Schöch (2017).
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    Farrar (2016): Corpus of Revenge Tragedy; Herrmann und Lauer (2016a/b): Kafka/Referenzkorpus; Herrmann und Lauer (2017): Kolimo; Pernes et al. (2017): historisch-literarisches Metaphernkorpus.
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    Trilcke &amp; Fischer (2018) sprechen hier davon, dass das “epistemische Ding” der Literaturwissenschaft sich vom (einzelnen) Primärtext hin zu durch Weiterverarbeitung entstandene Zwischenformate und Korpora entwickelt.
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    Vgl. 
+                    <ref target="https://www.herma.uni-hamburg.de">https://www.herma.uni-hamburg.de</ref> und Gaidys et al. (2017).
+                </note>
+                <note xml:id="ftn5" n="5" rend="footnote text">
+                    So wird häufig eine für den Texte zentrale Krankheit nur andeutungsweise erzählt, etwa in Schnitzlers Novelle 
+                    <hi rend="italic">Sterben</hi> (1894), in der die Krankheit des Protagonisten über den Großteil des Textes ausschließlich über die Symptom- und Behandlungsbeschreibungen als Tuberkulose erkennbar ist.
+                </note>
+                <note xml:id="ftn6" n="6" rend="footnote text">
+                    Für die Mitarbeit bei der Planung und die Implementierung der Verfahren danken wir Benedikt Adelmann.
+                </note>
+                <note xml:id="ftn7" n="7" rend="footnote text">
+                    Zum Beispiel durch die Einbindung von fachlichen Wissensbasen wie etwa den in der Deutschen Nationalbibliothek verfügbaren bibliographischen Metadaten.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+						<hi rend="bold">Farrar, Danielle Marie (2016)</hi>: <hi rend="italic">The Corpus of Revenge Tragedy (CoRT): Toward Interdisciplining Early Modern Digital Humanities and Genre Analysis</hi>. In: DH 2016 - Conference Abstracts. S. 789–790.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gaidys, Uta/Gius, Evelyn/Jarchow, Margarete/Koch, Gertraud/Menzel, Wolfgang/Orth, Dominik/Zinsmeister, Heike (2017)</hi>: <hi rend="italic">Project Description. HermA: Automated Modelling of Hermeneutic Processes</hi>. In: Hamburger Journal für Kulturanthropologie 7 (2017), S. 119–123.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gius, Evelyn (in Vorbereitung)</hi>: <hi rend="italic">Digitale Hermeneutik: Computergestütztes close reading als literaturwissenschaftliches Forschungsparadigma?</hi> In: <hi rend="bold">Jannidis, Fotis (Hg.)</hi>: <hi rend="italic">Digitale Literaturwissenschaft</hi>. Metzler.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Herrmann, Berenike/Lauer, Gerhard (2017)</hi>: <hi rend="italic">Das „Was-bisher-geschah“ von KOLIMO. Ein Update zum Korpus der literarischen Moderne</hi>. In: DHd 2017 Digitale Nachhaltigkeit Konferenzabstracts. S. 107–111.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Herrmann, Berenike/Lauer, Gerhard (2016a)</hi>: <hi rend="italic">Aufbau und Annotation des Kafka/Referenzkorpus</hi>. In: DHd 2016 Modellierung - Vernetzung - Visualisierung Konferenzabstracts. S. 158–159.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Herrmann, Berenike/Lauer, Gerhard (2016b)</hi>: <hi rend="italic">KARREK: Building and Annotating a Kafka/Reference Corpus</hi>. In: DH 2016 - Conference Abstracts. S. 552–553.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Levenshtein, Vladimir (1966)</hi>: <hi rend="italic">Binary codes capable of correcting deletions, insertions, and reversals</hi>. In: Soviet Physics Doklady. Vol. 10, No. 8, S. 707–710. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Pernes, Stefan/Keller, Lennart/Peterek, Christoph (2017)</hi>: <hi rend="italic">Aufbau eines historisch-literarischen Metaphernkorpus für das Deutsche</hi>. In: DHd 2017 Digitale Nachhaltigkeit Konferenzabstracts. S. 92–94.
+					</bibl>
+                    <bibl>
+						<hi rend="bold">Trilcke, Peer/Fischer, Frank (2018)</hi>: <hi rend="italic">Literaturwissenschaft als Hackathon. Zur Praxeologie der Digital Literary Studies und ihren epistemischen Dingen</hi>. In: Zeitschrift für digitale Geisteswissenschaften, Sonderband 3 “Wie Digitalität die Geisteswissenschaften verändert. Neue Forschungsgegenstände und Methoden”.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Schöch, Christof (2017)</hi>: <hi rend="italic">Aufbau von Datensammlungen</hi>. In: <hi rend="bold">Jannidis, Fotis/Kohle, Hubertus/Rehbein, Malte (Hg.)</hi>: Digital Humanities: eine Einführung. Stuttgart: J.B. Metzler Verlag. S. 223–233.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Schruhl, Friederike (2018)</hi>: <hi rend="italic">Objektumgangsnormen in der Literaturwissenschaft</hi>. In: Zeitschrift für digitale Geisteswissenschaften, Sonderband 3 “Wie Digitalität die Geisteswissenschaften verändert. Neue Forschungsgegenstände und Methoden”.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

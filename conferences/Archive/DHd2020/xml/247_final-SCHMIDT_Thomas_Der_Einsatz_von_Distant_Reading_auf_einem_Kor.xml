@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="247_final-SCHMIDT_Thomas_Der_Einsatz_von_Distant_Reading_auf_einem_Kor" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Der Einsatz von Distant Reading auf einem Korpus deutschsprachiger Songtexte</title>
+<author>
+<persName>
+<surname>Schmidt</surname>
+<forename>Thomas</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>thomas.schmidt@ur.de</email>
+</author>
+<author>
+<persName>
+<surname>Bauer</surname>
+<forename>Marlene</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>marlene.bauer@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Habler</surname>
+<forename>Florian</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>florian.habler@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Heuberger</surname>
+<forename>Hannes</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>hannes.heuberger@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Pilsl</surname>
+<forename>Florian</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>florian.pilsl@stud.uni-regensburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Wolff</surname>
+<forename>Christian</forename>
+</persName>
+<affiliation>Universität Regensburg, Deutschland</affiliation>
+<email>christian.wolff@ur.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Songtexte</term>
+<term>Lyrics</term>
+<term>Distant Reading</term>
+<term>Sentiment Analysis</term>
+<term>Topic Modeling</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Sprache</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Die Idee des Distant Reading (Moretti, 2002) ist davon geprägt, durch den Einsatz von Methoden der computergestützten Textanalyse und Textvisualisierung große Mengen an Literatur zu explorieren, um Einsichten zu gewinnen, die mit herkömmlichen Methoden nicht möglich sind. Der Einsatz von Distant Reading wird dabei mittlerweile auch außerhalb der Literaturwissenschaften untersucht wie z.B. in den Religionswissenschaften (Pfahler et al., 2018). Im folgenden Beitrag wird ein Projekt vorgestellt, in dem der Einsatz und Nutzen von Distant Reading in ersten Analysen auf einer größeren Menge deutschsprachiger Songtexte exploriert wird. Ziel des Projekts ist es, mittels Distant Reading Unterschiede in gängigen Genres populärer Musik herauszukristallisieren. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Verwandte Arbeiten </head>
+<p style="text-align:left; ">Im Bereich des Text Mining wird die
+Analyse von Songtexten vor allem im Kontext von Retrieval- und
+Recommender-Aufgaben betrieben. Ziel ist meist die automatische
+Klassifikation und Vorhersage verschiedener Kategorien, z.B. dem Genre
+(Fell &amp; Sporleder, 2014; De Sousa et al., 2016). Außerhalb dieses
+Arbeitsgebiets findet man in Bereichen der Kultur- und
+Literaturwissenschaften sowie der Psychologie Studien mit Songtexten
+als Untersuchungsgegenstand (Cole, 1971; Kuhn,
+1999). Forschungsinteressen umfassen dabei Analysen spezifischen
+Musikern
+(<hi rend="italic">Beatles</hi>, West &amp; Martindale, 1996; Whissel, 1996, 
+<hi rend="italic">Bob Dylan</hi>, Whissel, 2008; Körner, 2012), Epochen (Pettijohn &amp; Sacco, 2009), Emotionen (Napier &amp; Shamir, 2018) oder Erfolg (Riedemann, 2012). Im Bereich der computergestützten Korpus-Analyse findet man vereinzelt Projekte für den englischsprachigen Bereich. Dabei werden beispielsweise quantitative und qualitative Methoden verknüpft, um Stil und historische Eigenheiten zu analysieren (Werner, 2012), Annotations- und Akquisemöglichkeiten von Korpora exploriert (Kreyer &amp; Mukherjee, 2009) oder N-Gramme untersucht (Nishina, 2017). Die Analyse von deutschsprachigen Texten ist jedoch bislang selten und findet vor allem im Bereich von regionalem Rap statt (Hess-Lüttich, 2009) sowie eher qualitativ und hermeneutisch (Stiegler, 2009).
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Korpus-Erstellung</head>
+<p style="text-align:left; ">Als Plattform für die Akquise der Songtexte wurde 
+<hi rend="italic">LyricWiki</hi><ref n="1" target="ftn1"/> gewählt. Ausgehend von aktuellen Umfragen zu den populärsten Genres in Deutschland<ref n="2" target="ftn2"/> werden die folgenden vier Genres betrachtet: 
+<hi rend="italic" xml:space="preserve">Pop, Rock, Schlager </hi>und
+<hi rend="italic" xml:space="preserve"> Rap/Hip Hop</hi>. Für die Auswahl der Songs wurden manuell durch Analyse der deutschen Charts seit den 60er Jahren eine angemessene Anzahl der wichtigsten deutschsprachigen Genre-Vertreter aufgestellt. Dieser Schritt ist (auch) subjektiv geprägt, der Fokus auf berühmte und „typische“ Vertreter der einzelnen Genres erlaubt jedoch trotzdem erste Analysen. Kritisch sei jedoch anzumerken, dass die Grenzen der Genres für einzelne Interpreten und Songs nicht immer eindeutig sind, insbesondere was Rock, Pop und Schlager betrifft. Wir haben versucht, für das vorliegende Korpus eine Auswahl mit möglichst eindeutigen Zuordnungen zu treffen.<ref n="3" target="ftn3"/>
+</p>
+<p style="text-align:left; ">Für jeden gewählten Interpreten wurden über ein Skript alle Songtexte mit Metadaten von LyricWiki akquiriert. Die Akquise des Korpus wurde mittels eines frei verfügbaren angepassten ruby-Skripts durchgeführt<ref n="4" target="ftn4"/>.
+                </p>
+<p style="text-align:left; ">Abbildung 1 illustriert Eckdaten zum Gesamtkorpus und den Künstlern. In der Spalte „Bekannte Vertreter“ werden einige Künstler beispielhaft angegeben.</p>
+<figure>
+<graphic height="3.951208333333333cm" n="1001" rend="inline" url="247_final-fd319afce4f9fc16e0c32019b19d7f28.png" width="16.002cm"/>
+<head>Abbildung 1: Korpus-Zusammensetzung</head>
+</figure>
+<p style="text-align:left; ">Abbildung 2 zeigt die Songverteilung im zeitlichen Verlauf und Genre-Kontext auf.</p>
+<figure>
+<graphic height="4.677833333333333cm" n="1002" rend="inline" url="247_final-56c104c8afd3394912c15039f7a44318.png" width="8.96156388888889cm"/>
+<head>Abbildung 2: Genre und zeitlicher Verlauf des Korpus</head>
+</figure>
+<p style="text-align:left; ">Im Bereich des Preprocessing wurden Stoppwörter entfernt und alle Wörter zu Normalisierungszwecken in Kleinschreibung gebracht. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Methoden und Ergebnisse</head>
+<p style="text-align:left; ">Für die allgemeine Textanalyse und das Topic Modeling wurden alle Analysen mittels 
+<hi rend="italic">R</hi> und unterschiedlichen Bibliotheken wie dem 
+<hi rend="italic">NLP</hi><ref n="5" target="ftn5"/>- und 
+<hi rend="italic">topicmodels</hi>-package<ref n="6" target="ftn6"/> durchgeführt. Die Sentiment Analysis wurde mit 
+<hi rend="italic">Python</hi> und 
+<hi rend="italic">SentiWS</hi> (Remus et al., 2010) implementiert.
+</p>
+<div rend="DH-Heading2" type="div2">
+<head>Allgemeine Textanalyse</head>
+<p style="text-align:left; ">Die Repetition von besonders bedeutenden Wörtern ist ein gängiges Stilmittel bei der Gestaltung von Songtexten. Aus diesem Grund betrachten wir die Analyse der häufigsten Wörter von Songtexten als besonders aufschlussreich. Die folgenden Bilder (Abbildung 3-6) illustrieren die 10 häufigsten Wörter (Most Frequently Used Words; MFWs) der einzelnen Genres.</p>
+<figure>
+<graphic height="9.4615cm" n="1003" rend="inline" url="247_final-e44b7c1ea49e74027b68f77f8f69dc39.png" width="11.098877777777778cm"/>
+<head>Abbildung 3: MFWs für Pop</head>
+</figure>
+<figure>
+<graphic height="8.399405555555555cm" n="1004" rend="inline" url="247_final-8f2c99a51cc88214658eced7c1530cba.png" width="10.708372222222222cm"/>
+<head>Abbildung 4: MFWs für Rap</head>
+</figure>
+<figure>
+<graphic height="7.9375cm" n="1005" rend="inline" url="247_final-8ea93e0be1e41f8db94010695b4983a0.png" width="10.580627777777778cm"/>
+<head>Abbildung 5: MFWs für Rock</head>
+</figure>
+<figure>
+<graphic height="7.868791666666667cm" n="1006" rend="inline" url="247_final-29e18c85d30df5df5bcecdaadd643bd1.png" width="10.179341666666666cm"/>
+<head>Abbildung 6: MFWs für Schlager</head>
+</figure>
+<p style="text-align:left; ">Man erkennt, dass es drei Wörter gibt, die in allen vier Genres gleichmäßig stark vertreten sind: „Welt“, „Leben“ und „Zeit“. Diese Konzepte sind demnach konsistenter Inhalt deutschsprachiger Liedtexte unabhängig vom Genre. Die größte Differenzierung zeigen die Genres Rap, in dem Terme der Umgangs- und Jugendsprache enthalten sind, aber auch thematische Schwerpunkte deutlich werden („Geld“) sowie das Genre Schlager, das vor allem von emotionalen Termen wie „Liebe“, „Herz“ oder „Glück“ dominiert wird.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Sentiment Analysis</head>
+<p style="text-align:left; ">
+<hi rend="italic">Sentiment Analysis</hi> ist die Methodik zur computergestützten Analyse von Sentiments in Texten, also ob und in welchem Ausmaß Wörter eines Textes eher positiv oder negativ konnotiert ist (Liu, 2016). In den Digital Humanities werden häufig lexikonbasierte Methoden zur Bestimmung von Sentiment-Werten eingesetzt (Mohammad, 2011; Nalisnick &amp; Baird, 2013). Dabei wird durch Summenbildung von Sentiment-Werten von Wörtern die Gesamtpolarität einer Texteinheit ermittelt. Wir verwenden dabei das etablierte Sentiment-Lexikon 
+                        <hi rend="italic">SentiWS</hi> (Remus et al., 2010). Abbildung 7 illustriert einige Ergebnisse:
+                    </p>
+<figure>
+<graphic height="11.57193611111111cm" n="1007" rend="inline" url="247_final-7a767068fc183c7b87f1233ed6474f28.png" width="16.002cm"/>
+<head>Abbildung 7: Ergebnisse – Sentiment Analysis</head>
+</figure>
+<p style="text-align:left; ">Man erkennt, dass für alle 4 Genres insbesondere Varianten von Liebe einen erheblichen Beitrag zur positivien Polarität leisten. Rap grenzt sich deutlich mit für das Genre typischen Themen ab, ausgedrückt durch Wörter wie „reich“ und mit Slang („hart“, „alter“). Alle Genres weisen insgesamt auf eine negative Polarität hin. Entgegen der naiven Intuition sind die Genres „Rap“ und „Rock“ dabei noch am positivsten (gemessen an den normalisierten Werten) bewertet. Erste Analysen machen jedoch auch Probleme der lexikonbasierten Sentiment-Analyse deutlich. Die Wörter „wein“ (weinen) und „feuer“ (das Feuer) sind in SentiWS als negativ markiert, haben aber in unseren Texten oft eher positive Konnotationen. Bei dem Wort „wein“ dann, wenn dieses durch die Normalisierung von „der Wein“ hergeleitet wird. In zukünftigen Arbeiten wollen wir mit einem domänenspezifischen Lexikon arbeiten, das für die jeweilige Anwendungsdomäne optimiert ist.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Topic Modeling</head>
+<p style="text-align:left; ">Topic Modeling ist eine Methode, um den Anteil verschiedener Themen in Dokumenten zu analysieren. Ein Thema ist dabei ein selbst definiertes Label für eine Liste von Wörtern, die besonders häufig zusammen auftreten. Als Algorithmus wurde Latent Dirichlet Allocation (LDA) gewählt (Blei et al., 2003). Das Topic Modeling wurde separat für die einzelnen Genres durchgeführt, um Unterschiede und Gemeinsamkeiten zu untersuchen. Wir sind momentan noch am Anfang der Analyse der einzelnen Topics, aber neben Differenzen werden auch Topics gefunden, die ähnliche Konzepte widerspiegeln. Folgende Visualisierungen geben die Wortlisten wider, die wir jeweils als das Topic „Liebe“ in den einzelnen Genres benannt haben. Die Wortgröße gibt die Häufigkeit des Wortes im jeweiligen Sub-Korpus wider (Abbildung 8).</p>
+<figure>
+<graphic height="12.892713888888888cm" n="1008" rend="inline" url="247_final-bef93517f9db915be2756b31f665b6e6.png" width="16.002cm"/>
+<head>Abbildung 8: Wortlisten für das Topic „Liebe“</head>
+</figure>
+<p style="text-align:left; ">Auffällig ist, dass insbesondere bei Rap familiäre Begriffe wie „Mama“, „Vater“ oder auch „Bruder“ Bestandteil des Topics sind, was traditionellerweise ein häufiger Schwerpunkt im Rap-Genre ist.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick</head>
+<p style="text-align:left; ">In unseren zukünftigen Arbeiten wollen wir insbesondere das Korpus systematisch vergrößern und verbessern. Momentane Probleme sind z.B. die Ungleichverteilung in der Menge bezüglich der Genres aber auch ein Fokus auf eher aktuelle Künstler. Wenngleich wir schon erste Eigenheiten der Genres feststellen konnten, wollen wir Methoden wie Sentiment Analysis und Topic Modeling noch weiter explorieren, indem wir beispielsweise die Varianz der Sentiments untersuchen. Des Weiteren wollen wir unsere Arbeit aber auch auf andere Textanalyse-Möglichkeiten wie Kollokationsprofile von Keywords, Named Entity Recognition und Stilometrie ausweiten. Durch die Zusammenarbeit mit Musik- und Literaturwissenschaftlern wollen wir in Zukunft auch explorieren, welche weiteren Forschungsfragen mit Hilfe größerer Korpora und Distant Reading-Methoden beantwortet werden können.</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      https://lyrics.fandom.com/wiki/LyricWiki
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      https://de.statista.com/statistik/daten/studie/171224/umfrage/beliebteste-musikrichtungen/
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Das Korpus kann auf Anfrage per Mail erhalten werden.
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      https://gist.github.com/siavashs/3556469
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      https://cran.r-project.org/web/packages/NLP/index.html
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      https://cran.r-project.org/web/packages/topicmodels/index.html
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Blei, David M. / Andrew, Y. Ng / Michael, I. Jordan</hi> (2003): "Latent dirichlet allocation", in 
+                        <hi rend="italic">Journal of machine Learning research</hi> 3: 993-1022.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Cole, Richard R.</hi> (1971): "Top songs in the sixties: A content analysis of popular lyrics", in: 
+                        <hi rend="italic">American Behavioral Scientist</hi> 14 (3): 389-400.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">De Sousa, Jefferson Martins / Eanes Torres, Pereira / Luciana Ribeiro, Veloso</hi> (2016): "A robust music genre classification approach for global and regional music datasets evaluation", in:
+                        <hi rend="italic" xml:space="preserve"> IEEE International Conference on Digital Signal Processing (DSP).</hi>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Fell, Michael / Caroline Sporleder</hi> (2014): "Lyrics-based analysis and classification of music", in: 
+                        <hi rend="italic">Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics.</hi>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Hess-Lüttich, Ernest WB.</hi> (2009): "Rap-Rhetorik. Eine semiolinguistische Analyse schweizerischer rap-lyrics", in: 
+                        <hi rend="italic">Ars Semeiotica 32.</hi>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Körner, Stefan</hi> (2012): "Bob, Pop, Bibel-die Spuren der Bibel in den Songtexten Bob Dylans." 
+                        <hi rend="italic">Pastoraltheologie</hi> 101 (12): 503-521.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kreyer, Rolf / Joybrato Mukherjee</hi> (2007): "The style of pop song lyrics: A corpus-linguistic pilot study." in: 
+                        <hi rend="italic">Anglia-Zeitschrift für englische Philologie</hi> 125 (1): 31-58.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kuhn, Elisabeth D.</hi> (1999): "‘I just want to make love to you’–Seductive strategies in blues lyrics", in: 
+                        <hi rend="italic">Journal of pragmatics</hi> 31 (4): 525-534.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Liu, Bing</hi> (2016): 
+                        <hi rend="italic">Sentiment analysis: Mining opinions, sentiments, and emotions.</hi> New York: Cambridge University Press.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Mohammad, Saif</hi> (2011): "From once upon a time to happily ever after: Tracking emotions in novels and fairy tales.", in: 
+                        <hi rend="italic">Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi> 105-114.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Moretti, Franco</hi> (2002): “Conjectures on World Literature” in: 
+                        <hi rend="italic">New Left Review</hi> Jan / Feb: 54–68.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Napier, Kathleen / Lior, Shamir</hi> (2018): "Quantitative Sentiment Analysis of Lyrics in Popular Music", in: 
+                        <hi rend="italic">Journal of Popular Music Studies</hi> 30 (4): 161-176.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Nalisnick, Eric T. / Baird, Henry S.</hi> (2013): "Character-to-character sentiment analysis in shakespeare’s plays.“, in
+                        <hi rend="italic">: Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics</hi> 479–483.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Nishina, Yasunori</hi> (2017): "A study of pop songs based on the billboard corpus." in: 
+                        <hi rend="italic">Int. J. Lang. Linguist</hi> 4 (2): 125-134.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Pettijohn, Terry F. / Donald F. Sacco Jr.</hi> (2009): "The language of lyrics: An analysis of popular Billboard songs across conditions of social and economic threat", in: 
+                        <hi rend="italic" xml:space="preserve">Journal of Language and Social Psychology </hi>28(3): 297-311.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Pfahler, Lukas / Elwert, Frederik / Tabti, Samira / Morik, Katharina / Krech, Volker</hi> (2018): "Versuche zum distant reading religiöser Online-Foren“: in 
+                        <hi rend="italic">Book of Abstracts, DHd 2018.</hi>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Remus, Robert / Quasthoff, Uwe / Gerhard, Heyer</hi> (2010): "SentiWS-A Publicly Available German-language Resource for Sentiment Analysis.", in: 
+                        <hi rend="italic">LREC:</hi> 1168-1171.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Riedemann, Frank</hi> (2012): "Computergestützte Analyse und Hit-Songwriting.", in: 
+                        <hi rend="italic">Black box pop. Analysen populärer Musik</hi>: 43-56.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Stiegler, Christian</hi> (2009): 
+                        <hi rend="italic">Nur ein Wort.</hi> Dissertation, Universität Wien.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Werner, Valentin</hi> (2012): “Love is all around: A corpus-based study of pop lyrics.” in: 
+                        <hi rend="italic">Corpora</hi> 7 (1): 19–50.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">West, Alan / Colin Martindale</hi> (1996): "Creative trends in the content of Beatles lyrics" 
+                        <hi rend="italic">Popular Music &amp; Society</hi> 20 (4): 103-125.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold" xml:space="preserve">Whissell, Cynthia </hi>(1996): "Traditional and emotional stylometric analysis of the songs of Beatles Paul McCartney and John Lennon", in: 
+                        <hi rend="italic">Computers and the Humanities</hi> 30 (3): 257-265.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Whissell, Cynthia</hi> (2008): "Emotional fluctuations in Bob Dylan's lyrics measured by the Dictionary of Affect accompany events and phases in his life", in
+                        <hi rend="italic">: Psychological reports</hi> 102 (2): 469-483.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

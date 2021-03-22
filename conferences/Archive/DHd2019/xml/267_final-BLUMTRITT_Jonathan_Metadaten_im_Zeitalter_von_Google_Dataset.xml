@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="267_final-BLUMTRITT_Jonathan_Metadaten_im_Zeitalter_von_Google_Dataset" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Metadaten im Zeitalter von Google Dataset Search</title>
+                <author>
+                    <persName>
+                        <surname>Blumtritt</surname>
+                        <forename>Jonathan</forename>
+                    </persName>
+                    <affiliation>Data Center for the Humanities, Universität zu Köln</affiliation>
+                    <email>jonathan.blumtritt@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rau</surname>
+                        <forename>Felix</forename>
+                    </persName>
+                    <affiliation>Institut für Linguistik, Universität zu Köln</affiliation>
+                    <email>frau@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Metadaten</term>
+                    <term>Kuratierung</term>
+                    <term>Forschungsdatenmanagement</term>
+                    <term>Suchportale</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Archivierung</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Perspektiven auf Kuratieren, Suchen, Finden und Präsentieren aus der Praxis</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Relevanz des Themas</head>
+                <p>Metadaten sind Teil einer jeden datenbezogenen Forschungspraxis und ein essentieller Bestandteil einer jeden Forschungsdatenmanagementstrategie. Auch wenn Metadatenproduktion und -kuration oft einen von den Forscher*innen ungeliebten Aspekt der Projektarbeit darstellt, ist die durch Metadaten sichergestellte Find- und Zitierbarkeit von Daten für die Forschungsgemeinschaft und insbesondere auch für die Geldgeber von höchstem Interesse. Einzelne Datenzentren und nationale und internationale Forschungsinfrastrukturen haben seit Jahren in die Verbesserung der Findmechanismen investiert. Mit dem Eintritt von großen kommerziellen Anbietern wie Google und Elsevier in die Suche wissenschaftlicher Daten(sätze) kündigen sich in den letzten Monaten massive Änderungen in der Landschaft an. Als einzelnes fach- oder datentypspezifisches Repositorium müssen wir in dieser Landschaft den Erwartungen und Anforderungen von Depositor, Geldgebern, und potentiellen Nachnutzern gerecht werden, während wir mit unseren Geld- und Personalressourcen verantwortungsvoll umgehen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Problemstellung</head>
+                <p>Forschungsdatenzentren und Forschungsinfrastrukturen wenden einen bedeutenden Teil ihrer personellen und finanziellen Ressourcen für die Modellierung und Kuration von Daten und Metadaten auf. Bereitstellung und Erhalt von oft komplexen Suchfunktionalitäten und die Schaffung von Anschlussfähigkeit der Metadatenschemata mit externen wissenschaftlichen und fachspezifischen Suchportalen ist arbeitsaufwändig und wartungsintensiv. </p>
+                <p>Viele Forschungsdatenzentren haben in den letzten Jahren komplexe Metadatenschemata entwickelt, die die Vielschichtigkeit des Gegenstandes detailliert abbilden. Dabei gibt es durchaus eine Tendenz zur fachspezifischen Übermodellierung von Metadaten in hochkomplexen Schemata. Diese repositoriums- und gegenstandsspezifischen Schemata bilden sowohl den grundlegenden Inhalt der Webseiten des einzelnen Repositoriums als auch das Ausgangsmaterial um externe wissenschaftliche Datensuchportale zu bedienen. </p>
+                <p>Da diese komplexen Datensätze der einzelnen Portale in den gängigen Findmechanismen des Webs  – insbesondere in der noch stets dominanten Google Web Search – aus verschiedenen Gründen schlecht erfasst werden, wurden in den letzten Jahrzehnt Metasuchportale entwickelt um eine repositoriumsübergreifende Findbarkeit sicherzustellen. Diese Metaportale sind normalerweise an eine Domäne gebunden. Die Domäne kann der Nationalstaat sein, wie beim niederländischen Portal 
+                NARCIS<hi rend="superscript">1</hi>, sie kann an eine Forschungsinfrastruktur gebunden sein, wie im Falle des CLARIN 
+                VLO<hi rend="superscript">2</hi>, sie kann fachspezifisch sein, wie im Falle des OLAC-Portals für 
+                Spracharchive<hi rend="superscript">3</hi>, oder der Service kann an einen anderen Infrastrukturservice gekoppelt sein, wie die Koppelung der 
+                DataCite-Suche<hi rend="superscript">4</hi> an die DOI-Registrierung. 
+                </p>
+                <p>Es ist unumstritten, dass eine einfache Auffindbarkeit und Zugänglichkeit von Datensätzen ein zentraler Baustein der Nachnutzung von Forschungsdaten ist und deshalb die Möglichkeit gefunden zu werden höher zu bewerten ist, als die Genauigkeit der zu grunde liegenden Metadaten, und die verschiedenen Metasuchportale versprechen dies zu leisten. Die Existenz dieser Metaportale hat dazu geführt, dass einzelne Repositorien die Investition in maßgeschneiderte Webinterfaces verzichtet und sich Datenzentren auf Kuration und Bereitstellung der Metadaten über (Harvesting-)Schnittstellen konzentrieren. Dies ist auch eine Reaktion auf die Tatsache, dass die in wissenschaftlichen Projekten erstellten Portale oft nicht die Qualität und Nutzerfreundlichkeit erreichen, die Nutzer*innen aus kommerziellen Webangeboten gewöhnt sind, und anspruchsvolle Webseiten, bedingt durch die Kurzlebigkeit modernen Webtechnologien sehr wartungs- und kostenintensiv sind.</p>
+                <p>Um die Diversität und Komplexität der einzelnen Metadatenschemata handhabbar zu machen, reduzieren die Metaportale die Angaben auf kompakte und flache Strukturen, die oft aus nicht mehr als Listen von Key-Value-Paaren bestehen. Das DARIAH-DE Repository hat sich für den geradezu radikalen Schritt entschieden für das Anlegen einer Kollektion im Deposit-Interface “Publikator” gerade mal drei Pflichtfelder zu definieren (Mache &amp; Klaffki 2018). Diese sind 
+                    <hi rend="italic">Titel</hi>, 
+                    <hi rend="italic">Urheber*in</hi> und 
+                    <hi rend="italic">Rechteverwaltung</hi> (Linzenzbestimmung).
+                </p>
+                <p>Die komplexen Metadatenschemata in Kombination mit der Verarbeitung der Metadaten in den Metaportale hat aber auch den Effekt, dass Angaben, die nicht mit Blick auf die vereinfachte Repräsentation in den Metaportalen angelegt wurden, ohne Kontext nicht mehr verständlich sind. So kann ein Feld “Description”, das sich auf ein Objekt wie Sprache oder Sprecher in einem komplexen Metadatenschemas bezieht, in einem Metaportal so dargestellt werden, als würde es sich auf den gesamten Datensatz beziehen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zustand</head>
+                <p>Das 
+                    <hi rend="italic">Kölner Zentrum Analyse und Archivierung von AV</hi>
+                    <hi rend="italic" style="font-family:Cambria Math">‐</hi>
+                    <hi rend="italic">Daten</hi> (KA³) wird seit 2015 als Verbundvorhaben vom BMBF gefördert. Partner sind das 
+                    <hi rend="italic">Max-Planck-Institut für Psycholinguistik</hi> in Nimwegen (Niederlande), das 
+                    <hi rend="italic">Fraunhofer-Institut IAIS</hi> in Sankt Augustin, das 
+                    <hi rend="italic">Archiv “Deutsches Gedächtnis”</hi> der FernUniversität Hagen sowie drei Akteure an der Universität zu Köln - das
+                    <hi rend="italic" xml:space="preserve"> Regionalen Rechenzentrum</hi>, das 
+                    <hi rend="italic">Institut für Linguistik</hi> und das 
+                    <hi rend="italic">Data Center for the Humanities</hi>. Ein zentraler Bestandteil des Vorhabens ist die Etablierung eines Forschungsdatenrepositoriums am Kölner Standort. Hier werden vor allem Daten aus der linguistischen Sprachdokumentation kuratiert und archiviert und eine Ausweitung auf annotierte oder transkribierte audiovisuelle Daten aus methodisch verwandten Fachdisziplinen wie z.B. den ethnologischen Fächern oder der Oral History vorbereitet. Ein festgeschriebenes Projektziel ist die vollständige Integration des Repositoriums und Archivs 
+                    <hi rend="italic">Language Archive Cologne</hi> in die CLARIN-Forschungsinfrastruktur. Die Nähe zum Forschungsalltag der linguistischen Sprachdokumentation und die Anbindung an CLARIN bringen Bedingungen und Traditionen mit, die zu berücksichtigen sind.
+                </p>
+                <p>Die Mehrheit der Metadaten in diesem Fachbereich liegen im 
+                IMDI-Format<hi rend="superscript">5</hi> vor. Das Format wird aktiv nur noch in wenigen Spracharchiven weltweit eingesetzt, hat aber nachhaltig die Konzeptualisierung von Metadaten in der Fachgemeinschaft geprägt. Der ausladende Charakter und das akademische Eingabetool, das primär genutzt 
+                wurde,<hi rend="superscript">6</hi>  wurden in dem Wunsch geschaffen, die Bandbreite der Forschungstätigkeit zu inkludieren. Hier verschwimmen die Grenzen zwischen Daten und Metadaten.
+                </p>
+                <p>Die CLARIN-Forschungsinfrastruktur macht klare Vorgaben bezüglich der Vorhaltung und Publikation von Metadaten durch die angeschlossenen Zentren. Metadaten müssen im  CMDI-Metadatenformat verfügbar und über eine OAI-PMH Schnittstelle harvestbar sein. Die in der CMDI Component Metadata Registry definierten Profile können frei im Rahmen der existierenden Best Practices modelliert werden (CMDI 2018). Durch ein semantisches Mapping über die CLARIN Concept Registry soll eine semantische Interoperabilität von Metadatenkategorien gewährleistet werden.</p>
+                <p>Metadaten in der CLARIN-Infrastrukur werden durch das Metasuchportal 
+                    <hi rend="italic" xml:space="preserve">Virtual Language Observatory </hi>(VLO) geharvestet und dargestellt. Durch eine festgelegte Anzahl von Metadatenkategorien, die in jedem spezifischen Metadatenprofil durch Vergabe der entsprechenden Konzepten kenntlich gemacht werden müssen, werden die durchsuchbaren und facettierbaren Kategorien festgelegt. Mit der Zuordnung von bestehenden Metadatenfeldern zu definierten Kategorien (facet mapping) bestimmt der Metadatenprovider also letztendlich das Erscheinungsbild seiner Daten im VLO.
+                </p>
+                <p>Zu den relevanten internationalen Infrastrukturen und Findmechanismen, die nicht in CLARIN organisiert sind, zählt vor allem der Katalog und die Metasuchmaschine der Open Language Archives Community (OLAC). OLAC hat ein eigenes sprachressourcen-orientiertes Metadatenformat und funktioniert ebenfalls nach dem Harvester-Prinzip über die Bereitstellung einer OAI-PMH-Schnittstelle durch den Metadatenprovider.</p>
+                <p>Ein wichtiger Gravitationspunkt für eine nicht-fachspezifische übergreifende internationale Adressierbarkeit und Discoverability von Forschungsdatensätzen sind die Dienste des DataCite Konsortiums in Verbindung mit der Registrierung von Digitial Object Identifier (DOIs) für jeden Datensatz. Mit jeder DOI wird ein einfacher, aber erweiterbarer, Metadatensatz registriert, der durch die DataCite Metadatensuche auffindbar wird. DOI und DataCite ist es gelungen, dass die Vergabe mit positiven und progressiven Effekten assoziiert wird, wie Anerkennung akademischer Leistungen und Wissenschaftlichkeit des Inhalts, sodass erfolgreich eine Nachfrage aus der Forschung generiert wird. Das Metadatenschema wird damit als Referenz für eine nicht-fachspezifische Beschreibung von Forschungsdatensätzen weiter an Bedeutung gewinnen. Metadatensätze werden hier aktiv durch den Metadatenprovider über eine Schnittstelle bei DataCite registriert.</p>
+                <p>Die übergreifenden Metadatenportale müssen sich mit der Nutzerfreundlichkeit und Performanz von kommerziellen Webdiensten messen. Hierbei liegt auf der Hand, dass die Qualität der Suche maßgeblich von der Qualität der Metadaten und vor allem die Verlässlichkeit und Passung der Metadatenkategorien abhängt, über die sie selbst nur bedingt Kontrolle haben. </p>
+                <p>Es ist also angebracht, dass sich Forschungsdatenarchive und Forscher bei der Konzeptualisierung von Metadaten und bei der Kuratierung nicht ausschließlich auf die Abbildung des zugrunde liegenden Forschungsgegenstands versteifen, sondern vielmehr Metadaten von ihren intendierten Disseminationskanälen her zu denken. In Zukunft wird es immer wichtiger sein, wie Daten in den jeweiligen Meta-Portalen aussehen werden.</p>
+                <figure>
+                    <graphic n="1001" width="14.054694444444445cm" height="8.50055cm" url="267_final-27a27ab9294b5e61fc961f47769238f2.png" rend="inline"/>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erwartungen und Veränderungen</head>
+                <p>Der neueste Ankömmling im Bereich der wissenschaftlichen Datensatz-Suche ist Google mit Google Dataset 
+                Search<hi rend="superscript">7</hi>. Dieser Service befindet sich noch im Beta-Stadium und ändert sich täglich. Die grundlegende Ausrichtung und die zugrundeliegenden Technologien sind aber bereits 
+                dokumentiert<hi rend="superscript">8</hi> und mehr oder weniger stabil. Google basiert die Datensatz-Suche auf Technologien und Strategien der Websuche auf. Nachdem Google seinen Support für OAI-PMH-Schnittstellen 2008 (Mueller 2008) eingestellt hatte, ist es nicht unerwartet, dass sie, anstatt Metadaten, über spezielle Schnittstellen abzufragen oder eine Registrierung zu erfordern, durch das Crawlen der Webseiten von Repositorien und Portalen erfasst werden. Dabei werden strukturierte Daten, die mit Hilfe der Linked-Data-Technologien 
+                JSON-LD<hi rend="superscript">9</hi> oder 
+                RDFa<hi rend="superscript">10</hi> und den 
+                Ontologien <hi rend="italic">schema.org</hi><hi rend="superscript">11</hi> oder 
+                    <hi rend="italic">W3C Data Catalog Vocabulary</hi><hi rend="superscript">12</hi> ausgezeichnet wurden, als Grundlage der Darstellung und wahrscheinlich auch des Suchindexes genommen. Durch diese Technologieentscheidungen wird eine flache Metadatenstruktur, bestehend aus einfachen Key-Value-Paaren und eine allgemeine, fachagnostische Datenfeldsemantik, bedingt. Der Fokus auf HTML-Webseiten und allgemeine Webtechnologien für strukturierte Daten als Hauptschnittstelle für Metadaten bedeutet eine grundlegende Abkehr von den gängigen Praktiken in der wissenschaftlichen Technologielandschaft. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick und mögliche Antworten</head>
+                <p>Die aktuellen Veränderungen in der Datensatzsuche bedeuten auf der einen Seite, dass Findbarkeit immer weiter aus der Kontrolle der einzelnen Repositorien in die Hand von Metaportalen und Drittanbietern wie Google und 
+                Elsevier<hi rend="superscript">13</hi> geht. Auf der anderen Seite bedeutet der durch Google angedeutete Technologiewechsel eine Stärkung der Webinterfaces der einzelnen Repositorien. Die Webseite ist damit wieder primäre Schnittstelle. Repositorien werden die Semantik ihrer Metadaten stärker von den intendierten Disseminationskanälen her denken müssen und einzeln und in Verbünden Strategien für die nachhaltige Findbarkeit entwickeln.
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note place="foot" xml:id="ftn1" n="1"> <ref target="https://www.narcis.nl/">https://www.narcis.nl/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn2" n="2"> <ref target="https://vlo.clarin.eu/">https://vlo.clarin.eu/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn3" n="3"> <ref target="http://search.language-archives.org">http://search.language-archives.org</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn4" n="4"> <ref target="https://search.datacite.org/">https://search.datacite.org/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn5" n="5"> <ref target="https://www.mpi.nl/ISLE/">https://www.mpi.nl/ISLE/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn6" n="6"> <ref target="https://tla.mpi.nl/tools/tla-tools/arbil/">https://tla.mpi.nl/tools/tla-tools/arbil/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn7" n="7"> <ref target="https://toolbox.google.com/datasetsearch">https://toolbox.google.com/datasetsearch</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn8" n="8"> <ref target="https://developers.google.com/search/docs/data-types/dataset">https://developers.google.com/search/docs/data-types/dataset</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn9" n="9"> <ref target="https://www.w3.org/TR/json-ld/">https://www.w3.org/TR/json-ld/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn10" n="10"> <ref target="https://www.w3.org/TR/rdfa-primer/">https://www.w3.org/TR/rdfa-primer/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn11" n="11"> <ref target="https://schema.org/">https://schema.org/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn12" n="12"> <ref target="https://www.w3.org/TR/vocab-dcat/">https://www.w3.org/TR/vocab-dcat/</ref>, 11.01.2019.</note>
+				<note place="foot" xml:id="ftn13" n="13"> <ref target="https://datasearch.elsevier.com/">https://datasearch.elsevier.com/</ref>, 11.01.2019.</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Blumtritt, J. / Rau, F. (2016):</hi> 
+                        <hi rend="italic">User-Experience von Spracharchiven: Eine Neubewertung der Interaktion von Archiv und Nutzern</hi>, 
+                        in: Digital Humanities im deutschsprachigen Raum (DHd 2016), Leipzig. 
+                        <ref target="http://dhd2016.de/boa.pdf%23page=215">http://dhd2016.de/boa.pdf#page=215</ref>.
+                    </bibl>
+                    <bibl style="text-align:left;">
+                        <hi rend="bold">CMDI and Metadata Curation task forces of the Standing Committee on CLARIN Technical Centres (2018):</hi> 
+                        <hi rend="italic">CMDI Best Practices</hi>, Version 1.1.1, 
+                        <ref target="https://github.com/clarin-eric/cmdi-best-practices/releases">https://github.com/clarin-eric/cmdi-best-practices/releases</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mache, B. / Klaffki, L. (2018):</hi> 
+                        <hi rend="italic">Das DARIAH-DE Repository. Elementarer Teil einer modularen Infrastruktur für geistes- und kulturwissenschaftliche Forschungsdaten</hi>, 
+                        in: O-Bib. Das Offene Bibliotheksjournal / Herausgeber VDB, 5(3) 2018, 92-103. 
+                        <ref target="https://doi.org/10.5282/o-bib/2018H3S92-103">https://doi.org/10.5282/o-bib/2018H3S92-103</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mueller, John (2008):</hi> 
+                        <hi rend="italic">Retiring support for OAI-PMH in Sitemaps</hi>. 
+                        <ref target="https://webmasters.googleblog.com/2008/04/retiring-support-for-oai-pmh-in.html">https://webmasters.googleblog.com/2008/04/retiring-support-for-oai-pmh-in.html</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schaffner, J. (2009):</hi> 
+                        <hi rend="italic">The Metadata is the Interface: Better Description for Better Discovery of Archives and Special Collections, Synthesized from User Studies</hi>, 
+                        in: Report produced by OCLC Research. 
+                        <ref target="https://www.oclc.org/content/dam/research/publications/library/2009/2009-06.pdf">https://www.oclc.org/content/dam/research/publications/library/2009/2009-06.pdf</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

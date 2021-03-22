@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sektionen-005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transbiblionome Daten in der Literaturwissenschaft. Texttechnologische Erschließung und digitale Visualisierung intertextueller Beziehungen digitaler Korpora</title>
+        <author>
+          <name>
+            <surname>Wagner</surname>
+            <forename>Benno</forename>
+          </name>
+          <affiliation>Beijing Institute of Technology, China, Volksrepublik</affiliation>
+          <email>wagner@lit-wiss.uni-siegen.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Mehler</surname>
+            <forename>Alexander</forename>
+          </name>
+          <affiliation>Universität Frankfurt</affiliation>
+          <email>mehler@em.uni-frankfurt.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Biber</surname>
+            <forename>Hanno</forename>
+          </name>
+          <affiliation>Österreichische Akademie der Wissenschaften</affiliation>
+          <email>Hanno.Biber@oeaw.ac.at</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-09T07:44:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Sektion</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Texttechnolgie</term>
+          <term>Intertextualitätsforschung</term>
+          <term>Online Edition</term>
+          <term>wikidition</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Introduction</head>
+        <quote>“digital humanities” boils down to using computers to do exactly the same silo-ed and intellectually buttoned down work that people did before. But it's always easier to get money for equipment (i.e. computers to make a million concordances) than it is to re-envision a field. People in this kind of digital humanities are very concerned with “preservation” in every sense of the word — preservation of the status quo, of themselves and their jobs, and of the methods and fields of the past.</quote>
+        <quote>(Lisa Nakamura)</quote>
+        <quote>Letztlich reicht es nicht aus, auf Seiten der Objektbasis unablässig neu digitales Material zu akkumulieren. Parallel dazu müsste auf Seiten der Forschung die Bereitschaft zum aktiven Einsatz technologisch und methodisch innovativer Verfahren gefördert werden. Die Digitalisierung allein ohne eine begleitende Theoriedebatte und ohne ein verfeinertes methodisches Rüstzeug betreiben zu wollen dürfte zu verkürzten Ergebnissen führen.</quote>
+        <quote> (Embach / Andrea 2008)</quote>
+        <p>Die Sektion und ihr Leitkonzept, d. h. transbiblionome Daten, reagiert auf die
+          zitierten Postulate, indem sie die Konferenz-Leitfrage: „Was sind Daten in den
+          Geisteswissenschaften?“ an einem spezifischen Aspekt literarischer Texte und
+          ihrer Nutzung aufgreift, nämlich ihrer Intertextualität. Seit den
+          Medienverbünden der literarischen Moderne funktioniert Literatur essentiell als
+          Intertext, als Relais zwischen anderen Texten. Lektüre wird damit zu einer Suche
+          „von Buch zu Buch“ nach „etwas, was zwischen den Inhalten aller einzelnen Bücher
+          schwebt, was diese Inhalte in eins zu verknüpfen vermöchte“ (von Hofmannsthal
+          2000: 111). Im Unterschied zu <hi rend="italic">paratextuellen</hi> Daten wie
+          Textvarianten, Konkordanzen, Erläuterungen, Quellen etc. sind <hi rend="italic"
+          >intertextuelle</hi> Daten relational, d. h. sie bezeichnen die (z. B.
+          semantischen) <hi rend="italic">Beziehungen</hi> eines literarischen Textes
+          (Matrix-Text) zum Archiv aller vorgängigen und zeitgleichen Texte. Sie sind
+          Daten (gegeben) in dem eingeschränkten Sinn, dass sie jeweils aus der Differenz
+          zwischen zwei Texten emergieren. Diese <hi rend="italic">transbiblionomen</hi>,
+          die Ordnung des Buches und seiner Einheiten überschreitenden Daten bewirken
+          zudem eine laufende Modifizierung der Daten des Matrix-Textes, indem sie dessen
+          (lexikalischen, syntaktischen und semantischen) Einheiten je nach
+          Kontextualisierung unterschiedliche Signifikanz bzw. Verknüpfungsdichte
+          zuweisen. Hieraus ergibt sich für den textbezogenen Sektor der <hi rend="italic"
+          >Digital Humanities</hi> die Herausforderung, das transbiblionome Medium des
+          Computers nicht länger für rein biblionom formulierte Aufgaben zu verwenden,
+          sondern dessen Potential für die Erschließung, Aufbereitung und kollaborative
+          Nutzbarmachung transbiblionomer (intertextueller) Daten zu erproben. </p>
+          <p>In den Beiträgen dieser Sektion (1) wird eine literatur- und medientheoretische Definition transbiblionomer Daten gegeben, ihre Problematisierungsgeschichte knapp resümiert und ihr Stellenwert für Literaturforschung im digitalen Zeitalter illustriert; (2) ein erfolgreich etabliertes digitales Korpus (<ref target="http://www.aac.ac.at/fackel">fackel-online</ref> des Austrian Academy Corpus) vorgestellt, dessen Textbestand aufgrund seiner programmatischen (zitierenden, anspielenden, parodierenden) Referenz auf ein umfangreiches Korpus anderer Texte (die zeitgenössische Presseberichterstattung) besonders nachdrücklich die Öffnung auf transbiblionome Daten (die extrem große Zahl der zitierten Pressetexte) nahelegt; (3) eine Texttechnologie namens
+          <hi rend="italic">Wikidition</hi> zur automatischen Generierung lexikalischer, syntaktischer, semantischer und textueller Links vorgeführt, die es Literaturforschern erstmals ermöglichen wird, intertextuelle Bezüge zwischen Matrix-Texten und großen Kontext-Korpora (etwa Jahresbänden einer Tagezeitung) umfassend zu erschließen, zu evaluieren, und zu visualisieren. Die Sektion reagiert damit theoretisch und praktisch auf die Leitfragen nach dem theoretischen und technologischen Status von Daten in den
+          <hi rend="italic">Digital Humanities</hi> sowie nach den Verfahren ihrer Modellierung und Visualisierung.
+        </p>
+      </div>
+      <div type="div1" rend="DH-Heading1">
+        <head>Transbiblionome Daten: Problemgeschichtlicher Abriss und aktuelle Herausforderungen</head>
+        <p> <hi rend="italic">Benno Wagner; Beijing Institute of Technology</hi></p>
+        <p>Moderne Literatur funktioniert essentiell intertextuell und intermedial. Mit dem Heraufkommen der neuen Konkurrenz-Medien (Photographie und Film, Telegraf und Telefon) und mit der Ablösung der Referenzinstitution Bibliothek durch globale Informationssysteme (Rayward 2008) sowie das alle Lebensbereiche durchdringende Wissen moderner Verwaltungen existiert Schrift nurmehr im Spannungsverhältnis zwischen Buchgebundenheit und einem zunehmend
+          <hi rend="italic">transbiblionom</hi> organisierten kulturellen Kontext. Der literarische Text gerät auf diese Weise einerseits zum „geometrischen Ort eines hors-texte“, zu einem „Kreuzungspunkt von Schichten, die Myriaden von Horizonten entspringen“ (Topia 1984: 103). Anderseits wird Literatur unter diesen Bedingungen zu einer besonderen Instanz des kulturellen Gedächtnisses. Sie lässt sich als komplexer „Spurenkörper“ (Pêcheux 1983: 55) beschreiben, oder – jedenfalls in ihren raffiniertesten und reflektiertesten Schreibweisen – auch als „hypermnemische Maschine“ (Derrida 1984: 147), als dynamischer Erinnerungsapparat, dessen virtuelles Verweispotential auf andere Texte die Ordnungsraster realer Wissensspeicher (Enzyklopädien, Bibliotheken, Archive) durchkreuzt. Bilden die letzteren Datensätze aus Relationen erster Ordnung, so sind die genuin intertextuellen Daten stets Relationen zweiter Ordnung (Relationen von Relationen). M.a.W.: sie lassen im Paradigma eines Textsyntagmas nicht nur lexikalische Einheiten erscheinen, sondern ganze Textfragmente, also wiederum Syntagmen.
+        </p>
+        <p>So schrieb Derrida in der
+          <hi rend="italic">Grammatologie</hi> zunächst:
+        </p>
+        <quote>„Es geht […] nicht darum, der Buchhülle noch nie dagewesene Schriften
+          einzuverleiben, sondern endlich das zu lesen, was in den vorhandenen Bänden
+          schon immer zwischen den Zeilen geschrieben stand. Mit dem Beginn einer
+          zeilenlosen Schrift wird man auch die vergangene Schrift unter einem veränderten
+          Organisationsprinzip lesen. […] Was es heute zu denken gilt, kann in Form der
+          Zeile oder des Buches nicht niedergeschrieben werden; ein derartiges Unterfangen
+          käme dem Versuch gleich, die moderne Mathematik mit Hilfe einer
+          Rechenschiebermaschine zu bewältigen.“ Stattdessen avisiert er, diesmal mit
+          Leroi-Gourhan, „eine andere[n], bereits vorstellbare[n] Art der Speicherung […],
+          deren rasche Verfügbarkeit der des Buches überlegen sein wird: die große
+          ‚Magnetothek‘ mit elektronischer Auswahl wird in naher Zukunft vorselektierte
+          und sofort verfügbare Informationen liefern“ (Derrida 1967: 154-155). </quote>
+          <p>Knapp zwei Jahrzehnte später hingegen, in einem Aufsatz aus dem Jahre 1984, konfrontiert uns Derrida mit einem ganz anderen und scheinbar diametral entgegengesetzten Szenario. Im Bezug auf den
+            <hi rend="italic">Ulysses</hi> von Joyce heißt es nun:
+          </p>
+          <quote>„for there be no simple confusion between him [Joyce] and a sadistic demiurge, setting up a hypermnesiac machine, there in advance, decades in advance, to compute you, control you, forbid you the slightest inaugural syllable because you can say nothing that is not programmed on this 1000th generation computer […] beside which the current technology of our computers and micro-computerfied archives and translating machines remains a bricolage of a prehistoric child's toys” (Derrida 1984: 147). </quote>
+          <p>Hier hat sich offenbar das Komplexitätsgefälle zwischen Druckschrift und elektronischem Speicher verkehrt. Die lineare Schrift ist nicht länger Komplexitäts-Engpass, sondern sie fungiert selbst als Quelle einer überbordenden Komplexität.
+            <hi rend="italic">Sie</hi> ist nun der "Computer der 1000. Generation", im Vergleich zu dem die elektronischen Speichermedien als Problem erscheinen, als eine dem Gegenstand der Druckschrift unangemessene, prähistorische Spielerei.
+          </p>
+          <p>Betrachtet man nun den Einsatz von Computern zu Zwecken der Literaturforschung seit den 1990er Jahren, so drängt sich der Eindruck auf, als habe jedes der beiden Zitate eine Arbeitsperspektive eröffnet, die von der jeweils anderen nichts zu wissen scheint. So haben Autoren wie George Landow und Jay Bolter, in einer eigentümlichen Einebnung des Unterschieds zwischen der syntagmatischen und der paradigmatischen Text-Dimension, den elektronischen Hypertext kurzerhand zu jenem Medium deklariert, mit dessen Hilfe sich das intertextuelle Verweispotential eines literarischen Textes restlos implementieren, der vieldimensionale literarische Text sich aus dem Zwang der Zeile befreien ließe. Hierzu konstatiert Moritz Baßler: </p>
+          <quote>„Landows Parallelisierung von Hypertext mit jenem poststrukturalistischen
+            Textbegriff, den Barthes in S/Z entwickelt, setzt sich über den elementaren
+            Unterschied von syntagmatischer und paradigmatischer Textdimension großzügig
+            hinweg. […] Dabei handelt es sich jedoch um zwei vollkommen verschiedene Dinge,
+            denn ein Hypertext mag so nonlinear sein wie er will – das betrifft doch immer
+            nur die Sequenz, in seiner paradigmatischen Dimension dagegen unterscheidet er
+            sich nicht vom normalen Text“ (Baßler 2005: 307-308). </quote>
+            <p>Sehr viel erfolgreicher gestaltet sich computergestützte Literaturforschung immer
+              dann, wenn sie die transbiblionome Dimension der Intertextualität von vornherein
+              aus ihrem Gegenstandsbereich ausschließt. Dies geschieht zumeist
+              stillschweigend, bisweilen aber auch mit programmatischem Nachdruck, wenn sich
+              etwa die in Deutschland etablierte Computerphilologie explizit auf die Befassung
+              mit „traditionellen philologischen Gegenständen“ und damit das Potential des
+              Computers auf die Optimierung biblionomer Funktionen sowie auf die Herstellung
+              dezentraler Forschungskollaborationen beschränkt (Meister 2005: 326). Als ein
+              auf dieser biblionomen Basis erfolgreich etabliertes Projekt stellen wir die
+              digitale Edition der <hi rend="italic">Fackel </hi>des Austrian Academy Corpus
+              vor. Das digitale <hi rend="italic">Fackel</hi>-Korpus kann zugleich als
+              Testfall für die hier postulierte transbiblionome Erweiterung dienen, weil sein
+              Textbestand aufgrund der programmatischen (zitierenden, anspielenden,
+              parodierenden) satirischen und polemischen Referenz auf umfangreiche Korpora
+              anderer Texte (die zeitgenössische Presseberichterstattung, die zeitgenössische
+              Literatur) besonders nachdrücklich die Öffnung auf intertextuelle Daten (die
+              extrem große Zahl der zitierten Pressetexte) nahelegt. </p>
+              <p>Eine auf intertextuelle Verlinkung orientierte
+                <hi rend="italic">transbiblionome Literaturforschung</hi> wird also auf biblionome Digitalisierungen von Datensätzen erster Ordnung funktional aufsetzen. Ihre methodische und technische Entwicklung hätte sich vor dem skizzierten Erfahrungshintergrund an drei Leitlinien zu orientieren:
+              </p>
+              <p>(1) <hi rend="italic">Zielsetzung</hi>: Transbiblionome Digital Humanities zielt
+              auf die computergestützte Erschließung und Darstellung der intertextuellen und
+              intermedialen Dimension literarischer Texte jenseits einer Beschränkung auf
+              einen biblionomen Forschungshorizont und der Fixierung auf das
+              Visualisierungspotential von Hypertext. Als technische Grundlage hierfür hätte
+              eine auf die Generierung und Verwaltung intertextueller Daten zielende digitale
+              Arbeitsumgebung zu dienen, die zugleich die dezentrale Kollaboration von
+              Experten(gruppen) und eine nutzerspezifisch differenzierte Aufbereitung der
+              Forschungsergebnisse ermöglicht. In dieser Sektion stellen wir mit <hi
+              rend="italic">Wikidition</hi> eine Software vor, welche die ersten beiden
+              Aspekte dieses Anforderungsprofils texttechnologisch umsetzt. </p>
+              <p>(2)
+                <hi rend="italic">Theorie</hi>: Unter den genannten Bedingungen kann und muss sich das zugrundeliegende Intertextualitäts-Modell der methodischen Alternative entziehen, mittels derer die printorientierte Methodendiskussion (insbesondere der 70er und 80er Jahre) sich um eine „Zähmung“ (Lachmann 1984: 137) des transbiblionomen Potentials ‚moderner‘ Intertextualität bemüht hatte: Hier eine ‚geschlossene‘, durch unterstellte Verknüpfungsabsichten des Autors oder faktische Verknüpfungsoperationen des Lesers begrenzte, dort eine unmittelbar auf das System der langue bezogene ‚offene‘ und daher, zumal unter Bedingungen einer printfixierten Forschung, forschungspraktisch niemals einholbare Intertextualität. Baßlers Entwurf eines ‚archivimmanenten Strukturalismus‘ (Baßler 2005), der den intertextuellen Raum (das ‚Paragrammaire‘ nach J. Kristeva) eines Bezugstextes auf eine historische Positivität von Kontext-Dokumenten bezieht, die er ‚Archiv‘ nennt, kann hier als fundierte und konstruktive Alternative dienen, deren Begrifflichkeit sich unmittelbar auf die Konzepte und Leistungen einer digitalen Texttechnologie beziehen lässt. Präzisierungen und Erweiterungen der Theorie werden dort anzustreben sein, wo das 'Archiv' nicht nur den biblionomen Raum, sondern zugleich den der Textualität überschreitet, indem es sich multimedial konstituiert.
+              </p>
+              <p>(3
+                <hi rend="italic">) Methode</hi>: Intertextuelle Computerphilologie dieser transbiblionomen Art zielt nicht auf die
+                <hi rend="italic">Implementierung</hi> literarischer Intertextualität: ihre ‚Befreiung‘ aus dem ‚Gefängnis‘ der Druckzeile und ‚vollständige Entfaltung‘ im barrierefreien digitalen Schreibraum, sondern auf ihre
+                <hi rend="italic">Supplementierung</hi>: auf die forschungstechnische Unterstützung der selbstverständlich stets selektiven und (projekt- und methodenspezifisch) perspektivischen Erschließung des intertextuellen Potentials eines je gegebenen literarischen Texts. Bei der Entwicklung einer zweckmäßigen Arbeitsumgebung hätte die Kooperation zwischen Philologie, Medienwissenschaft, Texttechnologie und Informatik einer Logik
+                <hi rend="italic">pragmatischer Schnittstellenbildung</hi> zu folgen. Statt entweder digitale Lösungsmöglichkeiten mit philologischen Problemstellungen zu überfordern, oder umgekehrt von vornherein die philologischen Problemstellungen an das Leistungsvermögen digitaler tools anzupassen, wären für jede Teilaufgabe die Schnittstellen zwischen humaner Intelligenz und künstlicher Intelligenz präzise zu definieren, um die Leistungsvermögen von Menschen und Rechnern möglichst effizient miteinander zu verschalten.
+              </p>
+              <p>Ausgehend von diesen Überlegungen stellen wir, mit den Bezugshorizonten Franz
+                Kafka und Karl Kraus, eine texttechnologische Anwendung (<hi rend="italic"
+                >Wikidition</hi>) für die Entwicklung eines <hi rend="italic">Literary
+                Memory Information System</hi> (LiMeS) vor. Dh. einer
+                literaturwissenschaftlichen Forschungsumgebung, die <hi rend="italic"
+                >literarische Texte </hi>nicht einfach als Gegenstände, sondern <hi
+                rend="italic">als Medien des kulturellen Gedächtnisses </hi>behandelt, indem
+                sie ihr intertextuelles Verweispotential erschließbar, darstellbar und für
+                unterschiedliche Verwertungszusammenhänge nutzbar macht. Die texttechnologischen
+                Entwicklungen der letzten Jahre bieten u. E. eine tragfähige Basis für die
+                Konzeption und Implementierung einer digitalen Arbeitsumgebung für eine solche
+                intertextuell und transbiblionom orientierte Literaturforschung. </p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>"Die grellsten Erfindungen sind Zitate". Corpusbasierte Erkennung und Analyse von Zitaten und intertextuellen Referenzen in literarischen Texten </head>
+                <p><hi rend="italic">Hanno Biber; Österreichische Akademie der Wissenschaften</hi></p>
+                <p> „Die unwahrscheinlichsten Taten, die hier gemeldet werden, sind wirklich
+                  geschehen; ich habe gemalt, was sie nur taten. Die unwahrscheinlichsten
+                  Gespräche, die hier geführt werden, sind wörtlich gesprochen worden; die
+                  grellsten Erfindungen sind Zitate.“ (Kraus 1926: VII) Im Vorwort der Buchausgabe
+                  des aus den die Worte und Taten, die Presseberichte und Propaganda, die Phrasen
+                  und Tonfälle des Ersten Weltkrieges aus- und aufrufenden, satirisch in Szene
+                  gesetzten Dokumenten bestehenden monumentalen Dramas "Die letzten Tage der
+                  Menschheit" steht diese Aussage von Karl Kraus zu seiner satirischen Methode des
+                  Zitats. Sie hebt hervor, wie der Autor das gestaltet hat, was er für seine
+                  Leser, die noch hören und lesen konnten, was und wie es gesagt wurde, wie auch
+                  für zukünftige Leser hörbar und sichtbar gemacht hat, in den aus Zitaten
+                  bestehenden Szenen seines Dramas ebenso wie in den Texten seiner Zeitschrift <hi
+                  rend="italic">Die Fackel</hi>. </p>
+                  <p>Die <ref target="http://www.aac.ac.at/fackel"><hi rend="italic">AAC-Fackel</hi></ref>, die digitale Ausgabe der von Karl Kraus
+                  vom 1. April 1899 bis Februar 1936 in Wien herausgegebenen Zeitschrift <hi
+                  rend="italic">Die Fackel</hi> wurde unter Anwendung computerphilologischer
+                  Methoden im Rahmen des <hi rend="italic">AAC-Austrian Academy Corpus</hi> an der
+                  Österreichischen Akademie der Wissenschaften erstellt. Das literarische Werk des
+                  wohl bedeutendsten Satirikers deutscher Sprache und darin die 1899 bis 1936 in
+                  Wien herausgegebene Zeitschrift <hi rend="italic">Die Fackel</hi> des 1874 in
+                  Jičín in Böhmen geborenen Karl Kraus, der in Wien gelebt, in vielen Städten
+                  Europas seine Texte vorgetragen hat und weit darüber hinaus rezipiert wurde und
+                  wird, ist als überaus bedeutender Beitrag der deutschsprachigen Literatur zur
+                  Weltliteratur zu betrachten. Die Überlieferung und Verfügbarkeit der satirischen
+                  und polemischen Texte im digitalen Medium der <hi rend="italic">AAC-Fackel</hi>,
+                  der Texte der <hi rend="italic">Fackel</hi> mit ihrer thematischen Vielfalt,
+                  sprachlichen Komplexität und historischen Relevanz, muss für eine von
+                  computergestützten Verfahren der digitalen Literaturwissenschaft bestimmten
+                  wissenschaftlichen Beschäftigung, die sich der zeitgemäßen Erforschung des
+                  literarischen Werkes nach neuesten wissenschaftlichen Standards verpflichtet,
+                  als eine überaus wichtige Aufgabe betrachtet werden. In der digitalen Edition
+                  der <hi rend="italic">AAC-Fackel </hi>wird der gesamte Text dieser Zeitschrift
+                  nicht nur einer an Literatur, Sprache und Geschichte interessierten Leserschaft
+                  zugänglich gemacht, sondern auch die einzigartige sprachliche und literarische
+                  Qualität dieser Texte unter Nutzung computerphilologischer Methoden und
+                  texttechnologischer Instrumente durch verschiedene Suchmöglichkeiten und
+                  Register in einer neuen Weise erschlossen.</p>
+                  <p>Die Methode der Satire von Karl Kraus ist das Zitat. Seine Texte folgen mithin
+                    einer transbiblionomen Logik des laufenden Verweises auf andere Texte. Aus
+                    diesem Grunde kann unter Nutzung texttechnologischer Möglichkeiten, wie sie in
+                    der im anschließenden Beitrag beschriebenen <hi rend="italic">Wikidition
+                  </hi>implementiert werden, das digital verfügbare Textcorpus der <hi
+                  rend="italic">Fackel</hi> zur Analyse der in ihm zitierten Texte genutzt
+                  werden. Karl Kraus findet zumeist in den zeitgenössischen Texten der Presse und
+                  der Publizistik die Prätexte für seine Texte, indem er das, was er verarbeitet,
+                  einfach zitiert, oder einschöpft in seine Texte und satirisch kommentiert. In
+                  seinen satirischen Texten muss er nichts mehr erfinden, sondern vielfach einfach
+                  nur zitieren, in Anführungszeichen setzten, den Text einbetten, ihn graphisch so
+                  anordnen, dass seine satirische Qualität sichtbar werden kann, dem Leser
+                  sichtbar gemacht werden kann. Die in den tausenden Zitaten wiedergegebenen,
+                  satirisch bearbeiteten Sprachstücke der <hi rend="italic">Fackel</hi> sind vom
+                  Autor montiert und typographisch aufbereitet, was in vielen Fällen, besonders in
+                  den Glossen der 'Fackel' durch einfache Spationierung von bestimmten
+                  Textpassagen erfolgen kann. Die Textsorte der Glosse ist beispielhaft für das
+                  satirische Verfahren von Karl Kraus, wo es auf die besondere Behandlung eines
+                  zitierten, aus der Presse stammenden Prätextes ankommt. Kurt Krolop schreibt
+                  dazu in einem Aufsatz über Karel Čapek und Karl Kraus über die wichtigste
+                  Funktionsweise der Satire von Karl Kraus: „Das auf solche Weise schöpferische
+                  Vernichtungsarbeit leistende Zitat, in dem die Spationierung den Gestus sichtbar
+                  macht, reduziert wolkigen Bombast auf den zugrunde liegenden reinen Unsinn,
+                  vorgetäuschte Fülle auf die tatsächliche Leere, falsches Pathos auf das echte
+                  Blech, die hohle Phrase auf die dicke Lüge. Der gestischen Entlarvung dient auch
+                  die für die Fackel so charakteristische Verschränkung von klassischem Sprachgut
+                  und Jargon, welche etwa die wahre Haltung eines liberalen Journalisten zur
+                  Anschauung bringen soll, wenn dieser Posas berühmte Aufforderung zitiert und das
+                  so bewirkt „Sire, bittsie, was liegt Ihnen schon dran, geben Sie
+                  Gedankenfreiheit!“ (890,276)“ (Krolop 1992: 305-306.) Der Text „Blendwerk der
+                  Hölle“ (F 366,30)<ref type="note" target="n01" n="1">1
+                </ref>, in dem der Satiriker auch am Ende seines Textes über die besondere
+                Funktionsweise seiner Satire reflektiert, ist beispielhaft für dieses dann in
+                der satirischen Tragödie "Die letzten Tage der Menschheit" dramatisch
+                gestalteten Verfahrens. Diese Glosse ist wie viele andere auch Teil einer Reihe
+                von oft thematisch in Zusammenhang stehenden Glossen in den Heften der
+                Zeitschrift, einer für diese besondere Form der Satire von Karl Kraus typischen
+                Textsorte und thematisiert in besonderer Weise die Arbeit des Satirikers mit der
+                „übervollen Realität“ (F 366,32), wie sie sich ihm sprachlich deutlich und in
+                seinen eigenen Texten durch Zitierung in seiner Zeitschrift deutlich gemacht in
+                der Presse seiner Zeit darbietet. Karl Kraus demonstriert und reflektiert seine
+                Methode der Satire, die nicht Satiren verfassen muss, sondern Texte aus der
+                Zeitung bloß noch anordnen muss, damit sie zu Satiren werden. Diese besondere
+                Methode der Satire ist die Methode des Zitats. Der Schriftgrößenwechsel zur
+                Kenntlichmachung des Zitats und die Hervorhebung einzelner sprachlicher
+                Äußerungen durch Sperrung sind der zeitgenössischen typographischen Konvention
+                entliehene Zeichen, die hier zum kritischen Zweck der Hervorhebung im
+                satirischen Text eingesetzt werden. </p>
+                <p>Im Zentrum des satirischen Verfahrens steht das Zitat. Die zitierten Prätexte der
+                  satirischen Texte, die in den Glossen, im Drama und in den anderen Texten von
+                  Karl Kraus aufgerufen und zitiert werden, können mit Hilfe von
+                  texttechnologischen und corpusbasierten Methoden der digitalen
+                  Literaturwissenschaft ebenso wie andere intertextuelle Verbindungen zwischen den
+                  Texten aufgefunden und systematisch erforscht werden. Wie erste Versuche eines
+                  solchen Verfahrens aussehen könnten, wäre ein wichtiger Beitrag zur Erforschung
+                  der komplexen Textreferenzen der <hi rend="italic">Fackel</hi>. Als ein
+                  wichtiges Instrument dazu kann neben anderen zur Verfügung stehenden Ressourcen
+                  die in der Österreichischen Akademie der Wissenschaften erstellte Textsammlung
+                  des <hi rend="italic">AAC-Austrian Academy Corpus </hi>dienen. Das <hi
+                  rend="italic">AAC</hi> ist ein umfangreiches und komplex strukturiertes
+                  Textcorpus zur deutschen Sprache und Literatur im Untersuchungszeitraum von 1848
+                  bis 1989 und Basis für die Entwicklung texttechnologischer Anwendungen im
+                  Bereich der Corpusforschung sowie philologischer und textwissenschaftliche
+                  Forschungen, die am Institut für Corpuslinguistik und Texttechnologie der
+                  Österreichischen Akademie der Wissenschaften mit diesen Textressourcen neben
+                  anderen Textcorpora in den Bereichen der Corpusforschung im Kontext digitaler
+                  Literaturwissenschaft und philologischer Grundlagenforschung durchgeführt
+                  werden. Die <hi rend="italic">AAC-Fackel</hi> kann neben der digitalen Edition
+                  der literarischen Zeitschrift <ref target="http://www.aac.ac.at/brenner"><hi rend="italic">Der Brenner</hi> </ref>in diesem
+                  Kontext als exemplarischer Anwendungsfall einer aus der Corpusforschung und
+                  computergestützten Textwissenschaft entstandenen digitalen Musteredition eines
+                  literaturgeschichtlich bedeutenden Textes betrachtet werden. Ihr Zustandekommen
+                  und die dafür notwendigen Bedingungen resultieren aus einer sich mit Sprache und
+                  Fragen des besonderen Sprachgebrauchs auf empirischer Textbasis in einem
+                  bestimmten, mit besonderen Eigenschaften ausgestatteten Textcorpus befassenden
+                  Forschungsrichtung, wie sie im <hi rend="italic">ICLTT</hi> und seinen
+                  Vorgängerunternehmungen seit vielen Jahren betrieben wird. Die computergestützte
+                  Auffindung von Zitaten in Texten und der Erforschung des Gebrauchs von Zitaten
+                  in Texten, die der Satiriker Karl Kraus in seinen Texten literarisch nutzt, wird
+                  durch große Textcorpora erst systematisch möglich und soll als exemplarischer
+                  Anwendungsfall einer derart texttechnologisch ausgeübten Literaturwissenschaft
+                  verstanden und gezeigt werden.</p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                  <head>Automatische intra- und intertextuelle Vernetzung literarischer Texte mit Hilfe von Wikidition </head>
+                  <p><hi rend="italic">Alexander Mehler; Universität Frankfurt</hi></p>
+                  <p>Der Beitrag führt <hi rend="italic">Wikidition</hi> als neuartiges <hi
+                  rend="italic">Literary Memory Information System</hi> ein, das die in den
+                  beiden vorigen Beiträgen theoretisch und im Hinblick auf ein existierenden
+                  digitales Korpus formulierten transbiblionomen Postulate einlösen soll. <hi
+                  rend="italic">Wikidition</hi> zielt auf die automatische Generierung von
+                  online Editionen von Korpora natürlichsprachlicher Texte. Dazu zählen
+                  insbesondere literarische Texte, welche als Matrixtexte im Kontext ihrer
+                  Echotexte untersucht werden (siehe Abbildung 1). <hi rend="italic"
+                  >Wikidition</hi> kombiniert eine Vielzahl von Text-Mining-Verfahren für die
+                  automatische Vernetzung ( <hi rend="italic">Linkification</hi>) von Wort-, Satz-
+                  und Texteinheiten unter den Bedingungen ihrer syntagmatischen <hi rend="italic"
+                  >Verwendung</hi> einerseits und ihres paradigmatischen <hi rend="italic"
+                  >Gebrauchs</hi> andererseits. Darüber hinaus beinhaltet <hi rend="italic"
+                  >Wikidition</hi> eine Lexikonisierungskomponente zur Ermittlung jenes
+                  Teillexikons einer Sprache, welches der Erzeugung der jeweiligen Inputtexte
+                  zugrunde liegt. Auf diese Weise lassen sich die Texte des Eingabekorpus nicht
+                  nur mehrschichtig (auf Wort-, Satz- oder Textebene) hypertextuell traversieren.
+                  Vielmehr können die Leser einer <hi rend="italic">Wikidition</hi> das jeweilige
+                  Autorenvokabular bis hinab zur Ebene einzelner syntaktischer Wörter analysieren
+                  (siehe Abbildung 2). Während die Linkifizierungskomponente an Prinzipien von <hi
+                  rend="italic">Wikipedia</hi> bzw. <hi rend="italic">WikiSource</hi>
+                  anknüpft, ist es das <hi rend="italic">Wiktionary</hi>-Projekt, an dem sich die
+                  Lexikonisierungskomponente orientiert. <hi rend="italic">Wikidition</hi>
+                  verwendet zahlreiche computerlinguistische Methoden zur Gewährleistung von
+                  Interoperabilität, Offenheit und Erweiterbarkeit der resultierenden Editionen
+                  nach dem Wiki-Prinzip. Auf diese Weise wird die Dissemination computerbasierter
+                  Methoden über die <hi rend="italic">Digital Humanities </hi>hinaus unterstützt,
+                  indem es Geisteswissenschaftlern ermöglicht wird, eigene explorative Analysen
+                  durchzuführen, und zwar ohne Implementierungsaufwand. </p>
+                  <figure>
+                    <graphic n="1001" width="16.002cm" height="3.1098944444444445cm" url="0012-1.png" rend="inline"/>
+                    <p rend="figure">
+                      <hi rend="bold">Abb. 1</hi>: Transbiblionome Szenarien, auf welche <hi
+                      rend="italic">Wikidition</hi> zielt. Beispiele: (1) Kafkas Bericht für
+                      eine Akademie (als Matrixtext) versus Hauffs Der Affe als Mensch (als
+                      Echotext); (2) Kafkas Bericht für eine Akademie versus alle „Affentexte“ (R.
+                      Borgards) seit Ende des 18. Jahrhunderts (Hauff, Hoffmann, Flaubert, …); (3)
+                      Kafkas Beim Bau der Chinesischen Mauer versus Prager Tagblatt vom
+                      08.1914–03.1917; (4) Kafkas Werk versus ein Einzeltext aus dem Werk
+                      Nietzsches; (5) eine Werkauswahl Kafkas versus eine Werkauswahl Nietzsches;
+                      (6) Kafkas Werk versus ein Zeitungskorpus (z. B. basierend auf dem Prager
+                      Tagblatt); (7) sämtliche Werke einer Reihe von Schriftstellern versus ein
+                      Einzeltext (z. B. Goethes Faust); (8) sämtliche Werke einer Reihe von
+                      Schriftstellern versus ein Korpus von Faust-Texten; (9) sämtliche Werke
+                      einer Reihe deutschsprachiger Schriftsteller versus sämtliche Werke einer
+                      Reihe englischsprachiger Schriftsteller. Anstelle von Matrix- und Echotexten
+                      (Wagner 2015) kann alternativ von Hyper- und Hypotexten (Genette 1997)
+                      gesprochen werden. In ersterem Fall liegt eine rezeptionsorientierte
+                      Sichtweise zugrunde. </p>
+                    </figure>
+                    <figure>
+                      <graphic n="1002" width="11.74cm" height="7.82cm" url="0012-2.png" rend="inline"/>
+                      <p rend="figure">
+                        <hi rend="bold">Abb. 2</hi>: Linke Bildseite: schematischer Ausschnitt (rot)
+                        des autorenspezifischen Vokabulars im Schnittmengenbereich der
+                        zugrundeliegenden Matrixsprache (blau). Beispielhafte Fragestellung: <hi
+                        rend="italic">Welches Deutsch verwendet Franz Kafka in seinem Werk und
+                        worin weicht sein Deutsch von der jeweiligen Referenzsprache ab?</hi> Da
+                        Autoren mehrsprachige Texte verfassen können, ist diese Betrachtungsweise
+                        auf mehrere Bezugssprachen auszudehnen (rechte Bildseite). Hierzu
+                        unterscheidet <hi rend="italic">Wikidition</hi> drei Ebenen der
+                        lexikalischen Resolution: die Ebene der Superlemmata, der Lemmata und der
+                        syntaktischen Wörter (Wortformen plus grammatische Merkmale) (untere
+                        Bildhälfte). </p>
+                      </figure>
+                      <p>Die Basis für die Vernetzung von Texteinheiten bildet das Konzept der
+                        Intertextualität einerseits bzw. der intratextuellen Kohärenz andererseits.
+                        Hierzu werden je Sprachebene (<hi rend="italic">Wort</hi>, <hi rend="italic"
+                        >Satz</hi>, <hi rend="italic">Paragraph</hi>, <hi rend="italic">Text</hi>)
+                        zwei Arten von Relationen unterschieden: syntagmatische Relationen, welche auf
+                        Kontiguitätsrelationen von Texteinheiten beruhen, sowie paradigmatische
+                        Relationen, welche auf Relationen der Similarität bzw. Substituierbarkeit von
+                        Texteinheiten basieren. Dieses Modell orientiert sich an Hjelmslevs (1969)
+                        Konzept der sprachlichen Relation, um eine linguistische Basis für die
+                        automatisch zu ermittelnden Vernetzungsrelationen zu gewinnen. So werden
+                        beispielsweise alle Sätze des Inputkorpus danach paarweise analysiert ob sie (1)
+                        syntaktisch ähnlich konstruiert sind (syntagmatische Ähnlichkeit<ref
+                        type="note" target="n02" n="2">2
+                      </ref>) oder (2) lexikalisch ähnlich aufgebaut sind (paradigmatische
+                      Ähnlichkeit<ref type="note" target="n03" n="3">3
+                    </ref>). Ausgehend von einem zweidimensionalen Koordinatensystem, in dem
+                    syntagmatische und paradigmatische Ähnlichkeit die Dimensionen aufspannen, kann
+                    auf dieser Grundlage für alle texttechnologischen Satzähnlichkeitsmaße
+                    theoretisch bestimmt werden, wo sie innerhalb dieses Bezugssystems angesiedelt
+                    sind. Mit Hilfe von <hi rend="italic">Wikidition</hi> soll auf diese Weise
+                    zugleich eine theoretische und praktische Basis der Text- bzw.
+                    Satzähnlichkeitsmessung gelegt werden, die es Usern erlaubt, den Ergebnissen der
+                    von <hi rend="italic">Wikidition</hi> vorgelegten Ähnlichkeitsmessungen
+                    explorativ nachzuspüren. Gleichzeitig wird so eine Basis für die Analyse von
+                    Satzähnlichkeitsphänomenen im Hinblick auf Zitate gelegt, wie sie insbesondere
+                    für das Werk von Karl Kraus maßgeblich sind. </p>
+                    <p>Analog zu diesem Ansatz wird auf Wortebene zwischen der (syntagmatischen) Tendenz von Wörtern zur Kookkurrenz einerseits und der (paradigmatischen) Tendenz zum Vorkommen in ähnlichen Kontexten andererseits unterschieden. Mittels texttechnologischer Erweiterungen der MediaWiki-Software werden zudem sämtliche dieser Verweisbeziehungen interaktiv visualisiert, so dass Nutzer beispielsweise in Echotexten jenen Satzkandidaten nachspüren können, welche dem Autor des jeweiligen Matrixtexts als Vorlage gedient haben könnten (siehe Abbildung 3). </p>
+                    <figure>
+                      <graphic n="1003" width="16.002cm" height="9.001338888888888cm" url="0012-3.png" rend="inline"/>
+                      <p rend="figure">
+                        <hi rend="bold">Abb. 3</hi>: Franz Kafkas <hi rend="italic">In der
+                        Strafkolonie</hi> (als Matrixtext) im Verhältnis zu Heinrich Rauchbergs
+                        <hi rend="italic">Statistische Technik</hi> (als Echotext). In dem
+                        bipartiten Graphen (Bildmitte) verbinden Kanten solche Sätze, die als <hi
+                        rend="italic">Text-Reuse</hi>-Kandidaten ermittelt wurden. Nutzer können
+                        per <hi rend="italic">Fish-Eye</hi>-View den bipartiten Graphen traversieren
+                        und Verweisbeziehungen einzelner Sätze, welche in dem links- bzw.
+                        rechtsseitig dargestellten Text entsprechend hervorgehoben werden,
+                        analysieren. </p>
+                      </figure>
+                      <p>Der Beitrag exemplifiziert <hi rend="italic">Wikidition</hi> anhand ausgewählter
+                      Texte von Franz Kafka einerseits und von Karl Kraus andererseits. Er ergänzt die
+                      beiden literaturwissenschaftlichen Vorträge der Sektion, indem er das
+                      texttechnologische Instrumentarium einer transbiblionomen Literaturwissenschaft
+                      entwirft und experimentell erprobt. Insbesondere die Verweisstruktur der
+                      resultierenden <hi rend="italic">Wikiditionen</hi> wird auf der Grundlage einer
+                      größeren Zahl von Netzwerkcharakteristika quantitativ evaluiert. Diese
+                      Evaluation zeigt, dass <hi rend="italic">Wikiditionen</hi> jeweils auf der Basis
+                      einer sehr kleinen Zahl von Verweisen, die theoretisch möglich sind, hochgradig
+                      clusternde Graphen erzeugen, die es ihren Lesern erlauben, dasselbe Textkorpus
+                      in jedwede Richtung und ausgehend von jedwedem (Wort-, Satz- oder Text-)Kontext
+                      zu traversieren. Auf diese Weise wird eine Brücke zwischen Literaturwissenschaft
+                      und Informatik gespannt, und zwar am Beispiel der Analyse und Synthese
+                      intertextueller Beziehungen in digitalen Korpora literarischer Texte. </p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+                      <note xml:id="n01" n="1">Kurznotation für Die Fackel Nr. 366, S. 30</note>
+                      <note xml:id="n02" n="2">Hier sprechen wir auch von syntagmatischer
+                        Kontiguität der betroffenen Sätze in dem Sinne, dass ihre Konstituenten
+                        füreinander austauschbar sind, ohne paradigmatisch oder inhaltlich
+                        verwandt sein zu müssen</note>
+                        <note xml:id="n03" n="3">Hier sprechen wir von paradigmatischer Similarität
+                          der betroffenen Sätze in dem Sinne, dass ihre Konstituenten füreinander
+                          austauschbar sind, ohne dass die Sätze syntaktisch ähnlich zu sein
+                          brauchen. Im Extremfall zweier identischer Sätze gehen syntagmatische
+                          und paradigmatische Ähnlichkeit zusammen.</note>
+                        </div>
+                        <div type="bibliogr">
+                          <listBibl>
+                            <head>Bibliographie</head>
+                            <bibl>
+                              <hi rend="bold">AAC – Austrian Academy Corpus</hi>: <hi rend="italic"
+                              >AAC-Fackel</hi>. Online Version: 'Die Fackel. Herausgeber: Karl Kraus,
+                              Wien 1899–1936.' AAC Digital Edition No. 1. <ref
+                              target="http://www.aac.ac.at/fackel">http://www.aac.ac.at/fackel</ref>
+                              [letzter Zugriff 15. Oktober 2015]. </bibl>
+                              <bibl>
+                                <hi rend="bold">AAC-Austrian Academy Corpus und Brenner-Archiv</hi>: <hi
+                                rend="italic">Brenner Online</hi>. Online Version: 'Der Brenner.
+                                Herausgeber: Ludwig Ficker, Innsbruck 1910–1954.' AAC Digital Edition No.2.
+                                <ref target="http://www.aac.ac.at/brenner"
+                                  >http://www.aac.ac.at/brenner</ref> [letzter Zugriff 15. Oktober 2015]. </bibl>
+                                  <bibl>
+                                    <hi rend="bold">Baßler, Moritz</hi> (2005): <hi rend="italic">Die
+                                    kulturpoetische Funktion und das Archiv.</hi> Eine
+                                    literaturwissenschaftliche Text-Kontext-Theorie. Tübingen: Francke. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Borgards, Roland</hi> (2012): „Der Affe als Mensch und der
+                                      Europäer als Ureinwohner“, in: Wellbery, David E. (ed.): <hi rend="italic"
+                                      >Kultur-Schreiben als romantisches Projekt.</hi> Romantische
+                                      Ethnographie im Spannungsfeld zwischen Imagination und Wissenschaft.
+                                      Tübingen: Königshausen &amp; Neumann 17-42. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Derrida, Jacques</hi> (1967): <hi rend="italic"
+                                        >Grammatologie</hi>. Frankfurt a.M.: Suhrkamp. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Derrida, Jacques</hi> (1984): “Two words for Joyce”, in:
+                                          Attridge, Derek / Ferrer, Daniel (eds.): <hi rend="italic">Poststructuralist
+                                          Joyce.</hi> Essays from the French. Cambridge: CUP 145-159. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Embach, Michael / Rapp, Andrea</hi> (05.08.2008): „Die
+                                            intelligentere Expansion der Gutenberg-Galaxis“, in: <hi rend="italic"
+                                            >Frankfurter Allgemeine Zeitung</hi>. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Genette, Gérard</hi> (1993): <hi rend="italic"
+                                              >Palimpseste.</hi> Die Literatur auf zweiter Stufe. Frankfurt am Main:
+                                              Suhrkamp. </bibl>
+                                              <bibl>
+                                                <hi rend="bold">Hjelmslev, Louis</hi> (1969): <hi rend="italic">Prolegomena
+                                                to a Theory of Language</hi>. Madison: University of Wisconsin Press. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">Kraus, Karl</hi> (1926): <hi rend="italic">Die letzten Tage
+                                                  der Menschheit</hi>. Wien: Verlag Die Fackel. </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Krolop, Kurt</hi> (1992): "'Solche Erfolche erreichen nur
+                                                    deutsche Molche'", in: Krolop, Kurt: <hi rend="italic">Sprachsatire als
+                                                    Zeitsatire bei Karl Kraus</hi>. Neun Studien. Berlin: Akademiverlag
+                                                    305-306. </bibl>
+                                                    <bibl>
+                                                      <hi rend="bold">Meister, Jan Christoph</hi> (2005): „Projekt <hi
+                                                      rend="italic">Computerphilologie</hi>. Über Geschichte, Verfahren und
+                                                      Theorie rechnergestützter Literaturwissenschaft“, in: Segeberg, Harro /
+                                                      Winko, Simone (eds.): <hi rend="italic">Literarität und Digitalität.</hi>
+                                                      Zur Zukunft der Literatur. München: Fink 315-341. </bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Pêcheux, Michel</hi> (1983): „Über die Rolle des
+                                                        Gedächtnisses als interdiskursives Material“, in: Geier, Manfred / Woetzel,
+                                                        Harold (eds.): <hi rend="italic">Das Subjekt des Diskurses.</hi> Beiträge
+                                                        zur sprachlichen Bildung von Subjektivität. Berlin: Argument-Verlag 50-58. </bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Rayward, Warden Boyd</hi> (2008): <hi rend="italic">European
+                                                          modernism and the information society.</hi> Informing the present,
+                                                          understanding the past. Aldershot: Ashgate. </bibl>
+                                                          <bibl>
+                                                            <hi rend="bold">Topia, André</hi> (1984): "The Matrix and the Echo:
+                                                            Intertextuality in Ulysses", in: Attridge, Derek / Ferrer, Daniel (eds.):
+                                                            <hi rend="italic">Post-Structuralist Joyce.</hi> Essays From the French.
+                                                            Cambridge: Cambridge UP 103-125. </bibl>
+                                                            <bibl>
+                                                              <hi rend="bold">von Hofmannsthal, Hugo</hi> (2000): <hi rend="italic">Der
+                                                              Brief des Lord Chandos</hi>. Schriften zur Literatur, Kultur und
+                                                              Geschichte, hg. v. Mathias Mayer. Stuttgart: Reclam. </bibl>
+                                                            </listBibl>
+                                                          </div>
+                                                        </back>
+                                                      </text>
+                                                    </TEI>

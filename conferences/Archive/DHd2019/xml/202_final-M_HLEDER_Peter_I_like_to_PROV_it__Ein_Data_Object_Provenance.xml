@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="202_final-M_HLEDER_Peter_I_like_to_PROV_it__Ein_Data_Object_Provenance" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">I like to PROV it! Ein Data Object Provenance Tool für die Digital Humanities</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Mühleder</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Leipzig, Deutschland</affiliation>
+                    <email>peter.muehleder@uni-leipzig.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hoffmann</surname>
+                        <forename>Tracy</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Leipzig, Deutschland</affiliation>
+                    <email>tracy.hoffmann@uni-leipzig.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rämisch</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Leipzig, Deutschland</affiliation>
+                    <email>raemisch@ub.uni-leipzig.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-10T08:33:44.734187189</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Provenance</term>
+                    <term>Forschungsdaten</term>
+                    <term>Software</term>
+                    <term>RDF</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bearbeitung</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                    <term>Forschungsprozess</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Der Umgang mit Forschungsdaten ist inzwischen ein wichtiger Bestandteil geisteswissenschaftlicher Forschungsprojekte (nicht nur in Digital Humanities (DH) Projekten). Diese können in zahlreichen Formen und Formaten - von einfachen Tabellendokumenten, Protokollen bis hin zu komplexen Datensets und Visualisierungen -  vorliegen. Die Daten unterliegen während der Forschung häufig Veränderungsprozessen: Sie müssen aufwendig bereinigt, transformiert, kombiniert, angereichert und/oder korrigiert werden. Dieses ‘Preprocessing’ der Daten stellt sich oft als explorativer, dynamischer und iterativer Prozess dar, der beispielsweise immer wieder unterschiedliche Algorithmen oder Mappings einsetzt. Diese Bearbeitungsschritte erzeugen damit jeweils neue Versionen eines Datenobjekts.</p>
+            <p>Um einen Überblick zu behalten, kommen oft individuelle Lösungsstrategien zum Einsatz, welche in vielen Fällen für andere Personen schwer nachzuvollziehen sind. Die Nachvollziehbarkeit ist aber entscheidend dafür, ob die Daten später von anderen Forschenden nachgenutzt werden können. Um dieses Ziel zu erreichen sollte die Provenance von Daten (Informationen zu Herkunft, Verarbeitungsprozesse, etc.) während des Datenlebenszyklus mit erfasst werden. Sie hilft dabei, die Herkunft der Daten und deren Bearbeitung und auch eventuelle Fehler bis zum aktuellen Zustand zu verstehen. Mit anderen Worten, Provenance kann auch eine kritische Perspektive auf Daten ermöglichen (D’Ignazio and Klein 2016). </p>
+            <p>Die Provenance-Erfassung von Daten ist in verschiedenen (meist naturwissenschaftlichen und sozialwissenschaftlichen) Disziplinen bereits etabliert und Teil des Forschungsprozesses (vgl. Freire et al. 2008,  Oliveira et al. 2018). Für die Nutzung im Kontext geisteswissenschaftlicher Forschung zeigt sich jedoch, dass die bereits bestehenden Lösungen oft überkomplex sind, da sie primär die Reproduzierbarkeit der Daten sicherstellen sollen (vgl. Pasquier, T. et al. 2017). Im Fall der Digital Humanities steht jedoch das Datenobjekt oft im Vordergrund: “Recording provenance information in the digital humanities [...] has to concentrate on the systematic recording of input and output data within the workflows” (Küster et al. 2011:321). Dabei ist es nicht zwingend notwendig den gesamten technischen Prozess (mit dem Ziel der Reproduktion) zu erfassen, sondern eine nachvollziehbare Erklärung der unterschiedlichen Iterationen des Datenobjekts zu liefern. In diesem Sinne betrachten wir Provenance in den DH in erster Linie als Dokumentationsaufgabe. Diese soll dabei eine Ergänzung zu oder einen ersten Schritt in Richtung komplexerer Workflow Management und Provenance Tracking Systeme darstellen.</p>
+            <p>Dieses Poster beschäftigt sich mit der Frage, wie eine derartige Dokumentation durch Forschungsdaten-Provenance in einem Digital Humanities aussehen kann und stellt ein Tool vor, welches im diggr Projekt entwickelt und eingesetzt wird. Damit werden exemplarisch mögliche Antworten auf zwei wesentliche Aspekte der Forschungsdaten-Provenance in Digital Humanities Projekten formuliert:</p>
+            <list type="unordered">
+                <item>Welche Informationen werden/sollten erfasst werden? </item>
+                <item>Wie können die Informationen einfach erfasst und (menschenlesbar) wieder ausgegeben werden?</item>
+            </list>
+            <p>
+                <hi rend="color(#000000)italic">Provit</hi>
+                <hi rend="color(#000000)"> </hi>
+                <hi rend="color(#000000)">(Rämisch &amp; Mühleder 2018) wurde als ein Tool entwickelt, das einzelnen Forschenden und kleinen Gruppen helfen soll, in datengetriebenen, experimentellen Projekten den Überblick über Datentransformationsschritte zu behalten. Das Ziel von </hi>
+                <hi rend="color(#000000)italic">provit</hi>
+                <hi rend="color(#000000)"> </hi>
+                <hi rend="color(#000000)">ist es, ein einfach zu bedienendes Tool sowohl für die manuelle als auch für die (semi-)automatische Erfassung von Provenance zur Verfügung zu stellen. Diese Provenance-Informationen sollen dabei langfristig (unabhängig von projektspezifischen Infrastrukturen) verfügbar sein. Es erstellt dafür für das jeweilige Datenobjekt (Datei) einen auf das PROV-O Vokabular (Labo et al. 2013) basierenden RDF Graphen, der Akteure, Aktivitäten und ihren Einfluss auf ein spezifisches Datenobjekten retrospektiv beschreibt. Zusätzlich werden weitere Metadaten wie Zeitpunkt der Bearbeitung und Ursprungsort der Daten erfasst. Eine Browser Applikation steht für einen einfachen und übersichtlichen Zugang zu den Provenance-Informationen bereit, welche diese aus einer Datei und der dazugehörigen Quelldatei als dynamische Timeline und Netzwerk dargestellt. Diese Darstellung dient dazu einen Überblick über die Zusammenhänge und Details der Bearbeitungsschritte der Datei zu erhalten (siehe Abb. 1) und unterstützt das Verständnis der Provenance-Daten auch für technisch weniger versierte Forschende.</hi>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="202_final-c4cd3c507cdc2e8a9d3d7a688d6bc199.png"/>
+                    <head>
+                        <lb/>Abbildung 1. Visualisierung der Provenance-Informationen eines Datenobjektes (Provit Version 1.0 Prototyp)
+                    </head>
+                </figure>
+            </p>
+            <p>
+                <hi rend="color(#000000)italic">Provit</hi>
+                <hi rend="color(#000000)"> ermöglicht es somit auf eine standardisierte Weise, Provenance zu Forschungsdatenobjekten (unabhängig von Dateiformat und Bearbeitungsform) zu erfassen, ohne dabei auf eine komplexe technische Infrastruktur angewiesen zu sein. Die Verwendung des PROV-O Vokabulars stellt dabei die Interoperabilität sicher. Mit Provenance versehene Forschungsdaten können so dem geforderten Anspruch der Nachvollziehbarkeit Rechnung tragen und bei dem Verständnis und der Kritik von Forschungsdaten unterstützen.</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">D’Ignazio, Catherine / Klein, Lauren F. (2016)</hi>: <hi rend="italic">“Feminist Data Visualization”</hi>, in: Workshop on Visualization for the Digital Humanities (VIS4DH), Baltimore. IEEE.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Freire, Jualina / Koop, D. / Santos, E. / Silva, C. T. (2008)</hi>: <hi rend="italic">“Provenance for Computational Tasks: A Survey”</hi>, in: Computing in Science &amp; Engineering May/June 2008, 11-21, DOI 10.1109/MCSE.2008.79.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lebo, Timothy / Sahoo, Satya / McGuinness, Deborah (2013)</hi>: <hi rend="italic">PROV-O: The PROV Ontology</hi>. W3C Recommendation. https://www.w3.org/TR/prov-o/ [letzter Zugriff 12. Oktober 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rämisch, Florian / Mühleder, Peter (2018)</hi>: <hi rend="italic">Provit</hi> (Version v0.2.3). Zenodo, DOI http://doi.org/10.5281/zenodo.2268521
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Oliveira, Wellington / De Oliveira, Daniel / Braganholo, Vanessa (2018)</hi>: <hi rend="italic">“Provenance Analytics for Workflow-Based Computational Experiments: A Survey”</hi>, in: ACM Computing Surveys 51/3, 53:1-53:25, DOI 10.1145/3184900.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pasquier, T. / Lau, M. K. / Trisovic, A. / Boose, E. R. / Couturier, B. / Crosas, M. / Seltzer, M. (2017)</hi>: <hi rend="italic">“If these data could talk”</hi>, in: Scientific Data 4, DOI 10.1038/sdata.2017.114.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

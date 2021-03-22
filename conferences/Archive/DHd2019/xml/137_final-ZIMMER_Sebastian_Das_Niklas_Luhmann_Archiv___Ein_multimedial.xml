@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="137_final-ZIMMER_Sebastian_Das_Niklas_Luhmann_Archiv___Ein_multimedial" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das Niklas-Luhmann Archiv - Ein multimediales Dokumenten-Netz</title>
+                <author>
+                    <persName>
+                        <surname>Zimmer</surname>
+                        <forename>Sebastian</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>sebastian.zimmer@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gödel</surname>
+                        <forename>Martina</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>mgoedel@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Persch</surname>
+                        <forename>Dana</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>dana.persch@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-08T09:54:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Multimedia</term>
+                    <term>3D-Visualisierung</term>
+                    <term>Zettelkasten</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Transkription</term>
+                    <term>Webentwicklung</term>
+                    <term>Visualisierung</term>
+                    <term>3D-Bilder</term>
+                    <term>Multimedia</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align:left; ">Niklas Luhmann (1927-1998) zählt zu den bedeutendsten Soziologen des 20. Jahrhunderts. Sein wissenschaftlicher Nachlass umfasst u.a. einen ca. 90.000 (größtenteils handschriftliche) Notizzettel umfassender Zettelkasten, den Luhmann zwischen 1953 und 1996 gepflegt hat. Daneben finden sich annähernd 200 bislang unveröffentlichte Manuskripte von teils erheblichem Umfang. Im Rahmen des Projekts erfolgt eine archivarische Sicherung und theoriegenetische Erschließung des Nachlasses sowie im Anschluss daran eine Überführung des Materials in ein Internetportal, welches im Rahmen der DHd 2019 veröffentlicht wird. Ergänzend zur Präsentation des Nachlassmaterials wird das Portal eine Sammlung von Audio- und Videoaufnahmen präsentieren, die Vorlesungen, Seminaren, Vorträgen sowie Radio- und Fernsehinterviews Luhmanns dokumentieren. </p>
+            <p style="text-align:left; ">Ein Ziel des Projektes ist es, sowohl die Dokumente innerhalb eines Bestandes als auch die verschiedenen Dokumentenbestände selbst auf der Basis der editorischen Bearbeitung miteinander in Beziehung zu setzen. Das Webportal soll es dem Nutzer ermöglichen, Querverbindungen zwischen den Materialbeständen nachzuvollziehen und so das Gesamtwerk Luhmanns in seiner Vernetztheit kennenzulernen. Dies soll mit verschiedenen multimedialen und multimodalen Einstiegs- und Navigationsmöglichkeiten erreicht werden: Facettierte Suchmöglichkeiten, interaktive und editorisch aufbereitete Visualisierungen, bis hin zu 3D-Umgebungen. Die Visualisierungen bieten verschiedene Perspektiven auf das Werk: sowohl Gesamtüberblicke als auch dokumentenzentrierte Ansichten.</p>
+            <p style="text-align:left; ">Exemplarisch lässt sich das an der Visualisierung des Zettelkastens zeigen: Eine besondere editorische Herausforderung besteht beim Zettelkasten darin, dass die Sammlung durch zwei Merkmale gekennzeichnet ist, deren Kombination das besondere theoretische Kreativitätspotential der Sammlung begründet, zugleich aber ihre lineare Lesbarkeit erschwert, wenn nicht verunmöglicht: (a) eine 
+                <hi rend="bold">nichthierarchische Ordnungsstruktur</hi> aufgrund eines ausschließlich lokalen Anschlussprinzips bei der Einstellung neuer Zettel, so dass ursprünglich direkt hintereinander stehende Zettel durch später eingestellte Zettel getrennt werden; (b) ein 
+                <hi rend="bold">Verweisungssystem</hi>, bei dem die thematisch oder konzeptionell miteinander zusammenhängenden, aber eben verstreut in der Sammlung stehenden Zettel aufeinander verweisen, indem auf den Zetteln jeweils die entsprechenden Zettelnummern notiert werden.
+            </p>
+            <figure>
+                <graphic n="1001" width="15.92cm" height="8.925277777777778cm" url="137_final-8f54f133b7963ca5da274b7d14356ab1.png" rend="inline"/>
+                <head>
+                    <lb/>Abbildung 1: Ausschnitt einer Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des digitalen Zettelkastens.
+                </head>
+            </figure>
+            <p style="text-align:left; ">Um eine Lesbarkeit der Sammlung zu ermöglichen, werden bei der fachwissenschaftlichen Edition die entsprechenden Argumentationsstränge identifiziert, wobei erstens eine Verknüpfung von (ursprünglichen) Zettelfolgen vorgenommen und zweitens später eingeschobene oder ergänzende Diskussionsstränge als davon abgehende Zettelfolgen entsprechend platziert werden. Um aber eine globale Perspektive auf die Sammlung zu erhalten, die insbesondere auch die Verweisungen auf andere Zettel berücksichtigt und die damit die Netzwerkstruktur der Sammlung deutlich macht, wurde eine entsprechende dreidimensionale Visualisierung entwickelt, die sowohl die inhaltlich-logischen Zettelfolgen in einer zweidimensionalen Ebene enthält als auch abschnittsübergreifende Querverweise, die aus dieser Ebene herausragen. Diese digitale 3D-Umgebung kann auch mittels VR-Hardware erkundet werden. So kann sich der Benutzer seine Perspektive auf den Bestand stufenlos selbst auswählen: Von der Vogelperspektive über den gesamten Zettelkasten bis hin zur Ego-Perspektive ausgehend von einem bestimmten Zettel.</p>
+            <figure>
+                <graphic n="1002" width="15.927916666666667cm" height="12.241388888888888cm" url="137_final-f49b1be4b7b1a1f2e9b106c44f87f0e9.png" rend="inline"/>
+                <head>
+                    <lb/>Abbildung 2: Gedankengänge aus der Vogelperspektive: Die verschiedenen Argumentationsstränge des Zettelkastens und deren Verweise in einer 3D-Umgebung
+                </head>
+            </figure>
+            <p style="text-align:left; ">Ein besonders wichtiges verbindendes Element zwischen den zu erschließenden Materialien aus dem Nachlass Niklas Luhmanns sind darüber hinaus die bibliographischen Informationen im Nachlassmaterial. Ihre Modellierung, Zusammenführung und Visualisierung ermöglicht detaillierte Einblicke in Luhmanns Arbeitsweise, aber auch in die Genese seiner Werke. Um die Berührungspunkte sichtbar zu machen, wird eine umfassende bibliographische Datenbank aufgebaut. Die Datensätze bündeln Informationen zur Erwähnung und Zitation einzelner Werke durch Luhmann und machen so die Rezeptionsstruktur innerhalb des Luhmannschen Werks deutlich. Zusätzlich können sie als Brücke vom Zettelkasten zu den Manuskripten genutzt werden; auf diese Weise ermöglichen sie den Editoren bestandsübergreifende Verbindungen zu etablieren
+                <hi rend="bold">:</hi> zwischen Luhmanns Manuskripten, deren verschiedenen Fassungen und den veröffentlichten Werken, den Audio- und Videodokumenten
+                <hi rend="bold" xml:space="preserve">, </hi>auf denen Vorträge und Vorlesungen Luhmanns dokumentiert sind, und dem Zettelkasten.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Gfrereis, Heike / Strittmatter, Ellen (2013)</hi>: <hi rend="italic">Zettelkästen. Maschinen der Phantasie.</hi> Ausstellungskatalog. Deutsche Schillergesellschaft. Marbach a.N.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gödel, Martina / Schmidt, Johannes / Zimmer, Sebastian (2018)</hi>: <hi rend="italic">Digitale Differenz. Luhmanns Zettelkasten als physisch-historisches Objekt und als vernetzter Navigationsraum (Vortragsabstract)</hi>, in: <hi rend="bold">Georg Vogeler (ed.)</hi>: <hi rend="italic">DHd 2018: Kritik der digitalen Vernunft</hi>. Köln, 178-181 <ref target="http://dhd2018.uni-koeln.de/">(http://dhd2018.uni-koeln.de/)</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gödel, Martina / Zimmer, Sebastian (2017)</hi>: <hi rend="italic">Niklas Luhmanns Werk und Lesekosmos - DH in der bibliographischen Dimension (Vortragsabstract)</hi>, in: <hi rend="bold">Georg Vogeler (ed.)</hi>: <hi rend="italic">Konferenzabstracts. DHd 2017 Bern: Digitale Nachhaltigkeit</hi>. Bern, 180-184 <ref target="http://dhd2018.uni-koeln.de/">(http://www.dhd2017.ch/)</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krajewski, Markus (2011)</hi>: <hi rend="italic">Paper Machines. About cards &amp; catalogs</hi>, 1548-1929. Cambridge: MIT Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schmidt, Johannes F.K. (2018)</hi>: <hi rend="italic">"Niklas Luhmann´s Card Index: Thinking Tool, Communication Partner, Publication Machine"</hi>, in: <hi rend="bold">Alberto Cevolini (ed.)</hi>: <hi rend="italic">Forgetting Machines. Knowledge Management Evolution in Early Modern Europe</hi>. Leiden: Brill, 289-311.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Watts, Duncan (2004)</hi>: <hi rend="italic">"The »new« science of networks", in: Annual Review of Sociology</hi> 30, 243-270.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

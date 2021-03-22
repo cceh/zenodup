@@ -68,7 +68,7 @@ def main(argv):
         for pub in publications_metadata:
             if pub.find("title").text == publication:
                 pub_overview[os.path.basename(bundle_path)] = pub.find("title").text
-                general_functions.create_bundles_metadata(pub, bundle_path)
+                general_functions.create_bundles_metadata(pub, bundle_path, conference_name)
 
     create_csv(os.path.basename(conference), pub_overview)
     logging.info(f"Bundle structure for conference {conference_name} has been created under "
@@ -150,6 +150,7 @@ def get_possible_publication_names(metadata: list, publications: dict) -> dict:
             title = ascii_rename(publication)
         except TypeError:
             logging.warning(f"The following publication does not contain a title: {metadata.index(publication)}")
+        print(publication)
         prefixes = [creator[0].upper()+'_'+creator[1]+'_' for creator in creators]
         possible_names = [prefix + title for prefix in prefixes]
 

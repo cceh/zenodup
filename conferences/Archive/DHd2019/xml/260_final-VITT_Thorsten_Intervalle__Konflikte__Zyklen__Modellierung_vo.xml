@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="260_final-VITT_Thorsten_Intervalle__Konflikte__Zyklen__Modellierung_vo" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Intervalle, Konflikte, Zyklen. Modellierung von Makrogenese in der Faustedition</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Vitt</surname>
+                        <forename>Thorsten</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                    <email>thorsten.vitt@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Brüning</surname>
+                        <forename>Gerrit</forename>
+                    </persName>
+                    <affiliation>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</affiliation>
+                    <email>bruening@faustedition.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pravida</surname>
+                        <forename>Dietmar</forename>
+                    </persName>
+                    <affiliation>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</affiliation>
+                    <email>dpravida@goethehaus-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wissenbach</surname>
+                        <forename>Moritz</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                    <email>wissenbach@faustedition.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T00:12:12.379886631</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Chronologie</term>
+                    <term>Datierung</term>
+                    <term>Faust</term>
+                    <term>Graphen</term>
+                    <term>Werkgenese</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Daten</term>
+                    <term>Manuskript</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <anchor xml:id="id_docs-internal-guid-dacdacf1-7fff-51bf-4051-eb5b034ec328"/>Die 
+                <ref target="http://faustedition.net/">Faustedition</ref> versammelt 573 Textzeugen mit ca. 730 datierbaren Objekten zu Goethes „Faust“ in einem digitalen Archiv. Für die Benutzer sollen sich die repräsentierten historischen Objekte nicht isoliert voneinander, sondern in einem sinnvollen Zusammenhang darstellen. Eine solcher Zusammenhang kann dadurch entstehen, dass die Objekte genetisch geordnet werden. Genetische Einordnung bedeutet zuallererst, Objekte zeitlich zu situieren. Dabei geht es teils um die Ermittlung von Kalenderdaten, teils um die Bestimmung des relativen zeitlichen Verhältnisses mehrerer Objekte. Die Ermittlung chronologischer Systeme ist eine Grundfrage in vielen Disziplinen. Je nach Sachlage können dabei etwa statistische Verfahren (z.B. Bayliss 2015 zur Archäologie) oder evolutionäre Modelle (Trovato 2014: 189–200 zur mediävistischen Philologie) eingesetzt werden; die Verwendung disziplinfremder Ansätze kann aber auch zu Problemen führen (Pereltsvaig/Lewis 2015 zur Glottochronologie). Beim derzeitigen Stand scheint es am aussichtsreichsten, das in einzelnen Disziplinen oder bei einzelnen Projekten geübte Vorgehen zu formalisieren, um potentiell generalisierbare Verfahren zu entwickeln.
+            </p>
+            <p>Besonders schwierig ist es, nicht bloß einzelne Objekte zu datieren, sondern eine große Menge in eine chronologische Ordnung zu bringen, wenn die Objekte genetisch voneinander abhängig sind, nur wenige absolute Daten zur Verfügung stehen und sonst nur lokale Anhaltspunkte für relative Chronologien gegeben sind (klassisches Beispiel: die antike Chronographie; Grafton 1993, Burgess/Witakowski 1999). Dies ist auch bei umfangreichen genetischen Handschriftendossiers neuzeitlicher Autoren und Werken mit komplexer Entstehungsgeschichte der Fall. Hier können einzelne Teilentwürfe in relativer zeitlicher Beziehung stehen, vereinzelt sind Datierungen verfügbar; doch die Rekonstruktion der 
+                <hi rend="italic">Makrogenese</hi>, d.h. der chronologischen Ordnung des Gesamtbestands (zum Begriff Van Hulle 2018: 47–48), kann sich als außerordentlich komplex erweisen.
+            </p>
+            <p>Und so liegen die Dinge auch bei „Faust“. Nur wenige der makrogenetischen Objekte sind genau datierbar; stattdessen gibt es eine große Menge relativer, aber strikt lokaler Chronologien für jeweils nur einige Objekte. Den bislang einzigen Versuch, Einzelaussagen zu aggregieren und alle Objekte in zeitlich-stemmatische Beziehung zueinander zu setzen, macht Fischer-Lamberg für zwei Akte des “Faust II”. Ihre Stemmata (Fischer-Lamberg 1955: 150–166) markieren die praktische Grenze dessen, was an Einzelinformationen mit menschlichen Mitteln aggregiert werden kann. Die Rekonstruktion einer (theoretisch beliebig großen) Makrogenese verlangt nach maschineller Verarbeitung und visueller Aufbereitung vorhandener Einzelinformationen.</p>
+            <div type="div1" rend="DH-Heading">
+                <head>Datengrundlage</head>
+                <p>Um dies zu ermöglichen, wurde der Informationsgehalt der verfügbaren einschlägigen Aussagen zur Datierung<hi rend="superscript">1</hi> in XML erfasst:
+                </p>
+                <list type="unordered">
+                    <item>bibliographische Quelle</item>
+                    <item>datierter Textzeuge</item>
+                    <item>absolute Datierung</item>
+                    <item>relative Datierung</item>
+                    <item>(ungefähre) Gleichzeitigkeit von Textzeugen</item>
+                </list>
+                <p>Eine 
+                    <hi rend="italic">Relative Datierung</hi> setzt Zeugen<hi rend="superscript">2</hi> in eine zeitliche Reihenfolge. Es wird ausgesagt, dass ein Zeuge vor einem anderen entstanden ist.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="260_final-b6c5f4fc852f42882c9d684f5496f1dd.png"/>
+						<head>
+							<lb/>Abbildung 1. Kodierte Aussage: Laut Fischer-Lamberg 1955: 160 (source), ist 2 III H.5 vor 2 III H.8 (temp-pre) (vereinfacht).
+						</head>
+                    </figure>
+                </p>
+                <p>Eine 
+                    <hi rend="italic">Absolute Datierung</hi> ordnet einen oder mehrere Textzeugen konkreten Datumsangaben zu. Tagesgenaue Datierungen bilden die Ausnahme; häufig sind Aussagen, dass ein Zeuge nicht vor oder nicht nach einem Zeitpunkt entstanden sei. Typisch sind unscharfe Angaben wie 1800/1801 oder Frühsommer. Solche Angaben werden nach dokumentierten Regeln auf Aussagen der Form nicht vor und nicht nach  mit jeweils normierten tagesgenauen Angaben abgebildet.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="260_final-b8355d05bccd682b9528a16b7964891c.png"/>
+						<head>
+							<lb/>Abbildung 2. Laut Bohnenkamp 1994: 208, ist 2 III H.5 auf den Zeitraum vom 26. Februar zum 5. April 1825 zu datieren (vereinfacht).
+						</head>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Modellierung als Graph</head>
+                <p>Die verschiedenen Aussagen werden in einem gerichteten Graphen modelliert<hi rend="superscript">3</hi>: Die Zeugen bilden Knoten, die relativen Datierungen Kanten des Graphen. Zur Integration der absoluten Datierungen werden die Datumsangaben (Tage) ebenfalls als Knoten in den Graphen integriert: Aus einer Datierung wie 
+                    <hi rend="italic">2 III H.5 wurde nicht vor dem 26. Februar 1825 und nicht nach dem 5. April 1825 geschrieben</hi> wird so ein Teilgraph 
+                    <hi rend="italic">1825-05-25 → 2</hi>
+                    <hi rend="italic"> </hi>
+                    <hi rend="italic">III</hi>
+                    <hi rend="italic"> </hi>
+                    <hi rend="italic">H.5 → 1825-04-06</hi>, in dem die Knoten für Ereignisse (Daten oder Zeugen) und die Kanten für 
+                    <hi rend="italic">zeitlich vor</hi> stehen. Ergänzt wird der Graph durch »Zeitstrahlkanten«, die von jedem Datum zum nächstfolgenden führen.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="260_final-c19fefded4c31f06082754e3f21b4795.png"/>
+						<head>
+							<lb/>Abbildung 3. Aus Einzelaussagen gebildeter Graph zu 2 III H.8, unmittelbar benachbarten Zeugen und Datierungen (vereinfacht).
+						</head>
+                    </figure>
+                </p>
+                <p>Aus diesem Graphen lassen sich Informationen ableiten, die sich erst aus dem Zusammenspiel der Einzelaussagen ergeben: Betrachtet man einen Zeugen 
+                    <hi rend="italic">z</hi>, so sind alle von 
+                    <hi rend="italic">z</hi> aus entlang gerichteter Kanten erreichbaren Zeugen (hier: 2 III H.1) nach 
+                    <hi rend="italic">z</hi> entstanden, und die von 
+                    <hi rend="italic">z</hi> aus erreichbaren Daten bilden Grenzen des 
+                    <hi rend="italic">terminus ante quem </hi>(des Zeitpunkts, vor welchem ein Zeuge entstand). Der Graph bietet damit die Grundlage für eine ungefähre Datierung auch derjenigen Zeugen, für die keine direkte absolute Datierung vorliegt.
+                </p>
+                <p>Ist die Gesamtheit der Aussagen nicht widerspruchsfrei, so ergeben sich Zyklen im Graphen. Dies induziert einen Teilgraphen, in dem (vgl. Abb. 4 mit relativen Datierungen einiger Handschriften) jeder Knoten von jedem anderen erreichbar ist (der Teilgraph ist 
+                    <hi rend="italic">stark zusammenhängend</hi>).
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="260_final-5a49bd3d2c4e3e9583871bd43890888e.png"/>
+						<head>
+							<lb/>Abbildung 4. Relative Datierungen für einige Handschriften des 4. Akts. Erst die Entfernung aller rotgestrichelten Kanten führt zu einem zyklenfreien Graphen.
+						</head>
+                    </figure>
+                </p>
+                <p>Um den Graphen aus Abb. 4 zyklenfrei zu machen, ist die Entfernung von wenigstens drei Kanten notwendig (gestrichelt). Der komplette Makrogenesegraph enthält eine stark zusammenhängende Komponente mit 477 Dokumenten und 2136 Kanten – zu umfangreich, um die Konflikte manuell zu eliminieren.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Konfliktbehandlung</head>
+                <p>Eine möglichst kleine Menge von Kanten zu entfernen, um einen zyklenfreien Graphen zu erhalten, ist ein als 
+                    <hi rend="italic">Minimum Feedback Arc Set</hi> bekanntes, NP-vollständiges (Karp 1972) Problem der Graphentheorie; um eine optimale Lösung zu finden, ist die größte der stark zusammenhängenden Komponenten zu groß (und die aus graphentheoretischer Sicht optimale Lösung muss auch nicht die philologisch korrekte sein, es wäre nur diejenige, die die wenigsten Datierungsaussagen verwirft). Verwendet wird stattdessen eine Heuristik, z.Z. das Verfahren von Eades (1993, Implementierung von igraph<hi rend="superscript">4</hi>), wobei zuviel entfernte Kanten nach Möglichkeit wieder hinzugefügt werden.
+                </p>
+                <p>Entfernt man alle Konfliktkanten, so erhält man einen zyklenfreien gerichteten Graphen (DAG), der die Basis für die automatisierte Weiterverarbeitung ist. Dessen Knoten können in eine 
+                    <hi rend="italic">topologische Ordnung</hi> gebracht werden, d.h. eine Reihenfolge, die mit allen Kanten des Graphen konsistent ist (Manber 1989: 199).
+                </p>
+                <p>Um die aus einer Vielzahl teils widersprüchlicher Aussagen mechanisch gezogenen Schlüsse nachvollziehbar und verbesserbar zu machen, werden die Daten in einer Reihe verlinkter Darstellungen mit GraphViz (Gansner/North 2000) visualisiert. Die Grundlage bildet der Gesamtgraph mit allen Aussagen, in dem algorithmisch entfernte Aussagen (Konflikte) rotgestrichelt visualisiert werden.</p>
+                <p>Zu jedem Zeugen gibt es einen Teilgraphen, der seine Nachbarn, die nächsten erreichbaren absoluten Datierungen und alle Aussagen dazwischen visualisiert. Darunter werden die Aussagen tabellarisch aufgelistet. Zu jeder (entfernten) Konfliktkante zeigt eine separate Visualisierung einen Pfad in der Gegenrichtung, mit dem die Kante in Konflikt stand, so dass der Konflikt erkennbar wird und zu den beteiligten Zeugen weiternavigiert werden kann.<hi rend="superscript">5</hi> Daneben gibt es aufbereitete Darstellungen für jede Szene und jede Quelle.
+                </p>
+                <p>Anhand der Visualisierungen können die vorliegenden Reihenfolgeentscheidungen nachvollzogen, aber auch Datierungskontroversen und -lücken identifiziert undin den Quelldateien behoben werden:</p>
+                <list type="unordered">
+                    <item>Aussagen können als 
+                        <hi rend="italic">zu ignorieren</hi> markiert werden, um sie bei der Bildung des Graphen auszuschließen.
+                    </item>
+                    <item>Quellen können nach ihrer Zuverlässigkeit bewertet werden, um zu beeinflussen, wie leicht oder schwer entsprechende Kanten als Konfliktkanten entfernt werden.</item>
+                    <item>Eigene Erkenntnisse können mit entsprechend hohem Gewicht einbezogen werden.</item>
+                </list>
+                <p>Die visualisierten Ergebnisse erfüllen so einen mehrfachen Zweck: Sie dienen zur systematischen Erschließung der einschlägigen Forschung, zur Klärung der genetischen Verhältnisse für den gesamten Faust und als Hilfsmittel zur Überprüfung, Vervollständigung und Verbesserung der Datenlage, d.h. zur Erweiterung des Forschungsstand. Darüber hinaus wird die ermittelte Reihenfolge in der Faustediton verwendet, um die Zeilensynopse sowie das Balkendiagramm zu sortieren.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Ausblick</head>
+                <p>Neben der manuellen Nachbearbeitung der Daten kommen zur Verbesserung des Verfahrens alternative Heuristiken für das Minimum-Feedback-Arc-Problem in Frage (z.B. Even et al. 1998). </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-6cf52167-7fff-1890-1207-0f25772723f2"/>Bei der vorgestellten Methode werden in der relativen Chronologie die Entstehungsintervalle nur in eine disjunkte vor-nach-Beziehung gesetzt. Möglich wäre es, hier zu prüfen, ob eine weitere Ausdifferenzierung der Beziehungen zwischen Entstehungsintervallen realisierbar ist, so dass Beziehungen der Form „wurde begonnen vor Fertigstellung von“ ausgedrückt werden können. Komplexere Relationen als eine einfache zeitliche Abfolge werden bereits von Allen (1983) in einem Graphmodell beschrieben, allerdings ist hier die globale Konfliktfreiheit ein Problem.
+                </p>
+                <p>Eine Alternative zu der oben beschriebenen Abbildung unscharfer Aussagen auf scharf begrenzte Intervalle ist etwa die Modellierung über Fuzzy-Mengen (vgl. z.B. Barro et al. 1994). Dies erfordert jedoch auch die Neudefinition der Relationen (Schockaert/De Cock 2008) und der darauf aufbauenden Verfahren etwa zur Konfliktauflösung.</p>
+                <p>Der vorgestellte Ansatz basiert auf bereits vorhandenen, mit traditionellen philologischen Mitteln gewonnenen Datierungsaussagen. In Wissenbach/Pravida/Middell (2012) wird ein Verfahren vorgestellt, mit der kodierte, textinhärente Eigenschaften von Fassungen für die regelbasierte Bildung genetischer Hypothesen genutzt werden, um auf diesem Weg generelle Hypothesen zur Arbeitsweise des Autors zu verifizieren. 
+                    <anchor xml:id="id_docs-internal-guid-fb233658-7fff-3e11-2cdc-e56fbdf07608"/>Nachdem die genetische Analyse des Korpus nun weiter vorangeschritten ist, kann dieser Ansatz auf einer breiteren Datenbasis evaluiert werden.
+                </p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+				<note xml:id="ftn1" place="foot" n="1"> <anchor xml:id="id_docs-internal-guid-aae215ec-7fff-488f-637e-b1feb55adf4b"/>Zu den ausgewerteten Quellen siehe <ref target="http://faustedition.net/macrogenesis/sources">faustedition.net/macrogenesis/sources</ref>.</note>
+				<note xml:id="ftn2" place="foot" n="2"> <anchor xml:id="id_docs-internal-guid-4c1cd575-7fff-ea85-56e0-bf203e57efd3"/>Das Datenmodell der Faustedition sieht eine konzeptuelle Unterscheidung zwischen Zeugen und Inskriptionen (Niederschriften) vor: Die eigentlichen Objekte der Datierung sind Inskriptionen. Ein Zeuge kann eine oder mehrere unterschiedlich datierte Inskriptionen enthalten. Im folgenden wird der Einfachheit halber nur von Zeugen gesprochen.</note>
+				<note xml:id="ftn3" place="foot" n="3"> <anchor xml:id="id_docs-internal-guid-dfec4101-7fff-22df-4f03-eced597cddd1"/>Mit der Graphbibliothek NetworkX (Hagberg/Schult/Swart 2008).</note>
+				<note xml:id="ftn4" place="foot" n="4"> http://igraph.org/</note>
+				<note xml:id="ftn5" place="foot" n="5"> <anchor xml:id="id_docs-internal-guid-57d70c93-7fff-8087-d06c-cdce55624603"/>Beispiel: <ref target="http://faustedition.net/macrogenesis/H_P93--1825-01-01">faustedition.net/macrogenesis/H_P93--1825-01-01</ref>.</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-dcac9358-7fff-2a51-4a30-189d5cae570c"/>
+                        <hi rend="bold">Allen, James F. (1983):</hi> 
+                        <hi rend="italic">Maintaining knowledge about temporal intervals</hi>, 
+                        in: Communication of ACM 21(11): 832–843 doi: 
+                        <ref target="https://doi.org/10.1145/182.358434">
+                            <hi rend="color(#1155cc)underline">10.1145/182.358434.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Barro, Senén / Marín, Roque / Mira, José / Patón, Alfonso R. (1994):</hi> 
+                        <hi rend="italic">A model and a language for the fuzzy representation and handling of time</hi>, 
+                        in: Fuzzy Sets and Systems 61: 153–175. doi: 
+                        <ref target="https://doi.org/10.1016/0165-0114(94)90231-3">
+                            <hi rend="color(#1155cc)underline">10.1016/0165-0114(94)90231-3.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bayliss, Alex (2015):</hi> 
+                        <hi rend="italic">Quality in Bayesian chronological models in archaeology</hi>, 
+                        in: World Archaeology 47(4): 677-700. doi:
+                        <ref target="https://doi.org/10.1080/00438243.2015.1067640">
+                            <hi rend="color(#1155cc)underline">10.1080/00438243.2015.1067640</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bohnenkamp, Anne (1994): </hi>
+                        <hi rend="italic">... das Hauptgeschäft nicht außer Augen lassend</hi>.
+                        <hi rend="italic">Die Paralipomena zu Goethes</hi>
+                        <hi rend="italic">Faust</hi>.
+                        <hi rend=""> Frankfurt am Main / Leipzig: Insel.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burgess, Richard W. / Witakowski, Witold (1999):</hi> 
+                        <hi rend="italic">Studies in Eusebian and Post-Eusebian Chronography</hi> 
+                        (= Historia. Einzelschriften; 135). Stuttgart: Steiner.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eades, Peter / Lin, Xue-Min / Tamassia, Roberto (1993):</hi> 
+                        <hi rend="italic">A fast and effective heuristic for the feedback arc set problem</hi>, 
+                        in: Information Processing Letters 47(6): 319–323. doi:
+                        <ref target="https://doi.org/10.1016/0020-0190(93)90079-O">
+                            <hi rend="color(#1155cc)underline">10.1016/0020-0190(93)90079-O.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Even, Guy / Naor, Joseph / Schieber, Baruch / Sudan, Madhu (1998):</hi> 
+                        <hi rend="italic">Approximating Minimum Feedback Sets and Multicuts in Directed Graphs</hi>, 
+                        in: Algorithmica 20(2): 151–174. doi:
+                        <ref target="https://doi.org/10.1007/PL00009191">
+                            <hi rend="color(#1155cc)underline">10.1007/PL00009191.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fischer-Lamberg, Renate (1955):</hi> 
+                        <hi rend="italic">Untersuchungen zur Chronologie von Faust II 2 und 3. Diss. phil. (masch.)</hi>, 
+                        Humboldt-Universität Berlin.
+                   </bibl>
+                    <bibl>
+                        <hi rend="bold">Gansner, Emden R. / North, Stephen C. (2000):</hi> 
+                        <hi rend="italic">An open graph visualization system and its applications to software engineering</hi>, 
+                        in: Software: Practice and Experience 30(11): 1203–1233. doi:
+                        <ref target="https://doi.org/10.1002/1097-024X(200009)30:11%3C1203::AID-SPE338%3E3.0.CO;2-N">
+                            <hi rend="color(#1155cc)underline">10.1002/1097-024X(200009)30:11&lt;1203::AID-SPE338&gt;3.0.CO;2-N.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Grafton, Anthony (1993):</hi> 
+                        <hi rend="italic">Joseph Scaliger. A Study in the History of Classical Scholarship. Vol. II: Historical Chronology</hi>
+                        (= Oxford-Warburg Studies). Oxford: Clarendon.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hagberg, Aric A. / Schult, Daniel A. / Swart, Pieter J. (2008):</hi> 
+                        <hi rend="italic">Exploring Network Structure, Dynamics, and Function using NetworkX</hi>, 
+                        in: 
+                        <hi rend="bold">Varoquaux, Gael / Vaught, Travis / Millman, Jarrod (eds):</hi> 
+                        Proceedings of the 7th Python in Science Conference (SciPy2008) in Pasadena, CA
+                        <ptr target="https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-08-05495"/>
+                        [letzter Zugriff 14. Oktober 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Karp, Richard M. (1972):</hi> 
+                        <hi rend="italic">Reducibility Among Combinatorial Problems</hi>, 
+                        in: 
+                        <hi rend="bold">Miller, Raymond Edward / Thatcher, James W. (eds.):</hi> 
+                        <hi rend="italic">Complexity of Computer Computations</hi>. 
+                        New York: Plenum 85–103. doi: 10.1007/978-3-540-68279-0_8.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Manber, Udi (1989):</hi> 
+                        <hi rend="italic">Introduction to Algorithms: A Creative Approach</hi>. 
+                        Reading, MA: Addison-Wesley.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pereltsvaig, Asya / Lewis, Martin (2015):</hi> 
+                        <hi rend="italic">The Indo-European Controversy. Facts and Fallacies in Historical Linguistics</hi>. 
+                        Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schockaert, Steven / De Cock, Martine (2008):</hi> 
+                        <hi rend="italic">Temporal Reasoning about Fuzzy Intervals</hi>, 
+                        in: Artificial Intelligence 172(8): 1158–1193. doi:
+                        <ref target="https://doi.org/10.1016/j.artint.2008.01.001">
+                            <hi rend="color(#1155cc)underline">10.1016/j.artint.2008.01.001.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Trovato, Paolo (2014):</hi> 
+                        <hi rend="italic">Everything You Always Wanted to Know About Lachmann's Method. A Non-Standard Handbook of Genealogical Textual Criticism in the Age of Post-Structuralism, Cladistics, and Copy-Text</hi>. 
+                        Padova: libreriauniversitaria.it
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Van Hulle, Dirk (2018):</hi> 
+                        <hi rend="italic">Editing the Wake’s Genesis: Digital Genetic Criticism</hi>, 
+                        in: 
+                        <hi rend="bold">Sartor, Genevieve (ed.):</hi> 
+                        <hi rend="italic">James Joyce and Genetic Criticism. Genesic Fields</hi> 
+                        (= European Joyce Studies; 28). Leiden, Boston: Brill Rodopi 37–54.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wissenbach, Moritz / Pravida, Dietmar / Middell, Gregor (2012):</hi> 
+                        <hi rend="italic">Reasoning about Genesis or The Mechanical Philologist</hi>, 
+                        in: 
+                        <hi rend="bold">Meister, Jan Christoph (ed.):</hi> 
+                        <hi rend="italic">Digital Humanities 2012. Conference Abstracts</hi>. 
+                        Hamburg: Hamburg University Press 418–422
+                        <ptr target="http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/reasoning-about-genesis-or-the-mechanical-philologist.1.html"/>
+                        [letzter Zugriff 14. Oktober 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

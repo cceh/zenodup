@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="116_final-WUTTKE_Ulrike_Die_PARTHENOS_Training_Suite" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die PARTHENOS Training Suite</title>
+                <author>
+                    <persName>
+                        <surname>Wuttke</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <affiliation>FH Potsdam, Deutschland</affiliation>
+                    <email>wuttke@fh-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neuroth</surname>
+                        <forename>Heike</forename>
+                    </persName>
+                    <affiliation>FH Potsdam, Deutschland</affiliation>
+                    <email>neuroth@fh-potsdam.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-03T09:45:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Infrastrukturen</term>
+                    <term>eLearning</term>
+                    <term>Training</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Kollaboration</term>
+                    <term>Einführung</term>
+                    <term>Lehre</term>
+                    <term>Curricula</term>
+                    <term>Multimedia</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p rend="Standard1">Digitale Forschungsinfrastrukturen spielen eine zunehmende Rolle im geistes- und kulturwissenschaftlichen Bereich (z.B. ESF 2011, Benardou, Champion, Dallas &amp; Hughes (eds.) 2017). Damit ihre Potentiale ausgeschöpft und die Früchte der ressourcenintensiven Entwicklungsforschungsarbeit geerntet werden können, müssen sich diejenigen, die mit ihnen forschen, und diejenigen, die an ihrer Entwicklung und ihrem Ausbau beteiligt sind, zusätzliches theoretisches Wissen und praktische Fähigkeiten aneignen. </p>
+            <p rend="Standard1">Als das EU-Projekt 
+            PARTHENOS<ref target="ftn1" n="1"/>, das die wichtigsten europäischen eHumanities und eHeritage Infrastrukturen umfasst, startete, boten geistes- und kulturwissenschaftliche Infrastrukturen bereits Trainings- und Ausbildungsangebote an und trugen zur Entwicklung, Ausbau oder Unterhalt von Plattformen für Online-Trainingsmaterialien bzw. -Kursübersichten bei (z.B. 
+            #dariahTeach<ref target="ftn2" n="2"/>, CLARIN 
+            Videolectures<ref target="ftn3" n="3"/>). Viele dieser Angebote sind jedoch projektspezifisch bzw. thematisch und methodisch spezialisiert und setzen Vorwissen über die Rolle und Funktion von Forschungsinfrastrukturen voraus, das potentiellen neuen Nutzer*innen meist fehlt. Ausreichendes Vorwissen über infrastrukturelle Aspekte ist jedoch eine Grundvoraussetzung für die erfolgreiche Auseinandersetzung mit thematisch und methodisch spezialisierten Themengebieten der Digital Humanities. PARTHENOS adressiert diesen Bedarf einerseits durch die Entwicklung eines disziplinübergreifenden inhaltlichen Curriculums zu infrastrukturell breit angelegten Themengebieten und andererseits zielgruppengeeigneter Vermittlungswege, die neue technologische Vermittlungsmöglichkeiten nutzen. 
+            </p>
+            <p rend="Standard1">Die Entwicklung der Trainingsangebote erfolgt durch das PARTHENOS Training Team (Leitung Trinity College Dublin) gemeinsam mit den an PARTHENOS beteiligten Partnern auf der Basis der Analyse der Nutzeranforderungen und bestehender Trainingskonzepte im Bereich eHumanities und eHeritage Infrastrukturen in der ersten Projektphase (Drude et al. 2016, Oltersdorf et al. 2016). Ausgehend von diesen Erkenntnissen entwickelt PARTHENOS auf der Grundlage des gemeinsamen Wissensschatzes der Projektpartner grundlegende Trainings- und Lehrmaterialien. Die disziplinübergreifend breit angelegten Materialien sollen Interesse an infrastrukturell getriebener Forschungs- und Entwicklungsarbeit wecken, ein Grundverständnis für die inhärenten Potentiale und Herausforderungen schaffen sowie eine Grundlage für weiterführende Auseinandersetzungen bilden. Schwerpunkte sind dabei die Wissensvermittlung über die Rollen, Funktionen und Potentiale geistes- und kulturwissenschaftlicher digitaler Infrastrukturen für Wissenschaftler*innen, Praktiker*innen, Entwickler*innen, Mitarbeiter*innen in Rechenzentren und Entscheidungsträger*innen und die didaktischen Ziele Bewusstseinsbildung 
+            (<hi rend="italic">awareness raising</hi>) und Erweiterung von Fertigkeiten 
+            (<hi rend="italic">skills building</hi>) (Edmond, Garnett 2017). 
+            </p>
+            <p rend="Standard1">Vor diesem Hintergrund entwickelt PARTHENOS Online-Materialien für das eigenständige Selbststudium und die Verwendung durch Lehrpersonen (insbesondere durch die Bereitstellung ergänzender Übungsmaterialien und eines exemplarischen Workshop-Curriculums) und bietet (virtuelle) Veranstaltungstypen an (Edmond et al. 2016, Spiecker et al. 2017). Die Materialien werden auf der PARTHENOS Training 
+            Suite<ref target="ftn4" n="4"/> bereitgestellt, einer WordPress-basierten eLearning-Plattform, die aus einer Reihe von Modulen besteht (z.B. „Introduction to Research Infrastructures“, „Management Challenges in Research Infrastructures“, „Open Up your Research and Data“). Lehrende und Lernende werden zur besseren Orientierung linear durch die Inhalte der Module geführt. Sie können jedoch zu jedem Zeitpunkt über die Modulnavigation gezielt einzelne Inhalte ansteuern und so ihren Lernprozess und den verschiedene Sinne ansprechenden Modus der Vermittlung und Rezeption individuell steuern. Vereinzelt können sie auch zwischen unterschiedlichen Formen der Vermittlung derselben Inhalte wählen (z.B. Text oder Video). 
+            </p>
+            <p rend="Standard1">Im Gegensatz zu printbasierten Lehrmaterialien nutzt die PARTHENOS Training Suite zeitgemäße technologische Möglichkeiten und erlaubt die Einbindung multimedialer Inhalte und multimodaler Formen der Aneignung und Vermittlung durch Lernende und Lehrende. Innerhalb der Module reicht die Spannbreite der bereitgestellten Ressourcen von Video-Vorträgen, Interviews, Erklärfilmen, über Präsentationsmaterialien, Übungen und Erläuterungen zu Grundprinzipien, bis zu Literatur- und Linksammlungen. Des Weiteren hat PARTHENOS erfolgreich die fünfteilige “PARTHENOS eHumanities and eHeritage Webinar Series” durchgeführt (Drenth &amp; Wuttke 2018, Wuttke 2019). Alle Webinarmaterialien (wie Präsentationsfolien als PDF und Powerpoint und Videoaufnahmen der Webinare) stehen zur Nachnutzung zur 
+            Verfügung.<ref target="ftn5" n="5"/>
+            </p>
+            <p rend="Standard1">Mit der Bereitstellung der Materialien als Open Educational Resources (OER), greift PARTHENOS einen Grundwert der auf einer Kultur des Teilens und der Nachnutzung basierenden Digital Humanities auf. Ebenso werden bei der Entwicklung die Möglichkeiten des partizipativen digitalen Erschaffens ausgelotet („collaboration as creation“, Burdick et al. 2016: 84). Um neue Entwicklungen aufzugreifen, findet ein permanenter Austausch mit den Projektpartnern über die Weiterentwicklung der Trainingsangebote statt. So wird einerseits die Erfüllung der Bedarfe der Fachcommunities sichergestellt (Bottom-Up-Approach) und andererseits die Innovationskraft sowie die Qualität der Produkte erhöht. Zusätzlich werden Kooperationen mit externen Partnern (wie z.B. 
+            Europeana<ref target="ftn6" n="6"/> oder Foster<ref target="ftn7" n="7"/>) eingegangen, sowohl bezüglich der Einbindung externer Materialien, aber auch der Nachnutzung der PARTHENOS-Materialien. 
+            </p>
+            <p rend="Standard1">Unser Poster vermittelt die Grundprinzipien und wichtigsten Erkenntnisse bei der Entwicklung der PARTHENOS Trainingsangebote, die so multimedial und multimodal sind, wie die Digital Humanities selbst. Es stellt die PARTHENOS Trainingsangebote mit Hilfe von Text und Graphiken vor, um ihre Bekanntheit und Nachnutzung durch die deutschsprachige Digital Humanities Community zu fördern.</p>
+            <p rend="Standard1">Danksagung: Die im Poster vorgestellten Ergebnisse beruhen auf der gemeinsamen Arbeit von PARTHENOS Arbeitspaket 7 „Skills, Professional Development and Advancement“ und den PARTHENOS Projektpartnern. </p>
+            <p style="text-align:left; ">PARTHENOS has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement 654119.</p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    <hi style="font-size:10pt" xml:space="preserve"> PARTHENOS steht für „Pooling Activities, Resources and Tools for Heritage e-Research, Optimization and Synergies“, Projektlaufzeit 2015-2019, Projektwebseite: http://www.parthenos-project.eu/. Siehe auch Wuttke, Neuroth, Spiecker 2019.</hi>
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    <hi style="font-size:10pt" xml:space="preserve"> Projekt-Webseite: https://teach-blog.dariah.eu/.</hi>
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    <hi style="font-size:10pt" xml:space="preserve"> Projekt-Webseite: http://videolectures.net/clarin/.</hi>
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    <hi style="font-size:10pt" xml:space="preserve"> Die Einstiegsseite der PARTHENOS Training Suite ist zu erreichen über: http://training.parthenos-project.eu/</hi>
+                </note>
+                <note xml:id="ftn5" n="5" rend="footnote text">
+                    <hi style="font-size:10pt" xml:space="preserve"> Mehr Informationen zur PARTHENSO-Webinarserie sowie Links zu den einzelnen Webinaren und die Webinarmaterialen sind zu finden über: http://training.parthenos-project.eu/sample-page/ehumanities-eheritage-webinar-series/.</hi>
+                </note>
+                <note xml:id="ftn6" n="6" rend="footnote text">
+                    Projekt-Webseite: https://www.europeana.eu/portal/.
+                </note>
+                <note xml:id="ftn7" n="7" rend="footnote text">
+                    Projekt-Webseite: https://www.fosteropenscience.eu/.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Burdick, Anne / Drucker, Johanna / Lunenfeld, Peter / Presner, Todd / Schnapp, Jeffrey (eds.) (2016)</hi>: <hi rend="italic">Digital Humanities</hi>. Cambridge, MA: MIT Press. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Benardou, Agiatis / Champion, Erik / Dallas, Costis / Hughes, Lorna (eds.) (2017)</hi>: <hi rend="italic">Cultural Heritage Infrastructures in Digital Humanities</hi>. Digital Research in the Arts and Humanities. London, New York: Routledge. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">ESF (2011)</hi>: <hi rend="italic">Research Infrastructures in the Digital Humanities</hi>. Science Policy Briefing, 42. European Science Foundation. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Drenth, Petra / Wuttke, Ulrike (2018)</hi>: <hi rend="italic">“Successful PARTHENOS e-Humanities and eHeritage Series concluded”</hi>. PARTHENOS News Beitrag, 28.05.2018, http://www.parthenos-project.eu/succesfull-parthenos-ehumanities-and-eheritage-webinar-series-concluded [letzter Zugriff 03. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Drude, Sebastian / Di Giorgio, Sara / Ronzino, Paola / Links, Petra / Van Nispen, Annelies / Verbrugge, Karolien / Degl’Innocenti, Emiliano / Stiller, Juliane / Oltersdorf, Jenny / Spiecker, Claus (2016)</hi>: <hi rend="italic">Report on user requirements, PARTHENOS deliverable D2.1.</hi> Veröffentlicht am 20.10.2016. http://www.parthenos-project.eu/Download/Deliverables/D2.1_User-requirements-report-v2.pdf [letzter Zugriff 03. Januar 2019]. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Edmond, Jennifer / Garnett, Vicky (2017)</hi>: <hi rend="italic">„Soft Skills in hard places: the changing face of DH training in European research infrastructures. Pre-print as presented at the DH Benelux Conference, 2017“</hi>. http://hdl.handle.net/2262/85444 [letzter Zugriff 03. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Edmond, Jennifer / Garnett, Vicky / Burr, Elisabeth / Laepke, Stefanie / Oltersdorf, Jenny / Goulis, Helen (2016)</hi>: <hi rend="italic">Initial Training Plan</hi>. Veröffentlicht am 07.06.2016. http://www.parthenos-project.eu/Download/Deliverables/D7.1_Initial_Training_Plan.pdf [letzter Zugriff 03. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Oltersdorf, Jenny / Edmond, Jennifer / Garnett, Vicky / Henriksen, Lina / Mergoupi, Eirini-Savaidou / Povlsen, Claus (2016)</hi>: <hi rend="italic">Report on the assessment of the education and training plans and activities. PARTHENOS deliverable D2.2.</hi> Veröffentlicht am 20.20.2016. http://www.parthenos-project.eu/Download/Deliverables/D2.2_Report_Assessment_Education_Training.pdf[letzter Zugriff 03. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Spiecker, Claus / Oltersdorf, Jenny / Wuttke, Ulrike / Edmond, Jennifer / Garnett, Vicky / Läpke, Stefanie (2017)</hi>: <hi rend="italic">Report on training and education activities and updated planning</hi>. Veröffentlicht am 22.04.2017. Verfügbar unter: http://www.parthenos-project.eu/Download/Deliverables/D7.2_Training_Plan_FINAL.pdf [letzter Zugriff 03. Januar 2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wuttke, Ulrike (2019)</hi>: <hi rend="italic">„The “PARTHENOS Training Webinar Series”: Webinars as a means of delivering successful research infrastructure training in eHumanities and eHeritage“</hi>, in Liber Quarterly (im Erscheinen).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wuttke, Ulrike / Spiecker, Claus / Neuroth, Heike (2019)</hi>: <hi rend="italic">„PARTHENOS – Eine digitale Forschungsinfrastruktur für die Geistes- und Kulturwissenschaften“</hi>, in: Bibliothek Forschung und Praxis (im Erscheinen). 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

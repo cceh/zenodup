@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="279_final-SCHNEIDER_Philipp_Diskursive_Strukturen_als__ffentliche_Spie" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Diskursive Strukturen als öffentliche Spielräume in Graphenstrukturen. Konzeption, Modellierung und Auswertung ideengeschichtlicher Netzwerke am Beispiel der Spätaufklärung im Fürstentum Lippe</title>
+<author>
+<persName>
+<surname>Schneider</surname>
+<forename>Philipp</forename>
+</persName>
+<affiliation>Universität Münster, Deutschland</affiliation>
+<email>schneider.philipp@uni-muenster.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Soziale Netzwerkanalyse</term>
+<term>Diskursnetzwerke</term>
+<term>Projektvorstellung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Kontextsetzung</term>
+<term>Theoretisierung</term>
+<term>Netzwerkanalyse</term>
+<term>Projekte</term>
+<term>Forschungsergebnis</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einführung und Forschungsdesign</head>
+<p style="text-align:left; ">Das Poster diskutiert die methodischen Herausforderungen und Erkenntnismöglichkeiten bei der Modellierung und Auswertung heterogener ideengeschichtlicher Netzwerkstrukturen mit den Methoden der Sozialen Netzwerkanalyse. Dies soll im Rahmen der Vorstellung eines Projekts erfolgen, bei dem mittels einer landesgeschichtlichen Perspektive die Spätaufklärung im Fürstentum Lippe untersucht wurde. Grundlage hierfür Listen der innerhalb dieses Territoriums gelesenen und gedruckten Literatur.</p>
+<p style="text-align:left; ">Unter dem Begriff der Aufkärung wird eine Vielzahl von Diskursen zu philosophischen, politischen, religiösen und anthropologischen Ideen gefasst, die alle Lebensbereiche in den Gesellschaften des 18. Jahrhunderts betrafen. An diesen Diskursen waren unterschiedliche Akteure und soziale Gruppen beteiligt, die nicht nur verschiedene inhaltliche Schwerpunkte setzten, sondern auch variierende, zum Teil gegenläufige, Ziele verfolgten (Stollberg-Rilinger 2011: 10). Ausgehend von dieser Bandbreite und Diffusität bewegen sich nahezu alle Studien zu diesem Themenkomplex bei der Wahl ihrer Untersuchungsperspektive in der Nähe von zwei Polen:</p>
+<list type="ordered">
+<item>Aufklärung wird aus einer 
+                        <hi rend="italic">mikroskopischen</hi> Perspektive betrachtet, wobei meist ein einzelner aufgeklärter Diskurs intensiv untersucht wird.
+                    </item>
+<item>Aufklärung wird aus einer 
+                        <hi rend="italic">makroskopischen</hi> Perspektive betrachtet. Hierbei wird versucht eine möglichst allgemeine, idealtypische Begriffsbestimmung von Aufklärung zu schaffen, bei der zwar der großen Vielfalt des Themas Rechnung getragen wird, Details jedoch (zwangsläufig) ausgeblendet werden.
+                    </item>
+</list>
+<p style="text-align:left; ">Die Bedeutung dieser Perspektiven für die Aufklärungsforschung ist nicht zu bestreiten. Dennoch bleiben mit der Auslassung einer mesoskopischen Sichtweise einige Fragen unbeantwortet. Zwar wurde an vielen Stellen die interne Struktur einzelner Diskurse offen gelegt und zugleich deutlich gemacht, welche Bedeutung diese für die Epoche der Aufklärung insgesamt darstellten. Unklar bleibt jedoch häufig, wie sich die einzelnen Teildiskurse zueinander verhielten; wie sie sich gegenseitig beeinflussten und wo inhaltliche sowie personelle Überschneidungen existierten. Auf Grund des umfassenden, gesamtgesellschaftlichen Durchdringungspotentials der Aufklärung waren diese diskursiven Bezüge jedoch vorhanden (Stollberg-Rilinger 2011: 10). Größere Entwicklungsverläufe in der aufgeklärten Diskurslandschaft lassen sich durch die skizzierten Perspektiven nicht vollständig, sondern nur in Ausschnitten darstellen; ebenso ist die Identifizierung von Teildiskursen oder auch aufgeklärten Denkschulen meist nur unter Bezugnahme auf Meistererzählungen sowie zeitgenössische Deutungen möglich. Eine Adressierung dieser Problemfelder würde jedoch nicht nur unser generelles Verständnis dieser Epoche schärfen, sondern könnte auch allgemeine Erkenntnisse zur Funktionsweise großer sozialer Bewegungen liefern, die von einer ähnlich heterogenen Diskurslandschaft getragen werden.</p>
+<p style="text-align:left; ">In der dem Poster zu Grunde liegenden Arbeit<ref n="1" target="ftn1"/> wurde die aufgeklärte Diskurslandschaft in einem Nebenland der Aufklärung – dem Fürstentum Lippe<ref n="2" target="ftn2"/> – im Zeitraum zwischen 1796 und 1820 untersucht. Auch die Aufklärungsforschung zu diesem Territorium des Alten Reiches bewegte sich vor allem in der Nähe der oben skizzierten makroskopischen (z.B. Arndt 1992) und mikroskopischen (z.B. Behrisch 2016 oder Wehrmann 1972) Dimensionen. Um die beschriebenen Anforderungen einer mesoskopischen Perspektive auf Aufklärung zu berücksichtigen wurden daher die einzelnen historischen Quellen, Personen und Ideen in ihrer singulären Bedeutung zurückgestellt und sie stattdessen in ihrer Relationalität zueinander untersucht um Rückschlüsse auf die Struktur der aufgeklärten Diskurslandschaft als Ganzes innerhalb des Untersuchungsraumes zu gewinnnen.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Modellierung ideengeschichtlicher Netzwerkdaten</head>
+<p style="text-align:left; ">Der Modellierung ebendieser Diskurslandschaft in einer Graphenstruktur lag insbesondere eine kulturwissenschaftliche Vorannahme über die betrachteten historischen Konzepte zu Grunde: Die Operationalisierung der Diskursstruktur erfolgte über ein praxeologisches Verständnis von 
+                    <hi rend="italic">Aufklärung</hi>. Hierbei wurden einerseits das Verfassen von Büchern und Journalartikeln als Teilhabe an aufgeklärten Diskursen sowie andererseits deren Rezeption durch Lesen dieser Beiträge innerhalb von Sozietäten als zentrale Praktiken der Aufklärung identifiziert (Vgl. für eine allgemeine Operationalisierung aufgeklärter Kommunikation auch Bödeker 1987). Diese Praktiken bieten den Rahmen für die Spielräume in denen die verschiedenen, heterogenen Diskurse der Aufklärung öffentlich ausgetragen wurden.
+                </p>
+<p style="text-align:left; ">Die wichtigsten Quellengrundlagen waren hierbei zum Einen für die innerhalb des untersuchten Fürstentums Lippe 
+                    <hi rend="italic">rezipierten</hi> Publikationen die Auktionslisten der lippischen Lesegesellschaft.<ref n="3" target="ftn3"/> Zum Anderen bot für die im Untersuchungsraum 
+                    <hi rend="italic">publizierten</hi> Druckwerke das Verzeichnis des im Untersuchungszeitraum einzigen Verlags Lippes den Beleg (Weißbrodt 1914). Diese Literaturlisten wurden als strukturierte Informationen automatisiert in Netzwerkdaten überführt.
+                </p>
+<p style="text-align:left; ">Die in den einzelnen Publikationen behandelten Themen wurden dann als Teildiskurse bzw. 
+                    <hi rend="italic">Diskursfelder</hi> aufgefasst, die in ihrer Gesamtheit den aufgeklärten Diskurs im Untersuchungsraum abbildeten. Ein Diskursfeld konnte hierbei einzelne Themenbereiche darstellen – etwa die Verbesserung der Situation der Bauern, aufgeklärte Pädagogik oder die Rolle des Adels in der Gesellschaft. Diese Themenfelder stehen somit auch für sich genommen als eigene, diskursanalytisch relevante ideengeschichtliche Entitäten. Ihre Modellierung als Netzwerkknoten erfolgte auf Grundlage der bisherigen Forschung zur Aufklärung. Diese nicht-automatisierte Erstellung der Diskursfelder bedingt dementsprechend besonders stark die Erkenntnismöglichkeiten des Netzwerks. Zugleich wird so bereits bei der Modellierung sichergestellt, dass die Netzwerkdaten im Rahmen der bisherigen Aufklärungsforschung kontextualisiert sind.
+                </p>
+<p style="text-align:left; ">Diskursfelder und Publikationen wurden dann als Knoten in einem bimodalen Netzwerk modelliert (Abbildung 1). Die Verknüpfungen zwischen den Publikations- und Diskursfeld-Knoten erfolgte in einem hermeneutischen-interpretativen Prozess auf Grundlage der Titel der Bücher und Journalartikel.<ref n="4" target="ftn4"/> Das Netzwerk wurde dann zu einem unimodalen Netzwerk aus Diskursfeldern transformiert um eine Auswertung vornehmen zu können (Abbildung 2). Durch die Verwendung der Publikationen als heuristische Grundlage konnten so nach der Transformation ideengeschichtliche Ähnlichkeiten und Abhängigkeiten zwischen den einzelnen Diskursfeldern abgebildet werden. Um dabei auch Veränderungen innerhalb des Untersuchungszeitraums erfassen zu können wurden die Kanten des Netzwerks mit zeitlichen Informationen versehen. Grundlage waren die Jahre, in denen die einzelnen Bücher und Journalartikel veröffentlicht wurden – in diesem Zeitraum lässt sich durch den Druck einer Publikation ihr Einfluss auf ein Diskursfeld nachweisen.
+                </p>
+<figure>
+<graphic height="16.002cm" n="1001" rend="inline" url="279_final-82385e12d8b3b951d8143efb8839c690.png" width="16.002cm"/>
+<head>Abbildung 1: Bimodales, gerichtetes Netzwerk der innerhalb Lippes erschienenen Publikationen. Diskursfelder sind rot, Publikationen grün dargestellt. Visualisierung mit dem Fruchtermann-Reingold-Algorithmus.</head>
+</figure>
+<figure>
+<graphic height="16.002cm" n="1002" rend="inline" url="279_final-96f2da5c573930d5953d259f5c0c6d60.png" width="16.002cm"/>
+<head>Abbildung 2: Aus Abbildung 1 transformiertes Diskursnetzwerk der innerhalb Lippes erschienenen Publikationen. Die Dicke der Kanten beschreibt dabei die Anzahl der Publikationen, die sich ein Diskursfeld teilen. Visualisierung mit dem Davidson-Harel-Algorithmus.</head>
+</figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Netzwerkanalytische Auswertung</head>
+<p style="text-align:left; ">Sowohl die quantitative Auswertung mit Methoden der 
+                    <hi rend="italic">Sozialen Netzwerkanalyse</hi> als auch die Aufbereitung der Daten erfolgte mit der Skriptsprache 
+                    <hi rend="italic">R</hi>; v.a. unter Zuhilfenahme des Pakets 
+                    <hi rend="italic">igraph</hi>. Die Verwendung von eigenem Programmcode bietet gegenüber GUI-basierten Lösungen wie 
+                    <hi rend="italic">Gephi</hi> oder 
+                    <hi rend="italic">Pajek</hi> eine leichtere Nachnutzbarkeit und damit auch eine bessere Überprüfbarkeit der Ergebnisse.
+                </p>
+<p style="text-align:left; ">Sowohl die Vielfalt der einzelnen Wissensfelder, als auch die nahezu unüberschaubare Menge historischer Quellen dieser Zeit sollten berücksichtigt werden. Die quantitative Auswertung der Relationen zwischen den Diskursfeldern mittels netzwerkanalytischer Verfahren, wie Berechnung von Betweenness-Zentralität (Jansen 2003: 134f) oder Community-Analyse (Rosvall 2019) legten unter anderem eine moderate Diversität der aufgeklärten Diskurslandschaft Lippes offen. Über den gesamten Untersuchungszeitraum ließ sich sowohl in der Publikations- als auch in der Rezeptionstätigkeit ein breites thematisches Interesse nachweisen, wie es für die Zeit der Aufklärung als charakteristisch beschrieben wird (Stollberg-Rilinger 2000). In Bezug auf die innerhalb des Fürstentums Lippe erschienen Publikationen existierte diese Vielfalt jedoch nicht durchgängig während des betrachteten Zeitraumes zwischen 1796 und 1820. Vielmehr war der innerhalb Lippes geführte Diskurs von wenigen Spezialthemen geprägt, die einen dauerhaften Bezug zu nahezu allen anderen Diskursfeldern aufwiesen. Hier dominierten insbesondere religiöse und pädagogische Themen im öffentlichen Diskurs. Volksaufklärerische Schriften mit einer großen territorialen Selbstreferenzialität nahmen ebenfalls einen wichtigen Platz im lippischen Publikationswesen ein. Politische Aktivität und Publikationswesen waren im Fürstentum weitgehend voneinander entkoppelt.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Methodische Perspektiven</head>
+<p style="text-align:left; ">Aus einer landesgeschichtlichen Perspektive ermöglichte die Untersuchung eine Schärfung des Verständnisses zu ideengeschichtlichen Schwerpunkten und Strukturen der Spätaufklärung im Fürstentum Lippe. Damit nimmt sie die oben skizzierte Mesoperspektive auf die Erforschung von Aufklärung als geistesgeschichtliches Phänomen ein. Hinsichtlich der 
+                    <hi rend="italic">Historischen Netzwerkforschung</hi> – der Anwendung der 
+                    <hi rend="italic">Sozialen Netzwerkanalyse</hi> in den Geschichtswissenschaften – erprobte die Untersuchung einen Ansatz zur Operationalisierung und Auswertung von Netzwerken, die nicht aus Personen, sondern aus abstrakten Ideen bestehen. Die Untersuchung nicht-personaler Netzwerke findet in den Historischen Disziplinen bislang nur selten statt (Düring 2016: 38). Daher ist es erforderlich, Möglichkeiten ebenso wie Herausforderungen bei der Quellensammlung, Datenmodellierung, Abgrenzung (Laumann 1992) und Auswertung eines Netzwerks, das aus ideengeschichtlichen Entitäten besteht, auszudifferenzieren und zu diskutieren. 
+                </p>
+<p style="text-align:left; ">Auf diese Weise sind auch unausweichlich zentrale Themen der Tagung betroffen, welche nicht nur für das Teilgebiet der 
+                    <hi rend="italic">Sozialen Netzwerkanalyse</hi>, sondern für die 
+                    <hi rend="italic">Digital Humanities</hi> im Allgemeinen relevant sind. Die Vorauswahl bestimmter Datenmodelle und Algorithmen wird bei der 
+                    <hi rend="italic">Sozialen Netzwerkanalyse</hi> besonders evident: Hier beruht das gesamte Forschungsdesign auf einem Denkparadigma, dem ein streng relationales Welt-, beziehungsweise Geschichtsbild, zu Grunde liegt. Erst die Wahl dieses Paradigmas bedingt den Einsatz bestimmter Methoden und computergestützter Werkzeuge. So ist auch das Thema dieses Posters ein Beispiel dafür, wie diese Vorannahmen einerseits die Selektion von Fragestellungen und bestimmten Quellentypen beeinflussen. Andererseits bietet die 
+                    <hi rend="italic">Soziale Netzwerkanalyse</hi> in Verbindung mit einem praxeologischen Ansatz jedoch auch eine ‚Unvoreingenommenheit’ gegenüber dem historischen Material. Serielle Textkorpora – wie in diesem Fall Publikationsverzeichnisse – können auf Grundlage formalisierender Vorüberlegungen vollständig ausgewertet werden. Dadurch kann auch einer, der manuellen Reduktion eines Korpus inhärenten, Gefahr von Meistererzählungen vorgebeugt werden.
+                </p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Eine Veröffentlichung der Forschungsergebnisse, der dabei angefallenen Daten sowie des für deren Aufbereitung und Auswertung entwickelten Programmcodes ist derzeit in Vorbereitung.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Das Land Lippe verfügte zwar über eine aufgeklärten Ideen gegenüber sehr aufgeschlossene landesherrliche Regierung, Verlagswesen und kleine Sozietätslandschaft, besaß jedoch kein eigenes geistiges Zentrum in Form einer Universität.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Diese sind im <hi rend="italic">Landesarchiv NRW, Abteilung Ostwestfalen-Lippe</hi> vollständig erhalten.
+  </note>
+  <note n="4" rend="footnote text" xml:id="ftn4">
+    Wegen ihres Umfangs bieten Literaturtitel aus dem 18. Jahrhunderts sehr ausführliche Informationen zum Inhalt des jeweiligen Werkes.
+  </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Arndt, Johannes</hi> (1992): 
+                        <hi rend="italic">Das Fürstentum Lippe im Zeitalter der Französischen Revolution 1770 – 1820.</hi> Münster: Waxmann. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Behrisch, Lars</hi> (2016): 
+                        <hi rend="italic" xml:space="preserve">Die Berechnung der Glückseligkeit. </hi>Statistik und Politik in Deutschland und Frankreich im späten Ancien Régime (= Beihefte der Francia 78), Ostfildern: Thorbecke.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Bödeker, Hans Erich</hi> (1987): „Aufklärung als Kommunikationsprozeß“, in: 
+                        <hi rend="italic" xml:space="preserve">Aufklärung </hi>2: 89–111.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Düring, Marten / Kerschbaumer, Florian</hi> (2016): „Quantifizierung und Visualisierung. Anknüpfungspunkte in den Geschichtswissenschaften“ in: Düring, Marten / Eumann, Ulrich / Stark, Martin / von Keyerlingk, Linda (eds.): 
+                        <hi rend="italic">Handbuch Historische Netzwerkforschung.</hi> Grundlagen und Anwendungen (= Schriften des Kulturwissenschaftlichen Instituts Essen (KWI) zur Methodenforschung 1), Münster: Lit Verlag 31–43. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Füssel, Marian</hi> (2015): „Praxeologische Perspektiven in der Frühneuzeitforschung“ in: Brendecke, Arndt (ed.): 
+                        <hi rend="italic">Praktiken der Frühen Neuzeit</hi>. Akteure, Handlungen, Artefakte (= Frühneuzeit-Impulse 3), Köln / Weimar / Wien: Böhlau 21–33. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Jansen, Dorothea</hi> (2003): 
+                        <hi rend="italic">Einführung in die Netzwerkanalyse</hi>. Grundlagen, Methoden und Forschungsbeispiele. Opladen: Leske + Budrich. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Landwehr, Achim</hi> (2018): 
+                        <hi rend="italic">Historische Diskursanalyse.</hi> Frankfurt a. Main: Campus Verlag.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Laumann, Edward O. / Marsden, Peter V. / Prensky, David</hi> (1992): „The Boundary Specification Problem in Network Analysis“ in: Freeman, Linton C. / White, Douglas R. / Romney, Antone Kimball (eds.): 
+                        <hi rend="italic">Research Methods in Social Network Analysis.</hi> New Brunswick / New Jersey: Taylor &amp; Francis 61–88. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Lemercier, Claire</hi> (2015a): „Formal network methods in history: why and how?“ in: Fertig, Georg (ed.): 
+                        <hi rend="italic">Social Networks, Political Institutions, and Rural Societies</hi> (= Rural History in Europe 11), Turnhout : Brepols 281–310. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Dies.</hi> (2015b): „Taking time seriously. How do we deal with change in historical networks?“ in: Gamper, Markus / Reschke, Linda / Düring, Marten (eds.): 
+                        <hi rend="italic">Knoten und Kanten III. Soziale Netzwerkanalyse in Geschichts- und Politikforschung</hi> (= Sozialtheorie), Bielefeld: transcript 183–212. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Rosvall, Martin / Bergstrom, Carl T.</hi> (2008): „Maps of random walks on complex networks reveal community structure“, in: 
+                        <hi rend="italic">Proceedings of the National Academy of Sciences 4</hi> 1118–1123. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Stollberg-Rilinger, Barbara</hi> (2000): 
+                        <hi rend="italic">Europa im Jahrhundert der Aufklärung</hi>, Stuttgart: Reclam.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Dies.</hi> (2011): 
+                        <hi rend="italic" xml:space="preserve">Die Aufklärung. </hi>Europa im 18. Jahrhundert, Stuttgart: Reclam.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Trappmann, Mark / Hummell, Hans J. / Sodeur, Wolfgang</hi> (2011): 
+                        <hi rend="italic">Strukturanalyse sozialer Netzwerke</hi>. Konzepte, Modelle, Methoden (Studienskripte zur Soziologie). Wiesbaden: Springer VS.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold" xml:space="preserve">Wehrmann, Volker </hi>(1972): 
+                        <hi rend="italic">Die Aufklärung in Lippe</hi>. Ihre Bedeutung für Politik, Schule und Geistesleben (= Lippische Studien 2). Detmold: Landesverband Lippe. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Weißbrodt, Ernst</hi> (1914): 
+                        <hi rend="italic">Die Meyersche Buchhandlung in Lemgo und Detmold und ihre Vorläufer</hi>. Festschrift zum 250jährigen Bestehen der Firma am 12. Juni 1914. Detmold: Meyer. 
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

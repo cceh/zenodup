@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="166_final-HOMBURG_Timo_____Linked_Ogham_Stones___Semantische_Modellier" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<!-- <title type="main">ᚑᚌᚔ Linked Ogham Stones – Semantische Modellierung und prototypische Analyse irischer Ogham-Inschriften</title> -->
+<title type="main">Linked Ogham Stones – Semantische Modellierung und prototypische Analyse irischer Ogham-Inschriften</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Homburg</surname>
+<forename>Timo</forename>
+</persName>
+<affiliation>Hochschule Mainz, Deutschland</affiliation>
+<email>timo.homburg@gmx.de</email>
+</author>
+<author>
+<persName>
+<surname>Thiery</surname>
+<forename>Florian</forename>
+</persName>
+<affiliation>Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften, Deutschland</affiliation>
+<email>rse@fthiery.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-08T18:02:31.562000000</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Ogham</term>
+<term>Linked Open Data</term>
+<term>räumliche Analyse</term>
+<term>Ontologie</term>
+<term>Semantische Modellierung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Beziehungsanalyse</term>
+<term>Räumliche Analyse</term>
+<term>Artefakte</term>
+<term>Sprache</term>
+<term>Methoden</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>Die Ogham-Schrift ist eine in Irland und im westlichen Teil Britanniens (Wales und Schottland) vokommende antike Sammlung von Zeichen, die überwiegend auf (Grab-)steinen zur Dokumentation von Namen der Verstorbenen, ihrer Verwandtschafsbeziehungen oder auch für kleinere Geschichten verwendet wurde. Dabei stellt die Ogham-Systematik kein eigenständiges Alphabet, sondern eine Codierung in z.B. lateinische Alphabete dar.</p>
+<p>
+Der Ogham-Zeichensatz besteht aus 26 Buchstaben. Wörter bzw. Sätze sind jeweils von unten nach oben bzw. links nach rechts zu lesen. Die Zeichen<ref n="1" target="ftn1"/>
+werden neben einem zentralen Mittelstrich durch nach links (Aicme
+Beithe,
+<hi rend="Ogham">ᚁᚂᚃᚄᚅ</hi>) bzw. rechts (Aicme hÚatha,
+<hi rend="Ogham">ᚆᚇᚈᚉᚊ</hi>) abgehende
+rechtwinklige Striche charakterisiert. Durch schräge oder waagerechte
+Striche (oft auch Punkte), die den Mittelstrich durchkreuzen, werden
+Aicme Muine (
+<hi rend="Ogham">ᚋᚌᚍᚎᚏ</hi>) und Aicme Ailme (
+<hi rend="Ogham">ᚐᚑᚒᚓᚔ</hi>) dargestellt. Darüber
+hinaus gibt es sechs ergänzende Forfeda Zeichen (
+<hi rend="Ogham">ᚕ ᚖᚗ ᚘᚙᚚ</hi>), welche im
+Mittelalter durch Lautveränderungen und Anpassungen an die lateinische
+Sprache hinzugefügt wurden. Das Ogham-Alphabet ist im Unicode
+Standard<ref n="2" target="ftn2"/> 
+(Range: 1680–169F) enthalten und gewährleistet so die Digitalisierbarkeit der Schrift. Eine der größten öffentlich zugänglichen Sammlungen von Ogham-Steinen befindet sich im Stone Corridor des University College Cork (UCC).
+</p>
+<p>
+<figure>
+  <graphic url="166_final-077c8323ea88a2f093356e6250be3357.jpg"/>
+<head> Abbildung 1: Ogham Stone 4 im UCC Stone Corridor <ref n="3"
+target="ftn3"/> (Florian Thiery, CC BY 4.0, https://commons.wikimedia.org/wiki/File:UCC_Stone_4.jpg) </head>
+</figure>
+</p>
+<!-- <p> -->
+<!-- <hi rend="color(#000000)italic">Abbildung 1: </hi> -->
+<!-- <hi rend="color(#000000)italic">Ogham Stone 4 im UCC Stone Corridor</hi> -->
+<!-- <hi rend="color(#000000)italic"> -->
+<!-- <ref n="3" target="ftn3"/> -->
+<!-- </hi> -->
+<!-- <hi rend="color(#000000)"> </hi> -->
+<!-- <hi rend="color(#000000)italic">(Florian Thiery, CC BY 4.0, https://commons.wikimedia.org/wiki/File:UCC_Stone_4.jpg)</hi> -->
+<!-- </p> -->
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Stand der Forschung</head>
+<p>
+Die Ogham-Schrift wurde in der Vergangenheit von verschiedenen
+Wissenschaftlern  erforscht. Nach der Entdeckung der Ogham-Schrift
+(Ferguson 1864) und der anschließenden Erstellung des Ogham-Alphabets
+(Graves et. al. 1878) datierte MacNeill (1929) einige der
+Ogham-Inschriften. Das wohl kompletteste Standardwerk findet sich in
+Macálister (1945, 1949). Dieser hat darin das weitverbreitete
+Nummerierungsschema CIIC etabliert. Neben weiteren Forschungen der
+Geschichtswissenschaft zum Inhalt der Ogham-Inschriften erstellte
+Forsyth (1997) ein erstes Korpus von 37 Inschriften. Das Ogham 3D Projekt<ref n="4" target="ftn4"/>
+scannt derzeit (155 Ogham Steine verfügbar) irische Ogham-Steine und stellt diese als Epidoc zur Verfügung.
+</p>
+<p>
+Die auf den Steinen transkribierten Inschriften können in `formula words` (FW) und `nomenclature words` (NW) unterschieden werden. Beispiele für FW<ref n="5" target="ftn5"/>
+sind MAQI
+<hi rend="Ogham">ᚋᚐᚊᚔ</hi> (engl. son, z.B. CIIC 203) MUCOI
+<hi rend="Ogham">ᚋᚒᚉᚑᚔ</hi> (engl. tribe/sept, z.B. CIIC 197), ANM
+<hi rend="Ogham">ᚐᚅᚋ</hi> (engl. name, z.B. CIIC 206), AVI
+<hi rend="Ogham">ᚐᚃᚔ</hi> (engl. descendant, z.B. CIIC 40), CELI
+<hi rend="Ogham">ᚉᚓᚂᚔ</hi> (engl. follower/devotee, z.B. CIIC 215) und
+KOI
+<hi rend="Ogham">ᚕᚑᚔ</hi> (engl. here is, z.B. CIIC 48).
+</p>
+<p>
+Die Nomenklatur der irischen Personennamen enthüllt Details der frühgälischen Gesellschaft. Beispiele für solche NW<ref n="6" target="ftn6"/>
+sind CUNA
+<hi rend="Ogham">ᚉᚒᚅᚐ</hi> (engl. wolf/hound, z.B. CIIC 154) oder
+CATTU
+<hi rend="Ogham">ᚉᚐᚈᚈᚒ</hi> (engl. battle, z.B. CIIC 58). Andere Namen
+weisen auf einen göttlichen Vorfahren hin. Der Gott Lugh (LUC
+<hi rend="Ogham">ᚂᚒᚌ</hi>) oder das Wort ERC
+<hi rend="Ogham">ᚓᚏᚉ</hi> (engl. heaven/cow) kommt in vielen Namen wie
+LUGADDON
+<hi rend="Ogham">ᚂᚒᚌᚌᚐᚇᚑᚅ</hi> (vgl. CIIC 4) oder ERCAVICCAS
+<hi rend="Ogham">ᚓᚏᚉᚐᚃᚔᚉᚉᚐᚄ</hi> (vgl. CIIC 196) vor. Elemente, die
+physikalische Eigenschaften beschreiben, sind ebenfalls üblich. Zum
+Beispiel DALAGNI
+<hi rend="Ogham">ᚇᚐᚂᚐᚌᚅᚔ</hi> (engl. one who is blind, CIIC 119) oder
+DERCMASOC
+<hi rend="Ogham">ᚇᚓᚏᚉᚋᚐᚄᚑᚉ</hi> (engl. one with an elegant eye, CIIC 46).
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ansatz</head>
+<p>
+Wir stellen die Ogham-Steine, deren Inhalte, die Beziehungen der auf Steinen vermerkten Personen, ihre Stammeszugehörigkeiten und weitere Metadaten als Linked Data bereit und ermöglichen somit 
+deren Verarbeitung durch eine Reihe von
+Wissenschafts-Communities. Durch die Verwendung von Vokabularen wie
+Wikidata (Vrandečić et. al. 2014), FOAF (Brickley 2007) und Lemon
+(McCrae 2012) gewährleisten wir die Erstellung eines semantischen
+Wörterbuchs für Ogham, welches wir dynamisch aus Textquellen 
+mittels Natural Language Processing Verfahren der Keyword Extraktion 
+extrahieren. 
+Die für uns relevanten Keywords haben wir aus der Literatur gesammelt und in unserem Repository veröffentlicht.<ref n="7" target="ftn7"/>
+Die Erfassung der Ogham-Steine als Linked Data Ressourcen erlaubt es, durch Verknüpfung von Wissen und dessen Anreicherung folgende Forschungsfragen anzugehen:
+</p>
+<list type="unordered">
+<item>Klassifikation von Steinen (Familienhierarchie, Namensbeschreibung etc.)</item>
+<item>Visualisierung von Zusammenhängen (Verwandtschaftsbeziehungen, Stammesgrenzen) aus Linked Data generierten Karten</item>
+<item>Formale Erfassung und maschinenlesbare Kodierung von Ogham-Zeichen nach dem Vorbild von PaleoCodage (Homburg 2019)</item>
+</list>
+<p>Als Datenbasis für die Analysen stützen wir uns auf eine
+Wikidata-Retrodigitalisierung des CIIC Corpus von Macálister (1945, 1949), Epidoc-Daten des Ogham in 3D Projekts, sowie auf die Celtic Inscribed Stones Project (CISP<ref n="8" target="ftn8"/>) Datenbank, die uns dankenswerterweise von Dr. Kris Lockyear zur Verfügung gestellt wurde. Des Weiteren pflegen wir aktiv fehlende und passende Elemente in Wikidata ein, um so später die Daten der Research Community im Sinne des SPARQL Unicorn (Thiery and Trognitz 2019a, 2019b) bereitzustellen. Der Sourcecode unserer App steht quelloffen auf GitHub zur Verfügung (Homburg &amp; Thiery 2019).
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ergebnis</head>
+<p>
+Erste Extraktionsergebnisse zeigen zunächst die Clusterung der
+irischen CIIC Oghamsteine (323 Steine)  in Abbildung 2. In den
+Abbildungen 3-5 ist ersichtlich, dass sich Inschriften zu FW und NW
+räumlich unterscheiden (z.B.  Abbildungen 3  und 4 zu MAQI  und CUNA).
+Für das CISP Datenset (2504), für das wir aktuell noch keine
+Geokoordinaten besitzen, sind  in Tabelle 1 die erste
+Analyseergebnisse aufgeführt. Sie zeigen eine ähnliche Verteilung der
+Keywords wie im CIIC Datenset.  Das Poster stellt diese und weitere
+Ergebnisse unserer  ersten räumlichen Analysen dar. Weitere Daten
+können unserem  Webviewer<ref n="9" target="ftn9"/> entnommen werden. 
+</p>
+<table rend="frame" xml:id="Tabelle1">
+  <head>Tabelle 1: Klassifikation der Steine aus CISP</head>
+<row>
+<cell>Keyword</cell>
+<cell>Vorkommen im CISP Dataset</cell>
+</row>
+<row>
+<cell>MAQI (son)</cell>
+<cell>710 (28%)</cell>
+</row>
+<row>
+<cell>AVI (grandson)</cell>
+<cell>72 (3%)</cell>
+</row>
+<row>
+<cell>CELI (fellow)</cell>
+<cell>7 (0,2%)</cell>
+</row>
+<row>
+<cell>CUNA (dog)</cell>
+<cell>174 (7%)</cell>
+</row>
+<row>
+<cell>CATTU (cattle)</cell>
+<cell>94 (4%)</cell>
+</row>
+<row>
+<cell>NIOTA (nephew) </cell>
+<cell>20 (0,8%)</cell>
+</row>
+<row>
+<cell>BRAN (raven)</cell>
+<cell>34 (1,3%)</cell>
+</row>
+<row>
+<cell>BROCI (badger)</cell>
+<cell>2 (0,08%)</cell>
+</row>
+<row>
+<cell>ERC (cow)</cell>
+<cell>38 (1,5%)</cell>
+</row>
+<row>
+<cell>IVA (tree)</cell>
+<cell>18 (0,8%)</cell>
+</row>
+<row>
+<cell>VIR (man of battle)</cell>
+<cell>38 (1,5%)</cell>
+</row>
+<row>
+<cell>LUG (god)</cell>
+<cell>73 (3%)</cell>
+</row>
+</table>
+<!-- <p> -->
+<!-- Tabelle 1: Klassifikation der Steine aus CISP -->
+<!-- </p> -->
+<p>
+<figure>
+  <graphic url="166_final-caebe3bd64b4a730315ad378cf617c0e.png"/>
+  <head> Abbildung 2: Cluster von Oghamsteinen in Irland nach Fundorten</head>
+</figure>
+<!-- Abbildung 2:  Cluster von Oghamsteinen in Irland nach Fundorten  -->
+</p>
+<p>
+<figure>
+<graphic url="166_final-207477fb8f86e5f41501588c7732bcb6.png"/>
+  <head> Abbildung 3: Oghamsteine mit Verwandschaftsbeziehungen</head>
+</figure>
+<!-- Abbildung 3: Oghamsteine mit Verwandschaftsbeziehungen -->
+                </p>
+<p>
+<figure>
+<graphic url="166_final-ae3e1e468190a422717a6576beefc27f.png"/>
+  <head> Abbildung 4: Oghamsteine mit Referenzen zu Tieren oder der Natur</head>
+</figure>
+<!-- Abbildung 4: Oghamsteine mit Referenzen zu Tieren oder der Natur -->
+</p>
+<div rend="DH-Heading2" type="div2">
+<head/>
+<p>
+<figure>
+<graphic url="166_final-123ba0383f03250430a525141333d502.png"/>
+  <head> Abbildung 5: Oghamsteine mit Referenzen zu Menschen und Schlachten</head>
+</figure>
+<!-- Abbildung 5: Oghamsteine mit Referenzen zu Menschen und Schlachten -->
+</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Future Work</head>
+<p>
+In Zukunft wird die Datenbasis mit erneuerten Daten des Ogham 3D Projektes und weiteren Quellen angereichert, sowie die Bereitstellung von
+Ogham-Daten in Wikidata forciert<ref n="10" target="ftn10"/>. Hierbei wird uns Sophie Charlotte Schmidt weiterhin in unserem Ogi-Ogham Projekt unterstützen. 
+Mit einem größeren Korpus werden die Analysen noch bessere Ergebnisse hervorbringen. Zudem ist eine Erweiterung der OliA Ontologien (Chiarcos and Sukhareva 2015) für Ogham angedacht, sowie die Publikation der Daten als Linked Data in Web.
+</p>
+</div>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      <ptr target="https://commons.wikimedia.org/wiki/Category:Ogham_letters"/>
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      <ptr target="https://www.unicode.org/charts/PDF/U1680.pdf"/>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      <ptr target="https://www.ucc.ie/en/discover/visit/centre/stone-corridor/"/>
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      <ptr target="https://ogham.celt.dias.ie/"/>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      <ptr target="https://ogham.celt.dias.ie/menu.php?lang=en&amp;menuitem=40"/>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      <ptr target="https://en.m.wikipedia.org/wiki/Ogham_inscription#Nomenclature"/>
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      <ptr target="https://github.com/ogi-ogham/oghamextractor/blob/master/words/words.csv"/>
+    </note>
+    <note n="8" rend="footnote text" xml:id="ftn8">
+      <ptr target="https://www.ucl.ac.uk/archaeology/cisp/database/"/>
+    </note>
+    <note n="9" rend="footnote text" xml:id="ftn9">
+      <ptr target="https://ogi-ogham.github.io/oghamextractor"/>
+    </note>
+    <note n="10" rend="footnote text" xml:id="ftn10">
+      Ein Zwischenstand hier: <ref target="https://www.wikidata.org/wiki/Q67978531">https://ogham.link</ref>
+    </note>
+  </div>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+	<hi rend="bold">Brickley, Dan/ Libby, Miller </hi> (2007): "FOAF vocabulary specification 0.91.".
+      </bibl>
+      <bibl>
+	<hi rend="bold">Chiarcos, Christian / Sukhareva, Maria </hi> (2015): Olia–ontologies of linguistic annotation." 
+	in:   <hi rend="italic">Semantic Web</hi>  6, no. 4: 379-386.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Ferguson, Samuel </hi> (1864): 
+	Account of Ogham Inscriptions in the Cave at Rathcroghan, County of Roscommon. in:
+	<hi rend="italic">Proceedings of the Royal Irish Academy
+	(1836-1869)</hi> 9: 160-170.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Forsyth, Katherine Stuart</hi>  (1997): 
+	<hi rend="italic">"The ogham inscriptions of Scotland: An edited corpus."</hi>: 2160-2160.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Graves, Charles / Limerick, C.</hi> (1876): "The ogham alphabet." 
+	<hi rend="italic">Hermathena</hi> 2, no. 4: 443-472.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Homburg, T.</hi> (2019): 
+	<hi rend="italic">"PaleoCodage - A machine-readable way to describe cuneiform characters paleographically"</hi>.
+	DH2019 Book Of Abstracts - Short Papers.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Homburg, Timo/ Thiery Florian</hi>  (2019): “OGI Ogham oghamextractor”.
+	<ptr target="https://github.com/ogi-ogham/oghamextractor"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Macalister, R. A. S. </hi>  (1945):
+	<hi rend="italic">"Corpus Inscriptionum Insularum
+	Celticarum Vol. I."</hi>, Dublin: Stationery Office.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Macalister, R. A. S.</hi> (1949): 
+	<hi rend="italic">"Corpus Inscriptionum Insularum Celticarum Vol. II.</hi>, Dublin: Stationery Office.
+      </bibl>
+      <bibl>
+	<hi rend="bold">MacNeill, Eoin</hi> (1929): 
+	<hi rend="italic">"Archaisms in the ogham inscriptions."
+	Proceedings of the Royal Irish Academy. Section C:
+	Archaeology, Celtic Studies, History, Linguistics,
+	Literature</hi> 39: 33-53.
+      </bibl>
+      <bibl>
+	<hi rend="bold">McCrae, John / Montial-Ponsoda, Elena /
+	Cimiano, Philipp</hi> (2012):
+	"Integrating WordNet and Wiktionary with lemon." in <hi rend="italic">Linked Data in Linguistics</hi>, pp. 25-34. Springer, Berlin, Heidelberg.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Thiery, Florian / Trognitz, Martina </hi> (2019a): “SPARQL Unicorn Github Repository”, <ptr target="https://github.com/sparqlunicorn"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Thiery, Florian / Trognitz, Martina </hi> (2019b): 
+	Wikidata: A SPARQL(ing) Unicorn?”, CAA: Computer Applications
+	&amp; Quantiative Methods in Archaeology - Book of Abstracts,
+	Bournemouth .
+      </bibl>
+      <bibl>
+	<hi rend="bold">Vrandečić, Denny / Markus Krötzsch. </hi>
+	(2014): "Wikidata: a free collaborative knowledge base." .
+      </bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

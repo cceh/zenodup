@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="workshops-003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>nodegoat Workshop: Einführung in die Nutzung einer multifunktionalen webbasierten Datenbankapplikation für Geisteswissenschaftler</title>
+        <author>
+          <name>
+            <surname>Kessels</surname>
+            <forename>Geert</forename>
+          </name>
+          <affiliation>LAB1100, Niederlande</affiliation>
+          <email>geert@lab1100.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>van Bree</surname>
+            <forename>Pim</forename>
+          </name>
+          <affiliation>LAB1100, Niederlande</affiliation>
+          <email>pim@lab1100.com</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-04T23:00:46.626777327</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Workshops</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>nodegoat</term>
+        </keywords>
+        <keywords scheme="original" n="topics">
+          <term>Teilen</term>
+          <term>Gestaltung</term>
+          <term>Beziehungsanalyse</term>
+          <term>Räumliche Analyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kommunikation</term>
+          <term>Kontextsetzung</term>
+          <term>Theoretisierung</term>
+          <term>Bearbeitung</term>
+          <term>Netzwerkanalyse</term>
+          <term>Veröffentlichung</term>
+          <term>Kollaboration</term>
+          <term>Lehre</term>
+          <term>Kommentierung</term>
+          <term>Projektmanagement</term>
+          <term>Organisation</term>
+          <term>Visualisierung</term>
+          <term>Artefakte</term>
+          <term>Bibliographie</term>
+          <term>Computer</term>
+          <term>Daten</term>
+          <term>Datei</term>
+          <term>Karte</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>Multimodale Kommunikation</term>
+          <term>Personen</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Einleitung </head>
+        <p><hi rend="italic">nodegoat</hi> ist eine multifunktionale webbasierte
+        Datenbankapplikation, in der man mit den eigenen Forschungsdaten und einer
+        selbst angelegten Struktur, Visualisierungen und geographische Verknüpfungen
+        herstellen kann. Die intuitive Benutzung von nodegoat macht es auch für
+        Datenbank-Laien möglich, eine Datenbank mit grafischer Oberfläche zu erstellen. </p>
+        <p>Zunächst werden einige laufende nodegoat Projekte vorgestellt. Anschließend
+          erhalten die Workshop-Teilnehmer und Teilnehmerinnen die Möglichkeit, über ihre
+          Forschungsprojekte zu berichten, für die Sie eine Datenbankapplikation verwenden
+          möchten. Danach lernen die Teilnehmenden, wie Sie Daten in nodegoat eingeben
+          können. Im letzten Teil des Workshops werden die Teilnehmerinnen und Teilnehmer
+          die Möglichkeit haben, in zeitlich / thematisch / methodisch organisierten
+          Gruppen eigene Projekte in nodegoat zu entwickeln. Die Workshop-Teilnehmenden
+          sind herzlich willkommen, ihre eigenen Projektdatensätze mitzubringen. </p>
+        </div>
+        <div type="div1" rend="DH-Heading">
+          <head>Über nodegoat </head>
+          <p><ref target="http://nodegoat.net/">nodegoat</ref> is a web-based data management, network analysis and visualisation environment. nodegoat allows scholars to build datasets based on their own data model and offers relational modes of analysis with spatial and diachronic contextualisation. By combining these elements within one environment, scholars are able to instantly process, analyse and visualise complex datasets relationally, diachronically and spatially; trailblazing. nodegoat follows an object-oriented approach throughout its core functionalities. Borrowing from actor-network theory this means that people, events, artefacts, and sources are treated as equal: objects, and hierarchy depends solely on the composition of the network: relations. This object-oriented approach advocates the self-identification of individual objects and maps the correlation of objects within the collective.
+        </p>
+        <figure>
+          <graphic url="00000.jpg"/>
+        </figure>
+        <figure>
+          <graphic url="00001.jpg"/>
+        </figure>
+      </div>
+      <div type="div1" rend="DH-Heading">
+        <head>Beispielprojekte </head>
+        <list type="unordered">
+          <item>GRIMMWELT (Kassel) <ref target="http://nodegoat.net/blog.p/82.m/10/nodegoat-as-an-interactive-museum-installation-20000-letters-visualised-through-time-and-space">Interactive Museum Installation</ref>: 20.000 letters of the
+          Grimm Brothers visualised through time and space.</item>
+          <item><ref target="https://www.huygens.knaw.nl/mapping-notes-and-nodes-in-networks/?lang=en">Mapping Nodes</ref> and Nodes in Networks (Huygens Institute for the History of the Netherlands, University of Amsterdam, Royal Dutch Institute in Rome).
+        </item>
+        <item><ref target="http://spinnet.eu/spintimemappings">SpInTime</ref> -
+        Dynamically visualizing how cultural patterns, networks and exchanges evolve
+        in space and time (University of Amsterdam), and <ref
+        target="http://romanticnationalism.net/">ERNiE</ref>, the <hi
+        rend="italic">Encyclopedia of Romantic Nationalism in
+        Europe</hi>.</item>
+        <item><ref target="http://www.niod.nl/en/projects/memory-landscapes-and-regime-change-1965-66-semarang">Memory Landscapes</ref> and the Regime Change of 1965-66 in Semarang (NIOD Institute for War, Holocaust and Genocide Studies, Semarang University, Radboud University Nijmegen).
+      </item>
+      <item>The transnational dynamics of social reform, 1840-1940 (Ghent University, Maastricht University),
+        <ptr target="http://www.tic.ugent.be/VRE_description"/>.
+      </item>
+      <item>Comparative transnational study of national movements (<ref target="http://nise.eu/news/new-environment-for-the-nise-database/">NISE</ref>).
+    </item>
+    <item>Diplomatic Letters 1683-1744 (<ref target="http://www.sejarah-nusantara.anri.go.id/visualization-letters/">Indonesian National Archive</ref>,
+    Corts Foundation). </item>
+  </list>
+</div>
+<div type="div1" rend="DH-Heading">
+  <head>Vorbereitung </head>
+  <list type="unordered">
+    <item>Schauen Sie sich
+      <hi rend="italic">nodegoat Video Tutorials</hi> auf YouTube an
+      <ref target="https://www.youtube.com/watch?v=eLDRNiJrRUc&amp;list=PLXc6y7l7xxxIwd64QppyAA0G2ECsNGJCx">https://www.youtube.com/watch?v=eLDRNiJrRUc&amp;list=PLXc6y7l7xxxIwd64Qpp yAA0G2ECsNGJCx </ref>
+    </item>
+    <item>Bitte lesen Sie den Blog-Beitrag
+      <ref target="http://nodegoat.net/blog.s/3/enter-curate--explore-data"><hi rend="italic">Enter, Curate &amp; Explore Data</hi></ref>
+      und die
+      <ref target="http://historicalnetworkresearch.org/?topic=nodegoat-faq"><hi rend="italic">nodegoat FAQ</hi></ref>:
+    </item>
+  </list>
+</div>
+<div type="div1" rend="DH-Heading">
+  <head>Ablauf des Workshops </head>
+  <list type="unordered">
+    <item>Einführung in nodegoat und Vorstellung von nodegoat Projekten. </item>
+    <item>Diskussion der Forschungsfragen, die von den Teilnehmer_innen vorgestellt
+      werden.</item>
+      <item>Dateneingabe in nodegoat (einschließlich, aber nicht beschränkt auf: relationales Datenmodell, geographische Visualisierung, soziale Netzwerk-Visualisierung)</item>
+      <item>Feedbackrunde </item>
+      <item>Break </item>
+      <item>Diskussion und Inventarisierung von Forschungsprojekten. </item>
+      <item>In Gruppen: Konzeption eines neuen Datenmodels in nodegoat.</item>
+      <item>Abschlussdiskussion </item>
+    </list>
+  </div>
+  <div type="div1" rend="DH-Heading">
+    <head>Voraussetzungen </head>
+    <p>Die Teilnehmer und Teilnehmerinnen müssen ihren eigenen Laptop (mit einer
+      aktuellen Version von Firefox, Chrome oder Safari) mitbringen. </p>
+    </div>
+    <div type="div1" rend="DH-Heading">
+      <head>Teilnehmerzahl </head>
+      <p>ca. 15 - 20 </p>
+    </div>
+    <div type="div1" rend="DH-Heading">
+      <head>Lebensläufe </head>
+      <p>LAB1100 is a research and development firm established in 2011 by Pim van Bree and Geert Kessels. Their joint skill set in new media, history, and software development allows them to conceptualise and develop complex software applications. Working together with universities and research institutes, LAB1100 has built digital research platforms and interactive data visualisations. </p>
+      <p>Pim van Bree received his MA in New Media at the University of Amsterdam and his BA in Digital Imagineering at the NHTV University of Applied Sciences in Breda. He graduated with a thesis on the actor network of transnational online dating, investigating the crossroads between the local, national, global, and the online assemblage. His work experience in the field of new media: digital strategist at Tribal DDB Amsterdam and software developer at KIWA. </p>
+      <p>Geert Kessels received his BA in History from Radboud University Nijmegen and completed the research master program in History at the University of Amsterdam. He graduated with a thesis on the influences of German Idealism on the Slovak romantic intellectual Ľudovit Štúr. During his studies he completed an internship at the Study Platform on Interlocking Nationalisms and worked as a project manager for EUROCLIO - The European Association of History Educators.</p>
+    </div>
+  </body>
+</text>
+</TEI>

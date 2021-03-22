@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="263_final-SARIC_Sanja_Topic_Modeling_der_Hugo_Schuchardt_Korrespondenz" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Topic Modeling der Hugo-Schuchardt-Korrespondenz – Möglichkeiten und Grenzen</title>
+<author>
+<persName>
+<surname>Saric</surname>
+<forename>Sanja</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>sanja.saric@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Scholger</surname>
+<forename>Martina</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>martina.scholger@uni-graz.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-27T18:45:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Topic Modeling</term>
+<term>Briefkorpus</term>
+<term>Hugo Schuchardt</term>
+<term>Lemmatisierung</term>
+<term>Evaluierung von Tools</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Modellierung</term>
+<term>Software</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Digitale Analyseverfahren verändern immer intensiver die Forschungsweise der GeisteswissenschaftlerInnen und mit dem wachsenden Spielraum der Methoden wächst auch die Anzahl an Fragen, die sich vor allem an den Grad der Genauigkeit und wissenschaftliche Relevanz dieser Methoden richtet. Das Topic Modeling gewinnt als eine Methode für automatische Erkennung von versteckten thematischen Strukturen in großen Textmengen (Blei 2012: 8) immer mehr an Beliebtheit, erweckt aber auch Unsicherheiten. Daher beschäftigt sich diese Arbeit mit den Möglichkeiten und Problemen des Topic Modeling am Beispiel von Briefen und stellt unter anderem die Fragen, 1) wie Topic Modeling in der Analyse von Briefkorpora eingesetzt werden kann und 2) wie die Qualität der Ergebnisse dieses Prozesses beeinflusst werden kann. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschungsmaterial</head>
+<p style="text-align:left; ">Das Forschungsmaterial besteht aus Briefen des Grazer Sprachwissenschaftlers Hugo Schuchardt (1842-1927). Die umfangreiche und mehrsprachige Korrespondenz dieses schon seinerzeit sehr geschätzten Wissenschaftlers ist seit 2007 Teil des Digitalisierung-Projektes 
+                    <hi rend="italic">Hugo Schuchardt Archiv</hi> (Hurch 2019). Für die Topic-Modeling-Analyse werden 2261 Briefdateien im TEI-Format in Betracht gezogen, da die restlichen zurzeit noch in keinem entsprechenden Format vorhanden sind. Der Vorteil einer solchen Methode ist es aber, dass das gleiche Modell jederzeit auf eine erweiterte Menge an Daten anwendbar ist. Eine Besonderheit dieses Korpus ist, dass Schuchardt in mehreren Sprachen korrespondiert hat, von denen hier elf repräsentiert sind (Abbildung 1). Daher wird das Modell für einzelne Sprachen separat angewendet. Dies ist insofern eine Herausforderung, weil 1) Vorgänge den jeweiligen Sprachen angepasst werden müssen (wie etwa die Lemmatisierung), 2) der Textumfang bei vielen Sprachen nicht ausreichend ist und daher nicht auf alle Sprachen effektiv angewendet werden kann und 3) die verschiedenen Ergebnisse pro Sprache verglichen werden sollten. Ein weiteres Problem für das Topic Modeling ist die große Diskrepanz in den Textlängen der einzelnen Dateien (Abbildung 2), da die Korrespondenz auch kürzere Formen wie Postkarten und Telegramme beinhaltet. So enthalten etwa die kürzesten deutschsprachigen Dateien etwa drei Tokens, die längste jedoch 3947. Dies ist aber ein Zustand, den viele Briefkorpora in der Realität begegnen, da wir als ForscherInnen selten einem ‚idealen‘ Korpus gegenüberstehen. Die Auseinandersetzung mit solchen Problemen ist ein fester Bestandteil unserer Arbeit.
+                </p>
+<figure>
+<graphic height="12.78cm" n="1001" rend="inline"
+	 url="263_final-13fa207503e71d51aa935b9bc677cf68.png"
+	 width="15.98cm"/>
+<head> Abbildung 1: Anteil der einzelnen Sprachen im Briefkorpus</head>
+</figure>
+<!-- <p style="text-align:left; ">Abbildung 1: Anteil der einzelnen Sprachen im Briefkorpus</p> -->
+<figure>
+<graphic height="9.973027777777778cm" n="1002" rend="inline" url="263_final-3024284be1d4fcac5dcf964a67a0b22c.png" width="10.451041666666667cm"/>
+<head> Abbildung 2: Menge der deutschsprachigen Briefdateien nach ihrer Anzahl der Tokens</head>
+</figure>
+<!-- <p style="text-align:left; ">Abbildung 2: Menge der deutschsprachigen Briefdateien nach ihrer Anzahl der Tokens</p> -->
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Methode</head>
+<p style="text-align:left; ">Für die Beantwortung der Forschungsfragen war zuerst die Literaturrecherche nötig, und zwar erstens zum Topic Modeling, zweitens zur Textsorte Brief und drittens zu dieser Korrespondenz. Um eine genauere Vorstellung zum Forschungsstand des Topic Modeling zu bekommen, wurden wissenschaftliche Aufsätze und Anwendungsbeispiele in Betracht gezogen, wie etwa Blei 2010, Jagarlamudi/Daumé 2010, Boyd-Graber/Blei 2012, Riddell 2015, Vulić et al. 2015, Bock et al. 2016, Andorfer 2017, Fechner/Weiß 2017, Schöch 2017, Murakami et al. 2017 und Arora et al. 2018. Zudem wird am genannten Korpus Topic Modeling mit Hilfe der Programmiersprache 
+                    <hi rend="italic">Python</hi> (Python Software Foundation 2001-2019), der Software MALLET (McCallum 2002-2019) und der Anweisungen der Jupyter-Notebooks von DARIAH-DE (DARIAH-DE 2019) vollzogen. Darüber hinaus werden verschiedene Tools zur Vorverarbeitung evaluiert – z. B. 
+                    <hi rend="italic">spaCy</hi> (Explosion AI 2019) und DTA::CAB (Berlin-Brandenburgische Akademie der Wissenschaften 2011-2018) für die Lemmatisierung – sowie verschiedene Tools und Parameter für die Topic-Modellierung – z. B. 
+                    <hi rend="italic">Topics Explorer</hi> (DARIAH-DE 2018) – und die daraus resultierenden Ergebnisse und Erfahrungen verglichen. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ergebnisse</head>
+<p style="text-align:left; ">Obwohl es sich um ein laufendes Projekt handelt, gibt es bereits einige relevante Ergebnisse und Schlussfolgerungen. </p>
+<p style="text-align:left; ">1) Die Vorverarbeitung stellt einen wichtigen Schritt in der Topic-Modellierung dar und beeinflusst die Ergebnisse. Dabei spielen nicht nur die eingesetzten Tools eine Rolle, sondern auch die gewählte Vorgehensweise.</p>
+<p style="text-align:left; ">2) Die Lemmatisierung, auf die beim Topic Modeling oft verzichtet wird, ermöglicht mehr semantische Differenz in den Topics. </p>
+<p style="text-align:left; ">3) Der unterschiedliche Textumfang von einzelnen VerfasserInnen kann zu falschen Ergebnissen führen, wenn die Topics pro VerfasserIn analysiert werden.</p>
+<p style="text-align:left; ">4) Entscheidungen über Parameter wie Optimierungsintervall, Topic- und Iterations-Anzahl können die Ergebnisse beeinträchtigen und müssen immer projektspezifisch getestet werden, bis ein sinnvolles Resultat vorliegt. Das ‚Sinnvolle‘ zu erkennen ist eine Herausforderung, die fachwissenschaftliches Verständnis verlangt. </p>
+<p style="text-align:left; ">Die Inkonsistenz der Topics und manchmal verwirrende Ergebnisse zeigen, dass die naive Anwendung eines Topic-Modeling-Tools nicht immer befriedigend sein kann. Intensivere Beschäftigung mit den einzelnen Schritten und Ergebnissen kann sich jedoch positiv auf den Erfolg der Analyse auswirken. Die weitere Arbeit wird zeigen, ob und welchen Mehrwert Topic Modeling bei der Analyse der Schuchardt-Korrespondenz leisten kann, die durch 
+                    <hi rend="italic">close reading</hi> nicht erreicht werden können. 
+                </p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Andorfer, Peter</hi> (2017): 
+"Turing Test für das Topic Modeling. Von Menschen und Maschinen
+erstellte inhaltliche Analysen der Korrespondenz von Leo von
+Thun-Hohenstein im Vergleich", in: 
+<hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> 2. http://zfdg.de/2017_002 [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold" xml:space="preserve">Arora, Sanjeev / Ge, Rong; Halpern, Yoni / Mimno, David / Moitra, Ankur / Sontag, David / Wu, Yichen / Zhu, Michael </hi>(2018): 
+  "Learning topic models - provably and efficiently",  in: 
+  <hi rend="italic">Communications of the ACM</hi> 61 / 4: 85–93. 10.1145/3186262.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Berlin-Brandenburgische Akademie der Wissenschaften</hi> (ed.) (2011-2018): 
+  <hi rend="italic">Das DTA-Basisformat</hi>. http://www.deutschestextarchiv.de/doku/basisformat/ [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Blei, David M.</hi> (2010): 
+ "Introduction to Probabilistic Topic Models", in: 
+ <hi rend="italic">Semantic Scholar</hi>.
+ <ref target="https://pdfs.semanticscholar.org/5f10/38ad42ed8a4428e395c96d57f83d201ef3b3.pdf">https://pdfs.semanticscholar.org/5f10/38ad42ed8a4428e395c96d57f83d201ef3b3.pdf</ref>
+ [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Blei, David M.</hi> (2012): 
+  "Topic Modeling and Digital Humanities", in: 
+  <hi rend="italic">Journal of Digital Humanities</hi> 2 / 1: 8–11.
+  <ref target="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/">http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/</ref> [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold" xml:space="preserve">Bock, Sina / Du, Keli / Huber, Michael / Pernes, Stefan / Pielström, Steffen </hi>(2016): 
+  <hi rend="italic">Der Einsatz quantitativer Textanalyse in den Geisteswissenschaften. Bericht über den Stand der Forschung.</hi> (= DARIAH-DE working papers 18). Göttingen: GOEDOC – Dokumenten- und Publikationsserver der Georg-August-Universität Göttingen. http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2016-18.pdf [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Boyd-Graber, Jordan / Blei, David</hi> (2012): 
+  <hi rend="italic">Multilingual Topic Models for Unaligned Text</hi>. http://arxiv.org/pdf/1205.2657v1 [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">DARIAH-DE</hi> (2018): 
+  <hi rend="italic">Topics Explorer</hi>. V. 2.0.1. https://github.com/DARIAH-DE/TopicsExplorer [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">DARIAH-DE</hi> (2019): 
+  <hi rend="italic">DARIAH Topics. Easy Topic Modeling in Python</hi>. V. 2.0.1. https://github.com/DARIAH-DE/Topics [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Explosion AI</hi> (2019): 
+  <hi rend="italic">spaCy</hi>. V. 2.1.6. https://github.com/explosion/spaCy [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Fechner, Martin / Weiß, Andreas</hi> (2017): 
+  "Einsatz von Topic Modeling in den Geschichtswissenschaften: Wissensbestände des 19. Jahrhunderts", in: 
+  <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> 2. http://zfdg.de/2017_005 [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Hurch, Bernhard</hi> (2019): 
+  "Hugo Schuchardt Archiv". Institut für Romanistik, Karl-Franzens-Universität Graz (ed.). https://schuchardt.uni-graz.at [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Jagarlamudi, Jagadeesh / Daumé, Hal</hi> (2010): 
+  "Extracting Multilingual Topics from Unaligned Comparable Corpora",  in: Gurrin, Cathal (ed.): 
+  <hi rend="italic">Advances in information
+  retrieval. Proceedings</hi> 444–456. (= Lecture notes in computer science 5993). Berlin / Heidelberg / New York: Springer.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">McCallum, Andrew Kachites</hi> (2002-2019): 
+  <hi rend="italic">MALLET. A Machine Learning for Language Toolkit</hi>. V. 2.0.8. http://mallet.cs.umass.edu [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold" xml:space="preserve">Murakami, Akira / Thompson, Paul / Hunston, Susan / Vajn, Dominik </hi>(2017): 
+  "‘What is this corpus about?’: using topic modelling to explore a
+  specialised corpus", in: 
+  <hi rend="italic">Corpora</hi> 12 / 2: 243–277. https://www.euppublishing.com/doi/10.3366/cor.2017.0118 [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Python Software Foundation</hi> (2001-2019): 
+  <hi rend="italic">Python</hi>. V. 3.7.4. https://github.com/python [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Riddell, Allen</hi> (2015): 
+  <hi rend="italic">Text Analysis with Topic Models for the Humanities and Social Sciences — Text Analysis with Topic Models for the Humanities and Social Sciences</hi>. DARIAH-DE Initiative (ed.). https://liferay.de.dariah.eu/tatom/ [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Schöch, Christof</hi> (2017): 
+  "Topic Modeling Genre. An Exploration of French Classical and
+  Enlightenment Drama",
+  in:  <hi rend="italic">Digital Humanities Quarterly</hi> 11 / 2. http://www.digitalhumanities.org/dhq/vol/11/2/000291/000291.html [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold" xml:space="preserve">Vulić, Ivan / Smet, Wim de / Tang, Jie / Moens, Marie-Francine </hi>(2015): 
+  "Probabilistic topic modeling in multilingual settings. An overview
+  of its methodology and applications",  in: 
+  <hi rend="italic">Information Processing &amp; Management</hi> 51 / 1: 111–147. https://www.sciencedirect.com/science/article/pii/S0306457314000739 [letzter Zugriff 27. September 2019].
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

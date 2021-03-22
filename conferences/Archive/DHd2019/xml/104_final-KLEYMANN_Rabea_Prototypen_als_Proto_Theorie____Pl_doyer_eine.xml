@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="104_final-KLEYMANN_Rabea_Prototypen_als_Proto_Theorie____Pl_doyer_eine" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prototypen als Proto-Theorie? – Plädoyer einer digitalen Theoriebildung</title>
+                <author>
+                    <persName>
+                        <surname>Kleymann</surname>
+                        <forename>Rabea</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>r.kleymann90@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-12-31T11:37:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Theoriebildung</term>
+                    <term>Softwareprototypen</term>
+                    <term>Erkenntnistheorie</term>
+                    <term>Forschungsinfrastruktur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Bewertung</term>
+                    <term>Projektmanagement</term>
+                    <term>Infrastruktur</term>
+                    <term>Forschungsprozess</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>In der Diskussion um den Status der Digital Humanities (DH) als wissenschaftliche Disziplin wird häufig die Frage einer Theoriebildung ins Feld geführt. Konfrontiert mit dem Vorwurf der Theorielosigkeit (vgl. Bauer 2011) sowie der Forderung nach „mehr Theorie“ (Lauer 2013, 112) lässt sich eine ausschweifende Theoriedebatte beobachten (vgl. Gold 2012). Zum einen werden die DH aufgrund der Heterogenität ihrer Gegenstände sowie ihres Aufgabenfeldes jenseits der Theoriebildung verortet 
+            (vgl. Winko/Köppe 2013, 328).<ref target="ftn1" n="1"/> Zum anderen wird die Theoriebildung in eine zeitliche Relation gebracht (vgl. Hall 2012). So wird mit der Proklamation eines ‚Endes der Theorie‘ eine posttheoretische Ära eingeläutet (vgl. Scheinfeldt 2012), zugleich bekräftigt sich das Verständnis eines vortheoretischen Status der DH (vgl. Boellstorff 2014, 105). Was nun ‚vor‘ oder ‚nach‘ der Theorie liegt bestimmen beide Positionen auf ähnliche Weise, indem sie ihren Fokus auf die Aktivitäten (vgl. Flanders/Jannidis 2015, 3) oder „doing research“ (vgl. Kath et al. 2015, 31; Cecire 2011) richten. 
+            </p>
+            <p>Im Zuge dieser Hinwendung zur digitalen Praxis gewinnt die Entwicklung von prototypischer Software zunehmend an Bedeutung (vgl. Ramsey/Rockwell 2012). Übernommen aus der informatischen Softwareentwicklung wird unter einem Softwareprototyp eine „provisorische“ und „experimentelle“ (Ruecker et al.) Software verstanden, die eine zukünftige Systemkomplexität (Houde/Hill 1997; Mogensen 1992) auf bestimmte Teilkomponenten reduziert und diese unter Annahme eines deskriptiven oder prospektiven Potenzials ausstellt. Softwareprototypen werden als methodisch und theoretisch modellierte „digitale Artefakte“ (Rockwell/Ramsey 2012) verstanden, die neben den bereits in der Informatik etablierten Funktionen der Exploration, Erklärung und Verständigung zunehmend auch in anderen diskursiven Kontexten als Argument (Ruecker/Galey 2010), Provokation (Boer/Donovan 2012), Spekulation (Hinrichs/Forlini 2017), Vermittler von Performanz und Kritik (Drucker 2012) begriffen werden. Ruecker/Galey (2010, 1) sprechen von „Prototypen als Theorie“. </p>
+            <p>Softwareprototypen scheinen, so nun der Ausgangspunkt des Vortrages, nicht nur an epistemischen Status zu gewinnen, sondern auch den Bedarf der noch ausstehenden oder bereits obsoleten Theoriebildung zu adressieren. Der vorliegende Vortrag möchte darlegen, inwiefern Softwareprototypen als ‚Proto-Theorie‘ der DH begriffen werden können. Dazu stellt der Vortrag nicht nur die theoriebildenden Effekte eines Softwareprototyps vor, sondern argumentiert, dass der Softwareprototyp eine spezifische Form der Theoriegestaltung darstellt. Unter ‚Proto-Theorie‘ wird eine durch die Form des Softwareprototyps gestaltete Theoriearbeit begriffen. Der Vortrag versteht sich als Beitrag zu den Versuchen, die „Geisteswissenschaften als Ort avancierter Theoriebildung“ (Grizelj/Jahraus 2011, 9) neu zu vermessen sowie Spielräume und Grenzen einer auf Softwareprototypen aufbauenden Theoriebildung auszuloten. Zunächst wird ein geisteswissenschaftliches Verständnis der Konzepte 
+                <hi rend="italic" xml:space="preserve">Prototyp </hi>und 
+                <hi rend="italic">Theorie</hi> vorgestellt. Anschließend wird die Theoriemündigkeit des Softwareprototyps eruiert.
+            </p>
+            <p rend="Subtitle">
+                <anchor xml:id="Hlk523303212"/>Zur Anschauung von Identität und Differenz – Das Konzept des Prototyps
+            </p>
+            <p>Während die Rede von einem Softwareprototypen im DH-Forschungsdiskurs etabliert ist, steht eine Auseinandersetzung mit dem Konzept des Prototyps über ein informatisches Verständnis hinaus noch 
+            aus.<ref target="ftn2" n="2"/> Aus dem Griechischen von 
+                <hi rend="italic">prototypon</hi> ‚Urbild‘ abgeleitet, setzt sich das Kompositum aus „
+                <hi rend="italic">proto</hi> ‚vorderster, erster, bedeutsamster“ (Kluge 2011, 728) und „
+                <hi rend="italic">typos</hi> Schlag, Stoß (von gr. typtein ‚schlagen, prägen) ‚prägende Form‘, Umriss, Gestalt, Muster nach“ (Ritter 1998, 1587) zusammen. Im taxonomischen Referenzrahmen der Klassifizierung und Kategorisierung verortet, dient der Prototyp im Allgemeinen als Beschreibungsbegriff der Validierung von „Gleichheit und Verschiedenheit“ (Mainberger 2003, 42). Es können zwei Bestimmungen des Prototyps unterschieden werden: Unter der kognitionspsychologischen Perspektive (vgl. Rosch 1975) wird der Terminus des Prototyps in der Standardverwendung als abstrakte Entität eingeführt, welche die typischen Eigenschaften einer extensionalen Kategorie als bestes Exemplar repräsentiert 
+                (vgl. Kleiber 1993, 117).<ref target="ftn2" n="2"/> Die Zugehörigkeit zu einer Kategorie wird in Bezug auf den Prototyp qua analytischer Quantifizierung von Merkmalen ermittelt. Notwendige Bedingung der Zugehörigkeit zu einer Kategorie ist die Übereinstimmung von mindestens einem Merkmal. 
+            </p>
+            <p>Davon zu unterscheiden ist eine morphologische Bestimmung des Prototyps, wie sie unter anderen Ludwig Wittgensteins Familienähnlichkeit 
+            darstellt.<ref target="ftn4" n="4"/> Am Beispiel des Begriffs „Spiel“ führt Wittgenstein aus, dass nicht alle „Glieder einer Familie“ (Wittgenstein 1945, 278) durch ein einzelnes gemeinsam definierendes Merkmal vereint sind, sondern durch „ein kompliziertes Netz von Ähnlichkeiten, die einander übergreifen und kreuzen“ (278) verknüpft sind. Die Zugehörigkeit zu einer Kategorie stellt sich über Ähnlichkeitsbeziehungen her.
+            </p>
+            <p rend="Subtitle">Gestaltung von Zugängen – Theorien in der Literaturwissenschaft</p>
+            <p>Der Begriff der Theorie „griechisch: 
+                <hi rend="italic">theoria</hi> geistiges Anschauen bzw. wissenschaftliches Betrachten“ bezeichnet „explizite, elaborierte, geordnete und logisch konsistente Kategoriensysteme, die der Beschreibung, Erforschung und Erklärung der Sachverhalte ihres jeweiligen Objektbereichs dienen“ (Nünning/Nünning 2010, 6). So adressiert die Theorie eine Mangelerfahrung, die sich in der Differenz zwischen Theorie und Welt expliziert: „Theorien sind ein Effekt der Unzugänglichkeit von Welt dergestalt, dass sie die Zugänglichkeit als Theorie substituieren und somit kompensieren“ (Jahraus 2011, 28). Bezogen auf die Literaturwissenschaft konstituieren Theorien nicht nur einen spezifischen Zugang zum Gegenstand Literatur, indem sie „Bedingungen der Produktion und Rezeption […] sowie […] Beschaffenheit und […] Funktionen“ reflektieren (Winko/Köppe 2013, 7), sondern sie erzeugen überhaupt erst den Gegenstand als epistemisches Objekt ihrer 
+                Betrachtung.<ref target="ftn5" n="5"/>
+            </p>
+            <p>Darüber hinaus stellen Theorien eine spezifische Textgattung mit eigener Literarizität dar (vgl. Culler 2011, 3). Da Theorien vorrangig in Form von schriftlich verfassten Texten erscheinen und daher einer sprachlichen Logik folgen, unterliegen sie einer spezifischen Textualität, die konstitutiv, aber nicht reduzibel für die Gestaltung eines theoretischen Gehalts ist (vgl. Saar 2013, 47). Zu den „Minimalbedingungen“ (Winko/Köppe 2013, 8) einer Literaturtheorie gehören dabei erstens, der Abstraktionsgrad der theoretischen Aussage, der „auf mehrere, eventuell sogar alle Einzelphänomene eines bestimmten Typs zutr[ifft] bzw. ein Modell der Phänomene bereitzustell[t]“ (Winko/Köppe 2013, 8). Zweitens können Literaturtheorien resümierende, erklärende, koordinierende und prognostische Funktionen zugesprochen werden. Bezogen auf die Gestaltung einer Literaturtheorie ist drittens der systematische und formale Aufbau kennzeichnend. In Folge der Systematisierung kann viertens die Explizitheit des Begriffsapparats angeführt werden 
+            (vgl. Winko/Köppe 2013, 8).<ref target="ftn6" n="6"/> In der literaturwissenschaftlichen Praxis ermöglicht der Anschluss an einer Theorie eine intersubjektive Nachvollziehbarkeit (vgl. Nünning/Nünning 2010, 2). So dienen Theorien dazu, Evidenz und Plausibilität unter Annahme eines Wahrheit- und Wissenschaftlichkeitsanspruches herzustellen und zu sichern. Mit Blick auf eine „interpretative community“ (Bode 2011, 80) und den allgemeinen wissenschaftlichen Diskurs schaffen Theorien einen spezifischen Kommunikationsrahmen. 
+            </p>
+            <p rend="Subtitle">Zur Theoriemündigkeit des Softwareprototyps in den DH</p>
+            <p>Vor dem Hintergrund der skizzierten Prototypenkonzepte sowie den Anforderungen an (literaturwissenschaftliche) Theorien stellt sich nun die Frage, inwiefern Softwareprototypen diesem Anspruch gerecht werden können. Zunächst geht der Entwicklung einer prototypischen Software ein Prozess der Datenmodellierung und der Herstellung einer Ontologie (vgl. Jannidis/Flanders 2015, 7) voraus. In den Klassifikationsverfahren zur Gewinnung von Klassen, Eigenschaften und Relationen (vgl. [Gruber 2009] zit. Jannidis/Flanders 2015, 9) sedimentiert sich bereits ein theoretisches Wissen, wie zum Beispiel die Vorstellung vom Text oder von Bedeutung. Über diese theoretische präfigurierende Modellierung hinaus expliziert sich im Softwareprototyp jedoch die für Theorie konstitutive Differenzerfahrung von Beobachtung und Beobachteten. Der Softwareprototyp stellt einen Zugang dar, der interaktiv vermittelt wird. Als reduziertes und komprimiertes 
+            Modell<ref target="ftn7" n="7"/> eines Sets von meist methodischen Operationen erfüllt der Softwareprototyp oftmals die „synthetische und integrierende Leistung einer […] Schau“ (Wirth 2013, 138). Einzelne Sachverhalte bzw. Aktivitäten werden verknüpft, die sodann prototypisch, das heißt prägend und musterhaft, als Teil eines größeren kohärenten Erklärungszusammenhangs erscheinen. Genauer gesagt, repräsentiert der Softwareprototyp die Theorie als funktionales Gefüge und übernimmt mithin eine exemplarische 
+            Funktion.<ref target="ftn8" n="8"/> Er steht „nicht bloß stellvertretend und uneigentlich für Anderes, sondern prototypisch und materialiter für etwas ein, von dem er selbst ein nur zu demonstrativen [oder explikativen, RK] Zwecken abgetrennter Teil zu sein [verspricht]“ (Schaub 2011, 12). So finden sich zum Beispiel in den Abstracts der DHd Konferenz 2018 nicht nur zahlreiche Vorstellungen von 
+            Softwareprototypen,<ref target="ftn9" n="9"/> sondern auch Formulierungen zur explikativen und prognostischen Leistung sowie zur Funktion der 
+            Validierung.<ref target="ftn10" n="10"/> Oszillierend zwischen der Vorstellung vom Softwareprototyp als eine Figuration von 
+            Evidenz<ref target="ftn11" n="11"/> und als verzeitlichte und verräumlichte Repräsentationsform der Theorie, die aufgrund ihres provisorischen Status zum spekulativen Spiel (vgl. Hacking 1983, 352) einlädt, zeigt sich die prekäre epistemische Lage. Denn der Softwareprototyp löst die scharfe „Distinktion zwischen der Welt der Dinge und der Welt der Zeichen“ (Rautzenberg/Strätling 2013, 11) auf. Vielmehr gehen die Grenzen fließend ineinander über, sodass zugleich die „differenztheoretische Grundlegung von Theorie“ (Jahraus 2011, 36) zugunsten einer interaktiven Erfahrung infrage gestellt 
+            wird.<ref target="ftn12" n="12"/>
+            </p>
+            <p>Neben den Nachweis der theoriegenerierenden Effekte stellt sich die Frage nach der Form, in der das theoretische Wissen im Softwareprototypen erscheint. Die visuelle Ordnung des Softwareprototyps in Form einer grafischen Benutzeroberfläche ist nicht der textuellen Ästhetik des Linearen verpflichtet. An die Stelle der (textuellen) Systematizität tritt eine topologische und temporäre Entfaltung der Theorie. Hinsichtlich des Kriteriums der Explizitheit kann eine epistemische Verschiebung zur Präsenz hin angenommen werden. Im Sinne eines „Präsenzphänomen[s]“ 
+            (Gumbrecht 2012, 216)<ref target="ftn13" n="13"/> scheint der Softwareprototyp nicht nur theoretisches Wissen zu repräsentieren, sondern die Visualität und Interaktion generiert einen Überschuss, in dem sich neues Wissen zeitigt. Dabei überlagert sich empirisch gesichertes und hypothetisch spekulatives Wissen.
+            </p>
+            <p>Begreift man nun die Pluralität von Softwareprototypen in der DH-Forschung aus einer übergeordneten Perspektive können die einzelnen Softwareprototypen im Sinne Wittgensteins als ‚Glieder einer Familie‘ betrachtet werden. So entsteht kein systematisches Theoriegebilde, sondern vielmehr die Dynamik eines offenen und unabgeschlossenen Netzes. </p>
+            <p rend="Subtitle">Schlussfolgerungen</p>
+            <p>Die Diskussion um den epistemischen Status des Softwareprototyps hinterfragt nicht nur das Selbstverständnis der DH als (Hilfs)Wissenschaft und als 
+            Forschungsinfrastruktur<ref target="ftn14" n="14"/>, sondern verortet die Arbeit an der Theoriebildung wieder in den Geisteswissenschaften. Wie sieht eine zeitgenössische Literaturtheorie aus, welche die einzelnen Sachverhalte in den Zusammenhang der Digitalität stellt? Die ‚Proto-Theorie‘ erweist sich als eine mögliche Antwort. Aufgaben der DH-Community sind daher, die Legitimation von unterschiedlichen Theorieformen zu erproben, die Differenzen und Barrieren zwischen textuellen und technischen Gestaltungsformen zu diskutieren und so das hybride Theorienetz zu verdichten. 
+            </p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1" rend="footnote text">
+                    Vgl. Winko/Köppe (2013, 328): „Der Überblick über ihre heterogenen Arbeitsfelder macht bereits deutlich, dass die Computerphilologie nicht an der Entwicklung einer umfassenden Literaturtheorie interessiert ist, sondern andere Ziele verfolgt.“ Die eigentliche Theoriearbeit wird dabei verstanden als außerhalb der DH, zum Beispiel in den Medienwissenschaften oder Software Studies (vgl. Jannidis et. al 2017, 19) sowie der Mathematik und Informatik (Flanders/Jannidis 2015, 2).
+                </note>
+                <note xml:id="ftn2" n="2" rend="footnote text">
+                    Eine Ausnahme stellt der DHd-Beitrag von Henny-Krahmer et. al. (2018): 
+                        <hi rend="italic">Alternative Gattungstheorien: Das Prototypenmodell am Beispiel hispanoamerikanischer Romane</hi> dar. Hier wird das Protypenmodell als Gattungskonzept diskutiert.
+                </note>
+                <note xml:id="ftn3" n="3" rend="footnote text">
+                    Auf das problematische Verhältnis von Begriff und Prototyp kann an dieser Stelle nur hingewiesen werden. Weitere Ausführungen finden sich bei Kleiber (1993) sowie Gansel (2017).
+                </note>
+                <note xml:id="ftn4" n="4" rend="footnote text">
+                    Zu nennen sind auch die Verfahrensweise der vergleichenden Naturlehre, wie sie von Buffon, Herder und Goethe präsentiert werden.
+                </note>
+                <note xml:id="ftn5" n="5" rend="footnote text">
+                    Signifikant für die Praxis der Literaturwissenschaft ist dabei vor allem das Nebeneinander von unterschiedlichen theoretischen Ansätzen (Wellbery 1985, 7; Jahrhaus/Neuhaus 1995).
+                </note>
+                <note xml:id="ftn6" n="6" rend="footnote text">
+                    Methoden unterscheiden sich von Theorien dadurch, dass sie eher die Art und Weise eines Vorgehens zielführend beschreiben. Theorien können folglich eine sowie ein Set von allgemeinen (Lesen, Hypothesen generieren) sowie spezifischen (deduktiven, dialektischen) Methoden bereitstellen. Exemplarisch für die hermeneutische Theorie ist der hermeneutische Zirkel oder das systemtheoretische Re-entry für die Systemtheorie.
+                </note>
+                <note xml:id="ftn7" n="7" rend="footnote text">
+                    Stachowiak (1992, 219) definiert das Modell als „pragmatische Entität eines (mindestens) fünfstelligen Prädikats […]: X ist Modell des Originals Y für den Verwender k in der Zeitspanne t bezüglich der Intention Z.“ Allgemeine Ausführungen zum Modell vgl. auch Epple (2016).
+                </note>
+                <note xml:id="ftn8" n="8" rend="footnote text">
+                    Entgegen der These von Rockwell/Ramsey (2012) zur „Thing Theory“ geht es nicht um die konkrete Materialisation der Theorie als eines objektiven Gegenstandes, der die textuelle Form der Theorie substituiert.
+                </note>
+                <note xml:id="ftn9" n="9" rend="footnote text">
+                    Vgl. DHd 2018, Köln Abstracts: Es finden sich 17 Erwähnung von Softwareprototypen, verstanden als prototypische Software, auf den Seiten 32, 53, 65, 98, 154, 164,175, 194-195, 205, 220, 273, 282, 388, 422, 435, 459, 466-468.
+                </note>
+                <note xml:id="ftn10" n="10" rend="footnote text">
+                    Beispiele der Erwähnungen von Softwareprototypen mit Hinweis auf den Leistungsumfang: „zur Diskussion gestellt“ (S. 32); „Anforderungen und Interessen aus der Fachcommunity zur Weiterentwicklung“ (S. 53); „Prozess zu beschleunigen bzw. zuverlässiger zu machen“ (S. 65); „iterativ […] gewonnene[] Erkenntnisse“ (S. 195); „die einzelnen Funktionalitäten und Konfigurationsmöglichkeiten ausgetestet und verbessert“ (S. 205), „Interaktions-Prototypen mit Nutzern zu testen, um belastbarere Aussagen über seine Validität zu erhalten.“ (S. 282) etc.
+                </note>
+                <note xml:id="ftn11" n="11" rend="footnote text">
+                    Eine Evidenzgenerierung erfolgt bei literaturwissenschaftlichen Softwareprototypen zum Beispiel durch Visualisierung oder Text-Mining. Softwareprototypen erscheinen vor diesem Hintergrund als dezidierte Beweisverfahren der DH, die evidentielle Gewissheit und Präsenz vermitteln.
+                </note>
+                <note xml:id="ftn12" n="12" rend="footnote text">
+                    Im Unterschied zur textuellen Theorieform wird das Subjekt, das sich durch die Theorie einen Zugang verschaffen will, scheinbar schon durch die interaktive Ausrichtung des Softwareprototyps ‚mit-konstituiert‘. Hier schließt sich die Frage nach der Subjektkonstituierung in textuellen und technischen Theorieformen an.
+                </note>
+                <note xml:id="ftn13" n="13" rend="footnote text">
+                    Gumbrecht (2012) in Rekurs auf Jean-Luc Nancy einen Begriff der „Präsenz, der sich auf unser räumliches Verhältnis zu den Dingen der Welt“ aufbaut.
+                </note>
+                <note xml:id="ftn14" n="14" rend="footnote text">
+                    Unter den Aspekt der Forschungsinfrastruktur fallen Erwägungen über interdisziplinäre Teamstrukturen, Projektkonstellationen sowie Forschungsförderungen und -finanzierungen. Zur Diskussion steht unter anderen die Frage, warum Ressourcen für die Herstellung von Softwareprototypen eingesetzt werden.
+                </note>
+            </div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+						<hi rend="bold">Bauer, Jean (2011)</hi>: <hi rend="italic">“Who are you Calling Untheoretical?”</hi> in: Journal of Digital Humanities 1,1. 
+                        <ref target="http://journalofdigitalhumanities.org/1-1/who-you-calling-untheoretical-by-jean-bauer/">http://journalofdigitalhumanities.org/1-1/who-you-calling-untheoretical-by-jean-bauer/</ref> [letzter Zugriff am 29.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Bode Christoph (2011)</hi>: <hi rend="italic">“Theorietheorie als Praxis. Überlegungen zu einer Figur der Unhintergehbarkeit oder: Über eine Theorie-Praxis-Asymmetrie“</hi>. in: <hi rend="bold">Grizelj, Mario / Jahraus, Oliver (eds.)</hi>: 
+                        <hi rend="italic">Theorietheorie. Wider die Theoriemündigkeit in den Geisteswissenschaften</hi>. München: Fink, 79-94.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Boellstorff, Tom (2014)</hi>: <hi rend="italic">“Die Konstruktion von Big Data in der Theorie“</hi> in: <hi rend="bold">Reichert, Ramón (ed.)</hi>: 
+                        <hi rend="italic">Big data. Analysen zum digitalen Wandel von Wissen, Macht und Ökonomie.</hi> Bielefeld: transcript 105-131. 
+                        <ref target="http://dx.doi.org/10.14361/transcript.9783839425923">http://dx.doi.org/10.14361/transcript.9783839425923</ref> [letzter Zugriff am 24.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Boer, Laurens / Donovan Jared (2012)</hi>: <hi rend="italic">“Provotypes for Participatory Innovation”</hi> in: 
+                        <hi rend="italic">DIS 2012</hi>, 388-397.
+                        <ref target="https://www.researchgate.net/publication/254462007_Provotypes_for_participatory_innovation">https://www.researchgate.net/publication/254462007_Provotypes_for_<p>participatory_innovation</p></ref> [letzter Zugriff am 29.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Cecire, Natalia (2011)</hi>: <hi rend="italic">“Introduction: Theory and the Virtues of Digital Humanites”</hi> in: 
+                        <hi rend="italic">Journal of Digital Humanities</hi> 1,1. 
+                        <ref target="http://journalofdigitalhumanities.org/1-1/who-you-calling-untheoretical-by-jean-bauer/">http://journalofdigitalhumanities.org/1-1/who-you-calling-untheoretical-by-jean-bauer/</ref> [letzter Zugriff am 29.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Culler, Jonathan D. (2011)</hi>: 
+                        <hi rend="italic">Literary theory. A very short introduction</hi>. Oxford: Oxford Univ. Press.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Drucker, Johanna (2012)</hi>: <hi rend="italic">“Humanistic Theory and Digital Scholarship”</hi> in: <hi rend="bold">Gold, Matthew (ed.)</hi>: 
+                        <hi rend="italic">Debates in Digital Humanities.</hi> Minnesota: University of Minnesota Press. 
+                        <ref target="http://dhdebates.gc.cuny.edu/">http://dhdebates.gc.cuny.edu/</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Epple, Moritz (2016)</hi>: <hi rend="italic">“Analogien, Interpretationen, Bilder, Systeme und Modelle: Bemerkungen zur Geschichte abstrakter Repräsentationen in den Naturwissenschaften seit dem 19. Jahrhundert“</hi> in: <hi rend="bold">Axer, Eva / Geulen, Eva / Heimes, Alexandra (eds.)</hi>: 
+                        <hi rend="italic">Forum Interdisziplinäre Begriffsgeschichte</hi> 5, 1, 11-31. 
+                        <ref target="http://www.zfl-berlin.org/publikationen-detail/items/fib-5-jg-2016-1.html.html">http://www.zfl-berlin.org/publikationen-detail/items/fib-5-jg-2016-1.html.html</ref> [letzter Zugriff am 29.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Galey, Alan / Ruecker, Stan (2010)</hi>: <hi rend="italic">“How a Prototype Argues”</hi> in: 
+                        <hi rend="italic">Literary and Linguistic Computing </hi>25,3. doi:10.1093/llc/fqq021 [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gansel, Christina (2017)</hi>: <hi rend="italic">“Prototypensemantik und Stereotypensemantik”</hi> in: <hi rend="bold">Staffeldt, Sven / Hagemann, Jörg (eds.)</hi>: 
+                        <hi rend="italic">Semantiktheorien: Lexikalische Analysen Im Vergleich.</hi> Tübingen: Stauffenburg, 77-96.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gold, Matthew (ed.) (2012)</hi>: 
+                        <hi rend="italic">Debates in Digital Humanities.</hi> Minnesota: University of Minnesota Press. 
+                        <ref target="http://dhdebates.gc.cuny.edu/">http://dhdebates.gc.cuny.edu/</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Grizelj, Mario / Jahraus, Oliver (eds.) (2011)</hi>: 
+                        <hi rend="italic">Theorietheorie. Wider die Theoriemündigkeit in den Geisteswissenschaften</hi>. München: Fink. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Gumbrecht, Hans Ulrich (2012)</hi>: 
+                        <hi rend="italic">Präsenz. </hi>Berlin: Suhrkamp. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Hacking, Ian ([1983] 1996)</hi>: 
+                        <hi rend="italic">Einführung in die Philosophie der Naturwissenschaften. </hi>Stuttgart: Reclam. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Hall, Gary (2012)</hi>: <hi rend="italic">“Has Critical Theory Run Out of Time for Data-Driven Scholarship”</hi> in: <hi rend="bold">Gold, Matthew (ed.)</hi>: 
+                        <hi rend="italic">Debates in Digital Humanities.</hi> Minnesota: University of Minnesota Press. 
+                        <ref target="http://dhdebates.gc.cuny.edu/">http://dhdebates.gc.cuny.edu/</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Hinrichs, Uta / Forlini, Stefania (2017)</hi>: <hi rend="italic">“In Defense of Sandcastles: Research Thinking trough Visualization in DH”</hi> in: 
+                        <hi rend="italic">Digital Humanities Conference 2017</hi>
+                        <ref target="https://dh2017.adho.org/abstracts/133/133.pdf">https://dh2017.adho.org/abstracts/133/133.pdf</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Houde, Stephanie / Hill, Charles (1997)</hi>: <hi rend="italic">“What do prototypes prototype?”</hi> in: <hi rend="bold">Helander M. / Landauer, T.K. / Prabhu P. (eds.)</hi>: 
+                        <hi rend="italic">Handbook of human-computer interaction</hi>. Amsterdam: Elsevier, 367-381.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Jahraus, Oliver / Neuhaus, Stefan (eds.) (2002)</hi>: 
+                        <hi rend="italic">Kafkas "Urteil" und die Literaturtheorie. Zehn Modellanalysen.</hi> Stuttgart: Reclam.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Jahraus, Oliver (2011)</hi>: <hi rend="italic">“Theorietheorie“</hi> in: <hi rend="bold">Grizelj, Mario / Jahraus, Oliver (eds.)</hi>: 
+                        <hi rend="italic">Theorietheorie. Wider die Theoriemüdigkeit in den Geisteswissenschaften</hi>. München: Fink 17-39.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Jannidis, Fotis / Flanders, Julia (eds.). (2015)</hi>: 
+                        <hi rend="italic">Knowledge Organization and Data Modeling in the Humanities.</hi>
+                        <ref target="https://www.wwp.northeastern.edu/outreach/conference/kodm2012/flanders_jannidis_datamodeling.pdf">https://www.wwp.northeastern.edu/outreach/conference/kodm2012/flanders_jannidis_datamodeling.pdf</ref>. [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Jannidis, Fotis / Kohle, Hubertus / Rehbein Malte (eds.) (2017)</hi>: 
+                        <hi rend="italic">Digital Humanities. Eine Einführung.</hi> Stuttgart: Metzler. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Kath, Roxana / Schaal, Gary / Dumm, Sebastian (2015)</hi>: <hi rend="italic">“New Visual Hermeneutics”</hi> in: 
+                        <hi rend="italic">ZDL </hi>43,1, 27-51.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Kleiber, Georges (1993)</hi>: 
+                        <hi rend="italic">Prototypensemantik. Eine Einführung.</hi> Tübingen: Narr. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Küpper, Joachim / Engell, Lorenz (eds.) (2013)</hi>: 
+                        <hi rend="italic">The beauty of theory. Zur Ästhetik und Affektökonomie von Theorien.</hi> München 2013.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Köppe, Tilmann / Winko, Simone (2013)</hi>: 
+                        <hi rend="italic">Neuere Literaturtheorien. Eine Einführung.</hi> Stuttgart: Metzler.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Lauer, Gerhard (2013)</hi>: <hi rend="italic">“Die digitale Vermessung der Kultur Geisteswissenschaften als Digital Humanities“</hi> in: <hi rend="bold">Geiselberger, Heinrich / Moorstedt, Tobias (eds.)</hi>: 
+                        <hi rend="italic">Big Data. Das neue Versprechen der Allwissenheit.</hi> Berlin: Suhrkamp, 99-116.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Mainberger, Sabine (2003)</hi>: 
+                        <hi rend="italic">Die Kunst des Aufzählens.</hi> Berlin: de Gruyter. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Mogensen, Preben (1992)</hi>: <hi rend="italic">“Towards a Provotyping Approach in Systems Development”</hi> in: 
+                        <hi rend="italic">Scandinavian Journal of Information Systems</hi> 4, 31-53. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Nünning, Vera / Nünning, Ansgar (2010)</hi>: 
+                        <hi rend="italic">Methoden der literatur- und kulturwissenschaftlichen Textanalyse. Ansätze – Grundlagen – Modellanalysen</hi>. Stuttgart: Metzler.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Ramsay, Stephen / Rockwell, Geoffrey (2012)</hi>: <hi rend="italic">“Developing Things: Notes toward an Epistemology of Building in the Digital Humanities”</hi> in: <hi rend="bold">Gold, Matthew (ed.)</hi>: 
+                        <hi rend="italic">Debates in Digital Humanities.</hi> Minnesota: University of Minnesota Press. 
+                        <ref target="http://dhdebates.gc.cuny.edu/">http://dhdebates.gc.cuny.edu/</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Ritter, Joachim / Gründer Karlfried (eds.) (1998)</hi>: 
+                        <hi rend="italic">Historisches Wörterbuch der Philosophie.</hi> Darmstadt: Wissenschaftliche Buchgesellschaft. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Rosch, Eleanor (1975)</hi>: <hi rend="italic">“Cognitive Reference Points”</hi> in: 
+                        <hi rend="italic">Cognitive Psychology</hi> 7, 532-547. 
+                        <ref target="https://doi.org/10.1016/0010-0285(75)90021-3">https://doi.org/10.1016/0010-0285(75)90021-3</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Ruecker, Stan (2015)</hi>: <hi rend="italic">“A Brief Taxonomy of Prototypes for the Digital Humanities”</hi> in: 
+                        <hi rend="italic">Scholarly and Research Communication</hi> 6, 2. 
+                        <ref target="https://doi.org/10.22230/src.2015v6n2a222">https://doi.org/10.22230/src.2015v6n2a222</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Ruecker, Stan / Scaletsky, Celso / Meyer, Guilherme / Michura, Piotr (unbekannt)</hi>: Eintrag “Prototype” in: 
+                        <hi rend="italic">MLA Commons. Digital Pedagogy in the Humanities. Concepts, Models, and Experiments</hi>
+                        <ref target="https://digitalpedagogy.mla.hcommons.org/keywords/prototype/">https://digitalpedagogy.mla.hcommons.org/keywords/prototype/</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Saar, Martin (2013)</hi>: <hi rend="italic">“Kritik und Affekt. Nietzsches Textpolitik“</hi> in: <hi rend="bold">Küpper, Joachim / Engell, Lorenz (eds.)</hi>: 
+                        <hi rend="italic">The beauty of theory. Zur Ästhetik und Affektökonomie von Theorien</hi>. München: Fink, 47-57.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Schaub, Mirjam (2010)</hi>:
+                        <hi rend="italic" xml:space="preserve"> Das Singuläre und das Exemplarische. Zu Logik und Praxis in Philosophie und Ästhetik.</hi> Zürich: diaphanes. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Scheinfeldt, Tom (2012)</hi>: <hi rend="italic">“Why Digital Humanities Is “Nice”</hi> in: <hi rend="bold">Gold, Matthew (ed.)</hi>: 
+                        <hi rend="italic">Debates in Digital Humanities.</hi> Minnesota: University of Minnesota Press. 
+                        <ref target="http://dhdebates.gc.cuny.edu/">http://dhdebates.gc.cuny.edu/</ref> [letzter Zugriff am 28.08.2018].
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Seebold, Elmar (ed.) (2011)</hi>: 
+                        <hi rend="italic">Kluge. Etymologisches Wörterbuch der deutschen Sprache.</hi> Berlin: de Gruyter.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Stachowiak, Herbert (1992)</hi>: <hi rend="italic">“Modell”</hi> in: <hi rend="bold">Seiffert, Helmut / Radnitzky, Gerard (eds.)</hi>: 
+                        <hi rend="italic">Handlexikon zur Wissenschaftstheorie</hi>. München: Ehrenwirth, 219-222.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Wellbery, David (ed.) (1985)</hi>: 
+                        <hi rend="italic">Positionen der Literaturwissenschaft. Acht Modellanalysen am Beispiel von Kleists ‚Das Erdbeben von Chili‘</hi>. München: Beck. 
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Wirth, Uwe (2013)</hi>: <hi rend="italic">“Der will bloß spielen! Der Dilettant und die schöne Theorie“</hi> in: <hi rend="bold">Küpper, Joachim / Engell, Lorenz (eds.)</hi>: 
+                        <hi rend="italic">The beauty of theory. Zur Ästhetik und Affektökonomie von Theorien</hi>. München: Fink, 137-148.
+                    </bibl>
+                    <bibl>
+						<hi rend="bold">Wittgenstein, Ludwig ([1945], 1984)</hi>: 
+                        <hi rend="italic">Philosophische Untersuchungen</hi>. Bd. 1. Werkausgabe. Frankfurt: Suhrkamp.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

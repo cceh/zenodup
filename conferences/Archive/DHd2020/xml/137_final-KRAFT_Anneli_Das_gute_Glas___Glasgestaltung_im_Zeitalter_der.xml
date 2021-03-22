@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="137_final-KRAFT_Anneli_Das_gute_Glas___Glasgestaltung_im_Zeitalter_der" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Das gute Glas – Glasgestaltung im Zeitalter der guten Form</title>
+<author>
+<persName>
+<surname>Kraft</surname>
+<forename>Anneli</forename>
+</persName>
+<affiliation>Friedrich-Alexander-Universität Erlangen-Nürnberg</affiliation>
+<email>anneli.kraft@fau.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-12-19T15:34:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Trinkglas</term>
+<term>Datenbank</term>
+<term>Repositorium</term>
+<term>Die gute Form</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Teilen</term>
+<term>Sammlung</term>
+<term>Modellierung</term>
+<term>Artefakte</term>
+<term>Infrastruktur</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p style="text-align:center;">
+<hi rend="color(365F91)" style="font-size:12pt">Entwicklung einer digitalen Infrastruktur als Werkzeug zur Analyse und designhistorischen Betrachtung von Trinkgläsern.</hi>
+</p>
+<figure>
+<graphic height="12.853458333333334cm" n="1001" rend="inline"
+	 url="137_final-c8553cc9dae80656b4a96e04307fa97c.jpg"
+	 width="16.002cm"/>
+<head> Abbildung 1: Szene aus Hitchcocks "Suspicion". </head>
+</figure>
+<p>Ein Glas Milch wird im Psychothriller „Suspicion“<ref n="1" target="ftn1"/> (Jacobi 2014) von Alfred Hitchcock zum spannungsgeladenen Deutungsträger und Schlüssel der weiteren Handlung. Tatsächlich sind wir umgeben von den verschiedensten Arten von Trinkgläsern, die immer auch Träger von Informationen über Nutzer, Konsumverhalten und die gesellschaftlichen Normen sind. Allerdings sind sie so alltäglich, dass wir uns darüber kaum Gedanken machen, genauso wenig wie über die Form oder die Herstellungsweise. Ob Preis, Funktion, Design – es spielen unterschiedliche Kriterien eine Rolle, warum Konsumenten sich für ein ganz bestimmtes Trinkglas entscheiden. Gibt es aber auch Kriterien, die das gute Glas von einem minderwertigen unterscheiden? Um diese zu beurteilen, müssen sowohl die Hintergründe der formalen Gestaltung, das Wissen über Trends und Geschmack, die traditionelle Verwendung sowie insbesondere die Möglichkeiten der Glasherstellung untersucht werden. Unter der Prämisse der ‚guten Form‘ wurden in der Nachkriegszeit Objekte ausgewählt, die als besonders hochwertig angesehen wurden. Diese wurden in Ausstellungen gezeigt oder mit Preisen ausgezeichnet, um sowohl Hersteller als auch Verbraucher für die gute Gestaltung zu sensibilisieren. Die damals aufgestellten Richtlinien werden in dieser Arbeit anhand der prämierten Trinkgläser überprüft. Auf dieser Basis werden schließlich eigene Kriterien festgelegt, die eine Aussage über die Qualität von Trinkgläsern geben.
+            </p>
+<p>Als Werkzeug zur Sammlung und Analyse der Daten dient ein digitales Instrumentarium, das auf Basis der bereits bestehenden Informationsplattform 
+                <hi rend="italic">WissKI</hi> (Görz 2011)<ref n="2"
+		target="ftn2"/> entwickelt und dem
+		Forschungsgegenstand angepasst wurde. Bereits in der
+		Planung des Instrumentariums stand der zu erforschende
+		Gegenstand im Zentrum. Die Untersuchung des
+		Trinkglases als Typus mit seinen Einzelteilen und
+		Merkmalen diente sowohl der Konzeption der Datenbank
+		als auch der Erstellung der <hi
+		rend="italic">CIDOC-CRM</hi><space quantity="0" unit="chars"/><ref n="3" target="ftn3"/> basierten Domänenontologie<ref n="4" target="ftn4"/> als Grundlage. Mit diesen Vorarbeiten wurde eine dem Forschungsthema entsprechende Datenbank modelliert, mit passenden Masken und einem hinterlegten Fachbegriffssystem.
+            </p>
+<p>Aus der inhaltlichen Bearbeitung und der Entwicklung der digitalen Infrastruktur ist der Grundstock zu einem disziplinären Repositorium<ref n="5" target="ftn5"/> zum Thema Trinkglas gelegt. Ziel ist, dass diese Datenbank nicht nur für ein Forschungsprojekt genutzt wird, sondern anschließend auch in Museen speziell für den Bereich Gebrauchsglas eingesetzt werden kann. Das Repositorium dient als zentrale Datenbank in der sowohl die Daten zu den verschiedenen Trinkgläsern gebündelt als auch sämtliche zugehörigen Informationen und Dokumente, die zur Erforschung der Gläser relevant sind, an einem Ort zusammengeführt werden. Zusätzlich zu den Abbildungen von Gläsern werden Kataloge, Werbeprospekte und technische Zeichnungen bereitgestellt. Bereichert wird die Datenbank durch ein erweiterbares Glossar mit Abbildungen und der Definition von Fachbegriffen sowie einem Warenzeichenlexikon, welches die Einordnung und Zuschreibung von Gläsern erleichtert. 
+            </p>
+<p>Für Datensammlungen im Allgemeinen und die Datenbank ‚Das gute Glas’ im Speziellen stammen die Daten in der Regel aus unterschiedlichen Quellen und Kontexten, was eine Heterogenität der Daten zwangsläufig mit sich bringt. Das bedeutet, die sinnvolle Nutzung der Daten ist nicht immer gegeben und muss zunächst durch eine systematische Vereinheitlichung passieren. Zusätzlich zum Metadatenschema, die als Ontologie dem System hinterlegt ist, dient dafür die Orientierung an Dokumentationsstandards<ref n="6" target="ftn6"/> sowie die Verlinkung zu Normdaten<ref n="7" target="ftn7"/>.
+            </p>
+<p>Im Gegensatz zu konventionellen Museumsdatenbanken bleibt durch die Nutzung solch eines Trinkglas-Repositoriums bereits geleistete Forschungsarbeit nicht auf eine Institution oder Person begrenzt, sondern kann auch von anderen Wissenschaftlern und Wissenschaftlerinnen genutzt werden. Insbesondere bei einem Forschungsgegenstand wie dem Trinkglas, bei dem das Material weit über Europa verstreut ist, ist eine Zusammenführung von Daten zum Erkenntnisgewinn wünschenswert. Das Dissertationsprojekt ‚Das gute Glas‘ stellt in der Kunstgeschichte und im Museumsalltag ein Pilotprojekt dar, welches die Methoden der Digital Humanities<ref n="8" target="ftn8"/> nutzt und seine Vorteile gegenüber herkömmlicher Herangehensweisen für die wissenschaftliche Bearbeitung etabliert. 
+            </p>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Hitchcocks „Suspicion“ (Verdacht) ist eines der filmischen Meisterwerke zum selben Grundthema. Einer der Höhepunkte ist die Szene, in der Johnnie, gespielt von Cary Grant, seiner Frau Lina (Joan Fontaine) ein Glas mit vergifteter Milch bringt, das szenisch inszeniert und von innen beleuchtet ist. (Jacobi 2014)
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Wissenschaftliche Kommunikations-Infrastruktur
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      CIDOC CRM (CIDOC conceptual reference model) bietet eine erweiterbare Ontologie für Begriffe und Informationen im Bereich des kulturellen Erbes, als Norm für einen kontrollierten Austausch von Daten.
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Ontologien (Informatik) sind meist sprachlich gefasste und formal geordnete Darstellungen einer Menge von Begrifflichkeiten und der zwischen ihnen bestehenden Beziehungen in einem bestimmten Gegenstandsbereich, eine Art Schlagwortsystem.
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      Repositorien (lat. Lager) sind im allgemeinen Verständnis gut sortierte und verwaltete Speicherorte für digitale Forschungsdaten, welche entweder öffentlich oder in den meisten Fällen einem beschränkten Nutzerkreis zur Verfügung stehen. In der Regel werden damit Forschungsdaten zugänglich gemacht und im besten Fall auch die Infrastruktur geboten, die eine Langzeitarchivierung der Daten sicherstellt. 
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      <anchor xml:id="Hlk27665318"/>SPECTRUM ist der britische Dokumentationsstandard für Museumsobjekte (<anchor xml:id="Hlk27665369"/>The UK Museum Documentation Standard). Online unter: 
+      <ref target="http://museumswesen.smwk.sachsen.de/download/spectrum-de-3-1_21-1-2013.pdf">http://museumswesen.smwk.sachsen.de/download/spectrum-de-3-1_21-1-2013.pdf</ref>, 
+      [Stand: 05.07.2019]
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      Eine Verlinkung kann beispielsweise zu Wikidata, Getty oder der GND erfolgen, sie ist aber nicht vorher festgelegt.
+    </note>
+    <note n="8" rend="footnote text" xml:id="ftn8">
+      Die digitalen Geisteswissenschaften versuchen über die Interessen an einem Fachgebiet hinaus Prozesse der Gewinnung und Vermittlung neuen Wissens unter den Bedingungen einer digitalen Arbeits- und Medienwelt weiter zu entwickeln. Dazu forschen und lehren sie z.B. im Bereich der Digitalisierung des Wissens und des kulturellen Erbes, der Anwendung und Weiterentwicklung von Werkzeugen, der Operationalisierung und Beantwortung von Forschungsfragen und der Reflexion über die methodischen und theoretischen Grundlagen der Geisteswissenschaften in einer digitalen Welt. (Sahle 2011: 4)
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left;">
+  <hi rend="bold" xml:space="preserve">Görz, Günther </hi>(2011): „WissKI: Semantische Annotation, Wissensverarbeitung und Wissenschaftskommunikation in einer virtuellen Forschungsumgebung. In: Kunstgeschichte.”, in: 
+  <hi rend="italic" xml:space="preserve">Open Peer Reviewed Journal</hi>, 2011 
+  <ref
+      target="http://www.kunstgeschichte-ejournal.net/167/1/Goerz.pdf">http://www.kunstgeschichte-ejournal.net/167/1/Goerz.pdf</ref>
+  [letzter Zugriff am: 26.02.2015].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold" xml:space="preserve">Jacobi, Hanna </hi>(2014): „Alfred Hitchcock: ‚Suspicion’ - das wichtigste Milchglas des Kinos”, Radiobeitrag am 03.05.2014 
+  <ref target="http://detektor.fm/kultur/alfred-hitchcock-suspicion">http://detektor.fm/kultur/alfred-hitchcock-suspicion</ref>
+  [letzter Zugriff am: 13.09.2019].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold" xml:space="preserve">Fichtner, Mark / Hohmann, Georg
+  </hi>(2005): „Chancen und Herausforderungen in der praktischen
+  Anwendung von Ontologien für das Kulturerbe” in:
+  Digitales Kulturerbe : Bewahrung und Zugänglichkeit in der wissenschaftlichen Praxis: 116.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">„Repositorien | Bewahren und Nachnutzen | Themen”</hi>
+  <ref target="https://www.forschungsdaten.info/themen/bewahren-und-nachnutzen/repositorien/">https://www.forschungsdaten.info/themen/bewahren-und-nachnutzen/repositorien/</ref>
+  [letzter Zugriff: 18.10.2016]. 
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">Sahle, Patrick</hi> (2011): „Was sind die digitalen
+  Geisteswissenschaften?“: 4. in: Sahle, Patrick: Digitale
+  Geisteswissenschaften.
+  <ref
+      target="http://dig-hum.de/sites/dig-hum.de/files/cceh_broschuereweb.pdf">http://dig-hum.de/sites/dig-hum.de/files/cceh_broschuereweb.pdf"</ref>
+  [letzter Zugriff: 06.03.2015)].
+</bibl>
+<bibl rend="No Spacing" style="text-align:left;">
+  <hi rend="bold">SPECTRUM</hi>
+  The UK Museum Documentation Standard.
+  <ref
+      target="http://museumswesen.smwk.sachsen.de/download/spectrum-de-3-1_21-1-2013.pdf">http://museumswesen.smwk.sachsen.de/download/spectrum-de-3-1_21-1-2013.pdf</ref>
+  [letzter Zugriff: 05.07.2019].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">„Was sind Repositorien”</hi>
+  <ref target="https://open-access.net/informationen-zu-open-access/repositorien/">https://open-access.net/informationen-zu-open-access/repositorien/</ref>
+  [letzter Zugriff: 18.10.2016].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">Weller, Kathrin</hi> (2013): „Ontologien”, in:
+  Kuhlen, Rainer / Semar, Wolfgang / Strauch, Dietmar: Grundlagen der praktischen Information und Dokumentation. Handbuch zur Einführung in die Informationswissenschaft und-praxis: 207, S. 209.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">„What is the CIDOC CRM”</hi>
+  <ref target="http://www.cidoc-crm.org">http://www.cidoc-crm.org</ref> [letzter Zugriff: 13.09.2019].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">„What is WissKI?”</hi>
+  <ref
+      target="http://wiss-ki.eu/what_is_wisski">http://wiss-ki.eu/what_is_wisski</ref>.
+  [letzter Zugriff: 07.07.2017].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">„WissKI – Wissenschaftliche Kommunikations-Infrastruktur”</hi>
+  <ref target="http://www.gnm.de/forschung/archiv-forschungsprojekte/wisski/">http://www.gnm.de/forschung/archiv-forschungsprojekte/wisski/</ref> [letzter Zugriff: 07.07.2017].
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">Abbildungsnachweis:</hi> Filmstill aus dem Film
+  „Suspicion“ von
+  A. Hitchcock.
+  <ref target="https://3.bp.blogspot.com/-y-WDR3et970/VU6WDMemTbI/AAAAAAAAMJU/fHcl4mAGpZY/s1600/cary%2Bgrant%2Bglass%2Bmilk%2Bsuspicion%2Bhitchcock.jpg">https://3.bp.blogspot.com/-y-WDR3et970/VU6WDMemTbI/AAAAAAAAMJU/fHcl4mAGpZY/s1600/cary%2Bgrant%2Bglass%2Bmilk%2Bsuspicion%2Bhitchcock.jpg</ref>
+  [heruntergeladen am: 13.09.2018].
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

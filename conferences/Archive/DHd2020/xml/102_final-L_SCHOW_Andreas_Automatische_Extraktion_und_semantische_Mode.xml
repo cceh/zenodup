@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="102_final-L_SCHOW_Andreas_Automatische_Extraktion_und_semantische_Mode" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title type="full">
+	  <title type="main">Automatische Extraktion und semantische Modellierung der Einträge einer Bibliographie französischsprachiger Romane</title>
+	  <title type="sub"/>
+	</title>
+	<author>
+	  <persName>
+	    <surname>Lüschow</surname>
+	    <forename>Andreas</forename>
+	  </persName>
+	  <affiliation>Universität Trier, Deutschland</affiliation>
+	  <email>andreas.lueschow@gmx.de</email>
+	</author>
+      </titleStmt>
+      <editionStmt>
+	<edition>
+	  <date>2015-10-05T00:04:51.74</date>
+	</edition>
+      </editionStmt>
+      <publicationStmt>
+	<publisher>Universität Paderborn</publisher>
+	<address>
+	  <addrLine>Warburger Str. 100</addrLine>
+	  <addrLine>33098 Paderborn</addrLine>
+	  <addrLine>Deutschland</addrLine>
+	</address>
+      </publicationStmt>
+      <sourceDesc>
+	<p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+	<application ident="DHCONVALIDATOR" version="1.22">
+	  <label>DHConvalidator</label>
+	</application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+	<keywords n="category" scheme="ConfTool">
+	  <term>Paper</term>
+	</keywords>
+	<keywords n="subcategory" scheme="ConfTool">
+	  <term>Vortrag</term>
+	</keywords>
+	<keywords n="keywords" scheme="ConfTool">
+	  <term>Romanistik</term>
+	  <term>Datenmodellierung</term>
+	  <term>Metadatenextraktion</term>
+	</keywords>
+	<keywords n="topics" scheme="ConfTool">
+	  <term>Strukturanalyse</term>
+	  <term>Modellierung</term>
+	  <term>Annotieren</term>
+	  <term>Bearbeitung</term>
+	  <term>Bibliographie</term>
+	  <term>Metadaten</term>
+	</keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p>Unter dem Begriff des 
+                    <hi rend="italic">Semantic Web</hi> (Berners-Lee, Hendler, Lassila 2001) werden Techniken, Standards und Methoden zusammengefasst, mit deren Hilfe im Internet verfügbare Daten der semantischen Verarbeitung durch Maschinen zugänglich gemacht werden können. Durch die Einführung und Nutzung von offenen Standards wie z. B. RDF (Schreiber &amp; Raimond 2014) soll hierbei die Interoperabilität unterschiedlicher Datenquellen sichergestellt werden. Diese Standards beziehen sich auf die Art, wie Informationen repräsentiert werden und wie Verknüpfungen mit anderen Informationen hergestellt werden können. Daher wird oftmals auch der Begriff der 
+                    <hi rend="italic">Linked Data</hi> verwendet (Bizer, Heath, Berners-Lee 2009). In einer Visualisierung der Linked-Data-Cloud von 2017 (Freyberg 2017: 29) sind die Geisteswissenschaften als eigener Bereich nicht explizit aufgeführt, was die geringe Veröffentlichung geisteswissenschaftlicher semantischer Daten widerspiegelt bzw. vermuten lässt, wenngleich z. B. im Bereich der Graphentechnologien durchaus einige Projekte existieren (Kuczera 2017). 
+</p>
+<p>&#160;<lb/>&#160;<lb/>&#160; <lb/>&#160; <lb/>&#160;</p>
+<div rend="DH-Heading2" type="div2">
+<head>Metadaten als Basis literaturwissenschaftlicher Forschung</head>
+<p>Dabei sind solche Daten Basis vieler (literatur-)wissenschaftlicher Fragestellungen: Soll bspw. eine quantitative Textanalyse einer großen Anzahl von Romanen durchgeführt werden, müssen zunächst einmal die in Frage kommenden Werke ermittelt und ausgewählt werden. Die Erstellung solcher möglichst repräsentativen Samples ist allerdings ohne eine Kenntnis der gesamten Romanproduktion einer Epoche, der dort behandelten Themen und Motive und weiterer Angaben über die inhaltliche Ausgestaltung der zu betrachtenden Textproduktion nicht ohne Weiteres möglich.</p>
+<p>Hierbei helfen können Nachschlagewerke wie z. B. Fachbibliographien, in denen bibliographische Metadaten verzeichnet sind. Teilweise liegen solche Metadaten bereits als Linked Data vor, da Bibliothekskataloge (retro-)digitalisiert wurden. Diese Metadaten sind als Basis literaturhistorischer Arbeit jedoch häufig nicht ausreichend, da für eine zielgerichtete Auswahl relevanter Literatur oftmals mehr als die üblicherweise erschlossenen bibliographischen Angaben notwendig sind.</p>
+<p>Einen weiteren, großen Anteil an der prinzipiell verfügbaren Literatur haben jedoch auch Werke, die nicht digitalisiert, sondern nur in gedruckter Form vorliegen. Die 
+                        <hi rend="italic">Bibliographie du genre romanesque français 1751-1800</hi> (Martin, Mylne, Frautschi 1977) fasst alle von den Autoren auffindbaren französischsprachigen Romane aus der zweiten Hälfte des 18. Jahrhunderts zusammen. Neben bibliographischen Daten zu Autoren, Werktiteln, Verlegern u. a. sind, soweit möglich, auch Angaben zu weiteren Auflagen (Reeditionen) und zum Inhalt der Werke zusammengetragen worden. Die Bibliographie enthält somit inhaltliche Informationen zu den einzelnen Romanen, die weit über eine Auflistung bibliographischer Metadaten hinausgehen. Solche Informationen sind wie o. g. notwendige Voraussetzung für die Erstellung repräsentativer Samples, u. a. zur weiteren literaturhistorischen Untersuchung der Textproduktion einer Sprache bzw. Epoche.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Zielsetzung</head>
+<p>Im Rahmen des hier präsentierten Vorhabens – einer Masterarbeit im Studiengang Digital Humanities an der Universität Trier – wurde die o. g. Bibliographie eingescannt und mittels 
+                        <hi rend="italic">Optical Character Recognition </hi>(OCR) in maschinenlesbaren Text umgewandelt. Auf dieser Grundlage wurden mithilfe eines Verfahrens des überwachten maschinellen Lernens die einzelnen Einträge extrahiert, in ein selbst entwickeltes semantisches Modell überführt und mit externen Daten verknüpft, sodass die Bibliographie nunmehr als RDF-Datensatz vorliegt und weiterverwendet werden kann.<ref n="1" target="ftn1"/> Zielsetzung der Arbeit war es, die in der Bibliographie enthaltenen Informationen unter Nutzung bibliographischer Standards und aktueller, verbreiteter Datenmodelle auf eine Art und Weise zu repräsentieren, die zukünftig weitere Verarbeitungen und Anreicherungen ermöglicht. Die so entstandene digitale Bibliographie kann darüber hinaus als Basis für buchwissenschaftliche, literaturhistorische und verwandte Forschungen dienen, da in ihr sowohl formale als auch inhaltliche Metadaten zur französischsprachigen Romanproduktion eines definierten Zeitraums enthalten sind.
+                    </p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Metadatenextraktion</head>
+<div rend="DH-Heading2" type="div2">
+<head>Ablauf</head>
+<p>Der Ablauf der Metadatenextraktion ist in Abbildung 1 dargestellt.</p>
+<p>
+<figure>
+<graphic url="102_final-a4d4b02e2139bc69357d943e91de8bf3.png"/>
+<head>Abbildung 1: Ablauf der Metadatenextraktion</head>
+</figure>Nach dem Einscannen der gedruckten Vorlage, der OCR, der Vorverarbeitung (Korrektur von Fehlern, Entfernen von Vorwort und Abbildungen, einheitliche Zeichenkodierung etc.) wurden die einzelnen Jahreslisten der Bibliographie und innerhalb dieser die einzelnen Einträge/Romane durch XML-Markup voneinander getrennt (Segmentierung).
+                    </p>
+<p>Anschließend wurde ein Trainingsset erstellt, mit welchem der verwendete Algorithmus trainiert werden konnte. Für die Trainingsdaten wurde aus jedem Jahrzehnt ein Jahr ausgewählt und die Metadaten der in diesem Jahr erschienenen Romane wurden manuell mit XML-Markup ausgezeichnet. Zur Evaluation der Modelle wurde ein Teil der Daten als Testset zurückgehalten.</p>
+<p>Das maschinelle Lernen verlief iterativ, sodass jeweils Modelle für unterschiedlich „tiefe“ Metadatenebenen gelernt wurden, da eine mehrstufige Anwendung mehrerer Modelle oftmals bessere Ergebnisse als die Verwendung eines einzigen Modells für die gesamten Daten erzielt (Kovacevic et al. 2011: 388) und simpler strukturierte Modelle weniger Trainingsdaten benötigen (Candeias 2011: 28). Ein erstes Modell wurde bspw. zur Bestimmung der Makrostruktur der Metadaten verwendet (Titel, Autor, Publikationsdetails etc.), weitere Modelle verfeinerten jeweils die Auszeichnung innerhalb einer dieser Gruppen (z. B. Differenzierung der Publikationsdetails: Ort, Verleger, Jahr, Format, Seitenangabe). Insgesamt wurden sechs Modelle trainiert, die durch stichprobenartige Analyse der erzeugten Daten sukzessive angepasst wurden, bis keine Verbesserungen mehr möglich waren. Das jeweils beste Modell einer Iteration wurde dann auf die restlichen, noch nicht im Trainings- bzw. Testset enthaltenen Jahreslisten angewendet.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Algorithmus und Features</head>
+<p>Zur Modellbildung wurden 
+                        <hi rend="italic">Conditional Random Fields </hi>(CRF), ein Verfahren des überwachten maschinellen Lernens, verwendet (Lafferty, McCallum, Pereira 2001), das sich in den letzten Jahren zu einem wesentlichen Verfahren im Rahmen der Informationsextraktion entwickelt hat (vgl. z. B. Groza, Grimnes, Handschuh 2012). CRF kombinieren die Vorteile von 
+                        <hi rend="italic">Hidden-Markov-Modellen </hi>(HMM) und 
+                        <hi rend="italic">Support Vector Machines </hi>(SVM), zwei weiteren gut untersuchten Verfahren (Peng, McCallum 2004: 329).
+                    </p>
+<p>Die in den Algorithmus eingespeisten Daten (hier: Wörter bzw. Token) werden als Sequenzen von Zuständen modelliert und auf Grundlage dieser beobachteten Zustände werden Label für die einzelnen Elemente vergeben. Im Gegensatz zu HMM berücksichtigen CRF jedoch mögliche Beziehungen der Elemente untereinander – im vorliegenden Fall also der Metadatenfelder bzw. der berücksichtigten Features. Da die Einträge der Bibliographie einem definierten Schema folgen (z. B. steht immer zuerst die Autorenangabe, dann folgt der Titel), ist dieser Algorithmus zur Modellierung der vorliegenden Daten besonders geeignet.</p>
+<p>
+<figure>
+<graphic url="102_final-9c8092c431136edbdc81d1865160f1b9.png"/>
+</figure>Damit ein CRF-Modell trainiert werden kann, müssen Features erhoben werden, die den Inhalt der einzelnen Metadatenfelder repräsentieren. Tabelle 1 gibt die genutzten Features wieder. Diese Features wurden nicht nur für das jeweilige Wort, sondern auch für das vorherige und das nachfolgende Wort erhoben. So kann im Modell bspw. gelernt werden, dass auf ein bestimmtes Wort stets eine Zahl folgt. 
+                    </p>
+<p>Die genutzten Features wurden ausgehend von einer manuellen Analyse der Einträge in der Bibliographie und basierend auf den ausführlichen Erläuterungen der Autoren zur Sammlung und Strukturierung der Daten im Vorwort der Bibliographie ausgewählt. In der gedruckten Vorlage wurde Großschreibung bspw. zur Hervorhebung von Familiennamen verwendet und Angaben zum Inhalt eines Romans folgten fest definierten einleitenden Begriffen. </p>
+<p>Eine ausführliche Evaluation unterschiedlicher Feature-Kombinationen fand im Rahmen der Arbeit nicht statt, da bereits die o. g. simplen Features zu ausreichend hoher Genauigkeit der Metadatenextraktion führten. Weitere Optimierungen hätten überdies vom eigentlichen Ziel der Arbeit weggeführt. Die zur Unterscheidung der einzelnen Metadatenfelder günstigsten Features wurden jedoch erhoben, um die Wirksamkeit und innere Struktur der gelernten Modelle zu überprüfen. Hierbei zeigte sich z. B., dass die einleitenden Wendungen zur inhaltlichen Beschreibung der Romane auch vom Algorithmus als solche gelernt und zur Auszeichung neuer Daten verwendet wurden. </p>
+<p>Um auch weniger strukturierte Datengrundlagen als Bibliographien mit dem entwickelten Workflow verarbeiten zu können, bestünde hier ein möglicher, näher zu untersuchender Ansatzpunkt für eine genauere Analyse hilfreicher Features und die eventuelle Einführung weiterer Features.</p>
+<p>&#160;<lb/>&#160;<lb/>&#160;</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Evaluation</head>
+<p>Das maschinelle Lernen wurde mithilfe der Programmiersprache 
+                        <hi rend="italic">Python</hi> und der dort verfügbaren Bibliothek 
+                        <hi rend="italic">sklearn-crfsuite</hi><ref n="2" target="ftn2"/> implementiert. Die Evaluation der Modelle geschah mit der zu 
+                        <hi rend="italic">sklearn-crfsuite </hi>kompatiblen Bibliothek für wissenschaftliche Programmierung
+                        <hi rend="italic"> scikit-learn</hi><ref n="3" target="ftn3"/>.  In der folgenden Tabelle sind die gängigen Maße Precision, Recall und der F1-Score für die sechs gelernten Modelle angegeben.
+                    </p>
+<p>
+<figure>
+<graphic url="102_final-c2fb32611055500516ef03947cbd9893.png"/>
+</figure>
+</p>
+<p>Für alle Metadatenfelder konnte eine sehr hohe Genauigkeit erreicht werden. Der so erzeugte Datensatz mit allen Einträgen aus der Bibliographie ist somit nahezu vollständig korrekt ausgezeichnet.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Semantische Modellierung</head>
+<p>Zurzeit existiert kein einheitlicher, akzeptierter Standard, der in der Bibliothekswelt für die semantische Repräsentation bibliographischer Daten verwendet wird. Stattdessen orientieren sich diejenigen Bibliotheken, die bereits Linked Data zur Verfügung stellen, an unterschiedlichen Datenmodellen, Schemas und Ontologien. Es existieren jedoch Versuche, die bereits entwickelten Modelle in ein möglichst generisches und von vielen Bibliotheken nachnutzbares Modell zu integrieren (Suominen, Hyvönen 2017).</p>
+<div rend="DH-Heading2" type="div2">
+<head>Vorhandene Ontologien</head>
+<p>Vor allem die folgenden Datenmodelle sind für die semantische Modellierung der Metadaten aus der Bibliographie relevant, da sie entweder bereits weit verbreitet sind oder spezifische Elemente enthalten, die nachgenutzt werden können.</p>
+<list type="unordered">
+<item>
+<hi rend="italic">FRBR: Functional Requirements for Bibliographic Records </hi> und
+                            <hi rend="italic">RDA: Resource Description and Access </hi>(IFLA 2009)
+                        </item>
+<item>
+<hi rend="italic">DCTerms: </hi>
+<hi rend="italic">Dublin Core Metadata Terms</hi> (Dublin Core Metadata Initiative 2012)
+                        </item>
+<item>
+<hi rend="italic">PRISM: Publishing Requirements for Industry Standard Metadata </hi>(IDEAlliance 2008)
+                        </item>
+<item>
+<hi rend="italic">SPAR</hi>
+<hi rend="italic">Ontologies</hi> (Peroni, Shotton 2018)
+                        </item>
+</list>
+<p>Die Entwicklung der SPAR-Ontologien wird von den Autoren u. a. damit begründet, dass bisherige Systeme uneinheitlich seien und deutliche Schwächen aufwiesen. PRISM und FRBR seien bspw. „top-level vocabularies rather than something specifically developed to characterise specific aspects of scholarly publishing“ (Peroni, Shotton 2018). Gleichzeitig benutzen die SPAR-Ontologien jedoch Elemente aus den anderen o. g. Vokabularen, um Redundanzen und doppelte Element-Definitionen zu vermeiden. In der hier beschriebenen Arbeit wurde daher ebenfalls versucht, aus den o. g. Datenmodellen vorrangig diejenigen Elemente zu verwenden, die bereits im Bibliothekswesen etabliert und nicht zu spezifisch, gleichzeitig aber ausreichend detailliert sind.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Modellentwicklung</head>
+<p>Nach einer eingehenden Analyse der in der Bibliographie vorhandenen Metadaten wurden aus den o. g. Ontologien diejenigen Elemente zur weiteren Berücksichtigung ausgewählt, die zur möglichst genauen und eindeutigen Modellierung der einzelnen Einträge der Bibliographie (siehe Abbildung 2) benötigt werden. Hierbei wurde darauf geachtet, nicht bloß die einzelnen Romane mit ihren Metadaten abzubilden, sondern auch den Aufbau und die Struktur der Bibliographie an sich. Dadurch konnte das gesamte zu erzeugende Modell an den bereits im Linked-Data-Service der 
+                        <hi rend="italic">Bibliothèque nationale de France</hi> (BnF) vorhandenen Eintrag für die 
+                        <hi rend="italic">Bibliographie du genre romanesque français</hi> angebunden werden.<ref n="4" target="ftn4"/>
+</p>
+<p>
+<figure>
+<graphic url="102_final-d46f4762e6b45ff2c3e342700734c33e.png"/>
+<head>Abbildung 2: Beispieleinträge in der gedruckten Bibliographie</head>
+</figure>
+</p>
+<p>Durch die im Vorfeld bereits erfolgte Extraktion der einzelnen Metadatenfelder aus den OCR-Daten konnten diese schließlich direkt auf die entsprechenden Elemente in dem erstellten RDF-Modell abgebildet werden. Dies geschah überwiegend mithilfe der Programmiersprache 
+                        <hi rend="italic">Java</hi> und der dort verfügbaren Bibliothek 
+                        <hi rend="italic">Apache Jena</hi><ref n="5" target="ftn5"/>.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Verknüpfung mit anderen Ressourcen</head>
+<p>Um die Möglichkeit der Anreicherung der Daten mit Informationen aus externen Ressourcen beispielhaft darzustellen, wurden die Namen der Autoren der einzelnen Romane aus dem RDF-Modell extrahiert und mithilfe von Apache Jena an die API der 
+                        <hi rend="italic">Virtual </hi>
+<hi rend="italic">International Authority File</hi> (VIAF)<ref n="6" target="ftn6"/> gesendet. Von dort wurden – sofern vorhanden – die VIAF-IDs extrahiert und dem RDF-Modell hinzugefügt. Weitere externe Ressourcen könnten auf ähnliche Weise integriert werden. Voraussetzung für die erfolgreiche Nutzung der API ist, dass die Einträge im RDF-Modell keine Schreibfehler oder OCR-Fehler aufweisen. Dies kommt allerdings relativ häufig vor (Gründe sind u. a.: kleine Schrift in der Vorlage, viele Eigennamen, kurze Wörter mit wenig Kontext) und ist eines der wesentliche Probleme des Datensatzes.
+                    </p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit</head>
+<p>Sowohl die Extraktion der einzelnen Metadaten aus den OCR-Texten als auch die Erstellung und anschließende Überführung in ein RDF-Modell ließen sich mit gutem Erfolg umsetzen. Die Erkennungsgenauigkeit des CRF-Algorithmus war mit einem F1-Score von durchschnittlich 0,964 (0,908–0,997) außerordentlich hoch. Grund hierfür war sicherlich vor allem die bereits stark strukturierte Datengrundlage. Fehlende einheitliche Standards zur Repräsentation bibliographischer Metadaten und Fehler in den Textdaten sind jedoch Schwachstellen, die eine genauere Analyse und evtl. umfangreiche Bereinigung/Korrektur der zu repräsentierenden Daten nötig machen.</p>
+<p>Das vorgestellte Projekt hat durch die Kombination von modernen Verfahren zur Informationsextraktion und die Zusammenstellung von aktuellen Ontologien zur Repräsentation bibliographischer Metadaten einen für die Datengrundlage passenden Ansatz entwickelt, der als Standard-Workflow für ähnliche Projekte verwendet werden könnte und in solchen überprüft und verfeinert werden sollte. Denkbar wären z. B. die Digitalisierung und Metadatenextraktion weiterer Bibliographien, um den erzeugten Datenbestand zu ergänzen, zu erweitern oder anzureichern. Auch die Überprüfung des hier beschriebenen Vorgehens in verwandten Kontexten (andere Nachschlagewerke, andere Sprachen, andere Epochen) unter Nutzung weiterer oder anderer Features wäre sinnvoll. </p>
+<p>Der Workflow und die Daten werden daher am 
+                    <hi rend="italic">Trier Center for Digital Humanities</hi> im Rahmen des von der Forschungsinitiative Rheinland-Pfalz geförderten Projektes „MiMoText – Mining and Modeling Text“ weiterverwendet und erweitert. Ziel ist hier der Aufbau eines „aus unterschiedlichen Quellen gespeisten Informationsnetzwerks für die Geisteswissenschaften, das durch die Bereitstellung als Linked Open Data nicht nur frei verfügbar und mit anderen Wissensressourcen des Semantic Web verknüpfbar ist, sondern auch neuartige und effiziente Zugriffsmöglichkeiten auf fachwissenschaftliche Informationen bietet“.<ref n="7" target="ftn7"/> Die beschriebene Arbeit liefert hierfür eine geeignete Grundlage.
+                </p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1"> Der Datensatz ist verfügbar unter 
+    <ptr target="https://zenodo.org/record/3401429"/> (Lizenz: CC-BY).
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      <ptr target="https://github.com/TeamHG-Memex/sklearn-crfsuite"/>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      <ptr target="https://scikit-learn.org/stable/index.html"/>
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      <ptr target="http://data.bnf.fr/ark:/12148/cb34586696d"/>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      <ptr target="https://jena.apache.org/"/>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      <ptr target="https://platform.worldcat.org/api-explorer/apis/VIAF"/>
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      <ref target="https://kompetenzzentrum.uni-trier.de/de/projekte/projekte/m/">https://kompetenzzentrum.uni-trier.de/de/projekte/projekte/m/</ref>
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold">Berners-Lee, Tim / </hi>
+  <hi rend="bold">Hendler, </hi>
+  <hi rend="bold">James / </hi>
+  <hi rend="bold">Lassila, </hi>
+  <hi rend="bold">Ora</hi> (2001): 
+  <hi rend="italic">"The Semantic Web",</hi> in: 
+  <hi rend="italic">Scientific American </hi>284.5: 29–37.
+</bibl>
+<bibl>
+  <hi rend="bold">Bizer, Christian / </hi>
+  <hi rend="bold">Heath,</hi>
+  <hi rend="bold"> Tom / </hi>
+  <hi rend="bold">Berners-Lee, </hi>
+  <hi rend="bold">Tim </hi>(2009): 
+  "Linked Data – The Story So Far", in: 
+  <hi rend="italic">International Journal on Semantic Web and Information Systems </hi>5.3: 1–22 
+  <ref target="http://tomheath.com/papers/bizer-heath-berners-lee-ijswis-linked-data.pdf">http://tomheath.com/papers/bizer-heath-berners-lee-ijswis-linked-data.pdf</ref>
+  [letzter Zugriff 03. Januar 2020]. 
+</bibl>
+<bibl>
+  <hi rend="bold">Candeias, Ricardo Pereira</hi> (2011): 
+  <hi rend="italic">Metadata Extraction from Scholarly Articles</hi>. Master Thesis, Universidade Técnica de Lisboa. 
+  <ptr target="https://fenix.tecnico.ulisboa.pt/downloadFile/395143160947/dissertacao.pdf"/> [letzter Zugriff 03. Januar 2020].
+</bibl>
+<bibl>
+  <hi rend="bold">Dublin Core Metadata Initiative</hi> (2012): 
+  <hi rend="italic">DCMI Metadata Terms</hi>. DCMI Recommendation. 
+  <ptr target="http://dublincore.org/documents/2012/06/14/dcmi-terms/"/> [letzter Zugriff 03. Januar 2020],
+</bibl>
+<bibl>
+  <hi rend="bold">Freyberg, Linda </hi>(2017): 
+  "Density of Knowledge Organization Systems", in: 
+  <hi rend="italic">Knowledge Organization for Digital Humanities. Proceedings of the 15th Conference on Knowledge Organization WissOrg '17 of the German Chapter of the International Society for Knowledge Organization (ISKO) </hi>25–30.
+</bibl>
+<bibl>
+  <hi rend="bold">Groza, T. / Grimnes, A. / Handschuh, S.</hi> (2012): 
+  "Reference Information Extraction and Processing Using Conditional Random Fields", in: 
+  <hi rend="italic">Information Technology and Libraries</hi> 31.2: 6–20.
+</bibl>
+<bibl>
+  <hi rend="bold">IDEAlliance – International Digital Enterprise Alliance</hi> (2008): 
+  <hi rend="italic">The PRISM Namespace – Final </hi>
+  <ref target="http://www.prismstandard.org/specifications/2.0/PRISM_prism_namespace_2.0.pdf">http://www.prismstandard.org/specifications/2.0/PRISM_prism_namespace_2.0.pdf</ref>
+  [letzter Zugriff 03. Januar 2020].
+</bibl>
+<bibl>
+  <hi rend="bold">IFLA Study Group on the Functional Requirements for Bibliographic Records</hi> (2009): 
+  <hi rend="italic">Functional Requirements for Bibliographic Records – Final Report</hi>. (IFLA Series on Bibliographic Control, Vol. 19) 
+  <ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/> [letzter Zugriff 03. Januar 2020].
+</bibl>
+<bibl>
+  <hi rend="bold">Kovacevic, Aleksandar / Ivanovic, Dragan / Milosavljevic, Branko / Konjovic, Zora / Surla, Dusan </hi>(2011): 
+  "Automatic extraction of metadata from scientific publications for CRIS systems“, in: 
+  <hi rend="italic">Program </hi>45.4: 376–396.
+</bibl>
+<bibl>
+  <hi rend="bold">Kuczera, A.</hi> (2017): 
+  "Graphentechnologien in den Digitalen Geisteswissenschaften", in: 
+  <hi rend="italic">ABI Technik</hi>, 37.3: 179–196.
+</bibl>
+<bibl>
+  <hi rend="bold">Lafferty, John D. / </hi>
+  <hi rend="bold">McCallum, </hi>
+  <hi rend="bold">Andrew / </hi>
+  <hi rend="bold">Pereira, </hi>
+  <hi rend="bold">Fernando C. N </hi>(2001): 
+  "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data", in: 
+  <hi rend="italic">Proceedings of the Eighteenth International Conference on Machine Learning (ICML '01) </hi>282–289.
+</bibl>
+<bibl>
+  <hi rend="bold">Martin, Angus / </hi>
+  <hi rend="bold">Mylne,</hi>
+  <hi rend="bold"> Vivienne / </hi>
+  <hi rend="bold">Frautschi, </hi>
+  <hi rend="bold">Richard </hi>(1977): 
+  <hi rend="italic">Bibliographie du genre romanesque français 1751-1800</hi>. London, Paris: Mansell, France expansion.
+</bibl>
+<bibl>
+  <hi rend="bold">Peng, Fuchun / McCallum, Andrew </hi>(2004): 
+  "Accurate Information Extraction from Research Papers using Conditional Random Fields", in: 
+  <hi rend="italic">Proceedings of Human Language Technology Conference and North American Chapter of the Association for Computational Linguistics (HLTNAACL) </hi>329–336 
+  <ptr target="https://www.cs.umass.edu/~mccallum/papers/hlt2004.pdf"/>[letzter Zugriff 03. Januar 2020].
+</bibl>
+<bibl>
+  <hi rend="bold">Peroni, Silvio / </hi>
+  <hi rend="bold">Shotton, </hi>
+  <hi rend="bold">David </hi>(2018): 
+  "The SPAR Ontologies", in: Vrandečić D. et al. (eds.): 
+  <hi rend="italic">The Semantic Web – ISWC 2018</hi>. Lecture Notes in Computer Science. Cham: Springer 119–136.
+</bibl>
+<bibl>
+  <hi rend="bold">Schreiber, Guus / </hi>
+  <hi rend="bold">Raimond, </hi>
+  <hi rend="bold">Yves </hi>(2014): 
+  <hi rend="italic">RDF 1.1 Primer</hi>. W3C Note. 
+  <ptr target="http://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624"/> [letzter Zugriff 03. Januar 2020].
+</bibl>
+<bibl>
+  <hi rend="bold">Suominen, Osma / Hyvönen, Nina</hi> (2017): 
+  "From MARC silos to Linked Data silos?", in: 
+  <hi rend="italic">o-bib. Das offene Bibliotheksjournal</hi> 4.2: 1–13.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

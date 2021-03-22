@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="215_final-IFFLAND_Joachim_Das_Erkenntnispotenzial_Digitaler_Musikediti" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Das Erkenntnispotenzial Digitaler Musikedition</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Iffland</surname>
+<forename>Joachim</forename>
+</persName>
+<affiliation>Universität Paderborn, Musikwissenschaftliches Seminar Detmold/Paderborn, Deutschland</affiliation>
+<email>joachim.iffland@uni-paderborn.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-26T15:20:03.065895552</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Musikedition</term>
+<term>Handeln</term>
+<term>Dinge</term>
+<term>Beziehungen</term>
+<term>Musicking</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Theoretisierung</term>
+<term>Personen</term>
+<term>Ton</term>
+<term>Video</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Die Entwicklungen im Bereich der digitalen Musikedition haben seit ihrer Entstehung eine Vielzahl von Projekten initiiert. Durch die Möglichkeit der Codierung und der mehrdimensionalen Darstellung musikbezogener Inhalte (vgl. Wiering 2009) konnte wesentlich zur Überwindung der Vorstellung von musikalischen Werken 
+                <hi rend="italic">einer</hi> festen Gestalt verholfen,und das intersektionale Arbeiten der Digital Humanities in den Musikwissenschaften verankert werden.
+            </p>
+<p>Das Potenzial digitaler Musikedition – so zeigt es das hier vorgestellte, im 
+                <hi rend="italic">Zentrum Musik – Edition – Medien</hi> angesiedelte und Ende 2019 abzuschließende Dissertationsprojekt – erschöpft sich jedoch nicht an der Bearbeitung des Werk-Faktors und des notenschriftbasierten Quellenmaterials. Digitale Edition eröffnet durch ihr Potenzial der tiefen und mehrdimensionalen Erschließung eines Gegenstandes auch das Potenzial, den zu edierenden musikbezogenen Gegenstand auszuweiten. Sie suggeriert somit die Möglichkeit, Musik nicht alleine mit Bezug auf ihren logischen Inhalt zu erschließen und dessen editorische Darstellung durch die optische und akustische Domäne musikbezogener Quellen zu flankieren, sondern Musik im Sinne 
+                <hi rend="italic">gelebter Wirklichkeiten</hi> zu repräsentieren, in Musik also auch im editorischen Sinne mehr zu sehen als Notentext. 
+                <hi rend="italic">Digitale</hi> Musikedition eröffnet im Sinne der Digital Humanities somit ein Erkenntnispotenzial, das es ermöglicht, aus editorischer Sicht die grundlegende Frage zu stellen, was Musik ist.
+            </p>
+<p>Die Arbeit zeigt dabei, dass der Versuch, Musikedition mit digitalen Mitteln über den Notentext hinaus auszuweiten, Erkenntnis über den Gegenstand „Musik“ offenbart und geht von der kulturwissenschaftlich inspirierten Prämisse aus, dass Musik ein vom Handeln geprägtes Ereignis ist. Am Beispiel einer dichten Beschreibung eines Ausschnitts einer Konzert-Aufzeichnung des Sängers Marius Müller-Westernhagen, wird die Vielfalt des Komplexes „Musik“ verdeutlicht und der Frage nachgegangen, auf welcher entitätenbezogenen Basis dieses musikbezogene Handeln in editorische Kontexte integrierbar ist, um nicht nur digitale Notenedition, sondern digitale Musikedition im umfassendsten Sinne zu betreiben – als dichte Beschreibung mit digitalen Mitteln. Neben der Beleuchtung bisheriger musikwissenschaftlicher Editionspraxis und damit verbundener Prinzipien, gilt es, das Wesen digitaler Notenedition vorzustellen, um zunächst zu verdeutlichen, dass diese unter der Nutzung der xml-basierten MEI- und TEI-Standards weitgehend die Prinzipien traditioneller Notenedition in das Digitale transferiert hat und qua der Struktur des Codes an der Edition von Meisterwerken festhält. Kulturwissenschaftliche Erkenntnisse (wie die Bedeutung musikbezogener Handlungen) sind hier kaum in editorischen Kontexten wiederzufinden oder in diese integrierbar. Diese Arbeit verdeutlicht durch experimentelle Anreicherung einer MEI-Codierung die Notwendigkeit der grundsätzlichen ontologischen Erschließung des (handlungsbezogenen) Gegenstands „Musik“ sowie die Notwendigkeit des grundsätzlichen Lösens vom bisherigen werkbezogenen Blickwinkel.</p>
+<p>Bestehende Projekte entwickeln bereits vielfältige, durch digitale Techniken ermöglichte Insellösungen, die damit beginnen, die Betrachtung des Komplexes „Musik“ auszuweiten. Doch der Faktor des Werkes scheint hier ein schwer zu überwindendes Hindernis. Um in diesem Kontext die (auch editorische) Betrachtung von Musik in einen größeren Zusammenhang zu stellen, frage ich, was Musik ist und stelle im Zusammenhang mit Christopher Smalls Konzept des 
+                <hi rend="italic">Musicking</hi> einen handlungsbezogenen Musikbegriff vor. (Small
+                <hi rend="italic"> </hi>1998) Als Verifizierung seiner These und zur Überbrückung von in seiner Arbeit vorzufindenden Defiziten, wird der Begriff des Musicking zunächst ontologisch differenziert. Das Musicking kann somit auf der Basis von fünf grundlegenden Musicking-Entitäten – Akteur, Ding, Ereignis, Text, Raum – präzisiert werden. Diese werden als ontologische Basis einer Musikedition vorgeschlagen, die den Status von Musik als Handeln anerkennt und widerspiegelt. Der Begriff der Musikedition wird dabei präzisiert und vom Komplex der Noten- oder Werkedition unterschieden. Das Projekt verdeutlicht so die Notwendigkeit, diesen Ansatz als Ontologie des Musicking weiter auszubauen, um Musik mit digitalen Mitteln einer „wirklichen“ Musikedition zuzuführen und – im Sinne der Digital Humanities als „intersection“ (vgl. Nyhan/Flinn 2016:1.) – Edition als digitale kulturwissenschaftliche Edition zu betreiben. Bestehende, in Insellösungen manifestierte Bestrebungen zu Edition, Codierung und Erforschung musikbezogener Kontexte können durch das vorgeschlagene Prinzip aufgegriffen werden, welches mittels einer „Partitur des Musicking“ u.a. mit Techniken der Graphenvisualisierung einen editorischen Rahmen für alle bisher durchgeführten Konzepte vorschlägt.
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold">Babbitt, Milton </hi>(1965): „The Use of Computers in Musicological Research“, in: 
+  <hi rend="italic">Perspectives of New Music</hi> 3/2 74–83.
+</bibl>
+<bibl>
+  <hi rend="bold">Grotjahn, Rebecca / Iffland, </hi>
+  <hi rend="bold">Joachim</hi> (2018): „Digitale Musikedition und die Wissenschaft der Populären Musik“, in: 
+  <hi rend="italic">Die Musikforschung </hi>71/IV 379–393.
+</bibl>
+<bibl>
+  <hi rend="bold">Iffland, Joachim</hi> (2018): „Materialität und Schriftlichkeit“, in: 
+  <hi rend="italic">Zentrum Musik – Edition – Medien </hi> https://zenmem.de/confluence/pages/viewpage.action?pageId=33718295 [letzter Abruf 19. September 2019).
+</bibl>
+<bibl>
+  <hi rend="bold">Kaden, Christian</hi> (2004): 
+  <hi rend="italic">Das Unerhörte und das Unhörbare. Was Musik ist, was Musik sein kann,</hi> Kassel/Stuttgart.
+</bibl>
+<bibl>
+  <hi rend="bold">Kepper, Johannes </hi>(2011): 
+  <hi rend="italic">Musikedition im Zeichen neuer Medien. Historische Entwicklung und gegenwärtige Perspektiven musikalischer Gesamtausgaben,</hi> Diss., Paderborn 2009, Norderstedt.
+</bibl>
+<bibl>
+  <hi rend="bold">Kepper, Johannes / </hi>
+  <hi rend="bold">Pugin, </hi>
+  <hi rend="bold">Laurent </hi>(2017): „Was ist eine Digitale Edition? Versuch einer Positionsbestimmung zum Stand der Musikphilologie im Jahr 2017“, in: 
+  <hi rend="italic">Musiktheorie</hi> 32/4 347–363.
+</bibl>
+<bibl>
+  <hi rend="bold">McCarty, Willard</hi> (2003): „Humanities Computing“, in: 
+  <hi rend="italic">Encyclopedia of Library and Information Science</hi>, DOI: 10.1081/E-ELIS 120008491, New York 1224– 1235.
+</bibl>
+<bibl>
+  <hi rend="bold">McCarty, Willard</hi> (2016): „Becoming Interdisciplinary“, in: 
+  Schreibman, Susan / Siemens,   Ray / Unsworth, John (eds.): 
+  <hi rend="italic">A New Companion to Digita l Humanities</hi>, Chichester 69–83.
+</bibl>
+<bibl>
+  <hi rend="bold">Nyhan, Julianne / </hi>
+  <hi rend="bold">Flinn,</hi>
+  <hi rend="bold"> Andrew</hi> (2016): 
+  <hi rend="italic">Computation and the Humanities. Towards an Oral History of Digital Humanities, </hi>Cham. 
+</bibl>
+<bibl>
+  <hi rend="bold">Small, Christopher </hi>(1998): 
+  <hi rend="italic">Musicking. The Meanings of Performing and Listening</hi> (Music/Culture), Middletown.
+</bibl>
+<bibl>
+  <hi rend="bold">Veit, Joachim</hi> (2015): „Musikedition 2.0. Das ‚Aus‘ für den edierten Notentext?“, in: 
+  <hi rend="italic">editio </hi>
+<hi rend="italic">29/</hi>1 187–197.
+</bibl>
+<bibl>
+  <hi rend="bold">Veit, Joachim / </hi>
+<hi rend="bold">Richts,</hi>
+<hi rend="bold"> Kristina</hi> (2018): „Stand und Perspektiven der Nutzung von MEI in der Musikwissenschaft und in Bibliotheken“, in: 
+<hi rend="italic">Bibliothek – Forschung und Praxis </hi>42/2 292–301.
+</bibl>
+<bibl>
+  <hi rend="bold">Walser, Robert </hi>(2016): 
+  <hi rend="italic">The Christopher Small Reader</hi> (Music/Culture), Middletown.
+</bibl>
+<bibl>
+  <hi rend="bold">Wiering, Frans </hi>(2009): „Digital Critical Editions of Music: A Multidimensional Model“, in: 
+  <hi rend="bold">Crawford, </hi>
+  <hi rend="bold">Tim / Gibson, </hi>
+  <hi rend="bold">Lorna</hi>: 
+                        <hi rend="italic">Modern Methods for Musicology. Prospects, Proposals, and Realities</hi>, Farnham 23–45.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

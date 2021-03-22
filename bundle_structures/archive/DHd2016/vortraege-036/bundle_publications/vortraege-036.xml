@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-036">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Judaica recherchieren – Unterstützung bei der Realisierung forschungsspezifischer Suchlösungen durch die generische Suche von DARIAH-DE</title>
+        <author>
+          <name>
+            <surname>Gradl</surname>
+            <forename>Tobias</forename>
+          </name>
+          <affiliation>Universität Bamberg</affiliation>
+          <email>tobias.gradl@uni-bamberg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Lordick</surname>
+            <forename>Harald</forename>
+          </name>
+          <affiliation>Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte</affiliation>
+          <email>lor@steinheim-institut.org</email>
+        </author>
+        <author>
+          <name>
+            <surname>Henrich</surname>
+            <forename>Andreas</forename>
+          </name>
+          <affiliation>Universität Bamberg</affiliation>
+          <email>andreas.henrich@uni-bamberg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-09T10:15:08</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Judaica Suchmaschine</term>
+          <term>generische Suche</term>
+          <term>forschungsorienterte Datenföderation</term>
+          <term>DARIAH-DE</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Kontextsetzung</term>
+          <term>Veröffentlichung</term>
+          <term>Identifizierung</term>
+          <term>Kollaboration</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Daten</term>
+          <term>Infrastruktur</term>
+          <term>Metadaten</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Forschungsergebnis</term>
+          <term>Software</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading1">
+        <head>Einleitung</head>
+        <p>Jenseits der standardisierten und institutionalisierten Bereitstellung von
+          Forschungsquellen und -literatur bedarf es weiterführender Recherchekonzepte und
+          Anwendungen, die Geisteswissenschaftler_innen mit ihren spezifischen Forschungen
+          und den <hi rend="italic">für sie verfügbaren und relevanten Daten</hi> so weit
+          wie möglich entgegenkommen. Integrative Suchlösungen wie <ref
+          target="http://oaister.worldcat.org/">OAIster</ref> und <ref
+          target="http://www.europeana.eu/portal/">Europeana</ref> bieten Zugriff auf
+          eine Vielzahl von Kollektionen und unterstützen breite, fachunabhängige
+          Suchanfragen im strukturellen Rahmen integrativer Schemata (Hagedorn 2013;
+          Peroni et al. 2013). Der semantisch tiefe und forschungspezifische Zugang zu
+          Ressourcen steht bei solchen Suchportalen dabei zumeist nicht im Fokus. Aus
+          diesem Grund stehen den Suchportalen spezifische Lösungen gegenüber, die
+          speziell an die Bedürfnisse des einzelnen Forschers und seine aktuellen
+          Fragestellungen angepasst sind. Ein Beispiel bildet hierbei die am
+          Steinheim-Institut entwickelte <ref target="http://steinheim-institut.de/vf/"
+          >Judaica-Suchmaschine</ref> (Lordick 2013). <lb/>
+          <lb/>In diesem Beitrag stellen wir mit der generischen Suche von DARIAH-DE eine
+          weitere breite Suchlösung vor, welche jedoch auch Funktionen spezifischer
+          Ansätze realisiert, wie etwa die individuelle Aggregation und Filterung von
+          Sammlungen, sowie differenzierte Möglichkeiten der Zugriffskontrolle. Auf Basis
+          des Anwendungsfalls der Judaica-Suchmaschine zeigen wir exemplarisch die
+          Unterstützung individueller Suchbedürfnisse im Rahmen der generischen Suche und
+          verdeutlichen dabei, wie neue, fachspezifische Suchen verfügbar gemacht werden
+          können - ohne dass die hierfür notwendigen, technischen Aspekte durch den
+          einzelnen Forscher umzusetzen sind. </p>
+        </div>
+        <div type="div1" rend="DH-Heading1">
+          <head>Die Judaica-Suchmaschine als Anwendungsfall</head>
+          <p>Als Use-Case dient die langjährige Auseinandersetzung mit den Möglichkeiten und Grenzen einer übergreifenden
+            <hi rend="italic">Judaica-Suchmaschine</hi> im Steinheim-Institut. Sie war ursprünglich als Allegro-C-Katalog gestartet, der verschiedene institutsinterne Datenbanken in eine gemeinsame Datenbank mit dem Ziel der effizienteren fachspezifischen Recherche zusammenführte. Bald darauf wurde begonnen, auch passende externe Datenangebote einzubinden. Die Suchmaschine enthält zur Zeit ca. 500.000 Datensätze aus 20 filterbaren Katalogen, ist auch für mobile Geräte geeignet (Lordick 2014) und XML-basiert.
+          </p>
+          <figure>
+            <graphic url="036-100002010000043E000002EE9AD5DBCE.png"/>
+          </figure>Über Standardschnittstellen lassen sich beispielsweise integrieren: die Freimann-Sammlung mit 8.772 Titeln (Teil von Judaica Frankfurt), CompactMemory 46.637 (seit 2014 ebenfalls Judaica Frankfurt), Center for Jewish History (New York) 65.667 oder Jewish Theological Seminary 9.257. Die ca. 15.000 digitalisierten Seiten der Sammlung Jüdische Zeitschriften der NS-Zeit der Deutschen Nationalbibliothek sind zwar 2012 abgeschaltet worden. Die Suchmaschine enthält aber noch die 34.346 erschließenden Metadatensätzen dazu. Sie haben nun 'nur noch' bibliografischen Charakter, der um so wertvoller bleibt. Gleiches gilt für die Exilpresse digital: Deutsche Exilzeitschriften 1933–1945 mit nicht weniger als 231.548 Metadatensätzen.
+          <p>In diesen Kontext gehört auch der Ansatz, eigene Daten ebenfalls über etablierte
+            Standardformate und Protokolle anzubieten, um sie zur Nachnutzung zur Verfügung
+            zu stellen. So wurde ein OAI-PMH Testserver<ref type="note" target="n01" n="1">1</ref> eingerichtet, der
+            digitale Sammlungen des Steinheim-Instituts zusammenführt:
+            Universal-Kirchenzeitung, Kalonymos, Deutsch-jüdische Publizistik. Ebenfalls
+            wurde das Verfahren der Bereitstellung mittels eines statischen
+            OAI-PMH-Repositorys
+            geprüft (<ref target="https://dev2.dariah.eu/wiki/download/attachments/14651583/R3.3.1.pdf?version=1&amp;modificationDate=1366904278298&amp;api=v2">Beer et al. 2013</ref>). Dieser Weg ist empfehlenswert, hinsichtlich
+            des erforderlichen technischen Knowhows jedoch durchaus anspruchsvoll, erfordert
+            (Zugriff auf) Infrastrukturkomponenten und Serverressourcen und eignet sich
+            insbesondere für 'fertige', abgeschlossene Datensätze. </p>
+            <p>Viele digitale Quellen lassen sich jedoch unter den gegebenen Umständen gar nicht harvesten, etliche verfügbare fachlich interessante oder auch unentbehrliche Datensätze immerhin mittels ind ividueller Programmierung in die Suchmaschine einbinden: das jüngst erschienene Jüdische Adressbuch Berlin 1931, die NS-Liste der verbannten Bücher, das Kapitel Judentum der Rheinland-Pfälzischen Bibliografie oder die 10.600 Artikel der Kategorie Judentum in Europa der Wikipedia etwa. </p>
+          </div>
+          <div type="div1" rend="DH-Heading1">
+            <head> Umsetzung im Rahmen der generischen Suche</head>
+            <p>Der Umgang mit technischen Problemen zählt nicht zu den typischen Aufgaben von Forschern kultur- und geisteswissenschaftlicher Disziplinen. Eine auf individuelle Bedürfnisse zugeschnittene Integration von Daten oder die Realisierung von Softwarekomponenten ist jedoch für die Umsetzung spezifischer Anwendungen wie der Judaica-Suchmaschine erforderlich. Um Lösungen für technische Probleme in nachhaltiger und für anschließende Forschungsprojekte wiederverwendbarer Form bereitzustellen, beinhalten derzeit laufende Initiativen wie DARIAH oder CLARIN häufig Arbeitspakete zur Umsetzung von Infrastrukturkomponenten.</p>
+            <p>Obwohl die <ref target="http://search.de.dariah.eu/">generische Suche</ref> von
+            DARIAH-DE (Gradl 2011-2016) nicht als Infrastrukturkomponente, sondern als
+            eigenständiger Dienst entwickelt wurde, basiert auch das Konzept der generischen
+            Suche auf dem Ziel der Umsetzung wiederverwendbarer technischer Funktionalität
+            zur Integration, Verarbeitung und Analyse von Daten. Im Folgenden stellen wir
+            eine im Rahmen der generischen Suche implementierte Funktionalität vor, welche
+            es Forschern ermöglicht, spezifisch angepasste Suchlösungen zu generieren und
+            bereitzustellen - ohne die hierzu erforderlichen technischen Aspekte selbst
+            lösen zu müssen. </p>
+            <div type="div2" rend="DH-Heading2">
+              <head>Hintergrund des generischen Konzepts</head>
+              <p>Konzept und Implementierung der generischen Suche resultieren aus der
+                Zielsetzung der Realisierung einer kombinierten und flexibel anpassbar en
+                Breiten- und Tiefensuche (Gradl / Henrich 2014). Dabei wurde zum einen eine
+                universelle und einfache Möglichkeit (vgl. Abbildung) zur übergreifenden
+                Suche in einer Vielzahl digitaler Kollektionen eingerichtet, um Forscher bei
+                der Suche und Analyse relevanter und potenziell unbekannter Ressourcen und
+                Kollektionen zu unterstützen. Neben dieser disziplinunabhängigen
+                Breitensuche erlaubt die generische Suche auch eine kontextspezifische
+                Anpassung ─sowohl im Hinblick auf die Auswahl der zu durchsuchenden
+                Datenquellen, als auch auf das verwendete Schema für die Integration der in
+                diesen enthaltenen, zumeist heterogenen Ressourcen. Die so entstehende
+                Tiefensuche erlaubt eine differenziertere Analyse und Suche in einer
+                forschungsspezifisch begrenzten Datenbasis.</p>
+                <figure>
+                  <graphic url="036-100002010000043E000002EEA4F396A4.png"/>
+                </figure>
+                <p>Die flexible Anpassbarkeit der generischen Suche an übergreifende
+                  oder spezifische Fragestellungen wird dabei durch das in untenstehender
+                  Abbildung exemplarisch angedeutete Konzept der forschungsorientierten
+                  Föderation digitaler Kollektionen erreicht (Gradl / Henrich 2014; Gradl et
+                  al. 2014). </p>
+                  <figure>
+                    <graphic url="036-10000201000008B0000004280540861F.png"/>
+                  </figure>
+                  <p>Anstelle der für übergreifende Integrationssysteme typischen Harmonisierung
+                    heterogener Daten (vgl. Batini et al. 1986; Lenzerini 2002) basiert die
+                    generische Suche wesentlich auf folgenden Annahmen:</p>
+                    <list type="unordered">
+                      <item>Durch die semantische Assoziation von Kollektionen und darin
+                        verwendeten Schemata durch fachwissenschaftliche Experten können
+                        integrative Sichten generiert werden, die den Anforderungen konkreter
+                        Forschungsfragen entsprechen. Dies wird insbesondere dadurch erreicht,
+                        dass nicht technisch motivierte Integrationsziele wie die
+                        Vollständigkeit und Korrektheit eines Integrationsschemas (Batini et al.
+                        1986) im Vordergrund stehen, sondern disziplinspezifische und auch
+                        konfliktäre Zusammenhänge modelliert werden können.</item>
+                        <item>Kohärente Bereiche mit eng assozierten Schemata <hi rend="italic"
+                          >S</hi> und Kollektionen werden in obiger Abbildung durch <hi
+                          rend="italic">semantische Cluster</hi> widergespiegelt und bilden
+                          die Voraussetzung für spezifische Tiefensuchen. Für die übergreifende
+                          Breitensuche werden wichtige Schemata der einzelnen Cluster
+                          (repräsentiert als <hi rend="italic">S3</hi>, <hi rend="italic">S5</hi>
+                          und <hi rend="italic">S8</hi>) mit generischen Schemata, wie z. B.
+                          Dublin Core - in der Abbildung symbolisiert durch <hi rend="italic"
+                          >S10</hi> - assoziiert. </item>
+                        </list>
+                        <p>Die besondere Eigenschaft des Föderationskonzepts besteht darin, dass Daten in ihrer ursprünglichen Form analysiert und indexiert werden. Erst zum Anfragezeitpunkt und in Abhängigkeit von der einer Anfrage zu Grunde liegenden Zusammenstellung von Kollektionen werden die Daten zusammengeführt und integriert.</p>
+                      </div>
+                      <div type="div2" rend="DH-Heading2">
+                        <head>Abbildung der Cluster in der generischen Suche</head>
+                        <p>Die generische Suche beschreibt einen im Rahmen des DARIAH-DE Projektes
+                          entwickelten Dienst, welcher im Hinblick auf seine Datenbasis auf die
+                          Einträge der DARIAH-DE <ref target="http://colreg.de.dariah.eu/">Collection
+                          Registry</ref> zurückgreift (Plutte et al. 2014) und registrierten
+                          Benutzern die Aufnahme weiterer Datenquellen erlaubt. Neben der Assoziation
+                          von Schemata als wesentlicher Teilaspekt (Gradl / Henrich 2014) bildet die
+                          Möglichkeit der Auswahl und Gruppierung relevanter Kollektionen im Rahmen
+                          der generischen Suche (als <hi rend="italic">myCollections</hi>) die Basis
+                          für die Erstellung angepasster Suchlösungen. </p>
+                          <figure>
+                            <graphic url="036-100002010000043E000002EEC42DBB3D.png"/>
+                          </figure> Der Bildschirmausschnitt zeigt exemplarisch drei solcher myCollections und verdeutlicht die derzeit implementierte Funktionalität:
+                          <list type="unordered">
+                            <item>Einträge von myCollections können durch authentifizierte Anwender angelegt werden und definieren eine Zusammenstellung einzelner Kollektionen.</item>
+                            <item>Diese myCollections erlauben eine Schnellauswahl von Kollektionen bei
+                              der Ausführung von Suchanfragen - sowohl im Rahmen des
+                              Benutzerinterfaces, als auch in Form der REST-basierten
+                              Schnittstelle.</item>
+                              <item>Möchte der Benutzer eine myCollection (z. B. im Rahmen eines gemeinsamen Forschungsinteresses) teilen, so können Freigaben für weitere Benutzer oder DARIAH Gruppen erteilt werden.</item>
+                            </list>
+                          </div>
+                          <div type="div2" rend="DH-Heading2">
+                            <head>Spezifischer Zugang in Form einer
+                              <hi rend="italic">Branded Search</hi>
+                            </head>
+                            <p>Anknüpfend an den eingeführten Anwendungsfall der Judaica-Suchmaschine wird
+                              der Zusammenhang zwischen der generischen Suche von DARIAH-DE und
+                              forschungsspezifischen Suchlösungen abgebildet durch die Idee der
+                              benutzerdefinierten Zusammenstellung von Kollektionen: Wird eine
+                              myCollection - wie in der Abbildung unten dargestellt - als Branded Search
+                              ausgezeichnet, so wird dadurch eine eigene Suchoberfläche veröffentlicht,
+                              welche sowohl optisch als auch inhaltlich an spezifische Bedürfnisse
+                              angepasst und von der eigentlichen generischen Suche abgegrenzt ist.</p>
+                              <figure>
+                                <graphic url="036-100002010000044C000002EE9714DB92.png"/>
+                              </figure>
+                              <p>
+                                Die folgenden Bildschirmausschnitte verdeutlichen insbesondere die
+                                  optische Abgrenzung durch konfigurierbare Farbgebung und die Verwendung von
+                                  Such- und Organisationslogos. Insbesondere der Vergleich der Wordclouds der
+                                  Startseiten von <ref target="http://search.de.dariah.eu/">generischer Suche</ref> und <ref target="target="
+                                  >Judaica-Suchmaschine</ref> (Gradl / Lordick 2015-2016) deuten jedoch
+                                  die jeweils unterschiedliche, zu Grunde liegende Datenbasis an: Die in einer
+                                  Branded Search angebotenen Kollektionen spiegeln bei sämtlichen Such-,
+                                  Analyse- und Visualisierungaufgaben die von den Erstellern der Suche
+                                  getroffene Kollektionsauswahl wider. </p>
+                                  <figure>
+                                    <graphic url="036-100002010000043E000002EE5B78B67A.png"/>
+                                  </figure>
+                                  <figure>
+                                    <graphic url="036-100002010000043E000002EECFFEDEAA.png"/>
+                                  </figure>
+				<p>Im Fall der Veröffentlichung einer Branded Search bleibt diese auch als zugreifbare myCollection für berechtigte Benutzer erhalten und kann im Hinblick auf die Kollektionsauswahl und die Assoziation der Schemata verändert werden ─mit unmittelbaren Auswirkungen auf die entsprechende Branded Search. Von technischen Implementierungen an der Basis der generischen Suche, z. B. der Anbindung weiterer Quellenarten wie Wikipedia können schließlich sämtliche eingerichteten Branded Searches profitieren, sofern dies durch die jeweiligen Forscher gewünscht wird.</p>
+                                </div>
+                              </div>
+                              <div type="div1" rend="DH-Heading1">
+                                <head>Ausblick</head>
+                                <p>Ein ausgeprägt generischer Ansatz muss kein Gegensatz zu den in den Geisteswissenschaften vorherrschenden individuellen Fragestellungen und Forschungsansätzen sein. Indem sie entsprechende Freiheitsgrade, kreatives und kollaboratives Datenmanagement anbietet, erlaubt die generische Suche ihren Nutzern die Erstellung eigener, jeweils individuell ausgelegter Suchmaschinen. </p>
+                                <p>Es ist das Knowhow der Forschenden, das die Relevanz der Daten, die sie zusammenstellen, filtern, teilen, auch ad-hoc zum Zwecke der Recherche bereitstellen, ausmacht. Ein solches Framework, verbunden mit der fachspezifischen Kenntnis der Daten ist eine gute Basis für überraschende Funde und das Aufspüren unerwarteter Zusammenhänge. </p>
+                              </div>
+                            </body>
+                            <back>
+                              <div type="Notes">
+                                <note xml:id="n01" n="1"> am Jülich Supercomputing Center, DARIAH-DE.</note>
+                              </div>
+                              <div type="bibliogr">
+                                <listBibl>
+                                  <head>Bibliographie</head>
+                                  <bibl><hi rend="bold">Batini, Carlo / Lenzerini, Maurizio / Navathe, Shamkant
+                                    Bhalchandra</hi> (1986): "A comparative analysis of methodologies for
+                                    database schema integration", in: <hi rend="italic">ACM Computing
+                                    Surveys</hi> 18, 4: 323–364.</bibl>
+                                    <bibl><hi rend="bold">Beer, Nikolaos / Herold, Kristin / Kolbmann, Wibke /
+                                      Kollatz, Thomas / Romanello, Matteo / Rose, Sebastian / Walkowski,
+                                      Niels-Oliver</hi> (2013): <hi rend="italic">Recommendations for
+                                      Interdisciplinary Interoperability (R 3.3.1)</hi>. DARIAH-DE report <ref
+                                      target="https://dev2.dariah.eu/wiki/download/attachments/14651583/R3.3.1.pdf?
+                                      version=1&amp;modificationDate=1366904278298&amp;api=v2"
+                                      >https://dev2.dariah.eu/wiki/download/attachments/14651583/R3.3.1.pdf?
+                                      version=1&amp;modificationDate=1366904278298 &amp;api=v2</ref> [letzter
+                                      Zugriff 07. Februar 2016].</bibl>
+                                      <bibl><hi rend="bold">Europeana Foundation</hi> (2008-2015): <hi rend="italic"
+                                      >Europeana Collections</hi>. Den Haag <ref
+                                      target="http://www.europeana.eu/portal/"
+                                      >http://www.europeana.eu/portal/</ref> [letzter Zugriff 07. Februar
+                                      2016].</bibl>
+                                      <bibl><hi rend="bold">Gradl, Tobias</hi> (2011-2016): <hi rend="italic"
+                                      >DARIAH-DE Generic Search</hi>
+                                      <ref target="http://search.de.dariah.eu">http://search.de.dariah.eu</ref>
+                                      [letzter Zugriff 07. Februar 2016].</bibl>
+                                      <bibl><hi rend="bold">Gradl, Tobias / Henrich, Andreas</hi> (2014): "A novel
+                                      approach for a reusable federation of research data within the arts and
+                                      humanities", in: <hi rend="italic">Digital Humanities 2014</hi>. Book of
+                                      Abstracts382–384 <ref target="http://dh2014.org/program/abstracts/"
+                                      >http://dh2014.org/program/abstracts/</ref> [letzter Zugriff 09. Oktober
+                                      2015]. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Gradl, Tobias / Henrich, Andreas / Plutte, Christoph</hi>
+                                        (2015): "Heterogene Daten in den Digital Humanities: Eine Architektur zur
+                                        forschungsorientierten Förderation von Kollektionen", in: Constanze Baum /
+                                        Thomas Stäcker (eds.): <hi rend="italic">Grenzen und Möglichkeiten der
+                                        Digital Humanities</hi>. Sonderband der Zeitschrift für digitale
+                                        Geisteswissenschaften 1 <ref target="http://dx.doi.org/10.17175/sb001_020"
+                                        >http://dx.doi.org/10.17175/sb001_020</ref> [letzter Zugriff 09. Oktober
+                                        2015]. </bibl>
+                                        <bibl><hi rend="bold">Gradl, Tobias / Lordick, Harald</hi> (2015-2016): <hi
+                                        rend="italic">Judaica Search</hi>. Branded Search in the DARIAH-DE
+                                        Generic Search <ref target="http://judaica.search.de.dariah.eu"
+                                        >http://judaica.search.de.dariah.eu</ref> [letzter Zugriff 07. Februar
+                                        2016].</bibl>
+                                        <bibl>
+                                          <hi rend="bold">Hagedorn, Kat </hi>(2003): "OAIster: a 'no dead ends' OAI
+                                          service provider", in: <hi rend="italic">Library Hi Tech</hi> 21, 2:
+                                          170–181.</bibl>
+                                          <bibl>
+                                            <hi rend="bold">Henrich, Andreas / Gradl, Tobias</hi> (2013): "DARIAH(-DE):
+                                            Digital research infrastructure for the arts and humanities - concepts and
+                                            perspectives", in: <hi rend="italic">International Journal of Humanities and
+                                            Arts Computing</hi> 7: 47–58.</bibl>
+                                            <bibl><hi rend="bold">Lenzerini, Maurizio </hi>(2002): "Data integration: a
+                                            theoretical perspective", in: <hi rend="italic">PODS'02 - Proceedings of the
+                                            twenty-first ACM SIGMOD-SIGACT-SIGART symposium on Principles of
+                                            database systems </hi>: 233-246 <ref
+                                            target="http://dl.acm.org/citation.cfm?doid=543613.543644"
+                                            >http://dl.acm.org/citation.cfm?doid=543613.543644</ref> [letzter
+                                            Zugriff 09. Oktober 2015]. </bibl>
+                                            <bibl><hi rend="bold">Lordick, Harald</hi> (2010-2016): <hi rend="italic">Vieles
+                                            finden</hi>. Die Judaica-Suchmaschine im Steinheim-Institut. Salomon
+                                            Ludwig Steinheim-Institut für deutsch-jüdische Geschichte an der Universität
+                                            Duisburg-Essen <ref target="http://steinheim-institut.de/vf/"
+                                            >http://steinheim-institut.de/vf/</ref> [letzter Zugriff 07. Februar
+                                            2016].</bibl>
+                                            <bibl><hi rend="bold">Lordick, Harald</hi> (2013): "Die judaica-bibliothek im
+                                            web. ganz real oder noch immer virtuell?", in: <hi rend="italic"
+                                            >Kalonymos</hi>1: 12–14 <ref
+                                            target="http://www.steinheim-institut.de/edocs/kalonymos/kalonymos_2013_1.pdf"
+                                            >http://www.steinheim-institut.de/edocs/kalonymos/kalonymos_2013_1.pdf</ref>
+                                            [letzter Zugriff 09. Oktober 2015]. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Lordick, Harald </hi>(2014): "Jüdische Geschichte (mobil)
+                                              recherchieren", in: <hi rend="italic">Kalonymos</hi>3: 13 <ref
+                                              target="http://www.steinheim-institut.de/edocs/kalonymos/kalonymos_2014_3.pdf"
+                                              >http://www.steinheim-institut.de/edocs/kalonymos/kalonymos_2014_3.pdf</ref>
+                                              [letzter Zugriff 9. Oktober 2015].</bibl>
+                                              <bibl><hi rend="bold">OAIster</hi> (2001-2016): <hi rend="italic">OAIster</hi>.
+                                              OCLC WorldCat.org Services. Dublin / Ohio: OCLC Online Computer Library
+                                              Center <ref target="http://oaister.worldcat.org/"
+                                              >http://oaister.worldcat.org/</ref> [letzter Zugriff 07. Februar
+                                              2016].</bibl>
+                                              <bibl><hi rend="bold">Peroni, Silvio / Tomasi, Francesca / Vitali, Fabio</hi>
+                                              (2013): "Reflecting on the europeana data model", in: Agosti, Maristella /
+                                              Esposito, Floriana / Ferilli, Stefano / Ferro, Nicola (eds.): <hi
+                                              rend="italic">Digital Libraries and Archives</hi>. Berlin / Heidelberg:
+                                              Springer 228–240 <ref
+                                              target="http://link.springer.com/chapter/10.1007%2F978-3-642-35834-0_23"
+                                              >http://link.springer.com/chapter/10.1007%2F978-3-642-35834-0_23</ref>
+                                              [letzter Zugriff 09. Oktober 2015].</bibl>
+                                              <bibl><hi rend="bold">Plutte, Christoph</hi> (2011-2014): <hi rend="italic"
+                                              >DARIAH-DE Collection Registry</hi>. Initial Prototype. <ref
+                                              target="http://colreg.de.dariah.eu">http://colreg.de.dariah.eu</ref>
+                                              [letzter Zugriff 07. Februar 2016].</bibl>
+                                            </listBibl>
+                                          </div>
+                                        </back>
+                                      </text>
+                                    </TEI>

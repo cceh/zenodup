@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-036">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DARIAH-DKPro-Wrapper</title>
+        <author>
+          <name>
+            <surname>Reimer</surname>
+            <forename>Nils</forename>
+          </name>
+          <affiliation>TU Darmstadt, Deutschland</affiliation>
+          <email>reimers@ukp.informatik.tu-darmstadt.de</email>
+        </author>
+        <author>
+
+          <name>
+            <surname>Jannidis</surname>
+            <forename>Fotis</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>fotis.jannidis@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Pielström</surname>
+            <forename>Steffen</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>pielstroem@biozentrum.uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Pernes</surname>
+            <forename>Stefan</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>stefan.pernes@uni-wuerzburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Reger</surname>
+            <forename>Isabella</forename>
+          </name>
+          <affiliation>Universität Würzburg, Deutschland</affiliation>
+          <email>isabella.reger@uni-wuerzburg.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-15T10:44:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Natural Language Processing</term>
+          <term>Tool</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Text</term>
+          <term>Werkzeuge</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Dieses Poster soll den DARIAH-DKPro-Wrapper vorstellen, der aus einer Kooperation zwischen dem Lehrstuhl für Computerphilologie der Universität Würzburg und dem Ubiquituous Knowledge Processing Lab der TU Darmstadt im Rahmen von DARIAH-DE entstanden ist. </p>
+      <p>DKPro integriert zahlreiche (unabhängig entstandene) Softwarekomponenten zum Natural Language Processing (NLP) und ermöglicht so dem Nutzer die Anwendung typischer NLP-Aufgaben wie Tokenisierung, Part-of-Speech-Tagging, Named Entity Recognition oder Dependency Parsing mit State-of-the-Art Werkzeugen. Es basiert auf dem Framework UIMA. Für Nutzer, die nicht aus dem Umfeld der Informatik oder Computerlinguistik kommen, ist die Schwelle zur Verwendung allerdings recht hoch: das komplexe Framework muss in Java angesprochen werden.</p>
+      <p>Um diese Hürde zu senken und einer größeren Zahl auch von weniger technisch
+        versierten Nutzern die Verwendung zu ermöglichen, wurde der DARIAH-DKPro-Wrapper
+        entwickelt. Dieser ermöglicht es, eine Pipeline mit mehreren Komponenten über die
+        Kommandozeile auszuführen und damit auch längere Textdokumente und Textsammlungen zu
+        verarbeiten. Zudem können eine ganze Reihe von Einstellungen bequem und individuell
+        über Konfigurationsdateien vorgenommen werden: über die Auswahl der Sprache bis hin
+        zur Aktivierung und Deaktivierung einzelner Komponenten und der Auswahl bestimmter
+        Komponenten oder Modelle. Auf diese Weise kann jeder Nutzer vorgefertigte Pipelines
+        verwenden oder eine auf seine Bedürfnisse zugeschnittene Pipeline individuell
+        zusammenstellen. Der Wrapper ist stets aktuell über GitHub (<ref
+        target="https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper"
+        >https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper</ref>) verfügbar, ebenso wie
+        die dazugehörige <ref
+        target="https://rawgit.com/DARIAH-DE/DARIAH-DKPro-Wrapper/master/doc/user-guide.html"
+        >Dokumentation des DARIAH-DKPro-Wrapper v0.4.3</ref> (2016). </p>
+        <p>Um die anschließende Weiterverarbeitung derart prozessierter Dokumente ebenfalls zu vereinfachen, wurde ein entsprechendes Ausgabeformat entwickelt. Dieses lehnt sich an das <ref target="https://ufal.mff.cuni.cz/conll2009-st/task-description.html">CoNLL2009-Format</ref>
+        an und stellt die Ergebnisse der Pipeline in tabellarischer Form dar. Dabei befindet sich in jeder Zeile ein Token, während die dazugehörigen Informationen wie Lemma, POS-Tag und ähnliches je in einer Spalte stehen. Dadurch werden alle durch Komponenten der Pipeline ermittelten Informationen in einer Datei zusammengefasst. Dieses Format hat den Vorteil, dass es für menschliche Nutzer übersichtlich und gut lesbar ist. Zudem ist es als Tabstopp-getrennte Datei auch für gängige Skriptsprachen wie Python oder R, sowie Tabellenkalkulationsprogramme wie Excel leicht zugänglich.
+      </p>
+      <p>Um die Verwendung des Wrappers und die Weiterarbeit mit dem Ausgabeformat zusätzlich zur Dokumentation anschaulich zu beschreiben, wurden außerdem eine Reihe von Tutorials zu Beispielanwendungen aus Bereichen der digitalen Literaturwissenschaft, wie zum Beispiel der Stilometrie oder dem Topic Modeling, verfasst. Die Dokumentation sowie die Tutorials sind ebenfalls auf GitHub zu finden.</p>
+      <p>Das Poster wird all diese Punkte in übersichtlicher Form zusammenführen und potentiellen Nutzern präsentieren. Dabei werden die Funktionsweise der Pipeline, die Arbeit mit den Konfigurationsdateien, der Aufbau und die Verwendung des Ausgabeformats sowie Anwendungsbeispiele im Mittelpunkt stehen.</p>
+    </body>
+    <back>
+      <div type="bibliogr">
+        <listBibl>
+          <head>Bibliographie</head>
+          <bibl>
+            <hi rend="bold">Dokumentation: DARIAH-DKPro-Wrapper v0.4.3</hi> (2016): <hi
+            rend="italic">User guide DARIAH-DKPro-Wrapper v0.4.3</hi> DARIAH2 -
+            Cluster 5, Use Case 1 Team. Universität Würzburg, TU Darmstadt - DARIAH-DE
+            <ref
+              target="https://rawgit.com/DARIAH-DE/DARIAH-DKPro-Wrapper/master/doc/user-guide.html"
+              >https://rawgit.com/DARIAH-DE/DARIAH-DKPro-Wrapper/master/doc/user-guide.html</ref>
+              [letzter Zugriff 08. Januar 2016].</bibl>
+              <bibl><hi rend="bold">CoNLL-2009 Format</hi> (2008-*): <hi rend="italic"
+              >CoNLL-2009 Shared Task</hi>. Syntactic and Semantic Dependencies in
+              Multiple Languages. Institute of Formal and Applied Linguistics, Charles
+              University in Prague, Czech Republic, Faculty of Mathematics and Physics
+              <ref
+                target="https://ufal.mff.cuni.cz/conll2009-st/task-description.html"
+                >https://ufal.mff.cuni.cz/conll2009-st/task-description.html</ref>
+                [letzter Zugriff 08. Januar 2016]. </bibl>
+              </listBibl>
+            </div>
+
+          </back>
+        </text>
+
+      </TEI>

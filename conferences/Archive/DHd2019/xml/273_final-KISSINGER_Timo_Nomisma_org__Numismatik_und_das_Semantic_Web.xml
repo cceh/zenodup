@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="273_final-KISSINGER_Timo_Nomisma_org__Numismatik_und_das_Semantic_Web" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nomisma.org: Numismatik und das Semantic Web</title>
+                <author>
+                    <persName>
+                        <surname>Wigg-Wolf</surname>
+                        <forename>David</forename>
+                    </persName>
+                    <affiliation>Römisch-Germanische Kommission des Deutschen Archäologischen Instituts</affiliation>
+                    <email>david.wigg-wolf@dainst.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tolle</surname>
+                        <forename>Karsten</forename>
+                    </persName>
+                    <affiliation>Johann Wolfgang Goethe-Universität Frankfurt am Main</affiliation>
+                    <email>tolle@dbis.cs.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kissinger</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+                    <email>Timo.Kissinger@adwmainz.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-15T08:39:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Linked Open Data</term>
+                    <term>Numismatik</term>
+                    <term>Archäologie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Daten</term>
+                    <term>Methoden</term>
+                    <term>Forschung</term>
+                    <term>texttragende Gegenstände</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung</head>
+                <p>In diesem Beitrag wird eine domänenspezifische Anwendung von Linked Open Data und Ontologien vorgestellt, die als Paradigma für den Umgang mit digitalen Corpora in der Archäologie dienen kann. Zunächst wird die Entwicklung des Projektes Nomisma.org sowie dessen Anwendung für die Verlinkung von digitalen Datenbeständen erläutert. In einem zweiten Teil wird ein Pilotprojekt vorgestellt, das darauf abzielt, textbasierte Münzpublikationen als RDF zur Verfügung zu stellen und somit prüft, inwieweit das Vokabular und die Ontologie von Nomisma.org eingesetzt werden können.</p>
+                <p>Das 2010 von der American Numismatic Society, New York, initiierte Projekt 
+                Nomisma.org<hi rend="superscript">1</hi> definiert und stellt stabile digitale Repräsentationen numismatischer Konzepte nach den Prinzipien von Linked Open Data zur Verfügung. Sie werden als http-URIs 
+                veröffentlicht<hi rend="superscript">2</hi>, die Zugang zu weiterverwertbaren Informationen zu den Konzepten liefern, dazu noch Links zu weiteren Linked Open Data-Ressourcen (Getty Vocabularies, wikidata, viaf, GND, u.v.m.). Ferner wurde eine numismatische 
+                Ontologie<hi rend="superscript">3</hi> entwickelt, die den Bedürfnissen und Arbeitsweisen der Numismatik gerecht ist und eine unkomplizierte Modellierung ermöglicht. Das kanonische Format von Nomisma.org ist RDF/XML, aber auch weitere Formate wie JSON-LD (für Geodaten geoJASON-LD), Turtle, KML und HTML5+RDFa 1.1. werden bedient.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Virtuelle Sammlungen</head>
+                <p>Zunächst lag der Schwerpunkt der Arbeit von Nomisma.org bei der römischen Numismatik und bis 2016 erfolgte die Onlinestellung der Linked Open Data-Ressourcen 
+                    <hi rend="italic">Coinage of the Roman Republic Online</hi> 
+                    (CRRO)<hi rend="superscript">4</hi> und 
+                    <hi rend="italic">Online Coins of the Roman Empire</hi> 
+                    (OCRE)<hi rend="superscript">5</hi> als virtuelle Münzsammlungen für die Prägungen der römischen Republik und der Kaiserzeit. Die Abfrage erfolgt über RDF Dumps der Projektpartner, die zentral gehalten werden; die dazugehörigen Bilder werden on-the-fly von den Servern der Partner geholt, wodurch nicht nur das Volumen der zentralen Datenhaltung gering gehalten und die Abfragegeschwindigkeit erhöht, sondern auch eventuelle rechtliche Probleme bei der Lizenzierung der Bilder vermieden werden.
+                </p>
+                <p>Mittlerweile befassen sich erste Projekte auch mit dem disparaten und weitaus komplexeren Stoff der griechischen 
+                Welt,<hi rend="superscript">6</hi> z.B. 
+                    <hi rend="italic">PELLA</hi> für die Prägungen der makedonischen Dynastie der Argeaden, 
+                    <hi rend="italic">Corpus Nummorum Thracorum</hi> für Thrakien, oder 
+                    <hi rend="italic">Seleucid Coins Online</hi> für die Prägungen der Seleukiden. Des Weiteren haben Arbeitsgruppen bereits angefangen, die notwendigen Konzepte für die keltische und islamische Numismatik sowie für das Mittelalter zu definieren.
+                </p>
+                <p>Fast 200.000 antike Münzen von insgesamt 39 Institutionen werden heute in auf Nomisma.org basierenden Online-Ressourcen veröffentlicht.<hi rend="superscript">7</hi> Aktiv an der Entwicklungen beteiligt sind u.a. das Institute for Studies of the Ancient World, New York, das Deutsche Archäologische Institut sowie vier der weltweit bedeutendsten Münzsammlungen: Die American Numismatic Society, das British Museum, die Bibliothèque nationale de France und das Münzkabinett der Staatlichen Museen zu Berlin. Auch eine Reihe kleinerer Sammlungen sind dabei ihre Bestände in Portalen wie OCRE und CRRO online zu stellen. Darunter schon acht der 34 deutschen universitären Sammlungen, die Mitglieder im 
+                    <hi rend="italic">NUMiD</hi>-Verbund 
+                    (<hi rend="italic">Netzwerk universitärer Münzsammlungen in Deutschland</hi>)<hi rend="superscript">8</hi> sind.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die verlinkte Antike</head>
+                <p>Nomisma.org und die darauf bauenden Projekte sind in die Linked Open Data-Welt der Antike fest integriert. Mit Nomisma.org verlinkte, bzw. gemappte Münzen werden bei Ressourcen wie 
+                    <hi rend="italic">Pleiades</hi><hi rend="superscript">9</hi> und 
+                    <hi rend="italic">Pelagios</hi><hi rend="superscript">10</hi> angezeigt und umgekehrt können Einträge in den virtuellen Sammlungen mit kontextvermittelnden Daten aus anderen Quellen angereichert werden. Beispielsweise: Wird Literatur in der Form von iDAI.bibliographie / 
+                    ZENON<hi rend="superscript">11</hi> URIs zitiert, können umgekehrt in Zenon Verweise auf Münzen beim entsprechenden Titel angezeigt werden. Im Abschlussbericht des Work Package 15 des EU-FP7 Projektes ARIADNE wurde Nomisma.org mehrfach als führendes Beispiel für die fachspezifische Anwendung von Linked Open Data zitiert (Geser 2016).
+                </p>
+                <p>Nomisma.org hat numismatische Daten auf eine Weise digital zur Verfügung gestellt, die vor 10 Jahren kaum vorstellbar gewesen wäre und macht einen bedeutenden Bestand an Material der Forschung leichter zugänglich. Durch die Verlinkung mit anderen LOD-Ressourcen sind diese Daten auch deutlich sichtbarer und stehen damit für Forschungsvorhaben in anderen Disziplinen vermehrt zur Verfügung. So kann Nomisma.org beispielsweise einen wichtigen Beitrag zur Aufhebung der immer noch weit verbreiteten Isolation der Numismatik in den Altertumswissenschaften leisten, eine Isolation, die in der (bisher oft fehlenden) Zusammenarbeit mit der Archäologie besonders deutlich erkennbar ist.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fundmünzen und Archäologie</head>
+                <p>Konzentrierten sich Projekte wie OCRE und PELLA zunächst auf die Präsentation von Münzen aus öffentlichen Sammlungen, richtet sich der Blick mittlerweile zunehmend auf Münzen im archäologischen Kontext. Nomisma.org kompatible Standards für die Aufnahme und Veröffentlichung von Münzen aus Ausgrabungen wurden bei einem Treffen an der University of Oxford im September 2018 vereinbart, um Re-use und Interoperabilität zu 
+                ermöglichen.<hi rend="superscript">12</hi>
+                </p>
+                <p>Nationale Projekte wie 
+                    <hi rend="italic">NUMIS</hi><hi rend="superscript">13</hi> für die Niederlande oder das 
+                    <hi rend="italic">Inventar der Fundmünzen der Schweiz</hi><hi rend="superscript">14</hi> veröffentlichen umfangreiche Bestände an Fundmünzen im Web, die aber nur über das jeweilige nationale Portal zugänglich sind. Eine länderübergreifende Abfrage ist nicht möglich. Eine Ausnahme bietet das Projekt
+                    <hi rend="italic" xml:space="preserve"> Antike Fundmünzen in Europa</hi><hi rend="superscript">15</hi>, das die Datenbanken der Römisch-Germanischen Kommission in Frankfurt und des Unternehmens 
+                    <hi rend="italic">Finds of Roman Coins in Poland</hi> auf das Vokabular und die Ontologie von Nomisma.org mappt und mittels eines D2R-Servers als RDF online stellt. Ein SPARQL-Endpoint ermöglicht die gemeinsame Abfrage der beiden Datenbestände und erleichtert damit die Analyse der Fundmünzen aus einem von der Nordsee bis zur Ukraine reichenden Raum.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Text zu RDF: Erster Versuch einer Digitalisierung</head>
+                <p>Bisher lag der Schwerpunkt der Verlinkung mit bzw. Mapping auf Nomisma.org auf in Datenbanken gehaltene Daten. In diesem Beitrag soll abschließend ein Pilotprojekt vorgestellt werden, das sich mit den Möglichkeiten der Anwendung von Nomisma.org auf textbasierte Datenbestände beschäftigt.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Grundlage</head>
+                    <p>Das Projekt „Fundmünzen der römischen Zeit in Deutschland“ (FMRD) brachte 48 Bände mit weit über 300.000 erfassten Fundmünzen heraus. Im Rahmen eines Praxisprojektes im Studiengang „Digitale Methodik in den Geistes- und 
+                    Kulturwissenschaften“<hi rend="superscript">16</hi> wurde als Beispieldatensatz aus FMRD der Fundkomplex Domgrabung/Liebfrauen-Areal in Trier mit 1.157 Münzen digitalisiert (M. Radnoti-Alföldi 2006: 119–206).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Das Verfahren</head>
+                    <p>Die Daten zu den Münzen wurden aus dem PDF in CSV und XML extrahiert und in ein RDF-Dokument umgewandelt, um die Vernetzung und Visualisierung zu ermöglichen (Abb. 1).</p>
+                    <figure>
+                        <graphic n="1001" width="10.990791666666667cm" height="4.580819444444445cm" url="273_final-8bde4cc0eb88b4d5e83eb7f8f8877755.png" rend="inline"/>
+						<head><lb/>Abbildung 1. Verlaufsplan.</head>
+                    </figure>
+                    <p>Für die Konvertierung aus dem PDF und die Bearbeitung wurde 
+                        <hi rend="italic">Adobe Acrobat Pro DC</hi><hi rend="superscript">17</hi>, der 
+                        <hi rend="italic">Oxygen</hi><hi rend="superscript">18</hi> Editor und 
+                        <hi rend="italic">Libre Office</hi><hi rend="superscript">19</hi> verwendet. Die extrahierten Daten wurden anhand der CSV-Extraktion in ein einheitliches Spaltensystem gebracht. Über das XML-Dokument wurden anhand von regulären Ausdrücken Konvertierungsfehler etc. ausgebessert. Am Ende stand eine einzelne TEI-konforme Tabelle. Der nächste Schritt bestand darin, ein Linked-Open-Data-Modell anhand der Ontologie von Nomisma.org (Abb. 2) zu entwickeln.
+                    </p>
+                    <figure>
+                        <graphic n="1002" width="9.275027777777778cm" height="3.44195cm" url="273_final-6795df4388799d10f8eb9cd509ac3ae7.jpeg" rend="inline"/>
+						<head><lb/>Abbildung 2. RDF-Modell.</head>
+                    </figure>
+                    <p>Um dieses Modell automatisiert auf alle 1.157 Münzen der Trierer Domgrabung übertragen zu können, wurde der Webdienst 
+                        <hi rend="italic">XTriples</hi> verwendet<hi rend="Fußnotenanker"><hi rend="superscript">20</hi></hi>, der es erlaubt aus XML ein RDF-Dokument zu erzeugen.
+                    </p>
+                    <figure>
+                        <graphic n="1003" width="9.181044444444444cm" height="4.846872222222222cm" url="273_final-cc45796536649cf916d580a8fe6f4fb8.jpeg" rend="inline"/>
+						<head><lb/>Abbildung 3. Webservice XTriples.</head>
+                    </figure>
+                    <p>Das RDF-Dokument wurde auf einen Triple Store abgelegt, der über ein RDF4J-Framework verfügt und SPARQL-Abfragen erlaubt. Ein weiterer Webdienst, 
+                        <hi rend="italic">sgvizler</hi>,<hi rend="Fußnotenanker"><hi rend="superscript">21</hi></hi> ermöglicht es im Anschluss die Daten zu visualisieren und zu analysieren (Abb. 4).
+                    </p>
+                    <figure>
+                        <graphic n="1004" width="9.068152777777778cm" height="6.288263888888889cm" url="273_final-37db1c51d4891a869d93810b4cc73cdc.jpeg" rend="inline"/>
+						<head><lb/>Abbildung 4. Visualisierung über sgvizler zu den Fundmünzen der Trierer Domgrabung.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ausblick</head>
+                    <p>Das oben beschriebene Verfahren wurde dann erweitert, um eine Pipeline aufzubauen, mit der alle Bände der FMRD-Reihe digitalisiert werden können. Auf manuelle Schritte und proprietäre Software soll dabei möglichst verzichtet werden.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Tabellenextraktion</head>
+                    <p>In einem ersten Schritt wurden aktuelle Open-Source-Angebote verglichen, die es ermöglichen, aus der PDF-Struktur Tabellen in CSV- bzw. XML-Dateien zu extrahieren. Die Daten liegen jedoch so inhomogen vor, dass bisher erschienene Programme und Skripte/Bibliotheken schnell an ihre Grenzen stoßen. Als Beispiel soll hier das browserbasierte Tool 
+                        <hi rend="italic">Tabula</hi><hi rend="Fußnotenanker"><hi rend="superscript">22</hi></hi> dienen, welches Tabellen im PDF automatisch erkennt und anschließend als CSV ausgeben kann. Im Verlauf der Erprobung stellte sich 
+                        <hi rend="italic">Tabula</hi> als ungeeignet heraus, da immer noch zu viele manuelle Eingriffe vonnöten sind. So erkennt es manche Tabellenteile nicht (Abb. 5) und die Spalteninhalte im erzeugten CSV werden nicht richtig zugeordnet.
+                    </p>
+                    <figure>
+                        <graphic n="1005" width="5.951361111111111cm" height="6.2367333333333335cm" url="273_final-f0a68ff0a3aea8590e9e9875707596af.png" rend="inline"/>
+						<head><lb/>Abbildung 5. Tabula: Fundmünzen Nummer 1 bis 4 werden nicht erkannt.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>pdftohtml</head>
+                    <p>Eine andere Herangehensweise erzeugt als Zwischenschritt XML, bevor dieses in CSV umgewandelt werden kann. Für die Erzeugung des XML wird das Tool 
+                        <hi rend="italic">pdftohtml</hi> verwendet.<hi rend="Fußnotenanker"><hi rend="superscript">23</hi></hi> Das Ergebnis lässt sich über den 
+                        <hi rend="italic">pdf2xml-viewer</hi><hi rend="superscript">24</hi> überprüfen (Abb. 6).
+                    </p>
+                    <figure>
+                        <graphic n="1006" width="5.634727777777778cm" height="7.6561055555555555cm" url="273_final-d751b9472e1886ef94912d782721d27e.jpeg" rend="inline"/>
+						<head><lb/>Abbildung 6. OCR-Ergebnis.</head>
+                    </figure>
+                    <p>Die Normalisierung der Spalten ist hier leichter, da auch leere Tabellenspalten erkannt werden. Jedoch wird auch hier der Spalteninhalt nicht überall korrekt erkannt (Münze 18). Die XML-Struktur erlaubt es über die Tags zu navigieren und diese mit X-Technologien zu manipulieren. Doch ist der Anteil der nicht korrekt erkannten Spalteninhalte immer noch zu hoch, um die Daten wie im Druckband abzubilden.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Reguläre Ausdrücke</head>
+                    <p>Eine andere Möglichkeit an die Tabellendaten zu gelangen sind reguläre Ausdrücke. Mithilfe eines Pythonskriptes wurden diese separiert und als CSV ausgegeben. Dafür wurden beispielhaft verschiedene Münzkomplexe herangezogen und die regulären Ausdrücke um die pro Komplex neu auftretenden Sonderfälle modifiziert. Dieses Verfahren erzeugte gute Ergebnisse für die behandelten Komplexe. So waren nur noch kleinere manuelle Nachbesserungen nötig. Im Vergleich erzeugte dieses Verfahren das beste Ergebnis.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>Die Digitalisierung von „Fundmünzen der römischen Zeit in Deutschland“ erweist sich als anspruchsvoll. Der Ansatz, die Daten über reguläre Ausdrücke zu gewinnen und zu extrahieren, erscheint bisher am vielversprechendsten. Die dabei auftretenden Abweichungen zwischen den Münzfundkomplexen lassen sich durch auf die FMRD-Struktur zugeschnittene Ausdrücke ausbessern. So erhoffen wir uns, die bisher über Nomisma.org veröffentlichten Datenbestände durch wichtige archäologische Kontexte zu erweitern und zu bereichern.</p>
+            </div>
+        </body>
+        <back>
+			<div type="notes">
+					<note place="foot" xml:id="ftn1" n="1"> http://nomisma.org/; Hinweis: Alle im Beitrag erwähnten URLs wurden zuletzt am 14.10.2018 überprüft.</note>
+					<note place="foot" xml:id="ftn2" n="2"> z.B. http://nomisma.org/id/sestertius</note>
+					<note place="foot" xml:id="ftn3" n="3"> http://nomisma.org/ontology</note>
+					<note place="foot" xml:id="ftn4" n="4"> http://numismatics.org/crro/</note>
+					<note place="foot" xml:id="ftn5" n="5"> http://numismatics.org/ocre/</note>
+					<note place="foot" xml:id="ftn6" n="6"> https://www.greekcoinage.org/portals.html</note>
+					<note place="foot" xml:id="ftn7" n="7"> http://nomisma.org/datasets</note>
+					<note place="foot" xml:id="ftn8" n="8"> http://www.numid-verbund.de/</note>
+					<note place="foot" xml:id="ftn9" n="9"> https://pleiades.stoa.org/</note>
+					<note place="foot" xml:id="ftn10" n="10"> http://peripleo.pelagios.org/</note>
+					<note place="foot" xml:id="ftn11" n="11"> http://peripleo.pelagios.org/</note>
+					<note place="foot" xml:id="ftn12" n="12"> https://www.greekcoinage.org/coins-in-context.html</note>
+					<note place="foot" xml:id="ftn13" n="13"> https://www.dnb.nl/en/about-dnb/nationale-numismatische-collectie/numis/numis-database/index.jsp</note>
+					<note place="foot" xml:id="ftn14" n="14"> https://www.fundmuenzen.ch/</note>
+					<note place="foot" xml:id="ftn15" n="15"> http://afe.fundmuenzen.eu/</note>
+					<note place="foot" xml:id="ftn16" n="16"> https://www.digitale-methodik.uni-mainz.de/</note>
+					<note place="foot" xml:id="ftn17" n="17"> https://acrobat.adobe.com/de/de/acrobat/acrobat-pro.html</note>
+					<note place="foot" xml:id="ftn18" n="18"> https://www.oxygenxml.com/</note>
+					<note place="foot" xml:id="ftn19" n="19"> https://de.libreoffice.org/</note>
+					<note place="foot" xml:id="ftn20" n="20"> http://xtriples.spatialhumanities.de/index.html</note>
+					<note place="foot" xml:id="ftn21" n="21"> http://mgskjaeveland.github.io/sgvizler/</note>
+					<note place="foot" xml:id="ftn22" n="22"> https://tabula.technology/</note>
+					<note place="foot" xml:id="ftn23" n="23"> https://poppler.freedesktop.org/</note>
+                    <note place="foot" xml:id="ftn24" n="24"> https://github.com/WZBSocialScienceCenter/pdf2xml-viewer</note>
+			</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">G. Geser (2016):</hi> 
+                        <hi rend="italic">ARIADNE WP15 Study: Towards a Web of Archaeological Linked Open Data</hi> 
+                        (www.ariadne-infrastructure.eu/.../ARIADNE_archaeological_LOD_study_10-2016.pdf, 31.10.2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">E. Gruber:</hi> 
+                        <hi rend="italic">Numishare Blogspot</hi>: 
+                        <ref target="http://numishare.blogspot.com/">http://numishare.blogspot.com/</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">E. Gruber / G. Bransbourg / S. Heath / A. Meadows (2014):</hi> 
+                        <hi rend="italic">Linking Roman Coins: Current Work at the American Numismatic Society</hi>, 
+                        in: 
+                        <hi rend="bold">G. Earle et al. (eds):</hi> 
+                        <hi rend="italic">Archaeology in the Digital Era</hi>: 
+                        Papers from the 40th Annual Conference of Computer Applications and Quantitative Methods in Archaeology (CAA), Southampton, 26-29 March 2012 (Amsterdam) 249–258.</bibl>
+                    <bibl>
+                        <hi rend="bold">E. Gruber / S. Heath / A. Meadows / D. Pett / D. Wigg-Wolf (2014):</hi> 
+                        <hi rend="italic">Semantic Web Technologies Applied to Numismatic Collections</hi>, 
+                        in: 
+                        <hi rend="bold">G. Earle et al. (eds):</hi> 
+                        <hi rend="italic">Archaeology in the Digital Era</hi>: 
+                        Papers from the 40th Annual Conference of Computer Applications and Quantitative Methods in Archaeology (CAA), Southampton, 26-29 March 2012 (Amsterdam) 264–274.</bibl>
+                    <bibl>Radnoti-Alföldi, M. (2006): Die Fundmünzen der römischen Zeit in Deutschland IV 3/2. Stadt und Reg.-Bez. Trier. Die Sog. Römerbauten (Mainz).</bibl>
+                    <bibl>
+                        <anchor xml:id="OLE_LINK1"/>
+                        <hi rend="bold">K. Tolle / D. Wigg-Wolf (2015):</hi> 
+                        <hi rend="italic">Uncertainty Handling for Ancient Coinage</hi>, 
+                        in: 
+                        <hi rend="bold">F. Giligny et al. (eds):</hi> 
+                        <hi rend="italic">CAA2014. 21st Century Archaeology. Concepts, Methods and Tools</hi>. 
+                        Proceedings of the 42nd Annual Conference on Computer Applications and Quantitative Methods in Archaeology (Oxford) 171–178.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">K. Tolle / D. Wigg-Wolf (2016):</hi> 
+                        <hi rend="italic">How to Move from Relational to 5 Star Linked Open Data – A Numismatic Example</hi>, 
+                        in: 
+                        <hi rend="bold">S. Campana et al. (eds):</hi> 
+                        <hi rend="italic">CAA2015. Keep the Revolution Going</hi>. 
+                        Proceedings of the 43rd Annual Conference on Computer Applications and Quantitative Methods in Archaeology (Oxford 2016) 275–281.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">D. Wigg-Wolf / F. Duyrat (2017):</hi> 
+                        <hi rend="italic">La révolution des Linked Open Data en numismatique: Les exemples de nomisma.org et Online Greek Coinage</hi>. 
+                        Archéologies numériques 1.1, 2017.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

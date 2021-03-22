@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="246_final-SCHOLGER_Martina_Das_Theater_mit_dem_Theater__Thementransfer" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Das Theater mit dem Theater: Thementransfer in den Spectators</title>
+<author>
+<persName>
+<surname>Fuchs</surname>
+<forename>Alexandra</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>alexandra.fuchs@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Geiger</surname>
+<forename>Bernhard</forename>
+</persName>
+<affiliation>Know-Center Graz, Österreich</affiliation>
+<email>geiger@ieee.org</email>
+</author>
+<author>
+<persName>
+<surname>Hobisch</surname>
+<forename>Elisabeth</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>elisabeth.hobisch@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Koncar</surname>
+<forename>Philipp</forename>
+</persName>
+<affiliation>Technische Universität Graz, Österreich</affiliation>
+<email>philipp.koncar@tugraz.at</email>
+</author>
+<author>
+<persName>
+<surname>More</surname>
+<forename>Jacqueline</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>jacqueline.more@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Saric</surname>
+<forename>Sanja</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>sanja.saric@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Scholger</surname>
+<forename>Martina</forename>
+</persName>
+<affiliation>Universität Graz, Österreich</affiliation>
+<email>martina.scholger@uni-graz.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-08T22:46:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Zeitschriften</term>
+<term>Aufklärung</term>
+<term>TEI</term>
+<term>Topic Modelling</term>
+<term>Netzwerkanalyse</term>
+<term>18. Jahrhundert</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Inhaltsanalyse</term>
+<term>Annotieren</term>
+<term>Netzwerkanalyse</term>
+<term>Text</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p style="text-align:left;">Die journalistische Gattung der „Spectators“ des 18. Jahrhunderts stellt ein wichtiges Kulturerbe aus der Zeit der Aufklärung dar. Die Zeitschriften entsprachen dem demokratischen Ideal, kulturelle und moralische Fragen in nicht-akademischen Kreisen zu verbreiten und Werte der Aufklärung wie Weltoffenheit, Toleranz, intellektuelle Kritik und soziale Verantwortung zu popularisieren. Ausgehend von den englischen Modellzeitschriften 
+                <hi rend="italic">The Tatler</hi> (1709-1711), 
+                <hi rend="italic">The Spectator</hi> (1711-1712 bzw. 1714) und 
+                <hi rend="italic">The Guardian</hi> (1713) hat sich dieses journalistische Genre über ganz Europa mittels Übersetzungen, Adaptionen und Imitationen verbreitet. Auf Basis des mehrsprachigen Korpus (derzeit Italienisch, Spanisch, Französisch, Englisch, Deutsch, Portugiesisch) der Digitalen Edition 
+                <hi rend="italic">The Spectators in the International Context</hi> (Ertler et al.) zeigt das Poster die Ausbreitung zentraler Themen des Aufklärungsdiskurses, wie etwa Theater, Sitten und Bräuche, Frauen- und Männerbild. 
+            </p>
+<p style="text-align:left;">Anhand der Untersuchung von populären Themen mit maschinellen Methoden präsentiert der Beitrag zentrale Linien des Transfers von Diskursen innerhalb des Genres der Spectators und reflektiert damit den Zeitgeist des 18. Jahrhunderts. Mit Hilfe einer Kombination aus 
+                <hi rend="italic">close reading</hi>, 
+                <hi rend="italic">distant reading</hi> und Visualisierungsmethoden wird aufgezeigt, welche Themen lokale Relevanz hatten und welche länderübergreifend in den Diskurs aufgenommen wurden. Innerhalb letzterer soll zwischen Themen kontrastiert werden, die in unterschiedlichen Sprachgemeinschaften unabhängig voneinander Relevanz erlangt hatten, und jenen, die durch Imitation und Übersetzung verbreitet wurden.
+            </p>
+<p style="text-align:left;">Als Fallbeispiel kann das Thema Theater angeführt werden, das in zahlreichen Zeitschriften unterschiedlicher Länder unabhängig voneinander diskutiert wurde. Während in Frankreich das neoklassizistische Theater im 18. Jahrhundert bereits vollends etabliert und somit als Thema in den Spectators weniger relevant war, erlebten Italien und Spanien eine bewegte nationale Theaterdiskussion. Seit dem 16. Jahrhundert hatte sich das italienische Theater stetig weiterentwickelt. Im 18. Jahrhundert wurde es jedoch als Repräsentationsmedium für ein modernes Italien auserkoren und erlebte eine massive Veränderung. Unabhängig davon wurde auch in Spanien der politische Streit zwischen Progressisten und Traditionalisten über das Thema des Theaters ausgetragen: Spanische Intellektuelle versuchten zunehmend durch kulturelle Reformen den intellektuellen Anschluss an Europa zu schaffen und lieferten sich mit Traditionalisten einen regelrechten Streit über eine radikale Reform des Theaters nach neoklassizistisch französischem Vorbild. (Vgl. z.B. Guinard 1973, 133-138; Ertler 2003, 120-124)</p>
+<p style="text-align:left;">Die Basis der Untersuchungen bildet das Korpus von etwa 4000 Texten, das im 
+                <hi rend="italic">close reading</hi>-Verfahren hinsichtlich der narrativen, thematischen und sachorientierten Inhalte annotiert und mittels des XML/TEI Standards (TEI Consortium 2019) ausgezeichnet wurde. Der Vorteil der TEI Kodierung für die Analyse ist neben der quantitativen Auswertung der Metadaten, Schlagworte und Entitäten die Möglichkeit von Untersuchungen auf Basis der narrativen Textstruktur. So können nicht nur der gesamte Text, sondern in den Zeitschriftentexten ausgezeichnete narrative Erzählformen (wie etwa Traumsequenzen oder Leserbriefe) separiert voneinander analysiert und kontrastiert werden. Neben der quantitativen Auswertung der manuell zugewiesenen Themen wird Topic Modelling (z.B. Blei et al. 2003, 
+                <hi rend="color(222222)">Jelodar et al. 2019, Kuang et al. 2015</hi>) eingesetzt, um diese Annotationen zu bestätigen und zu ergänzen und neue Perspektiven auf die Rezeption des Materials zu eröffnen. Abb. 1 und 2 zeigen einen Vergleich der manuellen und der maschinellen Auswertung von Themen: Es zeigt sich eine Übereinstimmung beider Herangehensweisen dahingehend, dass die maschinelle Auswertung das verstärkte Auftreten des Themas Theater in den Ausgaben 18-27, 37-46 und 68-78 bestätigt.
+            </p>
+<figure>
+<graphic height="8.960555555555555cm" n="1001" rend="inline"
+	 url="246_final-f360b754b589182f7acf68ce1301f9aa.png"
+	 width="15.927916666666667cm"/>
+<head> Abbildung 1: Statistische Auswertung der manuell zugewiesenen Themen (in rosa z.B. “Theatre Literature Arts”) auf die Ausgaben des <hi rend="italic">El Pensador</hi>.</head>
+</figure>
+<!-- <p style="text-align:left;">Abb. 1: Statistische Auswertung der manuell zugewiesenen Themen (in rosa z.B. “Theatre Literature Arts”) auf die Ausgaben des  -->
+<!--                 <hi rend="italic">El Pensador</hi>. -->
+<!--             </p> -->
+<figure>
+<graphic height="20.672777777777778cm" n="1002" rend="inline"
+	 url="246_final-4803ea4a2cc2ea51ca908bcbc423345e.png"
+	 width="15.927916666666667cm"/>
+<head>Abbildung 2: Topic Modelling: Verteilung des Topics “Comedia &amp; Theatro” (mit den 10 häufigsten Wörtern comedia, theatro, poetas, pueblo, pieza, amor, accion, nacion, pasion, tragedia) auf die Ausgaben des El Pensador. </head>
+</figure>
+<!-- <p style="text-align:left;">Abb 2. Topic Modelling: Verteilung des Topics “Comedia &amp; Theatro” (mit den 10 häufigsten Wörtern comedia, theatro, poetas, pueblo, pieza, amor, accion, nacion, pasion, tragedia) auf die Ausgaben des El Pensador. </p> -->
+<p style="text-align:left;">Darüber hinaus werden die (manuellen und maschinellen) Annotationen verwendet, um das zeitliche Auftreten ausgewählter Themen innerhalb einer Sprachgemeinschaft und sprachenübergreifend zu analysieren. Als Referenz für diese Untersuchungen dient das Zeitschriftennetzwerk der Spectators: Dieses stellt die Abhängigkeit von Zeitschriften unterschiedlicher Sprachgemeinschaften hinsichtlich Übersetzung, Adaption und Imitation dar.</p>
+<p style="text-align:left; ">
+<lb/>Der wissenschaftliche Beitrag des Posters und der dem Beitrag zugrunde liegenden Arbeit am Projekt 
+                <hi rend="italic">Distant Spectators: Distant Reading for Periodicals of the Enlightenment</hi> – einer Kooperation zwischen dem Zentrum für Informationsmodellierung und dem Institut für Romanistik der Universität Graz, sowie dem Institute of Interactive Systems and Data Science der Technischen Universität Graz und dem Know-Center Graz – kann in zwei Aspekte unterteilt werden. Einerseits kann durch die Anwendung von 
+                <hi rend="italic">distant reading</hi>-Methoden die Liste der manuell selektierten Themen erweitert und feiner granuliert werden. Dieser Zugang relativiert die vorab generierte Leseerwartung und ermöglicht somit einen unvoreingenommenen Blick auf den Text sowie die Analyse größerer, ggf. noch nicht annotierter Korpora. Andererseits wird durch die vorgestellte Arbeit die öffentlich zugängliche Digitale Edition der Spectators (Ertler et al.) zusätzlich (semi-automatisiert) angereichert und durch auf den TEI-Annotationen basierende Visualisierungen augmentiert. Dies ist ein erster explorativer Schritt in Richtung intelligentes maschinelles Lernen im Kontext der Spectators und eröffnet neue Wege der Erschließung, Analyse und Präsentation dieser multilingualen literaturwissenschaftlichen Ressource.
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left;">
+  <hi rend="bold"> Ertler, K.; Fuchs, A.; Fischer, M.; Hobisch, E.;
+  Scholger, M.; Völkl, Y. (Hg.) </hi> (2011-2019): 
+  <hi rend="italic">The Spectators in the International Context</hi>, https://gams.uni-graz.at/spectators.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold"> Ertler, K.</hi> (2003): 
+  <hi rend="italic">Moralische Wochenschriften in Spanien. José Clavijo y Fajardo: ‚El Pensador’.</hi> Tübingen: Gunter Narr.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold"> Guinard, P. </hi> (1973): 
+  <hi rend="italic">La Presse espagnole de 1737 à 1791. Formation et signification d’un genre</hi>. Paris: Centre de recherches hispaniques.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">Blei, D. M., Ng, A. Y., &amp; Jordan, M. I. </hi> (2003): Latent dirichlet allocation. 
+  <hi rend="italic">Journal of machine Learning research</hi>, 3 (Jan), 993-1022.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">Jelodar, H., Wang, Y., Yuan, C., Feng, X., Jiang, X., Li, Y., &amp; Zhao, L.</hi> (2019): Latent Dirichlet Allocation (LDA) and Topic modeling: models, applications, a survey. 
+  <hi rend="italic">Multimedia Tools and Applications</hi>, 78 (11), 15169-15211.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">Kuang, D., Choo, J., &amp; Park, H. </hi> (2015): Nonnegative matrix factorization for interactive topic modeling and document clustering. In 
+  <hi rend="italic">Partitional Clustering Algorithms</hi> (pp. 215-243). Springer, Cham.
+</bibl>
+<bibl style="text-align:left;">
+  <hi rend="bold">TEI Consortium </hi> (2019): eds. 
+  <hi rend="italic">Guidelines for Electronic Text Encoding and Interchange.</hi> July 2019. http://www.tei-c.org/P5/.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

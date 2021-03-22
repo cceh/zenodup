@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-027">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Darf wissenschaftliches Design in DH-Projekten emotional ansprechen? </title>
+        <author>
+          <name>
+            <surname>Lambertz</surname>
+            <forename>Michael</forename>
+          </name>
+          <affiliation>Universität Trier (Trier Center for Digital Humanities), Deutschland</affiliation>
+          <email>lambertz@uni-trier.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-16T15:19:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.14">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Design</term>
+          <term>UI</term>
+          <term>Visualisierung</term>
+          <term>Emotionen</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Gestaltung</term>
+          <term>Kommunikation</term>
+          <term>Veröffentlichung</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Bilder</term>
+          <term>Metadaten</term>
+          <term>Multimedia</term>
+          <term>Projekte</term>
+          <term>Forschungsergebnis</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Wie müssen virtuelle, integrative und interaktive Forschungs-, Kommunikations- und
+        Präsentationsumgebungen aussehen, damit sie der Umsetzung des fächerübergreifenden
+        Forschungsparadigmas nützen, die Schaffung und Darstellung von Wissen ermöglichen
+        und eine aktive Beteiligung der Öffentlichkeit an diesen Prozessen erlauben, lautet
+        eine der zentralen Fragen nicht nur der DHd 2016, sondern generell der Digital
+        Humanities (DH). Zu selten wird dabei bedacht, dass Visualisierung mehr ist als nur
+        die reine grafische Darstellung und Gestaltung geisteswissenschaftlicher Inhalte.
+        Die Rolle, die das Design eines User Interface (UI) spielt, ist in den DH noch zu
+        wenig im Forschungsfokus. Die Entscheidung, welches Design und welche UI-Komponenten
+        letztlich gewählt und umgesetzt werden, ist leider selten so wissenschaftlich
+        fundiert wie der Inhalt, sondern stattdessen oft das Ergebnis eines Kompromisses der
+        beteiligten Personen und deren persönlichem Geschmack, deren Vorlieben und
+        Gewohnheiten. Daraus resultierende Mängel und Probleme reichen von Unsicherheit und
+        Bedienungsproblemen bis zu Abneigung gegenüber dem Design und damit dem Projekt, und
+        zeigen sich wenn überhaupt erst später bei der Nutzung der Benutzeroberfläche. Ein
+        Grund für diese mangelnde wissenschaftliche Fokussierung liegt sicherlich häufig in
+        der finanziellen Unterausstattung dieses Bereichs in DH-Projekten, stehen doch den
+        digitalen Geisteswissenschaften nicht die Gelder<ref type="note" target="n01" n="1">1</ref> für Design, geschweige denn für die
+        Erforschung der „visuellen Kommunikation“ zur Verfügung, wie sie etwa im
+        (Neuro-)Marketing für Usability-Tests, Eye-Tracking- oder bildgebende Verfahren
+        vorhanden sind. Und doch könnte mehr Wissen über Design- und Usability-Fragen auch
+        hier gebraucht werden.<ref type="note" target="n02" n="2">2</ref>
+    </p>
+    <p>Mehr noch als die funktionellen Gesichtspunkte von (UI-)Design sind es die
+      emotionalen Aspekte von Design, die bislang nicht nur in der DH-Forschung noch
+      unterrepräsentiert sind. Es gibt noch immer wenig Wissen darüber, wie im Gehirn
+      Gefühle vernetzt sind und wirken, und über das Zusammenspiel von Emotionen und
+      Gedanken können Jahrtausende alte Philosophien und Weisheiten oft mehr sagen als die
+      Forschung auf dem Gebiet der Neurobiologie<ref type="note" target="n03" n="3">3</ref>. Dennoch ist ziemlich offensichtlich, dass es ein Zusammenspiel
+      gibt<ref type="note" target="n04" n="4">4</ref>, und dass
+      diesbezüglich das Verhältnis von Emotionen und wissenschaftlichem Design einer
+      näheren Betrachtung unterzogen werden muss. Grafikdesign wirkt immer auch unterhalb
+      der Oberfläche von Sachlichkeit, Rationalität und Kontrolle. Designelemente wie
+      Bilder (z. B. weinendes Kind, Bergpanorama), Typographie (z. B. Romantik,
+      Bauhausstil) und Farben (z. B. schwarz/rot/weiß der NS-Zeit) können je nach
+      „Zielgruppe“ (Targeting) mehr oder weniger starke Emotionen wie z. B. Mitleid,
+      Glück, Sicherheit, Freude, Freiheit, Stolz, Unmut, Scham, ja sogar Wut hervorrufen. </p>
+      <p>Dies scheint konträr zum Rationalitäts- und Objektivitätsanspruch der Wissenschaft zu sein. Vermeintlich wissenschaftlich neutral gestaltete Designs nutzen Schriftarten und Farben, die in anderen Zielgruppen eventuell sogar Irritationen hervorrufen können. Je nach Mode und Zeit variieren diese Designelemente zwar, aber im Allgemeinen strahlt das typisch sachliche, wissenschaftliche Design eine gewisse Kühle und Geschmeidigkeit aus. Eine emotionale Wirkung ist also auch hier vorhanden.</p>
+      <p>Zentrale Fragen, die sich gerade die DH mit ihren noch nicht ausgeschöpften gestalterischen Möglichkeiten stellen müssen, sind daher:
+        <hi rend="italic">Inwieweit darf wissenschaftliches Design ästhetisch sein und gezielt emotional ansprechen? Wie korreliert es mit der vermeintlichen wissenschaftlichen Objektivität? Kann und wenn ja wie kann emotionale Wirkung beobachtet werden? Kann / darf sie gelenkt werden? Welche Kriterien sind wesentlich für Designentscheidungen in den DH?</hi> Auf einer Metaebene sollte dabei auch exploriert und reflektiert werden, wie bewusst sich DH-Projekte für oder gegen ein Design- und UI-Konzept entscheiden.
+      </p>
+      <p>Diesen Fragen möchte sich die Posterpräsentation auch auf der Ebene des Visuellen und des Designs stellen und anhand des Heinrich Heine-Portals exemplifizieren. Für die am Trier Center for Digital Humanities aufgebaute und zwischenzeitlich „in die Jahre gekommene“ digitale Edition werden ein neues Designkonzept und Visualisierungskomponenten entworfen und realisiert, anhand deren Aspekte der emotionalen Ansprache von Präsentationen sowie Fragen, die sich daraus für den ästhetischen Anteil wissenschaftlicher Darstellungsformen diskutiert werden sollen.</p>
+    </body>
+    <back>
+      <div type="Notes"><note xml:id="n01"
+        n="1">Neben finanziellen und projektlaufzeitgebundenen Gründen führen die
+        zusätzlichen Schwierigkeiten, die sich aus der parallelen Entwicklung von
+        (UI-)Design zu der fachwissenschaftlichen Entwicklung der Inhalte und der
+        Modellierung von Daten bzw. deren Architektur ergeben, auch oft zu pragmatischen
+        und wenig adäquaten Lösungen.</note>
+        <note xml:id="n02" n="2">Dennoch lassen sich
+          Forschungsergebnisse hinsichtlich der Kaufentscheidungen von Zielgruppen in der
+          Marktforschung und im Neuromarketing nicht eins zu eins auf die
+          Wissensdarstellung übertragen, da die Ziele hier größtenteils andere sind.
+        </note>
+        <note xml:id="n03" n="3"> Erst seit den 1990er Jahren gibt es bildgebende Verfahren in den
+          Neurowissenschaften, die nachweisen konnten, dass Gefühle im Gehirn repräsentiert werden.
+          Trotz einiger Fortschritte in der Forschung ist bezüglich Komplexität und Dynamik von
+          Gefühlen wenig bekannt (vgl. die Kritik von Kagan 2007). </note>
+        <note xml:id="n04" n="4"> Das ist vermutlich der Grund, warum
+          große Unternehmen so viel Geld in Neuromarketing investieren. </note></div>
+      <div type="bibliogr">
+        <listBibl>
+          <head>Bibliographie</head>
+          <bibl>
+            <hi rend="bold">Frevert, Ute</hi> (2009): "Was haben Gefühle in der
+            Geschichte zu suchen?", in: <hi rend="italic">Geschichte und
+            Gesellschaft</hi> 35: 183-208. </bibl>
+            <bibl>
+              <hi rend="bold">Kagan, Jerome</hi> (2007): <hi rend="italic">What is
+              Emotion?</hi> History, Measures, and Meanings. Binghamton: Yale
+              University Press. </bibl>
+              <bibl><hi rend="bold">McCandless, David</hi> (2009): <hi rend="italic"
+              >Information is Beautiful</hi>. London: Collins. </bibl>
+              <bibl>
+                <hi rend="bold">Meirelles, Isabel</hi> (2013): <hi rend="italic">Design for
+                Information</hi>. An introduction to the histories, theories, and best
+                practices behind effective information visualizations. Beverly
+                Massachusetts: Rockport. </bibl>
+                <bibl>
+                  <hi rend="bold">Pferdt, Frederik G.</hi> (2012): <hi rend="italic"
+                  >Designbasierte Didaktik (DbD)</hi>. Lernumgebungen mit social media
+                  innovativ gestalten. Paderborn: Eusl-Verlag. </bibl>
+                  <bibl>
+                    <hi rend="bold">Ruecker, Stan / Radzikowska, Milena / Sinclair, Stéfan</hi>
+                    (2011): <hi rend="italic">Visual interface design for digital cultural
+                    heritage</hi>. A guide to rich-prospect browsing. Farnham: Ashgate.
+                  </bibl>
+                </listBibl>
+              </div>
+            </back>
+          </text>
+        </TEI>

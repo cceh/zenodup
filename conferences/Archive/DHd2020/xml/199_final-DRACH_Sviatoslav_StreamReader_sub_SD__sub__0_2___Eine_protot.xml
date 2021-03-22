@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="199_final-DRACH_Sviatoslav_StreamReader_sub_SD__sub__0_2___Eine_protot" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>StreamReader<hi rend="subscript">SD</hi> 0.2 – Eine prototypische Webanwendung für das Lesen von Texten als Zeichenstrom</title>
+<author>
+<persName>
+<surname>Drach</surname>
+<forename>Sviatoslav</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>s.drach@uni-koeln.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-05T16:03:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digitales Lesen</term>
+<term>Prototyping</term>
+<term>Webanwendung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Gestaltung</term>
+<term>Webentwicklung</term>
+<term>Visualisierung</term>
+<term>Bilder</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>
+<anchor xml:id="Hlk20391500"/>Einleitung
+                </head>
+<p>Lesen auf Papier und am Bildschirm sind nicht gleich. Studien besagen, dass digitales Lesen zu flüchtigem, weniger konzentrierten Lesen führe (Stavanger Declaration 2019). Was kann getan werden, um dieses Problem zu lösen? Ist das Lesen von Text als Zeichenstrom eine mögliche Lösung?</p>
+<p>Es gibt bislang keine Anwendung, in der man (längere) Texte als einen einzeiligen Strom von Zeichen rezipieren würde. Es existieren einige (auf den ersten Blick sehr ähnliche) Tools für Speed Reading, aber hier geht es nicht um Schnelllesen. Das hier vorgestellte Projekt ist explorativ. Es basiert auf konzeptionellen Überlegungen, die Patrick Sahle (2020) in einem Vortrag auf dieser Tagung vorstellt.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Text als Zeichenstrom lesen</head>
+<p>Unser trainiertes Leseverhalten folgt u.a. den Augenbewegungsprinzipien der Sakkaden (Springen zwischen Textelementen) und der Fixationen (Informationsaufnahme bei fixierten Punkten) (Landau 2016: 15). Dies scheint auf den ersten Blick dem Lesen von Text als Zeichenstrom zu widersprechen, weil die ständige Bewegung des Textes die Sakkaden und Fixationen erschwert. Auch die typographischen Prinzipien, die gute Lesbarkeit ausmachen, basieren ganz auf dem zweidimensionalen Schriftraum und lassen sich nicht einfach auf einen laufenden Strom übertragen (Hegewald et al. 2011: 27).</p>
+<p>Trotz aller Aspekte, die gegen das Lesen von Text als Zeichenstrom sprechen, kann ein Experiment interessant sein. Zum einen gibt die Bewegung dem Text seinen Fluss zurück, den er in der gesprochenen Sprache noch hatte und der eine sorgfältige Rezeption verlangt, um dem Ablauf der Informationsübermittlung zu folgen. Zum anderen entstehen durch die Befreiung des Darstellungsraumes der "Seite" neue Möglichkeiten für die Medialisierung von Texten. Denn die Textpräsentation kann jenseits der einfachen laufender Zeile nun den Raum nutzen, um beispielsweise Bilder, Fußnoten oder mehrere Zeilen darzustellen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Eine prototypische Anwendung</head>
+<p>Die Web-App StreamReader<space quantity="0" unit="chars"/><hi rend="subscript">SD</hi> bietet eine digitale Umgebung für das Lesen von Text als Zeichenstrom. Dabei handelt es sich um eine "Proof of Concept"-Lösung, die eine grundsätzliche Realisierbarkeit auslotet. Aus technischer Sicht beschränkt sie sich zunächst auf gängige Webtechnologien wie HTML, CSS und JavaScript.
+                </p>
+<figure>
+<graphic height="6.852708333333333cm" n="1001" rend="inline"
+	 url="199_final-5929942d4b6234dc6a0f97ff943dc770.png"
+	 width="15.980833333333333cm"/>
+<head> Abbildung 1. StreamReader<space quantity="0" unit="chars"/><hi rend="subscript">SD</hi> (Screenshot; vergrößert und
+beschriftet. Quelle: <ref target="http://dev.cceh.uni-koeln.de/sr-sd">http://dev.cceh.uni-koeln.de/sr-sd</ref> )</head>
+</figure>
+<!-- <p>Abbildung 1. StreamReader<space quantity="0" unit="chars"/> -->
+<!-- <hi rend="subscript">SD</hi> (Screenshot; vergrößert und beschriftet. Quelle: -->
+<!--                     <ref target="http://dev.cceh.uni-koeln.de/sr-sd"> -->
+<!-- <hi rend="underline color(1155CC)">http://dev.cceh.uni-koeln.de/sr-sd</hi> -->
+<!-- </ref> ) -->
+<!--                 </p> -->
+<p>Zu den allgemeinen Funktionen der Anwendung gehört die Möglichkeit, einen Text entweder aus einem Repositorium auszuwählen (2) oder eigene Texte hinzuzufügen (3). Allgemeine Einstellungsoptionen betreffen  Layoutmerkmale wie Breite und Hintergrundfarbe des Anzeigebereichs, Schriftfamilie, Schriftfarbe oder Schriftgröße (4). Beim Lesen kann ein Lesezeichen gesetzt werden (5). Eine Suchfunktion ermöglicht das Finden von Wörtern (6). Statistische Berechnungen (8) veranschaulichen die Anzahl von Zeichen und Wörtern im Text sowie die eingeschätzte Lesezeit bei maximaler und minimaler Lesegeschwindigkeit. Die Steuerung der Anwendung erfolgt mit Hilfe von Bedientasten (9a) sowie einem Geschwindigkeitsschieber (9b). Die Anwendung kann ebenso mit Hilfe der Tastatur gesteuert werden. Eine kurze Anleitung dazu befindet sich unter dem Hilfe-Button (7). Mit dem Home-Button (1) kann die Anwendung neu gestartet werden.</p>
+<p>Wenn ein Text über eine Seitenzählung verfügt, dann wird eine seitenorientierte Navigation (10a) generiert und die Nummer der aktuellen Seite angezeigt (10b). Andernfalls basiert die allgemeine Navigationsleiste auf einem hinsichtlich der Zeichenmenge prozentualen Verständnis der aktuellen Position. Ist ein Text durch Kapitel oder andere Einheiten strukturiert, dann werden zwei Typen von Inhaltsverzeichnissen generiert: Eine konventionelle Liste mit Links zu den jeweiligen Kapiteln und Unterkapiteln (11), sowie eine visuelle Navigationsleiste, die proportional die Größe der Kapiteln und Unterkapiteln abbildet und ebenfalls zum gezielten Ansteuern von Textstellen genutzt werden kann (12).</p>
+<p>Zu den eher textspezifischen Funktionen der Anwendung gehören weiterhin der Umgang mit Fußnoten und Illustrationen. Beide laufen zunächst mit dem Zeichenstrom ein, können dann aber pausiert (Illustrationen) oder als unabhängig laufende Schrift gelesen werden, während der Haupttext angehalten wird (Fußnoten).</p>
+<p>Es besteht die Möglichkeit, Schrift in laufenden Zeilen versetzt beziehungsweise mehrere Zeilen parallel darzustellen. Dies ist zum Beispiel sinnvoll, wenn ein Text komplexe Nebensatzstrukturen enthält, die durch versetzte Darstellung besser wahrgenommen werden können oder wenn unterschiedliche Übersetzungen desselben Werkes parallel gelesen werden sollen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick</head>
+<p>Effekte des StreamReader<space quantity="0" unit="chars"/><hi rend="subscript">SD</hi> auf das Leseverhalten, die Textrezeption und die Informationsaufnahme sind bisher nicht untersucht worden. Dies würde eigene Studien erfordern, steht aber aktuell nicht im Fokus der Arbeiten. Bei der prototypischen Anwendung geht es derzeit um ein Ausloten der Möglichkeiten, die Entwicklung von ersten Funktionen und das Testen von Darstellungsoptionen. 
+                </p>
+<p>Die im StreamReader<space quantity="0" unit="chars"/><hi rend="subscript">SD</hi> aktuell hinterlegten Texten demonstrieren Leseszenarien für unterschiedliche textuelle Situationen. Jenseits der einfachen laufenden Zeile werden Lösungen für den Umgang mit Illustrationen oder Fußnoten angeboten, Effekte eines Zeilenversatzes als neues Lese-Strukturelement beobachtbar gemacht und “mehrspurige” Texte realisiert. Dadurch kann ausgelotet werden, welche neuen Möglichkeiten für die Darstellung von bestimmten Textsorten entstehen, die vielleicht für die Präsentation und Rezeption nützlich sein könnten.
+                </p>
+<p>Für die Zukunft wäre es denkbar, weitere Beispieltexte, die andere Probleme aufwerfen, aufzunehmen und dazu weitere Funktionalitäten zu implementieren. Die visuelle Gestaltung der Anwendung wäre noch zu professionalisieren. Nutzungsstudien mit Lesern könnten interessante Einblicke in Stärken und Schwächen des Ansatzes erlauben.</p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold" xml:space="preserve">Filek, Jan /  Uebele, Andreas </hi>(2013):  
+                        <hi rend="italic">Read/ability. Typografie und Lesbarkeit</hi>, Sulgen: Niggli.
+                    </bibl>
+<bibl>
+<hi rend="bold" xml:space="preserve">Hegewald, Falk / Tritschler, Johannes / Hien, Katharina / Rümpler, Steffen  </hi>(2011): 
+                        <hi rend="italic">Typografische Animation für Studium und Praxis</hi>, Berlin, Heidelberg: Springer.
+                    </bibl>
+<bibl>
+<hi rend="bold" xml:space="preserve">Korthaus, Claudia </hi>(2016): 
+                        <hi rend="italic">Grundkurs Typografie und Layout. Für Ausbildung und Praxis</hi>, 5. Auflage, Bonn: Rheinwerk Verlag.
+                    </bibl>
+<bibl>
+<hi rend="bold" xml:space="preserve">Landau, Angelina </hi>(2016): 
+                        <hi rend="italic">Wie das Gehirn liest. Die neuronalen Prozesse beim Lesen</hi>, Marburger Schriften zur Lehrerbildung, Bd. 12, Marburg: Tectum Verlag.
+                    </bibl>
+<bibl>
+<hi rend="bold" xml:space="preserve">Myrberg, Caroline / Wiberg, Ninna </hi>(2015): 
+                        <hi rend="italic">Screen vs. paper: what is
+			the difference for reading and learning?</hi>
+			Insights: the UKSG Journal 28, 49–54
+			&lt;<ref target="https://doi.org/10.1629/uksg.236">https://doi.org/10.1629/uksg.236</ref>&gt;.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sahle, Patrick</hi> (2020): 
+                        <hi rend="italic">Wie wir lesen könnten. StreamReader</hi><hi rend=" subscript">PS</hi>
+<hi rend="italic" xml:space="preserve"> 0.1</hi>. Book of Abstracts zur DHd2020, Paderborn.
+                    </bibl>
+<bibl>[Members and relevant stakeholders of the EU funded COST research Action E-READ]: 
+                        <hi rend="italic" xml:space="preserve">COST E-READ </hi>
+<hi rend="italic bold">Stavanger Declaration</hi>
+<hi rend="italic" xml:space="preserve"> Concerning the Future of Reading</hi> (2019). &lt;
+                        <ref target="http://ereadcost.eu/wp-content/uploads/2019/01/StavangerDeclaration.pdf">http://ereadcost.eu/wp-content/uploads/2019/01/StavangerDeclaration.pdf</ref> &gt;. 
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

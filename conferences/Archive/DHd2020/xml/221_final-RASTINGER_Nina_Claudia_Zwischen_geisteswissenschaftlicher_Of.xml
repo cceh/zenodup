@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="221_final-RASTINGER_Nina_Claudia_Zwischen_geisteswissenschaftlicher_Of" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Zwischen geisteswissenschaftlicher Offenheit und informatischer Explikation: Motivsuche als Herausforderung bei der Arbeit mit digitalen Ressourcen</title>
+<author>
+<persName>
+<surname>Rastinger</surname>
+<forename>Nina Claudia</forename>
+</persName>
+<affiliation>Austrian Academy of Sciences, Österreich</affiliation>
+<email>ninaclaudia.rastinger@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Resch</surname>
+<forename>Claudia</forename>
+</persName>
+<affiliation>Austrian Academy of Sciences, Österreich</affiliation>
+<email>claudia.resch@oeaw.ac.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T12:49:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>literary motif</term>
+<term>motif search</term>
+<term>motif annotation</term>
+<term>digital corpora</term>
+<term>search strategies</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Entdeckung</term>
+<term>Inhaltsanalyse</term>
+<term>Literatur</term>
+<term>Methoden</term>
+<term>Forschungsprozess</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Theoretischer Hintergrund</head>
+<p>Literarische Motive – in ihrer Gestalt als 
+                    <hi rend="italic">„a theme, character, or verbal pattern which recurs in literature“</hi> (Beckson &amp; Ganz: 1960) – stellen seit Langem einen Untersuchungsgegenstand der Literaturwissenschaft dar. Als 
+                    <hi rend="italic">„anthrophologische Grundsituationen, die zwar historisch variiert werden, aber in ihrem Kern konstant bleiben“</hi> (Nünning 2013: 542), ziehen sie sich durch die Literaturgeschichte und damit durch den geisteswissenschaftlichen Forschungsbereich. Hiervon angeregte Erkenntnisinteressen umfassen sowohl Fragen danach, wie bestimmte Motive in ausgewählten Werken auftauchen (u. a. Ester et al. 2017, Nölle 2017), als auch danach, wie sich dieses Auftauchen diachron verhält: Wie beständig bzw. flüchtig ist das jeweilige literarische Motiv (Freedman 1971: 126) und inwiefern koppelt es sich an bestimmte Perioden, Textgattungen oder Autor*innen (von Wilpert 2013: 534)? Daran, welcher Aspekt eines Motivs dabei im Wandel der Zeit bestehen bleibt, kann man Wilpert (2013: 533–534) zufolge zudem zwischen verschiedenen Motivarten differenzieren: Bei konstanten Situationen, wie jener des 
+                    <hi rend="italic">heimkehrenden Sohnes</hi>, handelt es sich um Situationsmotive, während konstant bleibende Charaktere, wie der 
+                    <hi rend="italic">Menschenfeind</hi>, Typus-Motive konstituieren.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschungsstand</head>
+<p>Obwohl die Motivforschung, wie oben beschrieben, ein vielseitiges Forschungsfeld aufspannt, wurde dieses im Rahmen der Digital Humanities bisher kaum beachtet: Im deutschsprachigen Raum existieren derzeit keine digitalen Korpora, in welchen eine Motivannotation vorgenommen wurde, und auch im nicht-deutschsprachigen Raum scheinen sich derartige Bestrebungen primär auf die Textgattung der Volksmärchen zu beschränken (u. a. Karsdorp et al. 2012, Garcia-Fernandez et al. 2014). Nur in wenigen Ausnahmefällen, wie in der Mittelhochdeutschen Begriffsdatenbank (Springeth 2005), liegt eine semantische Annotation vor, die Themen oder andere motivähnliche Aspekte mit Mark-Up versieht. Begründung findet dieser Umstand der fehlenden Motivannotation vor allem in der vagen Natur des zu Annotierenden. So erfahren Motive nach Best (2008: 349) schließlich erst 
+                    <hi rend="italic">„im sprachl. Kunstwerk ihre individuelle Ausformung [und sind] somit erst durch Abstraktion faßbar“</hi> und nicht an spezifische sprachliche Ausdrücke gebunden. Die Annotation von literarischen Motiven müsste insofern (noch) manuell vorgenommen werden, wodurch ein hoher Zeitaufwand entstünde sowie eine starke Subjektivität gegeben wäre. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschungsvorhaben</head>
+<p>Dennoch macht die Überführung der Motivforschung in den Bereich der Digital Humanities Sinn: Korpusbasierte Untersuchungen ermöglichen die systematische Erforschung sowie quantitative Auswertung umfangreicher Textmengen und gewähren somit – vor allem im Hinblick auf die diachron angelegte Motivgeschichte und die Häufigkeiten spezifischer Motive (Freedman 1971: 126) – neue Erkenntnisse. Da es sich bei motivannotierten Korpora zum jetzigen Zeitpunkt jedoch noch um ein Desiderat handelt, muss hierfür ein anderer Zugang gewählt werden und zwar jener der Motivsuche – über folgende Frage: Mithilfe welcher Suchstrategien können Motive in nicht motivisch annotierten Korpora ausfindig gemacht werden?</p>
+<p>Für ebendiese Herausforderung versucht der hier geplante Beitrag mögliche Lösungsansätze aufzuzeigen, wobei der Fokus auf ausgewählten Typus-Motiven, wie dem 
+                    <hi rend="italic">weisen Salomon</hi> oder dem 
+                    <hi rend="italic">armen Sünder</hi>, liegt. Anhand dieser sollen exemplarisch diverse Suchstrategien entwickelt werden, mithilfe welcher literarische Motive in digitalen Korpora, wie dem Austrian Baroque Corpus (ABaC:us) oder dem Deutschen Textarchiv (DTA), identifiziert werden können. Die Potentiale der verwendeten digitalen Ressourcen für die Motivsuche werden dabei genauso diskutiert wie ihre auftauchenden Limitationen. Immer mitzubedenken gilt es etwa die bereits angesprochene wechselnde Gestalt von literarischen Motiven: Da es sich bei ihnen um abstrakte Konzepte handelt, welche auf der Textoberfläche eine Vielfalt an sprachlichen Formen annehmen können, sind sie nur schwer über wenige ausgewählte „key words“ aufspürbar. Hierzu trägt auch ihre Komplexität bei: 
+                    <hi rend="italic">„Motive zeigen Personen und Sachen nicht isoliert, sondern in einem Zusammenhang“</hi> (Frenzel 1978: 29) und bestehen damit immer aus mehreren inhaltlichen Komponenten – wie im Falle von Typus-Motiven, bei welchen Charakteren gewisse Eigenschaften zugeschrieben werden. 
+                </p>
+<p>Diesen Problemen versucht das vorliegende Forschungsvorhaben mit vielfältigen Mitteln beizukommen. So wird beispielsweise aus der in vielen Korpora bereits vorhandenen linguistischen Basisannotation, bestehend aus einer Lemmatisierung und einer Wortartenzuordnung (POS-Tagging), Nutzen gezogen: Eigenschaften, wie Weisheit, können etwa als attributive Adjektive operationalisiert und über Abstandsoperatoren nahe eines interessierenden Charakters lokalisiert werden. Zudem können über Open-Source-Anwendungen wie AntConc oder Voyant Tools Kookkurrenzanalysen durchgeführt werden, um Charaktere und Eigenschaften zueinander in Bezug zu setzen und typische Zuschreibungen und Formulierungen sichtbar zu machen. Passend hierzu wird ebenfalls das von Huijnen und Lonij (2016) für die thematische Suche entwickelte Programm „Keyword Generator“ auf seinen Ertrag für die Motivsuche hin befragt werden: Kann die Generierung motivspezifischer Suchwörter anhand bereits erkannter Textpassagen bei der Identifikation weiterer Belegstellen behilflich sein? Diese Frage soll genauso zu beantworten versucht werden wie jene nach der Wahl der adäquaten Suchtermini, für deren Ermittlung sowohl Synonym- als auch Motivdatenbanken zum Einsatz kommen werden. Damit soll der geplante Beitrag letztendlich anhand konkreter Beispiele aus der literaturwissenschaftlichen Praxis verschiedenste Suchstrategien sowie deren Vor- und Nachteile aufzeigen, um die Motivsuche für zukünftige Nutzer*innen zu erleichtern und dadurch zur vermehrten digitalen Motivforschung anzuregen.</p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Anthony, Laurence</hi> (2019): 
+                        <hi rend="italic">AntConc (Version 3.5.8)</hi>. Tokyo: Waseda University https://www.laurenceanthony.net/software [letzter Zugriff 25. September 2019].
+                    </bibl>
+<bibl>
+<hi rend="bold">Berlin-Brandenburgische Akademie der Wissenschaften</hi> (eds.) (2019): 
+                        <hi rend="italic" xml:space="preserve">Deutsches Textarchiv. </hi>Grundlage für ein Referenzkorpus der neuhochdeutschen Sprache. http://www.deutschestextarchiv.de/ [letzter Zugriff 25. September 2019].
+                    </bibl>
+<bibl>
+<hi rend="bold">Beckson, Karl / Ganz, Arthur</hi> (1960): 
+                        <hi rend="italic">A Reader's Guide to Literary Terms</hi>. New York: The Noonday Press.
+                    </bibl>
+<bibl>
+<hi rend="bold">Best, Otto F.</hi> (2008): 
+                        <hi rend="italic" xml:space="preserve">Handbuch literarischer Fachbegriffe. </hi>Definitionen und Beispiele. Frankfurt am Main: Fischer.
+                    </bibl>
+<bibl>
+<anchor xml:id="Hlk20319381"/>
+<hi rend="bold">Ester, Hans / Mariacher, Barbara / Tax, Evelyne</hi> (eds.) (2017): 
+                        <hi rend="italic" xml:space="preserve">Abschied als literarisches Motiv in der deutschsprachigen Literatur. </hi>Festschrift zu Ehren des 75. Geburtstages von Jattie Enklaar. Würzburg: Königshausen &amp; Neumann.
+                    </bibl>
+<bibl>
+<hi rend="bold">Freedman, William</hi> (1971): „The Literary Motif: A Definition and Evaluation“, in: 
+                        <hi rend="italic" xml:space="preserve">NOVEL: A Forum on Fiction </hi>4 (2): 123–131.
+                    </bibl>
+<bibl>
+<hi rend="bold">Frenzel, Elisabeth</hi> (1978): 
+                        <hi rend="italic">Stoff-, Motiv- und Symbolforschung</hi>. 4., durchges. u. erg. Aufl. Stuttgart: Metzler.
+                    </bibl>
+<bibl>
+<anchor xml:id="Hlk20307338"/>
+<hi rend="bold">Garcia-Fernandez, Anne / Ligozat, Anne-Laure / Vilnat, Anne</hi> (2014): „Construction and Annotation of a French Folkstale Corpus“, in: 
+                        <hi rend="italic" xml:space="preserve">Proceedings of the Ninth International Conference on Language Resources and Evaluation </hi>2430–2435. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Huijnen, Pim / Lonij, Juliette</hi> (2016). „From Keyword Search To Discourse Mining – The Meaning Of Scientific Management In Dutch Vocabulary, 1900-1940“, in: 
+                        <hi rend="italic">Digital Humanities 2016: Conference Abstracts</hi> 569–570. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Karsdorp, Folgert / van Kranenburg, Peter / Meder, Theo / Trieschnigg, Dolf / van den Bosch, Antal</hi> (2012): 
+                        <hi rend="italic">In search of an appropriate abstraction level for motif annotations</hi>. http://dolf.trieschnigg.nl/papers/CMN.2012.karsdorp.pdf [letzter Zugriff 25. September 2019].
+                    </bibl>
+<bibl>
+<hi rend="bold">Nölle, Volker</hi> (2017): 
+                        <hi rend="italic">Der heimliche Blick: Motiv und Modell – eine Matrix innovativer Perspektiven</hi>. Würzburg: Königshausen &amp; Neumann.
+                    </bibl>
+<bibl>
+<hi rend="bold">Nünning, Ansgar</hi> (ed.) (2013): 
+                        <hi rend="italic">Metzler Lexikon Literatur- und Kulturtheorie. Ansätze – Personen – Grundbegriffe</hi>. Fünfte, aktualisierte und erweiterte Auflage. Stuttgart: J. B. Metzler.
+                    </bibl>
+<bibl>
+<hi rend="bold">Resch, Claudia / Czeitschner, Ulrike</hi> (eds.) (2015): 
+                        <hi rend="italic">ABaC:us – Austrian Baroque Corpus</hi>. http://acdh.oeaw.ac.at/abacus/ [letzter Zugriff 25. September 2019].
+                    </bibl>
+<bibl>
+<hi rend="bold">Sinclair, Stéfan / Rockwell, Geoffrey</hi> (2019): 
+                        <hi rend="italic">Voyant Tools (Version 2.4)</hi>. https://voyant-tools.org/ [letzter Zugriff 25. September 2019]. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Springeth, Margarete</hi> (2005): „Auf der Suche nach Begriffen und Motiven. Die Mittelhochdeutsche Begriffsdatenbank (MHDBDB) an der Universität Salzburg“, in: Schubert, Martin J. (ed.): 
+                        <hi rend="italic">Deutsche Texte des Mittelalters zwischen Handschriftennähe und Rekonstruktion</hi> (= Beihefte zu Editio 23). Tübingen: Niemeyer 317–323.
+                    </bibl>
+<bibl>
+<hi rend="bold">Von Wilpert, Gero</hi> (2013): 
+                        <hi rend="italic" xml:space="preserve">Sachwörterbuch der Literatur. </hi>Sonderausgabe der 8. verbesserten und erweiterten Auflage 2001. Stuttgart: Alfred Kröner.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

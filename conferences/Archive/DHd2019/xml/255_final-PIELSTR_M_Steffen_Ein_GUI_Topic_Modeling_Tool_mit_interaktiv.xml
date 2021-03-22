@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="255_final-PIELSTR_M_Steffen_Ein_GUI_Topic_Modeling_Tool_mit_interaktiv" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Ein GUI-Topic-Modeling-Tool mit interaktiver Ergebnisdarstellung</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Severin</surname>
+                        <forename>Simmler</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                    <email>severin.simmler@stud-mail.uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Thorsten</surname>
+                        <forename>Vitt</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                    <email>thorsten.vitt@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pielström</surname>
+                        <forename>Steffen</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                    <email>pielstroem@biozentrum.uni-wuerzburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-14T21:40:32.844802017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Topic Modeling</term>
+                    <term>Distributionelle Semantik</term>
+                    <term>Visualisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Zu den Verfahren der digitalen Textanalyse, die in den vergangenen Jahren in den textbasierten digitalen Geisteswissenschaften etabliert wurden, gehört das LDA (Latent Dirichlet Allocation) Topic Modeling (Blei 2012; Steyvers und Griffiths 2006). Diese Methode eignet sich zur Analyse der Verteilung semantischer Wortgruppen in Textsammlungen, und kann sowohl für die computergestützte Textklassifikation als auch für die explorative Betrachtung der Inhalte eines Corpus herangezogen werden. Um dem zunehmenden Interesse am Topic Modeling von Seiten der DH-Community Rechnung zu tragen, entwickelt DARIAH-DE seit 2017, basierend auf den Python-Bibliotheken "LDA" von Allan Riddell und "DARIAHTopics" (Jannidis et al. 2017), den DARIAH-TopicsExplorer, eine Software, mit der interessierte Forschende Topic Modeling auf ihren eigenen Rechnern an ihren eigenen Texten ausprobieren können, und die den gesamten Analyseprozesses, vom unverarbeiteten Text bis zum Ergebnis, durch eine graphische Nutzeroberfläche (GUI) unterstützt.</p>
+            <p>Der TopicsExplorer bietet nicht die Leistungsfähigkeit und vor allem die Flexibilität bisheriger Lösungen, die entweder, wie das weit verbreitete MALLET (McCallum 2002), als Kommandozeilenprogramme, oder aber, wie Gensim (Rehurek und Sojka 2010), als Bibliothek für eine Programmiersprache konzipiert wurden. Dafür kann er aber ohne Kenntnis irgendeiner Programmier- oder Skriptsprache eingesetzt werden und muss nicht einmal über die Kommandozeile aufgerufen werde. Damit schließt der TopicsExplorer eine wichtige Lücke: Forschende, die selbst nicht, oder noch nicht, programmieren, können sich hier einen Eindruck davon verschaffen, wie die Methode funktioniert und was sie theoretisch leisten kann. Das befähigt auf der einen Seite, Forschungsarbeiten, die auf Topic Modeling basieren, und ihre Ergebnisse informiert einzuschätzen. Auf der anderen Seite kann das Werkzeug für einfache Fragestellungen, die Topic Modeling erfordern, direkt eingesetzt werden, und bei komplizierteren Ansätzen eine informierte Entscheidung darüber ermöglichen, ob sich die Aneignung der notwendigen technischen Fähigkeiten für die Verwendung einer fortgeschrittenen Lösung für die jeweilige Forschungsfrage überhaupt lohnt.</p>
+            <p>Der TopicsExplorer wurde in einer ersten Version 2017 und 2018 im Rahmen mehrerer Workshops und Konferenzen verschiedenen Gruppen von Forschenden und Studierenden vorgestellt. Die Erfahrungen aus dem Umgang mit Nutzerinnen und Nutzern in solchen Workshops und vor allem ihr direktes Feedback sind seither umfangreich in die Weiterentwicklung eingeflossen und die daraus resultierenden Änderungen gehen weit über die Beseitigung von Bugs und die Sicherstellung der nachhaltigen Funktionalität hinaus. Aus einem anfänglichen "GUI-Demonstrator" (Simmler et al. 2018), der noch die Installation einer Python-Bibliothek erforderte, auf einem lokalen Server lief und im Browser angezeigt wurde, ist eine vollwertige Stand-Alone-Software geworden, die nach dem Herunterladen ohne weitere Vorbereitung auf gängigen Windows-, MacOS- und Linux-Systemen gestartet werden kann. Die Visualisierungen können interaktiv manipuliert, und die Ergebnisse im csv-Format exportiert werden. Zahlreiche kleinere, von der Testcommunity gewünschte Features, wie z.B. eine Fortschrittsanzeige mit Abbruchbutton (Abb. 1), haben die Usability wesentlich verbessert.</p>
+            <p>Zur Zeit wird eine Version in grundlegend überarbeitetem Design vorbereitet, deren Ziel es ist, auch komplizierteren, aus den Testcommunies heraus formulierten Ansprüchen an die Interaktivität der Software gerecht zu werden. Auf technischer Ebene wird dabei die Visualisierung der Ergebnisse statt mit der bisher verwendeten Python-Bibliothek "Bokeh" direkt in Javascript realisiert, um zusätzliche Flexibilität für die Umsetzung neuer Funktionalitäten zu gewinnen. Äußerlich wird es damit möglich, Ergebnisse auch nachträglich interaktiv umzusortieren und in mehreren Fenstern darzustellen. Mit dem Ziel, die User-Experience im explorativen Umgang mit den erzeugten Modellen zu verbessern, wird darüber hinaus ein völlig neues Visualisierungskonzept auf Basis der Vorschläge von Chaney und Blei (2012) umgesetzt. Dieses Konzept erlaubt es nicht nur, einzelne Dokumente im Corpus mitsamt den dazugehörigen Analyseergebnissen zu betrachten, es werden darüber hinaus automatisch andere Texte mit ähnlichen inhaltlichen Schwerpunkten vorgeschlagen (Abb. 2).</p>
+            <p>Wir hoffen, dass der TopicsExplorer mit den angestrebten Verbesserungen und Erweiterungen dazu beiträgt, eine mittlerweile doch recht verbreitete Forschungsmethode aus der Nische derjenigen DH-Verfahren heraus zu holen, die nur von Programmiererinnen und Programmierern verwendet, verstanden und kritisch diskutiert werden. Die neuen Features, die für das kommende Release entwickelt werden, sollten dazu einen wesentlichen Beitrag leisten.</p>
+            <p>
+                <figure>
+                    <graphic url="255_final-cb14b4ca8b49f0e32e0c00d22028c5dd.png"/>
+					<head>
+						<lb/>Abbildung 1. Fortschrittsanzeige für die laufende Modellierung im aktuellen TopicsExplorer
+					</head>
+                </figure>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="255_final-908fbd3d982d8ebbe48db7404b266444.png"/>
+					<head>
+						<lb/>Abbildung 2. Übersicht für ein Dokument im Prototypen der Version 2
+					</head>
+                </figure>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Blei, David M. (2012):</hi> 
+                        <hi rend="italic">Probabilistic Topic Models</hi>, in: 
+                        Communication of the ACM55, Nr. 4 (2012): 77–84. doi:10.1145/2133806.2133826.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chaney, Allison J.B. / Blei, David M. (2012):</hi> 
+                        <hi rend="italic">The Visualizing Topic Models</hi>, in: 
+                        Proceedings of the Sixth International AAAI Conference on Weblogs and Social Media 419-422.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jannidis, Fotis/ Pielström, Steffen / Schöch, Christof / Vitt, Thorsten (2017):</hi> 
+                        <hi rend="italic">Making topic modeling easy: a programming library in Python</hi>, in: 
+                        Proceedings of the Digital Humanities 2017 Conference.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McCallum, Andrew K. (2002): </hi>
+                        <hi rend="italic">MALLET : A Machine Learning for Language Toolkit</hi>.
+                        <ref target="http://mallet.cs.umass.edu/">
+                            <hi rend="underline">http://mallet.cs.umass.edu.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rehurek, Radim/ Sojka, Petr (2010):</hi>
+                        <hi rend="italic">Software framework for topic modelling with large corpora. </hi>
+                        In Proceedings of the LREC 2010 Workshop on New Challenges for NLP Frameworks.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Simmler, Severin / Vitt, Thorsten / Pielström. Steffen (2018):</hi> 
+                        <hi rend="italic">LDA Topic Modeling über eine graphisches Interface</hi>, in: 
+                        Konferenzabstracts der 5. Tagung des Verbands Digital Humanities im deutschsprachigen Raum e.V. 428-429.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Steyvers, Mark/ Griffiths, Tom (2006):</hi> 
+                        <hi rend="italic">Probabilistic Topic Models</hi>, in:
+                        Latent Semantic Analysis: A Road to Meaning, herausgegeben von T. Landauer, D. McNamara, S. Dennis, und W. Kintsch. Laurence Erlbaum.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

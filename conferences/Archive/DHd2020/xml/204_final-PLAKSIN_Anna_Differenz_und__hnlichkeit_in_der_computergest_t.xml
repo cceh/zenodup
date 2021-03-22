@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="204_final-PLAKSIN_Anna_Differenz_und__hnlichkeit_in_der_computergest_t" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Differenz und Ähnlichkeit in der computergestützten Filiation von Renaissancemusik.</title>
+<title type="sub">Zur datenbasierten Evaluation von Substitutionsmodellen mithilfe von Surrogatdaten</title>
+</title>
+<author>
+<persName>
+<surname>Plaksin</surname>
+<forename>Anna</forename>
+</persName>
+<affiliation>Max Weber Stiftung, Deutschland</affiliation>
+<email>plaksin@maxweberstiftung.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-12-14T09:22:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Stemmatologie</term>
+<term>Renaissancemusik</term>
+<term>Mensuralnotation</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Manuskript</term>
+<term>Notenblätter</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Zur Filiation von Musik um 1500</head>
+<p style="text-align:left; ">Die Filiation als Methode zur Rekonstruktion der Überlieferungslinien eines Textes wird in der Renaissancemusikforschung nicht nur im Rahmen der Edition zur Bewertung von Lesarten verwendet, sondern auch in repertoiregeschichtlichen Studien. So diente sie als methodischer Grundpfeiler sowohl in Atlas‘ Studie (Atlas 1975) zum Cappella Giulia Chansonnier als auch in Urchueguías Studie (Urchueguía 2003) zu Messvertonungen des Siglo de oro. In dem sich aus den spezifischen Herausforderungen dieses Repertoires resultierenden methodischen Diskurs zu den Voraussetzungen und dem Potential der Filiation in der Renaissancemusikforschung, tritt insbesondere die starke hermeneutische Prägung zutage. Bezogen auf ein Material, bei dem eine bloße Recensio zumeist nur zu Variantenträgern führt, wird der Examinatio ein besonderer Stellenwert zugesprochen. (Just 1983: 130) In dieser Konsequenz ist die Filiation von Musikquellen insbesondere vom Begriff der Signifikanz geprägt – auf den Punkt gebracht von Margarent Bent:</p>
+<quote>„It has often been said that manuscripts – and variants – should be weighed and not counted. Statistical counts of readings tell us nothing unless it is clear that the versions are stemmatically independent. However, although the strongest evidence for relating sources comes from variants that are not only shared but ‚significant‘[…]” (Bent 1981: 307)</quote>
+<p style="text-align:left; ">Dass eben diese starke Fokussierung auf die Signifikanz von Lesarten ein tieferes inhaltliches Verständnis des zu untersuchenden Textes erfordert, stellt damit ein wesentliches Charakteristikum dar. So beruht bereits der Variantenbegriff in der Musikphilologie auf der Unterscheidung zwischen substantiellen – d.h. Tonhöhe und -dauer betreffenden – und akzidentiellen Varianten. (Feder 1987: 60f.) Werden über methodentheoretische Beiträge hinaus noch kommentierte Stemmata der New Josquin Edition konsultiert, lassen sich wiederkehrende Argumentationsmuster beobachten:</p>
+<p style="text-align:left; ">Die inhaltliche Gewichtung von Lesarten folgt zumeist einer klaren Hierarchie. Die Klassifikation einer Lesart als Fehler, Variante – im Sinne einer Abweichung von Tonhöhe und/oder Rhythmus – oder als minor variant hat einen erheblichen Einfluss auf die ihr zugesprochene Beweiskraft. So zeigt sich, dass üblicherweise ein komplexes Geflecht aus kleineren und größeren Fehlern wie auch Varianten gebildet wird, das argumentativ gegeneinander abgewogen wird. Wird hierbei einer Lesart Leitcharakter zugesprochen, übertrifft deren Beweiskraft immer die der, stellenweise zahlreichen, anderen Befunde. Steht infolgedessen die Direktionalität der Überlieferung zur Diskussion, basieren die Argumentationsmuster zumeist auf Konzepten wie der Lectio difficilior, der musikalischen Plausibilität von Überlieferungsrichtungen, oder Vorannahmen über Eigenschaften des Archetypus, zumeist begleitet von ästhetischen Werkansprüchen – so werden beispielsweise Hyparchetypen in ein Stemma eingefügt um falsche Lesarten des Archetypus zu vermeiden. In letzter Konsequenz kann beobachtet werden, dass zwei Stemmata derselben Überlieferung erheblich abweichen können, wenn unterschiedliche Vorannahmen zugrunde gelegt werden.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Mensuralnotation als mehrdeutiges Zeichensystem</head>
+<p style="text-align:left; ">Gerade in Bezug auf die Musiküberlieferung vor 1600 erscheinen einige dieser Befunde aus der Perspektive einer Digitalen Musikwissenschaft als erstaunlich. So sind nicht nur Implikationen bezüglich der Stabilität des Werkbegriffs zu hinterfragen. In dem Bewusstsein über die prinzipielle Zeichenhaftigkeit von Musiknotation und eine dieser inhärenten semantischen Mehrdimensionalität, rückt auch das semiologische Gefüge der Überlieferungsform an sich, die Mensuralnotation, in den Fokus.</p>
+<p style="text-align:left; ">So weist Selfridge-Field bereits in ihrem Sammelband zu Musikkodierungsformaten auf die verschiedenen Kontexte hin, die eine musikalische Information beschreiben kann. (Selfridge-Field 1997: 7) Im Kodierungsformat der Music Encoding Initiative (MEI) kommt diesen Kontexten, übernommen aus der Standard Music Description Language, in Form von semantischen Domänen eine zentrale Rolle zu. Damit sind Informationen über Höhe und Dauer eines Tones vornehmlich der logischen Domäne zuzuordnen, während die visuelle Ebene den graphischen Befund, die gesturale Domäne die praktischen Ausführung bzw. klanglichen Ebene und die analytische Domäne Annotationen und Analysen umfasst. Betrachtet man nun Mensuralnotation auf dieser Basis, tritt insbesondere ihre strukturelle Ambiguität hervor. So ist gerade das Verhältnis zwischen einem Zeichen und dessen Bedeutung in der logischen Domäne nicht klar einander überführbar. Vielmehr können sich kontextbedingt Bedeutungen ändern, wenn das mensurale Gesamtgefüge die Dauer eines einzelnen Tons beeinflussen kann, oder im Falle der Alternation von Tonstufen der notierte Befund Leser*innen voraussetzt, die auch implizite Alterationen als solche zu erkennen vermögen. Darüber hinaus spiegeln sich auch Entwicklungsprozesse der Musiktheorie in der Notation wider, insbesondere im Falle von Mensur- und Proportionszeichen. Hier ergeben im äußersten Fall nicht nur verschiedene Symbole dasselbe Resultat auf der logisch-konzeptionellen Ebene. Gleichzeitig ist es möglich, dass ein und dasselbe Zeichen unterschiedliche Bedeutungen haben kann und man lediglich anhand musikalischer Gesichtspunkte abzuwägen vermag, welche der Möglichkeiten zu den geringsten strukturellen Schwierigkeiten führt. Vor diesem Hintergrund erscheint es damit geradezu als konsequent, dass Dumitrescu und van Berchum mit Blick auf die Edition des Occo Codex im CMME-Projekt die Existenz von nicht-substantiellen Varianten grundsätzlich infrage stellen:</p>
+<quote>„The extent to which these can be considered ‘non-substantive’ is questionable: the positioning of line breaks, for instance, will have an effect on an editor’s interpretation of the duration of manuscript accidentals, or stem direction may actually have an effect on rhythm in certain notational styles (as in some brands of 14th-century notation).” (Dumitrescu / van Berchum 2009: 143)</quote>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Filiation als Distinktion von Differenz</head>
+<p style="text-align:left; ">Im hier umrissenen Ansatz soll die Perspektive eröffnet werden, Repertoirestudien zur Renaissancemusik durch den Einsatz computergestützter Analyseverfahren auf eine breitere Basis, jenseits von Fallstudien, zu stellen. Entsprechend der seit den 1990er Jahren erprobten Übernahme von Verfahren der bioinformatischen Phylogenie, wird auch hier ein solcher Ansatz verfolgt. Doch während beim Alignment von Musik bisher insbesondere Ansätze verfolgt wurden, die explizit repräsentationsbedingte Abweichungen zu minimieren suchten, oder auf Retrieval-Szenarien ausgelegt sind, ergibt sich bei der computergestützten Filiation eine andere Konstellation. Vielmehr lässt sich diese als Methode beschreiben, mit der eine Gruppe ähnlicher Texte entsprechend ihrer Differenz in Relation gebracht werden soll. Die Anforderung an einen Prozess lässt sich somit in der spezifischen Distinktionsfähigkeit verorten. Damit stehen die Kodierung, die Datenaufbereitung sowie die Analyse sowohl in Hinblick auf die Leitthemen der traditionellen Filiation als auch in der Auseinandersetzung mit dem Material vor grundsätzlichen Fragen: Welche Rolle spielt das Verhältnis von visuellem Quellentext und dessen logisch-konzeptioneller Ebene? Wie kann das dem Leseprozess inhärenten Interpretationsniveau methodisch so behandelt werden, dass ein schlüssiger Untersuchungsprozess möglich wird? In Bezug auf die Filiation als Verfahren, das sich per se Textzeugen widmet, stellt sich somit die Frage, wie die Integrität dieser auch bei der Analyse einer maschinenlesbaren Repräsentation gesichert werden kann.</p>
+<p style="text-align:left; ">Basierend auf einem Konzept von Kodierung als Datenerhebung, wurde an einem begrenzten Korpus von Quellen – Überlieferungen von Josquins 
+                    <hi rend="italic">Missa D’ung aulte amer</hi> und der damit verwandten Motette 
+                    <hi rend="italic">Tu solus qui facis mirabilia</hi> – ein Ansatz gewählt, der begonnen mit der Kodierung das Verhältnis von visuellem und logisch-konzeptionellem Befund in den Blick nimmt. Im Rahmen der Verfahrensentwicklung wurden diese beiden semantischen Domänen als Parametersets formalisiert, die als Grundlage für ein Alignment des gewählten Materials dienen. In diesem Zuge wurde, da sich der ausschließliche Vergleich der Ergebnisse mit traditionellen Stemmata aufgrund konkurrierender Ansichten über die rekonstruierte Überlieferungsgeschichte als nur wenig überzeugend erwies, eine datenbasierte Evaluationsmethode entwickelt.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Datenbasierte Evaluation von Substitutionsmodellen</head>
+<p style="text-align:left; ">Die wesentliche Herausforderung bestand hierbei in den noch äußerst unzureichenden Erfahrungen im Alignment von Renaissancemusik. Es wurden deshalb differenzbasierte Substitutionsmodelle und ein globales Sequenzalignment verwendet, obwohl statistische Theorien auf ähnlichkeitsbasierten Modellen und lokalen Alignments aufbauen.<ref n="1" target="ftn1"/> Ohne zumindest basales Vorwissen über Substitutionsprozesse in der Renaissancemusik, sind die qualitativen Anforderungen an ähnlichkeitsbasierte Substitutionsmatrizen allerdings nicht erfüllbar. Indem gefordert ist, dass der Erwartungswert negativ und gleichzeitig mindestens ein positiver Wert im Scoringmodell möglich sein soll (Altschul 1991: 556), verlangt dies letztendlich die Festlegung einer neutralen Ähnlichkeit: Die Stelle auf der Skala, an der die Ähnlichkeit nicht groß genug ist, um einen positiven Wert zuzulassen, aber die gleichzeitig nicht different genug ist, um mit einem negativen Wert quantifiziert zu werden. Doch auch wenn eine derartige Zuweisung nicht vorgenommen wird, kann noch immer ein globales Sequenzalignment auf der Basis eines distanzbasierten Modells verwendet werden. Da in diesem Fall aber keine Modelle angewendet werden können, die auf Maximal Segment Scores<ref n="2" target="ftn2"/> beruhen, wurde ein rein datenbasierter Ansatz zur Evaluation gewählt.
+                </p>
+<p style="text-align:left; ">Der hier vorgestellte Ansatz baut auf dem Konzept des Vergleichs mit einem Zufallsmodell auf. Im Zentrum steht das Verfahren der Surrogatdatenanalyse, einem Verfahren aus der Zeitreihenanalyse (Theiler u.a. 1992: 77-78). Dabei werden basierend auf realen Reihen künstliche Daten erzeugt, bei denen gezielt ausgewählte Eigenschaften randomisiert und im Nachgang mit den Originaldaten in einem Hypothesentest verglichen werden können. Im konkreten Fall wird durch Shuffling realer Sequenzen ein Szenario erzeugt, in dem sich die vorliegenden Daten vollständig durch einen unabhängig und identisch verteilten Zufallsprozess beschreiben lassen. Hierbei wird im Wesentlichen der Grundannahme gefolgt, dass sich die Ähnlichkeit zweier Sequenzen in deren Binnenstrukturen manifestiert, also in der konkreten Reihenfolge, in der die Elemente innerhalb von Sequenzen angeordnet sind. Indem diese Binnenstrukturen in den geshuffelten Sequenzen zerstört werden, bleibt die Auftrittswahrscheinlichkeit der Elemente identisch, allerdings werden sämtliche Korrelationen mit der Reihenfolge, in der diese Elemente auftreten, zerstört:</p>
+<figure>
+  <graphic height="6.401152777777778cm" n="1001" rend="inline" url="204_final-5a7176bb5e0256d36bc1fd40589a5140.png" width="16.002cm"/>
+  <head> Abbildung 1: Zerstörung der Binnenstrukturen durch Shuffling.</head>
+</figure>
+<!-- <p style="text-align:left; ">[Abbildung: Zerstörung der Binnenstrukturen durch Shuffling.]</p> -->
+<p style="text-align:left; ">Die Abweichung zwischen den Alignments von realen Sequenzen und Alignments von aus diesen erzeugten randomisierten Sequenzen kann hierdurch quantifiziert und als Grundlage für eine Evaluierung unterschiedlicher Substitutionsmodelle genutzt werden. In dem Fall, in dem durch einen Binnenvergleich ähnlicher Sequenzen diese entsprechend ihrer Differenz in Relation zu setzen sind, kann die Distinktionsfähigkeit von verschiedenen Ähnlichkeits- bzw. Differenzniveaus als zentrale Anforderung an ein Substitutionsmodell formuliert werden.</p>
+<p style="text-align:left; ">Diese Distinktionsfähigkeit kann im Rahmen eines Versuchsaufbaus überprüft werden, in dem eine Zahl von Vergleichen anhand der erwarteten Ähnlichkeit in Gruppen eingeteilt werden, die die Differenzniveaus widerspiegeln. So bilden beinahe identische Sequenzen eine Gruppe, etwas weniger ähnliche eine weitere etc. Dazu kommen Gruppen von Vergleichen, die als gerade so noch ähnlich bewertet werden, und wiederum Vergleiche mit erwarteter Unähnlichkeit – zusätzlich nimmt eine Gruppe von Vergleichen mit einem völlig anderen Stück die Funktion einer Kontrollgruppe ein. Für all diese Gruppen kann nun der Abstand des Vergleichs zwischen den beiden Originalsequenzen und den Surrogaten ermittelt werden.</p>
+<p style="text-align:left; ">Dieser Aufbau ermöglicht es, Mindestkriterien für die Eignung eines Substitutionsmodells zu formulieren. So ist es beispielsweise naheliegend, dass der Abstand zwischen den Originaldaten und den Surrogaten in der Kontrollgruppe möglichst nicht signifikant sein sollte. Ebenso sollte definiert werden, zwischen welchen beiden Gruppen nach Möglichkeit die Signifikanzgrenze liegen sollte, um die so gewünschte Sensitivität festzulegen. Auch kann basierend auf der vorgenommenen Gruppierung eine Varianzanalyse durchgeführt werden, um den Zusammenhang zwischen der vorgenommenen Gruppierung und dem Abstand zwischen Originaldaten und Surrogaten zu überprüfen. Basierend auf den zuvor formulierten Mindestkriterien und der Entwicklung des Abstandes von Originalen und Surrogaten, können somit Modelle verglichen und eine informierte Entscheidung über die Eignung in einem gewählten Einsatzszenario getroffen werden.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit</head>
+<p style="text-align:left; ">Letztendlich kann konstatiert werden, dass die Rekonstruktion von Überlieferungsprozessen immer auf Vorannahmen beruht, egal welches Verfahren angewendet wird. Im Rahmen der traditionellen Stemmatologie führen Annahmen über die Bedingungen des Überlieferungsprozesses oder die Gestalt des Archetypus zu mitunter deutlichen Abweichungen in Stemmata, die ohne eine begleitende Erläuterung nicht zu eruieren sind. Automatisierte Verfahren basierend auf dem Alignment von Sequenzen können hierzu eine fruchtbare Ergänzung darstellen. Bei diesen stellt die Wahl des Substitutionsmodells einen wesentlichen Einflussfaktor dar. Indem allerdings gezielt Analyseparameter in Substitutionsregeln überführt werden, kann deren Einfluss überprüfbar gemacht werden. Wenn so konkurrierende Modelle an identischen Daten verglichen werden, wird deren Einfluss auf die Rekonstruktion von Beziehungen zwischen Textzeugen überprüfbar. (vgl. Plaksin 2019). Die Methode, das Verhalten eines Substitutionsmodells anhand des Vergleichs von echten und künstlich erzeugten Daten sichtbar zu machen, dient hierbei als Evaluationsverfahren und stellt damit einen wesentlichen Bestandteil in der Modellentwicklung dar.</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Während ein globales Alignment zwei vollständige Sequenzen einbezieht, während in einem lokalen Alignment Teile von Sequenzen möglichst optimal aneinander ausgerichtet werden.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Der Ähnlichkeitsscore des längsten Segments in einem lokalen Sequenzalignment. (Altschul 1991: 556)
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Altschul, Stephen F.</hi> (1991): "Amino acid substitution matrices from an information theoretic perspective" in: 
+                        <hi rend="italic">Journal of Molecular Biology</hi> 219.3: 555–565 10.1016/0022-2836(91)90193-a.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Atlas, Allan W.</hi> (1975): 
+                        <hi rend="italic">The Cappella Giulia Chansonnier. (Rome, Bibliotheca Apostolica Vaticana, C.G. XIII.27)</hi>. Brooklyn, NY: Inst. of Mediaeval Music, 1975.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Bent, Margaret</hi> (1981): "Some criteria for establishing relationships between sources of late-medieval polyphony" in: Fenlon, Iain (ed.): 
+                        <hi rend="italic">Music in medieval and early modern Europe.</hi> Cambridge: Cambridge Univ. Press: 295-317.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Berger, Karol</hi> (1987): 
+                        <hi rend="italic">Musica ficta. Theories of accidental inflections in vocal polyphony from Marchetto da Padova to Gioseffo Zarlino.</hi> Cambridge: Cambridge Univ. Press.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Boorman, Stanley</hi> (1981): "Limitations and extentions of filiation technique" in: Fenlon, Iain (ed.): 
+                        <hi rend="italic">Music in medieval and early modern Europe.</hi> Cambridge: Cambridge Univ. Press: 319–346.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Busse Berger, Anna Maria</hi> (1993): 
+                        <hi rend="italic">Mensuration and proportion signs. Origins and evolution.</hi> Oxford monographs on music. Oxford: Clarendon Press.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Dumitrescu, Theodor / van Berchum, Marnix</hi> (2009): "The CMME Occo Codex Edition. Variants and Versions in Encoding and Interface" in: Stadler, Peter / Veit, Joachim (eds.) 
+                        <hi rend="italic">Digitale Edition zwischen Experiment und Standardisierung.</hi> Beihefte zu editio. Tübingen: Niemeyer: 129–146.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Feder, Georg</hi> (1987): 
+                        <hi rend="italic">Musikphilologie. Eine Einführung in die musikalische Textkritik, Hermeneutik und Editionstechnik.</hi> Einführungen. Darmstadt: Wiss. Buchgesellschaft.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Field, Andy / Miles, Jeremy / Field, Zoë</hi> (2012): 
+                        <hi rend="italic">Discovering statistics using R</hi>. London: Sage.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">ISO/IEC DIS 10743</hi>: 
+                        <hi rend="italic">Standard Music Description Language (SMDL)</hi>. https://www.lim.di.unimi.it/IEEE/SMDL/INDEX.HTM [letzter Zugriff 20. September 2019].
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Josquin / Noblitt, Thomas</hi> (ed.) (1997): 
+                        <hi rend="italic">Masses based on secular polyphonic songs: Critical commentary.</hi> New Josquin Edition 7. Utrecht: Vereniging voor Nederlandse Muziekgeschiedenis.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Josquin / Blackburn, Bonnie</hi> (ed.) (2003): 
+                        <hi rend="italic">Motets on non-biblical texts 2: Critical commentary.</hi> New Josquin Edition 22. Utrecht: Vereniging voor Nederlandse Muziekgeschiedenis.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Just, Martin</hi> (1983): "Zur Examinatio von Varianten" in: Finscher, Ludwig (ed.): 
+                        <hi rend="italic">Datierung und Filiation von Musikhandschriften der Josquin-Zeit.</hi> Wolfenbütteler Forschungen. Wiesbaden: Harrassowitz: 129–152.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kranenburg, Peter van</hi> (2010): A Computational Approach to Content-Based Retrieval of Folk Song Melodies. PhD. Universiteit Utrecht. http://hdl.handle.net/20.500.11755/8436a210-ceeb-4c66-ba02-ffe5c7e66a42 [letzter Zugriff 20. September 2019].
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Mongeau, Marcel / Sankoff, David</hi> (1990): "Comparison of Musical Sequences" in: 
+                        <hi rend="italic">Computers and the Humanities</hi> 24.3: 161–175. http://www.jstor.org/stable/30200223 [letzter Zugriff 26. September 2019].
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">The Music Encoding Initiative</hi>: 
+                        <hi rend="italic">An Introduction to MEI.</hi> https://music-encoding.org/resources/introduction.html [letzter Zugriff 19. September 2019].
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">O’Hara, Robert / Robinson, Peter</hi> (1993): "Computer-assisted Methods of Stemmatic Analysis" in: Blake, Norman Francis / Robinson, Peter (eds.): 
+                        <hi rend="italic">The Canterbury Tales Project occasional papers.</hi> Oxford: Office for Humanities Communication: 53–74.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Plaksin, Anna</hi> (2019): 
+                        <hi rend="italic">Modelle zur computergestützten Analyse von Überlieferungen der Mensuralmusik. Empirische Textforschung im Kontext phylogenetischer Verfahren</hi>. Diss., Technische Universität Darmstadt.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Selfridge-Field, Eleanor</hi> (ed.) (1997): 
+                        <hi rend="italic">Beyond MIDI. The Handbook of Musical Codes.</hi> Cambridge, Mass. [u.a.]: MIT Press.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Theiler, James u. a.</hi> (1992): "Testing for nonlinearity in time series. The method of surrogate data" in: 
+                        <hi rend="italic">Physica D: Nonlinear Phenomena</hi> 58.1-4: 77–94. 10.1016/0167-2789(92)90102-S.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Urchueguía, Cristina</hi> (2003): 
+                        <hi rend="italic">Die mehrstimmige Messe im „goldenen Jahrhundert“. Überlieferung und Repertoirebildung in Quellen aus Spanien und Portugal; (ca. 1490 - 1630).</hi> Würzburger musikhistorische Beiträge, Bd. 25. Tutzing: H. Schneider.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

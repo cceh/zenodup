@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="130_final-KR_BER_Cindy_BILDREPOSITORIEN_UND_FORSCHUNG_MIT_DIGITALEN_BI" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Bildrepositorien und Forschung mit digitalen Bildern im Bereich der Kunstgeschichte</title>
+<author>
+<persName>
+<surname>Kröber</surname>
+<forename>Cindy</forename>
+</persName>
+<affiliation>TU Dresden, Deutschland</affiliation>
+<email>cindy.kroeber@tu-dresden.de</email>
+</author>
+<author>
+<persName>
+<surname>Münster</surname>
+<forename>Sander</forename>
+</persName>
+<affiliation>Friedrich-Schiller-Universität Jena, Deutschland</affiliation>
+<email>sander.muenster@tu-dresden.de</email>
+</author>
+<author>
+<persName>
+<surname>Messemer</surname>
+<forename>Heike</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>heike.messemer@uni-wuerzburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T17:19:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Bildrepositorien</term>
+<term>KunsthistorikerInnen</term>
+<term>Nutzerstudien</term>
+<term>wissenschaftliche Forschungspraktiken</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Bilder</term>
+<term>Multimedia</term>
+<term>Forschung</term>
+<term>Forschungsprozess</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Das Verständnis zu Forschungspraktiken und Bedürfnissen von WissenschaftlerInnen und angehenden ForscherInnen im Bereich der Kunstgeschichte sowie ihren Herausforderungen und Ansprüchen beim Zugang und bei der Nutzung digitaler Ressourcen, wie z.B. Bildrepositorien, ist essentiell für den Aufbau geeigneter digitaler Infrastrukturen, die den wissenschaftlichen Arbeitsablauf effektiv erleichtern und den Wert der Bestände steigern. Vor diesem Hintergrund geht es uns darum, zu untersuchen, wie KunsthistorikerInnen mit digitalen Informationen und insbesondere mit Bildbibliotheken umgehen und welche Qualitätskriterien sie dabei heranziehen. </p>
+<p style="text-align:left; ">Dieser Beitrag zielt darauf ab, Implikationen für eine Nutzung und nutzerzentrierte Gestaltung von Ressourcen und insbesondere von Bildrepositorien abzuleiten. Um forschungsbezogene Aufgaben adäquat zu unterstützen, haben verschiedene Ansätze versucht, den Forschungsprozess zu formalisieren, indem sie sogenannte Forschungsprimitive als grundlegende Aufgaben (z.B. Entdecken, Kommentieren, Vergleichen oder Referenzieren) innerhalb der Forschung identifiziert haben (Palmer/Teffeau/Pirmann 2009, Unsworth 2000, Ross 2010) oder das Zwischenspiel von Aufgaben während der Forschungstätigkeit modellieren (z.B. Benardou et al. 2010, Pertsas/Constantopoulos 2017). Da sich solche Beschreibungen leicht in Software-Designs übertragen lassen, besteht ein Widerspruch zu den vielschichtigen Methoden und komplexen Vorgehen, mit denen Wissenschaft tatsächlich praktiziert wird.<ref n="1" target="ftn1"/>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Nutzerstudie mit Studierenden der Kunstgeschichte</head>
+<p style="text-align:left; ">Die Daten für diese Umfrage stammen aus einer Fokusgruppen-Diskussion vom September 2016 mit 15 Studierenden des Studiengangs Kunst- und Architekturgeschichte der Universität Würzburg und werden ergänzt durch Interviews mit 5 Studierenden der Kunstgeschichte an der TU Dresden vom Juni 2019. Es handelte sich um Bachelor- und Masterstudierende im Alter zwischen 20 und 70 Jahren. </p>
+<p style="text-align:left; ">Die Studierenden aus Würzburg sollten für eine Exkursion Informationen über bestimmte Gebäude der Stadt Dresden vorbereiten und präsentieren. Im Rahmen einer Fokusgruppe hat der Moderator Fragen nach dem Rechercheverhalten für die Vorbereitung der Exkursionsaufgabe gestellt und wollte, dass die Studierenden ihren allgemeinen Forschungsprozess beschreiben. Der schriftliche Bericht der Fokusgruppen lieferte die Daten für eine qualitative Auswertung. Eine geeignete Methode ist die von Philipp Mayring eingeführte qualitative Inhaltsanalyse (Mayring 2008). Die Umfrage ist durch mehrere Aspekte eingeschränkt, wie z.B. die geringe Zahl der studentischen TeilnehmerInnen, die alle von der gleichen Universität kamen oder ihre sehr spezifische Aufgabe im Bereich Architekturgeschichte. Die Anwesenheit des Lehrenden und der KommilitonInnen kann ebenfalls zu einer Verzerrung der Antworten führen. Daher wurde im Juni 2019 mit einer weiteren Interviewphase begonnen. Diese Interviews sind losgelöst von einer spezifischen Aufgabe. Die TeilnehmerInnen werden insbesondere zu ihrem Forschungsprozess und ihren Qualitätskriterien im Umgang mit digitalen Bildrepositorien befragt. Von diesen Interviews wurden Audioaufnahmen gemacht, die transkribiert und dann ebenfalls nach Mayrings qualitativer Inhaltsanalyse ausgewertet wurden. </p>
+<div rend="DH-Heading2" type="div2">
+<head>Ergebnisse der Studie</head>
+<p style="text-align:left; "><hi rend="italic">Phasen im Forschungsprozess</hi> </p>
+<p style="text-align:left; ">Im Gespräch berichteten die Studierenden, dass sie sich zu Beginn der Bildersuche einen ersten Eindruck verschaffen und die Aufgabe erfassen wollen. Meist wird auch vorab online und bei der Bibliothek geschaut, ob genug Material zum Thema zur Verfügung steht. Die initiale Bildersuche diente der Inspiration und Recherche nach verwandten Themen sowie der Hypothesenbildung (Frage: Wie sind Sie an Ihren Rechercheprozess herangegangen?). Im Anschluss änderte sich ihr Suchverhalten und Bedarf, um alle relevanten Informationen zu sammeln und zu strukturieren, um schlussendlich die Präsentation vorzubereiten. Die gesamte Recherche wurde von den Informationen beeinflusst, auf die sie währenddessen stießen.</p>
+<p style="text-align:left; ">Die Studierenden waren sich einige, dass Bilder hauptsächlich online gesucht werden. Bei der Frage, wo sie nach den Bildern gesucht haben (Frage: Welche digitalen Datenbanken und Plattformen haben Sie für die Bildsuche gewählt?), ergab sich folgende Listung: 1) Google, 2) der Bibliothekskatalog, 3) verschiedene Literatur und digitale Texte mit Bildern wie Bücher und PDF-Dokumente und 4) andere Datenbanken, z.B. Wikipedia, (Flickr), Instagram, Pinterest und andere ausländische Plattformen. Die Studierenden sind sich bewusst, dass sie auch eigene Fotografien nutzen können. In den Interviews gaben die Studierenden der TU Dresden an, spezifische Kunstwerke vorrangig bei Prometheus zu suchen, da es ihnen so im Seminar gezeigt wurde. Alternativen wie das Bildarchiv Foto Marburg und die Deutsche Fotothek waren teilweise sogar unbekannt, was aber auch am unterschiedlichen Fokus der Sammlungen liegen kann. Die Deutsche Digitale Bibliothek, die Zugang zu Sammlungen verschiedener Institutionen bietet und somit eine größere Trefferquote verspricht, wurde gar nicht genannt.</p>
+<p style="text-align:left; ">In Bezug auf die Bedeutung von Bildern für die Gestaltung der Forschung wurde bereits die starke Beeinflussung der WissenschaftlerInnen durch die Primärquellen im Forschungsprozess festgestellt (Long/Schonfeld 2014: 18). Empirisch gesehen suchen NutzerInnen benötigte Bilder mit vertrauten Abläufen (Beaudoin 2009: 286) und verwenden für die Suche in (unbekannten) Repositorien Fachbegriffe – „concept-based for theme, and object-based for thing“ (Beaudoin 2009: 297).</p>
+<p>&#160;</p>
+<p style="text-align:left; "> <hi rend="italic">Kriterien für die Bildersuche </hi> </p>
+<p style="text-align:left; ">Die Fokusgruppe zeigte, dass für die Studierenden eine präzise Suche am wichtigsten ist. Eine Suchanfrage enthält zwei Probleme: Irrelevante Punkte müssen weggelassen werden, um eine wesentlich schnellere Überprüfung der Ergebnisse zu ermöglichen, und relevante Punkte müssen hervorgehoben werden, um eine unverzerrte Wahrnehmung der Daten zu gewährleisten (Datta et al. 2008). Auch wenn das „Browsen“ von großen Bildmengen als gründlicher Weg beim Zugriff auf eine Bilddatenbank (Besser 1990) anerkannt ist und von Menschen gerne als Inspiration genutzt wird (Hastings 1999), ist es angesichts der Vielzahl der heute angebotenen digitalisierten Bilder sehr zeitaufwändig. In der Regel greifen BenutzerInnen über eine Stichwortsuche auf Bildrepositorien zu. Dies erfordert die Übersetzung von visuellen Bedarfen in Text (Pisciotta 2001). </p>
+<p style="text-align:left; ">In der Kunstgeschichte fungieren Bilder als Digitalisat eines Kunstobjekts. Der Fokus liegt auf dem abgebildeten Objekt, das typischerweise ein bekanntes Objekt wie ein Gemälde oder eine Skulptur ist und gezielt nach z.B. Titel oder KünstlerIn gesucht wird (Hastings 1999). Fotografien einer Stadtansicht oder eines Gebäudes, die für die Architekturgeschichte von Bedeutung sind, benötigen eine spezielle Beschreibung für den Suchvorgang (Matusiak 2006). In den meisten Datenbanken müssen Schlüsselwörter für die Suche mit den Metadaten eines Bildes übereinstimmen. </p>
+<p style="text-align:left; ">Die Suche nach Bildern oder die Produktion von Texten sind in der Kunstgeschichte nach wie vor grundlegende Vorgänge auch wenn im Bereich der Digitalen Kunstgeschichte viel über neuartige Forschungsansätze diskutiert wird (Heusinger 1989, Kohle 2013, Drucker 2013, Bentkowska-Kafel 2015). Die digitalen Technologien zielen nicht unbedingt darauf ab die Methoden der ForscherInnen zu verändern (Long/Schonfeld 2014: 42), sondern wollen neuartige Forschungsfragen beantworten, neue Analysetechniken anwenden oder die Nutzung von Technologie als Medium für neue Forschungspraktiken etablieren.</p>
+<p>&#160;</p>
+<p style="text-align:left; "><hi rend="italic">Wo wird gesucht?</hi> </p>
+<p style="text-align:left; ">Die Studierenden gaben an, gern Google zu nutzen, weil die Suchmaschine Schlagworte sehr gut handhabt und neben den zufriedenstellenden Suchergebnissen auch den weiteren Rechercheprozess befördert. Die vorzugsweise Verwendung dieser generischen Suchmaschine wurde bereits in anderen Studien festgestellt (Kemman/Kleppe/Scagliola 2014, Gregory 2007), auch wenn es verschiedene Repositorien gibt, die sich speziell an WissenschaftlerInnen aus den Bereichen Kunst und Architektur richten (Chen 2009). Die Volltextsuche von Google kann sehr gut mit der Stichwortsuche umgehen: Rechtschreibung, Sprach- und Namensvariationen oder lokale Namen sind für Google keine Herausforderung. Es wurde festgestellt, dass sich Google als hilfreich erwies, indem es geeignete Keywords vorschlug, die für andere Plattformen verwendet werden können (Gibbs/Owens 2012). Verwandte Suchergebnisse oder weitere Vorschläge sind z.B. auf Ähnlichkeitsanalysen mit z.B. Künstlicher Intelligenz oder die Analyse von Präferenzen anderer Nutzer zurückzuführen. </p>
+<p style="text-align:left; ">Die Handhabung von Google wird als Standard akzeptiert. Plattformen, die sich stark von Google unterscheiden und nicht den Usability-Standards entsprechen, sind im Nachteil (Kemman/Kleppe/Scagliola 2014). Die Studierenden sind sich bewusst, dass Bilder von Google aus urheberrechtlichen Gründen nicht unbedingt für Veröffentlichungen verwendet werden können und dass Google nicht die einzige verwendete Quelle sein sollte. Dies könnte damit zusammenhängen, dass den Studierenden die Qualität von Google für die Wissenschaft nicht genügt oder sie ein Bewusstsein für den Einfluss der Algorithmen auf die von Google angezeigten Ergebnisse entwickelt haben (Kemman/Kleppe/Scagliola 2014).</p>
+<p style="text-align:left; ">Veranstaltungen zum Wissenschaftlichen Arbeiten in der Kunstgeschichte sind Teil des Curriculums. In der Regel wird dort auch der Bibliothekskatalog oder eine Plattform wie 
+                        <hi rend="italic">prometheus. Das verteilte digitale Bildarchiv für Forschung und Lehre</hi> vorgestellt. Dadurch haben die Studierenden ein höheres Maß an Vertrauen in diese Angebote (Kemman/Kleppe/Scagliola 2014) und schauen nicht nach weiteren Quellen zur Verifizierung ihrer Ergebnisse. Urheberrechtsstatus und Bildqualität sind in der Regel zufriedenstellend. Die Studierenden nutzen auch andere Quellen, um einen umfassenderen Eindruck vom Forschungsobjekt zu erhalten. Allerdings werden Bilder in Textdokumenten wie digitalisierten Schulbüchern in der Regel nicht extra indiziert und können daher nicht direkt in einer Datenbank abgerufen werden. Sie sind aber sehr wertvoll, da die schriftlichen Ausführungen weitere Informationen liefern. Darüber hinaus ist es für die Studierenden sehr hilfreich, über Links Zugang zu verwandten Themen und weiteren Informationen zu haben. Ein eingeschränkter Zugang durch eine Registrierung stellt eine Barriere dar, die die Studierenden nur zögerlich angehen, da sie nicht wissen, ob sich die darüber zugänglichen Inhalte lohnen. 
+                    </p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Empfehlungen</head>
+<list type="unordered">
+<item>Verbesserung der Metadatenqualität</item>
+</list>
+<p style="text-align:left; ">Falsche oder unvollständige Metadaten sind auch heute noch ein Problem, welche den Erfolg bei der Suche nach Bildern beeinflussen (Beaudoin 2009: 298). Zum einen, weil die einschlägigen Datenbanken ihre Suchfunktion immer noch fast ausschließlich darauf ausrichten und zum anderen, weil die Nutzer sich damit auch immer noch arrangieren.</p>
+<p style="text-align:left; ">Crowdsourcing als Ansatz besitzt das Potential diesen Zustand der Metadaten zu verbessern (Nowak/Rüger 2010). Sofern Bilddatenbanken Kommentarfunktionen aufweisen, wird den KommentarverfasserInnen allerdings kaum geantwortet, weil kein Personal dafür zur Verfügung steht. Benötigt werden daher partizipative Plattformen. Insbesondere bei der Suche nach Fotos sind fehlende oder unzureichende Beschreibungen zu Bildinhalt und Kontext (Fotograf, Erstellungsdatum etc.) ebenfalls ein Hindernis. </p>
+<p style="text-align:left; ">Ein weiterer Ansatz stützt sich auf Künstliche Intelligenz und deren Einsatz für z.B. eine intelligente Verschlagwortung<ref n="2" target="ftn2"/> sowie u.a. Objekt- und Kontexterkennung<ref n="3" target="ftn3"/> .
+                </p>
+<p style="text-align:left; ">Für eine Suche überflüssig werden Metadaten, wenn Fotografien in einem digitalen 3D-Stadtmodell verortet werden. So können auf den Fotos abgebildete Gebäude mit den virtuellen Architekturmodellen direkt verlinkt und darüber gefunden werden (Maiwald et al. 2019: 9). </p>
+<list type="unordered">
+<item>Verbesserung der Benutzerfreundlichkeit</item>
+</list>
+<p style="text-align:left; ">Digitale Repositorien sind heute nicht nur Werkzeuge für ExpertInnen aus der Informatik. Daher ist es umso wichtiger, Feedback zu Funktionalitäten und Interfacedesign von den tatsächlichen NutzerInnen zu erhalten und bei der Entwicklung digitaler Lösungen zu berücksichtigen. Somit kann auch eine Nachhaltigkeit der Anwendungen gestärkt werden. </p>
+<list type="unordered">
+<item>Sensibilisierung für digitale Prozesse</item>
+</list>
+<p style="text-align:left; ">WissenschaftlerInnen als potentielle NutzerInnen sollten schon in den frühen Phasen der Digitalisierungsprozesse einbezogen werden, in dem ihre Bedarfe identifiziert und berücksichtigt werden. Ebenso wichtig ist die Transparenz hinsichtlich der Entscheidungen, die beim Aufbau einer digitalen Ressource getroffen werden. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick</head>
+<p style="text-align:left; ">Der in diesem Beitrag vollzogene Überblick über die Verwendung von Bilddatenbanken durch KunsthistorikerInnen und deren Nutzungsbedarfen soll Ansätze zur Umsetzung und Weiterentwicklung der formulierten Empfehlungen liefern. Darüber hinaus werden wichtige Handlungsbedarfe in den Bereichen Verbesserung der digitalen Zugänglichkeit von Bildern (z.B. hinsichtlich Verknüpfung von Bildern und Informationen, beständige technologische Aktualisierung von Anwendungen) und Langzeitarchivierung digitaler Daten gesehen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Forschungsförderung</head>
+<p style="text-align:left; ">Die diesem Beitrag zugrundeliegende Forschung ist Teil der Aktivitäten der Nachwuchsforschungsgruppe HistStadt4D, die vom Bundesministerium für Bildung und Forschung im Rahmen der Fördervereinbarung Nr. 01UG1630 gefördert wird.</p>
+</div>
+</body>
+<back>
+<div type="notes"><note n="1" rend="footnote text" xml:id="ftn1">
+Vgl. dazu Artikel „Scientific method“ in der englisch-sprachigen Wikipedia, online verfügbar unter: https://en.wikipedia.org/wiki/Scientific_method (16.09.2019).
+</note>
+<note n="2" rend="footnote text" xml:id="ftn2">
+Exploring art with open access and AI: What’s next?, in The Met Museum. Online verfügbar unter: https://www.metmuseum.org/blogs/now-at-the-met/2019/met-microsoft-mit-exploring-art-open-access-ai-whats-next. (09.09.2019)
+</note>
+<note n="3" rend="footnote text" xml:id="ftn3">
+Artificial intelligence as a bridge for art and reality, von J. H. Dobrzynski, in The New York Time, 25.10.2016
+</note>
+</div>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Beaudoin, Joan E.</hi> (2009): 
+  <hi rend="italic">An Investigation of Image Users across Professions: A Framework of Their Image Needs, Retrieval and Use</hi>. PhD, Drexel University.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Benardou, Agiatis / Constantopoulos, Panos / Dallas, Costis / Gavrilis, Dimitris</hi> (2010): “Understanding the Information Requirements of Arts and Humanities Scholarship”, in: 
+  <hi rend="italic">International Journal of Digital Curation</hi> 1 (5): 18-33.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Bentkowska-Kafel, Anna</hi> (2015): “Debating Digital Art History”, in: 
+  <hi rend="italic">DAH-Journal</hi> 1: 50-64.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Besser, Howard</hi> (1990): “Visual access to visual images: the UC Berkeley Image Database Project”, in: 
+  <hi rend="italic">Library trends</hi> 38 (4): 787-798.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Chen, Ching-Jung</hi> (2009): “Art history: a guide to basic research resources”, in: 
+  <hi rend="italic">Collection Building</hi> 28 (3): 122-125.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Datta, Ritendra / Joshi, Dhiraj / Li, Jia / Wang, James Z.</hi> (2008): “Image retrieval: Ideas, influences, and trends of the new age”, in: 
+  <hi rend="italic">ACM Comput. Surv.</hi> 40 (2): 1-60.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Drucker, Johanna</hi> (2013): “Is There a ‘Digital’ Art History?”, in: 
+  <hi rend="italic">Visual Resources</hi> 29 (1-2): 5-13.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Heusinger, Lutz</hi> (1989): “Applications of Computers in the History of Art”, in: Hamber, Anthony / Miles, Jean / Vaughan, William (Hrsg.): 
+  <hi rend="italic">Computers and the History of Art</hi>. London and New York: Mansell Pub. 1-22.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Gibbs, Fred / Owens, Trevor</hi> (2012): “Building better digital humanities tools”, in: 
+  <hi rend="italic">DH Quarterly</hi>, 6 (2): o.S.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Gregory, Tori R.</hi> (2007): “Under-Served or Under-Surveyed: The Information Needs of Studio Art Faculty in the Southwestern United States”, in: 
+  <hi rend="italic">Art Documentation: Journal of the Art Libraries Society of North America</hi> 26 (2): 57-66.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Hastings, Samantha Kelly</hi> (1999): “Evaluation of image retrieval systems: Role of user feedback”, in: 
+  <hi rend="italic">Library trends</hi> 48 (2): 438.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Kemman, Max / Kleppe, Martijn / Scagliola, Stef</hi> (2014): ’Just Google It’. in: Mills, Clare /Pidd, Michael /Ward, Esther (Hrsg.): 
+  <hi rend="italic">Proceedings of the Digital Humanities Congress 2012 . Studies in the Digital Humanities</hi>. Sheffield: HRI Online Publications o.S.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Kohle, Hubertus</hi> (2013): 
+  <hi rend="italic">Digitale Bildwissenschaft</hi>. Glückstadt: Hülsbusch.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Long, Matthew P. / Schonfeld, Roger C.</hi> (2014): 
+  <hi rend="italic">Supporting the Changing Research Practices of Art Historians</hi>. o.O.: Ithaka S+R.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Maiwald, Ferdinand / Bruschke, Jonas / Lehmann, Christoph / Niebling, Ferdinand</hi> (2019): “A 4D information system for the exploration of multitemporal images and maps using photogrammetry, web technologies and VR/AR”, in: 
+  <hi rend="italic">Virtual Archaeology Review</hi> 10 (21): 1-13.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Matusiak, Krystyna K.</hi> (2006): “Towards user-centered indexing in digital image collections”, in: 
+  <hi rend="italic">OCLC Systems &amp; Services: International digital library perspectives</hi> 22 (4): 283-298.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Mayring, Philipp</hi> (2008): 
+  <hi rend="italic">Qualitative Inhaltsanalyse. Grundlagen und Techniken</hi>. Weinheim: Beltz Deutscher Studien Verlag.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Nowak, Stefanie / Rüger, Stefan</hi> (2010): “How reliable are annotations via crowdsourcing: a study about inter-annotator agreement for multi-labelimage annotation”, in: 
+  <hi rend="italic">Proceedings of the international conference on Multimedia information</hi> 557-566.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Palmer, Carole L. / Teffeau, Lauren C. / Pirmann, Carrie M.</hi> (2009): 
+                        <hi rend="italic">Scholarly Information Practices in the Online Environment: Themes from the Literature and Implications for Library Service Development</hi>, Report commissioned by OCLC Research, online verfügbar unter: http://www.oclc.org/programs/publications/reports/2009-02.pdf (letzter Zugriff 16. September 2019).
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Pertsas, Vayianos / Constantopoulos, Panos</hi> (2017): “Scholarly Ontology: modelling scholarly practices”, in: 
+                        <hi rend="italic">International Journal on Digital Libraries</hi> 18 (3): 173-190.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Pisciotta, Henry / Brisson, Roger / Ferrin, Eric / Dooris, Michael / Spink, Amanda</hi> (2001): “Penn State visual image user study”, in: 
+                        <hi rend="italic">D-Lib Magazine</hi> 7(7/8): 169-196.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Ross, Seamus</hi> (2010): 
+                        <hi rend="italic">Expert Forum on Scholarly Activity and Information Process</hi>, 10.-11. Juni 2010 in Athen.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold" xml:space="preserve">Unsworth, John </hi>(2000): “Scholarly Primitives: what methods do humanities researchers have in common, and how might our tools reflect this?”, in: 
+                        <hi rend="italic">Symposium on Humanities Computing: formal methods, experimental practice</hi>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

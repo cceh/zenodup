@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="228_final-SPORLEDER_Caroline_Multimodales_Zusammenspiel_von_Text_und_e" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Multimodales Zusammenspiel von Text und erlebter Stimme – Analyse der Lautstärkesignale in direkter Rede</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Guhr</surname>
+                        <forename>Svenja</forename>
+                    </persName>
+                    <affiliation>GCDH, Universität Göttingen, Deutschland</affiliation>
+                    <email>svenjasimone.guhr@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Varachkina</surname>
+                        <forename>Hanna</forename>
+                    </persName>
+                    <affiliation>GCDH, Universität Göttingen, Deutschland</affiliation>
+                    <email>hanna.varachkina@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lee</surname>
+                        <forename>Geumbi</forename>
+                    </persName>
+                    <affiliation>GCDH, Universität Göttingen, Deutschland</affiliation>
+                    <email>geumbi.lee@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sporleder</surname>
+                        <forename>Caroline</forename>
+                    </persName>
+                    <affiliation>GCDH, Universität Göttingen, Deutschland</affiliation>
+                    <email>csporled@gwdg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019-01-12T21:07:42</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Lautstärkeanalyse</term>
+                    <term>Literaturanalyse</term>
+                    <term>Expressionismus</term>
+                    <term>Verba Dicendi</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Sprache</term>
+                    <term>Multimodale Kommunikation</term>
+                    <term>Ton</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="color(#000000)">Die Betrachtung von Erzählformen und Figurenrede stellt in der Literaturwissenschaft ein wichtiges Analysekriterium dar. Bereits 1969 setzte sich Gérard Genette mit dem repräsentationslogischen Verhältnis in Prosatexten auseinander. Dabei betrachtete er die Zeit, den Raum und die Figuren, jedoch ließ er die Art und Weise des Sprechakts außen vor (Genette, 1969). Einige Jahrzehnte später entwickelte sich in der Narratologie ein neuer Forschungszweig, der sich mit der Figurenrede auseinandersetzt. Die Audionarratologie analysiert den Zusammenhang zwischen Geräuschen und narrativen Formen in Texten und befasst sich mit dem geräuschvollen Erlebnis des leisen Lesevorgangs in der Vorstellungskraft der Leserinnen und Leser (i.F. Leser)</hi>
+                <hi rend="color(#141213)">8Mildorf / Kinzel, 2016, </hi>
+                <hi rend="color(#000000)">Kuzmičová, 2013). </hi>
+            </p>
+            <p>Autorinnen und Autoren (i.F. Autoren) nutzen die direkte Rede als Mittel, um den Figuren eine Stimme zu geben und sie in den Köpfen ihrer Leser sprechen zu lassen (Nord, 1997). Als Möglichkeiten bestehen Geräuschbeschreibungen aber auch die redeeinleitenden Verben, Verba Dicendi, die bei der Verschriftung der Figurenrede eine relevante Rolle spielen. Diese Verbgruppe beschreibt die Art und Weise, wie die Leser sich die Konversation der Figuren vorzustellen haben, d.h. ob die Romanfiguren z.B. schreiend oder flüsternd kommunizieren. Verba Dicendi können anhand ihrer multimodalen Eigenschaft das Inhaltsverständnis unterstützen. Sie beschreiben die Sprechsituation und die Realisierung der direkten Rede und dienen dem multimodalen Zusammenspiel von Text und erlebter Stimme.</p>
+            <p>
+                <hi rend="color(#000000)">Katsma analysierte die in Romanen dargestellte Lautstärke von Dialogen computergestützt, indem er die Verba Dicendi in Lautstärkeniveaus einteilte und daran den Dynamikverlauf aufgeteilt auf Romankapitel verfolgte und die Dialogbeiträge von Figuren in ein Lautstärkediagramm einordnete (Katsma, 2014).</hi>
+                <hi rend="color(#000000)">Auch Chapman (1984) und Nord (1997) beschäftigten sich mit Lautstärke in Prosatexten. Hierbei nannten sie den Zusammenhang zwischen beschreibenden adverbialen Bestimmungen und lautstärkeneutralen Verba Dicendi wie z.B. in „called loudly“ (Chapman, 1984: 95) oder „said [...] hastily“ (Nord, 1997: 114). </hi>
+            </p>
+            <p>Im Rahmen einer Pilotstudie haben wir die Verba Dicendi und die sie beschreibenden Adverbien näher betrachtet mit dem Ziel stichprobenartig zu untersuchen, inwiefern die Lautstärkesignale eines Textes mit literaturwissenschaftlich relevanten Kategorien korrelieren. Eine schon von Katsma (2014) geäußerte Hypothese ist, dass Lautstärke mit „Emotionalität“ zusammenhänge. Eine literarische Strömung wie der Expressionismus, der durch eine Betonung des inneren Ausdrucks und eine Ablehnung des Rationalen charakterisiert ist, müsste sich daher durch große Schwankungen zwischen lauten und leisen Passagen auszeichnen. </p>
+            <p>Um diese Hypothese zu untersuchen wurden drei Korpora (insg. 161 Texte) zusammengestellt. Das erste besteht aus 57 Prosatexten um 1900 von Autoren, die der expressionistischen Literaturströmung zugeordnet werden können (Anz, 2016: 5f.). Als Vergleichsbasis dient ein zweites Korpus desselben Zeitraums von Autoren, die verschiedenen literarischen Strömungen zugeordnet werden (Fin de Siècle, Exilliteratur, Naturalismus, Realismus). Das dritte Korpus, bestehend aus 14 kurzen Texten von Autoren um 1900, dient als manuell annotiertes Kontrollkorpus der Evaluierung der Ergebnisse.</p>
+            <p>
+                <hi rend="color(#000000)">Als erster Schritt im methodischen Vorgehen wurden aus den zu betrachtenden Korpora mit einem regelbasierten Verfahren die verwendeten Verba Dicendi automatisch identifiziert und extrahiert. Als Grundlage für die Entwicklung des verwendeten Algorithmus wurden die morphologischen Eigenschaften der regelmäßigen und unregelmäßigen standarddeutschen Verba Dicendi im Präteritum und Präsens sowie die sie umgebenden Satzzeichen beachtet. Daraufhin wurden die </hi>
+                <hi rend="color(#000000)">Verben mit den Ergebnissen aus einer vorhergehenden Studie zum Lautstärkeempfinden von deutschen Verba Dicendi (Onlineumfrage, 2018) abgeglichen. Hierbei generierte Prozentwerte ergaben Abstufungen von </hi>
+                <hi rend="color(#000000)italic">schreien</hi>
+                <hi rend="color(#000000)"> (100%) über </hi>
+                <hi rend="color(#000000)italic">rufen</hi>
+                <hi rend="color(#000000)"> (91.4%), </hi>
+                <hi rend="color(#000000)italic">sagen</hi>
+                <hi rend="color(#000000)"> (25.5%) und </hi>
+                <hi rend="color(#000000)italic">flüstern</hi>
+                <hi rend="color(#000000)"> (14%) bis </hi>
+                <hi rend="color(#000000)italic">denken</hi>
+                <hi rend="color(#000000)"> (2%). Die daraus gezogenen Werte der extrahierten redeeinleitenden Verben wurden in Abhängigkeit zur Textlänge aufsummiert, sodass ein Lautstärkeprofil pro Prosatext erstellt werden konnte.</hi>
+            </p>
+            <p>Zudem wurden Adjektive und Adverbien, die die Verba Dicendi als Träger der Beschreibungsinformationen der direkten Rede umgeben, in einem Fenster von vier Tokens vor und nach dem Verb in die Betrachtung miteinbezogen. Dabei wurde herausgefunden, dass vor allem die Adverbien und Kollokationen (z.B. „mit lauter Stimme“) für das Lautstärkeprofil relevant sind.</p>
+            <p>
+                <hi rend="color(#000000)">Mithilfe der Erkenntnisse aus der Analyse der lautstärkevermittelnden Verba Dicendi und der sie beschreibenden Adverbien soll im weiteren Vorgehen untersucht werden, ob Lautstärkehinweise in Prosatexten neue Erkenntnisse für die Literaturwissenschaft im Hinblick auf Einordnungskriterien in verschiedene literarische Strömungen liefern können. Auch soll der Einfluss, den Beschreibungen von Figurenrede auf das Leseempfinden von Diskurspassagen haben, analysiert werden. Hierbei sollen die expressionistischen Prosatexte als Vergleichsbasis dienen, um Gemeinsamkeiten und Unterschiede im Hinblick auf die Lautstärkekriterien zwischen den Werken des expressionistischen Kontrollkorpus und den Werken aus dem heterogenen Korpus mit Prosatexten um 1900 herauszustellen.</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Anz, Thomas (2016 2):</hi>
+                        <hi rend="italic">Literatur des Expressionismus</hi>, 
+                        Springer-Verlag GmbH Deutschland.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bakhtin, Mikhail (1981):</hi>
+                        <hi rend="italic">Forms of Time and of the Chronotope in the Novel</hi>, 
+                        in: The Dialogic Imagination, Texas: University of Texas Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chapman, Raymond (1984):</hi>
+                        <hi rend="italic">The Treatment of Sounds in Language and Literature</hi>, 
+                        Basil Oxford: Blackwell Publisher Limited. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dahl, Alva (2014):</hi>
+                        <hi rend="italic">The separation of voices in a literary utterance: a dialogical approach to discourse presentation, viewpoint, focalization – and punctuation</hi>, 
+                        Online Proceedings of the Annual Conference of the Poetics and Linguistics Association (PALA).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Delazari, Ivan (2016):</hi>
+                        <hi rend="italic">Voicing the Split Narrator: Readers’ Chores in Toni Morrison’s “Recitatif”</hi>, 
+                        in: 
+                        <hi rend="bold">Mildorf, Jarmila / Kinzel, Till (2016):</hi> 
+                        <hi rend="italic">Audionarratology. Interfaces of Sound and Narrative</hi>, 
+                        De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Genette, Gérard (1969):</hi>
+                        <hi rend="italic">Figures</hi>. 
+                        Essais, Paris: Editions du Seuil.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Katsma, Holst (2014):</hi>
+                        <hi rend="italic">Loudness in the Novel</hi>, 
+                        Stanford, US: Standford Literary Lab.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kuzmičová, Anežka (2013):</hi> 
+                        <hi rend="italic">Outer vs. Inner Reverberations: Verbal Auditory Imagery and Meaning-Making in Literary Narrative</hi>, 
+                        Journal of Literary Theory 7 (1-2): 111-134, https://philpapers.org/archive/KUZOVI.pdf [zuletzt abgerufen 04.01.2019].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">LimeSurvey (2018):</hi>
+                        <hi rend="italic">LimeSurvey Manual</hi>, 
+                        https://manual.limesurvey.org/LimeSurvey_Manual.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mildorf, Jarmila / Kinzel, Till (2016):</hi>
+                        <hi rend="italic">Audionarratology: Prolegomena to a Research Paradigm Exploring Sound and Narrativey</hi>, 
+                        in: 
+                        <hi rend="bold">Mildorf, Jarmila / Kinzel, Till (2016):</hi> 
+                        <hi rend="italic">Audionarratology. Interfaces of Sound and Narrative</hi>, 
+                        De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nord, Christiane (1997):</hi> 
+                        <hi rend="italic">Alice abroad: Dealing with descriptions and transcriptions of paralanguage in literary translation</hi>, 
+                        in:
+                        <hi rend="bold">Poyatos, Fernando (1997):</hi> 
+                        <hi rend="italic">Nonverbal Communication and Translation: New Perspectives and Challenges in Literature, Interpretation and the Media</hi>, 
+                        Amsterdam/Philadelphia: John Benjamins Publishing Company, 107-130.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scarry, Elaine (2001):</hi> 
+                        <hi rend="italic">Dreaming by the Book</hi>, 
+                        Princeton: Princeton UP.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schmid, Helmut (1994):</hi>
+                        <hi rend="italic">Probabilistic Part-of-Speech Tagging Using Decision Trees.</hi> 
+                        in: Proceedings of International Conference on New Methods in Language Processing, Manchester, UK.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Winkler, Edeltraud (1987):</hi> 
+                        <hi rend="italic">Syntaktische und semantische Eigenschaften von Verba Dicendi</hi>, 
+                        Akademie der Wissenschaften, DDR.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

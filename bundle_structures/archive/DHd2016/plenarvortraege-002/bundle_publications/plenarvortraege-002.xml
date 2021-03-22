@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="plenarvortraege-002">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Von den 'digital humanities' zu einer humanen Digitalisierung</title>
+        <author>
+          <name>
+            <surname>Zweig</surname>
+            <forename>Katharina Anna</forename>
+          </name>
+          <affiliation>TU Kaiserslautern, Deutschland</affiliation>
+          <email>zweig@cs.uni-kl.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-16T18:42:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Plenary</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Modellierung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Modellierung</term>
+          <term>Theoretisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>Über Jahrzehnte hatte die Informatik mit den Geisteswissenschaften nur wenig Berührungspunkte - dies hat sich in den letzten Jahren gründlich geändert und die Verwendung informatischer Werkzeuge in den Geisteswissenschaften erlebt einen wahren Boom. Und dabei geht es nicht mehr nur um die reine Verwaltung von Daten in großen Datenbanken, sondern mehr und mehr um die Verwendung von künstlicher Intelligenz auf sinnhaft modellierte Informationen, um implizite Beziehungen sichtbar zu machen. Anhand einer spezifischen Modellierung von Daten aus dem geisteswissenschaftlichen Bereich als komplexe Netzwerke werde ich zeigen, dass die Analyse solcher Netzwerke wissenschaftstheoretisch oftmals gleich zwei Modelle enthält, die aber häufig höchstens implizit angesprochen werden. Dadurch kommt es immer wieder zu Fehlinterpretationen, wenn Algorithmen aus fertigen Softwarepackages unbedacht auf derart modellierte Daten angewendet werden. </p>
+        <p>Wenn es auch bisher so aussieht, als sei die nutzbringende Komponente der Beziehung zwischen Informatik und den Geisteswissenschaften rein auf der Algorithmenseite zu finden, zeigt die obige Analyse, dass wir Informatiker mehr denn je der Geisteswissenschaften bedürfen, um die Digitalisierung human gestalten zu können. Algorithmen werden heute dazu verwendet, um "kriminelle Persönlichkeiten" zu identifizieren, Kredite zu verleihen, oder um Versicherungstarife zu bestimmen. Wie können wir in einer solchen Situation vermeiden, dass Algorithmen verzerren, diskriminieren oder gar manipulieren? Wie können sensible Machtbalancen zwischen Privatheit und Sicherheit, ökonomischem Erfolg und Transparenz hergestellt werden? Hier brauchen wir die Analogiebildung der Historiker, die besten Einsichten in das Werden von Gesellschaft von Soziologinnen und Wirtschaftswissenschaftlern, fundierte Einblicke in die menschliche Psyche durch Psychologinnen, und nicht zuletzt das rechte Maß an Regulierung durch Rechtswissenschaftlerinnen und Rechtswissenschaftler. Es könnte das Jahrhundert der Geisteswissenschaften werden.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

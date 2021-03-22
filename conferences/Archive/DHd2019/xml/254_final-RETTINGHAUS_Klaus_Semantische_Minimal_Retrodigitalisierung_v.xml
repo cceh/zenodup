@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="254_final-RETTINGHAUS_Klaus_Semantische_Minimal_Retrodigitalisierung_v" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Semantische Minimal-Retrodigitalisierung von Brief-Editionen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Rettinghaus</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig, Deutschland</affiliation>
+                    <email>klaus.rettinghaus@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-10-14T21:09:05.158049420</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Patrick Sahle, im Auftrag des Verbands Digital Humanities im deutschsprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität zu Köln</t:addrLine>
+                    <t:addrLine>Cologne Center for eHumanities</t:addrLine>
+                    <t:addrLine>Albertus-Magnus-Platz</t:addrLine>
+                    <t:addrLine>50923 Köln</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Briefe</term>
+                    <term>Metasuche</term>
+                    <term>Vernetzung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Metadaten</term>
+                    <term>Methoden</term>
+                    <term>Projekte</term>
+                    <term>Software</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Situation</head>
+                <p>Brief-Editionen sind in vielerlei Hinsicht ein unerlässliches Hilfsmittel für die (historische) Forschung. Gerade weil Briefe ein höchst subjektives Ausdrucksmedium sind, enthalten sie oftmals wertvolle Informationen, die für das Verständnis größerer Zusammenhänge essentiell sein können. Doch um ihr volles Potential entfalten zu können, müssten sie leicht zugänglich sein. Dabei liegen die allermeisten Editionen ausschließlich in gedruckter Form vor, nur neuere Vorhaben publizieren wenigstens teilweise digital. </p>
+                <p>Der Forscherin oder dem Forscher entgehen im Zweifelsfall wichtige Schriftzeugnisse, weil sie sie schlichtweg nicht finden. Oder um es mit Goethe zu sagen: „Man erblickt nur, was man schon weiß und versteht.“ Es stellt sich also die Frage, wie man diese zwischen Buchdeckel gepressten Schätze heben und der Forschung zugänglich machen kann. </p>
+                <p>OCR-gestützte Retrodigitalisierung von Volltexten kritischer Editionen ist hier qualitativ zumeist noch nicht ausreichend. Erschwerend kommt hinzu, dass diese nicht-semantisch ist – und bei urheberrechtlich geschützten Werken in aller Regel völlig unmöglich. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lösungsansatz</head>
+                <p>Als möglicher Lösungsansatz wäre eine sogenannte semantische Minimal-Retrodigitalisierung vorzuschlagen, um gedruckte Editionen zu erschließen und online auffindbar zu machen. Hierbei werden ausschließlich die Metadaten der Briefe digitalisiert, das heißt die Namen des Schreibers und des Empfängers sowie das Datum des Briefes. Weitere Informationen, beispielsweise zu den Orten, sind wünschenswert, jedoch nicht notwendig. Versieht man diese Metadaten mit Normdaten und stellt sie im TEI-Austauschformat 
+                    <ref target="https://github.com/TEI-Correspondence-SIG/CMIF">CMIF</ref> 
+                    (<hi rend="italic">Correspondence Metadata Interchange-Format</hi>) bereit, könnten sie auch im Kontext von vielen tausend weiteren Briefen im Webservice 
+                    <ref target="https://correspSearch.net/">
+                        <hi rend="italic">correspSearch.net</hi>
+                    </ref> sichtbar werden, der von der Berlin-Brandenburgischen Akademie der Wissenschaften bereitgestellt wird.
+                </p>
+                <p>Der große Vorteil hierbei ist, dass auch jüngste Publikationen erschlossen werden können, da auf den notwendigen Metadaten kein Urheberrechtsschutz liegt. Nicht selten enthalten solche Editionen sogar ein tabellarische Korrespondenzregister, das relativ einfach gescannt und aufbereitet werden kann. Generell scheint es allerdings nicht ratsam die Brief-Metadaten direkt in XML zu kodieren, da ein solches Vorgehen relativ fehleranfällig und zeitaufwändig ist. Aufgrund des hohen Grades an Strukturiertheit ist es sinnvoller sie gleichsam in Tabellen zu erfassen; dies erhöht die Übersichtlichkeit und reduziert die Fehlerquote. Wünschenswert ist natürlich eine Anreicherung mit Normdaten. Diese kann manuell oder auch halbautomatisch mit entsprechenden Tools erfolgen. Die kompilierten Daten können dann mit dem Programm 
+                    <ref target="https://github.com/saw-leipzig/csv2cmi">
+                        <hi rend="italic">CSV2CMI</hi>
+                    </ref> automatisch in das entsprechende TEI-XML umgewandelt werden. Die resultierende Datei muss dann nur noch im World Wide Web bereitgestellt werden.
+                </p>
+                <p>Ein weiterer, charmanter Vorteil hierbei ist, dass in der Tabelle beliebig viele zusätzliche Informationen untergebracht werden können, die im CMIF nicht oder noch nicht kodiert werden können. So besteht folglich sogar die Möglichkeit zwei Dateien bereitzustellen, eine für den für den automatisierten und standardisierten Austausch 
+                (<hi rend="italic">machine-readable</hi>) und eine für Endbenutzer leicht lesbare Übersicht 
+                (<hi rend="italic">human-readable</hi>).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p>Gleichwohl das hier vorgestellte Verfahren vergleichsweise unkompliziert ist, macht sich die Arbeit dennoch natürlich nicht von allein. Für wen erscheint es also sinnvoll diese Daten aufzubereiten und bereitzustellen? </p>
+                <p>Zunächst kommen natürlich Bibliotheken in den Sinn, die – als Informations-Anbieter des 21. Jahrhunderts – ein höchst eigenes Interesse daran haben (sollten), Wissen zu und aus Ihren Beständen anzubieten. Des Weiteren kommen Forscher in den Sinn, die sowieso intensiv mit einem Korrespondenzkorpus arbeitet. Das Eigeninteresse an verbesserter Auffindbarkeit und Zugänglichkeit dort sollte ausreichen, die notwendigen Daten zu digitalisieren und vorrätig zu halten. Hinzu kommt in letzterem Falle natürlich die Möglichkeit, die so aufbereiteten Daten als Forschungsdaten zu publizieren. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenfassung</head>
+                <p>Das Poster soll die hier skizzierte Idee der Semantischen Minimal-Retrodigitalisierung von Brief-Editionen vorstellen und den vorgeschlagenen Workflow sowie die bereit stehenden Software-Tools präsentieren. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Woesler, Winfried (1988):</hi> 
+                        <hi rend="italic">Vorschläge für eine Normierung von Briefeditionen</hi>, in: 
+                        <anchor xml:id="id_mainTitle"/>
+                        Editio 2, S. 8–18. doi: 
+                        <ref target="https://doi.org/10.1515/9783110241938.8">10.1515/9783110241938.8</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ball, Rafael (2014):</hi> 
+                        <hi rend="italic">Bibliotheken im 21. Jahrhundert. Vom Leser zum Kunden</hi>, in: 
+                        <hi rend="bold">Ceynowa, Klaus / Hermann, Martin:</hi> 
+                        <hi rend="italic">Bibliotheken: Innovation aus Tradition</hi>, 
+                        Berlin: De Gruyter Saur 226–231, doi: 
+                        <ref target="https://doi.org/10.1515/9783110310511.226">10.1515/9783110310511.226</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stadler, Peter (2014):</hi> 
+                        <hi rend="italic">Interoperabilität von digitalen Briefeditionen</hi>, in: 
+                        <hi rend="bold">Wolzogen, Hanna Delf von / Falk, Rainer:</hi> 
+                        <hi rend="italic">Fontanes Briefe ediert</hi>, Würzburg: Königshausen &amp; Neumann 278–287.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dumont, Stefan (2016):</hi> 
+                        <hi rend="italic">correspSearch – Connecting Scholarly Editions of Letters</hi>, in: 
+                        Journal of the Text Encoding Initiative 10, 
+                        <ptr target="https://journals.openedition.org/jtei/1511"/> [letzter Zugriff 10. Oktober 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rettinghaus, Klaus (2018):</hi> 
+                        <hi rend="italic">saw-leipzig/csv2cmi </hi>(Version v1.6.2), Zenodo, doi: 
+                        <ref target="http://doi.org/10.5281/zenodo.1461642">10.5281/zenodo.1461642</ref> [letzter Zugriff 13. Oktober 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

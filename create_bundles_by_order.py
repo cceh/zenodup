@@ -214,7 +214,7 @@ def create_bundles(conference, publications: list, publication_pdfs: list, publi
         if not pdf_only:
             copyfile(publication_xmls[index], os.path.join(bundle_dir,"bundle_publications", os.path.basename(publication_xmls[index])))
 
-        general_functions.create_bundles_metadata(publications[index], bundle_dir, )
+        general_functions.create_bundles_metadata(publications[index], bundle_dir, os.path.basename(conference))
         counter = counter + 1
 
     if pdf_only:

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="278_final-REUHL_Elisabeth_Keine_Panik__Manifest_f_r_Softwareentwicklun" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Keine Panik! Manifest für Softwareentwicklung in Studierendenprojekten</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Eschweiler</surname>
+<forename>Mark</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>mark.eschweiler@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Evers</surname>
+<forename>Anna-Maria</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>aevers1@smail.uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Kruhl</surname>
+<forename>Dominik</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>dkruhl@smail.uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Reuhl</surname>
+<forename>Elisabeth</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>ereuhl1@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Türkoğlu</surname>
+<forename>Enes</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>enes.tuerkoglu@uni-koeln.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-27T22:41:06.695538340</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Softwareentwicklung</term>
+<term>Projektmanagement</term>
+<term>Studium</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Lehre</term>
+<term>Projektmanagement</term>
+<term>Methoden</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+<anchor xml:id="id_docs-internal-guid-5e658678-7fff-35dd-dc74-b996756e06c9"/>Die in Forschungsprojekten entwickelten Anwendungen besitzen für die Digital Humanities einen hohen Stellenwert. Sie sind nicht nur Werkzeuge zum Lösen der jeweiligen Fragestellungen, sondern können auch als neue digitale Gestaltungsformen von Theoriebildung begriffen werden (Kleymann 2019). Genauso beinhaltet auch ein DH-Studium die Entwicklung zahlreicher Anwendungen, die dem Erlernen sowohl der programmiertechnischen Konzeption und Umsetzung wie auch der Organisation eines Softwareprojekts dienen.
+            </p>
+<p>
+<hi rend="color(#000000)">Softwareentwicklung als integraler Bestandteil der Forschungsaktivitäten der Digital Humanities braucht ein geeignetes Vorgehen zur Organisation und Planung (Druskat et al. 2018). Agile Methoden erfahren nicht nur innerhalb der IT-Branche große Aufmerksamkeit, sondern auch im DH-Bereich (Heyer et al. 2019: 177). Eine Anwendung, die im Rahmen von Forschung oder Lehre entwickelt wird, besitzt jedoch andere Anforderungen als in der freien Wirtschaft. Die Umsetzung von Grundsätzen agiler Softwareentwicklung in Forschung und Lehre weist diverse Problemfelder auf. Scrum etwa wurde im nordamerikanischen Raum und für die freie Marktwirtschaft entwickelt, und orientiert sich mit seinen Prinzipien an der </hi>
+<hi rend="color(#000000)">„lean </hi>
+<hi rend="color(#000000)">production“, </hi>
+<hi rend="color(#000000)">die wiederum sehr erfolgreich in japanischen Unternehmen etabliert wurde (Nonaka und Takeuchi 2008: 215-216). Daraus resultierende kulturelle und situative Barrieren und unterschiedliche Arbeitsrechte erschweren eine adäquate Adaption solch einer Methodologie in den europäischen Raum, und im universitären Kontext kommen weitere Problematiken hinzu.</hi>
+</p>
+<p>Selbst zwischen Forschenden und Studierenden sind die Rahmenbedingungen sehr divergent. In studentischen Projekten sind Erkenntnisgewinn und Lernerfolg, neben einer fachgerechten technischen Umsetzung, entscheidend für die abschließende Bewertung und den Erfolg eines Projektes. Der Aufwand wird nicht monetär vergütet und auch ein Scheitern mit Erkenntnisgewinn kann ein Erfolg sein. Ein experimentelles Lehrveranstaltungsformat am Institut für Digital Humanities der Universität zu Köln, in dem Masterstudierende als Scrum Master eine Projektgruppe aus Bachelorstudierenden betreuen, stellte diese Schwierigkeiten der Umsetzung agiler Methodologien im Studium dar.</p>
+<p>Welche Aspekte aus den agilen Methodologien sowie Manifesten übertragbar sind und wo neue Wege sinnvoller sind, wurde im Rahmen eines Seminars im Sommersemester 2019 von Masterstudierenden – unterstützt von Prof. Dr. Øyvind Eide – diskutiert und evaluiert.  Orientierungspunkte boten die Erarbeitung von Lektüre zur agilen Entwicklung, die Reflexion eigener Vorerfahrungen, sowie Beobachtungen und Befragungen der Bachelorstudierenden-Projekte aus der übergreifenden Lehrveranstaltung. Um die Überlegungen festzuhalten und für nachfolgende Studierende nutzbar zu machen, fiel die Wahl, angelehnt an u.a. das „Manifesto for Agile Software Development“ (Beck et al. 2001), auf das Format eines Manifestes. Als „Manifest für Softwareentwicklung in Studierendenprojekten“ wurden schließlich die formulierten Rahmenbedingungen für die Planung und Umsetzung von Softwareentwicklung innerhalb von Gruppenprojekten im universitären Kontext vorgestellt.</p>
+<div rend="DH-Heading" type="div1">
+<head>Manifest für Softwareentwicklung in Studierendenprojekten</head>
+<p>
+<anchor xml:id="id_docs-internal-guid-29860ef7-7fff-d224-8d41-12069144dc0a"/>
+<hi rend="bold">Softwareprodukt</hi>
+<hi rend="color(#000000)"> und </hi>
+<hi rend="bold">Lernprozess</hi>
+<hi rend="color(#000000)"> sollten sowohl bei der Entwicklung als auch bei der Dokumentation die gleiche Wichtigkeit erfahren. Der Erfolg studentischer Softwareprojekte ist im Gegensatz zu kommerziellen Softwareprojekten nicht nur von einem funktionierenden Endprodukt abhängig, sondern soll gleichermaßen an in ihrem Umfang angemessenen und </hi>
+<hi rend="bold">nachhaltigen Lernergebnissen</hi>
+<hi rend="color(#000000)"> gemessen werden. Ziel studentischer Softwareprojekte ist demnach ein nachweisbares Ergebnis, welches sich sowohl im Softwareprodukt als auch im dokumentierten Lernprozess zeigt.</hi>
+</p>
+<p>
+<hi rend="color(#000000)">Die Organisation studentischer Softwareprojekte erfolgt </hi>
+<hi rend="bold">selbstorganisiert</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">durch die Projektgruppe. Die Aufgabenverteilung soll dabei als ein Prozess der </hi>
+<hi rend="bold">Kompetenzverhandlung</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">begriffen werden. Verhandelt werden sollen die realistische (Selbst-)Einschätzung der vorhandenen Kenntnisse der teilnehmenden Studierenden, sowie jene für das Projekt relevante Kompetenzen, deren Aneignung noch angestrebt wird.</hi>
+</p>
+<p>
+<hi rend="color(#000000)">Eine zutreffende Einschätzung des Arbeitspensums und adäquate Verteilung korrespondierender Aufgaben werden durch </hi>
+<hi rend="bold">modulare</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="bold">Mikroaufgaben</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">gewährleistet. Die Definition spezifischer </hi>
+<hi rend="bold">Meilensteine</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">und ihr anschließendes Erreichen im Arbeits- und Lernprozess soll durch Modularität</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">vereinfacht werden. Eine modulare Arbeitsweise erlaubt zudem, die Kompetenzverhandlung</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">einzelner Gruppenmitglieder </hi>
+<hi rend="bold">flexibel</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">zu gestalten und ein kontinuierliches Arbeitstempo zu gewährleisten. Voraussetzung für die Definition solcher Mikroaufgaben ist es, Abhängigkeiten zu anderen Aufgaben weitestgehend zu vermeiden.</hi>
+</p>
+<p>
+<hi rend="bold">Agilität </hi>
+<hi rend="color(#000000)">stellt einen essentiellen Bestandteil des Projektes dar. Sowohl die Organisation als auch die technische Umsetzung müssen es zulassen, dynamisch auf neue Erkenntnisse oder Hindernisse zu reagieren, ohne dabei das Gesamtziel aus den Augen zu verlieren. </hi>
+<hi rend="color(#000000)">Dabei gilt: je modularer die Entwicklung abläuft, desto flexibler kann auf Veränderungen reagiert werden.</hi>
+</p>
+<p>
+<hi rend="color(#000000)">Agilität ist insbesondere auf Kompetenzen in der </hi>
+<hi rend="bold">Gruppenkommunikation</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">angewiesen, welche sich um Transparenz und Zuverlässigkeit bemühen sollte. Hierzu bedarf es auch einer geeigneten gemeinsamen </hi>
+<hi rend="bold">Kommunikationsplattform</hi>
+<hi rend="color(#000000)">, welche den Austausch zur Organisation und Umsetzung des Projektes in Form </hi>
+<hi rend="bold">regelmäßiger Treffen</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">garantiert. Hier soll jedes Mitglied umstandslos den </hi>
+<hi rend="bold">Status Quo</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">des Projektes einsehen können. Außerdem muss hier auf die Möglichkeit geachtet werden, zwischenmenschliche Aspekte effizient behandeln und arrangieren zu können. Falls gewünscht, kann über jene Plattform auch dem Dozierenden ein Zugang zwecks Beurteilung erteilt werden.</hi>
+</p>
+<p>
+<hi rend="color(#000000)">Ein </hi>
+<hi rend="bold">lauffähiger und vorzeigbarer Prototyp</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">sollte möglichst schnell erstellt und dann </hi>
+<hi rend="bold">kontinuierlich weiterentwickelt</hi>
+<hi rend="color(#000000)"> </hi>
+<hi rend="color(#000000)">werden. Dabei ist im Sinne der Agilität darauf zu achten, durch eine modulare Arbeitsweise die Aufwandskurven möglichst flach zu halten. Aktuelle Entwicklungen können stets funktionsfähig in das Produkt aufgenommen werden.</hi>
+</p>
+</div>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<anchor xml:id="id_docs-internal-guid-233e1f17-7fff-1818-94e7-f52993706861"/>
+<hi rend="bold">Beck, Kent / Grenning, James / Martin, Robert C. / Beedle, Mike / Highsmith, Jim / Mellor, Steve / van Bennekum, Arie / Hunt, Andrew / Schwaber, Ken / Cockburn, Alistair / Jeffries, Ron / Sutherland, Jeff / Cunningham, Ward / Kern, Jon / Thomas, Dave / Fowler, Martin / Marick, Brian</hi> (2001): „Manifesto for Agile Software Development“. Agile Alliance. http://agilemanifesto.org/ [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl>
+<hi rend="bold">Heyer, Gerhard / Kahmann, Christian / Kantner, Cathleen</hi>
+(2019):  „Generic tools and individual research needs in the Digital Humanities – Can agile development help?“, in: Draude, C. / Lange, M. / Sick, B. (eds.): 
+<hi rend="italic">INFORMATIK 2019: 50 Jahre Gesellschaft für Informatik – Informatik für Gesellschaft (Workshop-Beiträge)</hi>. Bonn: Gesellschaft für Informatik e.V. 175-180.
+</bibl>
+<bibl>
+<hi rend="bold">Kleymann, Rabea</hi> (2019): „Prototypen als
+Proto-Theorie? – Plädoyer einer digitalen Theoriebildung“, in: Sahle,
+Patrick (ed.): <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal.</hi>
+Frankfurt am Main 197-200. http://doi.org/10.5281/zenodo.2596095 [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl>
+<hi rend="bold">Nonaka, Ikujiro / Takeuchi, Hirotaka</hi> (2008): „A Theory of the Firm’s Knowledge-Creation Dynamics“, in:
+ Chandler, Alfred / Hagstrom, Peter / Sölvell, Örjan: <hi rend="italic">The Dynamic Firm. The Role of Technology, Strategy, Organization, and Regions</hi>. Oxford: University Press 214-241.
+</bibl>
+<bibl>
+<hi rend="bold">Schwaber, Ken / Sutherland, Jeff </hi>(2017): „Der Scrum Guide™. Der gültige Leitfaden für Scrum: Die Spielregeln.“ https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-German.pdf [letzter Zugriff 27. September 2019].
+</bibl>
+<bibl>
+<hi rend="bold">Druskat, Stephan / Czmiel, Alexander / Schrade,
+Torsten</hi> (2018): „Research Software Engineering und Digital Humanities. Reflexion, Kartierung, Organisation“, DHd 2018, Köln, 27.02.2018. https://dh-rse.github.io/dhd-workshop-2018-presentation/
+[letzter Zugriff 27. September 2019].
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

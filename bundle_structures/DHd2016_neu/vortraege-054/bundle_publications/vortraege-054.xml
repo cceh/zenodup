@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-054">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geisteswissenschaftliche Fachdatenrepositorien im Semantic Web. Modellierung, Vernetzung, Visualisierung.</title>
+        <author>
+          <name>
+            <surname>Schrade</surname>
+            <forename>Torsten</forename>
+          </name>
+          <affiliation>Akademie der Wissenschaften und der Literatur Mainz, Deutschland</affiliation>
+          <email>Torsten.Schrade@adwmainz.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-14T22:22:58</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Semantic Web</term>
+          <term>XML</term>
+          <term>RDF</term>
+          <term>Webservice</term>
+          <term>Forschungsdaten</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Visualisierung</term>
+          <term>Daten</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+          <term>Software</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+          <term>Visualisierung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div1" rend="DH-Heading">
+        <head>Implizite und explizite Semantik TEI-basierter Fachdatenrepositorien</head>
+        <p>Zahlreiche geisteswissenschaftliche Fachdatenrepositorien setzen zur Modellierung
+          ihrer Forschungsdaten auf die Richtlinien der Text Encoding Initiative (TEI) und
+          somit auf XML als primäres Datenformat. XML eignet sich sehr gut zur Lösung
+          editorisch-philologischer Aufgabenstellungen und entspricht den geforderten
+          Kriterien der Interoperabilität und Nachhaltigkeit von Forschungsdaten. Durch
+          die standardkonforme Auszeichnung der Forschungsgegenstände in TEI werden diese
+          formal und inhaltlich erschlossen. TEI-kodierte Daten beinhalten in jeder
+          Hinsicht semantische Bezüge (bspw. Raumbezüge, Personenbezüge, begriffliche und
+          konzeptuelle Bezüge etc.). Aus der Perspektive des <hi rend="italic">Semantic
+          Web</hi> sind diese Bezüge jedoch zunächst nur implizit und nicht explizit
+          in den Daten vorhanden (Abbildung 1). Im Gegenzug gründen sich <hi rend="italic"
+          >Semantic Web-</hi>Technologien auf das <hi rend="italic">Resource
+          Description Framework</hi> (RDF) zur Formulierung semantischer Aussagen (<hi
+          rend="italic">statements</hi>) in Form von Subjekt – Prädikat –
+          Objektbeziehungen (<hi rend="italic">triples</hi>). Die besondere Stärke von RDF
+          liegt in der automatisiert möglichen Vernetzung (<hi rend="italic"
+          >interlinking</hi>), Zusammenführung (<hi rend="italic">merging</hi>) und
+          Analyse (<hi rend="italic">reasoning</hi>) eigentlich separater Datenbestände.
+          RDF ist modellierungstechnisch auf einer höheren Abstraktionsebene anzusiedeln
+          als TEI-kodierte XML-Daten (Abbildung 2; vgl. auch Polleres u. a. 2009). </p>
+          <figure>
+            <graphic url="054-100002010000072C00000478B5A41C0E.png"/>
+            <p><hi rend="bold">Abb. 1</hi></p>
+          </figure>
+          <figure>
+            <graphic url="054-1000020100000632000003F67F5F0549.png"/>
+            <p><hi rend="bold">Abb. 2</hi></p>
+          </figure>
+          <p>
+            Während die formale Erschließung geisteswissenschaftlicher
+            Forschungsgegenstände mittels XML-basierter Annotationsmethoden mittlerweile als
+            weit fortgeschritten gelten kann, bleibt die semantische Erschließung häufig
+            noch weit zurück. Zwar wird in den Daten oft das Auftreten bestimmter Ortsnamen,
+            Personennamen, Werktitel etc. annotiert. Dennoch gehen diese Annotationen meist
+            nicht darüber hinaus, anzuzeigen, dass eine bestimmte Entität an einer
+            spezifischen Stelle erwähnt ist. Damit bleibt die Semantik der Fachdaten weit
+            hinter den Möglichkeiten zurück, die aktuelle Technologien – insbesondere die
+            des <hi rend="italic">Semantic Web</hi> und des <hi rend="italic">Linked Open
+            Data</hi> (LOD) – bieten könnten. Der durch LOD mögliche Zugang auf
+            vernetzte Forschungsdaten eröffnet neuartige Perspektiven der Nutzung bisher
+            isoliert stehender Fachdatenrepositorien. Wesentlich ist dabei, dass LOD und RDF
+            bestehende Standards der <hi rend="italic">Digital Humanities</hi> (wie bspw.
+            TEI / XML) um die Verwendung gemeinsamer Terminologien und Metadatenschemata
+            erweitern (vgl. Iglesia et al. 2015). Dadurch wird es möglich, auch Bestände
+            verteilter Provenienz und unterschiedlicher Struktur gemeinsam inhaltlich zu
+            beschreiben und zu analysieren. </p>
+            <p>Insgesamt existiert momentan also noch eine Kluft: Auf der einen Seite die
+              zahlreichen geisteswissenschaftlichen Fachdatenrepositorien mit implizit
+              semantischem Potential, auf der anderen Seite die Technologien und Datenmodelle
+              des <hi rend="italic">Semantic Web</hi>, die neue Sichten und Analysemethoden
+              auf die Daten eröffnen könnten. Zwar existieren einige Sprachkonzepte, Methoden
+              und Tools zur Übersetzung zwischen TEI / XML und RDF. Diese sind jedoch
+              ausnahmslos komplex, teilweise technisch veraltet, verfügen nur über
+              prototypische Implementierungen oder sind hochgradig spezialisiert auf einen
+              bestimmten Datenbestand. <ref type="note" target="n01" n="1">1</ref> Während die dem <hi rend="italic"
+              >Semantic Web</hi> zugrunde liegenden Technologien aus informatischer Sicht
+              als erschlossen und anwendbar angesehen werden können (vgl. Lanthaler 2014:
+              11–35), besteht zum jetzigen Zeitpunkt also ein Bedarf an exemplarischen
+              Bearbeitungen repräsentativer Forschungsdatenbestände aus den
+              Geisteswissenschaften, um die Tragfähigkeit dieser Technologien auch für die
+              geisteswissenschaftliche Forschung zu demonstrieren. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+              <head>
+                <anchor xml:id="id_h.8et4tihv3df7"/>Semantische Aussagen aus XML mit Hilfe des
+                <hi rend="italic">XTriples</hi>-Webservices
+              </head>
+              <p>An dieser Stelle setzt der <hi rend="italic"><ref
+                target="http://xtriples.spatialhumanities.de"
+                >XTriples</ref>-</hi>Webservice der <hi rend="italic"><ref
+                target="http://www.digitale-akademie.de">Digitalen Akademie</ref></hi>
+                der Mainzer Akademie der Wissenschaften und der Literatur an. Grundgedanke des
+                generischen Dienstes ist das Crawling beliebiger XML-Datenbestände und die
+                anschließende Generierung semantischer Aussagen aus den XML-Daten auf Basis
+                definierter Aussagemuster. Das Prinzip der Explizierung semantischer Aussagen
+                aus XML ist dabei nicht sonderlich komplex: Wird die URI einer XML-Ressource
+                oder eine Dateneinheit in dieser Ressource als das Subjekt einer semantischen
+                Aussage begriffen, können diesem Subjekt über Prädikate aus kontrollierten
+                Vokabularen weitere Werte aus den XML-Daten bzw. URIs zu weiteren
+                Datenressourcen als Objekte zugeordnet werden. Im Übersetzungsvorgang zwischen
+                XML und RDF geht es also vor allem um die Bestimmung semantischer Aussagemuster,
+                die sich gesamthaft auf alle Ressourcen eines XML-Datenbestandes anwenden
+                lassen. </p>
+                <p>Die Aussagemuster werden in Form einer einfachen, XPATH-basierten Konfiguration
+                  an den Dienst übermittelt. Dabei ist es auch möglich, über die Bestände eines
+                  spezifischen XML-Repositoriums hinauszugehen und externe Ressourcen oder
+                  Dateneinheiten in die Transformation mit einzubeziehen (bspw. aus der GND, der
+                  <hi rend="italic">Dbpedia,</hi> aus <hi rend="italic">Geonames</hi> u. a <hi
+                  rend="italic">)</hi>. Die technische Realisierung als Webservice hat den
+                  Vorteil, dass AnwenderInnen keine weitere Software zur semantischen Übersetzung
+                  von Forschungsdaten benötigen. Gleichzeitig kann der Webservice auch als eine
+                  Art „externe“ RDF-Schnittstelle (im Sinne eines Proxy) für ein oder mehrere
+                  XML-Repositorien eingesetzt werden. Grundvoraussetzung hierfür ist lediglich,
+                  dass die jeweiligen Repositorien über HTTP erreichbar sein müssen. </p>
+                  <figure>
+                    <graphic url="054-1000000000000472000002F7650A95CC.png"/>
+                    <p><hi rend="bold">Abb. 3</hi></p>
+                  </figure>
+                  <p>Das Ergebnis einer <hi rend="italic">XTriples</hi>-Extraktion steht in einer
+                  Vielzahl gängiger RDF-Serialisierungen zur Verfügung (Abbildung 3). Neben rein
+                  RDF-basierten Formaten ist es auch möglich, die semantischen Bezüge eines
+                  Repositoriums mittels SVG darzustellen oder das Extraktionsergebnis zur weiteren
+                  Analyse und Visualisierung an <hi rend="italic">Semantic Web</hi>-Tools
+                  weiterzureichen. <ref type="note" target="n02" n="2">2</ref>
+                </p>
+              </div>
+              <div type="div1" rend="DH-Heading1">
+                <head>
+                  <anchor xml:id="id_h.vwpve2wuxvn6"/>Anwendungsbeispiele
+                </head>
+                <p>
+                  <hi rend="italic">XTriples</hi> wurde vom Autor im Kontext des Akademievorhabens
+                  <hi rend="italic"><ref target="http://www.inschriften.net">Deutsche
+                    Inschriften Online</ref></hi> in Verbindung mit dem BMBF-Projekt <hi
+                    rend="italic"><ref target="http://www.spatialhumanities.de">Inschriften im Bezugssystem des Raumes</ref></hi> entwickelt und steht der
+                    DH-Community in einer stabilen Version unter Open Source Lizenz (MIT) zur
+                    Verfügung. Das zugrunde liegende <ref
+                    target="http://xtriples.spatialhumanities.de/documentation.html"
+                    >Softwarepaket</ref> ist vollständig dokumentiert und auf <ref
+                    target="https://github.com/spatialhumanities/xtriples">GitHub</ref>
+                    veröffentlicht. </p>
+                    <p>Neben den <hi rend="italic">Deutschen Inschriften</hi> wird <hi rend="italic"
+                    >XTriples</hi> aktuell auch in den Akademievorhaben <hi rend="italic"><ref
+                    target="http://www.regesta-imperii.de">Regesta Imperii</ref></hi> und
+                    <hi rend="italic">Die Schule von Salamanca</hi> verwendet. Das <ref
+                    target="http://www.steinheim-institut.de">Salomon Ludwig Steinheim-Institut
+                    für deutsch-jüdische Geschichte</ref> nutzt <hi rend="italic">XTriples</hi>
+                    für eine CIDOC-CRM basierte, semantischen Modellierung von EpiDoc-Daten im
+                    Rahmen des BMBF-Projektes <hi rend="italic">Relationen im Raum</hi>. Gemeinsam
+                    mit der <ref target="http://www.bbaw.de">Berlin-Brandenburgischen Akademie der
+                    Wissenschaften</ref> wird gerade eine Schnittstelle zwischen <hi
+                    rend="italic">XTriples</hi> und <hi rend="italic"
+                    ><ref target="http://correspsearch.bbaw.de">correspSearch</ref></hi>, dem Webservice der BBAW zur dezentralen
+                    Aggregation digitaler Briefeditionen, implementiert. </p>
+                    <p>Folgende Beispiele geben einen ersten Überblick über die unterschiedlichen Anwendungsgebiete von
+                      <hi rend="italic">XTriples</hi>:
+                    </p>
+                    <list type="unordered">
+                      <item>Semantische Extraktion und nachfolgende Visualisierung von Familienbeziehungen aus dem
+                        <hi rend="italic">Epidat</hi> Grabstein Corpus für den jüdischen Friedhof in Hamburg-Altona (Ausgangsdaten EpiDoc/TEI):
+                        <lb/>
+                        <ref target="http://xtriples.spatialhumanities.de/examples/dh/epidat/index.html">http://xtriples.spatialhumanities.de/examples/dh/epidat/index.html</ref>
+                      </item>
+                      <item>Semantische Extraktion und SVG-Visualisierung eines Briefnetzwerks (Teilbestand der Korrespondenz Goethes aus den in
+                        <hi rend="italic">correspSearch</hi> aggregierten CMI-Daten bei gleichzeitiger
+                        <hi rend="italic">on-the-fly</hi> Einbeziehung der RDF-Schnittstellen von
+                        <hi rend="italic">GND</hi> und
+                        <hi rend="italic">Geonames</hi>):
+                        <lb/>
+                        <ref target="http://bit.ly/1LKK1dv">http://bit.ly/1LKK1dv</ref>
+                      </item>
+                      <item>Beispielhafte semantische Extraktion und Visualisierung europäischer
+                        Kommunikationsnetzwerke auf Basis der <hi rend="italic">correspSearch</hi>
+                        TEI / CMI-Daten: <lb/>
+                        <ref
+                          target="http://metacontext.github.io/presentation-correspsearch-xtriples/viz/map.html"
+                          >http://metacontext.github.io/presentation-correspsearch-xtriples/viz/map.html</ref>
+                        </item>
+                      </list>
+                      <p>Weitere Beispiele zu den einzelnen Funktionalitäten finden sich auf der
+                        <hi rend="italic">XTriples</hi>-Website unter
+                        <ref target="http://xtriples.spatialhumanities.de/examples.html">http://xtriples.spatialhumanities.de/examples.html</ref>. Einen schnellen Überblick über die Funktionsweise des Dienstes gibt folgende Präsentation:
+                        <ref target="http://metacontext.github.io/presentation-correspsearch-xtriples">http://metacontext.github.io/presentation-correspsearch-xtriples</ref>.
+                      </p>
+                      <p>Ziel des Vortrags ist eine Veranschaulichung der Methoden und Potentiale, die sich aus der semantischen Extraktion, Modellierung, Vernetzung und Visualisierung XML-basierter, geisteswissenschaftlicher Fachdaten ergeben. Neben einer Darstellung der technischen Hintergründe des
+                        <hi rend="italic">XTriples</hi>-Webservices werden auch Fragen der semantischen Modellierung geisteswissenschaftlicher Fachdaten mittels bestimmter Ontologien (bspw. FOAF, CIDOC-CRM u.a.) in den Blick genommen. Weiterhin werden auch beispielhafte Analyse- und Visualisierungsmöglichkeiten für semantisch modellierte geisteswissenschaftliche Fachdaten vorgestellt.
+                      </p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+                      <note xml:id="n01" n="1">Projekte wie
+                        bspw. <ref target="http://spqr.cerch.kcl.ac.uk/?page_id=3">SPQR</ref> oder
+                        das <ref target="http://rdftef.sourceforge.net/">Textual Encoding
+                        Framework</ref> sind veraltet oder technisch nicht generalisiert. Einen
+                        interessanten Ansatz bietet die <ref
+                        target="http://www.w3.org/Submission/xsparql-language-specification"
+                        >XSPARQL</ref> Language Specification des DERI, die 2009 in Form einer
+                        W3C Member Submission niedergelegt wurde. Hier fehlen jedoch praktische
+                        Implementierungen. Die Benutzung von RDFa innerhalb von XML-Daten stellt
+                        eine weitere Möglichkeit dar, doch verfolgen die wenigsten
+                        geisteswissenschaftlichen Fachdatenrepositorien eine so ausgerichtete
+                        semantische Markup-Strategie. Auch das bereits 2007 in Form einer W3C
+                        Recommendation grundgelegte <ref target="http://www.w3.org/TR/grddl/"
+                        >GRDDL-Framework</ref> (Gleaning Resource Descriptions from Dialects of
+                        Languages) ist bis heute eine theoretische Spezifikation geblieben. Der <hi
+                        rend="italic">OxGarage</hi> Transformations-Webservice der <hi
+                        rend="italic"><ref target="http://www.tei-c.org/oxgarage">Text Encoding
+                        Initiative</ref></hi> bietet zwar eine Routine für die Konvertierung
+                        von TEI kodierten Daten nach RDF an, legt sich für die Transformation aber
+                        auf das CIDOC-CRM als Ontologie fest. Mit <hi rend="italic">OxGarage</hi>
+                        können <hi rend="italic">out-of-the-box</hi> also keine anderen Ontologien
+                        für eine semantische Modellierung benutzt werden. Zudem ist der Webservice
+                        nicht darauf ausgelegt, auch weitere, externe Datenrepositorien in eine
+                        Transformation mit einzubeziehen oder andere RDF-Serialisierungen jenseits
+                        von RDF/XML zurückzugeben.
+                      </note>
+                      <note xml:id="n02" n="2"> Beispielsweise an den
+                        RDF zu SVG <ref target="http://www.rhizomik.net/html/redefer/rdf2svg-form"
+                        >Transformations-Webservice</ref> oder an die RDF
+                        Visualisierungsbibliothek <ref target="http://biohackathon.org/d3sparql"
+                        >d3sparql</ref>.
+                      </note>
+                    </div>
+                    <div type="bibliogr">
+                      <listBibl>
+                        <head>Bibliographie</head>
+                        <bibl><hi rend="bold">Akademie der Wissenschaften und der Literatur Mainz
+                        </hi>(o. J.a): <hi rend="italic">Digitale Akademie</hi>
+                        <ref target="http://www.digitale-akademie.de"
+                          >http://www.digitale-akademie.de</ref> [letzter Zugriff 16. Februar
+                          2016].</bibl>
+                          <bibl><hi rend="bold">Akademie der Wissenschaften und der Literatur Mainz
+                          </hi>(o. J.b): <hi rend="italic">Regesta Imperii</hi>
+                          <ref target="http://www.regesta-imperii.de/startseite.html"
+                            >http://www.regesta-imperii.de/startseite.html</ref> [letzter Zugriff
+                            16. Februar 2016].</bibl>
+                            <bibl><hi rend="bold">BBAW</hi> (o. J.): <hi rend="italic"
+                            >Berlin-Brandenburgische Akademie der Wissenschaften</hi>
+                            <ref target="http://www.bbaw.de/">http://www.bbaw.de/</ref> [letzter Zugriff
+                            16. Februar 2016].</bibl>
+                            <bibl><hi rend="bold">correspSearch</hi> (o. J.): <hi rend="italic"
+                            >correspSearch</hi>. Search diverse letter editions <ref
+                            target="http://correspsearch.bbaw.de/index.xql"
+                            >http://correspsearch.bbaw.de/index.xql</ref> [letzter Zugriff 16.
+                            Februar 2016].</bibl>
+                            <bibl><hi rend="bold">Deutsche Inschriften Online</hi> (o. J.): <ref
+                            target="http://www.inschriften.net">http://www.inschriften.net</ref>
+                            [letzter Zugriff 16. Februar 2016]. </bibl>
+                            <bibl>
+                              <hi rend="bold">Haft, Michael</hi> (2013): "RDF als Verknüpfungsmethode
+                              zwischen geisteswissenschaftlichen Forschungsdaten und Geometrien am
+                              Beispiel des Projektes 'Inschriften im Bezugssystem des Raumes'",in: <hi
+                              rend="italic">Skriptum</hi> 2,3 <ref
+                              target="http://nbn-resolving.de/urn:nbn:de:0289-2013120622"
+                              >http://nbn-resolving.de/urn:nbn:de:0289-2013120622</ref> [letzter
+                              Zugriff 14. Oktober 2015]. </bibl>
+                              <bibl><hi rend="bold">i3Mainz / Akademie Mainz</hi> (o. J.): <hi rend="italic"
+                              >Inschriften im Bezugssystem des Raumes</hi>
+                              <ref target="http://www.spatialhumanities.de/ibr/startseite.html"
+                                >http://www.spatialhumanities.de/ibr/startseite.html</ref> [letzter
+                                Zugriff 16. Februar 2016].</bibl>
+                                <bibl><hi rend="bold">IBR (Inscriptions in their spatial context) / Academy of
+                                  Sciences and Literature, Mainz / Institute for Spatial Information and
+                                  Surveying Technology i3Mainz</hi> (o. J.): <hi rend="italic"
+                                  >XTriples</hi>
+                                  <ref target="http://xtriples.spatialhumanities.de/index.html"
+                                    >http://xtriples.spatialhumanities.de/index.html</ref> [letzter Zugriff
+                                    16. Februar 2016].</bibl>
+                                    <bibl>
+                                      <hi rend="bold">Iglesia, Martin de la / Moretto, Nicolas / Brodhun,
+                                        Maximilian </hi> (2015): "Metadaten, LOD und der Mehrwert
+                                        standardisierter und vernetzter Daten." In: Neuroth, Heike / Rapp, Andrea /
+                                        Söring, Sibylle (eds.): <hi rend="italic">TextGrid: Von der Community – für
+                                        die Community</hi>. Eine Virtuelle Forschungsumgebung für die
+                                        Geisteswissenschaften. Göttingen: Universitätsverlag Göttingen 91–102 <ref
+                                        target="http://dx.doi.org/10.3249/webdoc-3947"
+                                        >http://dx.doi.org/10.3249/webdoc-3947</ref> [letzter Zugriff 14.
+                                        Oktober 2015]. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Lange, Felix, Martin Unold</hi> (2015): Semantisch
+                                          angereicherte 3D-Messdaten von Kirchenräumen als Quellen für die
+                                          geschichtswissenschaftliche Forschung, in: <hi rend="italic">Zeitschrift für
+                                          digitale Geisteswissenschaften </hi>1 <ref
+                                          target="http://dx.doi.org/10.17175/sb001_015"
+                                          >http://dx.doi.org/10.17175/sb001_015</ref> [letzter Zugriff 14. Oktober
+                                          2015]. </bibl>
+                                          <bibl>
+                                            <anchor xml:id="id_docs-internal-guid-d6a0f994-6501-a725-5560-cd2d188ed2fb"/>
+                                            <hi rend="bold">Lanthaler, Markus</hi> (2014): <hi rend="italic">Third
+                                            Generation Web APIs</hi>. Bridging the Gap between REST and Linked Data.
+                                            Diss. Institute of Information Systems and Computer Media. Technische
+                                            Universität Graz <ref
+                                            target="http://www.markus-lanthaler.com/research/third-generation-web-apis-bridging-the-gap-between-rest-and-linked-data.pdf"
+                                            >http://www.markus-lanthaler.com/research/third-generation-web-apis-bridging-the-gap-between-rest-and-linked-data.pdf</ref>
+                                            [letzter Zugriff 14. Oktober 2015]. </bibl>
+                                            <bibl>
+                                              <hi rend="bold">Polleres, Axel u.a.</hi> (2009): <hi rend="italic">XSPARQL
+                                              Language Specification</hi>
+                                              <ref target="http://www.w3.org/Submission/xsparql-language-specification"
+                                                >http://www.w3.org/Submission/xsparql-language-specification</ref>
+                                                letzter Zugriff 14. Oktober 2015]. </bibl>
+                                                <bibl><hi rend="bold">Salomon Ludwig Steinheim-Institut für deutsch-jüdische
+                                                  Geschichte</hi> (o. J.): <ref target="http://www.steinheim-institut.de"
+                                                  >http://www.steinheim-institut.de</ref> [letzter Zugriff 16. Februar
+                                                  2016].</bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Schrade, Torsten </hi> (2013): "Datenstrukturierung", in:
+                                                    <hi rend="italic">Über die Praxis des kulturwissenschaftlichen
+                                                      Arbeitens</hi>. Ein Handwörterbuch. Bielefeld: transcript 91–97. </bibl>
+                                                    </listBibl>
+                                                  </div>
+                                                </back>
+                                              </text>
+                                            </TEI>

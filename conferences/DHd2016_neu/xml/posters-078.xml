@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-078">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wie verhalten sich Aktionäre bei Unternehmenszusammenschlüssen? Modellierung sprachlicher Muster zur Analyse treibender Faktoren bei der Berichterstattung</title>
+        <author>
+          <name>
+            <surname>Stotz</surname>
+            <forename>Sophia</forename>
+          </name>
+          <affiliation>Universität Paderborn, Deutschland</affiliation>
+          <email>stotz@hni.upb.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Geierhos</surname>
+            <forename>Michaela</forename>
+          </name>
+          <affiliation>Universität Paderborn, Deutschland</affiliation>
+          <email>geierhos@hni.upb.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-29T17:28:56.862187218</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Modellierung sprachlicher Muster</term>
+          <term>Lokale Grammatiken</term>
+          <term>Analyse der Berichterstattung von Unternehmenszusammenschlüssen</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Inhaltsanalyse</term>
+          <term>Modellierung</term>
+          <term>Annotieren</term>
+          <term>Kontextsetzung</term>
+          <term>Methoden</term>
+          <term>benannte Entitäten (named entities)</term>
+          <term>Text</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Welche Informationen über Unternehmenszusammenschlüsse werden in Zeitungsnachrichten vermittelt, und wie können diese Informationen automatisch extrahiert werden? Dies soll am Beispiel des Verhaltens von Aktionären während eines Zusammenschlusses ermittelt werden. Dazu werden die wichtigsten Aussagen über das Votum der Aktionäre im Hinblick auf eine automatische Erkennung sprachlich analysiert. Im Fokus stehen dabei die Berichte über Aktionärsabstimmungen hinsichtlich der Annahme bzw. Ablehnung eines Übernahmeangebots. Dabei gilt es, die folgenden beiden Herausforderungen zu meistern:</p>
+      <div type="div1" rend="DH-Heading1">
+        <head>Identifikation der Treiber</head>
+        <p>Bei der vorliegenden Fragestellung geht es darum, die sprachliche Gestaltung der Rolle der Aktionäre bei Unternehmenszusammenschlüssen in der Presse zu analysieren. Die Aktionärsabstimmung ist eingebettet in den Kontext unterschiedlicher Ereignisse, die Teil eines Zusammenschlussversuchs sind. Da Unternehmenszusammenschlüsse erhebliche Auswirkungen sowohl auf die Beschäftigten, als auch auf andere Unternehmen (insbesondere Konkurrenten), Aktionäre und die Verteilung von Spitzenposten haben, wird in Zeitungen ausführlich darüber berichtet. Medien haben zwar keinen direkten Einfluss auf wirtschaftliche Prozesse, sie können jedoch die Meinung von primären Adressaten, wie z. B. Aktionären, beeinflussen und nehmen daher dennoch eine wichtige Rolle ein (vgl. Palmieri 2014: 71f.). In erster Linie veröffentlichen sie Mitteilungen von Unternehmen und andere relevante Dokumente und tragen so zur Verbreitung von Schlüsselinformationen bei. Im Vergleich zu Eigenwerbung oder selbst verfassten Mitteilungen wirken Berichte von Journalisten unabhängiger und damit glaubwürdiger. Der „Vertrauenswürdigkeitsvorsprung journalistischer Berichterstattung“ (Hoffjann 2014: 674) führt dazu, dass diese besonders wichtig für die Reputation eines Unternehmens ist (vgl. Hoffjann 2014: 673 f.).</p>
+      </div>
+      <div type="div1" rend="DH-Heading1"><head>Modellierung des sprachlichen Variantenreichtums</head>
+      <p>Verschiedene Akteure beeinflussen den Verlauf eines Zusammenschlussversuchs und
+        bilden untereinander ein komplexes Beziehungsnetzwerk. So kann beispielsweise im
+        Fall einer feindlichen Übernahme der Aufsichtsrats des Zielunternehmens seinen
+        Aktionären empfehlen, keine Aktien zu verkaufen und dadurch die Übernahme
+        gefährden. Die Haltung der Aktionäre, aber auch die des Kartellamts, kann einen
+        Zusammenschluss zum Scheitern bringen. Um diese Prozesse zu modellieren, muss
+        das Korpus im Hinblick auf die Akteure, ihre Entscheidungen und Meinungen
+        untersucht werden. Zur Extraktion von Ereignissen besteht bereits eine große
+        Bandbreite an Fachliteratur, die grob in maschinelle, musterbasierte und hybride
+        Vorgehensweisen eingeteilt werden kann (Hogenboom et al. 2011). Auch zur
+        automatischen Bestimmung des faktischen Status von Ereignissen sowie zur
+        automatischen Analyse von Wirtschaftsnachrichten hat es bereits einige Ansätze
+        gegeben (z. B. Saurí / Pustejovsky 2012; Nassirtoussi 2014). Im vorliegenden
+        Beitrag soll am Beispiel von Aktionärsabstimmungen gezeigt werden, wie
+        semi-automatisch ermittelte morpho-syntaktische Muster den Kontext des
+        Zusammenschlusses semantisch mittels lokaler Grammatiken (Gross 1997)
+        modellieren können. Die mithilfe der Muster gewonnenen Informationen können z.
+        B. für eine semantische Suchmaschine genutzt werden, um Fragen der Art „Wie oft
+        waren Aktionäre für das Scheitern einer Fusion in den letzten 2 Jahren
+        verantwortlich?“ oder „Wer trug zum Scheitern der Übernahme von Tele Columbus
+        durch Kabel Deutschland bei?“ beantworten zu können.</p>
+        <div type="div2" rend="DH-Heading2">
+          <head>Datenbasis</head>
+          <p>Um die von deutschsprachigen Wirtschaftsnachrichten erwähnten Einflüsse der
+            Aktionäre auf einen Zusammenschluss (und umgekehrt) zu erfassen, wurden
+            mithilfe des <ref target="http://www.ids-mannheim.de/cosmas2/"
+            >COSMAS-Tools</ref> (vgl. Institut für Deutsche Sprache) 6784 Sätze
+            zusammengestellt, die jeweils die Schlüsselwörter („Übernahme“ ODER
+            „Fusion“) sowie „Aktionäre“ enthalten. Die über das COSMAS-Tool verfügbaren
+            Korpora bestehen hauptsächlich aus den Archiven regionaler und
+            überregionaler deutschsprachiger Zeitungen. Mit der Keyword-Auswahl sollen
+            die wichtigsten Ereignisse identifiziert werden, die während eines
+            Zusammenschlusses im Zusammenhang mit den Aktionären stehen. Folgende
+            Tabelle zeigt einen Auszug aus den manuell erstellten relevanten Themen
+            sowie die dazugehörigen sprachlichen Muster: </p>
+            <figure>
+              <graphic url="p78-table1.png" rend="inline"></graphic>
+              <p><hi rend="bold">Tab. 1</hi>: Konfidenzmaß ausgewählter Keywords bzgl. bestimmter Phasen</p>
+            </figure>
+          </div>
+          <div type="div2" rend="DH-Heading2">
+            <head>Korpusverarbeitungssystem und Modellierungswerkzeug</head>
+            <p>Da Medienberichte in Wirtschaftsnachrichten wiederkehrende Sprachmuster
+              für die Ankündigung gescheiterter und erfolgter Zusammenschlüsse benutzen,
+              ist der Ansatz der lokalen Grammatiken für diese Aufgabe vielversprechend
+              (Gross 1997). Lokale Grammatiken erlauben es, morpho-syntaktische sowie
+              semantische Eigenschaften der Sprache zu berücksichtigen. Zur
+              Implementierung verwende ich das Korpusverarbeitungssystem <ref
+              target="http://igm.univ-mlv.fr/~unitex/UnitexManual3.1.pdf"
+              >Unitex</ref>, das an der Université Marne-la-Vallée entwickelt wurde. </p>
+              <p>Am Centrum für Informations- und Sprachverarbeitung wurde in München ein sehr
+                umfangreiches deutschsprachiges Lexikon aufgebaut, das zahlreiche
+                syntaktische und semantische Informationen mit einschließt und sich dadurch
+                erheblich von vergleichbaren Systemen absetzt (Guenthner / Maier 1994).
+                Neben der Verfügbarkeit dieses Lexikons bietet Unitex den Vorteil, dass der
+                Benutzer selbst Regeln zur Erkennung von Named Entities schreiben und dabei
+                eine Vielzahl an morphologischen und syntaktischen sowie semantischen
+                Einschränkungen einbauen kann. Für die vorliegende Studie wurde z. B. ein
+                Lexikon mit Organisationsnamen mit über 335000 Einträgen eingesetzt
+                (Mallchok 2004).</p>
+              </div>
+              <div type="div2" rend="Heading2">
+                <head>Lokale Grammatiken zur Differenzierung bestimmter Phasen</head>
+                <p>Für die Auswahl geeigneter und besonders charakteristischer
+                  Schlüsselpassagen werden zunächst die einschlägigen verbalen Wendungen
+                  (z. B. „zustimmen“, „grünes Licht geben“) im Textkorpus ermittelt. Da
+                  die isolierte Erkennung der Prädikate allein oft nicht ausreicht, um
+                  eine Aussage korrekt zu extrahieren, muss der jeweilige Kontext
+                  berücksichtigt werden. Es geht also darum, die syntaktische
+                  Distributionsklasse des Prädikats (Anzahl und Form der Komplemente) zu
+                  ermitteln (vgl. Nagel 2005: 16). Das Verb „genehmigen“ erfordert im
+                  untersuchten Bereich beispielsweise ein Subjekt, das die Aktionäre
+                  beschreibt, und ein Objekt, den Zusammenschluss. Sie werden anschließend
+                  in Unitex-Graphen eingearbeitet, die auf neuen Korpora den Status eines
+                  Unternehmenszusammenschlusses bestimmen können. Die Graphen können durch
+                  die Einbindung von Lexika und Kontextmodellierung zudem relevante
+                  Entitäten wie z. B. den Unternehmensnamen erkennen. Lokale Grammatiken
+                  eignen sich in besonderem Maße für das in diesem Beitrag behandelte
+                  Thema, da sie die syntaktische Struktur des Satzes berücksichtigen und
+                  somit der Akteur und im Zusammenhang dazu seine Handlungen oder
+                  Meinungen extrahiert werden können. Kleinere Entitäten können einzeln
+                  erkannt und in den Kontext eines größeren Graphs eingebettet werden.
+                  Folgender (etwas vereinfachter) Graph erkennt z. B. das
+                  Abstimmungsergebnis:</p>
+                  <figure>
+                    <graphic url="p078-10000000000003500000021928EAA74D.png"/>
+                    <p><hi rend="bold">Abb. 1</hi>: Graph zur Erkennung des Abstimmungsergebnisses</p>
+                  </figure>
+                  <p>Die erkannten Textstellen werden mit XML-Tags versehen und im Textformat
+                    abgespeichert, sodass sie leicht visualisiert und weiterverarbeitet
+                    werden können.</p>
+                    <p>Beispiele für mit diesem Graphen erkannte Textstellen sind:</p>
+                    <figure>
+                      <graphic url="p078-Abbildung2.png"></graphic>
+                      <p><hi rend="bold">Abb. 2</hi>: Auszug aus der Konkordanz der erkannten Textstellen zum Abstimmungsergebnis</p>
+                    </figure>
+                    <p>Folgende Beispiele zeigen einen Auszug aus der Konkordanz des Graphen zur
+                      Erkennung des Abstimmungsergebnisses von Aktionären:</p>
+                      <figure>
+                        <graphic url="p078-Abbildung3.png"></graphic>
+                        <p><hi rend="bold">Abb. 3</hi>: Auszug aus der Konkordanz der erkannten Textstellen zur Aktionärsabstimmung</p>
+                      </figure>
+                      <p>Durch Ersetzen der Prädikate können Synonyme gefunden werden, wie z. B.
+                        „erlauben“, oder aber auch Prädikate wie „vereiteln“ und „verhindern“,
+                        die die Ablehnung des Zusammenschlusses ausdrücken. Hinsichtlich der
+                        Argumentstruktur unterscheiden sich die Prädikate nicht, sie müssen
+                        jedoch aufgrund ihrer Bedeutung verschieden annotiert werden. Ebenso
+                        können durch Ersetzen des Subjekts die Entscheidungen anderer Akteure,
+                        beispielsweise des Kartellamts, erkannt werden.</p>
+                        <p>Oft ist auch nur von dem Plan einer Aktionärsabstimmung die Rede. Dieser
+                          wird häufig in Form von Modalverbkonstruktionen zum Ausdruck
+                          gebracht:</p>
+                          <figure>
+                            <graphic url="p078-Abbildung4.png"></graphic>
+                            <p><hi rend="bold">Abb. 4</hi>: Auszug aus der Konkordanz der erkannten Textstellen zu einer geplanten Aktionärsabstimmung</p>
+                          </figure>
+                          <p>Die Extraktion der analysierten Prädikat-Argument-Strukturen mithilfe von
+                            lokalen Grammatiken ermöglicht die Kategorisierung eines Ereignisses, im
+                            vorliegenden Fall der Aktionärsabstimmung, das für die Einschätzung des
+                            Status eines Zusammenschlusses von zentraler Bedeutung ist.</p>
+                          </div>
+                          <div type="div2" rend="DH-Heading2">
+                            <head>Evaluation</head>
+                            <p>Tabelle 2 zeigt die Ergebnisse einer Evaluation bezüglich der erfolgten
+                              Zustimmung der Aktionäre zu einem Zusammenschluss. Sie wurde auf einem
+                              mithilfe der COSMAS-Datenbank erstellten Testkorpus mit 623 Sätzen
+                              (Keywords: („Fusion“ ODER „Übernahme“) sowie „Aktionäre“) durchgeführt.
+                              Hierbei wurden sowohl die Erkennung der Relation als auch der daran
+                              beteiligten Entitäten wie z. B. Unternehmensnamen, Zeit- und Ortsangaben
+                              berücksichtigt.</p>
+                              <table rend="frame" xml:id="Tabelle2">
+                                <row>
+                                  <cell/>
+                                  <cell rend="center bold">Zustimmung der Aktionäre zu einem
+                                    Zusammen-schluss</cell>
+                                    <cell rend="center bold">Entitäten</cell>
+                                  </row>
+                                  <row>
+                                    <cell>Precision</cell>
+                                    <cell rend="end">100/101=99,0%</cell>
+                                    <cell rend="end">117/120=97,5%</cell>
+                                  </row>
+                                  <row>
+                                    <cell>Recall</cell>
+                                    <cell rend="end">66/100=66,0%</cell>
+                                    <cell rend="end">120/197=60,9%</cell>
+                                  </row>
+                                  <row>
+                                    <cell>F-Score</cell>
+                                    <cell rend="end"> 79,2%</cell>
+                                    <cell rend="end">75,0%</cell>
+                                  </row>
+                                </table>
+                                <p rend="figure"><hi rend="italic"><hi rend="bold">Tab. 2</hi>: Ergebnisse der Evaluation bezüglich der
+                                erfolgten Zustimmung der Aktionäre zu einem Zusammenschluss </hi></p>
+                              </div>
+                              <div type="div2" rend="DH-Heading2"><head>Fazit und Ausblick</head>
+                              <p>Im vorliegenden Beitrag wird gezeigt, wie wiederkehrende sprachliche Muster dazu
+                                genutzt werden können, die Rolle von Aktionären bei einem
+                                Unternehmenszusammenschluss am Beispiel von Aktionärsabstimmungen zu
+                                modellieren. Mithilfe von lokalen Grammatiken kann der Ausgang der
+                                Abstimmungen automatisch extrahiert werden. Wichtige Entitäten wie Zeit- und
+                                Ortsangaben, Akteure und Organisationsnamen werden ebenfalls erkannt. Die so
+                                strukturierten Informationen können anschließend in eine semantische
+                                Suchmaschine eingebettet werden. Mit dieser Methode und durch Erweiterung
+                                der vorhandenen Muster kann in den nächsten Schritten ein System zur
+                                Erkennung der relevanten Phasen eines Zusammenschlusses sowie das
+                                Zusammenwirken der unterschiedlichen Akteure erstellt werden. Nach der
+                                Fertigstellung des Systems sollen bezüglich neuer Zeitungsnachrichten
+                                Aussagen zum derzeitigen Stand eines Zusammenschlusses getroffen werden
+                                können. In einem nächsten Schritt wäre auch eine Analyse hinsichtlich
+                                sprachlicher Indikatoren interessant, die nicht unmittelbar an ökonomische
+                                Schritte geknüpft ist: Inwiefern kündigen Passagen wie „droht zu scheitern“
+                                tatsächlich das Scheitern des Prozesses an? Darüber hinaus könnte auch die
+                                sprachliche Modellierung von Gerüchten („Der Konsumgüterhersteller Henkel
+                                ist Kreisen zufolge Favorit im Rennen um den Haarpflegespezialisten Wella“,
+                                vgl. Focus 25.05.2015) mit lokalen Grammatiken implementiert werden, um die
+                                Grenze zwischen klaren Fakten und unsicheren Aussagen in Zeitungsnachrichten
+                                zu markieren. Die Methode ist in thematischer Hinsicht nicht auf ein
+                                bestimmtes Textkorpus beschränkt, die Graphen müssen jedoch bei Wechsel der
+                                Textdomäne angepasst werden. </p></div></div>
+                              </body>
+                              <back>
+                                <div type="bibliogr">
+                                  <listBibl>
+                                    <head>Bibliographie</head>
+                                    <bibl><hi rend="bold">Focus</hi> (25.05.2015): "Henkel Favorit für
+                                    Wella-Übernahme - Wert: 5,5 bis 7,0 Milliarden Dollar" <ref
+                                    target="http://www.focus.de/finanzen/news/wirtschaftsticker/kreise-henkel-favorit-fuer-wella-uebernahme-wert-5-5-bis-7-0-milliarden-dollar_id_4705463.html"
+                                    >http://www.focus.de/finanzen/news/wirtschaftsticker/kreise-henkel-favorit-fuer-wella-uebernahme-wert-5-5-bis-7-0-milliarden-dollar_id_4705463.html</ref>
+                                    [letzter Zugriff 05. Oktober 2015]. </bibl>
+                                    <bibl>
+                                      <anchor type="bookmark-start" xml:id="id__GoBack"/>
+                                      <hi rend="bold">Gross, Maurice</hi> (1997): "The Construction of Local
+                                      Grammars", in: Roche, Emmanuel / Schabès, Yves (eds.): <hi rend="italic"
+                                      >Finite-State Language Processing</hi>. Cambridge, Massachusetts, USA:
+                                      MIT Press 329–354. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Guenthner, Franz / Maier, Petra</hi> (eds.) (1994): <hi
+                                        rend="italic">Das CISLEX Wörterbuchsystem</hi>. München. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Hoffjann, Olaf</hi> (2014): "Presse- und Medienarbeit in der
+                                          Unternehmenskommunikation", in: Zerfaß, Ansgar / Piwinger, Manfred (eds.):
+                                          <hi rend="italic">Handbuch Unternehmenskommunikation</hi>. Wiesbaden:
+                                          Springer 671-690. </bibl>
+                                          <bibl>
+                                            <hi rend="bold">Hogenboom, Frederik / Frasincar, Flavius / Kaymak, Uzay / de
+                                              Jong, Franciska</hi> (2011): "An overview of event extraction from
+                                              text", in: <hi rend="italic">Proceedings of Detection, Representation, and
+                                              Exploitation of Events in the Semantic Web (DeRiVE 2011)</hi>. Workshop
+                                              in conjunction with the 10th International Semantic Web Conference 2011
+                                              (ISWC 2011), Bonn, Germany, October 23, 2011: 48–57. </bibl>
+                                              <bibl><hi rend="bold">Institut für Deutsche Sprache (IDS)</hi> (o.J.): <hi
+                                              rend="italic">Cosmas II</hi>. Corpus Search, Management and Analysis
+                                              System <ref target="http://www.ids-mannheim.de/cosmas2/"
+                                              >http://www.ids-mannheim.de/cosmas2</ref> [letzter Zugriff 05. Oktober
+                                              2015].</bibl>
+                                              <bibl>
+                                                <hi rend="bold">Mallchok, Friederike</hi> (2004): <hi rend="italic"
+                                                >Automatic Recognition of Organization Names in English Business
+                                                News</hi>. München: Ludwig-Maximilians-Universität München. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">Nagel, Sebastian</hi> (2008): <hi rend="italic">Lokale
+                                                  Grammatiken zur Beschreibung von lokativen Sätzen und ihre Anwendung im
+                                                  Information Retrieval</hi>. München: Ludwig-Maximilians-Universität
+                                                  München. </bibl>
+                                                  <bibl>
+                                                    <hi rend="bold">Nassirtoussi, Arman Khadjeh / Aghabozorgi, Saeed / Wah, Teh
+                                                      Ying / Chek Ling Ngo, David</hi> (2014): "Text mining for market
+                                                      prediction: A systematic review", in: <hi rend="italic">Expert Systems with
+                                                      Applications</hi> 41,16: 7653–7670. </bibl>
+                                                      <bibl>
+                                                        <hi rend="bold">Palmieri, Rudi</hi> (2014): <hi rend="italic">Corporate
+                                                        argumentation in takeover bids</hi>. Amsterdam / Philadelphia: John
+                                                        Benjamins. </bibl>
+                                                        <bibl>
+                                                          <hi rend="bold">Saurì, Roser / Pustejovsky, James</hi> (2012). "Are You Sure
+                                                          That This Happened? Assessing the Factuality Degree of Events in Text", in:
+                                                          <hi rend="italic">Computational Linguistics</hi> 35, 1: 1–39. </bibl>
+                                                          <bibl><hi rend="bold">Université Paris-Est Marne-la-Vallée</hi> (o.J.): <hi
+                                                          rend="italic">Unitex</hi>
+                                                          <ref target="http://igm.univ-mlv.fr/~unitex/UnitexManual3.1.pdf"
+                                                            >http://igm.univ-mlv.fr/~unitex/UnitexManual3.1.pdf</ref> [letzter
+                                                            Zugriff 05. Oktober 2015].</bibl>
+                                                          </listBibl>
+                                                        </div>
+                                                      </back>
+                                                    </text>
+                                                  </TEI>

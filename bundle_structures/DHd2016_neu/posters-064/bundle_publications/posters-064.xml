@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-064">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Historische Begriffe der Erziehungswissenschaft - Erzeugung einer Ontologie</title>
+        <author>
+          <name>
+            <surname>Müller</surname>
+            <forename>Lars</forename>
+          </name>
+          <affiliation>DIPF, Deutschland</affiliation>
+          <email>l.mueller@dipf.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-12-26T21:54:59.092000000</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from an OASIS Open Document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Bildungsgeschichte</term>
+          <term>Ontologie</term>
+          <term>Forschungsdaten</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Umwandlung</term>
+          <term>Modellierung</term>
+          <term>Bearbeitung</term>
+          <term>Metadaten</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Historische Begriffe der entstehenden Erziehungswissenschaft sollen als
+        maschinenlesbare Terminologie für digitale historische Bildungsforschung
+        bereitgestellt werden. Bibliografische Titelaufnahmen von Lemmata aus 24
+        historischen erziehungswissenschaftlichen Nachschlagewerken (1774 – 1942) werden
+        hierfür in eine Ontologie transformiert (Abbildung 1). Die Lexikonbeiträge
+        dokumentieren Herausbildung und Wandel erziehungswissenschaftlicher Fachsprache und
+        Gegenstände. Christian Ritzi (2003: 114) zeigte anhand der „Prügelstrafe“, wie diese
+        "in pädagogischen Nachschlagewerken als pädagogisches Problem im Sinne einer
+        'Kodifizierung des Wissens' in das System des ausgebreiteten pädagogischen Wissens
+        integriert" wurde. Das Beispiel illustriert das Potential, das für die Forschung in
+        einem integrierten, semantisch modellierten, historischen Vokabular liegt. Im
+        Fachportal <ref target="http://goobiweb.bbf.dipf.de/viewer">Scripta Paedagogica
+        Online</ref> (SPO) (vgl. BBF) sind die digitalisierten und detailliert mit
+        Metadaten beschriebenen Lexika (Ritzi 2003: 103ff.) bereits frei zugänglich.</p>
+        <figure>
+          <graphic url="p064-100000000000033C0000024A96DA1D16.jpg"/>
+          <p><hi rend="bold">Abb. 1</hi>: Rekonstruktion einer Wissensdomäne aus bibliografischen Daten</p>
+        </figure>
+        <p>Ell et al. (2013) haben gezeigt, wie Bibliografische Daten zur Bildungsgeschichte in
+          die virtuelle Forschungsumgebung <ref target="http://www.semantic-cora.org">Semantic
+          CorA</ref> (vgl. German Institute for International Educational Research et al.)
+          zur semantischen Repräsentation und Analyse integriert werden können. Die digitalen
+          Dienste der Bibliothek für Bildungshistorische Forschung (BBF) können künftig über
+          die Bereitstellung von Daten hinausgehen und gegenüber den bestehenden Funktionen um
+          eine Wissens-Ebene erweitert werden (vgl. Oramas et al. 2014; Feng et al. 2005), um
+          die Bildungsgeschichte bei ihrer Hinwendung zu digitalen Methoden optimal zu
+          unterstützen.</p>
+          <p>Im hier dargestellten Ansatz werden bibliografische Titeldaten als Begriffe bzw. Entitäten konzeptualisiert, neu modelliert und semantisch angereichert. So können sie in bildungshistorischen Analysen ausgewertet oder als Datensets für Textanalysen verwendet werden. Diese zu Forschungsdaten transformierten Katalogdaten erweitern somit die Informationsinfrastruktur für die historische Bildungsforschung auf der Wissens-Ebene und stellen exemplarisch einen neuen bibliothekarischen Infrastrukturservice für Digital Humanities dar, der in der Erzeugung und Bereitstellung semantischer Vokabulare besteht. </p>
+          <p>Als Ausgangsmaterial liegen in SPO frei zugängliche METS / MODS-Metadatensätze
+            digitalisierter Nachschlagewerke und Lemmata im RDF / XML-Format vor. Mittels XSLT
+            können sie auf die für das Vorhaben relevanten Elemente reduziert und umgeformt
+            werden. Die als Wissenselemente betrachteten Titeldaten werden dabei aus der
+            Wissensdomäne Buch- und Bibliothekswesen in die Wissensdomäne historische
+            Bildungsforschung überführt. Die Ontologie wird als Linked Open Data (LOD) in RDF
+            aufgebaut.</p>
+            <p>Jedes Lemma wird im ersten Verarbeitungsschritt zum Deskriptor eines Konzepts, das
+              durch den zugehörigen Lexikonbeitrag definiert wird. Das Vokabular wird in <ref
+              target="http://www.w3.org/2004/02/skos/">SKOS</ref> (vgl. W3C 2012) modelliert,
+              indem die Instanzen umklassifiziert werden. In den Metadaten befindliche Identifier
+              für Katalogeinträge und digitale Dokumente werden mitgenommen und erhalten die
+              Beziehung zu den Quellen. Im folgenden Schritt werden die erzeugten Vokabulare so
+              überarbeitet, dass explizite Begriffsbeziehungen innerhalb jedes einzelnen
+              Nachschlagewerks abgebildet werden. Zunächst wird jedes Nachschlagewerk einzeln
+              transformiert. Anschließend werden die so entstandenen historischen Vokabulare zur
+              Pädagogik durch Terminologiemapping (vgl. Keil 2012) aufeinander bezogen.</p>
+              <figure>
+                <graphic url="p064-10000000000003A60000013CF87145EE.jpg"/>
+                <p><hi rend="bold">Abb. 2</hi>: Schematische Darstellung des Transformationsmodells</p>
+              </figure>
+              <p>Eine besondere Herausforderung stellen Erhalt und Darstellung des zeitlichen Wandels
+                von Sprachgebrauch und Kategorien dar. Für die Abbildung des Zeitbezugs wird jedes
+                Nachschlagewerk als Snapshot-Ontologie modelliert (vgl. Ide / Woolner 2007: 142;
+                Kauppinen / Hyvönen 2007). Jeder Begriff wird mit dem Erscheinungsdatum des ihn
+                beinhaltenden Nachschlagewerks assoziiert, welches als „Publikationsereignis“ im
+                Simple Event Model (SEM) (van Hage et al. 2011) modelliert wird (Abbildung 2). Da
+                die aus den Lexika extrahierten Lemmata viele Überschneidungen aufweisen werden,
+                sollen sie abschließend auch in einer einzigen Ontologie zusammengeführt werden
+                (vgl. Kalfoglou / Schorlemmer 2003: 4).</p>
+                <p>Im Ergebnis entsteht eine Ontologie zu historischen Begriffen der
+                  Erziehungswissenschaft, die zur Nachnutzung in einem geeigneten
+                  Forschungsdatenrepositorium publiziert wird. Damit die Zuverlässigkeit der Daten
+                  gewährleistet und überprüft werden kann, werden auch Datensätze der Teilergebnisse
+                  zusammen mit den Metadaten des Transformationsprozesses dokumentiert. Damit bleibt
+                  jeder Verarbeitungsschritt replizierbar (Abbildung 3). Aus der neuen Datenbasis
+                  lassen sich Versionen ableiten, die bspw. als Gazetteer für automatische
+                  Entitätenerkennung, Entity Linking, Netzwerkanalysen oder visuelle Datenexploration
+                  eingesetzt werden können.</p>
+                    <figure>
+                      <graphic url="p064-10000000000003C0000002D000F1EED5.jpg"/>
+                      <p><hi rend="bold">Abb. 3</hi>: Workflow zur Transformation und Erzeugung von Daten- und Metadatensets</p>
+                    </figure>
+                </body>
+                <back>
+                  <div type="bibliogr">
+                    <listBibl>
+                      <head>Bibliographie</head>
+                      <bibl><hi rend="bold">Bibliothek für Bildungsgeschichtliche Forschung (BBF)
+                        (o.J.)</hi>: <hi rend="italic">SPO</hi>. Scripta Pedagogica Online <ref
+                        target="http://goobiweb.bbf.dipf.de/viewer"
+                        >http://goobiweb.bbf.dipf.de/viewer</ref> [letzter Zugriff 12. Februar
+                        2016].</bibl>
+                        <bibl>
+                          <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1b3"/><hi rend="bold"
+                          >Ell, Basil / Schindler, Christoph / Rittberger, Marc</hi> (2013):
+                          "Semantically Enhanced Interactions between Heterogeneous Data Life-Cycles",
+                          in: Garoufallou, Emmanouel / Greenberg, Jane (eds.): <hi rend="italic"
+                          >Metadata and Semantics Research</hi>. Cham: Springer International
+                          Publishing 277–288. </bibl>
+                          <bibl>
+                            <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1b5"/><hi rend="bold"
+                            >Feng, Ling / Jeusfeld, Manfred A. / Hoppenbrouwers, Jeroen</hi> (2005):
+                            "Beyond information searching and browsing: acquiring knowledge from digital
+                            libraries", in: <hi rend="italic">Information Processing &amp; Management
+                          </hi>41, 1: 97–120 <ref
+                          target="http://conceptbase.sourceforge.net/mjf/itrs008.pdf"
+                          >http://conceptbase.sourceforge.net/mjf/itrs008.pdf</ref> [letzter
+                          Zugriff 12. Februar 2016]. </bibl>
+                          <bibl><hi rend="bold">German Institute for International Educational Research /
+                            Karlsruher Institute for Technology / Georg-August-Universität
+                            Göttingen</hi> (o. J.): <hi rend="italic">Semantic CorA</hi>
+                            <ref target="www.semantic-cora.org/">www.semantic-cora.org/</ref> [letzter
+                            Zugriff 12. Februar 2016].</bibl>
+                            <bibl>
+                              <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1b7"/><hi rend="bold"
+                              >Ide, Nancy / Woolner, David</hi> (2007): "Historical Ontologies", in:
+                              Ahmad, Khurshid / Brewster, Christopher / Stevenson, Mark (eds.): <hi
+                              rend="italic">Words and Intelligence II</hi>. Dordrecht: Springer
+                              Netherlands 137–152. </bibl>
+                              <bibl>
+                                <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1b9"/><hi rend="bold"
+                                >Kalfoglou, Yannis / Schorlemmer, Marco</hi> (2003): "Ontology mapping:
+                                the state of the art", in: <hi rend="italic">Knowledge Engineering
+                                Review</hi>18,1: 1–31 <ref
+                                target="http://drops.dagstuhl.de/volltexte/2005/40/pdf/04391.KalfoglouYannis.Paper.40.pdf"
+                                >http://drops.dagstuhl.de/volltexte/2005/40/pdf/04391.KalfoglouYannis.Paper.40.pdf</ref>
+                                [letzter Zugriff 12. Februar 2016]. </bibl>
+                                <bibl>
+                                  <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1c11"/><hi rend="bold"
+                                  >Kauppinen, Tomi / Hyvönen, Eero</hi> (2007): "Modeling and Reasoning
+                                  About Changes in Ontology Time Series", in: Sharman, Raj / Kishore, Rajiv /
+                                  Ramesh, Ram (eds.): <hi rend="italic">Ontologies</hi>. A handbook of
+                                  Principles, Concepts ans Applications in Information Systems. Boston, MA:
+                                  Springer 319–338. </bibl>
+                                  <bibl>
+                                    <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1c13"/><hi rend="bold"
+                                    >Keil, Stefan</hi> (2012): "Terminologie Mapping: Grundlagen und
+                                    aktuelle Normungsvorhaben", in: <hi rend="italic">Information - Wissenschaft
+                                    &amp; Praxis </hi>63, 1: 45-55 <ref
+                                    target="http://eprints.rclis.org/16716/1/Stefan%20Keil%20-TM%20Grundlagen%20und%20Normungsvorhaben-Repository.pdf"
+                                    >http://eprints.rclis.org/16716/1/Stefan%20Keil%20-TM%20Grundlagen%20und%20Normungsvorhaben-Repository.pdf</ref>
+                                    [letzter Zugriff 12. Februar 2016]. </bibl>
+                                    <bibl>
+                                      <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1c15"/><hi rend="bold"
+                                      >Oramas, Sergio / Sordo, Mohamed / Serra, Xavier</hi> (2014): "Automatic
+                                      creation of knowledge graphs from digital musical document libraries", in:
+                                      <hi rend="italic">9th Conference on interdisciplinary musicology -
+                                        CIM14</hi>. Proceedings <ref
+                                        target="http://mtg.upf.edu/system/files/publications/CIM14_MAIN.pdf"
+                                        >http://mtg.upf.edu/system/files/publications/CIM14_MAIN.pdf</ref>
+                                        [letzter Zugriff 12. Februar 2016]. </bibl>
+                                        <bibl>
+                                          <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1c17"/><hi rend="bold"
+                                          >Ritzi, Christian</hi> (2003): "Scripta Paedagogica Online : Digitales
+                                          Textarchiv zur Bildungsgeschichte des deutschsprachigen Raums", in: Thaller,
+                                          Manfred (ed.): <hi rend="italic">Digitale Bausteine für die
+                                          geisteswissenschaftliche Forschung</hi>. Göttingen: Dührkohp &amp;
+                                          Radicke 103–135. </bibl>
+                                          <bibl>
+                                            <anchor xml:id="id_index.xml-bibl-w1855386aab3b3b1b1c19"/><hi rend="bold"
+                                            >van Hage, Willem Robert / Malaisé, Véronique / Segers, Roxane /
+                                            Hollink, Laura / Schreiber, Guus</hi> (2011): "Design and use of the
+                                            Simple Event Model (SEM)", in: <hi rend="italic">Web Semantics: Science,
+                                            Services and Agents on the World Wide Web</hi> 9, 2: 128–136.</bibl>
+                                            <bibl><hi rend="bold">W3C = World Wide Web Consortium</hi> (2012): <hi
+                                            rend="italic">SKOS</hi>. Simple Knowledge Organization System <ref
+                                            target="Simple Knowledge Organization System">Simple Knowledge
+                                            Organization System</ref> [letzter Zugriff 12. Februar 2016].</bibl>
+                                          </listBibl>
+                                        </div>
+                                      </back>
+                                    </text>
+                                  </TEI>

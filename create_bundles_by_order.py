@@ -27,7 +27,7 @@ import sys
 from xml.etree import ElementTree as ET
 from shutil import copyfile
 import json
-from pdfreader import SimplePDFViewer
+# from pdfreader import SimplePDFViewer
 import pandas as pd
 from lxml import etree
 
@@ -178,14 +178,15 @@ def get_publication_files(file_dir) -> dict:
 
     elif file_type == ".pdf":
         for f in files:
-            fd = open(f, "rb")
+            """fd = open(f, "rb")
             viewer = SimplePDFViewer(fd)
             viewer.navigate(1)
             viewer.render()
             plain_text = "".join(viewer.canvas.strings)
             new_text = plain_text.replace(
                         "Book of Abstracts zur Konferenz Digital Humanities im deutschsprachigen Raum 2018", "")
-            new_text = new_text[:100]
+            new_text = new_text[:100]"""
+            new_text = ""
             file_titles.update({f: new_text})
     return file_titles
 

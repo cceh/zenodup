@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Booksprint-Projekt: Lehrbuch „Forschungsdatenmanagement“</title>
+        <author>
+          <name>
+            <surname>Büttner</surname>
+            <forename>Stephan</forename>
+          </name>
+          <affiliation>FH Potsdam, Deutschland</affiliation>
+          <email>st.buettner@fh-potsdam.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Heger</surname>
+            <forename>Martin</forename>
+          </name>
+          <affiliation>FH Potsdam, Deutschland</affiliation>
+          <email>martin.heger@fh-potsdam.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Heinrich</surname>
+            <forename>Marcus</forename>
+          </name>
+          <affiliation>FH Potsdam, Deutschland</affiliation>
+          <email>marcus.heinrich@fh-potsdam.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Keller</surname>
+            <forename>Carolin</forename>
+          </name>
+          <affiliation>FH Potsdam, Deutschland</affiliation>
+          <email>carolin.keller@fh-potsdam.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Lehmann</surname>
+            <forename>Anna</forename>
+          </name>
+          <affiliation>FH Potsdam, Deutschland</affiliation>
+          <email>anna.lehmann@fh-potsdam.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Meyer</surname>
+            <forename>Michaela</forename>
+          </name>
+          <affiliation>FH Potsdam, Deutschland</affiliation>
+          <email>Michaela.meyer@fh-potsdam.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016-01-08T13:50:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Lehrbuch</term>
+          <term>Kollaboration</term>
+          <term>Open Access</term>
+          <term>Forschungsdatenmanagement</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Gestaltung</term>
+          <term>Kontextsetzung</term>
+          <term>Theoretisierung</term>
+          <term>Bearbeitung</term>
+          <term>Schreiben</term>
+          <term>Veröffentlichung</term>
+          <term>Kollaboration</term>
+          <term>Lehre</term>
+          <term>Visualisierung</term>
+          <term>Daten</term>
+          <term>Manuskript</term>
+          <term>Projekte</term>
+          <term>Forschung</term>
+          <term>Text</term>
+          <term>Werkzeuge</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Forschungsdaten sind sowohl in den Natur- als auch in den Geisteswissenschaften das Herzstück computergestützter Forschungsvorhaben (DARIAH-DE 2015). Die Unterschiede zwischen den Geisteswissenschaften und den STM-Fächern sind dabei sehr groß, sowohl was die Definition von Forschungsdaten innerhalb der Communities betrifft, als auch das Verständnis der entsprechenden Forschungsdateninfrastrukturen. </p>
+      <p>Die Informationswissenschaften fungieren bzw. verstehen sich in den letzten Jahren
+        zunehmend als Mittler zwischen der Informatik einerseits und den Natur- und
+        Geisteswissenschaften andererseits (Balck et al. 2015).</p>
+        <p>Studierende im Masterstudiengang „Informationswissenschaften“ der FH Potsdam stellen
+          in diesem Poster ein aktuell laufendes kollaboratives „Booksprint-Projekt“ vor, das
+          in einem Bachelor-Projekt im Sommersemester 2015 vorbereitet wurde. Dabei verfasst
+          eine bestimmte Anzahl von Autoren in wenigen Tagen ein Buch in gemeinsamer, eng
+          vernetzter Arbeit. Methodisch bedeutet dies, dass bereits nach wenigen Tagen ein
+          handfestes Ergebnis vorhanden ist und das Problem mit z. B. nicht eingehaltenen
+          Deadlines umgangen wird. Die Studierenden nehmen dafür verschiedene Rollen ein, wie
+          die des Moderators und Begutachters und schaffen somit einen produktiven Rahmen, der
+          die Autoren bereits während der Schreibphase mit konstruktivem Feedback versorgt.
+          Die Projektgruppe orientiert sich dabei u. a. an dem Projekt „Handbuch Digital
+          Humanities“ (Neuschäfer 2015). Unterstützt wird das Projekt vom Open Science Lab der
+          TIB Hannover (Open Science Lab der TIB 2015). Innerhalb von drei Tagen haben 12
+          Autoren aus den Geistes- und Naturwissenschaften Anfang Januar 2016 gemeinsam ein
+          „Lehrbuch Forschungsdatenmanagement“ geschrieben. Die Zielgruppe des Lehrbuchs sind
+          einerseits Forscherinnen und Forscher, die zuvor noch nicht mit
+          Forschungsdatenmanagement in Berührung kamen, unabhängig von der Disziplin sowie
+          Praktiker (z. B. Informatiker, Datenbibliothekare etc.), die sich mit dem Thema
+          beschäftigen, indem sie z. B. an ihrer Einrichtung Forschungsdatenmanagement
+          betreiben oder / und anwenden. </p>
+          <p>Das Poster beschreibt anschaulich den Verlauf des Projekts und vermittelt strukturiert aufbereitet verallgemeinerungswürdige Erfahrungen bei kollaborativen Booksprint-Projekten.</p>
+          <p>Als besonders wichtig stellen sich bereits jetzt heraus:</p>
+          <p>• Erarbeitung dezidierter Vorgaben zu Zielgruppe, Zitierweise, Didaktik etc.</p>
+          <p>• Betreuung des Projekts durch „Booksprint Facilitators“,</p>
+          <p>• Ein intensives Marketing des Projekts, insbesondere innerhalb der verschiedenen Communities sowie in den sozialen Medien.</p>
+        </body>
+        <back>
+          <div type="bibliogr">
+            <listBibl>
+              <head>Bibliographie</head>
+              <bibl><hi rend="bold">Balck, Sandra / Büttner, Stephan / Ducks, Denise /
+                Lehfeld, Ann-Sophie / Schneider, Eva / Vietze, Evelyn</hi> (2015): "Mit
+                den Informationswissenschaften von Daten zu Erkenntnissen (Poster)", in: <hi
+                rend="italic">Tagung der Digital Humanities im deutschsprachigen Raum
+                (DHd 2015)</hi>, Graz.</bibl>
+                <bibl><hi rend="bold">DARIAH-DE</hi> (2015): "Forschungsdaten in DARIAH-DE" <ref
+                target="https://de.dariah.eu/forschungsdaten"
+                >https://de.dariah.eu/forschungsdaten</ref> [letzter Zugriff 14. Oktober
+                2015].</bibl>
+                <bibl><hi rend="bold">Neuschäfer, Markus</hi> (2015): <hi rend="italic">Handbuch
+                Digital Humanities</hi>. Public Beta <ref
+                target="http://dhd-blog.org/?p=5566">http://dhd-blog.org/?p=5566</ref>
+                [letzter Zugriff 14.Oktober 2015].</bibl>
+                <bibl><hi rend="bold">Open Science Lab der TIB</hi> (2015): <ref
+                target="http://blogs.tib.eu/wp/opensciencelab/"
+                >http://blogs.tib.eu/wp/opensciencelab/</ref> [letzter Zugriff 14.
+                Oktober 2015].</bibl>
+              </listBibl>
+            </div>
+          </back>
+        </text>
+      </TEI>

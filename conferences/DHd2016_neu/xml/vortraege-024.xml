@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-024">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Zu virtuellen Forschungsumgebungen, einer genuin digitalen Hermeneutik sowie deren Visualisierung</title>
+        <author>
+          <name>
+            <surname>Scheuermann</surname>
+            <forename>Leif</forename>
+          </name>
+          <affiliation>Karl-Franzens Universität Graz, Österreich</affiliation>
+          <email>Leif.scheuermann@uni-graz.at</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-09-14T13:17:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.11">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Virtuelle Frouschungsumgebung</term>
+          <term>digitale Hermeneutik</term>
+          <term>Visualisierung</term>
+          <term>Throrie und Methoden der digitalen Geisteswissenschaften</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Modellierung</term>
+          <term>Kommunikation</term>
+          <term>Theoretisierung</term>
+          <term>Veröffentlichung</term>
+          <term>Kollaboration</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Visualisierung</term>
+          <term>Daten</term>
+          <term>Interaktion</term>
+          <term>Metadaten</term>
+          <term>Methoden</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>In seinen Akademie-Vorträgen vom 6. Dez. 1906 und 7. Jan. 1909, welche ihren
+        schriftlichen Niederschlag in dem Aufsatz „Abgrenzung der Geisteswissenschaften“
+        (Dilthey 1970) fanden, definiert Wilhelm Dilthey als Forschungsgebiet der
+        Geisteswissenschaften „das Erlebnis, das Verstehen fremder Erlebnisse und Urteile
+        und Begriffe, welche die erlebten und verstandenen Sachverhalte ausdrücken“ (Dilthey
+        1970: 376). Des Weiteren formuliert er programmatisch: „Alle systematischen
+        Wissenschaften des Geistes beruhen auf der Beziehung, die zwischen dem Erlebten und
+        Verstandenen und den Begriffen, die es ausdrücken besteht“(Dilthey 1970: 377). In
+        Konsequenz sieht er als methodischen Ansatz der Geisteswissenschaften die
+        Hermeneutik, deren zentrale Aufgabe es ist das Erlebte und Verstandene als „in
+        Urteilen und Begriffen adäquat darstellbar aufzufassen“ (Dilthey 1970: 383). Nicht
+        die Nacherzählung oder „realistische“ Rekonstruktion ist also das Ziel, sondern das
+        Verstehen und begrifflich neu Fassen, die „Ausbildung der &gt;analytischen
+        Wissenschaft der einzelnen Zweckzusammenhänge, die als Kultursysteme durch die
+        Geschichte hindurchgehen…&lt;“ (Dilthey 1970: 384).</p>
+        <p>Nimmt man diese basalen Definitionen zur Grundlage, so stellt sich für die digitalen
+          Geisteswissenschaften die Frage nach einer genuin digitalen Hermeneutik, also dem
+          „in Urteilen und Begriffen adäquat darstellbar aufzufassen“ (s. o.) in den digitalen
+          Medien. Eine solche genuin digitale Hermeneutik muss sich von einer traditionellen
+          computerunterstützen Herangehensweise in der Weise unterscheiden, dass sie zum einen
+          ausschließlich innerhalb der digitalen Medien zu geschehen hat (und damit auch
+          multimedial sein muss), zum anderen aber auch darin selbstreferentiell zu
+          dokumentieren und visualisieren ist. Um dies zu verdeutlichen und näher zu
+          erläutern, ist das traditionelle Vorgehen eines Wissenschaftlers darauf begrenzt,
+          Computeranwendungen dazu zu benutzen, Daten zu erheben, sie abzufragen, zu
+          analysieren und zu visualisieren. Dies geschieht meist unter Nutzung
+          unterschiedlichster, lokaler oder webbasierter Werkzeuge, wobei jedoch jedes für
+          sich steht und die Ergebnisse bestenfalls durch „copy-paste“ von einer auf die
+          andere Anwendung übertragen werden. Am Ende des Prozesses steht ein fachliches
+          Urteil, eine Begriffsfindung, welche in einem meist textlichen Narrativ präsentiert
+          wird – z. B. in Form eines Aufsatzes, welcher durchaus online publiziert sein mag.
+          Der hermeneutische Prozess selbst jedoch findet nicht im digitalen Medium statt und
+          wird auch nicht im Ergebnis dokumentiert. Es handelt sich also in dieser Form der
+          geisteswissenschaftlichen Arbeit nicht um digitale Hermeneutik, sondern lediglich um
+          eine Hermeneutik unter Nutzung digitaler Medien.</p>
+          <p>Wie jedoch soll nun ein genuin digitale Hermeneutik von statten gehen?</p>
+          <p>Eine erste Grundannahme ist es, dass alle potentiell zu nutzenden Forschungsdaten und Anwendungen auf einer gemeinsamen Oberfläche, einer digitalen Forschungsumgebung, zusammenzuführen und zu verknüpfen sind. Dies kann natürlich nicht bedeuten, dass sämtliche bereits bestehenden Anwendungen neu und für nur ein einziges „System“ erstellt werden, vielmehr ist es die Aufgabe der Plattform Schnittstellen zwischen den Anwendungen und Daten (wobei diese Unterscheidung in letzter Konsequenz hinfällig ist) bereitzustellen und zu verwalten, um eine freie und dynamische Kombination zu ermöglichen. Die zu integrierenden Elemente werden dabei wie Blackboxes behandelt und bleiben so in ihrer Form bestehen, was für neu zu erstellende Anwendungen ebenfalls zur Folge hat, dass sie systemunabhängig funktionieren.</p>
+          <p>Durch die Integration und freie Kombination unterschiedlichster Daten und Anwendungen kann im digitalen Medium ein hermeneutischer Prozess stattfinden, der nicht mehr implizit im Ergebnis definiert, sondern selbst Teil des Ergebnisses ist. Hierzu muss jedoch der digitale hermeneutischen Prozess dokumentiert und so nachvollziehbar gemacht werden. Dazu bedarf es einer formalen geordneten Darstellung sowohl der Fragestellungen bzw. der Argumentationen, als auch der genutzten Daten und Anwendungen sowie der Ergebnisse und für diese muss eine adäquate Visualisierungsform existieren.</p>
+          <p>Um auch dies wieder an einem praktischen Beispiel zu erläutern, kann der Nutzer einer
+            solchen Plattform, der sich mit der Ausbreitung antiker Münzen im Mittelmeerraum
+            beschäftigt, verschiedene in CIDOC CRM ausgezeichnete numismatische Datenbanken über
+            generische Schnittstellen in die Plattform integrieren und den eigenen
+            Fragestellungen entsprechend abfragen. Um diese nun in einer Ausbreitungskarte
+            darzustellen, verbindet er die Auswahl mit einer geographischen Visualisierung (z.
+            B. OpenStreetMap), welche ebenfalls in das System zu integrieren ist. Eine räumliche
+            Eingrenzung auf der Karte kann nun wiederum die Abfrage der Datenbank beeinflussen.
+            Er kann jedoch auch eine einzubettende Netzwerk-Analyse z. B. im Hinblick auf die
+            Münzmeister hinzuziehen und diese wiederum für weitere Analysen nutzen. Von
+            zentraler Bedeutung ist es nun, diesen frei definierten Workflow zu protokollieren
+            und darzustellen, so dass ein weiterer Nutzer diesen nach nicht nur vollziehen
+            sondern sich einer anderen Fragestellung auch Teile der Argumentation zu Eigen
+            machen und in den eigenen Workflow integrieren – im Fallbeispiel z. B. zu
+            Mittelalterlichen Münzen.</p>
+            <p>Ansätze und erste Schritte zu einer Umsetzung eines solchen Systems möchte dieser Vortrag m Fallbeispiel einer digitalen Forschungsumgebung zur Raumwahrnehmung der Stadt Rom in der späten Republik präsentieren. Dabei soll der Fokus auf den theoretischen Grundlagen wie auf der technologischen Umsetzung liegen.</p>
+          </body>
+          <back>
+            <div type="bibliogr">
+              <listBibl>
+                <head>Bibliographie</head>
+                <bibl><hi rend="bold">Dilthey, Wilhelm</hi> (1970): <hi rend="italic">Der Aufbau
+                der geschichtlichen Welt in den Geisteswissenschaften</hi>. Frankfurt
+                a.M.: Suhrkamp 365-393.</bibl>
+                <bibl><hi rend="bold">Scheuermann, Leif</hi> (in Vorbereitung): "Die Abgrenzung
+                der digitalen Geisteswissenschaften", in: <hi rend="italic">Digital
+                Classics</hi> 2.</bibl>
+                <bibl><hi rend="bold">Scheuermann, Leif</hi> (2014): "On co-productive web-based
+                digital mapmaking. Preconditions, risks and opportunities", in: Rau, Susanne
+                / Schönherr, Ekkehard (eds.): <hi rend="italic">Mapping Spatial Relations,
+                their Perceptions and Dynamics</hi> (= Lecture Notes in Geoinformation
+                and Cartography). Switzerland: Springer International Publishing
+                17-23.</bibl>
+                <bibl><hi rend="bold">Scheuermann, Leif</hi> (2006): "Ontologien in den
+                historischen Wissenschaften", in: <hi rend="italic">Historical Social
+                Research</hi> 31, 3: 308-316.</bibl>
+              </listBibl>
+            </div>
+          </back>
+        </text>
+      </TEI>

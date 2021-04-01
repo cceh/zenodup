@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-033">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Formate als Sackgassen: Handlungsempfehlungen</title>
+        <author>
+          <name>
+            <surname>Bohl</surname>
+            <forename>Benjamin W.</forename>
+          </name>
+          <affiliation>Zentrum für Musik- und Filminformatik, Hochschule Ostwestfalen-Lippe</affiliation>
+          <email>bohl@edirom.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Berndt</surname>
+            <forename>Axel, Dr.</forename>
+          </name>
+          <affiliation>Zentrum für Musik- und Filminformatik, Hochschule Ostwestfalen-Lippe</affiliation>
+          <email>berndt@hfm-detmold.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Senft</surname>
+            <forename>Björn</forename>
+          </name>
+          <affiliation>Software Quality Lab, Universität Paderborn</affiliation>
+          <email>bsenft@s-lab.uni-paderborn.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-13T10:36:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Vortrag</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Handlungsempfehlungen</term>
+          <term>Entwicklungskapazitäten</term>
+          <term>Datensynchronisation</term>
+          <term>Nachhaltigkeit</term>
+          <term>Rückfluss</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Modellierung</term>
+          <term>Theoretisierung</term>
+          <term>Bereinigung</term>
+          <term>Bearbeitung</term>
+          <term>Archivierung</term>
+          <term>Kollaboration</term>
+          <term>Projektmanagement</term>
+          <term>Organisation</term>
+          <term>Daten</term>
+          <term>Werkzeuge</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Im Kontext des <hi rend="italic">Zentrum - Musik - Edition - Medien</hi> beschäftigen
+      sich die Autoren mit der Modellierung und Codierung musikalischer Phänomene. Formate
+      zur Codierung von Musik reichen von ASCII-basierten Codierungen (Humdrum,
+      ABC-Notation) über SGML-basierte Formate (SMDL) und XML-basierte Formate (MusicXML,
+      MEI) bis hin zu technischen Steuerdaten (MIDI und spezifische Formate für
+      Sequencer-Programme) oder Audiodaten (FLAC, MP3) (vgl. Selfridge-Field 1997).<ref type="note" target="n01" n="1">1</ref>
+      Es sind die spezifischen Anforderungen und Ansprüche, der Fokus auf die
+      Darstellung bestimmter (musikalischer) Phänomene, und die Ausrichtung auf einen
+      bestimmten Nutzungskontext, die jedes Format prägen und ihm seine Berechtigung geben
+      (vgl. Veit 2006). Jedoch stellt der Informationsaustausch zwischen den verschiedenen
+      Nutzergruppen, mit ihren spezifischen Formatvorlieben und den jeweils relevanten
+      -erfordernissen, ein essentielles Problem dar. Ausgehend von dieser, zwar im
+      Beispiel musikspezifischen, im Kern jedoch allgemeingültigen Problemstellung, sollen
+      im Folgenden Handlungsempfehlungen entwickelt werden, die zur Planung und
+      Einschätzung digital arbeitender Projekte herangezogen werden können. </p>
+      <p>„Während MusicXML als Austauschformat inzwischen größte Verbreitung gefunden hat,
+        versucht MEI ausdrücklich, musikeditorische Anforderungen zu erfüllen.“ (Kepper
+        2009: 216). Im Vergleich zu MusicXML und vielen anderen Codierungsformaten für Musik
+        (vgl. Selfridge-Field 1997), ermöglicht das XML-basierte Codierungsformat der Music
+        Encoding Initiative (MEI) eine umfassende metadatliche Beschreibung (vgl. Richts /
+        Herold 2014), sowie die Codierung editorischer Sachverhalte (vgl. Roland / Kepper
+        2014). Aufgrund dieses Alleinstellungsmerkmals hat es sich im Bereich der digitalen
+        Musikedition etabliert und findet sich inzwischen auch im Recommended Formats
+        Statement der Library of Congress (vgl. Library of Congress 2015). Somit ist es
+        nachvollziehbar, dass zunehmend mehr Editionsprojekte auf MEI zurückgreifen, nicht
+        zuletzt, um dem <hi rend="italic">Digital Turn</hi> und seiner Forderung nach einer
+        nachhaltigen Bereitstellung von Forschungsdaten zur Nachnutzung nachzukommen. </p>
+        <p>Denkbare Nutzungsszenarien in diesem Kontext sind u. a. im Music Information
+          Retrieval (MIR), in der Interpretationsforschung sowie in der weiteren Verarbeitung
+          von Musikdaten (Musikgenerierung und -adaption), im Notendruck und in der
+          Musikproduktion verortet. Jede Disziplin bringt ihre eigenen Anforderungen an die
+          Modellierung der Informationen mit. </p>
+          <list type="unordered">
+            <item>Im MIR werden einfache Strukturen benötigt, etwa CSV-Daten, um ein schnelles Parsen für Echtzeit-Anwendungen zu gewährleisten.</item>
+            <item>In der Interpretationsforschung spielt die Analyse von Audiodaten eine wichtige Rolle. MEI ist dafür nicht spezifisch genug, enthält keine Audiodaten und keine Möglichkeit, solche Analyseergebnisse zu repräsentieren.</item>
+            <item>Für die Musikgenerierung und -adaption werden Tondaten und Steuerdaten vorausgesetzt. Im Falle von MEI sind erstere unvorteilhaft strukturiert, deshalb aufwendig zu prozessieren. Steuerdaten lassen sich nur unzureichend einbinden. Auch die Musikproduktion arbeitet vornehmlich mit elektronischen Steuerdaten, sowie Audiodaten.</item>
+            <item>Für das Layout des graphischen Notenbildes, ist die logische Struktur der
+              musikalischen Informationen zweitrangig. Aufgrund der zu geringen und
+              unvollständigen Unterstützung durch Notationsprogramme (etwa mittels Importer)
+              ist MEI für den Notendruck derzeit irrelevant.</item>
+            </list>
+            <p>Seine durchaus beabsichtigten Uneindeutigkeiten und die Möglichkeiten der Anreicherung mit editionsspezifischen Informationen machen MEI zu einem für die digitale Musikedition mächtigen, für die exemplarisch beschriebenen weiteren Nutzungszenarien jedoch unpraktikablen Format. Dies birgt die Gefahr, dass trotz der Bereitstellung der in MEI codierten Editionsdaten das Ende der Nutzungskette bereits erreicht ist.</p>
+            <p>Ähnliche „Sackgasseneffekte“ lassen sich auch in anderen Nutzungskontexten und deren Formaten beobachten. Zu deren Überwindung sind mehrere grundlegende Szenarien denkbar: die Erweiterung eines bestehenden Formates, die gleichzeitige Nutzung mehrerer Formate (ggf. gekapselt in einem Container-Format), oder die Konvertierung in andere Formate. Jeder Ansatz ist mit spezifischen Vor- und Nachteilen verbunden, die im Folgenden diskutiert werden sollen.</p>
+            <div xml:id="h.z5hagpid58f7" type="div1" rend="DH-Heading1">
+              <head>Lösungsansätze</head>
+              <div xml:id="h.nogu1ir6r76f" type="div2" rend="DH-Heading2">
+                <head>Erweiterung</head>
+                <p>Eine naheliegende Lösung mag in der Erweiterung des Formats bestehen. Das
+                  beinhaltet die Modellierung, Formalisierung und Implementierung der neuen
+                  Elemente. Während dies für punktuelle Phänomene noch praktikabel sein mag,
+                  ziehen umfangreichere Erweiterungen eine immer größere Komplexität der
+                  Datenstruktur nach sich. Insbesondere dann, wenn eine bereits die
+                  spezifischen Erfordernisse der einen Anwendungsdomäne widerspiegelnde
+                  Struktur mit einer weiteren, einer ganz anderen Domäne Rechnung tragenden
+                  Struktur, überlagert wird. Dies kann im Falle vom MEI bereits jetzt
+                  beobachtet werden, wie beispielsweise durch das Nebeneinander verschiedener
+                  Zeitdarstellungen (symbolische / musikalische Zeit, Aufführungszeit) und
+                  einzelne, jedoch unvollständige Querbezüge zum MIDI-Standard.<ref type="note" target="n02" n="2">2</ref> Gegebenenfalls kann ein grundsätzlich neues Datenformat dabei
+                  entstehen. </p>
+                  <p>Die Replikation relevanter Informationen in einen neuen und entsprechend anders strukturierten Bereich des Formats würde hingegen in einem wenig (speicher-)effizienten Format mit zahlreichen Redundanzen resultieren. Generell sind Redundanzen aufwendig zu pflegen. Hierbei auf Referenzen zurückzugreifen kann sowohl die Gefahr von Inkonsistenzen, als auch den Wartungsaufwand verringern.</p>
+                  <p>Zudem muss sich ein “allen gerecht werden wollendes” Format neben den spezialisierten, etablierten Formaten durchsetzen können. Dass dies gelingt, ist höchst fraglich, da zunächst alle Verarbeitungsverfahren und Werkzeuge, die für die etablierten Formate bereits bestehen, neu implementiert oder zumindest angepasst werden müssen. Ferner sind die etablierten Formate und ihre zugehörigen Werkzeuge gerade dank ihrer Spezialisierung auch für ihren jeweiligen Anwendungskontext optimiert und unterstützen die effiziente Arbeit mit den Daten. Ein weniger spezialisiertes Format ist daher oft ineffizienter, nicht nur hinsichtlich seines Speicherbedarfs, sondern auch hinsichtlich des benötigten Rechen- bzw. Verarbeitungsaufwandes.</p>
+                </div>
+                <div xml:id="h.2e5gqzuavtdd" type="div2" rend="DH-Heading2">
+                  <head>Manuelle parallele Datenhaltung</head>
+                  <p>Wenn die Konkurrenz zu etablierten Formaten vermieden werden soll, was im Sinne der Nachhaltigkeit generell zu empfehlen ist, bietet sich die parallele Bereitstellung der Daten in mehreren Formaten an. In Abhängigkeit der zu adressierenden Anwendungsszenarien und den damit einhergehenden Anwenderprofilen wird eine Auswahl der relevanten Formate getroffen. Die Daten werden nun parallel in jedem dieser Formate gepflegt. Das kann unter Zuhilfenahme der dafür existierenden Werkzeuge geschehen, sodass kein Software-technischer Entwicklungsaufwand anfällt. Jedoch entsteht ein Mehraufwand in der Datenpflege, denn die allen Formaten gemeinen Inhalte (Redundanzen) müssen synchron gehalten werden. Jedes Format hat ferner seinen eigenen Anwendungskontext mit entsprechenden, spezialisierten (nichtredundanten) Inhalten. Automatismen, welche dem Anwender diesen Synchronisationsaufwand abnehmen, sind im Allgemeinen nicht vorhanden; die Arbeit geschieht „manuell“. Die richtige Verwendung und Pflege der Daten und Werkzeuge erfordert eine entsprechende Bearbeitungsdisziplin der Editoren. Dies stellt eine Gefahr für die Konsistenz des Datensatzes dar und birgt die Gefahr des Zerfalls des Datensatzes in einzelne unzusammenhängende, weil nicht synchrone, Datenobjekte. </p>
+                </div>
+                <div xml:id="h.oipfsci1ykab" type="div2" rend="DH-Heading2">
+                  <head>Konvertierung</head>
+                  <p>Möchte man den aus der parallelen Datenhaltung resultierenden manuellen Mehraufwand vermeiden, bietet die Nutzung von Konvertern eine Erleichterung. Der Nutzer arbeitet, so lange es seiner Fragestellung genügt, in ein und demselben Format und konvertiert es erst bei Bedarf in andere Formate. In einer entsprechenden Arbeitsumgebung kann dies durch Automatismen unterstützt werden, welche bei Veränderungen an einem Objekt die Synchronisation mit den Parallelobjekten durchführen. Konverter können innerhalb bestehender Anwendungsprogramme in Form von Importern die formatübergreifende Arbeit erleichtern. </p>
+                  <p>Sofern jedoch die Formate nicht äquivalent sind, wovon im Allgemeinen
+                    ausgegangen werden muss, kann die Konvertierung mit Informationsverlust
+                    verbunden sein, vor allem dann, wenn die betreffenden Informationen im
+                    Zielformat der Konvertierung grundsätzlich nicht repräsentierbar sind. So
+                    kann die Erstellung eines Datenobjektes durch Konvertierung lediglich der
+                    Startpunkt sein, an welchem die dem Ausgangs- und Zielformat gemeinsamen
+                    Inhalte übernommen werden und von wo aus die formatspezifischen Inhalte dann
+                    vom Nutzer einzupflegen sind. Sollten für das Zielformat relevante Daten im
+                    Ausgangsformat fehlen, so sind auch diese vom Nutzer zu ergänzen. Die
+                    gleiche Art von Informationsverlust ist auch bei der Rückkonvertierung zu
+                    bedenken. Für den Anwender steigt also der Pflegeaufwand für die in mehreren
+                    Formaten vorgehaltenen Daten in dem Maße, in dem konvertierungsbedingter
+                    Informationsverlust und -ergänzung manuell ausgeglichen werden müssen. Die
+                    Konvertierung automatisiert lediglich die Pflege der redundanten Inhalte, d.
+                    h., die Schnittmenge der Datensammlung in den verschiedenen Formaten.
+                    Denkbar ist es in einigen Fällen, die nicht in der Schnittmenge enthaltenen
+                    Informationen separat zu den Datenformaten zu speichern, um sie bei der
+                    Rückkonvertierung wieder einzupflegen. Eine weitere Voraussetzung für eine
+                    (zumindest in weiten Teilen) automatisierte Rückkonvertierung stellt das
+                    Wissen über die Transformationshistorie dar.</p>
+                  </div>
+                </div>
+                <div xml:id="h.uk0dnfb4yacs" type="div1" rend="DH-Heading1">
+                  <head>Handlungsempfehlung</head>
+                  <p>Die bisherigen Ausführungen lassen bereits erkennen: Eine bequeme Lösung gibt es nicht. Jeder der genannten Lösungsansätze findet in der Praxis bereits mehrfach Anwendung, jeweils mit den entsprechenden Vor- und Nachteilen. Diese gilt es abzuwägen, will man sich im Rahmen eines konkreten Projektes für einen Ansatz entscheiden. Dabei werden die folgenden vier Kriterien von maßgeblicher Bedeutung sein.</p>
+                  <p>
+                    <hi rend="bold">Nachhaltigkeit:</hi> Sollen die Daten längerfristig und über das Projekt hinaus nutzbar sein?
+                  </p>
+                  <p>Wenn dies gewünscht ist, sollten die Ergebnisse in den etablierten Formaten der zur Nachnutzung angedachten Nutzergruppen gespeichert werden. Ein eigens im Projekt entwickeltes Format oder Derivat kann, wenn es sich nicht etabliert und keine dem technischen Fortschritt folgenden Aktualisierungen garantiert, keine Nachhaltigkeit sichern.</p>
+                  <p>
+                    <hi rend="bold">Rückfluss: </hi>Findet ein uni- oder bidirektionaler Austausch zwischen den verschiedenen, vom Projekt adressierten Nutzergruppen statt?
+                  </p>
+                  <p>Ein eigens für das Projekt entwickeltes Datenformat wird den aus dem Projektkontext heraus gerichteten Austausch erschweren. Der Rückfluss wird ohne entsprechende Konverter für das eigene Format kaum praktikabel sein.</p>
+                  <p>Der immer wieder auszugleichende Informationsverlust im Konverteransatz wird in einem unidirektionalen Szenarium kaum ein Problem darstellen, denn ohne den Rückkonvertierungsschritt entfällt die mehrfache Einpflege der nichtredundanten Inhalte. Die Übernahme der redundanten Inhalte wird hingegen auch beim Rückfluss erleichtert.</p>
+                  <p>Die parallele Datenhaltung wird für den bidirektionalen Austausch am praktikabelsten sein, weil sie konzeptionell vorsieht, alle Inhalte in den bevorzugten Formaten der adressierten Nutzergruppen vorzuhalten und Änderungen in allen Repräsentationen zu synchronisieren.</p>
+                  <p>
+                    <hi rend="bold">Synchronisationsaufwand: </hi>Wie hoch darf der Aufwand zur Datensatzpflege sein?
+                  </p>
+                  <p>Der manuelle Aufwand zur Datensatzpflege ist bei der Vorhaltung der Daten in mehreren Formaten ohne Automatisierungen höher als bei den anderen vorgeschlagenen Lösungen. Der Rückgriff auf ein im Projekt praktisch ausschließlich verwendetes eigenes Format (eigene Formatanpassung), minimiert den Synchronisationsaufwand. Konverter stellen einen Mittelweg dar, denn die redundanten Informationen können (semi-)automatisch synchronisiert werden, lediglich die formatspezifischen Inhalte erfordern manuellen Pflegeaufwand.</p>
+                  <p>
+                    <hi rend="bold">Entwicklungsaufwand: </hi>Wieviel Entwicklungskapazitäten sind im Projekt vorgesehen?
+                  </p>
+                  <p>Die Entwicklung eines eigenen Datenformats oder von Derivaten existierender Formate zieht auch die Entwicklung von Verarbeitungsverfahren und Werkzeuge nach sich, setzt also einen insgesamt hohen Bedarf an (Software-)Entwicklungskapazitäten voraus.</p>
+                  <p>Auch Konverter verlangen Entwicklungskapazitäten, wenn auch (abhängig von der Menge der unterstützten Datenformate) in bescheidenerem Umfang, zumal für viele etablierte Formate bereits ausgereifte Konverter existieren.</p>
+                  <p>Für die manuelle Pflege der Daten, parallel in mehreren Formaten, sind keine Entwicklungsarbeiten notwendig; hierfür genügen die bestehenden Editoren für die jeweiligen Formate.</p>
+                  <figure>
+                    <graphic n="1001" width="16.002cm" height="11.45998611111111cm" url="033-image1.png" rend="inline"/>
+                  </figure>
+                  <p>Die vorstehende Abbildung veranschaulicht die Gewichtungen der vorgestellten Lösungsansätze in einem Starplot. Dies soll eine Orientierungshilfe zur Projektplanung sein und als Grundlage von Handlungsempfehlungen dienen. Selbstverständlich gibt es weiterführende, die obigen Ansätze kombinierende Möglichkeiten, die etwa im Rahmen von Datenbanksystemen oder integrierten Arbeitsumgebungen bestimmte Aufgaben vereinfachen können. Sofern diese Systeme nicht bereits bestehen, ist dies mit einem gesteigerten Programmieraufwand verbunden, der von inhaltsorientierten Projekten kaum zu leisten ist. Daraus motiviert sich der Bedarf für die Bereitstellung von projektübergreifenden und langfristigen Forschungsinfrastrukturen, eine Thematik, der sich das
+                    <hi rend="italic">Zentrum - Musik - Edition - Medien</hi> mit der Erforschung nachhaltiger Entwicklungskonzepte im Bereich der digitalen Musikedition widmet. Für die langfristige Bereitstellung einer solchen Infrastruktur bietet die aktuelle Förderpolitik in Deutschland jedoch nur selten die nötigen Grundlagen.
+                  </p>
+                </div>
+              </body>
+              <back>
+                <div type="Notes">
+                  <note xml:id="n01" n="1">Bei Selfridge-Field (1997) ist eine umfassende
+                    Auflistung und Beschreibung unterschiedlicher Codierungsformate für Musik zu
+                    finden. Das Buch kann gewissermaßen als Standardwerk in diesem Bereich
+                    angesehen werden.</note>
+                    <note xml:id="n02" n="2">Dieser Ansatz eines immer größer werdenden
+                      Systems kann ebenfalls bei etablierten Softwaresystemen festgestellt
+                      werden. Solche komplexen Systeme werden in der Folge immer
+                      schwieriger zu warten und können ihren eigentlichen Zweck immer
+                      schlechter erfüllen. Daher gibt es bei diesen Systemen den Trend zur
+                      Modularisierung und Spezialisierung (vgl. Krahn / Rumpe 2005).
+                    </note>
+                  </div>
+                  <div type="bibliogr">
+                    <listBibl>
+                      <head>Bibliographie</head>
+                      <bibl>
+                        <hi rend="bold">Kepper, Johannes</hi> (2009): "XML-basierte Codierung
+                        musikwissenschaftlicher Daten – Zu den Voraussetzungen einer digitalen
+                        Musikedition", in: <hi rend="italic">it – Information Technology</hi> 51:
+                        216–221.</bibl>
+                        <bibl> Library of Congress (2015): <hi rend="italic">Preservation: Recommended
+                          Formats Statement</hi>
+                          <ref target="https://www.loc.gov/preservation/resources/rfs/textmus.html"
+                            >https://www.loc.gov/preservation/resources/rfs/textmus.html</ref>
+                            [letzter Zugriff 08. Januar 2016].</bibl>
+                            <bibl><hi rend="bold">Krahn, Holger / Rumpe, Bernhard</hi> (2005): <hi
+                            rend="italic">Evolution von Softwarearchitekturen</hi>.
+                            Informatik-Bericht 2005-04. Braunschweig: TU Braunschweig <ref
+                            target="http://www.se-rwth.de/~rumpe/publications20042008/Evolution-von-Software-Architekturen.pdf"
+                            >http://www.se-rwth.de/~rumpe/publications20042008/Evolution-von-Software-Architekturen.pdf</ref>
+                            [letzter Zugriff 08. Januar 2016].</bibl>
+                            <bibl>
+                              <hi rend="bold">Richts, Kristina / Herold, Kristin</hi> (2014): <hi
+                              rend="italic">Daten- und Metadatenformate in den Fachdisziplinen:
+                              Musikwissenschaft</hi>
+                              <ref
+                                target="https://wiki.de.dariah.eu/display/publicde/3.3+Musikwissenschaft"
+                                >https://wiki.de.dariah.eu/display/publicde/3.3+Musikwissenschaft</ref>
+                                [letzter Zugriff: 04. Januar 2016].</bibl>
+                                <bibl>
+                                  <hi rend="bold">Roland, Perry / Kepper, Johannes</hi> (eds.) (2014): <hi
+                                  rend="italic">Music Encoding Initiative Guidelines</hi>. Release 2013.
+                                  Revision 2.1.1. Charlottesville / Detmold: Music Encoding Initiative Council
+                                  <ref
+                                    target="http://github.com/music-encoding/music-encoding/releases/download/MEI2013_v2.1.1/MEI_Guidelines_2013_v2.1.1.pdf"
+                                    >http://github.com/music-encoding/music-encoding/releases/download/MEI2013_v2.1.1/MEI_Guidelines_2013_v2.1.1.pdf</ref>
+                                    [letzter Zugriff: 04. Januar 2016]. </bibl>
+                                    <bibl>
+                                      <hi rend="bold">Selfridge-Field, Eleanor</hi> (1997): <hi rend="italic"
+                                      >Beyond MIDI</hi>. The handbook of musical codes. Cambridge: MIT Press
+                                      Ltd. </bibl>
+                                      <bibl>
+                                        <hi rend="bold">Veit, Joachim</hi> (2006): "Musikwissenschaft und
+                                        Computerphilologie – eine schwierige Liaison?", in: <hi rend="italic"
+                                        >Jahrbuch für Computerphilologie</hi> 7: 67–92 <ref
+                                        target="http://computerphilologie.uni-muenchen.de/jg05/veit.html"
+                                        >http://computerphilologie.uni-muenchen.de/jg05/veit.html </ref>
+                                        [letzter Zugriff 30. September 2015]. </bibl>
+                                      </listBibl>
+                                    </div>
+                                  </back>
+                                </text>
+                              </TEI>

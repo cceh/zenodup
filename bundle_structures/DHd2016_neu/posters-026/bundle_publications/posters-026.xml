@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="posters-026">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Zusammenwachsen: Forschungsdatenmanagement im Forschungsverbund MWW</title>
+        <author>
+          <name>
+            <surname>Steyer</surname>
+            <forename>Timo</forename>
+          </name>
+          <affiliation>Forschungsverbund MWW</affiliation>
+          <email>steyer@hab.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Koglin</surname>
+            <forename>Lydia</forename>
+          </name>
+          <affiliation>Forschungsverbund MWW</affiliation>
+          <email>lydia.koglin@klassik-stiftung.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Fritz</surname>
+            <forename>Steffen</forename>
+          </name>
+          <affiliation>Forschungsverbund MWW</affiliation>
+          <email>fritz@dla-marbach.de</email>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2015-10-04T22:02:00Z</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Elisabeth Burr, Universität Leipzig</publisher>
+        <address>
+          <addrLine>Beethovenstr. 15</addrLine>
+          <addrLine>04107 Leipzig</addrLine>
+          <addrLine>Deutschland</addrLine>
+          <addrLine>Elisabeth Burr</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="DHCONVALIDATOR" version="1.17">
+          <label>DHConvalidator</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="ConfTool" n="keywords">
+          <term>Forschungsdatenmanagement; Bestandsbezogene Forschung</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term>Teilen</term>
+          <term>Entdeckung</term>
+          <term>Sammlung</term>
+          <term>Gestaltung</term>
+          <term>Programmierung</term>
+          <term>Modellierung</term>
+          <term>Bereinigung</term>
+          <term>Archivierung</term>
+          <term>Community-Bildung</term>
+          <term>Veröffentlichung</term>
+          <term>Kollaboration</term>
+          <term>Projektmanagement</term>
+          <term>Webentwicklung</term>
+          <term>Organisation</term>
+          <term>Konservierung</term>
+          <term>Daten</term>
+          <term>Infrastruktur</term>
+          <term>Metadaten</term>
+          <term>Forschung</term>
+          <term>Forschungsprozess</term>
+          <term>Forschungsergebnis</term>
+          <term>Standards</term>
+          <term>Text</term>
+          <term>virtuelle Forschungsumgebungen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Das Poster stellt ein Konzept für das digitale Zusammenwachsen heterogener Datenbestände dreier Gedächtnisinstitutionen zur Diskussion vor n. Im Zentrum steht das Forschungsdatenmanagement, welches neben Aspekten der Datenmodellierung und Beschreibung von heterogenen Datenbeständen über Metadaten, auch die Präsentation, Benutzung und Langzeitarchivierung der digitalen Beständen umfasst.</p>
+      <p>Der durch das BMBF geförderte <ref target="http://www.mww-forschung.de">Forschungsverbund Marbach Weimar
+        Wolfenbüttel</ref>, bestehend aus dem Deutschen Literatur
+        Archiv Marbach, der Klassik Stiftung Weimar und der Herzog August Bibliothek
+        Wolfenbüttel, entwickelt seit 2014 einen gemeinsamen virtuellen Forschungsraum. Auf
+        diesem sollen die einzigartigen wissenschaftlichen Bestände der drei Einrichtungen
+        gemeinsam präsentiert und der Forschung zur Verfügung gestellt werden. Durch
+        Methoden der Digital Humanities werden neue Zugänge zu den digitalen Forschungsdaten
+        des Verbundes geschaffen und die Implementierung innovativer Tools wird neue
+        Forschungsfragen an das Material ermöglichen. Dabei wird die Sicherung der
+        wissenschaftlichen Erträge durch die Etablierung eines verlässlichen Speichers
+        garantiert, der überdies die Langzeitarchivierung digitaler Objekte übernehmen wird.
+        Langfristig soll der Forschungsraum zu einem universellen Rechercheinstrument, einem
+        virtuellen Arbeitsplatz und einem Repositorium für Forschungsergebnisse für die
+        Verbundeinrichtungen ausgebaut werden.</p>
+        <p>Die MWW-Forschungsumgebung ist dabei als Teil der digitalen Infrastrukturen der drei Einrichtungen zu sehen, über den die verteilten Ressourcen aggregiert werden. Der Forschungsraum soll dezidiert so gestaltet werden, dass er mit anderen Forschungsumgebungen kompatibel ist, aber trotzdem die Spezifika der Bestände der Verbundeinrichtungen berücksichtigt und den digitalen Geisteswissenschaften zur Verfügung stellt.</p>
+        <p>Funktionsumfang und Schnittstellen des Forschungsraums orientieren sich dabei an den historischen Sammlungsschwerpunkten der Verbundeinrichtungen. Im Gegensatz zu universell ausgelegten Forschungsinfrastrukturen handelt es sich daher bei dem MWW-Forschungsraum um eine bestandsbezogene Infrastruktur. Dies hat zur Folge, dass nicht die Produktion neuer Forschungsdaten und Workflows im Vordergrund steht, sondern die Integration von bereits vorhandenen Daten und die Verknüpfung bereits bestehender Arbeitsprozesse. Für die Verwirklichung dieser Ziele bedarf es eines komplexen Forschungsdatenmanagements, um den gemeinsamen Zugang zu ermöglichen. Die Herausforderung besteht in der Bildung eines interoperablen Datenpools, welcher die technische Heterogenität der Daten und die unterschiedlichen Workflows bei der Produktion, Präsentation und Sicherung der jeweils eigenen Forschungsdaten für den Forschungsraum meistert. Die Datenbasis bildet die Modellierung und Beschreibung der digitalen Informationseinheiten über eine Metadatengrammatik. Neben den zentralen Nachweissystemen mit standardisierten Metadaten gibt es in den Einrichtungen diverse Fach- und Spezialdatenbanken, die technisch und inhaltlich häufig Insellösungen darstellen: Daten wurden und werden kontinuierlich erhoben oder stellen Ergebnisse von abgeschlossenen Projekten dar. Das Ziel ist es, aus diesen inhaltlich hochwertigen aber technisch nicht aktuellen Standards entsprechenden digitalen Daten der Verbundeinrichtungen, Forschungsdaten zu generieren, also gut strukturierte, über etablierte Metadatenstandards erschlossene und somit auch leicht zu prozessierende Daten.</p>
+        <p>In der Regel ist aber bei der Erhebung dieser Forschungsdaten nicht ein Data-Reuse-Szenario konzipiert worden ist. Zu diesem Szenario gehört aber nicht nur die Aufbereitung der Forschungsdaten für den MWW-Forschungsumgebung, sondern auch deren Bereitstellung für externe Dienste über standardisierte Schnittstellen. Des Weiteren wird ein aktiver Austausch mit anderen Forschungsumgebungen angestrebt.</p>
+        <p>So sind auch die langfristige Sicherung und Nachhaltigkeit dieser Forschungsdaten ein Bestandteil der digitalen Infrastruktur. Dabei werden nicht nur die Daten des Forschungsraums, sondern alle langzeitarchivwürdigen Daten der Verbundeinrichtungen in einem verlässlichen Speicher archiviert. Das Modell eines verteilten Speichers von drei Gedächtniseinrichtungen und die sich dadurch ergebenen Synergieeffekte sollen hier verdeutlicht werden. Damit begegnen die Verbundeinrichtungen auch der Herausforderung der stetig wachsenden Zahl an Forschungsdaten und dem Wunsch der Wissenschaftler nach langfristiger Verfügbarkeit ihrer Daten.</p>
+        <p>Ergänzt wird der virtuelle Forschungsraum durch eine „Workbench“ zur Bearbeitung und Analyse der Forschungsdaten. Dabei wird jedoch nicht primär eine Neuentwicklung von Tools das Ziel sein. Vielmehr wurden durch Umfragen mit Digital Humanists und „traditionellen“ Geisteswissenschaftlern der Bedarf an möglichen DH-Tools und -Funktionalitäten ermittelt. Die Auswertung zeigte, dass bereits eine Vielzahl an Tools existiert, welche die Wissenschaftler für ihrer Arbeit unterstützen. Allerdings scheint es, dass diese Tools entweder nicht bekannt sind oder ihre Nutzung als zu kompliziert erachtet wird, um diese nebenbei zu erlernen. Daher konzentriert sich der MWW-Forschungsraum auf die Integration bereits vorhandener und etablierter freier DH-Dienste bzw. Funktionalitäten, welche zusammen mit umfangreichen Tutorials und Best-Practice-Beispielen im Forschungsraum angeboten werden sollen. Gerade im Bereich der Tools ergeben sich umfangreiche Kooperationspotentiale mit anderen Forschungsumgebungen, da der Forschungsverbund über eine große Menge an wissenschaftlich hochwertigen Datenmaterial verfügt, dafür über bisher über nur sehr wenige Tools für die Analyse und Visualisierung der Daten.</p>
+        <p>Im Zentrum der Präsentation steht das Zusammenspiel der soeben skizzierten drei Komponenten Metadatengrammatik, virtueller Forschungsraum und verlässlicher Speicher. Die Projekte haben die Konzeptionsphase hinter sich und würden die DHd-Tagung dazu nutzen, das entwickelte Konzept für die erste Förderphase, die Mitte 2018 endet, zu präsentieren und zur Diskussion zu stellen.</p>
+      </body>
+      <back><div type="bibliogr"><listBibl>
+        <bibl><hi rend="bold">MMW Forschungsverbund</hi> (2013-*): <hi rend="italic"
+        >Forschungsverbund Marbach Weimar Wolfenbüttel</hi>
+        <ref target="http://www.mww-forschung.de">http://www.mww-forschung.de</ref>
+        [letzter Zugriff 15. Februar 2016].</bibl>
+      </listBibl></div></back>
+    </text>
+  </TEI>

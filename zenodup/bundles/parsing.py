@@ -1,41 +1,44 @@
+"""Module for parsing file names and abstracts titles
+
+Contains functions if abstracts are assigned to metadata by name scheme. 
+"""
+
+# Imports
+
+# ## external imports
 import logging
-from xml.etree import ElementTree as ET
 import os
 import re
+from xml.etree import ElementTree as ET
 
+# ## internal imports
 from bundles import sanity
 
-def ascii_rename(name: str) -> str:
-    try:
-        elements_to_be_replaced = [".", "-", ":", ",", "?", "!", " ", "(", ")", "&", "@"]
-        name = name.replace("ß", "ss")
-        name = name.replace("\"", "_em_")
-        name = name.replace("\'", "_em_")
-        for char in elements_to_be_replaced:
-            name = name.replace(char, "_")
-        try:
-            name.encode("ascii")
-        except:
-            # if name contains non ascii
-            name = ''.join([i if ord(i) < 128 else '_' for i in name])
-        return name
-    except AttributeError:
-        pass
-
-def parse_creator(name: str) -> list:
-    name = [ascii_rename(elem.strip()) for elem in name.split(",")]
-    return name
 
 def get_bundle_names(abstract: ET.Element) -> dict:
-    bundle_names = {}
+    """Returns a dictionary with possible bundle names
 
-    
-    creator_names = [parse_creator(creator.find("name").text) for creator in abstract.findall(".//creator")]
+    Parses title and creators of metadata tag. 
+
+    Parameters
+    ----------
+    abstract : ET.Element
+        Metadata element of conference's metadata file
+
+    Returns
+    -------
+    bundle_names : dict
+        Returns a dictionary with title of metadata tag as key and a 
+        list of possible file names for corresponding abstract pdf file.
+    """
+
+    bundle_names = {}
+    creator_names = [__parse_creator(creator.find("name").text) for creator in abstract.findall(".//creator")]
     if len(creator_names) == 0:
         logging.warning(f"The abstract with title {abstract.find('title').text} "
                         f"(index) does not contain creators.")
     try:
-        title = ascii_rename(abstract.find("title").text)
+        title = __ascii_rename(abstract.find("title").text)
     except TypeError:
         logging.warning(f"The following abstract does not contain a title:")
 
@@ -61,6 +64,19 @@ def get_bundle_names(abstract: ET.Element) -> dict:
     return bundle_names
 
 def get_comparable_filenames(files: list)-> dict:
+    """Returns a dictionary with conference's files without prefixes and extensions
+
+    Parameters
+    ----------
+    files: list
+        List of files to assign to corresponding metadata
+
+    Returns
+    -------
+    names_to_compate: dict
+        Returns a dictionary with modified filenames as keys and filenames from passed list as values 
+
+    """
     # get file names
     names = [os.path.splitext(f)[0] for f in files]
     names.sort()
@@ -68,8 +84,26 @@ def get_comparable_filenames(files: list)-> dict:
 
     return names_to_compare
 
-def get_abstract_file(publication_names: dict, comparable_files: list, index : int) -> dict:
+def get_abstract_file(publication_names: dict, comparable_files: dict, index : int) -> str:
+    """Returns assigned abstract file for given publication
 
+    Parameters
+    ----------
+    publication_names: dict
+        Dictionary with all possible publication names for given publication
+    comparable_files: dict
+        Dictionary with modified filenames as keys and filenames from passed list as values
+    index: int
+        Index of metadata element to be assigned. If no file could be assigned to metadata by name 
+        comparison, the file with given index will be matched with metadata element.
+
+    Returns
+    -------
+    abstract_file: str
+        Returns filename of assigned file to given metadata element
+    """
+
+    # find matching filename
     for elem in publication_names:
         if any(possible_name.find(name) != -1 for possible_name in publication_names.get(elem) for name in
                comparable_files.keys()):
@@ -83,8 +117,32 @@ def get_abstract_file(publication_names: dict, comparable_files: list, index : i
                 for name in comparable_files.keys():
                     if possible_name.find(name[:-1]) != -1:
                         abstract_file = comparable_files.get(name)
+    # if matching filename has been found return file
     try:
         return abstract_file
+    # else return file with metadata elements index
     except UnboundLocalError:
         return list(comparable_files.values())[index]
 
+# return string representation of creator
+def __parse_creator(name: str) -> list:
+    name = [__ascii_rename(elem.strip()) for elem in name.split(",")]
+    return name
+
+# get ascii representation of string
+def __ascii_rename(name: str) -> str:
+    try:
+        elements_to_be_replaced = [".", "-", ":", ",", "?", "!", " ", "(", ")", "&", "@"]
+        name = name.replace("ß", "ss")
+        name = name.replace("\"", "_em_")
+        name = name.replace("\'", "_em_")
+        for char in elements_to_be_replaced:
+            name = name.replace(char, "_")
+        try:
+            name.encode("ascii")
+        except:
+            # if name contains non ascii
+            name = ''.join([i if ord(i) < 128 else '_' for i in name])
+        return name
+    except AttributeError:
+        pass

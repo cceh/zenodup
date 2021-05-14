@@ -23,7 +23,9 @@ def __create_bundles(args):
     conference = bundles.Conference(**args)
     # create bundles for conference
     conference.create_bundles()
+
     # update metadata for conference
+    # ## not integrated in usual workflow, was used once
     # conference.update_metadata()
 
 def __api_interact(args):
@@ -37,14 +39,14 @@ def __api_interact(args):
 def __set_parser() -> argparse.ArgumentParser:
 
     # ## create application parser
-    zenodup_parser = argparse.ArgumentParser(description="Zenodup is an python application using Zenodo API to upload, publish, update and delete publications on Zenodo or Zenodo Sandbox. For further information see https://developers.zenodo.org/.")
+    zenodup_parser = argparse.ArgumentParser(description="Zenodup is an python application integrated in a workflow to publish DHd Conference abstracts. It can be used for two different tasks. Creating required bundle structure (subparser bundle) and interacting with zenodo api (subparser api). For further information please see README.md.")
     
     # ## create subparsers
     subparsers = zenodup_parser.add_subparsers()
     subparsers.required = True
 
     # ## BUNDLE SUBPARSER
-    bundle_parser = subparsers.add_parser('bundle', description='')
+    bundle_parser = subparsers.add_parser('bundle', description='Create bundle structure for conference. For further documentation please see README.md.')
     bundle_parser.add_argument('name')
     bundle_parser.add_argument('metadata')
     bundle_parser.add_argument('-sequenced', nargs='?', type=bool, default=False, const=True)
@@ -53,7 +55,7 @@ def __set_parser() -> argparse.ArgumentParser:
     bundle_parser.set_defaults(func=__create_bundles)
     
     # ## ZENODO API INTERACTION PARSER
-    api_parser = subparsers.add_parser('api', description='')
+    api_parser = subparsers.add_parser('api', description='Interact with zenodo api. For further Information pleas see README.md.')
     api_parser.add_argument('action', choices=["upload","publish", "update", "delete", "get_metadata"])
     api_parser.add_argument('name')
     api_parser.add_argument('token')

@@ -3,10 +3,20 @@
 
 # Please see README.md for further documentation
 
+# input directory for conference in order to create bundle structure
 input_base: "INPUT"
+
+# output directory for bundle structure
+# bundle structure needs to be in output_base directory for zenodo api interaction
 output_base: "OUTPUT"
+
+# directory to save and load deposition file for conference
 depositions_dir : "support/depositions/"
+# directory to save logging files
 logging_dir : "support/logging/"
+# directory for csv files to check final assignments of bundle creation
 assignments_dir : "support/assignments/"
+# directory for csv files containing zenodo metadata of all published abstracts
 packages_dir : "support/package/"
+# directoy for updated metadata files (not part of regular workflow)
 update_dir : "support/updated_metadata/"

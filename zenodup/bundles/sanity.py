@@ -3,8 +3,8 @@
 
 # Imports
 # ## external imports
-import os
 import logging
+import os
 
 # ## internal imports
 import bundles
@@ -46,6 +46,7 @@ def filenames(conf: 'bundles.Conference') -> None:
     Exception
         If the conference directories contain different filenames.
     """
+
     pdf_names = [os.path.splitext(f)[0] for f in os.listdir(conf.pdf) if f != ".DS_Store"]
     xml_names = [os.path.splitext(f)[0]  for f in os.listdir(conf.xml) if f != ".DS_Store"]
 
@@ -73,6 +74,7 @@ def readable_dir(prospective_dir: str) -> str:
     Exception
         If path is not a readable directory or if access to directory is not granted
     """
+
     if not os.path.isdir(prospective_dir):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_dir))
     if not os.access(prospective_dir, os.R_OK):
@@ -97,6 +99,7 @@ def readable_file(prospective_file: str) -> str:
     Exception
         If path is not a readable file or if access to file is not granted
     """
+    
     if not os.path.isfile(prospective_file):
         raise Exception("readable_dir:{0} is not a valid path".format(prospective_file))
     if not os.access(prospective_file, os.R_OK):

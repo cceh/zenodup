@@ -69,7 +69,6 @@ class Connection:
 
     get_metadata
         Gets final metadata from abstracts of conference
-
     """
 
     def __init__(self, name:str, token:str, productive: bool) -> None:
@@ -173,7 +172,7 @@ class Connection:
     def update(self) -> None:
         """Adds missing notes and references to drafts for conference
 
-        CAUTION: This method has been written for a specific case. 
+        CAUTION: This method has been written for a specific use case. 
         It is hardcoded and shouldn't be used in a generic way.  
         """
 
@@ -339,8 +338,8 @@ class Connection:
 
         print('... finished')
 
+    # empty post to zenodo in order to get bucket url and deposition id
     def __get_upload_params(self):
-        # empty post to zenodo in order to get bucket url and deposition id
         r = requests.post(self.url,
             params= self.params,
             json={},

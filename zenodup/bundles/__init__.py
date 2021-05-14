@@ -1,5 +1,8 @@
-"""
-Classes, exceptions, functions, modules and subpackages
+"""Package to handle creation of bundle structure
+
+Contains a python module to parse filenames and 
+abstract titles from conferences metadata files 
+as well as a module to check sanity of given paths.
 """
 # Imports
 
@@ -14,8 +17,8 @@ from xml.etree import ElementTree as ET
 import yaml
 
 # ## internal imports
-from bundles import sanity
 from bundles import parsing
+from bundles import sanity
 
 # set base paths for working diretories
 with open(r'config.yml') as file:
@@ -28,39 +31,46 @@ namespace = {'TEI': "http://www.tei-c.org/ns/1.0"}
 
 
 class Conference:
-    """Conference class contains all information in order to create bundle structure
+    """Conference class 
 
-    Attributes
-    ----------
-    input_base : str
-    output_base : str
-    name : str
-    source : str
-    metadata : str
-    sequenced : bool
-    pdf : str
-    xml : str
+    Contains all information in order to create bundle structure for given 
+    Conference directory.
 
     Methods
     -------
-    public methods, class attributes
+    create bundles
+        Created bundle structure for conference
+    update metadata
+        Updates metadata file of conference. 
+        This method is not part of the regular workflow and was used once.
     """
 
     def __init__(self, name: str, metadata: str, sequenced: bool, pdf: str, xml: str):
         """Constructor of class Conference
         
-        Checks if given parameters are valid in order to create bundle structure and sets paths.
+        Checks if given parameters are valid in order to create bundle structure and 
+        sets paths.
 
         Parameters
         ----------
         name : str
-        soure : str
+            Name of conference (directory) to be processed
+        source : str
+            Path to conference directory ("input_base/name")
         metadata : str
+            Name of conference metadata file
         sequenced : bool
+            If parameter is passed, the order of files is assumed to 
+            be the same as appearances of metadata tags in metadata file. 
+            If not passed, the files will be assigned by name scheme
         pdf : str
+            Name of conferences directory containing all pdf files
         xml : str
+            Name of conferences directory containing all xml files
         abstracts : list
+            List of metadata elements from conference's metadata file
         titles : list
+            List of titles from conference's metadata file
         """
 
         # set parameters of Conference instance
@@ -84,7 +94,11 @@ class Conference:
             sanity.filenames(self)
         
     def create_bundles(self) -> None:
-        """
+        """Creates bundle structure
+
+        Creates bundle structure for conference in 
+        configured output_base directory (see config.yml file). 
+        For more information please see README.md
         """
         
         # set logging
@@ -139,11 +153,16 @@ class Conference:
                     f"'bundle_structures/{self.name}'.")
 
     def update_metadata(self):
-        """
+        """Updates conference's metadata
+        
+        Adds notes and references to metadata elements in conference's metadata file.
+        This method is not part of the regular workflow and was used once.
         """
 
+        # set notes
         note = "Sofern eine editorische Arbeit an dieser Publikation stattgefunden hat, dann bestand diese aus der Eliminierung von Bindestrichen in Überschriften, die aufgrund fehlerhafter Silbentrennung entstanden sind, der Vereinheitlichung von Namen der Autor*innen in das Schema „Nachname, Vorname“ und/oder der Trennung von Überschrift und Unterüberschrift durch die Setzung eines Punktes, sofern notwendig."
 
+        # set reference based on conference (year)
         if self.name == "DHd2014":
             ref = ""
         elif self.name == "DHd2015":
@@ -161,6 +180,7 @@ class Conference:
         else:
             ref = ""
 
+        # add notes and references
         tree = ET.parse(self.metadata)
         root = tree.getroot()
 
@@ -174,6 +194,8 @@ class Conference:
             abstract.append(notes)
 
         ET.indent(tree, space="   ")
+
+        # save file in configured directory for updated metadata files
         tree.write(config["update_dir"] + self.name + ".xml", encoding="utf-8")
 
     # get pdf files of conference
@@ -198,7 +220,7 @@ class Conference:
         abstracts = tree.findall("metadata")
         return abstracts
 
-    # get titles of publications
+    # get titles of conference's abstracts from metadata file
     def __get_titles(self) -> list:
         titles = []
         for abstract in self.abstracts:
@@ -208,9 +230,11 @@ class Conference:
             titles.append(title)
         return titles
     
+    # assign files to abstracts metadata from metadata file
     def __assign_files(self) -> list:
         assignments = []
         if self.sequenced:
+            # assign files by indexes
             for index, title in enumerate(self.titles):
                 bundle = {}
                 bundle.update({"title": title})
@@ -223,6 +247,7 @@ class Conference:
                 bundle.update({"name": bundle_name})
                 assignments.append(bundle)
         else:
+            # assign files by name scheme
             for index, abstract in enumerate(self.abstracts):
                 bundle = {}
                 bundle.update({"title": abstract.find("title").text})
@@ -301,6 +326,7 @@ class Conference:
             
             bundles_overview.append(bundle_data)
 
+        # create pandas dataframe and safe to xml
         if self.xml:
             df = pd.DataFrame(bundles_overview, columns = ["Bundle", "Title", "Title from xml", "PDF", "XML"])
         else: 
@@ -308,14 +334,27 @@ class Conference:
                 
         df.to_csv('support/' + self.name + ".csv", header=True, encoding='utf-8')
 
-def get_xml_title(xml_file):
+def get_xml_title(xml_file: str) -> str:
+    """Returns title of (abstract's) xml file (TEI)
+
+    Parameters
+    ----------
+    xml_file : str
+        Path to xml file
+    
+    Returns
+    -------
+    title : str
+        Text of title tag
     """
-    """
+
     tree = ET.parse(xml_file)
     try:
         title_tags = tree.findall(".//TEI:title", namespace)
+        # if xml file contains only one title tag get text from this tag
         if len(title_tags) == 1:
             title = title_tags[0].text
+        # else get content of title tag with attribute 'type'='main'
         else:
             try:
                 title =" ".join([elem.text for elem in title_tags if elem.attrib['type'] in ["main", "sub"]])
@@ -323,14 +362,24 @@ def get_xml_title(xml_file):
                 for elem in title_tags:
                     if elem.attrib["type"]=="main":
                         title = elem.text
+    # return empty string if no title tag could be found in xml file
     except AttributeError:
         logging.warning(f"Couldn't extract title from file {xml_file}")
         title = ""
     return title
 
 def create_metadata(pub: ET.Element, bundle_path: str) -> None:
-    """Create json metadata file (for zenodo metadata) for bundle
+    """Create bundle's json metadata file (for zenodo metadata)
+
+    Parameters
+    ----------
+    pub: ET.Element
+        Metadata element of given bundle from conference's metadata file
+    bundle_path: str
+        Path to bundle
     """
+
+    # get bundle information and translate into json format
     print(f"Create bundle for publication: {pub.find('title').text}")
     data = {"metadata": {"upload_type": pub.find("upload_type").text,
                         "publication_type": pub.find("publication_type").text,
@@ -356,13 +405,27 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "conference_url": pub.find("conference_url").text
                         }
             }
+    # save json metadata file in bundle path
     with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
         json.dump(data, outfile)
 
+def get_bundle_files(bundle: str):
+    """Returns files assigned to bundle
 
-def get_bundle_files(bundle: str) -> (str, list):
+    Parameters
+    ----------
+    bundle: str
+        Path to bundle
+
+    Returns
+    -------
+    bundle_json: str
+        Path to json metadata file of bundle
+    bundle_publications: list
+        List with assigned bundle publication files. 
+        Contains path to pdf file if xml files have not been taken into account for bundle creation. 
     """
-    """
+    
     bundle_content = os.listdir(bundle)
     for element in bundle_content: 
         if os.path.isdir(os.path.join(bundle,element)) and element == "bundle_publications":

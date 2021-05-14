@@ -1,18 +1,17 @@
 # Zenodup
 
-This repository is part of the workflow to upload the [DHd-Conference](https://dig-hum.de/) abstracts to [Zenodo](https://zenodo.org/). It contains Python (3.9) scripts to create the necessary bundle structure (``create_bundles.py`` and ``create_bundles_by_order.py``) in order to interact (e.g. upload/publish abstracts). 
+This application hat been built to upload abstracts of [DHd-Conference](https://dig-hum.de/) to [Zenodo](https://zenodo.org/).
+It is an integrated task in the workflow for collecting, structuring and publishing the conferences metadata. Use cases for this application are creating a valid bundle structure and interacting with the zenodo api.
 
 ## Overview
 
-* ``bundle_structures/``:
-* ``conferences/``:
-* ``docs``:
-* ``support``:
-* 
+* ``docs/``: Documentation
+* ``legacy/``: Legacy python scripts not integrated in actual workflow
+* ``zenodup``: Zenodup project source code
 
 ## Installation
 
-Download/Clone Zenodup repository. If package manager [pip](https://pip.pypa.io/en/stable/) is installed, navigate to project folder and run:
+Download Zenodup repository. If package manager [pip](https://pip.pypa.io/en/stable/) is installed, navigate to project folder and run:
 
 ```bash
 pip install -r requirements.txt
@@ -20,35 +19,52 @@ pip install -r requirements.txt
 
 ## Usage
 
-This application is divided in 2 different tasks which can be executed by running the scripts ``create_bundles.py`` and ``zenodo_up.py``. 
+This application is divided in 2 different tasks which can be executed by running the script zenodup.py.
+
+### Configurations
+
+In ``zenodup/config.yml`` working directories such as desired input or output directory for the conference's bundle creation can be set.
+
+* ``input_base``: Input directory for conference in order to create bundle structure. (Default:"INPUT)
+* ``output_base``: Output directory for bundle structure. Bundle structure needs to be in output_base directory for zenodo api interaction. (Default: "OUTPUT")
+* ``depositions_dir``: Directory to save and load deposition file for conference (Default: "support/depositions/")
+* ``logging_dir``: Directory to save logging files (Default: "support/logging/")
+* ``assignments_dir``: Directory for csv files to check final assignments of bundle creation (Default:"support/assignments/")
+* ``packages_dir``: Directory for csv files containing zenodo metadata of all published abstracts (Default:"support/package/")
+* ``update_dir``: Directoy for updated metadata files (not part of regular workflow)(Default: "support/updated_metadata/")
 
 ### Create Bundles for Upload
 
-Run script ``create_bundles.py`` (cwd: projectfolder) for assigning conference papers to bundles based on metadata file. Put conference folder in /conferences. The conference folder is expected in the following strucutre:
+In order to interact with zenodo api via this application, the conferences have to be restructured in a certain bundle structure. Run script ``zenodup.py`` (cwd: /zenodup/zenodup/) for assigning conference papers to bundles based on metadata file. Put conference folder in configured input directory (Default:``/INPUT``). The conference folder is expected in the following structure:
 
-- CONFERENCE: Folder containing all relevant files of conference
-    - METADATA_FILE: Name of metadata file for conference containing all relevant information of conference publications
-    - XML: Folder to xml files of conference pubclications
-    - PDF: Folder to pdf files of conference publications
+* CONFERENCE: Folder containing all relevant files of conference
+  * METADATA_FILE: Metadata file for conference containing all relevant information of conference publications
+  * XML: Folder to xml files of conference pubclications
+  * PDF: Folder to pdf files of conference publications (optional)
+
+> Remark: You can find an example dataset of a conference folder under ``/INPUT/example/``.
 
 To run this script the following arguments need to be passed:
 
-    * - c CONFERENCE: Name of conference folder
-    * - m METADATA_FILE: Name of metadata file (expected format: xml) for conference publications
-    * - x XML (Optional): Name of folder of conference publication xmls. If no name is given, script expects folder name "xml"
-    * - p PDF (Optional): Name of folder of conference publication pdfs. If no name is given, script expects folder name "pdf"
+* name: Name of DHd conference (folder) to be restructured
+* metadata: Name of the conference's metadata file
+* -sequenced (optional): If parameter is passed, the order of files is assumed to be the same as appearances of metadata tags in metadata file. If not passed, the files will be assigned by name scheme.
+* -pdf (optional): Parameter for name of directory containing conference's pdf files. If neither passed nor name is given the default is 'pdf'.
+* -xml (optional): Parameter for name of directory containing conference's xml files. If not passed, there will be no abstract's xml files taken into account. If passed and no name is given the default is 'xml'.
+
+Example:
 
 ```bash
-python create_bundles.py -c [CONFERENCE] -m [METADATA_FILE] -p [FOLDER_TO_PDF] -x [FOLDER_TO_XML]
+python zenodup.py bundle example example_metadata.xml -pdf -xml
 ```
 
-The created bundle structure will be created in ``/bundle_structure/[CONFERENCE]``. 
+The created bundle structure will be created in configured output directory (Default:``/bundle_structure/[CONFERENCE]``).
 
-Logging file with name ``[CONFERENCE]_bundle.log`` will be created in project folder.
+Logging file with name ``[CONFERENCE]_bundle.log`` will be created under configured loggin directory (Default: ``support/logging``).
 
-### Upload Bundles to Zenodo
+### Interact with Zenodo API
 
-Run script ``zenodo_up.py`` (cwd: projectfolder) to upload bundle structure to Zenodo. If bundle structure hasn't been created with script ``create_bundles.py``, this script expects the following bundle structure for CONFERENCE under ``bundle_structures/``:
+Run script ``zenodoup.py`` (cwd: zenodup/zenodup/) to upload bundle structure to Zenodo. If bundle structure hasn't been created automatically with this application, this script expects the following bundle structure for CONFERENCE under configured ``output_base`` (Default: "OUTPUT").
 
 - CONFERENCE/: Folder containing all bundles to be uploaded as single publications
     - BUNDLE_1/:
@@ -59,6 +75,8 @@ Run script ``zenodo_up.py`` (cwd: projectfolder) to upload bundle structure to Z
     - BUNDLE_2/:
         - ...
     - ..
+
+> Remark: This bundle structure is automatically generated by creating bundle structure with this application.
 
 For more information to structure file ``bundle_metadata.json`` please see [Zenodo REST API Documentation](https://developers.zenodo.org/).
 
@@ -106,3 +124,10 @@ Personal access Token need to be either created for sandbox (https://sandbox.zen
 1. Register for a Zenodo account if you don’t have one.
 2. Go to your Applications, to create a new token.
 3. Select the OAuth scopes you need (for the quick start tutorial you need deposit:write and deposit:actions).
+
+## Authors and Acknowledgment
+## License
+## Project status
+
+ Tests
+ Assign by title from xml files

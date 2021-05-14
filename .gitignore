@@ -128,5 +128,22 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# pycache
+**/__pycache__
+
 # vs code 
 .vscode
+
+# ignore working directories and files except example conference
+zenodup/INPUT/*/
+!zenodup/INPUT/example/
+zenodup/OUTPUT/*/
+
+zenodup/support/*.csv
+zenodup/support/*.log
+zenodup/support/assignments/*.csv
+zenodup/support/depositions/*.txt
+zenodup/support/depositions/archiv_test/
+zenodup/support/depositions/backup_depositions/
+zenodup/support/logging/*.log
+zenodup/support/updated_metadata/*.xml

@@ -1,0 +1,12 @@
+# Configuration of working directories for 
+# If using a relative path, keep in mind that the reference is location of "zenodup.py" script.  
+
+# Please see README.md for further documentation
+
+input_base: "INPUT"
+output_base: "OUTPUT"
+depositions_dir : "support/depositions/"
+logging_dir : "support/logging/"
+assignments_dir : "support/assignments/"
+packages_dir : "support/package/"
+update_dir : "support/updated_metadata/"

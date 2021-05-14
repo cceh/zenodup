@@ -1,10 +1,18 @@
-# zenodup
+# Zenodup
 
-Zenodup is a Python (3.9) application for uploading publications to [Zenodo](https://zenodo.org/).
+This repository is part of the workflow to upload the [DHd-Conference](https://dig-hum.de/) abstracts to [Zenodo](https://zenodo.org/). It contains Python (3.9) scripts to create the necessary bundle structure (``create_bundles.py`` and ``create_bundles_by_order.py``) in order to interact (e.g. upload/publish abstracts). 
+
+## Overview
+
+* ``bundle_structures/``:
+* ``conferences/``:
+* ``docs``:
+* ``support``:
+* 
 
 ## Installation
 
-Download/Clone Zenodup repository. If package manager [pip](https://pip.pypa.io/en/stable/) is installed, navigate to project folder and run: 
+Download/Clone Zenodup repository. If package manager [pip](https://pip.pypa.io/en/stable/) is installed, navigate to project folder and run:
 
 ```bash
 pip install -r requirements.txt
@@ -77,3 +85,24 @@ Logging file with name ``[CONFERENCE]_upload.log`` will be created in project fo
 
 ## License
 [MIT](LICENSE)
+
+
+If bundle structure hasn't been created with script create_bundles.py, this script expects the following bundle structure for CONFERENCE under bundle_structures/:
+
+- CONFERENCE/: Folder containing all bundles to be uploaded as single publications
+    - BUNDLE_1/:
+        - bundle_metadata.json
+        - bundle_publications/
+            - file_1
+            - ...
+    - BUNDLE_2/:
+        - ...
+    - ..
+
+For more information to structure file bundle_metadata.json please see Zenodo REST API Documentation(https://developers.zenodo.org/).
+
+Personal access Token need to be either created for sandbox (https://sandbox.zenodo.org/account/settings/applications/tokens/new/) or productive system (https://zenodo.org/account/settings/applications/tokens/new/):
+
+1. Register for a Zenodo account if you don’t have one.
+2. Go to your Applications, to create a new token.
+3. Select the OAuth scopes you need (for the quick start tutorial you need deposit:write and deposit:actions).

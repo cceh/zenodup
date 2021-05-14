@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="111_final-DOGUNKE_Swantje_Partizipatives_Design_in_Digital_Humanities_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Partizipatives Design in Digital Humanities Projekten: Checklist, Maßnahmenkatalog und Use-Case</title>
+<author>
+<persName>
+<surname>Dogunke</surname>
+<forename>Swantje</forename>
+</persName>
+<affiliation>HTWK Leipzig, Deutschland</affiliation>
+<email>swantje.dogunke@gmail.com</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-08T13:58:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Co-Design</term>
+<term>Partizipation</term>
+<term>Infrastruktur</term>
+<term>Entwicklung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Gestaltung</term>
+<term>Theoretisierung</term>
+<term>Kollaboration</term>
+<term>Projektmanagement</term>
+<term>Infrastruktur</term>
+<term>virtuelle Forschungsumgebungen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<!-- <p rend="Title"> -->
+<!-- <anchor xml:id="Hlk18577003"/>Partizipatives Design in Digital Humanities Projekten: Checklist, Maßnahmenkatalog und Use-Case -->
+<!--             </p> -->
+<!-- <p rend="Subtitle">Swantje Dogunke, HTWK Leipzig</p> -->
+<p>Während die Begriffsbestimmung für Virtuelle Forschungsumgebungen weitestgehend abgeschlossen scheint 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"skv65QEx","properties":{"formattedCitation":"(Arbeitsgruppe Virtuelle Forschungsumgebungen In Der Allianz Der Deutschen Wissenschaftsorganisationen 2011)","plainCitation":"(Arbeitsgruppe Virtuelle Forschungsumgebungen In Der Allianz Der Deutschen Wissenschaftsorganisationen 2011)","noteIndex":0},"citationItems":[{"id":719,"uris":["http://zotero.org/users/1983031/items/XCJH6CCK"],"uri":["http://zotero.org/users/1983031/items/XCJH6CCK"],"itemData":{"id":719,"type":"report","title":"Definition Virtuelle Forschungsumgebung","publisher":"Schwerpunktinitiative „Digitale Information“ der Allianz der deutschen Wissenschaftsorganisationen","page":"216 KB","source":"DOI.org (Datacite)","URL":"http://gfzpublic.gfz-potsdam.de/pubman/item/escidoc:2981916","note":"DOI: 10.2312/allianzoa.028","language":"deu","author":[{"family":"Arbeitsgruppe Virtuelle Forschungsumgebungen In Der Allianz Der Deutschen Wissenschaftsorganisationen","given":""}],"issued":{"date-parts":[["2011"]]},"accessed":{"date-parts":[["2019",9,4]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Arbeitsgruppe Virtuelle Forschungsumgebungen In Der Allianz Der Deutschen Wissenschaftsorganisationen 2011)</hi>, diese bereits längst selbst Untersuchungsgegenstand geworden sind 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"KWFAQwQx","properties":{"formattedCitation":"(Klein 2012)","plainCitation":"(Klein 2012)","noteIndex":0},"citationItems":[{"id":724,"uris":["http://zotero.org/users/1983031/items/Q6H8EVBH"],"uri":["http://zotero.org/users/1983031/items/Q6H8EVBH"],"itemData":{"id":724,"type":"thesis","title":"Virtuelle Forschungsumgebungen als Entwicklungsfeld für Bibliotheken am Beispiel des \"Deutschen Textarchivs\"","publisher":"Humboldt-Universität zu Berlin, Philosophische Fakultät I","genre":"Master's Thesis","note":"DOI: 10.18452/14175","author":[{"family":"Klein","given":"Julia Elisabeth"}],"issued":{"date-parts":[["2012"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Klein 2012)</hi>, fehlt bisher eine methodische Auseinandersetzung, wie der Aufbau einer solchen digitalen Infrastruktur tatsächlich die Anforderungen und Bedürfnisse der potentiellen Nutzerschaft treffen könnte.
+            </p>
+<p>Denn der Erfolg für digitale Infrastruktur und Services, die unter dem Dach der Digital Humanities entstehen, wird häufig an Nutzer*innen- oder Zugriffszahlen gemessen. Hieran wird entschieden, ob Projekte weiter gefördert oder in den Betrieb überführt werden. Seit fast zehn Jahren wird für den Aufbau virtueller Forschungsumgebungen empfohlen, mit Nutzer*innen gemeinsam oder zumindest nutzer*innenzentriert diese fachspezifische digitale Infrastruktur zu entwickeln 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"ZeFnmmR8","properties":{"formattedCitation":"(Kommission Zukunft der Informationsinfrastruktur 2011)","plainCitation":"(Kommission Zukunft der Informationsinfrastruktur 2011)","noteIndex":0},"citationItems":[{"id":450,"uris":["http://zotero.org/users/1983031/items/WIVIYVT7"],"uri":["http://zotero.org/users/1983031/items/WIVIYVT7"],"itemData":{"id":450,"type":"article-journal","title":"Gesamtkonzept für die Informationsinfrastruktur in Deutschland","page":"254","source":"Zotero","language":"de","author":[{"family":"Kommission Zukunft der Informationsinfrastruktur","given":""}],"issued":{"date-parts":[["2011"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Kommission Zukunft der Informationsinfrastruktur 2011)</hi>. Die Bedarfsanalyse stellt einen zeitaufwendigen und kaum abzuschließenden Teil in jedem Projekt dar. Eine Option, um das im Call for Papers genannte Problem der Umwandlung von geistes- und kulturwissenschaftlichen Fragestellungen in Anforderungen an digitale Infrastruktur und Services anzugehen, wäre der Einsatz von partizipativem Design. Versteht man Design als eine Schnittstelle zwischen Technologie und Gesellschaft, ist eine starke und frühe Beteiligung späterer Nutzer*innen am Designprozess eine naheliegende Idee, um potentielle Fehlentwicklungen bereits zu Beginn zu vermeiden 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"0jUgIifx","properties":{"formattedCitation":"(Cross und Design Research Society 1972, 6)","plainCitation":"(Cross und Design Research Society 1972, 6)","noteIndex":0},"citationItems":[{"id":302,"uris":["http://zotero.org/users/1983031/items/DX9JG8AX"],"uri":["http://zotero.org/users/1983031/items/DX9JG8AX"],"itemData":{"id":302,"type":"book","title":"Design participation: proceedings of the Design Research Society's conference, Manchester, September 1971","publisher":"Academy Editions","publisher-place":"London","number-of-pages":"1","source":"Library of Congress ISBN","event-place":"London","ISBN":"978-0-902620-64-3","call-number":"TA174 .D48","editor":[{"family":"Cross","given":"Nigel"},{"family":"Design Research Society","given":""}],"issued":{"date-parts":[["1972"]]}},"locator":"6"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Cross und Design Research Society 1972: 6)</hi>.
+            </p>
+<p>Im Beitrag werden zunächst partizipative Entwicklungsansätze vorgestellt und nach ihrem Partizipationsgrad anhand eines Schemas der International Association for Public Participation eingeordnet. Das Schema sieht fünf Stufen der Partizipation „inform“, „consult“, „involve“ „collaborate“ und „empower“ vor und stellt diese mit einem implizitem Versprechen an die Beteiligten in Beziehung 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"vmFnTO3k","properties":{"formattedCitation":"(International Association for Public Participation 2018)","plainCitation":"(International Association for Public Participation 2018)","noteIndex":0},"citationItems":[{"id":212,"uris":["http://zotero.org/users/1983031/items/4FPDD4TC"],"uri":["http://zotero.org/users/1983031/items/4FPDD4TC"],"itemData":{"id":212,"type":"article","title":"IAP2 Spectrum of Public Participation","URL":"https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/Spectrum_8.5x11_Print.pdf","language":"eng","author":[{"family":"International Association for Public Participation","given":""}],"issued":{"date-parts":[["2018"]]},"accessed":{"date-parts":[["2019",3,16]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(International Association for Public Participation 2018)</hi>. Konzepte wie User Experience Design oder User-Centred-Design sehen eine scharfe Rolleneinteilung zwischen den Usern, Forscher*innen und Designer*innen vor und bewegen sich häufig in einem Spektrum von „consult“ und „involve“. Co-Design scheint nicht nur aufgrund einer hohen Partizipationsstufe „collaborate“, sondern auch aufgrund seiner offeneren Organisationsstruktur am ehesten der fächerübergreifenden Herangehensweise in den Digital Humanities zu entsprechen. 
+            </p>
+<p>In anderen Design-Konzepten wie z.B. Design Thinking oder Service Design werden Daten über User, ihr Verhalten und ihre Emotionen gesammelt, ausgewertet und dienen den Designer*innen im weiteren Design-Prozess als Grundlage. Im Co-Designprozess verschwimmen diese Rollen, alle Beteiligten durchlaufen gemeinsam die verschiedenen Phasen eines Co-Designprozesses. Während also beispielsweise in den verwandten Konzepten Daten ausgewertet werden, um Personas zu erstellen, die als Repräsentationen für typische Nutzer*innen dienen 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"0Lqdyuli","properties":{"formattedCitation":"(Tomitsch u.\\uc0\\u160{}a. 2018, 100)","plainCitation":"(Tomitsch u. a. 2018, 100)","noteIndex":0},"citationItems":[{"id":155,"uris":["http://zotero.org/users/1983031/items/MZBK6QH8"],"uri":["http://zotero.org/users/1983031/items/MZBK6QH8"],"itemData":{"id":155,"type":"book","title":"Design. Think. Make. Break. Repeat: a handbook of methods","publisher":"BIS Publishers B.V","publisher-place":"Amsterdam","number-of-pages":"207","source":"Gemeinsamer Bibliotheksverbund ISBN","event-place":"Amsterdam","ISBN":"978-90-6369-479-1","note":"OCLC: 1028553600","title-short":"Design. Think. Make. Break. Repeat","language":"eng","author":[{"family":"Tomitsch","given":"Martin"},{"family":"Wrigley","given":"Cara"},{"family":"Borthwick","given":"Madeleine"},{"family":"Ahmadpour","given":"Naseem"},{"family":"Frawley","given":"Jessica"},{"family":"Kocaballi","given":"A. Baki"},{"family":"Núñez-Pacheco","given":"Claudia"},{"family":"Straker","given":"Karla"},{"family":"Loke","given":"Lian"}],"issued":{"date-parts":[["2018"]]}},"locator":"100"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Tomitsch u. a. 2018: 100)</hi>, sind im Co-Design reale Personen am Entwicklungsprozess beteiligt. Es geht also nicht um die Frage, was würde ein*e Nutzer*in tun, sondern Nutzer*innen bringen im Prozess ihre Bedürfnisse sowie Ideen ein und können dadurch – je nach Partizipationsgrad - den Entwicklungsprozess beeinflussen oder gar steuern. Hier werden auch die Grenzen der Skalierbarkeit von Co-Design deutlich. Sollen Nutzer*innen stellvertretend für andere Nutzer*innen an dem Co-Design-Prozess teilnehmen, wird die Auswahl dieser Nutzer*innen das Ergebnis stark beeinflussen. Daher wurden als Anwendungsgebiete vor allem die Entwicklung spezialisierter Services identifiziert, so z.B. virtuelle Arbeitsumgebungen für bestandsbezogene Forschungsprojekte an Bibliotheken, Archiven und Museen.
+            </p>
+<p>Als Ursprünge für das heutige Verständnis von Co-Design werden in der Forschungsliteratur Projekte partizipativen Designs in Skandinavien ab den 1970er Jahren genannt, in denen gemeinsam mit Beschäftigten verbesserte Arbeitsplätze entwickelt wurden 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"gF7oEUa5","properties":{"formattedCitation":"(Sanders und Stappers 2008, 7)","plainCitation":"(Sanders und Stappers 2008, 7)","noteIndex":0},"citationItems":[{"id":301,"uris":["http://zotero.org/users/1983031/items/EL5Q7I3R"],"uri":["http://zotero.org/users/1983031/items/EL5Q7I3R"],"itemData":{"id":301,"type":"article-journal","title":"Co-creation and the new landscapes of design","container-title":"CoDesign","page":"5-18","volume":"4","issue":"1","source":"DOI.org (Crossref)","DOI":"10.1080/15710880701875068","ISSN":"1571-0882, 1745-3755","language":"en","author":[{"family":"Sanders","given":"Elizabeth B.-N."},{"family":"Stappers","given":"Pieter Jan"}],"issued":{"date-parts":[["2008",3]]}},"locator":"7"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Sanders und Stappers 2008: 7)</hi>. Die wissenschaftliche Auseinandersetzung zur Notwendigkeit von partizipativem Design lässt sich durch eine der ersten Konferenzen 1972 in Manchester belegen 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"sxXNYwZ2","properties":{"formattedCitation":"(Cross und Design Research Society 1972)","plainCitation":"(Cross und Design Research Society 1972)","noteIndex":0},"citationItems":[{"id":302,"uris":["http://zotero.org/users/1983031/items/DX9JG8AX"],"uri":["http://zotero.org/users/1983031/items/DX9JG8AX"],"itemData":{"id":302,"type":"book","title":"Design participation: proceedings of the Design Research Society's conference, Manchester, September 1971","publisher":"Academy Editions","publisher-place":"London","number-of-pages":"1","source":"Library of Congress ISBN","event-place":"London","ISBN":"978-0-902620-64-3","call-number":"TA174 .D48","editor":[{"family":"Cross","given":"Nigel"},{"family":"Design Research Society","given":""}],"issued":{"date-parts":[["1972"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Cross und Design Research Society 1972)</hi>. In beiden Fällen wird betont, dass das Erfolgsversprechen von partizipativem Design nur eingelöst werden kann, wenn Endnutzer*innen am gesamten Design-Prozess beteiligt sind. Als Vorteile einer solchen Herangehensweise werden u.a. in der Literatur eine gesteigerte Anzahl innovativer Ideen und Vorschläge von Nutzer*innen 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"ZysP9ZIc","properties":{"formattedCitation":"(Mitchell u.\\uc0\\u160{}a. 2016)","plainCitation":"(Mitchell u. a. 2016)","noteIndex":0},"citationItems":[{"id":225,"uris":["http://zotero.org/users/1983031/items/599D28UM"],"uri":["http://zotero.org/users/1983031/items/599D28UM"],"itemData":{"id":225,"type":"article-journal","title":"Empirical investigation of the impact of using co-design methods when generating proposals for sustainable travel solutions","container-title":"CoDesign","page":"205-220","volume":"12","issue":"4","source":"Crossref","DOI":"10.1080/15710882.2015.1091894","ISSN":"1571-0882, 1745-3755","language":"en","author":[{"family":"Mitchell","given":"Val"},{"family":"Ross","given":"Tracy"},{"family":"May","given":"Andrew"},{"family":"Sims","given":"Ruth"},{"family":"Parker","given":"Christopher"}],"issued":{"date-parts":[["2016",10]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Mitchell u. a. 2016)</hi>, ein erweitertes Wissen um ihre Bedürfnisse, der positive Einfluss auf interdisziplinäre Zusammenarbeit innerhalb der Organisation, eine höhere Qualität der Services sowie ein vermindertes Risiko des Scheiterns genannt. Zudem könnten Entscheidungen schneller und besser getroffen werden und somit die Entwicklungszeit verkürzen. Im Gesamtergebnis sei mit einer erhöhten Zufriedenheit und Bindung von Nutzer*innen zu rechnen 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"9uVxEwB0","properties":{"formattedCitation":"(Steen, Manchot, und De Koning 2011)","plainCitation":"(Steen, Manchot, und De Koning 2011)","noteIndex":0},"citationItems":[{"id":152,"uris":["http://zotero.org/users/1983031/items/BJWVU3M5"],"uri":["http://zotero.org/users/1983031/items/BJWVU3M5"],"itemData":{"id":152,"type":"article-journal","title":"Benefits of Co-design in Service Design Projects","container-title":"International Journal of Design","volume":"5","issue":"3","abstract":"International Journal of Design, IJDesign, IJD, SCI, SSCI, A&HCI, In many service design projects, co-design is seen as critical to success and a range of benefits are attributed to co-design. In this paper, we present an overview of benefits of co-design in service design projects, in order to help the people involved to articulate more precisely and realistically which benefits to aim for. Based on a literature review and a discussion of three service design projects, we identified three types of benefits: for the service design project; for the service’s customers or users; and for the organization(s) involved. These benefits are related to improving the creative process, the service, project management, or longer-term effects. We propose that the people involved in co-design first identify the goals of the service design project and then align their co-design activities, and the associated benefits, to these goals. The paper closes with a brief discussion on the need for developing ways to monitor and evaluate whether the intended benefits are indeed realized, and the need to assess and take into account the costs and risks of co-design.","URL":"http://www.ijdesign.org/index.php/IJDesign/article/view/890/346","author":[{"family":"Steen","given":"Marc"},{"family":"Manchot","given":"Menno"},{"family":"De Koning","given":"Nicole"}],"issued":{"date-parts":[["2011"]]},"accessed":{"date-parts":[["2019",3,14]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Steen, Manchot, und De Koning 2011)</hi>. Es wird eine möglichst frühe Einbindung der Nutzer*innen empfohlen, da somit zudem ein hohes Potential zur Kostenersparnis vermutet wird 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"HlCLCVJ0","properties":{"formattedCitation":"(Kujala 2003)","plainCitation":"(Kujala 2003)","noteIndex":0},"citationItems":[{"id":218,"uris":["http://zotero.org/users/1983031/items/CM4W9X5S"],"uri":["http://zotero.org/users/1983031/items/CM4W9X5S"],"itemData":{"id":218,"type":"article-journal","title":"User involvement: A review of the benefits and challenges","container-title":"Behaviour & Information Technology","page":"1-16","volume":"22","issue":"1","source":"Crossref","DOI":"10.1080/01449290301782","ISSN":"0144-929X, 1362-3001","title-short":"User involvement","language":"en","author":[{"family":"Kujala","given":"Sari"}],"issued":{"date-parts":[["2003",1]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Kujala 2003)</hi>.
+            </p>
+<p>Der Planungsphase eines Co-Design-Prozesses beginnt mit der Auswahl oder Erstellung eines Grundgerüsts, welches die Phasen des Projekts in seinem Gesamtverlauf darstellt. Die Festlegung des Partizipationsgrades und das enthaltene Versprechen an die Nutzer*innen sollte zu Beginn erfolgen. Der Grad könnte durch eine Institution vorgegeben werden oder von Nutzer*innen eingefordert werden. Es sollten sich bei Co-Design-Prozessen divergente und konvergente Elemente in den jeweiligen Phasen abwechseln. In einem divergenten Teil einer Phase besteht das Ziel darin, durch geeignete Maßnahmen eine möglichst hohe Anzahl an Ideen, Vorschlägen und Optionen zu generieren. Im konvergenten Teil einer Phase werden die Vorschläge ausgewählt, die weiterverfolgt werden. Für jede dieser Phasen werden Ziele definiert, die mit geeigneten Maßnahmen umgesetzt werden. Jede Design-Maßnahme arbeitet mit einer starken Visualisierung der erhobenen Daten, deren Ordnung und dem Herausarbeiten ihrer Zusammenhänge. Gerade in interdisziplinären Teams können so schnell unterschiedliche Kommunikationsweisen verschiedener Fachdisziplinen zusammengeführt werden 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"dCP7GSot","properties":{"formattedCitation":"(Calabretta, Gemser, und Karpen 2016, 46)","plainCitation":"(Calabretta, Gemser, und Karpen 2016, 46)","noteIndex":0},"citationItems":[{"id":307,"uris":["http://zotero.org/users/1983031/items/CVIED5K6"],"uri":["http://zotero.org/users/1983031/items/CVIED5K6"],"itemData":{"id":307,"type":"book","title":"Strategic design: eight essential practices every strategic designer must master","publisher":"BIS","publisher-place":"Amsterdam","number-of-pages":"225","source":"Gemeinsamer Bibliotheksverbund ISBN","event-place":"Amsterdam","ISBN":"978-90-6369-445-6","note":"OCLC: 960427864","title-short":"Strategic design","language":"eng","author":[{"family":"Calabretta","given":"Giulia"},{"family":"Gemser","given":"Gerda"},{"family":"Karpen","given":"Ingo"}],"issued":{"date-parts":[["2016"]]}},"locator":"46"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Calabretta, Gemser, und Karpen 2016: 46)</hi>.
+            </p>
+<p>Die in der Literatur erwähnten Vorteile wurden in eine Checkliste für Digital Humanities-Projekte umgewandelt, um Potentiale für den Einsatz von Co-Design zu erkennen. Sie wird im Beitrag als Management-Tool für Institutionen vorgestellt, um bereits zu einem frühen Zeitpunkt im Projektverlauf die Rahmenbedingungen für einen Co-Design-Prozess herstellen zu können. Die Liste wurde anhand von Digital Humanities Projekten im Forschungsverbund Marbach Weimar Wolfenbüttel und der Bibliotheca Hertziana durch Experteninterviews getestet. </p>
+<table rend="rules">
+<row>
+<cell rend="left">
+<hi rend="bold">Beschriebener Vorteil</hi>
+</cell>
+<cell rend="left">Fragen</cell>
+<cell rend="left">Beispiel</cell>
+</row>
+<row>
+<cell rend="left">
+<hi rend="bold">Mehr Informationen</hi>: Häufig ist es aufgrund fehlender Informationen schwierig, das Problem der Nutzer*innen zu verstehen und den Design task zu formulieren. Das starke Einbeziehen der Nutzer*innen kann dazu beitragen, passgerechtere Lösungen zu entwickeln 
+                        <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"4t2Hxkxn","properties":{"formattedCitation":"Visser et al., \\uc0\\u8220{}Contextmapping,\\uc0\\u8221{} 119.","plainCitation":"Visser et al., “Contextmapping,” 119.","noteIndex":13},"citationItems":[{"id":864,"uris":["http://zotero.org/users/1983031/items/USASQR7T"],"uri":["http://zotero.org/users/1983031/items/USASQR7T"],"itemData":{"id":864,"type":"article-journal","abstract":"In recent years, various methods and techniques have emerged for mapping the contexts of people’s interaction with products. Designers and researchers use these techniques to gain deeper insight into the needs and dreams of prospective users of new products. As most of these techniques are still under development, there is a lack of practical knowledge about how such studies can be conducted. In this paper we share our insights, based on several projects from research and many years of industrial practice, of conducting user studies with generative techniques. The appendix contains a single case illustrating the application of these techniques in detail.","container-title":"CoDesign","DOI":"10.1080/15710880500135987","ISSN":"1571-0882, 1745-3755","issue":"2","journalAbbreviation":"CoDesign","language":"en","page":"119-149","source":"DOI.org (Crossref)","title":"Contextmapping: experiences from practice","title-short":"Contextmapping","URL":"http://www.tandfonline.com/doi/abs/10.1080/15710880500135987","volume":"1","author":[{"family":"Visser","given":"Froukje Sleeswijk"},{"family":"Stappers","given":"Pieter Jan"},{"family":"Lugt","given":"Remko","non-dropping-particle":"van der"},{"family":"Sanders","given":"Elizabeth B-N"}],"accessed":{"date-parts":[["2019",12,18]]},"issued":{"date-parts":[["2005",4]]}},"locator":"119"}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Visser et al., 2005: 119).</hi>
+</cell>
+<cell rend="left">Waren die Ergebnisse von Maßnahmen (Fragebögen, Interviews, Beobachtungen) der Anforderungsanalyse ungeeignet für eine genauere Problembeschreibung? Fällt es schwer, das Problem oder den design task Fachkolleg*innen zu erklären?</cell>
+<cell rend="left">Die Anforderungsanalyse ergab, dass sich die Nutzer*innen (Geisteswissenschaftler*innen) mehr Tools zum kollaborativem Arbeiten wünschen. Diese werden vorgestellt und der Gruppe in einer VFU bereitgestellt. Sie werden jedoch kaum genutzt, Dokumente werden per Mail im Umlaufverfahren erstellt und gepflegt.</cell>
+</row>
+<row>
+<cell rend="left">
+<p>
+<hi rend="bold" xml:space="preserve">Kommunikation in heterogenen Gruppen verbessern: </hi>In heterogenen Gruppen, wie z.B. interdisziplinären Forschungsgruppen wird die Kommunikation durch unterschiedliche Forschungsperspektiven und fachspezifische Kommunikationskulturen erschwert 
+                            <hi style="font-family:Calibri Light;font-size:9pt">(Muller und Druin, 2017).</hi>
+</p>
+<p>Co-Design arbeitet mit einer starken Visualisierung und regt die Kommunikation durch nicht text-basierte Modelle an.</p>
+</cell>
+<cell rend="left">Sind im Team Menschen aus verschiedenen Fachrichtungen mit unterschiedlichen Professionalisierungsgraden vertreten? Zum Beispiel Informatiker*innen und Geisteswissenschaftler*innen mit wenig Erfahrung in DH-Projekten? Oder Bibliothekar*innen, Professor*innen und studentische Hilfskräfte? Ist es schwierig eine gemeinsame Sprache zur Formulierung der Anforderungen zu finden? </cell>
+<cell rend="left">In einer Forschungsgruppe wird deutlich, dass ein gemeinsames kontrolliertes Vokabular für die Verschlagwortung einzelner Dokumente nötig wird. Die Bibliothekarin im Team hat bereits einen Thesaurus entwickelt und stellt diesen zur Diskussion. Die Fachwissenschaftler*innen, die diese Verschlagwortung vornehmen werden, wollen als einfachere Lösung eine nicht-hierarchische Tagsammlung verwenden, da sie so schneller verschlagworten können. Der Informatiker wird mit seinem Vorschlag für eine Ontologie nicht gehört.</cell>
+</row>
+<row>
+<cell rend="left">
+<hi rend="bold">Zeitdruck:</hi> Eine Anforderungsanalyse selbst ist ein zeitintensiver Teil jedes Projekts. Durch die Einbeziehung der Nutzer*innen kann die Zeit zur Erstellung eines neuen Releases reduziert werden 
+                        <hi style="font-family:Calibri Light;font-size:9pt">(Alam 2002: 254)</hi>. Die am Prozess beteiligten Anwender benötigen weniger Zeit, um die Nutzung des Dienstes zu erlernen. 
+                    </cell>
+<cell rend="left">Wird in den nächsten Wochen ein erster Entwurf erwartet? Haben Sie bereits viel Zeit im Projekt mit der Anforderungsanalyse verbracht, ohne brauchbare Ergebnisse zu erhalten?</cell>
+<cell rend="left">Ein Forschungsprojekt zur Untersuchung von NS-verfolgungsbedingt entzogenen Kulturgütern ist für drei Jahre finanziert. Es wird eine Arbeitsdatenbank benötigt. Die Beteiligten haben noch keine Erfahrung mit Datenmodellierung. </cell>
+</row>
+<row>
+<cell rend="left">
+<p>
+<hi rend="bold">Innovationsdruck:</hi> User als “Experten ihrer eigenen Erfahrungen” generieren eine höhere Anzahl von Ideen mit einem höherem Innovationspotential. Co-Design kann hilfreich sein, diese Ideen in divergenten Phasen zu sammeln 
+                            <hi style="font-family:Calibri Light;font-size:9pt">(Kristensson et al 2002: 59)</hi> und die passenden für die anschließende Weiterentwicklung auszuwählen.
+                        </p>
+</cell>
+<cell rend="left">Ist keine Lösung für das Problem vorhanden? Gibt es keine Vergleichsprojekte? Wurden Lösungen getestet und verworfen? </cell>
+<cell rend="left">Ein Forschungsprojekt untersucht die Leihgaben von Johann Wolfgang von Goethe aus der herzoglichen Bibliothek. Zur Erfassung der Daten werden bibliographische Werkzeuge erprobt, die jedoch nicht in der Lage sind, rudimentäre Einträge ("ein Zeichnungsportfolio") und die Ausleihdaten zu erfassen.</cell>
+</row>
+<row>
+<cell rend="left">
+<p>
+<hi rend="bold" xml:space="preserve">Identifikation und Loyalität: </hi>Wenn die Nutzer in den gesamten Entwurfsprozess eingebunden sind, erhöht sich die Wahrscheinlichkeit, dass sie die Dienstleistung oder das Produkt tatsächlich nutzen, auch wenn dies eine Veränderung im Alltag bedeutet 
+                            <hi style="font-family:Calibri Light;font-size:9pt">(Woods, 2017: 97)</hi>.
+                        </p>
+</cell>
+<cell rend="left">Welche persönlichen Hürden müssen die Nutzer*innen überwinden? Was können wir tun, um die Nutzer zu halten? Wie kann die Nutzung unseres Produktes zur Routine werden?</cell>
+<cell rend="left">Es wird eine Arbeitsdatenbank für ein Forschungsprojekt erstellt, da an verteilten Orten Daten erzeugt werden. Die persönlichen Datensammlungen sollen abgelöst werden. Nach einiger Zeit stellt sich heraus, dass die ursprünglichen Systeme weiter mit Daten beliefert werden, die neue Datenbank jedoch nicht genutzt wird.</cell>
+</row>
+<row>
+<cell rend="left">
+<hi rend="bold" xml:space="preserve">Kleine Gruppe von Nutzer*innen: </hi>Ansätze wie UXP eignen sich, wenn ein Dienst für eine große Gruppe von Personen entwickelt werden soll. Dies wird durch Techniken wie die Erstellung von Persona ermöglicht. Co-Design eignet sich eher für spezialisierte Dienste für eine kleine Gruppe von Nutzer*innen. 
+                    </cell>
+<cell rend="left">Suchen Sie eine Lösung für eine kleine Gruppe von Nutzer*innen? Kennen Sie sie alle? Passen sie in einen Raum?</cell>
+<cell rend="left">Ein Team von zehn Geisteswissenschaftler*innen hat Daten zu Autorenbibliotheken des 18. Jahrhunderts gesammelt, kommentiert und aufbereitet. Eine projektübergreifende Datenvisualisierung ist angedacht.</cell>
+</row>
+</table>
+<p>Des Weiteren wurde ein Katalog entwickelt, um Maßnahmen aus dem Bereich des Co-Designs hinsichtlich ihrer Eignung und dem erreichten Partizipationsgrad zu bewerten. Zur Festlegung des geeigneten Zeitpunktes einzelner Maßnahmen wurde ein angepasstes Schema aus dem Bereich des Service Design verwendet 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"OnEGJanf","properties":{"formattedCitation":"(Stickdorn u.\\uc0\\u160{}a. 2018)","plainCitation":"(Stickdorn u. a. 2018)","noteIndex":0},"citationItems":[{"id":255,"uris":["http://zotero.org/users/1983031/items/88TL2DDW"],"uri":["http://zotero.org/users/1983031/items/88TL2DDW"],"itemData":{"id":255,"type":"book","title":"This is service design doing: applying service design thinking in the real world ; a practitioners` handbook","publisher":"O'Reilly","publisher-place":"Sebastapol, CA","number-of-pages":"541","edition":"First edition","source":"Gemeinsamer Bibliotheksverbund ISBN","event-place":"Sebastapol, CA","ISBN":"978-1-4919-2718-2","note":"OCLC: 922913141","title-short":"This is service design doing","language":"eng","editor":[{"family":"Stickdorn","given":"Marc"},{"family":"Hormess","given":"Markus"},{"family":"Lawrence","given":"Adam"},{"family":"Schneider","given":"Jakob"}],"issued":{"date-parts":[["2018"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Stickdorn u. a. 2018)</hi>, welches die Phasen „Planen und Vorbereiten“, „Recherche“, „Ideen finden“ und „Prototyping“ umfasst. Der Start eines Co-Designprozesses wird durch einen Trigger eingeleitet, der durch die Anwendung der Checkliste erkannt werden kann. Als Endpunkt des Co-Design-Prozesses wird ein Release festgelegt. Ein weiteres Merkmal, welches den Maßnahmen zugeordnet wurde, ist die Einschätzung, ob es sich eher um eine divergente Maßnahme der Ideenfindung oder eine konvergente Maßnahme der Bewertung, Auswahl oder Konkretisierung handelt.
+            </p>
+<p>In einem Use-Case konnte gezeigt werden, dass mithilfe von Co-Design innerhalb eines eintägigen Workshops ein Konzept zur Erstellung einer digitalen Arbeitsumgebung für ein Forschungsprojekt erstellt werden konnte. Der Co-Design-Ansatz und die eingesetzten Maßnahmen, wie z.B. Customer Journey Mapping oder eine mithilfe von LEGO-Steinen erstellte Stakeholderanalyse unterstützten die Anforderungsanalyse und führten zu neuen Sichtweisen in der Zusammenarbeit von Geistes- und Kulturwissenschaftler*innen und Digital Humanities-Mitarbeiter*innen und könnten die Kommunikation in interdisziplinären Digital Humanities-Projekten verbessern sowie den Ressourceneinsatz verringern. Die bisweilen spielerische Herangehensweise motivierte die Teilnehmenden, sich auch intensiv mit Themen des Projektmanagements auseinanderzusetzen, die in der Vergangenheit eher als lästig angesehen wurden.</p>
+<p>Der Vortrag stellt die Checkliste und einen erweiterten Maßnahmenkatalog als eine Art Werkzeugkasten für die iterative Entwicklung von digitaler Infrastruktur für Forschende und Institutionen vor und zeigt an einem Use-Case, wie Co-Design-Maßnahmen zu einer verbesserten Bedarfsanalyse führen können. Auch die Grenzen von Co-Design sollen beleuchtet werden. In der Fachliteratur überwiegen die positiven Berichte von Co-Design-Projekten, eine Untersuchung der Grenzen der Skalierbarkeit ist jedoch nicht zu finden. Um die Attraktivität von Co-Design für die Hochschulen, Forschungseinrichtungen oder Forschungsgruppen zu steigern, könnten umfassende Untersuchungen zur Kostenersparnis und der Erhöhung der Zufriedenheit von Nutzer*innen in Best-Practice-Projekten hilfreich sein. Eine Bedingung hierfür wäre ein vergleichbares Vorgehen.</p>
+<p>Das Ziel des Beitrages ist es, den Austausch und die Zusammenarbeit zwischen Digital Humanities-Forschenden anzuregen, die am Aufbau digitaler Services oder Infrastruktur beteiligt sind, um gemeinsam eine Art Toolkit für Co-Design in den Digital Humanities zu erstellen. Die Vorstellung einer Co-Design-Maßnahme - der Motivation Matrix - im Rahmen des Panels „Digital Humanities from Scratch“ auf der DHd-Jahrestagung 2019 in Frankfurt am Main stieß bei den Teilnehmenden auf reges Interesse und lässt erahnen, dass der Einsatz von Co-Design in den Digital Humanities begrüßt wird und erfolgsversprechend sein könnte 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"ZevSXe74","properties":{"formattedCitation":"(Cremer, Roeder, und S\\uc0\\u246{}ring 2019)","plainCitation":"(Cremer, Roeder, und Söring 2019)","noteIndex":0},"citationItems":[{"id":624,"uris":["http://zotero.org/users/1983031/items/6MU3ZGHC"],"uri":["http://zotero.org/users/1983031/items/6MU3ZGHC"],"itemData":{"id":624,"type":"article-journal","title":"Digital Humanities \"from Scratch\"","source":"DOI.org (Datacite)","abstract":"Immer häufiger schaffen universitäre, akademische und andere wissenschaftliche Institutionen neue Stellen, um Aktivitäten im Bereich der Digital Humanities zu koordinieren und Infrastrukturen aufzubauen. Beginnt man heute damit ganz von vorn, sei es im Rahmen einer Querschnittsstelle, einer neuen Abteilung oder auch ohne offizielles Mandat, steht man vor anderen Voraussetzungen als vor einem Jahrzehnt. Während einige wenige Standorte inzwischen auf eine langjährig gewachsene DH-Infrastruktur zurückblicken können, stellt die Etablierung von DH-Strukturen „<em>from scratch</em>“ im laufenden Betrieb hohe institutionelle, organisatorische, personelle und technische Anforderungen. Übergreifender Austausch, Vernetzung und Bündelung von Initiativen und Aktivitäten jenseits von Institutionen und Verbünden stehen jedoch bislang aus.\n\nIn diesem moderierten Panel stellen die Beitragenden, die durch ihre Institutionen mit solchen Aufgaben betraut wurden oder diese initiieren, ihre bisherigen Herausforderungen, Erfahrungen und Lösungsansätze zur Diskussion, um aktuelle Desiderate zu identifizieren und sowohl Handlungsoptionen als auch mögliche Strategien aufzuzeigen – und damit einen Impuls für weiterführende Initiativen zu geben.","URL":"https://zenodo.org/record/3244179","DOI":"10.5281/zenodo.3244179","language":"de","author":[{"family":"Cremer","given":"Fabian"},{"family":"Roeder","given":"Torsten"},{"family":"Söring","given":"Sibylle"}],"issued":{"date-parts":[["2019",6,12]]},"accessed":{"date-parts":[["2019",8,27]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+<hi style="font-family:Calibri Light;font-size:9pt">(Cremer, Roeder, und Söring 2019)</hi>.
+            </p>
+</body>
+<back>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Alam, Ian </hi> (2002): “An Exploratory Investigation of User Involvement in New Service Development.” Journal of the Academy of Marketing Science 30, no. 3 (June 1, 2002): 250.
+	<ptr target="https://doi.org/10.1177/0092070302303006"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold">Calabretta, Giulia / Gerda Gemser /  Ingo Karpen</hi> (2016):
+	<hi rend="italic">Strategic Design: Eight Essential Practices Every Strategic Designer Must Master</hi>. Amsterdam: BIS.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Cremer, Fabian / Torsten Roeder / Sibylle Söring</hi> (2019): „Digital Humanities ‚from Scratch‘“, Juni. <ptr target="https://doi.org/10.5281/zenodo.3244179"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Cross, Nigel / Design Research Society, Hrsg </hi> (1972): 
+	<hi rend="italic">Design participation: proceedings of the Design Research Society’s conference, Manchester, September 1971</hi>. London: Academy Editions.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> International Association for Public Participation</hi> (2018): „IAP2 Spectrum of Public Participation“.
+	<ptr target="https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/Spectrum_8.5x11_Print.pdf"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Klein, Julia Elisabeth</hi> (2012): „Virtuelle Forschungsumgebungen als Entwicklungsfeld für Bibliotheken am Beispiel des ‚Deutschen Textarchivs‘“. Master’s Thesis, Humboldt-Universität zu Berlin, Philosophische Fakultät I.
+	<ptr target="https://doi.org/10.18452/14175"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Kristensson, Per / Peter R. Magnusson /  Jonas Matthing</hi> (2002): “Users as a Hidden Resource for Creativity: Findings from an Experimental Study on User Involvement.” Creativity and Innovation Management 11, no. 1: 55–61.
+	<ptr target="https://doi.org/10.1111/1467-8691.00236"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Kommission Zukunft der Informationsinfrastruktur</hi> (2011): „Gesamtkonzept für die Informationsinfrastruktur in Deutschland“, 254.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Kujala, Sari</hi> (2003): „User Involvement: A Review of the Benefits and Challenges“. 
+	<hi rend="italic">Behaviour &amp; Information Technology</hi> 22 (1): 1–16. <ptr target="https://doi.org/10.1080/01449290301782"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Mitchell, Val / Tracy Ros /  Andrew May /  Ruth Sims /  Christopher Parker</hi> (2016): „Empirical Investigation of the Impact of Using Co-Design Methods When Generating Proposals for Sustainable Travel Solutions“. 
+	<hi rend="italic">CoDesign</hi> 12 (4): 205–20. <ptr target="https://doi.org/10.1080/15710882.2015.1091894"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Muller, Michael J. /  Allison Druin</hi>: “Participatory Design: The Third Space in HCI,” n.d., 70.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold">UX Magazine </hi> (2017): “Participatory Design in Practice | UX Magazine”.
+	<ptr target="https://uxmag.com/articles/participatory-design-in-practice"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Sanders, Elizabeth B.-N. /  Pieter Jan Stappers</hi> (2008): „Co-Creation and the New Landscapes of Design“. 
+	<hi rend="italic">CoDesign</hi> 4 (1): 5–18. <ptr target="https://doi.org/10.1080/15710880701875068"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold">Sleeswijk Visser, Froukje /  Pieter Jan Stappers /  Remko van der Lugt /  Elizabeth B.-N. Sanders</hi> (2005): “Contextmapping: Experiences from Practice.” CoDesign 1, no. 2 (April 2005): 119–49.
+	<ptr targe="https://doi.org/10.1080/15710880500135987"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Steen, Marc /  Menno Manchot /  Nicole De Koning</hi> (2011): „Benefits of Co-design in Service Design Projects“. 
+	<hi rend="italic">International Journal of Design</hi> 5 (3). <ptr target="http://www.ijdesign.org/index.php/IJDesign/article/view/890/346"/>.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Stickdorn, Marc / Markus Hormess / Adam Lawrence /  Jakob Schneider, Hrsg.</hi> (2018): 
+	<hi rend="italic">This Is Service Design Doing: Applying Service Design Thinking in the Real World; a Practitioners` Handbook</hi>. First edition. Sebastapol, CA: O’Reilly.
+      </bibl>
+      <bibl rend="Bibliography">
+	<hi rend="bold"> Tomitsch, Martin /  Cara Wrigley / Madeleine Borthwick / Naseem Ahmadpour / Jessica Frawley / A. Baki Kocaballi / Claudia Núñez-Pacheco / Karla Straker /  Lian Loke </hi>  (2018): 
+	<hi rend="italic" style="font-family:Calibri Light;font-size:10pt">Design. Think. Make. Break. Repeat: A Handbook of Methods</hi>. Amsterdam: BIS Publishers B.V.
+      </bibl>
+       <bibl rend="Bibliography">
+      <hi rend="bold"> Woods, Leana / Elizabeth Cummings / Jed Duff /  Kim Walker</hi> (2017): “Design Thinking for MHealth Application Co-Design to Support Heart Failure Self-Management.” In Context Sensitive Health Informatics: Redesigning Healthcare Work. IOS Press.</bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

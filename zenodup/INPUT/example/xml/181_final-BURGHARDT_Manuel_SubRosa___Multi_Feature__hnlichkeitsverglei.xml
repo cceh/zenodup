@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="181_final-BURGHARDT_Manuel_SubRosa___Multi_Feature__hnlichkeitsverglei" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>SubRosa – Multi-Feature-Ähnlichkeitsvergleiche von Untertiteln</title>
+<author>
+<persName>
+<surname>Luhmann</surname>
+<forename>Jan</forename>
+</persName>
+<affiliation>Computational Humanities Group, Universität Leipzig</affiliation>
+<email>jan.luhmann@gmx.net</email>
+</author>
+<author>
+<persName>
+<surname>Burghardt</surname>
+<forename>Manuel</forename>
+</persName>
+<affiliation>Computational Humanities Group, Universität Leipzig</affiliation>
+<email>burghardt@informatik.uni-leipzig.de</email>
+</author>
+<author>
+<persName>
+<surname>Tiepmar</surname>
+<forename>Jochen</forename>
+</persName>
+<affiliation>Computational Humanities Group, Universität Leipzig</affiliation>
+<email>jtiepmar@informatik.uni-leipzig.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>text similarity</term>
+<term>information retrieval</term>
+<term>NLP</term>
+<term>stylometry</term>
+<term>subtitles</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Programmierung</term>
+<term>Inhaltsanalyse</term>
+<term>Stilistische Analyse</term>
+<term>Webentwicklung</term>
+<term>Visualisierung</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung: Filmanalyse auf Basis von Untertiteln</head>
+<p>Mit der stetig wachsenden Verfügbarkeit von Filmen und Serien, die durch Streaming-Dienste wie Netflix und Amazon Prime in den letzten Jahren weiter befördert wurde, ergeben sich aus Perspektive der Filmanalyse ganz neue Möglichkeiten für quantitative Untersuchungen im Sinne des 
+<hi rend="italic">distant viewing</hi> (Arnold &amp; Tilton, 2019). Wenngleich Film zunächst vor allem ein visuelles Medium ist, so werden in zunehmendem Maße auch Metadaten und insbesondere die Dialoge (vgl. Kozloff, 2000) in Form von online verfügbaren Untertiteln, Drehbüchern und Fan-Transkripten Gegenstand quantitativer Untersuchungen (vgl. Bednarek, 2020; Burghardt et al., 2016, 2019; Schmidt, 2014). Insbesondere die freie Datenbank 
+<hi rend="italic">OpenSubtitles</hi><ref n="1" target="ftn1"/> hat sich hier als ertragreiche Datenquelle bewährt. Während die Daten von 
+<hi rend="italic">OpenSubtitles</hi> bislang vor allem im Bereich maschineller Übersetzung (vgl. Müller &amp; Volk, 2013; Lison &amp; Tiedemann, 2016; Tiedemann, 2016) Verwendung fanden, schlagen wir in diesem Artikel eine Nutzung im Sinne quantitativer Filmstilanalyse basierend auf Ähnlichkeitsvergleichen vor. Wir erweitern damit bestehende Arbeiten (Blackstock &amp; Spitz, 2008; Nessel &amp; Cimpa, 2011; Bougiatiotis &amp; Giannakopolous, 2017), die sich ebenfalls mit Ähnlichkeitsvergleichen von Untertiteln beschäftigen, dabei aber jeweils mit relativ überschaubaren Korpora arbeiten oder sehr spezifische Ansätze der Ähnlichkeitsberechnung umsetzen. 
+</p>
+<p>Wir präsentieren das experimentelle Analysetool 
+<hi rend="italic">SubRosa</hi>, welches Ähnlichkeitsvergleiche für mehrere tausend Untertitel über eine grafische Benutzeroberfläche erlaubt. Wir setzen dabei eine ganze Reihe von Features für die Ähnlichkeitsberechnung zwischen Untertiteln um, die zudem jeweils individuell gewichtet werden können. 
+<hi rend="italic">SubRosa</hi> versteht sich damit als exploratives Werkzeug, um die grundlegende Eignung unterschiedlicher Features bzw. Feature-Kombinationen für die computergestützte Ähnlichkeitsberechnung zwischen Untertiteln zu untersuchen, welche dann wiederum in einem nächsten Schritt für großangelegte Ähnlichkeitsvergleiche mithilfe statistischer Verfahren genutzt werden können.
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Korpus und Datenaufbereitung</head>
+<p>
+<hi rend="italic">SubRosa</hi> stellt Vergleiche zwischen insgesamt 5.896 englischen Untertiteln an, die über 
+<hi rend="italic">OpenSubtitles</hi> bezogen wurden. 
+<hi rend="italic">OpenSubtitles</hi> versteht sich als offene Plattform, bei der Nutzer*innen Untertitel in unterschiedlichen Sprachen für unterschiedliche Filme hochladen können. Das Format der Untertitel entspricht dem Exportformat des 
+<hi rend="italic">SubRip</hi>-Tools, welches automatisiert über OCR Textzeilen aus Filmen mit bereits bestehenden Untertiteln extrahiert. Darüber hinaus werden aber auch viele von Nutzer*innen selbst transkribierte Untertitel hochgeladen. Im Ergebnis gibt es so für die meisten Filme mehrere Versionen von Untertiteln. Wir wählen jeweils die Version für unser Korpus aus, die einer automatischen Validierung in Hinblick auf Encoding- oder OCR-Fehler Stand hält. Weiterhin werden alle ausgewählten Untertitel grundlegend aufbereitet, d.h. es werden bspw. Metainformationen, Autoren-Tags, etc. entfernt, die definitiv nicht Teil des eigentlichen Filmdialogs sind. Als nächstes erfolgt eine Vorverarbeitung der Untertitel im Sinne des 
+<hi rend="italic">natural language processing</hi> (NLP), welche die folgenden Einzelschritte enthält: Tokenisierung, Satzsegmentierung, Lemmatisierung, POS-Tagging und 
+<hi rend="italic">named entity recognition</hi>. Zuletzt werden alle Untertitel mit Metadaten wie etwa „Titel“, „Jahr der Veröffentlichung“, „Genre“, etc. verknüpft, die über die IMDb-Datenbank<ref n="2" target="ftn2"/> bezogen werden.
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Analyseverfahren</head>
+<p>Mit 
+<hi rend="italic">SubRosa</hi> setzen wir einen parametrisierbaren Ähnlichkeitsvergleich zwischen Filmuntertiteln um, der auf ganz unterschiedlichen Features basiert. Die nachfolgenden Features sind allesamt über eine interaktiven Web-Applikation verfügbar, die eine Ähnlichkeitssuche für die eingangs erwähnten annähernd 6.000 englischsprachigen Film-Untertitel erlaubt.
+</p>
+<list type="unordered">
+  <item>
+    <hi rend="bold">SubRosa Code</hi>:
+    <ref target="http://github.com/bbrause/subrosa">http://github.com/bbrause/subrosa</ref>
+  </item>
+  <item>
+    <hi rend="bold">SubRosa Live-Demo</hi>:
+    <ref target="http://ch01.informatik.uni-leipzig.de:5001/">http://ch01.informatik.uni-leipzig.de:5001/</ref>
+  </item>
+</list>
+<div rend="DH-Heading2" type="div2">
+  <head>Features auf der inhaltlichen Ebene</head>
+  <p>
+    <hi rend="bold" xml:space="preserve">a) Bag of words / tf-idf </hi>(„Worüber sprechen die Figuren?“): Das 
+    <hi rend="italic">bag of words</hi>-Modell ist ein einfacher Ansatz für die Repräsentation von Textdokumenten im NLP und Information Retrieval. In unserem Anwendungskontext entspricht ein Untertitel einem „Dokument“, für das die einzelnen lemmatisierten Tokens jeweils mit einer sublinearen tf-idf-Skalierung (Manning et al., 2008, S. 126-127) gewichtet werden. Durch diese Gewichtung können wir diejenigen Wörter identifizieren, die in einem bestimmten Dokument häufig vorkommen, aber insgesamt im Gesamtkorpus nur selten auftreten. Es kann davon ausgegangen werden, dass diese Begriffe für das jeweilige Dokument dann besonders aussagekräftig sind. Dementsprechend filtern wir alle Begriffe heraus, die in weniger als 2,5% und mehr als 95% aller Dokumente vorkommen. Darüber hinaus werden 
+    <hi rend="italic">named entities</hi>, die Personen-, Orts- oder Institutionsnamen bezeichnen, entfernt, da diese die Ergebnisse stark verzerren können. Es verbleiben insgesamt 4.952 Wörter, die beim Ähnlichkeitsvergleich der Untertitel berücksichtigt werden.
+  </p>
+  <p>
+    <hi rend="bold" xml:space="preserve">b) Sentiment Analyse </hi>(„Was fühlen die Figuren?“): Um Muster bzgl. der von den Figuren im Dialog zum Ausdruck gebrachten Gefühle und Emotionen automatisch zu detektieren, wurde das weitverbreitete 
+    <hi rend="italic">open source</hi>-Tool 
+    <hi rend="italic">VADER Sentiment</hi> (Hutto &amp; Gilbert, 2014) verwendet. Dabei werden für beliebige Textabschnitte Sentiment-Bewertungen im Bereich -1 (maximal negativ) bis +1 (maximal positiv) berechnet. Da sich Emotionen im Laufe eines Films meist sehr divers entwickeln, ist es nicht sinnvoll, das Sentiment des gesamten Filmdialogs mit einem einzigen Wert wiederzugeben. Stattdessen berechnen wir für jede Sekunde eines Films einen spezifischen Sentiment-Wert für den dort gesprochenen Dialog, sodass sich für jeden Film eine Zeitreihe von Sentiment-Werten ergibt. Als Features dieser Zeitreihen extrahieren wir den Mittelwert und Quartilswerte, um die Verteilung der Sentiment-Werte zu erfassen. Weiterhin wird die Nulldurchgangsrate der Zeitreihenkurve sowie deren erste und zweite Ableitung ausgewertet, um Hinweise auf periodische Eigenschaften zu erlangen.
+  </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Features auf der stilistischen Ebene („Wie sprechen die Figuren?“)</head>
+<p>
+  <hi rend="bold">a) Stoppwort-Verteilung</hi>: Als weitere Features implementieren wir eine Analyse der Verteilung von Stoppwörtern, also von Wörtern, die in unserem Korpus am häufigsten auftreten und im Gegensatz zum vorherigen Ansatz nur geringe inhaltliche Aussagekraft für einen Film besitzen. Wir berücksichtigen insgesamt 87 Stoppwörter, die nach ihrer Termfrequenz gewichtet werden. 
+</p>
+<p>
+  <hi rend="bold">b) POS-Trigramme</hi>: Darüber hinaus setzen wir einen Ansatz von Argamon et al. (2003) und Santini (2004) um, die im Kontext stilometrischer Genreklassifikation mit POS-Trigrammen arbeiten. Wir ignorieren dabei all die POS-Trigramme, die in weniger als 90% unserer Dokumente vorkommen, was zu insgesamt 417 verbleibenden POS-Trigrammen führt. Gewichtet werden diese ebenfalls nach ihrer Termfrequenz.
+</p>
+<p>
+  <hi rend="bold">c) Statistische Maße</hi>: Wir berechnen außerdem verschiedene statistische Maße, die im Bereich der Stilometrie weit verbreitet sind und die als weitere Features bei unserer Ähnlichkeitsberechnung verwendet werden können. Zu diesen Maßen zählen die Durchschnittswerte einfacher Wort- und Satzlängen sowie auch die 
+  <hi rend="italic">Entropie</hi> (Shannon, 1948) und die 
+  <hi rend="italic">standardized type-token ratio</hi> (Johnson, 1944; Torruella &amp; Capsada, 2013).
+</p>
+<p>
+  <hi rend="bold">d) Dialogtempo</hi> („Wie schnell bzw. wie viel wird gesprochen?“): Als letztes Feature betrachten wir das „Dialogtempo“, das sich allerdings nicht auf die Sprechgeschwindigkeit einzelner Figuren bezieht, sondern vielmehr Dialoganteile pro Zeit misst. Analog zum Verfahren bei unserem Modell der Sentiment-Analyse messen wir hier pro Sekunde eines Films die Anzahl der gesprochenen Wörter, sodass sich je Film eine Zeitreihe ergibt. Als Features der Zeitreihen extrahieren wir ebenfalls Mittelwert und Quartilswerte zur Erfassung der Verteilung der Dialogtempo-Werte, sowie die Rate der Mittelwertdurchgänge jeder Zeitreihe und Nulldurchgangsraten der ersten und zweiten Ableitung zur Abschätzung von periodischen Eigenschaften.
+</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+  <head>Ähnlichkeitsberechnung</head>
+  <p>Für alle Untertitel werden anhand der oben genannten Feature-Modelle entsprechende Ergebnisvektoren berechnet (vgl. Abb. 1). Ähnlichkeiten bzw. Distanzen werden pro Modell separat berechnet. Für das 
+  <hi rend="italic">bag of words</hi>-Modell verwenden wir die
+  Cosinus-Ähnlichkeit als Metrik, für alle anderen Modelle die
+  Cosinus-Delta-Metrik, die der Cosinus-Ähnlichkeit auf
+  standardisierten Feature-Werten
+  (<hi rend="italic">z-Scores</hi>) entspricht und auch häufig in der Stilometrie Verwendung findet. Ein Gesamtähnlichkeitswert zwischen zwei Filmen, wie er in 
+  <hi rend="italic">SubRosa</hi> letztendlich ablesbar ist, wird
+  berechnet als der gewichtete Mittelwert der Ähnlichkeitswerte aus
+  den einzelnen Modellen.
+  Darüber hinaus ist eine spezifische Gewichtung (jeweils 0 - 100%) der einzelnen Features über das Interface des Webtools
+  <hi rend="italic">SubRosa</hi> möglich.
+  </p>
+<figure>
+<graphic height="5.346422222222222cm" n="1001" rend="inline" url="181_final-e738308e6bfa4c1038fde72d6052470a.png" width="10.664636111111111cm"/>
+<head>Abbildung 1: Anzahl der Dimensionen je Feature-Modell.</head>
+</figure>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Ergebnisse in SubRosa</head>
+  <p>Wie eingangs beschrieben versteht sich 
+  <hi rend="italic">SubRosa</hi> als exploratives Tool um die Auswirkung unterschiedlicher Features auf die Ähnlichkeitsberechnungen zwischen Untertiteln zu untersuchen. Zur besseren Illustration der Möglichkeiten des Tools zeigt Abb. 2 die grafische Benutzeroberfläche von 
+  <hi rend="italic">SubRosa</hi> mit einer Darstellung ähnlicher Filme zum Film „Alien (1979)“. Auf der linken Seite zu sehen sind die unterschiedlichen Feature-Modelle und deren Gewichtung, die sich jeweils auf die Ergebnisdarstellung auswirken. Die Ergebnisse der Ähnlichkeitsberechnungen zwischen den Filmen werden in einem Graphen visualisiert, in dem jeder Knoten einen Film darstellt und die Länge der Kante zwischen jeweils zwei Filmen näherungsweise proportional zum Quadrat der zwischen ihnen berechneten Distanz ist. 
+  </p>
+  <figure>
+    <graphic height="11.329458333333333cm" n="1002" rend="inline" url="181_final-0da7b3c93deaf393135516d583683cc7.png" width="16.002cm"/>
+    <head>Abbildung 2: Ähnlichkeitsnetzwerk für Alien (1979) in <hi rend="italic">SubRosa</hi>.</head>
+  </figure>
+  <p>In Detailansichten (vgl. Abb. 3) für jedes Feature-Modell lassen sich darüber hinaus für jeden einzelnen Film seine extrahierten Feature-Daten analysieren und mit denen anderer Filme vergleichen.</p>
+  <figure>
+    <graphic height="9.416561111111111cm" n="1003" rend="inline" url="181_final-768e472c13ef402fdd1cf6732e1c8f27.png" width="16.002cm"/>
+    <head>Abbildung 3: Detailsicht der einzelnen Feature-Modelle für Alien (1979), hier für die beispielhaften Features „Sentiment Analyse“ und „Dialogtempo“.</head>
+  </figure>
+  <p>Um einen Überblick zu allgemeinen Ähnlichkeitsmustern im Sinne von Cluster-Bildung innerhalb unseres Korpus an Untertiteln zu erlangen, haben wir zudem den hochdimensionalen Vektorraum jedes Modells mithilfe einer SVD (singular value decomposition) reduziert und die Ergebnisse mittels t-SNE (t-distributed stochastic neighbor embedding) in einem zweidimensionalen Raum als Punkte visualisiert, die entsprechend der Filmgenres eingefärbt sind. Beispielhaft zeigen sich bei der Visualisierung einer gewichteten Kombination aller Modelle (50% Bag-of-Words-Modell, andere Modelle je 10%; siehe Abb. 4) interpretierbare Cluster von Filmen bestimmter Genres, am deutlichsten im Falle von Horror- und Comedy-Filmen. Bei näherer Betrachtung zeigen sich zudem Cluster von Filmen, die sich zwar im Genre stark unterscheiden, jedoch durch ein gemeinsames Setting oder Thema verbunden sind (wie z.B. Weltraum, Western, Schifffahrt, Sport, …).</p>
+  <figure>
+    <graphic height="6.983236111111111cm" n="1004" rend="inline" url="181_final-1fb95b8fbf99fd0874c4a6d3eb517d3b.png" width="16.002cm"/>
+    <head>Abbildung 4: Gewichtete Kombination aller Feature-Modelle und 2D-Projektion mittels SVD und t-SNE.</head>
+  </figure>
+  <p>Weiterhin lässt sich zeigen, dass die meisten Features nicht miteinander korrelieren, d.h. Filme die bspw. anhand des Features „Sentiment“ ähnlich sind, können sich erheblich unterscheiden was etwa das Dialogtempo angeht (vgl. Abb. 5).</p>
+  <figure>
+    <graphic height="5.265616666666666cm" n="1005" rend="inline" url="181_final-7a836db1b478d9ece474a2609f9388ac.png" width="16.002cm"/>
+    <head>Abbildung 5: Die 2D-Projektion der Untertitel mittels SVD und t-SNE anhand der Features “Sentiment Analyse” und “Dialogtempo” zeigt sehr unterschiedliche Cluster und lässt darauf schließen, dass diese beiden Merkmale nicht korrelieren. Dies gilt im Übrigen auch für die meisten der anderen Features; die entsprechenden Diagramme finden sich online über plot.ly<ref n="3" target="ftn3"/>.</head>
+  </figure>
+  <p>Die Unterschiedlichkeit der verschiedenen Features lässt sich auch gut anhand beispielhafter Analysen illustrieren. So zeigt sich etwa, dass bei der Suche nach ähnlichen Filmen zu “The Room” (2003) für jedes einzelne Feature bei den Top 5 der als ähnlich identifizierten Ergebnisse jeweils ganz unterschiedliche Filme herauskommen (vgl. Abb. 6). Einzig “Ruby Sparks” (2012) findet sich sowohl bei “Syntax” als auch bei “Sentiment” wieder. Der Film “The Disaster Artist”, der dokumentationsartig die Entstehungsgeschichte des Klassikers “The Room” schildert (und damit einen unmittelbaren inhaltlichen Bezug hat), kommt interessanterweise nur bei der 
+  <hi rend="italic">bag of words</hi>-Methode in den Top 5 der Ergebnismenge vor. Es zeigt sich also, dass ein multifaktorieller Vergleich von Filmen anhand unterschiedlicher, dialog-basierter Features, nicht zielführend ist, sondern vielmehr unterschiedliche Merkmale unterschiedliche Ähnlichkeitsaspekte kodieren. Im nächsten Schritt planen wir eine systematische Korrelationsanalyse der unterschiedlichen Features, um gemeinsam auftretende Phänomene und Muster für spezifische Filmgenres etc. identifizieren zu können.
+  </p>
+  <figure>
+    <graphic height="6.234197222222222cm" n="1006" rend="inline" url="181_final-c7e339f98fab8168db3eeebda61ce974.png" width="12.010330555555555cm"/>
+    <head>Abbildung 6: Unterschiede in der Ergebnismenge verschiedener Feature-Konfigurationen für <hi rend="italic">„The Room“</hi> (2003).
+    </head>
+  </figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head>Fazit und Ausblick</head>
+  <p>Im hier vorgestellten Projekt dokumentieren wir aktuelle Experimente zur Identifikation von Ähnlichkeitsbeziehungen zwischen Film-Untertiteln auf Basis ganz unterschiedlicher Features, die künftig für quantitative Stil- und Genreanalyse von Filmen herangezogen werden können. 
+  <hi rend="italic">SubRosa</hi> versteht sich zunächst als experimentelle Plattform, die es erlaubt interaktiv unterschiedliche Feature-Kombinationen für unterschiedliche Filme bzw. Fragestellungen zu erproben. Als Verbesserung auf technischer Ebene planen wir die Integration eines größeren Korpus<ref n="4" target="ftn4"/> (Lison &amp; Tiedemann, 2016), welches systematischer validiert und korrigiert wurde als es bei unserem aktuellen Testkorpus der Fall ist. 
+  </p>
+  <p>Darüber hinaus soll über eine systematische Evaluation eine Feature-Selektion und optimale Gewichtung erfolgen. Geplant ist hierzu eine Evaluation gegen eine 
+  <hi rend="italic">ground truth</hi> auf Basis bestehender Ähnlichkeitsverbindungen, bspw. über die Empfehlungen via 
+  <hi rend="italic">collaborative filtering</hi> bei Amazon oder über den frei verfügbaren Datensatz 
+  <hi rend="italic">MovieLens</hi>.<ref n="5" target="ftn5"/> Offen ist dabei die Frage, ob Ähnlichkeitsbewertungen auf Basis audio-visueller Features grundsätzlich mit Ähnlichkeitsbewertungen auf Dialogebene korrelieren, oder die verschriftlichte Dialogebene ggf. als isolierte Ebene betrachtet werden muss. Wir planen deshalb weitere Fallstudien mithilfe von 
+  <hi rend="italic">SubRosa</hi>, die zusammen mit Film- und Sprachwissenschaftlern durchgeführt werden sollen.
+  </p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      OpenSubtitles: <ptr target="https://www.opensubtitles.org/de"/>
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      IMDb: <ref target="https://www.imdb.com/">https://www.imdb.com/</ref>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      <hi style="font-size:10pt" xml:space="preserve">Feature-Visualisierungen: </hi>
+      <ref target="https://chart-studio.plot.ly/~bbrause/#/">https://chart-studio.plot.ly/~bbrause/#/</ref>
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      OpenSubtitles 2018-Korpus: <ref target="http://opus.nlpl.eu/OpenSubtitles2018.php">http://opus.nlpl.eu/OpenSubtitles2018.php</ref>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      MovieLens Dataset: <ref target="https://movielens.org/">https://movielens.org/</ref>
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Aggarwal, C. C.</hi> (2001): On k-anonymity and the curse of dimensionality. In: Proc. 31st International Conference on Very Large Data Bases (VLDB), S. 901–909. ACM, 2005.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Argamon, S. / Shimoni,
+  A. R. / Koppel, M. </hi> (2003): Automatically categorizing written texts by author gender. In: Literary and Linguistic Computing, Vol. 17, Nr. 4, S. 401– 412.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Bednarek, M. </hi> (to appear
+  2020): The Sydney Corpus of Television Dialogue: Designing and
+  building a corpus of dialogue from US TV series. Corpora 15/1.
+  Pre-Print-Version hier verfügbar:
+  <ref target="https://www.monikabednarek.com/wp-content/uploads/2019/09/Designing-and-building-a-corpus-of-US-TV-dialogue_Academia.pdf">https://www.monikabednarek.com/wp-content/uploads/2019/09/Designing-and-building-a-corpus-of-US-TV-dialogue_Academia.pdf</ref>
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Blackstock, A. / Spitz,
+  M. </hi> (2008): Classifying movie scripts by genre with a MEMM using NLP-based features. M.Sc. Kurs Natural Language Processing, stud. Projektbericht, Juni 2008. Stanford University.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Bougiatiotis, K.  / 
+  Giannakopoulos, T.</hi> (2017): Multimodal content representation
+  and similarity ranking of movies. Pre-Print-Version hier verfügbar:
+  <ptr target="https://arxiv.org/pdf/1702.04815.pdf"/>
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Burghardt, M. / Kao, M. /
+  Wolff, C. </hi> (2016): Beyond Shot Lengths – Using Language Data and Color Information as Additional Parameters for Quantitative Movie Analysis. In Book of Abstracts of the International Digital Humanities Conference (DH).
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Burghardt, M. / Meyer, S. /
+  Schmidtbauer, S. / Molz, J. </hi> (2019): “The Bard meets the Doctor” – Computergestützte Identifikation intertextueller Shakespearebezüge in der Science Fiction-Serie Dr. Who. In Book of Abstracts, DHd 2019.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Schmidt, B.</hi> (15.9.2014):
+  Screen time! Published on <ref target="http://sappingattention.blogspot.com/2014/09/screen-time.html">http://sappingattention.blogspot.com/2014/09/screen-time.html</ref>
+  <hi style="font-size:10pt" xml:space="preserve"> (letzter Zugrifff am 24.9.2019)</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:10pt">Hutto, C. J. / Gilbert,
+E. </hi> (2014): VADER: A parsimonious rule-based model for sentiment analysis of social media text. In: International Conference on Weblogs and Social Media.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Johnson, W. </hi> (1944): Studies in language behavior: I. A program of research. In: Psychological Monographs, Vol. 56, S. 1-15.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Kozloff, S.</hi> (2000): Overhearing Film Dialogue. University of California Press.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Santini, M. </hi> (2004): A shallow approach to syntactic feature extraction for genre classification. In Proceedings of the 7th Annual Colloquium for the UK Special Interest Group for Computational Linguistics (CLUK 2004).
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Shannon, C. </hi> (1948): A mathematical theory of communication. In: The Bell System Technical Journal, Vol. 27, S. 379–423, 623–656, Juli und October 1948.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Taylor, A. / Tilton, L.</hi> (2019): Distant viewing: analyzing large visual corpora. In Digital Scholarship in the Humanities, 2019. Published by Oxford University Press on behalf of EADH.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Torruella, J. / Capsada, R.</hi> (2013): Lexical statistics and topological structures: A measure of lexical richness. In: 
+  <hi rend="italic" style="font-size:10pt">Procedia - Social and Behavioral Sciences</hi>, Vol. 95, S. 447-454.
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:10pt">Manning, C. / Raghavan, P. /  Schütze, H.</hi> (2008): Introduction to Information Retrieval. Cambridge University Press.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Müller M. / Volk M. </hi> (2013): Statistical Machine Translation of Subtitles: From OpenSubtitles to TED. In: Gurevych I., Biemann C., Zesch T. (eds) Language Processing and Knowledge in the Web. Lecture Notes in Computer Science, vol 8105. Springer, Berlin, Heidelberg.
+</bibl>
+<bibl>
+  <hi rend="bold" style="font-size:10pt">Nessel, J. / Cimpa, B.</hi> (2011): The MovieOracle-content based movie recommendations. In: Proceedings of the 2011 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology, S. 361-364.
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:10pt">Lison, P. / Tiedemann, J. </hi> (2016): OpenSubtitles2016: Extracting Large Parallel Corpora from Movie and TV Subtitles. Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC), p. 923-929, European Language Resources Association.
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:10pt">Tiedemann , J. </hi> (2016): Finding Alternative Translations in a Large Corpus of Movie Subtitles. In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC), p. 3518–3522, European Language Resources Association.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="117_final-HODEL_Tobias_Best_practices_zur_Erkennung_alter_Drucke_und_H" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Best-practices zur Erkennung alter Drucke und Handschriften. Die Nutzung von Transkribus large- und small-scale</title>
+<author>
+<persName>
+<surname>Hodel</surname>
+<forename>Tobias</forename>
+</persName>
+<affiliation>Universität Bern, Schweiz</affiliation>
+<email>tobias.hodel@uzh.ch</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-20T20:01:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Handwritten Text Recognition</term>
+<term>Texterkennung</term>
+<term>best-practices</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Transkription</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Projektmanagement</term>
+<term>Software</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p style="text-align:left; ">In den vergangenen Jahren konnte die automatisierte Erkennung sowohl handschriftlicher als auch alter Druckschriften stark verbessert werden. Sowohl für Handschriften als auch für alte Drucke hat sich der Einsatz von Handwritten Text Recognition (HTR) bewährt, die auf dem Einsatz neuronaler Netze beruht.<ref n="1" target="ftn1"/> Führend in der Implementierung der Technologie ist die Plattform Transkribus, die im Rahmen von Projekt READ zwischen 2016 und 2019 stetig weiter entwickelt wurde 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"acG6h6sq","properties":{"formattedCitation":"(Muehlberger u.\\uc0\\u160{}a. 2019)","plainCitation":"(Muehlberger u. a. 2019)","noteIndex":0},"citationItems":[{"id":17597,"uris":["http://zotero.org/users/534029/items/QM846BIY"],"uri":["http://zotero.org/users/534029/items/QM846BIY"],"itemData":{"id":17597,"type":"article-journal","title":"Transforming scholarship in the archives through handwritten text recognition : Transkribus as a case study","container-title":"Journal of Documentation","page":"Epub ahead of print","volume":"ahead-of","issue":"ahead-of-p","source":"www.zora.uzh.ch","abstract":"Purpose: An overview of the current use of handwritten text recognition (HTR) on archival manuscript material, as provided by the EU H2020 funded Transkribus platform. It explains HTR, demonstrates Transkribus, gives examples of use cases, highlights the affect HTR may have on scholarship, and evidences this turning point of the advanced use of digitised heritage content. The paper aims to discuss these issues. - Design/methodology/approach: This paper adopts a case study approach, using the development and delivery of the one openly available HTR platform for manuscript material. - Findings: Transkribus has demonstrated that HTR is now a useable technology that can be employed in conjunction with mass digitisation to generate accurate transcripts of archival material. Use cases are demonstrated, and a cooperative model is suggested as a way to ensure sustainability and scaling of the platform. However, funding and resourcing issues are identified. - Research limitations/implications: The paper presents results from projects: further user studies could be undertaken involving interviews, surveys, etc. - Practical implications: Only HTR provided via Transkribus is covered: however, this is the only publicly available platform for HTR on individual collections of historical documents at time of writing and it represents the current state-of-the-art in this field. - Social implications: The increased access to information contained within historical texts has the potential to be transformational for both institutions and individuals. - Originality/value: This is the first published overview of how HTR is used by a wide archival studies community, reporting and showcasing current application of handwriting technology in the cultural heritage sector.","DOI":"10.1108/jd-07-2018-0114","ISSN":"0022-0418","title-short":"Transforming scholarship in the archives through handwritten text recognition","language":"eng","author":[{"family":"Muehlberger","given":"Guenter"},{"family":"Seaward","given":"Louise"},{"family":"Terras","given":"Melissa"},{"family":"Ares Oliveira","given":"Sofia"},{"family":"Bosch","given":"Vicente"},{"family":"Bryan","given":"Maximilian"},{"family":"Colutto","given":"Sebastian"},{"family":"Déjean","given":"Hervé"},{"family":"Diem","given":"Markus"},{"family":"Fiel","given":"Stefan"},{"family":"Gatos","given":"Basilis"},{"family":"Greinoecker","given":"Albert"},{"family":"Grüning","given":"Tobias"},{"family":"Hackl","given":"Guenter"},{"family":"Haukkovaara","given":"Vili"},{"family":"Heyer","given":"Gerhard"},{"family":"Hirvonen","given":"Lauri"},{"family":"Hodel","given":"Tobias"},{"family":"Jokinen","given":"Matti"},{"family":"Kahle","given":"Philip"},{"family":"Kallio","given":"Mario"},{"family":"Kaplan","given":"Frederic"},{"family":"Kleber","given":"Florian"},{"family":"Labahn","given":"Roger"},{"family":"Lang","given":"Eva Maria"},{"family":"Laube","given":"Sören"},{"family":"Leifert","given":"Gundram"},{"family":"Louloudis","given":"Georgios"},{"family":"McNicholl","given":"Rory"},{"family":"Meunier","given":"Jean-Luc"},{"family":"Michael","given":"Johannes"},{"family":"Mühlbauer","given":"Elena"},{"family":"Philipp","given":"Nathanael"},{"family":"Pratikakis","given":"Ioannis"},{"family":"Puigcerver Pérez","given":"Joan"},{"family":"Putz","given":"Hannelore"},{"family":"Retsinas","given":"George"},{"family":"Romero","given":"Verónica"},{"family":"Sablatnig","given":"Robert"},{"family":"Sánchez","given":"Joan Andreu"},{"family":"Schofield","given":"Philip"},{"family":"Sfikas","given":"Giorgos"},{"family":"Sieber","given":"Christian"},{"family":"Stamatopoulos","given":"Nikolaos"},{"family":"Strauss","given":"Tobias"},{"family":"Terbul","given":"Tamara"},{"family":"Toselli","given":"Alejandro Héctor"},{"family":"Ulreich","given":"Berthold"},{"family":"Villegas","given":"Mauricio"},{"family":"Vidal","given":"Enrique"},{"family":"Walcher","given":"Johanna"},{"family":"Weidemann","given":"Max"},{"family":"Wurster","given":"Herbert"},{"family":"Zagoris","given":"Konstantinos"}],"issued":{"date-parts":[["2019",7,24]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Muehlberger u. a. 2019) und auf der mittlerweile (Stand Ende 2019) mehr als 1‘000‘000 Dokumentenseiten bearbeitet wurden.<ref n="2" target="ftn2"/> Die Verbesserung der Technologie führte gleichzeitig zur Einführung von unterstützenden Tools und Methoden, die reine Texte entweder mit höherer Genauigkeit suchbar machen oder strukturierende Maßnahmen ermöglichen. Es spielt also eine Rolle, welche Resultate erreicht werden sollen und welche Ziele der vorgesehene Zugriff hat. Im Rahmen des Papers werden drei Herangehensweisen skizziert, die ausgehend von unterschiedlichen Zielvorstellungen andere Aufbereitungsschritte und die Allokation von Ressourcen an verschiedenen Stellen nötig machen. Das Paper fokussiert auf die Nutzung von Transkribus, da die Software frei nutzbar und aufgrund des GUI innerhalb von zwei Arbeitstagen ohne Vorkenntnisse erlernbar ist (siehe dazu auch die How-To Guides: 
+                <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"UujlFHGI","properties":{"formattedCitation":"(O\\uc0\\u160{}A o.\\uc0\\u160{}J.)","plainCitation":"(O A o. J.)","noteIndex":0},"citationItems":[{"id":17607,"uris":["http://zotero.org/users/534029/items/PLZ7B5Z9"],"uri":["http://zotero.org/users/534029/items/PLZ7B5Z9"],"itemData":{"id":17607,"type":"webpage","title":"READ: Transkribus","URL":"https://read.transkribus.eu/transkribus/","language":"en-GB","accessed":{"date-parts":[["2019",9,12]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>READ 2019). Darin eingeschlossen ist die Anfertigung eigener Modelle zur Erkennung von Handschriften bzw. alter Drucke.
+            </p>
+<div rend="DH-Heading1" type="div1">
+<head>Verbesserung der Handschriftenerkennung</head>
+<p style="text-align:left; ">Handschriftenerkennung ist seit den 1990er Jahren und dem Aufkommen der OCR (Optical Character Recognition) ein Forschungsfeld der Computerwissenschaften. Nach einer frühen Euphorie folgte bis vor fünf Jahren eine Ernüchterung, da die erzielten Resultate, die häufig auf statistischen Modellen (insbesondere Hidden Markov Models) basierten, für den Einsatz in der Praxis ungenügend waren. Zeichenfehlerquoten von bestenfalls 16% CER (Character Error Rate) zeigten zwar die Chancen auf, der erkannte Text war aber weder lesbar noch sinnvoll durch Postkorrektion aufzubereiten 
+                    <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"6fIZP925","properties":{"formattedCitation":"(S\\uc0\\u225{}nchez u.\\uc0\\u160{}a. 2013)","plainCitation":"(Sánchez u. a. 2013)","noteIndex":0},"citationItems":[{"id":17599,"uris":["http://zotero.org/users/534029/items/UEXUG5QX"],"uri":["http://zotero.org/users/534029/items/UEXUG5QX"],"itemData":{"id":17599,"type":"paper-conference","title":"TranScriptorium: a European Project on Handwritten Text Recognition.","container-title":"ACM Symposium on Document Engineering DOCENG","publisher":"ACM","page":"227-228","note":"Citation Key: conf/doceng/SanchezMGSDDVD13 \nbibtex*[crossref=conf/doceng/2013]","author":[{"family":"Sánchez","given":"J.A."},{"family":"Mühlberger","given":"G."},{"family":"Gatos","given":"B."},{"family":"Schofield","given":"P."},{"family":"Depuydt","given":"K."},{"family":"Davis","given":"R.M."},{"family":"Vidal","given":"E."},{"family":"Does","given":"J.","non-dropping-particle":"de"}],"editor":[{"family":"Marinai","given":"Simone"},{"family":"Marriott","given":"Kim"}],"issued":{"date-parts":[["2013"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Sánchez et al. 2013). Erst der Einsatz neuronaler Netze (erst rekursive, später konvolutionale) führte dazu, dass die Fehlerquote auf unter 12% CER gedrückt werden konnte 
+                    <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"nIaH7Hd1","properties":{"formattedCitation":"(Leifert u.\\uc0\\u160{}a. 2016)","plainCitation":"(Leifert u. a. 2016)","noteIndex":0},"citationItems":[{"id":13563,"uris":["http://zotero.org/users/534029/items/G63TNVHV"],"uri":["http://zotero.org/users/534029/items/G63TNVHV"],"itemData":{"id":13563,"type":"article-journal","title":"Cells in Multidimensional Recurrent Neural Networks","container-title":"Journal of Machine Learning Research","page":"97:1–97:37","volume":"17","source":"DBLP Computer Science Bibliography","author":[{"family":"Leifert","given":"Gundram"},{"family":"Straubeta","given":"Tobias"},{"family":"Grüning","given":"Tobias"},{"family":"Wustlich","given":"Welf"},{"family":"Labahn","given":"Roger"}],"issued":{"date-parts":[["2016"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Leifert et al. 2016). Ab der Schwelle um 12% wird die Korrektur von erkanntem Text gegenüber von händisch erstellten Transkriptionen ökonomisch sinnvoll. Gleichzeitig sind die Resultate ab 12% für Menschen insofern nützlich, da die Navigation im Text, insbesondere für Personen mit Kenntnissen der Dokumente, rasch und zielsicher möglich ist.
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Zugriffsformen</head>
+<p style="text-align:left; ">Obwohl geisteswissenschaftliche Forschung häufig „Text“ im Fokus hat, ist die Diskussion, was darunter verstanden wird, bereits mehrfach in Bezug zu digitalen Editionsformen in den Digital Humanities breitgetreten worden 
+                    <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"QbZJHP4I","properties":{"formattedCitation":"(Sahle 2013)","plainCitation":"(Sahle 2013)","noteIndex":0},"citationItems":[{"id":2912,"uris":["http://zotero.org/users/534029/items/ZPKN3URN"],"uri":["http://zotero.org/users/534029/items/ZPKN3URN"],"itemData":{"id":2912,"type":"book","title":"Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 2: Befunde, Theorie und Methodik.","collection-title":"Schriften des IDE","collection-number":"8","publisher":"BoD","publisher-place":"Norderstedt","volume":"2","number-of-volumes":"3","source":"kups.ub.uni-koeln.de","event-place":"Norderstedt","abstract":"Die neuen Technologien und Medien sind auch für die wissenschaftliche Edition eine Herausforderung. Die Entwicklung unterschiedlicher digitaler Ausgabeformen in den letzten Jahren kann zunächst als evolutionäre Abfolge verschiedener technischer Paradigmen beschrieben werden, die jeweils auch inhaltliche und methodische Konsequenzen hatten. Auf dieser Grundlage lassen sich Bausteine für eine neue verallgemeinernde Theorie der - nun digitalen - Edition umreißen, die ihren Kern u.a. im Konzept der Transmedialisierung findet. Damit ist nach der spezifischen Formung von Methode und Praxis in analogen und digitalen Medien eine Neufassung der Zielstellungen der Edition auf einer eher medienneutralen, konzeptionellen Ebene zu erreichen. Die veränderten Bedingungen und unsere zunehmend digitale Umwelt führen dazu, dass fast alle Bereiche der Edition einem Wandel unterworfen werden. Auch einige dieser Aspekte werden in diesem Band genauer beleuchtet.","URL":"http://kups.ub.uni-koeln.de/5352/","ISBN":"978-3-8482-5252-7","title-short":"Editionsformen 2","author":[{"family":"Sahle","given":"Patrick"}],"issued":{"date-parts":[["2013"]]},"accessed":{"date-parts":[["2014",7,25]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>(Sahle 2013, zu Texterkennung 
+                    <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"XrOMqiXl","properties":{"formattedCitation":"(Hodel 2018)","plainCitation":"(Hodel 2018)","noteIndex":0},"citationItems":[{"id":13539,"uris":["http://zotero.org/users/534029/items/Y27UAJPN"],"uri":["http://zotero.org/users/534029/items/Y27UAJPN"],"itemData":{"id":13539,"type":"chapter","title":"Konsequenzen automatischer Texterkennung – Ein Aufriss zur Texterkennung mit Machine Learning","container-title":"DHd 2018. Kritik der digitalen Vernunft Konferenzabstracts. Universität zu Köln 26. Februar bis 2. März 2018","publisher-place":"Köln","page":"249-251","event-place":"Köln","URL":"http://dhd2018.uni-koeln.de/wp-content/uploads/boa-DHd2018-web-ISBN.pdf","ISBN":"978-3-946275-02-2","author":[{"family":"Hodel","given":"Tobias"}],"editor":[{"family":"Vogeler","given":"Georg"}],"issued":{"date-parts":[["2018"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>Hodel 2018). Aus der Perspektive von Forschenden, die Text als Grundlage nutzen, werden gleichzeitig unterschiedliche Fragen an das aufbereitete Material gestellt. Ob etwa ein Dokument nur durchsucht oder aber mit 
+                    <hi rend="italic">text-mining</hi> Methoden ausgewertet werden soll, führt zu unterschiedlichen Anforderungen an die Texterkennung. Zwischen den beiden Polen besteht auch die Möglichkeit nur visuell abgegrenzte Textteile auszuwerten. Für alle diese Zielvorstellungen unterscheidet sich der Aufwand für die Aufbereitung der Materialien. 
+                </p>
+<p style="text-align:left; ">Um eine Vergleichbarkeit herzustellen, lohnt sich eine systematisierte Sicht auf den Workflow mit Angaben, wo der Grossteil der Arbeit anfällt. Es werden daher im Folgenden Fragen nach Ablauf und Umfang der Arbeit sowie nach Schwierigkeiten/Probleme beschrieben.</p>
+<p style="text-align:left; ">Nicht thematisiert werden unterschiedliche Möglichkeiten bei Upload sowie Exportformate und insgesamt Fragen der Nachbereitung.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Hohe Textgüte als Ziel</head>
+<p style="text-align:left; ">Der klassische Zugriff zielt darauf ab, mit möglichst wenig Aufwand eine möglichst gute Texterkennung zu erzielen. Das Training von passgenauen Modellen steht dabei im Vordergrund. Aufbauend auf der Erkennung können 
+                    <hi rend="italic">text-mining</hi> Technologien ebenso eingesetzt werden, wie die Weiterverarbeitung als digitale Edition, etwa mit textkritischer Kommentierung oder durch die Annotation von 
+                    <hi rend="italic">named entities</hi>.
+                </p>
+<div rend="DH-Heading2" type="div2">
+<head>Ablauf</head>
+<p style="text-align:left; ">Primär muss möglichst viel Trainingsmaterial bereitgestellt werden, das bereits früh im Arbeitsprozess in Modelle umgesetzt (= trainiert) wird. Generische Modelle spielen eine untergeordnete Rolle, da diese die Qualität der passgenauen Modelle nicht erreichen. Die Arbeitsweise ist iterativ, das heisst nach Aufbereitung von bereits 3'000 Wörtern lohnt sich die Herstellung eines Modells. Darauf aufbauend werden weitere Seiten erkannt und korrigiert. Der Prozess wird gestoppt, sobald die Verbesserung des Modells sich im Zehntelprozent Bereich bewegt (siehe dazu auch unten: Evaluation von trainierten Modellen).</p>
+<p style="text-align:left; ">Spezifische Typen von Layoutanalysen spielen keine Rolle.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Umfang der Arbeit</head>
+<p style="text-align:left; ">Gute Resultate (Zeichenfehler unter 5%) werden bei Dokumenten von derselben Hand mit 10'000 Wörter erreicht. Trainings können selbständig gestartet und überprüft werden.<ref n="3" target="ftn3"/>
+</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Schwierigkeiten/Probleme</head>
+<p style="text-align:left; ">Sobald unterschiedliche Hände in den Dokumenten erkannt werden sollen, ist eine Erhöhung der Trainingsmaterialien notwendig.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Semantische Textsegmentierung als Ziel</head>
+<p style="text-align:left; ">Dokumententypen können aufgrund von schematischem Aufbau nur in Teilen interessant sein, d.h. nur ein visuell abgesetzter Teil soll ausgewertet werden. Einzelne Textteile, bspw. Marginalien mit inhaltlichen Zusammenfassungen oder Fussnoten, werden für spezifische Forschungszwecke identifiziert.</p>
+<div rend="DH-Heading2" type="div2">
+<head>Ablauf</head>
+<p style="text-align:left; ">Ein spezifischer Layouttyp wird trainiert. Danach wird unabhängig davon ein Textmodell entwickelt (analog zu „Hohe Textgüte“). Extraktion von Textregionen bzw. Einbindung in externe (webbasierte) Applikationen ist möglich.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Umfang der Arbeit</head>
+<p style="text-align:left; ">Mindestens 100, besser 200-300 Vorkommen der zu identifizierenden Teile (bspw. Textregionen). Zusätzlich müssen Aufwände für die Aufbereitung von Modellen veranschlagt werden.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Schwierigkeiten/Probleme</head>
+<p style="text-align:left; ">Das Training der semantischen Layouterkennung ist erst experimentell in Transkribus implementiert und schlecht dokumentiert (das Training kann auch extern über ein eigene Tool erfolgen [<?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"YvKyG2fC","properties":{"formattedCitation":"(Ares Oliveira u.\\uc0\\u160{}a. 2018)","plainCitation":"(Ares Oliveira u. a. 2018)","noteIndex":0},"citationItems":[{"id":17596,"uris":["http://zotero.org/users/534029/items/BMXF8I4V"],"uri":["http://zotero.org/users/534029/items/BMXF8I4V"],"itemData":{"id":17596,"type":"chapter","title":"dhSegment: A generic deep-learning approach for document segmentation","container-title":"Frontiers in Handwriting Recognition (ICFHR), 2018, 16th International Conference","page":"7-12","author":[{"family":"Ares Oliveira","given":"Sofia"},{"family":"Seguin","given":"Benoît"},{"family":"Kaplan","given":"Frédéric"}],"issued":{"date-parts":[["2018"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>Ares Oliveira u. a. 2018; 
+                        <?biblio ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"bDoLMH2d","properties":{"formattedCitation":"(Quir\\uc0\\u243{}s 2017)","plainCitation":"(Quirós 2017)","noteIndex":0},"citationItems":[{"id":17595,"uris":["http://zotero.org/users/534029/items/AA8PRACR"],"uri":["http://zotero.org/users/534029/items/AA8PRACR"],"itemData":{"id":17595,"type":"book","title":"P2PaLA: page to PAGE layout analysis tookit","URL":"https://github.com/lquirosd/P2PaLA","note":"GitHub repository \nCitation Key: p2pala2017 \nbibtex*[publisher=GitHub]","author":[{"family":"Quirós","given":"Lorenzo"}],"issued":{"date-parts":[["2017"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>Quirós 2017]). Die Technologie ist insgesamt noch experimentell. Die Extraktion spezifischer Textregionen erfordert zudem Erfahrung im Umgang mit der REST API von Transkribus. 
+                    </p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Suche in grossen Textbeständen als Ziel</head>
+<p style="text-align:left; ">Als regelmässige Anforderung wird die Suche in großen Dokumentenkorpora vorgegeben. Dazu scheint zwar ein probates Mittel die Erkennung mit hoher Textgüte zu sein, da für Handschriften und alte Drucke die Genauigkeit von OCR nicht gegeben ist, drängt sich ein alternativer Zugriff auf. Mittels Suche in allen vom Algorithmus erkannten Varianten, kann auch mit nicht passgenauen Modellen eine hohe Trefferquote (hoher 
+                    <hi rend="italic">recall</hi>) erreicht werden.
+                </p>
+<div rend="DH-Heading2" type="div2">
+<head>Ablauf</head>
+<p style="text-align:left; ">Primär wird ein möglichst passendes Model identifiziert. Einige generische Modelle (etwa für mittelalterliche Buchschriften oder lateinische Schriften aus den Niederlanden sowie deutsche Kurrent) sind bereits publiziert und in Zukunft werden noch weitere Modelle veröffentlicht. In einem zweiten Schritt werden einige wenige typische Seiten als Validierungsseiten aufbereitet bzw. sog. Samples (zufällig ausgewählte Zeilen, die eine statistisch valide Aussage ermöglichen) erstellt. Aufgrund der eruierten Zeichenfehlerquote in den Validierungssets, ist es möglich Aussagen über die erwartete Trefferquote zu machen. Ab Fehlerquoten von 15% CER und weniger, wird der Recall (Umfang aller gefundenen, möglichen Treffer) 99% betragen und somit werden nur wenige Treffer verpasst.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Umfang der Arbeit</head>
+<p style="text-align:left; ">Beschränkt sich vorwiegend auf die Identifikation passender Modelle und der Herstellung von Validierungssets (Validierungsseiten oder Samples bestehend aus einzelnen Zeilen) zur Validierung der Ergebnisse. Die Auswertung der Treffer mit Identifikation von 
+                        <hi rend="italic">false-positive</hi> Treffern am Ende des Prozesses bedarf manueller Arbeit. 
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Schwierigkeiten/Probleme</head>
+<p style="text-align:left; ">Die Auswertenden der Trefferliste müssen die Handschrift/den Druck selbst lesen können, um korrekte Treffer zu identifizieren. Die Suche erfolgt in den Erkenntabellen (sog. confidence matrices), da diese nicht durch etablierte Datenbanksysteme etabliert werden, ist die Performanz niedrig und Suchen in mehr als 1'000 Seiten dauern mehrere Minuten (50'000 Seiten werden in knapp 3 Stunden durchsucht). Die Abfragen müssen in Transkribus erfolgen bzw. über die REST API.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Visualisierung</head>
+<figure>
+<graphic height="11.976805555555556cm" n="1001" rend="inline" url="117_final-87ac3cdf5abc99b918959015c54a697f.jpeg" width="15.980833333333333cm"/>
+<head>Abbildung 1: Visualisierung der Szenarien zur Textaufbereitung in Transkribus. Abbildung des Autors, 
+                        <ref target="https://creativecommons.org/cc-by">CC-BY</ref>.
+                    </head>
+</figure>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Trainingskurven: Evaluation von trainierten Modellen</head>
+<p style="text-align:left; ">Eine Aufgabe, die auch von Geisteswissenschaftlern mit nur bedingten technischen Vorkenntnissen übernommen werden kann, ist das Training von Textmodellen. Dazu muss ein Trainingsset (ca. 90% aller aufbereiteten Seiten) und ein Validierungsset (ca. 10% der Seiten) definiert werden. Das Training erfolgt danach auf den Servern in Innsbruck, es gibt nur zwei Optionen, die angepasst werden können. Erstens kann die Anzahl der Epochen (siehe unten) angepasst werden und zweitens können bereits vorhandene Modelle als Basismodelle gewählt werden. </p>
+<p style="text-align:left; ">Im Trainingsmodus erstellt ein Fehlertool Kurven, die anzeigen wie gut das Training ablief. Anhand dieser Trainingskurven lässt sich abschätzen, inwiefern ein Modell noch verbessert werden kann bzw. gar ein Re-training notwendig ist, da sich das Netz nicht wunschgemäss verbesserte.</p>
+<p style="text-align:left; ">Drei Begriffe müssen zum Verständnis vorgängig geklärt werden: 
+                    <hi rend="bold">Neuronale Netze</hi> stammen aus dem Bereich des maschinellen Lernens und versuchen aufgrund von Trainingsmaterial (Input und gewünschter Output) einen wertenden Algorithmus (ein Netz basierend auf je nach Input unterschiedlich reagierenden Speicherzellen) zu entwickeln (<hi rend="italic">trainieren</hi>), der den gewünschten Ausgaben möglichst nahe kommt (Schöch 2017). 
+                    <hi rend="bold">Epochen</hi> meint die Anzahl an Wiederholungen, mit denen ein Netz mit denselben Trainingsdaten zwecks Verbesserung gefüttert wird. Am Ende jeder Epoche wird das Validierungsset durch das Netz erkannt und eruiert, welche Resultate erreicht worden wären. Dadurch entstehen zwei 
+                    <hi rend="bold">Kurven</hi> (in den Abbildungen rot für das Validierungsset und blau für das Trainingsset), die Aussagen über die Fähigkeit eines Netzes machen.
+                </p>
+<div rend="DH-Heading2" type="div2">
+<head>Trainings- und Validierungskurve divergiert stark</head>
+<p style="text-align:left; ">Wenn sich die Trainingskurve während dem gesamten Training stetig verbessert, das Validierungsset jedoch auf einer (weit) schlechteren Fehlerquote stehen bleibt, spricht man von 
+                        <hi rend="italic">overfitting</hi>. Das bedeutet, das Modell lernt die Trainingsseiten auswendig, ohne dass die Fähigkeit zur Erkennung der Zeichen wirklich eingelernt wird. Probates Mittel um den Effekt zu reduzieren, ist das Bereitstellen von mehr Trainingsmaterial.
+                    </p>
+<figure>
+<graphic height="5.681183333333333cm" n="1002" rend="inline" url="117_final-3a5b2f7c8df5d1bf2737b1bcef295251.png" width="8.541777777777778cm"/>
+<head>Abbildung 2: Lernkurve mit zuwenig Trainingsmaterial, das zum „overfitting“ führt.</head>
+</figure>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Validierungs- und Trainingskurve verbessern sich bis am Ende des Trainings</head>
+<p style="text-align:left; ">Wenn beide Kurven bis zu den letzten Epochen (Trainingszyklen) leichte Verbesserungen feststellen lassen, ist das Netz noch nicht „austrainiert“. Optimal verbessert sich das Netz in den letzten 10-15 Epochen nur noch minimal bzw. gar nicht mehr. Wenn der Effekt der Verbesserung bis zum Ende anhält, sollte das Training nochmals mit mehr Epochen gestartet werden. Erfahrungsgemäss ist die Erkennung von austrainierten Netzen besser und zuverlässiger.</p>
+<figure>
+<graphic height="5.681183333333333cm" n="1003" rend="inline" url="117_final-04832619c1d411a33506f3494cff66ab.png" width="8.541780555555556cm"/>
+<head>Abbildung 3: Lernkurve eines Netzes, das noch weiter austrainiert werden könnte.</head>
+</figure>
+<p style="text-align:left; ">Die Anwendung von Texterkennung, etwa mit Transkribus, ist ohne technische Vorkenntnisse problemlos erlernbar. Mit Rücksicht auf einige wenige Kniffe und mit basalen Kenntnissen der angewandten Algorithmen lassen sich grössere Dokumentenmengen sinnvoll und effizient aufbereiten.</p>
+<figure>
+<graphic height="5.681183333333333cm" n="1004" rend="inline" url="117_final-b79ad1544166583cd26921a3b4407888.png" width="8.541777777777778cm"/>
+<head>Abbildung 4: Lernkurve eines austrainierten Netzes mit genügend Epochen und ausreichend Trainingsmaterial.</head>
+</figure>
+</div>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+Im Rahmen eines Wettbewerbs an der ICFHR 2018 wurden nur noch Algorithmen basierend 
+                        <hi rend="italic">machine learning</hi> zur Erkennung der Handschriften eingesetzt, siehe: https://scriptnet.iit.demokritos.gr/competitions/10/viewresults/.
+                    
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+Eine Alternative zu Transkribus ist die Open Source Software Kraken, die ebenfalls auf der Basis neuronaler Netze Trainings individueller Handschriftenmodelle erlaubt. Für die Erkennung alter Drucke (gedruckt vor 1830) eignen sich auch Open Source Tools wie Tesseract. Siehe dazu den aktuellen Stand der Förderinitiative OCR-D, Neudecker u. a. 2019.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+ Aktuell ist der Zugang zur Trainingsfunktionalität nicht standardmässig gegeben. Per Mail (an email@transkribus.eu) wird die Möglichkeit aber rasch und unkompliziert gewährt.
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Ares Oliveira, Sofia / Seguin, Benoît / Kaplan, Frédéric </hi> (2018): dhSegment: A generic deep-learning approach for document segmentation. In: 
+<hi rend="italic">Frontiers in Handwriting Recognition (ICFHR), 2018, 16th International Conference.</hi> 7–12.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Hodel, Tobias </hi> (2018): Konsequenzen automatischer Texterkennung – Ein Aufriss zur Texterkennung mit Machine Learning. In: Vogeler, Georg (Hg.). 
+<hi rend="italic">DHd 2018. Kritik der digitalen Vernunft Konferenzabstracts. Universität zu Köln 26. Februar bis 2. März 2018</hi> Köln, 249–251. http://dhd2018.uni-koeln.de/wp-content/uploads/boa-DHd2018-web-ISBN.pdf.
+</bibl>
+<bibl>
+<hi rend="bold">Leifert, Gundram u. a. </hi> (2016): Cells in Multidimensional Recurrent Neural Networks. 
+<hi rend="italic">Journal of Machine Learning. Res.</hi> 17/97:1–97:37.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Muehlberger, Guenter u. a. </hi> (2019): Super Transforming scholarship in the archives through handwritten text recognition: Transkribus as a case study. 
+<hi rend="italic">Journal of Documentation 75/5 </hi>, 954-976. 
+<ref target="https://doi.org/10.1108/JD-07-2018-0114">https://doi.org/10.1108/JD-07-2018-0114</ref>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Neudecker, Clemens u. a. </hi> (2019): OCR-D: An end-to-end open source OCR framework for historical documents. 
+<hi rend="italic">EuropeanaTech Insight</hi> 13.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">READ: Transkribus</hi>
+<hi style="font-family:Helvetica">. https://read.transkribus.eu/transkribus/ [12.9.2019].</hi>
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Quirós, Lorenzo </hi> (2017): 
+<hi rend="italic">P2PaLA: page to PAGE layout analysis tookit.</hi> https://github.com/lquirosd/P2PaLA.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Sahle, Patrick </hi> (2013): Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 2: Befunde, Theorie und Methodik. 
+<hi rend="italic">Schriften des IDE 8</hi> Bd. 2, Norderstedt: BoD. http://kups.ub.uni-koeln.de/5352/ [25.7.2014].
+</bibl>
+<bibl style="text-align:left; ">
+ <hi rend="bold">Sánchez, J.A. u. a. </hi> (2013): TranScriptorium: a European Project on Handwritten Text Recognition. In: Marinai, Simone / Marriott, Kim (Hg.).
+<hi rend="italic">ACM Symposium on Document Engineering DOCENG.</hi> ACM, 227–228.
+</bibl>
+<bibl style="text-align:left; ">
+   <hi rend="bold">Schöch, Christoph </hi> (2017): Quantitative Analyse, in: Jannidis, Fotis / Kohle, Hubertus, Rehbein, Malte (Hg.). 
+                        <hi rend="italic">Digital Humanities: Eine Einführung</hi>. J.B. Metzler, Stuttgart, 279–298. 
+                        <ref target="https://doi.org/10.1007/978-3-476-05446-3_20">https://doi.org/10.1007/978-3-476-05446-3_20</ref>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

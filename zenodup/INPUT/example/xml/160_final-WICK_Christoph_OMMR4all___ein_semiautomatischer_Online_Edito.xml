@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="160_final-WICK_Christoph_OMMR4all___ein_semiautomatischer_Online_Edito" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>OMMR4all - ein semiautomatischer Online-Editor für mittelalterliche Musiknotationen</title>
+<author>
+<persName>
+<surname>Wick</surname>
+<forename>Christoph</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>christoph.wick@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Hartelt</surname>
+<forename>Alexander</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>alexander.hartelt@uni-wuerzburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Puppe</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>frank.puppe@uni-wuerzburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-12-11T08:37:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Mittelalterliche Manuskripte</term>
+<term>Optische Musikerkennung</term>
+<term>Webapplikation</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Bilderfassung</term>
+<term>Transkription</term>
+<term>Annotieren</term>
+<term>Computer</term>
+<term>Manuskript</term>
+<term>Notenblätter</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Einleitung</head>
+<p style="text-align:left; ">Insbesondere für Musikwissenschaftler im Bereich von historischen Manuskripten besteht der Wunsch nach digitalen Bibliotheken, die die gewaltigen Mengen an Material in maschinenlesbare Form (z. B. MEI) speichern. Die Kodierung der alten Werke ist jedoch oft sehr mühselig, da großer menschlicher Einsatz erforderlich ist. Das Aufkommen von künstlicher Intelligenz offenbart hier neue Ansätze, um die Arbeitsprozesse größtmöglich zu automatisieren, indem Algorithmen aus dem Bereich der optischen Musikerkennung (OMR) eingesetzt werden.</p>
+<p style="text-align:left; ">Die im Folgenden vorgestellte Software OMMR4all (Optical Medieval Music Recognition For All) realisiert diesen Ansatz für mittelalterliche Manuskripte, die in verschiedenen Neumennotationen, z. B. Quadratnotation, geschrieben sind. Der semi-automatische Workflow erwartet eine einzelne eingescannte Seite als Eingabe und erzeugt als Ausgabe die kodierte Musik z. B. als MEI oder in einer graphischen Anzeige. Hierbei werden verschiedene existierende OMR-Werkzeuge zur Notenlinien-, Notensystem- und Symbolerkennung eingesetzt, die mit einem Overlay-Editor zur Korrektur kombiniert werden. Neumen werden gemäß dem aktuellen MEI-Standard (4.0.1) repräsentiert. Eine manuell in einem modernen Stil gerenderte Beispieltranskription zeigt Abbildung 1.</p>
+<figure>
+<graphic height="5.0338972222222225cm" n="1001" rend="inline" url="160_final-c4cefc86b5206cf4d6ce4582844b5c51.jpg" width="11.186441666666667cm"/>
+<head>Abbildung 1: Beispieltranskription. Eine oder mehrere Neumen werden zu Silben zugeordnet. Eine Neume besteht wiederum aus einzelnen Notenkomponenten, die entweder graphisch (Bindebogen in a) oder logischen (kleiner Abstand in b) zur vorherigen Komponente verbunden sind. Mehrere Neumen, die zu einer Silbe gehören, werden mit einem größeren Abstand dargestellt (c).</head>
+</figure>
+<p style="text-align:left; ">Vigliensoni et al. (2019) stellten bereits einen vergleichbaren OMR-Workflow, der im SIMSSA-Projekt (Fujinaga 2014) eingebettet ist, für Musik des Mittelalters und der Renaissance vor. Hierbei arbeitet die OMR mittels eines Neuronalen Netzes (Calvo-Zaragoza 2018), das jeden Pixel des Originalmanuskripts in verschiedene Klassen wie z. B. Note, Notenzeile, Hintergrund oder Text einteilt. Die automatische Ausgabe kann durch das Webtool Pixel.js korrigiert werden (Zeyad 2017). Für die Weiterverarbeitung werden die klassifizierten Bilden in Ebenen gleichen Typs separiert, sodass ein nachfolgender Algorithmus nicht mehr das Originalbild, sondern ein Binärbild, das z. B. nur noch Notenlinienpixel oder Musiksymbolpixel umfasst. Ein weiterer Algorithmus kann so die Musiksymbole separat erkennen, welche anschließend im Overlay-Editor Neon.js (Regimbal 2019) korrigiert werden können. Der Workflow teilt mehrere Gemeinsamkeiten mit OMMR4all, dessen Umsetzung zeigt jedoch auch Grenzen auf. So entfällt in OMMR4all die erforderliche, teils mühsame pixelgenaue Korrektur zum Erzeugen der separaten Typebenen, da die in OMMR4all verwendeten OMR-Algorithmen direkt auf dem Originalmanuskript arbeiten. Auch arbeitet der von uns vorgestellte neue Overlay-Editor näher am Original, da Notensysteme und Musiksymbole akkurat an die Positionen im Manuskript gezeichnet werden, was einen sehr schnellen Abgleich von Vorlage und Vorhersage ermöglicht.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>OMMR4all</head>
+<div rend="DH-Heading2" type="div2">
+<head>Workflow</head>
+<figure>
+<graphic height="4.229805555555555cm" n="1002" rend="inline" url="160_final-efa94b18ef5354c1e2a76cff6fdc509f.png" width="16.002cm"/>
+<head>Abbildung 2: Der Workflow von OMMR4all.</head>
+</figure>
+<p style="text-align:left; ">Der Workflow von OMMR4all ist in Abbildung 2 gezeigt. Der hochauflösende Scan einer Seite dient neben dem vorbereiteten Liedtext (z. B. in einer Textdatei) als Eingabe. Das Bild wird zunächst durch eine automatische Vorverarbeitung geradegestellt und binarisiert. Anschließend werden Notenlinien und Notensysteme mittels eines Fully-Convolutional Neuronalen Netzes (FCN) erkannt. Darauf aufbauend werden Musik- oder Textregionen separiert, wobei im Standardfall keine exakten Regionen erforderlich sind und so die Layoutanalyse vollständig automatisch abläuft. Basierend auf den Notensystemen werden nun durch ein weiteres FCN Neumen, Notenschlüssel und Vorzeichen erkannt. Abschließend werden die Silben des vorgefertigten Liedtextes an die passenden Neumen gesetzt. Die Algorithmen zu Notenlinien, Notensystem- und Symbolerkennung wurden hierbei direkt von Wick et al. (2019) übernommen.</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Iterativer Trainingsansatz</head>
+<p style="text-align:left; ">OMMR4all ermöglicht das Training von individuellen Modellen für die Notenlinien- und Symboldetektion, um die automatische Erkennung auf einen spezifischen, aber noch unbekannten Stil eines Buches anzupassen. Das Training erfordert wenige Seiten an manuell ausgezeichneten Material. Auch dieser Schritt kann durch Verwendung existenter ähnlicher Modelle semiautomatisch erfolgen.</p>
+<p style="text-align:left; ">Im Allgemeinen ist zu erwarten, dass die Notenzeilenerkennungsmodelle sehr gut auf verschiedene Notationsstile generalisieren, da Linien in allen Notationen sehr ähnlich sind. Die Symbolnotationen weisen hingegen eine größere Varianz auf, wie beispielsweise an Gotischer- oder Quadrat-Notation zu sehen ist.</p>
+<p>&#160;<lb/>&#160;<lb/>&#160;</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Softwarearchitektur</head>
+<p style="text-align:left; ">OMMR4all<ref n="1" target="ftn1"/> ist eine quelloffene Software<ref n="2" target="ftn2"/>, die ein auf einer REST API basierendes Client-Server-Modell implementiert und eine Benutzerverwaltung umfasst. Dies ermöglicht eine niedrige Einstiegshürde für den Einsatz der Software in der Forschung von Musikwissenschaftlern, da keine Installation nötig und die Web-Applikation plattformunabhängig ist. Zusätzlich wird die Last des Rechnersystems zum Trainieren neuer Modell auf den Server ausgelagert. Dieser kann hierbei mit high-end GPUs ausgestattet werden, um die Rechenzeiten weiter zu reduzieren. Auch werden die Daten zentralisiert gespeichert, was einen weltweiten Zugang von jedem internetfähigen Arbeitsplatz ermöglicht. Demnach ist jeder einfache Laptop oder Desktop PC als Zugriffspunkt zu OMMR4all vollkommen ausreichend und sofort einsetzbar.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Overlay-Editor</head>
+<p style="text-align:left; ">Da nicht zu erwarten ist, dass die automatischen Tools von OMMR4all perfekt arbeiten, müssen die Ergebnisse in eleganter und benutzerfreundlicher Art korrigiert werden. Dies ermöglicht der integrierte Overlay-Editor, der eine Überlagerung der Annotationen und der Originalseite anzeigt. Unterschiede von Musiksymbolen können so leicht und mit einem Blick festgestellt und anschließend korrigiert werden. Außerdem können Kommentare hinzufügt werden, um kritische oder unklare Stelle zu markieren, die dann auch in den kritischen Apparat aufgenommen werden können oder die zur Kommunikation zwischen dem Editor und einem Reviewer, der die Nachkorrektur durchführt, dienen können.</p>
+<figure>
+<graphic height="6.846558333333333cm" n="1003" rend="inline" url="160_final-d8afa4ef0d96796fe48f10e2be57c7e6.png" width="16.002cm"/>
+<head>Abbildung 3: Benutzeroberfläche des Editors. Grüne Regionen definieren Notensysteme, rote Regionen Liedtext. Individuelle Notenkomponenten werden als gelbe Boxen dargestellt, grafische Verbindungen von Neumen werden als durchgezogene schwarze Linien, die zwei Noten verbinden gezeichnet, wohingegen die gestrichelten vertikalen Linien den Start einer neuen Neume angeben. Notenschlüssel sind türkis markiert. Die Silben des Liedtextes sind unter der zugehörigen Neume in der jeweiligen Textregion ausgerichtet. Die verschiedenen Knöpfe der Werkzeugleiste dienen zur Korrektur der Annotationen oder um die automatischen Algorithmen zu starten. Nicht gezeigt sind Lesereihenfolge oder Kommentare des Korrektors.</head>
+</figure>
+<p style="text-align:left; ">Abbildung 3 zeigt die Benutzeroberfläche des Editors. Der Editor ist konzipiert, damit er ohne steile Lernkurve leicht bedient werden kann: Die Interaktionen zur Selektion, zur Bewegung, zum Ziehen oder zum Einfügen von Elementen erfolgen mit der Maus. Erfahrene Nutzer können jedoch auf Tastaturkürzel zurückgreifen, um den Bearbeitungsprozess zu beschleunigen.</p>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Evaluation</head>
+<p style="text-align:left; ">Zur Evaluation der Transkriptionszeit verglichen wir OMMR4all mit Monodi+ (Eipert 2019), einem Tool, das unter anderem einen hochentwickelten Editor für eine tastaturbasierte Eingabe von Cantus Planus (monophone Musik der Westlichen Kirche) anbietet. Die Bedienung der beiden Softwaresysteme erfolgte stets durch Experten des jeweiligen Programms. Als Material wählten wir jeweils fünf Seiten in gotischer und Quadratnotation (eine Beispielseite wird in Abbildung 3 bearbeitet). Wir maßen und verglichen die mittleren Zeiten, die bei Vorlage des Liedtextes nötig waren, um eine korrekte Transkription der Manuskripte zu erzielen. Somit wurden nur die Zeiten zur Korrektur oder Eingabe von Notenlinien und Musiksymbole gemessen. Die Modelle für die Quadratnotation waren auf 49 Seiten trainiert, die aus einem weiteren Buch stammen. Die gotischen Modelle basieren auf vier weiteren Seiten aus dem identischen Buch. Tabelle 1 fasst die Ergebnisse zusammen.</p>
+<table rend="rules">
+<head>Tabelle 1: Evaluation der Transkriptionszeiten in Minuten. Wir listen die Anzahl der Symbole, die erforderlichen Zeiten für die Korrektur der Notenlinien, der Symbole, der Silbenzuordnung, und die Gesamtzeit. Alle Werte sind gemittelt und relativ zu einer Seite angegeben.</head>
+<row>
+<cell rend="DH-Default">Notation</cell>
+<cell rend="DH-Default">#Symbole</cell>
+<cell cols="4" rend="DH-Default">OMMR4all</cell>
+<cell rend="DH-Default">Monodi+</cell>
+<cell rend="DH-Default">Speed-up</cell>
+</row>
+<row>
+<cell rend="DH-Default"/>
+<cell rend="DH-Default"/>
+<cell rend="DH-Default">Notenlinien</cell>
+<cell rend="DH-Default">Symbole</cell>
+<cell rend="DH-Default">Silben</cell>
+<cell rend="DH-Default">Gesamt</cell>
+<cell rend="DH-Default"/>
+<cell rend="DH-Default"/>
+</row>
+<row>
+<cell rend="DH-Default">Gotisch</cell>
+<cell rend="DH-Default">158</cell>
+<cell rend="DH-Default">0,3</cell>
+<cell rend="DH-Default">2,3</cell>
+<cell rend="DH-Default">1,8</cell>
+<cell rend="DH-Default">4,5</cell>
+<cell rend="DH-Default">5,6</cell>
+<cell rend="DH-Default">1,3</cell>
+</row>
+<row>
+<cell rend="DH-Default">Quadrat</cell>
+<cell rend="DH-Default">267</cell>
+<cell rend="DH-Default">0,6</cell>
+<cell rend="DH-Default">3,3</cell>
+<cell rend="DH-Default">2,9</cell>
+<cell rend="DH-Default">6,9</cell>
+<cell rend="DH-Default">8,5</cell>
+<cell rend="DH-Default">1,2</cell>
+</row>
+</table>
+<p style="text-align:left; ">OMMR4all zeigt einen Speed-Up von 1,3 und 1,2. Hierbei ist zu beachten, dass die Bearbeitungszeit mittels Monodi+ bereits am Limit ist, da jedes Symbol manuell eingegeben werden muss, worauf das Interface perfekt zugeschnitten ist. OMMR4all hingegen kann sich stets weiterentwickeln und selbständig genauere Modelle lernen. Insbesondere wenn die verwendeten Modelle ausgehend von der aktuellen Fehlerrate von 10% genauer arbeiten, ist mit einer deutlichen Reduktion der Bearbeitungszeit für die Symboleingabe zu rechnen. Weiterhin verspricht die Entwicklung einer automatischen Silbenerkennung und -zuweisung eine weitere Beschleunigung. Natürlich können, falls die Modelle menschliche Genauigkeit erreichen, alle Seiten vollständig automatisch verarbeitet werden. Im Allgemeinen liefert OMMR4all im Vergleich zu einer manuellen Eingabe des Notentextes eine inhärente Erklärungskomponente für den Ursprung eines jeden Symbols, was insbesondere für einen kritischen Apparat relevant ist.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Geplante Erweiterungen</head>
+<p style="text-align:left; ">Trotz der vielen Funktionen von OMMR4all, existieren etliche weitere mögliche Verbesserungen oder Erweiterungen. Einige anstehenden Aufgaben werden im Folgenden vorgestellt.</p>
+<p style="text-align:left; ">Zunächst planen wir verschiedene Werkzeuge und Algorithmen, um den Liedtext automatisch zu erfassen. Das Hauptproblem hierbei ist, dass derzeit keine OCR-Engine verlässlich mit handgeschriebenen Text ohne spezielles Training umgehen kann. Deswegen soll in einem ersten Schritt zunächst die automatische Silbenzuordnung gelöst werden, wobei immer noch der vorgefertigte Liedtext vorliegen muss. Hierzu werden die fehlerhaften Ergebnisse der OCR-Engine Calamari (Wick 2018) als Vorschläge für die Position verwendet indem die bestmögliche Übereinstimmung von erkanntem und korrektem Text gefunden wird. Vorläufige Ergebnisse sind vielversprechend, selbst wenn ein großer Prozentsatz der erkannten OCR-Zeichen falsch ist. Die eigentliche automatische Erfassung des handgeschriebenen Textes stellt eine große Herausforderung dar, da eine Seite meist nur wenige Zeilen umfasst, jedoch viele manuell transkribierte Zeilen für ein Training erforderlich sind. Alle modernen Ansätze verwenden hierfür ein Sprachmodell mit n-Grammen oder zumindest einem Wörterbuch sowie tiefe Neuronale Netze, meist bidirektionale LSTMs, die mit CNNs gekoppelt werden. Chammas et al. (2018) verwendeten mehrere tausend Seiten mit reinem Text von beliebiger Handschrift und erhielten eine Wortgenauigkeit von etwa 80%. Auf sauberer geschriebenen mittelalterlichen Manuskripten erzielten Fischer et al. (2014) eine Wortgenauigkeit von etwa 93% mit etwa 11.000 Wörtern im Trainingsdatensatz und einem eingeschränkten Vokabular von etwa 5.000 Wörtern. In einem Szenario, in dem nur die Wörter des Trainingsdatensatzes bekannt waren, wurde eine Wortgenauigkeit von unter 78% erreicht, da etwa 15% der Wörter unbekannt waren. Eine Umsetzung der Techniken für Liedtexte steht noch aus, denn hier besteht ein zusätzliches Problem, dass viele Worte in Silben aufgeteilt sind, was den Einsatz von Wörterbüchern erschwert.</p>
+<p style="text-align:left; ">Andere Pläne umfassen weitere monophone Notationsstile zu unterstützen. Hierunter fallen sowohl ältere Neumennotationen, sowohl solche ohne Notenlinien, als auch spätere Mensurnotationen. Hierzu bedarf es nur kleinere kosmetischer Änderungen am Editor, jedoch ist größerer Aufwand beim Entwickeln neuer Algorithmen nötig. Polyphone Notationen, auch solche bei denen die Stimmen jeweils in separaten Notensystemen vorliegen, stellen semantische bzw. hierarchische Änderungen der Musiknotation dar, da z. B. zwei oder mehrere gleichzeitig klingende Notenzeilen zu einer Akkolade zusammengefasst werden müssen, was Änderungen am Datenformat und somit auch am Editor erfordert.</p>
+<p style="text-align:left; ">In der Praxis wird OMMR4all im Corpus Monodicum Projekt<ref n="3" target="ftn3"/> der Universität Würzburg eingesetzt, um den Prozess der Transkription der Bestände von einstimmiger Musik des lateinischen Mittelalters zu beschleunigen. Der Overlay-Editor, der mit einem Blick erlaubt Fehler zu erkennen, hebt den Transkriptionsprozess bereits auf ein hohes Qualitätsniveau. Trotzdem ist zur Qualitätssicherung ein zweistufiger Prozess notwendig, indem ein musikwissenschaftlicher Reviewer das Ergebnis des Transkriptionsprozesses überprüft, das in Zusammenarbeit von OMMR4all und einem menschlichen Editor erzeugt wurde. Technisch wird dies durch die Möglichkeit unterstützt, pro Seite eine Freigabe zu dokumentieren oder, wie oben erwähnt, Kommentare zur Nachbearbeitung anzugeben.
+                </p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Eine Demo-Anwendung, die das testweise Bearbeiten zweier unterschiedlicher Bücher erlaubt ist unter 
+      <ref target="https://ommr4all.informatik.uni-wuerzburg.de/">https://ommr4all.informatik.uni-wuerzburg.de/</ref> verfügbar.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Der Quellcode kann auf 
+      <ref target="https://github.com/OMMR4all/">https://github.com/OMMR4all/</ref> eingesehen werden.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      <ref target="http://www.musikwissenschaft.uni-wuerzburg.de/forschung/corpus-monodicum/">http://www.musikwissenschaft.uni-wuerzburg.de/forschung/corpus-monodicum/</ref>
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Calvo-Zaragoza, Jorge / Castellanos, Francisco / Vigliensoni, Gabriel / Fujinaga, Ichiro</hi>
+<hi style="font-size:10pt">(2018): "Deep neural networks for document processing of music score images", in:</hi>
+<hi rend="italic" style="font-size:10pt">Applied Sciences 8: 654.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Chammas, Edgard / Mokbel, Chafic / Likforman-Sulem, Laurence</hi>
+<hi style="font-size:10pt">(2018): "Handwriting Recognition of Historical Documents with Few Labeled Data", in:</hi>
+<hi rend="italic" style="font-size:10pt">13th IAPR International Workshop on Document Analysis Systems (DAS), Vienna:. 43-48.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Eipert, Tim / Herrmann, Felix / Wick, Christoph / Puppe, Frank / Haug, Andreas</hi>
+<hi style="font-size:10pt">(2019): "Editor Support for Digital Editions of Medieval Monophonic Music", in:</hi>
+<hi rend="italic" style="font-size:10pt">Proceedings of the 2</hi>
+<hi rend="italic superscript" style="font-size:10pt">nd</hi>
+<hi rend="italic" style="font-size:10pt" xml:space="preserve"> International Workshop on Reading Music Systems (submitted to).</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Fischer, Andreas / Baechler Michael / Garz, Angelika / Liwicki, Marcus / Ingold, Rolf</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2014): “A Combined System for Text Line Extraction and Handwriting Recognition in Historical Documents", in: 11th IAPR International Workshop on Document Analysis Systems, Tours, 2014: 71-75.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Fujinaga, Ichiro / Hankinson, Andrew / Cumming, Julie E.</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2014): "Introduction to SIMSSA (single interface for music score searching and analysis)", in:</hi>
+<hi rend="italic" style="font-size:10pt">Proceedings of the 1st International Workshop on Digital Libraries for Musicology: 1-3.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Saleh, Zeyad / Zhang, Ké / Calvo-Zaragoza, Jorge / Vigliensoni, Gabriel / Fujinaga, Ichiro</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2017): "Pixel. js: Web-based pixel classification correction platform for ground truth creation.", in:</hi>
+<hi rend="italic" style="font-size:10pt">14th IAPR International Conference on Document Analysis and Recognition (ICDAR): 39-40.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Regimbal, Juliette / McLennan, Zoé / Vigliensoni, Gabriel / Tran, Andrew / Fujinaga, Ichiro </hi>
+<hi style="font-size:10pt">(2019): "Neon2: A verovio-based square-notation editor", in:</hi>
+<hi rend="italic" style="font-size:10pt" xml:space="preserve"> Music Encoding Conference 2019.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Saleh, Zeyad / Zhang, Ké / Calvo-Zaragoza, Jorge / Vigliensoni, Gabriel / Fujinaga, Ichiro</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2017): "Pixel.js: Web-based pixel classification correction platform for ground truth creation.", in:</hi>
+<hi rend="italic" style="font-size:10pt">14th IAPR International Conference on Document Analysis and Recognition (ICDAR): 39-40.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Vigliensoni, Gabriel / Daigle, Alex / Lui, Eric / Calvo-Zaragoza, Jorge / Regimbal, Juliette / Nguyen, Minh Anh / Baxter, Noah / McLennan, Zoe / Fujinaga, Ichiro</hi>
+<hi style="font-size:10pt" xml:space="preserve"> (2019): "</hi>O
+                        <hi style="font-size:10pt">vercoming the challenges of optical music recognition of early music with machine learning", in:</hi>
+<hi rend="italic" style="font-size:10pt">DH2019</hi>
+<hi style="font-size:10pt">.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Wick, Christoph / Hartelt, Alexander / Puppe, Frank</hi>
+<hi style="font-size:10pt">(2019): "Staff, Symbol and Melody Detection of Medieval Manuscripts written in Square Notation using Deep Fully Convolutional Networks", in:</hi>
+<hi rend="italic" style="font-size:10pt">Applied Sciences 9</hi>
+<hi style="font-size:10pt">.</hi>
+</bibl>
+<bibl>
+<hi rend="bold">Wick, Christoph / Reul, Christian / Puppe, Frank</hi>
+<hi style="font-size:10pt">(2018): "Comparison of OCR Accuracy on Early Printed Books using the Open Source Engines Calamari and OCRopus", in:</hi>
+<hi rend="italic" style="font-size:10pt">JLCL: Special Issue on Automatic Text and Layout Recognition: 79-96.</hi>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

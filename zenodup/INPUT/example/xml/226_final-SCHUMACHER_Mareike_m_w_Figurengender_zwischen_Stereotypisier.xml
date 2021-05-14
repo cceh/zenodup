@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="226_final-SCHUMACHER_Mareike_m_w_Figurengender_zwischen_Stereotypisier" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>m*w Figurengender zwischen Stereotypisierung und literarischen und theoretischen Spielräumen. Genderstereotype und -bewertungen in der Literatur des 19. Jahrhunderts</title>
+<author>
+<persName>
+<surname>Schumacher</surname>
+<forename>Mareike</forename>
+</persName>
+<affiliation>University of Hamburg, Deutschland</affiliation>
+<email>mareike.schumacher@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Flüh</surname>
+<forename>Marie</forename>
+</persName>
+<affiliation>University of Hamburg, Deutschland</affiliation>
+<email>marie.flueh@uni-hamburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-05T10:35:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Gendertheorie</term>
+<term>Bewertungsanalyse</term>
+<term>digitale Annotation</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Modellierung</term>
+<term>Annotieren</term>
+<term>Kontextsetzung</term>
+<term>Theoretisierung</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<!-- <p rend="normal">Abstract:</p> -->
+<p rend="normal">
+Während in den Digital Humanities bereits erste korpusbasierte Analysen von Figurengender in der Literatur vorgelegt wurden (Underwood 2019: 111 ff), wird in den Kulturwissenschaften zu diesem Thema selten korpusbasiert gearbeitet. Stattdessen sind Theorien zur Genderthematik häufig philosophisch-soziologisch (z. B. bei Beauvoir oder Bourdieu), diskurstheoretisch (z. B. Foucault) oder dekonstruktivistisch (z. B. Butler)<ref n="1" target="ftn1"/>
+<hi style="font-family:Open Sans" xml:space="preserve"> motiviert. Die Lücke zwischen einer an technischen Methoden ausgerichteten Modellierung und der theoretischen Betrachtung der Genderthematik schließen wir mit dem Projekt m*w, von dem wir erste Pilotstudien hier vorstellen. In einem theoriegeleiteten Mixed-Methods-Ansatz operationalisieren wir zunächst klassische Ansätze aus den Genderstudies und wenden das entstandene Modell sowohl mit Hilfe von Named Entity Recognition als auch mittels digitaler Annotation auf ein literarisches Korpus an. Das Zusammenspiel von theoretischer und datenbasierter Modellierung und die Bereitstellung von Zwischenergebnissen und “losen Enden” auf der </hi> <ref target="https://msternchenw.de"><hi rend="underline" style="font-family:Open Sans">Projektwebseite</hi></ref> <hi style="font-family:Open Sans" xml:space="preserve"> (https://msternchenw.de) eröffnen Spielräume, um weiter- und umzudenken und sich mit anderen Projekten zusammenzuschließen.</hi>
+</p>
+<div rend="DH-Heading1" type="div1">
+  <head> Konzeptioneller Rahmen und methodische Desiderata</head>
+  <p rend="normal">Die leitende Fragestellung des m*w-Projektes ist: Wie werden Genderrollen in der Literatur des 19. Jahrhunderts dargestellt und bewertet? Um uns dieser Fragestellung zu nähern, erstellen wir mithilfe einer Auswahl theoretischer Ansätze ein Modell. Dieses nutzen wir, um im überwachten Machine-Learning-Verfahren der Named Entity Recognition (NER) ein Tool darauf zu trainieren, Figuren und ihre Genderzuschreibungen automatisch zu erkennen. Die Ergebnisse des NER-Verfahrens nutzen wir um unser Modell weiter zu schärfen. Im abschließenden Close Reading der Novellen werden schließlich Genderbeschreibungen und -bewertungen analysiert und mit dem Modell abgeglichen. Grundsätzlich nehmen wir sowohl Modell als auch Korpus als variable bzw. dynamische Größen wahr, die sich für den Praxistest der Operationalisierung theoriebasierter Modelle zur Erforschung literarischer Genderrollen eignen. </p>
+  <div rend="DH-Heading2" type="div2">
+    <head>Korpus</head>
+    <p rend="normal">
+      <hi style="font-family:Open Sans" xml:space="preserve">Forschungsgegenstand ist der </hi>
+      <hi rend="italic" style="font-family:Open Sans">Deutsche Novellenschatz</hi>, der 1871–1876 von Paul Heyse und Hermann Kurz herausgegeben wurde und 87 Novellen umfasst.<ref n="2" target="ftn2"/>
+      Da in dieser Textsammlung die Thematik der Ehe von großer Bedeutung ist (vgl. Weitin/Herget 2017), gehen wir davon aus, dass stereotype Genderrollen sich potentiell häufen. Zur tatsächlichen, möglicherweise diversen Genderausrichtung der Autor*innen ist nichts bekannt. Um einerseits einen möglichst ausgewogenen Forschungsgegenstand zu bekommen, andererseits aber möglichst wenig auf das Korpus einzuwirken, wurden zunächst alle 12 aus der Feder von Schriftstellerinnen* stammenden Novellen in ein Teilkorpus übernommen. Ergänzend dazu wurden 12 per Zufallsgenerator ausgewählte Novellen von Autoren* ergänzt. Die verbleibenden Novellen wurden als Trainingsmaterial genutzt. Bei der Zusammenstellung des Korpus war uns bewusst, dass wahrscheinlich überwiegend Autorenpersönlichkeiten einbezogen wurden, die sich einem binären Geschlechtermodell zugehörig fühlten. Um Trainingsmaterial für Anschlussforschung über die Pilotstudien hinaus zur Verfügung zu stellen, planen wir ein weiteres Korpus zu erstellen, das Texte enthält, die von Personen geschrieben wurden, die sich nachweislich nicht in ein binäres System integrieren lassen (wollten).<ref n="3" target="ftn3"/>
+    </p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>Genderstereotype</head>
+    <p rend="normal">
+      Davon ausgehend, dass sich sowohl in der Theorie als auch in Erzähltexten Spielräume als Zwischenräume auftun, die dadurch sichtbar werden, dass sie sich von den sie umgebenden normierten Räumen unterscheiden<ref n="4" target="ftn4"/>, untersuchen wir stereotype Darstellungen und solche, die sich davon abheben in einem relationalen Ansatz. Anschließend an Butler (vgl. Butler 1990: 190-219) differenzieren wir den Begriff Gender nach Geschlecht, Gender Identität und Gender Performanz und übersetzen diese Trias für die Anwendung auf das literarische Korpus in Geschlechtszuordnung durch Personalpronomen, Ausdruck der Gender-Identität durch Figureneigenschaften und Beschreibung der Gender-Performanz durch Aufzeigen (nicht) rollenkonformer Figurenhandlungen. Die Betrachtung der Geschlechtszuordnung durch Personalpronomen schließen wir aus, da der dieser binären Zuordnung zu Grunde liegende Biologismus fraglich ist, wie z.B. die Ausführungen Foucaults (vgl. Foucault 1998: 7-18) zu Herculine Barbin<ref n="5" target="ftn5"/>
+      <hi style="font-family:Open Sans" xml:space="preserve"> sowie dessen eigene Lebenserinnerungen (vgl. ebd. 19-126) zeigen. </hi>
+    </p>
+    <p rend="normal">Um entscheiden zu können, ob Eigenschaften und Handlungen von Figuren stereotypen Rollenbildern zugeschrieben werden können oder nicht, haben wir zunächst möglichst viele Rollenbilder in unser Modell integriert. Jede dieser Rollen kann sowohl im Sein (Gender-Identität) als auch im Handeln (Gender-Performanz) von Figuren verankert sein. Die sechs in Abb. 1 abgebildeten Oberkategorien von Eigenschaften sind ebenfalls der Theorie entnommen. Allerdings wurden hier die Beschreibungen stärker kondensiert, um die zahlreichen genannten Einzeleigenschaften für die digitale Annotation besser handhabbar zu machen. </p>
+    <figure>
+      <graphic height="6.4558333333333335cm" n="1001" rend="inline" url="226_final-a944097c0ff4d1b1633d0e600293c8e0.png" width="15.927916666666667cm"/>
+      <head> Abbildung 1: Theoriebasiertes Gender-Modell</head>
+    </figure>
+    <!-- <p rend="normal"> -->
+    <!--   <hi rend="bold" style="font-family:Open Sans;font-size:10pt">Abb. 1: Theoriebasiertes Gender-Modell</hi> -->
+    <!-- </p>gelegt (Value: männlich, weiblich, divers)</p> -->
+  </div>
+</div>
+<div rend="DH-Heading1" type="div1">
+  <head> Erste Ergebnisse der Analysen</head>
+  <p rend="normal">Alle drei eingesetzten Methoden - NER, Annotation von Stereotypen und Emotionsanalyse haben sich im ersten Proof of Concept als fruchtbar für die digitale Erforschung von Figurengender erwiesen. Besonders eklatante Zwischenergebnisse fassen wir im Folgenden zusammen.</p>
+  <div rend="DH-Heading2" type="div2">
+    <head>NER</head>
+    <p rend="normal">
+      Im Laufe des NER-Trainingsprozesses erwies sich die Kategorie “divers” nicht als dem Korpus angemessen, weshalb wir die NER-Kategorien auf “männlich”, “weiblich”, “genderneutral”<ref n="6" target="ftn6"/> festlegten. Mit einer schrittweise Ausweitung des Trainingsmaterials von 40.000 auf 68.000 Tokens<ref n="7" target="ftn7"/> 
+      erreichten wir eine Steigerung der anfänglich bei rund 0,47 liegenden F1-Score-Werte um 0,03 in einem ersten und 0,07 in einem zweiten Testtext (<hi rend="italic" style="font-family:Open Sans">Irrwisch-Fritze</hi> 
+      <hi style="font-family:Open Sans" xml:space="preserve"> von Reinbold und </hi>
+      <hi rend="italic" style="font-family:Open Sans">Die drei Schwestern</hi>
+      <hi style="font-family:Open Sans" xml:space="preserve"> von Kähler). In beiden Testtexten zeigte sich, dass genderneutrale Figuren am zuverlässigsten und weibliche Figuren am schlechtesten erkannt werden (für detailliertere Beschreibungen der ersten NER-Tests vgl. Schumacher 2020 [2]). </hi>
+    </p>
+    <p rend="normal">
+      Um Hinweise auf eine mögliche Verzerrung durch die Zusammensetzung des Trainingskorpus zu bekommen, haben wir einen dritten Testtext hinzu genommen
+      (<hi rend="italic">Eine fromme Lüge</hi> von Gall). Die Ergebnisse des Tests weichen von den vorherigen ab. Der F1-Score liegt bei 0,6202 und ist damit um 0,08 höher als der höhere der beiden vorherigen Testtexte. Außerdem werden weibliche Figuren besser erkannt als männliche (F-Scores von 0,7093 und 0,4293). Ein unerwarteter Nebenbefund aus dem wir nach intensiver Prüfung des Ergebnisses (mehr darüber in Schumacher 2020 [1]) schließen, dass das Tool hier einen Text mit sehr stereotypen Rollenbeschreibungen erkannt hat. Dass das im Hinblick auf Autorengender zu homogene Trainingskorpus verzerrend wirkt, konnte durch diesen Test hingegen nicht endgültig bestätigt werden. Ein inhaltlicher Vergleich der NER-Ergebnisse zeigt aber, dass die Anzahl männlicher Figurenbenennungen insgesamt höher ist (Abb. 3). 
+    </p>
+    <figure>
+      <graphic height="3.3866666666666667cm" n="1003" rend="inline" url="226_final-acff516e77064bba84acd58a5598f1c5.png" width="15.927916666666667cm"/>
+      <head>Abbildung 3: Die NER-Ergebnisse der Testtexte visualisiert; links steht Hellblau, mittig Dunkelblau und rechts rosa für männliche Figuren.</head>
+    </figure>
+    <!-- <p rend="normal">Abb. 3: Die NER-Ergebnisse der Testtexte visualisiert; links steht Hellblau, mittig Dunkelblau und rechts rosa für männliche Figuren.</p> -->
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head> Digitale Annotation von Genderstereotypen</head>
+    <p rend="normal">
+      <hi style="font-family:Open Sans" xml:space="preserve">Im Annotationstool CATMA (Meister et all. 2019) wurden die NER-Ergebnisse zuerst ergänzt, sodass alle tatsächlich vorkommenden weiblichen, männlichen und neutralen Figurenbezeichnungen im Testtext </hi>
+      <hi rend="italic" style="font-family:Open Sans">Die drei Schwestern</hi>
+	<hi style="font-family:Open Sans" xml:space="preserve"> annotiert wurden. Der Eindruck, dass es hier am meisten männliche Figuren gibt, wird bestätigt (Abb. 4).</hi>
+    </p>
+    <figure>
+      <graphic height="7.161388888888889cm" n="1004" rend="inline" url="226_final-c65e2da95d0de25083cde32af03f95a5.png" width="15.927916666666667cm"/>
+      <head>Abbildung 4: Gender-Kategorien im Verlauf des Beispiel-Textes (männlich (schwarz) , weiblich (blau) und genderneutral (grün)).</head>
+    </figure>
+    <!-- <p rend="normal">Abb. 4: Gender-Kategorien im Verlauf des Beispiel-Textes (männlich (schwarz) , weiblich (blau) und genderneutral (grün)).</p> -->
+    <p rend="normal">Anschließend wurden die NER-Kategorien mit Unterkategorien versehen, die den Benennungen der Genderrollen des Modells entsprechen (Abb. 5). </p>
+    <figure>
+      <graphic height="8.466666666666667cm" n="1005" rend="inline" url="226_final-9915672653ca11e2395d89efff2afcf8.png" width="15.927916666666667cm"/>
+      <head>Abbildung 5: Vorläufiges Tagset (Auswahl der angewandten weiblichen und männlichen Rollen/ nur Oberkategorien der Eigenschaften).</head>
+    </figure>
+    <!-- <p rend="normal">Abb. 5: Vorläufiges Tagset (Auswahl der angewandten weiblichen und männlichen Rollen/ nur Oberkategorien der Eigenschaften).</p> -->
+    <p rend="normal">Sofern es keine adäquate, in der Theorie erwähnte Rolle oder Eigenschaft gab, wurden zusätzliche Annotationskategorien erstellt und den Oberkategorien “unsortierte Rollen” und “unsortierte Eigenschaften” zugewiesen. </p>
+    <p rend="normal">Die digitale Annotation des ersten Beispieltextes zeigt, dass stereotype Beschreibungen vor allem zu Beginn der Erzählung häufig und somit besonders für die Etablierung der Figuren von Bedeutung sind. Stereotype Eigenschaften sind hier zwar divers, für männliche und weibliche Figuren gibt es aber jeweils einige wenige, die quantitativ herausstechen. Für weibliche Figuren ist das vor allem Äußerlichkeit/Schönheit für männliche sind es Körperlichkeit/Trinkfestigkeit und Wirksamkeit/Herrschaft. Unsortierte Rollen und Eigenschaften sind zumeist in einem binären Rollensystem verankert und dennoch werden in dieser Novelle zum Teil Stereotype aufgebrochen. Dies wird hauptsächlich durch die Zuschreibung einzelner Eigenschaften zu einer Figur eines Genders erreicht, die in der theoretischen Literatur eher dem Stereotyp des anderen zugeschrieben werden (ausführlichere Auswertung des ersten Beispieltextes in Schumacher 2020 [3]).</p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head> Emotionsanalyse mit CATMA</head>
+    <p rend="normal">
+      <hi style="font-family:Open Sans" xml:space="preserve">Die Auswertung der digitalen Annotation des Beispieltextes </hi>
+      <hi rend="italic" style="font-family:Open Sans" xml:space="preserve">Gemüth und Selbstsucht </hi>
+      <hi style="font-family:Open Sans" xml:space="preserve">von Margarethe von Wolff macht folgende Einsichten besonders deutlich: Die Emotionen Zorn, Ekel, Trauer und Liebe – die sich wiederum aus unterschiedlichen Vertretern dieser Emotionsfamilien zusammensetzten – treten am häufigsten auf. </hi>
+    </p>
+    <figure>
+      <graphic height="6.2044805555555556cm" n="1006" rend="inline" url="226_final-50ccec77e1e0cf48ebee9ad3d1617867.png" width="13.165602777777778cm"/>
+      <head>Abbildung 6: Der Verteilungsgraph zeigt den Emotionsverlauf in <hi rend="italic bold">Gemüth und Selbstsucht:</hi> TRAUER (orange), LIEBE (blau), EKEL (schwarz), ZORN (grün)</head>
+    </figure>
+    <!-- <p rend="normal"> -->
+    <!-- 	<hi rend="bold" style="font-family:Open Sans" xml:space="preserve">Abb. 6: Der Verteilungsgraph zeigt den Emotionsverlauf in </hi> -->
+    <!-- 	<hi rend="italic bold" style="font-family:Open Sans">Gemüth und Selbstsucht:</hi> -->
+    <!-- 	<hi rend="bold" style="font-family:Open Sans" xml:space="preserve"> TRAUER (orange), LIEBE (blau), EKEL (schwarz), ZORN (grün)</hi> -->
+    <!-- </p> -->
+    <p rend="normal">Die Emotionen werden in den allermeisten Fällen verbal (407 Annotationen) von den Figuren ausgedrückt. Über die Veränderung des körperlichen Zustands (19 Annotationen), und nonverbal (107 Annotationen) werden Emotionen vergleichsweise selten repräsentiert. Die Auswertung der Properties ergibt genderspezifische Emotionsinformationen (s. Abb. 7 und 8). Weibliche Figuren treten ängstlicher auf als männliche. Männliche Figuren reagieren häufiger zornig als weibliche. Sie empfinden außerdem häufiger Ekel – hier meistens im Sinne von Abneigung – als weibliche Figuren. Diese leiden häufiger unter gedrückter Stimmung und empfinden deutlich häufiger negative Basisemotionen als männliche Figuren. Diese treten im Schnitt fröhlicher auf als die weiblichen Figuren. Die männlichen Figuren zeigen häufiger positive Basisemotionen als die weiblichen Figuren und auch die positive Basisemotion LIEBE überwiegt seitens der männlichen Figuren. Scham – als Unterkategorie der Problemfälle – ist seitens der weiblichen Figuren deutlich stärker ausgeprägt (für eine ausführlichere Auswertung des ersten Beispieltextes vgl. Flüh 2020). </p>
+    <figure>
+      <graphic height="7.337777777777778cm" n="1007" rend="inline" url="226_final-54e3fcb33953c9b09b2fdbd149da0752.png" width="7.811497222222222cm"/>
+      <head>Abbildung 7: Gesamtvorkommen der mit der Value männlich ausgezeichneten Emotionen</head>
+    </figure>
+    <!-- <p rend="normal">Abb. 7: Gesamtvorkommen der mit der Value männlich ausgezeichneten Emotionen</p> -->
+    <figure>
+      <graphic height="7.761111111111111cm" n="1008" rend="inline" url="226_final-98539247f581ad0141693e4d41eea875.png" width="8.178702777777778cm"/>
+      <head>Abbildung 8: Gesamtheit der mit der Value weiblich ausgezeichneten Emotionen</head>
+    </figure>
+    <!-- <p rend="normal">Abb. 8: Gesamtheit der mit der Value weiblich ausgezeichneten Emotionen</p> -->
+  </div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head> Theorien hinterfragen, aufbrechen und weiterdenken</head>
+<p rend="normal">
+  <hi style="font-family:Open Sans" xml:space="preserve">Im Hinblick auf die leitende Fragestellung können zu diesem Zeitpunkt drei Zwischenergebnisse festgehalten werden. Der Trainingsprozess des NER-Modells zeigt, dass im deutschen Novellenschatz hauptsächlich weibliche, männliche und genderneutrale Figurenbeschreibungen eine Rolle spielen. Um diverse Genderrollen in der Literatur des 19. Jahrhunderts erforschen zu können, muss weiteres Trainingsmaterial erstellt werden. Die Tests des NER-Modells machen deutlich, dass die Methode der CRF-Vorhersage geeignet ist, um innerhalb des Novellenschatzes Texte mit besonders stereotypen Genderzuschreibungen ausfindig zu machen. </hi>
+</p>
+<p style="text-align:left; ">
+<hi style="font-family:Open Sans">Erste Auswertungen der digitalen Annotation von Genderstereotypen zeigen, dass in Beschreibungen von Figuren zwar eine Vielzahl von Eigenschaften genutzt wird, dass genderspezifisch aber jeweils einige wenige Kategorien vorherrschen. Für unseren Beispieltext konnten wir belegen, dass stereotype Genderrollen nicht durch die Einführung diverser Figuren aufgebrochen werden, sondern durch die Kennzeichnung einzelner Figuren mit einzelnen stereotypen Eigenschaften eines anderen Genders. Die digitale Annotation zeigt auch, dass genderneutrale Figurenbezeichnungen eher selten sind. Erste Auswertungen der Emotionsanalysen zeigen, dass genderspezifische Unterschiede v. a. hinsichtlich der Wertung der referierten Emotionen bestehen; männliche Figuren greifen auf ein positiveres Gefühlskonzept bzw. Bewertungskonzept zurück als weibliche. Die strukturorientiert fundierten Tagsets eignen sich, um die vielfältigen Ausdrucksweisen genderspezifischer Emotionsmanifestationen und -familien aus literarischen Texten herauszufiltern. Im weiteren Verlauf gilt es, die übrigen Texte auszuwerten und die Analyseergebnisse miteinander in Bezug zu setzen.</hi>
+</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Die hier ausgewerteten Ansätze der Genderstudies beziehen sich nicht primär auf literarische Korpora, die in diesen Theorien ausgewerteten Beispiele sind aber häufig literarischer Art. Die daran erkennbare Nähe zu den Literaturwissenschaften erleichtert die im m*w vorgenommene Domänenadaption der Ansätze. 
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Wir nutzen die digitale Version des deutschen Novellenschatzes, die vom Discourse Lab herausgebracht wurde und unter 
+      <ref target="https://www.discourselab.de/cqpweb/">https://www.discourselab.de/cqpweb/</ref>
+      heruntergeladen werden kann. Die von uns zum Zweck des Machine Learning Trainings erstellen Daten (sowohl Trainingsdaten als auch Modell) werden auf der Projektwebseite unter 
+      <ref target="http://msternchenw.de/?page_id=160">http://msternchenw.de/m*w-insiders/</ref>
+      zur Nachnutzung bereitgestellt. 
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Dieses “Diversitäts-Korpus” wird ebenfalls auf der Projektseite unter 
+      <ref target="http://msternchenw.de/?page_id=160">http://msternchenw.de/m*w-insiders/</ref> zur Verfügung gestellt werden. 
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Deutlich wird dies in der Genderforschung z.B. bei Beauvoir, die zunächst eine Reihe traditioneller Rollenmuster der Frau beschreibt, um sich dann der lesbischen Frau zuzuwenden, die hier ausbricht (vgl. Beauvoir 1949) oder bei Bourdieu, der zunächst ein binär organisiertes Herrschaftssystem beschreibt, um sich dann abschließend der Liebe als Möglichkeit, dieses zu überwinden und der Homosexuellen-Bewegung, die in seinen Augen die männliche Herrschaft eher stützt, zuzuwenden (vgl. Bourdieu 2005). Interessant ist in diesem Zusammenhang auch der gar nicht auf Geschlechterfragen ausgerichtete Ansatz Foucaults zur Heterotopologie, in dem er sich der Identifizierung von Heterotopien als Räume des anderen widmet, die Ausdifferenzierung des “normalen” Raumes aber unterlässt, wodurch eine Leerstelle entsteht (vgl. Foucault 2005). Letzteres soll hier vermieden werden. 
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      Die Lebenserinnnerungen Herculine Barbins zeigen einen Fall von Hermaphroditismus im 19. Jahrhundert in Frankreich. 
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      Auch diese Kategorien sind für uns nur als vorläufig gedacht und können jederzeit an unterschiedliche Korpora angepasst bzw. mit Hilfe von anderen, zusätzlichen Korpora weiterentwickelt werden. 
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      Das Trainigskorpus wird auch weiterhin laufend erweitert.
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl rend="normal">
+  <hi rend="bold">Argyle, Michael </hi> (1996): <hi rend="italic" style="font-family:Open Sans">Körpersprache und Kommunikation.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Paderborn: Junfermann.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Barbin, Herculine / Foucault, Michel</hi>  (1998): <hi rend="italic" style="font-family:Open Sans">Über Hermaphroditismus</hi>
+  <hi style="font-family:Open Sans">. Frankfurt am Main: Suhrkamp.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Beauvoir, Simone </hi> (1949): 
+  <hi rend="italic" style="font-family:Open Sans">Das andere Geschlecht.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Reinbek: Rowohlt.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Bourdieu, Pierre </hi> (2005): 
+  <hi rend="italic" style="font-family:Open Sans">Die männliche Herrschaft.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Frankfurt am Main: Suhrkamp.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Borod, Joan C.</hi> (2000): 
+  <hi rend="italic" style="font-family:Open Sans">The Neuropsychology of Emotion</hi>
+  <hi style="font-family:Open Sans">. New York: Oxford University Press.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold" xml:space="preserve">Butler, Judith</hi> (1990): 
+  <hi rend="italic" style="font-family:Open Sans">Das Unbehagen der Geschlechter.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Frankfurt am Main: Suhrkamp.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Connell, Raewyn</hi> (1999): 
+  <hi rend="italic" style="font-family:Open Sans">Der gemachte Mann. Konstruktion und Krise von Männlichkeiten.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Wiesbaden: Springer. </hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Darwin, Charles</hi> (1884): 
+  <hi rend="italic" style="font-family:Open Sans">Der Ausdruck der Gemüthsbewegungen bei dem Menschen und den Thieren.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Stuttgart: Schweizerbart.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Ekman, Paul</hi> (1999): 
+  <hi rend="italic" style="font-family:Open Sans">Basic Emotions.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> In: Dalgleisch, Tim und Michael J. Power (Hrsg.): </hi>
+  <hi rend="italic" style="font-family:Open Sans">Handbook of Cognition and Emotion</hi>
+  <hi style="font-family:Open Sans">. Chichester: John Wiley &amp; Sons, 45–60.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Erhart, Walter</hi> (2001): 
+  <hi rend="italic" style="font-family:Open Sans">Familienmänner. Über den literarischen Ursprung moderner Männlichkeit.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> München: Wilhelm Fink. </hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Finkel, Jenny Rose / Grenager, Trond / Manning, Christopher</hi> (2005): Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling. In: 
+  <hi rend="italic" style="font-family:Open Sans">Proceedings of the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005)</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve">, Seiten 363-370. </hi>
+  <ref target="http://nlp.stanford.edu/~manning/papers/gibbscrf3.pdf">http://nlp.stanford.edu/~manning/papers/gibbscrf3.pdf</ref>
+  <hi style="font-family:Open Sans" xml:space="preserve"> [zuletzt geprüft: Dezember 21, 2019]  </hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Flüh, Marie </hi> (2020): “Emotionsinformationen analysieren: 3. Erste Ergebnisse – Gemüth und Selbstsucht (1787) von Margarethe von Wolff.” In: 
+  <hi rend="italic" style="font-family:Open Sans;font-size:11.5pt">m*w</hi>
+  <hi style="font-family:Open Sans;font-size:11.5pt" xml:space="preserve">, Januar 4, 2020, </hi>
+  <ref target="https://msternchenw.de/?p=249">https://msternchenw.de/?p=249</ref>
+  <hi style="font-family:Open Sans;font-size:11.5pt">, [zuletzt geprüft: Januar 4, 2020].</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Foucault, Michel </hi> (2005): 
+  <hi rend="italic" style="font-family:Open Sans">Die Heterotopien. Der utopische Körper.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Frankfurt am Main: Suhrkamp.  </hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Foucault, Michel</hi> (2008): 
+  <hi rend="italic" style="font-family:Open Sans">Die Ordnung der Dinge.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> In: Michel Foucault. Die Hauptwerke. Frankfurt am Main: Suhrkamp. </hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Heydebrand, Renate von / Simone Winko</hi> (1996): 
+  <hi rend="italic" style="font-family:Open Sans">Einführung in die Wertung von Literatur</hi>
+  <hi style="font-family:Open Sans">. Paderborn/München/Wien u. a.: Ferdinand Schöningh.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Irigaray, Luce</hi> (1980): 
+  <hi rend="italic" style="font-family:Open Sans">Speculum. Spiegel des anderen Geschlechts.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Frankfurt am Main: Suhrkamp.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Izard, Carroll, E. </hi> (1992): “Basic emotion, relations among emotions, and emotion-cognition relations”. In: 
+  <hi rend="italic" style="font-family:Open Sans" xml:space="preserve">Psychological Review </hi>
+  <hi style="font-family:Open Sans">99 (3), 561–565</hi>.
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Luhmann, Niklas</hi> (2008): 
+  <hi rend="italic" style="font-family:Open Sans">Schriften zur Kultur und Literatur.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Frankfurt am Main: Suhrkamp.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold"> Meister, Jan Christoph / Horstmann, Jan / Petris, Marco / Jacke, Janina / Bruck, Christian / Schumacher, Mareike  /  Flüh, Marie</hi> (2019):
+  CATMA 6.0.0 (Version 6.0.0). Zenodo. DOI: <ptr target="10.5281/zenodo.3523228"/>.
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Moretti, Franco</hi> (2013): 
+  <hi rend="italic" style="font-family:Open Sans">Operationalizing: or the function of measurement in modern literary theory.</hi>
+  <ref target="https://litlab.stanford.edu/LiteraryLabPamphlet6.pdf">https://litlab.stanford.edu/LiteraryLabPamphlet6.pdf</ref>
+  <hi style="font-family:Open Sans" xml:space="preserve"> [zuletzt geprüft: August 8, 2019]. </hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Oatley, Keith /  P.N.  Johnson-Laird </hi> (1987): “Towards a cognitive theory of emotions”. In: 
+  <hi rend="italic" style="font-family:Open Sans">Cognition and Emotion</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> 1, 1987, 29–50.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Plutchik, Robert </hi> (1984): “Emotions. A general psycho-evolutionary theory”. In: Klaus Scherer und Paul Ekman (Hrsg.): 
+  <hi rend="italic" style="font-family:Open Sans">Approaches to emotion.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Hillsdale: Erlbaum, 197–200.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Schumacher, Mareike </hi> (2020 [1)]: "Named Entity Recognition und Reverse Engineering". In: 
+  <hi rend="italic" style="font-family:Open Sans">Lebe lieber literarisch</hi>, Januar 2, 2020, 
+  <ref target="http://lebelieberliterarisch.de/named-entity-recognition-und-reverse-engineering">http://lebelieberliterarisch.de/named-entity-recognition-und-reverse-engineering/</ref>, [zuletzt geprüft: Januar 3, 2020].
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Schumacher, Mareike </hi> (2020 [2)]: “Automatische Erkennung von Figuren-Gender – das erste Modell.” In: 
+  <hi rend="italic" style="font-family:Open Sans">m*w</hi>
+  <hi style="font-family:Open Sans">, Januar 3, 2020,</hi>
+  <ref target="https://msternchenw.de/?p=158">https://msternchenw.de/automatische-erkennung-von-figuren-gender-das-erste-modell</ref>, [zuletzt geprüft: Januar 3, 2020].
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Schumacher, Mareike </hi> (2020 [3)]: "Genderstereotype in der Literatur - erste Analysen". In: 
+  <hi rend="italic" style="font-family:Open Sans">Lebe lieber literarisch</hi>
+  <hi style="font-family:Open Sans">, Januar 7, 2020,</hi>
+  <ref target="http://lebelieberliterarisch.de/genderstereotype-in-der-literatur-erste-analysen/">http://lebelieberliterarisch.de/genderstereotype-in-der-literatur-erste-analysen/</ref>, [zuletzt geprüft: Januar 7, 2020].
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Schwarz-Friesel, Monika</hi> (2017): “Das Emotionspotenzial literarischer Texte.” In: Betten, Anne, Ulla Fix und  Berbeli Wanning (Hrsg): 
+  <hi rend="italic" style="font-family:Open Sans">Handbuch Sprache in der Literatur</hi>
+  <hi style="font-family:Open Sans">. Berlin, Boston: De Gruyter, 351-370.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi style="bold">Simmel, Georg </hi> (1986): “Das Relative und das Absolute im Geschlechter-Problem.” In: 
+  <hi rend="italic" style="font-family:Open Sans">Philosophische Kultur. Über das Abenteuer, die Geschlechter und die Krise der Moderne.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Berlin: Klaus Wagenbach, S. 64–93.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Stephan, Inge</hi> (2003): “Im toten Winkel. Die Neuentdeckung des ‚ersten Geschlechts’ durch men’s studies und Männlichkeitsforschung.” In: dies., Claudia Benthien (Hrsg.): Männlichkeit als Maskerade. Kulturelle Inszenierung vom Mittelalter bis zur Gegenwart. In: Stephan, Inge, Sigrid Weigel: 
+  <hi rend="italic" style="font-family:Open Sans" xml:space="preserve">Literatur – Kultur – Geschlecht. Studien zur Literatur- und Kulturgeschichte. </hi>
+  <hi style="font-family:Open Sans">Kleine Reihe, Band 18. Köln/Weimar/Wien: Böhlau Verlag, 11–35.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Underwood, Ted</hi> (2019): 
+  <hi rend="italic" style="font-family:Open Sans">Distant Horizons.</hi>
+  <hi style="font-family:Open Sans" xml:space="preserve"> Chicago: The University of Chicago Press.</hi>
+</bibl>
+<bibl rend="normal">
+  <hi rend="bold">Weitin, Thomas / Katharina Herget</hi> (2017): “Falkentopics. Über einige Probleme beim Topic Modeling literarischer Texte.” In: Hartmut Bleumer, Rita Franceschini, Staphan Habscheid, Constanze Spieß und Niels Weber  (Hrsg.): 
+  <hi rend="italic" style="font-family:Open Sans">Scalable Reading</hi>
+  <hi style="font-family:Open Sans">. Zeitschrift für Literaturwissenschaft und Linguistik. 1/2017 (47), 1–20.</hi>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

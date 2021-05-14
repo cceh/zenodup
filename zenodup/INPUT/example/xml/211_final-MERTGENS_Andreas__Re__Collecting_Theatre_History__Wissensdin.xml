@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="211_final-MERTGENS_Andreas__Re__Collecting_Theatre_History__Wissensdin" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">(Re-)Collecting Theatre History: Wissensdinge, Biographien, Wirkungsräume</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Mertgens</surname>
+<forename>Andreas</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>a.mertgens@googlemail.com</email>
+</author>
+<author>
+<persName>
+<surname>Türkoğlu</surname>
+<forename>Enes</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>enes.tuerkoglu@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Probst</surname>
+<forename>Nora</forename>
+</persName>
+<affiliation>Universität zu Köln, Deutschland</affiliation>
+<email>nora.probst@uni-koeln.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T20:32:26.308823918</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Theater</term>
+<term>Nachlässe</term>
+<term>Prosopographie</term>
+<term>LIDO</term>
+<term>XML</term>
+<term>XSLT</term>
+<term>Biographie</term>
+<term>eXist-DB</term>
+<term>Netzwerke</term>
+<term>Digitalisierung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Umwandlung</term>
+<term>Sammlung</term>
+<term>Modellierung</term>
+<term>Netzwerkanalyse</term>
+<term>Daten</term>
+<term>Personen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="div1">
+<head>Fachwissenschaftliche Hintergründe</head>
+<p>
+Theaterhistorische Wissensdinge sind divers und unmittelbar mit vielfältigen historisch-kulturellen Bezügen aufgeladen. Die Objekte stammen teils unmittelbar aus der Aufführungspraxis (z.B. Masken und Requisiten) und sind damit Akteure und Zeugen des Geschehens. Zum Teil stammen sie aber auch aus Produktionsprozessen (z.B. Regiebücher, Bühnenbildentwürfe und -modelle) und ermöglichen damit einen Blick in die Prozesse, Mechanismen und Materialitäten des Theaters. Andere Objekte hingegen dokumentieren das ephemere Ereignis (z.B. Fotografien oder Kritiken) und erlauben so einen Zugriff auf die performativen Spuren einer Aufführung. Und wieder andere Objekte wie Programmhefte und Theaterzettel beinhalten historisch-kulturelle Kontextinformationen. Ergänzend zu den genannten Objektarten tragen Ego-Dokumente wie Briefe und Kalender eher eine sozio-historische Bedeutung: Sie geben Hinweise auf die beteiligten Individuen sowie deren Lebensläufe und Beziehungen. Die Bedeutungsebenen und Bezüge der Objekte sind nicht statisch: Mit jeder neuen Kontextualisierung weiten sich ihre Bedeutungsräume aus. Oft befinden sich Objekte an den Schnittstellen von diversen Verwendungsmöglichkeiten – bspw. beschreiben Kritiken nicht nur, was auf der Bühne geschehen ist, sie bilden auch Publikumsreaktionen und damit einen wichtigen Teil der Rezeptionsgeschichte ab.<ref n="1" target="ftn1"/>
+<hi rend="background-color(#ffffff)"> </hi>
+</p>
+<p>
+Theateraufführungen lassen sich verstehen als das Ergebnis einer intensiven und oft monatelangen Zusammenarbeit unterschiedlichster Professionen: Akteur_innen<ref n="2" target="ftn2"/>
+<hi rend="background-color(#ffffff)"> aus den Tätigkeitsbereichen Regie, Darstellung, Bühnen- und Kostümbild, Bühnentechnik und vielen weiteren bilden ein komplexes Netzwerk, das für einen begrenzten Zeitraum besteht und im organisierten Zusammenspiel eine Inszenierungsidee auf der Theaterbühne verwirklicht. Theaterhistorisch relevante Forschungsobjekte beinhalten implizite und explizite Spuren dieser Verwirklichung. Der Wirkungsraum der Objekte erstreckt sich dabei sowohl auf Ereignisse als auch auf die Akteur_innen, die an diesen Ereignissen beteiligt waren. Die unterschiedlichen Ereignisse, zwischen denen Beziehungen und Interdependenzen bestehen, lassen sich als das Ergebnis von komplexen Interaktionen zwischen Akteur_innen beschreiben und können somit als Modelle für personenbezogene Interaktionsnetzwerke dienen. Um diese Netzwerke erfassen zu können, müssen nicht nur die relevanten Objekte mit </hi>
+<hi rend="background-color(#ffffff)">inhaltsreichen Daten erschlossen werden, sondern auch die Relationen zwischen diesen Daten modelliert werden. </hi>
+</p>
+<p>
+<hi rend="background-color(#ffffff)">Diesen vergänglichen Netzwerken von Ereignissen und Akteur_innen im 20. Jahrhundert spürt die Theaterwissenschaftliche Sammlung (TWS) in Zusammenarbeit mit Cologne Center for eHumanities (CCeH) nach. Das Forschungsprojekt </hi>
+<hi rend="background-color(#ffffff)italic">(Re-)Collecting Theatre History</hi>
+<hi rend="background-color(#ffffff)"> zielt auf die theaterwissenschaftliche Resystematisierung personenbezogener Bestände in den theaterhistorischen Sammlungen der Universität zu Köln und der FU Berlin sowie ergänzend der Theatermuseen Düsseldorf und München ab. Die scheinbare ‚Zufälligkeit‘ von Lebenswegen, die sich nicht den Ordnungsbegriffen der politischen oder der Kunstgeschichte unterordnet, soll zum Ausgangspunkt genommen werden, um die Netzwerke ebenso zu erhellen wie die Frage nach personellen und ästhetischen Kontinuitäten im Theaterbetrieb.</hi>
+</p>
+<p>Die im Projekt entwickelte Plattform eröffnet Querverbindungen und Vergleichsmöglichkeiten der Bestände in den wichtigsten universitären Theatersammlungen und öffentlichen Theatermuseen in Deutschland – als solche ist sie offen und auch für zukünftige Projekte erweiterbar –, und schafft dadurch ein umfangreiches Forschungsnetzwerk.</p>
+</div>
+<div type="div1">
+<head>Metadaten: Modell und Erfassung</head>
+<p>Aus methodischer Sicht lässt sich das Projekt auf den ersten Blick zwar noch als klassische Nachlassdigitalisierung und Erschließung beschreiben, doch schon auf den zweiten Blick wird deutlich, dass die einfache Erfassung von objektbezogenen Metadaten keine ausreichende Datengrundlage für die intendierte Aufdeckung und Erforschung der beschriebenen komplexen Netzwerk- und Interaktionsstrukturen bieten würde. Die Gesamtheit der Objekte und, in Konsequenz daraus, die Objektdatenbank bildet zwar das Rückgrat des Projektes, sie muss aber den gesamten sozio-historischen Wirkungsraum und Kontext der Objekte erfassen können und darf nicht auf die reine materielle Beschreibung beschränkt sein. </p>
+<p>Für das Projekt war klar, dass ein Metadaten-Standard wie z.b. Dublin-Core hier viel zu kurz greifen würde und nicht die nötige Spezifität und semantische Tiefe wiedergeben kann. Stattdessen werden die Daten im LIDO (Lightweight Information Describing Objects) Standard erfasst. Dieser ermöglicht eine detaillierte Objektbeschreibung, bietet darüber hinaus aber auch Strukturen für die Beschreibung von “events” und “actors”. Als weit verbreiteter Standard in der Museums- und Sammlungswelt bietet LIDO zum einen eine Basis für konsistente und vergleichbare Datenerhebung, zum anderen genügend Flexibilität und Spielraum innerhalb der Strukturen um die sozio-kulturellen Kontexte der Objekte beschreiben zu können. LIDO ist das Produkt einer CIDOC-Arbeitsgruppe und ist mit den Ansätzen von CIDOC Conceptual Reference Model (CRM) zu großen Teilen konform. Insbesondere bildet die Event-Actor-Struktur der CRM Ontologie einen Kernaspekt des LIDO Standards, der in diesem Projekt von besonderem Interesse und Nutzen war. Durch diese eventbasierte Modellierung können die Daten auch für Graphdatenbank- und Netzwerkansätze verwendet werden, ohne das Objekt, dessen Beschreibung natürlich der Kern eines Nachlass-Projektes bleiben muss, als Informationsträger aus dem Fokus zu verlieren. Ein LIDO Dokument kann auch jederzeit in CRM übersetzt werden, um die Daten für andere Forschungsziele zu verwenden.</p>
+<p>Neben den unmittelbar objektbezogenen Metadaten enthält jeder Datensatz Daten zu drei vordefinierten Ereignissen: “Herstellung”, “Inszenierung” und “Erwerb”, welche die Biographie der Objekte rudimentär nachzeichnen. Zusätzlich können weitere nicht vordefinierte Ereignisse aufgenommen werden. Ihnen können jeweils beliebig viele Akteure zugeordnet werden. Mit diesen Strukturen können dann komplexe Aussagen erfasst werden wie z.B. “Die Maske wurde von einer bekannten Requisitenwerkstatt hergestellt” oder “Schauspieler X war der Inszenierung Y beteiligt, die auf diesem Programmzettel beschrieben wird”. Es werden also teilweise bereits in den objektbezogenen Daten Beziehungen zwischen Akteuren, Ereignissen und Objekten explizit modelliert und beschrieben. </p>
+<p>Interoperabilität und Nachhaltigkeit haben für solch ein Erschließungsprojekt maßgebliche Bedeutung. Um beides zu gewährleisten, spielen Normdaten und kontrollierte Vokabulare eine wichtige Rolle. Insbesondere personenbezogene Daten profitieren von Verknüpfungen zu externen Datensätzen. Daher werden die Personendatensätze mit GND-Nummern verknüpft (sofern vorhanden). Außerdem werden die Objekttypen unter Zuhilfenahme des Art and Architecture Thesaurus (AAT) erfasst, da sich der heterogene theaterhistorische Objektbestand mit der polyhierarchischen und multilingualen Struktur des AAT adäquat erfassen lässt. Für weitere Datenfelder und -typen, für die keine passende Standards existieren (z.B. Funktionen der Personen oder erweiterte Eventtypen), werden Theaterwissenschafts-spezifische Vokabulare entwickelt, die möglicherweise hilfreich sein können für die zukünftige Weiterentwicklung der LIDO-Terminologie.<ref n="3" target="ftn3"/>
+</p>
+<p>
+An dieser Stelle ist es wichtig anzumerken, dass LIDO als umfangreiches Datenaustauschformat entwickelt worden ist. Um LIDO für das Projekt effektiv nutzen zu können, wurde ein LIDO-Sub-Schema für die projektspezifischen Bedürfnisse entwickelt, das im Laufe des Projektes erweitert und an die Bedürfnisse des Projekts angepasst wurde. Die Eingabe der Daten findet über den LIDO-Maker statt, der auf dem Metadateneditor CMDI-Maker basiert und entsprechend weiterentwickelt wurde.<ref n="4" target="ftn4"/>
+</p>
+</div>
+<div type="div1">
+<head>Von Objektdaten zu Akteur- und Inszenierungsdaten</head>
+<p>Verwandte Projekte wie z.B. IbsenStage oder AusStage<ref n="5" target="ftn5"/>
+stellen die breite Erfassung von Ereignissen, Akteuren und anderen Entitäten in den Vordergrund, und erfassen Objektbezüge nur mit rudimentäre Metadatensets. Auch im institutionsübergreifenden Nachweis- und Rechercheportal 
+                    <hi rend="italic">performing-arts.eu</hi><ref n="6" target="ftn6"/>
+(FID Darstellende Kunst) werden nur die Kerndaten zu Objekten präsentiert. Der Ausgangspunkt dieses Projektes ist dagegen die detaillierte Erschließung von Nachlassobjekten. In der Objektdatenbank werden, wie beschrieben, bereits Informationen zu den Beziehungen von Objekten zu Ereignissen und Akteur_innen explizit erfasst. Dagegen sind die Beziehungen zwischen Akteur_innen oder zwischen Ereignissen bisher nur impliziert. Um diese erforschbar und auch referenzierbar zu machen, wurden mithilfe von XSLT zwei zusätzliche Datenbanken aus der im ersten Schritt erstellten LIDO-Objektdatenbank extrapoliert. Um die komplexen XSL-Transformationen kontrollieren zu können, wurden Prinzipien der Konversionspipelines umgesetzt, so dass der Prozess der Datenkuratierung offen gelegt wird. (Barabucci 2018).
+                </p>
+<p>Die Personendaten orientieren sich hierbei an der Struktur des TEI:person-Modells<ref n="7" target="ftn7"/>, wurden aber mit einigen projektspezifischen Elementen und Attributen ergänzt. Analog dazu wurden auch die Inszenierungsdaten explizit modelliert, indem die Informationen zu einer spezifischen Inszenierung, die aus unterschiedlichen Objekten stammen, kohärent zusammengefügt wurden. In diesem Schritt wurden eindeutige Bezeichner (UUID) zu den Personen- und Inszenierungsdaten zugeordnet, so dass diese nun schon bei der Erfassung von neuen Objektdatensätzen referenziert werden können. Auch die Referenzierungen der Daten untereinander und die entsprechende Abfragen zu diesen Referenzen werden ermöglicht, um nah an der Idee der Netzwerke bleiben zu können. 
+                </p>
+<p>Innerhalb eines Akteur_in-Datensatzes sind dann komplexe personenbezogene Informationen wie Wirkungsorte und damit auch Karriereverläufe unmittelbar abrufbar. Wenn eine Person in einem Objektdatensatz als Hersteller_in des Objektes vorkommt – bspw. als Bühnenbildner_in eines Bühnenbildmodells, so wird diese Information einerseits als Objektbezug verarbeitet, andererseits landet sie im Personendatensatz als Berufs- oder Tätigkeitsbeschreibung mit zeitlichen und örtlichen Angaben. Außerdem wird die Verknüpfung mit der entsprechenden Inszenierung gewährleistet, die mit dem jeweiligen Objekt in Beziehung steht. Somit ist die Person nicht nur als Hersteller_in eines Objektes signifikant, sondern auch als Akteur_in der Inszenierungen.</p>
+</div>
+<div type="div1">
+<head>Ausblick und Fazit</head>
+<p>Als letzter Schritt von der reinen Objektdatenerfassung hin zu einer Plattform, die Akteur_innen- und Inszenierungdatenbank vernetzt, wurden im Projekt experimentell Möglichkeiten der weiteren Datenanreicherung angedacht und bereits in Teilen umgesetzt. </p>
+<p>So wurden zum Beispiel, um weitere Informationen über die biographische Hintergründe der Akteur_innen zu erhalten, die biographischen Artikel (ADB und NDB) von der 
+<hi rend="italic">Deutschen Biographie</hi>
+mithilfe der dort bereitgestellten API für die im Projekt erfassten Akteure abgefragt.<ref n="8" target="ftn8"/>
+<hi rend="background-color(#ffffff)"> Informationen zu den familiären und beruflichen Hintergründen werden mithilfe eines Skriptes extrahiert und nach einer Überprüfung in die Datensätze der Akteur_innendatenbank eingepflegt. Weiteren biographische Informationen werden aus studentischen Dossier übernommen, die im Rahmen des Projektes von Studierenden der Universität zu Köln erarbeitet wurden. </hi>
+</p>
+<p>
+<hi rend="background-color(#ffffff)">Diese zwei Ansätze der Datenanreicherung sind als Schritt zu einer Öffnung von Diskussions- und Interaktionsräumen mit den Daten zu verstehen. Gleichzeitig besteht auch der Wunsch die im Projekt erarbeiteten Personendaten anderen Projekten zur Verfügung zu stellen, um so auch über den Projekt und Theaterkontext hinausgehende, prosopographische Studien zu ermöglichen. Hierbei erwies sich der Ansatz von einer prosopographischen Schnittstelle als sinnvoll – Personendaten </hi>
+profitieren von der Interoperabilität, die automatisierte Extraktion von Personenrelationen ermöglicht. (cf. Vogeler 2019).<ref n="9" target="ftn9"/>
+</p>
+<p>Als ein Ergebnis der Datenanalyse konnte zum Beispiel festgestellt werden, dass ein Akteur immer wieder an zentraler Stelle auftauchte: Carl Hagemann (1871-1945), der vor allem in den 1910er und 1920er Jahren als Intendant in Mannheim, Hamburg, Wiesbaden und beim frisch gegründeten Rundfunk in Berlin sowohl als Regisseur wie auch als Organisator tätig war. Darüber hinaus hat Hagemann in seiner gesamten Laufbahn intensiv als Autor gewirkt. Da sich anhand dieses Akteurs die komplexen Netzwerke der Theaterschaffenden besonders eindrücklich zeigen lassen, wurden die Bezüge zu seiner Theaterarbeit bei den zu digitalisierenden Objekten in den Nachlässen bevorzugt berücksichtigt. Hagemann repräsentiert in diesem Sinne idealtypisch auch jene im Antrag in den Blick genommenen biographischen Verläufe, die unterschiedliche historische Zäsuren überspannen.</p>
+<p>Es lässt sich festhalten, dass es durch die Daten- und Prozessmodellierung realisierbar ist, aus den Objektdaten Datensätze zu extrahieren, die unterschiedlich modelliert und anders definiert sind - wie beispielsweise Akteure oder Ereignisse. Auf diese Weise agieren sie nicht mehr objektgebunden, stehen mit ihnen aber noch immer in engen relationalen Beziehungen. Hiermit können die Datensätze sowohl komplexe Interaktionsnetzwerke zwischen Entitäten abbilden als auch unabhängig vom intendierten Zweck alleinstehend verwendet werden. Mit dieser Aufbereitung wird eine Datenbasis generiert, die als Grundlage für eine Forschungsumgebung dient. Im Laufe des Projektes wurden bisher 1217 Objekte erfasst. Mit Hilfe dieser Objekten sind 3198 Akteur_innen und 290 Ereignisse erschlossen worden. Diese Basis erlaubt zum einen die theaterwissenschaftliche Neuperspektivierung der Bestände, zum anderen kann sie durch die generierten Netzwerke als Grundlage einer fachwissenschaftlichen Neukonfiguration der zentralen Epochen von Theater- und Kulturgeschichte der Moderne genutzt werden.</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+    Von dem Arbeitsbuch “100 Jahre Theaterwissenschaftliche Sammlung Köln Dokumente, Pläne, Traumreste” kann ein Überblick über die Forschung an theaterwissenschaftlich relevanten Objekten und deren Kontexte gewonnen werden (Marx, 2019)</note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Der Begriff “Akteur_in” wird hier weit gefasst und bezieht sich sowohl auf natürliche Personen als auch auf Körperschaften.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">siehe Stand von LIDO Terminology unter: 
+    <ptr target="http://terminology.lido-schema.org/"/>.
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      <ptr target="http://cmdi-maker.uni-koeln.de/"/>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      <ptr target="https://ibsenstage.hf.uio.no/"/>, <ref target="https://www.ausstage.edu.au/pages/browse/">https://www.ausstage.edu.au/</ref>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      <ptr target="https://www.performing-arts.eu/"/>
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">siehe 
+    <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-person.html">https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-person.html</ref>
+    </note>
+    <note n="8" rend="footnote text" xml:id="ftn8">
+      <hi rend="color(#000000)">siehe </hi>
+      <ref target="https://www.deutsche-biographie.de/">https://www.www.deutsche-biographie.de</ref>,
+      für API siehe <ptr target="http://data.deutsche-biographie.de/about/"/>
+    </note>
+    <note n="9" rend="footnote text" xml:id="ftn9">
+      siehe auch <ptr target="https://github.com/GVogeler/prosopogrAPhI"/>
+    </note>
+  </div>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+	<hi rend="bold">Barabucci, Gioele </hi> (2018): 
+	<hi rend="italic">Funktionale und deklarative Programmierung-basierte Methode für nachhaltige, reproduzierbare und verifizierbare Datenkuration</hi>. DHd Konferenz 2018: Kritik der digitalen Vernunft, 214–219, doi: 
+	<ptr target="https://doi.org/10.18716/KUPS.8085"/>  [letzter Zugriff 10. September 2019].
+      </bibl>
+      <bibl>
+	<hi rend="bold">Bogatzki, Jakob</hi> (2019): »(Re-)Collecting Theatre History. Neue Perspektiven biografischer und theaterhistoriografischer Forschung«, in: 
+	<hi rend="italic">Die vierte Wand</hi>, Heft 9, S. 26–29.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Deutsche Biographie</hi>. Hauptseite, 
+	<ref target="https://www.deutsche-biographie.de/">https://www.deutsche-biographie.de</ref> [letzter Zugriff 10. September 2019]
+      </bibl>
+      <bibl>
+	<hi rend="bold">Deutsche Biographie</hi>. Services, 
+	<ptr target="http://data.deutsche-biographie.de/about/"/>  [letzter Zugriff 10. September 2019]
+      </bibl>
+      <bibl>
+	<hi rend="bold">Illmayer, Klaus</hi> (2017): „Aufbau einer digitalen Infrastruktur für Theaterwissenschaft“ (Abstract),
+	<ptr target="https://www.uibk.ac.at/congress/dha2017/bilder-und-dateien/aufbau-einer-digitalen-infrastruktur-fuer-theaterwissenschaft.pdf"/>  [letzter Zugriff 7. September 2019].
+      </bibl>
+      <bibl>
+	<hi rend="bold">Leonhardt, Nic</hi> (2014): 
+	<hi rend="italic">Digital Humanities and the Performing Arts: Building Communities, Creating Knowledge</hi>.
+	Keynote auf der SIBMAS/TLA Konferenz, New York (NY), 12. Juni 2014,
+	<ptr target="https://mappinggth.hypotheses.org/files/2014/09/Nic-Leonhardt_DH-and-the-Performing-Arts_June-2014.pdf"/> [letzter Zugriff 3. August 2019].
+      </bibl>
+      <bibl>
+	<hi rend="bold">LIDO Working Group</hi>. What is LIDO, 
+	<ptr target="http://network.icom.museum/cidoc/working-groups/lido/what-islido/"/>
+	[letzter Zugriff 10. September 2019].
+      </bibl>
+      <bibl>
+	<hi rend="bold">LIDO Working Group</hi>. LIDO Terminology, 
+	<ptr target="http://network.icom.museum/cidoc/working-groups/lido/lido-technical/terminology/"/>
+	[letzter Zugriff 10. September 2019].
+      </bibl>
+      <bibl>
+	<hi rend="bold"> Marx, Peter W., Hrsg. </hi> (2019): 100 Jahre Theaterwissenschaftliche Sammlung Köln. Dokumente, Pläne, Traumreste. Berlin: Alexander Verlag.
+      </bibl>
+      <bibl>
+	<hi rend="bold"> Probst, Nora / Pinto, Vito</hi>: Re-Collecting Theatre History. Theaterhistoriografische Nachlassforschung mit Verfahren der Digital Humanities. In: Wihstutz, Benjamin; Hoesch, Benjamin (Hg.): Neue Methoden der Theaterwissenschaft (Druck in Vorbereitung).
+      </bibl>
+      <bibl>
+	<hi rend="bold">Vogeler, Georg / Vasold, Gunter / Schlögl, Matthias </hi> (2019): 
+	<hi rend="italic">Von IIIF zu IPIF? Ein Vorschlag für den Datenaustausch über Personen</hi>. In: Sahle, Patrick (Hg.): DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts. Frankfurt / Mainz. DHd. 2019 DOI: 
+	<ref target="http://doi.org/10.5281/zenodo.2600812">10.5281/zenodo.2600812</ref>. pp. 239-241. 
+      </bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

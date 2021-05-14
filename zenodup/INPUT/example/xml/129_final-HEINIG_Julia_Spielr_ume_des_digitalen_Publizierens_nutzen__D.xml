@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="129_final-HEINIG_Julia_Spielr_ume_des_digitalen_Publizierens_nutzen__D" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Spielräume des digitalen Publizierens nutzen: Das Online Journal „Entangled Religions“ als ,Research Hub’</title>
+<author>
+<persName>
+<surname>Heinig</surname>
+<forename>Julia</forename>
+</persName>
+<affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+<email>Julia.Heinig@ruhr-uni-bochum.de</email>
+</author>
+<author>
+<persName>
+<surname>Elwert</surname>
+<forename>Frederik</forename>
+</persName>
+<affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+<email>Frederik.Elwert@rub.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Online Publishing</term>
+<term>Open Encyclopedia System</term>
+<term>Schnittstelle</term>
+<term>Verschlagwortung</term>
+<term>Facettensuche</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Veröffentlichung</term>
+<term>Organisation</term>
+<term>Software</term>
+<term>Text</term>
+<term>Werkzeuge</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+  <hi rend="italic">Entangled Religions</hi> ist ein Open Access Journal, das seit 2014 mit dem Themenschwerpunkt Religionskontakte im eurasischen Raum fortlaufend erscheint. Die Fallstudien beziehen sich dabei immer auf einen geographischen Ort oder Raum, eine spezifische Zeit sowie auf zwei oder mehr religiöse Traditionen, die miteinander in Kontakt treten. Durch den Einbezug analytischer Konzepte
+  (<hi rend="italic">tertia comparationis</hi>) durch die Autor*innen wird zudem die Möglichkeit geschaffen, einzelne Fallstudien miteinander in Bezug zu setzen und vergleichbar zu machen. 
+</p>
+<p>Um diese vergleichenden Aspekte auch für Leser*innen und Nutzer*innen zugänglich zu machen, wird das Journal derzeit zu einer innovativen Forschungsplattform ausgebaut. Erstens entstehen neue Zugriffsmöglichkeiten, Visualisierungen und Filterfunktionen für die journaleigenen Inhalte; zweitens werden die Inhalte von 
+<hi rend="italic">Entangled Religions</hi> durch Einbindung externer Ressourcen und Datenbanken angereichert. Wir verstehen dabei die Zukunft des wissenschaftlichen digitalen Publizierens nicht mehr als ein Nebeneinander von abgeschlossenen Publikationsorganen, sondern als ein Netzwerk digitaler Ressourcen, in dem der Artikel als Ganzes seine Bedeutung behält, Teile davon aber je nach Forschungsfrage dynamisch mit anderen wissenschaftlichen Texten sowie Forschungs- und Metadaten kombiniert werden können. 
+</p>
+<p>Obwohl die technischen Innovationen dies inzwischen erlauben, tendieren digitale Publikationen noch immer dazu, die Beschaffenheit von Printpublikationen zu kopieren 
+(Degkwitz 2013, 83; Kohle 2017, 200), anstatt die Spielräume der digitalen Umgebung zu nutzen. Dies wirkt sich unter anderem auf die verfügbare Journal Management Software aus: beispielsweise sieht 
+<hi rend="italic" xml:space="preserve">Open Journal Systems </hi>(OJS) noch immer das PDF als bevorzugtes Veröffentlichungsformat vor. Die Archiv-Ordnung der Artikel in Heften und Jahrgängen orientiert sich hierbei ebenfalls am gedruckten Gegenstück. Im Gegensatz dazu sehen wir das Archiv von
+<hi rend="italic" xml:space="preserve"> Entangled Religions </hi>als wachsenden Wissensspeicher, in dem Leser*innen über Grenzen einzelner Hefte hinaus Verbindungen herstellen können. 
+</p>
+<p>Das „Fehlen von Technologien, die Texte und Kontexte zur Geltung bringen können“ 
+(Söllner 2017, 10) führt unter anderem dazu, dass Online-Journale, die über die Funktionalitäten von OJS hinausgehen wollen, meist ein auf sie zugeschnittenes und in sich geschlossenes Journal Management System schaffen (vgl. bspw. 
+<hi rend="italic">Arcadia</hi> oder die 
+<hi rend="italic">Zeitschrift für digitale Geisteswissenschaft</hi>). Bei der Weiterentwicklung von 
+<hi rend="italic" xml:space="preserve">Entangled Religions </hi>soll im Gegensatz dazu mit Open Encyclopedia System (OES) ein bestehendes Open-Source-System nachgenutzt werden, das ursprünglich für Nachschlagewerke entwickelt wurde und nun am Beispiel von 
+<hi rend="italic">Entangled Religions</hi> zum ersten Mal für eine wissenschaftliche Zeitschrift genutzt wird. Das Endprodukt wird am Ende des Projektes ebenfalls zur Nachnutzung für andere Online-Journals zur Verfügung stehen. Der modulbasierte Aufbau von OES kommt dabei einer dynamischen Anpassung an unterschiedliche Anforderungen zugute. Hierbei soll an einem konkreten Beispiel aus der Religionsforschung ein Tool entwickelt werden, mit dem wissenschaftliche Texte nicht mehr isoliert für sich stehen, sondern durch Anreicherung mit Metadaten und Schlagworten – auch auf Paragraphenebene 
+(Schwaderer u. a. 2016) – offen für vielfältige Verknüpfungen werden. Das zu beobachtende gesteigerte Interesse an OES im deutschspracheigen Raum (beispielsweise am CeDiS und CeMoG Berlin sowie am SFB 948 in Freiburg) hat bereits zu einer Nutzung von OES in mehreren voneinander unabhängigen Projekten geführt. Eine Herausforderung für die kommenden Jahre ist der Aufbau einer gleichermaßen aktiven Entwicklercommunity, die die Weiterentwicklung stärker dezentralisiert. Die geplante Veröffentlichung des Codes als Open Source wird hierfür die Ausgangsbasis schaffen.
+            </p>
+<p>Ganz konkret planen wir die Umstellung des Online Journals zu einem ‚Research Hub‘ bis Mitte 2021 in den folgenden Schritten: </p>
+<list type="unordered">
+<item>Das geplante Journal Management System wird ermöglichen, die Journalinhalte nicht nur auf der Artikelebene mit Metadaten zu versehen, sondern auch einzelne Absätze zu verschlagworten (im Fall von 
+                    <hi rend="italic">Entangled Religions</hi> nach Ort, Zeit, Religion, theoretischem Konzept). Eine neue, facettierte Suche wird darauf aufbauend zulassen, gezielter relevante Auszüge eines Artikels zu entdecken und ausgehend von einer relevanten Passage eines Artikels über eine Empfehlungsfunktion ähnliche Passagen aus anderen Artikel zu finden. 
+                </item>
+<item>Die Verschlagwortung ist ebenfalls Grundlage für vielfältige Visualisierungsmöglichkeiten der Inhalte von 
+                    <hi rend="italic">Entangled Religions</hi>, beispielsweise auf einer digitalen Karte, Timeline oder Keywordcloud. 
+                </item>
+<item>Durch Anbindung externer Datenbanken und Bibliographien, wie RelBib und JSTOR, können über die journaleigenen Inhalte hinaus weitere relevanten Ressourcen entdeckt und aufgerufen werden. Neben der Nutzung standardisierter Schlagworte (z.B. GND) sollen verschiedene Recommender-Ansätze ausprobiert werden. Gemeinsam mit RelBib wird eine Schnittstelle für die dort genutzte Software VuFind implementiert, die es erlaubt die bislang nur innerhalb der Plattform verfügbare Ähnlichkeitssuche auch aus 
+                    <hi rend="italic">Entangled Religions</hi> heraus aufzurufen. Zusätzlich wird die Nutzung von Techniken des maschinellen Lernens für das Information Retrieval evaluiert. So können etwa über Topic Models ähnliche Artikel identifiziert werden, die nicht mit dem gleichen Schlagwortsystem ausgezeichnet werden. Hier ist die Einbindung von JSTOR Text Analyzer (Snyder 2017) angedacht, um passende Artikel aus JSTOR vorzuschlagen.
+                </item>
+</list>
+<p>Dementsprechend kommt die neue Wissensplattform erstens Forscher*innen und Leser*innen zugute, die mit Hilfe neuer Suchfunktionen relevante und ihnen unbekannte Forschungsliteratur finden sowie neue Zusammenhänge erschließen können. Die Plattform hilft Forscher*innen zudem “to find related content in unfamiliar disciplines or subject areas. In doing so, it breaks them out of the disciplinary or citation-based siloes that they’d been working in […]” 
+(Humphreys 2018). Zweitens profitieren Autor*innen von einer potentiell höheren Sichtbarkeit, da die Suche nach einzelnen Absätzen der Artikel eine neue Einstiegsmöglichkeit in wissenschaftliche Arbeit bietet.
+            </p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Degkwitz, Andreas</hi> (2013): “What Will Future Publications Be Like?”, in Hobohm Hans-Christoph (ed.): 
+                        <hi rend="italic">Informationswissenschaft zwischen virtueller Infrastruktur und materiellen Lebenswelten.</hi> Glückstadt: Verlag Werner Hülsbusch 81-92.
+                    </bibl>
+<bibl>
+<hi rend="bold">Humphreys, Alex</hi> (2018): “Sprechen Sie Textanalysierer? Creating a Multilingual Text Analyzer“. JSTOR Labs Blog. 
+                        <ref target="https://labs.jstor.org/blog/#!sprechen_sie_textanalysierer?-creating_a_multilingual_text_analyzer_">https://labs.jstor.org/blog/#!sprechen_sie_textanalysierer?-creating_a_multilingual_text_analyzer_</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kohle, Hubertus</hi> (2017): “Digitales Publizieren“, in Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds):
+                        <hi rend="italic" xml:space="preserve"> Digital Humanities</hi>. Stuttgart: J.B. Metzler 199–205 
+                        <ref target="https://doi.org/10.1007/978-3-476-05446-3_13">https://doi.org/10.1007/978-3-476-05446-3_13</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Schwaderer, Christian / Stäcker, Thomas / Walkowski, Niels Oliver / Baillot, Anne / Ernst, Thomas / Baum, Constanze / Chen, Esther / Steyer, Timo / Kaden, Ben / Kleineberg, Michael</hi> (2016): “Workingpaper ‘Digitales Publizieren‘“, in 
+                        <hi rend="italic">DHd Workingpaper</hi>
+<ref target="https://doi.org/10.15499/dhd-wp.001">https://doi.org/10.15499/dhd-wp.001</ref>.
+                    </bibl>
+<bibl rend="Bibliography">
+<hi rend="bold">Snyder, Ron</hi> (2017): “Under the Hood of Text Analyzer“. JSTOR Labs Blog. 
+                        <ref target="https://labs.jstor.org/blog/#!under_the_hood_of_text_analyzer">https://labs.jstor.org/blog/#!under_the_hood_of_text_analyzer</ref>. 
+                    </bibl>
+<bibl>
+<hi rend="bold">Söllner, Konstanze</hi> (2017): “1a. Warum und für wen Open Access?“, in Söllner, Konstanze / Mittermaier, Bernhard (eds.): 
+                        <hi rend="italic">Praxishandbuch Open Access</hi>. Berlin, Boston: De Gruyter 3–11 
+                        <ref target="https://doi.org/10.1515/9783110494068-001">https://doi.org/10.1515/9783110494068-001</ref>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

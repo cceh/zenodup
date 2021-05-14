@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="148_final-DU_Keli_Der_Spielraum_zwischen__zu_wenig__und__zu_viel_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Der Spielraum zwischen „zu wenig“ und „zu viel“</title>
+<author>
+<persName>
+<surname>Du</surname>
+<forename>Keli</forename>
+</persName>
+<affiliation>Universität Würzburg, Deutschland</affiliation>
+<email>keli.du@stud-mail.uni-wuerzburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Topic Modeling</term>
+<term>Evaluation</term>
+<term>Topics-Anzahl</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Entdeckung</term>
+<term>Inhaltsanalyse</term>
+<term>Methoden</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Ausgangspunkt</head>
+<p>
+Als eine quantitative textanalytische Methode wurde Topic Modeling<ref n="1" target="ftn1"/>
+<hi style="font-size:12pt" xml:space="preserve">in den letzten Jahren in Digital Humanities häufig eingesetzt, um zahlreiche unstrukturierte Textdaten zu explorieren. Wenn Topic Modeling verwendet wird, muss man zuerst selbst entscheiden, wie viel Topics trainiert werden sollen. Es ist zwar bekannt, dass die Topic-Anzahl erhebliche Einfluss auf das Topic-Modell hat. Aber es ist nicht so ganz klar, wie groß der Unterschied zwischen den zwei Topic-Modellen ist, wenn man diese zwei Topic-Modelle mit unterschiedlicher Topic-Anzahl auf demselben Korpus trainiert. </hi>
+</p>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">In (Wallach et al., 2009) wurde Perplexität als interne Evaluationsmaß des Topic-Modells vorgeschlagen. Ein Topic-Modell wird als ein statistisches Sprachmodell betrachtet. Je niedriger die Perplexitätswerte ist, ist das Modell besser. In (Murphy, 2012, S. 954-955) wurde vorgestellt, dass die Perplexität von LDA-Topic-Modell mit der Erhöhung von Topic-Anzahl reduziert (Abbildung 1). In (Jurafsky &amp; Martin, 2009, S. 43) wurde aber betont, dass die Korrelation zwischen Perplexität und Leistungsfähigkeit des Modells keine Kausalität ist. Deshalb kann eine interne Verbesserung in Perplexität nicht garantieren, dass das Modell bei den externen Aufgaben auf jeden Fall besser funktionieren kann. Eine End-to-End Evaluation (z. B. Dokument-Klassifikation) ist immer notwendig. </hi>
+</p>
+<figure>
+<graphic height="12.514791666666667cm" n="1001" rend="inline"
+	 url="148_final-1184f0d1cf41783399a0676ecd762327.png"
+	 width="15.980833333333333cm"/>
+<head> Abbildung 1: Perplexität vs. Topic-Anzahl auf TREC-AP-Korpus<ref n="2" target="ftn2"/> (Murphy, 2012, S. 955)</head>
+</figure>
+
+<p>
+Außerdem, wenn Topic Modeling für Forschung in Digital Humanities
+eingesetzt wird, interagieren die Benutzer normalerweise direkt mit
+Topics. Deshalb sind die standardmäßigen internen
+Evaluationsmethoden<ref n="3" target="ftn3"/> 
+<hi style="font-size:12pt" xml:space="preserve"> für die Evaluation des Topic-Modells nicht ausreichend, weil sie die Qualität bzw. die Interpretierbarkeit der Topics nicht wiederspiegeln können. Über den Einfluss der Topic-Anzahl auf die Interpretierbarkeit der Topics wurde zum Beispiel von Matthew Jockers erklärt, wenn ein Topic-Modell zu viel Topics enthält, könnten die Topics ungenügend semantisch verwandte Wörter enthalten, um sinnvolle und interpretierbare Kontexte/Themen zu bilden. Im Gegensatz dazu, könnte ein Topic-Modell mit zu wenigen Topics dazu führen, dass die Topics zu allgemein sind und sie im ganzen Korpus vorkommen (Jockers, 2013, S. 128). </hi>
+</p>
+<p>
+<hi style="font-size:12pt">Aber was heißen eigentlich „zu wenig“ und „zu viel“? Um ein besseres Verständnis von dem Spielraum zwischen „zu wenig“ und „zu viel“ zu bekommen, wurden die vorliegende Untersuchungen durchgeführt. Diese Arbeit konzentriert sich nicht darauf, eine Methode zu finden, die die ideale Topic-Anzahl schätzen kann. Diese Arbeit möchte auch nicht, die Leistungsfähigkeit des Topic-Modells zu evaluieren. Das Ziel der Untersuchung in dieser Arbeit ist den Einfluss der Topic-Anzahl auf das Topic-Modell aus zwei Perspektiven zu verstehen: Topic Modeling basierte Dokument-Klassifikation und Topic-Kohärenz.</hi>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Korpus und Tools</head>
+<p>
+Das Korpus der Untersuchung besteht aus 2000 deutschen Zeitungsartikeln zwischen 2001 und 2014<ref n="4" target="ftn4"/>. Sie teilen sich in 10 thematische Klassen: „Digital“, „Gesellschaft“, „Karriere“, „Kultur“, „Lebensart“, „Politik“, „Reisen“, „Sport“, „Studium“ und „Wirtschaft“. Jede Klasse enthält 200 Dokumente. Das Korpus enthält insgesamt über 3,4 Millionen Tokens und die durchschnittliche Dokumentlänge ist ca. 1700. Alle Dokumente sind lemmatisiert. Abbildung 2 stellt die Verteilung der Dokumentlänge dar. Die meisten Dokumente enthalten 1400 bis 2000 Lemmata. 
+</p>
+<figure>
+<graphic height="10.923763888888889cm" n="1002" rend="inline"
+	 url="148_final-0821d2d1fdfb89b14e2ec2167d932197.png"
+	 width="16.003763888888887cm"/>
+<head>Abbildung 2: Verteilung der Dokumentlänge </head>
+</figure>
+
+<p>
+<hi style="font-size:12pt" xml:space="preserve">Die Topic-Modelle wurden durch MALLET (McCallum, 2002) trainiert. Als Ergebnis bekommt man durch Topic Modeling eine Dokument-Topic-Verteilung und die Topics. In der Dokument-Topic-Verteilung wird jedes Dokument durch einen </hi>
+<hi rend="italic" style="font-size:12pt">n</hi>-dimensionalen Vektor repräsentiert, während 
+<hi rend="italic" style="font-size:12pt">n</hi>
+ die Topic-Anzahl des Topic-Modells ist. Aufgrund der Dokument-Topic-Verteilung wurde die Topic Modeling basierte Dokument-Klassifikation durchgeführt und die Klassifikation erfolgte als 10-fache Kreuzvalidierung mit linearer SVM. Die Topic-Kohärenz wurde durch das Java-Programm Palmetto<ref n="5" target="ftn5"/>
+<hi style="font-size:12pt" xml:space="preserve"> automatisch berechnet und die erste 10 wichtigste Topic-Wörter wurden für die Berechnung genommen. Das Referenzkorpus für die Berechnung der Topic-Kohärenz ist die lemmatisierte deutschsprachige Wikipedia. In Palmetto wurden mehrere Topic-Kohärenz-Maße implementiert. Für diese Arbeit wurde das Normalised Pointwise Mutual Information (NPMI) basierte Kohärenz-Maß genommen, das in (Aletras &amp; Stevenson, 2013) vorgeschlagen wurde.</hi>
+</p>
+<p>
+Vor der Topic Modeling basierten Dokument-Klassifikation wurde Bag-of-Words (BoW) basierte Klassifikation zuerst durchgeführt, um eine Baseline der Klassifikation zu definieren. Die Tests erfolgten auch als 10-fache Kreuzvalidierung mit linearer SVM<ref n="6" target="ftn6"/>
+<hi style="font-size:12pt">, bei welchen der Accurary 0,765 und der F1(Makro)-Wert 0,758 betrug. Eine Baseline des NPMI-Wertes wurde auch definiert. Mit nur einer Iteration wurden zuerst 18 Topic-Modelle auf das Untersuchungskorpus trainiert, die jeweils 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500 Topics enthalten. Dadurch wurden 3150 „Topics ohne Topic Modeling“ erstellt und die NPMI-Werte dieser Topics wurden dann berechnet und der Durchschnittswert ist die NPMI-Baseline: -0,0619. Die Baseline wird durch eine schwarze Linie in den unteren Abbildungen dargestellt.</hi>
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Die Untersuchungen</head>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">Das Ziel der folgenden Untersuchungen ist, den Einfluss der Topic-Anzahl zu überprüfen. Das Setting von Anzahl der Topics war </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> = 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500. Für alle anderen Parameter-Einstellungen wurden die vorgegebenen Werte von MALLET genommen. Standard-Stoppwörter wurden vom Korpus entfernt. Aus technischen Gründen, nämlich die zufällige Initialisierung bei der Zuweisung von Topics und Gibbs Sampling, sind zwei Topic-Modelle von einem Korpus nicht völlig identisch, auch wenn das Setting beim Training gleich eingestellt ist. Deshalb können die Ergebnisse der Dokument-Klassifikation und die Topic-Kohärenz von den zwei Modellen unterschiedlich sein. Es wurden deshalb 10 Modelle für jedes Setting trainiert, um den Einfluss von der technischen Seite sichtbar zu machen. </hi>
+</p>
+<p>
+<hi rend="bold" style="font-size:12pt" xml:space="preserve">Dokument-Klassifikation: </hi>
+<hi style="font-size:12pt" xml:space="preserve">Zuerst wurde der Einfluss von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> auf die Dokument-Klassifikation mit LDA-Modell untersucht. Abbildung 3 stellt die Verteilungen der Klassifikationsergebnisse dar, die auf 10 Topic-Modelle von jeweiligen Settings basieren. Eine aufsteigende Tendenz ist deutlich erkennbar, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> von 10 auf 80 erhöht wurde. Eine signifikante weitere Verbesserung der Klassifikation kann in der Abbildung nicht mehr beobachtet werden, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve">von 80 auf 500 erhöht wurde. Die meisten F1-Werte liegen zwischen 0,725 und 0,74. Am besten erzielte die Klassifikation das Accurarcy von 0,759 und den F1-Wert von 0,753. Eine Verbesserung gegenüber der Baseline konnte nicht festgestellt werden. Außerdem ist in der Abbildung zu beobachten, dass es größere Unterschiede unter den 10 Klassifikationsergebnissen gibt, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> = 10 ist. Diese große Abweichung zeigt, dass die zufällige Initialisierung und Gibbs Sampling eine größere Auswirkung auf das Training des Modells haben, wenn Topic-Modelle mit zu wenig Topics trainiert werden.</hi>
+</p>
+<figure>
+<graphic height="11.615208333333333cm" n="1003" rend="inline"
+	 url="148_final-a7575e03f271518b95281a7bae2564b7.png"
+	 width="15.980833333333333cm"/>
+<head>Abbildung 3: F1(Makro)-Werte der Topic Modeling basierten Dokument-Klassifikation im Verhältnis zu Anzahl der Topics </head>
+</figure>
+<p>
+<hi rend="bold" style="font-size:12pt" xml:space="preserve">Topic-Kohärenz: </hi>
+<hi style="font-size:12pt" xml:space="preserve">Die zweite Untersuchung bezieht sich auf den Einfluss von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> auf die Kohärenz der Topics. Die Verteilungsdichte der NPMI-Werte wird durch die Violin-Plots in der Abbildung 4 sichtbar dargestellt. Mit der Erhöhung von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> geht der Median der NPMI-Werte (der weiße Punkt in die Mitte jedes Violin-Plots) unter. Der gesamte Wertbereich der NPMI-Werte ist außerdem breiter geworden, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> von 10 auf 60 steigt. Der Wertbereich der mittleren 50% der Daten geht mit der Erhöhung von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> unter und ist hier besonders interessant. Der Bereich verbreitet sich zuerst, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> von 10 auf 100 steigt. Dann verengt der Bereich sich, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> von 150 auf 500 steigt. </hi>
+</p>
+<figure>
+<graphic height="11.58875cm" n="1004" rend="inline"
+	 url="148_final-91a587449b85259c2855181aa66cacb9.png"
+	 width="15.980833333333333cm"/>
+<head>Abbildung 4: NPMI-Werte der Topics im Verhältnis zu Anzahl der Topics </head>
+</figure>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">Wenn man die NPMI-Werte der Topics mit der Baseline vergleicht, ist zu sehen, dass man mit der Erhöhung von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> ständig durch Topic Modeling mehr Topics bekommen kann, deren NPMI-Wert größer als die Baseline ist (Abbildung 5, links). Aber wenn man diese absolute Anzahl normalisiert, also durch die gesamte Anzahl der Topics teilt, ist eine abnehmende Tendenz ganz deutlich erkennbar (Abbildung 5, rechts). Der Anteil von Topics, deren NPMI-Wert größer als die Baseline ist, sinkt von über 90% auf weniger als 30% ab. Das Ergebnis zeigt, dass man mit der Erhöhung von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt">durch Topic Modeling ständig viel mehr nicht kohärente Topics bekommen kann.</hi>
+</p>
+<figure>
+<graphic height="7.699375cm" n="1005" rend="inline" url="148_final-167164aa4e9797322d31eb36e6bf11a3.png" width="15.980833333333333cm"/>
+<head> Abbildung 5: Topics, deren NPMI-Wert größer als die Baseline ist (links: absolute Anzahl; rechts: Prozentzahl)</head>
+</figure>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">In der Abbildung 4 werden von links nach rechts 10 * </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve">, also 100 bis 5000 NPMI-Datenpunkte visualisiert. Um sicherzustellen, dass der Unterschied nicht auf eine ungleiche Anzahl von Datenpunkten zurückzuführen ist, wurde ein weiterer Test gemacht. Es wurden 500 Topic-Modelle à 10 Topics, 50 Topic-Modelle à 100 Topics und 10 Topic-Modelle à 500 Topics trainiert. Danach wurden die NPMI-Werte aller Topics berechnet und visualisiert. In der Abbildung 6 enthalten die drei Violin-Plots jeweils 5000 Datenpunkte. Hier wird eine ähnliche Verteilung wie in der Abbildung 4 beobachtet: Der gesamte Wertbereich verbreitet sich, der Median und der Wertbereich der mittleren 50% der Daten sinken, wenn </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve"> von 10 über 100 auf 500 erhöht wird.</hi>
+</p>
+<figure>
+<graphic height="11.694583333333334cm" n="1006" rend="inline" url="148_final-afe41055c77b93d12037f8f439f8a337.png" width="15.980833333333333cm"/>
+<head>Abbildung 6: NPMI-Wert-Verteilungen von drei Topic-Modelle, die jeweils 5000 Topics enthält </head>
+</figure>
+<p>
+<hi style="font-size:12pt">Wenn man die Topics überprüft, sind 10 Topics für 2000 Zeitungsartikel sogar nicht „zu wenig“. In der Tabelle 1 sind die Topics aus einem Topic-Modell mit 10 Topics und sie sind keine allgemeinen Topics, die für Menschen nicht interpretierbar sind. Trotz bestimmter „Geräusche“ (wie z. B. „www“ und „geben“ im Topic 10), können 8 Topics zu den entsprechenden Klassen zugeordnet werden. Auch wenn Topic 6 und 7 zwei Topics sind, in denen vorwiegend Verben gruppiert werden, können sie wegen den Wörtern „kind“, „arbeiten“ und „haus“ mit der Klasse „Lebensart“ oder „Gesellschaft“ verbunden werden.</hi>
+</p>
+<figure>
+  <head> Tabelle 1. 10 Beispieltopics aus einem 10-Topic Topic-Modell</head>
+<graphic height="15.478125cm" n="1007" rend="inline" url="148_final-e0f3bd4a2b3c5cf0ef49eb2b72674d86.png" width="15.980833333333333cm"/>
+</figure>
+
+<p>
+<hi style="font-size:12pt" xml:space="preserve">In der Tabelle 2 sind drei Gruppen von Beispieltopics aus drei Topic-Modellen, die jeweils 10, 100, 500 Topics enthalten. Da die meisten Wörter in Topic 1a, 2a und 3a (auch 1b, 2b und 3b) gleich sind, kann festgestellt werden, dass die sinnvollen Topics mit der Erhöhung von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+<hi style="font-size:12pt" xml:space="preserve">, statt sich in mehreren nicht kohärente Topics aufzulösen, kohärent bleiben können. Durch die Erhöhung von </hi>
+<hi rend="bold" style="font-size:12pt">T</hi>
+  werden eher weitere spezifische Topics produziert, wie z.B. „fußball, verein, fc, fan, stadion, bayern, bundesliga, spieler, trainer, liga“ oder „spielerin, birgit, frauenfußball, neid, tor, länderspiel, trabant, wm, sobiech, dfb“.<ref n="7" target="ftn7"/>
+</p>
+<figure>
+  <head>Tabelle 2: Drei Gruppen von Beispieltopics aus drei Topic-Modellen </head>
+<graphic height="9.710208333333334cm" n="1008" rend="inline" url="148_final-a42d32210c07fd022d609bee8ebfb893.png" width="15.980833333333333cm"/>
+</figure>
+
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Fazit</head>
+<p>
+<hi style="font-size:12pt">Die vorliegenden Untersuchungen haben den Spielraum im Sinne von Topic-Anzahl bei Topic Modeling aus zwei Perspektiven eingegrenzt, nämlich Dokument-Klassifikation und Topic-Kohärenz. Angesichts der Untersuchung ist es festzustellen, dass man vermeiden sollte, ein Topic-Modell mit zu wenig Topics zu trainieren, wenn man eine bessere Topic Modeling basierte Dokument-Klassifikation sichern möchte. Ein Topic-Modell mit hoher Topic-Anzahl zu trainieren kann auch mehr kohärente Topics erzielen. Aber gleichzeitig muss man mit noch mehr nicht kohärenten Topics kämpfen. Deshalb ist es notwendig, die Topic-Kohärenz nach Topic Modeling zu berechnen, um die kohärenten und die nicht kohärenten Topics zu unterscheiden. Am Ende muss noch betont werden, dass das Ergebnis abhängig von Untersuchungskorpus sein könnte. Deshalb ist es geplant, die gleiche Untersuchung auf anderen Korpora (z. B. statt Zeitungsartikeln eine Sammlung von literarischen Texten für die Untersuchung zu nehmen) in der Zukunft durchzuführen.</hi>
+</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+Topic Modeling ist eine Reihe von Algorithmen. Da das Latent Dirichlet allocation (LDA)-Modell am meisten verbreitetes Topic-Modell ist, bezieht „Topic Modeling“ und „Topic-Modell“ in dieser Arbeit sich nur auf LDA. 
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+<ref target="http://www.daviddlewis.com/resources/testcollections/trecap/">http://www.daviddlewis.com/resources/testcollections/trecap/</ref>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+Hier beziehen die internen Evaluationsmethoden sich nicht nur auf die Perplexität, sondern auch auf die Methoden, die in (Deveaud, SanJuan, &amp; Bellot, 2014); (Arun, Suresh, Veni Madhavan, &amp; Narasimha Murthy, 2010); (Cao, Xia, Li, Zhang, &amp; Tang, 2009) und (Griffiths &amp; Steyvers, 2004) vorgeschlagen wurden
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+Das Korpus ist eine private Textsammlung, die leider nicht veröffentlicht werden kann. Mit MALLET wurde das Korpus importiert und in eine MALLET-Datei umwandelt, die hier verfügbar ist:
+                            <ref target="https://www.dropbox.com/s/jpfhmtneu8q352z/Zeit_10_Klasse_lemma.mallet?dl=0">https://www.dropbox.com/s/jpfhmtneu8q352z/Zeit_10_Klasse_lemma.mallet?dl=0</ref>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+<ref target="http://aksw.org/Projects/Palmetto.html">http://aksw.org/Projects/Palmetto.html</ref>
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      <ref target="https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html">https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html</ref>
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      „birgit“, „trabant“ und „sobiech“ sind drei Namen, die mit dem Thema Frauenfußball verbunden sind. Birgit Prinz und Anne Trabant sind zwei ehemalige deutsche Fußballspielerinnen. Gabriele Sobiech ist die Autorin vom Buch „
+      <hi rend="italic">Spielen Frauen ein anderes Spiel?:- Geschichte, Organisation, Repräsentationen und kulturelle Praxen im Frauenfußball</hi>“
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Aletras, N. / Stevenson, M.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2013). Evaluating topic coherence using distributional semantics. In </hi>
+<hi rend="italic" style="font-size:12pt">Proceedings of the 10th International Conference on Computational Semantics (IWCS 2013) – Long Papers</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (pp. 13-22).</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Arun, R. / Suresh, V.,  / Veni Madhavan, C. E. /  Narasimha Murthy, M. N.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2010). On Finding the Natural Number of Topics with Latent Dirichlet Allocation: Some Observations. In M. J. Zaki, J. X. Yu, B. Ravindran, &amp; V. Pudi (Hrsg.), Advances in Knowledge Discovery and Data Mining (Bd. 6118, S. 391–402). </hi>
+<ref target="https://doi.org/10.1007/978-3-642-13657-3_43">
+<hi style="font-size:12pt">https://doi.org/10.1007/978-3-642-13657-3_43</hi>
+</ref>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Cao, J. / Xia, T. / Li, J. / Zhang, Y. / Tang, S.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2009). A density-based method for adaptive LDA model selection. Neurocomputing, 72(7–9), 1775–1781. </hi>
+<ref target="https://doi.org/10.1016/j.neucom.2008.06.011">
+<hi style="font-size:12pt">https://doi.org/10.1016/j.neucom.2008.06.011</hi>
+</ref>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Deveaud, R. / SanJuan, E. / Bellot, P.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2014). Accurate and effective latent concept modeling for ad hoc information retrieval. Document Numérique, 17(1), 61–84. </hi>
+<ref target="https://doi.org/10.3166/dn.17.1.61-84">
+<hi style="font-size:12pt">https://doi.org/10.3166/dn.17.1.61-84</hi>
+</ref>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Griffiths, T. L. / Steyvers, M.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2004). Finding scientific topics. Proceedings of the National Academy of Sciences, 101(Supplement 1), 5228–5235. </hi>
+<ref target="https://doi.org/10.1073/pnas.0307752101">
+<hi style="font-size:12pt">https://doi.org/10.1073/pnas.0307752101</hi>
+</ref>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Jockers, M. L.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2013). Macroanalysis: Digital methods and literary history. University of Illinois Press.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Jurafsky, D. / Martin, J. H.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2009): </hi>
+<hi rend="italic" style="font-size:12pt">Speech and language processing. An introduction to natural language processing, computational linguistics, and speech recognition. 2nd ed</hi>
+<hi style="font-size:12pt">. Upper Saddle River, N.J., London: Pearson Prentice Hall (Prentice Hall series in artificial intelligence).</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">McCallum, A. K.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2002). MALLET: A Machine Learning for Language Toolkit. http://mallet.cs.umass.edu (13.12.2019).</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:12pt">Murphy, K. P.</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (2012). </hi>
+<hi rend="italic" style="font-size:12pt">Machine learning: a probabilistic perspective</hi>
+<hi style="font-size:12pt">. MIT press.</hi>
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold" style="font-size:12pt" xml:space="preserve">Wallach, H. M. / Murray, I. / Salakhutdinov, R. / Mimno, D. </hi>
+<hi style="font-size:12pt" xml:space="preserve">(2009, Juni): Evaluation methods for topic models. In: </hi>
+<hi rend="italic" style="font-size:12pt">Proceedings of the 26th Annual International Conference on Machine Learning</hi>
+<hi style="font-size:12pt" xml:space="preserve"> (pp. 1105-1112),  ACM.</hi>
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">TREC-AP-Korpus:</hi>
+  <ref target="http://www.daviddlewis.com/resources/testcollections/trecap/">http://www.daviddlewis.com/resources/testcollections/trecap/</ref>
+  <hi style="font-size:12pt">(14.12.2019)</hi>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

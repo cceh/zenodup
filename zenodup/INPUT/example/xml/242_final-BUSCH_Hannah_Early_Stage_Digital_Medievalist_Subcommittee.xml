@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="242_final-BUSCH_Hannah_Early_Stage_Digital_Medievalist_Subcommittee" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Early Stage Digital Medievalist Subcommittee.</title>
+<title type="sub">Vernetzen, entgrenzen, Spielräume schaffen</title>
+</title>
+<author>
+<persName>
+<surname>Busch</surname>
+<forename>Hannah</forename>
+</persName>
+<affiliation>KNAW Huygens ING, Amsterdam; Universität Utrecht</affiliation>
+<email>hannah.busch@huygens.knaw.nl</email>
+</author>
+<author>
+<persName>
+<surname>Gengnagel</surname>
+<forename>Tessa</forename>
+</persName>
+<affiliation>Universität zu Köln; Cologne Center for eHumanities</affiliation>
+<email>tessa.gengnagel@uni-koeln.de</email>
+</author>
+<author>
+<persName>
+<surname>Schulz</surname>
+<forename>Daniela</forename>
+</persName>
+<affiliation>Bergische Universität Wuppertal; Herzog August Bibliothek Wolfenbüttel</affiliation>
+<email>dschulz@uni-wuppertal.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-04T11:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Mediävistik</term>
+<term>Nachwuchs</term>
+<term>Community</term>
+<term>Digital Medievalist</term>
+<term>Digitale Mediävistik</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Kommunikation</term>
+<term>Community-Bildung</term>
+<term>Kollaboration</term>
+<term>Lehre</term>
+<term>Curricula</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Obwohl mediävistische Forschung sich bereits seit
+	    geraumer Zeit digitaler Methoden bedient und in der
+	    Gründungsgeschichte des Humanities Computing, heute als
+	    Digital Humanities bekannt, eine herausragende Stellung
+	    einnimmt (s. Bleier et al. 2019: 1-12) , spiegelt sich
+	    diese real existierende Interdisziplinarität bisher kaum
+	    bis gar nicht in den im deutschsprachigen Raum etablierten
+	    mediävistischen Studiengängen wider. Dies mag umso mehr
+	    verwundern, als die digitale Mediävistik über
+	    vergleichsweise klar umgrenzte Fragestellungen,
+	    Anwendungsfelder und Vorgehensweisen verfügt; im Gegensatz
+	    zu den allgemeiner gehaltenen Digital Humanities, zu denen
+	    es einige Lehrstühle und Studiengänge gibt,<ref n="1" target="ftn1"/>
+<!-- <hi rend="endnote_reference"> -->
+<!--     <note place="end"> -->
+<!--         <p rend="endnote text"> Für ein ausführliches Verzeichnis der DH Studiengänge siehe https://registries.clarin-dariah.eu/courses/</p> -->
+<!--     </note> -->
+<!-- </hi> -->
+		wenngleich lokal wiederum meist mit fachlicher Einschränkung (s. Trier, Leipzig, Stuttgart, Würzburg, Köln, siehe außerdem Sahle 2016) . Themenfelder, denen sich die digitale Mediävistik dezidiert widmet, sind – um nur einige Beispiele zu nennen – computergestützte Analysen von paläographischen Befunden (DigiPal, KPDZ/ CPDA 1-4), historisch-geographische Informationssysteme im mediävistischen Kontext (Mapping Medieval Conflict) und der Einsatz des Maschinellen Sehens zur Mustererkennung in mediävistischen Bildwerken (Computer Vision Lab Heidelberg).
+            </p>
+<p>Zu den Herausforderungen einer solch interdisziplinären und im besten Fall auch innovativen Forschung kommen für den wissenschaftlichen Nachwuchs, wie bereits angedeutet, weitere Herausforderungen hinzu: Neben der Frage der Ausbildung stehen hier vor allen Dingen Fragen nach Karriereperspektiven, Anerkennung alternativer Publikationsformen (die Publikation von Forschungsdaten (vgl. Andorfer 2015) , die Debatte um die Vorzüge einer kumulativen Dissertation versus Monographie) und die Einbettung in bestehende fachliche Infrastrukturen im Vordergrund. Das neu gegründete Subcommittee der 
+                <hi rend="italic">Digital Medievalist</hi> Community, das sich an Early Stage Researcher richtet, hat sich zum Ziel gesetzt, dieser Gruppe eine Plattform zu bieten und den Gesprächsbedarf in einen Dialog mit der größeren Fachgemeinde zu übersetzen.
+            </p>
+<p>
+<hi rend="italic">Digital Medievalist</hi> ist eine internationale interessenbasierte virtuelle Forschungsgemeinschaft, die mit einem breiten thematischen Zuschnitt über Disziplingrenzen hinweg Wissenschaftler*innen unterschiedlicher Statusgruppen miteinander vernetzt und verschiedene Wege geht, um gemeinschaftlich Spielräume der einzelnen Fachdisziplinen zu erweitern. Die Gemeinschaft wurde bereits 2003 gegründet, seit 2005 ist sie Herausgeberin des gleichnamigen Open Access Journals. Unabhängig von Standorten bietet die 
+                <hi rend="italic">Digital Medievalist</hi> Community beispielsweise im Rahmen von gemeinsam organisierten Konferenzaktivitäten ein Netzwerk sowohl für etablierte Wissenschaftler*innen als auch für solche am Beginn ihrer wissenschaftlichen Karriere. Digital Medievalist steht allen Interessierten offen, unabhängig bestehender Erfahrungen in den Digital Humanities oder den mediävistischen Disziplinen, von absoluten Neulingen bis hin zu sogenannten Pionieren im Bereich der (digitalen) Mediävistik. 
+            </p>
+<p>Spielräume der DM Community sind bisher bereits, 
+                <hi rend="italic">in a nutshell:</hi>
+            </p>
+<list type="unordered">
+<item>Die 
+                    <hi rend="italic">Digital Medievalist</hi> Mailingliste : Mehr als 1.300 Abonnenten (Stand September 2019) nutzen diesen Kanal als Diskussionsplattform, um Rat einzuholen und um Informationen jeglicher Art im Bereich der (digitalen) Mediävistik zu teilen.
+                </item>
+<item>Das 
+                    <hi rend="italic">Digital Medievalist</hi> Journal: Verlagsunabhängige (APC freie) Open-Access Fachzeitschrift der Community; die wissenschaftliche Qualität der Artikel wird im Peer-Review-Verfahren gesichert. 
+                </item>
+<item>Die 
+                    <hi rend="italic">Digital Medievalist</hi> Webseite: Die Onlinepräsenz der Community versammelt alle Informationen über die Community: Wie wird man Mitglied? Wie ist die Organisation aufgebaut, wie lautet die Satzung? Darüber hinaus finden sich hier Ankündigungen sowie wie eine stetig aktualisierte Liste von vergangenen und anstehenden Konferenzen, Kolloquien, Workshops und Sommerschulen mit Relevanz für die (digitale) Mediävistik. Im Webblog werden zukünftig neben CfPs und Veranstaltungshinweisen Projekte und Tools aus der digitalen Mediävistik vorgestellt, auf aktuelle Veröffentlichungen verwiesen sowie die Reihe “ What do Digital Medievalists do? ” (Campagnolo 2017) weitergeführt.
+                </item>
+<item>
+<hi rend="italic">Digital Medievalist</hi> Zotero Bibliographie : Sammlung einschlägiger Literatur zu allen themenbereichen der digitalen Mediävistik.
+                </item>
+<item>Die 
+                    <hi rend="italic">Digital Medievalist</hi> Facebookgruppe mit mehr als 2.500 Mitgliedern sowie ein Twitteraccount @digitalmedieval mit derzeit über 6.000 Followern erweitern den Spielraum der Wissenschaftskommunikation. 
+                </item>
+</list>
+<p>Während der Postersession möchten wir die verschiedenen Initiativen der 
+                <hi rend="italic">Digital Medievalist</hi> Community vorstellen und die Vernetzung innerhalb der deutschsprachigen DH vorantreiben. Hierbei möchten wir vor allen Dingen die geplanten Aktivitäten des neugegründeten Postgraduate Subcommittees skizzieren und einen Peer-to-Peer-Austausch fördern. Das Subcommittee hat es sich zum Ziel gesetzt, einerseits bereits bestehende Aktivitäten wie den Blog auf der Webseite oder die Präsenz der Community auf Twitter zu beleben und andererseits ab 2020 neue eigene Aktivitäten in Angriff zu nehmen; hierzu zählen insbesondere die Organisation von gemeinsamen Panels (so etwa auf dem International Medieval Congress in Leeds) und die Produktion von einem Podcast, in dem Nachwuchsforscher zu Wort kommen sollen. Die Erhöhung der Sichtbarkeit der existenten Infrastrukturen soll außerdem Denkanstöße für eine Diskussion um interdisziplinäres Arbeiten, erforderliche Skills und eine Reform der universitären Curricula im mediävistischen Kontext liefern und damit auch in übergreifender Perspektive beispielhaft zu aktuellen Debatten um die Profilierung geisteswissenschaftlicher Disziplinen zwischen Tradition und gegenwärtigen Anforderungen beitragen.
+            </p>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+	      Für ein ausführliches Verzeichnis der DH Studiengänge
+	      siehe https://registries.clarin-dariah.eu/courses/
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold">Andorfer, Peter</hi> (2015):
+  „Forschungsdaten in den (digitalen) Geisteswissenschaften: Versuch
+  einer Konkretisierung“, Göttingen: GOEDOC (DARIAH-DE working papers
+  14)
+  <ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-7-2">http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-7-2</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Bleier, Roman / Fischer, Franz / Hiltmann, Torsten /
+  Viehhauser, Gabriel / Vogeler, Georg</hi> (2019):
+  „Digitale Mediävistik und der deutschsprachige Raum“ in: Das
+  Mittelalter 24. 1 : 1-12 DOI:
+  <ptr target="10.1515/mial-2019-0001"/>
+</bibl>
+<bibl>
+  <hi rend="bold">Campagnolo, Alberto</hi> (2017): „What do digital
+  medievalists do?“
+  <ref target="https://digitalmedievalist.wordpress.com/2017/08/10/what-do-digital-medievalists-do/">https://digitalmedievalist.wordpress.com/2017/08/10/what-do-digital-medievalists-do/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Computer Vision Lab Uni Heidelberg</hi>:
+  <ref target="https://hciweb.iwr.uni-heidelberg.de/compvis/">https://hciweb.iwr.uni-heidelberg.de/compvis/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">DigiPal</hi> (2011-2014): „Digital Resource and
+  Database of Palaeography, Manuscript Studies and Diplomatic“
+  <ptr target="http://www.digipal.eu/"/>
+</bibl>
+<bibl>
+  <hi rend="bold">Digital Medievalist Webseite</hi>: 
+  <ref target="https://digitalmedievalist.wordpress.com/">https://digitalmedievalist.wordpress.com/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Digital Medievalist Journal</hi>:
+  <ref target="https://journal.digitalmedievalist.org/">https://journal.digitalmedievalist.org/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Digital Medievalist Mailingliste</hi>: 
+  <ref target="https://digitalmedievalist.wordpress.com/mailing-list/">https://digitalmedievalist.wordpress.com/mailing-list/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Digital Medievalist on Facebook</hi>:
+  <ref target="https://www.facebook.com/groups/49320313760/">https://www.facebook.com/groups/49320313760/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Digital Medievalist on Twitter</hi>:
+  <ref target="https://twitter.com/digitalmedieval">https://twitter.com/digitalmedieval</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Digital Medievalist on Zotero</hi>:
+  <ref target="https://www.zotero.org/groups/2138266/digitalmedievalist">https://www.zotero.org/groups/2138266/digitalmedievalist</ref>
+</bibl>
+<bibl>
+  <hi rend="italic">Kodikologie und Paläographie im digitalen
+  Zeitalter 1-4 / Codicology and Palaeography in the Digital Age
+  1-4</hi> (2009, 2010, 2015, 2017):
+  Herausgegeben vom Institut für Dokumentologie und Editorik,
+  Norderstedt: BoD.
+  <ref target="https://www.i-d-e.de/publikationen/schriften/">https://www.i-d-e.de/publikationen/schriften/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Mapping Medieval Conflict</hi>:
+ <ref target="https://www.i-d-e.de/publikationen/schriften/">https://www.i-d-e.de/publikationen/schriften/</ref>
+</bibl>
+<bibl>
+  <hi rend="bold">Sahle, Patrick</hi> (2016) : “Zur
+  Professoralisierung der Digital Humanities” in: DHdBlog 23. März
+  2016
+  <ptr target="https://dhd-blog.org/?p=6174"/>
+</bibl>
+<bibl>
+Alle angegeben Links wurden am 4. Januar 2020 geprüft.</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="105_final-STEYER_Timo_Abstract_Enhancement__Potentiale_der_Dhd_Konfere" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Abstract Enhancement. Potentiale der DHd-Konferenzabstracts als Daten/Publikation</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Steyer</surname>
+<forename>Timo</forename>
+</persName>
+<affiliation>Forschungsverbund Marbach Weimar Wolfenbüttel, Deutschland</affiliation>
+<email>steyer@hab.de</email>
+</author>
+<author>
+<persName>
+<surname>Andorfer</surname>
+<forename>Peter</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften</affiliation>
+<email>Peter.Andorfer@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Cremer</surname>
+<forename>Fabian</forename>
+</persName>
+<affiliation>Max Weber Stiftung; Leibniz-Institut für Europäische Geschichte</affiliation>
+<email>Cremer@MaxWeberStiftung.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-05T00:04:51.74</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digitales Publizieren</term>
+<term>Daten</term>
+<term>Publikation</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Bereinigung</term>
+<term>Daten</term>
+<term>Metadaten</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="div1">
+<head>Das Abstract im Kontext</head>
+<p>Die Autoren haben auf der DHd2019 einen Hackathon zum Book of Abstracts durchgeführt, in dessen Rahmen sich die Teilnehmenden nicht nur mit der digitalen Publikation, sondern auch mit der Normierung der biobibliographischen Angaben und den Potentialen einer inhaltlichen Analyse der Abstracts auseinander gesetzt haben. (Andorfer et al. 2019) Dieser Beitrag greift die Erkenntnisse der Veranstaltung auf und soll sowohl die konzeptuelle Auseinandersetzung als auch die konkrete Implementierung weiterführen sowie die im Nachgang des Workshops erfolgten Arbeiten präsentieren. Dabei werden im Sinne des Konferenzthemas insbesondere experimentelle Ansätze hervorgehoben. Zwei Aspekte der Konferenzabstracts stehen im Fokus des Beitrags: 1.) das Abstract als eigenständige und reputierliche Publikation und 2.) die Abstracts als Datenquelle selbstreflexiver Untersuchungsansätze in den DH. Die wissenschaftliche Relevanz der Book of Abstracts der DHd-Jahrestagung bekräftigte zuletzt noch einmal Sahle in seiner Einführung des letzten Konferenzbandes (Sahle 2019, S.): „Books of Abstracts als durch peer review-Verfahren gefilterte und qualitätsgesicherte Summen der aktuellen Forschungen definieren das Feld, sind ein äußerst nützliches Instrument der Fachkommunikation und wertvolle Dokumente zum Beleg der Entwicklung über die Zeit.“</p>
+</div>
+<div type="div1">
+<head>Das Abstract als Publikation</head>
+<p>Der Anspruch an die Veröffentlichung der Konferenzbeiträge wird in
+dem bereits 2018 konstatierten „Status einer wissenschaftlich
+nutzbaren Publikation“ (Vogeler 2018) deutlich und mit dem letzten
+Band der DHd 2019 noch einmal unterstrichen (Sahle 2019): „Um das Ziel
+ganz klar zu formulieren: die hier vorgelegten Abstracts sind
+wissenschaftliche Texte eigenen Rechts, die auch bibliografisch
+fassbar sein sollen, um die eigenen Forschungsgebiete und die
+gewonnenen Erkenntnisse sichtbar machen zu können.“ Auf dem Weg zu
+einer digitalen Publikation, die sowohl informationswissenschaftliche
+Standards erfüllt als auch informationstechnologische Potentiale
+ausreizt, ergeben sich zum jetzigen Stand noch viel Raum für
+Entwicklung der Konferenzbeiträge (Cremer 2018). Die Book of Abstracts
+werden als Gesamtband in einer Druckfassung sowie als PDF
+publiziert. Daneben werden einzelne Beiträge von den Vortragenden auf
+verschiedenen Repositorien oder Webseiten unsystematisch
+veröffentlicht, darunter einzelne Abstracts, Poster, Präsentationen
+oder zugrundeliegende Daten.<ref n="1" target="ftn1"/> Der Beitrag evaluiert die Möglichkeiten und Voraussetzungen für eine eigenständige Publikation der einzelnen Abstracts mit persistenter Speicherung, zitationsfähiger Adressierung, bibliografischer Erfassung und multipler Repräsentationsform (PDF, HTML, TEI). Dabei werden auch dezentrale (z.B. Zenodo-Community) und zentrale Ansätze (z.B. zentrale Redaktion, eigene Infrastruktur) verglichen. Gegenüber traditionellen Formaten und Infrastrukturkomponenten im Sinne einer reputierlichen und zitierfähigen Publikationsform sollen auch experimentelle Repräsentationsformen betrachtet werden, um die vorhandenen Spielräume digitaler Publikationen auszuloten. Als Ausgangspunkt ist hier die im Rahmen des Hackathons entwickelte Präsentationsschicht zu nennen.<ref n="2" target="ftn2"/>
+</p>
+</div>
+<div type="div1">
+<head>Das Abstract als Daten</head>
+<p>
+Die Konferenzabstracts als TEI-basierte Veröffentlichungen demonstrieren ihr Potential als Untersuchungsgegenstand innerhalb des eigenen Faches (Sahle/Henny-Krahmer 2018; Hannesschläger/Andorfer 2018; Hoenen 2019; Kiefer 2019). Ein Desiderat der Untersuchungen bis dato ist die Betrachtung und Auswertung der in den Abstracts zitierten Literatur. Die Bibliographie wissenschaftlicher Artikel dient in der geisteswissenschaftlichen Forschung neben dem Nachweis der zitierten Literatur auch als Ressource für Recherche und Kontextualisierung (Andorfer, DWP 14, S. 24-25) sowie als Datenquelle für die Analyse von Publikations- und Zitationspraktiken (Nyhan/Duke-Williams 2014). Gerade in den Digital Humanities eröffnen sich durch die Verbindung mit Methoden der Netzwerkanalyse neue Untersuchungsansätze (Gao et al. 2018). Im Rahmen des Hackathons wurden die eingereichten Abstracts über Skripte automatisiert mit zusätzlichen Informationen angereichert sowie über manuelle Arbeiten in ihren Metadaten vereinheitlicht.<ref n="3" target="ftn3"/>
+Die bibliographischen Angaben in den Abstracts lagen jedoch in zu heterogenen Formen vor, so dass Auswertungen und Visualisierungen nicht möglich waren. Für das Poster werden diese Daten mit Unterstützung der DHd-AG Digitales Publizieren vereinheitlicht und in der Folge durch die Autoren in ersten Analyseergebnissen und Visualisierungen ausgewertet. Die aufgezeigten Potentiale ließen sich zudem multiplizieren, wenn auch die Konferenzabstracts früherer und folgender DHd-Tagungen aufbereitet werden können, um so auch Entwicklungen und Tendenzen eruieren zu können.
+</p>
+</div>
+<div type="div1">
+<head>Das Abstract in der Diskussion</head>
+<p>Viele Jahre nach Christines Borgmans “Call to Action for the Humanities” (Borgman 2010), der auch das digitale Publizieren jenseits der simplen Konversion der Papiermedien in das PDF-Format inkludierte, werden auch in den Digital Humanities die Möglichkeiten nicht ausgeschöpft und traditionelle Praktiken gepflegt (Kaden/Kleineberg 2017) – von dem Wechsel einer layoutbasierten zu einer strukturbasierten Publikationstechnik ganz zu schweigen (Stäcker 2013). Die DHd-Konferenzabstracts bergen dabei das Potential dieses Paradigma zu durchbrechen: die XML-basierte Einreichung, die datengestützten Analysemethoden und selbstreflexiven Ansätze des Faches, die technische Expertise der Einreichenden, die Kürze der Beiträge und die enge Vernetzung mit Infrastruktureinrichtungen. Das Poster soll auf die bisher erfolgten Arbeiten und die erzielten Ergebnisse aufmerksam machen sowie vor Ort die Diskussion um Möglichkeiten und Ressourcen sowie Relevanz und Reputation einer „erweiterten Publikation“ der DHd-Abstracts weiterführen. Die Autoren werden im Vorfeld der DHd2020 mit dem Organisationskomitee zur Anreicherung der diesjährigen Abstracts sowie Nutzung der HTML-Präsentationsschicht in Kontakt treten.</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      DHd-Community bei Zenodo: <ptr target="https://zenodo.org/communities/dhd"/>
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">DHd 2019 Book of Abstracts Hackathon: 
+    <ref target="https://dhd-boas-app.acdh-dev.oeaw.ac.at/">https://dhd-boas-app.acdh-dev.oeaw.ac.at</ref>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Die aufbereiteten Daten sind zu finden unter: https://github.com/csae8092/dhd-boas-data.
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+  <hi rend="bold"> Andorfer, Peter </hi> (2015): 
+  <hi rend="italic">Forschungsdaten in den (digitalen) Geisteswissenschaften. Versuch einer Konkretisierung,</hi> DARIAH-DE Working Papers, 14 
+  <ref target="urn:nbn:de:gbv:7-dariah-2015-7-2">urn:nbn:de:gbv:7-dariah-2015-7-2</ref>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Andorfer, Peter / Cremer, Fabian / Steyer, Timo </hi> (2019): DHd 2019 Book of Abstracts Hackathon, in: 
+  <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts </hi>
+  <ptr target="https://doi.org/10.20375/0000-000B-D512-0"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Borgman, Christine L. </hi> (2010): The Digital Future is Now: A Call to Action for the Humanities, in: 
+  <hi rend="italic">Digital Humanities Quarterly</hi> 003, Nr. 4.
+</bibl>
+<bibl>
+  <hi rend="bold"> Cremer, Fabian </hi> (2018): Nun sag, wie hältst Du es mit dem Digitalen Publizieren, Digital Humanities?, in: 
+  <hi rend="italic">Blog. Digitale Redaktion (blog)</hi>
+  <ptr target="https://editorial.hypotheses.org/113"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Gao, J. / Duke-Williams, O. / Mahony, S. / Ramdarshan Bold, M. / Nyhan, J. </hi> (2017):The Intellectual Structure of Digital Humanities: An Author Co-Citation Analysis, in: 
+  <hi rend="italic">Digital Humanities 2017</hi>
+  <ptr target="http://discovery.ucl.ac.uk/id/eprint/10052270"/> [letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Hall, Mark </hi> (2019): DH is the Study of dead Dudes, in:
+  <hi rend="italic">Hd 2019: multimedial &amp; multimodal Konferenzabstracts</hi>: 111-113
+  <ptr target="https://doi.org/10.5281/zenodo.2600812"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Hannesschläger, Vanessa / Andorfer, Peter </hi> (2018): 
+  <hi rend="italic">Menschen gendern? Datenmodellierung zur Erhebung von Geschlechterverteilung am Beispiel der TEI2016 Abstracts App</hi>
+  <ptr target="https://doi.org/10.5281/zenodo.1182576"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Henny-Krahmer, Ulrike / Sahle, Patrick </hi> (2019): Einreichungen zur DHd 2018, in: 
+  <hi rend="italic">DHd-Blog</hi> (blog), 29. März 2019 
+  <ptr target="https://dhd-blog.org/?p=9001"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Hoenen, Armin </hi> (2019): Einreichungen zur DHd 2019 II, in: 
+  <hi rend="italic">DHd-Blog</hi> (blog), 29. März 2019 
+  <ptr target="https://dhd-blog.org/?p=11418"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Kaden, Ben / Kleineberg, Michael </hi> (2019): Zur Situation des digitalen geisteswissenschaftlichen Publizierens – Erfahrungen aus dem DFG-Projekt ‚Future Publications in den Humanities‘, in: 
+  <hi rend="italic">Bibliothek Forschung und Praxis</hi> 41, Nr. 1 (2017): 7–14 
+  <ptr target="https://doi.org/10.1515/bfp-2017-0009"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Kiefer, Katharina </hi> (2019): Einreichungen zur DHd 2019, in: 
+  <hi rend="italic">DHd-Blog</hi> (blog), 29. März 2019 
+  <ptr target="https://dhd-blog.org/?p=11358"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Nyhan, Julianne / Duke-Williams, Oliver </hi> (2014): Joint and Multi-Authored Publication Patterns in the Digital Humanities, in:
+  <hi rend="italic">Literary and Linguistic Computing</hi> 29, Nr. 3 (1. September 2014) 
+  <ptr target="https://doi.org/10.1093/llc/fqu018"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Sahle, Patrick (ed.) </hi> (2019): 
+  <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts</hi>. Frankfurt am Main: Zenodo, 2019 
+  <ptr target="https://doi.org/10.5281/zenodo.2596095"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Stäcker, Thomas </hi> (2013): Wie schreibt man Digital Humanities richtig?, in: 
+  <hi rend="italic">Bibliotheksdienst</hi> 47, Nr. 1 
+  <ptr target="https://doi.org/10.1515/bd-2013-0005"/>[letzter Zugriff 30.08.2019].
+</bibl>
+<bibl>
+  <hi rend="bold"> Vogeler, Georg (ed.) </hi> (2018): 
+  <hi rend="italic">DHd 2018: Kritik der digitalen Vernunft. Konferenzabstracts</hi>. Köln, Universität zu Köln, 2018.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

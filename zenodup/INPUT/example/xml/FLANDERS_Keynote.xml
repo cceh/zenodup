@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="FLANDERS_Keynote">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>From Modeling to Interpretation</title>
+	<author>
+	  <persName>
+	    <surname>Flanders</surname>
+	    <forename>Julia</forename>
+	  </persName>
+	  <affiliation>College of Social Sciences and Humanities at the Northeastern University, USA</affiliation>
+	</author>
+      </titleStmt>
+      <!--<editionStmt>
+	  <edition>
+	  <date>2019-01-12</date>
+	  </edition>
+	  </editionStmt>-->
+      <sourceDesc>
+	<p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="ConfTool" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="ConfTool" n="subcategory">
+          <term>Keynote</term>
+        </keywords>
+	<keywords scheme="ConfTool" n="keywords">
+          <term/>
+        </keywords>
+        <keywords scheme="ConfTool" n="topics">
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="div2" rend="DH-Heading2">
+	<head> Abstract </head>
+	<p>Scholarly modeling and interpretation are complementary elements of a shared social geometry. In shaping corpora, editions, archives, and data sets, the work of modeling is directed at producing convergence and legibility: the preconditions of interpretation. The authority of such modeling work--the consensus it mobilizes and formalizes--is founded in the shared literacies that also animate even the most contrarian interpretive acts. The interpretive agency of the scholarly individual draws its power from the same sources, and moves along the same intellectual vectors, as the shared agency of the standards organization, the committee, the disciplinary imaginary. Modeling in this curation-based mode is a world-making tool whose products are not only models but also guidelines and specifications, constraint systems and conversion pathways, all operating to make a world whose interpretive gestures have been anticipated and accommodated in advance.</p>
+	
+	<p>The value of such curatorial work within academic digital humanities is considerable, but in the widening and socially urgent space of community-led archiving and public humanities research, these forms of power and agency need renewed scrutiny.  The sponsoring, authoritative "we" of the information standard elides the very publics who most need recognition. "Our" models do not yet account for the forms of knowledge and interpretive work arising in those publics. The processes by which digital models are created and applied are hermetic and enmeshed in technical interdependencies. Can we imagine instead  techniques, processes, and literacies that can support community-oriented and community-led modeling and interpretation for a new public digital humanities? </p>
+      </div>
+    </body>
+  </text>
+</TEI>

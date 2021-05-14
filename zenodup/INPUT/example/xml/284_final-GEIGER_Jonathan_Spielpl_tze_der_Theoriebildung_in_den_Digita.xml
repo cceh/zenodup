@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="284_final-GEIGER_Jonathan_Spielpl_tze_der_Theoriebildung_in_den_Digita" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Spielplätze der Theoriebildung in den Digital Humanities</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Geiger</surname>
+<forename>Jonathan</forename>
+</persName>
+<affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+<email>jonathan.geiger@adwmainz.de</email>
+</author>
+<author>
+<persName>
+<surname>Pfeiffer</surname>
+<forename>Jasmin</forename>
+</persName>
+<affiliation>Universität des Saarlandes, Lehrstuhl für Neuere deutsche Literaturwissenschaft | Medienwissenschaft, Saarbrücken, Deutschland</affiliation>
+<email>jasmin.pfeiffer@uni-saarland.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-05T00:04:51.74</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Workshop</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Digital Humanities</term>
+<term>Wissenschaftstheorie</term>
+<term>Theorie des Digitalen</term>
+<term>Methodenreflexion</term>
+<term>World Café</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Theoretisierung</term>
+<term>Community-Bildung</term>
+<term>Forschung</term>
+<term>Forschungsergebnis</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Die Digital Humanities (DH) existieren als Forschungsfeld (wenn auch nicht unter diesem Label) bereits seit den 1940er Jahren, so man Roberto Busas Projekt des Index Thomisticus als Grundstein ansieht. Wechselt man von der wissenschaftshistorischen zu einer wissenschaftspolitischen Perspektive und betrachtet Faktoren wie z. B. Forschungsförderungen und Projekte, sind die DH erst seit gut 10–20 Jahren Teil der (deutschen) Wissenschaftslandschaft. Ein Ringen um Akzeptanz ist teilweise bis heute zu beobachten. Gleichwohl lässt sich sagen, dass die DH mit Kuhn gesprochen durchaus mittlerweile den Status einer Normalwissenschaft erlangt haben und sich im Produktivbetrieb befinden.</p>
+<p>Typischerweise lässt sich in der wissenschaftlich-disziplinären Ontogenese nach der Etablierung einer Disziplin bzw. eines Forschungsfeldes der Übergang in eine neue Phase verzeichnen. Einerseits, weil sich durch den Produktivbetrieb und das vermehrte Einbringen vergleichbarer wissenschaftlicher Erkenntnisse Fragen nach dem epistemischen Status, der Validität, der Verwertbarkeit und der weiterführenden Fragenentwicklung stellen, andererseits, weil der wissenschaftspolitische Legitimationsdruck abnimmt und dadurch Ressourcen frei werden und sich neue Handlungsspielräume eröffnen. In dieser Phase der Reife und Entwicklung von Selbst-bewusstsein befinden sich die DH derzeit.</p>
+<p>
+Vereinzelte Beiträge zur theoretischen Reflexion der DH als solche, ihrer Objekte und Methoden, Diskussionen auf Twitter und Blogs, sowie Konferenzthemen (exemplarisch: der Titel der DHd-Konferenz 2018 “Kritik der digitalen Vernunft”) stellen eindeutige Marker für diesen Befund dar. Es ist allerdings auch zu konstatieren, dass sich an der von Thiel in der FAZ 2012 vorgebrachten Kritik an der Theorielosigkeit der DH (<ptr target="https://www.faz.net/aktuell/feuilleton/forschung-und-lehre/digital-humanities-eine-empirische-wende-fuer-die-geisteswissenschaften-11830514.html"/>, zuletzt abgerufen am 27.09.2019) bislang wenig verändert hat. Denn obwohl die Relevanz der Theoriebildung für die DH schon verschiedentlich betont wurde und immer wieder auch Theoriebeiträge vorgelegt werden, sind derlei Überlegungen bislang eher nebenbei und wenig zentralisiert in einzelnen, unabhängigen Projekten oder projektlosen Einzelarbeiten angestellt worden. Ähnlich institutionalisierte Diskurse wie z. B. im angelsächsischen Raum die “Debates in the Digital Humanities“ sucht man vergeblich. Im deutschsprachigen Raum entstanden so in der (bisweilen naiven) Akzentuierung der Entwicklung digitaler Werkzeuge klaffende Lücken in der Theoretisierung der Aktivitäten und Gegenstände, welche hinter der vordergründigen 
+<hi rend="color(#000000)">Methoden-Orientierung nicht sofort ins Auge springen. Da die Werkzeuge und Methoden ja einfach scheinbar “funktionieren”, werden Fragen nach ihrem epistemologischen Status verhängnisvollerweise allzu leicht in die zweite Reihe gestellt.</hi>
+</p>
+<p>Das Gebot der Stunde ist also die systematische wissenschaftlich-disziplinäre Selbstreflexion, Theoriebildung und epistemologische Positionierung der DH. Nachdrücklich sollte daher ein tiefgreifendes, akademisches Aufspüren jener Besonderheiten des Digitalen gefordert werden, die unter dem Signum des fundamentalen und allumfassenden Wandels einen Wissenschaftsbereich wie die DH nun schon seit einigen Jahrzehnten glaubwürdig rechtfertigen. Jene Suche sollte sich über die spezifischen Methoden der digitalen Transformation spannen. Was offenkundig fehlt sind z. B. informationstheoretische, kulturwissenschaftliche und philosophische Grundlagen und ein theoretisches Fundament, welches mit Hilfe einer flächendeckenden, systematischen Untersuchung die isolierten und verstreuten Ansätze sinnbringend und letztlich auch den einzelnen digitalen GeisteswissenschaftlerInnen Souveränität stiftend miteinander verknüpfen könnte. Insbesondere die Geisteswissenschaften, die sich durch ihre epistemische Sensibilität auszeichnen, besitzen das theoretische und methodische Rüstzeug um die unreflektierte Anwendung digitaler Werkzeuge und den naiven Glauben in digital konstruierte wissenschaftliche Erkenntnisse vermeiden bzw. überwinden zu können.</p>
+<p>Der Workshop “Spielplätze der Theoriebildung in den Digital Humanities” möchte an genau dieser Stelle ansetzen. Es soll ein Impuls gesetzt werden, der sich auf mehreren Ebenen erstreckt: Mit der dezidierten Thematisierung der Theoretisierung der DH wird die Community für die Relevanz des Themas sensibilisiert und gleichermaßen wird der Status Quo bestimmt, inwiefern Interesse und Kapazitäten von Seiten der einzelnen ForscherInnen für dieses Thema bereits vorhanden sind. Dies dient auch als Grundlage für etwaige Verstetigungsansätze dieser Forschungsrichtung auf mittelfristiger Perspektive hin, z. B. in Form einer eigenen Zeitschrift oder einer AG in der DHd. Inhaltlich wird eine Kartographierung der Objekte, Perspektiven und Methoden als Teil einer kritischen Refraktion der Digital Humanities unternommen, sowie Ansätze zur wissenschaftlichen Selbstdeutung der DH (als Disziplin, Feld oder Hilfswissenschaft) gesammelt. Hierzu loten die Teilnehmenden gemeinsam die Spielräume wissenschaftstheoretischer Grundlagen und Arbeitsfelder aus und schaffen damit eine Basis für systematische Deutungen.</p>
+<p>Der Workshop hat die Struktur eines World Cafés: Nach einer kurzen Begrüßung und Vorstellung des Programms im Plenum rotieren die Teilnehmende zwischen einer Reihe unterschiedlicher Themenfelder bzw. Thementische. So erhalten sie die Möglichkeit, sich innerhalb stetig aktualisierter Gruppenkonstellationen in Diskussionen über Perspektiven, Thesen und Themen der DH einzubringen. Insbesondere kontroverse sachliche Diskussionen sollen provoziert werden, um eine möglichst differenzierte und breite Grundlage für ein Theorienfundament zu schaffen. Die Diversität der beteiligten wissenschaftlichen Disziplinen auf dem Gebiet der DH, die möglicherweise in der Vergangenheit einer holistischen Theoriebildung der DH im Wege stand, wird dabei als Trumpfkarte gespielt. Für die Einigung auf eine gemeinsame Sprache und die Integration der Perspektiven werden im Rahmen des Workshops erste Ansätze konturiert und protokolliert. Moderierende an den Thementischen leiten die Gespräche, geben Denkimpulse, dokumentieren die Ergebnisse analog und digital und stellen diese abschließend dem gesamten Plenum vor. Eine zusammenfassende Reflexion der Ergebnisse und die Entwicklung eines thematischen Ausblicks runden den Workshop ab. Für die Moderation stehen zunächst die Einreichenden zur Verfügung. Sie werden ergänzt von verschiedenen einschlägigen KollegInnen, die an der Entwicklung des Workshops beteiligt waren (u. a. Patrick Sahle, Enes Türkoğlu und Rabea Kleymann). Nach der Bewilligung und Veröffentlichung des Workshops können sich außerdem noch weitere Interessenten für die Moderation einzelner Thementische melden und werden dann von den Organisatoren ausgewählt. Das Format des World Cafés ist für die Zielsetzungen des Workshops optimal, da die materialen Beiträge von Seiten der Teilnehmenden kommen, zudem kann ihre Heterogenität nicht nur aufgefangen, sondern produktiv genutzt werden. Die Unterteilung in Thementische gibt nur eine lockere Strukturierung vor und dient auch der Feststellung von Interessensprioritäten der Community. Weiterhin findet “am Rande” eine wechselseitige Identifikation und Vernetzung der Teilnehmenden statt.</p>
+<p>Die Themeninseln sollen folgende Schwerpunkte haben:</p>
+<list type="unordered">
+<item>
+<hi rend="bold">Objekte der DH</hi>: Aus geisteswissenschaftlicher Sicht stellen sich die Gegenstände der Informatik alles andere als selbstverständlich dar: Daten sind nicht “neutral”, sondern bereits Interpretationen und Produkte von Forschungsprozessen und -methoden. Dasselbe gilt für Datenmodelle und letztlich auch für Algorithmen, deren Einfluss auf die Transformation von Daten für den geisteswissenschaftlichen Forschungsprozess selbstverständlich mitreflektiert werden muss. Aus informatischer Sicht sollte außerdem die Frage nach digitalen bzw. digitalisierten Objekten neu gestellt werden, welche durch Verfahren der technischen Reproduzierbarkeit notwendigerweise einen neuen ontologischen Status aufweisen.
+                </item>
+<item>
+<hi rend="bold">Methoden der DH</hi>: Die Forschungsgegenstände werden maßgeblich durch die Forschungsmethoden geprägt. Man könnte auch sagen, dass sie durch Forschungsmethoden erst als Gegenstände hervorgebracht werden. Eine Reflexion der Methoden ist daher unerlässlich und stellt sich nicht nur aus wissenschaftssoziologischer und wissenschaftspolitischer Perspektive im Hinblick auf Forschungsgelder, sondern auch aufgrund des neuen Zuganges, den die DH zu Forschungsgegenständen ermöglichen, z. B. in Form einer digitalen Hermeneutik und des Distant Readings.
+                </item>
+<item>
+<hi rend="bold">Werkzeuge der DH</hi>: Forschungsmethoden und Werkzeuge stehen in einem dialektischen Verhältnis zueinander. Software wird geformt von den Daten und den Datentransformationsaufgaben, die Daten hingegen werden strukturiert nach der verarbeitenden Software. Es ergeben sich Sachzwänge, deren Ausläufer sich bis hinein in das Research Software Engineering, die Prototypenkonzeption und Usability-Testing bemerkbar machen.
+                </item>
+<item>
+<hi rend="bold">Medialität und Digitalität der DH</hi>: Die Digitalität ist kein Phänomen der Geisteswissenschaften, sondern muss in einem größeren gesellschaftlichen Rahmen gedacht werden – die Digitalität der Kultur ist der Kontext einer Digitalisierung von Kultur. Logiken der Algorithmizität, Hyperreferentialität und technischer Performativität werden in die Forschung eingeschrieben und müssen bei einer Theorie der DH mitberücksichtigt werden (Beispiele: Informationstheorie geisteswissenschaftlicher Forschungsdaten, Transmedialisierung, Materialität des Digitalen).
+                </item>
+<item>
+<hi rend="bold">Wissenschaftstheorie der DH</hi>: Dies ist der bis dato wohl am prominentesten diskutierte Punkt, der sich auf das Verhältnis der DH zu den “klassischen” Geisteswissenschaften und der Informatik bezieht, sowie auf den Status der DH als eigenständige Disziplin, als Feld oder als Hilfswissenschaft. Es stellt sich die Frage, ob die DH eine eigene Wissenschaftstheorie brauchen oder befriedigend über etablierte Wissenschaftstheorien (z. B. von Fleck, Kuhn, Popper) beschrieben werden können. Der Theorienpluralismus und neue epistemische Forschungsdarstellungen sind hier ebenso zu diskutieren, wie das Problem der Inkommensurabilität, dass sich mit dem Semantic Web für Forschungsdaten neu stellt.
+                </item>
+<item>
+<hi rend="bold">DH und Öffentlichkeit</hi>: An das wissenschaftlich-disziplinäre Selbstverständnis der DH als Forschungsfeld schließen sich auch die Untersuchung des Verhältnisses zwischen DH und Öffentlichkeit an. Dies umfasst Fragen nach der Positionierung der DH im öffentlichen Diskurs rund um (geisteswissenschaftliche) Forschung, Fragen der Forschungsethik und Forschungsförderung, Open Access und Bürgerbeteiligung (“citizen science”).
+                </item>
+</list>
+<p>Der Workshop bietet damit Raum für verschiedene “Spielplätze” im Bereich der Theoriebildung der Digital Humanities: Spielräume des Theoretischen durchsetzen dann die Spielräume der Forschungspraxis und machen diese wissenschaftstheoretisch greifbar. Es lässt sich argumentieren, dass die DH gewappnet dafür sind, ein neues Kapitel ihrer jungen Wissenschaftsgeschichte zu schreiben. In diesem Sinne besteht die Hoffnung, dass der Workshop “Spielplätze der Theoriebildung in den Digital Humanities” durch die Zusammenführung interessierter WissenschaftlerInnen zur Initialzündung wird, nach der ForscherInnen gemeinsam und engagiert die Fundamentbildung der DH vorantreiben.</p>
+<p>Interessierte ForscherInnen haben auch nach dem Workshop die Möglichkeit in Kontakt zu bleiben, nicht nur, weil die Ergebnisse des Workshops digital zur Verfügung gestellt werden, sondern auch weil die Organisatoren die Möglichkeit für weitere Kollaboration anbieten wollen. Glückt das Vorhaben des Workshops als Inkubator, ist eine Verstetigung und Institutionalisierung des Forschungsinteresses geplant, um einerseits eine offene Plattform des Austausches und der Diskussion zu bieten und andererseits um Forschungsergebnisse wieder in die Community (und auch die Öffentlichkeit) zurückzuspielen.</p>
+<p>
+<hi rend="bold">Einreichende:</hi>
+</p>
+<list type="unordered">
+<item>Jonathan D. Geiger, M. A.
+                    <list type="unordered">
+<item>Akademie der Wissenschaften und der Literatur | Mainz, Digitale Akademie</item>
+<item>Geschwister-Scholl-Str. 2 in 55131 Mainz</item>
+<item>Forschungsinteressen: (Sozial)Epistemologie, Wissenssoziologie, Philosophie der Digitalität, Digital Humanities, Theorie von Informatik, Informations- und Dokumentationswissenschaft</item>
+</list>
+</item>
+<item>Jasmin Pfeiffer, M. A.
+                    <list type="unordered">
+<item>Universität des Saarlandes, Lehrstuhl für Neuere deutsche Literaturwissenschaft | Medienwissenschaft</item>
+<item>Campus, Gebäude A22, Raum 0.20, 66123 Saarbrücken</item>
+<item>Forschungsinteressen: Theorie und Analyse des Computerspiels, Fiktionstheorien, Virtuelle Realitäten, Medialität und Materialität, Digitalität, Theorie der Algorithmen </item>
+</list>
+</item>
+</list>
+<p><hi rend="bold">Teilnehmende:</hi> max. 40</p>
+<p><hi rend="bold">Anforderungen an die Raumausstattung:</hi></p>
+<list type="unordered">
+<item>Beamer: Ja</item>
+<item>Tafel/Whiteboard: Nein</item>
+<item>Flipchart: Nein (aber Flipchart-Papierbögen, die dann an die Pinnwände geheftet werden können)</item>
+<item>Moderationskoffer: 6 Stück</item>
+<item>Pinnwand: 6 Stück</item>
+<item>Steckdosenleisten: 3 Stück</item>
+<item>weitere Anmerkungen:
+                    <list type="unordered">
+<item>Ein Laptop für den Beamer im Plenum wäre gut.</item>
+<item>Ideal wäre die Möglichkeit neben dem Raum für das Plenum auch Zugang zu 1–3 weiteren (kleineren) Räumlichkeiten zu haben bzw. überhaupt Raum zum Ausweichen zu haben, sodass sich die Arbeitsgruppen etwas verteilen können.</item>
+<item>Ein Bonus (wenn auch keine Notwendigkeit) wäre ein kleiner Stehtisch für jede Arbeitsgruppe, also vor jede Pinnwand (insgesamt 6 Stück).</item>
+</list>
+</item>
+</list>
+</body>
+<back>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+	<anchor xml:id="id_docs-internal-guid-efa73741-7fff-bfd9-a6ae-13b9b1315120"/>
+	<hi rend="bold">Bauer, J.</hi> (2011): ‘Who are you Calling Untheoretical?’, 
+	<hi rend="italic">Journal of Digital Humanities</hi>, 1(1). Available at:
+	<ptr target="http://journalofdigitalhumanities.org/1-1/who-you-calling-untheoretical-by-jean-bauer/"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Brügger, N. </hi> (2016): ‘Digital Humanities in the 21st Century: Digital Material as a Driving Force’, 
+	<hi rend="italic">digital humanities quarterly</hi>, 10(2). Available at:
+	<ptr target="http://www.digitalhumanities.org/dhq/vol/10/3/000256/000256.html"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Capurro, R. </hi> (1978): 
+	<hi rend="italic">Information: ein Beitrag zur etymologischen und ideengeschichtlichen Begründung des Informationsbegriffs</hi>. München: Saur.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Capurro, R. </hi> (2017): 
+	<hi rend="italic">Homo Digitalis: Beiträge zur Ontologie, Anthropologie und Ethik der digitalen Technik</hi>. Wiesbaden: Springer.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Castells, M. </hi> (2003): 
+	<hi rend="italic">Das Informationszeitalter: Wirtschaft, Gesellschaft, Kultur.</hi> Wiesbaden: Springer.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Cecire, N. </hi> (2011): ‘Theory and the Virtues of Digital Humanites’, 
+	<hi rend="italic">Journal of Digital Humanities</hi>, 1(1). Available at:
+	<ptr target="http://journalofdigitalhumanities.org/1-1/introduction-theory-and-the-virtues-of-digital-humanities-by-natalia-cecire/"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Ciula, A. / Eide, Ø. </hi> (2017): ‘Modelling in digital humanities. Signs in context’, 
+	<hi rend="italic">Digital Scholarship in the Humanities</hi>, 32(1), pp. 33–46. DOI:
+	<ptr target="https://doi.org/10.1093/llc/fqw045"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Dahlström, M. </hi> (2011): ‘Critical Editing And Critical Digitisation’, 
+	<hi rend="italic">Text Comparison and Digital Creativity</hi>, (The Production of Presence and Meaning in Digital Text Scholarship). DOI:
+	<ptr target="https://doi.org/10.1163/ej.9789004188655.i-328.29"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Deck, K.-G. </hi> (2018): ‘Digital Humanities – Eine Herausforderung an die Informatik und an die Geisteswissenschaften’, 
+	<hi rend="italic">Sonderband der Zeitschrift für digitale Geisteswissenschaften</hi>, 3. DOI: 
+	<ref target="https://doi.org/10.17175/sb003_002">10.17175/sb003_002</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Flanders, J.  /  Jannidis, F. </hi> (2019): 
+	<hi rend="italic">The shape of data in the digital humanities. Modeling texts and text-based resources.</hi>
+	London, New York: Routhledge (Digital research in the arts and humanities).
+      </bibl>
+      <bibl>
+	<hi rend="bold">Floridi, L. </hi> (2013): 
+	<hi rend="italic">The philosophy of information</hi>. Oxford: Oxford Univ. Press.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Frabetti, F. </hi> (2015): 
+	<hi rend="italic">Software theory: a cultural and philosophical study</hi>. London; New York: Rowman &amp; Littlefield International (Media philosophy).
+      </bibl>
+      <bibl>
+	<hi rend="bold">Friedewald, M.  /  Leimbach, T. </hi> (2011): ‘Computersoftware als digitales Erbe: Probleme aus Sicht der Technikgeschichte’, in 
+	<hi rend="italic">Neues Erbe. Aspekte, Perspektiven und Konsequenzen der digitalen Überlieferung.</hi> KIT Scientific Publishing.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Gius, E.  /  Jacke, J. </hi> (2017): ‘The Hermeneutic Profit of Annotation. On Preventing and Fostering Disagreement in Literary Analysis’, in 
+	<hi rend="italic">International Journal of Humanities and Arts Computing</hi> 11(2), 233–254.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Gnadt, T.  et al.</hi> (2017): ‘Faktoren und Kriterien für den Impact von DH-Tools und Infrastrukturen’. DARIAH-DE, Niedersächsische Staats- und Universitätsbibliothek. Available at:
+	<ptr target="http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2017-21.pdf"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Hall, G. (2012): </hi> “<hi rend="italic">Blog Post: Has Critical Theory Run Out of Time for Data-Driven Scholarship?</hi>, 
+	<hi rend="italic">Debates in the Digital Humanities</hi>. Available at:
+	<ptr target="https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/1a9b138c-eb51-4f48-bcb8-039505f88ff8#p2b2"/>
+	(Zugriff: 19. August 2019).
+      </bibl>
+      <bibl>
+	<hi rend="bold">Heßbrüggen-Walter, S. </hi> (2018): ‘Philosophie als digitale Geisteswissenschaft’, 
+	<hi rend="italic">Sonderband der Zeitschrift für digitale Geisteswissenschaften</hi>, 3. DOI: 
+	<ref target="https://doi.org/10.17175/sb003_006">10.17175/sb003_006</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Hui, Y. </hi> (2016): 
+	<hi rend="italic">On the existence of digital objects</hi>. London: University of Minnesota Press.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Kaden, B. </hi> (2016): ‘Zur Epistemologie digitaler Methoden in den Geisteswissenschaften’, 
+	<hi rend="italic">Berliner Beiträge zu Digital Humanities</hi>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Koch, G. (ed.) </hi> (2017): 
+	<hi rend="italic">Digitalisierung. Theorien und Konzepte für die empirische Kulturforschung.</hi> Köln: Herbert von Halem Verlag.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Matzner, T. </hi> (2016): ‘Beyond data as representation. The performativity of Big Data in surveillance.’, 
+	<hi rend="italic">Surveillance &amp; Society</hi>, 14(2), pp. 197–204.
+      </bibl>
+      <bibl>
+	<hi rend="bold">McCarty, W. </hi> (2014): ‘Getting there from here. Remembering the future of digital humanities: Roberto Busa Award lecture 2013’, 
+	<hi rend="italic">Literary and Linguistic Computing</hi>, Volume 29(Issue 3), pp. 283–306. DOI: 
+	<ref target="https://doi.org/10.1093/llc/fqu022">10.1093/llc/fqu022</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Mohabbat Kar, R.  /  Parycek, P. </hi> (2018): ‘Berechnen, ermöglichen, verhindern: Algorithmen als Ordnungs- und Steuerungsinstrumente in der digitalen Gesellschaft’, in 
+	<hi rend="italic">(Un)berechenbar? Algorithmen und Automatisierung in Staat und Gesellschaft</hi>. Berlin: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS, Kompetenzzentrum Öffentliche IT (ÖFIT), pp. 7–39. Available at: 
+	<ref target="https://nbn-resolving.org/urn:nbn:de:0168-ssoar-57562-7">https://nbn-resolving.org/urn:nbn:de:0168-ssoar-57562-7</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Nassehi, A. </hi> (2019): 
+	<hi rend="italic">Muster. Theorie der digitalen Gesellschaft.</hi> München: Beck Verlag.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Nerbonne, J. </hi> (2015): ‘Die Informatik als Geisteswissenschaft’, 
+	<hi rend="italic">Sonderband der Zeitschrift für digitale Geisteswissenschaften</hi>, 1(1). DOI: 
+	<ref target="https://doi.org/10.17175/sb001_003">10.17175/sb001_003</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Porter, D. </hi> (no date): 
+	<hi rend="italic">The Uncanny Valley and the Ghost in the Machine: a discussion of analogies for thinking about digitized medieval manuscripts</hi>, 
+	<hi rend="italic">Dot Porter Digital</hi>. Available at:
+	<ptr target="http://www.dotporterdigital.org/the-uncanny-valley-and-the-ghost-in-the-machine-a-discussion-of-analogies-for-thinking-about-digitized-medieval-manuscripts/"/>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Reiche, R. et al.</hi> (2014): ‘Verfahren der Digital Humanities in den Geistes- und Kulturwissenschaften’. (DARIAH-DE Working Papers), (4).
+      </bibl>
+      <bibl>
+	<hi rend="bold">Sahle, P. </hi> (2015): ‘Digital Humanities? Gibt’s doch gar nicht!’, 
+	<hi rend="italic">Grenzen und Möglichkeiten der Digital Humanities</hi>. DOI: 
+	<ref target="https://doi.org/DOI:%2010.17175/sb001_004">10.17175/sb001_004</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Scheinfeldt, T. </hi> (2012): 
+	“<hi rend="italic">Blog Post: Where’s the Beef? Does Digital Humanities Have to Answer Questions?</hi>,
+	<hi rend="italic">Debates in the Digital Humanities</hi>. Available at: 
+	<ptr target="https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/3c03ecdb-2dcf-4597-8fc4-e42f8dcc21e1"/>
+	(Zugriff: 19 August 2019).
+      </bibl>
+      <bibl>
+	<hi rend="bold">Schröter, J.  /  Böhnke, A. (eds) </hi> (2004): 
+	<hi rend="italic">Analog/Digital – Opposition oder Kontinuum? Zur Theorie und Geschichte einer Unterscheidung.</hi> Bielefeld: transcript Verlag.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Stalder, F. </hi> (2016): 
+	<hi rend="italic">Kultur der Digitalität</hi>. Berlin: Suhrkamp.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Türkoglu, E. </hi> (2019): ‘Vom Digitalisat zum Kontextualisat – einige Gedanken zu digitalen Objekten’, in. 
+	<hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts</hi>, Frankfurt am Main. DOI: 
+	<ref target="https://doi.org/10.5281/zenodo.2600812">10.5281/zenodo.2600812</ref>.
+      </bibl>
+      <bibl>
+	<hi rend="bold">Wettlaufer, J. </hi> (2016): ‘Neue Erkenntnisse durch digitalisierte Geschichtswissenschaft(en)? Zur hermeneutischen Reichweite aktueller digitaler Methoden in informationszentrierten Fächern’, 
+	<hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>. DOI: 
+	<ref target="https://doi.org/10.17175/2016_011">10.17175/2016_011</ref>.
+      </bibl>
+    </listBibl>
+  </div>
+</back>
+</text>
+</TEI>

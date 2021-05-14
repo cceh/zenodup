@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="223_final-WISSIK_Tanja_Eine_Programmierschnittstelle_f_r_Metadaten_zu_" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Eine Programmierschnittstelle für Metadaten zu DH Lehraktivitäten: Die DH Course Registry API</title>
+<author>
+<persName>
+<surname>Schmeer</surname>
+<forename>Hendrik</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Österreich; CLARIN ERIC</affiliation>
+<email>mail@hendrikschmeer.de</email>
+</author>
+<author>
+<persName>
+<surname>Wissik</surname>
+<forename>Tanja</forename>
+</persName>
+<affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+<email>tanja.wissik@oeaw.ac.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-26T20:31:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>DH Lehraktivitäten</term>
+<term>Metadaten</term>
+<term>API</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Modellierung</term>
+<term>Veröffentlichung</term>
+<term>Crowdsourcing</term>
+<term>Visualisierung</term>
+<term>Infrastruktur</term>
+<term>Metadaten</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+<hi style="font-size:12pt" xml:space="preserve">Die DH Course Registry ist eine von den beiden Forschungsinfrastrukturen CLARIN und DARIAH getragene Initiative um Lehraktivitäten im Bereich der digitalen Geisteswissenschaften auch über Universitätsgrenzen hinweg sichtbar zu machen. Auf der Plattform werden Metadaten über BA, MA und PhD Studiengänge, einzelne Lehrveranstaltungen und Module sowie Summer School im Bereich der Digitalen Geisteswissenschaften gesammelt und veröffentlicht. </hi>
+<lb/>
+<lb/>
+<hi style="font-size:12pt">Die Daten werden nicht zentral gesammelt, sondern community-basiert von den Lehrenden selber eingegeben. Die Daten sind über bestimmte Filteroptionen wie z.B. Land, Art des Studiengangs usw. durchsuchbar und die Ergebnisse werden auch auf einer Karte visualisiert. Um die Daten aktuell zu halten, gibt es im DH Course Registry einen eigenen Workflow und die spezifische Rolle der „Nationalen Moderatoren“. Wenn die Metadaten eines Kurses längere Zeit nicht mehr aktualisiert wurden, wird dieser Kurs nicht mehr online angezeigt. In der Datenbank sind diese Daten aber noch immer gespeichert. Demzufolge birgt die Plattform einen Datenschatz z.B. zur zeitlichen Entwicklung DH bezogen Lehraktivitäten, der bis jetzt der Forschungsgemeinschaft nur auf Nachfrage als Datenbankauszug zugänglich war. Eine Möglichkeit diese Daten für unterschiedliche Nutzergruppen und Nutzungsszenarien zugänglich zu machen ist die Bereitstellung von standardisierten Programmierschnittstellen – kurz APIs genannt. In den letzten Jahren ist die Nutzung von APIs in DH Projekten angestiegen (vgl. Tasovac et al. 2016). Aber auch die Daten, die über die Plattform bereits abfragbar waren, können durch die API sozusagen „mit nach Hause genommen“ und für weitere Forschungsfragen verarbeitet werden (vgl. Cooper, 2010).  Im DARIAH geförderten Projekt „DH Course Registry Sustain“ wurde nun durch die Entwicklung und Bereitstellung einer API dieser Datenschatz für die Forscherinnen und Forscher geöffnet. Bevor die API beschrieben wird, soll auf das Datenmodell eingegangen werden, das der Plattform zugrunde liegt.</hi>
+</p>
+<figure>
+<graphic height="7.120819444444445cm" n="1001" rend="inline"
+	 url="223_final-ed23e52e6f4bb4dcfb91541202361e64.png"
+	 width="16.002cm"/>
+<head> Abbildung 1: Entity-Relationship Diagramm (ERD) (Wissik et al. im Erscheinen)</head>
+</figure>
+<!-- <p> -->
+<!-- <hi style="font-size:12pt">Abbildung 1: Entity-Relationship Diagramm (ERD) (Wissik et al. im Erscheinen)</hi> -->
+<!-- </p> -->
+<p>
+<hi style="font-size:12pt" xml:space="preserve">Die Beziehungen der verschiedenen Objekt-Typen werden in Abbildung 1 wiedergegeben, wie sie durch die Datenbankstruktur der DH Course Registry definiert sind. Alle um “Courses” herum gruppierten Objekt-Typen stellen gleichermaßen kontrollierte Vokabulare dar, nach denen die Datenbank durchsucht werden kann. Die mit den Typen korrespondierenden Tabellen sind ebenfalls durch die API zugänglich, um etwa Filteroptionslisten zu generieren. Auf diese Weise entsteht die Durchsuchbarkeit der Datenbasis für einzelne Universitäten, Länder, Methodiken oder Fachbereiche. Das Datenmodell umfasst darüber hinaus auch noch Informationen zur Zyklizität, Start-Terminen und Präsentationsform (online oder Präsenzkurs) oder der Sprache, um Möglichkeiten zum internationalen Austausch aufzuzeigen. Durch die Erstellungs- und Modifikationsdaten der Einträge, die im Web-UI nicht zugänglich sind, kann die zeitliche Entwicklung des in der DH Course Registry vertretenen Lehrangebots nachvollzogen werden. Eine vollständige OAS 3.0 kompatible Beschreibung der über die API zugänglich gemachten Datenstrukturen im JSON Format ist unter </hi>
+<ref target="https://app.swaggerhub.com/apis-docs/hashmich/DHCR-API/1.0">
+<hi style="font-size:12pt">https://app.swaggerhub.com/apis-docs/hashmich/DHCR-API/1.0</hi>
+</ref>
+<hi style="font-size:12pt">verfügbar. </hi>
+</p>
+<p>Im Rahmen der Posterpräsentation werden wir die DH Course Registry API vorstellen und einige exemplarische Analysen präsentieren, die durch den API Zugang nun möglich gemacht werden.</p>
+</body>
+<back>
+<div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Wissik, Tanja / Edmond, Jennifer /Fischer, Frank / de Jong, Franciska / Stefania Scagliola, Stefania / Andrea Scharnhorst, Andrea / Schmeer, Hendrik / Walter Scholger, Walter / Wessels, Leon</hi> (im Erscheinen): Teaching Digital Humanities Around the World: An Infrastructural Approach to a Community-Driven DH Course Registry.
+</bibl>
+<bibl>
+<hi rend="bold">Toma Tasovac, Toma / Adrien Barbaresi, Adrien /
+Thibault Clèrice, Thibault / Jennifer Edmond, Jennifer / Ermolaev,
+Natlia et al. </hi> (2016): APIs in Digital Humanities: The Infrastructural Turn. Digital Humanities 2016, Jul 2016, Cracovie, Poland. pp.93-96, 2016, Digital Humanities 2016 Conference Abstracts.
+</bibl>
+<bibl>
+<hi rend="bold">Cooper, Doug </hi> (2010): When Nice People Won’t Share: Shy Data, Web APIs, and Beyond, Second International Conference on Global Interoperability for Language Resources (ICGL 2010).
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

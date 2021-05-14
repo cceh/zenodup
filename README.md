@@ -62,6 +62,8 @@ The created bundle structure will be created in configured output directory (Def
 
 Logging file with name ``[CONFERENCE]_bundle.log`` will be created under configured loggin directory (Default: ``support/logging``).
 
+## TODO hier weiter
+
 ### Interact with Zenodo API
 
 Run script ``zenodoup.py`` (cwd: zenodup/zenodup/) to upload bundle structure to Zenodo. If bundle structure hasn't been created automatically with this application, this script expects the following bundle structure for CONFERENCE under configured ``output_base`` (Default: "OUTPUT").

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="141_final-FISCHER_Frank_Besuch_im__Marstheater____Eine_Netzwerkmodelli" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="full">
+<title type="main">Besuch im »Marstheater« – Eine Netzwerkmodellierung von Karl Kraus' Riesendrama »Die letzten Tage der Menschheit«</title>
+<title type="sub"/>
+</title>
+<author>
+<persName>
+<surname>Fischer</surname>
+<forename>Frank</forename>
+</persName>
+<affiliation>Higher School of Economics, Moskau, Russland</affiliation>
+<email>frank.fischer@dariah.eu</email>
+</author>
+<author>
+<persName>
+<surname>Busch</surname>
+<forename>Anna</forename>
+</persName>
+<affiliation>Universität Potsdam</affiliation>
+<email>annabusch@uni-potsdam.de</email>
+</author>
+<author>
+<persName>
+<surname>Hechtl</surname>
+<forename>Angelika</forename>
+</persName>
+<affiliation>WU Wien</affiliation>
+<email>angelika.hechtl@wu.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Trilcke</surname>
+<forename>Peer</forename>
+</persName>
+<affiliation>Universität Potsdam</affiliation>
+<email>trilcke@uni-potsdam.de</email>
+</author>
+<author>
+<persName>
+<surname>Vogel</surname>
+<forename>Andreas</forename>
+</persName>
+<affiliation>Hamburg</affiliation>
+<email>andrea.uccello@gmail.com</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-13T10:07:04.127171449</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from an OASIS Open Document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Karl Kraus</term>
+<term>Drama</term>
+<term>TEI</term>
+<term>Netzwerkanalyse</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Beziehungsanalyse</term>
+<term>Modellierung</term>
+<term>Veröffentlichung</term>
+<term>Visualisierung</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p>Karl Kraus' Endzeitdrama »Die letzten Tage der Menschheit«, 1919 zum ersten Mal vollständig erschienen (Buchausgabe 1922), ist in vielerlei Hinsicht inkommensurabel. Der schiere Umfang sprengt alle Gattungsnormen (638 Seiten in der »Volk und Welt«-Ausgabe von 1978). Die fünf Akte plus Vorspiel und Epilog sind in 220 Szenen unterteilt, es gibt je nach Zählweise um die 1.000 sprechende Figuren bzw. Instanzen (zum Vergleich: als nächstgrößtes deutschsprachiges Drama gilt Grabbes »Napoleon oder Die hundert Tage« von 1831 mit 259 Figuren).</p>
+<p>Die Zählweise ist nicht nur deshalb kontingent, weil es zahlreiche Rufe aus der Menge gibt, die sich nicht quantifizieren lassen (wozu vor allem auch das undurchsichtige Stimmengewirr im Epilog gehört), sondern auch, weil es konkrete Gruppierungen wie die ›Fünfzig Drückeberger‹ (III/26) oder ›Die zwölfhundert Pferde‹ (V/55) gibt, die man theoretisch quantifizieren könnte, auch wenn dies nicht unmittelbar sinnvoll erscheint. Insgesamt spricht man tatsächlich besser von Sprecherinstanzen, die von historischen Personen über namenlose Zwischenrufer und allegorische Figuren (etwa den »Hyänen, die Menschengesichter tragen«) bis hin zur »Stimme Gottes« reichen.</p>
+<p>Es ist nicht nur auf das Thema des Stücks bezogen – die Apokalypse des Ersten Weltkriegs –, sondern auch auf die Form, wenn Kraus im Vorwort schreibt: »Die Aufführung des Dramas, dessen Umfang nach irdischem Zeitmaß etwa zehn Abende umfassen würde, ist einem Marstheater zugedacht. Theatergänger dieser Welt vermöchten ihm nicht standzuhalten.« (Kraus 1978, S. 5) Die Handlung der Tragödie ist »unmöglich, zerklüftet, heldenlos« (ebd.) und erschwert jede Absicht, das Stück darzustellen, zumal vollständig. Dies betrifft sowohl Inszenierungen auf der Bühne oder als Hörspiel (obwohl es schon Kompletteinspielungen gibt) als auch digitale Modellierungen der Figurenbeziehungen.</p>
+<p>Es ist Konsens innerhalb des Forschungszweigs der Netzwerkanalyse dramatischer Texte, dass sich eine Einzelanalyse der verhältnismäßig übersichtlichen Figurennetzwerke selten lohnt. Das Augenmerk liegt daher normalerweise auf der Untersuchung struktureller Entwicklungen hunderter oder tausender Stücke über verschiedene historische Zeiträume (Algee-Hewitt 2017, Trilcke/Fischer 2018).</p>
+<p>»Die letzten Tage der Menschheit« gehören hier zu den Ausnahmen. Ziel dieses Projekts ist es, das Stück als soziales Netzwerk zu visualisieren, basierend auf Kookkurrenzen von Sprecherinstanzen in den einzelnen Szenen. Voraussetzung dafür ist eine brauchbare Formalisierung des Gesamttextes. Dieser ist einerseits bereits digitalisiert, in annehmbarer Qualität innerhalb des Projekts Gutenberg-DE (obwohl es in dieser Version kaum eine Seite ohne zumindest kleinere OCR-Fehler gibt). Andererseits gibt es noch keine digitale Fassung in einem Format, das die wissenschaftliche Auswertung ermöglicht.</p>
+<p>Am Beginn dieses Projekts stand daher die Herstellung einer TEI-Version des Dramas, die vor Konferenzbeginn veröffentlicht wurde und damit der wissenschaftlichen Community zum ersten Mal eine Version des Textes zur Verfügung stellt, die auf die FAIR-Prinzipien setzt (findable, accessible, interoperable, reusable). Neben einem Qualitätssprung hinsichtlich der Textbasis im Vergleich zur Gutenberg-DE-Version stand dabei die Auszeichnung der Sprecher-IDs im Mittelpunkt. Da, wie bereits angedeutet, diese Auszeichnung kontingent ist, also je nach Formalisierungsentscheidung anders aussehen kann, wird dieser Prozess offengelegt. So werden etwa die Vielzahl an Stimmen aus Menschenmengen oder die Unzahl ausrufender Zeitungsverkäufer nachvollziehbar individualisiert, speziell die Massenszenen in Wien, etwa die Geschehnisse an der Sirk-Ecke, die das Vorspiel und jeden der fünf Akte eröffnen.</p>
+<p>Ergebnis ist ein visualisiertes Netzwerk, das auf einem Poster im A0-Format einen Blick ins Kraus'sche »Marstheater« erlaubt, auf die schiere Masse der Auftritte und Stimmen, aus der doch eine Struktur hervorscheint, wie sie bisher im Kontext der Kraus-Forschung noch nicht visualisiert worden ist. So werden viele »innere Symmetrien« sichtbar (Matala de Mazza 2018), die das Stück strukturieren, wiederkehrende Konstellationen wie etwa die vier Offiziere am Beginn jedes Aktes oder die Szenen in der Schulklasse (I/9 und V/23).</p>
+<p>Deutlich wird im Netzwerkgraph auch die Diskrepanz zwischen Front und Heimat, zwei Welten für sich, wobei Kraus den Fokus auf die entlarvende Sprache von nicht direkt am Krieg beteiligten Personen legt: »Wenn nicht Krieg wär, möcht man rein glauben, es is Friede.« (Kraus 1978, S. 95)</p>
+<p>Da der Text nunmehr als Volltext-TEI-Dokument vorliegt, lässt sich auch der Word Space in das Netzwerk hineinmodellieren, d. h., die Anzahl der Wörter pro Sprecherinstanz. Auf diese Weise scheinen deutlich die (quantitativ gesehen) Hauptfiguren dieses »heldenlosen« Dramas auf (etwa der »Nörgler« und der »Optimist« sowie der »Patriot« und der »Abonnent«), die oft über dutzende Seiten als Zweierkonstellationen auftreten, die aber darüber hinaus, wie der Graph verdeutlicht, auch anderweitig vernetzt sind.</p>
+<p>Um auch komparatistische Aspekte abzudecken, werden auf dem Poster vergleichend einige Netzwerkmetriken präsentiert, um die Gigantomanie des Dramas mit Zahlen zu verdeutlichen.</p>
+<p>Zur Gewährleistung der Nachnutzbarkeit und Nachhaltigkeit der
+Modellierung wurde das Stück auch dem German Drama Corpus hinzugefügt
+(<ptr target="https://dracor.org/ger"/>), der den Zugang zu bestimmten Formalisierungen der Textsubstanz erheblich erleichtert (Fischer et al. 2019).
+</p>
+</body>
+<back>
+  <div type="bibliogr">
+    <listBibl>
+      <head>Bibliographie</head>
+      <bibl>
+	<anchor xml:id="id_docs-internal-guid-bba23ea5-7fff-2573-551b-bc550983aa0f"/>
+	<hi rend="bold">Algee-Hewitt, Mark</hi>
+	(2017): Distributed Character: Quantitative Models
+		  of the English Stage, 1550–1900. In: New Literary
+		  History 48(4), 751–782. Johns Hopkins University
+		  Press.
+		  DOI: <ptr target="https://doi.org/10.1353/nlh.2017.0038"/>
+		</bibl>
+		<bibl>
+		  <hi rend="bold">Fischer, Frank / Börner, Ingo / Göbel, Mathias / Hechtl, Angelika / Kittel, Christopher / Milling, Carsten / Trilcke, Peer</hi>
+		  (2019): Programmable Corpora. Die digitale
+		  Literaturwissenschaft zwischen Forschung und
+		  Infrastruktur am Beispiel von DraCor. DHd
+		  2019. Digital Humanities: multimedial &amp;
+		  multimodal. Konferenzabstracts, S. 194–197.
+		  DOI: <ptr target="https://doi.org/10.5281/zenodo.2596094"/>
+		</bibl>
+		<bibl>
+		  <hi rend="bold">Kraus, Karl</hi>
+		  (1978): Die letzten Tage der Menschheit. Tragödie in fünf Akten mit Vorspiel und Epilog. Ausgewählte Werke. Band 5,1. Berlin: Volk und Welt 1978.
+		</bibl>
+		<bibl>
+		  <hi rend="bold">Matala de Mazza, Ethel</hi>
+		  (2018): Der populäre Pakt. Verhandlungen der Moderne zwischen Operette und Feuilleton. Frankfurt am Main: S. Fischer 2018.
+		</bibl>
+		<bibl>
+		  <hi rend="bold">Trilcke, Peer / Fischer, Frank</hi>
+		  (2018): Literaturwissenschaft als Hackathon. Zur
+		  Praxeologie der Digital Literary Studies und ihren
+		  epistemischen Dingen. In: Wie Digitalität die
+		  Geisteswissenschaften verändert: Neue
+		  Forschungsgegenstände und Methoden. Hrsg. von Martin
+		  Huber und Sybille Krämer (= Sonderband der
+		  Zeitschrift für digitale Geisteswissenschaften, 3).
+		  DOI: <ptr target="https://doi.org/10.17175/sb003_003"/>
+		</bibl>
+	      </listBibl>
+	    </div>
+	  </back>
+	</text>
+      </TEI>

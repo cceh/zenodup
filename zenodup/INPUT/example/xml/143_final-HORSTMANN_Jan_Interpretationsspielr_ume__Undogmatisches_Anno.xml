@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="143_final-HORSTMANN_Jan_Interpretationsspielr_ume__Undogmatisches_Anno" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Interpretationsspielräume. Undogmatisches Annotieren literarischer Texte in CATMA 6</title>
+<author>
+<persName>
+<surname>Horstmann</surname>
+<forename>Jan</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>jan.horstmann@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Jacke</surname>
+<forename>Janina</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>janina.jacke@uni-hamburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2015-10-04T22:02:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Annotation</term>
+<term>Interpretation</term>
+<term>Kollaboration</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Annotieren</term>
+<term>Theoretisierung</term>
+<term>Literatur</term>
+<term>Metadaten</term>
+<term>Forschungsprozess</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Spezifika literaturwissenschaftlichen Annotierens</head>
+<p>Werden 
+                    <hi rend="italic">Spielräume</hi> in der hermeneutischen Textarbeit als legitime – jedoch gewissen Regeln unterliegende – Pluralität der Zugänge zu Literatur verstanden, zeichnet sich literaturwissenschaftliches Annotieren in mindestens drei Aspekten durch Spielräume aus: 1) Literarische Texte können in vielerlei Hinsicht erforscht werden (etwa strukturell, inhaltlich oder inhaltstranszendierend, vgl. Shusterman 1978; Folde 2015). Dabei unterscheiden sich oft inhaltlicher Fokus und Methode der Texterforschung (vgl. Danneberg 1999; Bühler 2003). 2) Aufgrund ihrer Ambiguität lassen sich literarische Texte selbst innerhalb eines Zugangs unterschiedlich verstehen (vgl. Jannidis 2003; Bauer et al. 2010). 3) Der Texterforschungs-Workflow kann je nach Forscherïn unterschiedliche Methoden-Phasen zyklisch durchlaufen (vgl. Nünning &amp; Nünning 2010, 10–21; Puhl et al. 2015, 42–46).
+</p>
+<p>Da DH-Tools möglichst an disziplinspezifische geisteswissenschaftliche Theorien, Methoden und Praktiken rückgebunden werden sollen (vgl. Sahle 2015), sollten digitale Zugänge zur Literaturerforschung diese Spielräume berücksichtigen. Undogmatisches Annotieren mit CATMA 6
+(<ref target="https://catma.de">https://catma.de</ref>) ist eine Möglichkeit, wie dies umgesetzt werden kann. Das webbasierte kollaborative Annotations- und Analysetool CATMA – seit 2008 an der Universität Hamburg entwickelt mit derzeit gut 8.000 aktiven Nutzerïnnen weltweit – integriert Textannotation, Analyse und Visualisierung innerhalb einer webbasierten Arbeitsumgebung vor dem Hintergrund einer konzeptionellen Rückbindung an Theorien der (‘undogmatischen’) hermeneutischen Texterforschung. Dies ist im Bereich der DH-Tools einmalig (vgl. Meister, im Erscheinen). Mit CATMA 6 werden innerhalb des DFG-Projektes forTEXT (<ref target="https://fortext.net">https://fortext.net</ref>) neue Funktionalitäten<ref n="1" target="ftn1"/> und ein noch intuitiver nutzbares Interface auf Basis einer grundlegend neu gestalteten, projektzentrierten Systemarchitektur zur Verfügung gestellt.
+                </p>
+<p>Wie CATMA 6 geisteswissenschaftlichen Anforderungen (und damit den genannten Spielräumen) gerecht zu werden sucht, soll anhand von vier Funktionskomplexen demonstriert werden: unterschiedlichen Annotationsmodi, Mehrfachannotation, Metaannotation und kollaborativem Annotieren. Dieser Beitrag kann somit auch als exemplarische Umsetzung der Forderung verstanden werden, einen Brückenschlag zwischen DH- und traditionell-geisteswissenschaftlichen Methoden zu schaffen. </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Vom ersten Zugang zur komplexen Interpretation</head>
+<div rend="DH-Heading2" type="div2">
+<head>Zum Verhältnis zwischen Annotation und Interpretation</head>
+<p>Die Interpretation literarischer Texte wird gemeinhin als eine Kernaufgabe literaturwissenschaftlichen Arbeitens betrachtet. Regeln der Textinterpretationen oder Gütekriterien für Interpretationshypothesen sind aufgrund der Theorie- und Methodenvielfalt nicht eindeutig festgelegt. Zwei Überzeugungen scheinen jedoch über unterschiedliche Ausrichtungen hinweg in der literaturwissenschaftlichen Forschungsgemeinschaft (relativ) allgemein anerkannt: (a) Trotz der Pluralität zulässiger Interpretationen gibt es auch Interpretationen, die einem Text 
+                        <hi rend="italic">nicht</hi> angemessen sind. Und, damit zusammenhängend: (2) Interpretationen sollten (in gewisser Hinsicht) an das sprachliche Material des Textes angebunden sein.
+                    </p>
+<p>Angesichts dieser Sachlage lässt sich leicht erkennen, warum die Methode der Annotation im Zusammenhang mit Interpretationen fruchtbar angewandt werden kann: Der Prozess des Annotierens geht mit textnahem Arbeiten einher, und Annotationen werden grundsätzlich bestimmten Textstellen zugewiesen. Damit ist Annotation besonders geeignet für kleinschrittige textdeskriptive bzw. -analytische Vorhaben, die dann eine Grundlage für Interpretationen liefern können. Interpretationen selbst werden dann – auch in DH-Projekten – häufig in Form zusammenhängender Texte erstellt, innerhalb derer auf textanalytische Ergebnisse (Annotationen) Bezug genommen wird. Hier kann Annotation demnach als Werkzeug von Interpretation gelten.</p>
+<p>Es kann allerdings durchaus sinnvoll sein, auch Interpretationshypothesen selbst im Prozess des Annotierens zu entwickeln und als Annotationen festzuhalten. Denn zum einen verschwimmt sogar bei gemeinhin als deskriptiv geltenden Operationen wie der narratologischen Analyse otf die Grenze zu (inhaltsspezifizierender) Interpretation.<ref n="2" target="ftn2"/> Zum anderen sollte darauf geachtet werden, auch Interpretationshypothesen möglichst an Textstellen rückzukoppeln. Geschieht dies nicht, bleibt der Übergang zwischen kleinschrittiger-analytischer Textbeschreibung und holistisch-synthetischer Interpretation letztlich oft unklar.
+</p>
+<p>Wie groß die Spielräume im Rahmen von Annotation sein müssen – sowohl hinsichtlich des Grads der Formalisiertheit der Annotation (vgl. 2.2) als auch der Einigkeit unter verschiedenen Annotatorïnnen –, hängt entsprechend davon ab, ob es sich um deskriptiv-analytische Annotationen handelt, die als Vorarbeit für Interpretationen fungieren, oder um genuin interpretative Annotationen (vgl. 3).</p>
+<p>&#160;<lb/>&#160;<lb/>&#160;</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Drei Annotationsmodi</head>
+<p>Viele Annotationstools (bisher auch CATMA) ermöglichen ausschließlich die Annotation mithilfe von Tagsets, also hierarchisch gegliederten Kategorien. Dafür müssen Forschende allerdings schon ein formalisiertes Kategoriensystem haben, mit dem sie den Text untersuchen wollen. Annotation sollte abern auch zur noch unstrukturierten Textexploration nutzbar sein. Zudem sollte auch Interpretation selbst mithilfe von Annotation ermöglicht werden, was aber meist nicht (allein) unter Nutzung von Kategorien umsetzbar ist. In CATMA 6 werden deshalb folgende Annotationsmodi implementiert:</p>
+<p>(1) 
+                        <hi rend="italic">Highlight</hi>: Die Highlight-Annotation dient zunächst ausschließlich der Hervorhebung einer interessanten Textstelle. Nutzerïnnen können die annotierte Passage als relevant auszeichnen, auch wenn sie noch keine konkrete Hypothese haben. Mithilfe der Analysefunktionen in CATMA können gehighlightete Passagen gesucht und als Liste angezeigt werden. So lassen sie sich beispielsweise mit anderen Annotationsmodi weiter annotieren, wenn Texterforschung und Interpretation weiter fortgeschritten sind.
+                    </p>
+<p>(2) 
+                        <hi rend="italic">Comment</hi>: Im Comment-Modus können Textstellen frei kommentiert werden. Dies ermöglicht es, Gedanken zu einer Textstelle festzuhalten, ohne ein strukturiertes Konzeptrepertoire zu nutzen. So können auch nicht in Kategorien überführbare Interpretationen als Annotation umgesetzt werden. Geplant ist zudem, die Erstellung von Tagsets auf der Basis von Kommentaren zu vereinfachen, beispielsweise indem die Kommentartexte (teil-automatisiert) ausgewertet werden.
+                    </p>
+<p>(3) 
+                        <hi rend="italic">Annotation</hi>: Hierunter fallen in CATMA tagbasierte Annotationen, bei denen Textstellen mithilfe hierarchisch gegliederter Konzeptontologien mit einem Tag versehen werden (vgl. Fig. 1). Die Annotationsmodi können iterativ ineinandergreifen und bilden damit auch auf dieser Ebene den sog. ‘hermeneutischen Zirkel’ der Texterschließung ab. Die tagbasierte Form der Annotation setzt am meisten Strukturierung und Formalisierung voraus und ist nicht für alle Formen interpretativer Annotationen nutzbar. Als strukturiertes Werkzeug bzw. als Heuristik für Interpretation ist sie dafür umso fruchtbarer. In CATMA können Tagsets frei erstellt und laufend verändert werden; die Erzeugung einer solchen Konzeptontologie führt dabei zu sehr textnahem Arbeiten und erfordert in produktiver Weise die Reflexion literaturwissenschaftlicher Theorien und Methoden. Inwieweit tagbasiertes Annotieren mit der von Spielräumen geprägten literaturwissenschaftlichen Erforschung von Texten kompatibel ist, wird im Folgenden erörtert.
+                    </p>
+<figure>
+<graphic height="7.9375cm" n="1001" rend="inline" url="143_final-7e12f399e4a6a5a449831f7a698cde5f.png" width="15.927916666666667cm"/>
+<head>Figure 1: Annotation in CATMA 6</head>
+</figure>
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Voraussetzungen für gewinnbringendes taxonomiebasiertes Annotieren im Rahmen von Textauslegung</head>
+<p>Damit ein strukturiertes Annotieren mit Tagsets nicht nur im Rahmen heuristischer Text<hi rend="italic">beschreibung</hi> genutzt werden kann,
+sondern auch die Spielräume der Text<hi rend="italic">auslegung</hi> abbildet,<ref n="3" target="ftn3"/> müssen einige Bedingungen erfüllt sein. 
+</p>
+<div rend="DH-Heading2" type="div2">
+<head>Mehrfachannotation</head>
+<p>Neben freiem Generieren und iterativem Überarbeiten von Tagsets ist eine Bedingung für die Nutzung tagsetbasierten Annotierens als interpretationsunterstützender Methode die Möglichkeit der (diversen oder sogar widersprüchlichen) Mehrfachannotation derselben Textstelle. Dies trägt zum einen dem Umstand Rechnung, dass ein Text aus unterschiedlichen Perspektiven untersucht werden kann: Beispielsweise kann eine Textpassage zugleich intermediale Bezüge enthalten und 
+                        <hi rend="italic">Gender</hi>-Themen adressieren. Eine mehrdimensionale Kategorisierung der Textstelle muss daher möglich sein.
+                    </p>
+<p>Passagen literarischer Texte sind zudem häufig interpretationsoffen, weshalb unterschiedliche, teilweise auch widersprüchliche Interpretationen gleichermaßen gültig sein können. So mögen etwa (inkompatible) Thesen darüber, wer/was durch eine im Text auftretende Figur verkörpert werden soll, plausibel sein.<ref n="4" target="ftn4"/> In CATMA 6 sind freie Tagsetgenerierung und Mehrfachannotationen einer Textpassage möglich, indem Textpassagen, Annotationen und Tags als Knoten in einer Graphstruktur modelliert sind, die sehr flexible Verknüpfungsmöglichkeiten erlaubt.<ref n="5" target="ftn5"/>
+</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Metaannotationen</head>
+<p>Da bei der Interpretation von Literatur die Spielräume nicht grenzenlos sind und nach diversen Regeln gespielt werden muss (vgl. bspw. Jannidis 2003), benötigt eine Annotationsumgebung, die taxonomiegestütztes Interpretieren ermöglicht, auch Optionen zur Einordnung, Erläuterung und Aushandlung von Interpretationen. Diese Rolle erfüllen in CATMA 6 Metaannotationen, die wiederum taxonomiebasiert (als 
+                        <hi rend="italic">Properties</hi> und 
+                        <hi rend="italic">Values</hi>) bzw. als Metakommentar eingesetzt werden können:
+                    </p>
+<p>Annotationskategorien lassen sich mit Properties versehen, denen pro Annotation feste oder ad hoc vergebbare Values zugeordnet werden können, um Annotationen genauer zu qualifizieren. Die gleiche Funktion erfüllen freitextbasierte Metaannotationen, die erstmalig in CATMA 6 nutzbar sind. Ob Metaannotationen als freie Kommentare oder auf Taxonomiebasis zur Anwendung kommen, kann vom Grad der theoretischen Ausarbeitung der genutzten Interpretationsheuristik abhängen oder eine Frage des Anwendungskontextes bzw. der persönlich präferierten Arbeitsweise sein.</p>
+<p>In technischer Hinsicht sind Annotationen gemäß dem Web Annotation Data Model<ref n="6" target="ftn6"/> modelliert und haben als 
+                        <hi rend="italic">body-type</hi> die Klasse 
+                        <hi rend="italic">Dataset</hi>. Die Struktur ist eine Liste von 
+                        <hi rend="italic">key/multi-value</hi>-Paaren. Der Tag der Annotation gibt die möglichen 
+                        <hi rend="italic">keys</hi> vor.
+                    </p>
+<p>Während Metaannotationen eingesetzt werden können, um einem Tagset Analysekategorien auf einer horizontalen Gliederungsebene hinzuzufügen,<ref n="7" target="ftn7"/> lassen sie sich auch zur Einordnung der Interpretationsentscheidung nutzen. Forscherïnnen können beispielsweise angeben, welche Literatur- oder Interpretationstheorie (z. B. Rezeptionsästhethik oder Poststrukturalismus, vgl. Köppe &amp; Winko 2013) sie herangezogen haben, um eine bestimmte (strittige) Interpretationsentscheidung zu treffen. Ebenso können in die Interpretation einfließende Kontextinformationen aufgeführt (z. B. Wissen über andere Texte), oder Interpretationen auf einer Sicher-unsicher-Skala verortet werden (vgl. Drucker 2011). Solche Metaannotationen helfen, hermeneutische Annotationen im Kontext theoretischer und subjektiver Einbettung zu verstehen; sie ermöglichen, zumindest in Ansätzen, die Angabe von Argumenten für Interpretationsentscheidungen und schaffen die Bedingungen einer literaturwissenschaftlichen Auseinandersetzung über die Plausibilität interpretativer Hypothesen. Besonders sind Metaannotationen notwendig, wenn Textstellen tatsächlich mehrere scheinbar widersprüchliche Annotationen aufweisen – speziell im Kontext kollaborativer Annotation und Textauslegung.
+                    </p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Kollaborative Annotation</head>
+<p>Kollaboratives Annotieren ist in der Linguistik eine etablierte Methode, um Annotationsentscheidungen abzusichern (vgl. Wissler et al. 2014). In der Literaturwissenschaft ist es noch wenig etabliert (vgl. Röcke 2016); auch ist ein behutsameres Vorgehen angebracht, wenn es darum geht, Annotations- bzw. Interpretationsentscheidungen abzusichern. Als fruchtbar hat sich ein iteratives Vorgehen erwiesen, bei dem Forscherïnnen diskrepant annotierte Passagen diskutieren, um Gründe für unterschiedliche Entscheidungen herauszustellen (vgl. Gius &amp; Jacke 2017). Durch eine gründliche Metaannotation kann dieser Workflow verschlankt werden. Je nach Grund kann abgewogen werden, ob es sich um eine legitime Uneinigkeit handelt. So können Interpretationsspielräume bei kollaborativem Annotieren zugleich gewahrt und sinnvoll eingegrenzt werden.</p>
+<p>Kollaboration wird in CATMA ermöglicht durch die mit GitLab per API verknüpfte projektzentrierte Systemarchitektur (vgl. Fig. 2). Eine GitLab-Group<ref n="8" target="ftn8"/> wird im CATMA Web UI als CATMA-Projekt gespiegelt, dem – entsprechend dem GitLab-Schema – einzelne Nutzerïnnen mit unterschiedlichen Rollen und Rechten hinzugefügt werden können. CATMA-Projekte werden mit Textdokumenten, Tagsets, Annotationsdaten und potentiell mehreren Projektmitgliedern ausgestattet. Da unterschiedliche Projektkontexte (etwa wissenschaftliche Forschungsprojekte mit mehreren Projektleiterïnnen, Mitarbeiterïnnen und Hilfskräften; Seminarprojekte in der universitären Lehre; Unterrichtsprojekte in der schulischen Lehre) die Festlegung unterschiedlicher Entscheidungsspielräume für die Mitarbeitenden erfordern, können in CATMA 6 jeweils projektbezogen die folgenden Rollen vergeben werden: Projekteigentümerïn/-leiterïn, Partnerïn, Assistentïn, Beobachterïn und Studentïn/Gast. Die Rollen sind dabei mit festen Rechte-Konfigurationen in den Feldern der Projekt- und Mitgliederverwaltung sowie der Erstellung, Bearbeitung und Löschung von Textdokumenten, Tagsets und Annotationsdaten versehen. Durch die Individualisierung von Kooperationsmodi kann festgelegt werden, wie viel Spielraum jedes Projektmitglied haben soll. Arbeitet man beispielsweise in einem Forschungsprojekt kollaborativ und möchte, dass alle Teilnehmenden die gleichen Rechte haben, vergibt man als Projekt-Owner Partner-Rollen. In Seminarkontexten könnte man Assistierenden-, Beobachtenden- oder Studierenden-Rollen vergeben, die jeweils weniger Zugriffsrechte haben.
+                    </p>
+<figure>
+<graphic height="7.231944444444444cm" n="1002" rend="inline" url="143_final-9f8d329fc39fda7741b17108e31890d6.png" width="15.927916666666667cm"/>
+<head>Figure 2: Systemarchitektur CATMA 6</head>
+</figure>
+<p>Das neue Rollen- und Rechtesystem erlaubt somit eine differenzierte Festlegung von Spielräumen auch bei der Konzeption eines kollaborativen Annotationsprojekts. Um einem Projekt weitere Mitglieder hinzuzufügen bietet CATMA 6 zwei Möglichkeiten: (1) das manuelle Hinzufügen einzelner CATMA-Nutzerïnnen durch Eingabe des CATMA-Usernames. Diese Funktion bietet sich für den asynchronen Arbeitsmodus etwa in Forschungsprojekten an. (2) Die 
+                        <hi rend="italic">live</hi>-Einladung per generiertem Zahlencode, der nur für den Moment einer geöffneten Einladung gültig ist. Dies ist besonders für Seminar- oder Workshopkontexten eine zeitsparende Option.
+                    </p>
+<p>Die Verknüpfung mit GitLab bietet zudem Versionierungs- und damit einhergehende Konfliktlösungsfunktionen. Denn während CATMA beispielsweise inhaltlich widersprüchliche Mehrfachannotationen erlaubt, stellt das zeilenbasiert arbeitende Versionierungssystem Git einen Konflikt fest, wenn Nutzerïnnen inkompatible Änderungen in ihren Projekten vorgenommen haben, die dieselbe Zeile des zugrundeliegenden Codes betreffen. Nehmen wir beispielsweise an, in einem kollaborativen Forschungsprojekt wurde dieselbe Metaannotation von Nutzerïnnen 1 und 2 je unterschiedlich geändert. Sobald Nutzerïn 2 die Arbeit mit dem Team synchronisiert, meldet CATMA einen Konflikt, anstatt eigenmächtig einer Version den Vorzug zu geben (siehe Fig. 3). Dabei werden eigene und fremde Version nebeneinandergestellt und Nutzerïn 2 kann sich informiert für eine Version entscheiden, ohne tiefergehende Kenntnisse über die zugrunde liegenden technischen GitLab-Prozesse haben zu müssen. Diese Funktionalität unterstützt den – im kollaborativen Modus noch stärker im Vordergrund stehenden – diskursiven Aushandlungsprozess von Annotation und Interpretation und reagiert somit auf die Forderung nach flexiblen disziplinspezifischen Arbeitsabläufen.</p>
+<figure>
+<graphic height="8.713611111111112cm" n="1003" rend="inline" url="143_final-18433d493213b228087b70b55b43dc8b.jpg" width="15.927916666666667cm"/>
+<head>Figure 3: GUI-Unterstützung zur Konfliktlösung</head>
+</figure>
+<p>Das Schaubild (vgl. Fig. 4) verdeutlicht die identifizierten literaturwissenschaftlichen Spielräume (linke Spalte) und die daraus erwachsenden generellen Anforderungen an digitale Arbeitsumgebungen (mittlere Spalte). Wie CATMA 6 diese Anforderungen konkret umsetzt, findet sich in der rechten Spalte.</p>
+<figure>
+<graphic height="12.74938888888889cm" n="1004" rend="inline" url="143_final-a904e8864e7dba315eb9e985ae06c716.png" width="16.002cm"/>
+<head> Figure 4: Technische Umsetzung der Anforderungen interpretatorischer Spielräume</head>
+</figure>
+</div>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Dazu gehören u.a. umfangreiche Versionierungsfunktionalitäten und ein Rollen-/Rechtemanagement (s. Abschnitt 3.3) sowie die Integration eines geisteswissenschaftlich orientierten interaktiven Visualisierungskonzepts auf Grundlage der <hi rend="italic">Vega Visualization Grammar</hi>
+gemäß der im Projekt 3DH (<ref target="http://threedh.net">http://threedh.net</ref>) formulierten Kriterien einer <hi rend="italic">Dynamic Data Visualisation and Exploration for Digital Humanities Research</hi>.
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+       Dies gilt zum einen für narratologische <hi rend="italic">histoire</hi>-Kategorien, aber auch für Kategorien, die das Verhältnis zwischen Darstellung und Handlung betreffen (vgl. Genette 2010). Je nach Gestaltung eines literarischen Textes können die inhaltlichen Komponenten, die für eine Kategorisierung identifiziert werden müssen, offen bleiben oder ambig umgesetzt sein, so dass ihre Identifikation eine Interpretation notwendig macht.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Zur Unterscheidung von Deskription und Interpretation vgl. Kindt &amp; Müller 2003.
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Vgl. hierzu bspw. Føllesdal 1979, der unterschiedliche Deutungen des fremden Passagiers bei Ibsens 
+      <hi rend="italic">Peer Gynt</hi>  vorstellt, von denen die letzten beiden (Verkörperung Lord Byrons oder des Teufels) überzeugend sind.
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      Vgl. <ref target="http://tinkerpop.apache.org/">http://tinkerpop.apache.org/</ref>.
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      Vgl. <ref target="https://www.w3.org/TR/annotation-model/">https://www.w3.org/TR/annotation-model/</ref>.
+    </note>
+    <note n="7" rend="footnote text" xml:id="ftn7">
+      Beispielsweise könnte Ironie in einem literarischen Text mithilfe eines Tagsets annotiert werden (vgl. Horstmann / Kleymann 2019): Die Tags bilden diverse Formen von Ironie ab, und pro Annotation wird per Property mithilfe von Values wie “Autorïn” oder “Erzählerïn” bestimmt, welche Instanz Subjekt” bzw. Objekt der Ironie ist.
+    </note>
+    <note n="8" rend="footnote text" xml:id="ftn8">
+      Vgl. <ref target="https://docs.gitlab.com/ee/user/group/">https://docs.gitlab.com/ee/user/group/</ref>  (Zugriff: 19.12.2019).
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold">Bauer, Matthias / Knape, Joachim / Koch, Peter / Winkler, Susanne</hi> (2010): “Dimensionen der Ambiguität”, in: 
+                        <hi rend="italic" xml:space="preserve">Zeitschrift für Literaturwissenschaft und Linguistik </hi>40 (158): 7–75.
+                    </bibl>
+<bibl>
+<hi rend="bold">Bühler, Axel</hi> (2003): “Die Vielfalt des Interpretierens”, in: Bühler, Axel (ed.): 
+                        <hi rend="italic">Hermeneutik. Basistexte zur Einführung in die wissenschaftstheoretischen Grundlagen von Verstehen und Interpretation</hi>. Heidelberg: Synchron Wissenschaftsverlag der Autoren 99–120.
+                    </bibl>
+<bibl>
+<hi rend="bold">Danneberg, Lutz</hi> (1999): “Zum Autorkonstrukt und zu einem methodologischen Konzept der Autorintention”, in: Jannidis, Fotis / Lauer, Gerhard / Martínez, Matías / Winko, Simone (eds.): 
+                        <hi rend="italic">Rückkehr des Autors. Zur Erneuerung eines umstrittenen Begriffs</hi>. Tübingen: Niemeyer 77–105.
+                    </bibl>
+<bibl>
+<hi rend="bold">Drucker, Johanna</hi> (2011): “Humanities Approaches to Graphical Display”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 5 (1), 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">
+<hi rend="underline color(1155CC)">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</hi>
+</ref> (letzter Zugriff 10. September 2019).
+                    </bibl>
+<bibl>
+<hi rend="bold">Folde, Christian</hi> (2015): “Grounding Interpretation”, in: 
+                        <hi rend="italic">British Journal of Aesthetics</hi> 55 (3): 361–374.
+                    </bibl>
+<bibl>
+<hi rend="bold">Føllesdal, Dagfinn</hi> (1979): “Hermeneutics and the Hypothetico-Deductive Method”, in: 
+                        <hi rend="italic">Dialectica</hi> 33: 319–336.
+                    </bibl>
+<bibl>
+<hi rend="bold">Genette, Gérard</hi> (2010): 
+                        <hi rend="italic">Die Erzählung</hi>. 3., durchges. und korrigierte Aufl. Paderborn: Fink.
+                    </bibl>
+<bibl>
+<hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2017): “The Hermeneutic Profit of Annotation. On Preventing and Fostering Disagreement in Literary Analysis”, in: 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi> 11 (2): 233–254.
+                    </bibl>
+<bibl>
+<hi rend="bold">Horstmann, Jan / Kleymann, Rabea</hi> (2019): “Alte Fragen, neue Methoden – Philologische und digitale Verfahren im Dialog. Ein Beitrag zum Forschungsdiskurs um Entsagung und Ironie bei Goethe”, in: 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>. DOI: 
+                        <ref target="http://dx.doi.org/10.17175/2019_007">
+<hi rend="underline color(1155CC)">10.17175/2019_007</hi>
+</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Jannidis, Fotis</hi> (2003): “Polyvalenz – Konvention – Autonomie”, in: Jannidis, Fotis / Lauer, Gerhard / Martínez, Matías / Winko, Simone (eds.): 
+                        <hi rend="italic">Regeln der Bedeutung. Zur Theorie der Bedeutung literarischer Texte</hi>. Berlin, New York: de Gruyter 305–328.
+                    </bibl>
+<bibl>
+<hi rend="bold">Kindt, Tom / Müller, Hans-Harald</hi> (2003): “Wieviel Interpretation enthalten Beschreibungen? Überlegungen zu einer umstrittenen Unterscheidung am Beispiel der Narratologie”, in: Jannidis, Fotis / Lauer, Gerhard / Martínez, Matías / Winko, Simone (eds.). 
+                        <hi rend="italic">Regeln der Bedeutung. Zur Theorie der Bedeutung literarischer Texte</hi>. Berlin, New York: de Gruyter 286–304.
+                    </bibl>
+<bibl>
+<hi rend="bold">Köppe, Tilmann / Winko, Simone</hi> (2013): 
+                        <hi rend="italic">Neuere Literaturtheorien</hi>. Stuttgart: Metzler.
+                    </bibl>
+<bibl>
+<hi rend="bold">Meister, Jan Christoph</hi> (im Erscheinen): “Annotation als Mark-Up avant la lettre”, in: Jannidis, Fotis / Winko, Simone / Rapp, Andrea / Meister, Jan Christoph / Stäcker, Thomas (eds.): 
+                        <hi rend="italic">Digitale Literaturwissenschaft. DFG-Symposium Villa Vigoni, 2017</hi>. Berlin, New York: de Gruyter.
+                    </bibl>
+<bibl>
+<hi rend="bold">Nünning, Vera / Nünning, Ansgar</hi> (eds. 2010): 
+                        <hi rend="italic">Methoden der literatur- und kulturwissenschaftlichen Textanalyse: Ansätze – Grundlagen – Modellanalysen</hi>. Stuttgart, Weimar: Metzler.
+                    </bibl>
+<bibl>
+<hi rend="bold">Puhl, Johanna / Andorfer, Peter / Höckendorff, Mareike / Schmunk, Stefan / Stiller, Juliane / Thoden, Klaus</hi> (2015): 
+                        <hi rend="italic">Diskussion und Definition eines Research Data LifeCycle für die digitalen Geisteswissenschaften</hi>. DARIAH-DE Working Papers Nr. 11. Göttingen: DARIAH-DE. URN: 
+                        <ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-4-4">
+<hi rend="underline color(1155CC)">urn:nbn:de:gbv:7-dariah-2015-</hi>
+</ref>
+<ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-4-4">
+<hi rend="underline color(1155CC)">4-4</hi>
+</ref>.
+                    </bibl>
+<bibl>
+<hi rend="bold">Röcke, Werner</hi> (2016): “Geleitwort”, in: Stockhorst, Stefanie / Lepper, Marcel / Hoppe, Vinzenz (eds.): 
+                        <hi rend="italic">Symphilologie. Formen der Kooperation in den Geisteswissenschaften</hi>. Göttingen: V &amp; R unipress.
+                    </bibl>
+<bibl>
+<hi rend="bold">Sahle, Patrick</hi> (2015): “Digital Humanities? Gibt’s doch gar nicht!”, in: Baum, Constanze / Stäcker, Thomas (eds.): 
+                        <hi rend="italic">Grenzen und Möglichkeiten der Digital Humanities</hi>. Wolfenbüttel (= Zeitschrift für digitale Geisteswissenschaften / Sonderbände, 1).
+                    </bibl>
+<bibl>
+<hi rend="bold">Shusterman, Richard</hi> (1978): “The Logic of Interpretation”, in: 
+                        <hi rend="italic" xml:space="preserve">The Philosophical Quarterly </hi>28 (113): 310–324.
+                    </bibl>
+<bibl>
+<hi rend="bold">Wissler, Lars / Almashraee, Mohammed / Monett, Dagmar / Paschke, Adrian</hi> (2014): “The Gold Standard in Corpus Annotation”, in: 
+                        <hi rend="italic">Proceedings of the 5th IEEE Germany Student Conference</hi>. DOI: 
+                        <ref target="http://doi.org/10.13140/2.1.4316.3523">
+<hi rend="underline color(1155CC)">10.13140/2.1.4316.3523</hi>
+</ref>.
+                    </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

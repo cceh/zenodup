@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="121_final-LANDES_Lisa_Geschichte_aus_erster_Hand___Der_Aufbau_eines_na" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Geschichte aus erster Hand – Der Aufbau eines nationalen Zeitungsportals unter Berücksichtigung der Bedürfnisse verschiedener Nutzergruppen</title>
+<author>
+<persName>
+<surname>Landes</surname>
+<forename>Lisa</forename>
+</persName>
+<affiliation>Deutsche Nationalbibliothek, Deutschland</affiliation>
+<email>l.landes@dnb.de</email>
+</author>
+<author>
+<persName>
+<surname>Dinger</surname>
+<forename>Patrick</forename>
+</persName>
+<affiliation>Deutsche Nationalbibliothek, Deutschland</affiliation>
+<email>p.dinger@dnb.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-06T13:20:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Deutsches Zeitungsportal</term>
+<term>Deutsche Digitale Bibliothek</term>
+<term>Nutzerforschung</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Sammlung</term>
+<term>Community-Bildung</term>
+<term>Kollaboration</term>
+<term>Infrastruktur</term>
+<term>Metadaten</term>
+<term>Projekte</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div rend="DH-Heading1" type="div1">
+<head>Ziele und technische Grundlagen des Infrastrukturprojektes „Deutsches Zeitungsportal“</head>
+<p rend="List Paragraph">Historische Zeitungen wurden in den letzten Jahren von deutschen Kulturerbe-Einrichtungen verstärkt digitalisiert und zugänglich gemacht. Dadurch stehen der Forschung hunderte Millionen digitalisierter Zeitungsseiten zur Verfügung – ein Reichtum an Primärquellen, dem man mit den herkömmlichen geisteswissenschaftlichen Forschungsmethoden („Close Reading“) kaum gerecht werden kann. Zunehmend gewinnen daher Analysemethoden der Digital Humanities, wie z.B. „Distant Reading“ (Burckhardt u.A. 2018), an Bedeutung, um die bei der Massendigitalisierung entstandenen Daten auswerten zu können. </p>
+<p rend="List Paragraph">Die Aufgabe eines nationalen Zeitungsportals ist es jedoch, nicht nur für Forschende, sondern auch für eine interessierte Öffentlichkeit einen niedrigschwelligen Zugang zu entwickeln. Während mit ANNO, Delpher oder dem British Newspaper Archive im europäischen Raum mehrere Projekte – teilweise in Kooperation mit kommerziellen Partnern – entstanden sind, die große digitale Zeitungsbestände in einem nationalen Portal verbinden, existieren in Deutschland bislang nur lokale und regionale Portale einzelner Bibliotheken oder Regionen.<ref n="1" target="ftn1"/> Ein übergreifendes Portal, das einen zentralen Zugriff bietet, ist bislang noch ein Forschungsdesiderat (Blome 2018: B.6-33). Dank verschiedener DFG-Förderinitiativen zur Digitalisierung historischer Zeitungen sowie der Förderung der Errichtung eines nationalen Zeitungsportals wird sich das nun ändern. Anfang 2019 wurde das Projekt „Deutsches Zeitungsportal“ gestartet. Es wird im Rahmen der Deutschen Digitalen Bibliothek (DDB) umgesetzt. Ende 2020 soll das Portal, an dessen Aufbau vier Projektpartner<ref n="2" target="ftn2"/> beteiligt sind, online gehen.
+                </p>
+<p rend="List Paragraph">Das entstehende Portal wird eine auf die Besonderheiten von Zeitungen zugeschnittene zentrale Präsentations- und Rechercheoberfläche bieten und die folgenden Kernfunktionalitäten umsetzen:</p>
+<list type="unordered">
+<item>übergreifende Volltextsuchen in den digitalisierten Zeitungsbeständen</item>
+<item>unterschiedliche Einstiegspunkte, z.B. über Kalender und Zeitungstitel</item>
+<item>einen unmittelbar in die Portalumgebung integrierten Viewer für Volltexte und Images</item>
+<item>
+<hi rend="Bullets">persistente Referenzierbarkeit und damit Zitationsfähigkeit der digitalen Zeitungsobjekte</hi>
+</item>
+</list>
+<p>Das Deutsche Zeitungsportal ist ein Infrastrukturprojekt, das auf den bestehenden Netzwerken, Techniken und Workflows der DDB aufbaut. Das heißt, die Zeitungen, die im Zeitungsportal zur Verfügung gestellt werden, stammen aus verschiedenen Einrichtungen, zumeist Bibliotheken, die Erschließungsinformationen, Bilddateien und Volltexte der Zeitungen aus ihren Beständen an das Zeitungsportal liefern. In der ersten Ausbaustufe des Zeitungsportals stellen Bibliotheken ihre Metadaten im METS/MODS-Format bereit, sodass über Verlinkungen in der Datenstruktur sowohl die Bilddateien (i.d.R. im jpg-Format) als auch die Volltexte (i.d.R. im ALTO-xml-Format) in das Portal übernommen werden. Dort werden diese Bestände zusammengeführt und können über einen Suchschlitz durchsucht werden. Basis der Suche bilden die Volltexte, welche vollständig in einen zentral vorgehaltenen SOLR-Index aufgenommen werden. Durch die standardisierten, maschinennutzbaren Inhalte des Zeitungsportals, die über eine Schnittstelle (API) heruntergeladen werden können, sollen neue Nutzungsszenarien, wie z.B. Big-Data-Analysen, ermöglicht werden (Altenhöner 2018: 146). Da es sich bei den Zeitungstexten und -bildern ausschließlich um rechtefreies Material handelt, können die Dokumente in der eigenen Forschung nachgenutzt und weiterverarbeitet werden. </p>
+<p>Zum Start des Portals werden Bestände aus mindestens sechs deutschen Bibliotheken<ref n="3" target="ftn3"/> verfügbar sein; vorsichtigen ersten Schätzungen zufolge wird es sich um 250 verschiedene Zeitungstitel im Umfang von ca. 15 Mio. Zeitungsseiten handeln. Nach der Inbetriebnahme des Portals sollen die Inhalte beständig wachsen, um möglichst viele historische Zeitungen in diesem Portal zu vereinen. Das Fernziel des Unterfangens ist es also, den Forschenden (und der allgemeinen Öffentlichkeit) einen einheitlichen und stabilen Zugang zu vielen (wenn möglich: allen) historischen Zeitungen aus deutschen Kulturerbe-Einrichtungen zu geben. Zudem wird angestrebt, in einer zweiten Ausbaustufe ab 2021 das Zeitungsportal für andere Datenformate wie TEI-XML zu öffnen, um z.B. digitale Editionen und Annotationen in den Korpus aufnehmen zu können. 
+                </p>
+<p>Um Zeitungen aus vielen unterschiedlichen Quellen zusammenzuführen, sind bei der Aufbereitung der (Meta-)Daten vielfältige Standardisierungsprozesse notwendig. So wird im Rahmen des Projekts ein zeitungsspezifisches Anforderungsprofil für das METS/MODS-Metadatenformat entwickelt und eine Verknüpfung der Metadaten mit der Zeitschriftendatenbank (ZDB) umgesetzt, deren Identifier für die eindeutige Identifizierung der Zeitungstitel benutzt werden.</p>
+<p>Durch den Aufbau der Datenverarbeitungsstrukturen für Zeitungen und die dafür nötigen Standardisierungsprozesse sollen auch Impulse für die Digitalisierung, Erschließung und Referenzierung der Zeitungsbestände der kooperierenden Datenpartner ausgehen, ein Effekt, der sich bereits beim Aufbau der Deutschen Digitalen Bibliothek gezeigt hat. Darüber hinaus soll der Aufbau eines Zeitungsportals Kulturerbe-Einrichtungen dazu anregen, weitere Digitalisierungsvorhaben von historischen Zeitungen anzugehen. Um ein Portal mit für die Zukunft gerüsteten offenen Schnittstellen zu schaffen, ist die perspektivische Integration der IIIF-Technologie sowie eine Anbindung an die Europeana Newspapers Collection geplant.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ein Zeitungsportal für die Wissenschaft und die interessierte Öffentlichkeit</head>
+<p>Das Medium Zeitung zeichnet sich dadurch aus, dass es alle Bereich des Lebens abdeckt. Digitalisierte historische Zeitungen bieten den (Geistes-)Wissenschaften die Möglichkeit, eine Vielzahl von Forschungsfragen zu adressieren (Blome 2018). Das Interesse aus der Wissenschaft fließt beim Aufbau des Zeitungsportals auf mehreren Wegen in die Konzeption ein: So waren die oben genannten vier Kernfunktionalitäten Ergebnis eines Workshops mit WissenschaftlerInnen, der im Herbst 2014 im Rahmen des DFG-Pilotprojektes „Digitalisierung historischer Zeitungen“ in Bremen stattfand. Auch der laufende Entwicklungsprozess des Zeitungsportals wird von einem internationalen wissenschaftlichen Beirat begleitet.<ref n="4" target="ftn4"/> Im Gegensatz zu führenden Zeitungsprojekten der Digital Humanities wie Impresso, NewsEyes oder Oceanic Exchanges, welche ausschließlich ein wissenschaftliches Publikum im Blick haben, richtet sich das Angebot des Zeitungsportals auch an allgemeininteressierte NutzerInnen. Wie bereits bestehende, internationale Zeitungsportale zeigen, werden ihre Angebote sehr gut angenommen und von unterschiedlichsten Nutzergruppen besucht (für Nutzergruppen des österreichischen Zeitungsportals ANNO vgl. z.B. Müller 2016: 86). Vor allem die Volltextsuche, also die Möglichkeit, nicht nur in den Zeitungstiteln und anderen Metadaten, sondern in den eigentlichen Zeitungstexten zu suchen, macht das Zeitungsportal zu einem sehr niedrigschwelligen Angebot: Auch ohne große Recherchekenntnisse können NutzerInnen Artikel oder Informationen zu allen vorstellbaren Themen finden – sei es zum eigenen Sportverein, zu einer berühmten Persönlichkeit oder zur Geschichte der eigenen Familie. 
+                </p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Anforderungen der unterschiedlichen Nutzergruppen</head>
+<p>Das Projekt „Deutsches Zeitungsportal“ steht somit vor der Herausforderung, Anforderungen aus der Wissenschaft und aus der allgemeinen Öffentlichkeit zu analysieren, sie soweit wie möglich zu vereinen und ihnen allen bei der Umsetzung des Zeitungsportals möglichst gerecht zu werden. </p>
+<p>Einer der ersten Schritte bei der Entwicklung des Zeitungsportals war es darum, die Anforderungen von Seiten der Wissenschaft sowie von allgemeininteressierten NutzerInnen zu erheben. Dabei kamen zu Beginn des Projekts drei unterschiedliche Methoden zum Einsatz: eine webbasierte Nutzerumfrage, fünfzehn, jeweils einstündige Interviews mit ausgewählten NutzerInnen und ein zweitägiger Workshop mit dem wissenschaftlichen Beirat. </p>
+<p>Die Umfrage hatte als Ziel, potenzielle Zielgruppen des Zeitungsportals und ihre Anforderungen und Erwartungen kennenzulernen. Sie umfasste 23 Fragen zu Themengebieten wie Rechercheanlässe, Funktionalitäten und thematische Interessen und wurde für fünfeinhalb Wochen über die Homepage der DDB und über 27 weitere digitale Kanäle verbreitet. Das große Interesse, das dem Zeitungsportal entgegengebracht wird, zeigte sich hierbei schon rein zahlenmäßig – mit 2.422 ausgefüllten Fragebogen.</p>
+<p>Die Usability-Tests mit fünfzehn ausgesuchten potenziellen NutzerInnen wurden als halbstrukturierte Interviews durchgeführt, bei denen Methoden wie Protokolle lauten Denkens, Beobachtung und Aufzeichnung des Klickverhaltens, Aufzeichnung der Gestik und Mimik zum Einsatz kamen. Der Schwerpunkt der Interviews lag auf der Interaktion mit einem Klick-Dummy des Zeitungsportals, der aufgrund gezielter Fragen und kleiner Aufgaben auf seine Verständlichkeit und Usability einerseits und die Erwartungen der Interviewten andererseits überprüft wurde.</p>
+<p>Die Nutzerumfrage und die Nutzerinterviews richteten sich an die allgemeine Öffentlichkeit und wurden in Zusammenarbeit mit einer Marktforschungsagentur durchgeführt, die die Ergebnisse analysiert und aufbereitet hat.</p>
+<p>Bei dem Workshop mit dem wissenschaftlichen Beirat handelte es sich um ein zweitägiges Treffen, bei dem im Juni 2019 die vorliegenden Konzeptpapiere und der Klick-Dummy vorgestellt und mit den WissenschaftlerInnen unter Einbeziehung anderer Zeitungsportale diskutiert wurden. Die Empfehlungen, die im Lauf des Workshops entwickelt wurden, sind ebenfalls in die Konzeption des Portals eingeflossen.</p>
+<p>Der Vortrag widmet sich der Auswertung dieser Erhebungen: Wo finden sich Gemeinsamkeiten? Wo gibt es Unterschiede? Was ist zu tun, wenn sich die Anforderungen aus Wissenschaft und allgemeiner Öffentlichkeit widersprechen? Welche Wünsche lassen sich überhaupt realisieren und wo liegen Grenzen, seien diese technisch oder urheberrechtlich bedingt?</p>
+<p>Ein Beispiel für eine übereinstimmende Anforderung ist der Wunsch nach möglichst umfassenden Inhalten. Sowohl die allgemeine Öffentlichkeit als auch die Wissenschaftscommunity wünscht sich ein Zeitungsportal, das weitreichende Bestände anbietet, sodass sich die Recherche im besten Fall über ein einziges Portal erledigen lässt. Zwar ist genau dies der Anspruch und das angestrebte Alleinstellungsmerkmal des Deutschen Zeitungsportals, aber die Umsetzung dieses Zieles kann nicht allein vom Zeitungsportal erreicht werden. Viele Faktoren und Stakeholder – wie die schiere Menge des Materials, die Zerstreuung der Bestände in viele unterschiedliche Einrichtungstypen, die von der DFG überhaupt nicht erreicht werden, und nicht zuletzt das Urheberrecht, das die Digitalisierung und Verbreitung der besonders interessanten Bestände aus dem 20. Jahrhundert einschränkt – spielen hier eine Rolle. Ein kompletter Nachweis aller deutschen digitalisierten Zeitungsbestände kann darum eher als Vision der Community der Kulturerbe-Einrichtungen und ihrer Träger beschrieben werden, denn als ein kurzfristig erreichbares Ziel (Bürger 2018: 131f.).</p>
+<p>Eine wichtige Erkenntnis der Diskussion war es, dass das Zeitungsportal möglichst transparent mit seinen Inhalten umgehen muss: Wenn nicht alle historischen Zeitungen zu finden sind, muss für die NutzerInnen deutlich werden, welche Inhalte verfügbar sind und nach welchen Kriterien das vorhandene Zeitungskorpus zusammengestellt wurde. </p>
+<p>Unterschiedliche Erwartungen der Nutzergruppen wurden besonders im Bereich Nutzerinterface formuliert. Während die allgemeinen NutzerInnen sich hier eher eine einfach gestaltete Oberfläche wünschen und erwarten, alle Suchanfragen über einen Suchschlitz eingeben zu können, wurde in der Diskussion mit der wissenschaftlichen Begleitgruppe der Wunsch nach anspruchsvolleren Funktionen laut, z. B. nach der Möglichkeit, sich ein individuelles Zeitungskorpus zusammenzustellen und dieses gezielt durchsuchen zu können. Diese Anforderungen werden teilweise von der aus dem DDB-Hauptportal übernommenen Funktion „Meine DDB“ erfüllt, mit der sich Favoriten und Suchanfragen speichern lassen. Zudem könnten zukünftig erweiterte Funktionen implementiert werden, die, ohne die Startseite zu überladen, für WissenschaftlerInnen und erfahrene NutzerInnen einen komfortablen Zugang bieten, der komplexere Suchanfragen erlaubt. Der Suchschlitz für die Volltextsuche soll jedoch über alle Iterationen das bestimmende Element bleiben. Im Suchschlitz selber können auch komplexe Abfragen gemäß der von der Suchmaschine vorgegebenen Syntax eingegeben werden.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ausblick</head>
+<p rend="Hauptüberschrift">
+<hi style="font-size:11pt">Zum Abschluss des Vortrags wird der aktuelle Projektstand vorgestellt, inklusive eines ersten Blicks auf den Prototypen des Zeitungsportals, das Ende 2020 für die Öffentlichkeit freigeschaltet werden soll. Der Prototyp ist nicht nur aus technischen Gesichtspunkten (Tests, Qualitätssicherung) wichtig, sondern soll als Grundlage für eine zweite Runde der Nutzerforschung dienen: Die Erkenntnisse, die zu Beginn des Projektes gewonnen wurden, sollen bis Ende 2020 anhand einer weiteren Nutzerbefragung überprüft werden. So ist geplant, den Prototyp sowohl von den allgemeininteressierten NutzerInnen als auch vom wissenschaftlichen Beirat evaluieren zu lassen und daraus Erkenntnisse für die Schwerpunkte der nächsten, für 2021–2022 geplanten Projektphase zu gewinnen.</hi>
+</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      Hervorzuheben sind insbesondere das Portal der Staatsbibliothek zu Berlin ZEFYS http://zefys.staatsbibliothek-berlin.de [letzter Zugriff 05.09.19], digiPress der Bayerischen Staatsbibliothek 
+      <ref target="https://digipress.digitale-sammlungen.de/">https://digipress.digitale-sammlungen.de/</ref> [letzter Zugriff 05.09.19] und das Zeitungsportal NRW 
+      <ref target="https://zeitpunkt.nrw/">https://zeitpunkt.nrw/</ref> [letzter Zugriff 05.09.19]. 
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+      Deutsche Nationalbibliothek (Projektleitung), Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB), Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur.
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      Dabei handelt es sich um die folgenden sechs Bibliotheken, von denen die ersten fünf auch am vorgeschalteten DFG-Pilotprojekt beteiligt waren: Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB), Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (SBB), Bayerische Staatsbibliothek (BSB), Universitäts- und Landesbibliothek Sachsen-Anhalt (ULB), Staats- und Universitätsbibliothek Bremen (SuUB), Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky (SUB).
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      Mitglieder des wissenschaftlichen Beirats sind: Astrid Blome (Institut für Zeitungsforschung Dortmund), Christa Müller (Österreichische Nationalbibliothek), Claudia Resch (Österreichische Akademie der Wissenschaften), Estelle Bunout (Universität Luxemburg), Fotis Jannidis (Universität Würzburg), Günter Mühlberger (Universität Innsbruck), Jana Keck (Universität Stuttgart), Jörg Lehmann (Universität Tübingen), Marc Priewe (Universität Stuttgart), Maria Elisabeth Müller (Staats- und Universitätsbibliothek Bremen), Marian Dörk (Fachhochschule Potsdam/Urban Complexity Lab), Marten Düring (Universität Luxemburg), Pim Huijnen (Universität Utrecht), Thomas Werneke (Zentrum für Zeithistorische Forschung Potsdam).
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> ANNO (AustriaN Newspapers Online):</hi> 
+  <ref target="http://anno.onb.ac.at">http://anno.onb.ac.at</ref> [letzter Zugriff 29. August 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Altenhöner, Reinhard</hi> (2018): „Auf dem Weg zu einem nationalen Zeitungsportal. Eine materialspezifische Kooperation als Treiber eines neuen Dienstes für Wissenschaft und Forschung“ in: Bonte, Achim / Rehnolt, Juliane (eds.): 
+  <hi rend="italic">Kooperative Informationsinfrastrukturen als Chance und Herausforderung: Festschrift für Thomas Bürger zum 65. Geburtstag.</hi> Berlin, Boston: De Gruyter 144-160, DOI: 
+  <ref target="https://doi.org/10.1515/9783110587524-019">10.1515/9783110587524-019</ref>.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Bürger, Thomas</hi> (2016): „Zeitungsdigitalisierung als Herausforderung und Chance für Wissenschaft und Kultur“ in: 
+  <hi rend="italic">Zeitschrift für Bibliothekswesen und Bibliographie</hi> 63, H 3, 123-132, DOI: 10.3196/186429501663332.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Blome, Astrid</hi> (2018): „Zeitungen“ in: Busse, Laura / Enderle, Wilfried / Hohls Rüdiger u.A. (eds.): 
+  <hi rend="italic">Clio-Guide. Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften</hi>. Berlin: Clio-online und Humboldt-Universität zu Berlin (Veröffentlichungen von Clio-online, Nr. 2), B.6-1-D.6-36, DOI: 10.18452/19244.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold"> The British Newspaper Archive:</hi> <ptr target="https://www.britishnewspaperarchive.co.uk"/> [letzter Zugriff 29. August 2019]. </bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Burckhardt, Daniel</hi> / 
+  <hi rend="bold">Geyken, Alexander</hi> / 
+  <hi rend="bold">Saupe, Achim</hi> / 
+  <hi rend="bold">Werneke, Thomas</hi> (2019): „Distant Reading in der Zeitgeschichte. Möglichkeiten und Grenzen einer computergestützten Historischen Semantik am Beispiel der DDR-Presse“ in: 
+  <hi rend="italic">Zeithistorische Forschungen/Studies in Contemporary History</hi> 16: 177-196, DOI: 10.14765/zzf.dok-1345.
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Delpher: </hi>
+  <ref target="https://www.delpher.nl/">https://www.delpher.nl/</ref> [letzter Zugriff 29. August 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">DFG-Antrag</hi> „Errichtung eines nationalen Zeitungsportals auf der Basis der organisatorischen und technischen Infrastruktur der Deutschen Digitalen Bibliothek (DDB) – DDB-Zeitungsportal. Online verfügbar unter: 
+  <ref target="https://pro.deutsche-digitale-bibliothek.de/node/985">https://pro.deutsche-digitale-bibliothek.de/node/985</ref> [letzter Zugriff 29. August 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">DFG-Ausschreibung</hi> „Digitalisierung historischer Zeitungen des deutschen Sprachgebiets“ im Rahmen des LIS-Förderprogramms von 2018
+  (<ptr target="https://www.dfg.de/download/pdf/foerderung/programme/lis/ausschreibung_zeitungsdigitalisierung.pdf"/> ) [letzter Zugriff 10. September 2019].</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">DFG-Ausschreibung</hi> „Digitalisierung historischer Zeitungen des deutschen Sprachgebiets“ im Rahmen des LIS-Förderprogramms von 2019(
+  <ref target="https://www.dfg.de/download/pdf/foerderung/programme/lis/ausschreibung_zeitungsdigitalisierung_2019.pdf">https://www.dfg.de/download/pdf/foerderung/programme/lis/ausschreibung_zeitungsdigitalisierung_2019.pdf</ref>) [letzter Zugriff 10. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">digiPress: </hi>
+  <ref target="https://digipress.digitale-sammlungen.de/">https://digipress.digitale-sammlungen.de/</ref> [letzter Zugriff 05. September 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Empfehlungen zur Digitalisierung historischer Zeitungen in Deutschland</hi> (Masterplan Zeitungsdigitalisierung):
+<ptr target="http://www.zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/z/Masterplan.pdf"/> [letzter Zugriff 05. September 2019].</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Impresso: </hi>
+  <ref target="https://impresso-project.ch/">https://impresso-project.ch/</ref> [letzter Zugriff 29. August 2019].
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold" xml:space="preserve">Müller, Christa </hi>(2016): „ANNO – Der Digitale Zeitungslesesaal der Österreichischen Nationalbibliothek: Aktuelle und zukünftige Entwicklungen im Überblick“ in: 
+  <hi rend="italic">BIBLIOTHEK – Forschung und Praxis</hi> 40(1). Berlin: de Gruyter 83-89, DOI: 10.1515/bfp-2016-0012.
+</bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">NewsEye:</hi> https://www.newseye.eu/ [letzter Zugriff 29. August 2019].</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold"> Oceanic Exchanges:</hi> http://oceanicexchanges.org/ [letzter Zugriff 29. August 2019].</bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">ZDB (Zeitschriftendatenbank): </hi>
+    <ref target="https://zdb-katalog.de/">https://zdb-katalog.de/</ref> [letzter Zugriff 29. August 2019].
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">ZEFYS: </hi>
+    <ref target="http://zefys.staatsbibliothek-berlin.de">http://zefys.staatsbibliothek-berlin.de</ref> [letzter Zugriff 05. September 2019]. 
+  </bibl>
+  <bibl style="text-align:left; ">
+    <hi rend="bold">Zeitpunkt NRW: </hi>
+    <ref target="https://zeitpunkt.nrw/">https://zeitpunkt.nrw/</ref> [letzter Zugriff 05. September 2019].
+  </bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

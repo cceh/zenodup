@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="249_final-ANDRESEN_Melanie_Syntaktische_Profile_f_r_Interpretationen_j" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Syntaktische Profile für Interpretationen jenseits der Textoberfläche</title>
+<author>
+<persName>
+<surname>Andresen</surname>
+<forename>Melanie</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>melanie.andresen@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Begerow</surname>
+<forename>Anke</forename>
+</persName>
+<affiliation>Hochschule für Angewandte Wissenschaften Hamburg</affiliation>
+<email>anke.begerow@haw-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Franken</surname>
+<forename>Lina</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>lina.franken@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Gaidys</surname>
+<forename>Uta</forename>
+</persName>
+<affiliation>Hochschule für Angewandte Wissenschaften Hamburg</affiliation>
+<email>Uta.Gaidys@haw-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Koch</surname>
+<forename>Gertraud</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>gertraud.koch@uni-hamburg.de</email>
+</author>
+<author>
+<persName>
+<surname>Zinsmeister</surname>
+<forename>Heike</forename>
+</persName>
+<affiliation>Universität Hamburg, Deutschland</affiliation>
+<email>heike.zinsmeister@uni-hamburg.de</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2019-09-27T13:31:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Vortrag</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Interpretation</term>
+<term>Kollokationen</term>
+<term>Syntax</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Inhaltsanalyse</term>
+<term>Annotieren</term>
+<term>Kontextsetzung</term>
+<term>Methoden</term>
+<term>Text</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<p style="text-align:left; ">Viele Verfahren des Text Mining und Distant Reading beschränken sich auf eine wortbasierte Auswertung von Texten. Auch wenn auf Basis der Wortformen und ihrer linearen Abfolge bereits neue Perspektiven auf Texte gewonnen werden (z. B. mittels der Voyant Tools, Sinclair / Rockwell 2016), schöpfen diese Methoden das Potential von Texten bei Weitem nicht aus. Insbesondere, wenn die Auswertungsergebnisse Gegenstand weiterführender Interpretationen werden, z. B. um soziale Phänomene zu beschreiben, sehen wir einen Mehrwert in der Auswertung zusätzlicher sprachlicher Strukturen. Konkret verwenden wir syntaktische Annotationen, die präzisere Informationen zu Wortkombinationen liefern können, etwa „X ist Subjekt von Y“ anstelle von „X steht im Kontext von Y“. Zudem bestehen viele syntaktische Relationen über eine längere Distanz an der Oberfläche hinweg und können deshalb nur durch eine syntaktische Perspektive erfasst werden (z. B. Andresen / Zinsmeister 2017). Dies gilt für unterschiedliche Sprachen in unterschiedlichem Ausmaß. Das Deutsche verfügt über deutlich mehr Distanzstrukturen als das Englische, für das die meisten Analyseverfahren ursprünglich entwickelt wurden.</p>
+<p style="text-align:left; ">In diesem Beitrag vergleichen wir zwei Ansätze zur Berechnung von Kollokationen, einen oberflächenorientierten Ansatz und einen auf Dependenzannotationen basierten. An zwei Fallstudien aus den Fächern Kulturanthropologie und Pflegewissenschaft wird demonstriert, wie die beiden Ansätze eine qualitative Interpretation von Textdaten in Hinblick auf gesellschaftliche bzw. soziale Phänomene unterstützen können. Die Erstellung eines eindeutigen Goldstandards, der eine formale Evaluation erlauben würde, ist bei dieser Art Fragestellung nicht möglich. Stattdessen wird auf qualitative Weise das Potential dieser Analyse zur Bearbeitung der geistes- und sozialwissenschaftlichen Fragestellungen beschrieben.</p>
+<div rend="DH-Heading1" type="div1">
+<head>Syntaktische Profile: Forschungsstand</head>
+<p style="text-align:left; ">Die Nutzung syntaktischer Informationen zur Charakterisierung von Wortverwendungen ist vor allem in der Lexikografie betrieben worden. Populär wurde das Konzept unter dem Namen „word sketch“ besonders durch die korpuslinguistische Software SketchEngine (Kilgarriff et al. 2004, Kilgarriff et al. 2014). Für ein gegebenes Suchwort wird hier angegeben, welche anderen Wörter besonders häufig in spezifischen syntaktischen Relationen zum Suchwort stehen, z. B. 
+                    <hi rend="italic">glimpse</hi> als frequentes Objekt von 
+                    <hi rend="italic">catch</hi> (Kilgarriff et al. 2014: 9). Im Digitalen Wörterbuch der deutschen Sprache (DWDS) kann eine entsprechende Darstellung als sog. DWDS-Wortprofil abgerufen werden (Geyken 2011).
+                </p>
+<p style="text-align:left; ">Weitere Anwendungen gibt es in der Literaturwissenschaft und Linguistik: Googasian / Heuser (2019) vergleichen die syntaktischen Kontexte von Menschen und Tieren in einem Korpus sog. „wild animal stories“. Andresen (2018) nutzt syntaktische n-Gramme für einen Vergleich der Wissenschaftssprachen in den Fächern Literaturwissenschaft und Linguistik. Eine Anwendung auf sozialwissenschaftliche Fragestellungen erfolgt vor allem in den Politikwissenschaften: Anhand syntaktischer Muster wie z. B. Argumentstrukturen oder Mustern der Redewiedergabe werden hier politische Akteure und ihre Positionen identifiziert, miteinander in Relation gesetzt und so Diskurse charakterisiert (van Atteveldt et al. 2008, Kleinnijenhuis / van Atteveldt 2014, Wüest et al. 2011, Blessing et al. 2013). In den Fächern Pflegewissenschaft und Kulturanthropologie steht die Exploration des Mehrwertes syntaktischer Analysen noch aus.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Daten und Fragestellungen der Fallstudien</head>
+<p style="text-align:left; ">Das Potential syntaktisch definierter Kollokationen wird an zwei Fallstudien mit komplementärer Datenlage erprobt. Die erste nutzt ein großes Korpus geschriebener Sprache, das dadurch methodisch eine sehr sichere Grundlage bietet. Die zweite Fallstudie basiert auf einem eher kleinen Korpus mit gesprochener Sprache, was mehr methodische Herausforderungen erwarten lässt.</p>
+<p style="text-align:left; ">Die kulturanthropologische Fallstudie befasst sich mit dem Themenkomplex der Telemedizin und insbesondere der Frage nach der (Nicht-)Akzeptanz telemedizinischer Anwendungen durch unterschiedliche gesellschaftliche Akteursgruppen. Das hierfür erstellte Korpus umfasst 8.784 Texte mit insgesamt 14,8 Mio. Token und basiert auf einem Webcrawling (Adelmann / Franken 2020). Dafür wurden Webseiten von Krankenkassen, Ärzte- und Patientenverbänden als Ausgangspunkt genutzt und dann Links zu Seiten verfolgt, die mindestens eines von mehreren Wörtern aus einem Wortfeld zur Telemedizin enthalten (Koch / Franken im Druck). </p>
+<p style="text-align:left; ">Grundlage der pflegewissenschaftlichen Fallstudie ist ein Korpus aus 31 Dialogen, die mit schwerkranken und sterbenden Menschen in palliativer Versorgung geführt wurden. Es handelt sich um Transkripte gesprochener Sprache im Umfang von gut 100.000 Token. Gegenstand der Studie sind die Deutungen von Entscheidungen hinsichtlich der gesundheitlichen Versorgung der Betroffenen.</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Methode</head>
+<p style="text-align:left; ">Die Texte beider Korpora werden mithilfe
+des Parsers MATE (Bohnet 2010), trainiert auf der Hamburger Dependency
+Treebank (Foth et al. 2014), mit Lemmata, Wortarten und syntaktischen
+Dependenzen annotiert. Unter Kollokationen verstehen wir „a
+combination of two words that exhibit a tendency to occur near each
+other in natural language“ (Evert 2008: 1214). Bei der
+Operationalisierung von „near each other“ können Kriterien an der
+Textoberfläche oder syntaktische Kriterien angesetzt werden: Für den
+einfachen Ansatz ohne Annotationen betrachten wir Wörter in einem
+Kontextfenster von +/- 3 Wörtern als benachbart, für den syntaktischen
+Ansatz Wörter mit einer direkten Dependenzrelation. In beiden Fällen
+wird mithilfe des Log-Likelihood-Ratios (LLR, Dunning 1993) berechnet,
+welche Kombinationen häufiger im Korpus vorkommen, als basierend auf
+den Einzelfrequenzen der Wörter zu erwarten wäre. Im Falle der
+syntaktischen Kollokationen werden dafür die Einzelfrequenzen in der
+spezifischen syntaktischen Relation genutzt. Die Ergebnisse basieren
+auf den Lemmata und werden nach Schlüsselwörtern gefiltert, die für
+die jeweiligen Fragestellungen als bedeutsam ausgewählt wurden
+(<hi rend="italic">T</hi>/<hi rend="italic">telemed</hi> bzw. 
+<hi rend="italic">E</hi>/<hi rend="italic">entscheid</hi>). Das hierfür verwendete Analyseskript steht auf GitHub zur Verfügung.<ref n="1" target="ftn1"/> Für die Interpretation werden die Top 10 beider Listen verglichen und nach Bedarf weitere Einträge gesichtet.
+</p>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Ergebnisse der Fallstudien</head>
+<div rend="DH-Heading2" type="div2">
+<head>Kulturanthropologie</head>
+<p style="text-align:left; ">Tabelle 1 zeigt die oberflächenbasierten Kollokationen zu Lemmata mit 
+<hi rend="italic">T</hi>/<hi rend="italic">telemed</hi> im kulturanthropologischen Korpus mit den höchsten LLR-Werten. 
+<hi rend="italic">Telemedizin</hi> ist sehr stark mit dem verwandten Wort 
+<hi rend="italic">Telematik</hi> assoziiert, was die enge Verknüpfung
+der Bereiche anzeigt. Manche Wortpaare sind Bestandteil mehrteiliger
+Eigennamen
+(<hi rend="italic">Bayerische TelemedAllianz, [Zentrum für Telematik
+und] Telemedizin GmbH</hi>), die für die Interpretation einen
+eingeschränkten Mehrwert haben,
+aber doch für den Diskurs potentiell relevante und ggf. bisher unbekannte Akteure sichtbar machen. Mit dem 
+<hi rend="italic">Tag der Telemedizin</hi> wird ein Fachkongress als wichtiger Begegnungspunkt dieser Akteure aufgeführt. Außerdem liegen allgemeine Konzepte wie 
+<hi rend="italic">telemedizisch</hi> und 
+<hi rend="italic">Anwendung</hi> hoch im Ranking.
+</p>
+<table rend="rules">
+  <head> Tabelle 1: Top 10 der oberflächenbasierten Kollokationen zu
+  Lemmata mit <hi rend="italic">T</hi>/ <hi rend="italic">telemed</hi> im kulturanthropologischen Korpus</head>
+<row>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 1</hi>
+</cell>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 2</hi>
+</cell>
+<cell rend="DH-Default">LLR</cell>
+<cell rend="DH-Default">
+<hi rend="bold">abs. Frequenz</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default">Telematik</cell>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">2044,88</cell>
+<cell rend="DH-Default">468</cell>
+</row>
+<row>
+<cell rend="DH-Default">telemedizinisch</cell>
+<cell rend="DH-Default">Anwendung</cell>
+<cell rend="DH-Default">1753,90</cell>
+<cell rend="DH-Default">465</cell>
+</row>
+<row>
+<cell rend="DH-Default">bayerisch</cell>
+<cell rend="DH-Default">TelemedAllianz</cell>
+<cell rend="DH-Default">1497,94</cell>
+<cell rend="DH-Default">204</cell>
+</row>
+<row>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">GmbH</cell>
+<cell rend="DH-Default">1007,39</cell>
+<cell rend="DH-Default">340</cell>
+</row>
+<row>
+<cell rend="DH-Default">Tag</cell>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">845,74</cell>
+<cell rend="DH-Default">274</cell>
+</row>
+<row>
+<cell rend="DH-Default">telemedizinisch</cell>
+<cell rend="DH-Default">Betreuung</cell>
+<cell rend="DH-Default">841,88</cell>
+<cell rend="DH-Default">212</cell>
+</row>
+<row>
+<cell rend="DH-Default">bayerisch</cell>
+<cell rend="DH-Default">Telemedallianz</cell>
+<cell rend="DH-Default">731,35</cell>
+<cell rend="DH-Default">97</cell>
+</row>
+<row>
+<cell rend="DH-Default">der</cell>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">644,28</cell>
+<cell rend="DH-Default">2533</cell>
+</row>
+<row>
+<cell rend="DH-Default">Gesellschaft</cell>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">632,95</cell>
+<cell rend="DH-Default">241</cell>
+</row>
+<row>
+<cell rend="DH-Default">telemedizinisch</cell>
+<cell rend="DH-Default">Zentrum</cell>
+<cell rend="DH-Default">585,73</cell>
+<cell rend="DH-Default">165</cell>
+</row>
+</table>
+<!-- <p style="text-align:left; ">Tabelle 1: Top 10 der oberflächenbasierten Kollokationen zu Lemmata mit  -->
+<!--                         <hi rend="italic">T</hi>/ -->
+<!--                         <hi rend="italic">telemed</hi> im kulturanthropologischen Korpus -->
+<!--                     </p> -->
+<table rend="rules">
+  <head> Tabelle 2: Top 10 der syntaxbasierten Kollokationen zu Lemmata mit <hi rend="italic">T</hi>/<hi rend="italic">telemed</hi> im kulturanthropologischen Korpus</head> 
+<row>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 1</hi>
+</cell>
+<cell rend="DH-Default">Relation</cell>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 2</hi>
+</cell>
+<cell rend="DH-Default">LLR</cell>
+<cell rend="DH-Default">
+<hi rend="bold">abs. Frequenz</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default">GmbH</cell>
+<cell rend="DH-Default">ist Apposition von</cell>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">2261,71</cell>
+<cell rend="DH-Default">353</cell>
+</row>
+<row>
+<cell rend="DH-Default">telemedizinisch</cell>
+<cell rend="DH-Default">ist Attribut von</cell>
+<cell rend="DH-Default">Anwendung</cell>
+<cell rend="DH-Default">2236,42</cell>
+<cell rend="DH-Default">456</cell>
+</row>
+<row>
+<cell rend="DH-Default">bayerisch</cell>
+<cell rend="DH-Default">ist Attribut von</cell>
+<cell rend="DH-Default">TelemedAllianz</cell>
+<cell rend="DH-Default">2002,48</cell>
+<cell rend="DH-Default">204</cell>
+</row>
+<row>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">ist Genitivattribut von</cell>
+<cell rend="DH-Default">Tag</cell>
+<cell rend="DH-Default">1904,26</cell>
+<cell rend="DH-Default">274</cell>
+</row>
+<row>
+<cell rend="DH-Default">telemedizinisch</cell>
+<cell rend="DH-Default">ist Attribut von</cell>
+<cell rend="DH-Default">Betreuung</cell>
+<cell rend="DH-Default">981,87</cell>
+<cell rend="DH-Default">200</cell>
+</row>
+<row>
+<cell rend="DH-Default">bayerisch</cell>
+<cell rend="DH-Default">ist Attribut von</cell>
+<cell rend="DH-Default">Telemedallianz</cell>
+<cell rend="DH-Default">967,93</cell>
+<cell rend="DH-Default">98</cell>
+</row>
+<row>
+<cell rend="DH-Default">DGTelemed</cell>
+<cell rend="DH-Default">ist Apposition von</cell>
+<cell rend="DH-Default">V.</cell>
+<cell rend="DH-Default">899,83</cell>
+<cell rend="DH-Default">84</cell>
+</row>
+<row>
+<cell rend="DH-Default">telemedizinisch</cell>
+<cell rend="DH-Default">ist Attribut von</cell>
+<cell rend="DH-Default">Zentrum</cell>
+<cell rend="DH-Default">772,92</cell>
+<cell rend="DH-Default">163</cell>
+</row>
+<row>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">ist Apposition von</cell>
+<cell rend="DH-Default">Fachkongress</cell>
+<cell rend="DH-Default">727,37</cell>
+<cell rend="DH-Default">64</cell>
+</row>
+<row>
+<cell rend="DH-Default">Telemedizin</cell>
+<cell rend="DH-Default">ist Genitivattribut von</cell>
+<cell rend="DH-Default">Möglichkeit</cell>
+<cell rend="DH-Default">720,75</cell>
+<cell rend="DH-Default">144</cell>
+</row>
+</table>
+<!-- <p style="text-align:left; ">Tabelle 2: Top 10 der syntaxbasierten Kollokationen zu Lemmata mit  -->
+<!--                         <hi rend="italic">T</hi>/ -->
+<!--                         <hi rend="italic">telemed</hi> im kulturanthropologischen Korpus -->
+<!--                     </p> -->
+<p style="text-align:left; ">Die syntaktischen Informationen in Tabelle 2 machen den Zusammenhang zwischen den Bestandteilen der Eigennamen in der Relation der Apposition explizit und bieten damit mehr Informationen zur Einordnung dieser Datenpunkte. Die Annotationen ermöglichen außerdem, die Gesamtliste nach bestimmten syntaktischen Relationen zu filtern. Die genannten Appositionen beispielsweise können anhand des Relationslabels ausgeblendet werden. Auch hier gibt es sehr allgemeine Konzepte wie 
+<hi rend="italic">telemedizinisch</hi> als Attribut von 
+<hi rend="italic">Anwendung</hi>, die zwar frequent, aber nicht sehr informativ sind. 
+<hi rend="italic">Telemedizin</hi> als Genitivattribut von 
+<hi rend="italic">Möglichkeit</hi> weist daraufhin, dass eben deren Möglichkeiten noch Gegenstand des Diskurses sind. In der Durchsicht der Kollokationen jenseits der Top 10 finden sich verwandte Themen des Potentials und der Projekthaftigkeit (<hi rend="italic">Potential der Telemedizin</hi>, 
+<hi rend="italic">Telemedizin-typisches Potential</hi>, 
+<hi rend="italic">evaluiertes Telemedizinprojekt</hi>, 
+<hi rend="italic">vielversprechendes Telemedizinprojekt</hi>), die anzeigen, dass sich die Umsetzung der Telemedizin in einer frühen Phase befindet und ihre Akzeptanz als Regelversorgung noch nicht abschließend verhandelt ist.
+</p>
+<p style="text-align:left; ">Auch zur Kollokation 
+<hi rend="italic">telemedizinisch</hi> als Attribut von 
+<hi rend="italic">Betreuung</hi> finden sich weiter unten im Ranking
+ähnliche Verwendungen zum Thema Betreuung
+(<hi rend="italic">telemedizinisch betreuen</hi>, 
+<hi rend="italic">telemedizinisch betreut</hi> …) und Unterstützung
+(<hi rend="italic">telemedizinisch unterstützt</hi>, 
+<hi rend="italic">telemedizinisch-unterstützte</hi> (sic!) 
+<hi rend="italic">Versorgung</hi>, 
+<hi rend="italic">Telematikunterstützung</hi> …). Dies weist auf die (bisher) eher ergänzende Rolle der Telemedizin im Verhältnis zur medizinischen Regelversorgung hin. 
+</p>
+<p>&#160; <lb/>&#160; <lb/>&#160; <lb/>&#160;</p>
+</div>
+<div rend="DH-Heading2" type="div2">
+<head>Pflegewissenschaft</head>
+<p style="text-align:left; ">Tabelle 3 zeigt die zehn ersten oberflächenbasierten Kollokationen des Dialogkorpus zu Lemmata mit 
+<hi rend="italic">E</hi>/<hi rend="italic">entscheid</hi>. Hier werden zunächst Probleme in den Daten deutlich: Mit 
+<hi rend="italic">Finan/</hi> liegt ein für gesprochene Sprache typischer Abbruch eines Wortes (vermutlich: 
+<hi rend="italic">Finanzentscheidung</hi>) vor. Zudem ist 
+<hi rend="italic">Entscheidungsvariant</hi> eine fehlerhafte Lemmaform zu 
+<hi rend="italic">Entscheidungsvarianten</hi>. Insgesamt sind die Frequenzen aufgrund der geringen Korpusgröße klein, lassen aber trotzdem hilfreiche Schlüsse für die Analyse zu. Im syntaxbasierten Gegenstück in Tabelle 4 sind zusätzliche Probleme erkennbar, die durch die automatische Verarbeitung gesprochener Sprache entstehen. Die Relation zwischen 
+<hi rend="italic">hab</hi> und 
+<hi rend="italic">entscheiden</hi> ist fehlerhaft als adverbial (korrekt: auxiliar) bezeichnet. Allerdings wird ein direkter Zusammenhang zwischen diesen Wörtern erst durch die syntaktischen Annotationen überhaupt erkennbar, da sie im Satz häufig nicht benachbart stehen. Zusätzlich gibt es vollständig falsche Analysen wie die Relation zwischen 
+<hi rend="italic">entscheidend</hi> und 
+<hi rend="italic">Puh</hi>.
+</p>
+<table rend="rules">
+  <head> Tabelle 3: Top 10 der oberflächenbasierten Kollokationen zu Lemmata mit 
+                        <hi rend="italic">E</hi>/<hi rend="italic">entscheid</hi> im pflegewissenschaftlichen Korpus</head>
+  <row>
+    <cell rend="DH-Default">
+<hi rend="bold">Wort 1</hi>
+</cell>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 2</hi>
+</cell>
+<cell rend="DH-Default">LLR</cell>
+<cell rend="DH-Default">
+<hi rend="bold">abs. Frequenz</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">treffen</cell>
+<cell rend="DH-Default">33,41</cell>
+<cell rend="DH-Default">7</cell>
+</row>
+<row>
+<cell rend="DH-Default">richtig</cell>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">23,06</cell>
+<cell rend="DH-Default">7</cell>
+</row>
+<row>
+<cell rend="DH-Default">Tablettenform</cell>
+<cell rend="DH-Default">entscheiden</cell>
+<cell rend="DH-Default">21,28</cell>
+<cell rend="DH-Default">4</cell>
+</row>
+<row>
+<cell rend="DH-Default">der</cell>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">17,54</cell>
+<cell rend="DH-Default">28</cell>
+</row>
+<row>
+<cell rend="DH-Default">dieser</cell>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">13,02</cell>
+<cell rend="DH-Default">7</cell>
+</row>
+<row>
+<cell rend="DH-Default">selbst</cell>
+<cell rend="DH-Default">entscheiden</cell>
+<cell rend="DH-Default">12,88</cell>
+<cell rend="DH-Default">4</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">überlassen</cell>
+<cell rend="DH-Default">10,87</cell>
+<cell rend="DH-Default">2</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entscheidungsvariant</cell>
+<cell rend="DH-Default">nebeneinandstellen</cell>
+<cell rend="DH-Default">10,38</cell>
+<cell rend="DH-Default">1</cell>
+</row>
+<row>
+<cell rend="DH-Default">Finan/</cell>
+<cell rend="DH-Default">Versorgungsentscheidung</cell>
+<cell rend="DH-Default">10,38</cell>
+<cell rend="DH-Default">1</cell>
+</row>
+<row>
+<cell rend="DH-Default">entschieden</cell>
+<cell rend="DH-Default">Abraten</cell>
+<cell rend="DH-Default">10,38</cell>
+<cell rend="DH-Default">1</cell>
+</row>
+</table>
+<!-- <p style="text-align:left; ">Tabelle 3: Top 10 der oberflächenbasierten Kollokationen zu Lemmata mit  -->
+<!--                         <hi rend="italic">E</hi>/ -->
+<!--                         <hi rend="italic">entscheid</hi> im pflegewissenschaftlichen Korpus -->
+<!--                     </p> -->
+<p style="text-align:left; ">Auch für die pflegewissenschaftliche Interpretation bieten die Kollokationen mit den höchsten LLR-Werten erste Anhaltspunkte, die dann durch eine Sichtung der weiteren Rangplätze ergänzt werden können. Die häufigsten Kollokatoren von Entscheidungen stehen für eine Realisierung eigener Entscheidungen der Betroffenen. Die Kollokation 
+<hi rend="italic">richtig</hi> macht Bewertungen der Entscheidungen sichtbar. Es zeigen sich zudem gegensätzliche Dimensionen des Phänomens, wie „selber entscheiden“ vs. „Entscheidung abgeben“, die hinter der Kollokation mit 
+<hi rend="italic">überlassen</hi> stehen. Insbesondere die Subjekt-
+und Objektrelationen
+(<hi rend="italic">Entscheidung treffen</hi>, 
+<hi rend="italic">Entschluss entstehen</hi>, 
+<hi rend="italic">Entscheidung überlassen</hi>) sind durch die syntaktische Analyse adäquater und theoretisch fundierter abgebildet. Dieser Nutzen wird jedoch durch Fehler in der automatischen Annotation eingeschränkt. Zudem werden diese Relationen in der gesprochenen Sprache mit kürzeren Sätzen möglicherweise auch durch die oberflächenbasierte Analyse besser erfasst als in anderen sprachlichen Registern. Insgesamt betrachtet werden durch den quantitativen Zugang Verwendungszusammenhänge des Phänomens „Entscheidung“ transparent, die wiederum auf wichtige Handlungskontexte in der Versorgungsrealität von schwerkranken und sterbenden Menschen verweisen. 
+</p>
+<table rend="rules">
+  <head>Tabelle 4: Top 10 der syntaxbasierten Kollokationen zu Lemmata mit 
+                        <hi rend="italic">E</hi>/
+                        <hi rend="italic">entscheid</hi> im pflegewissenschaftlichen Korpus </head> 
+<row>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 1</hi>
+</cell>
+<cell rend="DH-Default">Relation</cell>
+<cell rend="DH-Default">
+<hi rend="bold">Wort 2</hi>
+</cell>
+<cell rend="DH-Default">LLR</cell>
+<cell rend="DH-Default">
+<hi rend="bold">abs. Frequenz</hi>
+</cell>
+</row>
+<row>
+<cell rend="DH-Default">entscheiden</cell>
+<cell rend="DH-Default">ist Adverbial von</cell>
+<cell rend="DH-Default">hab</cell>
+<cell rend="DH-Default">33,25</cell>
+<cell rend="DH-Default">9</cell>
+</row>
+<row>
+<cell rend="DH-Default">richtig</cell>
+<cell rend="DH-Default">ist Attribut von</cell>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">24,54</cell>
+<cell rend="DH-Default">6</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">ist Akkusativobjekt von</cell>
+<cell rend="DH-Default">treffen</cell>
+<cell rend="DH-Default">23,47</cell>
+<cell rend="DH-Default">4</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entschluss</cell>
+<cell rend="DH-Default">ist Subjekt von</cell>
+<cell rend="DH-Default">entstehen</cell>
+<cell rend="DH-Default">21,93</cell>
+<cell rend="DH-Default">2</cell>
+</row>
+<row>
+<cell rend="DH-Default">selbst</cell>
+<cell rend="DH-Default">ist Adverbial von</cell>
+<cell rend="DH-Default">entscheiden</cell>
+<cell rend="DH-Default">18,74</cell>
+<cell rend="DH-Default">4</cell>
+</row>
+<row>
+<cell rend="DH-Default">entscheidend</cell>
+<cell rend="DH-Default">ist Adverbial von</cell>
+<cell rend="DH-Default">Puh</cell>
+<cell rend="DH-Default">16,42</cell>
+<cell rend="DH-Default">1</cell>
+</row>
+<row>
+<cell rend="DH-Default">Tablettenform</cell>
+<cell rend="DH-Default">ist Subjekt von</cell>
+<cell rend="DH-Default">entscheiden</cell>
+<cell rend="DH-Default">16,13</cell>
+<cell rend="DH-Default">2</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">ist Akkusativobjekt von</cell>
+<cell rend="DH-Default">überlassen</cell>
+<cell rend="DH-Default">15,59</cell>
+<cell rend="DH-Default">2</cell>
+</row>
+<row>
+<cell rend="DH-Default">Entscheidung</cell>
+<cell rend="DH-Default">ist Akkusativobjekt von</cell>
+<cell rend="DH-Default">treff</cell>
+<cell rend="DH-Default">13,52</cell>
+<cell rend="DH-Default">2</cell>
+</row>
+<row>
+<cell rend="DH-Default">für</cell>
+<cell rend="DH-Default">ist Präposition zu</cell>
+<cell rend="DH-Default">entscheiden</cell>
+<cell rend="DH-Default">13,46</cell>
+<cell rend="DH-Default">7</cell>
+</row>
+</table>
+<!-- <p style="text-align:left; ">Tabelle 4: Top 10 der syntaxbasierten Kollokationen zu Lemmata mit  -->
+<!--                         <hi rend="italic">E</hi>/ -->
+<!--                         <hi rend="italic">entscheid</hi> im pflegewissenschaftlichen Korpus -->
+<!--                     </p> -->
+</div>
+</div>
+<div rend="DH-Heading1" type="div1">
+<head>Schlussfolgerungen</head>
+<p style="text-align:left; ">Es hat sich gezeigt, dass die Berechnung von Kollokationen auf der Grundlage der sprachlichen Oberfläche bzw. der Syntax für qualitative Fragestellungen informativ sein kann. Für die Auswertung einer spezifischen Fragestellung ist die Assoziationsstärke allein jedoch nicht immer das entscheidende Kriterium. Die Kollokationen geben Hinweise auf Zusammenhänge innerhalb des Korpus, die neue Fragestellungen und Perspektiven generieren können. Gleichzeitig werden durch die Relationsannotationen bereits kleine Datenmengen in erweiterter Form auswertbar.</p>
+<p style="text-align:left; ">Die beispielhaften Analysen haben gezeigt, dass die syntaktischen Annotationen eine für die Interpretation hilfreiche Differenzierung bieten, indem präziser angegeben wird, in welcher Relation zwei Wörter stehen. Das ermöglicht auch das Filtern nach interessanten Relationstypen. Zudem werden durch den Einbezug der Syntax Relationen zwischen Wörtern in Distanzstellung sichtbar, was insbesondere vom Verb abhängige Satzteile besser sichtbar macht. Andererseits erfordern die syntaktischen Annotationen eine aufwendigere Vorverarbeitung, die mehr Zeit und technische Fähigkeiten erfordert. Außerdem stellen sie eine zusätzliche Fehlerquelle dar. Dies gilt besonders für die gesprochensprachlichen Daten. Eine systematische Überprüfung und Rückbindung an konkrete Korpusbelege ist deshalb wichtig und verbessert die Interpretationsmöglichkeiten aus qualitativer Sicht. </p>
+<p style="text-align:left; ">Anschließend an diese Arbeiten ist geplant, stärker Kontexte zu aggregieren: In grammatischer Hinsicht wird das durch Koreferenzannotationen erfolgen, die für das pflegewissenschaftliche Korpus bereits vorliegen. Auf semantischer Ebene verfolgen wir den Ansatz, Wortgruppen zu Konzepten zusammenzufassen, z. B. können 
+<hi rend="italic">Ärztin</hi>, 
+<hi rend="italic">Arzt</hi>, 
+<hi rend="italic">Hausarzt</hi>, 
+<hi rend="italic">Onkologin</hi> usw. auf ein gemeinsames Konzept ÄRZT*INNEN abgebildet werden (vgl. den Ansatz von Wüest et al. 2011). Wir sehen außerdem weitere Anwendungsfälle über die Fächergrenzen hinweg, etwa zur literaturwissenschaftlichen Beschreibung von Geschlechterzuschreibungen, indem die sprachlichen Kontexte weiblicher und männlicher Vornamen verglichen werden.
+</p>
+</div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      <ptr target="https://github.com/melandresen/DHd2020"/>
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl style="text-align:left; ">
+<hi rend="bold">Adelmann, Benedikt / Franken, Lina</hi> (2020): Thematic web crawling and scraping as a way to form focussed web archives, in: 
+                        <hi rend="italic">Engaging with Web Archives Conference Book of Abstracts</hi>. To be published at  
+                        <ref target="https://ewaconference.com/">https://ewaconference.com/</ref>.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Andresen, Melanie</hi> (2018): Sprachliche Variation in der Germanistik: eine n-Gramm-basierte Stilanalyse, in: 
+                        <hi rend="italic">Book of Abstracts of DHd 2018</hi>. Köln, Deutschland, 311–15.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Andresen, Melanie / Zinsmeister, Heike</hi> (2017): The benefit of syntactic vs. linear n-grams for linguistic description, in: 
+                        <hi rend="italic">Proceedings of the 4th International Conference on Dependency Linguistics (Depling 2017).</hi> Pisa, Italy, 4–14 http://aclweb.org/anthology/W17-6503.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">van Atteveldt, Wouter / Kleinnijenhuis, Jan / Ruigrok, Nel</hi> (2008): Parsing, Semantic Networks, and Political Authority Using Syntactic Analysis to Extract Semantic Relations from Dutch Newspaper Articles, in: 
+                        <hi rend="italic">Political Analysis</hi>, 16(4): 428–46 doi:10.1093/pan/mpn006.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Blessing, Andre / Sonntag, Jonathan / Kliche, Fritz / Heid, Ulrich / Kuhn, Jonas / Stede, Manfred</hi> (2013): Towards a Tool for Interactive Concept Building for Large Scale Analysis in the Humanities, in: 
+                        <hi rend="italic">Proceedings of the 7th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi>. 55–64 https://www.aclweb.org/anthology/W13-2708.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold" xml:space="preserve">Bohnet, Bernd </hi>(2010): Very High Accuracy and Fast Dependency Parsing is not a Contradiction, in: 
+                        <hi rend="italic">Proceedings of the 23rd International Conference on Computational Linguistics (COLING 2010).</hi> Beijing, China, 89–97. https://www.aclweb.org/anthology/C10-1011
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Dunning, Ted</hi> (1993): Accurate Methods for the Statistics of Surprise and Coincidence, in: 
+                        <hi rend="italic">Computational Linguistics</hi>, 19(1): 61–74. https://www.aclweb.org/anthology/J93-1003
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Evert, Stefan</hi> (2008): Corpora and collocations, in: Lüdeling, Anke / Kytö, Merja (Hg.), 
+                        <hi rend="italic">Corpus linguistics: an International Handbook</hi>, Vol. 2. (Handbücher zur Sprach- und Kommunikationswissenschaft 29). Berlin, Boston: De Gruyter, 1212–1248.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Foth, Kilian A. / Köhn, Arne / Beuck, Niels / Menzel, Wolfgang</hi> (2014): Because Size Does Matter: The Hamburg Dependency Treebank, in: 
+                        <hi rend="italic">Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC’14)</hi>, 2326–2333. Reykjavik, Iceland. 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2014/pdf/860_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2014/pdf/860_Paper.pdf</ref>.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Gaidys, Uta / Gius, Evelyn / Jarchow, Margarete / Koch, Gertraud / Menzel, Wolfgang / Orth, Dominik / Zinsmeister, Heike</hi> (2017): hermA: Automated modelling of hermeneutic processes, in: 
+                        <hi rend="italic">Hamburger Journal für Kulturanthropologie</hi>(7): 119–23.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Geyken, Alexander</hi> (2011): Statistische Wortprofile zur schnellen Analyse der Syntagmatik in Textkorpora, in: Abel, Andrea / Zanin, Renata (Hg.), 
+                        <hi rend="italic">Korpora in Lehre und Forschung</hi>. Bozen: Bolzano Univ. Press, 129–54.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Googasian, Victoria / Heuser, Ryan J.</hi> (2019): Digital Animal Studies: Modeling Anthropomorphism in Animal Writing, 1870-1930, in: 
+                        <hi rend="italic">Book of Abstracts of DH 2019</hi> https://dev.clariah.nl/files/dh2019/boa/0458.html.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kilgarriff, Adam / Baisa, Vít / Bušta, Jan / Jakubíček, Miloš / Kovář, Vojtěch / Michelfeit, Jan, Rychlý / Pavel. / Suchomel, Vít</hi> (2014): The Sketch Engine: ten years on, in: 
+                        <hi rend="italic">Lexicography</hi>, 1(1): 7–36 doi:10.1007/s40607-014-0009-9.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kilgarriff, Adam / Rychlý, Pavel / Smrz, Pavel / Tugwell, David</hi> (2004): The Sketch Engine: in: 
+                        <hi rend="italic">Proceedings of the 11th EURALEX International Congress</hi>. 105–15 https://euralex.org/publications/the-sketch-engine/.
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Kleinnijenhuis, Jan / van Atteveldt, Wouter</hi> (2014): Positions of Parties and Political Cleavages between Parties in Texts, in: Kaal, Bertie / Maks, Isa / van Elfrinkhof, Annemarie (Hg.), 
+                        <hi rend="italic">Discourse Approaches to Politics, Society and Culture</hi>, Vol. 55. Amsterdam: Benjamins, 1–20 doi:10.1075/dapsac.55.01kle. 
+                    </bibl>
+<bibl style="text-align:left; ">
+<hi rend="bold">Koch, Gertraud / Franken, Lina</hi> (im Druck): Automatisierungspotenziale in der qualitativen Diskursanalyse. Das Prinzip des Filterns, in: Schilling, Samuel / Klimczak, Peter (Hg.): 
+                        <hi rend="italic">Die Gesellschaft im Spiegellabyrinth sozialer Medien.</hi> Wiesbaden.
+                    </bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Sinclair, Stéfan / Rockwell, Geoffrey</hi> (2016):
+  Voyant Tools. Web.
+  <ptr target="http://voyant-tools.org/"/>. 
+</bibl>
+<bibl style="text-align:left; ">
+  <hi rend="bold">Wüest, Bruno / Clematide, Simon / Bünzli, Alexandra / Laupper, Daniel</hi> (2011): Semi-Automatic Core Sentence Analysis: Improving Content Analysis for Electoral Campaign Research, in: 
+  <hi rend="italic">International Relations Online Working
+  Paper</hi>(1).
+  <ref target="https://www.sowi.uni-stuttgart.de/dokumente/forschung/irowp/IROWP_Series_2011_1_Wueest_Clematide_Buenzli_Laupper_Content_Analysis.pdf">https://www.sowi.uni-stuttgart.de/dokumente/forschung/irowp/IROWP_Series_2011_1_Wueest_Clematide_Buenzli_Laupper_Content_Analysis.pdf</ref>.
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

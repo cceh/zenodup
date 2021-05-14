@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="257_final-VOGELER_Georg_Prosopographische_Interoperabilit_t___Stand_de" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Prosopographische Interoperabilität – Stand der Dinge</title>
+<author>
+<persName>
+<surname>Vogeler</surname>
+<forename>Georg</forename>
+</persName>
+<affiliation>Zentrum für Informationsmodellierung, Universität Graz, Österreich; Austrian Center for Digital Humanities, Österreichische Akademie der Wissenschaften</affiliation>
+<email>georg.vogeler@uni-graz.at</email>
+</author>
+<author>
+<persName>
+<surname>Schlögl</surname>
+<forename>Matthias</forename>
+</persName>
+<affiliation>Austrian Center for Digital Humanities, Österreichische Akademie der Wissenschaften</affiliation>
+<email>matthias.schloegl@oeaw.ac.at</email>
+</author>
+<author>
+<persName>
+<surname>Vasold</surname>
+<forename>Gunter</forename>
+</persName>
+<affiliation>Zentrum für Informationsmodellierung, Universität Graz, Österreich</affiliation>
+<email>gunter.vasold@uni-graz.at</email>
+</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2020-01-05T12:24:00Z</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Universität Paderborn</publisher>
+<address>
+<addrLine>Warburger Str. 100</addrLine>
+<addrLine>33098 Paderborn</addrLine>
+<addrLine>Deutschland</addrLine>
+</address>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="DHCONVALIDATOR" version="1.22">
+<label>DHConvalidator</label>
+</application>
+</appInfo>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords n="category" scheme="ConfTool">
+<term>Paper</term>
+</keywords>
+<keywords n="subcategory" scheme="ConfTool">
+<term>Posterpräsentation</term>
+</keywords>
+<keywords n="keywords" scheme="ConfTool">
+<term>Prosopographie</term>
+<term>RESTful API</term>
+<term>Biographie</term>
+</keywords>
+<keywords n="topics" scheme="ConfTool">
+<term>Entdeckung</term>
+<term>Programmierung</term>
+<term>Kontextsetzung</term>
+<term>Webentwicklung</term>
+<term>benannte Entitäten (named entities)</term>
+<term>Personen</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+  <!-- <p>Prosopographical Interoperability - State of the Art</p> -->
+  <div rend="DH-Heading2" type="div2">
+    <head> Prosopographical Interoperability – State of the Art</head>
+    <p style="text-align:left; ">In einem wegweisenden Artikel zu Prosopographie aus dem Jahr 1971 schreibt Lawrence Stone (Stone, 1971) “The method employed is to establish a universe to be studied, and then to ask a set of uniform questions...”. Dieses 
+    <hi rend="italic" xml:space="preserve">Erstellen des Universums </hi>ist einer der Reize der Prosopographie, stellt das Feld aber auch vor besondere Herausforderungen. Ein 
+    <hi rend="italic">Universum</hi> besteht gemeinhin aus Millionen von Objekten und noch mehr Relationen zwischen diesen Objekten. Projekte, die sich mit prosopographischer Forschung beschäftigen, können oder würden deshalb von weiterverwendbaren Daten besonders profitieren. Ihr Daten
+    <hi rend="italic">universum</hi> dreht sich nicht nur um für ihre Forschung zentrale Daten (die oft neu erstellt oder überprüft werden), sondern auch um angebundene Daten: Geburtsorte von Personen, Orte in denen sich Institutionen befinden, Lehrer von Personen in der Kerngruppe etc.
+    </p>
+    <p style="text-align:left; ">Eine logische Konsequenz daraus ist es, zumindest für periphere Daten der eigenen Prosopographie LOD-Daten nachzunutzen. Um dies ohne großen Aufwand tun zu können, bräuchte es kompatible Ontologien/Datenmodelle. In den letzten Jahren wurden mehrere Versuche unternommen, für das Feld der Prosopographie einheitliche Datenmodelle vorzuschlagen (Fokkens and ter Braake, 2018; Tuominen et al., 2017), ohne dass es schon zu einem Konsens gekommen wäre.</p>
+    <p style="text-align:left; ">Das Poster wird über den Stand einer Initiative berichten, die seit vergangenem Jahr an der Definition einer RESTful API arbeitet, welche die Veröffentlichung von maschinenlesbaren prosopographischen Daten so erleichtern soll, dass typische Anfragen performant und für Softwareentwickler einfach zu realisieren sind. Dieses “International Prosopography Interoperability Format” (IPIF) hat als Kern die Definition in einer RESTful API, die in OpenAPI beschrieben ist.<ref n="1" target="ftn1"/>
+    </p>
+    <p style="text-align:left; ">Das dort vorgeschlagene Datenmodell deckt zum einen die Notwendigkeit ab, zwischen Person, Quelle und Quelleninterpretation zu unterscheiden (“Factoid”-Modell, Bradley &amp; Short 2005), zum anderen vereinfacht es den Zugriff auf Informationen über eine Person in klassischen Benutzungssenzarien der Prosopographie. In einem “Statement” über eine Person können verbale Beschreibungen oder Quellenzitate ebenso wie strukturierte Informationen enthalten sein. Um die prosopographische Benutzung zu erleichtern, lassen sich die strukturierten Informationen im Modell von IPIF als datierbare Ereignisse verstehen, wenn sie mit einer Property “date” versehen sind. Sie können aber für reine Identifikationszwecke auch einfache Eigenschaften (Name, Geschlecht) abbilden. Properties “relatesToPerson” und “isMemberOf” bedienen ein drittes zentrales Szenario der Nutzung von prosopographischen Daten, nämlich Beziehungen zu anderen Personen. Schließlich sind Ortsangaben zu einer Person mit der Property “place” möglich. Mit diesen Angaben ermöglicht IPIF Anzeigen wie die des DARIAH-Cosmotools<ref n="2" target="ftn2"/> und Ego-Netzwerke wie z.B. in der Deutschen Biographie<ref n="3" target="ftn3"/>.
+    </p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head> Proof of concepts</head>
+  <p style="text-align:left; ">Von Beginn an war eine Grundidee des
+  Unterfangens, die Praxistauglichkeit des Datenmodells und der API
+  Definition möglichst früh zu testen. Zu diesem Zweck wurden seit
+  2018 mehrere “Proof of Concept” Applikationen erstellt. Das Poster
+  wird den aktuellen Entwicklungsstand dieser Proof of Concept
+  Applikationen darstellen.</p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+  <head> APIS (Austrian Prosopographical Information System)</head>
+  <p style="text-align:left; ">APIS ist ein Web-basiertes System zur
+  Arbeit an prosopographischen Daten (Schlögl/Lejtovicz 2018). Es
+  bietet Webformulare, aber auch API-Schnittstellen zu den
+  Daten. Aufbauend auf die schon vorhandenen APIs wurde ein Renderer
+  erstellt, der vorhandene Daten in das IPIF Format
+  überführt. Zusätzlich wurden als parallele API die IPIF endpoints
+  implementiert und somit compliance level 1 laut API Definition (GET
+  requests inklusive Filter) erreicht.</p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>API Wrapper</head>
+  <p style="text-align:left; ">Eines der Anwendungsszenarien von IPIF
+  ist die Suche schon vorhandener Identifier über mehrere Referenz
+  Ressourcen hinweg (vgl. Vogeler et al 2020 forthcoming). Um die
+  Anwendbarkeit von IPIF für dieses Szenario zu testen, wurde eine
+  einfache Applikation erstellt, die als Middle-Layer zwischen der
+  IPIF API auf der einen Seite und dem Wikidata SPARQL Endpoint und
+  der Lobid GND API auf der anderen Seite fungiert. Die Applikation
+  übersetzt dabei Anfragen an die API in eine wikidata kompatible
+  SPARQL query bzw. einen Lobid kompatiblen GET request und überführt
+  die Antworten in das IPIF format. Die Applikation macht sich für
+  diese Übersetzung die Django-Templating Engine zu Nutze und ist
+  damit auch für andere APIs einfach konfigurierbar.</p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>Papilotte</head>
+    <p style="text-align:left; ">Auf der in OpenAPI veröffentlichten Spezifikation aufbauend lässt sich über Frameworks wie das von Zalando als Open Source Software bereitgestellte “Connexion” schnell ein Stand-Alone-Server in Python schreiben, der über flexible Konnektoren den Zugriff auf unterschiedlichste interne oder externe Datenquellen ermöglicht und diese IPIF-konform bereitstellt. Ein solcher Server wurde mit Beispieldaten aus dem Monasterium.net-Projekt erstellt.<ref n="4" target="ftn4"/>
+    </p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>Papi-Cosmotool</head>
+    <p style="text-align:left; ">Das DARIAH-Cosmotool bietet eine prototypische Oberfläche für eine prosopographische Datenbank an. Es enthält eine biographische (“Zeitleiste”), eine textuelle (“Ereignis-Detail”) und ein geographische (“Kartendarstellung”) Ansicht. Die Datenanzeige wird mit einem Quellenverweis ergänzt. Als Test für die Verwendbarkeit der API-Definition wird von Sebastian Stoff am Zentrum für Informationsmodellierung eine JavaScript basierte Anwendung erarbeitet, die vergleichbare Funktionalitäten bietet.<ref n="5" target="ftn5"/>
+    </p>
+  </div>
+  <div rend="DH-Heading2" type="div2">
+    <head>JSON-LD</head>
+    <p style="text-align:left; ">Schließlich arbeiten wir an einer Integration des JSON-Outputs der API-Definition in das Semantic Web. Dafür soll eine context.json-Datei bereitgestellt werden, die in den Resultsets der API-Anfragen gültige RDF-Aussagen identifiziert.<ref n="6" target="ftn6"/>
+    </p>
+  </div>
+</body>
+<back>
+  <div type="notes">
+    <note n="1" rend="footnote text" xml:id="ftn1">
+      <ref target="https://github.com/GVogeler/prosopogrAPhI">https://github.com/GVogeler/prosopogrAPhI</ref>
+    </note>
+    <note n="2" rend="footnote text" xml:id="ftn2">
+<ref target="https://cosmotool.de.dariah.eu/">https://cosmotool.de.dariah.eu/</ref>
+    </note>
+    <note n="3" rend="footnote text" xml:id="ftn3">
+      z.B. <ref target="https://www.deutsche-biographie.de/graph?id=sfz53095">https://www.deutsche-biographie.de/graph?id=sfz53095</ref>
+    </note>
+    <note n="4" rend="footnote text" xml:id="ftn4">
+      <ref target="https://github.com/gvasold/papilotte">https://github.com/gvasold/papilotte</ref>, mit einer Beispielinstallation: 
+      <ref target="https://ginko.uni-graz.at/illurk/api/ui/">https://ginko.uni-graz.at/illurk/api/ui/</ref>
+    </note>
+    <note n="5" rend="footnote text" xml:id="ftn5">
+      <ref target="http://glossa.uni-graz.at/gamsdev/stoffse/erla/mapp/map/">http://glossa.uni-graz.at/gamsdev/stoffse/erla/mapp/map/</ref>, Code von Sebastian Stoff.
+    </note>
+    <note n="6" rend="footnote text" xml:id="ftn6">
+      Ein erster Entwurf ist unter <ref target="https://github.com/GVogeler/prosopogrAPhI/blob/master/context.json">https://github.com/GVogeler/prosopogrAPhI/blob/master/context.json</ref> einsehbar.
+    </note>
+  </div>
+  <div type="bibliogr">
+<listBibl>
+<head>Bibliographie</head>
+<bibl>
+<hi rend="bold" style="font-size:11pt">Bradley, John / Short, Harold</hi>
+<hi style="font-size:11pt" xml:space="preserve"> (2005): “Texts into databases. The Evolving field of New-style Prosopography.“ in: </hi>
+<hi rend="italic" style="font-size:11pt">LLC</hi>
+<hi style="font-size:11pt" xml:space="preserve"> 20, suppl. 1: 3-24.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:11pt" xml:space="preserve">Fokkens, A. / ter Braake, S. </hi>
+<hi style="font-size:11pt">(2018): Connecting People Across Borders: a Repository for Biographical Data Models, in: Proceedings of the Second Conference on Biographical Data in a Digital World 2017. Linz, Austria, November 6-7, 2017. CEUR Workshop Proceedings: 83–92.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:11pt">Stone, Lawrence</hi> (1971): "Prosopography." in: 
+<hi rend="italic" style="font-size:11pt">Daedalus</hi>
+<hi style="font-size:11pt" xml:space="preserve"> 100: 46–79.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:11pt">Schlögl, Matthias / Katalin Lejtovicz</hi>
+<hi style="font-size:11pt" xml:space="preserve">. (2018). “A Prosopographical Information System (APIS).“ In: Antske Fokkens, ter Braake, Serge, Sluijter, Ronald, Arthur, Paul, and Wandl-Vogt, Eveline (eds.). </hi>
+<hi rend="italic" style="font-size:11pt">BD-2017. Biographical Data in a Digital World 2017. Proceedings of the Second Conference on Biographical Data in a Digital World 2017</hi>
+<hi style="font-size:11pt">. Linz, Austria, November 6-7, 2017. Budapest: CEUR (CEUR Workshop Proceedings 2119): 53-58.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:11pt" xml:space="preserve">Tuominen, Jouni / Hyvönen, Eero / Leskinen, Petri </hi>
+<hi style="font-size:11pt" xml:space="preserve">(2018): “Bio CRM. A Data Model for Representing Biographical Data for Prosopographical Research.” In: </hi>
+<hi rend="italic" style="font-size:11pt">BD-2017. Biographical Data in a Digital World 2017</hi>
+<hi style="font-size:11pt">, ed. by Antske Fokkens, Serge ter Braake, Ronald Sluijter, Paul Arthur, Eveline Wandl-Vogt, Budapest: CEUR (CEUR Workshop Proceedings 2119): 59-66.</hi>
+</bibl>
+<bibl>
+<hi rend="bold" style="font-size:11pt" xml:space="preserve">Vogeler, Georg / Vasold, Gunter / Schlögl, Matthias </hi>
+<hi style="font-size:11pt">(2020 forthcoming): Data exchange in practice: Towards a prosopographical API. In: BD2019, Workshop on Biographical Data in Occasion of the RANLP 2019, Varna, ed. by Antske Fokkens et al.</hi>
+</bibl>
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

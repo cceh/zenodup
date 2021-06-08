@@ -3,15 +3,11 @@
 Contains functions if abstracts are assigned to metadata by name scheme. 
 """
 
-# Imports
-
-# ## external imports
 import logging
 import os
 import re
 from xml.etree import ElementTree as ET
 
-# ## internal imports
 from bundles import sanity
 
 

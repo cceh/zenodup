@@ -142,6 +142,7 @@ zenodup/OUTPUT/*/
 zenodup/support/*.csv
 zenodup/support/*.log
 zenodup/support/assignments/*.csv
+zenodup/support/packages/*.csv
 zenodup/support/depositions/*.txt
 zenodup/support/depositions/archiv_test/
 zenodup/support/depositions/backup_depositions/

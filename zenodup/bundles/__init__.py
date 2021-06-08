@@ -4,21 +4,19 @@ Contains a python module to parse filenames and
 abstract titles from conferences metadata files 
 as well as a module to check sanity of given paths.
 """
-# Imports
 
-# ## external imports
+import csv
 import json
 import logging
 from lxml import etree
 import os
-import pandas as pd
 from shutil import copyfile
 from xml.etree import ElementTree as ET
 import yaml
 
-# ## internal imports
 from bundles import parsing
 from bundles import sanity
+
 
 # set base paths for working diretories
 with open(r'config.yml') as file:
@@ -87,6 +85,9 @@ class Conference:
         self.abstracts = self.__get_abstracts()
         self.titles = self.__get_titles()
 
+        # set logging
+        logging.basicConfig(filename=config['logging_dir'] + self.name +'_bundle.log', filemode='w+', level=logging.INFO)
+
         # check sanity of pdf and xml directories
         sanity.directory(self.pdf)
         if self.xml:
@@ -101,8 +102,6 @@ class Conference:
         For more information please see README.md
         """
         
-        # set logging
-        logging.basicConfig(filename=config['logging_dir'] + self.name +'_bundle.log', filemode='w+', level=logging.INFO)
         counter = 1
 
         # assign xmls and pdfs to publications
@@ -292,48 +291,55 @@ class Conference:
     def __quality_check(self) -> None:
         if not self.xml:
             defective_dirs = [bundle_dir for bundle_dir in os.listdir(self.output) if len(os.listdir(os.path.join(self.output, bundle_dir, "bundle_publications"))) != 1]
-            print(f"The following directories do not contain the pdf file: {defective_dirs}")
+            logging.info(f"The following directories do not contain the pdf file: {defective_dirs}")
         else:
             defective_dirs = [bundle_dir for bundle_dir in os.listdir(self.output) if len(os.listdir(os.path.join(self.output, bundle_dir, "bundle_publications"))) != 2]
-            print(f"The following directories do not contain two files: {defective_dirs}")
+            logging.info(f"The following directories do not contain two files: {defective_dirs}")
 
     # create csv file with overview of assigned files to bundles
     def __create_csv(self) -> None:
-        bundles_overview = []
-        for bundle in os.listdir(self.output):
-            bundle_data = []
-            bundle_path = os.path.join(self.output, bundle)
-            publications = os.path.join(bundle_path, "bundle_publications")
 
-            # get name of bundle
-            bundle_data.append(bundle)
-
-            # get title from json metadata
-            with open (os.path.join(bundle_path, 'bundle_metadata.json'), 'r') as f:
-                metadata = json.load(f)["metadata"]
-            bundle_data.append(metadata["title"])
-
-            # get title from xml
+        with open(config['assignments_dir'] + self.name + ".csv", 'w', encoding='utf-8', newline='') as csv_file:
             if self.xml:
-                for f in os.listdir(publications):
-                    if f.endswith(".xml"):
-                        xml_title = get_xml_title(os.path.join(publications, f))
-                bundle_data.append(xml_title)
-            
-            # get file names
-            for f in os.listdir(publications):
-                bundle_data.append(f)
-            
-            bundles_overview.append(bundle_data)
+                fieldnames = ["Bundle", "Title", "Title from xml", "PDF", "XML"]
+            else:
+                fieldnames = ["Bundle", "Title", "PDF"]
 
-        # create pandas dataframe and safe to xml
-        if self.xml:
-            df = pd.DataFrame(bundles_overview, columns = ["Bundle", "Title", "Title from xml", "PDF", "XML"])
-        else: 
-            df = pd.DataFrame(bundles_overview, columns = ["Bundle", "Title","PDF"])
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
+
+            for bundle in os.listdir(self.output):
+                bundle_path = os.path.join(self.output, bundle)
+                publications = os.path.join(bundle_path, "bundle_publications")
+
+                # get title from json metadata
+                with open (os.path.join(bundle_path, 'bundle_metadata.json'), 'r') as f:
+                    metadata = json.load(f)["metadata"]
+                title = metadata["title"]
                 
-        df.to_csv('support/' + self.name + ".csv", header=True, encoding='utf-8')
+                # get file names            
+                for f in os.listdir(publications):
+                    if f.endswith('.pdf'):
+                        pdf = f
+                    elif f.endswith('.xml'):
+                        xml = f
+                    else:
+                        raise Exception("The publication files do not have the correct format. Please check if all files are either pdf or xml files.")
 
+                if self.xml:
+                    # get title from xml
+                    for f in os.listdir(publications):
+                        if f.endswith(".xml"):
+                            xml_title = get_xml_title(os.path.join(publications, f))
+                    from_xml = xml_title
+                    
+                    bundle_data = {'Bundle': bundle, 'Title': title, 'Title from xml': from_xml, 'PDF': pdf, 'XML': xml}
+                else:
+                    bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf}
+            
+                # write bundle data in csv file
+                writer.writerow(bundle_data)
+                
 def get_xml_title(xml_file: str) -> str:
     """Returns title of (abstract's) xml file (TEI)
 
@@ -380,7 +386,7 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     """
 
     # get bundle information and translate into json format
-    print(f"Create bundle for publication: {pub.find('title').text}")
+    logging.info(f"Create bundle for publication: {pub.find('title').text}")
     data = {"metadata": {"upload_type": pub.find("upload_type").text,
                         "publication_type": pub.find("publication_type").text,
                         "publication_date": pub.find("publication_date").text,

@@ -7,12 +7,8 @@ This script is used as the main script to navigate the different tasks based on 
 For further usage, information and references see README.md.
 """
 
-# Imports
-
-# ## external python packages
 import argparse
 
-# ## project internal python packages/modules
 import api
 import bundles
 

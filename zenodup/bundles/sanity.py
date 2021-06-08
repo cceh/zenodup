@@ -1,12 +1,9 @@
 """Sanity checks for given conference bundle structure
 """
 
-# Imports
-# ## external imports
 import logging
 import os
 
-# ## internal imports
 import bundles
 
 
@@ -27,7 +24,7 @@ def directory(d: str) -> None:
     """
     types = set([os.path.splitext(f)[1] for f in os.listdir(d) if f != ".DS_Store"])
     if len(types) > 1:
-        print(f"The given directory {d} contains files with multipe formats: {types}")
+        logging.warning(f"The given directory {d} contains files with multipe formats: {types}")
         raise Exception("The given directory contains files with multiple formats")
 
 def filenames(conf: 'bundles.Conference') -> None:

@@ -1,6 +1,4 @@
-"""Module for parsing file names and abstracts titles
-
-Contains functions if abstracts are assigned to metadata by name scheme. 
+"""Module for parsing filenames and titles of abstracts
 """
 
 import logging
@@ -14,7 +12,7 @@ from bundles import sanity
 def get_bundle_names(abstract: ET.Element) -> dict:
     """Returns a dictionary with possible bundle names
 
-    Parses title and creators of metadata tag. 
+    Parses title and creators of the abstract's metadata tag. 
 
     Parameters
     ----------
@@ -24,8 +22,8 @@ def get_bundle_names(abstract: ET.Element) -> dict:
     Returns
     -------
     bundle_names : dict
-        Returns a dictionary with title of metadata tag as key and a 
-        list of possible file names for corresponding abstract pdf file.
+        Returns a dictionary with the title of metadata tag as key and a 
+        list of possible filenames for corresponding abstract pdf file as value.
     """
 
     bundle_names = {}
@@ -60,7 +58,7 @@ def get_bundle_names(abstract: ET.Element) -> dict:
     return bundle_names
 
 def get_comparable_filenames(files: list)-> dict:
-    """Returns a dictionary with conference's files without prefixes and extensions
+    """Returns a dictionary with the conference's files without prefixes and extensions
 
     Parameters
     ----------
@@ -69,8 +67,8 @@ def get_comparable_filenames(files: list)-> dict:
 
     Returns
     -------
-    names_to_compate: dict
-        Returns a dictionary with modified filenames as keys and filenames from passed list as values 
+    names_to_compare: dict
+        Returns a dictionary with modified filenames as keys and filenames as values 
 
     """
     # get file names
@@ -81,22 +79,22 @@ def get_comparable_filenames(files: list)-> dict:
     return names_to_compare
 
 def get_abstract_file(publication_names: dict, comparable_files: dict, index : int) -> str:
-    """Returns assigned abstract file for given publication
+    """Assigns file to abstract and returns filename
 
     Parameters
     ----------
     publication_names: dict
-        Dictionary with all possible publication names for given publication
+        Dictionary with all possible names for one abstract
     comparable_files: dict
-        Dictionary with modified filenames as keys and filenames from passed list as values
+        Dictionary with modified filenames as keys and filenames as values
     index: int
         Index of metadata element to be assigned. If no file could be assigned to metadata by name 
-        comparison, the file with given index will be matched with metadata element.
+        comparison, the file with given index in list will be matched with metadata element.
 
     Returns
     -------
     abstract_file: str
-        Returns filename of assigned file to given metadata element
+        Returns filename of matched file
     """
 
     # find matching filename

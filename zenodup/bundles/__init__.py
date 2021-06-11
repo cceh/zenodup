@@ -1,8 +1,8 @@
 """Package to handle creation of bundle structure
 
-Contains a python module to parse filenames and 
-abstract titles from conferences metadata files 
-as well as a module to check sanity of given paths.
+Contains a module to parse filenames and 
+abstract titles as well as a module to check 
+sanity of bundle structure.
 """
 
 import csv
@@ -13,7 +13,6 @@ import os
 from shutil import copyfile
 from xml.etree import ElementTree as ET
 import yaml
-
 from bundles import parsing
 from bundles import sanity
 
@@ -32,39 +31,39 @@ class Conference:
     """Conference class 
 
     Contains all information in order to create bundle structure for given 
-    Conference directory.
+    conference directory.
 
     Methods
     -------
     create bundles
-        Created bundle structure for conference
+        Create bundle structure for conference.
     update metadata
-        Updates metadata file of conference. 
-        This method is not part of the regular workflow and was used once.
+        Updates metadata file. 
+        CAUTION: This method is not part of the regular workflow and was used once.
     """
 
     def __init__(self, name: str, metadata: str, sequenced: bool, pdf: str, xml: str):
         """Constructor of class Conference
         
         Checks if given parameters are valid in order to create bundle structure and 
-        sets paths.
+        sets working paths.
 
         Parameters
         ----------
         name : str
             Name of conference (directory) to be processed
         source : str
-            Path to conference directory ("input_base/name")
+            Path to conference directory ("input_base/name").
         metadata : str
             Name of conference metadata file
         sequenced : bool
-            If parameter is passed, the order of files is assumed to 
-            be the same as appearances of metadata tags in metadata file. 
-            If not passed, the files will be assigned by name scheme
+            If True, the order of files is assumed to 
+            be the same as the appearances of the abstract's metadata tags in metadata file. 
+            If False, the files will be assigned by name scheme.
         pdf : str
-            Name of conferences directory containing all pdf files
+            Name of conference's directory containing all pdf files
         xml : str
-            Name of conferences directory containing all xml files
+            Name of conference's directory containing all xml files
         abstracts : list
             List of metadata elements from conference's metadata file
         titles : list
@@ -95,11 +94,12 @@ class Conference:
             sanity.filenames(self)
         
     def create_bundles(self) -> None:
-        """Creates bundle structure
+        """Create bundle structure
 
         Creates bundle structure for conference in 
         configured output_base directory (see config.yml file). 
-        For more information please see README.md
+
+        Please see README.md for more detailed documentation.
         """
         
         counter = 1
@@ -110,14 +110,13 @@ class Conference:
         # create bundle structure
         for bundle in assignments:
             try:
-
-                # create bundle directory
+                
+                # create directories
                 if self.xml:
                     bundle_dir = os.path.join(self.output, bundle['name'])
                 else:
                     bundle_dir = os.path.join(self.output, 'bundle_'+ '{:03d}'.format(counter))
 
-                # create bundle directories
                 os.mkdir(bundle_dir)
                 os.mkdir(os.path.join(bundle_dir, 'bundle_publications'))
 
@@ -148,11 +147,11 @@ class Conference:
         self.__create_csv()
 
         # finish
-        logging.info(f"Bundle structure for conference {self.name} has been created under "
-                    f"'bundle_structures/{self.name}'.")
+        logging.info(f"Bundle structure of conference {self.name} has been created under "
+                    f"'{self.output}'.")
 
     def update_metadata(self):
-        """Updates conference's metadata
+        """Update conference's metadata
         
         Adds notes and references to metadata elements in conference's metadata file.
         This method is not part of the regular workflow and was used once.
@@ -162,29 +161,15 @@ class Conference:
         note = "Sofern eine editorische Arbeit an dieser Publikation stattgefunden hat, dann bestand diese aus der Eliminierung von Bindestrichen in Überschriften, die aufgrund fehlerhafter Silbentrennung entstanden sind, der Vereinheitlichung von Namen der Autor*innen in das Schema „Nachname, Vorname“ und/oder der Trennung von Überschrift und Unterüberschrift durch die Setzung eines Punktes, sofern notwendig."
 
         # set reference based on conference (year)
-        if self.name == "DHd2014":
-            ref = ""
-        elif self.name == "DHd2015":
-            ref = "http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt"
-        elif self.name == "DHd2016":
-            ref = "https://doi.org/10.5281/zenodo.3679331"
-        elif self.name == "DHd2017":
-            ref = "https://doi.org/10.5281/zenodo.3684825"
-        elif self.name == "DHd2018":
-            ref = "https://doi.org/10.5281/zenodo.3684897"
-        elif self.name == "DHd2019":
-            ref = "https://doi.org/10.5281/zenodo.2600812"
-        elif self.name == "DHd2020":
-            ref = "https://doi.org/10.5281/zenodo.3666690"
-        else:
-            ref = ""
+        references= {"DHd2014":"", "DHd2015":"http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt", "DHd2016":"https://doi.org/10.5281/zenodo.3679331", "DHd2017":"https://doi.org/10.5281/zenodo.3684825",
+                     "DHd2018": "https://doi.org/10.5281/zenodo.3684897", "Dhd2019": "https://doi.org/10.5281/zenodo.2600812", "Dhd2020":"https://doi.org/10.5281/zenodo.3666690"}
 
         # add notes and references
         tree = ET.parse(self.metadata)
         root = tree.getroot()
 
         references = ET.Element('references')
-        references.text = ref
+        references.text = references[self.name]
         notes = ET.Element('notes')
         notes.text = note
 
@@ -202,7 +187,10 @@ class Conference:
         files = [f for f in os.listdir(self.pdf) if f != ".DS_Store"]
         files.sort()
         if len(files) != len(self.abstracts):
-            raise Exception(f"Number of pdf files in conference pdf directory {self.pdf} does not match number of metadata tags in conference metadata file {self.metadata}. \n Files ({len(files)} - Element-Tags ({len(self.abstracts)}).")
+            logging.warning(f"Number of pdf files in conference pdf directory {self.pdf} does not match number of metadata tags in conference metadata file {self.metadata}. \n \
+                              Files ({len(files)} - Element-Tags ({len(self.abstracts)}).")
+            raise Exception(f"Number of pdf files in conference pdf directory does not match number of metadata tags in conference metadata file. \n \
+                              Please check logging file for more information.")
         return files
 
     # get xml files of conference
@@ -210,7 +198,10 @@ class Conference:
         xmls = [f for f in os.listdir(self.xml) if f != ".DS_Store"]
         xmls.sort()
         if len(xmls) != len(self.abstracts):
-            raise Exception(f"Number of xml files in conference xml directory {self.xml} does not match number of metadata tags in conference metadata file {self.metadata}. \n Files ({len(xmls)} - Element-Tags ({len(self.abstracts)}).")        
+            logging.warning((f"Number of xml files in conference xml directory {self.xml} does not match number of metadata tags in conference metadata file {self.metadata}. \n \
+                              Files ({len(xmls)} - Element-Tags ({len(self.abstracts)})."))
+            raise Exception(f"Number of xml files in conference xml directory does not match number of metadata tags in conference metadata file. \n \
+                              Please check logging file for more information.")        
         return xmls
 
     # parse metadata file of conference end return abstracts metadata
@@ -262,12 +253,12 @@ class Conference:
                 assigned_pdf = parsing.get_abstract_file(names, file_names_to_compare, index) + ".pdf"
                 bundle.update({"pdf": assigned_pdf})
 
-                # file name
+                # filename
                 bundle_name = os.path.splitext(assigned_pdf)[0]
 
                 # assign xml file to abstract
                 if self.xml:
-                    # Check sanity of filenames in pdf and xml directory
+                    # check sanity of filenames in pdf and xml directory
                     sanity.filenames(self)
                     xmls = self.__get_xmls()
                     xml = xmls[xmls.index(bundle_name + ".xml")]
@@ -278,7 +269,7 @@ class Conference:
 
         return assignments
 
-    # creates output directory for bundle structure of conference
+    # creates output directory for bundle structure
     def __create_output_dir(self) -> str:
         output_dir = os.path.join(config['output_base'], os.path.basename(self.name))
         try:
@@ -287,7 +278,7 @@ class Conference:
             logging.warning('Directory already exists. Continue..')
         return output_dir
 
-    # checks if files und bundles contain the corresponding numbers of files
+    # checks if files und bundles contain the same number of files
     def __quality_check(self) -> None:
         if not self.xml:
             defective_dirs = [bundle_dir for bundle_dir in os.listdir(self.output) if len(os.listdir(os.path.join(self.output, bundle_dir, "bundle_publications"))) != 1]
@@ -341,7 +332,7 @@ class Conference:
                 writer.writerow(bundle_data)
                 
 def get_xml_title(xml_file: str) -> str:
-    """Returns title of (abstract's) xml file (TEI)
+    """Returns title of abstract's xml file (TEI)
 
     Parameters
     ----------
@@ -375,7 +366,7 @@ def get_xml_title(xml_file: str) -> str:
     return title
 
 def create_metadata(pub: ET.Element, bundle_path: str) -> None:
-    """Create bundle's json metadata file (for zenodo metadata)
+    """Create bundle's json metadata file
 
     Parameters
     ----------
@@ -428,8 +419,7 @@ def get_bundle_files(bundle: str):
     bundle_json: str
         Path to json metadata file of bundle
     bundle_publications: list
-        List with assigned bundle publication files. 
-        Contains path to pdf file if xml files have not been taken into account for bundle creation. 
+        List with assigned bundle files. 
     """
     
     bundle_content = os.listdir(bundle)

@@ -1,4 +1,4 @@
-"""Sanity checks for given conference bundle structure
+"""Sanity checks for given bundle structure
 """
 
 import logging
@@ -10,7 +10,7 @@ import bundles
 def directory(d: str) -> None:
     """Checks if directory contains multiple file types
 
-    Ignores .DS_Store files if in directory.
+    Ignores .DS_Store.
 
     Parameters
     ----------
@@ -22,26 +22,27 @@ def directory(d: str) -> None:
     Exception
         If the given directory contains multiple file types.
     """
+
     types = set([os.path.splitext(f)[1] for f in os.listdir(d) if f != ".DS_Store"])
     if len(types) > 1:
-        logging.warning(f"The given directory {d} contains files with multipe formats: {types}")
-        raise Exception("The given directory contains files with multiple formats")
+        logging.warning(f"The given directory {d} contains files with multiple formats: {types}")
+        raise Exception("The given directory contains files with multiple formats.")
 
 def filenames(conf: 'bundles.Conference') -> None:
-    """Compares file names of pdf and xml directoy of conference
+    """Compares filenames in pdf and xml directories 
 
-    Compares file names without extensions. 
-    Ignores .DS_Store files if in directory.
+    Compares filenames without extensions. 
+    Ignores .DS_Store files.
 
     Parameters
     ----------
     conf : bundles.Conference
-        Conference of which the file names in pdf and xml directories shall be compared.
+        Conference from which the filenames are to be compared.
 
     Raises
     ------
     Exception
-        If the conference directories contain different filenames.
+        If directories contain different filenames.
     """
 
     pdf_names = [os.path.splitext(f)[0] for f in os.listdir(conf.pdf) if f != ".DS_Store"]
@@ -51,7 +52,8 @@ def filenames(conf: 'bundles.Conference') -> None:
     missing_pdfs = [f for f in xml_names if f not in pdf_names]
 
     if len(missing_xmls) != 0 or len(missing_pdfs) != 0:
-        raise Exception(f"For the following pdf files exists no matching xml file: {missing_xmls}. For the following xml files exosts no matching pdf file: {missing_pdfs}. Please check.")
+        logging.warning(f"For the following pdf files exists no matching xml file: {missing_xmls}. For the following xml files exists no matching pdf file: {missing_pdfs}. Please check.")
+        raise Exception(f"For the following pdf files exists no matching xml file: {missing_xmls}. For the following xml files exists no matching pdf file: {missing_pdfs}. Please check.")
 
 def readable_dir(prospective_dir: str) -> str:
     """Check if unchecked path references is readable directory
@@ -59,17 +61,17 @@ def readable_dir(prospective_dir: str) -> str:
     Parameters
     ----------
     prospective_dir: str
-        String representation of path to directory to be checked
+        String representation of path to directory to be checked.
 
     Returns
     -------
     prospective_dir: str
-        String representation of path if readable directory
+        String representation of path if readable directory.
 
     Raises
     ------
     Exception
-        If path is not a readable directory or if access to directory is not granted
+        If path is not a readable directory or if access to directory is not granted.
     """
 
     if not os.path.isdir(prospective_dir):
@@ -84,17 +86,17 @@ def readable_file(prospective_file: str) -> str:
     Parameters
     ----------
     prospective_file: str
-        String representation of path to file to be checked
+        String representation of path to file to be checked.
 
     Returns
     -------
     prospective_file: str
-        String representation of path if readable file
+        String representation of path if readable file.
 
     Raises
     ------
     Exception
-        If path is not a readable file or if access to file is not granted
+        If path is not a readable file or if access to file is not granted.
     """
     
     if not os.path.isfile(prospective_file):

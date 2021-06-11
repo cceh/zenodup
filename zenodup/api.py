@@ -1,7 +1,7 @@
-"""Script for Zenodo API interaction. 
+"""Module for interaction with Zenodo API
 
-Interaction with Zenodo API works through instances of the Connection class of this module. 
-For further documentation and usage please see README.md.
+Module for interaction with Zenodo API using instances of the Connection class.
+Please see README.md for more detailed documentation.
 """
 
 import csv
@@ -27,45 +27,46 @@ ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
 namespace = {'TEI': "http://www.tei-c.org/ns/1.0"}  
 
 class Connection:
-    """Connection class for interaction with zenodo 
+    """Connection class for interaction with Zenodo API 
     
-    The class methods are based on zenodo api documentation. 
-    For further information see also https://developers.zenodo.org/#introduction
+    The class methods are based on Zenodo API documentation. 
+    See also: https://developers.zenodo.org/#introduction.
 
     Attributes
     ----------
     conference : str
         Name of conference. Based on the name of the conference all necessary paths and information is determined. 
-        For further information please see README.md.
+        The name must correspond to the folder for the respective conference.
+        Please see README.md for more detailed documentation.
 
     token : str
-        Zenodo API access token. For further documentation please see README.md.
+        Zenodo API access token.
 
     url : str
-        Url used to connect to Zenodo api (Sandbox/Production)
+        URL used to connect to Zenodo API (Sandbox/Production).
 
     headers : dict
-        Header for Zenodo API connection
+        Header for Zenodo API connection.
 
     params : dict
-        Parameters for Zenodo API connection
+        Parameters for Zenodo API connection.
 
     Methods
     -------
     upload
-        Uploads the abstracts of given conference
+        Uploads the abstracts of given conference to Zenodo.
 
     delete
-        Deletes drafts from zenodo for given conference
+        Deletes drafts of conference from Zenodo.
 
     update
-        Adds missing notes and references to drafts for conference
+        Adds missing notes and references to drafts of conference.
 
     publish
-        Publishes drafts in zenodo of given conference
+        Publishes uploaded drafts of conference.
 
     get_metadata
-        Gets final metadata from abstracts of conference
+        Saves the abstracts' metadata of conference for annual package.
     """
 
     def __init__(self, name:str, token:str, productive: bool) -> None:
@@ -74,14 +75,13 @@ class Connection:
         Parameters
         ----------
         name : str
-            Name of conference. Based on the name of the conference all necessary paths and information is determined. 
-            For further information please see README.md.
+            Name of conference. The name must correspond to the folder for the respective conference.
 
         token : str
-            Zenodo API access token. For further documentation please see README.md. 
+            Zenodo API access token.
 
         productive : bool
-            Determines to interact with Zenodo API for testing (Zenodo sandbox) or production purposes.
+            Determines whether the productive system or the Zenodo sandbox (for testing purposes) is used.
         """
 
         self.conference = name
@@ -100,28 +100,28 @@ class Connection:
         logging.basicConfig(filename=config['logging_dir'] + self.conference +'_api.log', filemode='w+', level=logging.INFO)
 
     def upload(self) -> None:
-        """Uploads the abstracts of given conference
+        """Upload of abstracts
 
-        Uploads the abstracts of given conference to zenodo sandbox or productive system (based on given url).
-        In order to upload the abstracts of a conference the files have to be in required bundle structure.
-        For further information see README.md.
+        Uploads of abstracts to Zenodo.
+        In order to upload the abstracts the files must be available in the required bundle structure.
+        Please see README.md for more detailed documentation.
         """
 
         logging.info("Upload bundles..")
 
-        # create file to store zenodo deposition ids fur uploaded bundles
+        # create textfile to store deposition ids
         dep_file = open(config['depositions_dir'] + self.conference + ".txt", "w+")
 
         # upload bundles
         bundle_base = sanity.readable_dir(os.path.join(config['output_base'], self.conference))
-        logging.info(f"Bundle base directory based on given conference {self.conference}: {bundle_base}")
+        logging.info(f"Bundle base directory for conference {self.conference}: {bundle_base}")
         conference_bundles = [os.path.join(bundle_base, bundle) for bundle in os.listdir(bundle_base)]
 
         for bundle in conference_bundles:
-            # get bucket url and deposition id for upload
+            # get bucket url and deposition id
             bucket_url, deposition_id = self.__get_upload_params()
             # write deposition id for bundle in textfile
-            dep_file.write(str(deposition_id)+ "\n")
+            dep_file.write(str(deposition_id) + "\n")
             # get bundle files for upload
             bundle_json, bundle_publications = bundles.get_bundle_files(bundle)
             # upload bundle files
@@ -135,7 +135,7 @@ class Connection:
             # upload bundle metadata
             with open(bundle_json) as json_file:
                 data = json.load(json_file)
-            r = requests.put( self.url+'/%s' % deposition_id,
+            r = requests.put(self.url+'/%s' % deposition_id,
                             params=self.params, data=json.dumps(data), headers=self.headers)
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
                 logging.info(f"Upload for bundle {bundle} didn't go through. Please check resource.")
@@ -144,17 +144,12 @@ class Connection:
         logging.info("..finished")
     
     def delete(self) -> None:
-        """Deletes drafts from zenodo for given conference
-
-        Deletes all uploaded drafts of conference from zenodo (sandbox or productive system).  
-        In order to delete drafts from multiple conferences at once please collect the corresponding deposition ids in a deposition textfile. 
-        In order to call this method the given conference name needs to match the filename with the deposition ids.
-        For further information see README.md.
+        """Deletes drafts of given conference from zenodo
         """
 
         logging.info("Delete drafts..")
 
-        # get deposition ids to be deleted
+        # get deposition ids
         dep_file = open(config['depositions_dir'] + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
@@ -163,19 +158,19 @@ class Connection:
             dep_url = self.url + '/' + deposition_id
             r = requests.delete(dep_url, params= self.params )
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
-                logging.info(f"Draft with deposition id {deposition_id} didn't go through. Please check resource.")
+                logging.info(f"Could not delete draft with deposition id {deposition_id}. Please check resource.")
                 logging.info(f"Status code: {r.status_code}.")
                 logging.info(r.json())
         logging.info("..finished")
 
     def update(self) -> None:
-        """Adds missing notes and references to drafts for conference
+        """Adds missing notes and references
 
         CAUTION: This method has been written for a specific use case. 
         It is hardcoded and shouldn't be used in a generic way.  
         """
 
-        logging.info("Update metadata of depositions that have not been submitted yet..")
+        logging.info("Update metadata of depositions..")
 
         # set metadata (notes/references) to be updated
         notes = "Sofern eine editorische Arbeit an dieser Publikation stattgefunden hat, dann bestand diese aus der Eliminierung von Bindestrichen in Überschriften, die aufgrund fehlerhafter Silbentrennung entstanden sind, der Vereinheitlichung von Namen der Autor*innen in das Schema „Nachname, Vorname“ und/oder der Trennung von Überschrift und Unterüberschrift durch die Setzung eines Punktes, sofern notwendig."
@@ -184,11 +179,11 @@ class Connection:
                       "DHd2017":["https://doi.org/10.5281/zenodo.3684825"], "DHd2018":["https://doi.org/10.5281/zenodo.3684897"], 
                       "DHd2019":["https://doi.org/10.5281/zenodo.2600812"], "DHd2020":["https://doi.org/10.5281/zenodo.3666690"]}
 
-        # get deposition ids of drafts to be updated
+        # get deposition ids
         dep_file = open(config['depositions_dir'] + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
-        # update metadata of drafts
+        # update metadata
         for deposition_id in dep_ids:
             dep_url = self.url+ '/' + deposition_id
             r = requests.get(dep_url, params=self.params )
@@ -218,46 +213,41 @@ class Connection:
             r = requests.put(self.url+'/%s' % deposition_id,
                             params=self.params, data=json.dumps(json_metadata), headers=self.headers)
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
-                logging.info(f"Upload for deposition id {deposition_id} didn't go through. Please check resource.")
+                logging.info(f"Update for draft with deposition id {deposition_id} didn't go through. Please check resource.")
                 logging.info(f"Status code: {r.status_code}.")
 
         logging.info("finished")
 
     def publish(self) -> None:
-        """Publishes drafts in zenodo of given conference
-
-        Publishes drafts in zenodo of givien conference. 
-        In order to publish the drafts the deposition ids have to be stored 
-        in a textfile with conference name in depositions dir. 
-        For further information see README.md.
+        """Publishes drafts of given conference in Zenodo. 
         """
 
-        logging.info("Publish conference papers..")
+        logging.info("Publish..")
 
-        # get deposition ids of drafts to be published
+        # get deposition ids
         dep_file = open(config['depositions_dir'] + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
-        # publish drafts for given deposition ids
+        # publish drafts
         for deposition_id in dep_ids:
             dep_url = self.url + '/' + deposition_id + '/actions/publish'
             r = requests.post(dep_url, params=self.params )
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
-                logging.info(f"Publishing for deposition id {deposition_id} didn't go through. Please check deposition.")
+                logging.info(f"Publishing for draft with deposition id {deposition_id} didn't go through. Please check deposition.")
                 logging.info(f"Status code: {r.status_code}.")
 
         logging.info("..finished")
 
     def get_metadata(self):
-        """Gets final metadata from abstracts of conference
+        """Saves the abstracts' metadata for annual package
 
         This method is used to create an csv file containing all final abstracts metadata of conference.
-        In order to add publication category (e.g. poster, panel, ...) to csv file the conferences files 
-        conference the files have to be in required bundle structure.
-        For further information see README.md.
+        In order to add publication category (e.g. poster, panel, ...) to csv file the conferences' files must be available in the required bundle structure.
+
+        Please see README.md for more detailed documentation.
         """
 
-        logging.info("Get metadata from (published) abstracts of conference..")
+        logging.info("Get the abstracts' metadata for annual package..")
 
         # get depositions ids of conference
         dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
@@ -290,16 +280,15 @@ class Connection:
 
                     # get conceptdoi
                     bundle_info.update({"conceptdoi": r.json()["conceptdoi"]})
-                    logging.info(r.json()["conceptdoi"])
 
-                    # clean description tag
+                    # clean description from html-tag
                     bundle_info["description"] = bundle_info["description"].replace("<p>","").replace("</p>", "")
 
-                    # add filenames of deposition files to bundle_info
+                    # add filenames of deposition files
                     bundle_info["files"] = [elem["filename"] for elem in r_files.json()]
 
                     # get publication category (e.g. poster, panel, ...)
-                    # iterate through files in bundle structure and get xml file
+                    # get xml file
                     if any(elem["filename"].endswith(".xml") for elem in r_files.json()):
                         for elem in r_files.json():
                             if elem["filename"].endswith(".xml"):
@@ -316,7 +305,7 @@ class Connection:
                                                 xml_id = root.attrib["{http://www.w3.org/XML/1998/namespace}id"]
                                                 key_tags = tree.findall(".//TEI:keywords", namespace)
 
-                                                # TODO generic?
+                                                # TODO generic
                                                 if self.conference in ["DHd2014", "DHd2015", "DHd2016", "DHd2017"]:
                                                     for elem in key_tags:
                                                         if elem.attrib["n"]=="category":
@@ -330,11 +319,11 @@ class Connection:
                                                 bundle_info["format"] = pub_format
                 
                                             except KeyError:
-                                                logging.info(f"Could not find correct category tag for file {file_name}. Please check.")
+                                                logging.info(f"Couldn't find correct category tag for file {file_name}. Please check.")
                     time.sleep(1)                        
                 else:
                     logging.info(r.status_code)
-                    logging.info(f"Status code for deposition with id {deposition_id} is not 200. Please check deposition on zenodo.")
+                    logging.info(f"Status code for deposition with id {deposition_id} is not 200. Please check the deposition.")
 
                 # write bundle data in csv file
                 writer.writerow(bundle_info)

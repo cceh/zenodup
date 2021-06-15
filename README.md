@@ -1,13 +1,21 @@
 # Zenodup
 
-This application hat been built to upload abstracts of [DHd-Conference](https://dig-hum.de/) to [Zenodo](https://zenodo.org/).
-It is an integrated task in the workflow for collecting, structuring and publishing the conferences metadata. Use cases for this application are creating a valid bundle structure and interacting with the zenodo api.
+This application was developed to upload the abstracts of the [DHd-Conferences](https://dig-hum.de/) to [Zenodo](https://zenodo.org/).
+It is integrated in a workflow in order to collect, structure and publish the abstracts and the associated metadata.
+The use case for the application is on the one hand to create a valid bundle structure and on the other hand to interact with the Zenodo API.
 
 ## Overview
 
-* ``docs/``: Documentation
-* ``legacy/``: Legacy python scripts not integrated in actual workflow
-* ``zenodup``: Zenodup project source code
+- ``legacy/``: Legacy python scripts which are not integrated in generic workflow
+- ``zenodup/``: Zenodup application source code
+  - ``bundles/``: Python package to handle creation of bundle structure
+  - ``INPUT/``: Default input directory for data of conferences
+  - ``OUTPUT/``: Default output directory for data of conferences
+  - ``support/``: Default support directory
+
+## Requirements
+
+Python 3.8 or higher
 
 ## Installation
 
@@ -19,38 +27,48 @@ pip install -r requirements.txt
 
 ## Usage
 
-This application is divided in 2 different tasks which can be executed by running the script zenodup.py.
+Two different tasks can be executed by running the application's main script ``zenodup/zenodup.py``:
+
+- Creating a bundle strucutre for conference's data
+- Interacting with [Zenodo's REST API](https://developers.zenodo.org/):
+  - Upload abstracts
+  - Publish drafts
+  - Delete drafts
+  - Update local metadata files
+  - Get zenodo metadata of conferences for annual packages
+
+It is also possible to run all actions on the [Zenodo Sandbox](https://sandbox.zenodo.org/) for testing purposes.
 
 ### Configurations
 
-In ``zenodup/config.yml`` working directories such as desired input or output directory for the conference's bundle creation can be set.
+In ``zenodup/config.yml`` the working directories such as desired input or output directory for the conferences' bundle structures can be set.
 
-* ``input_base``: Input directory for conference in order to create bundle structure. (Default:"INPUT)
-* ``output_base``: Output directory for bundle structure. Bundle structure needs to be in output_base directory for zenodo api interaction. (Default: "OUTPUT")
-* ``depositions_dir``: Directory to save and load deposition file for conference (Default: "support/depositions/")
-* ``logging_dir``: Directory to save logging files (Default: "support/logging/")
-* ``assignments_dir``: Directory for csv files to check final assignments of bundle creation (Default:"support/assignments/")
-* ``packages_dir``: Directory for csv files containing zenodo metadata of all published abstracts (Default:"support/package/")
-* ``update_dir``: Directoy for updated metadata files (not part of regular workflow)(Default: "support/updated_metadata/")
+- ``input_base``: Input directory for conference in order to create bundle structure. (Default: ``zenodup/support/INPUT/``)
+- ``output_base``: Output directory for bundle structure. Bundle structure needs to be in output_base directory for Zenodo API interaction. (Default: ``zenodup/support/OUTPUT/``)
+- ``depositions_dir``: Directory to save and load deposition files of conferences (Default: ``zenodup/support/depositions/``)
+- ``logging_dir``: Directory to save logging files (Default: ``zenodup/support/logging/``)
+- ``assignments_dir``: Directory for csv files to check final assignments of bundle creation (Default:``zenodup/support/assignments/``)
+- ``packages_dir``: Directory for csv files containing Zenodo metadata of all published abstracts (Default:``zenodup/support/package/``)
+- ``update_dir``: Directoy for updated metadata files (not part of regular workflow)(Default: ``zenodup/support/updated_metadata/``)
 
 ### Create Bundles for Upload
 
-In order to interact with zenodo api via this application, the conferences have to be restructured in a certain bundle structure. Run script ``zenodup.py`` (cwd: /zenodup/zenodup/) for assigning conference papers to bundles based on metadata file. Put conference folder in configured input directory (Default:``/INPUT``). The conference folder is expected in the following structure:
+In order to interact with zenodo api via this application, the conferences have to be restructured in a certain bundle structure. Run script ``zenodup.py`` (cwd: ``/zenodup/zenodup/``) for assigning conference papers to bundles based on metadata file. Put conference folder in configured input directory (Default:``/support/INPUT/``). The conference folder is expected in the following structure:
 
-* CONFERENCE: Folder containing all relevant files of conference
-  * METADATA_FILE: Metadata file for conference containing all relevant information of conference publications
-  * XML: Folder to xml files of conference pubclications
-  * PDF: Folder to pdf files of conference publications (optional)
+- **CONFERENCE**: Folder containing all relevant files of conference
+  - **METADATA_FILE**: Metadata file for conference containing all relevant information of conference publications
+  - **XML**: Folder to xml files of conference pubclications
+  - **PDF**: Folder to pdf files of conference publications (optional)
 
 > Remark: You can find an example dataset of a conference folder under ``/INPUT/example/``.
 
-To run this script the following arguments need to be passed:
+To create the bundle structure for a conference, the following arguments need to be passed:
 
-* name: Name of DHd conference (folder) to be restructured
-* metadata: Name of the conference's metadata file
-* -sequenced (optional): If parameter is passed, the order of files is assumed to be the same as appearances of metadata tags in metadata file. If not passed, the files will be assigned by name scheme.
-* -pdf (optional): Parameter for name of directory containing conference's pdf files. If neither passed nor name is given the default is 'pdf'.
-* -xml (optional): Parameter for name of directory containing conference's xml files. If not passed, there will be no abstract's xml files taken into account. If passed and no name is given the default is 'xml'.
+- **name**: Name of conference's folder to be restructured
+- **metadata**: Name of the conference's metadata file
+- **-sequenced** (optional): If parameter is passed, the order of files is assumed to be the same as appearances of metadata tags in metadata file. If not passed, the files will be assigned by name scheme.
+- **-pdf** (optional): Parameter for name of directory containing conference's pdf files. If neither passed nor name is given the default is 'pdf'.
+- **-xml** (optional): Parameter for name of directory containing conference's xml files. If not passed, there will be no abstract's xml files taken into account. If passed and no name is given the default is 'xml'.
 
 Example:
 

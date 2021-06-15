@@ -135,7 +135,7 @@ dmypy.json
 .vscode
 
 # ignore working directories and files except example conference
-legacy/updated_metadata.py
+legacy/update_metadata.py
 zenodup/INPUT/*/
 !zenodup/INPUT/example/
 zenodup/OUTPUT/*/

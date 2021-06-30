@@ -102,15 +102,14 @@ class Connection:
     def upload(self) -> None:
         """Upload of abstracts
 
-        Uploads of abstracts to Zenodo.
+        Upload of abstracts to Zenodo.
         In order to upload the abstracts the files must be available in the required bundle structure.
-        Please see README.md for more detailed documentation.
         """
 
         logging.info("Upload bundles..")
 
         # create textfile to store deposition ids
-        dep_file = open(config['depositions_dir'] + self.conference + ".txt", "w+")
+        dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "w+")
 
         # upload bundles
         bundle_base = sanity.readable_dir(os.path.join(config['output_base'], self.conference))
@@ -144,13 +143,13 @@ class Connection:
         logging.info("..finished")
     
     def delete(self) -> None:
-        """Deletes drafts of given conference from zenodo
+        """Deletes drafts of given conference from Zenodo
         """
 
         logging.info("Delete drafts..")
 
         # get deposition ids
-        dep_file = open(config['depositions_dir'] + self.conference + ".txt", "r")
+        dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
         # delete drafts with given deposition ids
@@ -175,18 +174,28 @@ class Connection:
         # set metadata (notes/references) to be updated
         notes = "Sofern eine editorische Arbeit an dieser Publikation stattgefunden hat, dann bestand diese aus der Eliminierung von Bindestrichen in Überschriften, die aufgrund fehlerhafter Silbentrennung entstanden sind, der Vereinheitlichung von Namen der Autor*innen in das Schema „Nachname, Vorname“ und/oder der Trennung von Überschrift und Unterüberschrift durch die Setzung eines Punktes, sofern notwendig."
 
-        references = {"DHd2014": [""], "DHd2015":["http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt"], "DHd2016":["https://doi.org/10.5281/zenodo.3679331"],
-                      "DHd2017":["https://doi.org/10.5281/zenodo.3684825"], "DHd2018":["https://doi.org/10.5281/zenodo.3684897"], 
-                      "DHd2019":["https://doi.org/10.5281/zenodo.2600812"], "DHd2020":["https://doi.org/10.5281/zenodo.3666690"]}
+        references = {"DHd2014": ["https://github.com/DHd-Verband/DHd-Abstracts-2014"], 
+                      "DHd2015":["http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt", "https://github.com/DHd-Verband/DHd-Abstracts-2015"], 
+                      "DHd2016":["https://doi.org/10.5281/zenodo.3679331", "https://github.com/DHd-Verband/DHd-Abstracts-2016"],
+                      "DHd2017":["https://doi.org/10.5281/zenodo.3684825","https://github.com/DHd-Verband/DHd-Abstracts-2017"], 
+                      "DHd2018":["https://doi.org/10.5281/zenodo.3684897", "https://github.com/DHd-Verband/DHd-Abstracts-2018"], 
+                      "DHd2019":["https://doi.org/10.5281/zenodo.2600812","https://github.com/DHd-Verband/DHd-Abstracts-2019"], 
+                      "DHd2020":["https://doi.org/10.5281/zenodo.3666690", "https://github.com/DHd-Verband/DHd-Abstracts-2020"],
+                      "patrick":["https://doi.org/10.5281/zenodo.3666690", "https://github.com/DHd-Verband/DHd-Abstracts-2020"]}
 
         # get deposition ids
-        dep_file = open(config['depositions_dir'] + self.conference + ".txt", "r")
+        dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
-        # update metadata
         for deposition_id in dep_ids:
+            logging.info(deposition_id)
+            # unlock already submitted deposition for editing
+            r = requests.post(self.url + '/' + deposition_id + '/actions/edit', params=self.params)
+            time.sleep(1)
+
+            # update metadata
             dep_url = self.url+ '/' + deposition_id
-            r = requests.get(dep_url, params=self.params )
+            r = requests.get(dep_url, params=self.params)
 
             metadata = r.json()["metadata"]
             json_metadata = {"metadata": {"upload_type": metadata["upload_type"],
@@ -215,6 +224,7 @@ class Connection:
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
                 logging.info(f"Update for draft with deposition id {deposition_id} didn't go through. Please check resource.")
                 logging.info(f"Status code: {r.status_code}.")
+                logging.info(f"Error Message: {r}")
 
         logging.info("finished")
 
@@ -225,16 +235,18 @@ class Connection:
         logging.info("Publish..")
 
         # get deposition ids
-        dep_file = open(config['depositions_dir'] + self.conference + ".txt", "r")
+        dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
         # publish drafts
         for deposition_id in dep_ids:
+            logging.info(deposition_id)
             dep_url = self.url + '/' + deposition_id + '/actions/publish'
             r = requests.post(dep_url, params=self.params )
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
                 logging.info(f"Publishing for draft with deposition id {deposition_id} didn't go through. Please check deposition.")
                 logging.info(f"Status code: {r.status_code}.")
+            time.sleep(1)
 
         logging.info("..finished")
 
@@ -243,8 +255,6 @@ class Connection:
 
         This method is used to create an csv file containing all final abstracts metadata of conference.
         In order to add publication category (e.g. poster, panel, ...) to csv file the conferences' files must be available in the required bundle structure.
-
-        Please see README.md for more detailed documentation.
         """
 
         logging.info("Get the abstracts' metadata for annual package..")

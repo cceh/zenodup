@@ -134,18 +134,18 @@ dmypy.json
 # vs code 
 .vscode
 
-# ignore working directories and files except example conference
+# ignore legacy script
 legacy/update_metadata.py
+
+# ignore working directories and files except example conference
+
 zenodup/INPUT/*/
 !zenodup/INPUT/example/
 zenodup/OUTPUT/*/
 
-zenodup/support/*.csv
-zenodup/support/*.log
-zenodup/support/assignments/*.csv
-zenodup/support/packages/*.csv
-zenodup/support/depositions/*.txt
-zenodup/support/depositions/archiv_test/
-zenodup/support/depositions/backup_depositions/
-zenodup/support/logging/*.log
-zenodup/support/updated_metadata/*.xml
+zenodup/support/additional/*
+zenodup/support/assignments/*
+zenodup/support/packages/*
+zenodup/support/depositions/*
+zenodup/support/logging/*
+zenodup/support/updated_metadata/*

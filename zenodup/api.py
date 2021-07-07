@@ -263,6 +263,11 @@ class Connection:
         dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
+        # create root element for conference's final metadata file
+        metadata_tree = ET.ElementTree()
+        root = ET.Element('root')
+        metadata_tree._setroot(root)
+
         with open(config['packages_dir'] + self.conference + ".csv", 'w', encoding='utf-8', newline='') as csv_file:
 
             if self.conference not in ['DHd2014', 'DHd2015']:
@@ -297,8 +302,7 @@ class Connection:
                     # add filenames of deposition files
                     bundle_info["files"] = [elem["filename"] for elem in r_files.json()]
 
-                    # get publication category (e.g. poster, panel, ...)
-                    # get xml file
+                    # get publication category (e.g. poster, panel, ...) from TEI-file
                     if any(elem["filename"].endswith(".xml") for elem in r_files.json()):
                         for elem in r_files.json():
                             if elem["filename"].endswith(".xml"):
@@ -330,6 +334,9 @@ class Connection:
                 
                                             except KeyError:
                                                 logging.info(f"Couldn't find correct category tag for file {file_name}. Please check.")
+                    
+                    self.__create_metadata_element(bundle_info, root)
+
                     time.sleep(1)                        
                 else:
                     logging.info(r.status_code)
@@ -337,6 +344,9 @@ class Connection:
 
                 # write bundle data in csv file
                 writer.writerow(bundle_info)
+
+        # write in xml file
+        metadata_tree.write(config['update_dir'] + self.conference + "_updated.xml", encoding="utf-8", xml_declaration=True, method="xml")
 
         logging.info('... finished')
 
@@ -354,3 +364,72 @@ class Connection:
         logging.info(f"Using the following deposition id: {deposition_id}")
 
         return bucket_url, deposition_id
+
+    # create metadata element in xml format
+    def __create_metadata_element(self, bundle_info, root):
+
+        metadata = ET.SubElement(root, 'metadata')
+                        
+        upload_type = ET.SubElement(metadata, 'upload_type')
+        upload_type.text = bundle_info['upload_type']
+
+        publication_type = ET.SubElement(metadata, 'publication_type')
+        publication_type.text = bundle_info['publication_type']
+
+        publication_date = ET.SubElement(metadata, 'publication_date')
+        publication_date.text = bundle_info['publication_date']
+
+        title = ET.SubElement(metadata, 'title')
+        title.text = bundle_info['title']
+        
+        creators = ET.SubElement(metadata, 'creators')
+        for elem in bundle_info['creators']:
+            creator = ET.SubElement(creators, 'creator')
+            name = ET.SubElement(creator, 'name')
+            name.text = elem.get('name')
+            affiliation = ET.SubElement(creator, 'affiliation')
+            affiliation.text = elem.get('affiliation')
+        ET.indent(creators, space="   ", level=0)
+  
+        description = ET.SubElement(metadata, 'description')
+        description.text = bundle_info['description']
+
+        access_right = ET.SubElement(metadata, 'access_right')
+        access_right.text = bundle_info['access_right']
+
+        license = ET.SubElement(metadata, 'license')
+        license.text = bundle_info['license']
+
+        doi = ET.SubElement(metadata, 'doi')
+        doi.text = bundle_info['conceptdoi']
+
+        keywords = ET.SubElement(metadata, 'keywords')
+        keywords.text = ', '.join(bundle_info['keywords'])
+
+        contributors = ET.SubElement(metadata, 'contributors')
+        for elem in bundle_info['contributors']:
+            contributor = ET.SubElement(contributors, 'contributor')
+            name = ET.SubElement(contributor, 'name')
+            name.text = elem.get('name')
+            affiliation = ET.SubElement(contributor, 'affiliation')
+            affiliation.text = elem.get('affiliation')
+            c_type = ET.SubElement(contributor, 'type')
+            c_type.text = elem.get('type')
+        ET.indent(contributors, space="    ", level=0)
+
+        conference_title = ET.SubElement(metadata, 'conference_title')
+        conference_title.text = bundle_info['conference_title']
+
+        conference_acronym = ET.SubElement(metadata, 'conference_acronym')
+        conference_acronym.text = bundle_info['conference_acronym']
+
+        conference_dates = ET.SubElement(metadata, 'conference_dates')
+        conference_dates.text = bundle_info['conference_dates']
+
+        conference_place = ET.SubElement(metadata, 'conference_place')
+        conference_place.text = bundle_info['conference_place']
+
+        conference_url = ET.SubElement(metadata, 'conference_url')
+        conference_url.text = bundle_info['conference_url']
+
+        ET.indent(root, space="    ", level=0)

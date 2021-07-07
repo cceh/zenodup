@@ -11,7 +11,7 @@ output_base: "OUTPUT"
 depositions_dir : "support/depositions/"
 logging_dir : "support/logging/"
 assignments_dir : "support/assignments/"
-packages_dir : "support/package/"
+packages_dir : "support/packages/"
 
 # directoy for updated metadata files (not part of regular workflow)
 update_dir : "support/updated_metadata/"

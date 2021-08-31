@@ -383,7 +383,8 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "publication_date": pub.find("publication_date").text,
                         "title": pub.find("title").text,
                         "creators": [{"name": creator.find("name").text,
-                                    "affiliation": creator.find("affiliation").text
+                                    "affiliation": creator.find("affiliation").text,
+                                    "orcid": creator.find("orcid").text
                                     } for creator in pub.findall("creators/creator")],
                         "description": pub.find("description").text,
                         "access_right": pub.find("access_right").text,
@@ -392,9 +393,10 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "keywords": pub.find("keywords").text.split(", "),
                         "contributors": [{"name": contributor.find("name").text,
                                         "affiliation": contributor.find("affiliation").text,
+                                        "orcid": contributor.find("orcid").text,
                                         "type": contributor.find("type").text
                                         } for contributor in pub.findall("contributors/contributor")],
-                        "communities": [{"identifier": "dhd"}],
+                        "communities": [{"identifier": pub.find("communities").text}],
                         "conference_title": pub.find("conference_title").text,
                         "conference_acronym": pub.find("conference_acronym").text,
                         "conference_dates": pub.find("conference_dates").text,

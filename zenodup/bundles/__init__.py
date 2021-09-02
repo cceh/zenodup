@@ -377,25 +377,18 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     """
 
     # get bundle information and translate into json format
-    logging.info(f"Create bundle for publication: {pub.find('title').text}")
+    print(f"Create bundle for publication: {pub.find('title').text}")
     data = {"metadata": {"upload_type": pub.find("upload_type").text,
                         "publication_type": pub.find("publication_type").text,
                         "publication_date": pub.find("publication_date").text,
                         "title": pub.find("title").text,
-                        "creators": [{"name": creator.find("name").text,
-                                    "affiliation": creator.find("affiliation").text,
-                                    "orcid": creator.find("orcid").text
-                                    } for creator in pub.findall("creators/creator")],
+                        "creators": __get_creators(pub),
                         "description": pub.find("description").text,
                         "access_right": pub.find("access_right").text,
                         "license": pub.find("license").text,
                         "doi": "",
                         "keywords": pub.find("keywords").text.split(", "),
-                        "contributors": [{"name": contributor.find("name").text,
-                                        "affiliation": contributor.find("affiliation").text,
-                                        "orcid": contributor.find("orcid").text,
-                                        "type": contributor.find("type").text
-                                        } for contributor in pub.findall("contributors/contributor")],
+                        "contributors": __get_contributors(pub),
                         "communities": [{"identifier": pub.find("communities").text}],
                         "conference_title": pub.find("conference_title").text,
                         "conference_acronym": pub.find("conference_acronym").text,
@@ -407,6 +400,36 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     # save json metadata file in bundle path
     with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
         json.dump(data, outfile)
+
+def __get_creators(pub):
+    creators = []
+    for creator in pub.findall("creators/creator"):
+        creator_dict = {}
+        creator_dict.update({"name": creator.find("name").text})
+        creator_dict.update({"affiliation": creator.find("affiliation").text})
+
+        if creator.find("orcid").text:
+            creator_dict.update({"orcid": creator.find("orcid").text})
+
+        creators.append(creator_dict)
+    return creators
+
+def __get_contributors(pub):
+    contributors = []
+    for contributor in pub.findall("contributors/contributor"):
+        contributor_dict = {}
+        contributor_dict.update({"name": contributor.find("name").text})
+        contributor_dict.update({"affiliation": contributor.find("affiliation").text})
+
+        if contributor.find("orcid").text:
+            contributor_dict.update({"orcid": contributor.find("orcid").text})
+
+        contributor_dict.update({"type": contributor.find("type").text})
+
+        contributors.append(contributor_dict)
+    return contributors
+
+        
 
 def get_bundle_files(bundle: str):
     """Returns files assigned to bundle

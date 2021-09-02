@@ -140,6 +140,7 @@ class Connection:
                 logging.info(f"Upload for bundle {bundle} didn't go through. Please check resource.")
                 logging.info(f"Status code: {r.status_code}.")
                 logging.info(r.json())
+            time.sleep(1)
         logging.info("..finished")
     
     def delete(self) -> None:
@@ -160,6 +161,7 @@ class Connection:
                 logging.info(f"Could not delete draft with deposition id {deposition_id}. Please check resource.")
                 logging.info(f"Status code: {r.status_code}.")
                 logging.info(r.json())
+            time.sleep(1)
         logging.info("..finished")
 
     def update(self) -> None:

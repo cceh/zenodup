@@ -137,10 +137,10 @@ Example usage:
 
 ```bash
 # Upload conference's abstracts to sandbox
-python zenodo_up.py api upload [CONFERENCE] [ACCESS_TOKEN]
+python zenodup.py api upload [CONFERENCE] [ACCESS_TOKEN]
 
 # Upload conference's abstracts to productive system
-python zenodo_up.py api upload [CONFERENCE] [ACCESS_TOKEN] -productive
+python zenodup.py api upload [CONFERENCE] [ACCESS_TOKEN] -productive
 ```
 
 Logging file with name ``[CONFERENCE]_upload.log`` will be created under ``support/logging/``.

@@ -16,7 +16,6 @@ import yaml
 from bundles import parsing
 from bundles import sanity
 
-
 # set base paths for working diretories
 with open(r'config.yml') as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
@@ -316,18 +315,9 @@ class Conference:
                         xml = f
                     else:
                         raise Exception("The publication files do not have the correct format. Please check if all files are either pdf or xml files.")
+                
+                bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf, 'XML': xml}
 
-                if self.xml:
-                    # get title from xml
-                    for f in os.listdir(publications):
-                        if f.endswith(".xml"):
-                            xml_title = get_xml_title(os.path.join(publications, f))
-                    from_xml = xml_title
-                    
-                    bundle_data = {'Bundle': bundle, 'Title': title, 'Title from xml': from_xml, 'PDF': pdf, 'XML': xml}
-                else:
-                    bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf}
-            
                 # write bundle data in csv file
                 writer.writerow(bundle_data)
                 
@@ -377,39 +367,66 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     """
 
     # get bundle information and translate into json format
-    print(f"Create bundle for publication: {pub.find('title').text}")
-    data = {"metadata": {"upload_type": pub.find("upload_type").text,
-                        "publication_type": pub.find("publication_type").text,
-                        "publication_date": pub.find("publication_date").text,
-                        "title": pub.find("title").text,
+    logging.info(f"Create bundle for publication: {pub.find('title').text}")
+    data = {"metadata": {"upload_type": pub.find("upload_type").text.replace("\n", ""),
+                        "publication_type" if pub.find("upload_type").text.replace("\n", "")=="publication" else "dump_publicationtype" : pub.find("publication_type").text if pub.find("upload_type").text.replace("\n", "")=="publication" else None,
+                        "publication_date": pub.find("publication_date").text.replace("\n", ""),
+                        "title": ' '.join(pub.find("title").text.replace("\n", "").split()),
                         "creators": __get_creators(pub),
-                        "description": pub.find("description").text,
-                        "access_right": pub.find("access_right").text,
-                        "license": pub.find("license").text,
+                        "description": ' '.join(pub.find("description").text.replace("\n", "").split()),
+                        "access_right": pub.find("access_right").text.replace("\n", ""),
+                        "license": pub.find("license").text.replace("\n", ""),
                         "doi": "",
-                        "keywords": pub.find("keywords").text.split(", "),
+                        "keywords": [' '.join(elem.replace("\"", "").split()) for elem in pub.find("keywords").text.replace("\n", "").split(", ")],
+                        "related_identifiers" if pub.find("related_identifiers") else "dump_relatedids": __get_related_identifiers(pub),
                         "contributors": __get_contributors(pub),
-                        "communities": [{"identifier": pub.find("communities").text}],
-                        "conference_title": pub.find("conference_title").text,
-                        "conference_acronym": pub.find("conference_acronym").text,
-                        "conference_dates": pub.find("conference_dates").text,
-                        "conference_place": pub.find("conference_place").text,
-                        "conference_url": pub.find("conference_url").text
+                        "communities": [{"identifier": pub.find("communities").text}] if pub.find("communities") else [{"identifier": "dhd"}],
+                        "conference_title": ' '.join(pub.find("conference_title").text.replace("\n", "").split()),
+                        "conference_acronym": pub.find("conference_acronym").text.replace("\n", ""),
+                        "conference_dates": pub.find("conference_dates").text.replace("\n", ""),
+                        "conference_place": pub.find("conference_place").text.replace("\n", ""),
+                        "conference_url": pub.find("conference_url").text.replace("\n", "")
                         }
             }
+    try:
+        del data["metadata"]["dump_publicationtype"]
+        logging.info("Upload type is not 'publication' so the publication_type will not be added to the json file.")
+    except KeyError:
+        logging.info("'publication_type' has been added to the json file.")
+
+    try:
+        del data["metadata"]["dump_relatedids"]
+        logging.info("Metadata does not contain tag related_identifier, so the related_identifiers will not be added to the json file.")
+    except KeyError:
+        logging.info("'related_identifiers' have been added to json file.")
+
     # save json metadata file in bundle path
     with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
         json.dump(data, outfile)
+
+def __get_related_identifiers(pub):
+    rel_ids = []
+    for related_identifier in pub.findall("related_identifiers/related_identifier"):
+        identifier_dict = {}
+        identifier_dict.update({"relation": related_identifier.find("relation").text.replace("\n", "")})
+        identifier_dict.update({"identifier": related_identifier.find("identifier").text.replace("\n", "")})
+        identifier_dict.update({"resource_type": related_identifier.find("resource_type").text.replace("\n", "")})
+
+        rel_ids.append(identifier_dict)
+
+    return rel_ids
 
 def __get_creators(pub):
     creators = []
     for creator in pub.findall("creators/creator"):
         creator_dict = {}
-        creator_dict.update({"name": creator.find("name").text})
-        creator_dict.update({"affiliation": creator.find("affiliation").text})
+        creator_dict.update({"name": creator.find("name").text.replace("\n", "")})
+        creator_dict.update({"affiliation": ' '.join(creator.find("affiliation").text.replace("\n", "").split())})
 
-        if creator.find("orcid").text:
-            creator_dict.update({"orcid": creator.find("orcid").text})
+        try:
+            creator_dict.update({"orcid": creator.find("orcid").text.replace("\n", "")})
+        except AttributeError:
+            logging.info(f"Creator {creator.find('name').text} has no orcid.")
 
         creators.append(creator_dict)
     return creators
@@ -418,18 +435,19 @@ def __get_contributors(pub):
     contributors = []
     for contributor in pub.findall("contributors/contributor"):
         contributor_dict = {}
-        contributor_dict.update({"name": contributor.find("name").text})
-        contributor_dict.update({"affiliation": contributor.find("affiliation").text})
+        contributor_dict.update({"name": contributor.find("name").text.replace("\n", "")})
+        contributor_dict.update({"affiliation": ' '.join(contributor.find("affiliation").text.replace("\n", "").split())})
 
-        if contributor.find("orcid").text:
-            contributor_dict.update({"orcid": contributor.find("orcid").text})
+        try:
+            contributor_dict.update({"orcid": contributor.find("orcid").text.replace("\n", "")})
+        except:
+            logging.info(f"Creator {contributor.find('name').text} has no orcid.")
 
-        contributor_dict.update({"type": contributor.find("type").text})
+        contributor_dict.update({"type": contributor.find("type").text.replace("\n", "")})
 
         contributors.append(contributor_dict)
     return contributors
 
-        
 
 def get_bundle_files(bundle: str):
     """Returns files assigned to bundle

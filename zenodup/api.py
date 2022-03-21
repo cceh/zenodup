@@ -246,8 +246,8 @@ class Connection:
             dep_url = self.url + '/' + deposition_id + '/actions/publish'
             r = requests.post(dep_url, params=self.params )
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
-                logging.info(f"Publishing for draft with deposition id {deposition_id} didn't go through. Please check deposition.")
-                logging.info(f"Status code: {r.status_code}.")
+                logging.warning(f"Publishing for draft with deposition id {deposition_id} didn't go through. Please check deposition.")
+                logging.warning(f"Status code: {r.status_code}.")
             time.sleep(1)
 
         logging.info("..finished")
@@ -275,6 +275,14 @@ class Connection:
             if self.conference not in ['DHd2014', 'DHd2015']:
                 fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
                           'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'title', 'upload_type','conceptdoi', 'files', 'format', 'xml_id']
+            elif self.conference == 'FORGE':
+                fieldnames = ['title','conceptdoi']
+            elif self.conference == 'DHd2022':
+                fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
+                            'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'related_identifiers', 'title', 'upload_type','conceptdoi', 'files', 'format', 'xml_id']
+            elif self.conference == 'DHd2022_poster':
+                fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
+                            'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'related_identifiers', 'title', 'upload_type','conceptdoi', 'files']
             else:
                 fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
                             'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'title', 'upload_type','conceptdoi', 'files']
@@ -292,60 +300,66 @@ class Connection:
 
                 if r.status_code in [200, 201, 202]:
                     
-                    # get deposition metadata
-                    bundle_info = r.json()["metadata"]
+                    if self.conference == "FORGE":
+                        bundle_info = {"title": r.json()["title"],"conceptdoi": r.json()["conceptdoi"]}
+                        
+                    else: 
+                        # get deposition metadata
+                        bundle_info = r.json()["metadata"]
 
-                    # get conceptdoi
-                    bundle_info.update({"conceptdoi": r.json()["conceptdoi"]})
+                        # get conceptdoi
+                        bundle_info.update({"conceptdoi": r.json()["conceptdoi"]})
+                        bundle_info.update({"doi": r.json()["doi"]})
+                        # remove html-tag from description
+                        bundle_info["description"] = ' '.join(bundle_info["description"].replace("<p>","").replace("</p>", "").replace("\n"," ").split(" "))
+                        bundle_info["title"] = bundle_info["title"].replace("\\n","")
+                        bundle_info["conference_title"] = bundle_info["conference_title"].replace("\n","")
 
-                    # clean description from html-tag
-                    bundle_info["description"] = bundle_info["description"].replace("<p>","").replace("</p>", "")
+                        # add filenames of deposition files
+                        bundle_info["files"] = [elem["filename"] for elem in r_files.json()]
 
-                    # add filenames of deposition files
-                    bundle_info["files"] = [elem["filename"] for elem in r_files.json()]
+                        # get publication category (e.g. poster, panel, ...) from TEI-file
+                        if any(elem["filename"].endswith(".xml") for elem in r_files.json()):
+                            for elem in r_files.json():
+                                if elem["filename"].endswith(".xml"):
+                                    file_name = elem["filename"]
+                                    for root, dirs, files in os.walk(os.path.join(config['output_base'], self.conference)):
+                                        for f in files:
+                                            if f == file_name:
+                                                xml_path = os.path.join(root, f)
+                                                try:
+                                                    # parse xml file
+                                                    tree = ET.parse(xml_path)
+                                                    # get xml id
+                                                    root = tree.getroot()
+                                                    xml_id = root.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                                                    key_tags = tree.findall(".//TEI:keywords", namespace)
+                                                    # TODO generic
+                                                    if self.conference in ["DHd2014", "DHd2015", "DHd2016", "DHd2017"]:
+                                                        for elem in key_tags:
+                                                            if elem.attrib["n"]=="category":
+                                                                pub_format = elem.find("TEI:term", namespace).text
+                                                    elif self.conference in ["DHd2018", "DHd2019", "DHd2020", "DHd2022"]:
+                                                        for elem in key_tags:
+                                                            if elem.attrib["n"]=="subcategory":
+                                                                pub_format = elem.find("TEI:term", namespace).text
 
-                    # get publication category (e.g. poster, panel, ...) from TEI-file
-                    if any(elem["filename"].endswith(".xml") for elem in r_files.json()):
-                        for elem in r_files.json():
-                            if elem["filename"].endswith(".xml"):
-                                file_name = elem["filename"]
-                                for root, dirs, files in os.walk(os.path.join(config['output_base'], self.conference)):
-                                    for f in files:
-                                        if f == file_name:
-                                            xml_path = os.path.join(root, f)
-                                            try:
-                                                # parse xml file
-                                                tree = ET.parse(xml_path)
-                                                # get xml id
-                                                root = tree.getroot()
-                                                xml_id = root.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-                                                key_tags = tree.findall(".//TEI:keywords", namespace)
-
-                                                # TODO generic
-                                                if self.conference in ["DHd2014", "DHd2015", "DHd2016", "DHd2017"]:
-                                                    for elem in key_tags:
-                                                        if elem.attrib["n"]=="category":
-                                                            pub_format = elem.find("TEI:term", namespace).text
-                                                elif self.conference in ["DHd2018", "DHd2019", "DHd2020"]:
-                                                    for elem in key_tags:
-                                                        if elem.attrib["n"]=="subcategory":
-                                                            pub_format = elem.find("TEI:term", namespace).text
-
-                                                bundle_info["xml_id"] = xml_id
-                                                bundle_info["format"] = pub_format
-                
-                                            except KeyError:
-                                                logging.info(f"Couldn't find correct category tag for file {file_name}. Please check.")
+                                                    bundle_info["xml_id"] = xml_id
+                                                    bundle_info["format"] = pub_format
                     
-                    self.__create_metadata_element(bundle_info, root)
+                                                except KeyError:
+                                                    logging.info(f"Couldn't find correct category tag for file {file_name}. Please check.")
+                        
+                        # self.__create_metadata_element(bundle_info, root)
 
-                    time.sleep(1)                        
+                        time.sleep(1)                        
                 else:
                     logging.info(r.status_code)
                     logging.info(f"Status code for deposition with id {deposition_id} is not 200. Please check the deposition.")
 
                 # write bundle data in csv file
                 writer.writerow(bundle_info)
+                time.sleep(1)
 
         # write in xml file
         metadata_tree.write(config['update_dir'] + self.conference + "_updated.xml", encoding="utf-8", xml_declaration=True, method="xml")

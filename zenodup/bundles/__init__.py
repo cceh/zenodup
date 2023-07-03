@@ -320,7 +320,8 @@ class Conference:
 
                 # write bundle data in csv file
                 writer.writerow(bundle_data)
-                
+
+
 def get_xml_title(xml_file: str) -> str:
     """Returns title of abstract's xml file (TEI)
 
@@ -355,6 +356,7 @@ def get_xml_title(xml_file: str) -> str:
         title = ""
     return title
 
+
 def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     """Create bundle's json metadata file
 
@@ -380,12 +382,13 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "keywords": [' '.join(elem.replace("\"", "").split()) for elem in pub.find("keywords").text.replace("\n", "").split(", ")],
                         "related_identifiers" if pub.find("related_identifiers") else "dump_relatedids": __get_related_identifiers(pub),
                         "contributors": __get_contributors(pub),
-                        "communities": [{"identifier": pub.find("communities").text}] if pub.find("communities") else [{"identifier": "dhd"}],
+                        "communities": [{"identifier": pub.find("communities/identifier").text}],
                         "conference_title": ' '.join(pub.find("conference_title").text.replace("\n", "").split()),
                         "conference_acronym": pub.find("conference_acronym").text.replace("\n", ""),
                         "conference_dates": pub.find("conference_dates").text.replace("\n", ""),
                         "conference_place": pub.find("conference_place").text.replace("\n", ""),
-                        "conference_url": pub.find("conference_url").text.replace("\n", "")
+                        "conference_url": pub.find("conference_url").text.replace("\n", ""),
+                        "language": pub.find("language").text.replace("\n", "")
                         }
             }
     try:
@@ -404,6 +407,7 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
         json.dump(data, outfile)
 
+
 def __get_related_identifiers(pub):
     rel_ids = []
     for related_identifier in pub.findall("related_identifiers/related_identifier"):
@@ -416,12 +420,17 @@ def __get_related_identifiers(pub):
 
     return rel_ids
 
+
 def __get_creators(pub):
     creators = []
     for creator in pub.findall("creators/creator"):
         creator_dict = {}
         creator_dict.update({"name": creator.find("name").text.replace("\n", "")})
-        creator_dict.update({"affiliation": ' '.join(creator.find("affiliation").text.replace("\n", "").split())})
+
+        try:
+            creator_dict.update({"affiliation": ' '.join(creator.find("affiliation").text.replace("\n", "").split())})
+        except AttributeError:
+            logging.info(f"Creator {creator.find('name').text} has no affiliation.")
 
         try:
             creator_dict.update({"orcid": creator.find("orcid").text.replace("\n", "")})
@@ -430,6 +439,7 @@ def __get_creators(pub):
 
         creators.append(creator_dict)
     return creators
+
 
 def __get_contributors(pub):
     contributors = []

@@ -4,8 +4,6 @@
 import logging
 import os
 
-import bundles
-
 def directory(d: str) -> None:
     """Checks if directory contains multiple file types
 

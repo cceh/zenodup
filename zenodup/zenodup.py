@@ -58,6 +58,7 @@ def __set_parser() -> argparse.ArgumentParser:
 
     return zenodup_parser
 
+
 if __name__ == "__main__":
 
     # set application parser

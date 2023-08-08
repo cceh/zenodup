@@ -320,7 +320,8 @@ class Conference:
 
                 # write bundle data in csv file
                 writer.writerow(bundle_data)
-                
+
+
 def get_xml_title(xml_file: str) -> str:
     """Returns title of abstract's xml file (TEI)
 
@@ -354,6 +355,7 @@ def get_xml_title(xml_file: str) -> str:
         logging.warning(f"Couldn't extract title from file {xml_file}")
         title = ""
     return title
+
 
 def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     """Create bundle's json metadata file
@@ -404,6 +406,7 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
     with open(os.path.join(bundle_path, 'bundle_metadata.json'), 'w') as outfile:
         json.dump(data, outfile)
 
+
 def __get_related_identifiers(pub):
     rel_ids = []
     for related_identifier in pub.findall("related_identifiers/related_identifier"):
@@ -416,12 +419,17 @@ def __get_related_identifiers(pub):
 
     return rel_ids
 
+
 def __get_creators(pub):
     creators = []
     for creator in pub.findall("creators/creator"):
         creator_dict = {}
         creator_dict.update({"name": creator.find("name").text.replace("\n", "")})
-        creator_dict.update({"affiliation": ' '.join(creator.find("affiliation").text.replace("\n", "").split())})
+
+        try:
+            creator_dict.update({"affiliation": ' '.join(creator.find("affiliation").text.replace("\n", "").split())})
+        except AttributeError:
+            logging.info(f"Creator {creator.find('name').text} has no affiliation.")
 
         try:
             creator_dict.update({"orcid": creator.find("orcid").text.replace("\n", "")})
@@ -430,6 +438,7 @@ def __get_creators(pub):
 
         creators.append(creator_dict)
     return creators
+
 
 def __get_contributors(pub):
     contributors = []

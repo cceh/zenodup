@@ -134,6 +134,14 @@ dmypy.json
 # vs code 
 .vscode
 
+# MAC
+.DS_Store
+zenodup/.DS_Store
+zenodup/INPUT/.DS_Store
+
+# Idea
+.idea/
+
 # ignore legacy script
 legacy/update_metadata.py
 

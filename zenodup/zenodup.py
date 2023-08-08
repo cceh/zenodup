@@ -26,7 +26,7 @@ def __api_interact(args):
     del args["func"]
     action = args.pop("action")
     con = api.Connection(**args)
-    func = {"upload": con.upload,"publish": con.publish, "update": con.update, "delete": con.delete, "get_metadata": con.get_metadata}
+    func = {"upload": con.upload,"publish": con.publish, "update": con.update, "delete": con.delete, "get_metadata": con.get_metadata, "write_identifier": con.write_identifier()}
     func[action]()
 
 def __set_parser() -> argparse.ArgumentParser:
@@ -50,7 +50,7 @@ def __set_parser() -> argparse.ArgumentParser:
     
     # ZENODO API PARSER
     api_parser = subparsers.add_parser('api', description='Interact with zenodo api. Please see README.md for more detailed documentation.')
-    api_parser.add_argument('action', choices=["upload","publish", "update", "delete", "get_metadata"])
+    api_parser.add_argument('action', choices=["upload", "publish", "update", "delete", "get_metadata", "write_identifier"])
     api_parser.add_argument('name')
     api_parser.add_argument('token')
     api_parser.add_argument('-productive', nargs='?', type=bool, default=False, const=True)

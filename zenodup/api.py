@@ -366,6 +366,73 @@ class Connection:
 
         logging.info('... finished')
 
+    def write_identifier(self):
+        """Writes the abstract's doi as related identifier.
+
+        Find the related abstract by matching titles."""
+
+        logging.info("Write abstract's doi as related identifier..")
+
+        # get metadata file
+        metadata_file = sanity.readable_file(os.path.join(config['input_base'], self.conference + '_poster', self.conference + '_poster.xml'))
+        logging.info(f"Metadatafile for posters: {metadata_file}")
+
+        #instantiate list depositions_info
+        depositions_info = []
+
+
+        # get list of titles from depositions
+
+        # get depositions ids of conference
+        dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
+        dep_ids = [line.replace("\n", "") for line in dep_file]
+
+        # get doi and title from each deposition
+        for index, deposition_id in enumerate(dep_ids):
+
+            dep_url = self.url + '/' + deposition_id
+            # get request for bundle metadata
+            r = requests.get(dep_url, params=self.params)
+
+            if r.status_code in [200, 201, 202]:
+                # get deposition metadata
+                depositions_info.append([r.json()["title"].replace("\n",""), r.json()["conceptdoi"]])
+                time.sleep(0.500)
+            else:
+                logging.info(r.status_code)
+                logging.info(
+                    f"Status code for deposition with id {deposition_id} is not 200. Please check the deposition.")
+        logging.info(f"Information from Depositions: {depositions_info}")
+
+        titles = [dep[0] for dep in depositions_info]
+
+
+        # modify related identifiers for all poster publications
+
+        # create root element for conference's final metadata file
+        tree = ET.parse(metadata_file)
+        root = tree.getroot()
+        dates = root.findall('metadata')
+
+        counter = 0
+        for i, date in enumerate(dates):
+            logging.info(f"Processing entry {i} with title {date.find('title').text}..")
+            if date.find("title").text.replace("\n", "") in titles:
+                logging.info(f"Title: {date.find('title').text}")
+                for rel_identifier in date.find("related_identifiers"):
+                    if rel_identifier.find("relation").text == "isSupplementTo":
+                        # ersetze related identifier
+                        rel_identifier.find("identifier").text = depositions_info[titles.index(date.find("title").text)][1]
+                counter = counter + 1
+            else:
+                logging.warning(f"Identifier for publication with title {date.find('title').text} could not be modified. Please check manually.")
+
+        # write in xml file
+        tree.write(os.path.join(config['input_base'], self.conference + '_poster', self.conference + '_poster_related_ids.xml'))
+        logging.info(f"{counter} related identifiers have been modified.")
+        logging.info('... finished')
+
+
     # empty post to zenodo in order to get bucket url and deposition id
     def __get_upload_params(self):
         r = requests.post(self.url,

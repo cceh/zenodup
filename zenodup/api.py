@@ -366,15 +366,18 @@ class Connection:
 
         logging.info('... finished')
 
-    def write_identifier(self):
+    def write_identifiers_for_posters(self):
         """Writes the abstract's doi as related identifier.
 
-        Find the related abstract by matching titles."""
+        Find the related abstract by matching titles. Changes relation, identifier and resource_type of first
+        related_identifier for each publication (metadata entry). Relation changes from 'isPartOf' to 'isSupplementTo'
+        , identifier will be overwritten by the abstract's concept doi and the resource_type changes from
+        'publication-book' to 'publication-conferencepaper'."""
 
         logging.info("Write abstract's doi as related identifier..")
 
         # get metadata file
-        metadata_file = sanity.readable_file(os.path.join(config['input_base'], self.conference + '_poster', self.conference + '_poster.xml'))
+        metadata_file = sanity.readable_file(os.path.join(config['input_base'], self.conference + '_posters', self.conference + '_posters.xml'))
         logging.info(f"Metadatafile for posters: {metadata_file}")
 
         #instantiate list depositions_info
@@ -419,16 +422,17 @@ class Connection:
             logging.info(f"Processing entry {i} with title {date.find('title').text}..")
             if date.find("title").text.replace("\n", "") in titles:
                 logging.info(f"Title: {date.find('title').text}")
-                for rel_identifier in date.find("related_identifiers"):
-                    if rel_identifier.find("relation").text == "isSupplementTo":
-                        # ersetze related identifier
-                        rel_identifier.find("identifier").text = depositions_info[titles.index(date.find("title").text)][1]
+                rel_identifier = date.find("related_identifiers")[0]
+                rel_identifier.find("relation").text = "isSupplementTo"
+                rel_identifier.find("resource_type").text = "publication-conferencepaper"
+                # ersetze related identifier
+                rel_identifier.find("identifier").text = depositions_info[titles.index(date.find("title").text)][1]
                 counter = counter + 1
             else:
                 logging.warning(f"Identifier for publication with title {date.find('title').text} could not be modified. Please check manually.")
 
         # write in xml file
-        tree.write(os.path.join(config['input_base'], self.conference + '_poster', self.conference + '_poster_related_ids.xml'))
+        tree.write(os.path.join(config['input_base'], self.conference + '_posters', self.conference + '_posters_related_ids.xml'))
         logging.info(f"{counter} related identifiers have been modified.")
         logging.info('... finished')
 

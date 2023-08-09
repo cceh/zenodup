@@ -111,10 +111,7 @@ class Conference:
             try:
                 
                 # create directories
-                if self.xml:
-                    bundle_dir = os.path.join(self.output, bundle['name'])
-                else:
-                    bundle_dir = os.path.join(self.output, 'bundle_'+ '{:03d}'.format(counter))
+                bundle_dir = os.path.join(self.output, bundle['name'])
 
                 os.mkdir(bundle_dir)
                 os.mkdir(os.path.join(bundle_dir, 'bundle_publications'))
@@ -315,8 +312,11 @@ class Conference:
                         xml = f
                     else:
                         raise Exception("The publication files do not have the correct format. Please check if all files are either pdf or xml files.")
-                
-                bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf, 'XML': xml}
+
+                if self.xml:
+                    bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf, 'XML': xml}
+                else:
+                    bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf}
 
                 # write bundle data in csv file
                 writer.writerow(bundle_data)
@@ -382,7 +382,7 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "keywords": [' '.join(elem.replace("\"", "").split()) for elem in pub.find("keywords").text.replace("\n", "").split(", ")],
                         "related_identifiers" if pub.find("related_identifiers") else "dump_relatedids": __get_related_identifiers(pub),
                         "contributors": __get_contributors(pub),
-                        "communities": [{"identifier": pub.find("communities").text}] if pub.find("communities") else [{"identifier": "dhd"}],
+                        "communities": [{"identifier": pub.find("communities/identifier").text}],
                         "conference_title": ' '.join(pub.find("conference_title").text.replace("\n", "").split()),
                         "conference_acronym": pub.find("conference_acronym").text.replace("\n", ""),
                         "conference_dates": pub.find("conference_dates").text.replace("\n", ""),

@@ -123,8 +123,6 @@ To interact with Zenodo API the following arguments need to be taken into accoun
   - _get_metadata_: Saves the abstracts' metadata for conference's annual package. This method is used to create an csv file containing all final abstracts metadata of conference. In order to add publication category (e.g. poster, panel, ...) to csv file the conferences' files must be available in the required bundle structure under the configured output directory.
     > CAUTION: This method contains hardcoded elements.
   - _write_identifiers_for_posters_: Writes the abstract's concept doi as related identifier in poster's metadata. This method is used to add the abstract's concept doi to the affiliated poster publication. For this method the posters have to be stored in a subdirectory of the INPUT directory. It is necessary for each conference that the poster directory is called [CONFERENCE NAME]_posters containing the respective metadata file for the posters named [CONFERENCE NAME]_posters.xml (the final path is therefore ```/INPUT/[CONFERENCE NAME]_posters/[CONFERENCE NAME]_posters.xml```).
-  - _write_identifiers_for_abstracts_: Writes the poster's concept doi as related identifier in abstract's metadata. This method is used to add the poster's concept doi to the affiliated abstract publication. It is necessary for each conference that the poster directory is called [CONFERENCE NAME]_posters containing the respective metadata file for the posters named [CONFERENCE NAME]_posters.xml (the final path is therefore ```/INPUT/[CONFERENCE NAME]_posters/[CONFERENCE NAME]_posters.xml```).
-
 
 - **name**: Name of conference's folder with bundle structure
 - **token**: Generated access token to use Zenodo API.

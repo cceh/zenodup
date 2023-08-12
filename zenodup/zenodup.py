@@ -22,6 +22,7 @@ def __create_bundles(args):
     # update metadata for conference (not part of regular workflow)
     # conference.update_metadata()
 
+
 def __api_interact(args):
     del args["func"]
     action = args.pop("action")
@@ -29,6 +30,7 @@ def __api_interact(args):
     func = {"upload": con.upload, "publish": con.publish, "update": con.update, "delete": con.delete,
             "get_metadata": con.get_metadata, "write_identifiers_for_posters": con.write_identifiers_for_posters}
     func[action]()
+
 
 def __set_parser() -> argparse.ArgumentParser:
 
@@ -41,7 +43,8 @@ def __set_parser() -> argparse.ArgumentParser:
     subparsers.required = True
 
     # BUNDLE SUBPARSER
-    bundle_parser = subparsers.add_parser('bundle', description='Create bundle structure for conference data. Please see README.md for more detailed documentation.')
+    bundle_parser = subparsers.add_parser('bundle', description='Create bundle structure for conference data. '
+                                                                'Please see README.md for more detailed documentation.')
     bundle_parser.add_argument('name')
     bundle_parser.add_argument('metadata')
     bundle_parser.add_argument('-sequenced', nargs='?', type=bool, default=False, const=True)
@@ -50,8 +53,10 @@ def __set_parser() -> argparse.ArgumentParser:
     bundle_parser.set_defaults(func=__create_bundles)
     
     # ZENODO API PARSER
-    api_parser = subparsers.add_parser('api', description='Interact with zenodo api. Please see README.md for more detailed documentation.')
-    api_parser.add_argument('action', choices=["upload", "publish", "update", "delete", "get_metadata", "write_identifiers_for_posters"])
+    api_parser = subparsers.add_parser('api', description='Interact with zenodo api. Please see README.md for more '
+                                                          'detailed documentation.')
+    api_parser.add_argument('action', choices=["upload", "publish", "update", "delete", "get_metadata",
+                                               "write_identifiers_for_posters"])
     api_parser.add_argument('name')
     api_parser.add_argument('token')
     api_parser.add_argument('-productive', nargs='?', type=bool, default=False, const=True)

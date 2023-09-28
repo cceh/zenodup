@@ -199,30 +199,16 @@ class Connection:
             dep_url = self.url+ '/' + deposition_id
             r = requests.get(dep_url, params=self.params)
 
+            # add related identifiers for each poster
+            logging.info(r.json())
             metadata = r.json()["metadata"]
-            json_metadata = {"metadata": {"upload_type": metadata["upload_type"],
-                                        "publication_type": metadata["publication_type"],
-                                        "publication_date": metadata["publication_date"],
-                                        "title": metadata["title"],
-                                        "creators": metadata["creators"],
-                                        "description": metadata["description"],
-                                        "access_right": metadata["access_right"],
-                                        "license": metadata["license"],
-                                        "doi": metadata["doi"],
-                                        "keywords": metadata["keywords"],
-                                        "contributors": metadata["contributors"],
-                                        "communities": metadata["communities"],
-                                        "conference_title": metadata["conference_title"],
-                                        "conference_acronym": metadata["conference_acronym"],
-                                        "conference_dates": metadata["conference_dates"],
-                                        "conference_place": metadata["conference_place"],
-                                        "conference_url": metadata["conference_url"],
-                                        "notes": notes,
-                                        "references": references[self.conference]
-                                        }
-                            }
+            logging.info(f"Metadata: {metadata}")
+            metadata["notes"] = notes
+            metadata["references"] = references[self.conference]
+            logging.info(f"Updated metadata: {metadata}")
+
             r = requests.put(self.url+'/%s' % deposition_id,
-                            params=self.params, data=json.dumps(json_metadata), headers=self.headers)
+                            params=self.params, data=json.dumps(metadata), headers=self.headers)
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
                 logging.info(f"Update for draft with deposition id {deposition_id} didn't go through. Please check resource.")
                 logging.info(f"Status code: {r.status_code}.")
@@ -272,20 +258,11 @@ class Connection:
 
         with open(config['packages_dir'] + self.conference + ".csv", 'w', encoding='utf-8', newline='') as csv_file:
 
-            if self.conference not in ['DHd2014', 'DHd2015']:
-                fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
-                          'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'title', 'upload_type','conceptdoi', 'files', 'format', 'xml_id']
-            elif self.conference == 'FORGE':
-                fieldnames = ['title','conceptdoi']
-            elif self.conference == 'DHd2022':
-                fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
-                            'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'related_identifiers', 'title', 'upload_type','conceptdoi', 'files', 'format', 'xml_id']
-            elif self.conference == 'DHd2022_poster':
-                fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
-                            'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'related_identifiers', 'title', 'upload_type','conceptdoi', 'files']
-            else:
-                fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates', 'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators', 'description', 
-                            'doi', 'keywords', 'license', 'notes', 'prereserve_doi', 'publication_date', 'publication_type', 'references', 'title', 'upload_type','conceptdoi', 'files']
+            fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates',
+                          'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators',
+                          'description', 'doi', 'keywords', 'license', 'notes', 'prereserve_doi',
+                          'publication_date', 'related_identifiers', 'publication_type', 'references', 'title',
+                          'upload_type', 'conceptdoi', 'files', 'format', 'xml_id', 'language']
 
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
             writer.writeheader()
@@ -358,6 +335,8 @@ class Connection:
                     logging.info(f"Status code for deposition with id {deposition_id} is not 200. Please check the deposition.")
 
                 # write bundle data in csv file
+                logging.info(bundle_info)
+                logging.info(fieldnames)
                 writer.writerow(bundle_info)
                 time.sleep(1)
 
@@ -366,15 +345,18 @@ class Connection:
 
         logging.info('... finished')
 
-    def write_identifier(self):
+    def write_identifiers_for_posters(self):
         """Writes the abstract's doi as related identifier.
 
-        Find the related abstract by matching titles."""
+        Find the related abstract by matching titles. Changes relation, identifier and resource_type of first
+        related_identifier for each publication (metadata entry). Relation changes from 'isPartOf' to 'isSupplementTo'
+        , identifier will be overwritten by the abstract's concept doi and the resource_type changes from
+        'publication-book' to 'publication-conferencepaper'."""
 
         logging.info("Write abstract's doi as related identifier..")
 
         # get metadata file
-        metadata_file = sanity.readable_file(os.path.join(config['input_base'], self.conference + '_poster', self.conference + '_poster.xml'))
+        metadata_file = sanity.readable_file(os.path.join(config['input_base'], self.conference + '_posters', self.conference + '_posters.xml'))
         logging.info(f"Metadatafile for posters: {metadata_file}")
 
         #instantiate list depositions_info
@@ -419,19 +401,19 @@ class Connection:
             logging.info(f"Processing entry {i} with title {date.find('title').text}..")
             if date.find("title").text.replace("\n", "") in titles:
                 logging.info(f"Title: {date.find('title').text}")
-                for rel_identifier in date.find("related_identifiers"):
-                    if rel_identifier.find("relation").text == "isSupplementTo":
-                        # ersetze related identifier
-                        rel_identifier.find("identifier").text = depositions_info[titles.index(date.find("title").text)][1]
+                rel_identifier = date.find("related_identifiers")[0]
+                rel_identifier.find("relation").text = "isSupplementTo"
+                rel_identifier.find("resource_type").text = "publication-conferencepaper"
+                # ersetze related identifier
+                rel_identifier.find("identifier").text = depositions_info[titles.index(date.find("title").text)][1]
                 counter = counter + 1
             else:
                 logging.warning(f"Identifier for publication with title {date.find('title').text} could not be modified. Please check manually.")
 
         # write in xml file
-        tree.write(os.path.join(config['input_base'], self.conference + '_poster', self.conference + '_poster_related_ids.xml'))
+        tree.write(os.path.join(config['input_base'], self.conference + '_posters', self.conference + '_posters_related_ids.xml'))
         logging.info(f"{counter} related identifiers have been modified.")
         logging.info('... finished')
-
 
     # empty post to zenodo in order to get bucket url and deposition id
     def __get_upload_params(self):

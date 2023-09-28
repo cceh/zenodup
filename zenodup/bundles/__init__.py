@@ -315,8 +315,11 @@ class Conference:
                         xml = f
                     else:
                         raise Exception("The publication files do not have the correct format. Please check if all files are either pdf or xml files.")
-                
-                bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf, 'XML': xml}
+
+                if self.xml:
+                    bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf, 'XML': xml}
+                else:
+                    bundle_data = {'Bundle': bundle, 'Title': title, 'PDF': pdf}
 
                 # write bundle data in csv file
                 writer.writerow(bundle_data)

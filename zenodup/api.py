@@ -173,18 +173,6 @@ class Connection:
 
         logging.info("Update metadata of depositions..")
 
-        # set metadata (notes/references) to be updated
-        notes = "Sofern eine editorische Arbeit an dieser Publikation stattgefunden hat, dann bestand diese aus der Eliminierung von Bindestrichen in Überschriften, die aufgrund fehlerhafter Silbentrennung entstanden sind, der Vereinheitlichung von Namen der Autor*innen in das Schema „Nachname, Vorname“ und/oder der Trennung von Überschrift und Unterüberschrift durch die Setzung eines Punktes, sofern notwendig."
-
-        references = {"DHd2014": ["https://github.com/DHd-Verband/DHd-Abstracts-2014"], 
-                      "DHd2015":["http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt", "https://github.com/DHd-Verband/DHd-Abstracts-2015"], 
-                      "DHd2016":["https://doi.org/10.5281/zenodo.3679331", "https://github.com/DHd-Verband/DHd-Abstracts-2016"],
-                      "DHd2017":["https://doi.org/10.5281/zenodo.3684825","https://github.com/DHd-Verband/DHd-Abstracts-2017"], 
-                      "DHd2018":["https://doi.org/10.5281/zenodo.3684897", "https://github.com/DHd-Verband/DHd-Abstracts-2018"], 
-                      "DHd2019":["https://doi.org/10.5281/zenodo.2600812","https://github.com/DHd-Verband/DHd-Abstracts-2019"], 
-                      "DHd2020":["https://doi.org/10.5281/zenodo.3666690", "https://github.com/DHd-Verband/DHd-Abstracts-2020"],
-                      "patrick":["https://doi.org/10.5281/zenodo.3666690", "https://github.com/DHd-Verband/DHd-Abstracts-2020"]}
-
         # get deposition ids
         dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
@@ -192,27 +180,29 @@ class Connection:
         for deposition_id in dep_ids:
             logging.info(deposition_id)
             # unlock already submitted deposition for editing
-            r = requests.post(self.url + '/' + deposition_id + '/actions/edit', params=self.params)
+            r1 = requests.post(self.url + '/' + deposition_id + '/actions/edit', params=self.params)
             time.sleep(1)
 
             # update metadata
-            dep_url = self.url+ '/' + deposition_id
-            r = requests.get(dep_url, params=self.params)
+            dep_url = self.url + '/' + deposition_id
+            r2 = requests.get(dep_url, params=self.params)
 
             # add related identifiers for each poster
-            logging.info(r.json())
-            metadata = r.json()["metadata"]
+            logging.info(r2.json())
+            metadata = r2.json()["metadata"]
             logging.info(f"Metadata: {metadata}")
-            metadata["notes"] = notes
-            metadata["references"] = references[self.conference]
-            logging.info(f"Updated metadata: {metadata}")
+            print(metadata['related_identifiers'])
+            for elem in metadata['related_identifiers']:
+                if elem['relation'] == 'isPartOf':
+                    elem['identifier'] = '10.5281/zenodo.10686564'
+            print(metadata['related_identifiers'])
 
-            r = requests.put(self.url+'/%s' % deposition_id,
-                            params=self.params, data=json.dumps(metadata), headers=self.headers)
-            if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
+            logging.info(f"Updated metadata: {metadata}")
+            r3 = requests.put(self.url+'/%s' % deposition_id,
+                            params=self.params, data=json.dumps({'metadata': metadata}), headers=self.headers)
+            if r3.status_code in [400, 401, 403, 404, 409, 415, 429]:
                 logging.info(f"Update for draft with deposition id {deposition_id} didn't go through. Please check resource.")
-                logging.info(f"Status code: {r.status_code}.")
-                logging.info(f"Error Message: {r}")
+                logging.info(f"Error Message: {r3.json()}")
 
         logging.info("finished")
 
@@ -234,6 +224,7 @@ class Connection:
             if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
                 logging.warning(f"Publishing for draft with deposition id {deposition_id} didn't go through. Please check deposition.")
                 logging.warning(f"Status code: {r.status_code}.")
+                logging.warning(f" {r.json()}.")
             time.sleep(1)
 
         logging.info("..finished")
@@ -251,15 +242,10 @@ class Connection:
         dep_file = open(config['depositions_dir'] + 'depositions_' + self.conference + ".txt", "r")
         dep_ids = [line.replace("\n", "") for line in dep_file]
 
-        # create root element for conference's final metadata file
-        metadata_tree = ET.ElementTree()
-        root = ET.Element('root')
-        metadata_tree._setroot(root)
-
         with open(config['packages_dir'] + self.conference + ".csv", 'w', encoding='utf-8', newline='') as csv_file:
 
             fieldnames = ['access_right', 'communities', 'conference_acronym', 'conference_dates',
-                          'conference_place', 'conference_title', 'conference_url', 'contributors', 'creators',
+                          'conference_place', 'conference_title', 'conference_url', 'imprint_publisher', 'contributors', 'creators',
                           'description', 'doi', 'keywords', 'license', 'notes', 'prereserve_doi',
                           'publication_date', 'related_identifiers', 'publication_type', 'references', 'title',
                           'upload_type', 'conceptdoi', 'files', 'format', 'xml_id']
@@ -288,7 +274,10 @@ class Connection:
                         bundle_info.update({"conceptdoi": r.json()["conceptdoi"]})
                         bundle_info.update({"doi": r.json()["doi"]})
                         # remove html-tag from description
-                        bundle_info["description"] = ' '.join(bundle_info["description"].replace("<p>","").replace("</p>", "").replace("\n"," ").split(" "))
+                        try:
+                            bundle_info["description"] = ' '.join(bundle_info["description"].replace("<p>","").replace("</p>", "").replace("\n"," ").split(" "))
+                        except KeyError:
+                            bundle_info["description"] = ''
                         bundle_info["title"] = bundle_info["title"].replace("\\n","")
                         bundle_info["conference_title"] = bundle_info["conference_title"].replace("\n","")
 
@@ -311,15 +300,10 @@ class Connection:
                                                     root = tree.getroot()
                                                     xml_id = root.attrib["{http://www.w3.org/XML/1998/namespace}id"]
                                                     key_tags = tree.findall(".//TEI:keywords", namespace)
-                                                    # TODO generic
-                                                    if self.conference in ["DHd2014", "DHd2015", "DHd2016", "DHd2017"]:
-                                                        for elem in key_tags:
-                                                            if elem.attrib["n"]=="category":
-                                                                pub_format = elem.find("TEI:term", namespace).text
-                                                    elif self.conference in ["DHd2018", "DHd2019", "DHd2020", "DHd2022"]:
-                                                        for elem in key_tags:
-                                                            if elem.attrib["n"]=="subcategory":
-                                                                pub_format = elem.find("TEI:term", namespace).text
+
+                                                    for elem in key_tags:
+                                                        if elem.attrib["n"]=="subcategory":
+                                                            pub_format = elem.find("TEI:term", namespace).text
 
                                                     bundle_info["xml_id"] = xml_id
                                                     bundle_info["format"] = pub_format
@@ -339,9 +323,6 @@ class Connection:
                 logging.info(fieldnames)
                 writer.writerow(bundle_info)
                 time.sleep(1)
-
-        # write in xml file
-        metadata_tree.write(config['update_dir'] + self.conference + "_updated.xml", encoding="utf-8", xml_declaration=True, method="xml")
 
         logging.info('... finished')
 
@@ -378,15 +359,19 @@ class Connection:
 
             if r.status_code in [200, 201, 202]:
                 # get deposition metadata
-                depositions_info.append([r.json()["title"].replace("\n",""), r.json()["conceptdoi"]])
-                time.sleep(0.500)
+                logging.info(r.json()["title"])
+                try:
+                    depositions_info.append([r.json()["title"].replace("\n",""), r.json()["conceptdoi"]])
+                    time.sleep(0.500)
+                except KeyError:
+                    logging.warning(r.json())
             else:
                 logging.info(r.status_code)
                 logging.info(
                     f"Status code for deposition with id {deposition_id} is not 200. Please check the deposition.")
         logging.info(f"Information from Depositions: {depositions_info}")
 
-        titles = [dep[0] for dep in depositions_info]
+        titles = [dep[0].replace(" ", "") for dep in depositions_info]
 
 
         # modify related identifiers for all poster publications
@@ -399,13 +384,15 @@ class Connection:
         counter = 0
         for i, date in enumerate(dates):
             logging.info(f"Processing entry {i} with title {date.find('title').text}..")
-            if date.find("title").text.replace("\n", "") in titles:
+            name = date.find("title").text.replace(" ", "")
+            name1 = name.replace("\n", "")
+            if name1 in titles:
                 logging.info(f"Title: {date.find('title').text}")
                 rel_identifier = date.find("related_identifiers")[0]
                 rel_identifier.find("relation").text = "isSupplementTo"
                 rel_identifier.find("resource_type").text = "publication-conferencepaper"
                 # ersetze related identifier
-                rel_identifier.find("identifier").text = depositions_info[titles.index(date.find("title").text)][1]
+                rel_identifier.find("identifier").text = depositions_info[titles.index(name1)][1]
                 counter = counter + 1
             else:
                 logging.warning(f"Identifier for publication with title {date.find('title').text} could not be modified. Please check manually.")

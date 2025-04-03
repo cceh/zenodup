@@ -1,0 +1,9 @@
+certifi==2024.2.2
+chardet==4.0.0
+charset-normalizer==3.3.2
+idna==2.10
+lxml==5.1.0
+PyYAML==6.0.1
+requests==2.31.0
+urllib3==2.2.1
+wincertstore==0.2

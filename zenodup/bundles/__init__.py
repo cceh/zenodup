@@ -385,7 +385,7 @@ def create_metadata(pub: ET.Element, bundle_path: str) -> None:
                         "keywords": [' '.join(elem.replace("\"", "").split()) for elem in pub.find("keywords").text.replace("\n", "").split(", ")],
                         "related_identifiers" if pub.find("related_identifiers") else "dump_relatedids": __get_related_identifiers(pub),
                         "contributors": __get_contributors(pub),
-                        "communities": [{"identifier": pub.find("communities/identifier").text}],
+                        # "communities": [{"identifier": pub.find("communities/identifier").text}],
                         "conference_title": ' '.join(pub.find("conference_title").text.replace("\n", "").split()),
                         "conference_acronym": pub.find("conference_acronym").text.replace("\n", ""),
                         "conference_dates": pub.find("conference_dates").text.replace("\n", ""),

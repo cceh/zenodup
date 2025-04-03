@@ -19,9 +19,6 @@ def __create_bundles(args):
     conference = bundles.Conference(**args)
     conference.create_bundles()
 
-    # update metadata for conference (not part of regular workflow)
-    # conference.update_metadata()
-
 
 def __api_interact(args):
     del args["func"]

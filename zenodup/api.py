@@ -353,7 +353,7 @@ class Connection:
         , identifier will be overwritten by the abstract's concept doi and the resource_type changes from
         'publication-book' to 'publication-conferencepaper'."""
 
-        logging.info("Write abstract's doi as related identifier..")
+        logging.info("Write abstract's doi as related identifier to posters..")
 
         # get metadata file
         metadata_file = sanity.readable_file(os.path.join(config['input_base'], self.conference + '_posters', self.conference + '_posters.xml'))

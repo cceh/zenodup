@@ -16,7 +16,7 @@ The use case for the application is on the one hand to create a valid bundle str
 
 ## Requirements/Installation
 
-Python 3.9 is required to run this application. Download Zenodup repository. If package manager [pip](https://pip.pypa.io/en/stable/) is installed, navigate to project folder and run:
+Python 3.9 or higher is required to run this application. Download Zenodup repository. If package manager [pip](https://pip.pypa.io/en/stable/) is installed, navigate to project folder and run:
 
 ```bash
 pip install -r requirements.txt
@@ -75,7 +75,7 @@ To create the bundle structure for a conference, the following arguments need to
 
 - **name**: Name of conference's folder to be restructured
 - **metadata**: Name of the conference's metadata file
-- **-sequenced** (optional): If parameter is passed, the order of files is assumed to be the same as appearances of metadata tags in metadata file. If not passed, the files will be assigned by name scheme.
+- **-sequenced** (optional): If parameter is passed, the order of files is assumed to be the same as appearances of metadata tags in metadata file. If not passed, the files will be assigned by name scheme. Please see in file ```bundles/parsing.py``` to understand how the assignment via name scheme works.
 - **-pdf** (optional): Name of directory containing conference's pdf files. If neither passed nor name is given the default is 'pdf'.
 - **-xml** (optional): Name of directory containing conference's xml files. If not passed, there will be no xml files taken into account for the single abstracts of the conerence. If passed and no name is given the default is 'xml'.
 
@@ -89,6 +89,8 @@ python zenodup.py bundle example example_metadata.xml -pdf -xml
 The bundle structure will be created in the configured output directory (Default:``/OUTPUT/[CONFERENCE]``).
 
 Logging file with name ``[CONFERENCE]_bundle.log`` will be created under configured logging directory (Default: ``support/logging``).
+
+__Remark__: Unfortunately there are some issues with the Zenodo API which don't allow to process Zenodo Communities. Before publishing the Communities need to be added manually if desired.
 
 ### Interact with Zenodo API
 
@@ -122,7 +124,7 @@ To interact with Zenodo API the following arguments need to be taken into accoun
   - _delete_: Deletes drafts of given conference from Zenodo
   - _get_metadata_: Saves the abstracts' metadata for conference's annual package. This method is used to create an csv file containing all final abstracts metadata of conference. In order to add publication category (e.g. poster, panel, ...) to csv file the conferences' files must be available in the required bundle structure under the configured output directory.
     > CAUTION: This method contains hardcoded elements.
-  - _write_identifier_: Writes the abstract's concept doi as related identifier. This method is used to add the abstract's concept doi to the affiliated poster publication. For this method the posters have to be stored in a subdirectory of the INPUT directory. It is necessary for each conference that the poster directory is called [CONFERENCE NAME]_poster containing the respective metadata file for the posters named [CONFERENCE NAME]_poster.xml (the final path is therefore ```/INPUT/[CONFERENCE NAME]_poster/[CONFERENCE NAME]_poster.xml```).
+  - _write_identifiers_for_posters_: Writes the abstract's concept doi as related identifier in the poster's deposition. This method is used to add the abstract's concept doi to the affiliated poster publication. For this method the posters have to be stored in a subdirectory of the INPUT directory. It is necessary for each conference that the poster directory is called [CONFERENCE NAME]_poster containing the respective metadata file for the posters named [CONFERENCE NAME]_poster.xml (the final path is therefore ```/INPUT/[CONFERENCE NAME]_poster/[CONFERENCE NAME]_poster.xml```).
 
 
 - **name**: Name of conference's folder with bundle structure
@@ -146,6 +148,8 @@ python zenodup.py api upload [CONFERENCE] [ACCESS_TOKEN] -productive
 ```
 
 Logging file with name ``[CONFERENCE]_upload.log`` will be created under ``support/logging/``.
+
+__Remark__: Unfortunately there are some issues with the Zenodo API which don't allow to process Zenodo Communities. Before publishing the Communities need to be added manually if desired.
 
 ## Project related links
 

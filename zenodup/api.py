@@ -117,30 +117,31 @@ class Connection:
         conference_bundles = [os.path.join(bundle_base, bundle) for bundle in os.listdir(bundle_base)]
 
         for bundle in conference_bundles:
-            # get bucket url and deposition id
-            bucket_url, deposition_id = self.__get_upload_params()
-            # write deposition id for bundle in textfile
-            dep_file.write(str(deposition_id) + "\n")
-            # get bundle files for upload
-            bundle_json, bundle_publications = bundles.get_bundle_files(bundle)
-            # upload bundle files
-            for publication in bundle_publications:
-                with open(publication, "rb") as pub:
-                    r = requests.put(
-                        "%s/%s" % (bucket_url, os.path.basename(publication)),
-                        data=pub,
-                        params=self.params)
-                    logging.info(f"Put publication file {publication}: {r.status_code}")
-            # upload bundle metadata
-            with open(bundle_json) as json_file:
-                data = json.load(json_file)
-            r = requests.put(self.url+'/%s' % deposition_id,
-                            params=self.params, data=json.dumps(data), headers=self.headers)
-            if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
-                logging.info(f"Upload for bundle {bundle} didn't go through. Please check resource.")
-                logging.info(f"Status code: {r.status_code}.")
-                logging.info(r.json())
-            time.sleep(1)
+            if os.path.isdir(bundle):
+                # get bucket url and deposition id
+                bucket_url, deposition_id = self.__get_upload_params()
+                # write deposition id for bundle in textfile
+                dep_file.write(str(deposition_id) + "\n")
+                # get bundle files for upload
+                bundle_json, bundle_publications = bundles.get_bundle_files(bundle)
+                # upload bundle files
+                for publication in bundle_publications:
+                    with open(publication, "rb") as pub:
+                        r = requests.put(
+                            "%s/%s" % (bucket_url, os.path.basename(publication)),
+                            data=pub,
+                            params=self.params)
+                        logging.info(f"Put publication file {publication}: {r.status_code}")
+                # upload bundle metadata
+                with open(bundle_json) as json_file:
+                    data = json.load(json_file)
+                r = requests.put(self.url+'/%s' % deposition_id,
+                                params=self.params, data=json.dumps(data), headers=self.headers)
+                if r.status_code in [400, 401, 403, 404, 409, 415, 429]:
+                    logging.info(f"Upload for bundle {bundle} didn't go through. Please check resource.")
+                    logging.info(f"Status code: {r.status_code}.")
+                    logging.info(r.json())
+                time.sleep(1)
         logging.info("..finished")
     
     def delete(self) -> None:
@@ -272,7 +273,9 @@ class Connection:
 
                         # get conceptdoi
                         bundle_info.update({"conceptdoi": r.json()["conceptdoi"]})
+                        # bundle_info.update({"conceptdoi": "test"})
                         bundle_info.update({"doi": r.json()["doi"]})
+                        # bundle_info.update({"doi": "test"})
                         # remove html-tag from description
                         try:
                             bundle_info["description"] = ' '.join(bundle_info["description"].replace("<p>","").replace("</p>", "").replace("\n"," ").split(" "))
